@@ -101,6 +101,32 @@ class NavBar {
 		this._addElement_dropdown(null, NavBar._CAT_UTILITIES);
 		this._addElement_li(NavBar._CAT_UTILITIES, "search.html", "Search");
 		this._addElement_divider(NavBar._CAT_UTILITIES);
+		this._addElement_buttonSplit(
+			NavBar._CAT_UTILITIES,
+			{
+				wrapperClasses: "ve-flex-v-center p-4",
+				metas: [
+					{
+						html: "Disable All 2024 Sources",
+						className: "ve-btn ve-btn-danger ve-btn-xs",
+						click: async evt => {
+							evt.stopPropagation();
+							evt.preventDefault();
+							await ModernSourcesToggle.addAllModernSources();
+						},
+					},
+					{
+						html: "Enable All 2024 Sources",
+						className: "ve-btn ve-btn-success ve-btn-xs ml-2",
+						click: async evt => {
+							evt.stopPropagation();
+							evt.preventDefault();
+							await ModernSourcesToggle.removeAllModernSources();
+						},
+					},
+				],
+			},
+		);
 		this._addElement_li(NavBar._CAT_UTILITIES, "blocklist.html", "Content Blocklist");
 		this._addElement_li(NavBar._CAT_UTILITIES, "manageprerelease.html", "Prerelease Content Manager");
 		this._addElement_li(NavBar._CAT_UTILITIES, "managebrew.html", "Homebrew Manager");
@@ -611,6 +637,7 @@ class NavBar {
 	 * @param options Options.
 	 * @param options.html
 	 * @param options.metas
+	 * @param [options.wrapperClasses] Optional CSS classes for the wrapper div
 	 */
 	static _addElement_buttonSplit (parentCategory, options) {
 		const parentNode = this._getNode(parentCategory);
@@ -618,6 +645,15 @@ class NavBar {
 		const li = document.createElement("li");
 		li.setAttribute("role", "presentation");
 		li.className = "ve-flex-v-center";
+
+		// Create wrapper div if classes are specified
+		const wrapper = options.wrapperClasses
+			? document.createElement("div")
+			: null;
+
+		if (wrapper) {
+			wrapper.className = options.wrapperClasses;
+		}
 
 		options.metas
 			.forEach(({className, click, html, title}, i) => {
@@ -636,8 +672,16 @@ class NavBar {
 
 				if (title) eleSpan.setAttribute("title", title);
 
-				li.appendChild(eleSpan);
+				if (wrapper) {
+					wrapper.appendChild(eleSpan);
+				} else {
+					li.appendChild(eleSpan);
+				}
 			});
+
+		if (wrapper) {
+			li.appendChild(wrapper);
+		}
 
 		parentNode.body.appendChild(li);
 	}
@@ -869,6 +913,55 @@ NavBar._timersOpen = {};
 NavBar._timersClose = {};
 NavBar._timerMousePos = {};
 NavBar._cachedInstallEvent = null;
+
+// Modern Sources Toggle functionality
+class ModernSourcesToggle {
+	static async addAllModernSources () {
+		await ExcludeUtil.pInitialise();
+
+		const currentExcludes = ExcludeUtil.getList();
+		const modernSources = this._getModernSources();
+
+		// Add all modern sources to blocklist
+		const newExcludes = [...currentExcludes];
+		modernSources.forEach(source => {
+			if (!currentExcludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
+				newExcludes.push({
+					displayName: "*",
+					hash: "*",
+					category: "*",
+					source: source,
+				});
+			}
+		});
+		await ExcludeUtil.pSetList(newExcludes);
+
+		// Refresh the page to apply changes
+		window.location.reload();
+	}
+
+	static async removeAllModernSources () {
+		await ExcludeUtil.pInitialise();
+
+		const currentExcludes = ExcludeUtil.getList();
+		const modernSources = this._getModernSources();
+
+		// Remove all modern sources from blocklist
+		const newExcludes = currentExcludes.filter(ex =>
+			!(ex.category === "*" && ex.hash === "*" && modernSources.includes(ex.source)),
+		);
+		await ExcludeUtil.pSetList(newExcludes);
+
+		// Refresh the page to apply changes
+		window.location.reload();
+	}
+
+	static _getModernSources () {
+		// Get all sources that are NOT classic (i.e., modern sources)
+		return Object.keys(Parser.SOURCE_JSON_TO_DATE)
+			.filter(source => !SourceUtil.isClassicSource(source));
+	}
+}
 
 NavBar.InteractionManager = class {
 	static async _pOnClick_button_saveStateFile (evt) {
