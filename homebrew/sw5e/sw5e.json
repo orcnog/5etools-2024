@@ -5101,6 +5101,18 @@
 			"rapid": 3
 		},
 		{
+			"name": "Careful Subroutine",
+			"source": "sw5eec",
+			"page": 0,
+			"type": "G",
+			"rarity": "uncommon",
+			"entries": [
+				"When you cast a power that forces other creatures to make a saving throw, you can protect some of those creatures from the power's full force. To do so, you spend 1 additional tech point and choose a number of those creatures up to your Intelligence modifier (minimum of one). A chosen creature automatically succeeds on its saving throw against the power.",
+				"You can only spend a number of tech points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.",
+				"You can use only one Subroutine modification on a power when you cast it, unless otherwise noted."
+			]
+		},
+		{
 			"name": "Celerity Leg Prosthesis",
 			"source": "sw5ewh",
 			"page": 0,
@@ -9133,6 +9145,19 @@
 			"shocking": 13
 		},
 		{
+			"name": "Distant Subroutine",
+			"source": "sw5eec",
+			"page": 0,
+			"type": "G",
+			"rarity": "uncommon",
+			"entries": [
+				"When you cast a power that has a range of 5 feet or greater, you can spend 1 additional tech point to double the range of the power.",
+				"Alternatively, when you cast a power that has a range of touch, you can spend 1 additional tech point to make the range of the power 30 feet.",
+				"You can only spend a number of tech points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.",
+				"You can use only one Subroutine modification on a power when you cast it, unless otherwise noted."
+			]
+		},
+		{
 			"name": "Diving suit",
 			"source": "sw5eec",
 			"page": 0,
@@ -10926,6 +10951,18 @@
 			"rarity": "very rare",
 			"entries": [
 				"This weapon gains the reach property."
+			]
+		},
+		{
+			"name": "Extended Subroutine",
+			"source": "sw5eec",
+			"page": 0,
+			"type": "G",
+			"rarity": "uncommon",
+			"entries": [
+				"When you cast a power that has a duration of 1 minute or longer, you can spend 1 additional tech point to double its duration, to a maximum duration of 24 hours.",
+				"You can only spend a number of tech points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.",
+				"You can use only one Subroutine modification on a power when you cast it, unless otherwise noted."
 			]
 		},
 		{
@@ -14632,6 +14669,18 @@
 			"rapid": 8
 		},
 		{
+			"name": "Heightened Subroutine",
+			"source": "sw5eec",
+			"page": 0,
+			"type": "G",
+			"rarity": "rare",
+			"entries": [
+				"When you cast a power that forces a creature to make a saving throw to resist its effects, you can spend 3 additional tech points to give one target of the power disadvantage on its first saving throw made against the power.",
+				"You can only spend a number of tech points in this way equal to your proficiency bonus (minimum of once). You regain the ability to do so when you complete a long rest.",
+				"You can use only one Subroutine modification on a power when you cast it, unless otherwise noted."
+			]
+		},
+		{
 			"name": "Helisaber Attachment",
 			"source": "sw5ewh",
 			"page": 0,
@@ -15199,6 +15248,18 @@
 			"rarity": "artifact",
 			"entries": [
 				"This armor gains the impermeable 9 property (suits chosen by the GM). If it already has the impermeable property, its impermeable number increases to 9."
+			]
+		},
+		{
+			"name": "Improved Subroutine",
+			"source": "sw5eec",
+			"page": 0,
+			"type": "G",
+			"rarity": "uncommon",
+			"entries": [
+				"When you roll damage for a power, you can spend 1 additional tech point to reroll a number of the damage dice up to your Intelligence modifier (minimum of one). You must use the new rolls.",
+				"You can only spend a number of tech points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.",
+				"You can use Improved Subroutine even if you have already used a different Subroutine modification during the casting of the power."
 			]
 		},
 		{
@@ -16330,8 +16391,8 @@
 			"page": 0,
 			"type": "R",
 			"rarity": "none",
-			"value": 7500,
-			"weight": 5,
+			"value": 6000,
+			"weight": 6,
 			"property": [
 				"AF",
 				"RLD",
@@ -16340,11 +16401,11 @@
 			],
 			"weapon": true,
 			"weaponCategory": "Simple",
-			"dmg1": "1d3",
+			"dmg1": "1d4",
 			"dmgType": "Ion",
 			"firearm": true,
 			"ammoType": "energy cell",
-			"reload": 16,
+			"reload": 12,
 			"range": "60/240",
 			"entries": [
 				null
@@ -17862,6 +17923,27 @@
 			"dexterity": 11
 		},
 		{
+			"name": "Lightstaff",
+			"source": "sw5ephb",
+			"page": 0,
+			"type": "M",
+			"rarity": "none",
+			"value": 12750,
+			"weight": 4.25,
+			"entries": [],
+			"dexterity": 11,
+			"property": [
+				"R",
+				"SW2",
+				"DEX",
+				"LUM"
+			],
+			"weapon": true,
+			"weaponCategory": "Simple",
+			"dmg1": "2d4",
+			"dmgType": "Energy"
+		},
+		{
 			"name": "Lightweapon Chassis (Advanced)",
 			"source": "sw5ewh",
 			"page": 0,
@@ -17967,6 +18049,18 @@
 			"rarity": "common",
 			"entries": [
 				"This clothing gains the lightweight armor property."
+			]
+		},
+		{
+			"name": "Lingering Subroutine",
+			"source": "sw5eec",
+			"page": 0,
+			"type": "G",
+			"rarity": "rare",
+			"entries": [
+				"WWhen you cast a power that requires concentration to maintain you can choose to spend 3 additional tech points. If you do, when you lose concentration on the power, the power will not end until the end of your next turn.",
+				"You can only spend a number of tech points in this way equal to your proficiency bonus (minimum of once). You regain the ability to do so when you complete a long rest.",
+				"You can use only one Subroutine modification on a power when you cast it, unless otherwise noted."
 			]
 		},
 		{
@@ -21716,6 +21810,18 @@
 			"dmgType": "Energy"
 		},
 		{
+			"name": "Pinpoint Subroutine",
+			"source": "sw5eec",
+			"page": 0,
+			"type": "G",
+			"rarity": "uncommon",
+			"entries": [
+				"When you cast a power that allows you to force creatures in an area to make a saving throw you can instead spend 1 tech point and make a ranged tech attack against a single target that would be in the range. On a hit the target suffers the effects as though they failed their saving throw.",
+				"You can only spend a number of tech points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.",
+				"You can use only one Subroutine modification on a power when you cast it, unless otherwise noted."
+			]
+		},
+		{
 			"name": "Pitcher",
 			"source": "sw5ephb",
 			"page": 0,
@@ -22084,7 +22190,7 @@
 			"value": 100,
 			"weight": 1,
 			"entries": [
-				"Weapons with this property are fueled by power cells, which must be loaded in order to fire the weapon."
+				"Weapons with this property are fueled by power cells, which must be loaded in order to fire the weapon. A power cell fuels a number of attacks equal to the weapon's reload number."
 			]
 		},
 		{
@@ -22823,6 +22929,18 @@
 			]
 		},
 		{
+			"name": "Quickened Subroutine",
+			"source": "sw5eec",
+			"page": 0,
+			"type": "G",
+			"rarity": "rare",
+			"entries": [
+				"When you cast a power that has a casting time of 1 action, you can spend 2 additional tech points to change the casting time to 1 bonus action for this casting.",
+				"You can only spend a number of tech points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.",
+				"You can use only one Subroutine modification on a power when you cast it, unless otherwise noted."
+			]
+		},
+		{
 			"name": "Quiver",
 			"source": "sw5eec",
 			"page": 0,
@@ -23308,6 +23426,18 @@
 				"When you are subjected to an effect that allows you to make a Dexterity or Intelligence saving throw to take only half damage, you instead take no damage if you succeed on a saving throw, and only half damage if you fail."
 			],
 			"reqAttune": true
+		},
+		{
+			"name": "Refocused Subroutine",
+			"source": "sw5eec",
+			"page": 0,
+			"type": "G",
+			"rarity": "rare",
+			"entries": [
+				"When you are forced to make a Constitution saving throw to maintain concentration on a power you can use your reaction and spend 2 tech points to automatically succeed on the saving throw.",
+				"You can only spend a number of tech points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.",
+				"You can use Refocused Subroutine even if you have already used a different Subroutine modification during the casting of the power."
+			]
 		},
 		{
 			"name": "Regulated Reinforcement",
@@ -25658,6 +25788,18 @@
 			"weight": 0.5,
 			"entries": [
 				"When you make an Intelligence ({@skill security kit|sw5ephb}) check, you can use the spike (no action required) to reroll the check. You must use the new roll. You can wait until after you roll the {@dice d20} before deciding to use the spike, but you must decide before the GM says whether the check succeeds or fails."
+			]
+		},
+		{
+			"name": "Seeking Subroutine",
+			"source": "sw5eec",
+			"page": 0,
+			"type": "G",
+			"rarity": "rare",
+			"entries": [
+				"If you miss with a tech power that calls for an attack roll, you can spend 2 tech points to reroll the attack. You must use the new roll.",
+				"You can only spend a number of tech points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.",
+				"You can use Seeking Subroutine even if you have already used a different Subroutine modificatio during the casting of the power."
 			]
 		},
 		{
@@ -29911,6 +30053,18 @@
 				"This modifiable clothing chassis comes with vacant modification slots for clothing modifications. It can house modifications of standard rarity."
 			],
 			"reqAttune": true
+		},
+		{
+			"name": "Twinned Subroutine",
+			"source": "sw5eec",
+			"page": 0,
+			"type": "G",
+			"rarity": "rare",
+			"entries": [
+				"When you cast a power that can only have one target and doesn't have a range of self, you can spend a number of additional tech points equal to the power's level to choose a second target in range with the same power (1 tech point if the power is at-will).",
+				"You can only spend a number of tech points in this way equal to your proficiency bonus. You regain the ability to do so when you complete a long rest.",
+				"You can use only one Subroutine modification on a power when you cast it, unless otherwise noted."
+			]
 		},
 		{
 			"name": "Uncanniness Motivator",
@@ -35483,6 +35637,63 @@
 			]
 		},
 		{
+			"name": "Construct Droid",
+			"source": "sw5eec",
+			"level": 2,
+			"school": "TP",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You construct a droid, which is deployed in an unoccupied space that you can see within range. This droid uses the {@creature constructed droid|sw5ephb} stat block. When you cast the power, choose a design: Probe, Pyro, or Battle. The droid resembles a Class IV droid, and the design determines certain traits in its stat block. The droid falls to pieces and disintegrates when it drops to 0 hit points or when the power ends.",
+				"The droid is an ally to you and your companions. In combat, the droid shares your initiative count, but it takes its turn immediately after yours. It obeys your commands you issue through your tech focus (no action required). If you don't issue any, it takes the {@action Dodge} action and uses its movement to avoid danger.",
+				"The droid is a valid target for the {@spell tracker droid interface|sw5ephb} tech power. If that power is cast targeting the constructed droid, it only takes 1 minute to synchronize with the droid.",
+				"{@creature constructed droid|sw5ephb}"
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 3rd level or higher, use the higher level wherever the power's level appears in the stat block."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
 			"name": "Contingency",
 			"source": "sw5ephb",
 			"level": 6,
@@ -35699,8 +35910,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You are immune to the *homing rockets* tech power.",
-						"You and objects you are wearing or carrying cannot be detected by tech powers that reveal your location, such as *scan area* or *frequency scan*, unless the caster makes a successful Intelligence saving throw.",
+						"You are immune to the {@spell homing rockets|sw5ephb} tech power.",
+						"You and objects you are wearing or carrying cannot be detected by tech powers that reveal your location, such as {@spell scan area|sw5ephb} or {@spell frequency scan|sw5ephb}, unless the caster makes a successful Intelligence saving throw.",
 						"Creatures have disadvantage on Wisdom ({@skill Survival}) checks to track you."
 					]
 				}
@@ -36005,12 +36216,13 @@
 				}
 			],
 			"entries": [
-				"Choose up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Dexterity saving throw or be affected by this power for the duration.",
+				"Choose up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Constitution saving throw or be affected by this power for the duration.",
 				"An affected target gains 1 slowed level, it takes a -2 penalty to AC and Dexterity saving throws, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or items, it can't make more than one melee or ranged attack during its turn.",
 				"If the creature attempts to cast a power with a casting time of 1 action, roll a {@dice d20}. On an 11 or higher, the power doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the power. If it can't, the power is wasted.",
-				"A creature affected by this power makes another Dexterity saving throw at the end of its turn. On a successful save, the effect ends for it."
+				"A creature affected by this power makes another Constitution saving throw at the end of its turn. On a successful save, the effect ends for it."
 			],
 			"savingThrow": [
+				"constitution",
 				"dexterity"
 			],
 			"miscTags": [
@@ -36176,9 +36388,9 @@
 				{
 					"type": "list",
 					"items": [
-						"Peace, for results which are not dangerous",
-						"Danger, for results which are dangerous but perhaps still worth the danger",
-						"Ruin, for results which are certain to end in death or tragedy"
+						"{@b Peace}, for results which are not dangerous",
+						"{@b Danger}, for results which are dangerous but perhaps still worth the danger",
+						"{@b Ruin}, for results which are certain to end in death or tragedy"
 					]
 				},
 				"The power doesn't take into account any possible circumstances that might change the outcome, such as the use of additional powers or the loss or gain of a companion.",
@@ -38366,6 +38578,67 @@
 			]
 		},
 		{
+			"name": "Fabricate Minor Trap",
+			"source": "sw5eec",
+			"level": 1,
+			"school": "TP",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"entries": [
+				"You ward a 30-foot radius sphere centered on you with a manually-operated trap. The trap is well disguised. Any creature that can't see the area at the time the power is cast must make a Wisdom ({@skill Perception}) check against your tech save DC to notice the trap before entering the area. Once after this power is cast, when a creature you can see enters or moves within the warded area, you can use your reaction to trigger the trap. The effect on the creature depends on the kind of trap you employ, which you choose when you cast this power. You can maintain a maximum number of instances of this power at once equal to your techcasting ability modifier.",
+				{
+					"type": "list",
+					"items": [
+						"{@b {@i Blaster.}} This power creates a blaster turret which fires at the target when triggered. The creature must make a Dexterity saving throw. It takes {@damage 2d10} energy damage on a failed save, or half as much on a successful one.",
+						"{@b {@i Pitfall.}} This power creates a 5-foot diameter, 15-foot deep pitfall in the ground beneath the creature when triggered, which must make a Dexterity saving throw. On a failed saving throw, the creature falls into the pitfall. On a success, the creature falls {@condition prone} in a space within 5 feet of the pitfall. This pitfall cannot be created through manufactured terrain. Otherwise, the hole is well constructed and lasts even after the power's duration. Flying creatures avoid this trap.",
+						"{@b {@i Snare.}} This power creates a snare of rope, wire, vine, or webs that entangle the creature. The creature must make a Strength saving throw. A Large or larger creature has advantage on this saving throw. On a failed save, the creature takes {@damage 1d6} kinetic damage and is {@condition restrained} until the start of its next turn. On a success, the creature takes half as much damage and ends its movement."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 2nd level or higher, the effects increase, based on the trap.",
+						{
+							"type": "list",
+							"items": [
+								"{@i Blaster.} The damage increases by {@dice 1d10} for each slot level above 1st. If cast using a slot of 3rd level or higher, this power targets creatures in a sphere centered on the triggering creature within the warded area, the radius of which is 5 feet for every two slot levels above 1st.",
+								"{@i Pitfall.} The depth of the pitfall increases by 5 feet for each slot level above 1st. If cast using a slot of 3rd level or higher, the diameter of the pit is 5 feet wider for every two slot levels above 1st.",
+								"{@i Snare.} The damage increases by {@dice 1d6} for each slot level above 1st. If cast using a slot of 3rd level or higher, Large creatures no longer have advantage on their saving throw. This size category increases for every two slot levels above 1st."
+							]
+						}
+					]
+				}
+			],
+			"damageInflict": [
+				"energy",
+				"kinetic"
+			],
+			"conditionInflict": [
+				"prone",
+				"restrained"
+			],
+			"savingThrow": [
+				"dexterity",
+				"strength"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
 			"name": "Fabricate Trap",
 			"source": "sw5ephb",
 			"level": 3,
@@ -40495,7 +40768,7 @@
 				}
 			],
 			"entries": [
-				"Placing your hand on another creature you can transfer your own life force to them. You spend and roll one of your hit dice and the creature regains that many hit points. This power has no effect on droids or constructs."
+				"Placing your hand on another creature you can transfer your own life force to them. You spend and roll one of your Hit Dice and the creature regains that many hit points. This power has no effect on droids or constructs."
 			],
 			"miscTags": [
 				"HL"
@@ -40670,7 +40943,7 @@
 				}
 			],
 			"entries": [
-				"An energy shield appears and protects the target. Until the start of the target's next turn, the target has a +5 bonus to AC, including against the triggering attack, and the target takes no damage from *homing rockets*."
+				"An energy shield appears and protects the target. Until the start of the target's next turn, the target has a +5 bonus to AC, including against the triggering attack, and the target takes no damage from {@spell homing rockets|sw5ephb}."
 			],
 			"miscTags": [
 				"MAC"
@@ -40739,7 +41012,7 @@
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Improved Feedback|sw5ephb}}}",
 				"You choose a point within range and cause psychic energy to explode there. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A creature with an Intelligence score of 2 or lower can't be affected by this power. A target takes {@damage 8d6} psychic damage on a failed save, or half as much damage on a successful one.",
-				"After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a {@dice d6} and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. The target can make a Wisdom saving throw at the end of each of its turns, ending the effect on itself on a success."
+				"After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a {@dice d6} and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success."
 			],
 			"damageInflict": [
 				"psychic"
@@ -40836,6 +41109,57 @@
 			],
 			"miscTags": [
 				"SGT"
+			]
+		},
+		{
+			"name": "Greater Kinetite",
+			"source": "sw5eec",
+			"level": 5,
+			"school": "DK",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"{@b {@i Prerequisite: {@spell Kinetite|null}}}",
+				"A 5-foot diameter sphere of compressed lightning appears in an unoccupied space of your choice and lasts for the duration. Each creature within 5 feet of the sphere when the power is cast must make a Dexterity saving throw. A creature takes {@damage 5d8} lightning damage on a failed save, or half as much damage on a successful one.",
+				"As a bonus action on each of your turns, you can move the ball of lightning up to 30 feet vertically or horizontally. If you ram the sphere into a creature, that creature must make a Dexterity saving throw or take {@damage 5d8} kinetic damage (or half as much damage on a success), and the sphere stops moving this turn. A creature takes half as damage on a successful Dexterity saving throw."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power with a force slot of 6th level or higher, both the lightning and kinetic damage increase by {@dice 1d8} for each slot level above 5th."
+					]
+				}
+			],
+			"damageInflict": [
+				"kinetic",
+				"lightning"
+			],
+			"savingThrow": [
+				"dexterity"
 			]
 		},
 		{
@@ -42153,6 +42477,43 @@
 			]
 		},
 		{
+			"name": "Improved Force Intuition",
+			"source": "sw5eec",
+			"level": 2,
+			"school": "UV",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you would roll initiative"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"{@b {@i Prerequisite: {@spell Force Intuition|null}}}",
+				"You make your initiative check at advantage, and gain a +2 bonus to AC until the power ends. In addition, until the end of your first turn in the combat, your speed increases by 10 feet and you add {@dice 1d4} to your attack rolls. This power ends early if you fail a saving throw or are hit by an attack."
+			],
+			"miscTags": [
+				"MAC"
+			]
+		},
+		{
 			"name": "Improved Force Scream",
 			"source": "sw5ephb",
 			"level": 5,
@@ -42228,6 +42589,58 @@
 			],
 			"miscTags": [
 				"HL"
+			]
+		},
+		{
+			"name": "Improved Kinetite",
+			"source": "sw5eec",
+			"level": 4,
+			"school": "DK",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"{@b {@i Prerequisite: {@spell Kinetite|null}}}",
+				"A 20-foot-radius sphere of compressed lightning springs into existence centered on a point you choose within range. The sphere remains for the power's duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take {@damage 2d6} kinetic damage. The sphere's space is difficult terrain.",
+				"Until the power ends, you can use a bonus action on each of your turns to cause a bolt of lightning to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged force attack. You have advantage on the attack roll if the target is in the sphere. On a hit, the target takes {@damage 4d6} lightning damage.",
+				"Creatures within 30 feet of the sphere have disadvantage on Wisdom ({@skill Perception}) checks made to listen."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power with a force slot of 5th level or higher, the damage increases for each of its effects by {@dice 1d6} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"kinetic",
+				"lightning"
+			],
+			"savingThrow": [
+				"strength"
 			]
 		},
 		{
@@ -42991,7 +43404,7 @@
 				}
 			],
 			"entries": [
-				"You instantly learn the exact quantity of one type of item within 30 feet of you. It must be a type of item that you've handled in the past; you can't, for example, use *itemize* to find out how many *BKGs* are nearby if you've never handled such a weapon. The object being itemized must also be reasonably specific. You can learn how many meilooruns are nearby, for example, but not how much fruit."
+				"You instantly learn the exact quantity of one type of item within 30 feet of you. It must be a type of item that you've handled in the past; you can't, for example, use {@i itemize} to find out how many {@i BKGs} are nearby if you've never handled such a weapon. The object being itemized must also be reasonably specific. You can learn how many meilooruns are nearby, for example, but not how much fruit."
 			]
 		},
 		{
@@ -43738,7 +44151,7 @@
 				}
 			],
 			"entries": [
-				"You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this power can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this power for 1 minute. Otherwise, it is impassable until it is broken or the power is dispelled or suppressed. Casting *release* on the object suppresses *lock* for 10 minutes.",
+				"You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this power can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this power for 1 minute. Otherwise, it is impassable until it is broken or the power is dispelled or suppressed. Casting {@spell release|sw5ephb} on the object suppresses {@spell lock|sw5ephb} for 10 minutes.",
 				"While affected by this power, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10."
 			]
 		},
@@ -44659,7 +45072,10 @@
 				}
 			],
 			"entries": [
-				"This ability repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn strap, or a leaking cup. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage."
+				"This ability repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn strap, or a leaking cup. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage. If you target a droid or construction with this feature, it can spend and roll one of its Hit Dice and regain that many hit points."
+			],
+			"miscTags": [
+				"HL"
 			]
 		},
 		{
@@ -45261,9 +45677,9 @@
 						"You extend the length of your limbs. When you make a melee attack or attempt to grapple, shove, or trip a creature on your turn, your reach for it is 5 feet greater than normal.",
 						"You gain a burrowing speed equal to your walking speed.",
 						"Your flesh hardens. Your AC can't be less than 16, regardless of what kind of armor you're wearing.",
-						"You can gain the benefits of any one option of the _alter self_ power. You can select this property multiple times to gain the benefits of multiple options of the _alter self_ power, choosing a different option each time.",
-						"You gain the effect of the _magnetic hold_ power, but you can affix to and move along any surface, instead of only metallic surfaces. You have a climbing speed equal to your walking speed.",
-						"You can gain any one effect of the _force enlightenment_ power."
+						"You can gain the benefits of any one option of the {@spell alter self|sw5ephb} power. You can select this property multiple times to gain the benefits of multiple options of the {@i alter self} power, choosing a different option each time.",
+						"You gain the effect of the {@spell magnetic hold|sw5ephb} power, but you can affix to and move along any surface, instead of only metallic surfaces. You have a climbing speed equal to your walking speed.",
+						"You can gain any one effect of the {@spell force enlightenment|sw5ephb} power."
 					]
 				}
 			],
@@ -45486,7 +45902,7 @@
 				}
 			],
 			"entries": [
-				"This power allows you to activate or deactivate any electronic device within range, as long as the device is not being wielded by a creature, and has a clearly defined on or off function that can be easily accessed from the outside of the device. Any device that requires a software-based shutdown sequence to activate or deactivate cannot be affected by *on/off*."
+				"This power allows you to activate or deactivate any electronic device within range, as long as the device is not being wielded by a creature, and has a clearly defined on or off function that can be easily accessed from the outside of the device. Any device that requires a software-based shutdown sequence to activate or deactivate cannot be affected by {@spell on/off|sw5ephb}."
 			]
 		},
 		{
@@ -45742,6 +46158,32 @@
 			],
 			"miscTags": [
 				"SGT"
+			]
+		},
+		{
+			"name": "Phaseshift",
+			"source": "sw5eec",
+			"level": 0,
+			"school": "UV",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Too quickly for untrained eyes to perceive, you shift in position. You can move up to 5 feet, and this movement does not provoke opportunity attacks."
 			]
 		},
 		{
@@ -46219,6 +46661,55 @@
 			],
 			"miscTags": [
 				"SGT"
+			]
+		},
+		{
+			"name": "Production Values",
+			"source": "sw5eec",
+			"level": 0,
+			"school": "TP",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You cause a minor effect within range. Choose one of the following:",
+				{
+					"type": "list",
+					"items": [
+						"Your natural voice booms up to three times louder than normal for 1 minute. You can also alter the sound of your voice to achieve a certain effect--to sound more intimidating, for example.",
+						"You cause unenhanced electronic lights to flicker, brighten, dim, or change color for 1 minute.",
+						"You cause harmless tremors in the ground for 1 minute.",
+						"You create a sound within range for up to 1 minute. The sound can range in volume from a whisper to a scream.",
+						"You instantaneously cause an unlocked door or window to fly open or slam shut.",
+						"You alter the appearance of your eyes for 1 minute.",
+						"You create an illusory image of an object no larger than a 5 foot cube. The illusion is purely visual."
+					]
+				},
+				"If you cast this power multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.",
+				"A creature that witnesses the effects of this power can use its action to make an Intelligence ({@skill Investigation}) check against your tech save DC. On a successful check, the creature discerns that the effects are illusory, and they become faint to the creature.",
+				"The maximum number of active effects increases by 3 when you reach 5th level (6), 11th level (9), and 17th level (12)."
+			],
+			"miscTags": [
+				"SCL"
 			]
 		},
 		{
@@ -46879,7 +47370,7 @@
 			"entries": [
 				"Choose an object that you can see within range. The object can be a door, a box, a chest, a set of binders, a lock, or another object that contains a mundane or enhanced means that prevents access.",
 				"A target that is held shut by a mundane lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If the object has multiple locks, only one of them is unlocked.",
-				"If you choose a target that is held shut with *lock*, that power is suppressed for 10 minutes, during which time the target can be opened and shut normally."
+				"If you choose a target that is held shut with {@spell lock|sw5ephb}, that power is suppressed for 10 minutes, during which time the target can be opened and shut normally."
 			],
 			"miscTags": [
 				"SGT"
@@ -47122,6 +47613,46 @@
 				"deafened",
 				"paralyzed",
 				"poisoned"
+			]
+		},
+		{
+			"name": "Reveal Shatterpoint",
+			"source": "sw5eec",
+			"level": 5,
+			"school": "UV",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"{@b {@i Prerequisite: {@spell Sense Shatterpoint|sw5ephb}}}",
+				"You focus on a creature you can see within range, and gain uncanny insight on its defenses and capabilities through the Force. The target must make a Charisma saving throw. On a failed save, you have advantage on attack rolls against that creature, and it has disadvantage on attack rolls against you for the duration. On a successful save, you have advantage on the next attack roll you make against that creature, and it has disadvantage on its next attack roll against you. Once both attacks have been made, the power ends."
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"SGT"
 			]
 		},
 		{
@@ -47408,9 +47939,9 @@
 				{
 					"type": "list",
 					"items": [
-						"1st Hit: If the target fails its saving throw, it gains 1 slowed level until the end of its next turn.",
-						"2nd Hit: If the target fails its saving throw, it takes {@damage 1d6} kinetic damage and cannot take reactions until after the end of its next turn.",
-						"3rd Hit: If the target fails its saving throw, it takes {@damage 2d6} kinetic damage and cannot take bonus actions during its next turn."
+						"{@b 1st Hit:} If the target fails its saving throw, it gains 1 slowed level until the end of its next turn.",
+						"{@b 2nd Hit:} If the target fails its saving throw, it takes {@damage 1d6} kinetic damage and cannot take reactions until after the end of its next turn.",
+						"{@b 3rd Hit:} If the target fails its saving throw, it takes {@damage 2d6} kinetic damage and cannot take bonus actions during its next turn."
 					]
 				}
 			],
@@ -47425,6 +47956,53 @@
 			],
 			"damageInflict": [
 				"kinetic"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Saber Dance",
+			"source": "sw5eec",
+			"level": 4,
+			"school": "UV",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"{@b {@i Prerequisite: {@spell Animate Weapon|sw5ephb}}}",
+				"A light- or vibro-weapon of your choice that you are wearing or carrying begins to animate, spinning around your body at high speeds in a 10-foot radius centered on you. For the duration, your movement speed is halved, and the weapon moves with you.",
+				"When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must make a Dexterity saving throw or take {@damage 4d10} damage of the weapon's type, or half as much damage on a successful saving throw.",
+				"When this power ends, you can immediately recall the weapon to your hand."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 5th level or higher, the radius of the power increases to 15 feet, and the power's damage increases by {@dice 1d10} for each slot level above 4th."
+					]
+				}
 			],
 			"savingThrow": [
 				"dexterity"
@@ -47518,6 +48096,49 @@
 			"miscTags": [
 				"SCL",
 				"SGT"
+			]
+		},
+		{
+			"name": "Saber Slash",
+			"source": "sw5eec",
+			"level": 3,
+			"school": "UV",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"{@b {@i Prerequisite: {@spell Saber Strike|null}}}",
+				"You move in a burst of speed to deliver a deadly blow. When you cast this power, you must be wielding a melee weapon with which you are proficient, otherwise, the power fails. As part of the action used to cast this power, you move in a straight line to an unoccupied space within the power's range and strike a creature within your weapon's range. Opportunity attacks provoked by this movement have disadvantage. The creature must make a Dexterity saving throw. On a failed save, it takes damage equal to three rolls of the weapon's damage dice{@damage  + 4d4} force damage, or half as much damage on a successful one."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, the force damage increases by {@dice 1d4} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"dexterity"
 			]
 		},
 		{
@@ -47849,7 +48470,7 @@
 			],
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Plague|sw5ephb}}}",
-				"For the power's duration, your eyes become an inky void imbued with dread power. One creature of your choice within 60 feet of you that you can see must succeed on a Constitution saving throw or be affected by one of the following effects of your choice for the duration. On each of your turns until the power ends, you can use your action to target another creature but can't target a creature again if it has succeeded on a saving throw against this casting of *scourge.*",
+				"For the power's duration, your eyes become an inky void imbued with dread power. One creature of your choice within 60 feet of you that you can see must succeed on a Constitution saving throw or be affected by one of the following effects of your choice for the duration. On each of your turns until the power ends, you can use your action to target another creature but can't target a creature again if it has succeeded on a saving throw against this casting of {@spell scourge|sw5ephb}.",
 				{
 					"type": "list",
 					"items": [
@@ -48041,20 +48662,25 @@
 			"entries": [
 				"You create a ward that protects up to 2,500 square feet of floor space (an area 50 feet square, or one hundred 5-foot squares or twenty-five 10-foot squares). The secured area can be up to 20 feet tall, and shaped as you desire. You can ward several stories of a stronghold by dividing the area among them, as long as you can walk into each contiguous area while you are casting the power.",
 				"When you cast this power, you can specify individuals that are unaffected by any or all of the effects that you choose. You can also specify a password that, when spoken aloud, makes the speaker immune to these effects.",
-				"When commanded (no action required), *security protocols* creates the following effects within the secured area.",
+				"When commanded (no action required), {@spell security protocols|sw5ephb} creates the following effects within the secured area.",
 				{
 					"type": "list",
 					"items": [
 						"{@b {@i Corridors.}} Fog fills all the secured corridors, making them heavily obscured. In addition, at each intersection or branching passage offering a choice of direction, there is a 50 percent chance that a creature other than you will believe it is going in the opposite direction from the one it chooses.",
 						"{@b {@i Doors.}} All doors in the secured area are locked, as if sealed by the *lock* power. In addition, you can cover up to ten doors with an image (equivalent to the illusory object function of the *minor hologram* power) to make them appear as plain sections of wall.",
 						"{@b {@i Stairs.}} Electromesh fills all stairs in the secured area from top to bottom, as the *electromesh* power. This mesh regrows in 10 minutes if it is burned or torn away while *security protocols* lasts.",
-						"Other power effect. You can place your choice of one of the following enhanced effects within the secured area of the stronghold.",
-						"Place *mobile lights* in four corridors. You can designate a simple program that the lights repeat as long as *security protocols* lasts.",
-						"Place *implant message* in two locations.",
-						"Place *debilitating gas* in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while *security protocols* lasts."
+						"{@b {@i Other power effect.}} You can place your choice of one of the following enhanced effects within the secured area of the stronghold.",
+						{
+							"type": "list",
+							"items": [
+								"Place {@i mobile lights} in four corridors. You can designate a simple program that the lights repeat as long as {@i security protocols} lasts.",
+								"Place {@i implant message} in two locations.",
+								"Place {@i debilitating gas} in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while {@i security protocols} lasts."
+							]
+						}
 					]
 				},
-				"The whole secured area radiates power. A *diminish tech* cast on a specific effect, if successful, removes only that effect.",
+				"The whole secured area radiates power. A {@spell diminish tech|sw5ephb} cast on a specific effect, if successful, removes only that effect.",
 				"You can create a permanently guarded and secured structure by casting this power there every day for one year."
 			]
 		},
@@ -48192,6 +48818,43 @@
 						"When you cast this power using a 3rd-level force slot, the range increases to 60 feet. When you use a 5th-level force slot, the range increases to 500 feet. When you use a 7th-level force slot, the range increases to 1 mile. When you use a 9th-level force slot, the range increases to 10 miles."
 					]
 				}
+			]
+		},
+		{
+			"name": "Sense Shatterpoint",
+			"source": "sw5eec",
+			"level": 2,
+			"school": "UV",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"{@b {@i Prerequisite: {@spell Battle Insight|sw5ephb}}}",
+				"You seek deeper insight into the defenses of a creature you can see within range. Until the end of your next turn, you have advantage on your next two attack rolls against the target."
+			],
+			"miscTags": [
+				"SGT"
 			]
 		},
 		{
@@ -51091,6 +51754,48 @@
 			]
 		},
 		{
+			"name": "Transposition",
+			"source": "sw5eec",
+			"level": 2,
+			"school": "TP",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Another creature you can see within range has its form shimmer in a holographic configuration before collapsing. The target must succeed on a Constitution saving throw (the target can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 3rd level or higher, the range of the power increases by 30 feet for each slot level above 2nd."
+					]
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
 			"name": "Tremor",
 			"source": "sw5ephb",
 			"level": 1,
@@ -51236,6 +51941,46 @@
 			],
 			"savingThrow": [
 				"constitution"
+			]
+		},
+		{
+			"name": "Tune-up",
+			"source": "sw5eec",
+			"level": 2,
+			"school": "TP",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Up to six droids or constructs of your choice that you can see within range each regain hit points equal to {@dice 2d8} + your techcasting ability modifier."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 3rd level or higher, the healing increases by {@dice 1d8} for each slot level above 2nd."
+					]
+				}
+			],
+			"miscTags": [
+				"HL",
+				"SGT"
 			]
 		},
 		{
@@ -51394,6 +52139,55 @@
 			],
 			"conditionInflict": [
 				"prone"
+			]
+		},
+		{
+			"name": "Vitality Shield",
+			"source": "sw5eec",
+			"level": 2,
+			"school": "UV",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"{@b {@i Prerequisite: {@spell Force Body|sw5ephb}}}",
+				"You siphon some of your own vitality to create a barrier in the Force around yourself. You take {@damage 2d8} true damage, and gain a number of temporary hit points equal to twice the amount of damage you took. If this damage would reduce your hit points to 0, the power fails. While you have these temporary hit points, you have advantage on Strength, Dexterity and Constitution saving throws. Any remaining temporary hit points are lost when this power ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the true damage increases by {@dice 1d8} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"true"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"THP"
 			]
 		},
 		{
@@ -51780,14 +52574,14 @@
 					"type": "list",
 					"items": [
 						"You summon one object to you of up to 250,000 cr in value that isn't an enhanced item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.",
-						"You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the *improved restoration* power.",
+						"You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the {@spell improved restoration|sw5ephb} power.",
 						"You grant up to ten creatures that you can see resistance to a damage type you choose.",
 						"You grant up to ten creatures you can see immunity to a single power or other specific enhanced effect for 8 hours. For instance, you could make yourself and all your companions immune to the Manifestation of Abeloth's Will ability.",
-						"You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, *will of the force* could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll."
+						"You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, {@spell will of the force|sw5ephb} could undo an opponent's successful save, a foe's critical hit, or a friend's failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll."
 					]
 				},
 				"You might be able to achieve something beyond the scope of the above examples. State your wish to the DM as precisely as possible. The DM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This power might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary enhanced item or artifact might instantly transport you to the presence of the item's current owner.",
-				"The stress of casting this power to produce any effect other than duplicating another power weakens you. After enduring that stress, each time you cast a power until you finish a long rest, you take {@damage 1d10} necrotic damage per level of that power, which can't be reduced or prevented in any way. Additionally, your Strength drops to 3, if it isn't 3 or lower already, for {@dice 2d4} days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Additionally, there is a 33 percent chance that you are unable to cast *will of the force* ever again if you suffer this stress. Finally, if you are reduced to 0 hit points as a result of this necrotic damage, or at any point before you have fully recovered from the Strength reduction, you immediately die and cannot be resurrected as your body fades away, absorbed into the living Force."
+				"The stress of casting this power to produce any effect other than duplicating another power weakens you. After enduring that stress, each time you cast a power until you finish a long rest, you take {@damage 1d10} necrotic damage per level of that power, which can't be reduced or prevented in any way. Additionally, your Strength drops to 3, if it isn't 3 or lower already, for {@dice 2d4} days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Additionally, there is a 33 percent chance that you are unable to cast {@spell will of the force|sw5ephb} ever again if you suffer this stress. Finally, if you are reduced to 0 hit points as a result of this necrotic damage, or at any point before you have fully recovered from the Strength reduction, you immediately die and cannot be resurrected as your body fades away, absorbed into the living Force."
 			],
 			"damageResist": [
 				"acid",
