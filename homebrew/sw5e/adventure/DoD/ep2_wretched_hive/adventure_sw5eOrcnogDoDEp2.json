@@ -2,10 +2,10 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "orcnogDoDEp2",
+				"json": "sw5eOrcnogDoDEp2",
 				"abbreviation": "DoDAWH",
 				"full": "Dawn of Defiance, Episode 2: A Wretched Hive",
-				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/DoD/ep2_wretched_hive/adventure.json",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/adventure/DoD/ep2_wretched_hive/adventure_sw5eOrcnogDoDEp2.json",
 				"authors": [
 					"Rodney Thompson"
 				],
@@ -24,7 +24,7 @@
 	"monster": [
 		{
 			"name": "Typical Cato Neimoidian Citizen",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -82,7 +82,7 @@
 		},
 		{
 			"name": "Viper Gang Member",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": "0",
 			"size": [
 				"Medium"
@@ -146,10 +146,10 @@
 		},
 		{
 			"name": "Viper on Swoop Bike",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"_copy": {
 				"name": "Viper Gang Member",
-				"source": "orcnogDoDEp2"
+				"source": "sw5eOrcnogDoDEp2"
 			},
 			"ac": [
 				{
@@ -173,7 +173,7 @@
 			"name": "Kessra",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -270,7 +270,7 @@
 			"name": "Warrick Raden",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -364,7 +364,7 @@
 		},
 		{
 			"name": "Warrick's Hired Thug",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -436,7 +436,7 @@
 		},
 		{
 			"name": "Excavation Droid",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -531,7 +531,7 @@
 			"name": "Darga The Hutt",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"L"
@@ -709,7 +709,7 @@
 			"name": "RX-7246",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -814,11 +814,11 @@
 		},
 		{
 			"name": "Bounty Hunter",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"isNamedCreature": false,
 			"_copy": {
 				"name": "Kessra",
-				"source": "orcnogDoDEp2",
+				"source": "sw5eOrcnogDoDEp2",
 				"_mod": {
 					"*": {
 						"mode": "replaceTxt",
@@ -834,7 +834,7 @@
 			"name": "The Karg Brothers",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -922,7 +922,7 @@
 			"name": "Zayda",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -999,7 +999,7 @@
 		},
 		{
 			"name": "Neimoidian Kreehawk",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"S"
@@ -1082,7 +1082,7 @@
 		},
 		{
 			"name": "Quarren Assassin",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -1189,7 +1189,7 @@
 		{
 			"name": "Twi'lek Poisoner",
 			"isNpc": true,
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -1274,7 +1274,7 @@
 		{
 			"name": "Wookie Slaver",
 			"isNpc": true,
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -1356,7 +1356,7 @@
 		},
 		{
 			"name": "Gamorrean Minion",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -1442,7 +1442,7 @@
 		},
 		{
 			"name": "Gamorrean Warrior",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -1528,7 +1528,7 @@
 		},
 		{
 			"name": "Gamorrean Warlord",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -1630,7 +1630,7 @@
 			"name": "Jedi Master Denia",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -1780,7 +1780,7 @@
 		},
 		{
 			"name": "Gamorrean Jailer",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -1876,7 +1876,7 @@
 			"name": "Igren Demos",
 			"isNpc": true,
 			"isNamedCreature": true,
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -1985,7 +1985,7 @@
 		},
 		{
 			"name": "Trandoshan Bodyguard",
-			"source": "orcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"page": 0,
 			"size": [
 				"M"
@@ -2080,8 +2080,8 @@
 	"adventure": [
 		{
 			"name": "Star Wars: Dawn of Defiance, Episode II - A Wretched Hive",
-			"id": "orcnogDoDEp2",
-			"source": "orcnogDoDEp2",
+			"id": "sw5eOrcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"group": "homebrew",
 			"contents": [
 				{
@@ -2168,8 +2168,8 @@
 	],
 	"adventureData": [
 		{
-			"id": "orcnogDoDEp2",
-			"source": "orcnogDoDEp2",
+			"id": "sw5eOrcnogDoDEp2",
+			"source": "sw5eOrcnogDoDEp2",
 			"data": [
 				{
 					"type": "section",
@@ -2231,8 +2231,8 @@
 					"id": "Part 1: Cato Nemoidia",
 					"entries": [
 						"In {@i A Wretched Hive}, the heroes must travel to the world of Cato Neimoidia, a planet ravaged by the Clone Wars and one of the many colony worlds of the Neimoidian people. Since their last adventure, the heroes have spent some down time aboard the Nebulon-B frigate Resurgence, which is apparently owned by Bail Organa. The ship spends all of its time in deep space, between worlds and away from major hyperspace routes, and it currently serves as a mobile safe house for former Imperial Admiral Gilder Varth.",
-						"Varth was recently rescued from an Imperial prison facility (either by the heroes, if they played in {@i {@adventure The Traitor's Gambit|orcnogDoDEp1}}, or by other agents of Bail Organa if they didn't) and brought to the {@i Resurgence} to be debriefed. Captain Adrian Verana is the commanding officer of the {@i Resurgence}, and he has overseen Varth's safety and debriefing over the last few weeks. The whole time, Captain Verana has made it clear that no one should mention Bail Organa's name because the Senator cannot risk being known to be involved in cas the Empire happens upon the {@i Resurgence}. Even Gilder Varth does not know for certain that it was Organa who had him rescued (unless the heroes told him, of course).",
-						"In the time between the end of {@i {@adventure The Traitor's Gambit|orcnogDoDEp1}} and the beginning of {@i A Wretched Hive}, you should feel free to include encounters with Captain Verana, Gilder Varth, and Captain Okeefe (the owner and operator of the Baudo-class Star Yacht, the {@i Banshee}). The heroes should get to know these three characters a bit better because all of them will have roles of varying importance throughout the campaign.  When {@i A Wretched Hive} opens, the heroes should be fully healed and have had a chance to obtain needed supplies and resources. The Resurgence is a well-stocked ship and can provide the group with most mundane items.",
+						"Varth was recently rescued from an Imperial prison facility (either by the heroes, if they played in {@i {@adventure The Traitor's Gambit|sw5eOrcnogDoDEp1}}, or by other agents of Bail Organa if they didn't) and brought to the {@i Resurgence} to be debriefed. Captain Adrian Verana is the commanding officer of the {@i Resurgence}, and he has overseen Varth's safety and debriefing over the last few weeks. The whole time, Captain Verana has made it clear that no one should mention Bail Organa's name because the Senator cannot risk being known to be involved in cas the Empire happens upon the {@i Resurgence}. Even Gilder Varth does not know for certain that it was Organa who had him rescued (unless the heroes told him, of course).",
+						"In the time between the end of {@i {@adventure The Traitor's Gambit|sw5eOrcnogDoDEp1}} and the beginning of {@i A Wretched Hive}, you should feel free to include encounters with Captain Verana, Gilder Varth, and Captain Okeefe (the owner and operator of the Baudo-class Star Yacht, the {@i Banshee}). The heroes should get to know these three characters a bit better because all of them will have roles of varying importance throughout the campaign.  When {@i A Wretched Hive} opens, the heroes should be fully healed and have had a chance to obtain needed supplies and resources. The Resurgence is a well-stocked ship and can provide the group with most mundane items.",
 						{
 							"type": "entries",
 							"name": "The Briefing",
@@ -2271,7 +2271,7 @@
 									"type": "entries",
 									"name": "Sample Citizens",
 									"entries": [
-										"During this part of the adventure, the heroes might come into contact with members of the local populace. Below are several {@creature Typical Cato Neimoidian Citizen|orcnogDoDEp2|Cato Neimoidian citizens} to use as quick reference when the heroes begin moving about the city of Zarra. Each uses the following {@creature Typical Cato Neimoidian Citizen|orcnogDoDEp2|typical statblock}. Feel free to invent your own NPCs or introduce other characters here as well.",
+										"During this part of the adventure, the heroes might come into contact with members of the local populace. Below are several {@creature Typical Cato Neimoidian Citizen|sw5eOrcnogDoDEp2|Cato Neimoidian citizens} to use as quick reference when the heroes begin moving about the city of Zarra. Each uses the following {@creature Typical Cato Neimoidian Citizen|sw5eOrcnogDoDEp2|typical statblock}. Feel free to invent your own NPCs or introduce other characters here as well.",
 										{
 											"type": "list",
 											"items": [
@@ -2312,9 +2312,9 @@
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
-												"1 x {@creature Kessra|orcnogDoDEp2}",
-												"6 x {@creature Viper Gang Member|orcnogDoDEp2} (CR 1)",
-												"2 x {@creature Viper on Swoop Bike|orcnogDoDEp2} (CR 1)",
+												"1 x {@creature Kessra|sw5eOrcnogDoDEp2}",
+												"6 x {@creature Viper Gang Member|sw5eOrcnogDoDEp2} (CR 1)",
+												"2 x {@creature Viper on Swoop Bike|sw5eOrcnogDoDEp2} (CR 1)",
 												"<hr/>",
 												"See: {@area Swoop Marauders Encounter Map|Swoop Marauders Encounter Map|x}"
 											]
@@ -2426,7 +2426,7 @@
 								"Using the Persuasion skill to intimidate citizens of Zarra only goe so far. A successfully intimidated citizen can say only that a Devaronia named Warrick Raden works for Darga and sometimes comes around t collect extortion money or deliver messages on the Hutt's behalf. Thi information grants the same +10 bonus on Gather Information check that bribery does.",
 								"If the heroes use violence to find Darga, such as abusing loca business owners or picking a fight in a cantina, they eventually get  message from one of the Hutt's hidden agents who believes that th heroes are auditioning to join the organization. This message is identica to the one described under \"False Pretenses,\" above.",
 								"However, violence does not sit well with the citizens of Zarra, an eventually one becomes scared enough to alert Imperial authorities to the heroes' activities.",
-								"An Imperial patrol consisting of six stormtrooper and an Imperial Junior Officer (see page 27 of {@i {@adventure The Traitor's Gambit|orcnogDoDEp1}} fo statistics) arrives on a transport skiff and attempts to take the heroe into custody. The Imperials call for reinforcements if the heroes resis arrest, and soon Zarra might be crawling with a large percentage of th Imperial forces on Cato Neimoidia, attracting attention the heroes d not want."
+								"An Imperial patrol consisting of six stormtrooper and an Imperial Junior Officer (see page 27 of {@i {@adventure The Traitor's Gambit|sw5eOrcnogDoDEp1}} fo statistics) arrives on a transport skiff and attempts to take the heroe into custody. The Imperials call for reinforcements if the heroes resis arrest, and soon Zarra might be crawling with a large percentage of th Imperial forces on Cato Neimoidia, attracting attention the heroes d not want."
 							]
 						},
 						{
@@ -2450,9 +2450,9 @@
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
-												"1 x {@creature Warrick Raden|orcnogDoDEp2} (CR 2)",
-												"6 x {@creature Warrick's Hired Thug|orcnogDoDEp2} (CR 1/4)",
-												"2 x {@creature Excavation Droid|orcnogDoDEp2} (CR 3)",
+												"1 x {@creature Warrick Raden|sw5eOrcnogDoDEp2} (CR 2)",
+												"6 x {@creature Warrick's Hired Thug|sw5eOrcnogDoDEp2} (CR 1/4)",
+												"2 x {@creature Excavation Droid|sw5eOrcnogDoDEp2} (CR 3)",
 												"<hr/>",
 												"See: {@area Darga's Cronies Encounter Map|Darga's Cronies Encounter Map|x}"
 											]
@@ -2605,7 +2605,7 @@
 									"name": "Members of Darga the Hutt's Court",
 									"id": "Members of Darga the Hutt's Court",
 									"entries": [
-										"At least 12 {@creature Gamorrean Warrior|orcnogDoDEp2|Gamorrean guards} (nonheroic 6), 3 bounty hunters (nonheroic 3/soldier 2), 3 Quarren assassins (nonheroic 6/scoundrel 1), {@creature 3PO Series Protocol Droid|orcnogSW5e|Six Six} (TC-663, noble 1) Igren Demos (noble 5), and other assorted beings. Full statistics block for some of these characters appear in the detailed encounters tha follow Part 2."
+										"At least 12 {@creature Gamorrean Warrior|sw5eOrcnogDoDEp2|Gamorrean guards} (nonheroic 6), 3 bounty hunters (nonheroic 3/soldier 2), 3 Quarren assassins (nonheroic 6/scoundrel 1), {@creature 3PO Series Protocol Droid|orcnogSW5e|Six Six} (TC-663, noble 1) Igren Demos (noble 5), and other assorted beings. Full statistics block for some of these characters appear in the detailed encounters tha follow Part 2."
 									]
 								}
 							]
@@ -2615,7 +2615,7 @@
 							"name": "Darga the Hutt",
 							"id": "Darga the Hutt",
 							"entries": [
-								"{@creature Darga The Hutt|orcnogDoDEp2|Darga Jiramma Mionne} is a young Hutt crime lord who has carved out  small empire on Cato Neimoidia. Though he is nowhere near a successful or mighty as other members of his clan, he believes that hi dealings with the Empire will put him on a fast track to power. Darg can smell which way the wind is blowing, and he believes that as th Empire's influence grows, so will that of its allies.",
+								"{@creature Darga The Hutt|sw5eOrcnogDoDEp2|Darga Jiramma Mionne} is a young Hutt crime lord who has carved out  small empire on Cato Neimoidia. Though he is nowhere near a successful or mighty as other members of his clan, he believes that hi dealings with the Empire will put him on a fast track to power. Darg can smell which way the wind is blowing, and he believes that as th Empire's influence grows, so will that of its allies.",
 								"Though Darga understands several languages, he always speaks i Huttese, letting his protocol droid {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663} translate. He considers al languages other than Huttese to be beneath him.",
 								{
 									"type": "inset",
@@ -2720,9 +2720,9 @@
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
-												"3 x {@creature The Karg Brothers|orcnogDoDEp2}",
-												"1 x {@creature RX-7246|orcnogDoDEp2} (CR 3)",
-												"1 x {@creature Zayda|orcnogDoDEp2} (CR 3)",
+												"3 x {@creature The Karg Brothers|sw5eOrcnogDoDEp2}",
+												"1 x {@creature RX-7246|sw5eOrcnogDoDEp2} (CR 3)",
+												"1 x {@creature Zayda|sw5eOrcnogDoDEp2} (CR 3)",
 												"<hr/>",
 												"See: {@area Gladiator Match Encounter Map|Gladiator Match Encounter Map|x}"
 											]
@@ -2897,7 +2897,7 @@
 									"type": "entries",
 									"name": "Secondary Challenge",
 									"entries": [
-										"As the encounter with the Imperial liaison goes on, grant a DC 15 Wisdom ({@skill Perception}) check to any heroes who were in the company of Bail Organa before the trip to Felucia in {@adventure The Traitor's Gambit|orcnogDoDEp1}. Success indicates that the heroes recognize the liaison as someone they spotted in the halls of Organa's palace on Alderaan. (Alternatively, if the heroes did not play {@adventure The Traitor's Gambit|orcnogDoDEp1}, they might recognize the liaison as one of the crewmembers of the Resurgence.)",
+										"As the encounter with the Imperial liaison goes on, grant a DC 15 Wisdom ({@skill Perception}) check to any heroes who were in the company of Bail Organa before the trip to Felucia in {@adventure The Traitor's Gambit|sw5eOrcnogDoDEp1}. Success indicates that the heroes recognize the liaison as someone they spotted in the halls of Organa's palace on Alderaan. (Alternatively, if the heroes did not play {@adventure The Traitor's Gambit|sw5eOrcnogDoDEp1}, they might recognize the liaison as one of the crewmembers of the Resurgence.)",
 										"In truth, the liaison is a double agent who secretly works for the Imperial Security Bureau. Her real name is Victra Sinde, though the name she uses when posing as a member of Bail Organa's security force is Alysa. She has been spying on Organa for several months now, though she has been unable to uncover hard evidence of his involvement in treasonous activities. She was called away from her assignment to assist the Empire in continuing their arrangement with Darga the Hutt, and she was not expecting to run into anyone who might recognize her.",
 										"If the heroes confront Sinde, she denies any involvement with Bail Organa. If the heroes continue to make accusations, she threatens them with immediate arrest. Mentally, she notes the faces (and names, if possible) of the heroes and vows to ensure that the Empire becomes aware of their activities. If the heroes allow Sinde to leave after such an exchange, she might become a thorn in their side down the road, particularly if they journey to worlds under tight Imperial control, such as Coruscant or Nizon. Though such repercussions are beyond the scope of this adventure, feel free to have Sinde show up later.",
 										"Informing Bail Organa that he has a double agent in his midst certainly causes an uproar on Alderaan. If this occurs, Sinde does not return to Organa's service, having learned ahead of time that her cover has been blown, and Organa is grateful for the heroes' efforts."
@@ -2950,8 +2950,8 @@
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
-												"1 x {@creature Kessra|orcnogDoDEp2}",
-												"4 x {@creature Neimoidian Kreehawk|orcnogDoDEp2} (CR 2)",
+												"1 x {@creature Kessra|sw5eOrcnogDoDEp2}",
+												"4 x {@creature Neimoidian Kreehawk|sw5eOrcnogDoDEp2} (CR 2)",
 												"<hr/>",
 												"See: {@area Aviary Attack Encounter Map|Aviary Attack Encounter Map|x}"
 											]
@@ -2983,7 +2983,7 @@
 									"type": "entries",
 									"name": "Kessra (1)",
 									"entries": [
-										"See: {@creature Kessra|orcnogDoDEp2} statblock.",
+										"See: {@creature Kessra|sw5eOrcnogDoDEp2} statblock.",
 										{
 											"type": "entries",
 											"name": "Kessra's Tactics",
@@ -3071,9 +3071,9 @@
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
-												"3 x {@creature Quarren Assassin|orcnogDoDEp2} (CR 2)",
-												"1 x {@creature Twi'lek Poisoner|orcnogDoDEp2}",
-												"1 x {@creature Wookie Slaver|orcnogDoDEp2} (CR 3)",
+												"3 x {@creature Quarren Assassin|sw5eOrcnogDoDEp2} (CR 2)",
+												"1 x {@creature Twi'lek Poisoner|sw5eOrcnogDoDEp2}",
+												"1 x {@creature Wookie Slaver|sw5eOrcnogDoDEp2} (CR 3)",
 												"<hr/>",
 												"See: {@area A Knife in the Dark Encounter Map|A Knife in the Dark Encounter Map|x}"
 											]
@@ -3192,7 +3192,7 @@
 							"id": "A Visit from Six-Six",
 							"entries": [
 								"One member of Darga's court that the heroes have interacted with but might not have thought much about is the translating protocol droid, {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663}. Unremarkable during the heroes' time in Darga's palace thus far, TC-663 is occasionally seen wandering the halls of the palace on one errand or another. At some point when the heroes are all together away from the Hutt's court, the shiny silver droid approaches them and asks to speak with them in private.",
-								"When he is certain they are alone, {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663} (who insists that the heroes call him Six Six) explains that in addition to serving as the Hutt's translator, he also serves another master\u2014a droid crime lord named Switch, who lives on Sel Zonn Station above the world of Brentaal. If the heroes played through {@i {@adventure The Traitor's Gambit|orcnogDoDEp1}}, they have probably already encountered Switch and perhaps even offered to act as his agents in the field.",
+								"When he is certain they are alone, {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663} (who insists that the heroes call him Six Six) explains that in addition to serving as the Hutt's translator, he also serves another master\u2014a droid crime lord named Switch, who lives on Sel Zonn Station above the world of Brentaal. If the heroes played through {@i {@adventure The Traitor's Gambit|sw5eOrcnogDoDEp1}}, they have probably already encountered Switch and perhaps even offered to act as his agents in the field.",
 								"{@creature 3PO Series Protocol Droid|orcnogSW5e|Six Six} reveals that he has come to convey a small piece of information on Switch's behalf. The droid tells the heroes that he has been monitoring communications leaving Darga's palace, and it seems that someone has been transmitting information to the Empire while the Hutt sleeps, receiving instructions in return.",
 								"{@creature 3PO Series Protocol Droid|orcnogSW5e|Six Six} has been sending these messages on to Switch, but the droid crime lord has been unable to break their encryption. Switch has ordered Six Six to turn the encrypted transmissions file over to the heroes and see what they can make of it. If the heroes are willing to share their findings with {@creature 3PO Series Protocol Droid|orcnogSW5e|Six Six} (who will share them with Switch), they can have the file at no charge.",
 								"Any hero who makes a successful DC 25 Intelligence ({@skill Technology}) check decrypts the file and retrieves the contents of the message. It reveals that late at night, the Hutt's majordomo, Igren Demos, has been contacting an Imperial communications relay somewhere in the sector. The heroes cannot be certain who he is communicating with, but they know that Demos has been transmitting information about Darga's dealings\u2014particularly his slave trading\u2014on a regular basis. The most recent communication specifically mentions that the slavers that Darga has been dealing with are unhappy with their merchandise. Additionally, several messages mention \"the prisoner\" but provide no further details.",
@@ -3224,9 +3224,9 @@
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
-												"3 x {@creature Gamorrean Minion|orcnogDoDEp2}",
-												"2 x {@creature Gamorrean Warrior|orcnogDoDEp2} (CR 2)",
-												"1 x {@creature Gamorrean Warlord|orcnogDoDEp2} (CR 4)",
+												"3 x {@creature Gamorrean Minion|sw5eOrcnogDoDEp2}",
+												"2 x {@creature Gamorrean Warrior|sw5eOrcnogDoDEp2} (CR 2)",
+												"1 x {@creature Gamorrean Warlord|sw5eOrcnogDoDEp2} (CR 4)",
 												"<hr/>",
 												"See: {@area Into the Dungeons Encounter Map|Into the Dungeons Encounter Map|x}"
 											]
@@ -3258,7 +3258,7 @@
 									"type": "entries",
 									"name": "Gamorrean Minions (3)",
 									"entries": [
-										"See: {@creature Gamorrean Minion|orcnogDoDEp2} statblock.",
+										"See: {@creature Gamorrean Minion|sw5eOrcnogDoDEp2} statblock.",
 										{
 											"type": "entries",
 											"name": "Gamorrean Minion Tactics",
@@ -3272,7 +3272,7 @@
 									"type": "entries",
 									"name": "Gamorrean Warriors (2)",
 									"entries": [
-										"See: {@creature Gamorrean Warrior|orcnogDoDEp2} statblock.",
+										"See: {@creature Gamorrean Warrior|sw5eOrcnogDoDEp2} statblock.",
 										{
 											"type": "entries",
 											"name": "Gamorrean Warrior tactics",
@@ -3286,7 +3286,7 @@
 									"type": "entries",
 									"name": "Gamorrean Warlord (1)",
 									"entries": [
-										"See: {@creature Gamorrean Warlord|orcnogDoDEp2} statblock.",
+										"See: {@creature Gamorrean Warlord|sw5eOrcnogDoDEp2} statblock.",
 										{
 											"type": "entries",
 											"name": "Gamorrean Warlord Tactics",
@@ -3313,7 +3313,7 @@
 											"type": "inset",
 											"name": "Features of the Area",
 											"entries": [
-												"Though this area does not have many special terrain features, it has a few computer consoles (for monitoring security throughout the palace) that can be used for cover. Additionally, any hero can look at the security monitors to notice that the rest of the palace seems unaware of the battle taking place in the guard room. The Gamorreans do not sound an alarm right away, believing that they can take the heroes down without assistance (and thus garner more glory for themselves). However, if the fight goes poorly, a Gamorrean next to a computer console spends a swift action to activate the alarm. If this happens, Darga sends reinforcements\u2014 six more Gamorrean guards, who take 10 rounds to reach the guard room. This will add a sense of urgency to finding {@creature Jedi Master Denia|orcnogDoDEp2|Master Denia}."
+												"Though this area does not have many special terrain features, it has a few computer consoles (for monitoring security throughout the palace) that can be used for cover. Additionally, any hero can look at the security monitors to notice that the rest of the palace seems unaware of the battle taking place in the guard room. The Gamorreans do not sound an alarm right away, believing that they can take the heroes down without assistance (and thus garner more glory for themselves). However, if the fight goes poorly, a Gamorrean next to a computer console spends a swift action to activate the alarm. If this happens, Darga sends reinforcements\u2014 six more Gamorrean guards, who take 10 rounds to reach the guard room. This will add a sense of urgency to finding {@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Master Denia}."
 											]
 										}
 									]
@@ -3322,10 +3322,10 @@
 									"type": "entries",
 									"name": "Development",
 									"entries": [
-										"{@creature Jedi Master Denia|orcnogDoDEp2|Denia} is being held in a dank, disgusting area directly beneath the guest quarters that resembles a dungeon. The chamber is in disrepair, and structural damage to the palace has allowed rainwater to leak in, giving the place a musty feel. If the heroes step out of the turbolift, they see a narrow hallway filled with pools of stagnant water, with cells off to the right. The whispers grow louder in their minds, urging them on and giving them directions to a large metal door.",
-										"Pushing a button on the door causes it to creak and stutter as it slides open, revealing a chamber that resembles a dilapidated hospital room. It has the same musty smell as the outer hallway, but in this room is a large bed on which lays a woman well into her older years, connected to a variety of machines that seem to be monitoring her vital functions. A large tube of semitransparent liquid is connected to the woman intravenously, and her chest rises and falls slowly. Once inside the room, the whispers in the Force-sensitive heroes' minds become stronger, and the voice claims that she can feel them close to her. {@creature Jedi Master Denia|orcnogDoDEp2|Denia} telepathically begs the heroes to free her, though the limitations on her telepathy keep her from asking or answering any more questions",
-										"Any hero can disconnect {@creature Jedi Master Denia|orcnogDoDEp2|Denia} from the machines that are keeping her in a coma. A hero who makes a successful DC 15 Intelligence ({@skill Medicine}) check can bring her out of the coma gently, and she regains consciousness with 4 levels of exhaustion. Otherwise, she regains consciousness with 5 levels of exhaustion and cannot move. This exhaustion cannot be removed until she receives extended medical treatment for at least a week (which she will be able to get aboard the Resurgence between adventures).",
-										"When {@creature Jedi Master Denia|orcnogDoDEp2|Denia} has been brought out of her coma, read the following boxed text aloud:",
+										"{@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Denia} is being held in a dank, disgusting area directly beneath the guest quarters that resembles a dungeon. The chamber is in disrepair, and structural damage to the palace has allowed rainwater to leak in, giving the place a musty feel. If the heroes step out of the turbolift, they see a narrow hallway filled with pools of stagnant water, with cells off to the right. The whispers grow louder in their minds, urging them on and giving them directions to a large metal door.",
+										"Pushing a button on the door causes it to creak and stutter as it slides open, revealing a chamber that resembles a dilapidated hospital room. It has the same musty smell as the outer hallway, but in this room is a large bed on which lays a woman well into her older years, connected to a variety of machines that seem to be monitoring her vital functions. A large tube of semitransparent liquid is connected to the woman intravenously, and her chest rises and falls slowly. Once inside the room, the whispers in the Force-sensitive heroes' minds become stronger, and the voice claims that she can feel them close to her. {@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Denia} telepathically begs the heroes to free her, though the limitations on her telepathy keep her from asking or answering any more questions",
+										"Any hero can disconnect {@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Denia} from the machines that are keeping her in a coma. A hero who makes a successful DC 15 Intelligence ({@skill Medicine}) check can bring her out of the coma gently, and she regains consciousness with 4 levels of exhaustion. Otherwise, she regains consciousness with 5 levels of exhaustion and cannot move. This exhaustion cannot be removed until she receives extended medical treatment for at least a week (which she will be able to get aboard the Resurgence between adventures).",
+										"When {@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Denia} has been brought out of her coma, read the following boxed text aloud:",
 										{
 											"type": "insetReadaloud",
 											"entries": [
@@ -3334,8 +3334,8 @@
 											]
 										},
 										"Clearly, the woman has no idea that the Clone Wars are over, nor how much time has passed since she was placed in her coma. She tells the heroes that she is a Jedi Master and that she was assigned to Plo Koon's battle group here on Cato Neimoidia. She was engaged in a pitched battle against the Separatists when a droid starfighter crashed near her, sending her into blackness. When her mind had recovered from the damage done to her body, she found herself unable to awaken or to purge her system of the drugs that were keeping her in a coma. She has been trying to reach out for help, but the only visitor to her room has been someone who seems shrouded in darkness. She doesn't know who this person is (in truth, it is Igren Demos, the majordomo) or why he or she enters the room, but she did not attempt to make contact.",
-										"{@creature Jedi Master Denia|orcnogDoDEp2|Denia} asks the heroes to help her escape, since she has clearly been held prisoner for a while. She has many questions for them and wants to learn what has happened since she was knocked unconscious. If the heroes tell her honestly what has transpired since the conclusion of the Clone Wars, she senses the truth of their words and seems disheartened, but she vows to press on and escape from the palace. If the heroes attempt to deceive her, Denia tries to sense their true motives (her Perception score is high, even when penalized, and she has a good chance to see through their ruses), but she plays along for the time being. She is eager to leave and has no desire to stay in these dungeons any longer than necessary.",
-										"The heroes probably have some questions for {@creature Jedi Master Denia|orcnogDoDEp2|Denia}. Below are some answers to common questions:",
+										"{@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Denia} asks the heroes to help her escape, since she has clearly been held prisoner for a while. She has many questions for them and wants to learn what has happened since she was knocked unconscious. If the heroes tell her honestly what has transpired since the conclusion of the Clone Wars, she senses the truth of their words and seems disheartened, but she vows to press on and escape from the palace. If the heroes attempt to deceive her, Denia tries to sense their true motives (her Perception score is high, even when penalized, and she has a good chance to see through their ruses), but she plays along for the time being. She is eager to leave and has no desire to stay in these dungeons any longer than necessary.",
+										"The heroes probably have some questions for {@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Denia}. Below are some answers to common questions:",
 										"{@b Do you know anything about Darga the Hutt or the Sarlacc Project?} \"No, I've been trapped here inside my own head for too long. I'm afraid those names mean absolutely nothing to me.\"",
 										"{@b You were a Jedi; how did you escape Order 66?} \"It wouldn't surprise me if I was thought to have been killed in battle. It's likely that this... Empire doesn't even know that I exist.\"",
 										"{@b Can you help us get you out of here?} \"I will do what I can. However, I can already feel panic rising above us. I'd say that by now, they know you've set me free.\"",
@@ -3349,8 +3349,8 @@
 							"name": "Through the Dungeons",
 							"id": "Through the Dungeons",
 							"entries": [
-								"As soon as {@creature Jedi Master Denia|orcnogDoDEp2|Denia} was freed from her comatose state, Igren Demos sensed it and awoke his Hutt master. Darga, unprepared for having a full-fledged Jedi Master on the loose in his palace, ordered Demos to ready his personal starship for immediate departure and headed to the planet Bespin within minutes. Demos remained behind, charged with eliminating the heroes and {@creature Jedi Master Denia|orcnogDoDEp2|Master Denia} as well.",
-								"Igren Demos is no fool, and though he tries to stop the heroes, he doubts that he can do it alone (see below for more on his plans). Many of the Hutt's guards are mobilized, and a contingent of warriors moves toward the dungeon area to make sure the heroes do not escape with {@creature Jedi Master Denia|orcnogDoDEp2|Denia}. Demos locks down the doors in the lower guest quarters area and the dungeon area, shutting off power to the turbolift and sealing the blast doors over the stairwell exit up to the guard room. Using a secret passage from Darga's throne room directly to the dungeon level, the guards open the secret door in the hallway outside Denia's chamber just as the heroes emerge."
+								"As soon as {@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Denia} was freed from her comatose state, Igren Demos sensed it and awoke his Hutt master. Darga, unprepared for having a full-fledged Jedi Master on the loose in his palace, ordered Demos to ready his personal starship for immediate departure and headed to the planet Bespin within minutes. Demos remained behind, charged with eliminating the heroes and {@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Master Denia} as well.",
+								"Igren Demos is no fool, and though he tries to stop the heroes, he doubts that he can do it alone (see below for more on his plans). Many of the Hutt's guards are mobilized, and a contingent of warriors moves toward the dungeon area to make sure the heroes do not escape with {@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Denia}. Demos locks down the doors in the lower guest quarters area and the dungeon area, shutting off power to the turbolift and sealing the blast doors over the stairwell exit up to the guard room. Using a secret passage from Darga's throne room directly to the dungeon level, the guards open the secret door in the hallway outside Denia's chamber just as the heroes emerge."
 							]
 						},
 						{
@@ -3366,9 +3366,9 @@
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
-												"2 x {@creature Gamorrean Jailer|orcnogDoDEp2|Gamorren Jailer}",
-												"5 x {@creature Gamorrean Warrior|orcnogDoDEp2} (CR 2)",
-												"1 x {@creature Jedi Master Denia|orcnogDoDEp2} {@color (Allied)|008e2f}",
+												"2 x {@creature Gamorrean Jailer|sw5eOrcnogDoDEp2|Gamorren Jailer}",
+												"5 x {@creature Gamorrean Warrior|sw5eOrcnogDoDEp2} (CR 2)",
+												"1 x {@creature Jedi Master Denia|sw5eOrcnogDoDEp2} {@color (Allied)|008e2f}",
 												"<hr/>",
 												"See: {@area Out of Captivity Encounter Map|Out of Captivity Encounter Map|x}"
 											]
@@ -3467,7 +3467,7 @@
 							"name": "The Majordomo",
 							"id": "The Majordomo",
 							"entries": [
-								"As soon as Igren Demos learned that the Hutt was abandoning his palace and that the Jedi Master had been freed, he began putting a plan into motion to prevent the prisoner from escaping. Demos has secretly been in contact with Imperial Inquisitor Valin Draco, a former Jedi who pledged himself to the service of the Empire after witnessing the horrors of the Clone Wars. Demos has hidden his Force sensitivity from the Inquisitor thus far, and he hopes that his alliance with the Empire will help him supplant Darga and seize control of the organization for his own. When the Hutt flees aboard his personal yacht to Bespin, Igren Demos dispatches the Gamorreans to delay the heroes and {@creature Jedi Master Denia|orcnogDoDEp2|Denia} while the majordomo makes contact with Inquisitor Draco via the Holonet. Demos implores the Inquisitor to come to Cato Neimoidia quickly because he has cornered a surviving Jedi Master. Demos hopes to turn {@creature Jedi Master Denia|orcnogDoDEp2|Denia} over to the Inquisitorius in exchange for their assistance in making sure that Darga never returns to Cato Neimoidia.",
+								"As soon as Igren Demos learned that the Hutt was abandoning his palace and that the Jedi Master had been freed, he began putting a plan into motion to prevent the prisoner from escaping. Demos has secretly been in contact with Imperial Inquisitor Valin Draco, a former Jedi who pledged himself to the service of the Empire after witnessing the horrors of the Clone Wars. Demos has hidden his Force sensitivity from the Inquisitor thus far, and he hopes that his alliance with the Empire will help him supplant Darga and seize control of the organization for his own. When the Hutt flees aboard his personal yacht to Bespin, Igren Demos dispatches the Gamorreans to delay the heroes and {@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Denia} while the majordomo makes contact with Inquisitor Draco via the Holonet. Demos implores the Inquisitor to come to Cato Neimoidia quickly because he has cornered a surviving Jedi Master. Demos hopes to turn {@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Denia} over to the Inquisitorius in exchange for their assistance in making sure that Darga never returns to Cato Neimoidia.",
 								"Unfortunately for Demos, he did not plan on the heroes' resourcefulness. When they make their way up through the secret passage (as all other avenues are currently blocked), they arrive in thethrone room just as Inquisitor Draco finishes telling Demos that he is on his way. Read the following boxed text aloud:",
 								{
 									"type": "insetReadaloud",
@@ -3478,7 +3478,7 @@
 										"The hologram fades, and the Neimoidian straightens slowly, looking pale."
 									]
 								},
-								"After finishing his communication with Draco, the majordomo waits in the throne room with his Trandoshan bodyguard and four Gamorrean guards. The heroes need to pass through this room if they want to leave the palace. If the heroes are spotted, Demos orders his guards to attack and attempts to stop them from leaving with {@creature Jedi Master Denia|orcnogDoDEp2|Denia}."
+								"After finishing his communication with Draco, the majordomo waits in the throne room with his Trandoshan bodyguard and four Gamorrean guards. The heroes need to pass through this room if they want to leave the palace. If the heroes are spotted, Demos orders his guards to attack and attempts to stop them from leaving with {@creature Jedi Master Denia|sw5eOrcnogDoDEp2|Denia}."
 							]
 						},
 						{
@@ -3494,10 +3494,10 @@
 											"type": "list",
 											"style": "list-no-bullets",
 											"items": [
-												"1 x {@creature Igren Demos|orcnogDoDEp2}",
-												"5 x {@creature Gamorrean Warrior|orcnogDoDEp2}",
-												"1 x {@creature Trandoshan Bodyguard|orcnogDoDEp2}",
-												"1 x {@creature Jedi Master Denia|orcnogDoDEp2} {@color (Allied)|008e2f}",
+												"1 x {@creature Igren Demos|sw5eOrcnogDoDEp2}",
+												"5 x {@creature Gamorrean Warrior|sw5eOrcnogDoDEp2}",
+												"1 x {@creature Trandoshan Bodyguard|sw5eOrcnogDoDEp2}",
+												"1 x {@creature Jedi Master Denia|sw5eOrcnogDoDEp2} {@color (Allied)|008e2f}",
 												"<hr/>",
 												"See: {@area Confrontation with Demos Encounter Map|Confrontation with Demos Encounter Map|x}"
 											]
@@ -3552,7 +3552,7 @@
 									"type": "entries",
 									"name": "Gamorrean Warriors (5)",
 									"entries": [
-										"See: {@creature Gamorrean Warrior|orcnogDoDEp2} statblock.",
+										"See: {@creature Gamorrean Warrior|sw5eOrcnogDoDEp2} statblock.",
 										{
 											"type": "entries",
 											"name": "Gamorrean Warrior Tactics",

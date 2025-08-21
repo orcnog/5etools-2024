@@ -28,13 +28,13 @@
 
 * [ ] **Pick a convention for source Abbreviations**, and convert all to follow it. Maybe follow MCDM conventions, or other prominent homebrew contributors?
 
-* [ ] **Pick a convention for Encounter blocks** inside adventure text, and convert all to follow it. Check for conventions in other prominent homebrew contributors... if none exist, consider sticking with the _DoD_ encounter blocks I have used (see: [example encounter from _A Wretched Hive_](https://5e.orcnog.com/adventure.html#orcnogdodep2,1,swoop%20marauders%20encounter%20\(cr%203\),0)).
+* [x] **Pick a convention for Encounter blocks** inside adventure text, and convert all to follow it. Check for conventions in other prominent homebrew contributors... if none exist, consider sticking with the _DoD_ encounter blocks I have used (see: [example encounter from _A Wretched Hive_](https://5e.orcnog.com/adventure.html#sw5eOrcnogDoDEp2,1,swoop%20marauders%20encounter%20\(cr%203\),0)).
 
-* [ ] **Pick a convention for DM Action Prompts** inside adventure text, such as "[ DC 10 Investigation Check: If the players investigate the orb, read the following: ]"
+* [x] **Pick a convention for DM Action Prompts** inside adventure text, such as "[ DC 10 Investigation Check: If the players investigate the orb, read the following: ]"
 
 * [ ] **Add token images to all custom creatures**. (and maybe fluff images too?)
 
-* [ ] **Finish converting the _House of Elazar_ adventure.**
+* [ ] **Finish converting the _House of Elazar_ adventure.** - Need to at least create Elazar's statblock, balance the boss fight for party sizes, and add mid-fight notes.
 
 * [ ] **Finish converting Rugosa adventure.**
 

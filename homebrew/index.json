@@ -13,11 +13,12 @@
 		"dnd/adventure/adventure_twc.json",
 		"dnd/book/book_odmg.json",
 		"sw5e/sw5e.json",
-		"sw5e/adventure/DoD/ep1_traitors_gambit/adventure.json",
-		"sw5e/adventure/DoD/ep2_wretched_hive/adventure.json",
+		"sw5e/adventure/DoD/ep1_traitors_gambit/adventure_sw5eOrcnogDoDEp1.json",
+		"sw5e/adventure/DoD/ep2_wretched_hive/adventure_sw5eOrcnogDoDEp2.json",
 		"sw5e/adventure/Halcyon/creatures.json",
 		"sw5e/adventure/ImperialDecryptor/creatures.json",
 		"sw5e/adventure/LostTemple/creatures.json",
-		"sw5e/adventure/Rugosa/adventure.json"
+		"sw5e/adventure/Rugosa/adventure.json",
+		"content-blocklist.json"
 	]
 }
