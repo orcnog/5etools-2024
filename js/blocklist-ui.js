@@ -253,6 +253,11 @@ class BlocklistUi {
 		this._pInit_initUi();
 		this._pInit_render();
 		this._renderList();
+
+		// Listen for exclusion changes from navigation buttons
+		window.addEventListener("exclusionsChanged", () => {
+			this._refreshListFromStorage();
+		});
 	}
 
 	_pInit_initUi () {
@@ -333,6 +338,27 @@ class BlocklistUi {
 			.onn("click", () => this._addAllNonModernSources());
 		const btnIncludeModernSources = this._getBtn_removeFromBlocklist()
 			.onn("click", () => this._removeAllModernSources());
+
+		const btnExcludeSW5eSources = this._getBtn_addToBlocklist()
+			.onn("click", () => this._addAllSW5eSources());
+		const btnIncludeSW5eSources = this._getBtn_removeFromBlocklist()
+			.onn("click", () => this._removeAllSW5eSources());
+		const btnExcludeNonSW5eSources = this._getBtn_addToBlocklist()
+			.onn("click", () => {
+				this._addAllNonSW5eSources();
+				this._addPHBItemsAndSpells();
+			});
+		const btnIncludeNonSW5eSources = this._getBtn_removeFromBlocklist()
+			.onn("click", () => {
+				this._removeAllNonSW5eSources();
+				this._removePHBItemsAndSpells();
+			});
+
+		const btnExcludeHomebrewSources = this._getBtn_addToBlocklist()
+			.onn("click", () => this._addAllHomebrewSources());
+		const btnIncludeHomebrewSources = this._getBtn_removeFromBlocklist()
+			.onn("click", () => this._removeAllHomebrewSources());
+
 		// endregion
 
 		// region Primary controls
@@ -434,6 +460,33 @@ class BlocklistUi {
 				<div class="ve-flex-v-center ve-btn-group">
 					${btnExcludeAllSources}
 					${btnIncludeAllSources}
+				</div>
+			</div>
+		</div>
+
+		<div class="${this._isCompactUi ? "mb-2" : "mb-5"} ve-flex-v-center mobile__ve-flex-col mobile__ve-flex-ai-start">
+
+			<div class="ve-flex-vh-center mr-3 mobile__mr-0 mobile__mb-2">
+				<div class="mr-2"><em>Star Wars</em> Sources</div>
+				<div class="ve-flex-v-center ve-btn-group">
+					${btnExcludeSW5eSources}
+					${btnIncludeSW5eSources}
+				</div>
+			</div>
+
+			<div class="ve-flex-vh-center mr-3 mobile__mr-0 mobile__mb-2">
+				<div class="mr-2">Non-<em>Star Wars</em> Sources</div>
+				<div class="ve-flex-v-center ve-btn-group">
+					${btnExcludeNonSW5eSources}
+					${btnIncludeNonSW5eSources}
+				</div>
+			</div>
+
+			<div class="ve-flex-vh-center mr-3 mobile__mr-0 mobile__mb-2">
+				<div class="mr-2">All Homebrew Sources</div>
+				<div class="ve-flex-v-center ve-btn-group">
+					${btnExcludeHomebrewSources}
+					${btnIncludeHomebrewSources}
 				</div>
 			</div>
 		</div>
@@ -702,6 +755,38 @@ class BlocklistUi {
 	_addAllNonModernSources () { this._addMassSources({fnFilter: source => !SourceUtil.isClassicSource(source)}); }
 	_removeAllModernSources () { this._removeMassSources({fnFilter: source => !SourceUtil.isClassicSource(source)}); }
 
+	_addAllSW5eSources () { this._addMassSources({fnFilter: source => source.startsWith("sw5e")}); }
+	_removeAllSW5eSources () { this._removeMassSources({fnFilter: source => source.startsWith("sw5e")}); }
+
+	_addAllNonSW5eSources () { this._addMassSources({fnFilter: source => !source.startsWith("sw5e") && source !== "PHB"}); }
+	_removeAllNonSW5eSources () { this._removeMassSources({fnFilter: source => !source.startsWith("sw5e")}); }
+
+	_addAllHomebrewSources () { this._addMassSources({fnFilter: source => BrewUtil2.getSources().map(s => s.json).includes(source)}); }
+	_removeAllHomebrewSources () { this._removeMassSources({fnFilter: source => BrewUtil2.getSources().map(s => s.json).includes(source)}); }
+
+	_addPHBItemsAndSpells () {
+		// Add PHB items and spells to blocklist
+		this._addExclude("*", "*", "item", "PHB");
+		this._addExclude("*", "*", "spell", "PHB");
+		this._addListItem("*", "*", "item", "PHB");
+		this._addListItem("*", "*", "spell", "PHB");
+		this._list.update();
+	}
+
+	_removePHBItemsAndSpells () {
+		// Find and remove PHB items and spells from the list
+		const phbItems = this._list.items.find(it => it.data.hash === "*" && it.data.category === "item" && it.data.source === "PHB");
+		const phbSpells = this._list.items.find(it => it.data.hash === "*" && it.data.category === "spell" && it.data.source === "PHB");
+
+		if (phbItems) {
+			this._remove(phbItems.ix, "*", "item", "PHB", {isSkipListUpdate: true});
+		}
+		if (phbSpells) {
+			this._remove(phbSpells.ix, "*", "spell", "PHB", {isSkipListUpdate: true});
+		}
+		this._list.update();
+	}
+
 	_remove (ix, hash, category, source, {isSkipListUpdate = false} = {}) {
 		this._removeExclude(hash, category, source);
 		this._list.removeItemByIndex(ix);
@@ -749,6 +834,15 @@ class BlocklistUi {
 		this._resetExcludes();
 		this._list.removeAllItems();
 		this._list.update();
+	}
+
+	_refreshListFromStorage () {
+		// Update the excludes from storage
+		this._excludes = ExcludeUtil.getList();
+
+		// Clear and re-render the list
+		this._list.removeAllItems();
+		this._renderList();
 	}
 }
 

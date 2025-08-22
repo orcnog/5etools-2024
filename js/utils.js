@@ -8770,9 +8770,20 @@ globalThis.ExcludeUtil = {
 
 		ExcludeUtil.pSave = MiscUtil.throttle(ExcludeUtil._pSave, 50);
 		try {
-			ExcludeUtil._excludes = ExcludeUtil._getValidExcludes(
-				await StorageUtil.pGet(VeCt.STORAGE_EXCLUDES) || [],
-			);
+			let storedExcludes = await StorageUtil.pGet(VeCt.STORAGE_EXCLUDES) || [];
+			const hasEverBeenInitialized = await StorageUtil.pGet(VeCt.STORAGE_EXCLUDES + "_initialized") || false;
+
+			// Only add default homebrew exclusions if this is the very first time
+			// (no stored exclusions AND never been initialized before)
+			if (storedExcludes.length === 0 && !hasEverBeenInitialized) {
+				storedExcludes = ExcludeUtil._getDefaultHomebrewExclusions();
+				// Mark that we've been initialized so we don't re-add defaults
+				await StorageUtil.pSet(VeCt.STORAGE_EXCLUDES + "_initialized", true);
+				// Save the default exclusions to storage immediately
+				await StorageUtil.pSet(VeCt.STORAGE_EXCLUDES, storedExcludes);
+			}
+
+			ExcludeUtil._excludes = ExcludeUtil._getValidExcludes(storedExcludes);
 		} catch (e) {
 			JqueryUtil.doToast({
 				content: "Error when loading content blocklist! Purged blocklist data. (See the log for more information.)",
@@ -8788,6 +8799,25 @@ globalThis.ExcludeUtil = {
 			setTimeout(() => { throw e; });
 		}
 		ExcludeUtil.isInitialised = true;
+	},
+
+	_getDefaultHomebrewExclusions () {
+		const defaultExcludes = [];
+
+		// Add all homebrew sources as excluded by default
+		if (typeof BrewUtil2 !== "undefined") {
+			const homebrewSources = BrewUtil2.getSources().map(s => s.json);
+			homebrewSources.forEach(source => {
+				defaultExcludes.push({
+					displayName: "*",
+					hash: "*",
+					category: "*",
+					source: source,
+				});
+			});
+		}
+
+		return defaultExcludes;
 	},
 
 	_getValidExcludes (excludes) {
