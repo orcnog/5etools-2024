@@ -18,7 +18,6 @@
 		"sw5e/adventure/Halcyon/creatures.json",
 		"sw5e/adventure/ImperialDecryptor/creatures.json",
 		"sw5e/adventure/LostTemple/creatures.json",
-		"sw5e/adventure/Rugosa/adventure.json",
-		"content-blocklist.json"
+		"sw5e/adventure/Rugosa/adventure.json"
 	]
 }

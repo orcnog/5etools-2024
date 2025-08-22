@@ -85,8 +85,8 @@ export class StyleSwitcher {
 	}
 
 	static _getDefaultStyleDayNight () {
-		if (window.matchMedia("(prefers-color-scheme: dark)").matches) return StyleSwitcher._STYLE_NIGHT;
-		return StyleSwitcher._STYLE_DAY;
+		// if (window.matchMedia("(prefers-color-scheme: dark)").matches) return StyleSwitcher._STYLE_NIGHT;
+		return StyleSwitcher._STYLE_NIGHT;
 	}
 
 	_setActiveDayNight (style) {
