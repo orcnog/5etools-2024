@@ -142,7 +142,7 @@ class NavBar {
 					},
 					{
 						html: "Disable",
-						className: "ve-btn ve-btn-default ve-btn-xxs",
+						className: "ve-btn ve-btn-danger b-0 ve-btn-xxs",
 						click: async evt => {
 							evt.stopPropagation();
 							evt.preventDefault();
@@ -151,7 +151,7 @@ class NavBar {
 					},
 					{
 						html: "Enable",
-						className: "ve-btn b-0 ve-btn-danger ve-btn-xxs mx-2",
+						className: "ve-btn b-0 ve-btn-info b-0 ve-btn-xxs mx-2",
 						click: async evt => {
 							evt.stopPropagation();
 							evt.preventDefault();
@@ -172,7 +172,7 @@ class NavBar {
 					},
 					{
 						html: "Disable",
-						className: "ve-btn ve-btn-default ve-btn-xxs",
+						className: "ve-btn ve-btn-danger b-0 ve-btn-xxs",
 						click: async evt => {
 							evt.stopPropagation();
 							evt.preventDefault();
@@ -181,41 +181,11 @@ class NavBar {
 					},
 					{
 						html: "Enable",
-						className: "ve-btn b-0 ve-btn-info ve-btn-xxs mx-2",
+						className: "ve-btn b-0 ve-btn-info b-0 ve-btn-xxs mx-2",
 						click: async evt => {
 							evt.stopPropagation();
 							evt.preventDefault();
 							await SourcesToggle.removeAllSW5eSources();
-						},
-					},
-				],
-			},
-		);
-		this._addElement_buttonSplit(
-			NavBar._CAT_UTILITIES,
-			{
-				wrapperClasses: "ve-flex-v-center pt-2 px-4 w-100",
-				metas: [
-					{
-						html: "Homebrew Sources",
-						className: "ve-grow px-2",
-					},
-					{
-						html: "Disable",
-						className: "ve-btn ve-btn-default ve-btn-xxs",
-						click: async evt => {
-							evt.stopPropagation();
-							evt.preventDefault();
-							await SourcesToggle.addAllHomebrewSources();
-						},
-					},
-					{
-						html: "Enable",
-						className: "ve-btn b-0 ve-btn-success ve-btn-xxs mx-2",
-						click: async evt => {
-							evt.stopPropagation();
-							evt.preventDefault();
-							await SourcesToggle.removeAllHomebrewSources();
 						},
 					},
 				],
@@ -1004,7 +974,7 @@ class SourcesToggle {
 		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
 			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
 		} else {
-			window.location.reload();
+			window.location.href = "/blocklist.html";
 		}
 	}
 
@@ -1024,7 +994,7 @@ class SourcesToggle {
 		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
 			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
 		} else {
-			window.location.reload();
+			window.location.href = "/blocklist.html";
 		}
 	}
 
@@ -1067,64 +1037,11 @@ class SourcesToggle {
 		const currentExcludes = ExcludeUtil.getList();
 		const sw5eSources = this._getSW5eSources();
 
-		console.log("Current excludes:", currentExcludes);
-		console.log("SW5e sources to remove:", sw5eSources);
-
 		// Remove all SW5e sources from blocklist
 		const newExcludes = currentExcludes.filter(ex =>
 			!(ex.category === "*" && ex.hash === "*" && sw5eSources.includes(ex.source)),
 		);
 
-		console.log("New excludes after filtering:", newExcludes);
-
-		await ExcludeUtil.pSetList(newExcludes);
-
-		// Refresh the page to apply changes (but not on blocklist page)
-		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
-			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
-		} else {
-			window.location.reload();
-		}
-	}
-
-	static async addAllHomebrewSources () {
-		await ExcludeUtil.pInitialise();
-
-		const currentExcludes = ExcludeUtil.getList();
-		const homebrewSources = this._getHomebrewSources();
-
-		// Add all homebrew sources to blocklist
-		const newExcludes = [...currentExcludes];
-		homebrewSources.forEach(source => {
-			if (!currentExcludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
-				newExcludes.push({
-					displayName: "*",
-					hash: "*",
-					category: "*",
-					source: source,
-				});
-			}
-		});
-		await ExcludeUtil.pSetList(newExcludes);
-
-		// Refresh the page to apply changes (but not on blocklist page)
-		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
-			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
-		} else {
-			window.location.reload();
-		}
-	}
-
-	static async removeAllHomebrewSources () {
-		await ExcludeUtil.pInitialise();
-
-		const currentExcludes = ExcludeUtil.getList();
-		const homebrewSources = this._getHomebrewSources();
-
-		// Remove all homebrew sources from blocklist
-		const newExcludes = currentExcludes.filter(ex =>
-			!(ex.category === "*" && ex.hash === "*" && homebrewSources.includes(ex.source)),
-		);
 		await ExcludeUtil.pSetList(newExcludes);
 
 		// Refresh the page to apply changes (but not on blocklist page)
