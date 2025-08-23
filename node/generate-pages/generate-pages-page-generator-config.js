@@ -60,7 +60,6 @@ class _PageGeneratorBlocklist extends PageGeneratorGeneric {
 	_navbarDescription = "Exclude content and export configurations.";
 
 	_scripts = [
-		"blocklist-ui.js",
 		"blocklist.js",
 	];
 }

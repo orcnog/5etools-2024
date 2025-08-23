@@ -141,26 +141,77 @@ class NavBar {
 						className: "ve-grow px-2",
 					},
 					{
-						html: "Disable",
+						html: "Block",
 						className: "ve-btn ve-btn-danger b-0 ve-btn-xxs",
 						click: async evt => {
 							evt.stopPropagation();
 							evt.preventDefault();
-							await SourcesToggle.addAllModernSources();
+							await BlocklistUi.addAllModernSources();
 						},
 					},
 					{
-						html: "Enable",
+						html: "Unblock",
 						className: "ve-btn b-0 ve-btn-info b-0 ve-btn-xxs mx-2",
 						click: async evt => {
 							evt.stopPropagation();
 							evt.preventDefault();
-							await SourcesToggle.removeAllModernSources();
+							await BlocklistUi.removeAllModernSources();
 						},
 					},
 				],
 			},
 		);
+
+		// Add blocklist button synchronously if content-blocklist.json exists and has entries
+		try {
+			const request = new XMLHttpRequest();
+			request.open("GET", "./homebrew/content-blocklist.json", false); // false = synchronous
+			request.send();
+
+			if (request.status === 200) {
+				const blocklistData = JSON.parse(request.responseText);
+				const blocklist = blocklistData.blocklist || [];
+
+				if (blocklist.length > 0) {
+					const listName = blocklistData._meta?.sources?.[0]?.full || "Default Blocklist";
+
+					this._addElement_buttonSplit(
+						NavBar._CAT_UTILITIES,
+						{
+							wrapperClasses: "ve-flex-v-center pt-2 px-4 w-100",
+							metas: [
+								{
+									html: listName,
+									className: "ve-grow px-2",
+								},
+								{
+									html: "Block",
+									className: "ve-btn ve-btn-danger b-0 ve-btn-xxs",
+									click: async evt => {
+										evt.stopPropagation();
+										evt.preventDefault();
+										await BlocklistUi.addSourcesFromFile("./homebrew/content-blocklist.json");
+									},
+								},
+								{
+									html: "Unblock",
+									className: "ve-btn b-0 ve-btn-info b-0 ve-btn-xxs mx-2",
+									click: async evt => {
+										evt.stopPropagation();
+										evt.preventDefault();
+										await BlocklistUi.removeSourcesFromFile("./homebrew/content-blocklist.json");
+									},
+								},
+							],
+						},
+					);
+				}
+			}
+		} catch (error) {
+			// Silently fail if file doesn't exist or can't be loaded
+			console.warn("No content-blocklist.json found or failed to load:", error);
+		}
+
 		this._addElement_buttonSplit(
 			NavBar._CAT_UTILITIES,
 			{
@@ -171,21 +222,21 @@ class NavBar {
 						className: "ve-grow px-2",
 					},
 					{
-						html: "Disable",
+						html: "Block",
 						className: "ve-btn ve-btn-danger b-0 ve-btn-xxs",
 						click: async evt => {
 							evt.stopPropagation();
 							evt.preventDefault();
-							await SourcesToggle.addAllSW5eSources();
+							await BlocklistUi.addAllSW5eSources();
 						},
 					},
 					{
-						html: "Enable",
+						html: "Unblock",
 						className: "ve-btn b-0 ve-btn-info b-0 ve-btn-xxs mx-2",
 						click: async evt => {
 							evt.stopPropagation();
 							evt.preventDefault();
-							await SourcesToggle.removeAllSW5eSources();
+							await BlocklistUi.removeAllSW5eSources();
 						},
 					},
 				],
@@ -948,130 +999,7 @@ NavBar._timersClose = {};
 NavBar._timerMousePos = {};
 NavBar._cachedInstallEvent = null;
 
-// Sources Toggle functionality
-class SourcesToggle {
-	static async addAllModernSources () {
-		await ExcludeUtil.pInitialise();
-
-		const currentExcludes = ExcludeUtil.getList();
-		const modernSources = this._get2024Sources();
-
-		// Add all modern sources to blocklist
-		const newExcludes = [...currentExcludes];
-		modernSources.forEach(source => {
-			if (!currentExcludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
-				newExcludes.push({
-					displayName: "*",
-					hash: "*",
-					category: "*",
-					source: source,
-				});
-			}
-		});
-		await ExcludeUtil.pSetList(newExcludes);
-
-		// Refresh the page to apply changes (but not on blocklist page)
-		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
-			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
-		} else {
-			window.location.href = "/blocklist.html";
-		}
-	}
-
-	static async removeAllModernSources () {
-		await ExcludeUtil.pInitialise();
-
-		const currentExcludes = ExcludeUtil.getList();
-		const modernSources = this._get2024Sources();
-
-		// Remove all modern sources from blocklist
-		const newExcludes = currentExcludes.filter(ex =>
-			!(ex.category === "*" && ex.hash === "*" && modernSources.includes(ex.source)),
-		);
-		await ExcludeUtil.pSetList(newExcludes);
-
-		// Refresh the page to apply changes (but not on blocklist page)
-		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
-			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
-		} else {
-			window.location.href = "/blocklist.html";
-		}
-	}
-
-	static async addAllSW5eSources () {
-		await ExcludeUtil.pInitialise();
-
-		const currentExcludes = ExcludeUtil.getList();
-		const modernSources = this._getSW5eSources();
-
-		// Add all modern sources to blocklist
-		const newExcludes = [...currentExcludes];
-		modernSources.forEach(source => {
-			if (!currentExcludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
-				newExcludes.push({
-					displayName: "*",
-					hash: "*",
-					category: "*",
-					source: source,
-				});
-			}
-		});
-		await ExcludeUtil.pSetList(newExcludes);
-
-		// Refresh the page to apply changes (but not on blocklist page)
-		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
-			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
-		} else {
-			window.location.reload();
-		}
-	}
-
-	static async removeAllSW5eSources () {
-		await ExcludeUtil.pInitialise();
-
-		// Ensure BrewUtil2 is initialized
-		if (typeof BrewUtil2 !== "undefined") {
-			await BrewUtil2.pInit();
-		}
-
-		const currentExcludes = ExcludeUtil.getList();
-		const sw5eSources = this._getSW5eSources();
-
-		// Remove all SW5e sources from blocklist
-		const newExcludes = currentExcludes.filter(ex =>
-			!(ex.category === "*" && ex.hash === "*" && sw5eSources.includes(ex.source)),
-		);
-
-		await ExcludeUtil.pSetList(newExcludes);
-
-		// Refresh the page to apply changes (but not on blocklist page)
-		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
-			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
-		} else {
-			window.location.reload();
-		}
-	}
-
-	static _get2024Sources () {
-		// Get all sources that are NOT classic (i.e., modern sources)
-		return Object.keys(Parser.SOURCE_JSON_TO_DATE)
-			.filter(source => !SourceUtil.isClassicSource(source));
-	}
-
-	static _getSW5eSources () {
-		// Get homebrew sources from BrewUtil2
-		const homebrewSources = typeof BrewUtil2 !== "undefined" ? BrewUtil2.getSources().map(s => s.json) : [];
-		// Filter to only SW5e sources (those starting with "sw5e")
-		return homebrewSources.filter(source => source.startsWith("sw5e"));
-	}
-
-	static _getHomebrewSources () {
-		// Get homebrew sources from BrewUtil2
-		const homebrewSources = typeof BrewUtil2 !== "undefined" ? BrewUtil2.getSources().map(s => s.json) : [];
-		// Filter to only homebrew sources (those not starting with "sw5e")
-		return homebrewSources.filter(source => !source.startsWith("sw5e"));
-	}
-}
+// Sources Toggle functionality moved to BlocklistUi class
 
 NavBar.InteractionManager = class {
 	static async _pOnClick_button_saveStateFile (evt) {

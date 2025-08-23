@@ -844,6 +844,231 @@ class BlocklistUi {
 		this._list.removeAllItems();
 		this._renderList();
 	}
+
+	// Static methods for external use
+	static async addSourcesFromFile (filePath) {
+		await ExcludeUtil.pInitialise();
+
+		try {
+			const blocklistData = await DataUtil.loadJSON(filePath);
+			const blocklist = blocklistData.blocklist || [];
+			const listName = blocklistData._meta?.sources?.[0]?.full || "Default Blocklist";
+
+			if (!blocklist.length) {
+				JqueryUtil.doToast({type: "warning", content: "No blocklist entries found in the file."});
+				return;
+			}
+
+			const currentExcludes = ExcludeUtil.getList();
+			const newExcludes = [...currentExcludes, ...blocklist];
+			await ExcludeUtil.pSetList(newExcludes);
+
+			JqueryUtil.doToast({
+				type: "success",
+				content: `${listName}: ${blocklist.length} entries added to blocklist.`,
+			});
+
+			// Refresh if on blocklist page
+			if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
+				window.dispatchEvent(new Event("exclusionsChanged"));
+			}
+		} catch (error) {
+			JqueryUtil.doToast({
+				type: "danger",
+				content: `Failed to load blocklist: ${error.message}`,
+			});
+		}
+	}
+
+	static async removeSourcesFromFile (filePath) {
+		await ExcludeUtil.pInitialise();
+
+		try {
+			const blocklistData = await DataUtil.loadJSON(filePath);
+			const blocklist = blocklistData.blocklist || [];
+			const listName = blocklistData._meta?.sources?.[0]?.full || "Default Blocklist";
+
+			if (!blocklist.length) {
+				JqueryUtil.doToast({type: "warning", content: "No blocklist entries found in the file."});
+				return;
+			}
+
+			const currentExcludes = ExcludeUtil.getList();
+			const sourcesToRemove = new Set(blocklist.map(item => item.source));
+			const newExcludes = currentExcludes.filter(ex => !sourcesToRemove.has(ex.source));
+			const removedCount = currentExcludes.length - newExcludes.length;
+			await ExcludeUtil.pSetList(newExcludes);
+
+			JqueryUtil.doToast({
+				type: "success",
+				content: `${listName}: ${removedCount} entries removed from blocklist.`,
+			});
+
+			// Refresh if on blocklist page
+			if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
+				window.dispatchEvent(new Event("exclusionsChanged"));
+			}
+		} catch (error) {
+			JqueryUtil.doToast({
+				type: "danger",
+				content: `Failed to load blocklist: ${error.message}`,
+			});
+		}
+	}
+
+	// Source toggle functionality (moved from navigation.js)
+	static async addAllModernSources () {
+		await ExcludeUtil.pInitialise();
+
+		const currentExcludes = ExcludeUtil.getList();
+		const modernSources = this._get2024Sources();
+
+		// Add all modern sources to blocklist
+		const newExcludes = [...currentExcludes];
+		let addedCount = 0;
+		modernSources.forEach(source => {
+			if (!currentExcludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
+				newExcludes.push({
+					displayName: "*",
+					hash: "*",
+					category: "*",
+					source: source,
+				});
+				addedCount++;
+			}
+		});
+		await ExcludeUtil.pSetList(newExcludes);
+
+		// Show success message
+		JqueryUtil.doToast({
+			type: "success",
+			content: `5.5E Sources: ${addedCount} entries added to blocklist.`,
+		});
+
+		// Refresh the page to apply changes (but not on blocklist page)
+		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
+			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
+		} else {
+			window.location.href = "/blocklist.html";
+		}
+	}
+
+	static async removeAllModernSources () {
+		await ExcludeUtil.pInitialise();
+
+		const currentExcludes = ExcludeUtil.getList();
+		const modernSources = this._get2024Sources();
+
+		// Remove all modern sources from blocklist
+		const newExcludes = currentExcludes.filter(ex =>
+			!(ex.category === "*" && ex.hash === "*" && modernSources.includes(ex.source)),
+		);
+		const removedCount = currentExcludes.length - newExcludes.length;
+		await ExcludeUtil.pSetList(newExcludes);
+
+		// Show success message
+		JqueryUtil.doToast({
+			type: "success",
+			content: `5.5E Sources: ${removedCount} entries removed from blocklist.`,
+		});
+
+		// Refresh the page to apply changes (but not on blocklist page)
+		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
+			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
+		} else {
+			window.location.href = "/blocklist.html";
+		}
+	}
+
+	static async addAllSW5eSources () {
+		await ExcludeUtil.pInitialise();
+
+		const currentExcludes = ExcludeUtil.getList();
+		const modernSources = this._getSW5eSources();
+
+		// Add all modern sources to blocklist
+		const newExcludes = [...currentExcludes];
+		let addedCount = 0;
+		modernSources.forEach(source => {
+			if (!currentExcludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
+				newExcludes.push({
+					displayName: "*",
+					hash: "*",
+					category: "*",
+					source: source,
+				});
+				addedCount++;
+			}
+		});
+		await ExcludeUtil.pSetList(newExcludes);
+
+		// Show success message
+		JqueryUtil.doToast({
+			type: "success",
+			content: `Star Wars Sources: ${addedCount} entries added to blocklist.`,
+		});
+
+		// Refresh the page to apply changes (but not on blocklist page)
+		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
+			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
+		} else {
+			window.location.reload();
+		}
+	}
+
+	static async removeAllSW5eSources () {
+		await ExcludeUtil.pInitialise();
+
+		// Ensure BrewUtil2 is initialized
+		if (typeof BrewUtil2 !== "undefined") {
+			await BrewUtil2.pInit();
+		}
+
+		const currentExcludes = ExcludeUtil.getList();
+		const sw5eSources = this._getSW5eSources();
+
+		// Remove all SW5e sources from blocklist
+		const newExcludes = currentExcludes.filter(ex =>
+			!(ex.category === "*" && ex.hash === "*" && sw5eSources.includes(ex.source)),
+		);
+		const removedCount = currentExcludes.length - newExcludes.length;
+
+		await ExcludeUtil.pSetList(newExcludes);
+
+		// Show success message
+		JqueryUtil.doToast({
+			type: "success",
+			content: `Star Wars Sources: ${removedCount} entries removed from blocklist.`,
+		});
+
+		// Refresh the page to apply changes (but not on blocklist page)
+		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
+			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
+		} else {
+			window.location.reload();
+		}
+	}
+
+	// Helper methods for source filtering
+	static _get2024Sources () {
+		// Get all sources that are NOT classic (i.e., modern sources)
+		return Object.keys(Parser.SOURCE_JSON_TO_DATE)
+			.filter(source => !SourceUtil.isClassicSource(source));
+	}
+
+	static _getSW5eSources () {
+		// Get homebrew sources from BrewUtil2
+		const homebrewSources = typeof BrewUtil2 !== "undefined" ? BrewUtil2.getSources().map(s => s.json) : [];
+		// Filter to only SW5e sources (those starting with "sw5e")
+		return homebrewSources.filter(source => source.startsWith("sw5e"));
+	}
+
+	static _getHomebrewSources () {
+		// Get homebrew sources from BrewUtil2
+		const homebrewSources = typeof BrewUtil2 !== "undefined" ? BrewUtil2.getSources().map(s => s.json) : [];
+		// Filter to only homebrew sources (those not starting with "sw5e")
+		return homebrewSources.filter(source => !source.startsWith("sw5e"));
+	}
 }
 
 globalThis.BlocklistUi = BlocklistUi;
