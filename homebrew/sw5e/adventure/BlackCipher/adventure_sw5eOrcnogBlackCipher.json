@@ -215,6 +215,9 @@
 			"storyline": "Star Wars One-Shot",
 			"contents": [
 				{
+					"name": "Running this Adventure"
+				},
+				{
 					"name": "Cold Open"
 				},
 				{
@@ -234,7 +237,11 @@
 							"depth": 2
 						},
 						{
-							"header": "Sensor Array Node",
+							"header": "The Mechanic",
+							"depth": 2
+						},
+						{
+							"header": "Sensor Array Node Encounter",
 							"depth": 1
 						}
 					]
@@ -270,6 +277,10 @@
 						{
 							"header": "The Finish Line",
 							"depth": 1
+						},
+						{
+							"header": "Speeder Chase",
+							"depth": 1
 						}
 					]
 				},
@@ -279,6 +290,14 @@
 						"The Entrance Puzzle",
 						"The Corridor Crawl",
 						{
+							"header": "Supply Closet",
+							"depth": 1
+						},
+						{
+							"header": "Weapons Cache",
+							"depth": 1
+						},
+						{
 							"header": "Corridor Encounter",
 							"depth": 1
 						},
@@ -286,7 +305,7 @@
 						"The Nexus Chamber Door Puzzle",
 						"The Nexus Chamber",
 						{
-							"header": "The Final Ambush",
+							"header": "The Final Ambush Encounter",
 							"depth": 1
 						},
 						{
@@ -294,11 +313,15 @@
 							"depth": 1
 						},
 						{
-							"header": "The Catwalk Twelve",
+							"header": "The Ambush Mechanics",
 							"depth": 2
 						},
 						{
 							"header": "Threats to Caspar",
+							"depth": 2
+						},
+						{
+							"header": "Nexus Chamber Ambush",
 							"depth": 2
 						},
 						{
@@ -310,10 +333,22 @@
 							"depth": 1
 						},
 						{
+							"header": "Black Cipher Finale",
+							"depth": 2
+						},
+						{
 							"header": "The Killing Blow",
 							"depth": 1
 						},
-						"Black Cipher Finale"
+						"Escape!",
+						{
+							"header": "Final Skill Challenge",
+							"depth": 1
+						},
+						{
+							"header": "Victory: The Line is Held",
+							"depth": 2
+						}
 					]
 				},
 				{
@@ -325,8 +360,8 @@
 					"headers": [
 						"General Crix Madine",
 						"Caspar Vex",
-						"Vora-7",
-						"High Inquisitor Tremayne"
+						"High Inquisitor Tremayne",
+						"Vora-7"
 					]
 				}
 			],
@@ -471,15 +506,15 @@
 											"variantName": "3",
 											"combatants": [
 												{
-													"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher|Red Trooper}",
 													"quantity": 2
 												},
 												{
-													"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher|Blue Trooper}",
 													"quantity": 4
 												},
 												{
-													"creature": "{@creature red stormtrooper captain|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature red stormtrooper captain|sw5eOrcnogBlackCipher|Red Capt.}",
 													"quantity": 1
 												}
 											]
@@ -488,19 +523,19 @@
 											"variantName": "4",
 											"combatants": [
 												{
-													"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher|Red Trooper}",
 													"quantity": 3
 												},
 												{
-													"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher|Blue Trooper}",
 													"quantity": 2
 												},
 												{
-													"creature": "{@creature red stormtrooper captain|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature red stormtrooper captain|sw5eOrcnogBlackCipher|Red Capt.}",
 													"quantity": 1
 												},
 												{
-													"creature": "{@creature blue stormtrooper captain|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature blue stormtrooper captain|sw5eOrcnogBlackCipher|Blue Capt.}",
 													"quantity": 1
 												}
 											]
@@ -510,19 +545,19 @@
 											"default": true,
 											"combatants": [
 												{
-													"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher|Red Trooper}",
 													"quantity": 3
 												},
 												{
-													"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher|Blue Trooper}",
 													"quantity": 3
 												},
 												{
-													"creature": "{@creature red stormtrooper captain|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature red stormtrooper captain|sw5eOrcnogBlackCipher|Red Capt.}",
 													"quantity": 1
 												},
 												{
-													"creature": "{@creature blue stormtrooper captain|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature blue stormtrooper captain|sw5eOrcnogBlackCipher|Blue Capt.}",
 													"quantity": 1
 												}
 											]
@@ -698,7 +733,7 @@
 											"variantName": "3",
 											"combatants": [
 												{
-													"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|Phase Trooper}",
 													"quantity": 2
 												}
 											]
@@ -707,7 +742,7 @@
 											"variantName": "4",
 											"combatants": [
 												{
-													"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|Phase Trooper}",
 													"quantity": 2
 												}
 											]
@@ -716,7 +751,7 @@
 											"variantName": "5",
 											"combatants": [
 												{
-													"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher}",
+													"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|Phase Trooper}",
 													"quantity": 2
 												}
 											]
@@ -857,7 +892,7 @@
 											"variantName": "3",
 											"combatants": [
 												{
-													"creature": "{@creature stormtrooper|sw5eOrcnogRugosa}",
+													"creature": "{@creature stormtrooper|sw5eOrcnogRugosa|Trooper}",
 													"quantity": 12
 												}
 											]
@@ -866,11 +901,11 @@
 											"variantName": "4",
 											"combatants": [
 												{
-													"creature": "{@creature stormtrooper|sw5eOrcnogRugosa}",
+													"creature": "{@creature stormtrooper|sw5eOrcnogRugosa|Trooper}",
 													"quantity": 9
 												},
 												{
-													"creature": "{@creature stormtrooper captain|sw5eOrcnogRugosa}",
+													"creature": "{@creature stormtrooper captain|sw5eOrcnogRugosa|Trooper Capt.}",
 													"quantity": 3
 												}
 											]
@@ -880,11 +915,11 @@
 											"default": true,
 											"combatants": [
 												{
-													"creature": "{@creature stormtrooper|sw5eOrcnogRugosa}",
+													"creature": "{@creature stormtrooper|sw5eOrcnogRugosa|Trooper}",
 													"quantity": 5
 												},
 												{
-													"creature": "{@creature stormtrooper captain|sw5eOrcnogRugosa}",
+													"creature": "{@creature stormtrooper captain|sw5eOrcnogRugosa|Trooper Capt.}",
 													"quantity": 7
 												}
 											]
@@ -959,7 +994,7 @@
 														"1/3 of the Troopers have {@b Blue Shields} (Resistance to all but Blue/Kinetic damage).",
 														"1/3 of the Troopers have {@b Red Shields} (Resistance to all but Red/Kinetic damage).",
 														"1/3 of the Troopers can use a reaction to {@b Phase Shift} for 1 round when targeted.",
-														"{@b Starting in Round 2}, two {@creature Droideka|sw5eOrcnogRugosa|droidekas} roll in from the back of the room to join the fight. They activate their shields: one red, one blue."
+														"{@b Starting in Round 2}, two {@creature Droideka|sw5eOrcnogRugosa|Droidekas} roll in from the back of the room to join the fight. They activate their shields: one red, one blue."
 													]
 												}
 											]
@@ -1008,15 +1043,15 @@
 													"variantName": "3",
 													"combatants": [
 														{
-															"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher}",
+															"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher|Red Trooper}",
 															"quantity": 3
 														},
 														{
-															"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher}",
+															"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher|Blue Trooper}",
 															"quantity": 3
 														},
 														{
-															"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher}",
+															"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|Phase Trooper}",
 															"quantity": 4
 														},
 														{
@@ -1029,15 +1064,15 @@
 													"variantName": "4",
 													"combatants": [
 														{
-															"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher}",
+															"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher|Red Trooper}",
 															"quantity": 3
 														},
 														{
-															"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher}",
+															"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher|Blue Trooper}",
 															"quantity": 3
 														},
 														{
-															"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher}",
+															"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|Phase Trooper}",
 															"quantity": 4
 														},
 														{
@@ -1050,15 +1085,15 @@
 													"variantName": "5",
 													"combatants": [
 														{
-															"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher}",
+															"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher|Red Trooper}",
 															"quantity": 3
 														},
 														{
-															"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher}",
+															"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher|Blue Trooper}",
 															"quantity": 3
 														},
 														{
-															"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher}",
+															"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|Phase Trooper}",
 															"quantity": 4
 														},
 														{
@@ -1278,14 +1313,6 @@
 								},
 								{
 									"type": "entries",
-									"name": "Vora-7",
-									"entries": [
-										"{@i (vor-AH SEV-en)}",
-										"A temperate forest moon in the {@b Seswenna Sector}, characterized by its ancient 'Giant Iron-Oaks' and drifting blue-gray mists. It houses the Empire's most sensitive Black Cipher prototyping\u2014phase-shift rigs, coherence stacks, polarity emitters\u2014all centered on the {@b Black Cipher Mainframe}."
-									]
-								},
-								{
-									"type": "entries",
 									"name": "High Inquisitor Tremayne",
 									"entries": [
 										"{@i (truh-MAIN)}",
@@ -1304,6 +1331,14 @@
 												"Tremayne is known for letting his opponents draw first. In the final encounter, he should stay perfectly still, arms behind his back, while his troopers engage. He only ignites his blade when a player successfully lands a hit on one of his guards or moves within 10 feet of the server console."
 											]
 										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Vora-7",
+									"entries": [
+										"{@i (vor-AH SEV-en)}",
+										"A temperate forest moon in the {@b Seswenna Sector}, characterized by its ancient 'Giant Iron-Oaks' and drifting blue-gray mists. It houses the Empire's most sensitive Black Cipher prototyping\u2014phase-shift rigs, coherence stacks, polarity emitters\u2014all centered on the {@b Black Cipher Mainframe}."
 									]
 								}
 							]
