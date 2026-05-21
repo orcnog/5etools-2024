@@ -10,7 +10,7 @@
 				"convertedBy": [
 					"orcnog"
 				],
-				"version": "1.3",
+				"version": "1.6",
 				"color": "#000000",
 				"colorNight": "#5F5F5F",
 				"authors": [
@@ -19,8 +19,8 @@
 			}
 		],
 		"dateAdded": 1713916800,
-		"dateLastModified": 1714856000,
-		"_dateLastModifiedHash": "f8a23d9b4c",
+		"dateLastModified": 1746835200,
+		"_dateLastModifiedHash": "bc17intro",
 		"edition": "classic",
 		"dependencies": {
 			"monster": [
@@ -28,7 +28,8 @@
 			]
 		},
 		"internalCopies": [
-			"monster"
+			"monster",
+			"monsterFluff"
 		]
 	},
 	"monster": [
@@ -169,6 +170,30 @@
 			]
 		}
 	],
+	"monsterFluff": [
+		{
+			"name": "High Inquisitor Tremayne",
+			"source": "sw5eOrcnogBlackCipher",
+			"entries": [
+				"{@i (truh-MAIN)}",
+				"A cold and calculating Coruscanti cyborg who views the chaotic galaxy through a multi-spectrum lens of Imperial logic, preferring to dismantle his enemies with surgical precision and aristocratic disdain rather than brute force.",
+				{
+					"type": "entries",
+					"name": "Voice",
+					"entries": [
+						"Calm, silky, and terrifyingly polite. He speaks with an aristocratic precision, never raising his voice, treating combat like a lecture in a classroom."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Battle Tactics",
+					"entries": [
+						"Tremayne is known for letting his opponents draw first. In the final encounter, he should stay perfectly still, arms behind his back, while his troopers engage. He only ignites his blade when a player successfully lands a hit on one of his guards or moves within 10 feet of the server console."
+					]
+				}
+			]
+		}
+	],
 	"item": [
 		{
 			"name": "Stimpack",
@@ -215,7 +240,20 @@
 			"storyline": "Star Wars One-Shot",
 			"contents": [
 				{
-					"name": "Running this Adventure"
+					"name": "Introduction",
+					"headers": [
+						"Adventure Synopsis",
+						"One-Shot Overview",
+						"Running this Adventure",
+						{
+							"header": "Pacing",
+							"depth": 1
+						},
+						{
+							"header": "Opening Crawl",
+							"depth": 1
+						}
+					]
 				},
 				{
 					"name": "Cold Open"
@@ -279,7 +317,7 @@
 							"depth": 1
 						},
 						{
-							"header": "Speeder Chase",
+							"header": "Speeder Chase Encounter",
 							"depth": 1
 						}
 					]
@@ -321,7 +359,11 @@
 							"depth": 2
 						},
 						{
-							"header": "Nexus Chamber Ambush",
+							"header": "Nexus Hazard Table",
+							"depth": 3
+						},
+						{
+							"header": "Nexus Chamber Ambush Encounter",
 							"depth": 2
 						},
 						{
@@ -333,7 +375,7 @@
 							"depth": 1
 						},
 						{
-							"header": "Black Cipher Finale",
+							"header": "Black Cipher Finale Encounter",
 							"depth": 2
 						},
 						{
@@ -352,17 +394,49 @@
 					]
 				},
 				{
-					"name": "Appendix: Character Notes",
+					"name": "Characters and Locations",
 					"ordinal": {
 						"type": "appendix",
 						"identifier": "A"
 					},
 					"headers": [
-						"General Crix Madine",
-						"Caspar Vex",
-						"High Inquisitor Tremayne",
-						"Vora-7"
+						{
+							"header": "General Crix Madine",
+							"depth": 1
+						},
+						{
+							"header": "Caspar Vex",
+							"depth": 1
+						},
+						{
+							"header": "High Inquisitor Tremayne",
+							"depth": 1
+						},
+						{
+							"header": "Vora-7",
+							"depth": 1
+						}
 					]
+				},
+				{
+					"name": "Gear and Items",
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "B"
+					},
+					"headers": [
+						{
+							"header": "Item References",
+							"depth": 1
+						}
+					]
+				},
+				{
+					"name": "Monsters and NPCs",
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "C"
+					}
 				}
 			],
 			"level": {
@@ -378,18 +452,80 @@
 			"data": [
 				{
 					"type": "section",
-					"name": "Running this Adventure",
-					"id": "running_this_adventure",
+					"name": "Introduction",
+					"id": "introduction",
 					"entries": [
-						"This adventure is designed to be run as a one-shot adventure. It is not intended to be run as a campaign. The adventure is designed to be run with a group of 5 players at level 5, but can be run with as few as 3 players if desired.",
-						"Before the adventure begins, show this Opening Crawl:",
+						"{@i Project: Black Cipher} is an SW5e one-shot designed for {@b 3 to 5 players} at {@b level 5}.",
+						" The story is grounded in Rebel strike-team fantasy: your players are Jedi, soldiers, pilots, or specialists hurried into an Imperial prototyping site to foil a fleet-wide rollout of new shield technology that threatens to make the Empire's forces nigh invincible. Everything that follows\u2014crawls and diagrams, scripted readaloud lines, polarity-shield gimmicks, and skill challenges\u2014is written for {@b you}, the facilitator. Read this introduction once (and skim the appendix) before jumping into the {@area Cold Open|prologue|x}.",
 						{
-							"type": "link",
-							"href": {
-								"type": "external",
-								"url": "https://starwarsintrocreator.kassellabs.io/#!/FOs3VhTF7H_8MgbsUIyx"
-							},
-							"text": "OPENING CRAWL"
+							"type": "entries",
+							"name": "Adventure Synopsis",
+							"id": "adventure_synopsis",
+							"entries": [
+								"The Empire calls the rollout {@b Black Cipher}: a networked firmware uplift that enables stormtrooper armor to phase-shift so that all known physical and energy attacks pass straight through like mist, making it impossible to hit with conventional weapon. Trials under live fire look promising\u2014troopers can sustain deadly attacks completely unscathed. If the prototypes successfully hold up, admirals plan to scale the tech to walkers, cruisers, and eventually to whole fleets. Rebels quietly agree that this technology would make massed frontal assault suicidal.",
+								"{@area High Inquisitor Tremayne|appendix_npc_tremayne|x} supervises prototyping on {@area Vora-7|appendix_loc_vora7|x}; he reports progress to Emperor and court on Coruscant, but Vader's patience wears thin whenever theory outpaces hard results. Tremayne is not brute muscle\u2014he weaponizes bureaucracy, rehearsals, layered contingencies. Characters first meet him indirectly in a terse HoloNet cutscene, later as a predator calibrating the players' playbook mid-fight.",
+								"Alliance intelligence has formulated a plan to take out the installation and disrupt the firmware rollout. First, the team must take out sensors and long-range comms at a perimeter {@b Sensor Array Node} to make their approach to the {@b Black Cipher Mainframe} building undetectable, and then the team must infiltrate the mainframe core server room, the {@b Nexus Chamber}. They will be escorting a brilliant slicer, {@area Caspar Vex|appendix_npc_caspar|x}, who will deploy a logic bomb virus to destroy the data core and corrupt the firmware code."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "One-Shot Overview",
+							"id": "one_shot_overview",
+							"entries": [
+								{
+									"type": "list",
+									"style": "list-decimal",
+									"items": [
+										"{@b Cold Open:} Tremayne debriefs a spectral {@b Darth Vader} hologram inside a sterile uplink bastion\u2014set tone by underscoring how thoroughly polarity trials insulate infantry from conventional fireteams.",
+										"{@b The Briefing:} Aboard the {@i The Resurgence}, {@area Gen. Madine|appendix_npc_madine|x} lays out the plot and objectives. Introduce {@area Caspar Vex|appendix_npc_caspar|x}.",
+										"{@b Act 1 \u2014 Sensor Array Node:} Shuttle lands and the party sets off on foot, leading into a bunker fight. Players will learn the unique mechanic of this one-shot: weapons must attune kinetic colors to negate resistances against opposite colored shields. A puzzle gate after combat represents Caspar hotwiring optics; disabling motion sensors/long-range comms to buy the party stealth upon their approach to the main building.",
+										"{@b Act 2 \u2014 Speeder Chase:} Panicked {@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|scouts} flee the bunker and use experimental {@i phase-shift} shields to escape and and alert the base. Players learn the second unique mechanic: phase-shifting (the technology threat around which the mission revolves). Structured theater-of-the-mind speeder chase, dictated by Piloting gambits and improvised attacks, culminating in either preventing the scouts from alerting the base, or failing to stop them and triggering a response of air support from Rebel Command.",
+										"{@b Act 3 \u2014 Mainframe Infiltration:} A diplomacy/RP challenge and another puzzle gate leads the party into a labyrinth crawl with optional loot puzzles ({@item Stimpack|sw5eOrcnogBlackCipher}s, {@item Adrenaline Shot|sw5eOrcnogBlackCipher}s, {@item Kyber Resonance Shard|sw5eOrcnogBlackCipher}s), a bottleneck ambush riff, and dual Nexus-door puzzles escalating tension before the cathedral boss fight.",
+										"{@b Nexus Finale:} Stage 1: Tremayne is phase-shifted and untouchable, while troops drag fire across catwalk gantries trying to stop Caspar from completing his splice-job. Players eliminate the troopers while fighting off {@creature Droideka|sw5eOrcnogRugosa|Droidekas}. Caspar's scripted sacrifice leads to one final puzzle to successfully deploy his logic bomb. Stage 2: Tremayne furiously engages the party solo, while a collapsing reactor tosses escalating lightning arcs each round.",
+										"{@b Denouement:} Optional rooftop esacpe skill challenge validates piloting/nav/gunnery roles as the base implodes."
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Running this Adventure",
+							"id": "running_this_adventure",
+							"entries": [
+								"{@b Levels:} PCs should be {@b 5}; {@b Party size:} 3\u20135 (encounter grids already pivot on headcount variants). Larger parties may shred bunkers sooner\u2014add reinforcements cautiously.",
+								"{@b Media cues:} This adventure uses cue spans that companion optional slideshow grabs on d20.orcnog.com; image numbers mirror the narration. Swap in projector slides or VTT overlays if outbound hosting flakes.",
+								"{@b Typography:} {@i insetReadaloud} boxed text is aimed at voices at the table; {@i inset} blocks are backstage logistics. Encounter tables list creature tags that resolve into stat blocks pulled from this brew (polarity troopers swap resistances dynamically).",
+								"Appendix A (Characters and Locations) lists dramaturgy for allied NPC tags plus {@area Vora-7|appendix_loc_vora7|x}.",
+								"Appendix B covers gear tags for consumables installed in closets.",
+								"Appendix C is the encounter stat catalogue.",
+								{
+									"type": "entries",
+									"name": "Pacing",
+									"id": "pacing",
+									"entries": [
+										"Assume that {@b Acts 2 and 3} flex if scouts escape or corridors bog down, but otherwise assume the pacing of the one-shot described in the {@area One-Shot Overview|one_shot_overview|x}.",
+										"{@i Note:} If table prefers shorter evenings, tighten chase countdown from 10\u21927 rounds\u2014, shave optional closet caches in the corridor crawl, or omit the rooftop escape challenge."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Opening Crawl",
+									"id": "opening_crawl",
+									"entries": [
+										"Before the Cold Open, cue the cinematic crawl: {@link OPENING CRAWL (click to launch)|https://starwarsintrocreator.kassellabs.io/#!/FOs3VhTF7H_8MgbsUIyx}",
+										{
+											"type": "inset",
+											"name": "Opening Crawl text",
+											"id": "opening_crawl_text",
+											"entries": [
+												"{@i The Empire is in retreat. But deep within the Outer Rim, a terrifying new threat has emerged: PROJECT BLACK CIPHER, an experimental technology that equips Imperial forces with impervious POLARITY SHIELDING.",
+												"{@i General Crix Madine has identified the source of this breakthrough on the forest moon of VORA-7. A team of elite specialists has been dispatched on a desperate stealth mission to destroy the technology in its cradle before it can be transmitted to the entire Imperial fleet.}",
+												"{@i If the mission fails, the Rebellion's upcoming offensive will be a slaughter, and the spark of hope will be extinguished forever...}"
+											]
+										}
+									]
+								}
+							]
 						}
 					]
 				},
@@ -399,6 +535,16 @@
 					"id": "prologue",
 					"entries": [
 						"{@cue [Load Image #2: HoloNet Chamber]|media}",
+						{
+							"type": "image",
+							"slideNum": 2,
+							"href": {
+								"type": "external",
+								"url": "https://d20.orcnog.com/slideshow/black_cipher/holoprojection2.webp"
+							},
+							"title": "HoloNet Chamber",
+							"credit": "orcnog"
+						},
 						"Read the following aloud to set the tone for the antagonist and the high-level stakes.",
 						{
 							"type": "insetReadaloud",
@@ -420,15 +566,25 @@
 					"id": "briefing",
 					"entries": [
 						"{@cue [Load Image #3: Mission Briefing]|media}",
+						{
+							"type": "image",
+							"slideNum": 3,
+							"href": {
+								"type": "external",
+								"url": "https://d20.orcnog.com/slideshow/briefing/04%20mission-briefing-swrebelion.webp"
+							},
+							"title": "Mission Briefing",
+							"credit": "orcnog"
+						},
 						"Read the following aloud:",
 						{
 							"type": "insetReadaloud",
 							"entries": [
-								"You stand in a sparse white conference room aboard the Nebulon-B frigate, The Ressurgence, amoung Jedi, rebel soldiers, and pilots. General Crix Madine stands by the viewport, his hands clasped behind his back as he watches the stars streak by in hyperspace. He turns as you enter.",
+								"You stand in a sparse white conference room aboard the Nebulon-B frigate, The Ressurgence, amoung Jedi, rebel soldiers, and pilots. {@area General Crix Madine|appendix_npc_madine|x} stands by the viewport, his hands clasped behind his back as he watches the stars streak by in hyperspace. He turns as you enter.",
 								"{@b Madine:} \"Gentlemen, we're running out of time. The Empire is pouring their resources into an experimental new technology, codenamed Black Cipher. It is a firmware update to all networked military outposts to upgrade their stormtrooper armor with polarity shielding. A polarity-empowered shield is impervious to all known weaponry. If their system-wide update is successful, they'll expand the scope to encrypt whole ships with this shielding technology, and eventually entire armadas. We have to destroy this technology in it's cradle before it's too late. If we can't, our upcoming offensive will be a slaughter.\"",
 								"He gestures to a young, thin man obsessively cleaning a data-tablet.",
-								"{@b Madine:} \"This is Caspar Vex. He's a... specialist in Imperial logic-gates.\" Caspar looks up, eyes darting over your gear with a scoff.",
-								"{@b Madine:} \"Our intel has located the source facility. You will be dropping into the {@b Seswenna Sector}, specifically the {@b Orelia System}. Your target is the forest moon of {@b Vora-7}. Vex is essential. You will land ten clicks from the {@b Sensor Array Node}. Once that post is blind, you'll escort him into the heart of the {@b Black Cipher Mainframe}.\"",
+								"{@b Madine:} \"This is {@area Caspar Vex|appendix_npc_caspar|x}. He's a... specialist in Imperial logic-gates.\" Caspar looks up, eyes darting over your gear with a scoff.",
+								"{@b Madine:} \"Our intel has located the source facility. You will be dropping into the {@b Seswenna Sector}, specifically the {@b Orelia System}. Your target is the forest moon of {@area Vora-7|appendix_loc_vora7|x}. Vex is essential. You will land ten clicks from the {@b Sensor Array Node}. Once that post is blind, you'll escort him into the heart of the {@b Black Cipher Mainframe}.\"",
 								"{@b Caspar:} {@i [Nerdy Voice]} \"Specialist? General, please. I'm the only person in this quadrant who can even read the source code for Black Cipher. And you've paired me with... this? A few lightsabers and some muscle? This is a job for a scalpel, not a pack of stooges with blasters.\"",
 								"\"Intel suggests the facility is overseen by High Inquisitor Tremayne. I knew him in the Imperial Academy. He isn't a brute like Vader; he's a philosopher of war. He'll predict your moves before you make them. Don't give him the chance.\"",
 								"\"The shuttle is prepped in Bay 4. Good luck, and may the Force be with you.\""
@@ -446,7 +602,17 @@
 							"name": "Approach",
 							"entries": [
 								"{@cue [Load Image #4: Shuttle Landing]|media}",
-								"As the adventurers descend into the atmosphere of the forest moon in their transport, read the following aloud:",
+								{
+									"type": "image",
+									"slideNum": 4,
+									"href": {
+										"type": "external",
+										"url": "https://d20.orcnog.com/slideshow/black_cipher/shuttlelanding1.webp"
+									},
+									"title": "Shuttle Landing on Vora-7",
+									"credit": "orcnog"
+								},
+								"As the adventurers descend into the atmosphere of {@area Vora-7|appendix_loc_vora7|x} in their transport, read the following aloud:",
 								{
 									"type": "insetReadaloud",
 									"entries": [
@@ -465,6 +631,16 @@
 										"Four troopers stand guard. They are dressed in white plastoid armor... but they seem to be enveloped in auras of energy. Two are red, two are blue.",
 										"{@b Caspar:} \"Oh, stupendous,\" Caspar hisses from behind a tree. \"Those looks like some kind of Kinetic Polarity Fields. Ha! Good luck with this one, dumb jocks.\""
 									]
+								},
+								{
+									"type": "image",
+									"slideNum": 5,
+									"href": {
+										"type": "external",
+										"url": "https://d20.orcnog.com/slideshow/black_cipher/bunker2.webp"
+									},
+									"title": "Sensor Array Node",
+									"credit": "orcnog"
 								}
 							]
 						},
@@ -472,6 +648,17 @@
 							"type": "entries",
 							"name": "Sensor Array Encounter",
 							"entries": [
+								"{@cue [Load Image #21: Bunker Encounter Map]|media}",
+								{
+									"type": "image",
+									"slideNum": 21,
+									"href": {
+										"type": "external",
+										"url": "https://d20.orcnog.com/slideshow/black_cipher/bunker_encounter_map.webp"
+									},
+									"title": "Bunker Encounter Map",
+									"credit": "orcnog"
+								},
 								{
 									"type": "entries",
 									"name": "Encounter Mechanics",
@@ -577,6 +764,16 @@
 								},
 								"Present the first puzzle for the players to solve. Completing it represents Caspar successfully disabling the motion sensors and long-range comms.",
 								"{@cue [Load Image #6: Sensor Array Puzzle]|media}",
+								{
+									"type": "image",
+									"slideNum": 6,
+									"href": {
+										"type": "external",
+										"url": "https://d20.orcnog.com/slideshow/black_cipher/kenobi_scramble.webp"
+									},
+									"title": "Kenobi Quote Scramble",
+									"credit": "orcnog"
+								},
 								"{@i Correct Answer: THATS NO MOON}",
 								"Once the players have solved the puzzle, read the following aloud:",
 								{
@@ -724,8 +921,8 @@
 								},
 								{
 									"type": "encounter",
-									"name": "Speeder Chase",
-									"id": "speeder_chase",
+									"name": "Speeder Chase Encounter",
+									"id": "speeder_chase_encounter",
 									"partyLevel": 5,
 									"varyBy": "Party Size",
 									"variations": [
@@ -759,6 +956,16 @@
 									]
 								},
 								"{@cue [Load Image #8: Mainframe in the Distance]|media}",
+								{
+									"type": "image",
+									"slideNum": 8,
+									"href": {
+										"type": "external",
+										"url": "https://d20.orcnog.com/slideshow/black_cipher/mainframe_distance.webp"
+									},
+									"title": "Black Cipher Mainframe — Distant",
+									"credit": "orcnog"
+								},
 								"{@i A: If the chase ends in failure, read the following aloud:}",
 								{
 									"type": "insetReadaloud",
@@ -769,7 +976,7 @@
 										"{@b Madine (Radio):} \"Well, team, the garrison knows you're coming, now. But the Mainframe stays the objective. We'll have to commit strike squadrons for air support to draw the base's heavy defenses away: AT-AT's, ion cannons, and turbolasers. That noise will be your cover, now. Don't waste it.\"",
 										"Even as he speaks, the forest fills with distant laserfire, drawing the heavy artilery toward Rebel blips more than toward you.",
 										"{@b Caspar:} \"Oh, bravo! Just magnificent! Why settle for a quiet infiltration when we can invite the entire Imperial garrison to a shootout? The recursive buffers are locking down as we speak! If we don't reach that mainframe in the next five minutes, we might as well march ourselves into a holding cell!\"",
-										"Mounting your speeder bikes, you race towards the Black Cipher Mainframe, time no longer on your side."
+										"The Mainframe building looms in the distance. Mounting your speeder bikes, you race towards the Black Cipher Mainframe, time no longer on your side."
 									]
 								},
 								"{@i B: If the chase ends in success, read the following aloud:}",
@@ -780,7 +987,7 @@
 										"Madine's voice crackles over the radio:",
 										"{@b Madine (Radio):} \"Well done, team. You've secured the first objective and prevented the Imperial troops from sounding the alarm. Now, make your way towards the Mainframe, get Vex access to plant his logic bomb virus, and then get out of there before the Empire realizes what's happened.\"",
 										"{@b Caspar:} \"Well! I'm impressed you were able to stop the scouts after all. I guess even a blind womprat catches a scurrier every now and then, am I right?\"",
-										"Mounting your speeder bikes, you continue carefully towards the Black Cipher Mainframe, unseen and unexpected."
+										"The Mainframe building looms in the distance. Mounting your speeder bikes, you continue carefully towards the Black Cipher Mainframe, unseen and unexpected."
 									]
 								}
 							]
@@ -797,12 +1004,23 @@
 							"type": "insetReadaloud",
 							"entries": [
 								"{@cue [Load Image #9: Energy Sensor]|media}",
-								"The Mainframe building looms in the distance, a towering structure of metal and glass. Its cluttered roofline prickles with gantries, some with ladders and scaffolding, and atop the central annex pad,the dorsal plating and neatly folded wings of a {@b Lambda-class T-4a shuttle}. At ground level, patrols amble by in regular patterns, alert and scanning the horizons. You bide your time, waiting for a lull in the manpower guarding the door, and eventually you spot a simple pair of Stormtroopers heading towards the blast door... this is as good as it's gonna get.",
+								"The Black Cipher Mainframe is an imposing structure of metal and glass. Its cluttered roofline prickles with gantries, some with ladders and scaffolding, and atop the central annex pad,the dorsal plating and neatly folded wings of a {@b Lambda-class T-4a shuttle}. At ground level, patrols amble by in regular patterns, alert and scanning the horizons. You bide your time, waiting for a lull in the manpower guarding the door, and eventually you spot a simple pair of Stormtroopers heading towards the blast door... this is as good as it's gonna get.",
 								"{@b Caspar:} \"Wait!\" Caspar hisses. \"Do you not see that energy sensor?!\" He points to a spherical object mounted sturdily to the metal wall. \"It's designed to detect emmission of any weapon-based energy signatures. If you fire a blaster or charge out swinging your little glow sticks, you'll trigger it and alert them to our presence.\"",
 								"{@b Madine:} \"I'm afraid he's right. You're going to have to take care of this guard without weapons.\"",
 								"{@cue Give the players a chance to try to confuse or eliminate the guard without weapons.}",
+								"{@note Note: the first time I ran this, the players did not understand it was meant to be a diplomacy / roleplaying challenge. They consider multiple approaches, all combat-based. Next time, be sure you make it clear that the troopers should not be attacked, but still \"dealt with\".}",
 								"You approach the blast door, and Caspar inserts his data-spike into the terminal."
 							]
+						},
+						{
+							"type": "image",
+							"slideNum": 9,
+							"href": {
+								"type": "external",
+								"url": "https://d20.orcnog.com/slideshow/black_cipher/mainframe_entrance.webp"
+							},
+							"title": "Mainframe Approach — Energy Sensor",
+							"credit": "orcnog"
 						},
 						{
 							"type": "entries",
@@ -810,6 +1028,16 @@
 							"entries": [
 								"The blast door is sealed with a logic-scramble.",
 								"{@cue [Load Image #10: Mainframe Entrance Puzzle]|media}",
+								{
+									"type": "image",
+									"slideNum": 10,
+									"href": {
+										"type": "external",
+										"url": "https://d20.orcnog.com/slideshow/black_cipher/c-3po_scramble.webp"
+									},
+									"title": "C-3PO Quote Scramble",
+									"credit": "orcnog"
+								},
 								{
 									"type": "insetReadaloud",
 									"entries": [
@@ -823,12 +1051,33 @@
 							"type": "entries",
 							"name": "The Corridor Crawl",
 							"entries": [
+								"{@cue [Load Image #20: Mainframe Crawl Map]|media}",
+								{
+									"type": "image",
+									"slideNum": 20,
+									"href": {
+										"type": "external",
+										"url": "https://d20.orcnog.com/slideshow/black_cipher/mainframe_crawl_map.webp"
+									},
+									"title": "Mainframe Crawl Map",
+									"credit": "orcnog"
+								},
 								"Once the puzzle is solved, read aloud:",
 								{
 									"type": "insetReadaloud",
 									"entries": [
 										"The terminal glows blue, and the blast door slides open.",
 										"{@cue [Load Image #11: Mainframe Corridors]|media}",
+										{
+											"type": "image",
+											"slideNum": 11,
+											"href": {
+												"type": "external",
+												"url": "https://d20.orcnog.com/slideshow/black_cipher/mainframe_corridor.webp"
+											},
+											"title": "Mainframe Corridors",
+											"credit": "orcnog"
+										},
 										"The interior is a freezing labyrinth of white panels and humming servers. Occasional MSE-6 mouse droids zip across the floor, chirping with angst."
 									]
 								},
@@ -838,7 +1087,17 @@
 									"name": "Supply Closet",
 									"entries": [
 										"Cracking the door lock on the Supply Closet requires solving a puzzle:",
-										"{@cue [Load Image #19: Supply Closet Puzzle]|media}",
+										"{@cue [Load Image #18: Supply Closet Puzzle]|media}",
+										{
+											"type": "image",
+											"slideNum": 18,
+											"href": {
+												"type": "external",
+												"url": "https://d20.orcnog.com/slideshow/black_cipher/yoda_scramble.webp"
+											},
+											"title": "Yoda Quote Scramble",
+											"credit": "orcnog"
+										},
 										"{@i Correct Answer: DO OR DO NOT}",
 										"Players who investigate the supply closet find:",
 										{
@@ -855,7 +1114,17 @@
 									"name": "Weapons Cache",
 									"entries": [
 										"Cracking the door lock on the Weapons Cache requires solving a puzzle:",
-										"{@cue [Load Image #20: Weapons Cache Puzzle]|media}",
+										"{@cue [Load Image #19: Weapons Cache Puzzle]|media}",
+										{
+											"type": "image",
+											"slideNum": 19,
+											"href": {
+												"type": "external",
+												"url": "https://d20.orcnog.com/slideshow/black_cipher/leia_scramble.webp"
+											},
+											"title": "Leia Quote Scramble",
+											"credit": "orcnog"
+										},
 										"{@i Correct Answer: YOURE MY ONLY HOPE}",
 										"Players who investigate the weapons cache find a few items of interest:",
 										{
@@ -949,6 +1218,16 @@
 							"entries": [
 								"The Nexus Chamber Door is sealed with a logic-scramble.",
 								"{@cue [Load Image #12: Nexus Chamber Door Puzzle]|media}",
+								{
+									"type": "image",
+									"slideNum": 12,
+									"href": {
+										"type": "external",
+										"url": "https://d20.orcnog.com/slideshow/black_cipher/han_solo_scramble.webp"
+									},
+									"title": "Han Solo Quote Scramble",
+									"credit": "orcnog"
+								},
 								"{@i Correct Answer: NEVER TELL ME THE ODDS}"
 							]
 						},
@@ -970,7 +1249,6 @@
 												"High Inquisitor Tremayne stands before the core, hands laced politely behind his back. His form is translucent, shimmering like a ghost in the machine. He doesn't even turn to look at you.",
 												"{@b Tremayne:} \"How predictable. I'm just curious... Did you really think we wouldn't notice your approach? You've walked straight into the trap I've been tending.\" He finally turns slowly to face you, \"But no fanfare necessary\u2014you delivered {@i yourselves}.\"",
 												"He raises a hand. Above you, the sound of boots ringing on metal catwalks echoes as a squad of stormtroopers takes position in a horseshoe around you, E-11 barrels dipping from the railings, their sights stitching a web of red light across the floor. You are surrounded, from an elevated position.",
-												"{@cue [Load Image #14: The Nexus Chamber]|media}",
 												"\"{@b Tremayne:} It's over, Jedi.  I have the high-ground.\"",
 												"{@b Caspar:} \"Smoke this! I'm patching in!\" Caspar dives between two reinforced server racks, slamming his data-spike into a maintenance port. Blaster fire begins to ping off the metal. \"I need some time! If I can't plant the virus, the Rebellion is finished! Just keep those blasters off me!\""
 											]
@@ -1034,8 +1312,8 @@
 										},
 										{
 											"type": "encounter",
-											"name": "Nexus Chamber Ambush",
-											"id": "nexus_chamber_ambush",
+											"name": "Nexus Chamber Ambush Encounter",
+											"id": "nexus_chamber_ambush_encounter",
 											"partyLevel": 5,
 											"varyBy": "Party Size",
 											"variations": [
@@ -1123,7 +1401,17 @@
 											]
 										},
 										"To execute the logic-bomb, players must solve the final quote scramble:",
-										"{@cue [Load Image #15: Final Puzzle]|media}",
+										"{@cue [Load Image #14: Final Puzzle]|media}",
+										{
+											"type": "image",
+											"slideNum": 15,
+											"href": {
+												"type": "external",
+												"url": "https://d20.orcnog.com/slideshow/black_cipher/akbar_scramble.webp"
+											},
+											"title": "Akbar Quote Scramble",
+											"credit": "orcnog"
+										},
 										"{@i Correct Answer: ITS A TRAP!}"
 									]
 								},
@@ -1145,8 +1433,8 @@
 										"Now, at the start of each round, a random 10ft area is struck by lightning (DC 13 Dex save or 3d8 Lightning damage).",
 										{
 											"type": "encounter",
-											"name": "Black Cipher Finale",
-											"id": "tremayne_boss_encounter",
+											"name": "Black Cipher Finale Encounter",
+											"id": "black_cipher_finale_encounter",
 											"partyLevel": 5,
 											"varyBy": "Party Size",
 											"variations": [
@@ -1218,7 +1506,17 @@
 							"id": "escape_the_moon",
 							"entries": [
 								"(Time-permitting) As the party flees the disintegrating base, they'll need to pass one final skill challenge to escape the moon successfully.",
-								"{@cue [Load Image #17: Escape Shuttle]|media}",
+								"{@cue [Load Image #15: Escape Shuttle]|media}",
+								{
+									"type": "image",
+									"slideNum": 15,
+									"href": {
+										"type": "external",
+										"url": "https://d20.orcnog.com/slideshow/black_cipher/escape2.webp"
+									},
+									"title": "Escape Shuttle Ascent",
+									"credit": "orcnog"
+								},
 								{
 									"type": "entries",
 									"name": "Final Skill Challenge",
@@ -1254,8 +1552,18 @@
 													"entries": [
 														"You streak through the atmosphere, the forest moon falling away as the Black Cipher Mainframe implodes into a pillar of white-hot debris. You radio General Madine with the news: mission accomplished.",
 														"The hangar bay of the rebel frigate {@i The Resurgence} swallows your transport. Before the ramp even touches the deck, the sound of hammered applause from hundreds of techs and troopers rings off the bulkheads\u2014a wall of relief that echoes through the ship.",
+														"{@cue [Load Image #16: Victory]|media}",
+														{
+															"type": "image",
+															"slideNum": 16,
+															"href": {
+																"type": "external",
+																"url": "https://d20.orcnog.com/slideshow/black_cipher/hugging-dudes.webp"
+															},
+															"title": "Hangar Celebration",
+															"credit": "orcnog"
+														},
 														"General Madine pushes through the crowd, his cape singed at the hem but his eyes bright. \"You did it. Front-line sensors are shouting about cascading phase-shift failures\u2014Imperial signature wash is ripping apart. You bought the Alliance time, and blood, and hope.\"",
-														"{@cue [Load Image #18: Victory]|media}",
 														"He grips your shoulders, unsmiling until the corner of his mouth finally betrays a grin. He turns to the crowded deck, raising a hand for one final oath: \"Today you tore teeth from the tyrant's grin. Own that victory.  Today... you are Heroes of the Rebellion! May the Fourth Be With You!\""
 													]
 												}
@@ -1265,25 +1573,27 @@
 								}
 							]
 						},
-						"<p style=\"text-align: center; font-size: 24px; font-weight: bold;\">THE END</p>"
+						"<p style=\"text-align: center; font-size: 24px; font-weight: bold;\">THE END</p>",
+						"<p style=\"text-align: center;\">{@cue [Load Image #17: Party!]|media}</p>"
 					]
 				},
 				{
 					"type": "section",
-					"name": "Appendix: Character Notes",
-					"id": "appendix_notes",
+					"name": "Appendix A: Characters and Locations",
+					"id": "appendix_characters_black_cipher",
 					"ordinal": {
 						"type": "appendix",
 						"identifier": "A"
 					},
 					"entries": [
-						"The following material is for Narrators only: expanded character detail, pronunciation, and setting notes.",
+						"The following material is for Narrators only: portrayal notes for allied NPC tags and background for missions sites.",
 						{
 							"type": "entries",
 							"entries": [
 								{
 									"type": "entries",
 									"name": "General Crix Madine",
+									"id": "appendix_npc_madine",
 									"entries": [
 										"{@i (CRICKS muh-DEEN)}",
 										"A weathered veteran of the Imperial Storm Commandos whose defection brought the Rebellion its most tactical mind, he carries the heavy burden of command in his gravelly voice and expects nothing less than absolute efficiency from those he sends into the fire.",
@@ -1299,6 +1609,7 @@
 								{
 									"type": "entries",
 									"name": "Caspar Vex",
+									"id": "appendix_npc_caspar",
 									"entries": [
 										"{@i (CASS-per VEKS)}",
 										"A brilliant but insufferable Imperial logic-gate specialist with an intellect as sharp as his social skills are dull; he makes no secret of his utter disdain for the 'primitive' physical solutions of the adventurers he is forced to rely upon. Purely a liability in combat.",
@@ -1314,6 +1625,7 @@
 								{
 									"type": "entries",
 									"name": "High Inquisitor Tremayne",
+									"id": "appendix_npc_tremayne",
 									"entries": [
 										"{@i (truh-MAIN)}",
 										"A cold and calculating Coruscanti cyborg who views the chaotic galaxy through a multi-spectrum lens of Imperial logic, preferring to dismantle his enemies with surgical precision and aristocratic disdain rather than brute force.",
@@ -1332,15 +1644,64 @@
 											]
 										}
 									]
-								},
-								{
-									"type": "entries",
-									"name": "Vora-7",
-									"entries": [
-										"{@i (vor-AH SEV-en)}",
-										"A temperate forest moon in the {@b Seswenna Sector}, characterized by its ancient 'Giant Iron-Oaks' and drifting blue-gray mists. It houses the Empire's most sensitive Black Cipher prototyping\u2014phase-shift rigs, coherence stacks, polarity emitters\u2014all centered on the {@b Black Cipher Mainframe}."
-									]
 								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Vora-7",
+							"id": "appendix_loc_vora7",
+							"entries": [
+								"{@i (vor-AH SEV-en)}",
+								"A temperate forest moon in the {@b Seswenna Sector}, characterized by ancient {@i Giant Iron-Oaks} bowed under grey-blue mist bands. Orbital relays watch every clearing; surface routes force foot marches beneath canopy, and atmospheric moisture plays havoc with bargain-bin sensors. Beneath camouflaged berms sit phase-shift rigs, polarity emitters, and quantum coherence stacks powering {@b Black Cipher}. Local fauna stays quiet until speeder bikes tear up the moss line; sabotage echoes carry kilometers through root networks threading the moon."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Appendix B: Gear and Items",
+					"id": "appendix_gear_black_cipher",
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "B"
+					},
+					"entries": [
+						"The specialized equipment and consumables below appear in this adventure. Hover a tag for the full stat block or description.",
+						{
+							"type": "list",
+							"name": "Item References",
+							"items": [
+								"{@item Adrenaline Shot|sw5eOrcnogBlackCipher}",
+								"{@item Kyber Resonance Shard|sw5eOrcnogBlackCipher}",
+								"{@item Stimpack|sw5eOrcnogBlackCipher}"
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Appendix C: Monsters and NPCs",
+					"id": "appendix_monsters_black_cipher",
+					"ordinal": {
+						"type": "appendix",
+						"identifier": "C"
+					},
+					"entries": [
+						"The creatures and NPCs appearing in this adventure are listed below in alphabetical order (Rugosa stat blocks are from the linked Rugosa homebrew).",
+						{
+							"type": "list",
+							"columns": 2,
+							"items": [
+								"{@creature Blue Stormtrooper Captain|sw5eOrcnogBlackCipher}",
+								"{@creature Blue Stormtrooper|sw5eOrcnogBlackCipher}",
+								"{@creature Droideka|sw5eOrcnogRugosa}",
+								"{@creature High Inquisitor Tremayne|sw5eOrcnogBlackCipher}",
+								"{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher}",
+								"{@creature Red Stormtrooper Captain|sw5eOrcnogBlackCipher}",
+								"{@creature Red Stormtrooper|sw5eOrcnogBlackCipher}",
+								"{@creature Stormtrooper Captain|sw5eOrcnogRugosa}",
+								"{@creature Stormtrooper|sw5eOrcnogRugosa}"
 							]
 						}
 					]
