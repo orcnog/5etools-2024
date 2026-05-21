@@ -1,4 +1,9 @@
 {
+	"_meta": {
+		"internalCopies": [
+			"subclassFluff"
+		]
+	},
 	"classFluff": [
 		{
 			"name": "Sorcerer",
@@ -456,6 +461,13 @@
 			"source": "XGE",
 			"className": "Sorcerer",
 			"classSource": "PHB",
+			"_copy": {
+				"name": "Sorcerer",
+				"shortName": "Sorcerer",
+				"source": "XGE",
+				"className": "Sorcerer",
+				"classSource": "PHB"
+			},
 			"entries": [
 				{
 					"type": "quote",
@@ -472,6 +484,13 @@
 			"source": "XGE",
 			"className": "Sorcerer",
 			"classSource": "PHB",
+			"_copy": {
+				"name": "Sorcerer",
+				"shortName": "Sorcerer",
+				"source": "XGE",
+				"className": "Sorcerer",
+				"classSource": "PHB"
+			},
 			"entries": [
 				{
 					"type": "quote",
@@ -483,11 +502,36 @@
 			]
 		},
 		{
+			"name": "Sorcerer",
+			"shortName": "Sorcerer",
+			"source": "XGE",
+			"className": "Sorcerer",
+			"classSource": "PHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "classes/XGE/Sorcerer.webp"
+					},
+					"width": 2517,
+					"height": 938
+				}
+			]
+		},
+		{
 			"name": "Storm Sorcery",
 			"shortName": "Storm",
 			"source": "XGE",
 			"className": "Sorcerer",
 			"classSource": "PHB",
+			"_copy": {
+				"name": "Sorcerer",
+				"shortName": "Sorcerer",
+				"source": "XGE",
+				"className": "Sorcerer",
+				"classSource": "PHB"
+			},
 			"entries": [
 				{
 					"type": "quote",
@@ -532,24 +576,6 @@
 					},
 					"width": 800,
 					"height": 1332
-				}
-			]
-		},
-		{
-			"name": "Runechild",
-			"shortName": "Runechild",
-			"source": "TDCSR",
-			"className": "Sorcerer",
-			"classSource": "PHB",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "classes/TDCSR/Runechild Sorcerer.webp"
-					},
-					"width": 850,
-					"height": 1382
 				}
 			]
 		},
@@ -644,6 +670,36 @@
 					"credit": "Ekaterina Burmark",
 					"width": 850,
 					"height": 1891
+				}
+			]
+		},
+		{
+			"name": "Spellfire Sorcery",
+			"shortName": "Spellfire",
+			"source": "FRHoF",
+			"className": "Sorcerer",
+			"classSource": "XPHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "classes/FRHoF/Spellfire Sorcerer.webp"
+					},
+					"credit": "Ioannis Fiore",
+					"width": 850,
+					"height": 2561
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "classes/FRHoF/Spellfire Sorcerer 2.webp"
+					},
+					"title": "Spellfire takes many forms",
+					"credit": "Taras Susak",
+					"width": 1700,
+					"height": 1101
 				}
 			]
 		}

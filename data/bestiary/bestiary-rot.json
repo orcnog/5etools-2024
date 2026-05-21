@@ -64,6 +64,7 @@
 				"petrified",
 				"poisoned"
 			],
+			"tokenCustom": true,
 			"traitTags": [
 				"Rejuvenation"
 			],
@@ -220,6 +221,7 @@
 					"ability": "int"
 				}
 			],
+			"tokenCustom": true,
 			"savingThrowForcedSpell": [
 				"constitution",
 				"dexterity",
@@ -236,6 +238,9 @@
 					"source": "ToD",
 					"page": 182
 				}
+			],
+			"referenceSources": [
+				"HotDQ"
 			],
 			"size": [
 				"M"
@@ -376,6 +381,9 @@
 					"source": "ToD",
 					"page": 183
 				}
+			],
+			"referenceSources": [
+				"HotDQ"
 			],
 			"size": [
 				"M"
@@ -547,7 +555,7 @@
 							{
 								"name": "Draconic Majesty",
 								"entries": [
-									"While wearing no armor and wearing the Blue Dragon Mask, Galvan adds his Charisma bonus to her AC (included)."
+									"While wearing no armor and wearing the Blue Dragon Mask, Galvan adds his Charisma bonus to his AC (included)."
 								]
 							},
 							{
@@ -600,12 +608,12 @@
 			"page": 55,
 			"otherSources": [
 				{
-					"source": "DC"
-				},
-				{
 					"source": "ToD",
 					"page": 141
 				}
+			],
+			"referenceSources": [
+				"DC"
 			],
 			"_copy": {
 				"name": "Gladiator",
@@ -624,6 +632,7 @@
 					}
 				}
 			},
+			"tokenCustom": true,
 			"senseTags": [
 				"B",
 				"D"
@@ -678,6 +687,7 @@
 					}
 				}
 			},
+			"tokenCustom": true,
 			"senseTags": [
 				"B",
 				"D"
@@ -762,6 +772,9 @@
 					"source": "ToD",
 					"page": 185
 				}
+			],
+			"referenceSources": [
+				"HotDQ"
 			],
 			"size": [
 				"M"
@@ -954,8 +967,7 @@
 				"X"
 			],
 			"spellcastingTags": [
-				"CW",
-				"I"
+				"CW"
 			],
 			"hasToken": true
 		},
@@ -976,6 +988,7 @@
 				"source": "RoT"
 			},
 			"int": 13,
+			"tokenCustom": true,
 			"hasToken": true
 		},
 		{
@@ -1000,6 +1013,7 @@
 					"human"
 				]
 			},
+			"tokenCustom": true,
 			"hasToken": true
 		},
 		{
@@ -1013,6 +1027,9 @@
 					"source": "ToD",
 					"page": 186
 				}
+			],
+			"referenceSources": [
+				"HotDQ"
 			],
 			"size": [
 				"M"
@@ -1159,6 +1176,9 @@
 					"source": "ToD",
 					"page": 187
 				}
+			],
+			"referenceSources": [
+				"HotDQ"
 			],
 			"size": [
 				"M"
@@ -1344,6 +1364,9 @@
 					"page": 189
 				}
 			],
+			"referenceSources": [
+				"HotDQ"
+			],
 			"size": [
 				"M"
 			],
@@ -1512,6 +1535,9 @@
 			"damageTags": [
 				"F"
 			],
+			"miscTags": [
+				"AOE"
+			],
 			"conditionInflict": [
 				"restrained"
 			],
@@ -1577,6 +1603,7 @@
 				}
 			},
 			"tokenCredit": "FromSoftware",
+			"tokenCustom": true,
 			"damageTags": [
 				"I",
 				"S"
@@ -1591,12 +1618,13 @@
 			"page": 92,
 			"otherSources": [
 				{
-					"source": "BGDIA"
-				},
-				{
 					"source": "ToD",
 					"page": 190
 				}
+			],
+			"referenceSources": [
+				"BGDIA",
+				"HotDQ"
 			],
 			"size": [
 				"G"

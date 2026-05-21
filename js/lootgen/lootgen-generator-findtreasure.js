@@ -1,4 +1,5 @@
 import {LootGenGeneratorBase} from "./lootgen-generator-base.js";
+import {LootGenRender} from "./lootgen-render.js";
 
 /** @abstract */
 class LootGenGeneratorFindTreasureBase extends LootGenGeneratorBase {
@@ -33,33 +34,33 @@ class LootGenGeneratorFindTreasureBase extends LootGenGeneratorBase {
 
 		const cbIsHoard = ComponentUiUtil.getCbBool(this, "ft_isHoard");
 
-		const btnRoll = ee`<button class="ve-btn ve-btn-default ve-btn-xs mr-2">Roll Loot</button>`
+		const btnRoll = ee`<button class="ve-btn ve-btn-default ve-btn-xs ve-mr-2">Roll Loot</button>`
 			.onn("click", () => this._ft_pDoHandleClickRollLoot());
 
 		const btnClear = ee`<button class="ve-btn ve-btn-danger ve-btn-xs">Clear Output</button>`
 			.onn("click", () => this._outputManager.doClearOutput());
 
-		ee`<div class="ve-flex-col py-2 px-3">
-			<label class="split-v-center mb-2">
-				<div class="mr-2 w-66 no-shrink">Challenge Rating</div>
+		ee`<div class="ve-flex-col ve-py-2 ve-px-3">
+			<label class="ve-split-v-center ve-mb-2">
+				<div class="ve-mr-2 ve-w-66 ve-no-shrink">Challenge Rating</div>
 				${selChallenge}
 			</label>
 
-			<label class="split-v-center mb-2">
-				<div class="mr-2 w-66 no-shrink">Is Treasure Hoard?</div>
+			<label class="ve-split-v-center ve-mb-2">
+				<div class="ve-mr-2 ve-w-66 ve-no-shrink">Is Treasure Hoard?</div>
 				${cbIsHoard}
 			</label>
 
 			${this._render_getStgHoardAdditional()}
 
-			<div class="ve-flex-v-center mb-2 mt-2">
+			<div class="ve-flex-v-center ve-mb-2 ve-mt-2">
 				${btnRoll}
 				${btnClear}
 			</div>
 
-			<hr class="hr-3">
+			<hr class="ve-hr-3">
 
-			<div class="ve-small italic">${this._getHtmlBasedOn()}</div>
+			<div class="ve-small ve-italic">${this._getHtmlBasedOn()}</div>
 		</div>`.appendTo(tabMeta.wrpTab);
 	}
 
@@ -146,7 +147,7 @@ export class LootGenGeneratorFindTreasure extends LootGenGeneratorFindTreasureBa
 	_source = Parser.SRC_DMG;
 
 	_getHtmlBasedOn () {
-		return Renderer.get().render(`Based on the tables and rules in the {@book ${Parser.sourceJsonToFull(Parser.SRC_DMG)}|DMG|7|Treasure Tables}, pages 133-149.`);
+		return LootGenRender.er(`Based on the tables and rules in the {@book ${Parser.sourceJsonToFull(Parser.SRC_DMG)}|DMG|7|Treasure Tables}, pages 133-149.`);
 	}
 
 	_render_getStgHoardAdditional () { return null; }
@@ -176,7 +177,7 @@ export class LootGenGeneratorFindTreasure24 extends LootGenGeneratorFindTreasure
 	_source = Parser.SRC_XDMG;
 
 	_getHtmlBasedOn () {
-		return Renderer.get().render(`Based on the tables and rules in the {@book ${Parser.sourceJsonToFull(Parser.SRC_XDMG)}|XDMG} page 120 (&quot;{@book Adventure Rewards|XDMG|3|Adventure Rewards}&quot;) and page 218 (&quot;{@book Random Magic Item Rarity|XDMG|6|Random Magic Item Rarity}&quot;).`);
+		return LootGenRender.er(`Based on the tables and rules in the {@book ${Parser.sourceJsonToFull(Parser.SRC_XDMG)}|XDMG} page 120 (&quot;{@book Adventure Rewards|XDMG|3|Adventure Rewards}&quot;) and page 218 (&quot;{@book Random Magic Item Rarity|XDMG|6|Random Magic Item Rarity}&quot;).`);
 	}
 
 	_render_getStgHoardAdditional () {
@@ -189,9 +190,9 @@ export class LootGenGeneratorFindTreasure24 extends LootGenGeneratorFindTreasure
 			},
 		);
 
-		const stg = ee`<div class="ve-flex-col w-100">
-			<label class="split-v-center mb-2">
-				<div class="mr-2 w-66 no-shrink">Character Level</div>
+		const stg = ee`<div class="ve-flex-col ve-w-100">
+			<label class="ve-split-v-center ve-mb-2">
+				<div class="ve-mr-2 ve-w-66 ve-no-shrink">Character Level</div>
 				${selCharacterLevel}
 			</label>
 		</div>`;

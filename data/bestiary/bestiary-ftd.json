@@ -625,6 +625,9 @@
 			"name": "Adult Deep Dragon",
 			"source": "FTD",
 			"page": 174,
+			"reprintedAs": [
+				"Adult Deep Dragon|FRAiF"
+			],
 			"size": [
 				"H"
 			],
@@ -2660,6 +2663,7 @@
 				}
 			],
 			"dragonAge": "greatwyrm",
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Unusual Nature"
@@ -3338,6 +3342,9 @@
 			"name": "Ancient Deep Dragon",
 			"source": "FTD",
 			"page": 173,
+			"reprintedAs": [
+				"Ancient Deep Dragon|FRAiF"
+			],
 			"size": [
 				"G"
 			],
@@ -4858,6 +4865,9 @@
 			"name": "Ancient Sea Serpent",
 			"source": "FTD",
 			"page": 219,
+			"referenceSources": [
+				"FRAiF"
+			],
 			"size": [
 				"G"
 			],
@@ -6141,6 +6151,7 @@
 			],
 			"dragonCastingColor": "black",
 			"dragonAge": "greatwyrm",
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Unusual Nature"
@@ -6745,6 +6756,7 @@
 			],
 			"dragonCastingColor": "brass",
 			"dragonAge": "greatwyrm",
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Unusual Nature"
@@ -7066,6 +7078,7 @@
 			],
 			"dragonCastingColor": "bronze",
 			"dragonAge": "greatwyrm",
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Unusual Nature"
@@ -7387,6 +7400,7 @@
 			],
 			"dragonCastingColor": "copper",
 			"dragonAge": "greatwyrm",
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Unusual Nature"
@@ -7916,6 +7930,7 @@
 				}
 			],
 			"dragonAge": "greatwyrm",
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Unusual Nature"
@@ -7967,6 +7982,9 @@
 			"name": "Deep Dragon Wyrmling",
 			"source": "FTD",
 			"page": 175,
+			"reprintedAs": [
+				"Deep Dragon Wyrmling|FRAiF"
+			],
 			"size": [
 				"M"
 			],
@@ -9105,7 +9123,7 @@
 				{
 					"name": "Commanding Thought (Costs 2 Actions)",
 					"entries": [
-						"The shard targets a creature it can see within 30 feet of it. The target must succeed on a {@dc 20} Wisdom saving throw or be {@condition charmed} until the end of its next turn. While {@condition charmed} in this way, the target becomes the shard's puppet, acting and moving in accordance with its telepathic commands. While under the shard's control, the target can take only the Attack (shard chooses the target) or Dash action on its turn."
+						"The shard targets a creature it can see within 30 feet of it. The target must succeed on a {@dc 20} Wisdom saving throw or be {@condition charmed} until the end of its next turn. While {@condition charmed} in this way, the target becomes the shard's puppet, acting and moving in accordance with its telepathic commands. While under the shard's control, the target can take only the Attack (shard chooses the target) or {@action Dash} action on its turn."
 					]
 				}
 			],
@@ -9263,6 +9281,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"senseTags": [
 				"B",
 				"D"
@@ -10886,7 +10905,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} +3 plus PB to hit, reach 5 ft., one target. {@h}{@damage 1d6} plus PB piercing damage."
+						"{@atk mw} {@hit 3} plus PB to hit, reach 5 ft., one target. {@h}{@damage 1d6} plus PB piercing damage."
 					]
 				}
 			],
@@ -11105,7 +11124,7 @@
 				{
 					"name": "Rapid Movement",
 					"entries": [
-						"The egg hunter takes the Dash or Disengage action."
+						"The egg hunter takes the {@action Dash} or {@action Disengage} action."
 					]
 				}
 			],
@@ -11797,6 +11816,7 @@
 				}
 			],
 			"dragonAge": "greatwyrm",
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Unusual Nature"
@@ -12378,6 +12398,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"damageTags": [
 				"P"
 			],
@@ -12671,6 +12692,7 @@
 			],
 			"dragonCastingColor": "gold",
 			"dragonAge": "greatwyrm",
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Unusual Nature"
@@ -12962,6 +12984,7 @@
 			],
 			"dragonCastingColor": "green",
 			"dragonAge": "greatwyrm",
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Unusual Nature"
@@ -15701,6 +15724,7 @@
 				}
 			],
 			"dragonAge": "greatwyrm",
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Unusual Nature"
@@ -15995,6 +16019,7 @@
 			],
 			"dragonCastingColor": "white",
 			"dragonAge": "greatwyrm",
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Unusual Nature"
@@ -16529,6 +16554,9 @@
 			"name": "Young Deep Dragon",
 			"source": "FTD",
 			"page": 175,
+			"reprintedAs": [
+				"Young Deep Dragon|FRAiF"
+			],
 			"size": [
 				"L"
 			],

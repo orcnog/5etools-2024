@@ -532,7 +532,7 @@
 				}
 			],
 			"hp": {
-				"average": "32",
+				"average": 32,
 				"formula": "5d10 + 5",
 				"special": "DT 5"
 			},

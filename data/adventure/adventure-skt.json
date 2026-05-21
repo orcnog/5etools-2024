@@ -607,7 +607,13 @@
 													"99\u201300",
 													"Tombstone"
 												]
-											]
+											],
+											"data": {
+												"genTables": {
+													"tableInclude": true,
+													"skipSectionPrefix": true
+												}
+											}
 										}
 									]
 								}
@@ -744,10 +750,9 @@
 									"grid": {
 										"type": "square",
 										"size": 77,
-										"offsetX": 4,
-										"offsetY": -24,
-										"scale": 2,
-										"distance": 10
+										"offsetX": 8,
+										"offsetY": -48,
+										"scale": 4
 									},
 									"mapRegions": [
 										{
@@ -2513,10 +2518,9 @@
 									"grid": {
 										"type": "square",
 										"size": 77,
-										"offsetX": 4,
-										"offsetY": -24,
-										"scale": 2,
-										"distance": 10
+										"offsetX": 8,
+										"offsetY": -48,
+										"scale": 4
 									}
 								}
 							]
@@ -7152,9 +7156,9 @@
 							"grid": {
 								"type": "square",
 								"size": 55,
-								"offsetX": -10,
-								"offsetY": 23,
-								"distance": 10
+								"offsetX": -20,
+								"offsetY": 46,
+								"scale": 2
 							},
 							"mapRegions": [
 								{
@@ -7429,7 +7433,7 @@
 									"page": 33,
 									"id": "099",
 									"entries": [
-										"{@creature Zephyros|SKT} casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 17}, +11 to hit with spell attacks):",
+										"{@creature Zephyros|SKT} casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 17}, {@hit 11} to hit with spell attacks):",
 										"At will: {@spell message}, {@spell prestidigitation}, {@spell ray of frost}",
 										"2/day each: {@spell gust of wind}, {@spell levitate}, {@spell magic missile}",
 										"1/day each: {@spell cone of cold}, {@spell contact other plane} (cast as 1 action), {@spell greater invisibility}, {@spell mass suggestion}, {@spell nondetection}, {@spell Otiluke's resilient sphere}, {@spell protection from energy}, {@spell tongues}"
@@ -11193,7 +11197,7 @@
 											"page": 50,
 											"id": "0ef",
 											"entries": [
-												"{@i Melee Weapon Attack}: +8 to hit, reach 10 ft., one target. {@i Hit}: 12 ({@dice 3d4 + 5}) bludgeoning damage."
+												"{@i Melee Weapon Attack}: {@hit 8} to hit, reach 10 ft., one target. {@i Hit}: 12 ({@dice 3d4 + 5}) bludgeoning damage."
 											]
 										}
 									]
@@ -11218,7 +11222,7 @@
 													"page": 50,
 													"id": "0f2",
 													"entries": [
-														"{@i Ranged Weapon Attack}: +3 to hit, range 150/600 ft. (can't hit targets within 30 feet of the hucker), one target. {@i Hit}: 5 ({@dice 2d4}) bludgeoning damage, or 10 ({@dice 4d4}) piercing damage if the projectile is wearing a spiked helmet. {@i Hit or Miss}: The goblin projectile takes {@dice 1d6} bludgeoning damage per 10 feet it travels through the air (maximum {@dice 20d6})."
+														"{@i Ranged Weapon Attack}: {@hit 3} to hit, range 150/600 ft. (can't hit targets within 30 feet of the hucker), one target. {@i Hit}: 5 ({@dice 2d4}) bludgeoning damage, or 10 ({@dice 4d4}) piercing damage if the projectile is wearing a spiked helmet. {@i Hit or Miss}: The goblin projectile takes {@dice 1d6} bludgeoning damage per 10 feet it travels through the air (maximum {@dice 20d6})."
 													]
 												}
 											]
@@ -19460,7 +19464,7 @@
 									"id": "1ca",
 									"entries": [
 										"The remorhaz lair can be explored and plundered if the creatures are killed. The area is a 20-foot-diameter oval chamber with walls of glazed ice. Scattered on the floor are three 500 gp gemstones, fifteen 100 gp gemstones, and one magic item determined by rolling on {@table Magic Item Table C} in {@book chapter 7|DMG|7} of the {@book Dungeon Master's Guide|DMG}.",
-										"If the characters slay Wormblod and bring proof of his demise, the couatl emerges from the altar and bestows on each of them a {@i charm of restoration} (see the \"{@book Supernatural Gifts|DMG|7|Supernatural Gifts}\" section in {@book chapter 7|DMG|7} of the {@book Dungeon Master's Guide|DMG}). The couatl then returns to the altar and makes no further attempt to communicate with them."
+										"If the characters slay Wormblod and bring proof of his demise, the couatl emerges from the altar and bestows on each of them a {@reward charm of restoration} (see the \"{@book Supernatural Gifts|DMG|7|Supernatural Gifts}\" section in {@book chapter 7|DMG|7} of the {@book Dungeon Master's Guide|DMG}). The couatl then returns to the altar and makes no further attempt to communicate with them."
 									]
 								}
 							]
@@ -21689,7 +21693,7 @@
 										"His speed is 25 feet.",
 										"He has advantage on saving throws against poison and resistance to poison damage.",
 										"He has {@sense darkvision} out to a range of 60 feet, and he speaks Common, Draconic, and Dwarvish.",
-										"Instead of a scimitar and a dagger, he wields a pair of {@item +1 Handaxe||+1 handaxes} (+5 to hit with each). As an action, he can make three melee attacks, two attacks with one handaxe and one attack with the other handaxe. Each handaxe deals 6 ({@dice 1d6 + 3}) slashing damage on a hit."
+										"Instead of a scimitar and a dagger, he wields a pair of {@item +1 Handaxe||+1 handaxes} ({@hit 5} to hit with each). As an action, he can make three melee attacks, two attacks with one handaxe and one attack with the other handaxe. Each handaxe deals 6 ({@dice 1d6 + 3}) slashing damage on a hit."
 									]
 								},
 								"The Lord of Xantharl's Keep is {@creature Narbeck Horn|SKT} (N male shield dwarf {@creature knight} armed with a greataxe instead of a greatsword), who reports to the marchion of Mirabar. Narbeck has a {@item Sending Stones||sending stone} that allows him to speak to the marchion directly, ensuring that news of any threat to Mirabar from the south is quickly relayed. Narbeck commands a garrison of one hundred fifty veterans, which is over twice the population of the village itself.",
@@ -21824,9 +21828,9 @@
 									"grid": {
 										"type": "square",
 										"size": 65,
-										"offsetX": 14,
-										"offsetY": 4,
-										"distance": 10
+										"offsetX": 28,
+										"offsetY": 8,
+										"scale": 2
 									},
 									"mapRegions": [
 										{
@@ -22091,10 +22095,9 @@
 									"grid": {
 										"type": "square",
 										"size": 88,
-										"offsetX": -31,
-										"offsetY": -11,
-										"scale": 2,
-										"distance": 20
+										"offsetX": -124,
+										"offsetY": -44,
+										"scale": 8
 									},
 									"mapRegions": [
 										{
@@ -23758,10 +23761,9 @@
 									"grid": {
 										"type": "square",
 										"size": 88,
-										"offsetX": -31,
-										"offsetY": -10,
-										"scale": 2,
-										"distance": 20
+										"offsetX": -124,
+										"offsetY": -40,
+										"scale": 8
 									}
 								}
 							]
@@ -25549,8 +25551,7 @@
 											"grid": {
 												"type": "square",
 												"size": 67,
-												"scale": 3,
-												"distance": 10
+												"scale": 6
 											},
 											"mapRegions": [
 												{
@@ -26951,10 +26952,9 @@
 											"grid": {
 												"type": "square",
 												"size": 74,
-												"offsetX": -9,
-												"offsetY": -33,
-												"scale": 3,
-												"distance": 10
+												"offsetX": -18,
+												"offsetY": -66,
+												"scale": 6
 											}
 										}
 									]
@@ -27655,9 +27655,8 @@
 											"grid": {
 												"type": "square",
 												"size": 85,
-												"offsetX": 40,
-												"scale": 3,
-												"distance": 10
+												"offsetX": 80,
+												"scale": 6
 											},
 											"mapRegions": [
 												{
@@ -31640,10 +31639,9 @@
 											"grid": {
 												"type": "square",
 												"size": 57,
-												"offsetX": 15,
-												"offsetY": 22,
-												"scale": 2,
-												"distance": 10
+												"offsetX": 30,
+												"offsetY": 44,
+												"scale": 4
 											}
 										}
 									]
@@ -32415,10 +32413,9 @@
 													"grid": {
 														"type": "square",
 														"size": 79,
-														"offsetX": 61,
-														"offsetY": -29,
-														"scale": 3,
-														"distance": 20
+														"offsetX": 244,
+														"offsetY": -116,
+														"scale": 12
 													},
 													"mapRegions": [
 														{
@@ -33234,10 +33231,9 @@
 													"grid": {
 														"type": "square",
 														"size": 87,
-														"offsetX": -24,
-														"offsetY": -35,
-														"scale": 3,
-														"distance": 20
+														"offsetX": -96,
+														"offsetY": -140,
+														"scale": 12
 													}
 												},
 												{
@@ -33254,10 +33250,9 @@
 													"grid": {
 														"type": "square",
 														"size": 71,
-														"offsetX": 32,
-														"offsetY": 10,
-														"scale": 3,
-														"distance": 10
+														"offsetX": 64,
+														"offsetY": 20,
+														"scale": 6
 													},
 													"mapRegions": [
 														{
@@ -34378,10 +34373,9 @@
 													"grid": {
 														"type": "square",
 														"size": 79,
-														"offsetX": -39,
-														"offsetY": 10,
-														"scale": 3,
-														"distance": 10
+														"offsetX": -78,
+														"offsetY": 20,
+														"scale": 6
 													}
 												}
 											]
@@ -35450,10 +35444,9 @@
 											"grid": {
 												"type": "square",
 												"size": 81,
-												"offsetX": 50,
-												"offsetY": 21,
-												"scale": 3,
-												"distance": 10
+												"offsetX": 100,
+												"offsetY": 42,
+												"scale": 6
 											},
 											"mapRegions": [
 												{
@@ -37061,10 +37054,9 @@
 											"grid": {
 												"type": "square",
 												"size": 88,
-												"offsetX": 11,
-												"offsetY": 41,
-												"scale": 3,
-												"distance": 10
+												"offsetX": 22,
+												"offsetY": 82,
+												"scale": 6
 											}
 										}
 									]
@@ -37442,7 +37434,7 @@
 												"The yakfolk ambushed a patrol of dwarves from Citadel Adbar, captured several members, and used their possession ritual to inhabit the dwarves. The chief then sent these assassins to kill Citadel Adbar's king. (The elves saw the ritual being performed.)"
 											]
 										},
-										"If the characters agree to escort Halani back to her tribe in the Moonwood, she leads them to an icy waterfall in the heart of the forest where they can rest for the night. A group of six moon elf {@creature Scout||scouts} wander by a short time later and offer to take Halani home. She has nothing to give the characters in gratitude, but the characters' kindness doesn't go unnoticed by the forest's ancient spirits. After finishing a long rest in the forest, each character who aided in Halani's safe return gains a {@i charm of the slayer} (see the \"{@book Supernatural Gifts|DMG|7|Supernatural Gifts}\" section in chapter 7 of the {@i Dungeon Master's Guide}).",
+										"If the characters agree to escort Halani back to her tribe in the Moonwood, she leads them to an icy waterfall in the heart of the forest where they can rest for the night. A group of six moon elf {@creature Scout||scouts} wander by a short time later and offer to take Halani home. She has nothing to give the characters in gratitude, but the characters' kindness doesn't go unnoticed by the forest's ancient spirits. After finishing a long rest in the forest, each character who aided in Halani's safe return gains a {@reward charm of the slayer} (see the \"{@book Supernatural Gifts|DMG|7|Supernatural Gifts}\" section in chapter 7 of the {@i Dungeon Master's Guide}).",
 										"Characters can follow up on the elves' claim that yakfolk are planning to assassinate the king of Citadel Adbar, either immediately or once they have concluded their business in Ironslag. If they visit the dwarven stronghold and seek an audience with King Harnoth, run the suggested encounter in the \"Citadel Adbar\" section in chapter 3. If they later return to Ironslag, the yakfolk village remains as they left it."
 									]
 								}
@@ -37808,10 +37800,9 @@
 													"grid": {
 														"type": "square",
 														"size": 73,
-														"offsetX": 71,
-														"offsetY": 57,
-														"scale": 3,
-														"distance": 10
+														"offsetX": 142,
+														"offsetY": 114,
+														"scale": 6
 													},
 													"mapRegions": [
 														{
@@ -38487,9 +38478,8 @@
 													"grid": {
 														"type": "square",
 														"size": 73,
-														"offsetY": 9,
-														"scale": 3,
-														"distance": 10
+														"offsetY": 18,
+														"scale": 6
 													}
 												}
 											]
@@ -39239,9 +39229,8 @@
 											"grid": {
 												"type": "square",
 												"size": 75,
-												"offsetX": -13,
-												"scale": 3,
-												"distance": 10
+												"offsetX": -26,
+												"scale": 6
 											},
 											"mapRegions": [
 												{
@@ -39772,10 +39761,9 @@
 											"grid": {
 												"type": "square",
 												"size": 82,
-												"offsetX": 80,
-												"offsetY": 44,
-												"scale": 3,
-												"distance": 10
+												"offsetX": 160,
+												"offsetY": 88,
+												"scale": 6
 											}
 										},
 										{
@@ -39792,10 +39780,9 @@
 											"grid": {
 												"type": "square",
 												"size": 75,
-												"offsetX": 49,
-												"offsetY": 27,
-												"scale": 3,
-												"distance": 10
+												"offsetX": 98,
+												"offsetY": 54,
+												"scale": 6
 											},
 											"mapRegions": [
 												{
@@ -41492,10 +41479,9 @@
 											"grid": {
 												"type": "square",
 												"size": 82,
-												"offsetX": -14,
-												"offsetY": -18,
-												"scale": 3,
-												"distance": 10
+												"offsetX": -28,
+												"offsetY": -36,
+												"scale": 6
 											}
 										}
 									]
@@ -41644,7 +41630,7 @@
 													"page": 192,
 													"id": "43f",
 													"entries": [
-														"Sansuri casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}; +7 to hit with spell attacks):",
+														"Sansuri casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save {@dc 15}; {@hit 7} to hit with spell attacks):",
 														"At will: {@spell mage hand}, {@spell message}, {@spell prestidigitation}, {@spell ray of frost}",
 														"2/day each: {@spell arcane lock}, {@spell gust of wind}, {@spell invisibility}, {@spell magic missile}, {@spell unseen servant}",
 														"1/day each: {@spell globe of invulnerability}, {@spell haste}, {@spell hypnotic pattern}, {@spell ice storm}, {@spell lightning bolt}, {@spell Mordenkainen's sword}, {@spell wall of force}"
@@ -41988,7 +41974,7 @@
 											"page": 198,
 											"id": "45f",
 											"entries": [
-												"Thullen is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 15}; +7 to hit with spell attacks). He has the following druid spells prepared:",
+												"Thullen is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save {@dc 15}; {@hit 7} to hit with spell attacks). He has the following druid spells prepared:",
 												"Cantrips (at will): {@spell druidcraft}, {@spell mending}, {@spell produce flame}",
 												"1st level (4 slots): {@spell cure wounds}, {@spell entangle}, {@spell thunderwave}",
 												"2nd level (3 slots): {@spell animal messenger}, {@spell barkskin}, {@spell gust of wind}",
@@ -42456,10 +42442,9 @@
 											"grid": {
 												"type": "square",
 												"size": 79,
-												"offsetX": 20,
-												"offsetY": 20,
-												"scale": 3,
-												"distance": 10
+												"offsetX": 40,
+												"offsetY": 40,
+												"scale": 6
 											},
 											"mapRegions": [
 												{
@@ -45671,10 +45656,9 @@
 											"grid": {
 												"type": "square",
 												"size": 87,
-												"offsetX": 12,
-												"offsetY": 21,
-												"scale": 3,
-												"distance": 10
+												"offsetX": 24,
+												"offsetY": 42,
+												"scale": 6
 											}
 										}
 									]
@@ -46176,7 +46160,7 @@
 									"entries": [
 										"The first crate holds six folded, giant-sized rugs made from strips of soft kelp. Each rug is 20 feet square, weighs 250 pounds, and is worth 250 gp. The second crate holds an {@item apparatus of Kwalish} that was recovered from the pressurized hold of a wrecked gnomish submarine. The third crate contains hundreds of trinkets recovered from the sea floor\u2014tribute from various {@creature sea elf|SKT} tribes that pledge fealty to the storm giant king. The trinkets include everything from worthless baubles to fine statuary and jewelry plundered from shipwrecks. The total weight of this tribute is 100 pounds, and its total value is 10,000 gp.",
 										"The two barrels are full of exquisite wine (worth 2,500 gp each) and weigh 2,500 pounds each.",
-										"The sea chest is 12 feet long, 9 feet tall, and 9 feet deep, with a lid shaped like a half-barrel. The large padlock that hangs from its latch is too big to be picked using thieves' tools. A Small character can squeeze inside the locking mechanism and pick the lock with a successful {@dc 16} Dexterity check. Lifting the heavy lid requires a successful {@dc 20} Strength ({@skill Athletics}) check. The chest holds a dozen smaller (human-made) chests that are unlocked and contain booty retrieved from the sea floor. Each small chest has {@dice 3d6 × 100} gp in mixed coinage. Lying among the chests are {@dice 1d4 + 1} magic items. Roll on Magic Item Table H in chapter 7 of the {@book Dungeon Master's Guide |DMG|7|Random Magic Items}for the first two items and on Table F for any other items.",
+										"The sea chest is 12 feet long, 9 feet tall, and 9 feet deep, with a lid shaped like a half-barrel. The large padlock that hangs from its latch is too big to be picked using thieves' tools. A Small character can squeeze inside the locking mechanism and pick the lock with a successful {@dc 16} Dexterity check. Lifting the heavy lid requires a successful {@dc 20} Strength ({@skill Athletics}) check. The chest holds a dozen smaller (human-made) chests that are unlocked and contain booty retrieved from the sea floor. Each small chest has {@dice 3d6 × 100} gp in mixed coinage. Lying among the chests are {@dice 1d4 + 1} magic items. Roll on Magic Item Table H in chapter 7 of the {@book Dungeon Master's Guide|DMG|7|Random Magic Items}for the first two items and on Table F for any other items.",
 										"The first anemone chest holds six grapefruit-sized pink pearls (worth 500 gp each). The second anemone chest contains six {@item Potion of Giant Size|SKT|potions of giant size} (see {@adventure appendix B|SKT|14}) in purple and green coral vials sized for Small and Medium creatures. Each coral vial is worth 25 gp."
 									]
 								}
@@ -46403,10 +46387,9 @@
 													"grid": {
 														"type": "square",
 														"size": 59,
-														"offsetX": -9,
-														"offsetY": 3,
-														"scale": 2,
-														"distance": 10
+														"offsetX": -18,
+														"offsetY": 6,
+														"scale": 4
 													},
 													"mapRegions": [
 														{
@@ -47117,9 +47100,8 @@
 													"grid": {
 														"type": "square",
 														"size": 59,
-														"offsetX": -8,
-														"scale": 2,
-														"distance": 10
+														"offsetX": -16,
+														"scale": 4
 													}
 												}
 											]
@@ -47437,10 +47419,9 @@
 									"grid": {
 										"type": "square",
 										"size": 78,
-										"offsetX": 31,
-										"offsetY": 61,
-										"scale": 2,
-										"distance": 10
+										"offsetX": 62,
+										"offsetY": 122,
+										"scale": 4
 									},
 									"mapRegions": [
 										{
@@ -47907,9 +47888,9 @@
 									"grid": {
 										"type": "square",
 										"size": 92,
-										"offsetX": 52,
-										"offsetY": 26,
-										"distance": 10
+										"offsetX": 104,
+										"offsetY": 52,
+										"scale": 2
 									}
 								}
 							]
@@ -48904,10 +48885,9 @@
 									"grid": {
 										"type": "square",
 										"size": 53,
-										"offsetX": 7,
-										"offsetY": -4,
-										"scale": 2,
-										"distance": 10
+										"offsetX": 14,
+										"offsetY": -8,
+										"scale": 4
 									},
 									"mapRegions": [
 										{
@@ -49299,9 +49279,8 @@
 									"grid": {
 										"type": "square",
 										"size": 59,
-										"offsetX": -22,
-										"scale": 2,
-										"distance": 10
+										"offsetX": -44,
+										"scale": 4
 									}
 								}
 							]

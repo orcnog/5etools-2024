@@ -246,8 +246,11 @@
 			"otherSources": [
 				{
 					"source": "IDRotF",
-					"page": 278
+					"page": 279
 				}
+			],
+			"referenceSources": [
+				"IDRotF"
 			],
 			"size": [
 				"S"
@@ -857,6 +860,7 @@
 		},
 		{
 			"name": "Elise",
+			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "VRGR",
 			"page": 143,
@@ -1447,7 +1451,7 @@
 				{
 					"name": "Inquisitor's Command {@recharge 5}",
 					"entries": [
-						"Each creature of the inquisitor's choice that it can see within 60 feet of it must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} until the start of the inquisitor's next turn. On the {@condition charmed} target's turn, the inquisitor can telepathically control the target's move, action, or both. When controlled in this way, the target can take only the Attack (inquisitor chooses the target) or Dash action."
+						"Each creature of the inquisitor's choice that it can see within 60 feet of it must succeed on a {@dc 15} Wisdom saving throw or be {@condition charmed} until the start of the inquisitor's next turn. On the {@condition charmed} target's turn, the inquisitor can telepathically control the target's move, action, or both. When controlled in this way, the target can take only the Attack (inquisitor chooses the target) or {@action Dash} action."
 					]
 				}
 			],
@@ -1640,10 +1644,8 @@
 			"name": "Inquisitor of the Tome",
 			"source": "VRGR",
 			"page": 249,
-			"otherSources": [
-				{
-					"source": "VEoR"
-				}
+			"referenceSources": [
+				"VEoR"
 			],
 			"size": [
 				"M"
@@ -1790,6 +1792,7 @@
 		},
 		{
 			"name": "Isolde",
+			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "VRGR",
 			"page": 86,
@@ -2224,6 +2227,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances",
 				"Unusual Nature"
@@ -2435,10 +2439,8 @@
 			"name": "Necrichor",
 			"source": "VRGR",
 			"page": 238,
-			"otherSources": [
-				{
-					"source": "AATM"
-				}
+			"referenceSources": [
+				"AATM"
 			],
 			"size": [
 				"M"
@@ -2504,7 +2506,7 @@
 				{
 					"name": "Rejuvenation",
 					"entries": [
-						"Unless its lifeless remains are splashed with holy water or placed in a vessel under the effects of the {@spell hallow} spell, the destroyed necrichor re-forms in {@dice 1d10} days, regaining all its hits points and appearing in the place it died or in the nearest unoccupied space."
+						"Unless its lifeless remains are splashed with {@item Holy Water (Flask)|PHB|holy water} or placed in a vessel under the effects of the {@spell hallow} spell, the destroyed necrichor re-forms in {@dice 1d10} days, regaining all its hits points and appearing in the place it died or in the nearest unoccupied space."
 					]
 				},
 				{
@@ -2543,7 +2545,7 @@
 					"name": "Blood Puppeteering {@recharge}",
 					"entries": [
 						"The necrichor targets a creature it can see within 5 feet of it that is missing any of its hit points. If the target isn't a Construct or an Undead, it must succeed on a {@dc 14} Constitution saving throw or the necrichor enters the target's space and attaches itself to the target for 1 minute. While attached, the necrichor takes only half damage dealt to it (round down), and the target takes the remaining damage. The necrichor can attach to only one creature at a time.",
-						"The attached necrichor can telepathically control the target's move, action, or both. When controlled this way, the target can take only the Attack action (necrichor chooses the target) or the Dash action. The attached target can repeat the saving throw at the end of each of its turns, detaching from the necrichor and forcing it to move into the nearest unoccupied space on a success."
+						"The attached necrichor can telepathically control the target's move, action, or both. When controlled this way, the target can take only the Attack action (necrichor chooses the target) or the {@action Dash} action. The attached target can repeat the saving throw at the end of each of its turns, detaching from the necrichor and forcing it to move into the nearest unoccupied space on a success."
 					]
 				}
 			],
@@ -2778,6 +2780,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"traitTags": [
 				"Unusual Nature"
 			],
@@ -2801,10 +2804,8 @@
 			"name": "Priest of Osybus",
 			"source": "VRGR",
 			"page": 241,
-			"otherSources": [
-				{
-					"source": "VEoR"
-				}
+			"referenceSources": [
+				"VEoR"
 			],
 			"size": [
 				"M"
@@ -3383,6 +3384,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"traitTags": [
 				"Legendary Resistances"
 			],
@@ -3600,6 +3602,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"senseTags": [
 				"D"
 			],
@@ -3719,6 +3722,7 @@
 			],
 			"miscTags": [
 				"DIS",
+				"HPR",
 				"MW"
 			],
 			"conditionInflict": [
@@ -3813,6 +3817,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"traitTags": [
 				"Spider Climb"
 			],
@@ -3915,6 +3920,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"traitTags": [
 				"Unusual Nature"
 			],
@@ -4456,12 +4462,13 @@
 			"page": 253,
 			"otherSources": [
 				{
-					"source": "CM"
-				},
-				{
 					"source": "CoS",
 					"page": 242
 				}
+			],
+			"referenceSources": [
+				"CM",
+				"CoS"
 			],
 			"size": [
 				"M"
@@ -4789,6 +4796,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"traitTags": [
 				"Undead Fortitude",
 				"Unusual Nature"

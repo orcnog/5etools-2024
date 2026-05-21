@@ -7,10 +7,12 @@ export class SourceFilterItem extends FilterItem {
 	/**
 	 * @param options
 	 * @param [options.isOtherSource] If this is not the primary source of the entity.
+	 * @param [options.isReferenceSource] If this is a source in which the entity is referenced.
 	 */
 	constructor (options) {
 		super(options);
 		this.isOtherSource = options.isOtherSource;
+		this.isReferenceSource = options.isReferenceSource;
 		this._sortName = null;
 		this.itemFull = Parser.sourceJsonToFull(this.item);
 	}
@@ -91,7 +93,7 @@ export class SourceFilter extends Filter {
 	_getHeaderControls_addExtraStateBtns (opts, wrpStateBtnsOuter) {
 		const btnSupplements = e_({
 			tag: "button",
-			clazz: `ve-btn ve-btn-default w-100 ${opts.isMulti ? "ve-btn-xxs" : "ve-btn-xs"}`,
+			clazz: `ve-btn ve-btn-default ve-w-100 ${opts.isMulti ? "ve-btn-xxs" : "ve-btn-xs"}`,
 			title: `SHIFT to add to existing selection; CTRL to include UA/etc.`,
 			html: `Core/Supplements`,
 			click: evt => this._doSetPinsSupplements({isIncludeUnofficial: EventUtil.isCtrlMetaKey(evt), isAdditive: evt.shiftKey}),
@@ -99,7 +101,7 @@ export class SourceFilter extends Filter {
 
 		const btnAdventures = e_({
 			tag: "button",
-			clazz: `ve-btn ve-btn-default w-100 ${opts.isMulti ? "ve-btn-xxs" : "ve-btn-xs"}`,
+			clazz: `ve-btn ve-btn-default ve-w-100 ${opts.isMulti ? "ve-btn-xxs" : "ve-btn-xs"}`,
 			title: `SHIFT to add to existing selection; CTRL to include UA`,
 			html: `Adventures`,
 			click: evt => this._doSetPinsAdventures({isIncludeUnofficial: EventUtil.isCtrlMetaKey(evt), isAdditive: evt.shiftKey}),
@@ -107,7 +109,7 @@ export class SourceFilter extends Filter {
 
 		const btnPartnered = e_({
 			tag: "button",
-			clazz: `ve-btn ve-btn-default w-100 ${opts.isMulti ? "ve-btn-xxs" : "ve-btn-xs"}`,
+			clazz: `ve-btn ve-btn-default ve-w-100 ${opts.isMulti ? "ve-btn-xxs" : "ve-btn-xs"}`,
 			title: `SHIFT to add to existing selection`,
 			html: `Partnered`,
 			click: evt => this._doSetPinsPartnered({isAdditive: evt.shiftKey}),
@@ -115,7 +117,7 @@ export class SourceFilter extends Filter {
 
 		const btnHomebrew = e_({
 			tag: "button",
-			clazz: `ve-btn ve-btn-default w-100 ${opts.isMulti ? "ve-btn-xxs" : "ve-btn-xs"}`,
+			clazz: `ve-btn ve-btn-default ve-w-100 ${opts.isMulti ? "ve-btn-xxs" : "ve-btn-xs"}`,
 			title: `SHIFT to add to existing selection`,
 			html: `Homebrew`,
 			click: evt => this._doSetPinsHomebrew({isAdditive: evt.shiftKey}),
@@ -163,6 +165,17 @@ export class SourceFilter extends Filter {
 			),
 			null,
 			new ContextUtil.Action(
+				`Select 5e/2014 Sources`,
+				() => this._doSetPinsClassic(),
+				{title: `Select sources published from 2014 to 2024.`},
+			),
+			new ContextUtil.Action(
+				`Select 5.5e/2024 Sources`,
+				() => this._doSetPinsOne(),
+				{title: `Select sources published from 2024 onwards.`},
+			),
+			null,
+			new ContextUtil.Action(
 				`Select "Vanilla" Sources`,
 				() => this._doSetPinsVanilla(),
 				{title: `Select a baseline set of sources suitable for any campaign.`},
@@ -199,20 +212,20 @@ export class SourceFilter extends Filter {
 
 		const btnOnlyPrimary = e_({
 			tag: "button",
-			clazz: `ve-btn ve-btn-default w-100 ${opts.isMulti ? "ve-btn-xxs" : "ve-btn-xs"}`,
+			clazz: `ve-btn ve-btn-default ve-w-100 ${opts.isMulti ? "ve-btn-xxs" : "ve-btn-xs"}`,
 			html: `Include References`,
-			title: `Consider entities as belonging to every source they appear in (i.e. reprints) as well as their primary source`,
-			click: () => this._meta.isIncludeOtherSources = !this._meta.isIncludeOtherSources,
+			title: `Consider entities as belonging to every source they are referenced in (i.e. in bolded/italic text), in addition to their primary source`,
+			click: () => this._meta.isIncludeReferenceSources = !this._meta.isIncludeReferenceSources,
 		});
 		const hkIsIncludeOtherSources = () => {
-			btnOnlyPrimary.toggleClass("active", !!this._meta.isIncludeOtherSources);
+			btnOnlyPrimary.toggleClass("ve-active", !!this._meta.isIncludeReferenceSources);
 		};
 		hkIsIncludeOtherSources();
-		this._addHook("meta", "isIncludeOtherSources", hkIsIncludeOtherSources);
+		this._addHook("meta", "isIncludeReferenceSources", hkIsIncludeOtherSources);
 
 		e_({
 			tag: "div",
-			clazz: `ve-btn-group mr-2 w-100 ve-flex-v-center mobile__m-1 mobile__mb-2`,
+			clazz: `ve-btn-group ve-mr-2 ve-w-100 ve-flex-v-center ve-mobile-sm__m-1 ve-mobile-sm__mb-2`,
 			children: [
 				btnSupplements,
 				btnAdventures,
@@ -268,6 +281,14 @@ export class SourceFilter extends Filter {
 		);
 	}
 
+	_doSetPinsClassic () {
+		Object.keys(this._state).forEach(k => this._state[k] = SourceUtil.isClassicSource(k) ? PILL_STATE__YES : PILL_STATE__IGNORE);
+	}
+
+	_doSetPinsOne () {
+		Object.keys(this._state).forEach(k => this._state[k] = SourceUtil.isClassicSource(k) ? PILL_STATE__IGNORE : PILL_STATE__YES);
+	}
+
 	_doSetPinsVanilla () {
 		Object.keys(this._state).forEach(k => this._state[k] = Parser.SOURCES_VANILLA.has(k) ? PILL_STATE__YES : PILL_STATE__IGNORE);
 	}
@@ -320,15 +341,32 @@ export class SourceFilter extends Filter {
 		if (reprintedFilter) reprintedFilter.setValue("Reprinted", PILL_STATE__IGNORE);
 	}
 
-	static getCompleteFilterSources (ent) {
-		if (!ent.otherSources) return ent.source;
+	static getCompleteFilterSources (ent, {isIncludeBaseSource = false} = {}) {
+		const isSkipBaseSource = !isIncludeBaseSource || !ent._baseSource;
 
-		const otherSourcesFilt = ent.otherSources
-			// Avoid `otherSources` from e.g. homebrews which are not loaded, and so lack their metadata
-			.filter(src => !ExcludeUtil.isExcluded("*", "*", src.source, {isNoCount: true}) && SourceUtil.isKnownSource(src.source));
-		if (!otherSourcesFilt.length) return ent.source;
+		if (!ent.otherSources && !ent.referenceSources && isSkipBaseSource) return ent.source;
 
-		return [ent.source].concat(otherSourcesFilt.map(src => new SourceFilterItem({item: src.source, isIgnoreRed: true, isOtherSource: true})));
+		// Avoid `otherSources`/`referenceSources` from e.g. homebrews which are not loaded, and so lack their metadata
+		const otherSourcesFilt = (ent.otherSources || [])
+			.filter(src => this._getCompleteFilterSources_isIncludedSource(src.source));
+		const referenceSourcesFilt = (ent.referenceSources || [])
+			.filter(src => this._getCompleteFilterSources_isIncludedSource(src));
+
+		if (!otherSourcesFilt.length && !referenceSourcesFilt.length && isSkipBaseSource) return ent.source;
+
+		const out = [ent.source]
+			.concat(otherSourcesFilt.map(src => new SourceFilterItem({item: src.source, isIgnoreRed: true, isOtherSource: true})))
+			.concat(referenceSourcesFilt.map(src => new SourceFilterItem({item: src, isIgnoreRed: true, isReferenceSource: true})))
+		;
+
+		// Base sources should already be filtered
+		if (!isSkipBaseSource && this._getCompleteFilterSources_isIncludedSource(ent._baseSource)) out.push(ent._baseSource);
+
+		return out;
+	}
+
+	static _getCompleteFilterSources_isIncludedSource (source) {
+		return !ExcludeUtil.isExcluded("*", "*", source, {isNoCount: true}) && SourceUtil.isKnownSource(source);
 	}
 
 	_doRenderPills_doRenderWrpGroup_getDividerHeaders (group) {
@@ -359,7 +397,7 @@ export class SourceFilter extends Filter {
 
 		const wrpWrpSlider = e_({
 			tag: "div",
-			clazz: `"w-100 ve-flex pt-2 pb-5 mb-2 mt-1 fltr-src__wrp-slider`,
+			clazz: `"ve-w-100 ve-flex ve-pt-2 ve-pb-5 ve-mb-2 ve-mt-1 ve-fltr-src__wrp-slider`,
 			children: [
 				wrpSlider,
 			],
@@ -367,7 +405,7 @@ export class SourceFilter extends Filter {
 
 		const btnCancel = e_({
 			tag: "button",
-			clazz: `ve-btn ve-btn-xs ve-btn-default px-1`,
+			clazz: `ve-btn ve-btn-xs ve-btn-default ve-px-1`,
 			html: "Cancel",
 			click: () => {
 				grpBtnsInactive.showVe();
@@ -378,7 +416,7 @@ export class SourceFilter extends Filter {
 
 		const btnConfirm = e_({
 			tag: "button",
-			clazz: `ve-btn ve-btn-xs ve-btn-default px-1`,
+			clazz: `ve-btn ve-btn-xs ve-btn-default ve-px-1`,
 			html: "Confirm",
 			click: () => {
 				grpBtnsInactive.showVe();
@@ -402,7 +440,7 @@ export class SourceFilter extends Filter {
 
 		const btnShowSlider = e_({
 			tag: "button",
-			clazz: `ve-btn ve-btn-xxs ve-btn-default px-1`,
+			clazz: `ve-btn ve-btn-xxs ve-btn-default ve-px-1`,
 			html: "Select by Date",
 			click: () => {
 				grpBtnsInactive.hideVe();
@@ -432,7 +470,7 @@ export class SourceFilter extends Filter {
 
 		const btnClear = e_({
 			tag: "button",
-			clazz: `ve-btn ve-btn-xxs ve-btn-default px-1`,
+			clazz: `ve-btn ve-btn-xxs ve-btn-default ve-px-1`,
 			html: "Clear",
 			click: () => {
 				const nxtState = {};
@@ -468,12 +506,12 @@ export class SourceFilter extends Filter {
 		return [
 			e_({
 				tag: "div",
-				clazz: `split-v-center w-100`,
+				clazz: `ve-split-v-center ve-w-100`,
 				children: [
 					...elesDividerHeaders,
 					e_({
 						tag: "div",
-						clazz: `mb-1 ve-flex-h-right`,
+						clazz: `ve-mb-1 ve-flex-h-right`,
 						children: [
 							grpBtnsActive,
 							grpBtnsInactive,
@@ -488,7 +526,7 @@ export class SourceFilter extends Filter {
 	_doRenderPills_doRenderWrpGroup_getDividerHeaders_groupBrew (group) {
 		const btnClear = e_({
 			tag: "button",
-			clazz: `ve-btn ve-btn-xxs ve-btn-default px-1`,
+			clazz: `ve-btn ve-btn-xxs ve-btn-default ve-px-1`,
 			html: "Clear",
 			click: () => {
 				const nxtState = {};
@@ -506,12 +544,12 @@ export class SourceFilter extends Filter {
 		return [
 			e_({
 				tag: "div",
-				clazz: `split-v-center w-100`,
+				clazz: `ve-split-v-center ve-w-100`,
 				children: [
 					...elesDividerHeaders,
 					e_({
 						tag: "div",
-						clazz: `mb-1 ve-flex-h-right`,
+						clazz: `ve-mb-1 ve-flex-h-right`,
 						children: [
 							e_({
 								tag: "div",
@@ -529,7 +567,7 @@ export class SourceFilter extends Filter {
 
 	_toDisplay_getMappedEntryVal (entryVal) {
 		entryVal = super._toDisplay_getMappedEntryVal(entryVal);
-		if (!this._meta.isIncludeOtherSources) entryVal = entryVal.filter(it => !it.isOtherSource);
+		if (!this._meta.isIncludeReferenceSources) entryVal = entryVal.filter(it => !it.isReferenceSource);
 		return entryVal;
 	}
 
@@ -544,7 +582,7 @@ export class SourceFilter extends Filter {
 
 		const spc = e_({
 			tag: "span",
-			clazz: "px-2 fltr-src__spc-pill",
+			clazz: "ve-px-2 ve-fltr-src__spc-pill",
 			text: "|",
 		});
 
@@ -555,7 +593,7 @@ export class SourceFilter extends Filter {
 
 		const btnPill = e_({
 			tag: "div",
-			clazz: "fltr__pill",
+			clazz: "ve-fltr__pill",
 			children: [
 				dispAbbreviation,
 				spc,
@@ -609,7 +647,7 @@ SourceFilter._PILL_DISPLAY_MODE__AS_NAMES = 0;
 SourceFilter._PILL_DISPLAY_MODE__AS_ABVS = 1;
 SourceFilter._PILL_DISPLAY_MODE__AS_BOTH = 2;
 SourceFilter._DEFAULT_META = {
-	isIncludeOtherSources: false,
+	isIncludeReferenceSources: false,
 };
 SourceFilter._DEFAULT_UI_META = {
 	pillDisplayMode: SourceFilter._PILL_DISPLAY_MODE__AS_NAMES,

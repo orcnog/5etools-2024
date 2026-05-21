@@ -9,7 +9,7 @@
 		text-decoration-color: $rgb !important;
 	}
 
-	.source {
+	.ve-source {
 		$rgb-source-category-site: #e50711;
 		$rgb-source-category-extras: #9d4c4f;
 		$rgb-source-category-prerelease: vars.$rgb-subclass-ua;
@@ -82,7 +82,6 @@
 		$rgb-source-KftGV: #876e38;
 		$rgb-source-HAT: #a24545;
 		$rgb-source-BGG: #469cb7;
-		$rgb-source-TDCSR: #642e4b;
 		$rgb-source-PaBTSO: #b2b34e;
 		$rgb-source-PAitM: #a23087;
 		$rgb-source-CoA: #a13a0f;
@@ -97,6 +96,15 @@
 		$rgb-source-XMM: #5686b6;
 		$rgb-source-HFDoMM: #00817f;
 		$rgb-source-DrDe: #e46910;
+		$rgb-source-HotB: #aa6f1a;
+		$rgb-source-WttHC: #c6053b;
+		$rgb-source-FRAiF: #746fa8;
+		$rgb-source-FRHoF: #95a038;
+		$rgb-source-ABH: #b42e4d;
+		$rgb-source-NF: #5bdbd6;
+		$rgb-source-LFL: #d35734;
+		$rgb-source-EFA: #827d4d;
+		$rgb-source-CaBoMP: #832c5a;
 
 		// region Categories
 
@@ -451,10 +459,6 @@
 				@include mix-source-color($rgb-source-BGG);
 			}
 
-			&TDCSR {
-				@include mix-source-color($rgb-source-TDCSR);
-			}
-
 			&PaBTSO {
 				@include mix-source-color($rgb-source-PaBTSO);
 			}
@@ -526,48 +530,97 @@
 			&DrDe-DotSC {
 				@include mix-source-color($rgb-source-DrDe);
 			}
+
+			&HotB {
+				@include mix-source-color($rgb-source-HotB);
+			}
+
+			&WttHC {
+				@include mix-source-color($rgb-source-WttHC);
+			}
+
+			&FRAiF {
+				@include mix-source-color($rgb-source-FRAiF);
+			}
+
+			&FRHoF {
+				@include mix-source-color($rgb-source-FRHoF);
+			}
+
+			&ABH {
+				@include mix-source-color($rgb-source-ABH);
+			}
+
+			&NF {
+				@include mix-source-color($rgb-source-NF);
+			}
+
+			&LFL {
+				@include mix-source-color($rgb-source-LFL);
+			}
+
+			&EFA,
+			&FFotR {
+				@include mix-source-color($rgb-source-EFA);
+			}
+
+			&CaBoMP {
+				@include mix-source-color($rgb-source-CaBoMP);
+			}
 		}
 		// endregion
 	}
 
-	.sp__ {
-		&school- {
-			&A {
+	.ve-sp__ {
+		&school-- {
+			&a {
 				color: #00b921;
 			}
 
-			&V {
+			&v {
 				color: #bb0100;
 			}
 
-			&E {
+			&e {
 				color: #b30083;
 			}
 
-			&I {
+			&i {
 				color: #006dbd;
 			}
 
-			&D {
+			&d {
 				color: #00adb3;
 			}
 
-			&N {
+			&n {
 				color: #6c00cc;
 			}
 
-			&T {
+			&t {
 				color: #ccbe00;
 			}
 
-			&C {
+			&c {
 				color: #bd0044;
 			}
 		}
 	}
 
+	.ve-psi__ {
+		&type-- {
+			&d {
+				// (Unused)
+			}
+
+			&t {
+				// (Unused)
+			}
+		}
+	}
+
 	// (Unused)
-	.itm__ {
+	.ve-itm__ {
 		&rarity-alt- {
 			&common {
 				color: color.adjust(vars.$rgb-font, $lightness: 15%);
@@ -596,7 +649,7 @@
 		}
 	}
 
-	.itm__ {
+	.ve-itm__ {
 		&rarity- {
 			&common {
 				color: color.adjust(vars.$rgb-font, $lightness: 15%);

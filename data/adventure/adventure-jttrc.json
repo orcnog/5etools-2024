@@ -17613,7 +17613,7 @@
 											"page": 138,
 											"id": "303",
 											"entries": [
-												"Ranged Weapon Attack: +3 to hit, ranged 150/600 ft., one target. Hit: 5 ({@dice 1d8 + 1}) piercing damage."
+												"Ranged Weapon Attack: {@hit 3} to hit, ranged 150/600 ft., one target. Hit: 5 ({@dice 1d8 + 1}) piercing damage."
 											]
 										}
 									]
@@ -18838,10 +18838,9 @@
 											"grid": {
 												"type": "square",
 												"size": 108,
-												"offsetX": 67,
-												"offsetY": 60,
-												"scale": 2,
-												"distance": 10
+												"offsetX": 134,
+												"offsetY": 120,
+												"scale": 4
 											},
 											"title": "Map 11.1: Three Sun Square",
 											"width": 1043,
@@ -18886,10 +18885,9 @@
 											"grid": {
 												"type": "square",
 												"size": 108,
-												"offsetX": 67,
-												"offsetY": 60,
-												"scale": 2,
-												"distance": 10
+												"offsetX": 134,
+												"offsetY": 120,
+												"scale": 4
 											},
 											"title": "Player Version",
 											"width": 1043,
@@ -19194,7 +19192,7 @@
 												],
 												[
 													"4",
-													"You pass through an arc of knives thrown by performing food vendors (+3 to hit, {@dice 4d4 + 1} piercing damage on a hit)."
+													"You pass through an arc of knives thrown by performing food vendors ({@hit 3} to hit, {@dice 4d4 + 1} piercing damage on a hit)."
 												],
 												[
 													"5",
@@ -31374,7 +31372,7 @@
 										{
 											"type": "item",
 											"name": "Hallmarks",
-											"entry": "This land is known for the chocolate and sugar produced there and for the elevated walkways that traverse its forests and tropical savannas. Folk there experience vivid dreams, often of an invisible, flat-topped mountain ."
+											"entry": "This land is known for the chocolate and sugar produced there and for the elevated walkways that traverse its forests and tropical savannas. Folk there experience vivid dreams, often of an invisible, flat-topped mountain."
 										},
 										{
 											"type": "item",

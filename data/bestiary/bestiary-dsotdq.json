@@ -2750,6 +2750,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"damageTags": [
 				"A",
 				"I",
@@ -2947,6 +2948,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"attachedItems": [
 				"heavy crossbow|phb",
 				"lance|phb"
@@ -4232,6 +4234,7 @@
 				}
 			},
 			"type": "undead",
+			"tokenCustom": true,
 			"hasToken": true
 		},
 		{
@@ -4274,6 +4277,7 @@
 				}
 			},
 			"spellcasting": null,
+			"tokenCustom": true,
 			"hasToken": true
 		},
 		{
@@ -5344,6 +5348,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"attachedItems": [
 				"longsword|phb"
 			],
@@ -5744,7 +5749,7 @@
 				{
 					"name": "Elusive",
 					"entries": [
-						"The kender takes the Disengage or Hide action."
+						"The kender takes the {@action Disengage} or {@action Hide} action."
 					]
 				}
 			],
@@ -5892,6 +5897,7 @@
 				}
 			],
 			"traitTags": [
+				"Ethereal Sight",
 				"Incorporeal Movement"
 			],
 			"senseTags": [
@@ -6955,10 +6961,8 @@
 			"isNamedCreature": true,
 			"source": "DSotDQ",
 			"page": 206,
-			"otherSources": [
-				{
-					"source": "VEoR"
-				}
+			"referenceSources": [
+				"VEoR"
 			],
 			"size": [
 				"M"
@@ -7879,7 +7883,7 @@
 				{
 					"name": "Elusive",
 					"entries": [
-						"Tem takes the Disengage or Hide action."
+						"Tem takes the {@action Disengage} or {@action Hide} action."
 					]
 				}
 			],
@@ -8681,6 +8685,7 @@
 				}
 			],
 			"trait": null,
+			"tokenCustom": true,
 			"hasToken": true
 		},
 		{
@@ -8711,6 +8716,7 @@
 					}
 				}
 			},
+			"tokenCustom": true,
 			"traitTags": [
 				"Death Burst",
 				"Magic Resistance",
@@ -8793,6 +8799,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"traitTags": [
 				"Flyby"
 			],

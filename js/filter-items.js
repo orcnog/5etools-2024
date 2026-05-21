@@ -68,7 +68,10 @@ class PageFilterEquipment extends PageFilterBase {
 				0,
 				...[...new Array(9)].map((_, i) => i + 1),
 				...[...new Array(9)].map((_, i) => 10 * (i + 1)),
-				...[...new Array(100)].map((_, i) => 100 * (i + 1)),
+				...[...new Array(99)].map((_, i) => 100 * (i + 1)),
+				...[...new Array(9)].map((_, i) => 10_000 * (i + 1)),
+				...[...new Array(9)].map((_, i) => 100_000 * (i + 1)),
+				...[...new Array(10)].map((_, i) => 1_000_000 * (i + 1)),
 			],
 			labelDisplayFn: it => !it ? "None" : Parser.getDisplayCurrency(CurrencyUtil.doSimplifyCoins({cp: it})),
 		});
@@ -125,7 +128,7 @@ class PageFilterEquipment extends PageFilterBase {
 	}
 
 	static mutateForFilters (item) {
-		this._mutateForFilters_commonSources(item);
+		this._mutateForFilters_commonSources(item, {isIncludeBaseSource: true});
 
 		item._fProperties = item.property ? item.property.map(p => Renderer.item.getProperty(p?.uid || p)?.name).filter(Boolean) : [];
 
@@ -197,7 +200,7 @@ class PageFilterEquipment extends PageFilterBase {
 		if (isExcluded) return;
 
 		this._sourceFilter.addItem(item._fSources);
-		this._typeFilter.addItem(item._typeListText);
+		this._typeFilter.addItem(item._textTypes);
 		this._propertyFilter.addItem(item._fProperties);
 		this._damageTypeFilter.addItem(item.dmgType);
 		this._damageDiceFilter.addItem(item._fDamageDice);
@@ -232,7 +235,7 @@ class PageFilterEquipment extends PageFilterBase {
 		return this._filterBox.toDisplay(
 			values,
 			it._fSources,
-			it._typeListText,
+			it._textTypes,
 			it._fProperties,
 			it._category,
 			it._fValue,
@@ -367,14 +370,19 @@ class PageFilterItems extends PageFilterEquipment {
 		});
 		this._baseSourceFilter = new SourceFilter({header: "Base Source", selFn: null});
 		this._baseItemFilter = new SearchableFilter({header: "Base Item", displayFn: this.constructor._getBaseItemDisplay.bind(this.constructor), itemSortFn: SortUtil.ascSortLower});
+		this._classFeaturesFilter = new Filter({
+			header: "Class Features",
+			displayFn: (uid) => {
+				const {name, source} = DataUtil.class.unpackUidClassFeature(uid);
+				return `${name.toTitleCase()} (${Parser.sourceJsonToAbv(source)})`;
+			},
+			itemSortFn: SortUtil.ascSortLower,
+		});
 		this._optionalfeaturesFilter = new Filter({
-			header: "Feature",
-			displayFn: (it) => {
-				const [name, source] = it.split("|");
-				if (!source) return name.toTitleCase();
-				const sourceJson = Parser.sourceJsonToJson(source);
-				if (!SourceUtil.isNonstandardSourceWotc(sourceJson)) return name.toTitleCase();
-				return `${name.toTitleCase()} (${Parser.sourceJsonToAbv(sourceJson)})`;
+			header: "Other Options and Features",
+			displayFn: (uid) => {
+				const {name, source} = DataUtil.generic.unpackUid(uid, "optfeature");
+				return `${name.toTitleCase()} (${Parser.sourceJsonToAbv(source)})`;
 			},
 			itemSortFn: SortUtil.ascSortLower,
 		});
@@ -422,8 +430,10 @@ class PageFilterItems extends PageFilterEquipment {
 
 		item._fAttunement = this._getAttunementFilterItems(item);
 
-		FilterCommon.mutateForFilters_damageVulnResImmune(item);
-		FilterCommon.mutateForFilters_conditionImmune(item);
+		this._mutateForFilters_classFeatures(item);
+
+		FilterCommon.mutateForFilters_damageVulnResImmuneNonPlayer(item);
+		FilterCommon.mutateForFilters_conditionImmuneNonPlayer(item);
 	}
 
 	static _mutateForFilters_bonusWeapon ({prop, item, text}) {
@@ -433,6 +443,35 @@ class PageFilterItems extends PageFilterEquipment {
 			case "+1":
 			case "+2":
 			case "+3": item._fBonus.push(`${text} (${item[prop]})`); break;
+		}
+	}
+
+	static _CLASS_FEATURE_EFA_ARTIFICER_REPLICATE_MAGIC_ITEM = "replicate magic item|artificer|efa|2|efa";
+
+	static _mutateForFilters_classFeatures (item) {
+		item._fClassFeatures = [...item.classFeatures || []];
+
+		if (item._fClassFeatures.includes(this._CLASS_FEATURE_EFA_ARTIFICER_REPLICATE_MAGIC_ITEM)) return;
+		if (item.curse) return;
+		switch (item.rarity) {
+			case "common": {
+				if (
+					item.type
+					&& [
+						Parser.ITM_TYP_ABV__POTION,
+						Parser.ITM_TYP_ABV__SCROLL,
+					]
+						.includes(DataUtil.itemType.unpackUid(item.type).abbreviation)
+				) return;
+				item._fClassFeatures.push(this._CLASS_FEATURE_EFA_ARTIFICER_REPLICATE_MAGIC_ITEM);
+				break;
+			}
+			case "uncommon":
+			case "rare": {
+				if (!item.wondrous) return;
+				item._fClassFeatures.push(this._CLASS_FEATURE_EFA_ARTIFICER_REPLICATE_MAGIC_ITEM);
+				break;
+			}
 		}
 	}
 
@@ -449,6 +488,7 @@ class PageFilterItems extends PageFilterEquipment {
 		this._baseSourceFilter.addItem(item._baseSource);
 		this._attunementFilter.addItem(item._fAttunement);
 		this._rechargeTypeFilter.addItem(item.recharge);
+		this._classFeaturesFilter.addItem(item._fClassFeatures);
 		this._optionalfeaturesFilter.addItem(item.optionalfeatures);
 		this._vulnerableFilter.addItem(item._fVuln);
 		this._resistFilter.addItem(item._fRes);
@@ -484,6 +524,7 @@ class PageFilterItems extends PageFilterEquipment {
 			this._lootTableFilter,
 			this._baseItemFilter,
 			this._baseSourceFilter,
+			this._classFeaturesFilter,
 			this._optionalfeaturesFilter,
 			this._attachedSpellsFilter,
 		];
@@ -493,7 +534,7 @@ class PageFilterItems extends PageFilterEquipment {
 		return this._filterBox.toDisplay(
 			values,
 			it._fSources,
-			it._typeListText,
+			it._textTypes,
 			it._fTier,
 			it.rarity,
 			it._fProperties,
@@ -523,6 +564,7 @@ class PageFilterItems extends PageFilterEquipment {
 			it.lootTables,
 			it._fBaseItemAll,
 			it._baseSource,
+			it._fClassFeatures,
 			it.optionalfeatures,
 			it._fAttachedSpells,
 		);
@@ -545,16 +587,17 @@ class ModalFilterItems extends ModalFilterBase {
 			...opts,
 			modalTitle: `Item${opts.isRadio ? "" : "s"}`,
 			pageFilter: new PageFilterItems(opts?.pageFilterOpts),
+			previewButtonHandler: new ListUiPreviewButtonHandlerStatsFluff({page: UrlUtil.PG_ITEMS}),
 		});
 	}
 
-	_$getColumnHeaders () {
+	_getColumnHeaders () {
 		const btnMeta = [
 			{sort: "name", text: "Name", width: "4"},
 			{sort: "type", text: "Type", width: "6"},
 			{sort: "source", text: "Source", width: "1"},
 		];
-		return ModalFilterBase._$getFilterColumnHeaders(btnMeta);
+		return ModalFilterBase._getFilterColumnHeaders(btnMeta);
 	}
 
 	async _pInit () {
@@ -576,22 +619,22 @@ class ModalFilterItems extends ModalFilterBase {
 		pageFilter.mutateAndAddToFilters(item);
 
 		const eleRow = document.createElement("div");
-		eleRow.className = "px-0 w-100 ve-flex-col no-shrink";
+		eleRow.className = "ve-px-0 ve-w-100 ve-flex-col ve-no-shrink";
 
 		const hash = UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_ITEMS](item);
 		const source = Parser.sourceJsonToAbv(item.source);
-		const type = item._typeListText.join(", ");
+		const type = item._textTypes.join(", ");
 
-		eleRow.innerHTML = `<div class="w-100 ve-flex-vh-center lst__row-border veapp__list-row no-select lst__wrp-cells">
-			<div class="ve-col-0-5 pl-0 ve-flex-vh-center">${this._isRadio ? `<input type="radio" name="radio" class="no-events">` : `<input type="checkbox" class="no-events">`}</div>
+		eleRow.innerHTML = `<div class="ve-w-100 ve-flex-vh-center ve-lst__row-border veapp__list-row ve-no-select ve-lst__wrp-cells">
+			<div class="ve-col-0-5 ve-pl-0 ve-flex-vh-center">${this._isRadio ? `<input type="radio" name="radio" class="ve-no-events">` : `<input type="checkbox" class="ve-no-events">`}</div>
 
-			<div class="ve-col-0-5 px-1 ve-flex-vh-center">
-				<div class="ui-list__btn-inline px-2 no-select" title="Toggle Preview (SHIFT to Toggle Info Preview)">[+]</div>
+			<div class="ve-col-0-5 ve-px-1 ve-flex-vh-center">
+				<div class="ve-ui-list__btn-inline ve-px-2 ve-no-select" title="Toggle Preview (SHIFT to Toggle Info Preview)">[+]</div>
 			</div>
 
-			<div class="ve-col-5 px-1 ${item._versionBase_isVersion ? "italic" : ""} ${this._getNameStyle()}">${item._versionBase_isVersion ? `<span class="px-3"></span>` : ""}${item.name}</div>
-			<div class="ve-col-5 px-1">${type.uppercaseFirst()}</div>
-			<div class="ve-col-1 ve-flex-h-center ${Parser.sourceJsonToSourceClassname(item.source)} pl-1 pr-0" title="${Parser.sourceJsonToFull(item.source)}">${source}${Parser.sourceJsonToMarkerHtml(item.source, {isList: true})}</div>
+			<div class="ve-col-5 ve-px-1 ${item._versionBase_isVersion ? "ve-italic" : ""} ${this._getNameStyle()}">${item._versionBase_isVersion ? `<span class="ve-px-3"></span>` : ""}${item.name}</div>
+			<div class="ve-col-5 ve-px-1">${type.uppercaseFirst()}</div>
+			<div class="ve-col-1 ve-flex-h-center ${Parser.sourceJsonToSourceClassname(item.source)} ve-pl-1 ve-pr-0" title="${Parser.sourceJsonToFull(item.source)}">${source}${Parser.sourceJsonToMarkerHtml(item.source, {isList: true})}</div>
 		</div>`;
 
 		const btnShowHidePreview = eleRow.firstElementChild.children[1].firstElementChild;
@@ -613,7 +656,7 @@ class ModalFilterItems extends ModalFilterBase {
 			},
 		);
 
-		ListUiUtil.bindPreviewButton(UrlUtil.PG_ITEMS, this._allData, listItem, btnShowHidePreview);
+		this._previewButtonHandler.bindPreviewButton({entity: item, listItem, btnShowHidePreview});
 
 		return listItem;
 	}

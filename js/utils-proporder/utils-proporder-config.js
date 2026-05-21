@@ -3,14 +3,95 @@ import {PROPS_FOUNDRY_DATA_INLINE} from "../foundry/foundry-consts.js";
 import {getFnRootPropListSort} from "./utils-proporder-sort.js";
 import {PROPORDER_ENTRY_DATA_OBJECT, PROPORDER_FOUNDRY_ACTIVITIES, PROPORDER_FOUNDRY_EFFECTS} from "./utils-proporder-config-shared.js";
 
+const getFoundryGeneric = ({propsMatchAdditional = [], isFeature = false} = {}) => {
+	const proporder = [
+		"name",
+		"source",
+
+		...propsMatchAdditional,
+
+		ObjectKey.getCopyKey({
+			identKeys: [
+				"name",
+				"source",
+				...propsMatchAdditional,
+			],
+			fnGetModOrder: () => proporderCopy,
+		}),
+
+		"type",
+		"system",
+		PROPORDER_FOUNDRY_ACTIVITIES,
+		PROPORDER_FOUNDRY_EFFECTS,
+		"flags",
+		"img",
+		"advice",
+
+		...(
+			isFeature
+				? [
+					"isIgnored",
+					"ignoreSrdActivities",
+					"ignoreSrdEffects",
+
+					"entries",
+
+					new ObjectKey("entryData", {
+						fnGetOrder: () => PROPORDER_ENTRY_DATA_OBJECT,
+					}),
+
+					"advancement",
+				]
+				: []
+		),
+
+		new ObjectKey("subEntities", {
+			fnGetOrder: () => PROPORDER_ROOT,
+		}),
+
+		"_merge",
+
+		"migrationVersion",
+	];
+
+	const proporderCopy = [
+		"*",
+		"_",
+		...proporder,
+	];
+
+	return proporder;
+};
+
 const PROPORDER_META = [
-	"sources",
+	new ArrayKey("sources", {
+		fnGetOrder: () => [
+			"json",
+			"abbreviation",
+			"full",
+
+			"url",
+			"version",
+			"dateReleased",
+
+			new ArrayKey("authors", {fnSort: SortUtil.ascSortLower}),
+			new ArrayKey("convertedBy", {fnSort: SortUtil.ascSortLower}),
+
+			"partnered",
+
+			"color",
+			"colorNight",
+
+			"targetSchema",
+		],
+	}),
 
 	"dependencies",
 	"includes",
 	"internalCopies",
 
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 
 	"spellSchools",
 	"spellDistanceUnits",
@@ -30,56 +111,12 @@ const PROPORDER_META = [
 	"_dateLastModifiedHash",
 ];
 const PROPORDER_TEST = [
+	"references",
+
 	"additionalImageSources",
 ];
-const PROPORDER_FOUNDRY_GENERIC = [
-	"name",
-	"source",
-
-	"type",
-	"system",
-	PROPORDER_FOUNDRY_ACTIVITIES,
-	PROPORDER_FOUNDRY_EFFECTS,
-	"flags",
-	"img",
-
-	new ObjectKey("subEntities", {
-		fnGetOrder: () => PROPORDER_ROOT,
-	}),
-
-	"_merge",
-
-	"migrationVersion",
-];
-const PROPORDER_FOUNDRY_GENERIC_FEATURE = [
-	"name",
-	"source",
-
-	"type",
-	"system",
-	PROPORDER_FOUNDRY_ACTIVITIES,
-	PROPORDER_FOUNDRY_EFFECTS,
-	"flags",
-	"img",
-
-	"isIgnored",
-	"ignoreSrdActivities",
-	"ignoreSrdEffects",
-
-	"entries",
-
-	new ObjectKey("entryData", {
-		fnGetOrder: () => PROPORDER_ENTRY_DATA_OBJECT,
-	}),
-
-	new ObjectKey("subEntities", {
-		fnGetOrder: () => PROPORDER_ROOT,
-	}),
-
-	"_merge",
-
-	"migrationVersion",
-];
+const PROPORDER_FOUNDRY_GENERIC = getFoundryGeneric();
+const PROPORDER_FOUNDRY_GENERIC_FEATURE = getFoundryGeneric({isFeature: true});
 const PROPORDER_MONSTER = [
 	"name",
 	"shortName",
@@ -99,6 +136,8 @@ const PROPORDER_MONSTER = [
 	"basicRules2024",
 	"additionalSources",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
+	"isReprinted",
 	"reprintedAs",
 
 	"summonedBySpell",
@@ -205,6 +244,8 @@ const PROPORDER_MONSTER = [
 	"token",
 	"tokenHref",
 	"tokenCredit",
+	"tokenCustom",
+	"tokenHref3d",
 	"soundClip",
 
 	...PROPS_FOUNDRY_DATA_INLINE,
@@ -246,7 +287,7 @@ const PROPORDER_MONSTER = [
 			"_implementations",
 			...PROPORDER_MONSTER,
 		],
-		fnSort: getFnRootPropListSort("monster"),
+		fnSort: getFnRootPropListSort("monster", {isRequired: true}),
 	}),
 ];
 const PROPORDER_MONSTER__COPY_MOD = [
@@ -266,6 +307,7 @@ const PROPORDER_MONSTER__COPY_MOD = [
 ];
 const PROPORDER_MONSTER_TEMPLATE = [
 	"name",
+	"alias",
 
 	"source",
 	"page",
@@ -319,9 +361,11 @@ const PROPORDER_FOUNDRY_MONSTER = [
 	PROPORDER_FOUNDRY_EFFECTS,
 	"flags",
 	"img",
+	"advice",
 
 	"migrationVersion",
 ];
+const PROPORDER_FOUNDRY_MONSTER_SUB_ENTITY = getFoundryGeneric({propsMatchAdditional: ["monsterName", "monsterFeature"]});
 const PROPORDER_GENERIC_FLUFF = [
 	"name",
 
@@ -378,6 +422,7 @@ const PROPORDER_SPELL = [
 	"basicRules2024",
 	"additionalSources",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	ObjectKey.getCopyKey({fnGetModOrder: () => PROPORDER_SPELL__COPY_MOD}),
@@ -433,8 +478,8 @@ const PROPORDER_SPELL = [
 
 	...PROPS_FOUNDRY_DATA_INLINE,
 
-	new ObjectKey("roll20Spell", {
-		order: PROPORDER_ROLL20_SPELL,
+	new ArrayKey("roll20Spell", {
+		fnGetOrder: () => PROPORDER_ROLL20_SPELL,
 	}),
 ];
 const PROPORDER_SPELL__COPY_MOD = [
@@ -465,6 +510,7 @@ const PROPORDER_ACTION = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"fromVariant",
@@ -489,6 +535,7 @@ const PROPORDER_ADVENTURE = [
 	"coverUrl",
 	"published",
 	"publishedOrder",
+	"revised",
 	"author",
 	"storyline",
 	"level",
@@ -513,12 +560,14 @@ const PROPORDER_BOOK = [
 
 	"id",
 	"source",
+	"parentSource",
 
 	"group",
 
 	"cover",
 	"coverUrl",
 	"published",
+	"revised",
 	"author",
 
 	"contents",
@@ -543,6 +592,7 @@ const PROPORDER_BACKGROUND = [
 	"basicRules2024",
 	"additionalSources",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"edition",
@@ -587,6 +637,13 @@ const PROPORDER_BACKGROUND__COPY_MOD = [
 	"_",
 	...PROPORDER_BACKGROUND,
 ];
+const PROPORDER_FOUNDRY_BACKGROUND_FEATURE = getFoundryGeneric({
+	propsMatchAdditional: [
+		"backgroundName",
+		"backgroundSource",
+	],
+	isFeature: true,
+});
 const PROPORDER_LEGENDARY_GROUP = [
 	"name",
 	"alias",
@@ -618,6 +675,7 @@ const PROPORDER_CLASS = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"isReprinted",
 	"reprintedAs",
 
@@ -692,6 +750,7 @@ const PROPORDER_FOUNDRY_CLASS = [
 	PROPORDER_FOUNDRY_EFFECTS,
 	"flags",
 	"img",
+	"advice",
 
 	"advancement",
 	"chooseSystem",
@@ -718,6 +777,7 @@ const PROPORDER_SUBCLASS = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"isReprinted",
 	"reprintedAs",
 
@@ -791,11 +851,13 @@ const PROPORDER_FOUNDRY_SUBCLASS = [
 	"className",
 	"classSource",
 
+	"identifier",
 	"system",
 	PROPORDER_FOUNDRY_ACTIVITIES,
 	PROPORDER_FOUNDRY_EFFECTS,
 	"flags",
 	"img",
+	"advice",
 
 	"advancement",
 	"chooseSystem",
@@ -819,6 +881,7 @@ const PROPORDER_CLASS_FEATURE = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 
 	"className",
 	"classSource",
@@ -867,6 +930,7 @@ const PROPORDER_SUBCLASS_FEATURE = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 
 	"className",
 	"classSource",
@@ -923,6 +987,7 @@ const PROPORDER_FOUNDRY_CLASS_FEATURE = [
 	PROPORDER_FOUNDRY_EFFECTS,
 	"flags",
 	"img",
+	"advice",
 
 	"entries",
 
@@ -930,6 +995,7 @@ const PROPORDER_FOUNDRY_CLASS_FEATURE = [
 		fnGetOrder: () => PROPORDER_ENTRY_DATA_OBJECT,
 	}),
 
+	"advancement",
 	"chooseSystem",
 	"isChooseSystemRenderEntries",
 	"isChooseFlagsRenderEntries",
@@ -959,6 +1025,7 @@ const PROPORDER_FOUNDRY_SUBCLASS_FEATURE = [
 	PROPORDER_FOUNDRY_EFFECTS,
 	"flags",
 	"img",
+	"advice",
 
 	"entries",
 
@@ -966,6 +1033,7 @@ const PROPORDER_FOUNDRY_SUBCLASS_FEATURE = [
 		fnGetOrder: () => PROPORDER_ENTRY_DATA_OBJECT,
 	}),
 
+	"advancement",
 	"chooseSystem",
 	"isChooseSystemRenderEntries",
 	"isChooseFlagsRenderEntries",
@@ -994,10 +1062,12 @@ const PROPORDER_LANGUAGE = [
 	"basicRules2024",
 	"additionalSources",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"type",
 	"typicalSpeakers",
+	"origin",
 	"script",
 
 	"fonts",
@@ -1023,7 +1093,17 @@ const PROPORDER_NAME = [
 	"page",
 	"legacy",
 
-	"tables",
+	new ArrayKey("tables", {
+		order: [
+			"option",
+
+			"page",
+
+			"diceExpression",
+			"table",
+		],
+		fnSort: SortUtil.ascSortEncounter,
+	}),
 ];
 const PROPORDER_CONDITION = [
 	"name",
@@ -1036,6 +1116,7 @@ const PROPORDER_CONDITION = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"color",
@@ -1060,6 +1141,7 @@ const PROPORDER_DISEASE = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"type",
@@ -1086,6 +1168,7 @@ const PROPORDER_STATUS = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"color",
@@ -1109,6 +1192,7 @@ const PROPORDER_CULT = [
 	"basicRules2024",
 	"additionalSources",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"type",
@@ -1131,6 +1215,7 @@ const PROPORDER_BOON = [
 	"basicRules2024",
 	"additionalSources",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"type",
@@ -1157,6 +1242,7 @@ const PROPORDER_DEITY = [
 	"basicRules2024",
 	"additionalSources",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 
 	new ObjectKey("_copy", {
 		order: [
@@ -1214,6 +1300,7 @@ const PROPORDER_FEAT = [
 	"basicRules2024",
 	"additionalSources",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	ObjectKey.getCopyKey({fnGetModOrder: () => PROPORDER_FEAT__COPY_MOD}),
@@ -1271,7 +1358,7 @@ const PROPORDER_FEAT = [
 			"_implementations",
 			...PROPORDER_FEAT,
 		],
-		fnSort: getFnRootPropListSort("feat"),
+		fnSort: getFnRootPropListSort("feat", {isRequired: true}),
 	}),
 ];
 const PROPORDER_FEAT__COPY_MOD = [
@@ -1290,6 +1377,7 @@ const PROPORDER_VEHICLE = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"vehicleType",
@@ -1331,6 +1419,7 @@ const PROPORDER_VEHICLE = [
 	"control",
 	"movement",
 	"weapon",
+	"station",
 	"other",
 
 	"entries",
@@ -1344,6 +1433,8 @@ const PROPORDER_VEHICLE = [
 	"token",
 	"tokenHref",
 	"tokenCredit",
+	"tokenCustom",
+	"tokenHref3d",
 
 	"hasToken",
 	"hasFluff",
@@ -1364,6 +1455,7 @@ const PROPORDER_VEHICLE_UPGRADE = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 
 	"upgradeType",
 
@@ -1397,6 +1489,7 @@ const PROPORDER_ITEM = [
 	"basicRules2024",
 	"additionalSources",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	ObjectKey.getCopyKey({fnGetModOrder: () => PROPORDER_ITEM__COPY_MOD}),
@@ -1545,6 +1638,7 @@ const PROPORDER_ITEM = [
 
 	"light",
 
+	"classFeatures",
 	"optionalfeatures",
 	new ObjectOrArrayKey({
 		objectKey: new ObjectKey("attachedSpells", {
@@ -1601,6 +1695,7 @@ const PROPORDER_MAGICVARIANT = [
 	"alias",
 	"group",
 	"source",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 
 	ObjectKey.getCopyKey({fnGetModOrder: () => PROPORDER_MAGICVARIANT__COPY_MOD}),
 
@@ -1741,6 +1836,7 @@ const PROPORDER_OBJECT = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"size",
@@ -1772,6 +1868,8 @@ const PROPORDER_OBJECT = [
 	"token",
 	"tokenHref",
 	"tokenCredit",
+	"tokenCustom",
+	"tokenHref3d",
 
 	"altArt",
 
@@ -1794,6 +1892,7 @@ const PROPORDER_OPTIONALFEATURE = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	ObjectKey.getCopyKey({fnGetModOrder: () => PROPORDER_OPTIONALFEATURE__COPY_MOD}),
@@ -1868,6 +1967,7 @@ const PROPORDER_REWARD = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"type",
@@ -1897,6 +1997,7 @@ const PROPORDER_VARIANTRULE = [
 	"basicRules2024",
 	"additionalSources",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"ruleType",
@@ -1914,6 +2015,7 @@ const PROPORDER_RACE_SUBRACE = [
 	"basicRules2024",
 	"additionalSources",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"edition",
@@ -1993,7 +2095,7 @@ const PROPORDER_RACE_SUBRACE = [
 			"_implementations",
 			...PROPORDER_RACE,
 		],
-		fnSort: getFnRootPropListSort("subrace"),
+		fnSort: getFnRootPropListSort("subrace", {isRequired: true}),
 	}),
 ];
 const PROPORDER_RACE = [
@@ -2020,37 +2122,13 @@ const PROPORDER_SUBRACE = [
 
 	...PROPORDER_RACE_SUBRACE,
 ];
-const PROPORDER_FOUNDRY_RACE_FEATURE = [
-	"name",
-
-	"source",
-
-	"raceName",
-	"raceSource",
-
-	ObjectKey.getCopyKey({
-		identKeys: [
-			"name",
-			"source",
-			"raceName",
-			"raceSource",
-		],
-		fnGetModOrder: () => PROPORDER_FOUNDRY_RACE_FEATURE__COPY_MOD,
-	}),
-
-	"system",
-	PROPORDER_FOUNDRY_ACTIVITIES,
-	PROPORDER_FOUNDRY_EFFECTS,
-	"flags",
-	"img",
-
-	"migrationVersion",
-];
-const PROPORDER_FOUNDRY_RACE_FEATURE__COPY_MOD = [
-	"*",
-	"_",
-	...PROPORDER_FOUNDRY_RACE_FEATURE,
-];
+const PROPORDER_FOUNDRY_RACE_FEATURE = getFoundryGeneric({
+	propsMatchAdditional: [
+		"raceName",
+		"raceSource",
+	],
+	isFeature: true,
+});
 const PROPORDER_TABLE = [
 	"name",
 	"alias",
@@ -2062,6 +2140,7 @@ const PROPORDER_TABLE = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 
 	"type",
 
@@ -2099,6 +2178,7 @@ const PROPORDER_TRAP = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"trapHazType",
@@ -2140,6 +2220,7 @@ const PROPORDER_HAZARD = [
 	"basicRules2024",
 	"additionalSources",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"trapHazType",
@@ -2161,6 +2242,7 @@ const PROPORDER_RECIPE = [
 	"page",
 
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 
 	"type",
 	"dishTypes",
@@ -2185,6 +2267,42 @@ const PROPORDER_RECIPE = [
 
 	"fluff",
 ];
+const PROPORDER_CROCHET_PATTERN = [
+	"name",
+	"alias",
+
+	"source",
+	"page",
+
+	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
+
+	"designers",
+	"level",
+	"patternType",
+	"size",
+	"sizeNote",
+	"yarn",
+	"hooks",
+	"notions",
+	"gauge",
+	"abbreviations",
+	"stitches",
+	"notes",
+	"finishing",
+
+	"instructions",
+
+	"seeAlsoCreature",
+	"seeAlsoItem",
+
+	"fluff",
+
+	"hasFluff",
+	"hasFluffImages",
+
+	"fluff",
+];
 const PROPORDER_CHAROPTION = [
 	"name",
 	"alias",
@@ -2193,6 +2311,7 @@ const PROPORDER_CHAROPTION = [
 	"page",
 
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 
 	"prerequisite",
 
@@ -2216,6 +2335,7 @@ const PROPORDER_SKILL = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"ability",
@@ -2233,6 +2353,7 @@ const PROPORDER_SENSE = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"entries",
@@ -2248,6 +2369,7 @@ const PROPORDER_DECK = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 
 	ObjectKey.getCopyKey({fnGetModOrder: () => PROPORDER_DECK__COPY_MOD}),
 
@@ -2276,6 +2398,7 @@ const PROPORDER_CARD = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 
 	"suit",
 	"value",
@@ -2296,6 +2419,12 @@ const PROPORDER_ENCOUNTER = [
 	new ArrayKey("tables", {
 		order: [
 			"caption",
+
+			"captionPrefix",
+			"captionSuffix",
+
+			"page",
+
 			"minlvl",
 			"maxlvl",
 
@@ -2340,6 +2469,7 @@ const PROPORDER_FACILITY = [
 	"basicRules",
 	"basicRules2024",
 	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
 	"reprintedAs",
 
 	"facilityType",
@@ -2365,11 +2495,30 @@ const PROPORDER_CONVERTER_SAMPLE = [
 	"text",
 ];
 
+const PROPORDER_ENCOUNTER_SHAPE = [
+	"name",
+	"alias",
+
+	"source",
+	"page",
+	"otherSources",
+	new ArrayKey("referenceSources", {fnSort: SortUtil.ascSortLower}),
+	"reprintedAs",
+
+	"shapeTemplate",
+];
+
 export const PROPORDER_PROP_TO_LIST = {
 	"_meta": PROPORDER_META,
 	"_test": PROPORDER_TEST,
 	"monster": PROPORDER_MONSTER,
 	"foundryMonster": PROPORDER_FOUNDRY_MONSTER,
+	"foundryMonsterAction": PROPORDER_FOUNDRY_MONSTER_SUB_ENTITY,
+	"foundryMonsterBonus": PROPORDER_FOUNDRY_MONSTER_SUB_ENTITY,
+	"foundryMonsterReaction": PROPORDER_FOUNDRY_MONSTER_SUB_ENTITY,
+	"foundryMonsterTrait": PROPORDER_FOUNDRY_MONSTER_SUB_ENTITY,
+	"foundryMonsterLegendary": PROPORDER_FOUNDRY_MONSTER_SUB_ENTITY,
+	"foundryMonsterMythic": PROPORDER_FOUNDRY_MONSTER_SUB_ENTITY,
 	"monsterFluff": PROPORDER_GENERIC_FLUFF,
 	"monsterTemplate": PROPORDER_MONSTER_TEMPLATE,
 	"makebrewCreatureTrait": PROPORDER_MAKE_BREW_CREATURE_TRAIT,
@@ -2399,6 +2548,7 @@ export const PROPORDER_PROP_TO_LIST = {
 	"book": PROPORDER_BOOK,
 	"bookData": PROPORDER_BOOK_DATA,
 	"background": PROPORDER_BACKGROUND,
+	"foundryBackgroundFeature": PROPORDER_FOUNDRY_BACKGROUND_FEATURE,
 	"legendaryGroup": PROPORDER_LEGENDARY_GROUP,
 	"class": PROPORDER_CLASS,
 	"classFluff": PROPORDER_GENERIC_FLUFF,
@@ -2427,6 +2577,7 @@ export const PROPORDER_PROP_TO_LIST = {
 	"item": PROPORDER_ITEM,
 	"foundryItem": PROPORDER_FOUNDRY_GENERIC,
 	"baseitem": PROPORDER_ITEM,
+	"foundryBaseitem": PROPORDER_FOUNDRY_GENERIC,
 	"magicvariant": PROPORDER_MAGICVARIANT,
 	"foundryMagicvariant": PROPORDER_FOUNDRY_GENERIC,
 	"itemGroup": PROPORDER_ITEM,
@@ -2467,6 +2618,9 @@ export const PROPORDER_PROP_TO_LIST = {
 	"facility": PROPORDER_FACILITY,
 	"facilityFluff": PROPORDER_GENERIC_FLUFF,
 	"converterSample": PROPORDER_CONVERTER_SAMPLE,
+	"encounterShape": PROPORDER_ENCOUNTER_SHAPE,
+	"crochetPattern": PROPORDER_CROCHET_PATTERN,
+	"crochetPatternFluff": PROPORDER_GENERIC_FLUFF,
 };
 
 export const PROPORDER_ROOT = [
@@ -2529,6 +2683,7 @@ export const PROPORDER_ROOT = [
 	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "itemGroup"),
 	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "magicvariant"),
 	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "itemFluff"),
+	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "foundryBaseitem"),
 	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "foundryItem"),
 	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "foundryMagicvariant"),
 
@@ -2610,6 +2765,8 @@ export const PROPORDER_ROOT = [
 	// region Other
 	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "recipe"),
 	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "recipeFluff"),
+	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "crochetPattern"),
+	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "crochetPatternFluff"),
 	// endregion
 
 	// region Legacy content
@@ -2621,6 +2778,7 @@ export const PROPORDER_ROOT = [
 	// region Tooling
 	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "makebrewCreatureTrait"),
 	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "makebrewCreatureAction"),
+	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "encounterShape"),
 	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "converterSample"),
 	ArrayKey.getRootKey(PROPORDER_PROP_TO_LIST, "monsterfeatures"),
 	// endregion

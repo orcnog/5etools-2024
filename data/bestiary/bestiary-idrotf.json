@@ -46,8 +46,39 @@
 					]
 				}
 			},
+			"tokenCustom": true,
 			"hasToken": true,
 			"hasFluff": true
+		},
+		{
+			"name": "Arveiaturace",
+			"isNpc": true,
+			"isNamedCreature": true,
+			"source": "IDRotF",
+			"page": 105,
+			"_copy": {
+				"name": "Ancient White Dragon",
+				"source": "MM",
+				"_mod": {
+					"*": {
+						"mode": "replaceTxt",
+						"replace": "the dragon",
+						"with": "Arveiaturace",
+						"flags": "i"
+					}
+				}
+			},
+			"senses": [
+				"blindsight 60 ft. (blind beyond this radius)",
+				"darkvision 60 ft."
+			],
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"hasToken": true,
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Auril (First Form)",
@@ -910,7 +941,8 @@
 				}
 			],
 			"traitTags": [
-				"Charge"
+				"Charge",
+				"Sure-Footed"
 			],
 			"actionTags": [
 				"Multiattack"
@@ -982,6 +1014,7 @@
 				"L",
 				"G"
 			],
+			"tokenCustom": true,
 			"senseTags": [
 				"D"
 			],
@@ -1396,6 +1429,7 @@
 					}
 				}
 			},
+			"tokenCustom": true,
 			"hasToken": true
 		},
 		{
@@ -1410,6 +1444,7 @@
 				"blindsight 60 ft.",
 				"tremorsense 60 ft."
 			],
+			"tokenCustom": true,
 			"senseTags": [
 				"B",
 				"T"
@@ -1436,6 +1471,7 @@
 					}
 				}
 			},
+			"tokenCustom": true,
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -1452,6 +1488,7 @@
 				"burrow": 5,
 				"fly": 30
 			},
+			"tokenCustom": true,
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -1474,6 +1511,7 @@
 					}
 				}
 			},
+			"tokenCustom": true,
 			"hasToken": true
 		},
 		{
@@ -1505,6 +1543,7 @@
 					}
 				}
 			},
+			"tokenCustom": true,
 			"miscTags": [
 				"AOE",
 				"MW"
@@ -1515,6 +1554,9 @@
 			"name": "Chwinga",
 			"source": "IDRotF",
 			"page": 282,
+			"referenceSources": [
+				"CM"
+			],
 			"_copy": {
 				"name": "Chwinga",
 				"source": "ToA"
@@ -2030,6 +2072,7 @@
 			"cr": "0",
 			"spellcasting": null,
 			"action": null,
+			"tokenCustom": true,
 			"actionTags": [],
 			"spellcastingTags": [],
 			"miscTags": [],
@@ -2694,7 +2737,7 @@
 				{
 					"name": "Regeneration",
 					"entries": [
-						"The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of the vampire's next turn."
+						"The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from {@item Holy Water (Flask)|PHB|holy water}, this trait doesn't function at the start of the vampire's next turn."
 					]
 				},
 				{
@@ -3602,6 +3645,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"attachedItems": [
 				"battleaxe|phb",
 				"javelin|phb"
@@ -3669,7 +3713,7 @@
 				{
 					"name": "Escape",
 					"entries": [
-						"The hare can take the Dash, Disengage, or Hide action as a bonus action on each of its turns."
+						"The hare can take the {@action Dash}, {@action Disengage}, or {@action Hide} action as a bonus action on each of its turns."
 					]
 				}
 			],
@@ -3750,6 +3794,7 @@
 				"N",
 				"G"
 			],
+			"tokenCustom": true,
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -4178,6 +4223,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"attachedItems": [
 				"javelin|phb"
 			],
@@ -4298,6 +4344,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"attachedItems": [
 				"heavy crossbow|phb",
 				"sickle|phb"
@@ -4415,6 +4462,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"attachedItems": [
 				"javelin|phb",
 				"warhammer|phb"
@@ -4485,8 +4533,7 @@
 				"R"
 			],
 			"spellcastingTags": [
-				"CC",
-				"I"
+				"CC"
 			],
 			"hasToken": true,
 			"hasFluff": true,
@@ -4589,6 +4636,7 @@
 				"Common",
 				"Infernal"
 			],
+			"tokenCustom": true,
 			"languageTags": [
 				"C",
 				"I"
@@ -4737,7 +4785,7 @@
 				{
 					"name": "Regeneration",
 					"entries": [
-						"The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from holy water, this trait doesn't function at the start of its next turn."
+						"The vampire regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in sunlight or running water. If the vampire takes radiant damage or damage from {@item Holy Water (Flask)|PHB|holy water}, this trait doesn't function at the start of its next turn."
 					]
 				},
 				{
@@ -5199,6 +5247,7 @@
 			"alignment": [
 				"N"
 			],
+			"tokenCustom": true,
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -5255,7 +5304,8 @@
 				}
 			],
 			"traitTags": [
-				"Charge"
+				"Charge",
+				"Sure-Footed"
 			],
 			"damageTags": [
 				"B"
@@ -5424,6 +5474,7 @@
 				}
 			],
 			"traitTags": [
+				"Ethereal Sight",
 				"Incorporeal Movement"
 			],
 			"senseTags": [
@@ -5620,6 +5671,7 @@
 					]
 				}
 			},
+			"tokenCustom": true,
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -5648,6 +5700,7 @@
 					]
 				}
 			},
+			"tokenCustom": true,
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -5680,6 +5733,7 @@
 				"Common",
 				"Druidic"
 			],
+			"tokenCustom": true,
 			"languageTags": [
 				"C",
 				"DU"
@@ -5742,6 +5796,7 @@
 					}
 				}
 			},
+			"tokenCustom": true,
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -6481,6 +6536,7 @@
 				"swim": 30,
 				"climb": 30
 			},
+			"tokenCustom": true,
 			"hasToken": true,
 			"hasFluff": true
 		},
@@ -6664,6 +6720,7 @@
 			],
 			"languages": null,
 			"trait": null,
+			"tokenCustom": true,
 			"traitTags": [],
 			"senseTags": [
 				"B"
@@ -7113,6 +7170,7 @@
 					]
 				}
 			],
+			"tokenCustom": true,
 			"traitTags": [
 				"Hold Breath"
 			],
