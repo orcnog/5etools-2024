@@ -790,7 +790,7 @@ export class ConverterCreature extends ConverterBase {
 	}
 
 	static _handleAbilityScores_modSaveTable ({stats, meta, options}) {
-		if (!/^Mod\s+Save(\s+Mod\s+Save\s+Mod\s+Save)?$/i.test(meta.curLine)) return false;
+		if (!/^(?:Ability\s+Score\s+)?Mod\s+Save(?:\s+(?:Ability\s+Score\s+)?Mod\s+Save\s+Mod\s+Save)?$/i.test(meta.curLine)) return false;
 		++meta.ixToConvert;
 		meta.initCurLine();
 
@@ -798,7 +798,7 @@ export class ConverterCreature extends ConverterBase {
 
 		while (true) {
 			if (
-				/^Mod\s+Save/i.test(meta.curLine)
+				/^(?:Ability\s+Score\s+)?Mod\s+Save/i.test(meta.curLine)
 				|| meta.isSkippableCurLine()
 			) {
 				++meta.ixToConvert;
@@ -1859,7 +1859,7 @@ export class ConverterCreature extends ConverterBase {
 		TagImmResVulnConditional.tryRun(stats);
 		DragonAgeTag.tryRun(stats);
 		FamiliarTag.tryRun(stats);
-		if (!stats.gear) AttachedItemTag.tryRun(stats);
+		if (!stats.gear) AttachedItemTag.tryRun(stats, {styleHint: options.styleHint});
 		HazardTag.tryRunPropsStrictCapsWords(stats, Renderer.monster.CHILD_PROPS_EXTENDED, {styleHint: options.styleHint});
 		CoreRuleTag.tryRunProps(stats, Renderer.monster.CHILD_PROPS_EXTENDED, {styleHint: options.styleHint});
 		this._doStatblockPostProcess_doCleanup(stats, options);
@@ -2007,7 +2007,7 @@ export class ConverterCreature extends ConverterBase {
 	static _tryParseType_getTags ({str}) {
 		str = str.replace(/^\((.*)\)$/, "$1").trim();
 		if (/^your choice$/i.test(str)) return null;
-		return str.split(",").map(s => s.replace(/\(/g, "").replace(/\)/g, "").trim());
+		return str.split(",").map(s => s.replace(/\(/g, "").replace(/\)/g, "").trim().toLowerCase());
 	}
 
 	static _getSequentialAbilityScoreSectionLineCount (stats, meta) {

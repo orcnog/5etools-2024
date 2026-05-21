@@ -476,24 +476,6 @@
 			]
 		},
 		{
-			"name": "Blood Magic",
-			"shortName": "Blood Magic",
-			"source": "TDCSR",
-			"className": "Wizard",
-			"classSource": "PHB",
-			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "internal",
-						"path": "classes/TDCSR/Blood Magic Wizard.webp"
-					},
-					"width": 850,
-					"height": 1210
-				}
-			]
-		},
-		{
 			"name": "Abjurer",
 			"shortName": "Abjurer",
 			"source": "XPHB",
@@ -566,6 +548,25 @@
 					"credit": "Polar Engine",
 					"width": 850,
 					"height": 2211
+				}
+			]
+		},
+		{
+			"name": "Bladesinger",
+			"shortName": "Bladesinger",
+			"source": "FRHoF",
+			"className": "Wizard",
+			"classSource": "XPHB",
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "classes/FRHoF/Bladesinger Wizard.webp"
+					},
+					"credit": "Erion Makuo",
+					"width": 850,
+					"height": 2375
 				}
 			]
 		}

@@ -1,4 +1,4 @@
-import {AttachedSpellChargesTag, AttachedSpellTag, BasicTextClean, BonusTag, ChargeTag, ConditionImmunityTag, DamageImmunityTag, DamageResistanceTag, DamageVulnerabilityTag, ItemMiscTag, ItemOtherTagsTag, ItemSpellcastingFocusTag, LightTag, RechargeAmountTag, RechargeTypeTag, ReqAttuneTagTag} from "./converterutils-item.js";
+import {AttachedSpellChargesTag, AttachedSpellTag, BasicTextClean, BonusTag, ChargeTag, ConditionImmunityTag, DamageImmunityTag, DamageResistanceTag, DamageVulnerabilityTag, InstrumentBaseItemTag, ItemMiscTag, ItemOtherTagsTag, ItemSpellcastingFocusTag, LightTag, RechargeAmountTag, RechargeTypeTag, ReqAttuneTagTag} from "./converterutils-item.js";
 import {ConverterBase} from "./converter-base.js";
 import {ArtifactPropertiesTag, TagCondition} from "./converterutils-tags.js";
 import {TagJsons} from "./converterutils-entries.js";
@@ -145,6 +145,7 @@ export class ConverterItem extends ConverterBase {
 		AttachedSpellTag.tryRun(stats);
 		AttachedSpellChargesTag.tryRun(stats);
 		LightTag.tryRun(stats);
+		InstrumentBaseItemTag.tryRun(stats);
 
 		// TODO
 		//  - tag damage type?
@@ -233,7 +234,7 @@ export class ConverterItem extends ConverterBase {
 				if (!attunement) {
 					stats.reqAttune = true;
 				} else {
-					stats.reqAttune = attunement.toLowerCase();
+					stats.reqAttune = attunement;
 				}
 
 				// if specific attunement is required, absorb any further parts which are class names
@@ -272,19 +273,13 @@ export class ConverterItem extends ConverterBase {
 					stats.type = options.styleHint === SITE_STYLE__ONE ? Parser.ITM_TYP__ODND_ROD : Parser.ITM_TYP__ROD;
 				}
 
-				if (
-					/ or /.test(mBaseWeapon.groups.ptParens)
-					&& this._GENERIC_REQUIRES_LOOKUP_WEAPON[mBaseWeapon.groups.ptParens.toLowerCase()]
-				) {
-					(stats.requires ||= []).push(...this._setCleanTaglineInfo_getGenericRequires({stats, str: mBaseWeapon.groups.ptParens, options}));
-					stats.__genericType = true;
-					continue;
-				}
-
 				const ptsParens = ConverterUtils.splitConjunct(mBaseWeapon.groups.ptParens);
 				const ptsParensNoAny = ptsParens.map(pt => pt.replace(/^any /i, ""));
 
-				if (ptsParensNoAny.length > 1 && ptsParensNoAny.every(pt => this._GENERIC_REQUIRES_LOOKUP_WEAPON[pt.toLowerCase()])) {
+				if (
+					ptsParensNoAny.every(pt => this._GENERIC_REQUIRES_LOOKUP_WEAPON_CATEGORY[pt.toLowerCase()])
+					|| (ptsParensNoAny.length > 1 && ptsParensNoAny.every(pt => this._GENERIC_REQUIRES_LOOKUP_WEAPON[pt.toLowerCase()]))
+				) {
 					ptsParensNoAny.forEach(pt => {
 						(stats.requires ||= []).push(
 							...this._setCleanTaglineInfo_getGenericRequires({stats, str: pt, options}),
@@ -506,7 +501,7 @@ export class ConverterItem extends ConverterBase {
 		stats.baseItem = `${baseItem.name.toLowerCase()}${baseItem.source === Parser.SRC_DMG ? "" : `|${baseItem.source.toLowerCase()}`}`;
 	}
 
-	static _GENERIC_REQUIRES_LOOKUP_WEAPON = {
+	static _GENERIC_REQUIRES_LOOKUP_WEAPON_NAMED = {
 		"weapon": [{"weapon": true}],
 		"sword": [{"sword": true}],
 		"axe": [{"axe": true}],
@@ -522,9 +517,12 @@ export class ConverterItem extends ConverterBase {
 		"mace": [{"mace": true}],
 		"staff": [{"staff": true}],
 
-		"ammunition": ({styleHint}) => [{"type": styleHint === SITE_STYLE__ONE ? Parser.ITM_TYP__ODND_AMMUNITION : Parser.ITM_TYP__AMMUNITION}, {"type": styleHint === SITE_STYLE__ONE ? Parser.ITM_TYP__ODND_AMMUNITION_FUTURISTIC : Parser.ITM_TYP__AMMUNITION_FUTURISTIC}],
 		"arrow": [{"arrow": true}],
 		"bolt": [{"bolt": true}],
+	};
+
+	static _GENERIC_REQUIRES_LOOKUP_WEAPON_CATEGORY = {
+		"ammunition": ({styleHint}) => [{"type": styleHint === SITE_STYLE__ONE ? Parser.ITM_TYP__ODND_AMMUNITION : Parser.ITM_TYP__AMMUNITION}, {"type": styleHint === SITE_STYLE__ONE ? Parser.ITM_TYP__ODND_AMMUNITION_FUTURISTIC : Parser.ITM_TYP__AMMUNITION_FUTURISTIC}],
 
 		"melee": ({styleHint}) => [{"type": styleHint === SITE_STYLE__ONE ? Parser.ITM_TYP__ODND_MELEE_WEAPON : Parser.ITM_TYP__MELEE_WEAPON}],
 		"melee weapon": ({styleHint}) => [{"type": styleHint === SITE_STYLE__ONE ? Parser.ITM_TYP__ODND_MELEE_WEAPON : Parser.ITM_TYP__MELEE_WEAPON}],
@@ -534,12 +532,22 @@ export class ConverterItem extends ConverterBase {
 		"martial": [{"weaponCategory": "martial"}],
 		"martial weapon": [{"weaponCategory": "martial"}],
 
+		"simple melee weapon": ({styleHint}) => [{"weaponCategory": "simple", "type": styleHint === SITE_STYLE__ONE ? Parser.ITM_TYP__ODND_MELEE_WEAPON : Parser.ITM_TYP__MELEE_WEAPON}],
+
 		"bludgeoning": [{"dmgType": "B"}],
 		"weapon that deals bludgeoning damage": [{"dmgType": "B"}],
 		"piercing": [{"dmgType": "P"}],
 		"slashing": [{"dmgType": "S"}],
 
 		"melee bludgeoning weapon": ({styleHint}) => [{"type": styleHint === SITE_STYLE__ONE ? Parser.ITM_TYP__ODND_MELEE_WEAPON : Parser.ITM_TYP__MELEE_WEAPON, "dmgType": "B"}],
+
+		"martial with the ammunition property": ({styleHint}) => [{"weaponCategory": "martial", "property": styleHint === SITE_STYLE__ONE ? Parser.ITM_PROP__ODND_AMMUNITION : Parser.ITM_PROP__AMMUNITION}],
+		"martial with the thrown property": ({styleHint}) => [{"weaponCategory": "martial", "property": styleHint === SITE_STYLE__ONE ? Parser.ITM_PROP__ODND_THROWN : Parser.ITM_PROP__THROWN}],
+	};
+
+	static _GENERIC_REQUIRES_LOOKUP_WEAPON = {
+		...this._GENERIC_REQUIRES_LOOKUP_WEAPON_NAMED,
+		...this._GENERIC_REQUIRES_LOOKUP_WEAPON_CATEGORY,
 	};
 
 	// TODO(Future) consider using

@@ -51,14 +51,29 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "rare",
-			"entries": [
-				"Origin: Demons of the Abyss."
-			]
+			"origin": "Demons of the Abyss"
+		},
+		{
+			"name": "Aglarondan",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Aglarond"
+		},
+		{
+			"name": "Alzhedo",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Calimshan"
 		},
 		{
 			"name": "Alzhedo",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Alzhedo|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Calishite ethnic group"
 			],
@@ -93,8 +108,18 @@
 		},
 		{
 			"name": "Bothii",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Uthgardt nomads"
+		},
+		{
+			"name": "Bothii",
 			"source": "SKT",
 			"page": 86,
+			"reprintedAs": [
+				"Bothii|FRHoF"
+			],
 			"typicalSpeakers": [
 				"{@creature Uthgardt Barbarian Leader|SKT|Uthgardt barbarians}",
 				"{@creature Uthgardt Shaman|SKT|Uthgardt shamans}"
@@ -159,14 +184,22 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "rare",
-			"entries": [
-				"Origin: Celestials."
-			]
+			"origin": "Celestials"
+		},
+		{
+			"name": "Chessentan",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Chessenta"
 		},
 		{
 			"name": "Chessentan",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Chessentan|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Mulan ethnic group"
 			],
@@ -185,8 +218,18 @@
 		},
 		{
 			"name": "Chondathan",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Chondath"
+		},
+		{
+			"name": "Chondathan",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Chondathan|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Chondathan ethnic group",
 				"Tethyrian ethnic group"
@@ -296,9 +339,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "standard",
-			"entries": [
-				"Origin: Sigil."
-			]
+			"origin": "Sigil"
 		},
 		{
 			"name": "Common Sign Language",
@@ -307,9 +348,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "standard",
-			"entries": [
-				"Origin: Sigil."
-			]
+			"origin": "Sigil"
 		},
 		{
 			"name": "Common Trade Pidgin",
@@ -342,8 +381,18 @@
 		},
 		{
 			"name": "Damaran",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Damara"
+		},
+		{
+			"name": "Damaran",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Damaran|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Damaran ethnic group",
 				"Nar ethnic group"
@@ -411,9 +460,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "rare",
-			"entries": [
-				"Origin: Aberrations."
-			]
+			"origin": "Aberrations"
 		},
 		{
 			"name": "Demonic",
@@ -505,10 +552,8 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "standard",
-			"script": "Draconic",
-			"entries": [
-				"Origin: Dragons."
-			]
+			"origin": "Dragons",
+			"script": "Draconic"
 		},
 		{
 			"name": "Druidic",
@@ -545,9 +590,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "rare",
-			"entries": [
-				"Origin: Druidic circles."
-			]
+			"origin": "Druidic circles"
 		},
 		{
 			"name": "Dwarvish",
@@ -604,9 +647,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "standard",
-			"entries": [
-				"Origin: Dwarves."
-			]
+			"origin": "Dwarves"
 		},
 		{
 			"name": "Elvish",
@@ -673,9 +714,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "standard",
-			"entries": [
-				"Origin: Elves."
-			]
+			"origin": "Elves"
 		},
 		{
 			"name": "Ergot",
@@ -741,9 +780,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "standard",
-			"entries": [
-				"Origin: Giants."
-			]
+			"origin": "Giants"
 		},
 		{
 			"name": "Giant Eagle",
@@ -863,9 +900,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "standard",
-			"entries": [
-				"Origin: Gnomes."
-			]
+			"origin": "Gnomes"
 		},
 		{
 			"name": "Goblin",
@@ -932,9 +967,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "standard",
-			"entries": [
-				"Origin: Goblinoids."
-			]
+			"origin": "Goblinoids"
 		},
 		{
 			"name": "Grell",
@@ -1015,9 +1048,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "standard",
-			"entries": [
-				"Origin: Halflings."
-			]
+			"origin": "Halflings"
 		},
 		{
 			"name": "Halruaan",
@@ -1069,8 +1100,18 @@
 		},
 		{
 			"name": "Illuskan",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "The North"
+		},
+		{
+			"name": "Illuskan",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Illuskan|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Illuskan ethnic group"
 			],
@@ -1119,9 +1160,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "rare",
-			"entries": [
-				"Origin: Devils of the Nine Hells."
-			]
+			"origin": "Devils of the Nine Hells"
 		},
 		{
 			"name": "Istarian",
@@ -1235,6 +1274,13 @@
 			]
 		},
 		{
+			"name": "Lantanese",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Lantan"
+		},
+		{
 			"name": "Leonin",
 			"source": "MOT",
 			"page": 9,
@@ -1291,8 +1337,18 @@
 		},
 		{
 			"name": "Midani",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Bedine nomads"
+		},
+		{
+			"name": "Midani",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Midani|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Bedine ethnic group"
 			],
@@ -1342,8 +1398,18 @@
 		},
 		{
 			"name": "Mulhorandi",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Mulhorand"
+		},
+		{
+			"name": "Mulhorandi",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Mulhorandi|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Mulan ethnic group"
 			],
@@ -1388,12 +1454,22 @@
 		},
 		{
 			"name": "Netherese",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Netheril"
+		},
+		{
+			"name": "Netherese",
 			"source": "HotDQ",
 			"page": 93,
 			"otherSources": [
 				{
 					"source": "ToD"
 				}
+			],
+			"reprintedAs": [
+				"Netherese|FRHoF"
 			],
 			"script": "Draconic"
 		},
@@ -1459,9 +1535,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "standard",
-			"entries": [
-				"Origin: Orcs."
-			]
+			"origin": "Orcs"
 		},
 		{
 			"name": "Otyugh",
@@ -1552,9 +1626,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "rare",
-			"entries": [
-				"Origin: Elementals."
-			]
+			"origin": "Elementals"
 		},
 		{
 			"name": "Qualith",
@@ -1583,8 +1655,18 @@
 		},
 		{
 			"name": "Rashemi",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Rashemen"
+		},
+		{
+			"name": "Rashemi",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Rashemi|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Rashemi ethnic group"
 			],
@@ -1600,6 +1682,13 @@
 				}
 			],
 			"hasFluffImages": true
+		},
+		{
+			"name": "Reghedjic",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Reghed nomads"
 		},
 		{
 			"name": "Riedran",
@@ -1640,6 +1729,13 @@
 				"{@creature Sahuagin Priestess||sahuagin priestesses}",
 				"{@creature Sahuagin Baron||sahuagin barons}"
 			]
+		},
+		{
+			"name": "Sespech",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Sespech"
 		},
 		{
 			"name": "Shaaran",
@@ -1811,14 +1907,22 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "rare",
-			"entries": [
-				"Origin: The Feywild."
-			]
+			"origin": "The Feywild"
+		},
+		{
+			"name": "Thayan",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Thay"
 		},
 		{
 			"name": "Thayan",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Thayan|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Mulan ethnic group"
 			],
@@ -1871,9 +1975,7 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "rare",
-			"entries": [
-				"Origin: Various criminal guilds."
-			]
+			"origin": "Various criminal guilds"
 		},
 		{
 			"name": "Thri-kreen",
@@ -1921,8 +2023,18 @@
 		},
 		{
 			"name": "Turmic",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Turmish"
+		},
+		{
+			"name": "Turmic",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Turmic|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Turami ethnic group"
 			],
@@ -1990,14 +2102,22 @@
 			"srd52": true,
 			"basicRules2024": true,
 			"type": "rare",
-			"entries": [
-				"Origin: The Underdark."
-			]
+			"origin": "The Underdark"
+		},
+		{
+			"name": "Untheric",
+			"source": "FRHoF",
+			"page": 49,
+			"type": "standard",
+			"origin": "Unther"
 		},
 		{
 			"name": "Untheric",
 			"source": "SCAG",
 			"page": 112,
+			"reprintedAs": [
+				"Untheric|FRHoF"
+			],
 			"typicalSpeakers": [
 				"Mulan ethnic group"
 			],

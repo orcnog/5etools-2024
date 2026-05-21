@@ -5336,7 +5336,7 @@
 							"page": 78,
 							"id": "15a",
 							"entries": [
-								"{@book Tasha's Cauldron of Everything|TCE} presents rules for and examples of {@book group patrons|TCE|16}: individuals or organizations that serve as patrons to an adventuring party. The Solar Bastion can function as a group patron, offering resources while sending adventurers on missions that further the organization's goals.",
+								"{@book Tasha's Cauldron of Everything|TCE} presents rules for and examples of {@book Group Patrons|TCE|2}: individuals or organizations that serve as patrons to an adventuring party. The Solar Bastion can function as a group patron, offering resources while sending adventurers on missions that further the organization's goals.",
 								{
 									"type": "entries",
 									"name": "Solar Bastion Perks",
@@ -19733,7 +19733,7 @@
 															"page": 150,
 															"id": "2b3",
 															"entries": [
-																"{@atk rw} +7 to hit, range 60 ft., the creature that triggered the attack. Hit: 22 ({@dice 4d10}) necrotic damage. In addition, any nonmagical armor or shield worn or carried by the target (50 percent chance of either if the creature has both) is partly degraded by rust, rot, or dry cracking. The armor or shield takes a permanent and cumulative \u22121 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed. {@hom}The card is destroyed."
+																"{@atk rw} {@hit 7} to hit, range 60 ft., the creature that triggered the attack. Hit: 22 ({@dice 4d10}) necrotic damage. In addition, any nonmagical armor or shield worn or carried by the target (50 percent chance of either if the creature has both) is partly degraded by rust, rot, or dry cracking. The armor or shield takes a permanent and cumulative \u22121 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed. {@hom}The card is destroyed."
 															]
 														}
 													]
@@ -19824,7 +19824,7 @@
 												"Steps ascend to a dais that holds an elaborate throne made of cards."
 											]
 										},
-										"The first creature that sits on the throne gains the {@i Charm of the Throne} supernatural gift (see {@book chapter 8|BMT|7|Charm of the Throne}). While the charm lasts, however, the creature has disadvantage on Charisma checks and expects its every command to be quickly obeyed. This charm can be bestowed only once, and it can be removed with the {@spell Remove Curse} spell.",
+										"The first creature that sits on the throne gains the {@reward Charm of the Throne|BMT} supernatural gift (see {@book chapter 8|BMT|7|Charm of the Throne}). While the charm lasts, however, the creature has disadvantage on Charisma checks and expects its every command to be quickly obeyed. This charm can be bestowed only once, and it can be removed with the {@spell Remove Curse} spell.",
 										{
 											"type": "entries",
 											"name": "Secret Doors",
@@ -19937,7 +19937,7 @@
 											]
 										},
 										"The reader is Avalion, a {@creature glabrezu} in human shape. He greets the characters amiably and offers the hospitality of his study, inquiring about their business. Whether or not they're forthcoming, Avalion knows they're here for a soul, which he offers to help them find.",
-										"If the adventurers agree to his help, Avalion selects one willing character to receive the {@i Charm of the Flames} (see {@book chapter 8|BMT|7|Charm of the Flames}), marking that character's skin with an infernal rune. If the character whose soul has been lost is adventuring with the party, Avalion selects that character. So long as the character has the charm, Avalion knows their location and can communicate telepathically with them. He then directs the characters to the Puzzle room ({@book area 17|BMT|17|17: Puzzle}), telling them \"the key can be found from there.\" If the adventurers already have the {@item Chime of Opening} from {@book area 18|BMT|17|18: Key}, he laughs and says, \"You already have everything you need.\"",
+										"If the adventurers agree to his help, Avalion selects one willing character to receive the {@reward Charm of the Flames|BMT} (see {@book chapter 8|BMT|7|Charm of the Flames}), marking that character's skin with an infernal rune. If the character whose soul has been lost is adventuring with the party, Avalion selects that character. So long as the character has the charm, Avalion knows their location and can communicate telepathically with them. He then directs the characters to the Puzzle room ({@book area 17|BMT|17|17: Puzzle}), telling them \"the key can be found from there.\" If the adventurers already have the {@item Chime of Opening} from {@book area 18|BMT|17|18: Key}, he laughs and says, \"You already have everything you need.\"",
 										"If the characters try to leave without agreeing to his help, he politely informs them he can't allow that and urges them to reconsider. If they continue trying to leave\u2014or if the adventurers penetrate his disguise and take action against him\u2014he assumes his true form and attacks."
 									]
 								},

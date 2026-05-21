@@ -27,14 +27,14 @@ class _RenderFacilitiesImplBase extends RenderPageImplBase {
 
 	_getCommonHtmlParts_prerequisites ({ent}) {
 		if (ent.level == null) return "";
-		return `<tr><td colspan="6" class="pb-2 pt-0"><i>Level ${ent.level} Bastion Facility</i></td></tr>`;
+		return `<tr><td colspan="6" class="ve-pb-2 ve-pt-0"><i>Level ${ent.level} Bastion Facility</i></td></tr>`;
 	}
 
 	/* ----- */
 
 	_getCommonHtmlParts_entries ({ent, renderer}) {
 		const entriesMeta = Renderer.facility.getFacilityRenderableEntriesMeta(ent);
-		return entriesMeta.entriesDescription.map(entry => `<div class="my-1p">${renderer.render(entry, 2)}</div>`).join("");
+		return entriesMeta.entriesDescription.map(entry => `<div class="ve-my-1p">${renderer.render(entry, 2)}</div>`).join("");
 	}
 }
 
@@ -64,13 +64,13 @@ class _RenderFacilitiesImplOne extends _RenderFacilitiesImplBase {
 
 			${htmlPtIsExcluded}
 			${htmlPtName}
-			
+
 			${htmlPtPrerequisites}
-			
+
 			<tr><td colspan="6">
 				${htmlPtEntries}
 			</td></tr>
-			
+
 			${htmlPtPage}
 			${Renderer.utils.getBorderTr()}
 		`;
@@ -80,7 +80,7 @@ class _RenderFacilitiesImplOne extends _RenderFacilitiesImplBase {
 export class RenderBastions {
 	static _RENDER_ONE__FACILITIES = new _RenderFacilitiesImplOne();
 
-	static $getRenderedFacility (ent) {
-		return this._RENDER_ONE__FACILITIES.$getRendered(ent);
+	static getRenderedFacility (ent) {
+		return this._RENDER_ONE__FACILITIES.getRendered(ent);
 	}
 }

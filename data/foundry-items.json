@@ -1,5 +1,53 @@
 {
+	"baseitem": [
+		{
+			"name": "Alchemist's Supplies",
+			"source": "XPHB",
+			"activities": [
+				{
+					"type": "check",
+					"activation": {
+						"type": "action"
+					},
+					"check": {
+						"ability": "int",
+						"dc": {
+							"formula": "15"
+						}
+					}
+				}
+			],
+			"migrationVersion": 3
+		}
+	],
 	"item": [
+		{
+			"name": "+1 Rhythm-Maker's Drum",
+			"source": "TCE",
+			"activities": [
+				{
+					"name": "Restore Bardic Inspiration",
+					"type": "utility",
+					"activation": {
+						"type": "action",
+						"value": 1
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "-1",
+								"target": {
+									"prop": "classFeature",
+									"uid": "Bardic Inspiration|Bard|XPHB|1"
+								}
+							}
+						]
+					}
+				}
+			],
+			"migrationVersion": 3
+		},
 		{
 			"name": "+1 Rod of the Pact Keeper",
 			"source": "XDMG",
@@ -37,6 +85,33 @@
 			"migrationVersion": 3
 		},
 		{
+			"name": "+2 Rhythm-Maker's Drum",
+			"source": "TCE",
+			"activities": [
+				{
+					"name": "Restore Bardic Inspiration",
+					"type": "utility",
+					"activation": {
+						"type": "action",
+						"value": 1
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "-1",
+								"target": {
+									"prop": "classFeature",
+									"uid": "Bardic Inspiration|Bard|XPHB|1"
+								}
+							}
+						]
+					}
+				}
+			],
+			"migrationVersion": 3
+		},
+		{
 			"name": "+2 Rod of the Pact Keeper",
 			"source": "XDMG",
 			"activities": [
@@ -67,6 +142,33 @@
 							}
 						],
 						"max": "1"
+					}
+				}
+			],
+			"migrationVersion": 3
+		},
+		{
+			"name": "+3 Rhythm-Maker's Drum",
+			"source": "TCE",
+			"activities": [
+				{
+					"name": "Restore Bardic Inspiration",
+					"type": "utility",
+					"activation": {
+						"type": "action",
+						"value": 1
+					},
+					"consumption": {
+						"targets": [
+							{
+								"type": "itemUses",
+								"value": "-1",
+								"target": {
+									"prop": "classFeature",
+									"uid": "Bardic Inspiration|Bard|XPHB|1"
+								}
+							}
+						]
 					}
 				}
 			],
@@ -220,25 +322,6 @@
 					"foundryId": "alchemistsFire",
 					"name": "Burning.",
 					"description": "Rules reference: &Reference[burning]."
-				}
-			],
-			"migrationVersion": 3
-		},
-		{
-			"name": "Alchemist's Supplies",
-			"source": "XPHB",
-			"activities": [
-				{
-					"type": "check",
-					"activation": {
-						"type": "action"
-					},
-					"check": {
-						"ability": "int",
-						"dc": {
-							"formula": "15"
-						}
-					}
 				}
 			],
 			"migrationVersion": 3
@@ -1894,6 +1977,24 @@
 			"migrationVersion": 3
 		},
 		{
+			"name": "Boots of Elvenkind",
+			"source": "XDMG",
+			"effects": [
+				{
+					"name": "Stealth Advantage",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.ste.roll.mode",
+							"mode": "ADD",
+							"value": 1
+						}
+					]
+				}
+			],
+			"migrationVersion": 3
+		},
+		{
 			"name": "Boots of Levitation",
 			"source": "XDMG",
 			"activities": [
@@ -1929,7 +2030,7 @@
 					"name": "Click Heels",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"effects": [
 						{
@@ -2434,7 +2535,7 @@
 						"value": "5"
 					},
 					"damage": {
-						"onSave": "half",
+						"onSave": "none",
 						"parts": [
 							{
 								"custom": {
@@ -3155,6 +3256,17 @@
 					"name": "Fly Speed",
 					"statuses": [
 						"flying"
+					]
+				},
+				{
+					"name": "Stealth Advantage",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.ste.roll.mode",
+							"mode": "ADD",
+							"value": 1
+						}
 					]
 				}
 			],
@@ -4703,12 +4815,6 @@
 					]
 				}
 			],
-			"migrationVersion": 3
-		},
-		{
-			"name": "Dynamite",
-			"source": "TDCSR",
-			"img": "icons/weapons/thrown/bomb-timer.webp",
 			"migrationVersion": 3
 		},
 		{
@@ -6407,12 +6513,6 @@
 			"migrationVersion": 3
 		},
 		{
-			"name": "Gluebomb",
-			"source": "TDCSR",
-			"img": "icons/weapons/thrown/bomb-metal-brown.webp",
-			"migrationVersion": 3
-		},
-		{
 			"name": "Gnomengarde Grenade",
 			"source": "DC",
 			"type": "consumable",
@@ -7520,7 +7620,7 @@
 								]
 							}
 						],
-						"onSave": "half"
+						"onSave": "none"
 					},
 					"save": {
 						"ability": [
@@ -12514,10 +12614,38 @@
 						"affects": {
 							"type": "self"
 						}
-					}
+					},
+					"effects": [
+						{
+							"foundryId": "perfumeOfBewitch"
+						}
+					]
 				}
 			],
-			"effects": [],
+			"effects": [
+				{
+					"foundryId": "perfumeOfBewitch",
+					"name": "Bewitching Scent",
+					"disabled": true,
+					"transfer": true,
+					"duration": {
+						"seconds": 3600
+					},
+					"changes": [
+						{
+							"key": "system.skills.per.roll.mode",
+							"mode": "ADD",
+							"value": 1
+						},
+						{
+							"key": "system.skills.dec.roll.mode",
+							"mode": "ADD",
+							"value": 1
+						}
+					],
+					"description": "For the duration, you have Advantage on all Charisma (Deception and Persuasion) checks made to influence a creature within 5 feet of yourself."
+				}
+			],
 			"migrationVersion": 3
 		},
 		{
@@ -12735,12 +12863,6 @@
 			"migrationVersion": 3
 		},
 		{
-			"name": "Plainscow",
-			"source": "TDCSR",
-			"img": "icons/creatures/mammals/livestock-cow-green.webp",
-			"migrationVersion": 3
-		},
-		{
 			"name": "Portable Hole",
 			"source": "XDMG",
 			"activities": [
@@ -12807,7 +12929,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -12955,7 +13077,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -13003,7 +13125,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -13190,7 +13312,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -13238,7 +13360,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -13333,7 +13455,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -13381,7 +13503,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -13679,7 +13801,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -13877,7 +13999,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -13983,7 +14105,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -14094,7 +14216,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -14142,7 +14264,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -14239,7 +14361,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -14323,7 +14445,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -14371,7 +14493,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -14495,7 +14617,7 @@
 					"name": "Drink Potion",
 					"type": "utility",
 					"activation": {
-						"type": "action"
+						"type": "bonus"
 					},
 					"consumption": {
 						"targets": [
@@ -16823,7 +16945,7 @@
 					}
 				},
 				{
-					"name": "Plant Rod",
+					"name": "Protective Aura",
 					"type": "utility",
 					"activation": {
 						"type": "action"
@@ -16872,6 +16994,22 @@
 						},
 						{
 							"key": "system.bonuses.abilities.save",
+							"mode": "ADD",
+							"value": 1
+						}
+					]
+				},
+				{
+					"name": "Alertness",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.skills.prc.roll.mode",
+							"mode": "ADD",
+							"value": 1
+						},
+						{
+							"key": "system.attributes.init.roll.mode",
 							"mode": "ADD",
 							"value": 1
 						}
@@ -20361,12 +20499,6 @@
 			"migrationVersion": 3
 		},
 		{
-			"name": "Stink Bomb",
-			"source": "TDCSR",
-			"img": "icons/weapons/thrown/bomb-purple.webp",
-			"migrationVersion": 3
-		},
-		{
 			"name": "Stone of Controlling Earth Elementals",
 			"source": "XDMG",
 			"activities": [
@@ -21739,19 +21871,25 @@
 						"targets": [
 							{
 								"type": "itemUses",
-								"value": "1d6 - 2"
+								"value": "-(1d6 + 1)"
+							},
+							{
+								"type": "activityUses",
+								"value": "1"
 							}
 						]
+					},
+					"uses": {
+						"max": "1"
 					}
 				},
 				{
-					"name": "Apply Glue",
+					"name": "Apply Solvent",
 					"type": "utility",
 					"activation": {
 						"type": "action"
 					},
 					"duration": {
-						"units": "minute",
 						"value": "@scaling"
 					},
 					"consumption": {
@@ -21772,8 +21910,9 @@
 					"target": {
 						"template": {
 							"units": "ft",
+							"count": "@scaling",
 							"type": "square",
-							"size": "@scaling"
+							"size": "1"
 						},
 						"affects": {
 							"type": "space"
