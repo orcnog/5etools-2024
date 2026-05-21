@@ -154,36 +154,12 @@ class NavBar {
 				],
 			},
 		);
-		this._addElement_buttonSplit(
-			{
-				keyPath: [NavBar._CAT_UTILITIES],
-				wrapperClasses: "ve-flex-v-center pt-2 px-4 ve-w-100",
-				metas: [
-					{
-						html: "5.5E Sources",
-						className: "ve-grow px-2",
-					},
-					{
-						html: "Block",
-						className: "ve-btn ve-btn-danger b-0 ve-btn-xxs",
-						click: async evt => {
-							evt.stopPropagation();
-							evt.preventDefault();
-							await BlocklistUi.addAllModernSources();
-						},
-					},
-					{
-						html: "Unblock",
-						className: "ve-btn b-0 ve-btn-info b-0 ve-btn-xxs mx-2",
-						click: async evt => {
-							evt.stopPropagation();
-							evt.preventDefault();
-							await BlocklistUi.removeAllModernSources();
-						},
-					},
-				],
-			},
-		);
+		this._addElement_forkUtilitiesBlocklistRow({
+			keyPath: [NavBar._CAT_UTILITIES],
+			label: "5.5E Sources",
+			onBlock: () => BlocklistUi.addAllModernSources(),
+			onUnblock: () => BlocklistUi.removeAllModernSources(),
+		});
 
 		// Add blocklist button synchronously if content-blocklist.json exists and has entries
 		try {
@@ -198,36 +174,12 @@ class NavBar {
 				if (blocklist.length > 0) {
 					const listName = blocklistData._meta?.sources?.[0]?.full || "Default Blocklist";
 
-					this._addElement_buttonSplit(
-						{
-							keyPath: [NavBar._CAT_UTILITIES],
-							wrapperClasses: "ve-flex-v-center pt-2 px-4 ve-w-100",
-							metas: [
-								{
-									html: listName,
-									className: "ve-grow px-2",
-								},
-								{
-									html: "Block",
-									className: "ve-btn ve-btn-danger b-0 ve-btn-xxs",
-									click: async evt => {
-										evt.stopPropagation();
-										evt.preventDefault();
-										await BlocklistUi.addSourcesFromFile("./homebrew/content-blocklist.json");
-									},
-								},
-								{
-									html: "Unblock",
-									className: "ve-btn b-0 ve-btn-info b-0 ve-btn-xxs mx-2",
-									click: async evt => {
-										evt.stopPropagation();
-										evt.preventDefault();
-										await BlocklistUi.removeSourcesFromFile("./homebrew/content-blocklist.json");
-									},
-								},
-							],
-						},
-					);
+					this._addElement_forkUtilitiesBlocklistRow({
+						keyPath: [NavBar._CAT_UTILITIES],
+						label: listName,
+						onBlock: () => BlocklistUi.addSourcesFromFile("./homebrew/content-blocklist.json"),
+						onUnblock: () => BlocklistUi.removeSourcesFromFile("./homebrew/content-blocklist.json"),
+					});
 				}
 			}
 		} catch (error) {
@@ -235,36 +187,12 @@ class NavBar {
 			console.warn("No content-blocklist.json found or failed to load:", error);
 		}
 
-		this._addElement_buttonSplit(
-			{
-				keyPath: [NavBar._CAT_UTILITIES],
-				wrapperClasses: "ve-flex-v-center pt-2 px-4 ve-w-100",
-				metas: [
-					{
-						html: "Star Wars Sources",
-						className: "ve-grow px-2",
-					},
-					{
-						html: "Block",
-						className: "ve-btn ve-btn-danger b-0 ve-btn-xxs",
-						click: async evt => {
-							evt.stopPropagation();
-							evt.preventDefault();
-							await BlocklistUi.addAllSW5eSources();
-						},
-					},
-					{
-						html: "Unblock",
-						className: "ve-btn b-0 ve-btn-info b-0 ve-btn-xxs mx-2",
-						click: async evt => {
-							evt.stopPropagation();
-							evt.preventDefault();
-							await BlocklistUi.removeAllSW5eSources();
-						},
-					},
-				],
-			},
-		);
+		this._addElement_forkUtilitiesBlocklistRow({
+			keyPath: [NavBar._CAT_UTILITIES],
+			label: "Star Wars Sources",
+			onBlock: () => BlocklistUi.addAllSW5eSources(),
+			onUnblock: () => BlocklistUi.removeAllSW5eSources(),
+		});
 		this._addElement_divider({keyPath: [NavBar._CAT_UTILITIES]});
 		this._addElement_li({keyPath: [NavBar._CAT_UTILITIES], page: "inittrackerplayerview.html", aText: "Initiative Tracker Player View"});
 		this._addElement_divider({keyPath: [NavBar._CAT_UTILITIES]});
@@ -756,6 +684,50 @@ class NavBar {
 		if (title) li.setAttribute("title", title);
 
 		li.appendChild(eleSpan);
+		parentNode.getBodyElement().appendChild(li);
+	}
+
+	/**
+	 * Fork: Utilities dropdown row with Block/Unblock actions; padding matches `.ve-dropdown-menu > li > a`.
+	 */
+	static _addElement_forkUtilitiesBlocklistRow (
+		{
+			keyPath = null,
+			label,
+			onBlock,
+			onUnblock,
+		},
+	) {
+		const parentNode = this._tree.getNode({keyPath});
+
+		const li = document.createElement("li");
+		li.setAttribute("role", "presentation");
+
+		const wrapper = document.createElement("div");
+		wrapper.className = "ve-flex-v-center ve-w-100";
+		// Match upstream `.ve-dropdown-menu > li > a` / `> span` padding (see bootstrap-custom.scss).
+		wrapper.style.cssText = "display:flex;align-items:center;width:100%;padding:3px 20px;white-space:nowrap;gap:0.25rem";
+
+		const labelSpan = document.createElement("span");
+		labelSpan.className = "ve-inline-block ve-grow ve-min-w-0";
+		labelSpan.innerHTML = label;
+
+		const mkBtn = (html, className, click) => {
+			const eleSpan = document.createElement("span");
+			eleSpan.className = `ve-inline-block ${className}`;
+			eleSpan.innerHTML = html;
+			eleSpan.onclick = async (evt) => {
+				evt.stopPropagation();
+				evt.preventDefault();
+				await click(evt);
+			};
+			return eleSpan;
+		};
+
+		wrapper.appendChild(labelSpan);
+		wrapper.appendChild(mkBtn("Block", "ve-btn ve-btn-danger ve-b-0 ve-btn-xxs", onBlock));
+		wrapper.appendChild(mkBtn("Unblock", "ve-btn ve-btn-info ve-b-0 ve-btn-xxs", onUnblock));
+		li.appendChild(wrapper);
 		parentNode.getBodyElement().appendChild(li);
 	}
 

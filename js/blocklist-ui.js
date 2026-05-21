@@ -786,8 +786,8 @@ class BlocklistUi {
 		// Add PHB items and spells to blocklist
 		this._addExclude("*", "*", "item", "PHB");
 		this._addExclude("*", "*", "spell", "PHB");
-		this._addListItem("*", "*", "item", "PHB");
-		this._addListItem("*", "*", "spell", "PHB");
+		this._addListItem({displayName: "*", hash: "*", category: "item", source: "PHB", isAuto: false});
+		this._addListItem({displayName: "*", hash: "*", category: "spell", source: "PHB", isAuto: false});
 		this._list.update();
 	}
 

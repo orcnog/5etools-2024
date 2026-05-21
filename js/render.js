@@ -1356,6 +1356,12 @@ globalThis.Renderer = function () {
 		this._lastDepthTrackerInheritedProps = cachedLastDepthTrackerProps;
 	};
 
+	/** @param {string} blockId Encounter block root element id. */
+	this._getEncounterBlockEleById = function (blockId, suffix) {
+		const ele = document.getElementById(`${blockId}${suffix}`);
+		return ele ? e_({ele}) : null;
+	};
+
 	/**
 	 * Merge root-level encounter `notes` with the active variation's `notes` (variations branch only).
 	 * Combatant-only encounters use notes from data already on {@code entry}.
@@ -1376,7 +1382,7 @@ globalThis.Renderer = function () {
 
 		const dataString = this._renderEntriesSubtypes_getDataString(entry);
 
-		textStack[0] += `<${this.wrapperTag} id="${id}" class="rd__b-special rd__b-inset rd__b-inset--encounter ${this._getMutatedStyleString(entry.style || "")}" ${dataString}>`;
+		textStack[0] += `<${this.wrapperTag} id="${id}" class="ve-rd__b-special ve-rd__b-inset ve-rd__b-inset--encounter ${this._getMutatedStyleString(entry.style || "")}" ${dataString}>`;
 
 		const cachedLastDepthTrackerProps = MiscUtil.copyFast(this._lastDepthTrackerInheritedProps);
 		this._handleTrackDepth(entry, 1);
@@ -1400,7 +1406,7 @@ globalThis.Renderer = function () {
 		const getPartyLevelSelectHtml = () => `
 				<div class="encounter-party-level-select">
 					<label for="${id}-party-level-select" class="encounter-party-level-select-label">Party Level</label>
-					<select id="${id}-party-level-select" class="form-control input-sm encounter-party-level-select-input">
+					<select id="${id}-party-level-select" class="ve-form-control ve-input-xs encounter-party-level-select-input">
 						${partyLevelOptionsHtml}
 					</select>
 				</div>`;
@@ -1408,7 +1414,7 @@ globalThis.Renderer = function () {
 		textStack[0] += `<${this.wrapperTag} class="encounter-title">`;
 		if (entry.name != null) {
 			if (Renderer.ENTRIES_WITH_ENUMERATED_TITLES_LOOKUP[entry.type]) this._handleTrackTitles(entry.name);
-			textStack[0] += `<span class="rd__h rd__h--2-inset" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><h4 class="entry-title-inner">${entry.name}</h4>${this._getPagePart(entry, true)}</span>`;
+			textStack[0] += `<span class="ve-rd__h ve-rd__h--2-inset" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><h4 class="entry-title-inner">${entry.name}</h4>${this._getPagePart(entry, true)}</span>`;
 
 			textStack[0] += `<div class="encounter-header-selects">`;
 			textStack[0] += getPartyLevelSelectHtml();
@@ -1417,21 +1423,21 @@ globalThis.Renderer = function () {
 				textStack[0] += `
 				<div class="encounter-variation-select">
 					<label for="${id}-variation-select" class="encounter-variation-select-label">${entry.varyBy || "Variation"}</label>
-					<select id="${id}-variation-select" class="form-control input-sm encounter-variation-select-input">
+					<select id="${id}-variation-select" class="ve-form-control ve-input-xs encounter-variation-select-input">
 					${entry.variations.map((v, i) => `<option value="${v.variantName || i}" ${i === DEFAULT_VARIANT_INDEX ? "selected" : ""}>${v.variantName || `Variant ${i + 1}`}</option>`).join("")}
 					</select>
 				</div>`;
 			}
 			textStack[0] += `</div>`;
 		} else {
-			textStack[0] += `<span class="rd__h rd__h--2-inset rd__h--2-inset-no-name">${partPageExpandCollapse}</span>`;
+			textStack[0] += `<span class="ve-rd__h ve-rd__h--2-inset ve-rd__h--2-inset-no-name">${partPageExpandCollapse}</span>`;
 			textStack[0] += `<div class="encounter-header-selects">`;
 			textStack[0] += getPartyLevelSelectHtml();
 			textStack[0] += `</div>`;
 		}
 
 		textStack[0] += `<div id="${id}-adj-xp" class="encounter-adj-xp">`;
-		textStack[0] += `<span class="difficulty-value">"Calculating..."</span>`;
+		textStack[0] += `<span class="difficulty-value">Calculating...</span>`;
 		textStack[0] += `</div>`;
 
 		textStack[0] += `</${this.wrapperTag}>`;
@@ -1495,7 +1501,7 @@ globalThis.Renderer = function () {
 		if (len > 0) {
 			textStack[0] += `<div class="encounter-notes">`;
 			textStack[0] += `<p class="encounter-notes-heading"><strong>Encounter Notes:</strong></p>`;
-			textStack[0] += `<ul class="rd__list rd__list-no-bullets">`;
+			textStack[0] += `<ul class="ve-rd__list ve-rd__list-no-bullets">`;
 			for (let i = 0; i < len; ++i) {
 				const cacheDepth = meta.depth;
 				meta.depth = 2;
@@ -1535,11 +1541,12 @@ globalThis.Renderer = function () {
 		const combatants = encounterData.combatants;
 		if (!combatants.length) return;
 
-		const $ele = $(`#${id}`);
-		if (!$ele.length) return;
+		const eleRaw = document.getElementById(id);
+		if (!eleRaw) return;
+		const ele = e_({ele: eleRaw});
 
-		const $partyLevelSelect = $ele.find(`#${id}-party-level-select`);
-		const rawLevel = $partyLevelSelect.length ? Number($partyLevelSelect.val()) : 3;
+		const partyLevelSelect = this._getEncounterBlockEleById(id, "-party-level-select");
+		const rawLevel = partyLevelSelect ? Number(partyLevelSelect.val()) : 3;
 		const avgPartyLevel = Math.min(20, Math.max(1, Number.isFinite(rawLevel) && rawLevel > 0 ? rawLevel : 3));
 
 		try {
@@ -1662,24 +1669,28 @@ globalThis.Renderer = function () {
 			);
 
 			// UPDATE THE DOM
-			$ele.find(".adj-xp-value").text(adjXp);
-			$ele.find(".difficulty-value").html(difficultyTempStack.join(""));
-			$ele.find(".daily-budget-value").text(dailyBudget);
-			$ele.find(".initiative-tracker-link").attr("data-encounter", JSON.stringify(encounterData));
+			ele.find(".adj-xp-value")?.txt(`${adjXp}`);
+			ele.find(".difficulty-value")?.html(difficultyTempStack.join(""));
+			ele.find(".daily-budget-value")?.txt(`${dailyBudget}`);
+			ele.find(".initiative-tracker-link")?.attr("data-encounter", JSON.stringify(encounterData));
 		} catch (e) {
-			$ele.find(".adj-xp-value").html(`<span class="text-danger">Error</span>`);
-			$ele.find(".initiative-tracker-link").html(`<span class="text-danger">${e.message}</span>`);
+			ele.find(".difficulty-value")?.html(`<span class="ve-text-danger">Error</span>`);
+			ele.find(".adj-xp-value")?.html(`<span class="ve-text-danger">Error</span>`);
+			ele.find(".initiative-tracker-link")?.html(`<span class="ve-text-danger">${e.message}</span>`);
 		}
 	};
 
 	this._setupEncounterHeaderControlHandlers = function (id, entry, defaultVariant, meta, options) {
 		const _this = this;
-		const $ele = $(`#${id}`);
+		const eleRaw = document.getElementById(id);
+		if (!eleRaw) return;
+		const ele = e_({ele: eleRaw});
 
 		const pRerenderAdjXp = async function () {
 			let encounterData; let variant;
 			if (entry.variations?.length) {
-				variant = $ele.find(`#${id}-variation-select`).val();
+				const variationSelect = _this._getEncounterBlockEleById(id, "-variation-select");
+				variant = variationSelect ? variationSelect.val() : null;
 				encounterData = entry.variations.find((v) => v.variantName === variant);
 			} else {
 				encounterData = entry.combatants ? {combatants: entry.combatants, notes: entry.notes} : {};
@@ -1690,19 +1701,19 @@ globalThis.Renderer = function () {
 			}
 		};
 
-		$ele.find(`#${id}-party-level-select`).on("change", pRerenderAdjXp);
+		this._getEncounterBlockEleById(id, "-party-level-select")?.onChange(pRerenderAdjXp);
 
 		if (entry.variations?.length) {
-			$ele.find(`#${id}-variation-select`).on("change", function () {
-				const selVariant = $(this).val();
+			this._getEncounterBlockEleById(id, "-variation-select")?.onChange(async (evt) => {
+				const selVariant = e_({ele: evt.target}).val();
 				const ed = entry.variations.find((v) => v.variantName === selVariant);
-				if (ed) {
-					const merged = {...ed, notes: _this._mergeEncounterBlockNotes(entry, ed)};
-					const newCreatureList = _this._renderEncounterCreatures(ed, [""], meta, options);
-					const newEncounterNotes = _this._renderEncounterNotes(merged, [""], meta, options);
-					$ele.find(`#${id}-creatures`).html(newCreatureList + newEncounterNotes);
-					_this._renderEncounterAdjXp(id, ed, selVariant, entry, meta, options);
-				}
+				if (!ed) return;
+
+				const merged = {...ed, notes: _this._mergeEncounterBlockNotes(entry, ed)};
+				const newCreatureList = _this._renderEncounterCreatures(ed, [""], meta, options);
+				const newEncounterNotes = _this._renderEncounterNotes(merged, [""], meta, options);
+				_this._getEncounterBlockEleById(id, "-creatures")?.html(newCreatureList + newEncounterNotes);
+				await _this._renderEncounterAdjXp(id, ed, selVariant, entry, meta, options);
 			});
 		}
 	};

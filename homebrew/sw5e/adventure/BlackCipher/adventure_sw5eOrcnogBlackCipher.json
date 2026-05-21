@@ -504,7 +504,7 @@
 									"id": "pacing",
 									"entries": [
 										"Assume that {@b Acts 2 and 3} flex if scouts escape or corridors bog down, but otherwise assume the pacing of the one-shot described in the {@area One-Shot Overview|one_shot_overview|x}.",
-										"{@i Note:} If table prefers shorter evenings, tighten chase countdown from 10\u21927 rounds\u2014, shave optional closet caches in the corridor crawl, or omit the rooftop escape challenge."
+										"{@i Note:} If table prefers shorter evenings, tighten chase countdown from 10→7 rounds\u2014, shave optional closet caches in the corridor crawl, or omit the rooftop escape challenge."
 									]
 								},
 								{
@@ -963,7 +963,7 @@
 										"type": "external",
 										"url": "https://d20.orcnog.com/slideshow/black_cipher/mainframe_distance.webp"
 									},
-									"title": "Black Cipher Mainframe — Distant",
+									"title": "Black Cipher Mainframe \u2014 Distant",
 									"credit": "orcnog"
 								},
 								"{@i A: If the chase ends in failure, read the following aloud:}",
@@ -1019,7 +1019,7 @@
 								"type": "external",
 								"url": "https://d20.orcnog.com/slideshow/black_cipher/mainframe_entrance.webp"
 							},
-							"title": "Mainframe Approach — Energy Sensor",
+							"title": "Mainframe Approach \u2014 Energy Sensor",
 							"credit": "orcnog"
 						},
 						{

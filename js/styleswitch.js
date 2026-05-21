@@ -114,6 +114,7 @@ export class StyleSwitcher {
 
 	constructor () {
 		if (typeof window === "undefined") return;
+        // Start with night mode by default, then check user preference
 		this._setActiveStyleTheme(StyleSwitcher.storage.getItem(StyleSwitcher._STORAGE_KEY_THEME) || StyleSwitcher._STYLE_THEME_AUTOMATIC);
 		this._setActiveStyleRollbox(StyleSwitcher.storage.getItem(StyleSwitcher._STORAGE_KEY_ROLLBOX) || StyleSwitcher._STYLE_ROLLBOX_DEFAULT);
 		this._setActiveWide(StyleSwitcher.storage.getItem(StyleSwitcher._STORAGE_KEY_WIDE) === "true");
