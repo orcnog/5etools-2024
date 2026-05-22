@@ -1,5 +1,5 @@
 import {EncounterBuilderUi} from "../encounterbuilder/encounterbuilder-ui.js";
-import {EncounterBuilderHelpers} from "../utils-list-bestiary.js";
+import {EncounterBuilderHelpers} from "../encounterbuilder/encounterbuilder-sublist-helpers.js";
 
 export class EncounterBuilderUiBestiary extends EncounterBuilderUi {
 	static _HASH_KEY = "encounterbuilder";

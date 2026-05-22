@@ -1,4 +1,4 @@
-import {EncounterBuilderHelpers} from "../utils-list-bestiary.js";
+import {EncounterBuilderHelpers} from "../encounterbuilder/encounterbuilder-sublist-helpers.js";
 import {EncounterBuilderComponentBestiary} from "./bestiary-encounterbuilder-component.js";
 
 /**

@@ -555,6 +555,50 @@ export class BookUtil {
 	static async _pInitLibraries () {
 		const {polylabel} = await import("../lib/polylabel.js");
 		globalThis.polylabel = polylabel;
+
+		await this._pInitEncounterBlockModule();
+	}
+
+	static _pEncounterBlockModulePromise = null;
+
+	static _pLoadScript (src) {
+		const existing = document.querySelector(`script[src="${src}"]`);
+		if (existing) {
+			if (existing.dataset.loaded) return Promise.resolve();
+			return new Promise((resolve, reject) => {
+				existing.addEventListener("load", () => resolve());
+				existing.addEventListener("error", reject);
+			});
+		}
+
+		return new Promise((resolve, reject) => {
+			const script = document.createElement("script");
+			script.src = src;
+			script.onload = () => {
+				script.dataset.loaded = "1";
+				resolve();
+			};
+			script.onerror = reject;
+			document.head.appendChild(script);
+		});
+	}
+
+	static async _pInitEncounterBlockModule () {
+		this._pEncounterBlockModulePromise ||= (async () => {
+			const scripts = [
+				"js/utils-list.js",
+				"js/listpage.js",
+				"js/multisource.js",
+				"js/filter-common.js",
+				"js/filter-bestiary.js",
+			];
+
+			for (const src of scripts) await this._pLoadScript(src);
+
+			await import("./render/render-encounter-block.js");
+		})();
+
+		return this._pEncounterBlockModulePromise;
 	}
 
 	/* -------------------------------------------- */

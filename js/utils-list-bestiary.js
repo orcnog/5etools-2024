@@ -1,5 +1,7 @@
-import {EncounterBuilderCreatureMeta} from "./encounterbuilder/encounterbuilder-models.js";
 import {EncounterBuilderComponentBestiary} from "./bestiary/bestiary-encounterbuilder-component.js";
+import {EncounterBuilderHelpers} from "./encounterbuilder/encounterbuilder-sublist-helpers.js";
+
+export {EncounterBuilderHelpers};
 
 export class ListUtilBestiary extends ListUtilEntity {
 	static _getString_action_currentPinned_name ({page}) { return "From Current Bestiary Encounter"; }
@@ -27,39 +29,5 @@ export class ListUtilBestiary extends ListUtilEntity {
 
 	static getContextOptionsLoadSublist (opts) {
 		return super.getContextOptionsLoadSublist({...opts, page: UrlUtil.PG_BESTIARY});
-	}
-}
-
-export class EncounterBuilderHelpers {
-	static getSublistedCreatureMeta ({sublistItem}) {
-		const mon = sublistItem.data.entityBase;
-
-		return new EncounterBuilderCreatureMeta({
-			id: sublistItem.data.collectionId,
-
-			creature: sublistItem.data.entity,
-			count: Number(sublistItem.data.count),
-
-			isLocked: sublistItem.data.isLocked,
-
-			customHashId: sublistItem.data.customHashId,
-			baseCreature: mon,
-		});
-	}
-
-	static async pGetEncounterName (exportedSublist) {
-		if (exportedSublist.name) return exportedSublist.name;
-
-		const expandedList = await ListUtil.pGetSublistEntities_fromHover({
-			exportedSublist,
-			page: UrlUtil.PG_BESTIARY,
-		});
-
-		if (!expandedList?.length) return "(Unnamed Encounter)";
-
-		const {count, entity: {name}} = expandedList
-			.sort((a, b) => SortUtil.ascSort(b.count, a.count) || SortUtil.ascSort(b.entity.name, a.entity.name))[0];
-
-		return `Encounter with ${name}${count > 1 ? ` ×${count}` : ""}`;
 	}
 }
