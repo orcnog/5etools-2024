@@ -180,6 +180,7 @@ class AdventureEncounterBlockControls {
 			if (variantEntry?.exportedSublist) {
 				await this._block.pApplyFromExportableSublist(variantEntry.exportedSublist);
 				this._activeState.name = variantEntry.name || null;
+				this._block._applyNotesOverride(variantEntry.notes ?? null);
 			} else if (this._block._entry.variations?.length) {
 				this._activeState.name = null;
 				await this._block.pReloadFromAdventureJson({isPersist: false});
@@ -228,13 +229,24 @@ class AdventureEncounterBlockControls {
 		return stored?.variants?.[variantKey] ?? null;
 	}
 
-	async _pPersistUserStateToStorage ({exportedSublist, variantKey = null, name = null} = {}) {
+	async pPersistEditModeToStorage (isEditMode) {
+		const stored = this._mutMigrateStoredUserState(await StorageUtil.pGet(this._blockStorageKey)) ?? {variants: {}};
+		stored.isEditMode = !!isEditMode;
+		this._storedUserState = stored;
+		await StorageUtil.pSet(this._blockStorageKey, stored);
+	}
+
+	async _pPersistUserStateToStorage ({exportedSublist, variantKey = null, name = null, notes = null} = {}) {
 		const stored = this._mutMigrateStoredUserState(await StorageUtil.pGet(this._blockStorageKey)) ?? {variants: {}};
 		variantKey = variantKey ?? this._getVariantStorageKey();
+
+		this._block._commitNotesFromEdit?.();
+		if (notes == null) notes = MiscUtil.copyFast(this._block.getNotes());
 
 		stored.variants[variantKey] = {
 			exportedSublist: MiscUtil.copyFast(exportedSublist),
 			name: name ?? this._activeState.name,
+			notes,
 		};
 
 		if (this._block._entry.variations?.length) {
@@ -266,6 +278,7 @@ class AdventureEncounterBlockControls {
 			exportedSublist,
 			variantKey,
 			name: this._activeState.name,
+			notes: MiscUtil.copyFast(this._block.getNotes()),
 		});
 	}
 
@@ -359,9 +372,25 @@ class AdventureEncounterBlockControls {
 					stored,
 					isCurrent: variantKey === currentVariantKey,
 				});
+				if (variation.notes != null) {
+					variationOut.notes = await this._pGetNotesForVariantExport({
+						variantKey,
+						variation,
+						stored,
+						isCurrent: variantKey === currentVariantKey,
+					});
+				}
 				return variationOut;
 			});
 			delete out.combatants;
+			if (entry.notes != null) {
+				out.notes = await this._pGetNotesForVariantExport({
+					variantKey: currentVariantKey,
+					variation: this._block._getSelectedVariation(),
+					stored,
+					isCurrent: true,
+				});
+			}
 		} else {
 			out.combatants = await this._pGetCombatantsForVariantExport({
 				variantKey: "_default",
@@ -369,6 +398,14 @@ class AdventureEncounterBlockControls {
 				stored,
 				isCurrent: true,
 			});
+			if (entry.notes != null) {
+				out.notes = await this._pGetNotesForVariantExport({
+					variantKey: "_default",
+					variation: entry,
+					stored,
+					isCurrent: true,
+				});
+			}
 		}
 
 		return out;
@@ -388,6 +425,15 @@ class AdventureEncounterBlockControls {
 		}
 
 		return MiscUtil.copyFast(variation?.combatants || []);
+	}
+
+	async _pGetNotesForVariantExport ({variantKey, variation, stored, isCurrent}) {
+		if (isCurrent) return MiscUtil.copyFast(this._block.getNotes());
+
+		const variantEntry = this._getStoredVariantEntry(stored, variantKey);
+		if (variantEntry?.notes != null) return MiscUtil.copyFast(variantEntry.notes);
+
+		return MiscUtil.copyFast(RendererEncounterBlock._mergeEncounterBlockNotes(this._block._entry, variation));
 	}
 
 	async _pBuildExportableSublist ({variantName = null} = {}) {
@@ -741,6 +787,9 @@ class AdventureEncounterBlock {
 		this._isApplyingExport = false;
 		this._baselineItemsSnapshot = null;
 		this._savedItemsSnapshot = null;
+		this._baselineNotesSnapshot = null;
+		this._notesOverride = null;
+		this._isEditMode = false;
 	}
 
 	_getBlockEle (suffix = "") {
@@ -841,16 +890,126 @@ class AdventureEncounterBlock {
 		this._comp.pulseDerivedPartyMeta();
 	}
 
-	_renderNotes () {
-		const encounterData = this._getEncounterDataForCurrentSelection();
+	_getBaselineNotesForCurrentSelection () {
+		return RendererEncounterBlock._mergeEncounterBlockNotes(this._entry, this._getSelectedVariation() || {});
+	}
+
+	getNotes () {
+		if (this._notesOverride != null) return MiscUtil.copyFast(this._notesOverride);
+		return MiscUtil.copyFast(this._getBaselineNotesForCurrentSelection());
+	}
+
+	_applyNotesOverride (notes) {
+		this._notesOverride = notes == null ? null : MiscUtil.copyFast(notes);
+		this._renderNotes();
+	}
+
+	_getComparableNotesSnapshot (notes = null) {
+		notes = notes ?? this.getNotes();
+		return (notes || []).map(note => typeof note === "string" ? note : JSON.stringify(note));
+	}
+
+	_commitNotesFromEdit () {
+		if (!this._isEditMode) return;
+
+		const wrp = this._getBlockEle("-notes-edit");
+		if (!wrp) return;
+
+		const baseline = this._getBaselineNotesForCurrentSelection();
+		const notes = [...wrp.querySelectorAll(".encounter-block-notes-edit__item")]
+			.map(ta => RendererEncounterBlock._editableTextToNote(
+				ta.value,
+				ta.dataset.noteType === "object" ? {} : "",
+			))
+			.filter(note => note != null);
+
+		if (CollectionUtil.deepEquals(
+			this._getComparableNotesSnapshot(notes),
+			this._getComparableNotesSnapshot(baseline),
+		)) this._notesOverride = null;
+		else this._notesOverride = notes;
+	}
+
+	_onNotesChanged () {
+		this._renderNotesReadonly();
+		this._controls?.pUpdateDisplay?.();
+		this._controls?.pScheduleAutoPersist?.();
+	}
+
+	_addNote () {
+		this._commitNotesFromEdit();
+		const notes = this.getNotes();
+		notes.push("");
+		this._notesOverride = notes;
+		this._renderNotesEdit();
+		this._onNotesChanged();
+	}
+
+	_removeNoteAtIndex (ix) {
+		this._commitNotesFromEdit();
+		const notes = this.getNotes();
+		notes.splice(ix, 1);
+		this._notesOverride = notes;
+		this._renderNotesEdit();
+		this._onNotesChanged();
+	}
+
+	_renderNotesReadonly () {
+		const wrp = this._getBlockEle("-notes-readonly");
+		if (!wrp || !this._renderer) return;
+
 		const notesHtml = RendererEncounterBlock._renderEncounterNotes.call(
 			this._renderer,
-			encounterData,
+			{notes: this.getNotes()},
 			[""],
 			this._meta,
 			this._options,
 		);
-		this._getBlockEle("-notes-content")?.html(notesHtml);
+		wrp.html(notesHtml);
+	}
+
+	_renderNotesEdit () {
+		const wrp = this._getBlockEle("-notes-edit");
+		if (!wrp) return;
+
+		wrp.empty();
+
+		const notes = this.getNotes();
+		const rows = notes.map((note, ix) => {
+			const isObjectNote = typeof note !== "string";
+			const textarea = ee`<textarea class="ve-form-control form-control--minimal ve-input-xs encounter-block-notes-edit__item ve-w-100 ve-resize-y" rows="3" data-note-type="${isObjectNote ? "object" : "string"}">${RendererEncounterBlock._noteToEditableText(note)}</textarea>`
+				.onn("blur", () => {
+					this._commitNotesFromEdit();
+					this._onNotesChanged();
+				});
+
+			const btnRemove = ee`<button type="button" class="ve-btn ve-btn-danger ve-btn-xs encounter-block-notes-edit__btn-remove" title="Remove note"><span class="glyphicon glyphicon-minus"></span></button>`
+				.onn("click", evt => {
+					evt.stopPropagation();
+					this._removeNoteAtIndex(ix);
+				});
+
+			return ee`<li class="encounter-block-notes-edit__row ve-flex-v-start">${textarea}${btnRemove}</li>`;
+		});
+
+		const btnAdd = ee`<button type="button" class="ve-btn ve-btn-success ve-btn-xs encounter-block-notes-edit__btn-add" title="Add note"><span class="glyphicon glyphicon-plus"></span> Add note</button>`
+			.onn("click", evt => {
+				evt.stopPropagation();
+				this._addNote();
+			});
+
+		ee(wrp)`
+			<div class="encounter-notes encounter-notes--edit">
+				<p class="encounter-notes-heading"><strong>Encounter Notes:</strong></p>
+				<ul class="ve-rd__list ve-rd__list-no-bullets encounter-block-notes-edit__list">${rows}</ul>
+				${btnAdd}
+			</div>`;
+	}
+
+	_renderNotes () {
+		this._renderNotesReadonly();
+		if (this._isEditMode) this._renderNotesEdit();
+		else this._getBlockEle("-notes-edit")?.empty();
 	}
 
 	onSublistChange () {
@@ -858,6 +1017,69 @@ class AdventureEncounterBlock {
 		this._controls?.pUpdateDisplay?.();
 		this._controls?.pScheduleAutoPersist?.();
 		this.pUpdateXpAndInitiative().then(null);
+		if (!this._isEditMode) this._renderReadonlyCreatures();
+	}
+
+	async pSetEditMode (isEditMode, {isPersist = true} = {}) {
+		isEditMode = !!isEditMode;
+		if (this._isEditMode === isEditMode) return;
+
+		this._isEditMode = isEditMode;
+		this._applyEditModeUi();
+
+		if (isEditMode) {
+			this._renderNotesEdit();
+		} else {
+			this._commitNotesFromEdit();
+			this._getBlockEle("-notes-edit")?.empty();
+			this._renderNotesReadonly();
+		}
+
+		if (!isEditMode) this._renderReadonlyCreatures();
+
+		if (isPersist) await this._controls?.pPersistEditModeToStorage?.(isEditMode);
+	}
+
+	_applyEditModeUi () {
+		const root = document.getElementById(this._blockId);
+		if (!root) return;
+
+		root.classList.toggle("encounter-block--edit-mode", this._isEditMode);
+		root.classList.toggle("encounter-block--ecgen", this._isEditMode);
+
+		this._getBlockEle("-notes-readonly")?.toggleVe(!this._isEditMode);
+		this._getBlockEle("-notes-edit")?.toggleVe(this._isEditMode);
+	}
+
+	_renderReadonlyCreatures () {
+		const wrp = document.getElementById(`${this._blockId}-creatures-readonly`);
+		if (!wrp || !this._renderer) return;
+
+		const combatants = this._sublistManager?.getCombatantsFromSublist?.()
+			|| this._getEncounterDataForCurrentSelection().combatants
+			|| [];
+
+		const textStack = [""];
+		const meta = MiscUtil.copyFast(this._meta || {depth: 2});
+		RendererEncounterBlock._renderEncounterCreatures.call(
+			this._renderer,
+			{combatants},
+			textStack,
+			meta,
+			this._options || {},
+		);
+		e_({ele: wrp}).html(textStack[0]);
+	}
+
+	_bindEditModeHandlers () {
+		this._getBlockEle("-edit-toggle")?.onn("click", evt => {
+			evt.stopPropagation();
+			this.pSetEditMode(true);
+		});
+		this._getBlockEle("-exit-edit")?.onn("click", evt => {
+			evt.stopPropagation();
+			this.pSetEditMode(false);
+		});
 	}
 
 	async _getComparableItemsSnapshot () {
@@ -877,6 +1099,7 @@ class AdventureEncounterBlock {
 
 	async _pCaptureBaseline () {
 		this._baselineItemsSnapshot = await this._getComparableItemsSnapshot();
+		this._baselineNotesSnapshot = this._getComparableNotesSnapshot();
 	}
 
 	async _getComparableSavedStateSnapshot () {
@@ -908,11 +1131,18 @@ class AdventureEncounterBlock {
 
 	async pIsChangedFromOriginal () {
 		if (!this._baselineItemsSnapshot || !this._sublistManager) return false;
+
+		if (!CollectionUtil.deepEquals(
+			this._getComparableNotesSnapshot(),
+			this._baselineNotesSnapshot || [],
+		)) return true;
+
 		const current = await this._getComparableItemsSnapshot();
 		return !CollectionUtil.deepEquals(this._baselineItemsSnapshot, current);
 	}
 
 	async pReloadFromAdventureJson ({isPersist = true} = {}) {
+		this._notesOverride = null;
 		const encounterData = this._getEncounterDataForCurrentSelection();
 		await this._sublistManager.pPopulateFromCombatants({combatants: encounterData.combatants});
 		this._syncCompPartyFromControls();
@@ -920,6 +1150,7 @@ class AdventureEncounterBlock {
 		await this._pCaptureBaseline();
 		this._controls?.pUpdateDisplay?.();
 		await this.pUpdateXpAndInitiative();
+		if (!this._isEditMode) this._renderReadonlyCreatures();
 		if (isPersist) this._controls?.pScheduleAutoPersist?.();
 	}
 
@@ -964,6 +1195,7 @@ class AdventureEncounterBlock {
 			this._controls?.pUpdateDisplay?.();
 			await this.pUpdateXpAndInitiative();
 			await this._pCaptureSavedSnapshot();
+			if (!this._isEditMode) this._renderReadonlyCreatures();
 		} finally {
 			this._isApplyingExport = false;
 		}
@@ -987,6 +1219,7 @@ class AdventureEncounterBlock {
 			if (variantEntry?.exportedSublist) {
 				await this.pApplyFromExportableSublist(variantEntry.exportedSublist);
 				this._controls._activeState.name = variantEntry.name ?? null;
+				this._applyNotesOverride(variantEntry.notes ?? null);
 			} else {
 				this._controls._activeState.name = null;
 				await this.pReloadFromAdventureJson({isPersist: false});
@@ -1082,6 +1315,13 @@ class AdventureEncounterBlock {
 		}
 
 		this._setupHeaderControlHandlers();
+
+		const isEditMode = !!this._controls?._storedUserState?.isEditMode;
+		await this.pSetEditMode(isEditMode, {isPersist: false});
+		this._bindEditModeHandlers();
+		this._renderNotes();
+		if (!this._isEditMode) this._renderReadonlyCreatures();
+
 		await this.pUpdateXpAndInitiative();
 	}
 
@@ -1096,7 +1336,7 @@ class AdventureEncounterBlock {
 
 		const dataString = renderer._renderEntriesSubtypes_getDataString(entry);
 
-		textStack[0] += `<${renderer.wrapperTag} id="${id}" class="ve-rd__b-special ve-rd__b-inset ve-rd__b-inset--encounter encounter-block--ecgen ${renderer._getMutatedStyleString(entry.style || "")}" ${dataString}>`;
+		textStack[0] += `<${renderer.wrapperTag} id="${id}" class="ve-rd__b-special ve-rd__b-inset ve-rd__b-inset--encounter ${renderer._getMutatedStyleString(entry.style || "")}" ${dataString}>`;
 
 		const cachedLastDepthTrackerProps = MiscUtil.copyFast(renderer._lastDepthTrackerInheritedProps);
 		renderer._handleTrackDepth(entry, 1);
@@ -1124,6 +1364,15 @@ class AdventureEncounterBlock {
 					</select>
 				</div>`;
 
+		const getModeToolsHtml = () => `
+				<div class="encounter-title__mode-tools no-print">
+					<button type="button" id="${id}-edit-toggle" class="ve-btn ve-btn-xs ve-btn-default encounter-block-edit-toggle" title="Edit encounter"><span class="glyphicon glyphicon-pencil"></span></button>
+					<button type="button" id="${id}-exit-edit" class="ve-btn ve-btn-xs ve-btn-default encounter-block-exit-edit" title="Exit edit mode"><span class="glyphicon glyphicon-eye-open"></span> Done</button>
+					<div id="${id}-adj-xp" class="encounter-adj-xp">
+						<span class="difficulty-value">Calculating...</span>
+					</div>
+				</div>`;
+
 		textStack[0] += `<${renderer.wrapperTag} class="encounter-title">`;
 		if (entry.name != null) {
 			if (Renderer.ENTRIES_WITH_ENUMERATED_TITLES_LOOKUP[entry.type]) renderer._handleTrackTitles(entry.name);
@@ -1140,17 +1389,15 @@ class AdventureEncounterBlock {
 					</select>
 				</div>`;
 			}
+			textStack[0] += getModeToolsHtml();
 			textStack[0] += `</div>`;
 		} else {
 			textStack[0] += `<span class="ve-rd__h ve-rd__h--2-inset ve-rd__h--2-inset-no-name">${partPageExpandCollapse}</span>`;
 			textStack[0] += `<div class="encounter-header-selects">`;
 			textStack[0] += getPartyLevelSelectHtml();
+			textStack[0] += getModeToolsHtml();
 			textStack[0] += `</div>`;
 		}
-
-		textStack[0] += `<div id="${id}-adj-xp" class="encounter-adj-xp">`;
-		textStack[0] += `<span class="difficulty-value">Calculating...</span>`;
-		textStack[0] += `</div>`;
 
 		textStack[0] += `</${renderer.wrapperTag}>`;
 
@@ -1162,8 +1409,13 @@ class AdventureEncounterBlock {
 		const mergedNotesArr = RendererEncounterBlock._mergeEncounterBlockNotes(entry, rawEncounterSubset);
 		const encounterData = {...rawEncounterSubset, notes: mergedNotesArr};
 
+		const readonlyStack = [""];
+		RendererEncounterBlock._renderEncounterCreatures.call(renderer, encounterData, readonlyStack, meta, options);
+
 		textStack[0] += `<${renderer.wrapperTag} id="${id}-creatures">`;
-		textStack[0] += `<div class="sublist sublist--visible encounter-block-sublist-wrap no-print">`;
+		textStack[0] += `<div id="${id}-creatures-readonly" class="encounter-block-readonly">${readonlyStack[0]}</div>`;
+		textStack[0] += `<div class="encounter-block-edit no-print">`;
+		textStack[0] += `<div class="sublist sublist--visible encounter-block-sublist-wrap">`;
 		textStack[0] += `<div id="${id}-sublistsort" class="encounter-block-sublist__grid encounter-block-sublist__header">`;
 		textStack[0] += `<span class="encounter-block-sublist__col encounter-block-sublist__col--btns-hdr encounter-block-sublist__col--btns ve-no-wrap ve-btn-group" aria-hidden="true">`;
 		textStack[0] += `<button type="button" class="ve-btn ve-btn-success ve-btn-xs best-ecgen__btn-list" disabled tabindex="-1"><span class="glyphicon glyphicon-plus"></span></button>`;
@@ -1176,9 +1428,11 @@ class AdventureEncounterBlock {
 		textStack[0] += `</div>`;
 		textStack[0] += `<div id="${id}-sublist" class="list encounter-block-sublist"></div>`;
 		textStack[0] += `</div>`;
-		textStack[0] += `<div id="${id}-controls" class="encounter-block-controls no-print"></div>`;
+		textStack[0] += `<div id="${id}-controls" class="encounter-block-controls"></div>`;
+		textStack[0] += `</div>`;
 		textStack[0] += `<div id="${id}-notes-content" class="encounter-block-notes">`;
-		textStack[0] += RendererEncounterBlock._renderEncounterNotes.call(renderer, encounterData, [""], meta, options);
+		textStack[0] += `<div id="${id}-notes-readonly" class="encounter-block-notes-readonly"></div>`;
+		textStack[0] += `<div id="${id}-notes-edit" class="encounter-block-notes-edit"></div>`;
 		textStack[0] += `</div>`;
 		textStack[0] += `<hr/>`;
 		textStack[0] += `<${renderer.wrapperTag}>Run: <a class="initiative-tracker-link" data-encounter="" href="javascript:void(0)">Initiative Tracker</a></${renderer.wrapperTag}>`;
@@ -1223,8 +1477,53 @@ const RendererEncounterBlock = {
 		return vn.length ? vn : asArr(entry?.notes);
 	},
 
+	_noteToEditableText (note) {
+		if (typeof note === "string") return note;
+		return JSON.stringify(note, null, "\t");
+	},
+
+	_editableTextToNote (text, originalNote) {
+		text = text.trim();
+		if (!text) {
+			if (typeof originalNote === "object" && originalNote !== null && originalNote !== "") return null;
+			return "";
+		}
+		if (typeof originalNote === "string" || originalNote == null || originalNote === "") return text;
+		try {
+			return JSON.parse(text);
+		} catch {
+			return text;
+		}
+	},
+
 	render (entry, textStack, meta, options) {
 		return AdventureEncounterBlock.pRender(this, entry, textStack, meta, options);
+	},
+
+	_renderEncounterCreatures (encounterData, textStack, meta, options) {
+		const combatants = encounterData.combatants || [];
+		const fauxEntry = {
+			type: "list",
+			style: "list-no-bullets",
+			items: combatants.map(ent => {
+				if (typeof ent === "string") return ent;
+				if (ent.type === "item") return ent;
+
+				const out = {...ent, type: "item"};
+
+				if (ent.creature) {
+					const creature = ent.creature;
+					const qty = Number(ent.quantity) > -1 ? Number(ent.quantity) : 1;
+					const npcNote = ent.npc === true ? `{@note (NPC)}` : "";
+					const creatureNote = ent.note ? `{@note ${ent.note}}` : "";
+					out.entry = `${qty} x ${creature} ${npcNote} ${creatureNote}`;
+				}
+				return out;
+			}),
+		};
+		this._renderList(fauxEntry, textStack, meta, options);
+
+		return textStack[0];
 	},
 
 	_renderEncounterNotes (encounterData, textStack, meta, options) {
@@ -1344,6 +1643,7 @@ const RendererEncounterBlock = {
 				const variantName = String(variationSelect.val());
 				if (variantName === String(previousVariantName)) return;
 
+				block._commitNotesFromEdit();
 				await block._controls?.pPersistVariantStateNow?.({
 					variantKey: block._controls._getVariantStorageKey(previousVariantName),
 				});
