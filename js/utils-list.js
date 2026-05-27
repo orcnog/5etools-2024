@@ -725,6 +725,7 @@ class SaveManager extends BaseComponent {
 			cbOnLoad,
 			cbOnReset,
 			cbOnUpload,
+			fnRenderSaveSummaryExtra,
 		},
 	) {
 		const wrp = ee`<div class="ve-pt-2 ve-flex-col no-print"></div>`;
@@ -739,6 +740,7 @@ class SaveManager extends BaseComponent {
 				cbOnLoad,
 				cbOnReset,
 				cbOnUpload,
+				fnRenderSaveSummaryExtra,
 			},
 		);
 
@@ -952,6 +954,7 @@ SaveManager._RenderableCollectionSaves_Summary = class extends RenderableCollect
 			cbOnLoad,
 			cbOnReset,
 			cbOnUpload,
+			fnRenderSaveSummaryExtra,
 		},
 	) {
 		super(comp, "saves", {namespace: "summary"});
@@ -962,6 +965,7 @@ SaveManager._RenderableCollectionSaves_Summary = class extends RenderableCollect
 		this._cbOnLoad = cbOnLoad;
 		this._cbOnReset = cbOnReset;
 		this._cbOnUpload = cbOnUpload;
+		this._fnRenderSaveSummaryExtra = fnRenderSaveSummaryExtra;
 	}
 
 	cbOnListUpdated ({cntVisibleItems}) {
@@ -1024,6 +1028,16 @@ SaveManager._RenderableCollectionSaves_Summary = class extends RenderableCollect
 			</div>
 		</div>`.appendTo(this._wrp);
 
+		let wrpAdventureLinks = null;
+		let hkAdventureLinks = null;
+		if (this._fnRenderSaveSummaryExtra) {
+			wrpAdventureLinks = ee`<div class="encounter-block-bestiary-link-indicator ve-pl-4 ve-ml-1"></div>`.appendTo(wrpRow);
+			hkAdventureLinks = () => {
+				this._fnRenderSaveSummaryExtra({save, comp, wrp: wrpAdventureLinks, hkRefresh: hkAdventureLinks}).then(null);
+			};
+			hkAdventureLinks();
+		}
+
 		const hkDisplay = () => wrpRow.toggleVe(this._comp._state.activeId === save.id);
 		hkDisplay();
 
@@ -1033,12 +1047,14 @@ SaveManager._RenderableCollectionSaves_Summary = class extends RenderableCollect
 			dispCount,
 			iptName,
 			hkDisplay,
+			hkAdventureLinks,
 		};
 	}
 
 	doUpdateExistingRender (renderedMeta, save, i) {
-		renderedMeta.hkDisplay();
 		renderedMeta.comp._proxyAssignSimple("state", save.entity, true);
+		renderedMeta.hkDisplay();
+		renderedMeta.hkAdventureLinks?.();
 		if (!renderedMeta.wrpRow.parente().is(this._wrp)) renderedMeta.wrpRow.appendTo(this._wrp);
 	}
 };

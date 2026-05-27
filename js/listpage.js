@@ -177,6 +177,9 @@ class SublistManager {
 			cbOnLoad: (evt) => this.pHandleClick_load(evt),
 			cbOnReset: (evt, exportedSublist) => this.pDoLoadExportedSublist(exportedSublist),
 			cbOnUpload: (evt) => this.pHandleClick_upload({isAdditive: evt.shiftKey}),
+			fnRenderSaveSummaryExtra: typeof this._fnRenderSaveSummaryExtra === "function"
+				? this._fnRenderSaveSummaryExtra.bind(this)
+				: null,
 		});
 
 		this._wrpSummaryControls = wrpSummaryControls;

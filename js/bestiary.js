@@ -70,6 +70,11 @@ class BestiarySublistManager extends SublistManager {
 		this._encounterBuilder.onSublistChange();
 	}
 
+	async _fnRenderSaveSummaryExtra ({save, comp, wrp, hkRefresh}) {
+		const {EncounterBlockBestiaryBridge} = await import("./render/render-encounter-block.js");
+		await EncounterBlockBestiaryBridge.pRenderSaveSummaryAdventureLinks({save, comp, wrp, hkRefresh});
+	}
+
 	_getSublistFullHash ({entity}) {
 		return `${super._getSublistFullHash({entity})}${_BestiaryUtil.getUrlSubhashes(entity)}`;
 	}

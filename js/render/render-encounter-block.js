@@ -185,6 +185,254 @@ class EncounterBlockBestiaryBridge {
 	static _STORAGE_KEY_EDIT_SUBLIST = "encounterBlockEditSublist";
 	static _ENCOUNTER_BUILDER_HASH_KEY = "encounterbuilder";
 	static _SUB_HASH_SUBLIST_SELECTED = "sublistselected";
+	static _ENCOUNTER_BLOCK_LINK_STORAGE_PREFIX = "encounterBlockLink_";
+
+	static _getLinkDedupeKey ({adventureId, chapterIndex, entryId, entryName, variantName}) {
+		return [adventureId, chapterIndex, entryId || entryName || "", variantName || ""].join("|");
+	}
+
+	static getAdventureEncounterUrl (meta) {
+		if (!meta?.adventureId || meta.chapterIndex == null) return null;
+
+		const hashParts = [meta.adventureId, meta.chapterIndex];
+		const anchor = meta.entryId || meta.entryName;
+		if (anchor) hashParts.push(anchor);
+
+		return `${UrlUtil.link(UrlUtil.PG_ADVENTURE)}#${hashParts.map(it => UrlUtil.encodeForHash(it)).join(HASH_PART_SEP)}`;
+	}
+
+	static _getLinkLabel (meta, {variantName = null} = {}) {
+		const adv = meta.adventureName || meta.adventureId || "Adventure";
+		const enc = meta.entryName || meta.entryId || "Encounter";
+		let label = `${adv} — ${enc}`;
+		if (variantName && variantName !== "_default") label += ` (${variantName})`;
+		return label;
+	}
+
+	static async pGetAdventureLinksForSaveId ({saveId, adventureBlockLink = null} = {}) {
+		if (!saveId) return [];
+
+		const links = [];
+		const seen = new Set();
+
+		const addLink = (meta, {variantName = null, storageKey = null, variantKey = null} = {}) => {
+			if (!meta?.adventureId || meta.chapterIndex == null) return;
+
+			const key = this._getLinkDedupeKey({...meta, variantName});
+			if (seen.has(key)) return;
+			seen.add(key);
+
+			links.push({meta: {...meta}, variantName, storageKey, variantKey});
+		};
+
+		const dump = await StorageUtil.pGetDump();
+		Object.entries(dump).forEach(([storageKey, stored]) => {
+			if (!storageKey.startsWith(this._ENCOUNTER_BLOCK_LINK_STORAGE_PREFIX)) return;
+
+			const migrated = AdventureEncounterBlockControls.mutMigrateStoredUserState(stored);
+			if (!migrated?.variants) return;
+
+			Object.entries(migrated.variants).forEach(([variantKey, variantEntry]) => {
+				if (variantEntry?.linkedSaveId !== saveId) return;
+
+				const variantName = variantKey === "_default" ? null : variantKey;
+				if (variantEntry.adventureBlockLink) {
+					addLink(variantEntry.adventureBlockLink, {variantName, storageKey, variantKey});
+					return;
+				}
+
+				if (!adventureBlockLink) return;
+
+				const suffix = storageKey.slice(this._ENCOUNTER_BLOCK_LINK_STORAGE_PREFIX.length);
+				const splitIx = suffix.indexOf("_");
+				if (splitIx === -1) return;
+
+				const entryIdGuess = suffix.slice(splitIx + 1).replace(/-/g, "_");
+				addLink({
+					...adventureBlockLink,
+					entryId: adventureBlockLink.entryId || entryIdGuess,
+				}, {variantName, storageKey, variantKey});
+			});
+		});
+
+		if (!links.length && adventureBlockLink) addLink(adventureBlockLink, {storageKey: null, variantKey: null});
+
+		links.sort((a, b) => SortUtil.ascSortLower(
+			this._getLinkLabel(a.meta, {variantName: a.variantName}),
+			this._getLinkLabel(b.meta, {variantName: b.variantName}),
+		));
+
+		return links;
+	}
+
+	static async _pConfirmUnlinkFromBestiary ({saveName, linkLabel}) {
+		const {eleModalInner, doClose, pGetResolved, doAutoResize: doAutoResizeModal} = await InputUiUtil._pGetShowModal({
+			title: "Unlink Adventure",
+			isMinHeight0: true,
+		});
+
+		ee`<div class="ve-flex ve-w-100 ve-mb-1">Unlink pinned list "<strong>${(saveName || "Saved List").qq()}</strong>" from <strong>${(linkLabel || "this adventure encounter").qq()}</strong>? The list will be kept.</div>`
+			.appendTo(eleModalInner);
+
+		const btnUnlink = ee`<button type="button" class="ve-btn ve-btn-primary ve-mr-2">Unlink</button>`
+			.onn("click", evt => {
+				evt.stopPropagation();
+				doClose(true);
+			});
+
+		const btnCancel = ee`<button type="button" class="ve-btn ve-btn-default">Cancel</button>`
+			.onn("click", evt => {
+				evt.stopPropagation();
+				doClose(false);
+			});
+
+		ee`<div class="ve-flex-v-center ve-flex-h-right ve-py-1 ve-px-1">${btnUnlink}${btnCancel}</div>`
+			.appendTo(eleModalInner);
+
+		if (doAutoResizeModal) doAutoResizeModal();
+		btnUnlink.focuse();
+
+		const [isConfirmed] = await pGetResolved();
+		return !!isConfirmed;
+	}
+
+	static async _pSyncSaveAdventureBlockLinkStamp ({saveId}) {
+		if (!saveId) return;
+
+		const remaining = await this.pGetAdventureLinksForSaveId({saveId});
+
+		await EncounterBlockSaveManagerUtil.pMutEntityBySaveId({
+			saveId,
+			fnMut: entity => {
+				if (!remaining.length) delete entity.adventureBlockLink;
+				else entity.adventureBlockLink = remaining[0].meta;
+			},
+		});
+	}
+
+	static async pUnlinkSaveIdFromAdventureLink ({saveId, storageKey, variantKey, meta, variantName} = {}) {
+		if (!saveId || !storageKey || variantKey == null) return false;
+
+		const stored = await StorageUtil.pGet(storageKey);
+		const migrated = AdventureEncounterBlockControls.mutMigrateStoredUserState(stored);
+		const variantEntry = migrated?.variants?.[variantKey];
+
+		if (variantEntry?.linkedSaveId !== saveId) return false;
+
+		if (meta?.adventureId && variantEntry.adventureBlockLink) {
+			const key = this._getLinkDedupeKey({...variantEntry.adventureBlockLink, variantName: variantKey === "_default" ? null : variantKey});
+			const targetKey = this._getLinkDedupeKey({...meta, variantName});
+			if (key !== targetKey) return false;
+		}
+
+		delete variantEntry.linkedSaveId;
+		delete variantEntry.linkedSaveName;
+		delete variantEntry.adventureBlockLink;
+
+		await StorageUtil.pSet(storageKey, {
+			selectedVariantName: migrated.selectedVariantName ?? null,
+			variants: migrated.variants,
+		});
+
+		await this._pSyncSaveAdventureBlockLinkStamp({saveId});
+
+		return true;
+	}
+
+	static async pUnlinkSaveIdFromAdventures ({saveId, adventureBlockLink = null} = {}) {
+		if (!saveId) return false;
+
+		const links = await this.pGetAdventureLinksForSaveId({saveId, adventureBlockLink});
+		if (!links.length) return false;
+
+		let didUnlink = false;
+		for (const link of links) {
+			if (link.storageKey == null || link.variantKey == null) continue;
+			if (await this.pUnlinkSaveIdFromAdventureLink({saveId, ...link})) didUnlink = true;
+		}
+
+		if (!didUnlink && adventureBlockLink) {
+			await this._pSyncSaveAdventureBlockLinkStamp({saveId});
+			const remaining = await this.pGetAdventureLinksForSaveId({saveId});
+			if (!remaining.length) return true;
+		}
+
+		return didUnlink;
+	}
+
+	static _mutClearSaveAdventureBlockLink ({save, comp} = {}) {
+		if (save?.entity?.adventureBlockLink) delete save.entity.adventureBlockLink;
+		if (comp?._state?.adventureBlockLink) delete comp._state.adventureBlockLink;
+	}
+
+	static async pRenderSaveSummaryAdventureLinks ({save, comp, wrp, hkRefresh}) {
+		if (!wrp) return;
+
+		const renderId = (wrp._encounterBlockLinkRenderId = (wrp._encounterBlockLinkRenderId || 0) + 1);
+		wrp.empty();
+
+		const saveId = save?.entity?.saveId;
+		if (!saveId) return;
+
+		const links = await this.pGetAdventureLinksForSaveId({
+			saveId,
+			adventureBlockLink: save.entity.adventureBlockLink,
+		});
+
+		if (renderId !== wrp._encounterBlockLinkRenderId) return;
+		if (!links.length) return;
+
+		const wrpRow = ee`<div class="ve-small ve-muted encounter-block-bestiary-link-indicator__row ve-flex-col ve-min-w-0"></div>`.appendTo(wrp);
+
+		const wrpHeader = ee`<div class="ve-flex-v-center ve-w-100 ve-min-w-0"></div>`
+			.appendTo(wrpRow)
+			.appends(ee`<span class="glyphicon glyphicon-link ve-no-shrink ve-mr-1"></span><span class="ve-no-shrink">${links.length === 1 ? "Linked Adventure Encounter:" : "Linked Adventure Encounters:"}</span>`);
+
+		const wrpLinks = ee`<ul class="ve-my-0 ve-p-0 encounter-block-bestiary-link-indicator__list"></ul>`.appendTo(wrpRow);
+
+		links.forEach(link => {
+			const {meta, variantName, storageKey, variantKey} = link;
+			const url = this.getAdventureEncounterUrl(meta);
+			const label = this._getLinkLabel(meta, {variantName});
+			const li = ee`<li class="encounter-block-bestiary-link-indicator__item ve-flex-v-center ve-min-w-0"></li>`;
+			const wrpLink = ee`<span class="ve-flex-1 ve-min-w-0 encounter-block-bestiary-link-indicator__link"></span>`.appendTo(li);
+
+			if (url) {
+				wrpLink.appends(ee`<a href="${url.qq()}" target="_blank" rel="noopener noreferrer">${label.qq()}</a>`);
+			} else {
+				wrpLink.txt(label);
+			}
+
+			ee`<button type="button" class="ve-btn ve-btn-xs ve-btn-default ve-no-shrink encounter-block-bestiary-link-indicator__btn-unlink" title="Unlink this adventure encounter">Unlink</button>`
+				.appendTo(li)
+				.onn("click", async (evt) => {
+					evt.stopPropagation();
+
+					const saveName = save.entity?.name || "(Unnamed List)";
+					if (!await this._pConfirmUnlinkFromBestiary({saveName, linkLabel: label})) return;
+
+					const didUnlink = await this.pUnlinkSaveIdFromAdventureLink({
+						saveId,
+						storageKey,
+						variantKey,
+						meta,
+						variantName,
+					});
+					if (!didUnlink) {
+						JqueryUtil.doToast({content: "Could not unlink this adventure encounter.", type: "warning"});
+						return;
+					}
+
+					const remaining = await this.pGetAdventureLinksForSaveId({saveId});
+					if (!remaining.length) this._mutClearSaveAdventureBlockLink({save, comp});
+
+					JqueryUtil.doToast({content: `Unlinked from ${label}.`, type: "success"});
+					hkRefresh?.();
+				});
+
+			wrpLinks.appends(li);
+		});
+	}
 
 	static _mutStripLoadedSubHashesFromUrl ({unpacked, excludeKeys}) {
 		const [link] = Hist.getHashParts();
@@ -307,7 +555,7 @@ class AdventureEncounterBlockControls {
 		};
 	}
 
-	_buildVariantEntryForVariant ({variantName = null, linkedSaveId, linkedSaveName} = {}) {
+	_buildVariantEntryForVariant ({variantName = null, linkedSaveId, linkedSaveName, adventureBlockLink} = {}) {
 		const variantKey = this._getVariantStorageKey(variantName);
 		const existing = this._getStoredVariantEntry(this._storedUserState, variantKey) || {};
 
@@ -316,20 +564,27 @@ class AdventureEncounterBlockControls {
 			partyLevel: this._block._getPartyLevel(),
 		};
 
-		if (linkedSaveId !== undefined) out.linkedSaveId = linkedSaveId;
+		if (linkedSaveId !== undefined) {
+			out.linkedSaveId = linkedSaveId;
+			if (linkedSaveId == null) delete out.adventureBlockLink;
+		}
 		if (linkedSaveName !== undefined) out.linkedSaveName = linkedSaveName;
+		if (adventureBlockLink !== undefined) {
+			if (adventureBlockLink == null) delete out.adventureBlockLink;
+			else out.adventureBlockLink = adventureBlockLink;
+		}
 
 		return out;
 	}
 
-	async _pPersistVariantState ({variantName = null, linkedSaveId, linkedSaveName} = {}) {
+	async _pPersistVariantState ({variantName = null, linkedSaveId, linkedSaveName, adventureBlockLink} = {}) {
 		const variantKey = this._getVariantStorageKey(variantName);
 
 		this._storedUserState = {
 			...this._getStoredUserStateBase(),
 			variants: {
 				...(this._storedUserState?.variants || {}),
-				[variantKey]: this._buildVariantEntryForVariant({variantName, linkedSaveId, linkedSaveName}),
+				[variantKey]: this._buildVariantEntryForVariant({variantName, linkedSaveId, linkedSaveName, adventureBlockLink}),
 			},
 		};
 
@@ -369,7 +624,11 @@ class AdventureEncounterBlockControls {
 	}
 
 	async _pSetVariantLink ({linkedSaveId, linkedSaveName}) {
-		await this._pPersistVariantState({linkedSaveId: linkedSaveId ?? null, linkedSaveName: linkedSaveName ?? null});
+		await this._pPersistVariantState({
+			linkedSaveId: linkedSaveId ?? null,
+			linkedSaveName: linkedSaveName ?? null,
+			adventureBlockLink: linkedSaveId == null ? null : this._getAdventureBlockLinkMeta(),
+		});
 		this._updateLinkDisplay();
 	}
 
@@ -520,7 +779,7 @@ class AdventureEncounterBlockControls {
 		const btnChange = ee`<button type="button" class="ve-btn ve-btn-xs ve-btn-default encounter-block-link-controls__btn-change" title="Load a different saved Bestiary pinned list"><span class="glyphicon glyphicon-link"></span></button>`
 			.onn("click", evt => this._pHandleLink(evt));
 
-		const btnRefresh = ee`<button type="button" class="ve-btn ve-btn-xs ve-btn-default encounter-block-link-controls__btn-refresh" title="Reload creatures from the linked pinned list"><span class="glyphicon glyphicon-refresh"></span></button>`
+		const btnRefresh = ee`<button type="button" class="ve-btn ve-btn-xs ve-btn-default encounter-block-link-controls__btn-refresh" title="Refresh from Pinned Bestiary List"><span class="glyphicon glyphicon-refresh"></span></button>`
 			.onn("click", evt => this._pHandleRefreshLinkedList(evt));
 
 		const btnUnlink = ee`<button type="button" class="ve-btn ve-btn-xs ve-btn-default encounter-block-link-controls__btn-unlink" title="Unlink & load original creatures from adventure"><span class="glyphicon glyphicon-remove"></span></button>`
@@ -672,23 +931,52 @@ class AdventureEncounterBlockControls {
 		}
 	}
 
-	async _pHandleRefreshLinkedList (evt) {
-		evt?.stopPropagation?.();
+	async _pReloadStoredUserStateFromStorage () {
+		this._storedUserState = this.constructor.mutMigrateStoredUserState(await StorageUtil.pGet(this._blockStorageKey));
+	}
 
-		const saveId = this.getLinkedSaveId();
-		if (!saveId) return;
+	async _pSyncLinkStateFromStorage ({isReloadSaveManager = false} = {}) {
+		await this._pReloadStoredUserStateFromStorage();
 
-		const exportedSublist = await EncounterBlockSaveManagerUtil.pGetExportedBySaveId({saveId, isReload: true});
+		let saveId = this.getLinkedSaveId();
+		if (!saveId) return false;
+
+		const exportedSublist = await EncounterBlockSaveManagerUtil.pGetExportedBySaveId({
+			saveId,
+			isReload: isReloadSaveManager,
+		});
 		if (!exportedSublist) {
 			await this._pSetVariantLink({linkedSaveId: null, linkedSaveName: null});
-			await this._block.pRefreshDisplay();
-			JqueryUtil.doToast({content: "Could not find the linked pinned list. It may have been deleted.", type: "danger"});
-			return;
+			return false;
+		}
+
+		const links = await EncounterBlockBestiaryBridge.pGetAdventureLinksForSaveId({
+			saveId,
+			adventureBlockLink: exportedSublist.adventureBlockLink,
+		});
+		const variantKey = this._getVariantStorageKey();
+		const stillLinked = links.some(link => link.storageKey === this._blockStorageKey && link.variantKey === variantKey);
+		if (!stillLinked) {
+			await this._pSetVariantLink({linkedSaveId: null, linkedSaveName: null});
+			return false;
 		}
 
 		const linkedSaveName = exportedSublist.name || "(Unnamed List)";
 		if (linkedSaveName !== this.getLinkedSaveName()) {
 			await this._pSetVariantLink({linkedSaveId: saveId, linkedSaveName});
+		}
+
+		return true;
+	}
+
+	async _pHandleRefreshLinkedList (evt) {
+		evt?.stopPropagation?.();
+
+		if (!await this._pSyncLinkStateFromStorage({isReloadSaveManager: true})) {
+			await this._pUpdateLinkDisplay();
+			await this._block.pRefreshDisplay();
+			JqueryUtil.doToast({content: "This encounter is no longer linked to a pinned bestiary list.", type: "info"});
+			return;
 		}
 
 		await this._block.pRefreshDisplay();

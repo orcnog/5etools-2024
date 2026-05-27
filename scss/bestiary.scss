@@ -111,4 +111,34 @@
 		}
 	}
 	// endregion
+
+	.encounter-block-bestiary-link-indicator {
+		&__row {
+			column-gap: 0.35rem;
+			margin-top: 0.5rem !important;
+		}
+
+		&__list {
+			list-style: none;
+		}
+
+		&__item {
+			column-gap: 0.35rem;
+			overflow: hidden;
+		}
+
+		&__link {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+
+		&__item + &__item {
+			margin-top: 0.15rem;
+		}
+
+		&__btn-unlink {
+			margin-left: 0.15rem;
+		}
+	}
 }
