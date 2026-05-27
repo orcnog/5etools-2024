@@ -1,4 +1,15 @@
-import "./render-media-cues.js";
+/**
+ * Adventure encounter blocks + bestiary pinned-list linking.
+ *
+ * Module layout:
+ * - render-encounter-block.js          — renderer, block UI, bridge (this file)
+ * - render-encounter-block-bootstrap.js — Renderer._cache patches (avoids render.js churn)
+ * - render-encounter-block-integration.js — listpage / SaveManager / bestiary prototype patches
+ *
+ * render.js touchpoint: single `case "encounter"` delegate to RendererEncounterBlock.render
+ */
+import {patchRendererEncounterBootstrap} from "./render-encounter-block-bootstrap.js";
+import {patchEncounterBlockIntegrations} from "./render-encounter-block-integration.js";
 
 const _PARTY_SIZE_VARY_BY_RE = new RegExp([
 	"[#|num|number|no.|qty|quantity|count] of [PC|player|character|hero|team|ally|party|participant|adventurer]s?",
@@ -25,11 +36,36 @@ const _TITLE_DIFFICULTIES = {
 };
 
 class EncounterBlockCombatantUtil {
-	static getCombatantCreatureTagFromEntity ({entity, displayName = ""}) {
+	static _getBaseCreatureNameFromHash (hash) {
+		if (!hash) return "";
+		const [name] = UrlUtil.decodeHash(String(hash).split(HASH_PART_SEP)[0]);
+		return name || "";
+	}
+
+	static _isSameCreatureName (a, b) {
+		if (!a || !b) return false;
+		return String(a).toLowerCase() === String(b).toLowerCase();
+	}
+
+	static _getDisplayNameForCreatureExport ({entity, baseName, serDisplayName = ""}) {
+		if (serDisplayName) return serDisplayName;
+		if (entity._displayName && !this._isSameCreatureName(entity._displayName, baseName)) return entity._displayName;
+		if (entity.name && !this._isSameCreatureName(entity.name, baseName)) return entity.name;
+		return "";
+	}
+
+	static getCombatantCreatureTagFromEntity ({entity, displayName = "", baseName = null}) {
+		const creatureName = baseName || entity.name;
+		const resolvedDisplayName = this._getDisplayNameForCreatureExport({
+			entity,
+			baseName: creatureName,
+			serDisplayName: displayName,
+		});
+
 		const parts = [
-			entity.name,
+			creatureName,
 			entity.source,
-			displayName || "",
+			resolvedDisplayName,
 		];
 
 		if (entity._isScaledCr) parts.push(`${VeCt.HASH_SCALED}=${Parser.numberToCr(entity._scaledCr)}`);
@@ -41,25 +77,54 @@ class EncounterBlockCombatantUtil {
 		return `{@creature ${parts.join("|")}}`;
 	}
 
-	static async pGetCombatantsFromExportedSublist (exportedSublist) {
+	static _getOriginalCombatantTagMetaFromCombatant (combatant) {
+		if (!combatant?.creature) return null;
+
+		const [tagName, textArgs] = Renderer.splitFirstSpace(combatant.creature.slice(1, -1));
+		return Renderer.utils.getTagMeta(tagName, textArgs);
+	}
+
+	static _normalizeCreatureHash (hash) {
+		if (!hash) return "";
+		return String(hash).split(HASH_PART_SEP)[0].toLowerCase();
+	}
+
+	/**
+	 * Resolve a pinned-list display name. Linked lists are the source of truth:
+	 * explicit list `dn` only, otherwise the statblock default name.
+	 */
+	static _findAdventureDisplayNameForListItem ({ser}) {
+		return ser.dn || "";
+	}
+
+	static async pGetCombatantsFromExportedSublist (exportedSublist, {originalCombatants = null, isStrictCompare = false} = {}) {
 		if (!exportedSublist?.items?.length) return [];
 
 		return exportedSublist.items
-			.pSerialAwaitMap(async ser => {
-				let entity = await DataLoader.pCacheAndGetHash(UrlUtil.PG_BESTIARY, ser.h);
-				if (!entity) return null;
+			.pSerialAwaitMap(async (ser) => {
+				const hashForBase = ser.h;
 
-				entity = await Renderer.hover.pApplyCustomHashId(
+				const baseEntity = await DataLoader.pCacheAndGetHash(UrlUtil.PG_BESTIARY, hashForBase);
+				if (!baseEntity) return null;
+
+				const baseName = this._getBaseCreatureNameFromHash(hashForBase) || baseEntity.name;
+
+				let entity = await Renderer.hover.pApplyCustomHashId(
 					UrlUtil.PG_BESTIARY,
-					entity,
+					baseEntity,
 					ser.customHashId || ser.customhashid,
 				);
 				if (!entity) return null;
 
+				const displayName = isStrictCompare
+					? (ser.dn || "")
+					: this._findAdventureDisplayNameForListItem({ser});
+
 				const out = {
 					creature: this.getCombatantCreatureTagFromEntity({
 						entity,
-						displayName: ser.dn || "",
+						baseName,
+						displayName,
 					}),
 					quantity: isNaN(ser.c) ? 1 : Number(ser.c),
 				};
@@ -81,7 +146,10 @@ class EncounterBlockCombatantUtil {
 			let entity = await DataLoader.pCacheAndGetHash(UrlUtil.PG_BESTIARY, hash);
 			if (!entity) return;
 
-			if (displayText) entity = MiscUtil.copyFast(entity);
+			if (displayText) {
+				entity = MiscUtil.copyFast(entity);
+				entity._displayName = displayText;
+			}
 
 			const scaledCr = subhashes?.find(item => item.key === "scaled")?.value;
 			if (scaledCr !== undefined) entity = await ScaleCreature.scale(entity, scaledCr);
@@ -163,7 +231,18 @@ class EncounterBlockSaveManagerUtil {
 
 	static async pDeleteBySaveId ({saveId}) {
 		if (!saveId) return false;
-		return (await this.pGet({isReload: true})).pDoDeleteBySaveId({saveId});
+
+		const saveManager = await this.pGet({isReload: true});
+		const save = saveManager._state.saves.find(it => it.entity?.saveId === saveId);
+		if (!save) return false;
+
+		saveManager._state.saves = saveManager._state.saves.filter(it => it.id !== save.id);
+		if (saveManager._state.activeId === save.id) saveManager._doNew();
+
+		saveManager._triggerCollectionUpdate("saves");
+		await saveManager.pDoSaveStateToStorage();
+
+		return true;
 	}
 
 	static async pMutEntityBySaveId ({saveId, fnMut}) {
@@ -177,6 +256,56 @@ class EncounterBlockSaveManagerUtil {
 		saveManager._triggerCollectionUpdate("saves");
 		await saveManager.pDoSaveStateToStorage();
 		return true;
+	}
+
+	static _getSavedNameSet (saveManager) {
+		return new Set(
+			saveManager._state.saves
+				.filter(it => it.entity?.manager_isSaved && it.entity?.name)
+				.map(it => String(it.entity.name).trim().toLowerCase()),
+		);
+	}
+
+	static _isSaveNameTaken ({name, saveManager}) {
+		return this._getSavedNameSet(saveManager).has(String(name).trim().toLowerCase());
+	}
+
+	static pFindSaveWrapperByName ({name, saveManager}) {
+		const target = String(name).trim().toLowerCase();
+		if (!target) return null;
+
+		return saveManager._state.saves.find(it =>
+			it.entity?.manager_isSaved
+			&& String(it.entity.name || "").trim().toLowerCase() === target,
+		) || null;
+	}
+
+	static getUniqueSaveName ({baseName, saveManager}) {
+		if (!this._isSaveNameTaken({name: baseName, saveManager})) return baseName;
+
+		let candidate = baseName;
+		for (let guard = 0; guard < 999; ++guard) {
+			let isReplaced = false;
+			candidate = candidate.replace(/(?<prefix> \()(?<num>\d+)(?<suffix>\)\s*)$/i, (...m) => {
+				isReplaced = true;
+				return `${m.last().prefix}${Number(m.last().num) + 1}${m.last().suffix}`;
+			});
+			if (!isReplaced) candidate = `${candidate} (1)`;
+			if (!this._isSaveNameTaken({name: candidate, saveManager})) return candidate;
+		}
+
+		return `${baseName} (${CryptUtil.uid().slice(0, 4)})`;
+	}
+
+	static async pOverwriteSaveWrapper ({saveWrapper, exportedSublist, saveManager}) {
+		const preservedSaveId = saveWrapper.entity.saveId;
+		Object.assign(saveWrapper.entity, exportedSublist);
+		saveWrapper.entity.saveId = preservedSaveId;
+		saveWrapper.entity.manager_isSaved = true;
+		saveManager._state.activeId = saveWrapper.id;
+		saveManager._triggerCollectionUpdate("saves");
+		await saveManager.pDoSaveStateToStorage();
+		return saveWrapper.entity;
 	}
 }
 
@@ -446,10 +575,77 @@ class EncounterBlockBestiaryBridge {
 		window.location.hash = `#${link}${outSub.length ? `${HASH_PART_SEP}${outSub.join(HASH_PART_SEP)}` : ""}`;
 	}
 
+	static getEditInBestiarySaveIdFromHash () {
+		const raw = Hist.getSubHash(this._SUB_HASH_ENCOUNTER_BLOCK_EDIT);
+		if (!raw || raw === "true") return null;
+		return raw.split(HASH_SUB_LIST_SEP)[0];
+	}
+
+	static hasPendingEditInBestiary () {
+		return !!this.getEditInBestiarySaveIdFromHash();
+	}
+
+	static async _pGetExportedSublistForEditInBestiary ({saveId, sublistManager}) {
+		if (!saveId || saveId === "true") return null;
+
+		const saveManager = sublistManager._saveManager;
+		if (!saveManager) return null;
+
+		await saveManager.pMutStateFromStorage();
+
+		const saveWrapper = saveManager._state.saves.find(it => it.entity?.saveId === saveId);
+		if (!saveWrapper) return null;
+
+		if (saveManager._state.activeId !== saveWrapper.id) {
+			saveManager._state.activeId = saveWrapper.id;
+			saveManager._triggerCollectionUpdate("saves");
+		}
+
+		return saveManager.pGetSaveBySaveId({saveId});
+	}
+
+	static _stripEditInBestiarySubHashesFromUrl () {
+		const [link, ...sub] = Hist.getHashParts();
+		const outSub = sub.filter(s => {
+			const k = s.split(HASH_SUB_KV_SEP)[0]?.toLowerCase();
+			return k !== this._SUB_HASH_ENCOUNTER_BLOCK_EDIT && k !== this._SUB_HASH_SUBLIST_SELECTED;
+		});
+		Hist.setSuppressHistory(true);
+		window.location.hash = `#${link}${outSub.length ? `${HASH_PART_SEP}${outSub.join(HASH_PART_SEP)}` : ""}`;
+	}
+
+	static async pApplyEditInBestiary ({saveId, sublistManager, pFnPreLoad} = {}) {
+		saveId ||= this.getEditInBestiarySaveIdFromHash();
+		if (!saveId || !sublistManager) return false;
+
+		const exportedSublist = await this._pGetExportedSublistForEditInBestiary({saveId, sublistManager});
+		if (!exportedSublist) {
+			JqueryUtil.doToast({
+				content: "Could not load the linked pinned list. It may have been deleted.",
+				type: "danger",
+			});
+			this._stripEditInBestiarySubHashesFromUrl();
+			return false;
+		}
+
+		if (pFnPreLoad) await pFnPreLoad(exportedSublist);
+		await sublistManager.pDoLoadExportedSublist(exportedSublist);
+		this._stripEditInBestiarySubHashesFromUrl();
+		return true;
+	}
+
 	static async pMutSetFromSubHashes ({unpacked, sublistManager, pFnPreLoad}) {
 		const encounterBlockEdit = unpacked[this._SUB_HASH_ENCOUNTER_BLOCK_EDIT]?.clean;
-		if (encounterBlockEdit?.[0] !== "true") return false;
+		if (!encounterBlockEdit?.[0]) return false;
 
+		const [saveId] = encounterBlockEdit;
+
+		if (saveId && saveId !== "true") {
+			// Loaded synchronously from the URL in BestiaryPage._pOnLoad_pPostLoad.
+			return true;
+		}
+
+		// Legacy fallback for links that still pass encounterblockedit=true and use StorageUtil.
 		const stored = await StorageUtil.pGet(this._STORAGE_KEY_EDIT_SUBLIST);
 		await StorageUtil.pRemove(this._STORAGE_KEY_EDIT_SUBLIST);
 
@@ -465,11 +661,11 @@ class EncounterBlockBestiaryBridge {
 		return true;
 	}
 
-	static getEditInBestiaryHashParts () {
+	static getEditInBestiaryHashParts ({saveId} = {}) {
 		return [
 			HASH_BLANK,
 			UrlUtil.packSubHash(this._ENCOUNTER_BUILDER_HASH_KEY, ["true"]),
-			UrlUtil.packSubHash(this._SUB_HASH_ENCOUNTER_BLOCK_EDIT, ["true"]),
+			UrlUtil.packSubHash(this._SUB_HASH_ENCOUNTER_BLOCK_EDIT, [saveId || "true", CryptUtil.uid()]),
 		];
 	}
 }
@@ -630,7 +826,7 @@ class AdventureEncounterBlockControls {
 			linkedSaveName: linkedSaveName ?? null,
 			adventureBlockLink: linkedSaveId == null ? null : this._getAdventureBlockLinkMeta(),
 		});
-		this._updateLinkDisplay();
+		await this._updateLinkDisplay();
 	}
 
 	getLinkedSaveId () {
@@ -706,7 +902,7 @@ class AdventureEncounterBlockControls {
 
 	async _pUpdateLinkDisplay () {
 		await this._pEnsureLinkedSaveValid();
-		this._updateLinkDisplay();
+		await this._pSyncLinkDisplayFromSaveManager();
 	}
 
 	async _pPromptLinkedListDisposition ({
@@ -766,6 +962,61 @@ class AdventureEncounterBlockControls {
 		return true;
 	}
 
+	async _pPromptDuplicateSaveName ({name}) {
+		const {eleModalInner, doClose, pGetResolved, doAutoResize: doAutoResizeModal} = await InputUiUtil._pGetShowModal({
+			title: "Pinned List Name Already Exists",
+			isMinHeight0: true,
+		});
+
+		ee`<div class="ve-flex ve-w-100 ve-mb-1">A pinned list named "<strong>${name.qq()}</strong>" already exists. Overwrite it, or save under a new name?</div>`
+			.appendTo(eleModalInner);
+
+		const btnOverwrite = ee`<button type="button" class="ve-btn ve-btn-danger ve-mr-2">Overwrite</button>`
+			.onn("click", evt => {
+				evt.stopPropagation();
+				doClose(true, "overwrite");
+			});
+
+		const btnCopy = ee`<button type="button" class="ve-btn ve-btn-primary ve-mr-2">Save as Copy</button>`
+			.onn("click", evt => {
+				evt.stopPropagation();
+				doClose(true, "copy");
+			});
+
+		const btnCancel = ee`<button type="button" class="ve-btn ve-btn-default">Cancel</button>`
+			.onn("click", evt => {
+				evt.stopPropagation();
+				doClose(false);
+			});
+
+		ee`<div class="ve-flex-v-center ve-flex-h-right ve-py-1 ve-px-1">${btnOverwrite}${btnCopy}${btnCancel}</div>`
+			.appendTo(eleModalInner);
+
+		if (doAutoResizeModal) doAutoResizeModal();
+		btnCopy.focuse();
+
+		const [isDataEntered, out] = await pGetResolved();
+		if (!isDataEntered) return null;
+		return out;
+	}
+
+	async _pResolveSaveAsNewName ({trimmedName, saveManager}) {
+		const existingSave = EncounterBlockSaveManagerUtil.pFindSaveWrapperByName({name: trimmedName, saveManager});
+		if (!existingSave) return {name: trimmedName, existingSave: null};
+
+		const action = await this._pPromptDuplicateSaveName({name: trimmedName});
+		if (action == null) return null;
+
+		if (action === "overwrite") {
+			return {name: trimmedName, existingSave};
+		}
+
+		return {
+			name: EncounterBlockSaveManagerUtil.getUniqueSaveName({baseName: trimmedName, saveManager}),
+			existingSave: null,
+		};
+	}
+
 	async _renderUi () {
 		this._eleRoot.empty();
 
@@ -817,7 +1068,7 @@ class AdventureEncounterBlockControls {
 		await this._pUpdateLinkDisplay();
 	}
 
-	_updateLinkDisplay () {
+	async _updateLinkDisplay () {
 		const isLinked = this.isLinked();
 		const name = this.getLinkedSaveName();
 
@@ -832,7 +1083,33 @@ class AdventureEncounterBlockControls {
 		this._btnUnlink?.toggleVe(isLinked);
 		this._btnEdit?.toggleVe(isLinked);
 
-		this._pUpdateExportJsonBtn();
+		await this._pUpdateExportJsonBtn();
+	}
+
+	async _pSyncLinkDisplayFromSaveManager () {
+		if (!this.isLinked()) {
+			await this._updateLinkDisplay();
+			return;
+		}
+
+		const linkedSaveName = this.getLinkedSaveName();
+		const saveManager = await EncounterBlockSaveManagerUtil.pGet({isReload: true});
+
+		let saveId = this.getLinkedSaveId();
+		if (linkedSaveName) {
+			const saveWrapper = EncounterBlockSaveManagerUtil.pFindSaveWrapperByName({name: linkedSaveName, saveManager});
+			if (saveWrapper?.entity?.saveId) saveId = saveWrapper.entity.saveId;
+		}
+
+		if (saveId && saveId !== this.getLinkedSaveId()) {
+			const exportedSublist = await saveManager.pGetSaveBySaveId({saveId});
+			await this._pSetVariantLink({
+				linkedSaveId: saveId,
+				linkedSaveName: exportedSublist?.name || linkedSaveName,
+			});
+		}
+
+		await this._updateLinkDisplay();
 	}
 
 	_serializeCombatantsForCompare (combatants) {
@@ -846,21 +1123,27 @@ class AdventureEncounterBlockControls {
 		}));
 	}
 
-	async _pGetCombatantsForVariantExport ({variantKey, variation, stored}) {
+	async _pGetCombatantsForVariantExport ({variantKey, variation, stored, isStrictCompare = false}) {
 		const variantEntry = this._getStoredVariantEntry(stored, variantKey);
 		const saveId = variantEntry?.linkedSaveId;
+		const originalCombatants = variation?.combatants || this._block._entry.combatants || [];
 
 		if (saveId) {
 			const exportedSublist = await EncounterBlockSaveManagerUtil.pGetExportedBySaveId({saveId});
 			if (exportedSublist?.items?.length) {
-				return EncounterBlockCombatantUtil.pGetCombatantsFromExportedSublist(exportedSublist);
+				return EncounterBlockCombatantUtil.pGetCombatantsFromExportedSublist(exportedSublist, {
+					originalCombatants: isStrictCompare ? null : originalCombatants,
+					isStrictCompare,
+				});
 			}
 		}
 
-		return MiscUtil.copyFast(variation?.combatants || this._block._entry.combatants || []);
+		return MiscUtil.copyFast(originalCombatants);
 	}
 
 	async pIsChangedFromOriginal () {
+		if (!this.isLinked()) return false;
+
 		const entry = this._block._entry;
 		const stored = this.constructor.mutMigrateStoredUserState(
 			this._storedUserState ?? await StorageUtil.pGet(this._blockStorageKey),
@@ -869,7 +1152,14 @@ class AdventureEncounterBlockControls {
 		if (entry.variations?.length) {
 			for (const variation of entry.variations) {
 				const variantKey = String(variation.variantName);
-				const current = await this._pGetCombatantsForVariantExport({variantKey, variation, stored});
+				if (!this._getStoredVariantEntry(stored, variantKey)?.linkedSaveId) continue;
+
+				const current = await this._pGetCombatantsForVariantExport({
+					variantKey,
+					variation,
+					stored,
+					isStrictCompare: true,
+				});
 				if (this._serializeCombatantsForCompare(current) !== this._serializeCombatantsForCompare(variation.combatants)) {
 					return true;
 				}
@@ -881,6 +1171,7 @@ class AdventureEncounterBlockControls {
 			variantKey: "_default",
 			variation: entry,
 			stored,
+			isStrictCompare: true,
 		});
 		return this._serializeCombatantsForCompare(current) !== this._serializeCombatantsForCompare(entry.combatants);
 	}
@@ -930,9 +1221,8 @@ class AdventureEncounterBlockControls {
 			return;
 		}
 
-		const isChanged = await this.pIsChangedFromOriginal();
-		this._btnExportJson.toggleVe(isChanged);
-		this._btnExportJson.prop("disabled", !isChanged);
+		this._btnExportJson.toggleVe(true);
+		this._btnExportJson.prop("disabled", false);
 		this._btnExportJson.attr("title", this._getExportJsonBtnTitle());
 	}
 
@@ -959,7 +1249,7 @@ class AdventureEncounterBlockControls {
 		const previousSaveId = this.getLinkedSaveId();
 		const previousSaveName = this.getLinkedSaveName() || "Saved List";
 
-		const saveManager = await EncounterBlockSaveManagerUtil.pGet();
+		const saveManager = await EncounterBlockSaveManagerUtil.pGet({isReload: true});
 		if (!await saveManager.pHasSaves()) {
 			JqueryUtil.doToast({
 				content: "No saved pinned lists found. Open the Bestiary, build an encounter, and save it as a pinned list first.",
@@ -1014,21 +1304,36 @@ class AdventureEncounterBlockControls {
 		const previousSaveName = this.getLinkedSaveName() || "Saved List";
 
 		try {
+			const saveManager = await EncounterBlockSaveManagerUtil.pGet({isReload: true});
+
+			const resolved = await this._pResolveSaveAsNewName({trimmedName, saveManager});
+			if (!resolved) return;
+
+			const {name: finalName, existingSave} = resolved;
+
 			const exportedSublist = await EncounterBlockCombatantUtil.pBuildExportedSublistFromCombatants({
 				combatants,
 				partyLevel: this._block._getPartyLevel(),
 				partySize: this._block._getPartySize(),
-				name: trimmedName,
+				name: finalName,
 			});
 
-			const saveManager = await EncounterBlockSaveManagerUtil.pGet({isReload: true});
-
-			const didNew = await saveManager.pDoNew(null);
-			if (!didNew) return;
-
-			exportedSublist.name = trimmedName;
+			exportedSublist.name = finalName;
 			exportedSublist.adventureBlockLink = this._getAdventureBlockLinkMeta();
-			const saveInfo = await saveManager.pDoSave(exportedSublist);
+
+			let saveInfo;
+			if (existingSave) {
+				saveInfo = await EncounterBlockSaveManagerUtil.pOverwriteSaveWrapper({
+					saveWrapper: existingSave,
+					exportedSublist,
+					saveManager,
+				});
+			} else {
+				const didNew = await saveManager.pDoNew(null);
+				if (!didNew) return;
+
+				saveInfo = await saveManager.pDoSave(exportedSublist);
+			}
 			if (!saveInfo?.saveId) return;
 
 			await saveManager.pDoSaveStateToStorage();
@@ -1045,12 +1350,17 @@ class AdventureEncounterBlockControls {
 
 			await this._pSetVariantLink({
 				linkedSaveId: saveInfo.saveId,
-				linkedSaveName: trimmedName,
+				linkedSaveName: finalName,
 			});
 
 			await this._block.pRefreshDisplay();
 
-			JqueryUtil.doToast({content: `Saved and linked pinned list "${trimmedName}".`, type: "success"});
+			JqueryUtil.doToast({
+				content: existingSave
+					? `Saved and linked pinned list "${finalName}" (overwritten).`
+					: `Saved and linked pinned list "${finalName}".`,
+				type: "success",
+			});
 		} catch (err) {
 			JqueryUtil.doToast({content: `Failed to save pinned list: ${err.message}`, type: "danger"});
 			throw err;
@@ -1133,29 +1443,49 @@ class AdventureEncounterBlockControls {
 		await this._block.pRefreshDisplay();
 	}
 
+	async _pResolveLinkedSaveIdForEdit () {
+		await this._pReloadStoredUserStateFromStorage();
+
+		const linkedSaveName = this.getLinkedSaveName();
+		let saveId = this.getLinkedSaveId();
+
+		const saveManager = await EncounterBlockSaveManagerUtil.pGet({isReload: true});
+
+		// Prefer the list that matches the displayed name — linkedSaveName is what the user sees.
+		if (linkedSaveName) {
+			const saveWrapper = EncounterBlockSaveManagerUtil.pFindSaveWrapperByName({name: linkedSaveName, saveManager});
+			if (saveWrapper?.entity?.saveId) saveId = saveWrapper.entity.saveId;
+		}
+
+		if (!saveId) return null;
+
+		const exportedSublist = await saveManager.pGetSaveBySaveId({saveId});
+		if (!exportedSublist) return null;
+
+		const resolvedName = exportedSublist.name || linkedSaveName || "(Unnamed List)";
+		if (saveId !== this.getLinkedSaveId() || resolvedName !== this.getLinkedSaveName()) {
+			await this._pSetVariantLink({linkedSaveId: saveId, linkedSaveName: resolvedName});
+		}
+
+		return saveId;
+	}
+
 	async _pHandleEditInBestiary (evt) {
 		evt?.stopPropagation?.();
 
-		const saveId = this.getLinkedSaveId();
-		if (!saveId) return;
-
-		const exportedSublist = await EncounterBlockSaveManagerUtil.pGetExportedBySaveId({saveId, isReload: true});
-		if (!exportedSublist) {
+		const saveId = await this._pResolveLinkedSaveIdForEdit();
+		if (!saveId) {
 			await this._pSetVariantLink({linkedSaveId: null, linkedSaveName: null});
 			await this._block.pRefreshDisplay();
 			JqueryUtil.doToast({content: "Could not find the linked pinned list. It may have been deleted.", type: "danger"});
 			return;
 		}
 
-		if (!exportedSublist.adventureBlockLink) {
-			exportedSublist.adventureBlockLink = this._getAdventureBlockLinkMeta();
-		}
-
-		// Avoid embedding JSON in the URL hash — packSubHash/toUrlified lowercases the entire payload.
-		await StorageUtil.pSet(EncounterBlockBestiaryBridge._STORAGE_KEY_EDIT_SUBLIST, exportedSublist);
+		// Clear any stale one-shot payload from older Edit flows.
+		await StorageUtil.pRemove(EncounterBlockBestiaryBridge._STORAGE_KEY_EDIT_SUBLIST);
 
 		window.open(
-			`${UrlUtil.link(UrlUtil.PG_BESTIARY)}#${EncounterBlockBestiaryBridge.getEditInBestiaryHashParts().join(HASH_PART_SEP)}`,
+			`${UrlUtil.link(UrlUtil.PG_BESTIARY)}#${EncounterBlockBestiaryBridge.getEditInBestiaryHashParts({saveId}).join(HASH_PART_SEP)}`,
 			"_blank",
 			"noopener,noreferrer",
 		);
@@ -1196,13 +1526,24 @@ class AdventureEncounterBlock {
 		return RendererEncounterBlock._getEncounterBlockEleById(this._blockId, suffix);
 	}
 
+	_getAdventureAbbrev () {
+		const fromIndex = globalThis.BookUtil?.curRender?.fromIndex;
+		if (fromIndex?.source) {
+			const abv = Parser.sourceJsonToAbv(fromIndex.source);
+			if (abv) return abv;
+		}
+		return fromIndex?.id || null;
+	}
+
 	_getDefaultSaveName () {
 		const entryName = this._entry.name || `Encounter ${this._encounterNumber}`;
 		const partySize = this._getPartySize();
+		let coreName = entryName;
 		if (this._entry.variations?.length && _PARTY_SIZE_VARY_BY_RE.test(this._entry.varyBy || "")) {
-			return `${entryName} (${partySize}P)`;
+			coreName = `${entryName} (${partySize}P)`;
 		}
-		return entryName;
+		const abbrev = this._getAdventureAbbrev();
+		return abbrev ? `${abbrev}: ${coreName}` : coreName;
 	}
 
 	_getPartyLevel () {
@@ -1269,7 +1610,9 @@ class AdventureEncounterBlock {
 		if (this._controls?.isLinked()) {
 			const exported = await this._controls.pGetLinkedExportedSublist();
 			if (exported?.items?.length) {
-				return EncounterBlockCombatantUtil.pGetCombatantsFromExportedSublist(exported);
+				return EncounterBlockCombatantUtil.pGetCombatantsFromExportedSublist(exported, {
+					originalCombatants: this._getJsonCombatantsForCurrentSelection(),
+				});
 			}
 		}
 
@@ -1678,6 +2021,8 @@ const RendererEncounterBlock = {
 
 export function register () {
 	globalThis.RendererEncounterBlock = RendererEncounterBlock;
+	patchRendererEncounterBootstrap();
+	patchEncounterBlockIntegrations();
 }
 
 export {

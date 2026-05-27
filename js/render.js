@@ -470,6 +470,7 @@ globalThis.Renderer = function () {
 				case "insetReadaloud": this._renderInsetReadaloud(entry, textStack, meta, options); break;
 				case "insetDMAction": this._renderInsetDMAction(entry, textStack, meta, options); break;
 				case "encounter": {
+					// Custom hook — implementation in js/render/render-encounter-block.js
 					const fn = globalThis.RendererEncounterBlock?.render;
 					if (!fn) break;
 					fn.call(this, entry, textStack, meta, options);
@@ -2120,10 +2121,6 @@ globalThis.Renderer = function () {
 				textStack[0] += `</i>`;
 				break;
 			case "@cue":
-				if (globalThis.RendererMediaCues) {
-					globalThis.RendererMediaCues.handleCueTag(this, {text, textStack, meta});
-					break;
-				}
 				let [toDisplay, color] = Renderer.splitTagByPipe(text);
 				let ptColor = this._renderString_renderTag_getCueColorPart(color);
 				// Check if this is a media-action cue that should trigger slide changes
@@ -3322,20 +3319,10 @@ Renderer.getFilterSubhashes = function (filters, namespace = null) {
 
 Renderer._cache = class {
 	static inlineStatblock = {};
-	static encounter = {};
 
 	static async pRunFromEle (ele) {
-		const cacheType = ele.dataset.rdCache;
-		const cacheId = ele.dataset.rdCacheId;
-		const cached = Renderer._cache[cacheType]?.[cacheId];
-		if (!cached?.pFn || cached._isRun) return;
-		cached._isRun = true;
+		const cached = Renderer._cache[ele.dataset.rdCache][ele.dataset.rdCacheId];
 		await cached.pFn(ele);
-	}
-
-	static async pRunAllPendingFromRoot (rootEle = document) {
-		const eles = [...rootEle.querySelectorAll("style[data-rd-cache][data-rd-cache-id]")];
-		await eles.pSerialAwaitMap(ele => Renderer._cache.pRunFromEle(ele));
 	}
 };
 
@@ -4418,7 +4405,7 @@ Renderer.utils = class {
 			"arcane": "Arcane Focus",
 			"druid": "Druidic Focus",
 			"holy": "Holy Symbol",
-			"artisansTool": "Artisan's Tools",
+			"artisansTool": "Artisan’s Tools",
 		};
 		static _getHtml_spellcastingFocus ({v, isListMode, keyOptions, isTextOnly, styleHint}) {
 			if (isListMode) {

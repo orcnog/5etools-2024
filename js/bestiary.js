@@ -7,6 +7,8 @@ import {EncounterBuilderRulesClassic} from "./encounterbuilder/rules/encounterbu
 import {EncounterBuilderRulesOne} from "./encounterbuilder/rules/encounterbuilder-rules-one.js";
 import {EncounterBuilderRulesMcdmFleeMortals} from "./encounterbuilder/rules/encounterbuilder-rules-mcdmfleemortals.js";
 import {EncounterBuilderShapesLookup} from "./encounterbuilder/encounterbuilder-shapeslookup.js";
+import {patchEncounterBlockIntegrations} from "./render/render-encounter-block-integration.js";
+import {EncounterBlockBestiaryBridge} from "./render/render-encounter-block.js";
 
 class _BestiaryConsts {
 	static PROF_MODE_BONUS = "bonus";
@@ -54,11 +56,33 @@ class BestiarySublistManager extends SublistManager {
 	}
 
 	_getSerializedPinnedItemData (listItem) {
-		return {cId: listItem.data.collectionId, l: listItem.data.isLocked ? listItem.data.isLocked : undefined};
+		const out = {
+			cId: listItem.data.collectionId,
+			l: listItem.data.isLocked ? listItem.data.isLocked : undefined,
+		};
+
+		const entityBase = listItem.data.entityBase;
+		const entity = listItem.data.entity;
+		if (entityBase) {
+			out.h = UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_BESTIARY](entityBase);
+
+			const displayName = entity?._displayName
+				|| (entity?.name && entity.name !== entityBase.name ? entity.name : null)
+				|| (listItem.name && listItem.name !== entityBase.name ? listItem.name : null);
+			if (displayName && displayName !== entityBase.name) out.dn = displayName;
+		} else if (entity?._displayName) {
+			out.dn = entity._displayName;
+		}
+
+		return out;
 	}
 
 	_getDeserializedPinnedItemData (serialData) {
-		return {collectionId: serialData.cId, isLocked: !!serialData.l};
+		return {
+			collectionId: serialData.cId,
+			isLocked: !!serialData.l,
+			displayName: serialData.dn || "",
+		};
 	}
 
 	_isDisplaySublist () {
@@ -70,9 +94,155 @@ class BestiarySublistManager extends SublistManager {
 		this._encounterBuilder.onSublistChange();
 	}
 
-	async _fnRenderSaveSummaryExtra ({save, comp, wrp, hkRefresh}) {
-		const {EncounterBlockBestiaryBridge} = await import("./render/render-encounter-block.js");
-		await EncounterBlockBestiaryBridge.pRenderSaveSummaryAdventureLinks({save, comp, wrp, hkRefresh});
+	_getSublistItemBaseName ({entity, entityBase}) {
+		return entityBase?.name || entity.name;
+	}
+
+	_getSublistItemDisplayName ({entity, entityBase}) {
+		return entity._displayName || this._getSublistItemBaseName({entity, entityBase});
+	}
+
+	_applySublistItemNameToUi ({sublistItem, eleNameEcgen}) {
+		const baseName = this._getSublistItemBaseName({
+			entity: sublistItem.data.entity,
+			entityBase: sublistItem.data.entityBase,
+		});
+		const dispName = this._getSublistItemDisplayName({
+			entity: sublistItem.data.entity,
+			entityBase: sublistItem.data.entityBase,
+		});
+		const isCustom = !!sublistItem.data.entity._displayName;
+
+		sublistItem.name = dispName;
+		eleNameEcgen
+			.txt(dispName)
+			.toggleClass("ve-help", isCustom)
+			.attr("title", isCustom ? `Statblock name: ${baseName}` : null);
+
+		sublistItem.ele?.find("a.ve-lst__row-inner span.ve-bold")?.first()?.txt(dispName);
+	}
+
+	async _pSetSublistDisplayName ({sublistItem, displayName, doFinalize = true}) {
+		const baseName = this._getSublistItemBaseName({
+			entity: sublistItem.data.entity,
+			entityBase: sublistItem.data.entityBase,
+		});
+		const trimmed = displayName?.trim() || "";
+		let entity = sublistItem.data.entity;
+
+		if (!trimmed || trimmed.toLowerCase() === String(baseName).toLowerCase()) {
+			if (entity._displayName) {
+				entity = MiscUtil.copyFast(entity);
+				delete entity._displayName;
+				sublistItem.data.entity = entity;
+			}
+		} else {
+			entity = MiscUtil.copyFast(entity);
+			entity._displayName = trimmed;
+			sublistItem.data.entity = entity;
+		}
+
+		this._updateSublistItemDisplays(sublistItem);
+		if (doFinalize) await this._pFinaliseSublist();
+	}
+
+	async _pHandleRenameDisplayName (sublistItem) {
+		const baseName = this._getSublistItemBaseName({
+			entity: sublistItem.data.entity,
+			entityBase: sublistItem.data.entityBase,
+		});
+		const current = this._getSublistItemDisplayName({
+			entity: sublistItem.data.entity,
+			entityBase: sublistItem.data.entityBase,
+		});
+
+		const name = await InputUiUtil.pGetUserString({
+			title: "Rename Pinned Creature",
+			default: current,
+		});
+		if (name == null) return;
+
+		await this._pSetSublistDisplayName({sublistItem, displayName: name});
+
+		if (name.trim() && name.trim().toLowerCase() !== String(baseName).toLowerCase()) {
+			JqueryUtil.doToast({content: `Renamed to "${name.trim()}".`, type: "success"});
+		}
+	}
+
+	_initContextMenu () {
+		const subActions = [
+			new ContextUtil.Action(
+				"Popout",
+				(evt, {userData}) => {
+					const {ele, selection} = userData;
+					const entities = selection.map(listItem => ({entity: listItem.data.entity, hash: listItem.values.hash}));
+					return _UtilListPage.pDoMassPopout(evt, ele, entities);
+				},
+			),
+			new ContextUtil.Action(
+				"Rename Display Name",
+				(evt, {userData}) => {
+					const {selection} = userData;
+					if (selection.length !== 1) {
+						JqueryUtil.doToast({content: "Select a single pinned creature to rename.", type: "warning"});
+						return;
+					}
+					return this._pHandleRenameDisplayName(selection[0]);
+				},
+				{title: "Set a custom display name for this pinned creature (saved with the list)"},
+			),
+			new ContextUtil.Action(
+				"Reset Display Name",
+				async (evt, {userData}) => {
+					const {selection} = userData;
+					for (const item of selection) {
+						await this._pSetSublistDisplayName({sublistItem: item, displayName: null, doFinalize: false});
+					}
+					await this._pFinaliseSublist();
+				},
+				{title: "Restore the statblock's default name"},
+			),
+			null,
+			this._getContextActionRemove(),
+			new ContextUtil.Action(
+				"Clear List",
+				() => this.pDoSublistRemoveAll(),
+			),
+			null,
+			new ContextUtil.Action(
+				"Roll on List",
+				(evt) => this._rollSubListed({evt}),
+				{title: "SHIFT to Skip Animation"},
+			),
+			null,
+			new ContextUtil.Action(
+				"Send to DM Screen",
+				(evt) => this._pDoSendSublistToDmScreen({evt}),
+				{title: "A DM Screen panel will be created for each entry. SHIFT to use tabs."},
+			),
+			ExtensionUtil.ACTIVE
+				? new ContextUtil.Action(
+					"Send to Foundry",
+					() => this._pDoSendSublistToFoundry(),
+					{title: "A Rivet import will be run for each entry."},
+				)
+				: undefined,
+			null,
+			new ContextUtil.Action(
+				"Download JSON Data",
+				() => this._pHandleJsonDownload(),
+			),
+			new ContextUtil.Action(
+				"Download Markdown Data",
+				() => this._pHandleMarkdownDownload(),
+			),
+			null,
+			new ContextUtil.Action(
+				"Copy as Markdown Table",
+				() => this._pHandleCopyAsMarkdownTable(),
+			),
+		].filter(it => it !== undefined);
+		this._contextMenuListSub = ContextUtil.getMenu(subActions);
 	}
 
 	_getSublistFullHash ({entity}) {
@@ -105,10 +275,20 @@ class BestiarySublistManager extends SublistManager {
 	}
 
 	async pGetSublistItem (mon, hash, {count = 1, customHashId = null, initialData} = {}) {
-		const name = mon._displayName || mon.name;
+		if (initialData?.displayName) {
+			mon = MiscUtil.copyFast(mon);
+			mon._displayName = initialData.displayName;
+		}
+
+		const hashBase = hash.split(HASH_PART_SEP)[0];
+		const entityBase = await DataLoader.pCacheAndGetHash(
+			UrlUtil.PG_BESTIARY,
+			hashBase,
+		);
+
+		const name = this._getSublistItemDisplayName({entity: mon, entityBase});
 		const type = _BestiaryUtil.getListDisplayType(mon);
 		const cr = mon._pCr;
-		const hashBase = UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_BESTIARY](mon);
 		// If e.g. reloading from a save
 		const collectionId = initialData?.collectionId;
 		const isLocked = !!initialData?.isLocked;
@@ -193,13 +373,20 @@ class BestiarySublistManager extends SublistManager {
 				elesCount: [eleCount1],
 				fnsUpdate: [({sublistItem}) => compCount2._state.count = sublistItem.data.count],
 				entity: mon,
-				entityBase: await DataLoader.pCacheAndGetHash(
-					UrlUtil.PG_BESTIARY,
-					hashBase,
-				),
+				entityBase,
 				mdRow: [...cellsText, ({listItem}) => listItem.data.count],
 			},
 		);
+
+		const isCustomName = !!mon._displayName;
+		const eleNameEcgen = ee`<span class="best-ecgen__name--sub ve-col-3-5 ${isCustomName ? "ve-help" : ""}" ${isCustomName ? `title="Statblock name: ${this._getSublistItemBaseName({entity: mon, entityBase}).qq()}"` : ""}>${name.qq()}</span>`
+			.onn("dblclick", evt => {
+				evt.preventDefault();
+				evt.stopPropagation();
+				this._pHandleRenameDisplayName(listItem).then(null);
+			});
+
+		listItem.data.fnsUpdate.push(({sublistItem}) => this._applySublistItemNameToUi({sublistItem, eleNameEcgen}));
 
 		const sublistButtonsMeta = this._encounterBuilder.getSublistButtonsMeta(listItem);
 		listItem.data.fnsUpdate.push(sublistButtonsMeta.fnUpdate);
@@ -212,7 +399,7 @@ class BestiarySublistManager extends SublistManager {
 
 			<div class="ve-lst__wrp-cells best-ecgen__visible--flex ve-lst__row-border ve-lst__row-inner">
 				${sublistButtonsMeta.wrp}
-				<span class="best-ecgen__name--sub ve-col-3-5">${name}</span>
+				${eleNameEcgen}
 				${hovStatblock}
 				${hovToken}
 				${hovImage}
@@ -543,7 +730,8 @@ class BestiaryPage extends ListPageMultiSource {
 
 		this._renderStatblock(mon);
 
-		await this._pDoLoadSubHash({sub: [], lockToken});
+		const [, ...sub] = Hist.getHashParts();
+		await this._pDoLoadSubHash({sub, lockToken});
 		this._updateSelected();
 	}
 
@@ -589,10 +777,26 @@ class BestiaryPage extends ListPageMultiSource {
 		await this._pPageInit_pProfBonusDiceToggle();
 	}
 
+	async _pOnLoad_pLoadListState () {
+		if (EncounterBlockBestiaryBridge.getEditInBestiarySaveIdFromHash()) {
+			// Skip restoring the previous session sublist; the linked list is loaded in postLoad.
+			this._sublistManager._hasLoadedState = true;
+			await this._sublistManager._saveManager.pMutStateFromStorage();
+			this._sublistManager.doUpdateSublistVisibility();
+			return;
+		}
+
+		await super._pOnLoad_pLoadListState();
+	}
+
 	async _pOnLoad_pPostLoad () {
 		await encounterShapesLookup.pInit();
 
-		this._encounterBuilder.setStateFrom(await StorageUtil.pGetForPage(_BestiaryConsts.STORAGE_KEY_ENCOUNTER_BUILDER_UI_STATE));
+		const editSaveId = EncounterBlockBestiaryBridge.getEditInBestiarySaveIdFromHash();
+
+		if (!editSaveId) {
+			this._encounterBuilder.setStateFrom(await StorageUtil.pGetForPage(_BestiaryConsts.STORAGE_KEY_ENCOUNTER_BUILDER_UI_STATE));
+		}
 
 		this._encounterBuilder
 			.addHookOnSave(MiscUtil.throttle(
@@ -602,7 +806,20 @@ class BestiaryPage extends ListPageMultiSource {
 				100,
 			));
 
+		if (editSaveId) {
+			await EncounterBlockBestiaryBridge.pApplyEditInBestiary({
+				saveId: editSaveId,
+				sublistManager: this._sublistManager,
+				pFnPreLoad: this._pPreloadSublistSources.bind(this),
+			});
+			this._sublistManager.doUpdateSublistVisibility();
+		}
+
 		this._encounterBuilder.render();
+
+		if (editSaveId) {
+			this._encounterBuilder.handleSubhash();
+		}
 
 		const btnSaveToUrl = ee`<button class="ve-btn ve-btn-default ve-btn-xs ve-mr-2">Save to URL</button>`
 			.onn("click", () => this._sublistManager.pHandleClick_download({isUrl: true, eleCopyEffect: btnSaveToUrl}));
@@ -952,6 +1169,8 @@ class BestiaryPage extends ListPageMultiSource {
 		});
 	}
 }
+
+patchEncounterBlockIntegrations({BestiarySublistManager});
 
 const bestiaryPage = new BestiaryPage();
 window.bestiaryPage = bestiaryPage;

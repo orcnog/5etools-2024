@@ -616,35 +616,29 @@ class SublistManager {
 			Object.assign(unpacked, unpackedPart);
 		});
 
-		const encounterBlockEdit = unpacked.encounterblockedit?.clean;
-		if (encounterBlockEdit?.[0] === "true") {
-			const {EncounterBlockBestiaryBridge} = await import("./render/render-encounter-block.js");
-			await EncounterBlockBestiaryBridge.pMutSetFromSubHashes({unpacked, sublistManager: this, pFnPreLoad});
-		} else {
-			const setFrom = unpacked[this.constructor._SUB_HASH_PREFIX]?.clean;
-			if (setFrom) {
-				const json = JSON.parse(setFrom);
+		const setFrom = unpacked[this.constructor._SUB_HASH_PREFIX]?.clean;
+		if (setFrom) {
+			const json = JSON.parse(setFrom);
 
-				if (pFnPreLoad) {
-					await pFnPreLoad(json);
-				}
-
-				await this.pDoLoadExportedSublist(json);
-
-				const [link] = Hist.getHashParts();
-				const outSub = [];
-				Object.keys(unpacked)
-					.filter(k => k !== this.constructor._SUB_HASH_PREFIX)
-					.forEach(k => {
-						outSub.push(`${k}${HASH_SUB_KV_SEP}${unpacked[k].clean.join(HASH_SUB_LIST_SEP)}`);
-					});
-				Hist.setSuppressHistory(true);
-				window.location.hash = `#${link}${outSub.length ? `${HASH_PART_SEP}${outSub.join(HASH_PART_SEP)}` : ""}`;
+			if (pFnPreLoad) {
+				await pFnPreLoad(json);
 			}
+
+			await this.pDoLoadExportedSublist(json);
+
+			const [link] = Hist.getHashParts();
+			const outSub = [];
+			Object.keys(unpacked)
+				.filter(k => k !== this.constructor._SUB_HASH_PREFIX)
+				.forEach(k => {
+					outSub.push(`${k}${HASH_SUB_KV_SEP}${unpacked[k].clean.join(HASH_SUB_LIST_SEP)}`);
+				});
+			Hist.setSuppressHistory(true);
+			window.location.hash = `#${link}${outSub.length ? `${HASH_PART_SEP}${outSub.join(HASH_PART_SEP)}` : ""}`;
 		}
 
 		return Object.entries(unpacked)
-			.filter(([k]) => k !== this.constructor._SUB_HASH_PREFIX && k !== "encounterblockedit")
+			.filter(([k]) => k !== this.constructor._SUB_HASH_PREFIX)
 			.map(([, v]) => v.raw);
 	}
 
@@ -782,6 +776,7 @@ class SublistManager {
 		// Always show the controls (including the list's name) if we're editing a previously-saved
 		//   list, to differentiate between "new, unsaved list" and "editing existing list"
 		if (this._saveManager.isActiveListSaved()) return true;
+		if (this._saveManager._getActiveSave()?.entity?.adventureBlockLink) return true;
 		return !!this._listSub.items.length;
 	}
 
@@ -811,6 +806,15 @@ class SublistManager {
 			await this.pDoLoadExportedSublist(store, {isNoSave: true});
 
 			await this._saveManager.pMutStateFromStorage();
+
+			const sessionSaveId = store?.saveId;
+			if (sessionSaveId) {
+				const saveWrapper = this._saveManager._state.saves.find(it => it.entity?.saveId === sessionSaveId);
+				if (saveWrapper && this._saveManager._state.activeId !== saveWrapper.id) {
+					this._saveManager._state.activeId = saveWrapper.id;
+					this._saveManager._triggerCollectionUpdate("saves");
+				}
+			}
 		} catch (e) {
 			setTimeout(() => { throw e; });
 			await this._saveManager.pDoRemoveStateFromStorage();
@@ -865,9 +869,14 @@ class SublistManager {
 	static async pDeserializeExportedSublistItem (serialItem) {
 		const page = UrlUtil.getCurrentPage();
 		const entityBase = await DataLoader.pCacheAndGetHash(page, serialItem.h);
+		let entity = await Renderer.hover.pApplyCustomHashId(page, entityBase, serialItem.customHashId);
+		if (serialItem.dn) {
+			entity = MiscUtil.copyFast(entity);
+			entity._displayName = serialItem.dn;
+		}
 		return {
-			entity: await Renderer.hover.pApplyCustomHashId(page, entityBase, serialItem.customHashId),
-			entityBase: serialItem.customHashId != null ? entityBase : null,
+			entity,
+			entityBase,
 			count: serialItem.c,
 			isLocked: !!serialItem.l,
 			customHashId: serialItem.customHashId,
