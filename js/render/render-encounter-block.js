@@ -525,6 +525,7 @@ class AdventureEncounterBlockControls {
 		this._storedUserState = null;
 		this._eleRoot = null;
 		this._dispLinkStatus = null;
+		this._btnExportJson = null;
 	}
 
 	async pInit ({ele}) {
@@ -785,6 +786,9 @@ class AdventureEncounterBlockControls {
 		const btnUnlink = ee`<button type="button" class="ve-btn ve-btn-xs ve-btn-default encounter-block-link-controls__btn-unlink" title="Unlink & load original creatures from adventure"><span class="glyphicon glyphicon-remove"></span></button>`
 			.onn("click", evt => this._pHandleUnlink(evt));
 
+		const btnExportJson = ee`<button type="button" class="ve-btn ve-btn-xs ve-btn-default encounter-block-link-controls__btn-export-json" title="Copy encounter block JSON (SHIFT to download)"><span class="encounter-block-link-controls__btn-export-json-icon">{}</span></button>`
+			.onn("click", evt => this._pHandleExportJson(evt));
+
 		const btnEdit = ee`<button type="button" class="ve-btn ve-btn-xs ve-btn-default encounter-block-link-controls__btn-edit" title="Edit linked list in Bestiary Encounter Builder"><span class="glyphicon glyphicon-pencil"></span></button>`
 			.onn("click", evt => this._pHandleEditInBestiary(evt));
 
@@ -793,18 +797,20 @@ class AdventureEncounterBlockControls {
 		this._btnChange = btnChange;
 		this._btnRefresh = btnRefresh;
 		this._btnUnlink = btnUnlink;
+		this._btnExportJson = btnExportJson;
 		this._btnEdit = btnEdit;
 
 		ee(this._eleRoot)`
 			<div class="encounter-block-link-controls no-print ve-flex-v-center ve-flex-wrap">
 				${this._dispLinkStatus}
 				<div class="ve-btn-group encounter-block-link-controls__btns ve-ml-1">
-					${btnLink}
-					${btnSave}
-					${btnChange}
 					${btnRefresh}
-					${btnUnlink}
+					${btnLink}
+					${btnChange}
+					${btnExportJson}
 					${btnEdit}
+					${btnUnlink}
+					${btnSave}
 				</div>
 			</div>`;
 
@@ -825,6 +831,126 @@ class AdventureEncounterBlockControls {
 		this._btnRefresh?.toggleVe(isLinked);
 		this._btnUnlink?.toggleVe(isLinked);
 		this._btnEdit?.toggleVe(isLinked);
+
+		this._pUpdateExportJsonBtn();
+	}
+
+	_serializeCombatantsForCompare (combatants) {
+		return JSON.stringify((combatants || []).map(combatant => {
+			const out = {
+				creature: combatant.creature,
+				quantity: Number(combatant.quantity),
+			};
+			if (combatant.note) out.note = String(combatant.note);
+			return out;
+		}));
+	}
+
+	async _pGetCombatantsForVariantExport ({variantKey, variation, stored}) {
+		const variantEntry = this._getStoredVariantEntry(stored, variantKey);
+		const saveId = variantEntry?.linkedSaveId;
+
+		if (saveId) {
+			const exportedSublist = await EncounterBlockSaveManagerUtil.pGetExportedBySaveId({saveId});
+			if (exportedSublist?.items?.length) {
+				return EncounterBlockCombatantUtil.pGetCombatantsFromExportedSublist(exportedSublist);
+			}
+		}
+
+		return MiscUtil.copyFast(variation?.combatants || this._block._entry.combatants || []);
+	}
+
+	async pIsChangedFromOriginal () {
+		const entry = this._block._entry;
+		const stored = this.constructor.mutMigrateStoredUserState(
+			this._storedUserState ?? await StorageUtil.pGet(this._blockStorageKey),
+		);
+
+		if (entry.variations?.length) {
+			for (const variation of entry.variations) {
+				const variantKey = String(variation.variantName);
+				const current = await this._pGetCombatantsForVariantExport({variantKey, variation, stored});
+				if (this._serializeCombatantsForCompare(current) !== this._serializeCombatantsForCompare(variation.combatants)) {
+					return true;
+				}
+			}
+			return false;
+		}
+
+		const current = await this._pGetCombatantsForVariantExport({
+			variantKey: "_default",
+			variation: entry,
+			stored,
+		});
+		return this._serializeCombatantsForCompare(current) !== this._serializeCombatantsForCompare(entry.combatants);
+	}
+
+	async _pGetEncounterBlockJsonForCopy () {
+		const entry = this._block._entry;
+		const stored = this.constructor.mutMigrateStoredUserState(
+			this._storedUserState ?? await StorageUtil.pGet(this._blockStorageKey),
+		);
+		const out = MiscUtil.copyFast(entry);
+
+		if (entry.variations?.length) {
+			out.variations = await entry.variations.pSerialAwaitMap(async variation => {
+				const variantKey = String(variation.variantName);
+				const variationOut = MiscUtil.copyFast(variation);
+				variationOut.combatants = await this._pGetCombatantsForVariantExport({
+					variantKey,
+					variation,
+					stored,
+				});
+				return variationOut;
+			});
+		} else {
+			out.combatants = await this._pGetCombatantsForVariantExport({
+				variantKey: "_default",
+				variation: entry,
+				stored,
+			});
+		}
+
+		out.partyLevel = this._block._getPartyLevel();
+		return out;
+	}
+
+	_getExportJsonBtnTitle () {
+		const entry = this._block._entry;
+		if (!entry.variations?.length) return "Copy encounter block JSON (SHIFT to download)";
+		return "Copy encounter block JSON — all variations, including linked tweaks (SHIFT to download)";
+	}
+
+	async _pUpdateExportJsonBtn () {
+		if (!this._btnExportJson) return;
+
+		const isLinked = this.isLinked();
+		if (!isLinked) {
+			this._btnExportJson.toggleVe(false);
+			return;
+		}
+
+		const isChanged = await this.pIsChangedFromOriginal();
+		this._btnExportJson.toggleVe(isChanged);
+		this._btnExportJson.prop("disabled", !isChanged);
+		this._btnExportJson.attr("title", this._getExportJsonBtnTitle());
+	}
+
+	async _pHandleExportJson (evt) {
+		evt?.stopPropagation?.();
+		if (this._btnExportJson?.prop("disabled")) return;
+
+		const btn = this._btnExportJson;
+		const json = JSON.stringify(await this._pGetEncounterBlockJsonForCopy(), null, "\t");
+
+		if (evt?.shiftKey) {
+			const name = DataUtil.getCleanFilename(this._block._entry.name || `encounter-${this._block._encounterNumber}`);
+			DataUtil.userDownloadText(`${name}.json`, json);
+			return;
+		}
+
+		await MiscUtil.pCopyTextToClipboard(json);
+		JqueryUtil.showCopiedEffect(btn);
 	}
 
 	async _pHandleLink (evt) {

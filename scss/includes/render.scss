@@ -558,6 +558,16 @@ Renderer
 						&__btns {
 							flex-wrap: wrap;
 						}
+
+						&__btn-export-json-icon {
+							display: inline-block;
+							font-family: monospace;
+							font-size: 1.1em;
+							line-height: 1;
+							letter-spacing: -0.05em;
+							vertical-align: text-top;
+							font-weight: bold;
+						}
 					}
 
 					.encounter-notes {
