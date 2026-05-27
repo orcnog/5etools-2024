@@ -1221,6 +1221,7 @@ globalThis.Renderer = function () {
 	this._renderInset_getCssClasses = function (entry, textStack, meta, options) {
 		const out = ["ve-rd__b-special", "ve-rd__b-inset"];
 		if (entry.type === "insetReadaloud") out.push("ve-rd__b-inset--readaloud");
+		if (entry.type === "insetDMAction") out.push("ve-rd__b-inset--dmaction");
 		if (entry.style) {
 			out.push(
 				...entry.style.split(" ")
@@ -1332,34 +1333,7 @@ globalThis.Renderer = function () {
 	};
     
 	this._renderInsetDMAction = function (entry, textStack, meta, options) {
-		const dataString = this._renderEntriesSubtypes_getDataString(entry);
-		textStack[0] += `<${this.wrapperTag} class="rd__b-special rd__b-inset rd__b-inset--dmaction ${this._getMutatedStyleString(entry.style || "")}" ${dataString}>`;
-
-		const cachedLastDepthTrackerProps = MiscUtil.copyFast(this._lastDepthTrackerInheritedProps);
-		this._handleTrackDepth(entry, 1);
-
-		const pagePart = this._getPagePart(entry, true);
-		const partExpandCollapse = !this._isPartPageExpandCollapseDisabled ? this._getPtExpandCollapseSpecial() : "";
-		const partPageExpandCollapse = `<span class="ve-flex-vh-center">${[pagePart, partExpandCollapse].filter(Boolean).join("")}</span>`;
-
-		if (entry.name != null) {
-			if (Renderer.ENTRIES_WITH_ENUMERATED_TITLES_LOOKUP[entry.type]) this._handleTrackTitles(entry.name);
-			textStack[0] += `<span class="rd__h rd__h--2-inset" data-title-index="${this._headerIndex++}" ${this._getEnumeratedTitleRel(entry.name)}><h4 class="entry-title-inner">${entry.name}</h4>${this._getPagePart(entry, true)}</span>`;
-		} else {
-			textStack[0] += `<span class="rd__h rd__h--2-inset rd__h--2-inset-no-name">${partPageExpandCollapse}</span>`;
-		}
-
-		const len = entry.entries.length;
-		for (let i = 0; i < len; ++i) {
-			const cacheDepth = meta.depth;
-			meta.depth = 2;
-			this._recursiveRender(entry.entries[i], textStack, meta, {prefix: "<p>", suffix: "</p>"});
-			meta.depth = cacheDepth;
-		}
-		textStack[0] += `<div class="float-clear"></div>`;
-		textStack[0] += `</${this.wrapperTag}>`;
-
-		this._lastDepthTrackerInheritedProps = cachedLastDepthTrackerProps;
+		this._renderInsetReadaloud(entry, textStack, meta, options);
 	};
 
 	this._renderVariant = function (entry, textStack, meta, options) {
@@ -4405,7 +4379,7 @@ Renderer.utils = class {
 			"arcane": "Arcane Focus",
 			"druid": "Druidic Focus",
 			"holy": "Holy Symbol",
-			"artisansTool": "Artisan’s Tools",
+			"artisansTool": "Artisan's Tools",
 		};
 		static _getHtml_spellcastingFocus ({v, isListMode, keyOptions, isTextOnly, styleHint}) {
 			if (isListMode) {
