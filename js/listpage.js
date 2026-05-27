@@ -613,29 +613,35 @@ class SublistManager {
 			Object.assign(unpacked, unpackedPart);
 		});
 
-		const setFrom = unpacked[this.constructor._SUB_HASH_PREFIX]?.clean;
-		if (setFrom) {
-			const json = JSON.parse(setFrom);
+		const encounterBlockEdit = unpacked.encounterblockedit?.clean;
+		if (encounterBlockEdit?.[0] === "true") {
+			const {EncounterBlockBestiaryBridge} = await import("./render/render-encounter-block.js");
+			await EncounterBlockBestiaryBridge.pMutSetFromSubHashes({unpacked, sublistManager: this, pFnPreLoad});
+		} else {
+			const setFrom = unpacked[this.constructor._SUB_HASH_PREFIX]?.clean;
+			if (setFrom) {
+				const json = JSON.parse(setFrom);
 
-			if (pFnPreLoad) {
-				await pFnPreLoad(json);
+				if (pFnPreLoad) {
+					await pFnPreLoad(json);
+				}
+
+				await this.pDoLoadExportedSublist(json);
+
+				const [link] = Hist.getHashParts();
+				const outSub = [];
+				Object.keys(unpacked)
+					.filter(k => k !== this.constructor._SUB_HASH_PREFIX)
+					.forEach(k => {
+						outSub.push(`${k}${HASH_SUB_KV_SEP}${unpacked[k].clean.join(HASH_SUB_LIST_SEP)}`);
+					});
+				Hist.setSuppressHistory(true);
+				window.location.hash = `#${link}${outSub.length ? `${HASH_PART_SEP}${outSub.join(HASH_PART_SEP)}` : ""}`;
 			}
-
-			await this.pDoLoadExportedSublist(json);
-
-			const [link] = Hist.getHashParts();
-			const outSub = [];
-			Object.keys(unpacked)
-				.filter(k => k !== this.constructor._SUB_HASH_PREFIX)
-				.forEach(k => {
-					outSub.push(`${k}${HASH_SUB_KV_SEP}${unpacked[k].clean.join(HASH_SUB_LIST_SEP)}`);
-				});
-			Hist.setSuppressHistory(true);
-			window.location.hash = `#${link}${outSub.length ? `${HASH_PART_SEP}${outSub.join(HASH_PART_SEP)}` : ""}`;
 		}
 
 		return Object.entries(unpacked)
-			.filter(([k]) => k !== this.constructor._SUB_HASH_PREFIX)
+			.filter(([k]) => k !== this.constructor._SUB_HASH_PREFIX && k !== "encounterblockedit")
 			.map(([, v]) => v.raw);
 	}
 

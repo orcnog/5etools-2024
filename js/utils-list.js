@@ -640,6 +640,21 @@ class SaveManager extends BaseComponent {
 		return ListUtil.getWithoutManagerState(save.entity);
 	}
 
+	async pDoDeleteBySaveId ({saveId}) {
+		if (!saveId) return false;
+
+		const save = this._state.saves.find(it => it.entity?.saveId === saveId);
+		if (!save) return false;
+
+		this._state.saves = this._state.saves.filter(it => it.id !== save.id);
+		if (this._state.activeId === save.id) this._doNew();
+
+		this._triggerCollectionUpdate("saves");
+		await this.pDoSaveStateToStorage();
+
+		return true;
+	}
+
 	async pHasSaves () { return !!this._getUsableSaves().length; }
 
 	async pDoSave (exportedSublist) {

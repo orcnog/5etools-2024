@@ -102,7 +102,7 @@ async function processAdventure (filePath, maxDepth, ordinalType) {
 
 	// Generate Table of Contents
 	const tableOfContents = generateTableOfContents(allSections, maxDepth, ordinalType);
-	
+
 	// Display generated ToC first
 	console.log("\nGenerated Table of Contents:");
 	console.log(JSON.stringify(tableOfContents, null, 3));
