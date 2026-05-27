@@ -3,25 +3,34 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "sw5eOrcnogHalcyon",
-				"abbreviation": "Halcyon",
-				"full": "SW5e: The Halcyon Remnant - A SW5e One-Shot",
-				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/adventures/Halcyon/creatures.json",
-				"version": "3",
-				"color": "4466ff",
-				"authors": [
+				"json": "sw5e-hr",
+				"abbreviation": "sw5e-hr",
+				"full": "SW5e: Halcyon Remnant - A SW5e D&D One-Shot",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/adventures/Halcyon/adventure-sw5e-hr.json",
+				"convertedBy": [
 					"orcnog"
 				],
-				"convertedBy": [
+				"version": "1.6",
+				"color": "#4466ff",
+				"authors": [
 					"orcnog"
 				]
 			}
-		]
+		],
+		"dateAdded": 1713916800,
+		"dateLastModified": 1746835200,
+		"_dateLastModifiedHash": "hr17intro",
+		"edition": "classic",
+		"dependencies": {
+			"monster": [
+				"sw5e-hr"
+			]
+		}
 	},
 	"monster": [
 		{
 			"name": "Rancor, Adolescent",
-			"source": "sw5eOrcnogHalcyon",
+			"source": "sw5e-hr",
 			"page": 0,
 			"size": [
 				"L"
@@ -101,7 +110,7 @@
 		},
 		{
 			"name": "Mandalorian Initiate",
-			"source": "sw5eOrcnogHalcyon",
+			"source": "sw5e-hr",
 			"page": 0,
 			"size": [
 				"M"
@@ -206,7 +215,7 @@
 		},
 		{
 			"name": "Mandalorian Trooper",
-			"source": "sw5eOrcnogHalcyon",
+			"source": "sw5e-hr",
 			"page": 0,
 			"size": [
 				"M"
@@ -314,7 +323,7 @@
 		},
 		{
 			"name": "Mandalorian Commando",
-			"source": "sw5eOrcnogHalcyon",
+			"source": "sw5e-hr",
 			"page": 0,
 			"size": [
 				"M"
@@ -444,7 +453,7 @@
 		},
 		{
 			"name": "Mynock",
-			"source": "sw5eOrcnogHalcyon",
+			"source": "sw5e-hr",
 			"page": 0,
 			"size": [
 				"S"
@@ -528,7 +537,7 @@
 		},
 		{
 			"name": "Rathtar",
-			"source": "sw5eOrcnogHalcyon",
+			"source": "sw5e-hr",
 			"page": 0,
 			"size": [
 				"L"
@@ -635,7 +644,7 @@
 		},
 		{
 			"name": "Savenger Womp Rat",
-			"source": "sw5eOrcnogHalcyon",
+			"source": "sw5e-hr",
 			"page": 0,
 			"size": [
 				"M"
@@ -712,7 +721,7 @@
 		},
 		{
 			"name": "Dianoga",
-			"source": "sw5eOrcnogHalcyon",
+			"source": "sw5e-hr",
 			"page": 0,
 			"size": [
 				"L"

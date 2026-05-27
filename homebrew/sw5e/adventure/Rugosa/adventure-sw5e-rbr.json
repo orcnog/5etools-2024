@@ -2,10 +2,10 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "sw5eOrcnogRugosa",
-				"abbreviation": "Rugosa",
+				"json": "sw5e-rbr",
+				"abbreviation": "SW5e-RBR",
 				"full": "SW5e: Rugosa Bombing Run - A SW5e D&D One-Shot",
-				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/adventures/Rugosa/adventure_sw5eOrcnogRugosa.json",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/adventure/adventure-sw5e-rbr.json",
 				"color": "#BB5522",
 				"authors": [
 					"orcnog"
@@ -25,7 +25,7 @@
 	"monster": [
 		{
 			"name": "Stormtrooper",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"page": 0,
 			"size": [
 				"M"
@@ -124,7 +124,7 @@
 		},
 		{
 			"name": "Rebel Soldier",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"page": 0,
 			"size": [
 				"M"
@@ -234,10 +234,10 @@
 		},
 		{
 			"name": "Capt. Ash Ryker",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"_copy": {
 				"name": "Rebel Soldier",
-				"source": "sw5eOrcnogRugosa",
+				"source": "sw5e-rbr",
 				"_preserve": {
 					"page": true,
 					"hasFluff": true,
@@ -279,10 +279,10 @@
 		},
 		{
 			"name": "Lt. Thaddeus Brick",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"_copy": {
 				"name": "Rebel Soldier",
-				"source": "sw5eOrcnogRugosa",
+				"source": "sw5e-rbr",
 				"_preserve": {
 					"page": true,
 					"hasFluff": true,
@@ -323,10 +323,10 @@
 		},
 		{
 			"name": "Sgt. Saban Sulleen",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"_copy": {
 				"name": "Rebel Soldier",
-				"source": "sw5eOrcnogRugosa",
+				"source": "sw5e-rbr",
 				"_preserve": {
 					"page": true,
 					"hasFluff": true,
@@ -349,10 +349,10 @@
 		},
 		{
 			"name": "Cpl. Renzo Locke",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"_copy": {
 				"name": "Rebel Soldier",
-				"source": "sw5eOrcnogRugosa",
+				"source": "sw5e-rbr",
 				"_preserve": {
 					"page": true,
 					"hasFluff": true,
@@ -367,10 +367,10 @@
 		},
 		{
 			"name": "Pvt. Landon Drake",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"_copy": {
 				"name": "Rebel Soldier",
-				"source": "sw5eOrcnogRugosa",
+				"source": "sw5e-rbr",
 				"_preserve": {
 					"page": true,
 					"hasFluff": true,
@@ -381,10 +381,10 @@
 		},
 		{
 			"name": "Pvt. Jek Caldo",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"_copy": {
 				"name": "Rebel Soldier",
-				"source": "sw5eOrcnogRugosa",
+				"source": "sw5e-rbr",
 				"_preserve": {
 					"page": true,
 					"hasFluff": true,
@@ -395,10 +395,10 @@
 		},
 		{
 			"name": "Pvt. Crom Gorban",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"_copy": {
 				"name": "Rebel Soldier",
-				"source": "sw5eOrcnogRugosa",
+				"source": "sw5e-rbr",
 				"_preserve": {
 					"page": true,
 					"hasFluff": true,
@@ -409,7 +409,7 @@
 		},
 		{
 			"name": "Stormtrooper Captain",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"page": 0,
 			"size": [
 				"M"
@@ -509,7 +509,7 @@
 		},
 		{
 			"name": "B2 Super Battle Droid",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"page": 0,
 			"size": [
 				"M"
@@ -682,7 +682,7 @@
 		},
 		{
 			"name": "Droideka",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"page": 0,
 			"size": [
 				"M"
@@ -852,7 +852,7 @@
 		{
 			"name": "Darth Ensis",
 			"isNamedCreature": true,
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"page": 0,
 			"size": [
 				"M"
@@ -1052,7 +1052,7 @@
 		},
 		{
 			"name": "AT-RT Walker",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"page": 0,
 			"size": [
 				"H"
@@ -1146,7 +1146,7 @@
 		},
 		{
 			"name": "Dewback",
-			"source": "sw5eOrcnogRugosa",
+			"source": "sw5e-rbr",
 			"page": 0,
 			"size": [
 				"H"

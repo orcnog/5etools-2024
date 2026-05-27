@@ -3,11 +3,11 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "sw5eOrcnogLostTemple",
-				"abbreviation": "LostTemple",
+				"json": "sw5e-lt",
+				"abbreviation": "sw5e-lt",
 				"full": "SW5e: The Lost Jedi Temple - A SW5e D&D One-Shot",
-				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/adventures/LostTemple/creatures.json",
-				"color": "008866",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/adventures/LostTemple/adventure-sw5e-lt.json",
+				"color": "#008866",
 				"authors": [
 					"orcnog"
 				],
@@ -26,7 +26,7 @@
 	"monster": [
 		{
 			"name": "KX-Series Security Droid v1",
-			"source": "sw5eOrcnogLostTemple",
+			"source": "sw5e-lt",
 			"page": 0,
 			"tokenUrl": "https://vignette.wikia.nocookie.net/starwars/images/f/fd/K-2SO_Sideshow.png/revision/latest?cb=20170302003128",
 			"size": [
@@ -113,7 +113,7 @@
 		},
 		{
 			"name": "KX-Series Security Droid",
-			"source": "sw5eOrcnogLostTemple",
+			"source": "sw5e-lt",
 			"page": 0,
 			"size": [
 				"M"
@@ -279,7 +279,7 @@
 		},
 		{
 			"name": "Repair Droid",
-			"source": "sw5eOrcnogLostTemple",
+			"source": "sw5e-lt",
 			"page": 0,
 			"size": [
 				"M"
@@ -370,7 +370,7 @@
 		},
 		{
 			"name": "Knobby White Spider",
-			"source": "sw5eOrcnogLostTemple",
+			"source": "sw5e-lt",
 			"page": 0,
 			"size": [
 				"L"
@@ -487,7 +487,7 @@
 		},
 		{
 			"name": "Jedi Knight, Temple Guard",
-			"source": "sw5eOrcnogLostTemple",
+			"source": "sw5e-lt",
 			"page": 0,
 			"size": [
 				"M"
@@ -621,7 +621,7 @@
 		},
 		{
 			"name": "Jedi Padawan",
-			"source": "sw5eOrcnogLostTemple",
+			"source": "sw5e-lt",
 			"page": 0,
 			"size": [
 				"M"
@@ -694,7 +694,7 @@
 		},
 		{
 			"name": "Dark Novice",
-			"source": "sw5eOrcnogLostTemple",
+			"source": "sw5e-lt",
 			"page": 0,
 			"size": [
 				"M"
@@ -808,7 +808,7 @@
 		},
 		{
 			"name": "Dark Aspirant",
-			"source": "sw5eOrcnogLostTemple",
+			"source": "sw5e-lt",
 			"page": 0,
 			"size": [
 				"M"
@@ -937,7 +937,7 @@
 		},
 		{
 			"name": "Sith Sorcerer",
-			"source": "sw5eOrcnogLostTemple",
+			"source": "sw5e-lt",
 			"page": 0,
 			"size": [
 				"M"
@@ -1092,7 +1092,7 @@
 		},
 		{
 			"name": "Master Sifo-Dyas",
-			"source": "sw5eOrcnogLostTemple",
+			"source": "sw5e-lt",
 			"page": 0,
 			"size": [
 				"M"
@@ -1306,7 +1306,7 @@
 		},
 		{
 			"name": "Seryan Brim",
-			"source": "sw5eOrcnogLostTemple",
+			"source": "sw5e-lt",
 			"page": 0,
 			"size": [
 				"M"
@@ -1447,7 +1447,7 @@
 		},
 		{
 			"name": "Jedi Temple Guard",
-			"source": "sw5eOrcnogLostTemple",
+			"source": "sw5e-lt",
 			"page": 0,
 			"size": [
 				"M"

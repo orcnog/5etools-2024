@@ -3,10 +3,10 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "sw5eOrcnogBlackCipher",
-				"abbreviation": "BlackCipher",
+				"json": "sw5e-bc",
+				"abbreviation": "SW5e-BC",
 				"full": "SW5e: Black Cipher - A SW5e D&D One-Shot",
-				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/adventures/Black-Cipher/adventure_sw5eOrcnogBlackCipher.json",
+				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/adventures/Black-Cipher/adventure_sw5e-bc.json",
 				"convertedBy": [
 					"orcnog"
 				],
@@ -24,7 +24,7 @@
 		"edition": "classic",
 		"dependencies": {
 			"monster": [
-				"sw5eOrcnogRugosa"
+				"sw5e-rbr"
 			]
 		},
 		"internalCopies": [
@@ -35,10 +35,10 @@
 	"monster": [
 		{
 			"name": "Red Stormtrooper",
-			"source": "sw5eOrcnogBlackCipher",
+			"source": "sw5e-bc",
 			"_copy": {
 				"name": "Stormtrooper",
-				"source": "sw5eOrcnogRugosa"
+				"source": "sw5e-rbr"
 			},
 			"trait": [
 				{
@@ -57,10 +57,10 @@
 		},
 		{
 			"name": "Blue Stormtrooper",
-			"source": "sw5eOrcnogBlackCipher",
+			"source": "sw5e-bc",
 			"_copy": {
 				"name": "Stormtrooper",
-				"source": "sw5eOrcnogRugosa"
+				"source": "sw5e-rbr"
 			},
 			"trait": [
 				{
@@ -79,10 +79,10 @@
 		},
 		{
 			"name": "Red Stormtrooper Captain",
-			"source": "sw5eOrcnogBlackCipher",
+			"source": "sw5e-bc",
 			"_copy": {
 				"name": "Stormtrooper Captain",
-				"source": "sw5eOrcnogRugosa"
+				"source": "sw5e-rbr"
 			},
 			"trait": [
 				{
@@ -101,10 +101,10 @@
 		},
 		{
 			"name": "Blue Stormtrooper Captain",
-			"source": "sw5eOrcnogBlackCipher",
+			"source": "sw5e-bc",
 			"_copy": {
 				"name": "Stormtrooper Captain",
-				"source": "sw5eOrcnogRugosa"
+				"source": "sw5e-rbr"
 			},
 			"trait": [
 				{
@@ -123,10 +123,10 @@
 		},
 		{
 			"name": "Phase-Shift Trooper",
-			"source": "sw5eOrcnogBlackCipher",
+			"source": "sw5e-bc",
 			"_copy": {
 				"name": "Stormtrooper",
-				"source": "sw5eOrcnogRugosa"
+				"source": "sw5e-rbr"
 			},
 			"reaction": [
 				{
@@ -143,10 +143,10 @@
 		},
 		{
 			"name": "High Inquisitor Tremayne",
-			"source": "sw5eOrcnogBlackCipher",
+			"source": "sw5e-bc",
 			"_copy": {
 				"name": "Darth Ensis",
-				"source": "sw5eOrcnogRugosa"
+				"source": "sw5e-rbr"
 			},
 			"trait": [
 				{
@@ -173,7 +173,7 @@
 	"monsterFluff": [
 		{
 			"name": "High Inquisitor Tremayne",
-			"source": "sw5eOrcnogBlackCipher",
+			"source": "sw5e-bc",
 			"entries": [
 				"{@i (truh-MAIN)}",
 				"A cold and calculating Coruscanti cyborg who views the chaotic galaxy through a multi-spectrum lens of Imperial logic, preferring to dismantle his enemies with surgical precision and aristocratic disdain rather than brute force.",
@@ -197,7 +197,7 @@
 	"item": [
 		{
 			"name": "Stimpack",
-			"source": "sw5eOrcnogBlackCipher",
+			"source": "sw5e-bc",
 			"page": 0,
 			"type": "G",
 			"rarity": "none",
@@ -208,7 +208,7 @@
 		},
 		{
 			"name": "Kyber Resonance Shard",
-			"source": "sw5eOrcnogBlackCipher",
+			"source": "sw5e-bc",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
@@ -221,7 +221,7 @@
 		},
 		{
 			"name": "Adrenaline Shot",
-			"source": "sw5eOrcnogBlackCipher",
+			"source": "sw5e-bc",
 			"page": 0,
 			"type": "G",
 			"rarity": "none",
@@ -234,10 +234,10 @@
 	"adventure": [
 		{
 			"name": "SW5e: Black Cipher",
-			"id": "sw5eOrcnogBlackCipher",
-			"source": "sw5eOrcnogBlackCipher",
+			"id": "sw5e-bc",
+			"source": "sw5e-bc",
 			"group": "homebrew",
-			"storyline": "Star Wars One-Shot",
+			"storyline": "Star Wars (One-Shot)",
 			"contents": [
 				{
 					"name": "Introduction",
@@ -289,8 +289,8 @@
 	],
 	"adventureData": [
 		{
-			"id": "sw5eOrcnogBlackCipher",
-			"source": "sw5eOrcnogBlackCipher",
+			"id": "sw5e-bc",
+			"source": "sw5e-bc",
 			"data": [
 				{
 					"type": "section",
@@ -603,15 +603,15 @@
 											"variantName": "3",
 											"combatants": [
 												{
-													"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher|Red Trooper}",
+													"creature": "{@creature red stormtrooper|sw5e-bc|Red Trooper}",
 													"quantity": 2
 												},
 												{
-													"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher|Blue Trooper}",
+													"creature": "{@creature blue stormtrooper|sw5e-bc|Blue Trooper}",
 													"quantity": 4
 												},
 												{
-													"creature": "{@creature red stormtrooper captain|sw5eOrcnogBlackCipher|Red Capt.}",
+													"creature": "{@creature red stormtrooper captain|sw5e-bc|Red Capt.}",
 													"quantity": 1
 												}
 											]
@@ -620,19 +620,19 @@
 											"variantName": "4",
 											"combatants": [
 												{
-													"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher|Red Trooper}",
+													"creature": "{@creature red stormtrooper|sw5e-bc|Red Trooper}",
 													"quantity": 3
 												},
 												{
-													"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher|Blue Trooper}",
+													"creature": "{@creature blue stormtrooper|sw5e-bc|Blue Trooper}",
 													"quantity": 2
 												},
 												{
-													"creature": "{@creature red stormtrooper captain|sw5eOrcnogBlackCipher|Red Capt.}",
+													"creature": "{@creature red stormtrooper captain|sw5e-bc|Red Capt.}",
 													"quantity": 1
 												},
 												{
-													"creature": "{@creature blue stormtrooper captain|sw5eOrcnogBlackCipher|Blue Capt.}",
+													"creature": "{@creature blue stormtrooper captain|sw5e-bc|Blue Capt.}",
 													"quantity": 1
 												}
 											]
@@ -642,19 +642,19 @@
 											"default": true,
 											"combatants": [
 												{
-													"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher|Red Trooper}",
+													"creature": "{@creature red stormtrooper|sw5e-bc|Red Trooper}",
 													"quantity": 3
 												},
 												{
-													"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher|Blue Trooper}",
+													"creature": "{@creature blue stormtrooper|sw5e-bc|Blue Trooper}",
 													"quantity": 3
 												},
 												{
-													"creature": "{@creature red stormtrooper captain|sw5eOrcnogBlackCipher|Red Capt.}",
+													"creature": "{@creature red stormtrooper captain|sw5e-bc|Red Capt.}",
 													"quantity": 1
 												},
 												{
-													"creature": "{@creature blue stormtrooper captain|sw5eOrcnogBlackCipher|Blue Capt.}",
+													"creature": "{@creature blue stormtrooper captain|sw5e-bc|Blue Capt.}",
 													"quantity": 1
 												}
 											]
@@ -849,7 +849,7 @@
 													"variantName": "3",
 													"combatants": [
 														{
-															"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|Phase Trooper}",
+															"creature": "{@creature Phase-Shift Trooper|sw5e-bc|Phase Trooper}",
 															"quantity": 2
 														}
 													]
@@ -858,7 +858,7 @@
 													"variantName": "4",
 													"combatants": [
 														{
-															"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|Phase Trooper}",
+															"creature": "{@creature Phase-Shift Trooper|sw5e-bc|Phase Trooper}",
 															"quantity": 2
 														}
 													]
@@ -867,7 +867,7 @@
 													"variantName": "5",
 													"combatants": [
 														{
-															"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|Phase Trooper}",
+															"creature": "{@creature Phase-Shift Trooper|sw5e-bc|Phase Trooper}",
 															"quantity": 2
 														}
 													]
@@ -1133,7 +1133,7 @@
 													"variantName": "3",
 													"combatants": [
 														{
-															"creature": "{@creature stormtrooper|sw5eOrcnogRugosa|Trooper}",
+															"creature": "{@creature stormtrooper|sw5e-rbr|Trooper}",
 															"quantity": 12
 														}
 													]
@@ -1142,11 +1142,11 @@
 													"variantName": "4",
 													"combatants": [
 														{
-															"creature": "{@creature stormtrooper|sw5eOrcnogRugosa|Trooper}",
+															"creature": "{@creature stormtrooper|sw5e-rbr|Trooper}",
 															"quantity": 9
 														},
 														{
-															"creature": "{@creature stormtrooper captain|sw5eOrcnogRugosa|Trooper Capt.}",
+															"creature": "{@creature stormtrooper captain|sw5e-rbr|Trooper Capt.}",
 															"quantity": 3
 														}
 													]
@@ -1156,11 +1156,11 @@
 													"default": true,
 													"combatants": [
 														{
-															"creature": "{@creature stormtrooper|sw5eOrcnogRugosa|Trooper}",
+															"creature": "{@creature stormtrooper|sw5e-rbr|Trooper}",
 															"quantity": 5
 														},
 														{
-															"creature": "{@creature stormtrooper captain|sw5eOrcnogRugosa|Trooper Capt.}",
+															"creature": "{@creature stormtrooper captain|sw5e-rbr|Trooper Capt.}",
 															"quantity": 7
 														}
 													]
@@ -1191,7 +1191,7 @@
 										{
 											"type": "list",
 											"items": [
-												"Five {@item Kyber Resonance Shard|sw5eOrcnogBlackCipher|kyber resonance shards} (turn any weapon into a +1)",
+												"Five {@item Kyber Resonance Shard|sw5e-bc|kyber resonance shards} (turn any weapon into a +1)",
 												"Eight E-11 Blaster Rifles (statistically equivalent to a shortbow in range and damage)",
 												"{@dice 1d6} {@item Grenade, Ion|sw5ephb|Ion Grenades} (30 ft range, 10 ft. radius, DC 16 DEX save, {@dice 2d6} ion damage / half on a save)"
 											]
@@ -1220,8 +1220,8 @@
 										{
 											"type": "list",
 											"items": [
-												"{@dice 1d4 + 1} {@item Stimpack|sw5eOrcnogBlackCipher|stimpacks}",
-												"Five {@item Adrenaline Shot|sw5eOrcnogBlackCipher|adrenaline shots}"
+												"{@dice 1d4 + 1} {@item Stimpack|sw5e-bc|stimpacks}",
+												"Five {@item Adrenaline Shot|sw5e-bc|adrenaline shots}"
 											]
 										}
 									]
@@ -1301,7 +1301,7 @@
 												"1/3 of the Troopers have {@b Blue Shields} (Resistance to all but Blue/Kinetic damage).",
 												"1/3 of the Troopers have {@b Red Shields} (Resistance to all but Red/Kinetic damage).",
 												"1/3 of the Troopers can use a reaction to {@b Phase Shift} for 1 round when targeted.",
-												"{@b Starting in Round 2}, two {@creature Droideka|sw5eOrcnogRugosa|Droidekas} roll in from the back of the room to join the fight. They activate their shields: one red, one blue."
+												"{@b Starting in Round 2}, two {@creature Droideka|sw5e-rbr|Droidekas} roll in from the back of the room to join the fight. They activate their shields: one red, one blue."
 											]
 										}
 									]
@@ -1350,19 +1350,19 @@
 											"variantName": "3",
 											"combatants": [
 												{
-													"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher|Red Trooper}",
+													"creature": "{@creature red stormtrooper|sw5e-bc|Red Trooper}",
 													"quantity": 3
 												},
 												{
-													"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher|Blue Trooper}",
+													"creature": "{@creature blue stormtrooper|sw5e-bc|Blue Trooper}",
 													"quantity": 3
 												},
 												{
-													"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|Phase Trooper}",
+													"creature": "{@creature Phase-Shift Trooper|sw5e-bc|Phase Trooper}",
 													"quantity": 4
 												},
 												{
-													"creature": "{@creature Droideka|sw5eOrcnogRugosa|droideka}",
+													"creature": "{@creature Droideka|sw5e-rbr|droideka}",
 													"quantity": 2
 												}
 											]
@@ -1371,19 +1371,19 @@
 											"variantName": "4",
 											"combatants": [
 												{
-													"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher|Red Trooper}",
+													"creature": "{@creature red stormtrooper|sw5e-bc|Red Trooper}",
 													"quantity": 3
 												},
 												{
-													"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher|Blue Trooper}",
+													"creature": "{@creature blue stormtrooper|sw5e-bc|Blue Trooper}",
 													"quantity": 3
 												},
 												{
-													"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|Phase Trooper}",
+													"creature": "{@creature Phase-Shift Trooper|sw5e-bc|Phase Trooper}",
 													"quantity": 4
 												},
 												{
-													"creature": "{@creature Droideka|sw5eOrcnogRugosa|droideka}",
+													"creature": "{@creature Droideka|sw5e-rbr|droideka}",
 													"quantity": 2
 												}
 											]
@@ -1392,19 +1392,19 @@
 											"variantName": "5",
 											"combatants": [
 												{
-													"creature": "{@creature red stormtrooper|sw5eOrcnogBlackCipher|Red Trooper}",
+													"creature": "{@creature red stormtrooper|sw5e-bc|Red Trooper}",
 													"quantity": 3
 												},
 												{
-													"creature": "{@creature blue stormtrooper|sw5eOrcnogBlackCipher|Blue Trooper}",
+													"creature": "{@creature blue stormtrooper|sw5e-bc|Blue Trooper}",
 													"quantity": 3
 												},
 												{
-													"creature": "{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher|Phase Trooper}",
+													"creature": "{@creature Phase-Shift Trooper|sw5e-bc|Phase Trooper}",
 													"quantity": 4
 												},
 												{
-													"creature": "{@creature Droideka|sw5eOrcnogRugosa|droideka}",
+													"creature": "{@creature Droideka|sw5e-rbr|droideka}",
 													"quantity": 2
 												}
 											]
@@ -1471,7 +1471,7 @@
 											"variantName": "3",
 											"combatants": [
 												{
-													"creature": "{@creature High Inquisitor Tremayne|sw5eOrcnogBlackCipher|Tremayne|scaled=6}",
+													"creature": "{@creature High Inquisitor Tremayne|sw5e-bc|Tremayne|scaled=6}",
 													"quantity": 1
 												}
 											]
@@ -1480,7 +1480,7 @@
 											"variantName": "4",
 											"combatants": [
 												{
-													"creature": "{@creature High Inquisitor Tremayne|sw5eOrcnogBlackCipher|Tremayne}",
+													"creature": "{@creature High Inquisitor Tremayne|sw5e-bc|Tremayne}",
 													"quantity": 1
 												}
 											]
@@ -1490,7 +1490,7 @@
 											"default": true,
 											"combatants": [
 												{
-													"creature": "{@creature High Inquisitor Tremayne|sw5eOrcnogBlackCipher|Tremayne|scaled=8}",
+													"creature": "{@creature High Inquisitor Tremayne|sw5e-bc|Tremayne|scaled=8}",
 													"quantity": 1
 												}
 											]
@@ -1687,9 +1687,9 @@
 									"type": "list",
 									"name": "Item References",
 									"items": [
-										"{@item Adrenaline Shot|sw5eOrcnogBlackCipher}",
-										"{@item Kyber Resonance Shard|sw5eOrcnogBlackCipher}",
-										"{@item Stimpack|sw5eOrcnogBlackCipher}"
+										"{@item Adrenaline Shot|sw5e-bc}",
+										"{@item Kyber Resonance Shard|sw5e-bc}",
+										"{@item Stimpack|sw5e-bc}"
 									]
 								}
 							]
@@ -1708,15 +1708,15 @@
 									"type": "list",
 									"columns": 2,
 									"items": [
-										"{@creature Blue Stormtrooper Captain|sw5eOrcnogBlackCipher}",
-										"{@creature Blue Stormtrooper|sw5eOrcnogBlackCipher}",
-										"{@creature Droideka|sw5eOrcnogRugosa}",
-										"{@creature High Inquisitor Tremayne|sw5eOrcnogBlackCipher}",
-										"{@creature Phase-Shift Trooper|sw5eOrcnogBlackCipher}",
-										"{@creature Red Stormtrooper Captain|sw5eOrcnogBlackCipher}",
-										"{@creature Red Stormtrooper|sw5eOrcnogBlackCipher}",
-										"{@creature Stormtrooper Captain|sw5eOrcnogRugosa}",
-										"{@creature Stormtrooper|sw5eOrcnogRugosa}"
+										"{@creature Blue Stormtrooper Captain|sw5e-bc}",
+										"{@creature Blue Stormtrooper|sw5e-bc}",
+										"{@creature Droideka|sw5e-rbr}",
+										"{@creature High Inquisitor Tremayne|sw5e-bc}",
+										"{@creature Phase-Shift Trooper|sw5e-bc}",
+										"{@creature Red Stormtrooper Captain|sw5e-bc}",
+										"{@creature Red Stormtrooper|sw5e-bc}",
+										"{@creature Stormtrooper Captain|sw5e-rbr}",
+										"{@creature Stormtrooper|sw5e-rbr}"
 									]
 								}
 							]

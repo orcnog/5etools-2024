@@ -3,12 +3,12 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "sw5eOrcnogDecryptor",
-				"abbreviation": "Decryptor",
+				"json": "sw5e-id",
+				"abbreviation": "sw5e-id",
 				"full": "SW5e: The Imperial Decryptor - A SW5e One-Shot",
-				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/adventures/ImperialDecryptor/creatures.json",
-				"version": "3",
-				"color": "4488dd",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/adventures/ImperialDecryptor/adventure-sw5e-id.json",
+				"version": "4",
+				"color": "#4488dd",
 				"authors": [
 					"orcnog"
 				],
@@ -21,7 +21,7 @@
 	"monster": [
 		{
 			"name": "MagnaGuard Sentinel",
-			"source": "sw5eOrcnogDecryptor",
+			"source": "sw5e-id",
 			"page": 0,
 			"size": [
 				"M"
