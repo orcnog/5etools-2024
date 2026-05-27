@@ -177,6 +177,9 @@ class SublistManager {
 			cbOnLoad: (evt) => this.pHandleClick_load(evt),
 			cbOnReset: (evt, exportedSublist) => this.pDoLoadExportedSublist(exportedSublist),
 			cbOnUpload: (evt) => this.pHandleClick_upload({isAdditive: evt.shiftKey}),
+			fnRenderSaveSummaryExtra: typeof this._fnRenderSaveSummaryExtra === "function"
+				? this._fnRenderSaveSummaryExtra.bind(this)
+				: null,
 		});
 
 		this._wrpSummaryControls = wrpSummaryControls;
@@ -773,6 +776,7 @@ class SublistManager {
 		// Always show the controls (including the list's name) if we're editing a previously-saved
 		//   list, to differentiate between "new, unsaved list" and "editing existing list"
 		if (this._saveManager.isActiveListSaved()) return true;
+		if (this._saveManager._getActiveSave()?.entity?.adventureBlockLink) return true;
 		return !!this._listSub.items.length;
 	}
 
@@ -802,6 +806,15 @@ class SublistManager {
 			await this.pDoLoadExportedSublist(store, {isNoSave: true});
 
 			await this._saveManager.pMutStateFromStorage();
+
+			const sessionSaveId = store?.saveId;
+			if (sessionSaveId) {
+				const saveWrapper = this._saveManager._state.saves.find(it => it.entity?.saveId === sessionSaveId);
+				if (saveWrapper && this._saveManager._state.activeId !== saveWrapper.id) {
+					this._saveManager._state.activeId = saveWrapper.id;
+					this._saveManager._triggerCollectionUpdate("saves");
+				}
+			}
 		} catch (e) {
 			setTimeout(() => { throw e; });
 			await this._saveManager.pDoRemoveStateFromStorage();
@@ -856,9 +869,14 @@ class SublistManager {
 	static async pDeserializeExportedSublistItem (serialItem) {
 		const page = UrlUtil.getCurrentPage();
 		const entityBase = await DataLoader.pCacheAndGetHash(page, serialItem.h);
+		let entity = await Renderer.hover.pApplyCustomHashId(page, entityBase, serialItem.customHashId);
+		if (serialItem.dn) {
+			entity = MiscUtil.copyFast(entity);
+			entity._displayName = serialItem.dn;
+		}
 		return {
-			entity: await Renderer.hover.pApplyCustomHashId(page, entityBase, serialItem.customHashId),
-			entityBase: serialItem.customHashId != null ? entityBase : null,
+			entity,
+			entityBase,
 			count: serialItem.c,
 			isLocked: !!serialItem.l,
 			customHashId: serialItem.customHashId,

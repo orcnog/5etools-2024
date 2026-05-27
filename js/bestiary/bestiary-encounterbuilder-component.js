@@ -5,13 +5,26 @@ export class EncounterBuilderComponentBestiary extends EncounterBuilderComponent
 		return {
 			// region Special handling for `creatureMetas`
 			items: this._state.creatureMetas
-				.map(creatureMeta => ({
-					h: creatureMeta.getHash(),
-					c: creatureMeta.getCount(),
-					customHashId: creatureMeta.getCustomHashId(),
-					cId: creatureMeta.id,
-					l: creatureMeta.getIsLocked(),
-				})),
+				.map(creatureMeta => {
+					const creature = creatureMeta.getCreature();
+					const baseCreature = creatureMeta.entity.baseCreature;
+					const hashEntity = baseCreature || creature;
+					const baseName = baseCreature?.name || creature.name;
+
+					const item = {
+						h: UrlUtil.URL_TO_HASH_BUILDER[UrlUtil.PG_BESTIARY](hashEntity),
+						c: creatureMeta.getCount(),
+						customHashId: creatureMeta.getCustomHashId(),
+						cId: creatureMeta.id,
+						l: creatureMeta.getIsLocked(),
+					};
+
+					const displayName = creature._displayName
+						|| (creature.name?.toLowerCase() !== baseName?.toLowerCase() ? creature.name : "");
+					if (displayName && displayName.toLowerCase() !== baseName?.toLowerCase()) item.dn = displayName;
+
+					return item;
+				}),
 			sources: this._state.creatureMetas
 				.map(creatureMeta => creatureMeta.getCreature().source)
 				.unique(),

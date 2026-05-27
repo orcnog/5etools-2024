@@ -542,6 +542,34 @@ Renderer
 						font-style: italic;
 						color: vars.$rgb-font--muted;
 					}
+
+					.encounter-block-link-controls-wrap {
+						margin-top: 0.75rem;
+					}
+
+					.encounter-block-link-controls {
+						column-gap: 0.35em;
+						row-gap: 0.35em;
+
+						&__status {
+							min-width: 0;
+						}
+
+						&__btns {
+							flex-wrap: wrap;
+						}
+
+						&__btn-export-json-icon {
+							display: inline-block;
+							font-family: monospace;
+							font-size: 1.1em;
+							line-height: 1;
+							letter-spacing: -0.05em;
+							vertical-align: text-top;
+							font-weight: bold;
+						}
+					}
+
 					.encounter-notes {
 						margin-bottom: var(--h-mb-p);
 

@@ -14,13 +14,18 @@ class ListUtil {
 				const listItem = Hist.getActiveListItem(ser.h);
 				if (listItem == null) return null;
 
-				const entity = await Renderer.hover.pApplyCustomHashId(
+				let entity = await Renderer.hover.pApplyCustomHashId(
 					page,
 					// Pull from the list page, as there may be list-page-specific temp data
 					dataList[listItem.ix],
 					// Support lowercase prop from URL
 					ser.customHashId || ser.customhashid,
 				);
+
+				if (ser.dn) {
+					entity = MiscUtil.copyFast(entity);
+					entity._displayName = ser.dn;
+				}
 
 				return {
 					count: this._pGetSublistEntities_getCount({ser}),
@@ -51,6 +56,11 @@ class ListUtil {
 				);
 
 				if (!entity) return null;
+
+				if (ser.dn) {
+					entity = MiscUtil.copyFast(entity);
+					entity._displayName = ser.dn;
+				}
 
 				return {
 					count: this._pGetSublistEntities_getCount({ser}),
@@ -710,9 +720,14 @@ class SaveManager extends BaseComponent {
 			cbOnLoad,
 			cbOnReset,
 			cbOnUpload,
+			fnRenderSaveSummaryExtra,
 		},
 	) {
 		const wrp = ee`<div class="ve-pt-2 ve-flex-col no-print"></div>`;
+
+		const wrpActiveAdventureLinks = fnRenderSaveSummaryExtra
+			? ee`<div class="encounter-block-bestiary-link-indicator ve-pl-4 ve-ml-1 ve-hidden"></div>`
+			: null;
 
 		const renderableCollectionSummary = new SaveManager._RenderableCollectionSaves_Summary(
 			{
@@ -724,11 +739,41 @@ class SaveManager extends BaseComponent {
 				cbOnLoad,
 				cbOnReset,
 				cbOnUpload,
+				fnRenderSaveSummaryExtra,
+				wrpActiveAdventureLinks,
 			},
 		);
 
+		const hkActiveAdventureLinks = () => {
+			if (!fnRenderSaveSummaryExtra || !wrpActiveAdventureLinks) return;
+
+			const parent = wrpActiveAdventureLinks.parente();
+			if (!parent?.is(wrp)) wrpActiveAdventureLinks.appendTo(wrp);
+
+			const activeSave = this._getActiveSave();
+			if (!activeSave?.entity?.saveId) {
+				wrpActiveAdventureLinks.empty().hideVe();
+				return;
+			}
+
+			const renderedMeta = this._getRenderedCollection({prop: "saves", namespace: "summary"})[activeSave.id];
+			if (!renderedMeta?.comp) {
+				wrpActiveAdventureLinks.empty().hideVe();
+				return;
+			}
+
+			fnRenderSaveSummaryExtra({
+				save: activeSave,
+				comp: renderedMeta.comp,
+				wrp: wrpActiveAdventureLinks,
+				hkRefresh: hkActiveAdventureLinks,
+			})
+				.then(() => wrpActiveAdventureLinks.toggleVe(!!wrpActiveAdventureLinks.childElementCount));
+		};
+
 		const hkSaves = () => {
 			renderableCollectionSummary.render();
+			hkActiveAdventureLinks();
 		};
 		hkSaves();
 		this._addHookBase("saves", hkSaves);
@@ -937,6 +982,8 @@ SaveManager._RenderableCollectionSaves_Summary = class extends RenderableCollect
 			cbOnLoad,
 			cbOnReset,
 			cbOnUpload,
+			fnRenderSaveSummaryExtra,
+			wrpActiveAdventureLinks,
 		},
 	) {
 		super(comp, "saves", {namespace: "summary"});
@@ -947,6 +994,8 @@ SaveManager._RenderableCollectionSaves_Summary = class extends RenderableCollect
 		this._cbOnLoad = cbOnLoad;
 		this._cbOnReset = cbOnReset;
 		this._cbOnUpload = cbOnUpload;
+		this._fnRenderSaveSummaryExtra = fnRenderSaveSummaryExtra;
+		this._wrpActiveAdventureLinks = wrpActiveAdventureLinks;
 	}
 
 	cbOnListUpdated ({cntVisibleItems}) {
@@ -1010,6 +1059,7 @@ SaveManager._RenderableCollectionSaves_Summary = class extends RenderableCollect
 		</div>`.appendTo(this._wrp);
 
 		const hkDisplay = () => wrpRow.toggleVe(this._comp._state.activeId === save.id);
+		this._comp._addHookBase("activeId", hkDisplay);
 		hkDisplay();
 
 		return {
@@ -1022,9 +1072,10 @@ SaveManager._RenderableCollectionSaves_Summary = class extends RenderableCollect
 	}
 
 	doUpdateExistingRender (renderedMeta, save, i) {
-		renderedMeta.hkDisplay();
 		renderedMeta.comp._proxyAssignSimple("state", save.entity, true);
+		renderedMeta.hkDisplay();
 		if (!renderedMeta.wrpRow.parente().is(this._wrp)) renderedMeta.wrpRow.appendTo(this._wrp);
+		if (this._wrpActiveAdventureLinks) this._wrpActiveAdventureLinks.appendTo(this._wrp);
 	}
 };
 

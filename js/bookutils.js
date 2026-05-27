@@ -1,5 +1,6 @@
 import {RenderMap} from "./render-map.js";
 import {OmnisearchUtilsUi} from "./omnisearch/omnisearch-utils-ui.js";
+import "./render/render-encounter-block.js";
 
 export class BookUtil {
 	static getHeaderText (header) {
@@ -29,6 +30,16 @@ export class BookUtil {
 		ele.scrollIntoView();
 	}
 
+	static _scrollClick_pScrollToEntryId (entryId) {
+		if (!entryId) return false;
+
+		const ele = document.getElementById(entryId);
+		if (!ele) return false;
+
+		this._scrollClick_pScrollElementIntoView(ele).then(null);
+		return true;
+	}
+
 	static _scrollClick (ixChapter, headerText, headerNumber) {
 		headerText = headerText.toLowerCase().trim();
 
@@ -46,7 +57,7 @@ export class BookUtil {
 			const ixTitleUpper = Math.min(trackedTitleIndexes.length, maxHeaderIx) + 1; // +1 since it's 1-indexed
 			for (let ixTitle = minHeaderIx; ixTitle < ixTitleUpper; ++ixTitle) {
 				let titleName = trackedTitles[ixTitle];
-				if (!titleName) throw new Error(`No tracked title for index "${ixTitle}"! This is a bug!`);
+				if (!titleName) continue;
 
 				titleName = titleName.toLowerCase().trim();
 				if (titleName === headerText) {
@@ -56,9 +67,11 @@ export class BookUtil {
 					}
 
 					this._scrollClick_pScrollElementIntoView(es(`[data-title-index="${ixTitle}"]`)).then(null);
-					break;
+					return;
 				}
 			}
+
+			if (this._scrollClick_pScrollToEntryId(headerText)) return;
 
 			return;
 		}
@@ -66,7 +79,12 @@ export class BookUtil {
 		const trackedTitlesInverse = BookUtil._renderer.getTrackedTitlesInverted({isStripTags: true});
 
 		const ixTitle = (trackedTitlesInverse[headerText] || [])[headerNumber || 0];
-		if (ixTitle != null) this._scrollClick_pScrollElementIntoView(es(`[data-title-index="${ixTitle}"]`)).then(null);
+		if (ixTitle != null) {
+			this._scrollClick_pScrollElementIntoView(es(`[data-title-index="${ixTitle}"]`)).then(null);
+			return;
+		}
+
+		this._scrollClick_pScrollToEntryId(headerText);
 	}
 
 	static _scrollPageTop (ixChapter) {
@@ -90,7 +108,7 @@ export class BookUtil {
 		headersBlock.toggleVe();
 	}
 
-	static _showBookContent (data, fromIndex, bookId, hashParts) {
+	static async _showBookContent (data, fromIndex, bookId, hashParts) {
 		const ixChapterPrev = BookUtil.curRender.chapter;
 		const bookIdPrev = BookUtil.curRender.curBookId;
 
@@ -129,6 +147,9 @@ export class BookUtil {
 
 		// If it's a new chapter or a new book
 		if (isRenderingNewChapterOrNewBook) {
+			await this._pEnsureEncounterBlockRenderer();
+			globalThis.RendererEncounterBlock?.resetRenderState?.();
+
 			BookUtil.curRender.curBookId = bookId;
 			BookUtil.curRender.chapter = ixChapter;
 			BookUtil.dispBook.html("");
@@ -156,6 +177,7 @@ export class BookUtil {
 			// If there is no source, we're probably in the Quick Reference, so avoid adding the "Excluded" text, as this is a composite source.
 			BookUtil.dispBook.appends(`<tr><td colspan="6" class="ve-py-2 ve-px-5">${fromIndex.source ? Renderer.utils.getExcludedHtml({entity: fromIndex, dataProp: BookUtil.contentType, page: UrlUtil.getCurrentPage()}) : ""}${textStack.join("")}</td></tr>`);
 			Renderer.initLazyImageLoaders();
+			await Renderer._cache.pRunAllPendingFromRoot(document.getElementById("pagecontent"));
 			BookUtil._renderer
 				.setLazyImages(false)
 				.setHeaderIndexTableCaptions(false)
@@ -555,6 +577,19 @@ export class BookUtil {
 	static async _pInitLibraries () {
 		const {polylabel} = await import("../lib/polylabel.js");
 		globalThis.polylabel = polylabel;
+
+		await this._pEnsureEncounterBlockRenderer();
+	}
+
+	static async _pEnsureEncounterBlockRenderer () {
+		if (globalThis.RendererEncounterBlock?.render) return;
+
+		for (let i = 0; i < 100; ++i) {
+			await MiscUtil.pDelay(0);
+			if (globalThis.RendererEncounterBlock?.render) return;
+		}
+
+		throw new Error("RendererEncounterBlock failed to load.");
 	}
 
 	/* -------------------------------------------- */
@@ -739,7 +774,7 @@ export class BookUtil {
 
 		if (isInitialLoad) this._doPopulateContents({wrpContents, book: fromIndex});
 
-		BookUtil._showBookContent(BookUtil.referenceId ? data.data[BookUtil.referenceId] : data.data, fromIndex, bookId, hashParts);
+		await BookUtil._showBookContent(BookUtil.referenceId ? data.data[BookUtil.referenceId] : data.data, fromIndex, bookId, hashParts);
 
 		if (isInitialLoad) BookUtil._addSearch(fromIndex, bookId);
 	}
