@@ -3,10 +3,10 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "sw5e-lt",
-				"abbreviation": "sw5e-lt",
+				"json": "sw5e-ljt",
+				"abbreviation": "LJT",
 				"full": "SW5e: The Lost Jedi Temple - A SW5e D&D One-Shot",
-				"url": "https://5e.orcnog.com/homebrew/sw5e/adventures/LostTemple/adventure-sw5e-lt.json",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/adventure/adventure-sw5e-ljt.json",
 				"color": "#008866",
 				"authors": [
 					"orcnog"
@@ -26,7 +26,7 @@
 	"monster": [
 		{
 			"name": "KX-Series Security Droid v1",
-			"source": "sw5e-lt",
+			"source": "sw5e-ljt",
 			"page": 0,
 			"tokenUrl": "https://vignette.wikia.nocookie.net/starwars/images/f/fd/K-2SO_Sideshow.png/revision/latest?cb=20170302003128",
 			"size": [
@@ -113,7 +113,7 @@
 		},
 		{
 			"name": "KX-Series Security Droid",
-			"source": "sw5e-lt",
+			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
 				"M"
@@ -279,7 +279,7 @@
 		},
 		{
 			"name": "Repair Droid",
-			"source": "sw5e-lt",
+			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
 				"M"
@@ -370,7 +370,7 @@
 		},
 		{
 			"name": "Knobby White Spider",
-			"source": "sw5e-lt",
+			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
 				"L"
@@ -487,7 +487,7 @@
 		},
 		{
 			"name": "Jedi Knight, Temple Guard",
-			"source": "sw5e-lt",
+			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
 				"M"
@@ -544,34 +544,34 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell saber reflect|sw5ephb}",
-								"{@spell turbulance|sw5ephb}",
-								"{@spell force push/pull|sw5ephb}",
-								"{@spell force disarm|sw5ephb}",
-								"{@spell sonic charge|sw5ephb}",
-								"{@spell burst|sw5ephb}"
+								"{@spell saber reflect|sw5e-phb}",
+								"{@spell turbulance|sw5e-phb}",
+								"{@spell force push/pull|sw5e-phb}",
+								"{@spell force disarm|sw5e-phb}",
+								"{@spell sonic charge|sw5e-phb}",
+								"{@spell burst|sw5e-phb}"
 							]
 						},
 						"1": {
 							"spells": [
-								"{@spell slow descent|sw5ephb}",
-								"{@spell battle precognition|sw5ephb}",
-								"{@spell phase strike|sw5ephb}",
-								"{@spell force throw|sw5ephb}"
+								"{@spell slow descent|sw5e-phb}",
+								"{@spell battle precognition|sw5e-phb}",
+								"{@spell phase strike|sw5e-phb}",
+								"{@spell force throw|sw5e-phb}"
 							]
 						},
 						"2": {
 							"spells": [
-								"{@spell stun|sw5ephb}",
-								"{@spell phase walk|sw5ephb}"
+								"{@spell stun|sw5e-phb}",
+								"{@spell phase walk|sw5e-phb}"
 							]
 						},
 						"3": {
 							"spells": [
-								"{@spell telekinetic storm|sw5ephb}",
-								"{@spell knight speed|sw5ephb}",
-								"{@spell sever force|sw5ephb}",
-								"{@spell force repulse|sw5ephb}"
+								"{@spell telekinetic storm|sw5e-phb}",
+								"{@spell knight speed|sw5e-phb}",
+								"{@spell sever force|sw5e-phb}",
+								"{@spell force repulse|sw5e-phb}"
 							]
 						}
 					},
@@ -621,7 +621,7 @@
 		},
 		{
 			"name": "Jedi Padawan",
-			"source": "sw5e-lt",
+			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
 				"M"
@@ -694,7 +694,7 @@
 		},
 		{
 			"name": "Dark Novice",
-			"source": "sw5e-lt",
+			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
 				"M"
@@ -752,22 +752,22 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell denounce|sw5ephb}",
-								"{@spell lightning charge|sw5ephb}",
-								"{@spell saber reflect|sw5ephb}",
-								"{@spell saber ward|sw5ephb}"
+								"{@spell denounce|sw5e-phb}",
+								"{@spell lightning charge|sw5e-phb}",
+								"{@spell saber reflect|sw5e-phb}",
+								"{@spell saber ward|sw5e-phb}"
 							]
 						},
 						"1": {
 							"spells": [
-								"{@spell curse|sw5ephb}",
-								"{@spell sap vitality|sw5ephb}"
+								"{@spell curse|sw5e-phb}",
+								"{@spell sap vitality|sw5e-phb}"
 							]
 						},
 						"2": {
 							"spells": [
-								"{@spell drain vitality|sw5ephb}",
-								"{@spell force camouflage|sw5ephb}"
+								"{@spell drain vitality|sw5e-phb}",
+								"{@spell force camouflage|sw5e-phb}"
 							]
 						}
 					},
@@ -808,7 +808,7 @@
 		},
 		{
 			"name": "Dark Aspirant",
-			"source": "sw5e-lt",
+			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
 				"M"
@@ -870,33 +870,33 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell denounce|sw5ephb}",
-								"{@spell lightning charge|sw5ephb}",
-								"{@spell saber reflect|sw5ephb}",
-								"{@spell saber ward|sw5ephb}",
-								"{@spell shock|sw5ephb}"
+								"{@spell denounce|sw5e-phb}",
+								"{@spell lightning charge|sw5e-phb}",
+								"{@spell saber reflect|sw5e-phb}",
+								"{@spell saber ward|sw5e-phb}",
+								"{@spell shock|sw5e-phb}"
 							]
 						},
 						"1": {
 							"spells": [
-								"{@spell battle meditation|sw5ephb}",
-								"{@spell curse|sw5ephb}",
-								"{@spell sap vitality|sw5ephb}",
-								"{@spell hex|sw5ephb}",
-								"{@spell improved feedback|sw5ephb}"
+								"{@spell battle meditation|sw5e-phb}",
+								"{@spell curse|sw5e-phb}",
+								"{@spell sap vitality|sw5e-phb}",
+								"{@spell hex|sw5e-phb}",
+								"{@spell improved feedback|sw5e-phb}"
 							]
 						},
 						"2": {
 							"spells": [
-								"{@spell drain vitality|sw5ephb}",
-								"{@spell force camouflage|sw5ephb}"
+								"{@spell drain vitality|sw5e-phb}",
+								"{@spell force camouflage|sw5e-phb}"
 							]
 						},
 						"3": {
 							"spells": [
-								"{@spell force lightning|sw5ephb}",
-								"{@spell choke|sw5ephb}",
-								"{@spell horror|sw5ephb}"
+								"{@spell force lightning|sw5e-phb}",
+								"{@spell choke|sw5e-phb}",
+								"{@spell horror|sw5e-phb}"
 							]
 						}
 					},
@@ -937,7 +937,7 @@
 		},
 		{
 			"name": "Sith Sorcerer",
-			"source": "sw5e-lt",
+			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
 				"M"
@@ -994,52 +994,52 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell saber reflect|sw5ephb}",
-								"{@spell shock|sw5ephb}",
-								"{@spell slow|sw5ephb}",
-								"{@spell force push/pull|sw5ephb}"
+								"{@spell saber reflect|sw5e-phb}",
+								"{@spell shock|sw5e-phb}",
+								"{@spell slow|sw5e-phb}",
+								"{@spell force push/pull|sw5e-phb}"
 							]
 						},
 						"1": {
 							"spells": [
-								"{@spell sap vitality|sw5ephb}",
-								"{@spell battle precognition|sw5ephb}"
+								"{@spell sap vitality|sw5e-phb}",
+								"{@spell battle precognition|sw5e-phb}"
 							]
 						},
 						"2": {
 							"spells": [
-								"{@spell drain vitalit|sw5ephb}",
-								"{@spell hallucination|sw5ephb}",
-								"{@spell affliction|sw5ephb}",
-								"{@spell phase walk|sw5ephb}"
+								"{@spell drain vitalit|sw5e-phb}",
+								"{@spell hallucination|sw5e-phb}",
+								"{@spell affliction|sw5e-phb}",
+								"{@spell phase walk|sw5e-phb}"
 							]
 						},
 						"3": {
 							"spells": [
-								"{@spell dark aura|sw5ephb}",
-								"{@spell plague|sw5ephb}",
-								"{@spell force lightning|sw5ephb}"
+								"{@spell dark aura|sw5e-phb}",
+								"{@spell plague|sw5e-phb}",
+								"{@spell force lightning|sw5e-phb}"
 							]
 						},
 						"4": {
 							"spells": [
-								"{@spell shocking shield|sw5ephb}",
-								"{@spell dominate beast|sw5ephb}"
+								"{@spell shocking shield|sw5e-phb}",
+								"{@spell dominate beast|sw5e-phb}"
 							]
 						},
 						"5": {
 							"spells": [
-								"{@spell siphon life|sw5ephb}",
-								"{@spell insanity|sw5ephb}",
-								"{@spell dominate mind|sw5ephb}",
-								"{@spell improved force scream|sw5ephb}",
-								"{@spell improved phase walk|sw5ephb}"
+								"{@spell siphon life|sw5e-phb}",
+								"{@spell insanity|sw5e-phb}",
+								"{@spell dominate mind|sw5e-phb}",
+								"{@spell improved force scream|sw5e-phb}",
+								"{@spell improved phase walk|sw5e-phb}"
 							]
 						},
 						"6": {
 							"spells": [
-								"{@spell force chain lightning|sw5ephb}",
-								"{@spell wrack|sw5ephb}"
+								"{@spell force chain lightning|sw5e-phb}",
+								"{@spell wrack|sw5e-phb}"
 							]
 						}
 					},
@@ -1092,7 +1092,7 @@
 		},
 		{
 			"name": "Master Sifo-Dyas",
-			"source": "sw5e-lt",
+			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
 				"M"
@@ -1148,57 +1148,57 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell force push/pull|sw5ephb}",
-								"{@spell saber reflect|sw5ephb}",
-								"{@spell shock|sw5ephb}",
-								"{@spell slow|sw5ephb}"
+								"{@spell force push/pull|sw5e-phb}",
+								"{@spell saber reflect|sw5e-phb}",
+								"{@spell shock|sw5e-phb}",
+								"{@spell slow|sw5e-phb}"
 							]
 						},
 						"1": {
 							"spells": [
-								"{@spell battle precognition|sw5ephb}",
-								"{@spell sap vitality|sw5ephb}"
+								"{@spell battle precognition|sw5e-phb}",
+								"{@spell sap vitality|sw5e-phb}"
 							],
 							"slots": 4
 						},
 						"2": {
 							"spells": [
-								"{@spell affliction|sw5ephb}",
-								"{@spell drain vitality|sw5ephb}",
-								"{@spell hallucination|sw5ephb}",
-								"{@spell phasewalk|sw5ephb}"
+								"{@spell affliction|sw5e-phb}",
+								"{@spell drain vitality|sw5e-phb}",
+								"{@spell hallucination|sw5e-phb}",
+								"{@spell phasewalk|sw5e-phb}"
 							],
 							"slots": 3
 						},
 						"3": {
 							"spells": [
-								"{@spell choke|sw5ephb}",
-								"{@spell dark aura|sw5ephb}",
-								"{@spell force lightning|sw5ephb}"
+								"{@spell choke|sw5e-phb}",
+								"{@spell dark aura|sw5e-phb}",
+								"{@spell force lightning|sw5e-phb}"
 							],
 							"slots": 3
 						},
 						"4": {
 							"spells": [
-								"{@spell dominate beast|sw5ephb}",
-								"{@spell shocking shield|sw5ephb}"
+								"{@spell dominate beast|sw5e-phb}",
+								"{@spell shocking shield|sw5e-phb}"
 							],
 							"slots": 3
 						},
 						"5": {
 							"spells": [
-								"{@spell dominate mind|sw5ephb}",
-								"{@spell improved force scream|sw5ephb}",
-								"{@spell improved phasewalk|sw5ephb}",
-								"{@spell insanity|sw5ephb}",
-								"{@spell siphon life|sw5ephb}"
+								"{@spell dominate mind|sw5e-phb}",
+								"{@spell improved force scream|sw5e-phb}",
+								"{@spell improved phasewalk|sw5e-phb}",
+								"{@spell insanity|sw5e-phb}",
+								"{@spell siphon life|sw5e-phb}"
 							],
 							"slots": 2
 						},
 						"6": {
 							"spells": [
-								"{@spell force chain lightning|sw5ephb}",
-								"{@spell wrack|sw5ephb}"
+								"{@spell force chain lightning|sw5e-phb}",
+								"{@spell wrack|sw5e-phb}"
 							],
 							"slots": 1
 						}
@@ -1260,13 +1260,13 @@
 				{
 					"name": "Force Push",
 					"entries": [
-						"Sifo-Dyas casts the {@spell force push/pull|sw5ephb| force push} power."
+						"Sifo-Dyas casts the {@spell force push/pull|sw5e-phb| force push} power."
 					]
 				},
 				{
 					"name": "Force Choke",
 					"entries": [
-						"Sifo-Dyas casts the {@spell choke|sw5ephb|force choke} power."
+						"Sifo-Dyas casts the {@spell choke|sw5e-phb|force choke} power."
 					]
 				},
 				{
@@ -1306,7 +1306,7 @@
 		},
 		{
 			"name": "Seryan Brim",
-			"source": "sw5e-lt",
+			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
 				"M"
@@ -1365,35 +1365,35 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell denounce|sw5ephb}",
-								"{@spell lightning charge|sw5ephb}",
-								"{@spell saber reflect|sw5ephb}",
-								"{@spell saber ward|sw5ephb}",
-								"{@spell shock|sw5ephb}"
+								"{@spell denounce|sw5e-phb}",
+								"{@spell lightning charge|sw5e-phb}",
+								"{@spell saber reflect|sw5e-phb}",
+								"{@spell saber ward|sw5e-phb}",
+								"{@spell shock|sw5e-phb}"
 							]
 						},
 						"1": {
 							"spells": [
-								"{@spell battle meditation|sw5ephb}",
-								"{@spell curse|sw5ephb}",
-								"{@spell hex|sw5ephb}",
-								"{@spell improved feedback|sw5ephb}",
-								"{@spell sap vitality|sw5ephb}"
+								"{@spell battle meditation|sw5e-phb}",
+								"{@spell curse|sw5e-phb}",
+								"{@spell hex|sw5e-phb}",
+								"{@spell improved feedback|sw5e-phb}",
+								"{@spell sap vitality|sw5e-phb}"
 							],
 							"slots": 0
 						},
 						"2": {
 							"spells": [
-								"{@spell drain vitality|sw5ephb}",
-								"{@spell force camouflage|sw5ephb}"
+								"{@spell drain vitality|sw5e-phb}",
+								"{@spell force camouflage|sw5e-phb}"
 							],
 							"slots": 0
 						},
 						"3": {
 							"spells": [
-								"{@spell choke|sw5ephb}",
-								"{@spell force lightning|sw5ephb}",
-								"{@spell horror|sw5ephb}"
+								"{@spell choke|sw5e-phb}",
+								"{@spell force lightning|sw5e-phb}",
+								"{@spell horror|sw5e-phb}"
 							],
 							"slots": 0
 						}
@@ -1447,7 +1447,7 @@
 		},
 		{
 			"name": "Jedi Temple Guard",
-			"source": "sw5e-lt",
+			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
 				"M"
@@ -1502,23 +1502,23 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell denounce|sw5ephb}",
-								"{@spell lightning charge|sw5ephb}",
-								"{@spell saber reflect|sw5ephb}",
-								"{@spell saber ward|sw5ephb}"
+								"{@spell denounce|sw5e-phb}",
+								"{@spell lightning charge|sw5e-phb}",
+								"{@spell saber reflect|sw5e-phb}",
+								"{@spell saber ward|sw5e-phb}"
 							]
 						},
 						"1": {
 							"spells": [
-								"{@spell curse|sw5ephb}",
-								"{@spell sap vitality|sw5ephb}"
+								"{@spell curse|sw5e-phb}",
+								"{@spell sap vitality|sw5e-phb}"
 							],
 							"slots": 0
 						},
 						"2": {
 							"spells": [
-								"{@spell drain vitality|sw5ephb}",
-								"{@spell force camouflage|sw5ephb}"
+								"{@spell drain vitality|sw5e-phb}",
+								"{@spell force camouflage|sw5e-phb}"
 							],
 							"slots": 0
 						}

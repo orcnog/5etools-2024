@@ -10,7 +10,8 @@
 					"orcnog"
 				],
 				"version": "1.0",
-				"targetSchema": "1.2"
+				"targetSchema": "1.2",
+				"url": "https://5e.orcnog.com/homebrew/dnd/book/book-odmg.json"
 			}
 		],
 		"dateAdded": 1729028448,
@@ -211,7 +212,7 @@
 									"entries": [
 										"Encounter blocks in adventure JSON are the {@i author's defaults}. You can optionally link a block to a {@b pinned Bestiary list} (saved in your browser) so you can rebalance, swap creatures, scale CRs, or rename combatants without editing the adventure file. When linked, the pinned list is the live roster for that encounter block.",
 										"Each encounter block shows a small toolbar beneath the header. Hover the buttons for tooltips; the status line shows whether a list is linked and its name.",
-                                        "Unlinked encounters show the following options:",
+										"Unlinked encounters show the following options:",
 										{
 											"type": "list",
 											"items": [
@@ -225,9 +226,9 @@
 													"name": "Link (chain icon)",
 													"entry": "Opens the Bestiary pinned-list loader so you can pick an existing saved list to link. You must already have at least one saved pinned list ({@i build one in the {@5etools Bestiary|bestiary.html#encounterbuilder:true} Encounter Builder first})."
 												}
-                                            ]
-                                        },
-                                        "Linked encounters show the following options:",
+											]
+										},
+										"Linked encounters show the following options:",
 										{
 											"type": "list",
 											"items": [

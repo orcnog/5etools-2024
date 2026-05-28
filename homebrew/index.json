@@ -6,19 +6,24 @@
 		"For example, add \"My Homebrew.json\" to the \"toImport\" array below, and have a valid JSON homebrew file in this (\"homebrew/\") directory."
 	],
 	"toImport": [
-		"dnd/adventure/adventure_ercc.json",
-		"dnd/adventure/adventure_gaach.json",
-		"dnd/adventure/adventure_thoe.json",
-		"dnd/adventure/adventure_skt2.json",
-		"dnd/adventure/adventure_twc.json",
-		"dnd/book/book_odmg.json",
-		"sw5e/sw5ephb_sw5esnv_sw5e_sotg_sw5ewh_sw5evr_sw5eec.json",
-		"sw5e/adventure/DoD/ep1_traitors_gambit/adventure-sw5e-dodttg.json",
-		"sw5e/adventure/DoD/ep2_wretched_hive/adventure-sw5e-dodawh.json",
-		"sw5e/adventure/Halcyon/adventure-sw5e-hr.json",
-		"sw5e/adventure/ImperialDecryptor/adventure-sw5e-id.json",
-		"sw5e/adventure/LostTemple/adventure-sw5e-lt.json",
-		"sw5e/adventure/Rugosa/adventure-sw5e-rbr.json",
-		"sw5e/adventure/BlackCipher/adventure-sw5e-bc.json"
+		"dnd/adventure/adventure-ercc.json",
+		"dnd/adventure/adventure-gaach.json",
+		"dnd/adventure/adventure-thoe.json",
+		"dnd/adventure/adventure-skt2.json",
+		"dnd/adventure/adventure-twc.json",
+		"dnd/book/book-odmg.json",
+		"sw5e/book/book-sw5e-phb.json",
+		"sw5e/book/book-sw5e-snv.json",
+		"sw5e/book/book-sw5e-sotg.json",
+		"sw5e/book/book-sw5e-wh.json",
+		"sw5e/book/book-sw5e-vr.json",
+		"sw5e/book/book-sw5e-ec.json",
+		"sw5e/adventure/adventure-sw5e-dodttg.json",
+		"sw5e/adventure/adventure-sw5e-dodawh.json",
+		"sw5e/adventure/adventure-sw5e-hr.json",
+		"sw5e/adventure/adventure-sw5e-id.json",
+		"sw5e/adventure/adventure-sw5e-ljt.json",
+		"sw5e/adventure/adventure-sw5e-rbr.json",
+		"sw5e/adventure/adventure-sw5e-bc.json"
 	]
 }

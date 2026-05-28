@@ -6,7 +6,7 @@
 				"json": "TWC",
 				"abbreviation": "TWC",
 				"full": "Thw Witchlight Carnival",
-				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/WBtW/TWC.json",
+				"url": "https://5e.orcnog.com/homebrew/dnd/adventure/adventure-twc.json",
 				"convertedBy": [
 					"orcnog"
 				],
@@ -516,7 +516,7 @@
 				],
 				[
 					"87",
-					"Paintbrush made entirely of ceramic\u2014even the bristles"
+					"Paintbrush made entirely of ceramic—even the bristles"
 				],
 				[
 					"88",
@@ -2347,7 +2347,7 @@
 													"width": 850,
 													"height": 1770
 												},
-												"The players may want to know more about the portal and how to find it\u2014who should they ask about its location? What does it look like? Is it dangerous to pass through?  Here's what Madryck knows and is willing to share:",
+												"The players may want to know more about the portal and how to find it—who should they ask about its location? What does it look like? Is it dangerous to pass through?  Here's what Madryck knows and is willing to share:",
 												{
 													"type": "list",
 													"items": [
@@ -2498,7 +2498,7 @@
 									"id": "068",
 									"entries": [
 										"Witch, who used to go by the name Naeryx Krumple, spent his youth as a homeless orphan, eking out a meager and dreary existence on the fog-shrouded streets of Gloomwrought, a city in the Shadowfell. He earned a few coppers selling broadsheets as a young boy, then later swept floors until an old clock tower keeper took him on as a helper. The tower's clock was in such poor condition that it would break down often. Naeryx helped with the repairs and found that the work gave him a sliver of joy. When the old keeper died years later, Naeryx replaced him.",
-										"The wealthy family that owned the clock tower didn't pay Naeryx a lot of money for his work, but they occasionally had him over for dinner. He owned one fine suit that he wore on such occasions, and though he didn't care for the family's matriarch or patriarch, he enjoyed the company of their eldest son, Urmius Umbrage\u2014a brooding shadar-kai ne'er-do-well with a cruel sense of humor. Naeryx and Urmius were close in age and got along well in all respects. Years later, without informing the rest of his family, Urmius bought a run-down carnival and persuaded Naeryx to help him operate it. Naeryx and Urmius\u2014now calling themselves {@creature Mister Witch|TWC} and {@creature Mister Light|TWC}\u2014have been partners and collaborators ever since.",
+										"The wealthy family that owned the clock tower didn't pay Naeryx a lot of money for his work, but they occasionally had him over for dinner. He owned one fine suit that he wore on such occasions, and though he didn't care for the family's matriarch or patriarch, he enjoyed the company of their eldest son, Urmius Umbrage—a brooding shadar-kai ne'er-do-well with a cruel sense of humor. Naeryx and Urmius were close in age and got along well in all respects. Years later, without informing the rest of his family, Urmius bought a run-down carnival and persuaded Naeryx to help him operate it. Naeryx and Urmius—now calling themselves {@creature Mister Witch|TWC} and {@creature Mister Light|TWC}—have been partners and collaborators ever since.",
 										{
 											"type": "entries",
 											"name": "Mister Witch's Description",
@@ -2574,7 +2574,7 @@
 									"type": "insetReadaloud",
 									"id": "076",
 									"entries": [
-										"The first stars of night twinkle above the apricot sunset. Giant dragonflies whir overhead, trailing streamers, and a low mist curls over the ground. Through a floral archway, you glimpse wondrous and vibrant creatures\u2014elf stilt walkers, dancing faeries, and painted performers. Everywhere there is laughter, pixie dust, bubbles, and the wistful tune of a whistling calliope."
+										"The first stars of night twinkle above the apricot sunset. Giant dragonflies whir overhead, trailing streamers, and a low mist curls over the ground. Through a floral archway, you glimpse wondrous and vibrant creatures—elf stilt walkers, dancing faeries, and painted performers. Everywhere there is laughter, pixie dust, bubbles, and the wistful tune of a whistling calliope."
 									]
 								},
 								"The Witchlight Carnival travels as a convoy of wagons, each one pulled by horses or foxes depending on its size. When they need to soar between worlds, the wagons and their draft animals sprout butterfly wings and take to the starry sky. On land, the carnival's attractions unfold magically from the wagons, controlled by {@creature Mister Witch|TWC}'s {@item Witchlight watch|TWC}.",
@@ -2758,7 +2758,7 @@
 													],
 													"rows": [
 														[
-															"1\u20133",
+															"1–3",
 															"The creature gains the following personality trait until dawn: \"I am easily amused.\" Any conflicting character trait is suppressed in the meantime."
 														],
 														[
@@ -2766,7 +2766,7 @@
 															"The creature gains a die, a {@dice d4}, which it can add to one ability check it makes before the next dawn."
 														],
 														[
-															"5\u20137",
+															"5–7",
 															"The seed turns into a gold piece."
 														],
 														[
@@ -3027,7 +3027,7 @@
 														"He gestures to a stocky elf lounging on a bunk. {@creature Mister Witch|TWC} nods to you and doffs his top hat."
 													]
 												},
-												"{@creature Mister Light|TWC} gestures toward his scepter\u2014the {@item Witchlight vane|TWC}\u2014and explains that it picks up every nuance of emotion in the carnival. {@b If the carnival's mood is good}, Light expresses his gratitude for the cheer that the characters have brought to the carnival so far. {@b If the carnival's mood is bad}, he expresses his regret that the characters aren't having a delightful time and notes that, in turn, they're spoiling everyone's evening.",
+												"{@creature Mister Light|TWC} gestures toward his scepter—the {@item Witchlight vane|TWC}—and explains that it picks up every nuance of emotion in the carnival. {@b If the carnival's mood is good}, Light expresses his gratitude for the cheer that the characters have brought to the carnival so far. {@b If the carnival's mood is bad}, he expresses his regret that the characters aren't having a delightful time and notes that, in turn, they're spoiling everyone's evening.",
 												"Witch and Light are eager to learn the characters' reasons for visiting the carnival. Witch and Light will also share the following information if asked:",
 												{
 													"type": "list",
@@ -3554,8 +3554,8 @@
 											"type": "list",
 											"items": [
 												"\"{@creature Mister Witch|TWC} and {@creature Mister Light|TWC} aren't the carnival's original owners, y'know. They're not even from the Feywild! But it matters not an inch! We're all one big, happy family here!\"",
-												"\"The carnival can't run without {@creature Mister Witch|TWC}'s pocket watch\u2014I hope he never loses it!\"",
-												"\"There's nothing {@creature Mister Light|TWC} likes more than a sea of smiling faces\u2014if the carnival's happy, he's happy!\""
+												"\"The carnival can't run without {@creature Mister Witch|TWC}'s pocket watch—I hope he never loses it!\"",
+												"\"There's nothing {@creature Mister Light|TWC} likes more than a sea of smiling faces—if the carnival's happy, he's happy!\""
 											]
 										}
 									]
@@ -3664,7 +3664,7 @@
 									"type": "insetReadaloud",
 									"id": "0a7",
 									"entries": [
-										"A wooden mannequin of a grinning, raven-haired young woman in witch's attire and a green flowing cape hovers inside a glass cabinet. At the top of the cabinet, a sign reads \"Tasha the Wizard\u2014Known for Her Hideous Laughter.\"",
+										"A wooden mannequin of a grinning, raven-haired young woman in witch's attire and a green flowing cape hovers inside a glass cabinet. At the top of the cabinet, a sign reads \"Tasha the Wizard—Known for Her Hideous Laughter.\"",
 										"A halfling couple holds hands as they approach the glass cabinet. One of the halflings is wearing butterfly face paint. As he drops to one knee and pulls a small box from his pocket, his sweetheart bursts into laughter and begins rolling on the ground. The halfling in face paint begins sobbing and darts into the nearby tent without getting his ticket punched."
 									]
 								},
@@ -4443,7 +4443,7 @@
 													],
 													"rows": [
 														[
-															"1\u20133",
+															"1–3",
 															"No surprise."
 														],
 														[
@@ -4455,7 +4455,7 @@
 															"A spectator throws a head of lettuce at one random snail. The snail stops to eat the lettuce and doesn't move at all this round."
 														],
 														[
-															"6\u20137",
+															"6–7",
 															"One random snail is bolstered by the cheering crowd and moves an extra 20 feet this round."
 														],
 														[

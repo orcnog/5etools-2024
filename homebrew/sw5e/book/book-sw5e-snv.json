@@ -1,0 +1,331 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-snv",
+				"abbreviation": "SnV",
+				"full": "SW5e: Scum and Villainy",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-snv.json",
+				"color": "#11aa11",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		],
+		"dateAdded": 1657936771,
+		"dateLastModified": 1657936771
+	},
+	"monster": [
+		{
+			"name": "3PO Series Protocol Droid",
+			"source": "sw5e-snv",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "droid",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 10,
+					"from": [
+						"armor plating"
+					]
+				}
+			],
+			"hp": {
+				"average": 18,
+				"formula": "4d8"
+			},
+			"speed": {
+				"walk": 25
+			},
+			"str": 10,
+			"dex": 8,
+			"con": 11,
+			"int": 14,
+			"wis": 12,
+			"cha": 11,
+			"skill": {
+				"lore": "+4",
+				"persuasion": "+2"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"resist": [
+				"necrotic",
+				"poison",
+				"psychic"
+			],
+			"vulnerable": [
+				"ion",
+				"lightning"
+			],
+			"conditionImmune": [
+				"diseased",
+				"poisoned"
+			],
+			"languages": [
+				"all registered languages"
+			],
+			"cr": "0",
+			"action": [
+				{
+					"name": "Strike",
+					"entries": [
+						"{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}1 kinetic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"languageTags": [
+				"XX"
+			],
+			"miscTags": [
+				"MW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Trooper",
+			"source": "sw5e-snv",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"light battle armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 13,
+				"formula": "2d8 + 4"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 15,
+			"int": 9,
+			"wis": 11,
+			"cha": 10,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 10,
+			"languages": [
+				"Galactic Basic",
+				"one other"
+			],
+			"cr": "1/2",
+			"action": [
+				{
+					"name": "Blaster Rifle",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d8 + 3}) energy damage."
+					]
+				},
+				{
+					"name": "Stock Strike",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"miscTags": [
+				"MW",
+				"RW",
+				"SW5e"
+			]
+		},
+		{
+			"name": "Trooper, Shore",
+			"source": "sw5e-snv",
+			"page": 0,
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 16,
+					"from": [
+						"battle armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 26,
+				"formula": "4d8 + 8"
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 13,
+			"dex": 16,
+			"con": 14,
+			"int": 11,
+			"wis": 11,
+			"cha": 12,
+			"skill": {
+				"athletics": "+3",
+				"perception": "+2",
+				"persuasion": "+3"
+			},
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 11,
+			"languages": [
+				"Galactic Basic",
+				"two others"
+			],
+			"cr": "1",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The trooper makes two blaster rifle or stock strike attacks."
+					]
+				},
+				{
+					"name": "Blaster Rifle",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 60/240 ft., one target. {@h}7 ({@damage 1d6 + 3}) energy damage."
+					]
+				},
+				{
+					"name": "Stock Strike",
+					"entries": [
+						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
+					]
+				},
+				{
+					"name": "Thermal Grenade (1/Day)",
+					"entries": [
+						"The captain throws a grenade, choosing a point within 40 feet Each creature within 10 feet must make a {@dc 14} Dexterity saving throw. A creature takes {@dice 2d6} fire and {@damage 2d6} kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition prone}."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"miscTags": [
+				"AOE",
+				"MW",
+				"RW",
+				"SW5e"
+			],
+			"conditionInflict": [
+				"prone"
+			]
+		},
+		{
+			"name": "Autonomous Servant",
+			"source": "sw5e-snv",
+			"page": 0,
+			"size": [
+				"T"
+			],
+			"type": "construct",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 10,
+				"formula": "4d4"
+			},
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"str": 4,
+			"dex": 16,
+			"con": 10,
+			"int": 2,
+			"wis": 10,
+			"cha": 1,
+			"senses": [
+				"blindsight 60 feet (blind beyond this radius)"
+			],
+			"passive": 10,
+			"resist": [
+				"necrotic",
+				"poison",
+				"psychic"
+			],
+			"vulnerable": [
+				"ion"
+			],
+			"conditionImmune": [
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"poisoned"
+			],
+			"languages": [
+				""
+			],
+			"trait": [
+				{
+					"name": "Circuitry",
+					"entries": [
+						"The construct has disadvantage on saving throws against effects that would deal ion or lightning damage."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Slam",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 feet, one target. Hit 5 ({@damage 1d4 + 3}) kinetic damage."
+					]
+				}
+			],
+			"senseTags": [
+				"B"
+			],
+			"damageTags": [
+				"K"
+			],
+			"miscTags": [
+				"MW",
+				"SW5e"
+			]
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-vr",
+				"abbreviation": "VR",
+				"full": "SW5e: Variant Rules",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-vr.json",
+				"color": "#8811cc",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		],
+		"dateAdded": 1657936771,
+		"dateLastModified": 1657936771
+	}
+}

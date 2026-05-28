@@ -4,9 +4,9 @@
 		"sources": [
 			{
 				"json": "sw5e-id",
-				"abbreviation": "sw5e-id",
+				"abbreviation": "ID",
 				"full": "SW5e: The Imperial Decryptor - A SW5e One-Shot",
-				"url": "https://5e.orcnog.com/homebrew/sw5e/adventures/ImperialDecryptor/adventure-sw5e-id.json",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/adventure/adventure-sw5e-id.json",
 				"version": "4",
 				"color": "#4488dd",
 				"authors": [

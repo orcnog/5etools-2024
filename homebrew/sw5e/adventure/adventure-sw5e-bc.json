@@ -4,9 +4,9 @@
 		"sources": [
 			{
 				"json": "sw5e-bc",
-				"abbreviation": "SW5e-BC",
+				"abbreviation": "BC",
 				"full": "SW5e: Black Cipher - A SW5e D&D One-Shot",
-				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/adventures/Black-Cipher/adventure_sw5e-bc.json",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/adventure/adventure-sw5e-bc.json",
 				"convertedBy": [
 					"orcnog"
 				],
@@ -824,7 +824,8 @@
 											"name": "The Finish Line",
 											"entries": [
 												"The chase succeeds when {@b both} scouts are dumped—each requires a cinematic takedown from whichever PC pins that bike—or after an adventurer reaches {@b Distance 0} and \"intercepts\" the enemy. If {@b round 10} concludes with either rider mobile, the chase ends in failure, and the sector is alerted. Shorten or extend the countdown if pacing demands it.",
-												"This encounter is a theater-of-the-mind skill challenge. Give each rider a {@b d8} with the current face showing distance from the scouts: {@b 8} ({@i far}) down to {@b 0} ({@i interception}). Alternatively, you can mark off a section of your battlemat with zones representing the distance from the scouts, and use a marker per player to indicate the distance."											]
+												"This encounter is a theater-of-the-mind skill challenge. Give each rider a {@b d8} with the current face showing distance from the scouts: {@b 8} ({@i far}) down to {@b 0} ({@i interception}). Alternatively, you can mark off a section of your battlemat with zones representing the distance from the scouts, and use a marker per player to indicate the distance."
+											]
 										},
 										"{@i After explaining the chase rules, but before starting the chase, load the speeder video slide.}",
 										"{@cue [Load Image #7: Speeder Chase]|media}",
@@ -1041,55 +1042,127 @@
 												{
 													"area": "mainframe_entrance",
 													"points": [
-														[425, 1942],
-														[600, 1942],
-														[600, 1966],
-														[425, 1966]
+														[
+															425,
+															1942
+														],
+														[
+															600,
+															1942
+														],
+														[
+															600,
+															1966
+														],
+														[
+															425,
+															1966
+														]
 													]
 												},
 												{
 													"area": "mainframe_corridor_fleeing_trooper",
 													"points": [
-														[696, 1545],
-														[755, 1545],
-														[755, 1575],
-														[696, 1575]
+														[
+															696,
+															1545
+														],
+														[
+															755,
+															1545
+														],
+														[
+															755,
+															1575
+														],
+														[
+															696,
+															1575
+														]
 													]
 												},
 												{
 													"area": "mainframe_corridor_ambush",
 													"points": [
-														[850, 1585],
-														[1035, 1585],
-														[1035, 1770],
-														[850, 1770]
+														[
+															850,
+															1585
+														],
+														[
+															1035,
+															1585
+														],
+														[
+															1035,
+															1770
+														],
+														[
+															850,
+															1770
+														]
 													]
 												},
 												{
 													"area": "mainframe_hidden_safe",
 													"points": [
-														[121, 924],
-														[121, 984],
-														[182, 984],
-														[182, 924]
+														[
+															121,
+															924
+														],
+														[
+															121,
+															984
+														],
+														[
+															182,
+															984
+														],
+														[
+															182,
+															924
+														]
 													]
 												},
 												{
 													"area": "mainframe_weapons_cache",
 													"points": [
-														[845, 1215],
-														[1025, 1215],
-														[1025, 1275],
-														[845, 1275]
+														[
+															845,
+															1215
+														],
+														[
+															1025,
+															1215
+														],
+														[
+															1025,
+															1275
+														],
+														[
+															845,
+															1275
+														]
 													]
 												},
 												{
 													"area": "nexus_chamber",
 													"points": [
-														[358, 75],
-														[950, 75],
-														[950, 920],
-														[358, 920]
+														[
+															358,
+															75
+														],
+														[
+															950,
+															75
+														],
+														[
+															950,
+															920
+														],
+														[
+															358,
+															920
+														]
 													]
 												}
 											]
@@ -1193,7 +1266,7 @@
 											"items": [
 												"Five {@item Kyber Resonance Shard|sw5e-bc|kyber resonance shards} (turn any weapon into a +1)",
 												"Eight E-11 Blaster Rifles (statistically equivalent to a shortbow in range and damage)",
-												"{@dice 1d6} {@item Grenade, Ion|sw5ephb|Ion Grenades} (30 ft range, 10 ft. radius, DC 16 DEX save, {@dice 2d6} ion damage / half on a save)"
+												"{@dice 1d6} {@item Grenade, Ion|sw5e-phb|Ion Grenades} (30 ft range, 10 ft. radius, DC 16 DEX save, {@dice 2d6} ion damage / half on a save)"
 											]
 										}
 									]
@@ -1288,245 +1361,245 @@
 									"type": "entries",
 									"name": "Phase 1: The Siege (Rounds 1-4)",
 									"id": "phase1_siege",
-							"entries": [
-								"During this phase, Inquisitor Tremayne is {@b Static Phased}. He is completely out of sync with reality and cannot be targeted. Due to his legendary Force-attunement and cold logic, he is {@b immune to psychic damage, illusions, and all mind-altering effects}.",
-								"The players must defend Caspar from the catwalk troopers. While Caspar has cover from the racks, he is vulnerable to specific hazards.",
-								{
 									"entries": [
+										"During this phase, Inquisitor Tremayne is {@b Static Phased}. He is completely out of sync with reality and cannot be targeted. Due to his legendary Force-attunement and cold logic, he is {@b immune to psychic damage, illusions, and all mind-altering effects}.",
+										"The players must defend Caspar from the catwalk troopers. While Caspar has cover from the racks, he is vulnerable to specific hazards.",
 										{
-											"type": "list",
-											"name": "The Ambush Mechanics",
-											"items": [
-												"Troopers fire from the catwalks, which provide them {@b Three-Quarters Cover}.",
-												"1/3 of the Troopers have {@b Blue Shields} (Resistance to all but Blue/Kinetic damage).",
-												"1/3 of the Troopers have {@b Red Shields} (Resistance to all but Red/Kinetic damage).",
-												"1/3 of the Troopers can use a reaction to {@b Phase Shift} for 1 round when targeted.",
-												"{@b Starting in Round 2}, two {@creature Droideka|sw5e-rbr|Droidekas} roll in from the back of the room to join the fight. They activate their shields: one red, one blue."
+											"entries": [
+												{
+													"type": "list",
+													"name": "The Ambush Mechanics",
+													"items": [
+														"Troopers fire from the catwalks, which provide them {@b Three-Quarters Cover}.",
+														"1/3 of the Troopers have {@b Blue Shields} (Resistance to all but Blue/Kinetic damage).",
+														"1/3 of the Troopers have {@b Red Shields} (Resistance to all but Red/Kinetic damage).",
+														"1/3 of the Troopers can use a reaction to {@b Phase Shift} for 1 round when targeted.",
+														"{@b Starting in Round 2}, two {@creature Droideka|sw5e-rbr|Droidekas} roll in from the back of the room to join the fight. They activate their shields: one red, one blue."
+													]
+												}
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Threats to Caspar",
+											"entries": [
+												"At the start of the Troopers' turn, roll 1d6 on the {@b Nexus Hazard Table} to determine the threat to the slicer.",
+												{
+													"type": "table",
+													"caption": "Nexus Hazard Table",
+													"colLabels": [
+														"d6",
+														"Hazard"
+													],
+													"colStyles": [
+														"col-1",
+														"col-11"
+													],
+													"rows": [
+														[
+															"1-2",
+															"{@b Blaster Graze:} Blasts ricochet off the racks. Caspar takes 1 HP damage. A PC can use a reaction to physically shield him, taking the hit instead."
+														],
+														[
+															"3-4",
+															"{@b Polarity Grenade:} A trooper lobs a Red or Blue grenade into the alcove. A PC must use an action to throw it back (DC 12 Athletics). If failed, Caspar takes 2d6 damage of that color."
+														],
+														[
+															"5-6",
+															"{@b Rappel Ambush:} Two troopers drop down on cables onto the ground level, attempting to disrupt his work with vibro-bayonets."
+														]
+													]
+												}
+											]
+										},
+										{
+											"type": "encounter",
+											"name": "Nexus Chamber Ambush Encounter",
+											"id": "nexus_chamber_ambush_encounter",
+											"partyLevel": 5,
+											"varyBy": "Party Size",
+											"variations": [
+												{
+													"variantName": "3",
+													"combatants": [
+														{
+															"creature": "{@creature red stormtrooper|sw5e-bc|Red Trooper}",
+															"quantity": 3
+														},
+														{
+															"creature": "{@creature blue stormtrooper|sw5e-bc|Blue Trooper}",
+															"quantity": 3
+														},
+														{
+															"creature": "{@creature Phase-Shift Trooper|sw5e-bc|Phase Trooper}",
+															"quantity": 4
+														},
+														{
+															"creature": "{@creature Droideka|sw5e-rbr|droideka}",
+															"quantity": 2
+														}
+													]
+												},
+												{
+													"variantName": "4",
+													"combatants": [
+														{
+															"creature": "{@creature red stormtrooper|sw5e-bc|Red Trooper}",
+															"quantity": 3
+														},
+														{
+															"creature": "{@creature blue stormtrooper|sw5e-bc|Blue Trooper}",
+															"quantity": 3
+														},
+														{
+															"creature": "{@creature Phase-Shift Trooper|sw5e-bc|Phase Trooper}",
+															"quantity": 4
+														},
+														{
+															"creature": "{@creature Droideka|sw5e-rbr|droideka}",
+															"quantity": 2
+														}
+													]
+												},
+												{
+													"variantName": "5",
+													"combatants": [
+														{
+															"creature": "{@creature red stormtrooper|sw5e-bc|Red Trooper}",
+															"quantity": 3
+														},
+														{
+															"creature": "{@creature blue stormtrooper|sw5e-bc|Blue Trooper}",
+															"quantity": 3
+														},
+														{
+															"creature": "{@creature Phase-Shift Trooper|sw5e-bc|Phase Trooper}",
+															"quantity": 4
+														},
+														{
+															"creature": "{@creature Droideka|sw5e-rbr|droideka}",
+															"quantity": 2
+														}
+													]
+												}
 											]
 										}
 									]
 								},
 								{
 									"type": "entries",
-									"name": "Threats to Caspar",
+									"name": "Phase 2: The Sacrifice (Round 4)",
+									"id": "phase2_sacrifice",
 									"entries": [
-										"At the start of the Troopers' turn, roll 1d6 on the {@b Nexus Hazard Table} to determine the threat to the slicer.",
+										"At the end of Round 4, Tremayne grows bored of the stalemate.",
 										{
-											"type": "table",
-											"caption": "Nexus Hazard Table",
-											"colLabels": [
-												"d6",
-												"Hazard"
+											"type": "insetReadaloud",
+											"entries": [
+												"{@b Caspar:} \"Almost got it....\"",
+												"Then, without warning, a streak of crimson light flashes through the room and a lightsaber impales Caspar through the chest. The slicer's eyes go wide. The blaster fire halts.",
+												"Tremayne sighs. \"How tedious. Even with the odds stacked in their favor, my men are so very incompetent. I prefer a more... direct intervention.\"",
+												"Caspar slumps against the terminal, blood slicking the keys as he looks at you. \"Ready to... deploy...\" he chokes out. \"Just hit... the...\"",
+												"His head falls forward, dead. The terminal screen flickers with a final prompt."
+											]
+										},
+										"To execute the logic-bomb, players must solve the final quote scramble:",
+										"{@cue [Load Image #14: Final Puzzle]|media}",
+										{
+											"type": "image",
+											"slideNum": 15,
+											"href": {
+												"type": "external",
+												"url": "https://d20.orcnog.com/slideshow/black_cipher/akbar_scramble.webp"
+											},
+											"title": "Akbar Quote Scramble",
+											"credit": "orcnog"
+										},
+										"{@i Correct Answer: ITS A TRAP!}"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Phase 3: The Destabilized Core",
+									"id": "phase3_destabilized_core",
+									"entries": [
+										"Once the puzzle is solved, the Black Cipher core begins to melt down.",
+										{
+											"type": "insetReadaloud",
+											"entries": [
+												"The terminal flashes a brilliant green. A high-pitched, harmonic whine begins to build within the blue pillar, and the entire floor begins to shudder. Seeing the facility go critical, any troopers remaining break formation and bolt for the exits.",
+												"Tremayne's form suddenly solidifies as his phase-module burns out with a puff of ozone. He ignites his blade and snaps a heavy {@b Red Shield} into place, his eyes burning with aristocratic hatred.",
+												"{@b Tremayne:} \"You may have destroyed the Cipher... but you've merely ensured your own burial, Jedi. I will take your heads back to Lord Vader as my consolation prize!\"",
+												"Electrical arcs begin to leap from server to server, as Inquisitor Tremayne's lightsaber flies back into his hand, and he drops into a Form II stance. It is just you and the Inquisitor now. \"En garde!\""
+											]
+										},
+										"Now, at the start of each round, a random 10ft area is struck by lightning (DC 13 Dex save or 3d8 Lightning damage).",
+										{
+											"type": "encounter",
+											"name": "Black Cipher Finale Encounter",
+											"id": "black_cipher_finale_encounter",
+											"partyLevel": 5,
+											"varyBy": "Party Size",
+											"variations": [
+												{
+													"variantName": "3",
+													"combatants": [
+														{
+															"creature": "{@creature High Inquisitor Tremayne|sw5e-bc|Tremayne|scaled=6}",
+															"quantity": 1
+														}
+													]
+												},
+												{
+													"variantName": "4",
+													"combatants": [
+														{
+															"creature": "{@creature High Inquisitor Tremayne|sw5e-bc|Tremayne}",
+															"quantity": 1
+														}
+													]
+												},
+												{
+													"variantName": "5",
+													"default": true,
+													"combatants": [
+														{
+															"creature": "{@creature High Inquisitor Tremayne|sw5e-bc|Tremayne|scaled=8}",
+															"quantity": 1
+														}
+													]
+												}
 											],
-											"colStyles": [
-												"col-1",
-												"col-11"
-											],
-											"rows": [
-												[
-													"1-2",
-													"{@b Blaster Graze:} Blasts ricochet off the racks. Caspar takes 1 HP damage. A PC can use a reaction to physically shield him, taking the hit instead."
-												],
-												[
-													"3-4",
-													"{@b Polarity Grenade:} A trooper lobs a Red or Blue grenade into the alcove. A PC must use an action to throw it back (DC 12 Athletics). If failed, Caspar takes 2d6 damage of that color."
-												],
-												[
-													"5-6",
-													"{@b Rappel Ambush:} Two troopers drop down on cables onto the ground level, attempting to disrupt his work with vibro-bayonets."
-												]
+											"notes": [
+												"Things Tremayne might say:",
+												"{@i \"Form V? A bold choice, though your footwork is... amateur.\"}",
+												"{@i \"That lightsaber hilt... the craftsmanship is distinctly Corellian. Such a pity it will be melted down for scrap.\"}"
 											]
 										}
 									]
 								},
+								"Once the players defeat Inquisitor Tremayne, read the following aloud:",
 								{
-									"type": "encounter",
-									"name": "Nexus Chamber Ambush Encounter",
-									"id": "nexus_chamber_ambush_encounter",
-									"partyLevel": 5,
-									"varyBy": "Party Size",
-									"variations": [
+									"type": "entries",
+									"name": "The Killing Blow",
+									"id": "the_killing_blow",
+									"entries": [
 										{
-											"variantName": "3",
-											"combatants": [
-												{
-													"creature": "{@creature red stormtrooper|sw5e-bc|Red Trooper}",
-													"quantity": 3
-												},
-												{
-													"creature": "{@creature blue stormtrooper|sw5e-bc|Blue Trooper}",
-													"quantity": 3
-												},
-												{
-													"creature": "{@creature Phase-Shift Trooper|sw5e-bc|Phase Trooper}",
-													"quantity": 4
-												},
-												{
-													"creature": "{@creature Droideka|sw5e-rbr|droideka}",
-													"quantity": 2
-												}
+											"type": "insetReadaloud",
+											"entries": [
+												"As the final blow lands, Tremayne staggers back, his lightfoil flickering and dying. He looks at the screaming data-core, then back at you with a mask of pure fury. Before he can speak, a massive power-conduit above him explodes, burying the Inquisitor in a rain of white-hot debris.",
+												"The room is deafening now—a cacophony of alarms and screeching metal. The floor is slick with coolant, and fire is beginning to consume the server banks. The way out is collapsing. You have to move, NOW!\""
 											]
 										},
+										"{@cue If the players do not remember the shuttle perched atop the roof, remind them...}",
 										{
-											"variantName": "4",
-											"combatants": [
-												{
-													"creature": "{@creature red stormtrooper|sw5e-bc|Red Trooper}",
-													"quantity": 3
-												},
-												{
-													"creature": "{@creature blue stormtrooper|sw5e-bc|Blue Trooper}",
-													"quantity": 3
-												},
-												{
-													"creature": "{@creature Phase-Shift Trooper|sw5e-bc|Phase Trooper}",
-													"quantity": 4
-												},
-												{
-													"creature": "{@creature Droideka|sw5e-rbr|droideka}",
-													"quantity": 2
-												}
-											]
-										},
-										{
-											"variantName": "5",
-											"combatants": [
-												{
-													"creature": "{@creature red stormtrooper|sw5e-bc|Red Trooper}",
-													"quantity": 3
-												},
-												{
-													"creature": "{@creature blue stormtrooper|sw5e-bc|Blue Trooper}",
-													"quantity": 3
-												},
-												{
-													"creature": "{@creature Phase-Shift Trooper|sw5e-bc|Phase Trooper}",
-													"quantity": 4
-												},
-												{
-													"creature": "{@creature Droideka|sw5e-rbr|droideka}",
-													"quantity": 2
-												}
+											"type": "insetReadaloud",
+											"entries": [
+												"You spy a sign next to a set of metal stairs leading to the roof. It reads: {@b Shuttle Access}. Of course! The rooftop shuttle! You hope it's still there...",
+												"You race up the stairs to the roof, and there it is: a {@b Lambda-class T-4a shuttle}. Your ticket out of this self-destructing facility! You board and power up the engines."
 											]
 										}
 									]
 								}
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Phase 2: The Sacrifice (Round 4)",
-							"id": "phase2_sacrifice",
-							"entries": [
-								"At the end of Round 4, Tremayne grows bored of the stalemate.",
-								{
-									"type": "insetReadaloud",
-									"entries": [
-										"{@b Caspar:} \"Almost got it....\"",
-										"Then, without warning, a streak of crimson light flashes through the room and a lightsaber impales Caspar through the chest. The slicer's eyes go wide. The blaster fire halts.",
-										"Tremayne sighs. \"How tedious. Even with the odds stacked in their favor, my men are so very incompetent. I prefer a more... direct intervention.\"",
-										"Caspar slumps against the terminal, blood slicking the keys as he looks at you. \"Ready to... deploy...\" he chokes out. \"Just hit... the...\"",
-										"His head falls forward, dead. The terminal screen flickers with a final prompt."
-									]
-								},
-								"To execute the logic-bomb, players must solve the final quote scramble:",
-								"{@cue [Load Image #14: Final Puzzle]|media}",
-								{
-									"type": "image",
-									"slideNum": 15,
-									"href": {
-										"type": "external",
-										"url": "https://d20.orcnog.com/slideshow/black_cipher/akbar_scramble.webp"
-									},
-									"title": "Akbar Quote Scramble",
-									"credit": "orcnog"
-								},
-								"{@i Correct Answer: ITS A TRAP!}"
-							]
-						},
-						{
-							"type": "entries",
-							"name": "Phase 3: The Destabilized Core",
-							"id": "phase3_destabilized_core",
-							"entries": [
-								"Once the puzzle is solved, the Black Cipher core begins to melt down.",
-								{
-									"type": "insetReadaloud",
-									"entries": [
-										"The terminal flashes a brilliant green. A high-pitched, harmonic whine begins to build within the blue pillar, and the entire floor begins to shudder. Seeing the facility go critical, any troopers remaining break formation and bolt for the exits.",
-										"Tremayne's form suddenly solidifies as his phase-module burns out with a puff of ozone. He ignites his blade and snaps a heavy {@b Red Shield} into place, his eyes burning with aristocratic hatred.",
-										"{@b Tremayne:} \"You may have destroyed the Cipher... but you've merely ensured your own burial, Jedi. I will take your heads back to Lord Vader as my consolation prize!\"",
-										"Electrical arcs begin to leap from server to server, as Inquisitor Tremayne's lightsaber flies back into his hand, and he drops into a Form II stance. It is just you and the Inquisitor now. \"En garde!\""
-									]
-								},
-								"Now, at the start of each round, a random 10ft area is struck by lightning (DC 13 Dex save or 3d8 Lightning damage).",
-								{
-									"type": "encounter",
-									"name": "Black Cipher Finale Encounter",
-									"id": "black_cipher_finale_encounter",
-									"partyLevel": 5,
-									"varyBy": "Party Size",
-									"variations": [
-										{
-											"variantName": "3",
-											"combatants": [
-												{
-													"creature": "{@creature High Inquisitor Tremayne|sw5e-bc|Tremayne|scaled=6}",
-													"quantity": 1
-												}
-											]
-										},
-										{
-											"variantName": "4",
-											"combatants": [
-												{
-													"creature": "{@creature High Inquisitor Tremayne|sw5e-bc|Tremayne}",
-													"quantity": 1
-												}
-											]
-										},
-										{
-											"variantName": "5",
-											"default": true,
-											"combatants": [
-												{
-													"creature": "{@creature High Inquisitor Tremayne|sw5e-bc|Tremayne|scaled=8}",
-													"quantity": 1
-												}
-											]
-										}
-									],
-									"notes": [
-										"Things Tremayne might say:",
-										"{@i \"Form V? A bold choice, though your footwork is... amateur.\"}",
-										"{@i \"That lightsaber hilt... the craftsmanship is distinctly Corellian. Such a pity it will be melted down for scrap.\"}"
-									]
-								}
-							]
-						},
-						"Once the players defeat Inquisitor Tremayne, read the following aloud:",
-						{
-							"type": "entries",
-							"name": "The Killing Blow",
-							"id": "the_killing_blow",
-							"entries": [
-								{
-									"type": "insetReadaloud",
-									"entries": [
-										"As the final blow lands, Tremayne staggers back, his lightfoil flickering and dying. He looks at the screaming data-core, then back at you with a mask of pure fury. Before he can speak, a massive power-conduit above him explodes, burying the Inquisitor in a rain of white-hot debris.",
-										"The room is deafening now—a cacophony of alarms and screeching metal. The floor is slick with coolant, and fire is beginning to consume the server banks. The way out is collapsing. You have to move, NOW!\""
-									]
-								},
-								"{@cue If the players do not remember the shuttle perched atop the roof, remind them...}",
-								{
-									"type": "insetReadaloud",
-									"entries": [
-										"You spy a sign next to a set of metal stairs leading to the roof. It reads: {@b Shuttle Access}. Of course! The rooftop shuttle! You hope it's still there...",
-										"You race up the stairs to the roof, and there it is: a {@b Lambda-class T-4a shuttle}. Your ticket out of this self-destructing facility! You board and power up the engines."
-									]
-								}
-							]
-						}
 							]
 						},
 						{

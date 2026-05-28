@@ -104,6 +104,19 @@ class BlocklistUtil {
 globalThis.BlocklistUtil = BlocklistUtil;
 
 class BlocklistUi {
+	static _PHB_SOURCE = "PHB";
+	/** PHB categories kept visible when using the Non-Star Wars blocklist preset. */
+	static _PHB_ALLOWED_CATEGORIES = new Set([
+		"action",
+		"book",
+		"condition",
+		"sense",
+		"status",
+		"trap",
+		"variantrule", // "Rule"
+        "rule"
+	]);
+
 	constructor (
 		{
 			wrpContent,
@@ -353,12 +366,12 @@ class BlocklistUi {
 		const btnExcludeNonSW5eSources = this._getBtn_addToBlocklist()
 			.onn("click", () => {
 				this._addAllNonSW5eSources();
-				this._addPHBItemsAndSpells();
+				this._addPHBPartialBlocklist();
 			});
 		const btnIncludeNonSW5eSources = this._getBtn_removeFromBlocklist()
 			.onn("click", () => {
 				this._removeAllNonSW5eSources();
-				this._removePHBItemsAndSpells();
+				this._removePHBPartialBlocklist();
 			});
 
 		const btnExcludeHomebrewSources = this._getBtn_addToBlocklist()
@@ -776,34 +789,53 @@ class BlocklistUi {
 	_addAllSW5eSources () { this._addMassSources({fnFilter: source => source.startsWith("sw5e")}); }
 	_removeAllSW5eSources () { this._removeMassSources({fnFilter: source => source.startsWith("sw5e")}); }
 
-	_addAllNonSW5eSources () { this._addMassSources({fnFilter: source => !source.startsWith("sw5e") && source !== "PHB"}); }
+	_addAllNonSW5eSources () {
+		// PHB is handled separately so core actions/conditions remain available.
+		this._addMassSources({fnFilter: source => !source.startsWith("sw5e") && source !== BlocklistUi._PHB_SOURCE});
+	}
 	_removeAllNonSW5eSources () { this._removeMassSources({fnFilter: source => !source.startsWith("sw5e")}); }
+
+	_getPHBPartialBlockCategories () {
+		return (this._allCategories || [])
+			.filter(category => !BlocklistUi._PHB_ALLOWED_CATEGORIES.has(category));
+	}
+
+	_addPHBPartialBlocklist () {
+		// Drop stale category wildcards for allowed categories (e.g. after expanding the allowlist).
+		this._removePHBPartialBlocklist({categoriesToRemove: BlocklistUi._PHB_ALLOWED_CATEGORIES, isSkipListUpdate: true});
+
+		this._getPHBPartialBlockCategories()
+			.forEach(category => {
+				if (!this._addExclude("*", "*", category, BlocklistUi._PHB_SOURCE)) return;
+				this._addListItem({
+					displayName: "*",
+					hash: "*",
+					category,
+					source: BlocklistUi._PHB_SOURCE,
+					isAuto: false,
+				});
+			});
+		this._list.update();
+	}
+
+	_removePHBPartialBlocklist ({categoriesToRemove = null, isSkipListUpdate = false} = {}) {
+		const categories = categoriesToRemove == null
+			? new Set(this._getPHBPartialBlockCategories())
+			: new Set(categoriesToRemove);
+		this._list.items
+			.filter(it => (
+				it.data.hash === "*"
+				&& it.data.category !== "*"
+				&& it.data.source === BlocklistUi._PHB_SOURCE
+				&& categories.has(it.data.category)
+			))
+			.sort((a, b) => b.ix - a.ix)
+			.forEach(it => this._remove(it.ix, "*", it.data.category, BlocklistUi._PHB_SOURCE, {isSkipListUpdate: true}));
+		if (!isSkipListUpdate) this._list.update();
+	}
 
 	_addAllHomebrewSources () { this._addMassSources({fnFilter: source => BrewUtil2.getSources().map(s => s.json).includes(source)}); }
 	_removeAllHomebrewSources () { this._removeMassSources({fnFilter: source => BrewUtil2.getSources().map(s => s.json).includes(source)}); }
-
-	_addPHBItemsAndSpells () {
-		// Add PHB items and spells to blocklist
-		this._addExclude("*", "*", "item", "PHB");
-		this._addExclude("*", "*", "spell", "PHB");
-		this._addListItem({displayName: "*", hash: "*", category: "item", source: "PHB", isAuto: false});
-		this._addListItem({displayName: "*", hash: "*", category: "spell", source: "PHB", isAuto: false});
-		this._list.update();
-	}
-
-	_removePHBItemsAndSpells () {
-		// Find and remove PHB items and spells from the list
-		const phbItems = this._list.items.find(it => it.data.hash === "*" && it.data.category === "item" && it.data.source === "PHB");
-		const phbSpells = this._list.items.find(it => it.data.hash === "*" && it.data.category === "spell" && it.data.source === "PHB");
-
-		if (phbItems) {
-			this._remove(phbItems.ix, "*", "item", "PHB", {isSkipListUpdate: true});
-		}
-		if (phbSpells) {
-			this._remove(phbSpells.ix, "*", "spell", "PHB", {isSkipListUpdate: true});
-		}
-		this._list.update();
-	}
 
 	_remove (ix, hash, category, source, {isSkipListUpdate = false} = {}) {
 		this._removeExclude(hash, category, source);

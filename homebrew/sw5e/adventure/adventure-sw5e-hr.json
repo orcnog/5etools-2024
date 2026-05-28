@@ -4,9 +4,9 @@
 		"sources": [
 			{
 				"json": "sw5e-hr",
-				"abbreviation": "sw5e-hr",
+				"abbreviation": "HR",
 				"full": "SW5e: Halcyon Remnant - A SW5e D&D One-Shot",
-				"url": "https://5e.orcnog.com/homebrew/sw5e/adventures/Halcyon/adventure-sw5e-hr.json",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/adventure/adventure-sw5e-hr.json",
 				"convertedBy": [
 					"orcnog"
 				],

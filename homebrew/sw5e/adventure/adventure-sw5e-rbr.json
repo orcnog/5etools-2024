@@ -3,9 +3,9 @@
 		"sources": [
 			{
 				"json": "sw5e-rbr",
-				"abbreviation": "Rugosa",
-				"full": "SW5e: Disruption on Rugosa - A SW5e D&D One-Shot",
-				"url": "https://raw.githubusercontent.com/orcnog/5etools-brew/main/sw5e/adventures/Rugosa/adventure_sw5e-rbr.json",
+				"abbreviation": "RBR",
+				"full": "SW5e: Rugosa Bombing Run - A SW5e D&D One-Shot",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/adventure/adventure-sw5e-rbr.json",
 				"color": "#BB5522",
 				"authors": [
 					"orcnog"
