@@ -1,0 +1,423 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"itemProperty": [
+		{
+			"abbreviation": "AST",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Strength",
+					"entries": [
+						"While wearing armor or wielding a shield with the strength property, your speed is reduced by 10 unless your Strength score meets or exceeds the strength number."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AUT",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Auto",
+					"entries": [
+						"Weapons with the auto property can only fire in burst, penetrating, or rapid modes. If the weapon has any combination of burst, penetrating, and rapid modes, you choose which mode to use. You can only use one mode at a time."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BLK",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Bulky",
+					"entries": [
+						"While wearing armor with the bulky property, you have disadvantage on Dexterity ({@skill Stealth}) checks that rely on sound."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BST",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Burst",
+					"entries": [
+						"When you would make a ranged weapon attack with a weapon with the burst property, you can instead spray a 10-foot-cube area within range with shots, consuming ammunition equal to the burst number. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon) or take the weapon's normal damage. Before you use the burst property, you can declare one creature that would be affected by it. If the creature fails its save, in addition to the weapon's normal damage, it is subjected to any additional effects that would occur on a hit. If the targeted area is beyond normal range but within long range, affected targets have advantage on the save."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.burst}})"
+		},
+		{
+			"abbreviation": "DEX",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Dexterity",
+					"entries": [
+						"A weapon with the dexterity property requires more skill to control. While wielding it, you have disadvantage on attack rolls unless you meet the Dexterity requirement. "
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.dexterity}})"
+		},
+		{
+			"abbreviation": "DSG",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disguised",
+					"entries": [
+						"You have advantage on Charisma ({@skill Deception}) checks made to hide the nature of a weapon with the disguised property."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DBL",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double",
+					"entries": [
+						"A weapon with the double property can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with Double-Weapon Fighting. See the rules for Double-Weapon Fighting in chapter 9."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.double}})"
+		},
+		{
+			"abbreviation": "SWF",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"When making an attack with a weapon with the finesse property, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "FXD",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fixed",
+					"entries": [
+						"A weapon with the fixed property does not fill the hand, but you can't use the weapon while the hand is full. Additionally, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of this weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SWH",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Heavy",
+					"entries": [
+						"When you hit with an attack roll using Strength with a weapon with the heavy property, you deal additional damage equal to half your Strength modifier (rounded up, minimum of +1)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "HID",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Hidden",
+					"entries": [
+						"You have advantage on Dexterity ({@skill Sleight of Hand}) checks made to conceal a weapon with the hidden property."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "INL",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Interlocking",
+					"entries": [
+						"While wielding a weapon with the interlocking property, you can use your object interaction to detach the weapon into two separate weapons or reattach into a single weapon. While separated, each weapon has the same damage, damage type, combined value and weight, and properties (except for the double property) as the single weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SWL",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Light",
+					"entries": [
+						"A weapon with the light property is small and easy to handle, making it ideal for use when engaging in Double- or Two-Weapon Fighting. See the rules for Double- and Two-Weapon Fighting in chapter 9."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LUM",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Luminous",
+					"entries": [
+						"A weapon with the luminous property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity ({@skill Stealth}) checks made while the weapon is activated have disadvantage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MOD",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Modal",
+					"entries": [
+						"A weapon with the modal property can switch between modes. A list of weapons in parentheses appears with the property-the weapons between which an exotic weapon can be switched by using an object interaction."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.modal}})"
+		},
+		{
+			"abbreviation": "OBT",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Obtrusive",
+					"entries": [
+						"While wielding a shield with the obtrusive property, you have disadvantage on Dexterity ({@skill Stealth}) checks that rely on sight."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "PEN",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Penetrating",
+					"entries": [
+						"When you would make a ranged weapon attack with a weapon with the penetrating property, you can instead attempt to penetrate and hit a creature behind the target, consuming ammunition equal to the penetrating number. Make an attack roll against the initial target. If the attack hits, there is a creature within 15 feet of that creature and directly behind it, and the original attack roll would hit the second creature, it also takes normal weapon damage."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.penetrating}})"
+		},
+		{
+			"abbreviation": "PCL",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Power Cell",
+					"entries": [
+						"Weapons with the power cell property are fueled by power cells, which must be loaded in order to fire the weapon."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.range}} ft.)"
+		},
+		{
+			"abbreviation": "RAP",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Rapid",
+					"entries": [
+						"When you would make a ranged weapon attack with a weapon with the rapid property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, roll the weapon's damage dice twice and add them together, adding relevant modifiers as normal and subjecting the target to any additional effects that would occur on a hit. If the target is beyond normal range but within long range, it has advantage on the save."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.rapid}})"
+		},
+		{
+			"abbreviation": "R",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reach",
+					"entries": [
+						"A weapon with the reach property adds 5 feet to your reach with it."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RET",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Returning",
+					"entries": [
+						"When you throw a weapon with the returning property, it automatically returns to your hand after the attack is complete, whether you hit or miss."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SLG",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Slug Cartridge",
+					"entries": [
+						"Weapons with the slug cartridge property fire slug cartridges, which must be loaded in order to fire the weapon."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.range}} ft.)"
+		},
+		{
+			"abbreviation": "SWS",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Special",
+					"entries": [
+						"A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see \"Special Weapons\" later in this section)."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.range}} ft.)"
+		},
+		{
+			"abbreviation": "SPC",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Specialized",
+					"entries": [
+						"A weapon with the specialized property bypasses the base and cap of certain properties. Another weapon property in parentheses with the property-the weapon property that the exotic bypasses the base and cap for."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SWT",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"Weapons with the thrown property can be thrown to make a ranged attack. If the weapon would normally be used to make melee weapon attacks, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. "
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.range}} ft.)"
+		},
+		{
+			"abbreviation": "SW2",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Two-Handed",
+					"entries": [
+						"A weapon with the two-handed property requires two hands to use."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SWV",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"A weapon with the versatile property can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.dmg2}})"
+		},
+		{
+			"abbreviation": "STR",
+			"source": "sw5e-phb",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Strength",
+					"entries": [
+						"A weapon with the strength property has a heavy kickback. While wielding it, you have disadvantage on attack rolls unless you meet the Strength requirement. If the weapon has the burst, penetrating, or rapid property, you must meet the Strength requirement to use this feature. If the weapon lacks the two-handed property, you can wield the weapon in two hands to temporarily reduce the strength number by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If this would reduce the strength number below 11, you ignore it entirely."
+					]
+				}
+			]
+		}
+	],
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-phb",
+				"abbreviation": "PHB",
+				"full": "SW5e: Player's Handbook",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
+				"color": "#aa0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		]
+	}
+}

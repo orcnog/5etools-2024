@@ -1,0 +1,243 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"condition": [
+		{
+			"name": "Blinded",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"A blinded creature can't see and automatically fails any ability check that requires sight.\\r\\n- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage."
+			]
+		},
+		{
+			"name": "Charmed",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"A charmed creature can't attack the charmer or target the charmer with harmful abilities or enhanced effects.\\r\\n- The charmer has advantage on any ability check to interact socially with the creature."
+			]
+		},
+		{
+			"name": "Corroded",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"Some abilities, effects, and hazards can lead to a special condition called corroded. Corroded is measured in three levels. An effect can give a creature one or more corroded levels, as specified in the effect's description.",
+				"For each corroded level a creature has, it takes 1 additional damage from weapons."
+			]
+		},
+		{
+			"name": "Deafened",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"A deafened creature can't hear and automatically fails any ability check that requires hearing."
+			]
+		},
+		{
+			"name": "Diseased",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"A diseased creature suffers effects that vary based on the disease."
+					]
+				}
+			]
+		},
+		{
+			"name": "Exhaustion",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"Some special abilities and environmental hazards, such as and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description. Exhaustion Level\\r\\n\\r\\n|Level|Effect|\\r\\n|:--:|:--|\\r\\n|1|Disadvantage on ability checks|\\r\\n|2|Speed halved|\\r\\n|3|Disadvantage on attack rolls and saving throws|\\r\\n|4|Hit point maximum halved|\\r\\n|5|Speed reduced to 0|\\r\\n|6|Death|\\r\\n\\r\\nIf an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.\\r\\n\\r\\nA creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.\\r\\n\\r\\nAn effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1.\\r\\n\\r\\nFinishing a long rest reduces a creature's exhaustion level by 1, provided that the creature has also ingested some food and drink."
+			]
+		},
+		{
+			"name": "Frightened",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\\r\\n- The creature can't willingly move closer to the source of its fear."
+			]
+		},
+		{
+			"name": "Grappled",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"A grappled creature's speed becomes 0, and it can't benefit from any bonus to its speed.\\r\\n- The condition ends if the grappler is incapacitated (see the condition).\\r\\n- The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect."
+			]
+		},
+		{
+			"name": "Ignited",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"- A creature that is ignited suffers fire damage at the end of each of its turns. A damage value in parentheses appears with this condition—the fire damage the creature takes at the end of its turn.",
+				{
+					"type": "list",
+					"items": [
+						"If the target or a creature within 5 feet of it uses an action to put out the flames, or if some other effect douses the flames, the creature is no longer ignited."
+					]
+				}
+			]
+		},
+		{
+			"name": "Incapacitated",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"An incapacitated creature can't take actions or reactions."
+			]
+		},
+		{
+			"name": "Invisible",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"An invisible creature is impossible to see without the aid of powers or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature's location can be detected by any noise it makes or any tracks it leaves.\\r\\n- Attack rolls against the creature have disadvantage, and the creature's attack rolls have advantage."
+			]
+		},
+		{
+			"name": "Paralyzed",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"A paralyzed creature is incapacitated (see the condition) and can't move or speak.\\r\\n- The creature automatically fails Strength and Dexterity saving throws. Attack rolls against the creature have advantage.\\r\\n- Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+			]
+		},
+		{
+			"name": "Petrified",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"A petrified creature is transformed, along with any object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.\\r\\n- The creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings.\\r\\n- Attack rolls against the creature have advantage. \\r\\n- The creature automatically fails Strength and Dexterity saving throws.\\r\\n- The creature has resistance to all damage.\\r\\n- The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized."
+			]
+		},
+		{
+			"name": "Poisoned",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"A poisoned creature has disadvantage on attack rolls and ability checks."
+			]
+		},
+		{
+			"name": "Prone",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition. \\r\\n- The creature has disadvantage on melee attack rolls.\\r\\n- The creature has disadvantage on ranged attack rolls against targets within 30 feet.\\r\\n- An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage."
+			]
+		},
+		{
+			"name": "Restrained",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"A restrained creature's speed becomes 0, and it can't benefit from any bonus to its speed.\\r\\n- Attack rolls against the creature have advantage, and the creature's attack rolls have disadvantage.\\r\\n- The creature has disadvantage on Dexterity saving throws."
+			]
+		},
+		{
+			"name": "Shocked",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"A shocked creature's speed is reduced by half.\\r\\n- The creature can't take reactions."
+			]
+		},
+		{
+			"name": "Slowed",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"Some abilities, effects, and hazards can lead to a special condition called slowed. Slowed is measured in four levels. An effect can give a creature one or more levels of slowed, as specified in the effect's description.",
+				{
+					"type": "entries",
+					"name": "Slowed Level",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Level",
+								"Effect"
+							],
+							"colStyles": [
+								"col-6 text-left",
+								"col-6 text-left"
+							],
+							"rows": [
+								[
+									"1",
+									"Speed reduced by 15 feet"
+								],
+								[
+									"2",
+									"Speed reduced by 25 feet"
+								],
+								[
+									"3",
+									"Speed reduced by 30 feet"
+								],
+								[
+									"4",
+									"Speed reduced to 0, and can't benefit from any bonus to speed"
+								]
+							]
+						},
+						"If an already slowed creature suffers another effect that causes it to be slowed, its current slowed level increases by the amount specified in the effect's description.",
+						"An effect that removes slowed reduces its level as specified in the effect's description, with all slowed effects ending if a creature's slowed level is reduced below 1."
+					]
+				}
+			]
+		},
+		{
+			"name": "Stunned",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.\\r\\n- The creature automatically fails Strength and Dexterity saving throws.\\r\\n- Attack rolls against the creature have advantage."
+			]
+		},
+		{
+			"name": "Unconscious",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"An unconscious creature is incapacitated (see the condition), can't move or speak, and is unaware of its surroundings\\r\\n- The creature drops whatever it's holding and falls prone.\\r\\n- The creature automatically fails Strength and Dexterity saving throws.\\r\\n- Attack rolls against the creature have advantage.\\r\\n- Any attack that hits the creature is a critical hit if the attacker is within 5 feet of the creature."
+			]
+		},
+		{
+			"name": "Weakened",
+			"source": "sw5e-phb",
+			"page": 311,
+			"entries": [
+				"- A creature suffering from the weakened condition heals at a slower rate. When an effect restores hit points to the creature, the amount of hit points restored is halved.",
+				{
+					"type": "list",
+					"items": [
+						"Creatures suffering from this condition can only add half their ability modifier to ability checks, attack rolls, and saving throws, unless that modifier would be negative."
+					]
+				}
+			]
+		}
+	],
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-phb",
+				"abbreviation": "PHB",
+				"full": "SW5e: Player's Handbook",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
+				"color": "#aa0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		]
+	}
+}
