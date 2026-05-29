@@ -105,7 +105,7 @@ globalThis.BlocklistUtil = BlocklistUtil;
 
 class BlocklistUi {
 	static _PHB_SOURCE = "PHB";
-	/** PHB categories kept visible when using the Non-Star Wars blocklist preset. */
+	/** Legacy PHB categories that were partially blocked; kept for cleanup when unblocking Non-Star Wars. */
 	static _PHB_ALLOWED_CATEGORIES = new Set([
 		"action",
 		"book",
@@ -149,28 +149,33 @@ class BlocklistUi {
 	async _pDoPersist (nxtList) {
 		nxtList ||= MiscUtil.copy(this._excludes);
 
-		if (this._isAutoSave) return ExcludeUtil.pSetList(nxtList);
+		if (this._isAutoSave) {
+			await ExcludeUtil.pSetList(nxtList);
+			if (typeof EditionMode !== "undefined") await EditionMode.pSyncFromBlocklist();
+			if (typeof ContentMode !== "undefined") await ContentMode.pSyncFromBlocklist();
+			return;
+		}
 
 		this._isRequireSave = true;
 	}
 
-	_addExclude (displayName, hash, category, source) {
+	_addExclude (displayName, hash, category, source, {isSkipPersist = false} = {}) {
 		if (!this._excludes.find(row => row.source === source && row.category === category && row.hash === hash)) {
 			this._excludes.push({displayName, hash, category, source});
-			this._pDoPersist().then(null);
+			if (!isSkipPersist) this._pDoPersist().then(null);
 			return true;
 		}
 		return false;
 	}
 
-	_removeExclude (hash, category, source) {
+	_removeExclude (hash, category, source, {isSkipPersist = false} = {}) {
 		const ix = this._excludes.findIndex(row => row.source === source && row.category === category && row.hash === hash);
 		if (!~ix) return;
 
 		if (this._excludes[ix].isAuto) return;
 
 		this._excludes.splice(ix, 1);
-		this._pDoPersist().then(null);
+		if (!isSkipPersist) this._pDoPersist().then(null);
 	}
 
 	_resetExcludes () {
@@ -350,29 +355,23 @@ class BlocklistUi {
 			.onn("click", () => this._removeAllNonForgottenRealms());
 
 		const btnExcludeClassicSources = this._getBtn_addToBlocklist()
-			.onn("click", () => this._addAllNonClassicSources());
+			.onn("click", () => BlocklistUi.addAllClassicSources().then(null));
 		const btnIncludeClassicSources = this._getBtn_removeFromBlocklist()
-			.onn("click", () => this._removeAllClassicSources());
+			.onn("click", () => BlocklistUi.removeAllClassicSources().then(null));
 
 		const btnExcludeModernSources = this._getBtn_addToBlocklist()
-			.onn("click", () => this._addAllNonModernSources());
+			.onn("click", () => BlocklistUi.addAllModernSources().then(null));
 		const btnIncludeModernSources = this._getBtn_removeFromBlocklist()
-			.onn("click", () => this._removeAllModernSources());
+			.onn("click", () => BlocklistUi.removeAllModernSources().then(null));
 
 		const btnExcludeSW5eSources = this._getBtn_addToBlocklist()
-			.onn("click", () => this._addAllSW5eSources());
+			.onn("click", () => BlocklistUi.addAllSW5eSources().then(null));
 		const btnIncludeSW5eSources = this._getBtn_removeFromBlocklist()
-			.onn("click", () => this._removeAllSW5eSources());
+			.onn("click", () => BlocklistUi.removeAllSW5eSources().then(null));
 		const btnExcludeNonSW5eSources = this._getBtn_addToBlocklist()
-			.onn("click", () => {
-				this._addAllNonSW5eSources();
-				this._addPHBPartialBlocklist();
-			});
+			.onn("click", () => BlocklistUi.addAllNonSW5eSources().then(null));
 		const btnIncludeNonSW5eSources = this._getBtn_removeFromBlocklist()
-			.onn("click", () => {
-				this._removeAllNonSW5eSources();
-				this._removePHBPartialBlocklist();
-			});
+			.onn("click", () => BlocklistUi.removeAllNonSW5eSources().then(null));
 
 		const btnExcludeHomebrewSources = this._getBtn_addToBlocklist()
 			.onn("click", () => this._addAllHomebrewSources());
@@ -744,11 +743,14 @@ class BlocklistUi {
 		const sources = fnFilter
 			? this._allSources.filter(source => fnFilter(source))
 			: this._allSources;
+		let changed = false;
 		sources
 			.forEach(source => {
-				if (!this._addExclude("*", "*", "*", source)) return;
+				if (!this._addExclude("*", "*", "*", source, {isSkipPersist: true})) return;
 				this._addListItem({displayName: "*", hash: "*", category: "*", source, isAuto: false});
+				changed = true;
 			});
+		if (changed) this._pDoPersist().then(null);
 		this._list.update();
 	}
 
@@ -759,12 +761,15 @@ class BlocklistUi {
 		const sources = fnFilter
 			? this._allSources.filter(source => fnFilter(source))
 			: this._allSources;
+		let changed = false;
 		sources
 			.forEach(source => {
 				const item = this._list.items.find(it => it.data.hash === "*" && it.data.category === "*" && it.data.source === source);
 				if (!item) return;
-				this._remove(item.ix, "*", "*", source, {isSkipListUpdate: true});
+				this._remove(item.ix, "*", "*", source, {isSkipListUpdate: true, isSkipPersist: true});
+				changed = true;
 			});
+		if (changed) this._pDoPersist().then(null);
 		this._list.update();
 	}
 
@@ -790,10 +795,16 @@ class BlocklistUi {
 	_removeAllSW5eSources () { this._removeMassSources({fnFilter: source => source.startsWith("sw5e")}); }
 
 	_addAllNonSW5eSources () {
-		// PHB is handled separately so core actions/conditions remain available.
-		this._addMassSources({fnFilter: source => !source.startsWith("sw5e") && source !== BlocklistUi._PHB_SOURCE});
+		// Drop legacy PHB category wildcards; SW5e PHB packs replace core PHB for sw5e-only mode.
+		this._removePHBPartialBlocklist({isSkipListUpdate: true, isSkipPersist: true});
+		this._addMassSources({fnFilter: source => !source.startsWith("sw5e")});
 	}
-	_removeAllNonSW5eSources () { this._removeMassSources({fnFilter: source => !source.startsWith("sw5e")}); }
+	_removeAllNonSW5eSources () {
+		this._removeMassSources({fnFilter: source => !source.startsWith("sw5e")});
+		this._removePHBPartialBlocklist({isSkipListUpdate: true, isSkipPersist: true});
+		this._pDoPersist().then(null);
+		this._list.update();
+	}
 
 	_getPHBPartialBlockCategories () {
 		return (this._allCategories || [])
@@ -818,7 +829,7 @@ class BlocklistUi {
 		this._list.update();
 	}
 
-	_removePHBPartialBlocklist ({categoriesToRemove = null, isSkipListUpdate = false} = {}) {
+	_removePHBPartialBlocklist ({categoriesToRemove = null, isSkipListUpdate = false, isSkipPersist = false} = {}) {
 		const categories = categoriesToRemove == null
 			? new Set(this._getPHBPartialBlockCategories())
 			: new Set(categoriesToRemove);
@@ -830,15 +841,16 @@ class BlocklistUi {
 				&& categories.has(it.data.category)
 			))
 			.sort((a, b) => b.ix - a.ix)
-			.forEach(it => this._remove(it.ix, "*", it.data.category, BlocklistUi._PHB_SOURCE, {isSkipListUpdate: true}));
+			.forEach(it => this._remove(it.ix, "*", it.data.category, BlocklistUi._PHB_SOURCE, {isSkipListUpdate: true, isSkipPersist: true}));
+		if (!isSkipPersist) this._pDoPersist().then(null);
 		if (!isSkipListUpdate) this._list.update();
 	}
 
 	_addAllHomebrewSources () { this._addMassSources({fnFilter: source => BrewUtil2.getSources().map(s => s.json).includes(source)}); }
 	_removeAllHomebrewSources () { this._removeMassSources({fnFilter: source => BrewUtil2.getSources().map(s => s.json).includes(source)}); }
 
-	_remove (ix, hash, category, source, {isSkipListUpdate = false} = {}) {
-		this._removeExclude(hash, category, source);
+	_remove (ix, hash, category, source, {isSkipListUpdate = false, isSkipPersist = false} = {}) {
+		this._removeExclude(hash, category, source, {isSkipPersist});
 		this._list.removeItemByIndex(ix);
 		if (!isSkipListUpdate) this._list.update();
 	}
@@ -976,11 +988,11 @@ class BlocklistUi {
 	// Source toggle functionality (moved from navigation.js)
 	static async addAllModernSources () {
 		await ExcludeUtil.pInitialise();
+		await this._pInitBrewSources();
 
 		const currentExcludes = ExcludeUtil.getList();
-		const modernSources = this._get2024Sources();
+		const modernSources = this._getEditionModernSources();
 
-		// Add all modern sources to blocklist
 		const newExcludes = [...currentExcludes];
 		let addedCount = 0;
 		modernSources.forEach(source => {
@@ -996,57 +1008,45 @@ class BlocklistUi {
 		});
 		await ExcludeUtil.pSetList(newExcludes);
 
-		// Show success message
 		JqueryUtil.doToast({
 			type: "success",
-			content: `5.5E Sources: ${addedCount} entries added to blocklist.`,
+			content: `5.5e (&apos;24) Sources: ${addedCount} entries added to blocklist.`,
 		});
 
-		// Refresh the page to apply changes (but not on blocklist page)
-		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
-			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
-		} else {
-			window.location.href = "/blocklist.html";
-		}
+		this._pNotifyExclusionsChanged();
 	}
 
 	static async removeAllModernSources () {
 		await ExcludeUtil.pInitialise();
+		await this._pInitBrewSources();
 
 		const currentExcludes = ExcludeUtil.getList();
-		const modernSources = this._get2024Sources();
+		const modernSources = new Set(this._getEditionModernSources());
 
-		// Remove all modern sources from blocklist
 		const newExcludes = currentExcludes.filter(ex =>
-			!(ex.category === "*" && ex.hash === "*" && modernSources.includes(ex.source)),
+			!(ex.category === "*" && ex.hash === "*" && modernSources.has(ex.source)),
 		);
 		const removedCount = currentExcludes.length - newExcludes.length;
 		await ExcludeUtil.pSetList(newExcludes);
 
-		// Show success message
 		JqueryUtil.doToast({
 			type: "success",
-			content: `5.5E Sources: ${removedCount} entries removed from blocklist.`,
+			content: `5.5e (&apos;24) Sources: ${removedCount} entries removed from blocklist.`,
 		});
 
-		// Refresh the page to apply changes (but not on blocklist page)
-		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
-			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
-		} else {
-			window.location.href = "/blocklist.html";
-		}
+		this._pNotifyExclusionsChanged();
 	}
 
-	static async addAllSW5eSources () {
+	static async addAllClassicSources () {
 		await ExcludeUtil.pInitialise();
+		await this._pInitBrewSources();
 
 		const currentExcludes = ExcludeUtil.getList();
-		const modernSources = this._getSW5eSources();
+		const classicSources = this._getEditionClassicSources();
 
-		// Add all modern sources to blocklist
 		const newExcludes = [...currentExcludes];
 		let addedCount = 0;
-		modernSources.forEach(source => {
+		classicSources.forEach(source => {
 			if (!currentExcludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
 				newExcludes.push({
 					displayName: "*",
@@ -1059,72 +1059,317 @@ class BlocklistUi {
 		});
 		await ExcludeUtil.pSetList(newExcludes);
 
-		// Show success message
+		JqueryUtil.doToast({
+			type: "success",
+			content: `5e (&apos;14) Sources: ${addedCount} entries added to blocklist.`,
+		});
+
+		this._pNotifyExclusionsChanged();
+	}
+
+	static async removeAllClassicSources () {
+		await ExcludeUtil.pInitialise();
+		await this._pInitBrewSources();
+
+		const currentExcludes = ExcludeUtil.getList();
+		const classicSources = new Set(this._getEditionClassicSources());
+
+		const newExcludes = currentExcludes.filter(ex =>
+			!(ex.category === "*" && ex.hash === "*" && classicSources.has(ex.source)),
+		);
+		const removedCount = currentExcludes.length - newExcludes.length;
+		await ExcludeUtil.pSetList(newExcludes);
+
+		JqueryUtil.doToast({
+			type: "success",
+			content: `5e (&apos;14) Sources: ${removedCount} entries removed from blocklist.`,
+		});
+
+		this._pNotifyExclusionsChanged();
+	}
+
+	static async addAllSW5eSources () {
+		await ExcludeUtil.pInitialise();
+		await this._pInitBrewSources();
+
+		const currentExcludes = ExcludeUtil.getList();
+		const sw5eSources = this._getSW5eSources();
+
+		const newExcludes = [...currentExcludes];
+		let addedCount = 0;
+		sw5eSources.forEach(source => {
+			if (!currentExcludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
+				newExcludes.push({
+					displayName: "*",
+					hash: "*",
+					category: "*",
+					source: source,
+				});
+				addedCount++;
+			}
+		});
+		await ExcludeUtil.pSetList(newExcludes);
+
 		JqueryUtil.doToast({
 			type: "success",
 			content: `Star Wars Sources: ${addedCount} entries added to blocklist.`,
 		});
 
-		// Refresh the page to apply changes (but not on blocklist page)
-		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
-			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
-		} else {
-			window.location.reload();
-		}
+		this._pNotifyExclusionsChanged();
 	}
 
 	static async removeAllSW5eSources () {
 		await ExcludeUtil.pInitialise();
-
-		// Ensure BrewUtil2 is initialized
-		if (typeof BrewUtil2 !== "undefined") {
-			await BrewUtil2.pInit();
-		}
+		await this._pInitBrewSources();
 
 		const currentExcludes = ExcludeUtil.getList();
-		const sw5eSources = this._getSW5eSources();
 
-		// Remove all SW5e sources from blocklist
 		const newExcludes = currentExcludes.filter(ex =>
-			!(ex.category === "*" && ex.hash === "*" && sw5eSources.includes(ex.source)),
+			!(ex.category === "*" && ex.hash === "*" && ex.source?.startsWith("sw5e")),
 		);
 		const removedCount = currentExcludes.length - newExcludes.length;
 
 		await ExcludeUtil.pSetList(newExcludes);
 
-		// Show success message
 		JqueryUtil.doToast({
 			type: "success",
 			content: `Star Wars Sources: ${removedCount} entries removed from blocklist.`,
 		});
 
-		// Refresh the page to apply changes (but not on blocklist page)
+		this._pNotifyExclusionsChanged();
+	}
+
+	static async addAllNonSW5eSources () {
+		await ExcludeUtil.pInitialise();
+		await this._pInitBrewSources();
+
+		let currentExcludes = this._mutRemoveLegacyPHBPartialExcludes(ExcludeUtil.getList());
+		const nonSw5eSources = this._getNonSW5eSources();
+
+		const newExcludes = [...currentExcludes];
+		let addedCount = 0;
+		nonSw5eSources.forEach(source => {
+			if (!currentExcludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
+				newExcludes.push({
+					displayName: "*",
+					hash: "*",
+					category: "*",
+					source: source,
+				});
+				addedCount++;
+			}
+		});
+		await ExcludeUtil.pSetList(newExcludes);
+
+		JqueryUtil.doToast({
+			type: "success",
+			content: `Non-Star Wars Sources: ${addedCount} entries added to blocklist.`,
+		});
+
+		this._pNotifyExclusionsChanged();
+	}
+
+	static async removeAllNonSW5eSources () {
+		await ExcludeUtil.pInitialise();
+		await this._pInitBrewSources();
+
+		const currentExcludes = ExcludeUtil.getList();
+		const nonSw5eSources = new Set(this._getNonSW5eSources());
+
+		const newExcludes = currentExcludes.filter(ex => {
+			if (ex.category === "*" && ex.hash === "*" && nonSw5eSources.has(ex.source)) return false;
+			return !this._isLegacyPHBPartialExclude(ex);
+		});
+		const removedCount = currentExcludes.length - newExcludes.length;
+
+		await ExcludeUtil.pSetList(newExcludes);
+
+		JqueryUtil.doToast({
+			type: "success",
+			content: `Non-Star Wars Sources: ${removedCount} entries removed from blocklist.`,
+		});
+
+		this._pNotifyExclusionsChanged();
+	}
+
+	static _pNotifyExclusionsChanged () {
 		if (window.location.pathname === "/blocklist.html" || window.location.pathname.endsWith("blocklist.html")) {
-			window.dispatchEvent(new Event("exclusionsChanged")); // Dispatch event to notify blocklist UI to refresh
-		} else {
-			window.location.reload();
+			window.dispatchEvent(new Event("exclusionsChanged"));
+			return;
 		}
+		window.location.reload();
+	}
+
+	static async _pInitBrewSources () {
+		if (typeof BrewUtil2 !== "undefined") await BrewUtil2.pInit();
+		if (typeof PrereleaseUtil !== "undefined" && PrereleaseUtil.pInit) await PrereleaseUtil.pInit();
+	}
+
+	static _isLegacyPHBPartialExclude (ex) {
+		return ex.source === BlocklistUi._PHB_SOURCE && ex.hash === "*" && ex.category !== "*";
+	}
+
+	static _mutRemoveLegacyPHBPartialExcludes (excludes) {
+		return excludes.filter(ex => !this._isLegacyPHBPartialExclude(ex));
 	}
 
 	// Helper methods for source filtering
-	static _get2024Sources () {
-		// Get all sources that are NOT classic (i.e., modern sources)
-		return Object.keys(Parser.SOURCE_JSON_TO_DATE)
-			.filter(source => !SourceUtil.isClassicSource(source));
+	static _getAllCatalogSources () {
+		const sources = new Set(Object.keys(Parser.SOURCE_JSON_TO_DATE));
+		if (typeof BrewUtil2 !== "undefined") {
+			BrewUtil2.getSources().map(s => s.json).forEach(source => sources.add(source));
+		}
+		if (typeof PrereleaseUtil !== "undefined" && PrereleaseUtil.getSources) {
+			PrereleaseUtil.getSources().map(s => s.json).forEach(source => sources.add(source));
+		}
+		return [...sources];
 	}
+
+	static _getClassicSources () {
+		return this._getAllCatalogSources().filter(source => SourceUtil.isClassicSource(source));
+	}
+
+	static _getModernSources () {
+		return this._getAllCatalogSources().filter(source => !SourceUtil.isClassicSource(source));
+	}
+
+	/** Classic/modern lists for edition mode (excludes Star Wars homebrew). */
+	static _getEditionClassicSources () {
+		return this._getClassicSources().filter(source => !source.startsWith("sw5e"));
+	}
+
+	static _getEditionModernSources () {
+		return this._getModernSources().filter(source => !source.startsWith("sw5e"));
+	}
+
+	/** @deprecated Use {@link BlocklistUi._getModernSources} */
+	static _get2024Sources () { return this._getModernSources(); }
 
 	static _getSW5eSources () {
-		// Get homebrew sources from BrewUtil2
-		const homebrewSources = typeof BrewUtil2 !== "undefined" ? BrewUtil2.getSources().map(s => s.json) : [];
-		// Filter to only SW5e sources (those starting with "sw5e")
-		return homebrewSources.filter(source => source.startsWith("sw5e"));
+		const sources = new Set();
+		if (typeof BrewUtil2 !== "undefined") {
+			BrewUtil2.getSources()
+				.map(s => s.json)
+				.filter(source => source.startsWith("sw5e"))
+				.forEach(source => sources.add(source));
+		}
+		ExcludeUtil.getList()
+			.filter(ex => ex.source?.startsWith("sw5e"))
+			.forEach(ex => sources.add(ex.source));
+		return [...sources];
 	}
 
-	static _getHomebrewSources () {
-		// Get homebrew sources from BrewUtil2
-		const homebrewSources = typeof BrewUtil2 !== "undefined" ? BrewUtil2.getSources().map(s => s.json) : [];
-		// Filter to only homebrew sources (those not starting with "sw5e")
-		return homebrewSources.filter(source => !source.startsWith("sw5e"));
+	static _getNonSW5eSources () {
+		const sources = new Set(Object.keys(Parser.SOURCE_JSON_TO_DATE));
+		if (typeof BrewUtil2 !== "undefined") {
+			BrewUtil2.getSources().map(s => s.json).forEach(source => sources.add(source));
+		}
+		if (typeof PrereleaseUtil !== "undefined" && PrereleaseUtil.getSources) {
+			PrereleaseUtil.getSources().map(s => s.json).forEach(source => sources.add(source));
+		}
+		return [...sources].filter(source => !source.startsWith("sw5e"));
+	}
+
+	/** Block all non-SW5e sources and unblock all SW5e sources (single persist). */
+	static async applySw5eMode ({isSilent = false} = {}) {
+		await ExcludeUtil.pInitialise();
+		await this._pInitBrewSources();
+
+		let excludes = this._mutRemoveLegacyPHBPartialExcludes(ExcludeUtil.getList());
+		excludes = excludes.filter(ex =>
+			!(ex.category === "*" && ex.hash === "*" && ex.source?.startsWith("sw5e")),
+		);
+
+		const nonSw5eSources = this._getNonSW5eSources();
+		nonSw5eSources.forEach(source => {
+			if (!excludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
+				excludes.push({displayName: "*", hash: "*", category: "*", source});
+			}
+		});
+
+		await ExcludeUtil.pSetList(excludes);
+
+		if (!isSilent) {
+			JqueryUtil.doToast({type: "success", content: "Star Wars mode: non-Star Wars sources blocked."});
+		}
+	}
+
+	/** Unblock all non-SW5e sources and block all SW5e sources (single persist). */
+	static async applyDndMode ({isSilent = false} = {}) {
+		await ExcludeUtil.pInitialise();
+		await this._pInitBrewSources();
+
+		const nonSw5eSources = new Set(this._getNonSW5eSources());
+		let excludes = ExcludeUtil.getList().filter(ex => {
+			if (ex.category === "*" && ex.hash === "*" && nonSw5eSources.has(ex.source)) return false;
+			return !this._isLegacyPHBPartialExclude(ex);
+		});
+
+		const sw5eSources = new Set(this._getSW5eSources());
+		ExcludeUtil.getList()
+			.map(ex => ex.source)
+			.filter(source => source?.startsWith("sw5e"))
+			.forEach(source => sw5eSources.add(source));
+
+		sw5eSources.forEach(source => {
+			if (!excludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
+				excludes.push({displayName: "*", hash: "*", category: "*", source});
+			}
+		});
+
+		await ExcludeUtil.pSetList(excludes);
+
+		if (!isSilent) {
+			JqueryUtil.doToast({type: "success", content: "D&D mode: Star Wars sources blocked."});
+		}
+	}
+
+	/** Block all modern (5.5e) sources and unblock all classic (5e) sources (single persist). */
+	static async apply5eMode ({isSilent = false} = {}) {
+		await ExcludeUtil.pInitialise();
+		await this._pInitBrewSources();
+
+		const classicSources = new Set(this._getEditionClassicSources());
+		let excludes = ExcludeUtil.getList().filter(ex => {
+			if (ex.category === "*" && ex.hash === "*" && classicSources.has(ex.source)) return false;
+			return !this._isLegacyPHBPartialExclude(ex);
+		});
+
+		this._getEditionModernSources().forEach(source => {
+			if (!excludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
+				excludes.push({displayName: "*", hash: "*", category: "*", source});
+			}
+		});
+
+		await ExcludeUtil.pSetList(excludes);
+
+		if (!isSilent) {
+			JqueryUtil.doToast({type: "success", content: "5e mode: 5.5e sources blocked."});
+		}
+	}
+
+	/** Block all classic (5e) sources and unblock all modern (5.5e) sources (single persist). */
+	static async apply55eMode ({isSilent = false} = {}) {
+		await ExcludeUtil.pInitialise();
+		await this._pInitBrewSources();
+
+		const modernSources = new Set(this._getEditionModernSources());
+		let excludes = ExcludeUtil.getList().filter(ex => {
+			if (ex.category === "*" && ex.hash === "*" && modernSources.has(ex.source)) return false;
+			return !this._isLegacyPHBPartialExclude(ex);
+		});
+
+		this._getEditionClassicSources().forEach(source => {
+			if (!excludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
+				excludes.push({displayName: "*", hash: "*", category: "*", source});
+			}
+		});
+
+		await ExcludeUtil.pSetList(excludes);
+
+		if (!isSilent) {
+			JqueryUtil.doToast({type: "success", content: "5.5e mode: 5e sources blocked."});
+		}
 	}
 }
 
@@ -1159,3 +1404,240 @@ BlocklistUi.Component = class extends BaseComponent {
 		};
 	}
 };
+
+/**
+ * Site-wide Star Wars vs D&D content mode.
+ * Adds `ve-content-mode-sw5e` or `ve-content-mode-dnd` on `<html>`.
+ */
+class ContentMode {
+	static MODE_DND = "dnd";
+	static MODE_SW5E = "sw5e";
+
+	static _CLASS_PREFIX = "ve-content-mode-";
+
+	/** While applying a mode via the nav toggle; skip blocklist-driven sync. */
+	static _isApplyingMode = false;
+
+	static getMode () {
+		const stored = StorageUtil.syncGet(VeCt.STORAGE_CONTENT_MODE);
+		if (stored === this.MODE_SW5E || stored === this.MODE_DND) return stored;
+		return this.MODE_DND;
+	}
+
+	static syncApplyDocumentClass (mode = null) {
+		mode ||= this.getMode();
+		const root = document.documentElement;
+		root.classList.remove(`${this._CLASS_PREFIX}${this.MODE_DND}`, `${this._CLASS_PREFIX}${this.MODE_SW5E}`);
+		root.classList.add(`${this._CLASS_PREFIX}${mode}`);
+		window.dispatchEvent(new CustomEvent("contentModeChanged", {detail: {mode}}));
+	}
+
+	static async pInitialise () {
+		await ExcludeUtil.pInitialise();
+		await BlocklistUi._pInitBrewSources();
+
+		const inferred = await this._pInferModeFromBlocklist();
+		let mode = StorageUtil.syncGet(VeCt.STORAGE_CONTENT_MODE);
+
+		if (inferred != null) mode = inferred;
+		else if (mode !== this.MODE_SW5E && mode !== this.MODE_DND) mode = this.MODE_DND;
+
+		StorageUtil.syncSet(VeCt.STORAGE_CONTENT_MODE, mode);
+		await StorageUtil.pSet(VeCt.STORAGE_CONTENT_MODE, mode);
+		this.syncApplyDocumentClass(mode);
+	}
+
+	static async pSetMode (mode) {
+		if (mode !== this.MODE_DND && mode !== this.MODE_SW5E) {
+			throw new Error(`Unhandled content mode "${mode}"`);
+		}
+
+		this._isApplyingMode = true;
+		try {
+			StorageUtil.syncSet(VeCt.STORAGE_CONTENT_MODE, mode);
+			await StorageUtil.pSet(VeCt.STORAGE_CONTENT_MODE, mode);
+			this.syncApplyDocumentClass(mode);
+
+			if (mode === this.MODE_SW5E) await BlocklistUi.applySw5eMode({isSilent: true});
+			else await BlocklistUi.applyDndMode({isSilent: true});
+
+			JqueryUtil.doToast({
+				type: "success",
+				content: mode === this.MODE_SW5E ? "Star Wars mode enabled." : "D&D mode enabled.",
+			});
+
+			BlocklistUi._pNotifyExclusionsChanged();
+		} finally {
+			this._isApplyingMode = false;
+		}
+	}
+
+	/**
+	 * If the blocklist matches a full Star Wars or D&D preset, update storage and the document class.
+	 * Does nothing for custom/partial blocklists.
+	 */
+	static async pSyncFromBlocklist () {
+		if (this._isApplyingMode) return;
+
+		const inferred = await this._pInferModeFromBlocklist();
+		if (inferred == null) return;
+
+		const cur = this.getMode();
+		if (cur === inferred) {
+			if (!document.documentElement.classList.contains(`${this._CLASS_PREFIX}${inferred}`)) {
+				this.syncApplyDocumentClass(inferred);
+			}
+			return;
+		}
+
+		StorageUtil.syncSet(VeCt.STORAGE_CONTENT_MODE, inferred);
+		await StorageUtil.pSet(VeCt.STORAGE_CONTENT_MODE, inferred);
+		this.syncApplyDocumentClass(inferred);
+	}
+
+	static async _pInferModeFromBlocklist () {
+		if (!ExcludeUtil.isInitialised) await ExcludeUtil.pInitialise();
+		await BlocklistUi._pInitBrewSources();
+
+		const wildcards = ExcludeUtil.getList()
+			.filter(ex => !ex.isAuto && ex.category === "*" && ex.hash === "*");
+
+		const blockedNonSw5e = wildcards.filter(ex => !ex.source?.startsWith("sw5e"));
+		const blockedSw5e = wildcards.filter(ex => ex.source?.startsWith("sw5e"));
+
+		// D&D preset: Star Wars sources blocked, no full-source blocks on other content.
+		if (blockedSw5e.length > 0 && blockedNonSw5e.length === 0) return this.MODE_DND;
+
+		// Star Wars preset: non-Star Wars sources blocked, no Star Wars full-source blocks.
+		if (blockedNonSw5e.length > 0 && blockedSw5e.length === 0) return this.MODE_SW5E;
+
+		return null;
+	}
+}
+
+globalThis.ContentMode = ContentMode;
+
+ContentMode.syncApplyDocumentClass();
+window.addEventListener("DOMContentLoaded", () => ContentMode.pInitialise().then(null));
+window.addEventListener("exclusionsChanged", () => ContentMode.pSyncFromBlocklist().then(null));
+
+/**
+ * Site-wide 5e (2014) vs 5.5e (2024) edition mode.
+ * Adds `ve-edition-mode-5e` or `ve-edition-mode-55e` on `<html>`.
+ */
+class EditionMode {
+	static MODE_5E = "5e";
+	static MODE_55E = "55e";
+
+	static _CLASS_PREFIX = "ve-edition-mode-";
+
+	/** While applying a mode via the nav toggle; skip blocklist-driven sync. */
+	static _isApplyingMode = false;
+
+	static _isEditionRelevantSource (source) {
+		return source && !source.startsWith("sw5e");
+	}
+
+	static getMode () {
+		const stored = StorageUtil.syncGet(VeCt.STORAGE_EDITION_MODE);
+		if (stored === this.MODE_5E || stored === this.MODE_55E) return stored;
+		return this.MODE_5E;
+	}
+
+	static syncApplyDocumentClass (mode = null) {
+		mode ||= this.getMode();
+		const root = document.documentElement;
+		root.classList.remove(`${this._CLASS_PREFIX}${this.MODE_5E}`, `${this._CLASS_PREFIX}${this.MODE_55E}`);
+		root.classList.add(`${this._CLASS_PREFIX}${mode}`);
+		window.dispatchEvent(new CustomEvent("editionModeChanged", {detail: {mode}}));
+	}
+
+	static async pInitialise () {
+		await ExcludeUtil.pInitialise();
+		await BlocklistUi._pInitBrewSources();
+
+		const inferred = await this._pInferModeFromBlocklist();
+		let mode = StorageUtil.syncGet(VeCt.STORAGE_EDITION_MODE);
+
+		if (inferred != null) mode = inferred;
+		else if (mode !== this.MODE_5E && mode !== this.MODE_55E) mode = this.MODE_5E;
+
+		StorageUtil.syncSet(VeCt.STORAGE_EDITION_MODE, mode);
+		await StorageUtil.pSet(VeCt.STORAGE_EDITION_MODE, mode);
+		this.syncApplyDocumentClass(mode);
+	}
+
+	static async pSetMode (mode) {
+		if (mode !== this.MODE_5E && mode !== this.MODE_55E) {
+			throw new Error(`Unhandled edition mode "${mode}"`);
+		}
+
+		this._isApplyingMode = true;
+		try {
+			StorageUtil.syncSet(VeCt.STORAGE_EDITION_MODE, mode);
+			await StorageUtil.pSet(VeCt.STORAGE_EDITION_MODE, mode);
+			this.syncApplyDocumentClass(mode);
+
+			if (mode === this.MODE_5E) await BlocklistUi.apply5eMode({isSilent: true});
+			else await BlocklistUi.apply55eMode({isSilent: true});
+
+			JqueryUtil.doToast({
+				type: "success",
+				content: mode === this.MODE_5E ? "5e mode enabled." : "5.5e mode enabled.",
+			});
+
+			BlocklistUi._pNotifyExclusionsChanged();
+		} finally {
+			this._isApplyingMode = false;
+		}
+	}
+
+	/**
+	 * If the blocklist matches a full 5e or 5.5e preset, update storage and the document class.
+	 * Does nothing for custom/partial blocklists.
+	 */
+	static async pSyncFromBlocklist () {
+		if (this._isApplyingMode) return;
+
+		const inferred = await this._pInferModeFromBlocklist();
+		if (inferred == null) return;
+
+		const cur = this.getMode();
+		if (cur === inferred) {
+			if (!document.documentElement.classList.contains(`${this._CLASS_PREFIX}${inferred}`)) {
+				this.syncApplyDocumentClass(inferred);
+			}
+			return;
+		}
+
+		StorageUtil.syncSet(VeCt.STORAGE_EDITION_MODE, inferred);
+		await StorageUtil.pSet(VeCt.STORAGE_EDITION_MODE, inferred);
+		this.syncApplyDocumentClass(inferred);
+	}
+
+	static async _pInferModeFromBlocklist () {
+		if (!ExcludeUtil.isInitialised) await ExcludeUtil.pInitialise();
+		await BlocklistUi._pInitBrewSources();
+
+		const wildcards = ExcludeUtil.getList()
+			.filter(ex => !ex.isAuto && ex.category === "*" && ex.hash === "*")
+			.filter(ex => this._isEditionRelevantSource(ex.source));
+
+		const blockedModern = wildcards.filter(ex => !SourceUtil.isClassicSource(ex.source));
+		const blockedClassic = wildcards.filter(ex => SourceUtil.isClassicSource(ex.source));
+
+		// 5e preset: modern sources blocked, no classic full-source blocks.
+		if (blockedModern.length > 0 && blockedClassic.length === 0) return this.MODE_5E;
+
+		// 5.5e preset: classic sources blocked, no modern full-source blocks.
+		if (blockedClassic.length > 0 && blockedModern.length === 0) return this.MODE_55E;
+
+		return null;
+	}
+}
+
+globalThis.EditionMode = EditionMode;
+
+EditionMode.syncApplyDocumentClass();
+window.addEventListener("DOMContentLoaded", () => EditionMode.pInitialise().then(null));
+window.addEventListener("exclusionsChanged", () => EditionMode.pSyncFromBlocklist().then(null));

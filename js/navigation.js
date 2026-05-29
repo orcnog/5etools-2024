@@ -154,13 +154,6 @@ class NavBar {
 				],
 			},
 		);
-		this._addElement_forkUtilitiesBlocklistRow({
-			keyPath: [NavBar._CAT_UTILITIES],
-			label: "5.5E Sources",
-			onBlock: () => BlocklistUi.addAllModernSources(),
-			onUnblock: () => BlocklistUi.removeAllModernSources(),
-		});
-
 		// Add blocklist button synchronously if content-blocklist.json exists and has entries
 		try {
 			const request = new XMLHttpRequest();
@@ -187,11 +180,11 @@ class NavBar {
 			console.warn("No content-blocklist.json found or failed to load:", error);
 		}
 
-		this._addElement_forkUtilitiesBlocklistRow({
+		this._addElement_forkUtilitiesEditionModeToggle({
 			keyPath: [NavBar._CAT_UTILITIES],
-			label: "Star Wars Sources",
-			onBlock: () => BlocklistUi.addAllSW5eSources(),
-			onUnblock: () => BlocklistUi.removeAllSW5eSources(),
+		});
+		this._addElement_forkUtilitiesContentModeToggle({
+			keyPath: [NavBar._CAT_UTILITIES],
 		});
 		this._addElement_divider({keyPath: [NavBar._CAT_UTILITIES]});
 		this._addElement_li({keyPath: [NavBar._CAT_UTILITIES], page: "inittrackerplayerview.html", aText: "Initiative Tracker Player View"});
@@ -729,6 +722,170 @@ class NavBar {
 		wrapper.appendChild(mkBtn("Unblock", "ve-btn ve-btn-info ve-b-0 ve-btn-xxs", onUnblock));
 		li.appendChild(wrapper);
 		parentNode.getBodyElement().appendChild(li);
+	}
+
+	/**
+	 * Fork: Utilities dropdown — 5e (2014) / 5.5e (2024) edition mode toggle.
+	 */
+	static _addElement_forkUtilitiesEditionModeToggle ({keyPath = null} = {}) {
+		const parentNode = this._tree.getNode({keyPath});
+
+		const li = document.createElement("li");
+		li.setAttribute("role", "presentation");
+
+		const wrapper = document.createElement("div");
+		wrapper.className = "ve-content-mode-row ve-flex-v-center ve-w-100";
+		wrapper.onclick = evt => evt.stopPropagation();
+
+		const toggleWrap = document.createElement("div");
+		toggleWrap.className = "ve-content-mode-toggle";
+
+		const side5e = document.createElement("span");
+		side5e.className = "ve-content-mode-toggle__side ve-content-mode-toggle__side--5e";
+		side5e.textContent = "5e Mode";
+
+		const label = document.createElement("label");
+		label.className = "ve-content-mode-toggle__switch";
+
+		const input = document.createElement("input");
+		input.type = "checkbox";
+		input.className = "ve-content-mode-toggle__input";
+		input.setAttribute("role", "switch");
+		input.setAttribute("aria-label", "Toggle between 5e mode and 5.5e mode");
+
+		const track = document.createElement("span");
+		track.className = "ve-content-mode-toggle__track";
+		track.setAttribute("aria-hidden", "true");
+
+		const side55e = document.createElement("span");
+		side55e.className = "ve-content-mode-toggle__side ve-content-mode-toggle__side--55e";
+		side55e.textContent = "5.5e Mode";
+
+		const syncUi = () => {
+			const is55e = typeof EditionMode !== "undefined"
+				? EditionMode.getMode() === EditionMode.MODE_55E
+				: document.documentElement.classList.contains("ve-edition-mode-55e");
+			const isSw5e = typeof ContentMode !== "undefined"
+				? ContentMode.getMode() === ContentMode.MODE_SW5E
+				: document.documentElement.classList.contains("ve-content-mode-sw5e");
+
+			// 5e left, 5.5e right; thumb right = 5.5e mode active.
+			input.checked = is55e;
+			input.disabled = isSw5e;
+			wrapper.classList.toggle("ve-content-mode-row--disabled", isSw5e);
+			toggleWrap.classList.toggle("ve-content-mode-toggle--disabled", isSw5e);
+			toggleWrap.classList.toggle("ve-content-mode-toggle--55e", is55e && !isSw5e);
+			toggleWrap.classList.toggle("ve-content-mode-toggle--5e", !is55e && !isSw5e);
+		};
+
+		input.addEventListener("change", async (evt) => {
+			evt.stopPropagation();
+			if (input.disabled) return;
+			const isChecked = input.checked;
+			const nxtMode = isChecked ? EditionMode.MODE_55E : EditionMode.MODE_5E;
+			try {
+				await EditionMode.pSetMode(nxtMode);
+			} catch (err) {
+				input.checked = !isChecked;
+				syncUi();
+				JqueryUtil.doToast({type: "danger", content: `Failed to change edition mode: ${err.message}`});
+			}
+		});
+
+		label.appendChild(input);
+		label.appendChild(track);
+		toggleWrap.appendChild(side5e);
+		toggleWrap.appendChild(label);
+		toggleWrap.appendChild(side55e);
+		wrapper.appendChild(toggleWrap);
+		li.appendChild(wrapper);
+		parentNode.getBodyElement().appendChild(li);
+
+		syncUi();
+		window.addEventListener("editionModeChanged", syncUi);
+		window.addEventListener("contentModeChanged", syncUi);
+		if (typeof EditionMode !== "undefined") {
+			EditionMode.pInitialise().then(() => syncUi()).then(null);
+		}
+		if (typeof ContentMode !== "undefined") {
+			ContentMode.pInitialise().then(() => syncUi()).then(null);
+		}
+	}
+
+	/**
+	 * Fork: Utilities dropdown — Star Wars / D&D content mode toggle.
+	 */
+	static _addElement_forkUtilitiesContentModeToggle ({keyPath = null} = {}) {
+		const parentNode = this._tree.getNode({keyPath});
+
+		const li = document.createElement("li");
+		li.setAttribute("role", "presentation");
+
+		const wrapper = document.createElement("div");
+		wrapper.className = "ve-content-mode-row ve-flex-v-center ve-w-100";
+		wrapper.onclick = evt => evt.stopPropagation();
+
+		const toggleWrap = document.createElement("div");
+		toggleWrap.className = "ve-content-mode-toggle";
+
+		const sideDnd = document.createElement("span");
+		sideDnd.className = "ve-content-mode-toggle__side ve-content-mode-toggle__side--dnd";
+		sideDnd.textContent = "D&D Mode";
+
+		const label = document.createElement("label");
+		label.className = "ve-content-mode-toggle__switch";
+
+		const input = document.createElement("input");
+		input.type = "checkbox";
+		input.className = "ve-content-mode-toggle__input";
+		input.setAttribute("role", "switch");
+		input.setAttribute("aria-label", "Toggle between D&D mode and Star Wars mode");
+
+		const track = document.createElement("span");
+		track.className = "ve-content-mode-toggle__track";
+		track.setAttribute("aria-hidden", "true");
+
+		const sideSw = document.createElement("span");
+		sideSw.className = "ve-content-mode-toggle__side ve-content-mode-toggle__side--sw5e";
+		sideSw.textContent = "Star Wars Mode";
+
+		const syncUi = () => {
+			const isSw5e = typeof ContentMode !== "undefined"
+				? ContentMode.getMode() === ContentMode.MODE_SW5E
+				: document.documentElement.classList.contains("ve-content-mode-sw5e");
+			// D&D left, Star Wars right; thumb right = Star Wars mode active.
+			input.checked = isSw5e;
+			toggleWrap.classList.toggle("ve-content-mode-toggle--sw5e", isSw5e);
+			toggleWrap.classList.toggle("ve-content-mode-toggle--dnd", !isSw5e);
+		};
+
+		input.addEventListener("change", async (evt) => {
+			evt.stopPropagation();
+			const isChecked = input.checked;
+			const nxtMode = isChecked ? ContentMode.MODE_SW5E : ContentMode.MODE_DND;
+			try {
+				await ContentMode.pSetMode(nxtMode);
+			} catch (err) {
+				input.checked = !isChecked;
+				syncUi();
+				JqueryUtil.doToast({type: "danger", content: `Failed to change content mode: ${err.message}`});
+			}
+		});
+
+		label.appendChild(input);
+		label.appendChild(track);
+		toggleWrap.appendChild(sideDnd);
+		toggleWrap.appendChild(label);
+		toggleWrap.appendChild(sideSw);
+		wrapper.appendChild(toggleWrap);
+		li.appendChild(wrapper);
+		parentNode.getBodyElement().appendChild(li);
+
+		syncUi();
+		window.addEventListener("contentModeChanged", syncUi);
+		if (typeof ContentMode !== "undefined") {
+			ContentMode.pInitialise().then(() => syncUi()).then(null);
+		}
 	}
 
 	/**

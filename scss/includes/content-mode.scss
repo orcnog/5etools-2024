@@ -1,0 +1,120 @@
+@use "../vars/vars";
+
+@layer vetools {
+	.ve-content-mode-row {
+		justify-content: flex-start;
+		padding: 3px 20px;
+		white-space: nowrap;
+
+		&--disabled {
+			cursor: not-allowed;
+		}
+	}
+
+	.ve-content-mode-toggle {
+		display: inline-flex;
+		flex-shrink: 0;
+		align-items: center;
+		gap: 0.5rem;
+
+		&__side {
+			// Match `.ve-dropdown-menu > li > span` (bootstrap-custom.scss).
+			font-size: inherit;
+			font-weight: 400;
+			line-height: vars.$font-line-height;
+			opacity: 0.45;
+			transition: opacity 0.15s ease, font-weight 0.15s ease;
+		}
+
+		&--sw5e &__side--sw5e,
+		&--dnd &__side--dnd,
+		&--55e &__side--55e,
+		&--5e &__side--5e {
+			opacity: 1;
+			font-weight: 600;
+		}
+
+		&--sw5e &__side--dnd,
+		&--dnd &__side--sw5e,
+		&--55e &__side--5e,
+		&--5e &__side--55e {
+			opacity: 0.45;
+			font-weight: 400;
+		}
+
+		&--disabled {
+			cursor: not-allowed;
+
+			.ve-content-mode-toggle__side {
+				opacity: 0.45;
+				font-weight: 400;
+				cursor: not-allowed;
+			}
+
+			.ve-content-mode-toggle__switch {
+				cursor: not-allowed;
+			}
+
+			.ve-content-mode-toggle__track {
+				opacity: 0.35;
+				background: #ccc;
+				filter: grayscale(0.25);
+			}
+
+			.ve-content-mode-toggle__input:checked + .ve-content-mode-toggle__track {
+				background: #8aa4b8;
+			}
+		}
+
+		&__switch {
+			position: relative;
+			display: inline-block;
+			flex-shrink: 0;
+			margin: 0;
+			cursor: pointer;
+		}
+
+		&__input {
+			position: absolute;
+			opacity: 0;
+			width: 0;
+			height: 0;
+
+			&:focus-visible + .ve-content-mode-toggle__track {
+				outline: 2px solid rgb(0 107 196);
+				outline-offset: 2px;
+			}
+		}
+
+		&__track {
+			position: relative;
+			display: block;
+			width: 2.5rem;
+			height: 1.25rem;
+			border-radius: 1.25rem;
+			background: #bbb;
+			transition: background 0.2s ease;
+
+			&::after {
+				content: "";
+				position: absolute;
+				top: 2px;
+				left: 2px;
+				width: calc(1.25rem - 4px);
+				height: calc(1.25rem - 4px);
+				border-radius: 50%;
+				background: #fff;
+				box-shadow: 0 1px 2px rgb(0 0 0 / 0.25);
+				transition: transform 0.2s ease;
+			}
+		}
+
+		&__input:checked + &__track {
+			background: rgb(0 107 196);
+
+			&::after {
+				transform: translateX(1.25rem);
+			}
+		}
+	}
+}
