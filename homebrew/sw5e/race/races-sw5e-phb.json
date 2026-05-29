@@ -55,7 +55,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -168,14 +168,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Naturally Stealthy",
+					"name": "Naturally {@feat Stealthy|sw5e-phb}",
 					"entries": [
 						"You can attempt to hide even when you are obscured only by a creature that is your size or larger than you."
 					]
@@ -260,7 +260,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -274,7 +274,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "{@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -367,14 +367,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Intuitive Initiative",
+					"name": "Intuitive {@variantrule Initiative|sw5e-phb}",
 					"entries": [
 						"You can choose to reroll {@variantrule Initiative|sw5e-phb} checks, but you must use the new roll."
 					]
@@ -473,7 +473,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -494,14 +494,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tech Resistance",
+					"name": "Tech {@spell Resistance|sw5e-phb}",
 					"entries": [
 						"Growing up around technology leaves an impact on chiss. You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity and Intelligence {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Superior Darkvision",
+					"name": "Superior {@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 120 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -573,7 +573,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -608,7 +608,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tech Resistance",
+					"name": "Tech {@spell Resistance|sw5e-phb}",
 					"entries": [
 						"Growing up around technology leaves an impact on devaronians. You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity and Intelligence {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
@@ -688,7 +688,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
@@ -821,7 +821,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
@@ -967,7 +967,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
@@ -1098,7 +1098,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -1229,7 +1229,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -1367,14 +1367,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "{@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -1402,7 +1402,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tech Resistance",
+					"name": "Tech {@spell Resistance|sw5e-phb}",
 					"entries": [
 						"Growing up around technology leaves an impact on duros. You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity and Intelligence {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
@@ -1472,7 +1472,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
@@ -1507,7 +1507,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Natural Survivalist",
+					"name": "Natural {@feat Survivalist|sw5e-phb}",
 					"entries": [
 						"You have proficiency in {@skill Nature|sw5e-phb} and {@skill Survival|sw5e-phb}."
 					]
@@ -1590,7 +1590,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -1678,7 +1678,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -1692,7 +1692,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "{@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -1798,7 +1798,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -1882,7 +1882,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -1982,14 +1982,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "{@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -2010,7 +2010,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tech Dabbler",
+					"name": "{@feat Tech Dabbler|sw5e-phb}",
 					"entries": [
 						"You know the {@i ion blast} at-will {@book tech power|sw5e-phb|12|Tech Powers}. When you reach 3rd level, you learn and can cast the {@i repair droid} {@book tech power|sw5e-phb|12|Tech Powers} once per {@variantrule Long Rest|sw5e-phb|long rest}. When you reach 5th level, you learn and can cast the {@i hold droid} {@book tech power|sw5e-phb|12|Tech Powers} once per {@variantrule Long Rest|sw5e-phb|long rest}. Your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} is Intelligence. You do not require use of a {@item Wristpad|sw5e-phb|wristpad} for these powers."
 					]
@@ -2101,14 +2101,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "{@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"Your natural evolution allows you to see what others do not in dim and dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can't discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -2201,7 +2201,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2215,14 +2215,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "{@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can't discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Mon Calamari Resistance",
+					"name": "Mon Calamari {@spell Resistance|sw5e-phb}",
 					"entries": [
 						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that grant the {@condition Slowed|sw5e-phb|slowed} condition and you have {@spell Resistance|sw5e-phb|resistance} against cold damage (explained in chapter 9)."
 					]
@@ -2309,7 +2309,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2330,7 +2330,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "{@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -2422,7 +2422,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2436,7 +2436,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "{@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -2522,21 +2522,21 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "{@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Force-Sensitive",
+					"name": "{@feat Force-Sensitive|sw5e-phb}",
 					"entries": [
 						"You know the {@i denounce} at-will {@book force power|sw5e-phb|11|Force Powers}. When you reach 3rd level, you learn and can cast the {@i curse} {@book force power|sw5e-phb|11|Force Powers} once per {@variantrule Long Rest|sw5e-phb|long rest}. When you reach 5th level, you learn and can cast the {@i bestow curse} {@book force power|sw5e-phb|11|Force Powers} once per {@variantrule Long Rest|sw5e-phb|long rest}. Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} is Charisma for these powers."
 					]
@@ -2623,7 +2623,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2639,7 +2639,7 @@
 					"type": "entries",
 					"name": "Montral Reception",
 					"entries": [
-						"You have tremorsense out to 30 feet. You can detect and pinpoint the origin of vibrations within a specific radius, provided that you and the source of the vibrations are in contact with the same ground or substance. Tremorsense can’t be used to detect flying or incorporeal creatures."
+						"You have {@sense Tremorsense|sw5e-phb|tremorsense} out to 30 feet. You can detect and pinpoint the origin of vibrations within a specific radius, provided that you and the source of the vibrations are in contact with the same ground or substance. {@sense Tremorsense|sw5e-phb} can’t be used to detect flying or incorporeal creatures."
 					]
 				},
 				{
@@ -2716,7 +2716,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2730,7 +2730,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "{@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -2819,7 +2819,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2833,7 +2833,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Animal Handler",
+					"name": "{@feat Animal Handler|sw5e-phb}",
 					"entries": [
 						"You have proficiency in the {@skill Animal Handling|sw5e-phb} skill."
 					]
@@ -2936,7 +2936,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2950,7 +2950,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "{@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -3043,7 +3043,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -3143,7 +3143,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -3157,7 +3157,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "{@sense Darkvision|sw5e-phb}",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -3253,7 +3253,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Speed",
+					"name": "{@variantrule Speed|sw5e-phb}",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]

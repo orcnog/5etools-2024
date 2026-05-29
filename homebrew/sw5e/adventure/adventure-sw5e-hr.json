@@ -61,7 +61,7 @@
 			"wis": 9,
 			"cha": 6,
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 120 ft."
+				"{@sense Darkvision|sw5e-phb|darkvision} 120 ft."
 			],
 			"passive": 9,
 			"cr": "8",
@@ -149,7 +149,7 @@
 				"survival": "+4"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft",
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft",
 				"(adv, sight and hearing)"
 			],
 			"passive": 14,
@@ -258,7 +258,7 @@
 				"survival": "+5"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft",
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft",
 				"(adv, sight and hearing)"
 			],
 			"passive": 15,
@@ -367,7 +367,7 @@
 				"survival": "+9"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft",
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft",
 				"(adv, sight and hearing)"
 			],
 			"passive": 19,
@@ -485,7 +485,7 @@
 			"wis": 8,
 			"cha": 6,
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 9,
 			"cr": "1/8",
@@ -574,7 +574,7 @@
 				"stealth": "+6"
 			},
 			"senses": [
-				"blindsight 60 ft."
+				"{@sense Blindsight|sw5e-phb|blindsight} 60 ft."
 			],
 			"passive": 11,
 			"resist": [
@@ -687,7 +687,7 @@
 				{
 					"name": "Keen Hearing and Smell",
 					"entries": [
-						"The rat has {@variantrule Advantage|sw5e-phb|advantage} on on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on hearing and smell."
+						"The rat has {@variantrule Advantage|sw5e-phb|advantage} on on Wisdom ({@skill Perception}) checks that rely on hearing and smell."
 					]
 				},
 				{
@@ -756,7 +756,7 @@
 				"stealth": "+3"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 11,
 			"languages": [

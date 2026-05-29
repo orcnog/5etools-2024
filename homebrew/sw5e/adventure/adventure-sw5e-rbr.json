@@ -167,7 +167,7 @@
 				"survival": "+3"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 13,
 			"languages": [
@@ -545,7 +545,7 @@
 				"int": "+2"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 10,
 			"immune": [
@@ -606,7 +606,7 @@
 								},
 								{
 									"type": "item",
-									"name": "Unusual {@skill Nature|sw5e-phb}",
+									"name": "Unusual {@skill Nature}",
 									"entries": [
 										"The super battle droid doesn't require air, food, drink, or sleep."
 									]
@@ -616,7 +616,7 @@
 					]
 				},
 				{
-					"name": "Unusual {@skill Nature|sw5e-phb}",
+					"name": "Unusual {@skill Nature}",
 					"entries": [
 						"The super battle droid doesn't require air, food, drink, or sleep."
 					]
@@ -643,7 +643,7 @@
 				}
 			],
 			"traitTags": [
-				"Unusual {@skill Nature|sw5e-phb}"
+				"Unusual {@skill Nature}"
 			],
 			"senseTags": [
 				"D"
@@ -718,7 +718,7 @@
 				"int": "+2"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 10,
 			"resist": [
@@ -791,7 +791,7 @@
 					]
 				},
 				{
-					"name": "Unusual {@skill Nature|sw5e-phb}",
+					"name": "Unusual {@skill Nature}",
 					"entries": [
 						"The droideka doesn't require air, food, drink, or sleep."
 					]
@@ -812,7 +812,7 @@
 				}
 			],
 			"traitTags": [
-				"Unusual {@skill Nature|sw5e-phb}"
+				"Unusual {@skill Nature}"
 			],
 			"senseTags": [
 				"D"
@@ -895,7 +895,7 @@
 				"perception": "+8"
 			},
 			"senses": [
-				"blindsight 120 ft."
+				"{@sense Blindsight|sw5e-phb|blindsight} 120 ft."
 			],
 			"passive": 13,
 			"resist": [
@@ -991,7 +991,7 @@
 				{
 					"name": "Bring Down the Walls",
 					"entries": [
-						"Darth Ensis uses the Force to pull a massive pillar, section of wall, or other huge object or piece of terrain down in an attempt to crush and obstruct his opponents. The affected area is a line up to 40 ft. long, extending from the base of the object pulled down in any direction of the Sith's choosing. Every creature within 10 ft. of that line must succeed on a {@dc 16} Dexterity Saving Throw or take {@damage 5d6} bludgeoning damage."
+						"Darth Ensis uses the Force to pull a massive pillar, section of wall, or other huge object or piece of terrain down in an attempt to crush and obstruct his opponents. The affected area is a line up to 40 ft. long, extending from the base of the object pulled down in any direction of the Sith's choosing. Every creature within 10 ft. of that line must succeed on a {@dc 16} {@variantrule Saving Throw|sw5e-phb|Dexterity saving throw} or take {@damage 5d6} bludgeoning damage."
 					]
 				}
 			],

@@ -17,7 +17,7 @@
 	},
 	"condition": [
 		{
-			"name": "Blinded",
+			"name": "{@condition Blinded|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -25,7 +25,7 @@
 			]
 		},
 		{
-			"name": "Charmed",
+			"name": "{@condition Charmed|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -33,7 +33,7 @@
 			]
 		},
 		{
-			"name": "Corroded",
+			"name": "{@condition Corroded|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -42,7 +42,7 @@
 			]
 		},
 		{
-			"name": "Deafened",
+			"name": "{@condition Deafened|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -50,7 +50,7 @@
 			]
 		},
 		{
-			"name": "Diseased",
+			"name": "{@condition Diseased|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -63,7 +63,7 @@
 			]
 		},
 		{
-			"name": "Exhaustion",
+			"name": "{@condition Exhaustion|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -71,7 +71,7 @@
 			]
 		},
 		{
-			"name": "Frightened",
+			"name": "{@condition Frightened|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -79,7 +79,7 @@
 			]
 		},
 		{
-			"name": "Grappled",
+			"name": "{@condition Grappled|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -87,7 +87,7 @@
 			]
 		},
 		{
-			"name": "Ignited",
+			"name": "{@condition Ignited|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -101,7 +101,7 @@
 			]
 		},
 		{
-			"name": "Incapacitated",
+			"name": "{@condition Incapacitated|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -109,7 +109,7 @@
 			]
 		},
 		{
-			"name": "Invisible",
+			"name": "{@condition Invisible|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -117,7 +117,7 @@
 			]
 		},
 		{
-			"name": "Paralyzed",
+			"name": "{@condition Paralyzed|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -125,7 +125,7 @@
 			]
 		},
 		{
-			"name": "Petrified",
+			"name": "{@condition Petrified|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -133,7 +133,7 @@
 			]
 		},
 		{
-			"name": "Poisoned",
+			"name": "{@condition Poisoned|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -149,7 +149,7 @@
 			]
 		},
 		{
-			"name": "Restrained",
+			"name": "{@condition Restrained|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -157,7 +157,7 @@
 			]
 		},
 		{
-			"name": "Shocked",
+			"name": "{@condition Shocked|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -165,14 +165,14 @@
 			]
 		},
 		{
-			"name": "Slowed",
+			"name": "{@condition Slowed|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
 				"Some abilities, effects, and hazards can lead to a special condition called {@condition Slowed|sw5e-phb|slowed}. {@condition Slowed|sw5e-phb} is measured in four levels. An effect can give a creature one or more levels of {@condition Slowed|sw5e-phb|slowed}, as specified in the effect's description.",
 				{
 					"type": "entries",
-					"name": "Slowed Level",
+					"name": "{@condition Slowed|sw5e-phb} Level",
 					"entries": [
 						{
 							"type": "table",
@@ -210,7 +210,7 @@
 			]
 		},
 		{
-			"name": "Stunned",
+			"name": "{@condition Stunned|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -218,15 +218,15 @@
 			]
 		},
 		{
-			"name": "Unconscious",
+			"name": "{@condition Unconscious|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
-				"An {@condition Unconscious|sw5e-phb} creature is {@condition Incapacitated|sw5e-phb} (see the condition), can't move or speak, and is unaware of its surroundings\\r\\n- The creature drops whatever it's holding and falls prone.\\r\\n- The creature automatically fails Strength and Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}.\\r\\n- Attack rolls against the creature have {@variantrule Advantage|sw5e-phb|advantage}.\\r\\n- Any attack that hits the creature is a {@variantrule Critical Hit|sw5e-phb|critical hit} if the attacker is within 5 feet of the creature."
+				"An {@condition Unconscious|sw5e-phb} creature is {@condition Incapacitated|sw5e-phb} (see the condition), can't move or speak, and is unaware of its surroundings\\r\\n- The creature drops whatever it's holding and falls {@condition Prone|sw5e-phb|prone}.\\r\\n- The creature automatically fails Strength and Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}.\\r\\n- Attack rolls against the creature have {@variantrule Advantage|sw5e-phb|advantage}.\\r\\n- Any attack that hits the creature is a {@variantrule Critical Hit|sw5e-phb|critical hit} if the attacker is within 5 feet of the creature."
 			]
 		},
 		{
-			"name": "Weakened",
+			"name": "{@condition Weakened|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [

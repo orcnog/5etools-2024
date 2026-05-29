@@ -85,7 +85,22 @@ Many collections support fetching **one record** by chapter name or row key:
 ## Import pipeline
 
 ```bash
-python homebrew/sw5e/scripts/import-sw5e-phb-from-api.py
+python homebrew/sw5e/scripts/phb/import-sw5e-phb-from-api.py
 ```
 
-Uses `sw5e_md_convert.py` for markdown → 5etools book entries. Existing **Credits** in `book/book-sw5e-phb.json` are preserved on re-import.
+Uses `phb/sw5e_md_convert.py` for markdown → 5etools book entries. Existing **Credits** in `book/book-sw5e-phb.json` are preserved on re-import. Entity data lives in sibling pack files (`spells/`, `items/`, `race/`, etc.); see `phb/paths.py`.
+
+Equipment entities (`item[]`) are refreshed separately:
+
+```bash
+python homebrew/sw5e/scripts/phb/import-sw5e-phb-data.py
+python homebrew/sw5e/scripts/phb/analyze-sw5e-equipment.py
+```
+
+All **186** PHB rows from `GET /api/equipment` (`contentSource: PHB`) are imported; stats merge API fields with existing orcnog item data where names match.
+
+Species-only refresh:
+
+```bash
+python homebrew/sw5e/scripts/phb/import-sw5e-species.py
+```

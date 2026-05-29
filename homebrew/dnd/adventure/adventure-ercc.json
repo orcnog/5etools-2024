@@ -504,7 +504,7 @@
 						{
 							"type": "insetReadaloud",
 							"entries": [
-								"Searching the surrounding village, you find modest homes and shops lining the solitary main street—nothing out of the ordinary. Until one thing catches your eye... sitting on a patio table outside quaint-looking coffee shop, you see a forgoten coffee drink. You gasp.  You recognize it from the mountain of whip cream on top and the bacon sticking out of it!  It's the most merry, most delicious Christmas drink ever invented: a {@item Double Shot White Chocolate Peppermint Mocha Orcnog with Chestnut Praline Crumble, Extra Whip, and Cinnamon Bacon Stir Stick|ERCC}! [GASP] Santa's favorite drink! Hell, everyone's favorite drink!"
+								"Searching the surrounding village, you find modest homes and shops lining the solitary main street\u2014nothing out of the ordinary. Until one thing catches your eye... sitting on a patio table outside quaint-looking coffee shop, you see a forgoten coffee drink. You gasp.  You recognize it from the mountain of whip cream on top and the bacon sticking out of it!  It's the most merry, most delicious Christmas drink ever invented: a {@item Double Shot White Chocolate Peppermint Mocha Orcnog with Chestnut Praline Crumble, Extra Whip, and Cinnamon Bacon Stir Stick|ERCC}! [GASP] Santa's favorite drink! Hell, everyone's favorite drink!"
 							]
 						},
 						"{@cue DC 10 Investigation of moseleum, or just of MORE of the village} - Read the following:",
@@ -738,7 +738,7 @@
 							"type": "insetReadaloud",
 							"entries": [
 								"{@cue [Load Image #11: Stocking Puzzle]|media}",
-								"Coming to a dead end in this cave corridor, you see what appears to be a boulder blocking the passage. On the cave wall to the left are some toys: a teddy bear, a doll, a jack-in-the-box, and a tin soldier. You grin to yourself—tin soldiers were always Santa's favorite toy—you hope the big guy is alright. Next to the solid boulder are 4 stockings hung by a fire, each with a name written on it.",
+								"Coming to a dead end in this cave corridor, you see what appears to be a boulder blocking the passage. On the cave wall to the left are some toys: a teddy bear, a doll, a jack-in-the-box, and a tin soldier. You grin to yourself\u2014tin soldiers were always Santa's favorite toy\u2014you hope the big guy is alright. Next to the solid boulder are 4 stockings hung by a fire, each with a name written on it.",
 								"The names on the stockings are as follows, from left to right: \"Ben Bolder, Betty Claire, Paul, Kraken Seahawks\". The stockings look peaceful, lit by the crackling fire."
 							]
 						},
@@ -882,10 +882,10 @@
 							"type": "insetReadaloud",
 							"entries": [
 								"The air grows colder as you descend the eastward tunnel, its twisting, narrowing walls pressing in like the confines of a burrow. The fading torchlight gives way to darkness, and the low, jagged ceiling forces you to stoop. Suddenly, the passage opens into a cramped cavern, {@cue [Load Image #13: The Carrot Cavern]|media} dimly lit by an orange glow from orange stalactites hanging low like fangs above your heads. \"Aww\", you think to yourself, \"they look like little carrots... [Sigh] Santa's favorite vegetable was always carrot cake.\" You do hope Mr. Claus is alright.",
-								"But before you can take in more of your surroundings, a sound slices through the oppressive silence—a piercing, ear-splitting shriek that reverberates through the close confines. It's cunning, malicious, and... undeniably coming from a... uh... {@i bunny}?",
+								"But before you can take in more of your surroundings, a sound slices through the oppressive silence\u2014a piercing, ear-splitting shriek that reverberates through the close confines. It's cunning, malicious, and... undeniably coming from a... uh... {@i bunny}?",
 								"{@cue Reveal the Easter Bunny minifigure!}",
 								"Bounding into view from behind a jagged orange stalagmite, a towering white rabbit glares at you with eyes full of cold contempt. His pristine fur bristles, and his voice drips with venom as he sneers, \"So, you've come to meddle in my plans, have you? Fools! You'll never take my prize!\"",
-								"He gestures grandly, his sinister grin growing wider. \"The fat man? Oh, he serves ME now—ME, the EASTER BUNNY! Here, in my domain, he and his clumbsy sausage fingers will toil endlessly, crafting delightful little trinkets for my eggs. Toys, baubles, and treasures so irresistible that they will make every child forget Christmas ever existed!\"",
+								"He gestures grandly, his sinister grin growing wider. \"The fat man? Oh, he serves ME now\u2014ME, the EASTER BUNNY! Here, in my domain, he and his clumbsy sausage fingers will toil endlessly, crafting delightful little trinkets for my eggs. Toys, baubles, and treasures so irresistible that they will make every child forget Christmas ever existed!\"",
 								"His laughter echoes chillingly through the cavern. \"That's right! EASTER shall reign supreme! EASTER will be the new Christmas! FOREVER!\"",
 								"His voice drops to a menacing growl as his gaze hardens. \"And as for you lot? Hah! You'll make fine decorations for my lair. Frozen and forgotten!\"",
 								"The ground seems to tremble beneath his imposing form. \"Prepare yourselves, for you won't leave here alive. Roll for initiative!\""
@@ -981,7 +981,7 @@
 								{
 									"type": "insetReadaloud",
 									"entries": [
-										"Inside the chest, you find piles of glittering treasures—golden eggs, jeweled carrots, and sparkling pastel baubles. But beneath the glimmering hoard lies a worn red Santa cap, embroidered on the inside with the name \"St. Nick.\""
+										"Inside the chest, you find piles of glittering treasures\u2014golden eggs, jeweled carrots, and sparkling pastel baubles. But beneath the glimmering hoard lies a worn red Santa cap, embroidered on the inside with the name \"St. Nick.\""
 									]
 								}
 							]
@@ -1019,7 +1019,7 @@
 						{
 							"type": "insetReadaloud",
 							"entries": [
-								"At the north end of the cavern, you see a crude cage standing with its door ajar, and beside it are two identical figures—two Santa Clauses! Son of a nutcracker! Which one is the real one?",
+								"At the north end of the cavern, you see a crude cage standing with its door ajar, and beside it are two identical figures\u2014two Santa Clauses! Son of a nutcracker! Which one is the real one?",
 								"{@cue [Load Image #14: Duplicate Santas!]|media}"
 							]
 						},
@@ -1095,7 +1095,7 @@
 									"type": "entries",
 									"name": "If the Players Attack the Bad Santa",
 									"entries": [
-										"If the players attack, any amount of damage or a controlling spell instantly subdues him—this is not meant to be a combat encounter."
+										"If the players attack, any amount of damage or a controlling spell instantly subdues him\u2014this is not meant to be a combat encounter."
 									]
 								},
 								{
@@ -1135,7 +1135,7 @@
 						{
 							"type": "insetReadaloud",
 							"entries": [
-								"Just then, a familiar figure timidly steps forward from the other room—it's the kobold who showed a glimmer of kindness during the fight. \"I... I don't think Easter should try to outshine Christmas,\" he mutters, voice trembling but sincere. \"It should be about spreading joy in its own way.\" Suddenly, you feel the bunny ear crown wiggle in delight. Glancing at the crown, you see its oversized ears seeming to nod in agreement."
+								"Just then, a familiar figure timidly steps forward from the other room\u2014it's the kobold who showed a glimmer of kindness during the fight. \"I... I don't think Easter should try to outshine Christmas,\" he mutters, voice trembling but sincere. \"It should be about spreading joy in its own way.\" Suddenly, you feel the bunny ear crown wiggle in delight. Glancing at the crown, you see its oversized ears seeming to nod in agreement."
 							]
 						},
 						"{@cue [Pause for player agency with the crown]}",
@@ -1150,7 +1150,7 @@
 						{
 							"type": "insetReadaloud",
 							"entries": [
-								"When the crown is placed on the kobold's head, magic swirls around him, transforming his scales into soft white fur and reshaping him into a proud, upright rabbit. Puffing out his chest, he declares, \"I vow to honor Easter and stay in my lane! Easter will stay Easter—and never again will it try to overthrow Christmas!\" The cavern resonates with harmony."
+								"When the crown is placed on the kobold's head, magic swirls around him, transforming his scales into soft white fur and reshaping him into a proud, upright rabbit. Puffing out his chest, he declares, \"I vow to honor Easter and stay in my lane! Easter will stay Easter\u2014and never again will it try to overthrow Christmas!\" The cavern resonates with harmony."
 							]
 						},
 						"After a new Easter Bunny is crowned, continue with the final narration: \"{@area And To All a Good Night!|and_to_all_a_good_night|x}\"."
@@ -1168,7 +1168,7 @@
 								{
 									"type": "insetReadaloud",
 									"entries": [
-										"With the Easter Bunny defeated, the cavern grows quiet, save for the faint shimmer of magical light around the golden crown with its oversized bunny ears. Santa steps forward from the shadows, his fingers raw and bleeding, but his face alight with gratitude. \"You've done it, my friends! You've saved me—and Christmas! Ho ho ho!\" He winces, glancing at the crown. \"But Easter still needs a protector, one who can keep it joyful without greed or spite.\""
+										"With the Easter Bunny defeated, the cavern grows quiet, save for the faint shimmer of magical light around the golden crown with its oversized bunny ears. Santa steps forward from the shadows, his fingers raw and bleeding, but his face alight with gratitude. \"You've done it, my friends! You've saved me\u2014and Christmas! Ho ho ho!\" He winces, glancing at the crown. \"But Easter still needs a protector, one who can keep it joyful without greed or spite.\""
 									]
 								},
 								"{@cue If a player volunteers to wear the crown, read the following:}",
@@ -1223,7 +1223,7 @@
 					"name": "Appendix A: Magic Items",
 					"id": "199",
 					"entries": [
-						"A magic item is a wondrous treasure that adventurers find in a monster's hoard, in a trap-riddled dungeon, or in the possession of a slain foe. Every adventure holds the promise—but not a guarantee—of finding one or more magic items.",
+						"A magic item is a wondrous treasure that adventurers find in a monster's hoard, in a trap-riddled dungeon, or in the possession of a slain foe. Every adventure holds the promise\u2014but not a guarantee\u2014of finding one or more magic items.",
 						{
 							"type": "list",
 							"name": "Item Descriptions",

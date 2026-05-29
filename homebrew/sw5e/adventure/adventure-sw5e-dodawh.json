@@ -56,7 +56,7 @@
 			"wis": 10,
 			"cha": 12,
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60ft"
+				"{@sense Darkvision|sw5e-phb|darkvision} 60ft"
 			],
 			"passive": 10,
 			"languages": [
@@ -472,7 +472,7 @@
 				"athletics": "+4"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60ft"
+				"{@sense Darkvision|sw5e-phb|darkvision} 60ft"
 			],
 			"passive": 10,
 			"resist": [
@@ -581,7 +581,7 @@
 				"perception": "+6",
 				"persuasion": "+8",
 				"special": [
-					"{@skill Lore|sw5e-phb|orcnogSW5e} {@skillCheck Lore 8}"
+					"{@skill Lore} {@skillCheck Lore 8}"
 				]
 			},
 			"passive": 16,
@@ -611,22 +611,22 @@
 						"Darga's innate tech casting ability is intelligence (tech save {@dc 16}). It can innately cast the following powers:"
 					],
 					"will": [
-						"{@spell assess the situation|orcnogSW5e}"
+						"{@spell assess the situation|sw5e-phb}"
 					],
 					"daily": {
 						"1": [
-							"{@spell kolto cloud|orcnogSW5e}",
-							"{@spell tactical advantage|orcnogSW5e}"
+							"{@spell kolto cloud|sw5e-phb}",
+							"{@spell tactical advantage|sw5e-phb}"
 						],
 						"3": [
-							"{@spell absorb energy|orcnogSW5e}",
-							"{@spell element of surprise|orcnogSW5e}",
-							"{@spell fabricate trap|orcnogSW5e}",
-							"{@spell oil slick|orcnogSW5e}",
-							"{@spell smuggle|orcnogSW5e}",
-							"{@spell spot the weakness|orcnogSW5e}",
-							"{@spell stack the deck|orcnogSW5e}",
-							"{@spell tactical barrier|orcnogSW5e}"
+							"{@spell absorb energy|sw5e-phb}",
+							"{@spell element of surprise|sw5e-phb}",
+							"{@spell fabricate trap|sw5e-phb}",
+							"{@spell oil slick|sw5e-phb}",
+							"{@spell smuggle|sw5e-phb}",
+							"{@spell spot the weakness|sw5e-phb}",
+							"{@spell stack the deck|sw5e-phb}",
+							"{@spell tactical barrier|sw5e-phb}"
 						]
 					},
 					"ability": "int"
@@ -653,7 +653,7 @@
 					]
 				},
 				{
-					"name": "{@skill Survival|sw5e-phb} Instinct",
+					"name": "{@skill Survival} Instinct",
 					"entries": [
 						"Darga the Hutt and all allies within 10 feet of it gain a bonus to their AC equal to half its Intelligence modifier (rounded down, included in {@variantrule Armor Class|sw5e-phb})."
 					]
@@ -669,7 +669,7 @@
 				{
 					"name": "Overwhelming Presence",
 					"entries": [
-						"Darga the Hutt can make a Charisma ({@skill Persuasion|sw5e-phb}) or Charisma ({@skill Intimidation|sw5e-phb}) skill check to attempt to charm or frighten a humanoid creature who can see or hear it within 60 feet. The target makes a contested Wisdom ({@skill Insight|sw5e-phb}) check. If Darga's check succeeds, the target is {@condition charmed|sw5e-phb} by it if it used {@skill Persuasion|sw5e-phb}, or {@condition frightened|sw5e-phb} of it if it used {@skill Intimidation|sw5e-phb}, until the end of its next turn."
+						"Darga the Hutt can make a Charisma ({@skill Persuasion}) or Charisma ({@skill Intimidation}) skill check to attempt to charm or frighten a humanoid creature who can see or hear it within 60 feet. The target makes a contested Wisdom ({@skill Insight}) check. If Darga's check succeeds, the target is {@condition charmed|sw5e-phb} by it if it used {@skill Persuasion}, or {@condition frightened|sw5e-phb} of it if it used {@skill Intimidation}, until the end of its next turn."
 					]
 				},
 				{
@@ -745,7 +745,7 @@
 				"athletics": "+4"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60ft"
+				"{@sense Darkvision|sw5e-phb|darkvision} 60ft"
 			],
 			"passive": 10,
 			"resist": [
@@ -966,7 +966,7 @@
 				"stealth": "+5"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60ft"
+				"{@sense Darkvision|sw5e-phb|darkvision} 60ft"
 			],
 			"passive": 10,
 			"languages": [
@@ -1037,7 +1037,7 @@
 				"perception": "+4"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60ft"
+				"{@sense Darkvision|sw5e-phb|darkvision} 60ft"
 			],
 			"passive": 14,
 			"cr": "1",
@@ -1057,7 +1057,7 @@
 				{
 					"name": "Keen Sight",
 					"entries": [
-						"The Neimoidian Kreehawk has {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sight."
+						"The Neimoidian Kreehawk has {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception}) checks that rely on sight."
 					]
 				}
 			],
@@ -1127,7 +1127,7 @@
 				"stealth": "+4"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60ft"
+				"{@sense Darkvision|sw5e-phb|darkvision} 60ft"
 			],
 			"passive": 13,
 			"languages": [
@@ -1229,7 +1229,7 @@
 				"stealth": "+5"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60ft"
+				"{@sense Darkvision|sw5e-phb|darkvision} 60ft"
 			],
 			"passive": 13,
 			"resist": [
@@ -1251,7 +1251,7 @@
 				{
 					"name": "Trihexalon {@item Poison|sw5e-phb}",
 					"entries": [
-						"A creature struck by the Twi'lek Poisoner must make a {@dc 15} Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature that fails the {@variantrule Saving Throw|sw5e-phb|saving throw} takes {@damage 2d4} {@item Poison|sw5e-phb|poison} damage and is {@condition Poisoned|sw5e-phb}, a successful {@variantrule Saving Throw|sw5e-phb|saving throw} takes half damage but is still {@condition Poisoned|sw5e-phb}. The creature must make this {@variantrule Saving Throw|sw5e-phb|saving throw} each round and this {@item Poison|sw5e-phb|poison} can only be cured by a {@dc 15} {@skill Medicine|sw5e-phb} check or the antidote."
+						"A creature struck by the Twi'lek Poisoner must make a {@dc 15} Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature that fails the {@variantrule Saving Throw|sw5e-phb|saving throw} takes {@damage 2d4} {@item Poison|sw5e-phb|poison} damage and is {@condition Poisoned|sw5e-phb}, a successful {@variantrule Saving Throw|sw5e-phb|saving throw} takes half damage but is still {@condition Poisoned|sw5e-phb}. The creature must make this {@variantrule Saving Throw|sw5e-phb|saving throw} each round and this {@item Poison|sw5e-phb|poison} can only be cured by a {@dc 15} {@skill Medicine} check or the antidote."
 					]
 				}
 			],
@@ -1317,7 +1317,7 @@
 				"intimidation": "+5"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60ft"
+				"{@sense Darkvision|sw5e-phb|darkvision} 60ft"
 			],
 			"passive": 10,
 			"languages": [
@@ -1677,7 +1677,7 @@
 				"medicine": "+8",
 				"perception": "+9",
 				"special": [
-					"{@skill Lore|sw5e-phb|orcnogSW5e} {@skillCheck Lore 8}"
+					"{@skill Lore} {@skillCheck Lore 8}"
 				]
 			},
 			"passive": 21,
@@ -1696,64 +1696,64 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell force push/pull|orcnogSW5e}",
-								"{@spell force disarm|orcnogSW5e}",
-								"{@spell give life|orcnogSW5e}",
-								"{@spell guidance|orcnogSW5e}",
-								"{@spell saber reflect|orcnogSW5e}",
-								"{@spell turbulence|orcnogSW5e}"
+								"{@spell force push/pull|sw5e-phb}",
+								"{@spell force disarm|sw5e-phb}",
+								"{@spell give life|sw5e-phb}",
+								"{@spell guidance|sw5e-phb}",
+								"{@spell saber reflect|sw5e-phb}",
+								"{@spell turbulence|sw5e-phb}"
 							]
 						},
 						"1": {
 							"slots": 4,
 							"spells": [
-								"{@spell battle precognition|orcnogSW5e}",
-								"{@spell burst of speed|orcnogSW5e}",
-								"{@spell heal|orcnogSW5e}",
-								"{@spell phasestrike|orcnogSW5e}",
-								"{@spell project|orcnogSW5e}",
-								"{@spell valor|orcnogSW5e}"
+								"{@spell battle precognition|sw5e-phb}",
+								"{@spell burst of speed|sw5e-phb}",
+								"{@spell heal|sw5e-phb}",
+								"{@spell phasestrike|sw5e-phb}",
+								"{@spell project|sw5e-phb}",
+								"{@spell valor|sw5e-phb}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell animate weapon|orcnogSW5e}",
-								"{@spell calm emotions|orcnogSW5e}",
-								"{@spell force barrier|orcnogSW5e}",
-								"{@spell force camouflage|orcnogSW5e}",
-								"{@spell force sight|orcnogSW5e}",
-								"{@spell force throw|orcnogSW5e}"
+								"{@spell animate weapon|sw5e-phb}",
+								"{@spell calm emotions|sw5e-phb}",
+								"{@spell force barrier|sw5e-phb}",
+								"{@spell force camouflage|sw5e-phb}",
+								"{@spell force sight|sw5e-phb}",
+								"{@spell force throw|sw5e-phb}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell beacon of hope|orcnogSW5e}",
-								"{@spell knight speed|orcnogSW5e}",
-								"{@spell sever force|orcnogSW5e}",
-								"{@spell telekinetic storm|orcnogSW5e}"
+								"{@spell beacon of hope|sw5e-phb}",
+								"{@spell knight speed|sw5e-phb}",
+								"{@spell sever force|sw5e-phb}",
+								"{@spell telekinetic storm|sw5e-phb}"
 							]
 						},
 						"4": {
 							"slots": 2,
 							"spells": [
-								"{@spell force immunity|orcnogSW5e}",
-								"{@spell improved force camouflage|orcnogSW5e}"
+								"{@spell force immunity|sw5e-phb}",
+								"{@spell improved force camouflage|sw5e-phb}"
 							]
 						},
 						"5": {
 							"slots": 2,
 							"spells": [
-								"{@spell improved phasestrike|orcnogSW5e}",
-								"{@spell mass animation|orcnogSW5e}",
-								"{@spell telekinesis|orcnogSW5e}"
+								"{@spell improved phasestrike|sw5e-phb}",
+								"{@spell mass animation|sw5e-phb}",
+								"{@spell telekinesis|sw5e-phb}"
 							]
 						},
 						"6": {
 							"slots": 1,
 							"spells": [
-								"{@spell telekinetic burst|orcnogSW5e}"
+								"{@spell telekinetic burst|sw5e-phb}"
 							]
 						}
 					},
@@ -1937,28 +1937,28 @@
 					"spells": {
 						"0": {
 							"spells": [
-								"{@spell affect mind|orcnogSW5e}",
-								"{@spell force push/pull|orcnogSW5e}"
+								"{@spell affect mind|sw5e-phb}",
+								"{@spell force push/pull|sw5e-phb}"
 							]
 						},
 						"1": {
 							"slots": 3,
 							"spells": [
-								"{@spell battle precognition|orcnogSW5e}",
-								"{@spell disperse force|orcnogSW5e}",
-								"{@spell tremor|orcnogSW5e}"
+								"{@spell battle precognition|sw5e-phb}",
+								"{@spell disperse force|sw5e-phb}",
+								"{@spell tremor|sw5e-phb}"
 							]
 						},
 						"2": {
 							"slots": 3,
 							"spells": [
-								"{@spell force throw|orcnogSW5e}"
+								"{@spell force throw|sw5e-phb}"
 							]
 						},
 						"3": {
 							"slots": 2,
 							"spells": [
-								"{@spell sever force|orcnogSW5e}"
+								"{@spell sever force|sw5e-phb}"
 							]
 						}
 					},
@@ -2402,7 +2402,7 @@
 											"type": "inset",
 											"name": "Features of the Area",
 											"entries": [
-												"This fight takes place on a damaged street in the Cato Neimoidian bridge city of Zarra. The area features several spots of rough terrain, but more importantly, there are numerous gaps in the street (resulting from battles of the Clone Wars) that simply open up into the air beneath the city. Any creature that passes through a gap square must make a DC 10 Dexterity ({@skill Acrobatics|sw5e-phb}) check or Jump check to avoid falling through the gap and plunging thousands of feet to the planet's surface. Flying creatures and repulsorlift-operated vehicles (such as swoop bikes) ignore this terrain."
+												"This fight takes place on a damaged street in the Cato Neimoidian bridge city of Zarra. The area features several spots of rough terrain, but more importantly, there are numerous gaps in the street (resulting from battles of the Clone Wars) that simply open up into the air beneath the city. Any creature that passes through a gap square must make a DC 10 Dexterity ({@skill Acrobatics}) check or Jump check to avoid falling through the gap and plunging thousands of feet to the planet's surface. Flying creatures and repulsorlift-operated vehicles (such as swoop bikes) ignore this terrain."
 											]
 										}
 									]
@@ -2415,7 +2415,7 @@
 							"id": "Locating Darga's Palace",
 							"entries": [
 								"With nothing more to go on than a city and the name of a Hutt, the heroes don't have many leads to follow. Asking questions about a Hutt crime lord can be a dangerous business in Zarra, and most citizens rebuff the heroes if they try. However, after a few attempts to find Darga, the heroes should come to realize that the Hutt lives in the city and is, in fact, well known, even if no one will reveal his exact location.  But there is one way for the heroes to learn where Darga resides. One of his flunkies, a young Devaronian thief and errand boy named Warrick \"Womp Rat\" Raden, spends a great deal of time in the city. If the heroes can locate Raden, he can lead them directly to the Hutt's secret palace. Below are some suggestions on how to handle the search for Raden.",
-								"{@b Gather Information}: Heroes who are proficient in the Intelligence ({@skill Investigation|sw5e-phb}) skill have an {@variantrule Advantage|sw5e-phb|advantage} in trying to find the Hutt. Though they cannot locate Darga with the skill, they can find Raden, who takes pains to keep his movements low key (if not secret). A hero can use the Locate Individual application of the Gather Information skill to find him; the DC is 25 and the information costs 500 credits in bribes. Success indicates that the heroes are told where to find Raden—a nearby ruined warehouse.",
+								"{@b Gather Information}: Heroes who are proficient in the Intelligence ({@skill Investigation}) skill have an {@variantrule Advantage|sw5e-phb|advantage} in trying to find the Hutt. Though they cannot locate Darga with the skill, they can find Raden, who takes pains to keep his movements low key (if not secret). A hero can use the Locate Individual application of the Gather Information skill to find him; the DC is 25 and the information costs 500 credits in bribes. Success indicates that the heroes are told where to find Raden—a nearby ruined warehouse.",
 								"{@b False Pretenses}: The heroes might try to gain the attention of the Hutt and his associates through deception. This might include pretending to be a rival gang eager to start trouble or posing as fellow criminals looking to work with (or for) the Hutt. However, most citizens of Cato Neimoidia want nothing to do with the underworld, so if the heroes identify themselves as criminals of any kind, the residents shun them or refuse to do business with them.",
 								"If the heroes spread rumors in an attempt to draw the Hutt's interest, it takes two days before they see results. Provided that they didn't spread rumors likely to provoke the crime lord (such as \"We're here to kill that slimy Hutt and take over this planet for our own!\"), they receive an anonymous message telling them to meet Warrick Raden at the ruined warehouse at midnight. The message actually comes from one of Darga's informants in Zarra, not from Raden himself, so the errand boy knows nothing of the heroes' impending arrival.",
 								"{@b Bribery}: No matter how much the citizens fear dealing with the criminal underworld, the right amount of credits can always open doors If the heroes visit traders, cantinas, spaceports, and even security offices searching for information on Darga, the right bribes can get them the information they need.",
@@ -2424,7 +2424,7 @@
 								"} A bribe of more than 500 credits earns the heroes not only Warrick Raden's name but also the location of the abandoned warehouse where he can be found.",
 								"{@b Threats and Violence}: Though more in line with the Empire's tactics the heroes can use threats and violence to get information about Darga.",
 								"Most of the population of Zarra is already cowed by the Hutt's thugs an associates. Combined with occasional Imperial intervention, which neve goes well even for law-abiding citizens, the locals have very little figh left in them.",
-								"Using the {@skill Persuasion|sw5e-phb} skill to intimidate citizens of Zarra only goe so far. A successfully intimidated citizen can say only that a Devaronia named Warrick Raden works for Darga and sometimes comes around t collect extortion money or deliver messages on the Hutt's behalf. Thi information grants the same +10 bonus on Gather Information check that bribery does.",
+								"Using the {@skill Persuasion} skill to intimidate citizens of Zarra only goe so far. A successfully intimidated citizen can say only that a Devaronia named Warrick Raden works for Darga and sometimes comes around t collect extortion money or deliver messages on the Hutt's behalf. Thi information grants the same +10 bonus on Gather Information check that bribery does.",
 								"If the heroes use violence to find Darga, such as abusing loca business owners or picking a fight in a cantina, they eventually get  message from one of the Hutt's hidden agents who believes that th heroes are auditioning to join the organization. This message is identica to the one described under \"False Pretenses,\" above.",
 								"However, violence does not sit well with the citizens of Zarra, an eventually one becomes scared enough to alert Imperial authorities to the heroes' activities.",
 								"An Imperial patrol consisting of six stormtrooper and an Imperial Junior Officer (see page 27 of {@i {@adventure The Traitor's Gambit|sw5e-dodttg}} fo statistics) arrives on a transport skiff and attempts to take the heroe into custody. The Imperials call for reinforcements if the heroes resis arrest, and soon Zarra might be crawling with a large percentage of th Imperial forces on Cato Neimoidia, attracting attention the heroes d not want."
@@ -2471,7 +2471,7 @@
 									"type": "entries",
 									"name": "Read-Aloud Text",
 									"entries": [
-										"As the heroes approach the ruined warehouse, allow them Wisdom ({@skill Perception|sw5e-phb}) checks opposed by the excavation droids' Dexterity ({@skill Stealth|sw5e-phb}) checks to determine whether or not they notice the droids taking an unusual interest in them. When Warrick or his goons spot the heroes on the street, or if the heroes move up and see Warrick and the thugs inside the warehouse, read the following boxed text aloud:",
+										"As the heroes approach the ruined warehouse, allow them Wisdom ({@skill Perception}) checks opposed by the excavation droids' Dexterity ({@skill Stealth}) checks to determine whether or not they notice the droids taking an unusual interest in them. When Warrick or his goons spot the heroes on the street, or if the heroes move up and see Warrick and the thugs inside the warehouse, read the following boxed text aloud:",
 										{
 											"type": "insetReadaloud",
 											"name": "",
@@ -2528,7 +2528,7 @@
 									"type": "entries",
 									"name": "Excavation Droids (2)",
 									"entries": [
-										"After the devastation of the Clone Wars, what was left of the Cato Neimoidian government decided to turn some of the Confederacy's droid production power toward rebuilding their bridge cities. One of the droids manufactured under this {@variantrule Initiative|sw5e-phb|initiative} is the TaggeCo XK-V8 Excavation Droid, produced in partnership with TaggeCo specifically for use on Cato Neimoidia. The excavation droid has climbing claws and magnetic feet that allow it to work on the top and the underside of the planet's bridge cities. The droids in this encounter have been reprogrammed to obey Raden's commands (sent with his {@item commlink|orcnogSW5e} and {@item Datapad|sw5e-phb|datapad}) and to ignore their usual restriction against attacking living beings.",
+										"After the devastation of the Clone Wars, what was left of the Cato Neimoidian government decided to turn some of the Confederacy's droid production power toward rebuilding their bridge cities. One of the droids manufactured under this {@variantrule Initiative|sw5e-phb|initiative} is the TaggeCo XK-V8 Excavation Droid, produced in partnership with TaggeCo specifically for use on Cato Neimoidia. The excavation droid has climbing claws and magnetic feet that allow it to work on the top and the underside of the planet's bridge cities. The droids in this encounter have been reprogrammed to obey Raden's commands (sent with his {@item commlink|sw5e-phb} and {@item Datapad|sw5e-phb|datapad}) and to ignore their usual restriction against attacking living beings.",
 										{
 											"type": "insetReadaloud",
 											"name": "",
@@ -2550,7 +2550,7 @@
 									"name": "Conclusion",
 									"entries": [
 										"Though Raden is willing to fight initially, his will quickly erodes if the heroes gain the upper hand. The heroes should realize that they need the Devaronian alive, but in case they try to use lethal force, he surrenders if reduced to fewer than 15 {@variantrule Hit Points|sw5e-phb|hit points}. If this occurs, Darga's thugs attempt to flee.",
-										"Raden is reluctant to help the heroes. He begins the encounter hostile to them, but if he is captured, his attitude shifts to merely unfriendly. If his attitude can be shifted to friendly through a DC 22 Charisma ({@skill Persuasion|sw5e-phb}) check, or if he is successfully intimidated by a DC 17 Charisma ({@skill Intimidation|sw5e-phb}) check, he agrees to take the heroes to Darga's secret palace."
+										"Raden is reluctant to help the heroes. He begins the encounter hostile to them, but if he is captured, his attitude shifts to merely unfriendly. If his attitude can be shifted to friendly through a DC 22 Charisma ({@skill Persuasion}) check, or if he is successfully intimidated by a DC 17 Charisma ({@skill Intimidation}) check, he agrees to take the heroes to Darga's secret palace."
 									]
 								},
 								{
@@ -2586,7 +2586,7 @@
 								"Raden walks timidly up to one door, which has a smal communications panel. He presses a button, sputters some phrases i Huttese (\"This is Raden. I've come to deliver news to the mighty Darga. With all due respect, I require an audience.\"), and steps back, fidgetin nervously. A long, quiet moment passes before two Nikto with huntin {@item Blaster rifle|sw5e-phb|blaster rifles} appear on battlements above the doors, weapons at th ready and pointed down at the visitors. A metal panel in the blast doo scrapes as it is pulled aside, and a pair of glowing red eyes appear in th slit. A gravelly voice echoes from within the doors, again in Huttes (\"You're in for it now, Raden. Darga is expecting visitors, all right, bu those creatures are not them.\"), and the panel slams closed. A momen later, there is a heavy clank of metal on metal, and the blast doors par to either side. A rush of cold, dry air flows outward from the Hutt' palace, and Raden motions the heroes to follow him inside.",
 								"Entering the palace, there is no sign of who or what might hav owned the glowing red eyes seen through the door panel. (They belon to Igren Demos, the Neimoidian majordomo, though the heroes won' learn that until later.) The heroes follow Raden down a long, dar hallway illuminated at seemingly random intervals by torches set i sconces on the walls. Anyone passing through this hallway, including th heroes, feels that something is watching them from the {@spell Darkness|sw5e-phb|darkness}.",
 								"Unmarked metal doors are set into the walls at various points, and th air is thick with the smell of dust and rotting wood.",
-								"Moving deeper into the palace, the heroes get the sense that th building was once bright and beautiful. Any character who makes successful DC 15 Intelligence ({@skill Lore|sw5e-phb}) check can tell that muc of the architecture and trim is Neimoidian in design, and it become clear that the palace probably once belonged to a high-ranking membe of the Trade Federation, perhaps an advisor to Nute Gunray.",
+								"Moving deeper into the palace, the heroes get the sense that th building was once bright and beautiful. Any character who makes successful DC 15 Intelligence ({@skill Lore}) check can tell that muc of the architecture and trim is Neimoidian in design, and it become clear that the palace probably once belonged to a high-ranking membe of the Trade Federation, perhaps an advisor to Nute Gunray.",
 								"Eventually, Raden leads the heroes toward the soft sound of musi and voices, which come from the Hutt's throne room. When the heroe arrive in the room, read the following boxed text aloud:",
 								{
 									"type": "insetReadaloud",
@@ -2598,7 +2598,7 @@
 								"When Warrick Raden leads the heroes into the room, the sounds of conversation and music come to a halt. Silence reigns as every eye turns to watch Raden lead the visitors into an open space in front of the opulent dais. Darga's eyes roll from the heroes to Raden, then sharpen quickly with anger. He booms something in Huttese at the Devaronian (\"What is the meaning of bringing outsiders here?\"), who immediately begins groveling, begging for the Hutt's forgiveness as th rest of the court hoots with laughter and derision. Darga cuts him off with a harsh word (\"Silence!\") and calls for his protocol droid, {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663}. From this point on, Darga begins addressing the heroes directly, using {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663} as a translator.",
 								"Darga's giant eyes rest on them all for a long moment before th Hutt demands to know why they have come to his palace and how the convinced Raden to escort them. Darga is satisfied with any answer tha is not confrontational. He really isn't looking for trouble with the heroes he just wants to feel them out and see if they could be useful in som way. He's already impressed with their ability to locate his hidden palac (though it may not seem like much of a feat, there are many in Darga' own organization who couldn't manage it) and wants to discove whether they have any skills that he could exploit.",
 								"Darga begins this encounter indifferent to the heroes. If they ca shift his attitude to friendly somehow, he welcomes them into his court.",
-								"Any flattery grants the heroes favorable circumstances on Persuasio checks to alter the Hutt's attitude, as do bribes or gifts of any kind. If th heroes mention that they are seeking employment or are interested i providing their services, they gain favorable circumstances on Deceptio checks against the crime lord. Darga is still building up his power bas and is always on the lookout for potentially valuable members of hi organization. If the heroes fail their {@skill Persuasion|sw5e-phb} check to join the court they can still join by offering bribes or other incentives, though Darg expects at least 1,000 credits' worth before he even considers it.",
+								"Any flattery grants the heroes favorable circumstances on Persuasio checks to alter the Hutt's attitude, as do bribes or gifts of any kind. If th heroes mention that they are seeking employment or are interested i providing their services, they gain favorable circumstances on Deceptio checks against the crime lord. Darga is still building up his power bas and is always on the lookout for potentially valuable members of hi organization. If the heroes fail their {@skill Persuasion} check to join the court they can still join by offering bribes or other incentives, though Darg expects at least 1,000 credits' worth before he even considers it.",
 								"Once the heroes have satisfied his curiosity, Darga invites them to join him at court for a short while. He has many matters to attend t over the next few days, and he is expecting visitors besides, but he i more than happy to let them stick around. Darga plans to impress th heroes with his wealth and power, hoping to convince them that  business relationship would be profitable. This is exactly the kind o thing the heroes need to get close to the Hutt and snoop around. If th heroes agree to remain at the palace, Darga calls for a feast and offer them a large amount of delicious (and expensive) food and drink. As th feast begins, two of Darga's Gamorrean guards drag Warrick Raden of to the dungeons so that he can \"think about his betrayal.\" During the feast, Darga asks many questions about the heroes: wh they are, where they come from, what their exploits are, and so on. He also gives them a chance to ask questions, but he graciously deflects any questions about his business practices for now. He lets one thing slip however—if the heroes mention the Empire, Darga boasts that one of th visitors he is expecting is an Imperial agent. The Hutt seems to think tha this will impress the heroes, though he reveals little more than the fact that the Empire is {@spell Sending|sw5e-phb|sending} a delegate to his court sometime in the nex few days.",
 								"Over the course of the meal, the heroes get the impression that while Darga is trying to win them over with his opulence, he is als testing to see whether they have anything to offer him. He drops hint with remarks such as, \"We will see how you enjoy your time in m court—and how much I enjoy your company,\" or \"The next few days wil give us a chance to get to know each other and see how much I have t offer you—and you to offer me!\"",
 								{
@@ -2661,7 +2661,7 @@
 										"The heroes' primary challenge is to satisfy Darga's need to punish Raden while proving their worthiness to be in his court. Of course, they can simply {@optfeature Perform|sw5e-phb|perform} the execution—Raden is clearly a degenerate criminal, and the heroes might be tempted to remove such a person from the galaxy—which will satisfy Darga on all fronts. However, the killing would certainly be a Dark Side act, since Raden is helpless and at their mercy.",
 										"If the heroes suggest an alternative fate for Raden, Darga is willing to listen, particularly if their idea involves violence. If they propose setting Raden up in some kind of fight, Darga is very agreeable and will include the Devaronian as one of the combatants in a gladiator match (see page 10).",
 										"If the heroes outright refuse to take part in Raden's punishment without attempting to be diplomatic about it, they automatically fail to overcome the primary challenge. Darga sees them as weak and unwilling to do his bidding.",
-										"Alternatively, if the heroes can make Darga think that they killed Raden, he will likely fall for it. Knocking Raden {@condition Unconscious|sw5e-phb} will help, though the heroes should take care that Darga doesn't look too closely at the Devaronian's \"corpse\" or he might figure out their ruse. The heroes can make a Charisma ({@skill Deception|sw5e-phb}) check against Darga's Wisdom ({@skill Insight|sw5e-phb}), and each character who contributes to the ruse can improve the group's chance of success. If the heroes fail to convince Darga that they have killed Raden, he is disappointed but takes no actions against them, and he orders one of his Quarren assassins to do the job instead."
+										"Alternatively, if the heroes can make Darga think that they killed Raden, he will likely fall for it. Knocking Raden {@condition Unconscious|sw5e-phb} will help, though the heroes should take care that Darga doesn't look too closely at the Devaronian's \"corpse\" or he might figure out their ruse. The heroes can make a Charisma ({@skill Deception}) check against Darga's Wisdom ({@skill Insight}), and each character who contributes to the ruse can improve the group's chance of success. If the heroes fail to convince Darga that they have killed Raden, he is disappointed but takes no actions against them, and he orders one of his Quarren assassins to do the job instead."
 									]
 								},
 								{
@@ -2669,7 +2669,7 @@
 									"name": "Secondary Challenge",
 									"id": "Event 1 Secondary Challenge",
 									"entries": [
-										"This event presents an opportunity for the heroes to learn more about Igren Demos, Darga's Neimoidian majordomo. Demos is far more than the simpering sycophant that he appears to be. Any hero who succeeds on a Wisdom ({@skill Perception|sw5e-phb}) check against Igren Demos' Charisma ({@skill Deception|sw5e-phb}) can tell that the Neimoidian watches them very closely during the event. For the most part, Demos is just studying the heroes, though he seems to linger his attentions longer on any characters who are Force sensitive—as if he senses a kindred spirit. Any hero who is force sensitive can make a DC 13 Wisdom ({@skill Insight|sw5e-phb}) or Charisma ({@skill Insight|sw5e-phb}) check, if they succeed they can determine that Demos is indeed Force sensitive, though if approached, he denies it."
+										"This event presents an opportunity for the heroes to learn more about Igren Demos, Darga's Neimoidian majordomo. Demos is far more than the simpering sycophant that he appears to be. Any hero who succeeds on a Wisdom ({@skill Perception}) check against Igren Demos' Charisma ({@skill Deception}) can tell that the Neimoidian watches them very closely during the event. For the most part, Demos is just studying the heroes, though he seems to linger his attentions longer on any characters who are Force sensitive—as if he senses a kindred spirit. Any hero who is force sensitive can make a DC 13 Wisdom ({@skill Insight}) or Charisma ({@skill Insight}) check, if they succeed they can determine that Demos is indeed Force sensitive, though if approached, he denies it."
 									]
 								}
 							]
@@ -2811,8 +2811,8 @@
 									"entries": [
 										"At this point, the slavers and the Hutt descend into a seemingly fruitless argument about slaves and payment, with neither side budging. In truth, Darga could appease the slavers easily, since he actually pays nothing for the slaves he passes on. However, he is stalling the delegation, waiting to see if the heroes will intervene on his behalf.",
 										"If the heroes do nothing, Darga eventually turns a disappointed eye on them before granting the slavers their wish. Similarly, if the heroes intervene on the slavers' behalf, Darga grumbles about his guests not knowing when to keep their mouths shut, but again he acquiesces to the slavers' demands. In both of these cases, the Hutt grudgingly invites the slavers to remain for a time in his court.",
-										"If the heroes intervene on the Hutt's behalf, they can impress Darga by convincing the slavers not only to withdraw their request but also to continue buying slaves from the Hutt. The Zabrak leader begins the encounter unfriendly toward the heroes. Shifting his attitude to indifference through a DC 16 Charisma ({@skill Persuasion|sw5e-phb}) will earn the heroes a chance to convince him to keep his business with Darga. Unfortunately, the slavers are correct—Darga has been selling them slaves who have very little life left, and they have every right to be upset. Convincing them to continue buying from the Hutt is no easy task, and the heroes will need to present a solution that is beneficial for the slavers.",
-										"If the heroes present a reasonable solution to the negotiations, they gain {@variantrule Advantage|sw5e-phb} on Charisma ({@skill Persuasion|sw5e-phb}) checks to convince the slavers to keep their bargain with Darga. If the heroes succeed on a DC 20 {@skill Persuasion|sw5e-phb} check, they convince the Zabrak to accept the deal, and they earn Darga's favor for this challenge"
+										"If the heroes intervene on the Hutt's behalf, they can impress Darga by convincing the slavers not only to withdraw their request but also to continue buying slaves from the Hutt. The Zabrak leader begins the encounter unfriendly toward the heroes. Shifting his attitude to indifference through a DC 16 Charisma ({@skill Persuasion}) will earn the heroes a chance to convince him to keep his business with Darga. Unfortunately, the slavers are correct—Darga has been selling them slaves who have very little life left, and they have every right to be upset. Convincing them to continue buying from the Hutt is no easy task, and the heroes will need to present a solution that is beneficial for the slavers.",
+										"If the heroes present a reasonable solution to the negotiations, they gain {@variantrule Advantage|sw5e-phb} on Charisma ({@skill Persuasion}) checks to convince the slavers to keep their bargain with Darga. If the heroes succeed on a DC 20 {@skill Persuasion} check, they convince the Zabrak to accept the deal, and they earn Darga's favor for this challenge"
 									]
 								},
 								{
@@ -2820,7 +2820,7 @@
 									"name": "Secondary Challenge",
 									"id": "Event 2 Secondary Challenge",
 									"entries": [
-										"During the discussion, the heroes might notice that one of the delegation's Twi'lek slaves is more than she appears. As a servant enters the throne room with a large goblet of wine for the crime lord, the heroes can make a contested Wisdom ({@skill Perception|sw5e-phb}) versus the Twi'lek's Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check,he Twi'lek slave has a +7 to this roll.",
+										"During the discussion, the heroes might notice that one of the delegation's Twi'lek slaves is more than she appears. As a servant enters the throne room with a large goblet of wine for the crime lord, the heroes can make a contested Wisdom ({@skill Perception}) versus the Twi'lek's Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check,he Twi'lek slave has a +7 to this roll.",
 										"If the heroes stop Darga from drinking the {@item Poison|sw5e-phb|poison}, they immediately succeed on the primary challenge. Furthermore, if they reveal the Twi'lek's guilt, Darga becomes enraged and threatens to throw the slavers in the dungeons. The Zabrak leader immediately withdraws his request for a new deal and apologizes profusely. Though he convinces Darga that the slave was acting of her own accord, the Hutt remains furious and declares the discussion over. The slavers beat a hasty retreat, except for the Wookiee, who secretly remains in the palace for a later encounter (see \"{@area A Knife in the Dark|A Knife in the Dark|x}\")",
 										"If the heroes fail to notice the {@item Poison|sw5e-phb|poison} being slipped in Darga's drink, the Hutt drinks it down and becomes ill. The {@item Poison|sw5e-phb|poison} isn't strong enough to kill him, but it does sicken him—the slavers were hoping to gain an {@variantrule Advantage|sw5e-phb|advantage} in their negotiations. Darga declares an end to the day's audience and retires to his personal chambers, though the heroes take no penalties and the event resumes the following day."
 									]
@@ -2840,7 +2840,7 @@
 									"name": "Primary Challenge",
 									"entries": [
 										"At this point, one of the heroes has a chance to pilot a racing droid. Each of the droids seems fragile, and Darga allows the hero who volunteers some time to get acquainted with the interface. During this time, the other members of the party might be able to provide assistance through Secondary Challenges. The droid is piloted through a simple system of visual commands, but managing those commands while keeping an eye on the track is challenging.",
-										"The race consists of three laps around the track. For each lap, each pilot makes an Intelligence ({@skill Piloting|sw5e-phb}) check. The highest result earns 4 {@variantrule Speed|sw5e-phb|speed} points, the second highest earns 3 {@variantrule Speed|sw5e-phb|speed} points, the next highest earns 2 {@variantrule Speed|sw5e-phb|speed} points, and the lowest earns a single {@variantrule Speed|sw5e-phb|speed} point. Additionally, a roll of a natural 1 on the ({@skill Piloting|sw5e-phb}) check automatically comes in last place, causing the pilot to lose 1 {@variantrule Speed|sw5e-phb|speed} point. At the end of the race (after three ({@skill Piloting|sw5e-phb}) checks), the pilot with the highest number of {@variantrule Speed|sw5e-phb|speed} points wins the race.",
+										"The race consists of three laps around the track. For each lap, each pilot makes an Intelligence ({@skill Piloting}) check. The highest result earns 4 {@variantrule Speed|sw5e-phb|speed} points, the second highest earns 3 {@variantrule Speed|sw5e-phb|speed} points, the next highest earns 2 {@variantrule Speed|sw5e-phb|speed} points, and the lowest earns a single {@variantrule Speed|sw5e-phb|speed} point. Additionally, a roll of a natural 1 on the ({@skill Piloting}) check automatically comes in last place, causing the pilot to lose 1 {@variantrule Speed|sw5e-phb|speed} point. At the end of the race (after three ({@skill Piloting}) checks), the pilot with the highest number of {@variantrule Speed|sw5e-phb|speed} points wins the race.",
 										"However, no underground race would be complete without a few dirty tricks. Once per lap, any pilot can make his droid attack another racing droid. To do this, the pilot declares that his droid tries to attack another droid and wagers 1 to 4 {@variantrule Speed|sw5e-phb|speed} points. The pilot can wager more {@variantrule Speed|sw5e-phb|speed} points than he currently owns, but failure has its consequences. The pilot then makes an {@variantrule Attack Roll|sw5e-phb|attack roll} for his droid (1d20 + the number of {@variantrule Speed|sw5e-phb|speed} points wagered) against an AC of 13. Success indicates that the target droid is damaged by the attack; the attacking pilot gains a number of {@variantrule Speed|sw5e-phb|speed} points equal to the number wagered, while the defending pilot loses that same number of {@variantrule Speed|sw5e-phb|speed} points. Failure indicates that the attacker loses the number of {@variantrule Speed|sw5e-phb|speed} points wagered. Regardless of whether the attack succeeds or fails, the attacking pilot earns 1 less {@variantrule Speed|sw5e-phb|speed} point on his next lap.",
 										"Any racing droid that has fewer than 0 {@variantrule Speed|sw5e-phb|speed} points crashes and is destroyed. The control visor overloads, make the pilot roll a DC 15 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} with a failed save giving 1 level of {@condition Exhaustion|sw5e-phb|exhaustion}. If the \"Hidden Enemies\" or \"Discovering Denia\" encounters (page 14) happen later the same day, the race might be a chance for the piloting hero to impose a level of {@condition Exhaustion|sw5e-phb|exhaustion} on the Quarren assassins or Igren Demos. That would give the heroes a small {@variantrule Advantage|sw5e-phb|advantage} when dealing with those opponents in the later encounter.",
 										"The winner of the race receives a gaudy necklace valued at about 500 credits. In truth, a hero who enters the race does not actually need to win to curry Darga's favor; participation is enough to gain the Hutt's approval. If the heroes refuse to participate, the race proceeds without them, and Igren Demos wins handily. Darga is not impressed with the heroes, remarking on their timidity, but it does not hurt their chances in other events."
@@ -2850,10 +2850,10 @@
 									"type": "entries",
 									"name": "Secondary Challenge",
 									"entries": [
-										"Before the droid race starts, the heroes can study the technology that makes the race possible: the control visor. Any hero who makes a successful Intelligence ({@skill Technology|sw5e-phb}) check can examine the visor and learn something about how it works. The information learned depends on the DC of the check, as shown below. Note that DCs higher than 15 are considered expert knowledge, and thus only a character proficient in {@skill Technology|sw5e-phb} can obtain that information.",
-										"{@b DC 10:} The droid control visor reads the eye movements of the user and translates them into commands, while simultaneously providing an in-droid view of the action. A successful {@skill Technology|sw5e-phb} check is necessary to control the droid.",
+										"Before the droid race starts, the heroes can study the technology that makes the race possible: the control visor. Any hero who makes a successful Intelligence ({@skill Technology}) check can examine the visor and learn something about how it works. The information learned depends on the DC of the check, as shown below. Note that DCs higher than 15 are considered expert knowledge, and thus only a character proficient in {@skill Technology} can obtain that information.",
+										"{@b DC 10:} The droid control visor reads the eye movements of the user and translates them into commands, while simultaneously providing an in-droid view of the action. A successful {@skill Technology} check is necessary to control the droid.",
 										"{@b DC 15:} The control visor is a bit unstable and could damage the user under some circumstances. During catastrophic failures, the wearer has to make a constitution {@variantrule Saving Throw|sw5e-phb|saving throw}.",
-										"{@b DC 20:} The control visor's software is full of errors, indicating that it is probably a prototype. A successful DC 20 {@skill Technology|sw5e-phb} check can smooth out some of the programming bugs, allowing the wearer to add their {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to {@skill Piloting|sw5e-phb} checks to pilot the racing droids.",
+										"{@b DC 20:} The control visor's software is full of errors, indicating that it is probably a prototype. A successful DC 20 {@skill Technology} check can smooth out some of the programming bugs, allowing the wearer to add their {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to {@skill Piloting} checks to pilot the racing droids.",
 										"{@b DC 25:} The problem with the control visor's interface is that it was designed for a non-Human species. A successful DC 20 Intelligence ({@item Mechanic's kit|sw5e-phb}) check can alter the visor to better accommodate humanoid species, reducing the visor's constitution {@variantrule Saving Throw|sw5e-phb|saving throw} check to DC 10."
 									]
 								},
@@ -2868,7 +2868,7 @@
 									"type": "entries",
 									"name": "Secondary Challenge",
 									"entries": [
-										"Any character who examines the droid control visor can tell that the technology is fairly sophisticated, and that its ability to translate the pilot's commands is uncanny. During the race, allow this character to make a DC 13 Wisdom ({@skill Perception|sw5e-phb}) check to notice {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663}, the Hutt's droid translator, during the race. Each time a droid slams into a wall or is smashed by another droid, {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663} seems to flinch a bit. If a hero approaches him and inquires about the flinching, he explains that the racing droids are not merely remotely controlled shells, but actual droids with intelligence and awareness, much like himself. {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663} thinks it is barbaric that the control visors are used to directly usurp the racing droids' self-aware functions. If the hero shows any sympathy, that character gains {@variantrule Advantage|sw5e-phb} on all skill checks made on {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663} from this point forward. This benefit might come into play later, when TC-663 approaches the heroes with a message from Switch."
+										"Any character who examines the droid control visor can tell that the technology is fairly sophisticated, and that its ability to translate the pilot's commands is uncanny. During the race, allow this character to make a DC 13 Wisdom ({@skill Perception}) check to notice {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663}, the Hutt's droid translator, during the race. Each time a droid slams into a wall or is smashed by another droid, {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663} seems to flinch a bit. If a hero approaches him and inquires about the flinching, he explains that the racing droids are not merely remotely controlled shells, but actual droids with intelligence and awareness, much like himself. {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663} thinks it is barbaric that the control visors are used to directly usurp the racing droids' self-aware functions. If the hero shows any sympathy, that character gains {@variantrule Advantage|sw5e-phb} on all skill checks made on {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663} from this point forward. This benefit might come into play later, when TC-663 approaches the heroes with a message from Switch."
 									]
 								}
 							]
@@ -2880,7 +2880,7 @@
 							"entries": [
 								"The final event of the heroes' visit to the court is the arrival of an Imperial liaison who comes to discuss the resources being transferred through Darga's slimy hands on behalf of the Sarlacc {@spell Project|sw5e-phb}. This is probably the event that the heroes have been waiting for, since it is their best chance to learn more about the secret {@spell Project|sw5e-phb|project}.",
 								"When this event begins, three people are ushered into Darga's audience chamber: two men and one woman. Though none of them is wearing any kind of Imperial uniform, whispers of \"Imperial agents\" ripple through the court. The two men are dressed in basic laborer's clothing, and their eyes scan the room as if they expect an attack at any moment. The woman is also simply dressed, but it is clear from her bearing that she considers herself well above this assignment.",
-								"Allow any of the heroes present to make a DC 15 Wisdom ({@skill Perception|sw5e-phb}) check. Success indicates that they notice that each of the men carries an identical {@item Blaster carbine|sw5e-phb|blaster carbine}, and in fact the two men could be twins, other than a few small differences, such as the placement of scars. The two men are actually stormtroopers who have removed their armor; each is one of the few remaining clones of Jango Fett left over from the Clone Wars.",
+								"Allow any of the heroes present to make a DC 15 Wisdom ({@skill Perception}) check. Success indicates that they notice that each of the men carries an identical {@item Blaster carbine|sw5e-phb|blaster carbine}, and in fact the two men could be twins, other than a few small differences, such as the placement of scars. The two men are actually stormtroopers who have removed their armor; each is one of the few remaining clones of Jango Fett left over from the Clone Wars.",
 								{
 									"type": "entries",
 									"name": "Primary Challenge",
@@ -2898,7 +2898,7 @@
 									"type": "entries",
 									"name": "Secondary Challenge",
 									"entries": [
-										"As the encounter with the Imperial liaison goes on, grant a DC 15 Wisdom ({@skill Perception|sw5e-phb}) check to any heroes who were in the company of Bail Organa before the trip to Felucia in {@adventure The Traitor's Gambit|sw5e-dodttg}. Success indicates that the heroes recognize the liaison as someone they spotted in the halls of Organa's palace on Alderaan. (Alternatively, if the heroes did not play {@adventure The Traitor's Gambit|sw5e-dodttg}, they might recognize the liaison as one of the crewmembers of the Resurgence.)",
+										"As the encounter with the Imperial liaison goes on, grant a DC 15 Wisdom ({@skill Perception}) check to any heroes who were in the company of Bail Organa before the trip to Felucia in {@adventure The Traitor's Gambit|sw5e-dodttg}. Success indicates that the heroes recognize the liaison as someone they spotted in the halls of Organa's palace on Alderaan. (Alternatively, if the heroes did not play {@adventure The Traitor's Gambit|sw5e-dodttg}, they might recognize the liaison as one of the crewmembers of the Resurgence.)",
 										"In truth, the liaison is a double agent who secretly works for the Imperial Security Bureau. Her real name is Victra Sinde, though the name she uses when posing as a member of Bail Organa's security force is Alysa. She has been spying on Organa for several months now, though she has been unable to uncover hard evidence of his involvement in treasonous activities. She was called away from her assignment to {@optfeature Assist|sw5e-phb|assist} the Empire in continuing their arrangement with Darga the Hutt, and she was not expecting to run into anyone who might recognize her.",
 										"If the heroes confront Sinde, she denies any involvement with Bail Organa. If the heroes continue to make accusations, she threatens them with immediate arrest. Mentally, she notes the faces (and names, if possible) of the heroes and vows to ensure that the Empire becomes aware of their activities. If the heroes allow Sinde to leave after such an exchange, she might become a thorn in their side down the road, particularly if they journey to worlds under tight Imperial control, such as Coruscant or Nizon. Though such repercussions are beyond the scope of this adventure, feel free to have Sinde show up later.",
 										"Informing Bail Organa that he has a double agent in his midst certainly causes an uproar on Alderaan. If this occurs, Sinde does not return to Organa's service, having learned ahead of time that her {@variantrule Cover|sw5e-phb|cover} has been blown, and Organa is grateful for the heroes' efforts."
@@ -2908,7 +2908,7 @@
 									"type": "insetReadaloud",
 									"name": "Counseling Darga",
 									"entries": [
-										"The heroes might be unsure of how to provide Darga with counsel during the encounter with the Imperial liaison, and they might look to their skills as a means of determining the correct course of action. Though you should be careful not to give away the right answers with simple skill checks, you can steer the heroes in the right direction. For example, a successful DC 15 Intelligence ({@skill Lore|sw5e-phb}) check can reveal that the Empire has made offers of security retinues to nobles and powerful administrators in the past, most of the time on worlds where Imperial forces were particularly thin. A successful DC 15 Intelligence ({@skill Lore|sw5e-phb}) check can tell the heroes that biological resources of any kind are notoriously unstable, and rarity is one of the only things that can drive their value up. Lastly, a successful DC 15 Intelligence ({@skill Lore|sw5e-phb}) check can tell the heroes that Imperial contracts are almost always spread very thin, and that the Empire rarely offers substantial contract increases to individuals."
+										"The heroes might be unsure of how to provide Darga with counsel during the encounter with the Imperial liaison, and they might look to their skills as a means of determining the correct course of action. Though you should be careful not to give away the right answers with simple skill checks, you can steer the heroes in the right direction. For example, a successful DC 15 Intelligence ({@skill Lore}) check can reveal that the Empire has made offers of security retinues to nobles and powerful administrators in the past, most of the time on worlds where Imperial forces were particularly thin. A successful DC 15 Intelligence ({@skill Lore}) check can tell the heroes that biological resources of any kind are notoriously unstable, and rarity is one of the only things that can drive their value up. Lastly, a successful DC 15 Intelligence ({@skill Lore}) check can tell the heroes that Imperial contracts are almost always spread very thin, and that the Empire rarely offers substantial contract increases to individuals."
 									]
 								}
 							]
@@ -2963,14 +2963,14 @@
 									"type": "entries",
 									"name": "Setup",
 									"entries": [
-										"The encounter begins with Kessra well back into the aviary, waiting nearly at the far end of the chamber away from the entrance. She has made a Dexterity ({@skill Stealth|sw5e-phb}) check to hide here. The four Neimoidian kreehawks sit to either side of the winding path, perched up in the trees. Two kreehawks are on each side of the path, and they are spaced out so that they form something of a tunnel leading the heroes to Kessra."
+										"The encounter begins with Kessra well back into the aviary, waiting nearly at the far end of the chamber away from the entrance. She has made a Dexterity ({@skill Stealth}) check to hide here. The four Neimoidian kreehawks sit to either side of the winding path, perched up in the trees. Two kreehawks are on each side of the path, and they are spaced out so that they form something of a tunnel leading the heroes to Kessra."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Read-Aloud Text",
 									"entries": [
-										"When the heroes enter the aviary, allow them {@skill Perception|sw5e-phb} checks to notice Kessra hidden in the shadows at the back of the room. When the encounter begins, read the following boxed text aloud:",
+										"When the heroes enter the aviary, allow them {@skill Perception} checks to notice Kessra hidden in the shadows at the back of the room. When the encounter begins, read the following boxed text aloud:",
 										{
 											"type": "insetReadaloud",
 											"name": "",
@@ -3043,7 +3043,7 @@
 									"name": "Primary Challenge",
 									"id": "The Moneychanger Primary Challenge",
 									"entries": [
-										"Gome presents a good opportunity for the heroes to learn more about Darga's involvement in the Sarlacc {@spell Project|sw5e-phb}, particularly the nature of what he trades to the Empire. Though Gome is surprised to see the heroes, his attitude begins as indifferent toward them. If the heroes shift his attitude to friendly through a DC 12 Charisma ({@skill Persuasion|sw5e-phb}) check, he is happy to discuss all manner of secrets with them—at least, the ones he knows about. Gome is older and probably nearing the end of his days, so he tends to ramble and get distracted. The heroes will need to keep him on track if they are to learn anything from him, so you should portray him as absent-minded to encourage the heroes to steer him back to their conversation.",
+										"Gome presents a good opportunity for the heroes to learn more about Darga's involvement in the Sarlacc {@spell Project|sw5e-phb}, particularly the nature of what he trades to the Empire. Though Gome is surprised to see the heroes, his attitude begins as indifferent toward them. If the heroes shift his attitude to friendly through a DC 12 Charisma ({@skill Persuasion}) check, he is happy to discuss all manner of secrets with them—at least, the ones he knows about. Gome is older and probably nearing the end of his days, so he tends to ramble and get distracted. The heroes will need to keep him on track if they are to learn anything from him, so you should portray him as absent-minded to encourage the heroes to steer him back to their conversation.",
 										"Gome knows the following: At the conclusion of the Clone Wars, Darga took over a Tibanna gas smuggling ring after its leader was slain by Separatist mercenaries. Since that time, he has managed to increase the amount of Tibanna gas that is being smuggled away from its normal channels, and the smuggling ring has proven to be his most profitable venture, even ahead of his slave trading. The Empire approached Darga a few months ago with an interest in obtaining some of his Tibanna gas supplies off the record—though Gome recalls that they threatened to bring down the Hutt's crime syndicate if he didn't play nicely. Since then, Darga has been funneling every canister of Tibanna gas to the Empire for a secret {@spell Project|sw5e-phb|project}. The gas, which is refined on the planet Bespin, is loaded into large starships and handed over to the Empire in the space above that world. In return, Darga receives some kind of goods (Gome does not know what), and their transaction is ended. The exchange takes place quickly and seems private because few people even know that Bespin exists; it's too small to have an Imperial presence. Darga has made a handsome profit from the arrangement, and he maintains a remote headquarters in Cloud City, where he can personally oversee the transactions and enjoy the amenities of the floating city."
 									]
 								}
@@ -3102,7 +3102,7 @@
 												"Late in the evening, the guest quarters of Darga's palace are quiet and peaceful. Small lights faintly illuminate the common area of the guest wing, and a stillness permeates the area, as though the building itself were in a deep sleep. Only the occasional shuffle of a servant's footsteps breaks the silence of the night."
 											]
 										},
-										"When the Quarren enter the heroes' rooms, have the heroes make a Wisdom ({@skill Perception|sw5e-phb}) check versus the Quarren Dexterity ({@skill Stealth|sw5e-phb}) checks to notice their arrival. The heroes checks have {@variantrule Disadvantage|sw5e-phb|disadvantage} if they are sleeping. Any heroes who fail the check are surprised and do not act during the surprise round."
+										"When the Quarren enter the heroes' rooms, have the heroes make a Wisdom ({@skill Perception}) check versus the Quarren Dexterity ({@skill Stealth}) checks to notice their arrival. The heroes checks have {@variantrule Disadvantage|sw5e-phb|disadvantage} if they are sleeping. Any heroes who fail the check are surprised and do not act during the surprise round."
 									]
 								},
 								{
@@ -3121,7 +3121,7 @@
 											"type": "entries",
 											"name": "Quarren Assassin Tactics",
 											"entries": [
-												"The Quarren assassins use their high {@skill Stealth|sw5e-phb} modifiers to keep the heroes unaware of their presence and gain the benefits of their Assassinate trait. Able to see in the shadowy illumination of the guest quarters, the Quarren take every possible opportunity to remain hidden and to wear down the heroes with their Sneak Attack.",
+												"The Quarren assassins use their high {@skill Stealth} modifiers to keep the heroes unaware of their presence and gain the benefits of their Assassinate trait. Able to see in the shadowy illumination of the guest quarters, the Quarren take every possible opportunity to remain hidden and to wear down the heroes with their Sneak Attack.",
 												"Each assassin carries 200 credits for a total of 600."
 											]
 										}
@@ -3196,7 +3196,7 @@
 								"When he is certain they are alone, {@creature 3PO Series Protocol Droid|orcnogSW5e|TC-663} (who insists that the heroes call him Six Six) explains that in addition to serving as the Hutt's translator, he also serves another master—a droid crime lord named Switch, who lives on Sel Zonn Station above the world of Brentaal. If the heroes played through {@i {@adventure The Traitor's Gambit|sw5e-dodttg}}, they have probably already encountered Switch and perhaps even offered to act as his agents in the field.",
 								"{@creature 3PO Series Protocol Droid|orcnogSW5e|Six Six} reveals that he has come to convey a small piece of information on Switch's behalf. The droid tells the heroes that he has been monitoring communications leaving Darga's palace, and it seems that someone has been transmitting information to the Empire while the Hutt sleeps, receiving instructions in return.",
 								"{@creature 3PO Series Protocol Droid|orcnogSW5e|Six Six} has been {@spell Sending|sw5e-phb|sending} these messages on to Switch, but the droid crime lord has been unable to break their encryption. Switch has ordered Six Six to turn the encrypted transmissions file over to the heroes and see what they can make of it. If the heroes are willing to share their findings with {@creature 3PO Series Protocol Droid|orcnogSW5e|Six Six} (who will share them with Switch), they can have the file at no {@optfeature Charge|sw5e-phb|charge}.",
-								"Any hero who makes a successful DC 25 Intelligence ({@skill Technology|sw5e-phb}) check decrypts the file and retrieves the contents of the message. It reveals that late at night, the Hutt's majordomo, Igren Demos, has been contacting an Imperial communications relay somewhere in the sector. The heroes cannot be certain who he is communicating with, but they know that Demos has been transmitting information about Darga's dealings—particularly his slave trading—on a regular basis. The most recent communication specifically mentions that the slavers that Darga has been dealing with are unhappy with their merchandise. Additionally, several messages mention \"the prisoner\" but provide no further details.",
+								"Any hero who makes a successful DC 25 Intelligence ({@skill Technology}) check decrypts the file and retrieves the contents of the message. It reveals that late at night, the Hutt's majordomo, Igren Demos, has been contacting an Imperial communications relay somewhere in the sector. The heroes cannot be certain who he is communicating with, but they know that Demos has been transmitting information about Darga's dealings—particularly his slave trading—on a regular basis. The most recent communication specifically mentions that the slavers that Darga has been dealing with are unhappy with their merchandise. Additionally, several messages mention \"the prisoner\" but provide no further details.",
 								"If confronted about his communications with the Empire, Igren Demos staunchly denies it. Presenting the decrypted file does not help because Demos claims that it must be a forgery, and Darga is inclined to agree with his trusted advisor. If the heroes remain adamant that the majordomo is doing something untoward even after Darga dismissed this claim, the Hutt might become upset. To represent his shifting attitudes, you might wish to treat a previous incident in which the heroes successfully curried Darga's favor as a failure instead."
 							]
 						},
@@ -3325,7 +3325,7 @@
 									"entries": [
 										"{@creature Jedi Master Denia|sw5e-dodawh|Denia} is being held in a dank, disgusting area directly beneath the guest quarters that resembles a dungeon. The chamber is in disrepair, and structural damage to the palace has allowed rainwater to leak in, giving the place a musty feel. If the heroes step out of the turbolift, they see a narrow hallway filled with pools of stagnant water, with cells off to the right. The whispers grow louder in their minds, urging them on and giving them directions to a large metal door.",
 										"Pushing a button on the door causes it to creak and stutter as it slides open, revealing a chamber that resembles a dilapidated hospital room. It has the same musty smell as the outer hallway, but in this room is a large bed on which lays a woman well into her older years, connected to a variety of machines that seem to be monitoring her vital functions. A large tube of semitransparent liquid is connected to the woman intravenously, and her chest rises and falls slowly. Once inside the room, the whispers in the {@feat Force-Sensitive|sw5e-phb|Force-sensitive} heroes' minds become stronger, and the voice claims that she can feel them close to her. {@creature Jedi Master Denia|sw5e-dodawh|Denia} telepathically begs the heroes to free her, though the limitations on her telepathy keep her from asking or answering any more questions",
-										"Any hero can disconnect {@creature Jedi Master Denia|sw5e-dodawh|Denia} from the machines that are keeping her in a coma. A hero who makes a successful DC 15 Intelligence ({@skill Medicine|sw5e-phb}) check can bring her out of the coma gently, and she regains consciousness with 4 levels of {@condition Exhaustion|sw5e-phb|exhaustion}. Otherwise, she regains consciousness with 5 levels of {@condition Exhaustion|sw5e-phb|exhaustion} and cannot move. This {@condition Exhaustion|sw5e-phb|exhaustion} cannot be removed until she receives extended medical treatment for at least a week (which she will be able to get aboard the Resurgence between adventures).",
+										"Any hero can disconnect {@creature Jedi Master Denia|sw5e-dodawh|Denia} from the machines that are keeping her in a coma. A hero who makes a successful DC 15 Intelligence ({@skill Medicine}) check can bring her out of the coma gently, and she regains consciousness with 4 levels of {@condition Exhaustion|sw5e-phb|exhaustion}. Otherwise, she regains consciousness with 5 levels of {@condition Exhaustion|sw5e-phb|exhaustion} and cannot move. This {@condition Exhaustion|sw5e-phb|exhaustion} cannot be removed until she receives extended medical treatment for at least a week (which she will be able to get aboard the Resurgence between adventures).",
 										"When {@creature Jedi Master Denia|sw5e-dodawh|Denia} has been brought out of her coma, read the following boxed text aloud:",
 										{
 											"type": "insetReadaloud",
@@ -3335,7 +3335,7 @@
 											]
 										},
 										"Clearly, the woman has no idea that the Clone Wars are over, nor how much time has passed since she was placed in her coma. She tells the heroes that she is a Jedi Master and that she was assigned to Plo Koon's battle group here on Cato Neimoidia. She was engaged in a pitched battle against the Separatists when a droid starfighter crashed near her, {@spell Sending|sw5e-phb|sending} her into blackness. When her mind had recovered from the damage done to her body, she found herself unable to awaken or to purge her system of the drugs that were keeping her in a coma. She has been trying to reach out for help, but the only visitor to her room has been someone who seems shrouded in {@spell Darkness|sw5e-phb|darkness}. She doesn't know who this person is (in truth, it is Igren Demos, the majordomo) or why he or she enters the room, but she did not attempt to make contact.",
-										"{@creature Jedi Master Denia|sw5e-dodawh|Denia} asks the heroes to help her escape, since she has clearly been held prisoner for a while. She has many questions for them and wants to learn what has happened since she was knocked {@condition Unconscious|sw5e-phb}. If the heroes tell her honestly what has transpired since the conclusion of the Clone Wars, she senses the truth of their words and seems disheartened, but she vows to press on and escape from the palace. If the heroes attempt to {@optfeature Deceive|sw5e-phb|deceive} her, Denia tries to sense their true motives (her {@skill Perception|sw5e-phb} score is high, even when penalized, and she has a good chance to see through their ruses), but she plays along for the time being. She is eager to leave and has no desire to stay in these dungeons any longer than necessary.",
+										"{@creature Jedi Master Denia|sw5e-dodawh|Denia} asks the heroes to help her escape, since she has clearly been held prisoner for a while. She has many questions for them and wants to learn what has happened since she was knocked {@condition Unconscious|sw5e-phb}. If the heroes tell her honestly what has transpired since the conclusion of the Clone Wars, she senses the truth of their words and seems disheartened, but she vows to press on and escape from the palace. If the heroes attempt to {@optfeature Deceive|sw5e-phb|deceive} her, Denia tries to sense their true motives (her {@skill Perception} score is high, even when penalized, and she has a good chance to see through their ruses), but she plays along for the time being. She is eager to leave and has no desire to stay in these dungeons any longer than necessary.",
 										"The heroes probably have some questions for {@creature Jedi Master Denia|sw5e-dodawh|Denia}. Below are some answers to common questions:",
 										"{@b Do you know anything about Darga the Hutt or the Sarlacc Project?} \"No, I've been trapped here inside my own head for too long. I'm afraid those names mean absolutely nothing to me.\"",
 										"{@b You were a Jedi; how did you escape Order 66?} \"It wouldn't surprise me if I was thought to have been killed in battle. It's likely that this... Empire doesn't even know that I exist.\"",
@@ -3395,7 +3395,7 @@
 												"This dank, musty area used to be nice (if bare) servants' quarters, but it has since fallen into disarray. Where plain doors likely stood at the entrance to each room off of the main chamber, barred prison doors have been crudely forced into place. A water pipe has ruptured, flooding parts of the floor with water, and thick mold has grown on the walls. Many of the lights in this area flicker or are simply missing, casting shadows about the room"
 											]
 										},
-										"When the heroes exit Denia's cell into the larger dungeon area, let them make a DC 15 Wisdom ({@skill Perception|sw5e-phb}) check to notice the pounding of footsteps coming down the secret passageway. If they fail the check, they are surprised when combat begins."
+										"When the heroes exit Denia's cell into the larger dungeon area, let them make a DC 15 Wisdom ({@skill Perception}) check to notice the pounding of footsteps coming down the secret passageway. If they fail the check, they are surprised when combat begins."
 									]
 								},
 								{
@@ -3456,7 +3456,7 @@
 											"type": "inset",
 											"name": "Features of the Area",
 											"entries": [
-												"The dungeon area, formerly servants' quarters for the Neimoidian noble who once owned the palace, is a disgusting place where Darga keeps prisoners to teach them a lesson. The water pooled on the floor makes moving through the area treacherous; anyone moving across a square with water in it must succeed on a DC 10 Dexterity ({@skill Acrobatics|sw5e-phb}) check or fall prone. Additionally, all squares adjacent to the walls have shadowy illumination, causing those squares to be under dim light."
+												"The dungeon area, formerly servants' quarters for the Neimoidian noble who once owned the palace, is a disgusting place where Darga keeps prisoners to teach them a lesson. The water pooled on the floor makes moving through the area treacherous; anyone moving across a square with water in it must succeed on a DC 10 Dexterity ({@skill Acrobatics}) check or fall {@condition Prone|sw5e-phb|prone}. Additionally, all squares adjacent to the walls have shadowy illumination, causing those squares to be under dim light."
 											]
 										}
 									]

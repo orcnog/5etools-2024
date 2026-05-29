@@ -55,7 +55,7 @@
 				"persuasion": "+2"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 11,
 			"resist": [
@@ -127,7 +127,7 @@
 			"wis": 11,
 			"cha": 10,
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 10,
 			"languages": [
@@ -196,7 +196,7 @@
 				"persuasion": "+3"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 11,
 			"languages": [
@@ -280,7 +280,7 @@
 			"wis": 10,
 			"cha": 1,
 			"senses": [
-				"blindsight 60 feet (blind beyond this radius)"
+				"{@sense Blindsight|sw5e-phb|blindsight} 60 feet (blind beyond this radius)"
 			],
 			"passive": 10,
 			"resist": [

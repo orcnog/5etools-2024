@@ -748,7 +748,7 @@
 												{
 													"type": "list",
 													"items": [
-														"{@b 1. Gain Ground:} Roll a {@skill Piloting|sw5e-phb} check. On a {@b 10+}, reduce your distance by 1. On a {@b 20+}, reduce your distance by 2.",
+														"{@b 1. Gain Ground:} Roll a {@skill Piloting} check. On a {@b 10+}, reduce your distance by 1. On a {@b 20+}, reduce your distance by 2.",
 														"{@b 2. Take Action:} Use an action (attack, power, etc.). Effectiveness is dictated by your current distance pool."
 													]
 												}
@@ -805,7 +805,7 @@
 													"type": "list",
 													"items": [
 														"{@b Drop Back:} Increase your distance by 1 to bleed {@variantrule Speed|sw5e-phb|speed} and glide around the snag safely.",
-														"{@b Push Through:} Hold the line: roll {@skill Piloting|sw5e-phb} {@b DC 5}. Failure wrecks your bike and takes you out of the chase. After resolving that check, roll {@dice d20}; if the result is {@b 1}, debris shears a repulsor and the bike goes down anyway ({@i ≈ 5% chance per Push Through attempt}). Treat {@i 2–20 on the crash die as no extra effect beyond Piloting result.}"
+														"{@b Push Through:} Hold the line: roll {@skill Piloting} {@b DC 5}. Failure wrecks your bike and takes you out of the chase. After resolving that check, roll {@dice d20}; if the result is {@b 1}, debris shears a repulsor and the bike goes down anyway ({@i ≈ 5% chance per Push Through attempt}). Treat {@i 2–20 on the crash die as no extra effect beyond Piloting result.}"
 													]
 												}
 											]
@@ -1312,7 +1312,7 @@
 									"entries": [
 										"Your comlink hums one last time.",
 										"{@b Madine (Radio):} \"That's it. Energy readings in that room are off the chart. Secure that mainframe or the Empire wins. Good luck, and may the Force be with you.\"",
-										"{@b Caspar:} \"Yes, yes, very inspiring. Now, move your 'Force' out of the way and let {@skill Technology|sw5e-phb} {@i actually} solve the problem. Just one last security protocol to override...\""
+										"{@b Caspar:} \"Yes, yes, very inspiring. Now, move your 'Force' out of the way and let {@skill Technology} {@i actually} solve the problem. Just one last security protocol to override...\""
 									]
 								},
 								"The Nexus Chamber Door is sealed with a logic-scramble.",
@@ -1402,7 +1402,7 @@
 														],
 														[
 															"3-4",
-															"{@b Polarity Grenade:} A trooper lobs a Red or Blue grenade into the alcove. A PC must use an action to throw it back (DC 12 {@skill Athletics|sw5e-phb}). If failed, Caspar takes 2d6 damage of that color."
+															"{@b Polarity Grenade:} A trooper lobs a Red or Blue grenade into the alcove. A PC must use an action to throw it back (DC 12 {@skill Athletics}). If failed, Caspar takes 2d6 damage of that color."
 														],
 														[
 															"5-6",
@@ -1630,7 +1630,7 @@
 										"{@b Ready for Anything:} A rebel x-wing has locked onto you and is closing in! They don't know you're a friendly! You must act quickly to avoid being shot down by your own side!<br/>{@cue Let the player be as creative as they like — success vs. failure is at theDM's discretion (but c'mon, it should succeed!)}"
 									]
 								},
-								"If the players fail a majority of the {@skill Piloting|sw5e-phb} checks, the shuttle explodes. Read the following aloud:",
+								"If the players fail a majority of the {@skill Piloting} checks, the shuttle explodes. Read the following aloud:",
 								{
 									"type": "insetReadaloud",
 									"entries": [

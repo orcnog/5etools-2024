@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-phb",
+				"abbreviation": "PHB",
+				"full": "SW5e: Player's Handbook",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
+				"color": "#aa0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		]
+	},
+	"sense": [
+		{
+			"name": "Blindsight",
+			"source": "sw5e-phb",
+			"page": 215,
+			"entries": [
+				"A creature with {@sense Blindsight|sw5e-phb|blindsight} can {@optfeature Perceive|sw5e-phb|perceive} its surroundings without relying on sight, within a specific radius. Creatures without eyes, such as Miraluka, and creatures with echolocation or heightened senses, such as Togruta or Verpine, have this sense."
+			]
+		},
+		{
+			"name": "Darkvision",
+			"source": "sw5e-phb",
+			"page": 215,
+			"entries": [
+				"Many creatures in the worlds of Star Wars, especially those that dwell underground, have {@sense Darkvision|sw5e-phb|darkvision}. Within a specified range, a creature with {@sense Darkvision|sw5e-phb|darkvision} can see in {@spell Darkness|sw5e-phb|darkness} as if the {@spell Darkness|sw5e-phb|darkness} were dim light, so areas of {@spell Darkness|sw5e-phb|darkness} are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+			]
+		},
+		{
+			"name": "Tremorsense",
+			"source": "sw5e-phb",
+			"page": 215,
+			"entries": [
+				"A creature with {@sense Tremorsense|sw5e-phb|tremorsense} can detect and pinpoint the origin of vibrations within a specific radius, provided that the creature and the source of the vibrations are in contact with the same ground or substance. {@sense Tremorsense|sw5e-phb} can't be used to detect flying or incorporeal creatures."
+			]
+		},
+		{
+			"name": "Truesight",
+			"source": "sw5e-phb",
+			"page": 215,
+			"entries": [
+				"A creature with {@sense Truesight|sw5e-phb|truesight} can, out to a specific range, see in normal and enhanced {@spell Darkness|sw5e-phb|darkness}, see {@condition Invisible|sw5e-phb|invisible} creatures and objects, automatically detect visual illusions and succeed on {@variantrule Saving Throw|sw5e-phb|saving throws} against them, and perceives the original form of a shapechanger or a creature that is transformed by a power."
+			]
+		}
+	]
+}

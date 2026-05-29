@@ -61,7 +61,7 @@
 				"Unarmored Defense|Berserker|sw5e-phb|1",
 				"Reckless Attack|Berserker|sw5e-phb|2",
 				"Berserker Instincts|Berserker|sw5e-phb|2",
-				"Danger Sense|Berserker|sw5e-phb|3",
+				"{@spell Danger Sense|sw5e-phb}|Berserker|sw5e-phb|3",
 				{
 					"classFeature": "Berserker Approaches|Berserker|sw5e-phb|3",
 					"gainSubclassFeature": true
@@ -268,10 +268,10 @@
 				]
 			},
 			"classFeatures": [
-				"Forcecasting|Consular|sw5e-phb|1",
+				"{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}|Consular|sw5e-phb|1",
 				"Force Recovery|Consular|sw5e-phb|1",
 				"Force-Empowered Casting|Consular|sw5e-phb|2",
-				"Force Shield|Consular|sw5e-phb|2",
+				"Force {@item Shield|sw5e-phb}|Consular|sw5e-phb|2",
 				"Force Affinity|Consular|sw5e-phb|3",
 				{
 					"classFeature": "Consular Traditions|Consular|sw5e-phb|3",
@@ -298,7 +298,7 @@
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Consular|sw5e-phb|19",
-				"One with the Force|Consular|sw5e-phb|20"
+				"{@optfeature One with the Force|sw5e-phb}|Consular|sw5e-phb|20"
 			],
 			"subclassTitle": "Consular Traditions",
 			"startingEquipment": {
@@ -326,7 +326,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Force Powers Known",
+						"{@book Force Powers Known|sw5e-phb|11|Force Powers}",
 						"Force Points",
 						"Max Power Level",
 						"Force-Empowered Casting Options"
@@ -499,10 +499,10 @@
 				]
 			},
 			"classFeatures": [
-				"Techcasting|Engineer|sw5e-phb|1",
+				"{@book techcasting|sw5e-phb|10|Force- and Tech-casting}|Engineer|sw5e-phb|1",
 				"Potent Aptitude|Engineer|sw5e-phb|1",
 				"Infuse Item|Engineer|sw5e-phb|2",
-				"Tool Expertise|Engineer|sw5e-phb|2",
+				"Tool {@variantrule Expertise|sw5e-phb}|Engineer|sw5e-phb|2",
 				{
 					"classFeature": "Engineering Disciplines|Engineer|sw5e-phb|3",
 					"gainSubclassFeature": true
@@ -550,7 +550,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Tech Powers Known",
+						"{@book Tech Powers Known|sw5e-phb|12|Tech Powers}",
 						"Tech Points",
 						"Max Power Level",
 						"Potent Aptitude",
@@ -568,140 +568,140 @@
 							"6",
 							"2",
 							"1st",
-							"d4",
+							"{@dice d4}",
 							"—"
 						],
 						[
 							"7",
 							"4",
 							"1st",
-							"d4",
+							"{@dice d4}",
 							"—"
 						],
 						[
 							"9",
 							"6",
 							"2nd",
-							"d4",
+							"{@dice d4}",
 							"4"
 						],
 						[
 							"10",
 							"8",
 							"2nd",
-							"d4",
+							"{@dice d4}",
 							"4"
 						],
 						[
 							"12",
 							"10",
 							"3rd",
-							"d6",
+							"{@dice d6}",
 							"5"
 						],
 						[
 							"13",
 							"12",
 							"3rd",
-							"d6",
+							"{@dice d6}",
 							"5"
 						],
 						[
 							"15",
 							"14",
 							"4th",
-							"d6",
+							"{@dice d6}",
 							"5"
 						],
 						[
 							"16",
 							"16",
 							"4th",
-							"d6",
+							"{@dice d6}",
 							"5"
 						],
 						[
 							"18",
 							"18",
 							"5th",
-							"d8",
+							"{@dice d8}",
 							"6"
 						],
 						[
 							"19",
 							"20",
 							"5th",
-							"d8",
+							"{@dice d8}",
 							"6"
 						],
 						[
 							"21",
 							"22",
 							"6th",
-							"d8",
+							"{@dice d8}",
 							"7"
 						],
 						[
 							"22",
 							"24",
 							"6th",
-							"d8",
+							"{@dice d8}",
 							"7"
 						],
 						[
 							"23",
 							"26",
 							"7th",
-							"d10",
+							"{@dice d10}",
 							"8"
 						],
 						[
 							"24",
 							"28",
 							"7th",
-							"d10",
+							"{@dice d10}",
 							"8"
 						],
 						[
 							"25",
 							"30",
 							"8th",
-							"d10",
+							"{@dice d10}",
 							"8"
 						],
 						[
 							"26",
 							"32",
 							"8th",
-							"d10",
+							"{@dice d10}",
 							"8"
 						],
 						[
 							"27",
 							"34",
 							"9th",
-							"d12",
+							"{@dice d12}",
 							"9"
 						],
 						[
 							"28",
 							"36",
 							"9th",
-							"d12",
+							"{@dice d12}",
 							"9"
 						],
 						[
 							"29",
 							"38",
 							"9th",
-							"d12",
+							"{@dice d12}",
 							"9"
 						],
 						[
 							"30",
 							"40",
 							"9th",
-							"d12",
+							"{@dice d12}",
 							"9"
 						]
 					]
@@ -861,8 +861,8 @@
 				{
 					"colLabels": [
 						"Maneuvers Known",
-						"Superiority Dice Quantity",
-						"Superiority Dice Size",
+						"{@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Quantity",
+						"{@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Size",
 						"Strategies Known"
 					],
 					"colStyles": [
@@ -881,115 +881,115 @@
 						[
 							"1",
 							"2",
-							"d4",
+							"{@dice d4}",
 							"—"
 						],
 						[
 							"2",
 							"2",
-							"d4",
+							"{@dice d4}",
 							"1"
 						],
 						[
 							"2",
 							"2",
-							"d4",
+							"{@dice d4}",
 							"1"
 						],
 						[
 							"4",
 							"3",
-							"d6",
+							"{@dice d6}",
 							"1"
 						],
 						[
 							"4",
 							"3",
-							"d6",
+							"{@dice d6}",
 							"1"
 						],
 						[
 							"5",
 							"3",
-							"d6",
+							"{@dice d6}",
 							"2"
 						],
 						[
 							"5",
 							"3",
-							"d6",
+							"{@dice d6}",
 							"2"
 						],
 						[
 							"6",
 							"4",
-							"d8",
+							"{@dice d8}",
 							"2"
 						],
 						[
 							"6",
 							"4",
-							"d8",
+							"{@dice d8}",
 							"2"
 						],
 						[
 							"7",
 							"4",
-							"d8",
+							"{@dice d8}",
 							"2"
 						],
 						[
 							"7",
 							"4",
-							"d8",
+							"{@dice d8}",
 							"2"
 						],
 						[
 							"9",
 							"5",
-							"d10",
+							"{@dice d10}",
 							"3"
 						],
 						[
 							"9",
 							"5",
-							"d10",
+							"{@dice d10}",
 							"3"
 						],
 						[
 							"10",
 							"5",
-							"d10",
+							"{@dice d10}",
 							"3"
 						],
 						[
 							"10",
 							"5",
-							"d10",
+							"{@dice d10}",
 							"3"
 						],
 						[
 							"11",
 							"6",
-							"d12",
+							"{@dice d12}",
 							"4"
 						],
 						[
 							"11",
 							"6",
-							"d12",
+							"{@dice d12}",
 							"4"
 						],
 						[
 							"12",
 							"6",
-							"d12",
+							"{@dice d12}",
 							"4"
 						],
 						[
 							"12",
 							"6",
-							"d12",
+							"{@dice d12}",
 							"4"
 						]
 					]
@@ -1037,7 +1037,7 @@
 				]
 			},
 			"classFeatures": [
-				"Forcecasting|Guardian|sw5e-phb|1",
+				"{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}|Guardian|sw5e-phb|1",
 				"Channel the Force|Guardian|sw5e-phb|1",
 				"Force-Empowered Strikes|Guardian|sw5e-phb|2",
 				"Fighting Style|Guardian|sw5e-phb|2",
@@ -1098,7 +1098,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Force Powers Known",
+						"{@book Force Powers Known|sw5e-phb|11|Force Powers}",
 						"Force Points",
 						"Max Power Level",
 						"Focused Strikes",
@@ -1400,121 +1400,121 @@
 					],
 					"rows": [
 						[
-							"d4",
+							"{@dice d4}",
 							"—",
 							"—",
 							"—"
 						],
 						[
-							"d4",
+							"{@dice d4}",
 							"2",
 							"2",
 							"—"
 						],
 						[
-							"d4",
+							"{@dice d4}",
 							"3",
 							"2",
 							"+10 ft."
 						],
 						[
-							"d4",
+							"{@dice d4}",
 							"4",
 							"2",
 							"+10 ft."
 						],
 						[
-							"d6",
+							"{@dice d6}",
 							"5",
 							"2",
 							"+15 ft."
 						],
 						[
-							"d6",
+							"{@dice d6}",
 							"6",
 							"2",
 							"+15 ft."
 						],
 						[
-							"d6",
+							"{@dice d6}",
 							"7",
 							"3",
 							"+15 ft."
 						],
 						[
-							"d6",
+							"{@dice d6}",
 							"8",
 							"3",
 							"+15 ft."
 						],
 						[
-							"d8",
+							"{@dice d8}",
 							"9",
 							"3",
 							"+20 ft."
 						],
 						[
-							"d8",
+							"{@dice d8}",
 							"10",
 							"3",
 							"+20 ft."
 						],
 						[
-							"d8",
+							"{@dice d8}",
 							"11",
 							"3",
 							"+20 ft."
 						],
 						[
-							"d8",
+							"{@dice d8}",
 							"12",
 							"3",
 							"+20 ft."
 						],
 						[
-							"d10",
+							"{@dice d10}",
 							"13",
 							"4",
 							"+25 ft."
 						],
 						[
-							"d10",
+							"{@dice d10}",
 							"14",
 							"4",
 							"+25 ft."
 						],
 						[
-							"d10",
+							"{@dice d10}",
 							"15",
 							"4",
 							"+25 ft."
 						],
 						[
-							"d10",
+							"{@dice d10}",
 							"16",
 							"4",
 							"+25 ft."
 						],
 						[
-							"d12",
+							"{@dice d12}",
 							"17",
 							"5",
 							"+30 ft."
 						],
 						[
-							"d12",
+							"{@dice d12}",
 							"18",
 							"5",
 							"+30 ft."
 						],
 						[
-							"d12",
+							"{@dice d12}",
 							"19",
 							"5",
 							"+30 ft."
 						],
 						[
-							"d12",
+							"{@dice d12}",
 							"20",
 							"5",
 							"+30 ft."
@@ -1560,7 +1560,7 @@
 				]
 			},
 			"classFeatures": [
-				"Expertise|Operative|sw5e-phb|1",
+				"{@variantrule Expertise|sw5e-phb}|Operative|sw5e-phb|1",
 				"Sneak Attack|Operative|sw5e-phb|1",
 				"Cunning Action|Operative|sw5e-phb|2",
 				"Operative Exploits|Operative|sw5e-phb|2",
@@ -1571,7 +1571,7 @@
 				},
 				"Ability Score Improvement|Operative|sw5e-phb|4",
 				"Uncanny Dodge|Operative|sw5e-phb|5",
-				"Expertise|Operative|sw5e-phb|6",
+				"{@variantrule Expertise|sw5e-phb}|Operative|sw5e-phb|6",
 				"Evasion|Operative|sw5e-phb|7",
 				"Ability Score Improvement|Operative|sw5e-phb|8",
 				{
@@ -1757,7 +1757,7 @@
 				"Critical Analysis|Scholar|sw5e-phb|1",
 				"Discovery|Scholar|sw5e-phb|2",
 				"Sage Advice|Scholar|sw5e-phb|2",
-				"Expertise|Scholar|sw5e-phb|3",
+				"{@variantrule Expertise|sw5e-phb}|Scholar|sw5e-phb|3",
 				{
 					"classFeature": "Academic Pursuits|Scholar|sw5e-phb|3",
 					"gainSubclassFeature": true
@@ -1773,7 +1773,7 @@
 					"classFeature": "Academic Pursuits feature|Scholar|sw5e-phb|9",
 					"gainSubclassFeature": true
 				},
-				"Expertise|Scholar|sw5e-phb|10",
+				"{@variantrule Expertise|sw5e-phb}|Scholar|sw5e-phb|10",
 				"Ability Score Improvement|Scholar|sw5e-phb|12",
 				"Sage Advice|Scholar|sw5e-phb|13",
 				"Calm and Collected|Scholar|sw5e-phb|14",
@@ -1840,8 +1840,8 @@
 				{
 					"colLabels": [
 						"Maneuvers Known",
-						"Superiority Dice Quantity",
-						"Superiority Dice Size",
+						"{@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Quantity",
+						"{@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Size",
 						"Discoveries"
 					],
 					"colStyles": [
@@ -1854,121 +1854,121 @@
 						[
 							"1",
 							"3",
-							"d4",
+							"{@dice d4}",
 							"—"
 						],
 						[
 							"2",
 							"3",
-							"d4",
+							"{@dice d4}",
 							"2"
 						],
 						[
 							"4",
 							"4",
-							"d4",
+							"{@dice d4}",
 							"4"
 						],
 						[
 							"5",
 							"4",
-							"d4",
+							"{@dice d4}",
 							"4"
 						],
 						[
 							"6",
 							"5",
-							"d6",
+							"{@dice d6}",
 							"5"
 						],
 						[
 							"7",
 							"5",
-							"d6",
+							"{@dice d6}",
 							"5"
 						],
 						[
 							"9",
 							"6",
-							"d6",
+							"{@dice d6}",
 							"5"
 						],
 						[
 							"10",
 							"6",
-							"d6",
+							"{@dice d6}",
 							"5"
 						],
 						[
 							"11",
 							"7",
-							"d8",
+							"{@dice d8}",
 							"6"
 						],
 						[
 							"12",
 							"7",
-							"d8",
+							"{@dice d8}",
 							"6"
 						],
 						[
 							"14",
 							"8",
-							"d8",
+							"{@dice d8}",
 							"7"
 						],
 						[
 							"15",
 							"8",
-							"d8",
+							"{@dice d8}",
 							"7"
 						],
 						[
 							"16",
 							"9",
-							"d10",
+							"{@dice d10}",
 							"8"
 						],
 						[
 							"17",
 							"9",
-							"d10",
+							"{@dice d10}",
 							"8"
 						],
 						[
 							"19",
 							"10",
-							"d10",
+							"{@dice d10}",
 							"8"
 						],
 						[
 							"20",
 							"10",
-							"d10",
+							"{@dice d10}",
 							"8"
 						],
 						[
 							"21",
 							"11",
-							"d12",
+							"{@dice d12}",
 							"9"
 						],
 						[
 							"22",
 							"11",
-							"d12",
+							"{@dice d12}",
 							"9"
 						],
 						[
 							"23",
 							"12",
-							"d12",
+							"{@dice d12}",
 							"9"
 						],
 						[
 							"24",
 							"12",
-							"d12",
+							"{@dice d12}",
 							"9"
 						]
 					]
@@ -2018,7 +2018,7 @@
 			"classFeatures": [
 				"Ranger's Quarry|Scout|sw5e-phb|1",
 				"Pathfinder|Scout|sw5e-phb|1",
-				"Techcasting|Scout|sw5e-phb|2",
+				"{@book techcasting|sw5e-phb|10|Force- and Tech-casting}|Scout|sw5e-phb|2",
 				"Fighting Style|Scout|sw5e-phb|2",
 				"Scout Routine|Scout|sw5e-phb|3",
 				{
@@ -2027,19 +2027,19 @@
 				},
 				"Ability Score Improvement|Scout|sw5e-phb|4",
 				"Extra Attack|Scout|sw5e-phb|5",
-				"Expertise|Scout|sw5e-phb|6",
+				"{@variantrule Expertise|sw5e-phb}|Scout|sw5e-phb|6",
 				{
 					"classFeature": "Scout Techniques feature|Scout|sw5e-phb|7",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Scout|sw5e-phb|8",
-				"Commando|Scout|sw5e-phb|10",
+				"{@feat Commando|sw5e-phb}|Scout|sw5e-phb|10",
 				{
 					"classFeature": "Scout Techniques feature|Scout|sw5e-phb|11",
 					"gainSubclassFeature": true
 				},
 				"Ability Score Improvement|Scout|sw5e-phb|12",
-				"Expertise|Scout|sw5e-phb|14",
+				"{@variantrule Expertise|sw5e-phb}|Scout|sw5e-phb|14",
 				"Combat Tech|Scout|sw5e-phb|14",
 				{
 					"classFeature": "Scout Techniques feature|Scout|sw5e-phb|15",
@@ -2086,7 +2086,7 @@
 				{
 					"colLabels": [
 						"Ranger's Quarry",
-						"Tech Powers Known",
+						"{@book Tech Powers Known|sw5e-phb|12|Tech Powers}",
 						"Tech Points",
 						"Max Power Level",
 						"Routines Known",
@@ -2102,7 +2102,7 @@
 					],
 					"rows": [
 						[
-							"d4",
+							"{@dice d4}",
 							"—",
 							"—",
 							"—",
@@ -2110,7 +2110,7 @@
 							"—"
 						],
 						[
-							"d4",
+							"{@dice d4}",
 							"4",
 							"2",
 							"1st",
@@ -2118,7 +2118,7 @@
 							"—"
 						],
 						[
-							"d4",
+							"{@dice d4}",
 							"5",
 							"3",
 							"1st",
@@ -2126,7 +2126,7 @@
 							"5 ft."
 						],
 						[
-							"d4",
+							"{@dice d4}",
 							"6",
 							"4",
 							"1st",
@@ -2134,7 +2134,7 @@
 							"5 ft."
 						],
 						[
-							"d6",
+							"{@dice d6}",
 							"7",
 							"5",
 							"2nd",
@@ -2142,7 +2142,7 @@
 							"5 ft."
 						],
 						[
-							"d6",
+							"{@dice d6}",
 							"8",
 							"6",
 							"2nd",
@@ -2150,7 +2150,7 @@
 							"5 ft."
 						],
 						[
-							"d6",
+							"{@dice d6}",
 							"9",
 							"7",
 							"2nd",
@@ -2158,7 +2158,7 @@
 							"5 ft."
 						],
 						[
-							"d6",
+							"{@dice d6}",
 							"10",
 							"8",
 							"2nd",
@@ -2166,7 +2166,7 @@
 							"5 ft."
 						],
 						[
-							"d8",
+							"{@dice d8}",
 							"12",
 							"9",
 							"3rd",
@@ -2174,7 +2174,7 @@
 							"15 ft."
 						],
 						[
-							"d8",
+							"{@dice d8}",
 							"13",
 							"10",
 							"3rd",
@@ -2182,7 +2182,7 @@
 							"15 ft."
 						],
 						[
-							"d8",
+							"{@dice d8}",
 							"14",
 							"11",
 							"3rd",
@@ -2190,7 +2190,7 @@
 							"15 ft."
 						],
 						[
-							"d8",
+							"{@dice d8}",
 							"15",
 							"12",
 							"3rd",
@@ -2198,7 +2198,7 @@
 							"15 ft."
 						],
 						[
-							"d10",
+							"{@dice d10}",
 							"16",
 							"13",
 							"4th",
@@ -2206,7 +2206,7 @@
 							"15 ft."
 						],
 						[
-							"d10",
+							"{@dice d10}",
 							"17",
 							"14",
 							"4th",
@@ -2214,7 +2214,7 @@
 							"15 ft."
 						],
 						[
-							"d10",
+							"{@dice d10}",
 							"18",
 							"15",
 							"4th",
@@ -2222,7 +2222,7 @@
 							"15 ft."
 						],
 						[
-							"d10",
+							"{@dice d10}",
 							"19",
 							"16",
 							"4th",
@@ -2230,7 +2230,7 @@
 							"15 ft."
 						],
 						[
-							"d12",
+							"{@dice d12}",
 							"20",
 							"17",
 							"5th",
@@ -2238,7 +2238,7 @@
 							"30 ft."
 						],
 						[
-							"d12",
+							"{@dice d12}",
 							"21",
 							"18",
 							"5th",
@@ -2246,7 +2246,7 @@
 							"30 ft."
 						],
 						[
-							"d12",
+							"{@dice d12}",
 							"22",
 							"19",
 							"5th",
@@ -2254,7 +2254,7 @@
 							"30 ft."
 						],
 						[
-							"d12",
+							"{@dice d12}",
 							"23",
 							"20",
 							"5th",
@@ -2307,7 +2307,7 @@
 				]
 			},
 			"classFeatures": [
-				"Forcecasting|Sentinel|sw5e-phb|1",
+				"{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}|Sentinel|sw5e-phb|1",
 				"Led by the Force|Sentinel|sw5e-phb|1",
 				"Force-Empowered Self|Sentinel|sw5e-phb|2",
 				"Sentinel Ideals|Sentinel|sw5e-phb|2",
@@ -2370,7 +2370,7 @@
 			"classTableGroups": [
 				{
 					"colLabels": [
-						"Force Powers Known",
+						"{@book Force Powers Known|sw5e-phb|11|Force Powers}",
 						"Force Points",
 						"Max Power Level",
 						"Kinetic Combat",
@@ -2398,7 +2398,7 @@
 							"9",
 							"6",
 							"1st",
-							"d4",
+							"{@dice d4}",
 							"2",
 							"2"
 						],
@@ -2406,7 +2406,7 @@
 							"11",
 							"9",
 							"2nd",
-							"d4",
+							"{@dice d4}",
 							"2",
 							"2"
 						],
@@ -2414,7 +2414,7 @@
 							"13",
 							"12",
 							"2nd",
-							"d4",
+							"{@dice d4}",
 							"2",
 							"2"
 						],
@@ -2422,7 +2422,7 @@
 							"15",
 							"15",
 							"2nd",
-							"d6",
+							"{@dice d6}",
 							"2",
 							"2"
 						],
@@ -2430,7 +2430,7 @@
 							"17",
 							"18",
 							"3rd",
-							"d6",
+							"{@dice d6}",
 							"3",
 							"2"
 						],
@@ -2438,7 +2438,7 @@
 							"18",
 							"21",
 							"3rd",
-							"d6",
+							"{@dice d6}",
 							"3",
 							"2"
 						],
@@ -2446,7 +2446,7 @@
 							"19",
 							"24",
 							"3rd",
-							"d6",
+							"{@dice d6}",
 							"3",
 							"2"
 						],
@@ -2454,7 +2454,7 @@
 							"21",
 							"27",
 							"4th",
-							"d8",
+							"{@dice d8}",
 							"3",
 							"3"
 						],
@@ -2462,7 +2462,7 @@
 							"22",
 							"30",
 							"4th",
-							"d8",
+							"{@dice d8}",
 							"3",
 							"3"
 						],
@@ -2470,7 +2470,7 @@
 							"24",
 							"33",
 							"5th",
-							"d8",
+							"{@dice d8}",
 							"4",
 							"3"
 						],
@@ -2478,7 +2478,7 @@
 							"25",
 							"36",
 							"5th",
-							"d8",
+							"{@dice d8}",
 							"4",
 							"3"
 						],
@@ -2486,7 +2486,7 @@
 							"26",
 							"39",
 							"5th",
-							"d10",
+							"{@dice d10}",
 							"4",
 							"3"
 						],
@@ -2494,7 +2494,7 @@
 							"28",
 							"42",
 							"6th",
-							"d10",
+							"{@dice d10}",
 							"4",
 							"3"
 						],
@@ -2502,7 +2502,7 @@
 							"29",
 							"45",
 							"6th",
-							"d10",
+							"{@dice d10}",
 							"4",
 							"3"
 						],
@@ -2510,7 +2510,7 @@
 							"30",
 							"48",
 							"6th",
-							"d10",
+							"{@dice d10}",
 							"4",
 							"3"
 						],
@@ -2518,7 +2518,7 @@
 							"32",
 							"51",
 							"7th",
-							"d12",
+							"{@dice d12}",
 							"4",
 							"4"
 						],
@@ -2526,7 +2526,7 @@
 							"33",
 							"54",
 							"7th",
-							"d12",
+							"{@dice d12}",
 							"4",
 							"4"
 						],
@@ -2534,7 +2534,7 @@
 							"34",
 							"57",
 							"7th",
-							"d12",
+							"{@dice d12}",
 							"4",
 							"4"
 						],
@@ -2542,7 +2542,7 @@
 							"35",
 							"60",
 							"7th",
-							"d12",
+							"{@dice d12}",
 							"4",
 							"4"
 						]
@@ -2561,10 +2561,10 @@
 			"page": 49,
 			"subclassFeatures": [
 				"Ballistic Approach|Berserker|sw5e-phb|Ballistic Approach|sw5e-phb|3",
-				"Firestorm|Berserker|sw5e-phb|Ballistic Approach|sw5e-phb|3",
+				"{@spell Firestorm|sw5e-phb}|Berserker|sw5e-phb|Ballistic Approach|sw5e-phb|3",
 				"Explosive|Berserker|sw5e-phb|Ballistic Approach|sw5e-phb|3",
 				"Explosive|Berserker|sw5e-phb|Ballistic Approach|sw5e-phb|9",
-				"Rampage|Berserker|sw5e-phb|Ballistic Approach|sw5e-phb|6",
+				"{@optfeature Rampage|sw5e-phb}|Berserker|sw5e-phb|Ballistic Approach|sw5e-phb|6",
 				"Down, Not Out|Berserker|sw5e-phb|Ballistic Approach|sw5e-phb|10",
 				"Brawn|Berserker|sw5e-phb|Ballistic Approach|sw5e-phb|14"
 			]
@@ -2611,15 +2611,15 @@
 			"page": 49,
 			"subclassFeatures": [
 				"Marauder Approach|Berserker|sw5e-phb|Marauder Approach|sw5e-phb|3",
-				"Forcecasting|Berserker|sw5e-phb|Marauder Approach|sw5e-phb|3",
+				"{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}|Berserker|sw5e-phb|Marauder Approach|sw5e-phb|3",
 				"Furious Force|Berserker|sw5e-phb|Marauder Approach|sw5e-phb|3",
 				"Reckless Power|Berserker|sw5e-phb|Marauder Approach|sw5e-phb|6",
 				"Powerful Presence|Berserker|sw5e-phb|Marauder Approach|sw5e-phb|10",
-				"Force Storm|Berserker|sw5e-phb|Marauder Approach|sw5e-phb|14"
+				"{@spell Force Storm|sw5e-phb}|Berserker|sw5e-phb|Marauder Approach|sw5e-phb|14"
 			],
 			"subclassTableGroups": [
 				{
-					"title": "Marauder Approach Forcecasting",
+					"title": "Marauder Approach {@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
 					"subclasses": [
 						{
 							"name": "Marauder Approach",
@@ -2627,7 +2627,7 @@
 						}
 					],
 					"colLabels": [
-						"Force Powers Known",
+						"{@book Force Powers Known|sw5e-phb|11|Force Powers}",
 						"Force Points",
 						"Max Power Level"
 					],
@@ -2750,11 +2750,11 @@
 			"page": 49,
 			"subclassFeatures": [
 				"Way of Balance|Consular|sw5e-phb|Way of Balance|sw5e-phb|3",
-				"Force Barrier|Consular|sw5e-phb|Way of Balance|sw5e-phb|3",
+				"{@spell Force Barrier|sw5e-phb}|Consular|sw5e-phb|Way of Balance|sw5e-phb|3",
 				"Projected Barrier|Consular|sw5e-phb|Way of Balance|sw5e-phb|6",
 				"At-Will Barrier|Consular|sw5e-phb|Way of Balance|sw5e-phb|10",
 				"Improved Suppression|Consular|sw5e-phb|Way of Balance|sw5e-phb|14",
-				"Force Resistance|Consular|sw5e-phb|Way of Balance|sw5e-phb|18"
+				"Force {@spell Resistance|sw5e-phb}|Consular|sw5e-phb|Way of Balance|sw5e-phb|18"
 			]
 		},
 		{
@@ -2768,9 +2768,9 @@
 				"Way of Lightning|Consular|sw5e-phb|Way of Lightning|sw5e-phb|3",
 				"Shocking Affinity|Consular|sw5e-phb|Way of Lightning|sw5e-phb|3",
 				"Potent Lightning|Consular|sw5e-phb|Way of Lightning|sw5e-phb|6",
-				"Blistering Rebuke|Consular|sw5e-phb|Way of Lightning|sw5e-phb|10",
-				"Blistering Rebuke|Consular|sw5e-phb|Way of Lightning|sw5e-phb|13",
-				"Blistering Rebuke|Consular|sw5e-phb|Way of Lightning|sw5e-phb|17",
+				"Blistering {@spell Rebuke|sw5e-phb}|Consular|sw5e-phb|Way of Lightning|sw5e-phb|10",
+				"Blistering {@spell Rebuke|sw5e-phb}|Consular|sw5e-phb|Way of Lightning|sw5e-phb|13",
+				"Blistering {@spell Rebuke|sw5e-phb}|Consular|sw5e-phb|Way of Lightning|sw5e-phb|17",
 				"Electric Attunement|Consular|sw5e-phb|Way of Lightning|sw5e-phb|14",
 				"Unlimited Power|Consular|sw5e-phb|Way of Lightning|sw5e-phb|18"
 			]
@@ -2807,7 +2807,7 @@
 				"Preserve Life|Consular|sw5e-phb|Way of the Sage|sw5e-phb|9",
 				"Preserve Life|Consular|sw5e-phb|Way of the Sage|sw5e-phb|13",
 				"Preserve Life|Consular|sw5e-phb|Way of the Sage|sw5e-phb|17",
-				"Blessed Healer|Consular|sw5e-phb|Way of the Sage|sw5e-phb|10",
+				"Blessed {@feat Healer|sw5e-phb}|Consular|sw5e-phb|Way of the Sage|sw5e-phb|10",
 				"Blessed by the Force|Consular|sw5e-phb|Way of the Sage|sw5e-phb|14",
 				"Supreme Healing|Consular|sw5e-phb|Way of the Sage|sw5e-phb|18"
 			]
@@ -2893,70 +2893,70 @@
 			]
 		},
 		{
-			"name": "Assault Specialist",
-			"shortName": "Assault Specialist",
+			"name": "Assault {@feat Specialist|sw5e-phb}",
+			"shortName": "Assault {@feat Specialist|sw5e-phb}",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
-				"Assault Specialist|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|3",
-				"Brute Force|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|3",
-				"Brute Force|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|10",
-				"Brute Force|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|16",
-				"Improved Critical|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|3",
-				"Remarkable Athlete|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|7",
-				"Brutish Durability|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|10",
-				"Brutish Durability|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|13",
-				"Brutish Durability|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|17",
-				"Devastating Critical|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|15",
-				"Survivor|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|18"
+				"Assault {@feat Specialist|sw5e-phb}|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|3",
+				"Brute Force|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|3",
+				"Brute Force|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|10",
+				"Brute Force|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|16",
+				"Improved Critical|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|3",
+				"Remarkable {@feat Athlete|sw5e-phb}|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|7",
+				"Brutish Durability|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|10",
+				"Brutish Durability|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|13",
+				"Brutish Durability|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|17",
+				"Devastating Critical|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|15",
+				"Survivor|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|18"
 			]
 		},
 		{
-			"name": "Blademaster Specialist",
-			"shortName": "Blademaster Specialist",
+			"name": "Blademaster {@feat Specialist|sw5e-phb}",
+			"shortName": "Blademaster {@feat Specialist|sw5e-phb}",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
-				"Blademaster Specialist|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|3",
-				"Unarmored Defense|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|3",
-				"Adaptive Fighting|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|3",
-				"Dervish|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|7",
-				"Resilient Fighting|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|10",
-				"Adrenaline Rush|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|15",
-				"Bladestorm|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|18"
+				"Blademaster {@feat Specialist|sw5e-phb}|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|3",
+				"Unarmored Defense|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|3",
+				"Adaptive Fighting|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|3",
+				"Dervish|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|7",
+				"{@feat Resilient|sw5e-phb} Fighting|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|10",
+				"Adrenaline Rush|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|15",
+				"Bladestorm|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|18"
 			]
 		},
 		{
-			"name": "Shield Specialist",
-			"shortName": "Shield Specialist",
+			"name": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
+			"shortName": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
-				"Shield Specialist|Fighter|sw5e-phb|Shield Specialist|sw5e-phb|3",
-				"Techcasting|Fighter|sw5e-phb|Shield Specialist|sw5e-phb|3",
-				"Stay in Formation|Fighter|sw5e-phb|Shield Specialist|sw5e-phb|3",
-				"Rallying Cry|Fighter|sw5e-phb|Shield Specialist|sw5e-phb|7",
-				"Inspiring Surge|Fighter|sw5e-phb|Shield Specialist|sw5e-phb|10",
-				"Bulwark|Fighter|sw5e-phb|Shield Specialist|sw5e-phb|15",
-				"Greater Inspiring Surge|Fighter|sw5e-phb|Shield Specialist|sw5e-phb|18"
+				"{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|3",
+				"{@book techcasting|sw5e-phb|10|Force- and Tech-casting}|Fighter|sw5e-phb|Shield Specialist|sw5e-phb|3",
+				"Stay in Formation|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|3",
+				"Rallying Cry|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|7",
+				"Inspiring Surge|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|10",
+				"Bulwark|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|15",
+				"Greater Inspiring Surge|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|18"
 			],
 			"subclassTableGroups": [
 				{
-					"title": "Shield Specialist Techcasting",
+					"title": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting}",
 					"subclasses": [
 						{
-							"name": "Shield Specialist",
+							"name": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
 							"source": "sw5e-phb"
 						}
 					],
 					"colLabels": [
-						"Tech Powers Known",
+						"{@book Tech Powers Known|sw5e-phb|12|Tech Powers}",
 						"Tech Points",
 						"Max Power Level"
 					],
@@ -3071,32 +3071,32 @@
 			]
 		},
 		{
-			"name": "Tactical Specialist",
-			"shortName": "Tactical Specialist",
+			"name": "Tactical {@feat Specialist|sw5e-phb}",
+			"shortName": "Tactical {@feat Specialist|sw5e-phb}",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
-				"Tactical Specialist|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|3",
-				"Bonus Proficiencies|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|3",
-				"Improved Combat Superiority|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|3",
-				"Maneuver Versatility|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|3",
-				"Know Your Enemy|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|7",
-				"Maneuver Adept|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|10",
-				"Relentless|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|15",
-				"Maneuver Mastery|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|18"
+				"Tactical {@feat Specialist|sw5e-phb}|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|3",
+				"Bonus Proficiencies|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|3",
+				"Improved Combat Superiority|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|3",
+				"{@book maneuver|sw5e-phb|13|Maneuvers} Versatility|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|3",
+				"Know Your Enemy|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|7",
+				"{@book maneuver|sw5e-phb|13|Maneuvers} Adept|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|10",
+				"Relentless|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|15",
+				"{@book maneuver|sw5e-phb|13|Maneuvers} Mastery|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|18"
 			]
 		},
 		{
-			"name": "Makashi Form",
-			"shortName": "Makashi Form",
+			"name": "{@optfeature Makashi Form|sw5e-phb}",
+			"shortName": "{@optfeature Makashi Form|sw5e-phb}",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
-				"Makashi Form|Guardian|sw5e-phb|Makashi Form|sw5e-phb|3",
+				"{@optfeature Makashi Form|sw5e-phb}|Guardian|sw5e-phb|Makashi Form|sw5e-phb|3",
 				"Form Basics|Guardian|sw5e-phb|Makashi Form|sw5e-phb|3",
 				"The Way of the Ysalamiri|Guardian|sw5e-phb|Makashi Form|sw5e-phb|3",
 				"Channel the Force|Guardian|sw5e-phb|Makashi Form|sw5e-phb|3",
@@ -3106,14 +3106,14 @@
 			]
 		},
 		{
-			"name": "Niman Form",
-			"shortName": "Niman Form",
+			"name": "{@optfeature Niman Form|sw5e-phb}",
+			"shortName": "{@optfeature Niman Form|sw5e-phb}",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
-				"Niman Form|Guardian|sw5e-phb|Niman Form|sw5e-phb|3",
+				"{@optfeature Niman Form|sw5e-phb}|Guardian|sw5e-phb|Niman Form|sw5e-phb|3",
 				"Form Basics|Guardian|sw5e-phb|Niman Form|sw5e-phb|3",
 				"The Way of the Rancor|Guardian|sw5e-phb|Niman Form|sw5e-phb|3",
 				"Channel the Force|Guardian|sw5e-phb|Niman Form|sw5e-phb|3",
@@ -3123,32 +3123,32 @@
 			]
 		},
 		{
-			"name": "Shien/Djem So Form",
-			"shortName": "Shien/Djem So Form",
+			"name": "Shien/{@optfeature Djem So Form|sw5e-phb}",
+			"shortName": "Shien/{@optfeature Djem So Form|sw5e-phb}",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
-				"Shien/Djem So Form|Guardian|sw5e-phb|Shien/Djem So Form|sw5e-phb|3",
-				"Bonus Proficiencies|Guardian|sw5e-phb|Shien/Djem So Form|sw5e-phb|3",
-				"Form Basics|Guardian|sw5e-phb|Shien/Djem So Form|sw5e-phb|3",
-				"The Way of the Krayt Dragon|Guardian|sw5e-phb|Shien/Djem So Form|sw5e-phb|3",
-				"Channel the Force|Guardian|sw5e-phb|Shien/Djem So Form|sw5e-phb|3",
-				"Determination|Guardian|sw5e-phb|Shien/Djem So Form|sw5e-phb|7",
-				"Presence|Guardian|sw5e-phb|Shien/Djem So Form|sw5e-phb|15",
-				"Master of Perseverance|Guardian|sw5e-phb|Shien/Djem So Form|sw5e-phb|20"
+				"Shien/{@optfeature Djem So Form|sw5e-phb}|Guardian|sw5e-phb|Shien/{@optfeature Djem So Form|sw5e-phb}|sw5e-phb|3",
+				"Bonus Proficiencies|Guardian|sw5e-phb|Shien/{@optfeature Djem So Form|sw5e-phb}|sw5e-phb|3",
+				"Form Basics|Guardian|sw5e-phb|Shien/{@optfeature Djem So Form|sw5e-phb}|sw5e-phb|3",
+				"The Way of the Krayt Dragon|Guardian|sw5e-phb|Shien/{@optfeature Djem So Form|sw5e-phb}|sw5e-phb|3",
+				"Channel the Force|Guardian|sw5e-phb|Shien/{@optfeature Djem So Form|sw5e-phb}|sw5e-phb|3",
+				"Determination|Guardian|sw5e-phb|Shien/{@optfeature Djem So Form|sw5e-phb}|sw5e-phb|7",
+				"Presence|Guardian|sw5e-phb|Shien/{@optfeature Djem So Form|sw5e-phb}|sw5e-phb|15",
+				"Master of Perseverance|Guardian|sw5e-phb|Shien/{@optfeature Djem So Form|sw5e-phb}|sw5e-phb|20"
 			]
 		},
 		{
-			"name": "Soresu Form",
-			"shortName": "Soresu Form",
+			"name": "{@optfeature Soresu Form|sw5e-phb}",
+			"shortName": "{@optfeature Soresu Form|sw5e-phb}",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
-				"Soresu Form|Guardian|sw5e-phb|Soresu Form|sw5e-phb|3",
+				"{@optfeature Soresu Form|sw5e-phb}|Guardian|sw5e-phb|Soresu Form|sw5e-phb|3",
 				"Bonus Proficiencies|Guardian|sw5e-phb|Soresu Form|sw5e-phb|3",
 				"Form Basics|Guardian|sw5e-phb|Soresu Form|sw5e-phb|3",
 				"The Way of the Mynock|Guardian|sw5e-phb|Soresu Form|sw5e-phb|3",
@@ -3222,7 +3222,7 @@
 				"Ichor Lightning|Monk|sw5e-phb|Nightsister Order|sw5e-phb|3",
 				"Dark Magick|Monk|sw5e-phb|Nightsister Order|sw5e-phb|6",
 				"Mastery of Death|Monk|sw5e-phb|Nightsister Order|sw5e-phb|11",
-				"Spirit Blade Assault|Monk|sw5e-phb|Nightsister Order|sw5e-phb|17"
+				"{@spell Spirit Blade|sw5e-phb} Assault|Monk|sw5e-phb|Nightsister Order|sw5e-phb|17"
 			]
 		},
 		{
@@ -3250,7 +3250,7 @@
 			"page": 49,
 			"subclassFeatures": [
 				"Beguiler Practice|Operative|sw5e-phb|Beguiler Practice|sw5e-phb|3",
-				"Forcecasting|Operative|sw5e-phb|Beguiler Practice|sw5e-phb|3",
+				"{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}|Operative|sw5e-phb|Beguiler Practice|sw5e-phb|3",
 				"Fascinating Display|Operative|sw5e-phb|Beguiler Practice|sw5e-phb|3",
 				"Mesmerizing Presence|Operative|sw5e-phb|Beguiler Practice|sw5e-phb|9",
 				"Enthralling Vigor|Operative|sw5e-phb|Beguiler Practice|sw5e-phb|13",
@@ -3258,7 +3258,7 @@
 			],
 			"subclassTableGroups": [
 				{
-					"title": "Beguiler Practice Forcecasting",
+					"title": "Beguiler Practice {@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
 					"subclasses": [
 						{
 							"name": "Beguiler Practice",
@@ -3266,7 +3266,7 @@
 						}
 					],
 					"colLabels": [
-						"Force Powers Known",
+						"{@book Force Powers Known|sw5e-phb|11|Force Powers}",
 						"Force Points",
 						"Max Power Level"
 					],
@@ -3444,7 +3444,7 @@
 			"subclassFeatures": [
 				"Physician Pursuit|Scholar|sw5e-phb|Physician Pursuit|sw5e-phb|1",
 				"Medical Practitioner|Scholar|sw5e-phb|Physician Pursuit|sw5e-phb|3",
-				"Remote Healer|Scholar|sw5e-phb|Physician Pursuit|sw5e-phb|3",
+				"Remote {@feat Healer|sw5e-phb}|Scholar|sw5e-phb|Physician Pursuit|sw5e-phb|3",
 				"Field Surgeon|Scholar|sw5e-phb|Physician Pursuit|sw5e-phb|6",
 				"Field Surgeon|Scholar|sw5e-phb|Physician Pursuit|sw5e-phb|11",
 				"Resuscitate|Scholar|sw5e-phb|Physician Pursuit|sw5e-phb|9",
@@ -3463,7 +3463,7 @@
 				"Politician Pursuit|Scholar|sw5e-phb|Politician Pursuit|sw5e-phb|1",
 				"Silver Tongue|Scholar|sw5e-phb|Politician Pursuit|sw5e-phb|3",
 				"Motivating Diplomat|Scholar|sw5e-phb|Politician Pursuit|sw5e-phb|3",
-				"Force of Personality|Scholar|sw5e-phb|Politician Pursuit|sw5e-phb|6",
+				"{@feat Force of Personality|sw5e-phb}|Scholar|sw5e-phb|Politician Pursuit|sw5e-phb|6",
 				"Reassemble|Scholar|sw5e-phb|Politician Pursuit|sw5e-phb|9",
 				"Beguiling Presence|Scholar|sw5e-phb|Politician Pursuit|sw5e-phb|17",
 				"Politician Discoveries|Scholar|sw5e-phb|Politician Pursuit|sw5e-phb|1"
@@ -3621,10 +3621,10 @@
 				"Path of the Forceblade|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|3",
 				"Phasethrow|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|3",
 				"Forceblade Bond|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|3",
-				"Twin Saber Throw|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|7",
-				"Twin Saber Throw|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|9",
-				"Twin Saber Throw|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|13",
-				"Twin Saber Throw|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|17",
+				"Twin {@spell Saber Throw|sw5e-phb}|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|7",
+				"Twin {@spell Saber Throw|sw5e-phb}|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|9",
+				"Twin {@spell Saber Throw|sw5e-phb}|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|13",
+				"Twin {@spell Saber Throw|sw5e-phb}|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|17",
 				"Disruptive Throw|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|13",
 				"Forceblade Mastery|Sentinel|sw5e-phb|Path of the Forceblade|sw5e-phb|18"
 			]
@@ -3688,7 +3688,7 @@
 			]
 		},
 		{
-			"name": "Danger Sense",
+			"name": "{@spell Danger Sense|sw5e-phb}",
 			"className": "Berserker",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -3942,7 +3942,7 @@
 					"type": "entries",
 					"name": "Chirodactyl's Instinct",
 					"entries": [
-						"{@i {@b Prerequisite:} 7th level} While raging, you have blindsight to a range of 30 feet, and you have {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sound, as long as you aren't {@condition Deafened|sw5e-phb|deafened}."
+						"{@i {@b Prerequisite:} 7th level} While raging, you have {@sense Blindsight|sw5e-phb|blindsight} to a range of 30 feet, and you have {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sound, as long as you aren't {@condition Deafened|sw5e-phb|deafened}."
 					]
 				},
 				{
@@ -4076,7 +4076,7 @@
 			]
 		},
 		{
-			"name": "Forcecasting",
+			"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -4086,7 +4086,7 @@
 				"In your meditations on the force, you have learned powers, fragments of knowledge that imbue you with an abiding force ability. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11|Force Powers} for the {@book force powers list|sw5e-phb|11|Force Powers}.",
 				{
 					"type": "entries",
-					"name": "Force Powers Known",
+					"name": "{@book Force Powers Known|sw5e-phb|11|Force Powers}",
 					"entries": [
 						"You learn 9 {@book force powers|sw5e-phb|11|Force Powers} of your choice, and you learn more at higher levels, as shown in the {@book Force Powers Known|sw5e-phb|11|Force Powers} column of the consular table. You may not learn a {@book force power|sw5e-phb|11|Force Powers} of a level higher than your Max Power Level, and you may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time you learn its prerequisite."
 					]
@@ -4108,7 +4108,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Forcecasting Ability",
+					"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting} Ability",
 					"entries": [
 						"Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. You use Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (your choice). You use this ability whenever a power refers to your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Force save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} modifier",
@@ -4141,7 +4141,7 @@
 			]
 		},
 		{
-			"name": "Force Shield",
+			"name": "Force {@item Shield|sw5e-phb}",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -4295,7 +4295,7 @@
 			]
 		},
 		{
-			"name": "One with the Force",
+			"name": "{@optfeature One with the Force|sw5e-phb}",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -4454,7 +4454,7 @@
 			]
 		},
 		{
-			"name": "Techcasting",
+			"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting}",
 			"className": "Engineer",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -4464,7 +4464,7 @@
 				"During your training you have derived powers from schematics with the aid of your {@item Wristpad|sw5e-phb|wristpad}. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book techcasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 12|sw5e-phb|12|Tech Powers} for the {@book tech powers list|sw5e-phb|12|Tech Powers}.",
 				{
 					"type": "entries",
-					"name": "Tech Powers Known",
+					"name": "{@book Tech Powers Known|sw5e-phb|12|Tech Powers}",
 					"entries": [
 						"You learn 6 {@book tech powers|sw5e-phb|12|Tech Powers} of your choice, and you learn more at higher levels, as shown in the {@book Tech Powers Known|sw5e-phb|12|Tech Powers} column of the engineer table. You may not learn a {@book tech power|sw5e-phb|12|Tech Powers} of a level higher than your Max Power Level."
 					]
@@ -4486,7 +4486,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Techcasting Ability",
+					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} Ability",
 					"entries": [
 						"Intelligence is your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} for your {@book tech powers|sw5e-phb|12|Tech Powers}. You use your Intelligence whenever a power refers to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability}. Additionally, you use your Intelligence modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book tech power|sw5e-phb|12|Tech Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Tech save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Intelligence modifier",
@@ -4495,7 +4495,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Techcasting Focus",
+					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} Focus",
 					"entries": [
 						"You use a {@item Wristpad|sw5e-phb|wristpad} (found in {@book chapter 5|sw5e-phb|5}) or the tools in which you are granted proficiency by this class as a tech focus for your {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
@@ -4530,7 +4530,7 @@
 			]
 		},
 		{
-			"name": "Tool Expertise",
+			"name": "Tool {@variantrule Expertise|sw5e-phb}",
 			"className": "Engineer",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -4749,7 +4749,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Superiority Dice",
+					"name": "{@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers}",
 					"entries": [
 						"You have two {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}, which are d4s, and you earn more at higher levels, as shown in the {@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Quantity column of the fighter table. This die changes as you gain fighter levels, as shown in the {@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Size column of the fighter table. A superiority die is expended when you use it.",
 						"You regain all of your expended {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers} when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -4757,7 +4757,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Maneuver Ability",
+					"name": "{@book maneuver|sw5e-phb|13|Maneuvers} Ability",
 					"entries": [
 						"Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} varies based on the type of the {@book maneuver|sw5e-phb|13|Maneuvers} you use. You use Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}. You use this ability whenever a {@book maneuver|sw5e-phb|13|Maneuvers} refers to your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book maneuver|sw5e-phb|13|Maneuvers} you use.",
 						"{@b Maneuver save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} modifier"
@@ -4966,7 +4966,7 @@
 				"The strategies are presented in alphabetical order.",
 				{
 					"type": "entries",
-					"name": "Cover Strategist",
+					"name": "{@variantrule Cover|sw5e-phb} Strategist",
 					"entries": [
 						"You treat partial {@variantrule Cover|sw5e-phb|cover} as one step higher (from one-quarter to half or half to three-quarters). While in {@variantrule Cover|sw5e-phb|cover}, your attacks reduce partial {@variantrule Cover|sw5e-phb|cover} by one step (from three-quarters to half or half to one-quarter)."
 					]
@@ -5016,7 +5016,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Maneuver Strategist",
+					"name": "{@book maneuver|sw5e-phb|13|Maneuvers} Strategist",
 					"entries": [
 						"You learn two additional {@book maneuvers|sw5e-phb|13|Maneuvers}. When you complete a {@variantrule Short Rest|sw5e-phb|short rest}, you can replace one of these {@book maneuvers|sw5e-phb|13|Maneuvers} with another one. When you complete a {@variantrule Long Rest|sw5e-phb|long rest}, you can replace both of these {@book maneuvers|sw5e-phb|13|Maneuvers} with other ones."
 					]
@@ -5093,7 +5093,7 @@
 			]
 		},
 		{
-			"name": "Forcecasting",
+			"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -5103,7 +5103,7 @@
 				"In your meditations on the Force, you have learned powers, fragments of knowledge that imbue you with an abiding force ability. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11|Force Powers} for the {@book force powers list|sw5e-phb|11|Force Powers}.",
 				{
 					"type": "entries",
-					"name": "Force Powers Known",
+					"name": "{@book Force Powers Known|sw5e-phb|11|Force Powers}",
 					"entries": [
 						"You learn 5 {@book force powers|sw5e-phb|11|Force Powers} of your choice, and you learn more at higher levels, as shown in the {@book Force Powers Known|sw5e-phb|11|Force Powers} column of the guardian table. You may not learn a {@book force power|sw5e-phb|11|Force Powers} of a level higher than your Max Power Level, and you may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time you learn its prerequisite."
 					]
@@ -5125,7 +5125,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Forcecasting Ability",
+					"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting} Ability",
 					"entries": [
 						"Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. You use Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (your choice). You use this ability whenever a power refers to your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Force save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} modifier",
@@ -5383,7 +5383,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Aura of Vigor",
+					"name": "{@spell Aura of Vigor|sw5e-phb}",
 					"entries": [
 						"Whenever a friendly creature starts its turn within 5 feet of you, that creature gains temporary {@variantrule Hit Points|sw5e-phb|hit points} equal to your Wisdom or Charisma modifier (your choice, minimum of one)."
 					]
@@ -5940,7 +5940,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Vow of Restoration",
+					"name": "Vow of {@spell Restoration|sw5e-phb}",
 					"entries": [
 						"When you would make an unarmed strike, you can spend 1 focus point to instead touch a willing creature within your reach. Roll your Martial Arts die. The target gains {@variantrule Hit Points|sw5e-phb|hit points} equal to the amount rolled + your Wisdom or Charisma modifier (your choice, minimum of +1)."
 					]
@@ -6020,7 +6020,7 @@
 			]
 		},
 		{
-			"name": "Expertise",
+			"name": "{@variantrule Expertise|sw5e-phb}",
 			"className": "Operative",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -6032,7 +6032,7 @@
 			]
 		},
 		{
-			"name": "Expertise",
+			"name": "{@variantrule Expertise|sw5e-phb}",
 			"className": "Operative",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -6364,10 +6364,10 @@
 						"{@b {@i Intuit (Insight).}} You attempt to determine the motivations of one humanoid you can see within 30 feet. Make a Wisdom ({@skill Insight|sw5e-phb}) check contested by the target's Charisma ({@skill Deception|sw5e-phb}) check. If your check succeeds, the target can't have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Ability Check|sw5e-phb|ability checks}, {@variantrule Attack Roll|sw5e-phb|attack rolls}, or {@variantrule Saving Throw|sw5e-phb|saving throws} against you until the end of your next turn. If your check fails, the target instead can't have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Ability Check|sw5e-phb|ability checks}, {@variantrule Attack Roll|sw5e-phb|attack rolls}, or {@variantrule Saving Throw|sw5e-phb|saving throws} against you until the end of your next turn.",
 						"{@b {@i Pocket Sand (Sleight of Hand).}} You attempt to blind one beast or humanoid you can see within 15 feet of you. Make a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check contested by the target's Wisdom ({@skill Perception|sw5e-phb}) check. If your check succeeds, the target is {@condition Blinded|sw5e-phb|blinded} until the end of your turn. If your check fails, you can't use this feature on this target again for 1 hour.",
 						"{@b {@i Precision Strike (Medicine).}} You attempt to strike a pressure point in one humanoid within your reach. Make a Wisdom ({@skill Medicine|sw5e-phb}) check contested by the target's Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check (the target chooses the ability to use). If your check succeeds, they are {@condition Incapacitated|sw5e-phb} until the end of their next turn. If your check fails, you can't use this feature on this target again for 1 hour.",
-						"{@b {@i Snare (Survival).}} You attempt to cause a creature within 30 feet of you to stumble. Make a Wisdom ({@skill Survival|sw5e-phb}) check contested by the target's Wisdom ({@skill Perception|sw5e-phb}) check. If your check succeeds, and the target moves towards you before the start of your next turn, it gains 1 {@condition Slowed|sw5e-phb|slowed} level, and you can use your {@variantrule Reaction|sw5e-phb} to cause it to fall prone. If your check fails, you can't use this feature on this target again for 1 hour.",
+						"{@b {@i Snare (Survival).}} You attempt to cause a creature within 30 feet of you to stumble. Make a Wisdom ({@skill Survival|sw5e-phb}) check contested by the target's Wisdom ({@skill Perception|sw5e-phb}) check. If your check succeeds, and the target moves towards you before the start of your next turn, it gains 1 {@condition Slowed|sw5e-phb|slowed} level, and you can use your {@variantrule Reaction|sw5e-phb} to cause it to fall {@condition Prone|sw5e-phb|prone}. If your check fails, you can't use this feature on this target again for 1 hour.",
 						"{@b {@i Spin (Piloting).}} You attempt to confound a piloted construct you can see within 30 feet. Make an Intelligence ({@skill Piloting|sw5e-phb}) check contested by the target's Intelligence ({@skill Piloting|sw5e-phb}) check. If your check succeeds, the target has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} against you, and you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws} against the target, until the start of your next turn. If your check fails, the target instead has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} against you, and you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws} against the target, until the start of your next turn.",
 						"{@b {@i Study (Lore).}} You attempt to anticipate your target's action. Make an Intelligence ({@skill Lore|sw5e-phb}) check contested by the target's Charisma ({@skill Deception|sw5e-phb}) check. If your check succeeds, you have {@variantrule Advantage|sw5e-phb|advantage} on the first {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll} or {@variantrule Saving Throw|sw5e-phb|saving throw} you make against that creature before the end of your next turn. Alternatively, before the end of your next turn, you can use your {@variantrule Reaction|sw5e-phb} to grant {@variantrule Disadvantage|sw5e-phb|disadvantage} on the first {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw} the target makes against you. If your check fails, you instead have {@variantrule Disadvantage|sw5e-phb|disadvantage} on the first {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll} or {@variantrule Saving Throw|sw5e-phb|saving throw} you make against that creature before the end of your next turn.",
-						"{@b {@i Tumble (Acrobatics).}} You attempt to make a quick {@optfeature Tumble|sw5e-phb|tumble}, immediately moving 10 feet. If you begin or end this movement within a creature's reach, make a Dexterity ({@skill Acrobatics|sw5e-phb}) check contested by it's Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check (the target chooses the ability to use). If your check succeeds, this movement does not provoke {@action Opportunity Attack|sw5e-phb|opportunity attacks} from it, and you have {@variantrule Advantage|sw5e-phb|advantage} on the first {@variantrule Attack Roll|sw5e-phb|attack roll} you make against it before the end of your turn. If your check fails, you immediately fall prone.",
+						"{@b {@i Tumble (Acrobatics).}} You attempt to make a quick {@optfeature Tumble|sw5e-phb|tumble}, immediately moving 10 feet. If you begin or end this movement within a creature's reach, make a Dexterity ({@skill Acrobatics|sw5e-phb}) check contested by it's Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check (the target chooses the ability to use). If your check succeeds, this movement does not provoke {@action Opportunity Attack|sw5e-phb|opportunity attacks} from it, and you have {@variantrule Advantage|sw5e-phb|advantage} on the first {@variantrule Attack Roll|sw5e-phb|attack roll} you make against it before the end of your turn. If your check fails, you immediately fall {@condition Prone|sw5e-phb|prone}.",
 						"{@b {@i Wrestle (Athletics).}} You attempt to grab and pin a creature within 5 feet of you with at least one free hand. The target must be no more than one size larger than you. Make a Strength ({@skill Athletics|sw5e-phb}) check contested by the target's Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check (the target chooses the ability to use). If your check succeeds, the target is both {@condition Grappled|sw5e-phb|grappled} and {@condition Restrained|sw5e-phb} by you. If the target stops being {@condition Grappled|sw5e-phb|grappled}, it also stops being {@condition Restrained|sw5e-phb}. If your check fails, you can't use this feature on this target again for 1 hour."
 					]
 				},
@@ -6452,7 +6452,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Superiority Dice",
+					"name": "{@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers}",
 					"entries": [
 						"You have three {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}, which are d4s, and you earn more at higher levels, as shown in the {@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Quantity column of the scholar table. This die changes as you gain scholar levels, as shown in the {@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Size column of the scholar table. A superiority die is expended when you use it.",
 						"You regain all of your expended {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers} when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -6460,7 +6460,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Maneuver Ability",
+					"name": "{@book maneuver|sw5e-phb|13|Maneuvers} Ability",
 					"entries": [
 						"Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} varies based on the type of the {@book maneuver|sw5e-phb|13|Maneuvers} you use. You use Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}. You use this ability whenever a {@book maneuver|sw5e-phb|13|Maneuvers} refers to your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book maneuver|sw5e-phb|13|Maneuvers} you use.",
 						"{@b Maneuver save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} modifier"
@@ -6523,7 +6523,7 @@
 			]
 		},
 		{
-			"name": "Expertise",
+			"name": "{@variantrule Expertise|sw5e-phb}",
 			"className": "Scholar",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -6535,7 +6535,7 @@
 			]
 		},
 		{
-			"name": "Expertise",
+			"name": "{@variantrule Expertise|sw5e-phb}",
 			"className": "Scholar",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -6802,7 +6802,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Perfect Maneuver",
+					"name": "Perfect {@book maneuver|sw5e-phb|13|Maneuvers}",
 					"entries": [
 						"Your superiority die rolls gain a minimum roll threshold, discussed in chapter 7."
 					]
@@ -6844,7 +6844,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Survival Expert",
+					"name": "{@skill Survival|sw5e-phb} Expert",
 					"entries": [
 						"When you make a {@skill Survival|sw5e-phb} skill check, you may use your Critical Analysis ability modifier instead of your Wisdom modifier.",
 						"Additionally, you have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@item Poison|sw5e-phb|poison}."
@@ -7028,7 +7028,7 @@
 			]
 		},
 		{
-			"name": "Techcasting",
+			"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting}",
 			"className": "Scout",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -7038,7 +7038,7 @@
 				"You have derived powers from schematics with the aid of your {@item Wristpad|sw5e-phb|wristpad}. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book techcasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 12|sw5e-phb|12|Tech Powers} for the {@book tech powers list|sw5e-phb|12|Tech Powers}.",
 				{
 					"type": "entries",
-					"name": "Tech Powers Known",
+					"name": "{@book Tech Powers Known|sw5e-phb|12|Tech Powers}",
 					"entries": [
 						"You learn 4 {@book tech powers|sw5e-phb|12|Tech Powers} of your choice, and you learn more at higher levels, as shown in the {@book Tech Powers Known|sw5e-phb|12|Tech Powers} column of the scout table. You may not learn a {@book tech power|sw5e-phb|12|Tech Powers} of a level higher than your Max Power Level."
 					]
@@ -7060,7 +7060,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Techcasting Ability",
+					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} Ability",
 					"entries": [
 						"Intelligence is your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} for your {@book tech powers|sw5e-phb|12|Tech Powers}. You use your Intelligence whenever a power refers to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability}. Additionally, you use your Intelligence modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book tech power|sw5e-phb|12|Tech Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Tech save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Intelligence modifier",
@@ -7069,7 +7069,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Techcasting Focus",
+					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} Focus",
 					"entries": [
 						"You use a {@item Wristpad|sw5e-phb|wristpad} (found in {@book chapter 5|sw5e-phb|5}) as a tech focus for your {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
@@ -7209,7 +7209,7 @@
 			]
 		},
 		{
-			"name": "Expertise",
+			"name": "{@variantrule Expertise|sw5e-phb}",
 			"className": "Scout",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -7221,7 +7221,7 @@
 			]
 		},
 		{
-			"name": "Expertise",
+			"name": "{@variantrule Expertise|sw5e-phb}",
 			"className": "Scout",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -7233,7 +7233,7 @@
 			]
 		},
 		{
-			"name": "Commando",
+			"name": "{@feat Commando|sw5e-phb}",
 			"className": "Scout",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -7241,7 +7241,7 @@
 			"level": 10,
 			"entries": [
 				"You can take the Dash or Hide actions as a {@variantrule Bonus Action|sw5e-phb} on each of your turns. Additionally, you can remain perfectly still for long periods of time to set up ambushes.",
-				"When you attempt to hide on your turn, you can opt to not move on that turn. If you avoid moving, creatures that attempt to detect you take a -10 penalty to their Wisdom ({@skill Perception|sw5e-phb}) checks until the start of your next turn. You lose this benefit if you move or fall prone, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden.",
+				"When you attempt to hide on your turn, you can opt to not move on that turn. If you avoid moving, creatures that attempt to detect you take a -10 penalty to their Wisdom ({@skill Perception|sw5e-phb}) checks until the start of your next turn. You lose this benefit if you move or fall {@condition Prone|sw5e-phb|prone}, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden.",
 				"If you are still hidden on your next turn, you can continue to remain motionless and gain this benefit until you are detected.",
 				"Finally, you can no longer be tracked by unenhanced means, unless you choose to leave a trail."
 			]
@@ -7393,7 +7393,7 @@
 			]
 		},
 		{
-			"name": "Forcecasting",
+			"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
 			"className": "Sentinel",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -7403,7 +7403,7 @@
 				"In your meditations on the force, you have learned powers, fragments of knowledge that imbue you with an abiding force ability. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11|Force Powers} for the {@book force powers list|sw5e-phb|11|Force Powers}.",
 				{
 					"type": "entries",
-					"name": "Force Powers Known",
+					"name": "{@book Force Powers Known|sw5e-phb|11|Force Powers}",
 					"entries": [
 						"You learn 7 {@book force powers|sw5e-phb|11|Force Powers} of your choice, and you learn more at higher levels, as shown in the {@book Force Powers Known|sw5e-phb|11|Force Powers} column of the sentinel table. You may not learn a {@book force power|sw5e-phb|11|Force Powers} of a level higher than your Max Power Level, and you may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time you learn its prerequisite."
 					]
@@ -7425,7 +7425,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Forcecasting Ability",
+					"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting} Ability",
 					"entries": [
 						"Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. You use Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (your choice). You use this ability whenever a power refers to your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Force save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} modifier",
@@ -7678,8 +7678,8 @@
 					"type": "entries",
 					"name": "Ideal of the Hunter",
 					"entries": [
-						"You gain {@spell Darkvision|sw5e-phb|darkvision} out to a range of 60 feet. If you already have {@spell Darkvision|sw5e-phb|darkvision}, this ideal increases its range by 30 feet.",
-						"Additionally, as a {@variantrule Bonus Action|sw5e-phb}, you can manifest this ideal in a brief surge of energy. For the next minute, you can see normally in enhanced {@spell Darkness|sw5e-phb|darkness}, and you gain blindsight to 10 feet."
+						"You gain {@sense Darkvision|sw5e-phb|darkvision} out to a range of 60 feet. If you already have {@sense Darkvision|sw5e-phb|darkvision}, this ideal increases its range by 30 feet.",
+						"Additionally, as a {@variantrule Bonus Action|sw5e-phb}, you can manifest this ideal in a brief surge of energy. For the next minute, you can see normally in enhanced {@spell Darkness|sw5e-phb|darkness}, and you gain {@sense Blindsight|sw5e-phb|blindsight} to 10 feet."
 					]
 				},
 				{
@@ -7776,7 +7776,7 @@
 			]
 		},
 		{
-			"name": "Firestorm",
+			"name": "{@spell Firestorm|sw5e-phb}",
 			"className": "Berserker",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Ballistic Approach",
@@ -7841,7 +7841,7 @@
 			"header": 2
 		},
 		{
-			"name": "Rampage",
+			"name": "{@optfeature Rampage|sw5e-phb}",
 			"className": "Berserker",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Ballistic Approach",
@@ -7878,7 +7878,7 @@
 			"page": 49,
 			"level": 14,
 			"entries": [
-				"When you use the burst property of a {@filter blaster|items|firearm=true} with which are you proficient, you can apply your rage damage bonus to every target that takes damage, instead of just one. Additionally, when a Large or smaller creature fails the {@variantrule Saving Throw|sw5e-phb|saving throw} against your burst or rapid property while within 30 feet of you, it is knocked prone."
+				"When you use the burst property of a {@filter blaster|items|firearm=true} with which are you proficient, you can apply your rage damage bonus to every target that takes damage, instead of just one. Additionally, when a Large or smaller creature fails the {@variantrule Saving Throw|sw5e-phb|saving throw} against your burst or rapid property while within 30 feet of you, it is knocked {@condition Prone|sw5e-phb|prone}."
 			],
 			"header": 2
 		},
@@ -7933,7 +7933,7 @@
 			"page": 49,
 			"level": 6,
 			"entries": [
-				"Your unpredictable movement makes you harder to hit and pin down. When you make a {@variantrule Saving Throw|sw5e-phb|saving throw} or {@variantrule Ability Check|sw5e-phb|ability checks} to avoid being knocked prone, pushed, {@condition Grappled|sw5e-phb|grappled}, or {@condition Restrained|sw5e-phb}, you can add your Strength or Dexterity modifier (your choice)."
+				"Your unpredictable movement makes you harder to hit and pin down. When you make a {@variantrule Saving Throw|sw5e-phb|saving throw} or {@variantrule Ability Check|sw5e-phb|ability checks} to avoid being knocked {@condition Prone|sw5e-phb|prone}, pushed, {@condition Grappled|sw5e-phb|grappled}, or {@condition Restrained|sw5e-phb}, you can add your Strength or Dexterity modifier (your choice)."
 			],
 			"header": 2
 		},
@@ -8080,7 +8080,7 @@
 			]
 		},
 		{
-			"name": "Forcecasting",
+			"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
 			"className": "Berserker",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Marauder Approach",
@@ -8092,13 +8092,13 @@
 				"You have derived powers from your primal connection to the Force. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11|Force Powers} for the {@book force powers list|sw5e-phb|11|Force Powers}.",
 				{
 					"type": "entries",
-					"name": "Marauder Approach Forcecasting",
+					"name": "Marauder Approach {@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
 					"entries": [
 						{
 							"type": "table",
 							"colLabels": [
 								"Level",
-								"Force Powers Known",
+								"{@book Force Powers Known|sw5e-phb|11|Force Powers}",
 								"Force Points",
 								"Max Power Level"
 							],
@@ -8223,7 +8223,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Force Powers Known",
+					"name": "{@book Force Powers Known|sw5e-phb|11|Force Powers}",
 					"entries": [
 						"You learn 4 {@book force powers|sw5e-phb|11|Force Powers} of your choice, and you learn more at higher levels, as shown in the {@book Force Powers Known|sw5e-phb|11|Force Powers} column of the Marauder Approach {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} table. You may not learn a {@book force power|sw5e-phb|11|Force Powers} of a level higher than your Max Power Level, and you may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time you learn its prerequisite."
 					]
@@ -8245,7 +8245,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Forcecasting Ability",
+					"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting} Ability",
 					"entries": [
 						"Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. You use Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (your choice). You use this ability whenever a power refers to your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Force save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} modifier",
@@ -8300,7 +8300,7 @@
 			"header": 2
 		},
 		{
-			"name": "Force Storm",
+			"name": "{@spell Force Storm|sw5e-phb}",
 			"className": "Berserker",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Marauder Approach",
@@ -8327,7 +8327,7 @@
 			]
 		},
 		{
-			"name": "Force Barrier",
+			"name": "{@spell Force Barrier|sw5e-phb}",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Way of Balance",
@@ -8386,7 +8386,7 @@
 			"header": 2
 		},
 		{
-			"name": "Force Resistance",
+			"name": "Force {@spell Resistance|sw5e-phb}",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Way of Balance",
@@ -8442,7 +8442,7 @@
 			"header": 2
 		},
 		{
-			"name": "Blistering Rebuke",
+			"name": "Blistering {@spell Rebuke|sw5e-phb}",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Way of Lightning",
@@ -8457,7 +8457,7 @@
 			"header": 2
 		},
 		{
-			"name": "Blistering Rebuke",
+			"name": "Blistering {@spell Rebuke|sw5e-phb}",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Way of Lightning",
@@ -8472,7 +8472,7 @@
 			"header": 2
 		},
 		{
-			"name": "Blistering Rebuke",
+			"name": "Blistering {@spell Rebuke|sw5e-phb}",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Way of Lightning",
@@ -8744,7 +8744,7 @@
 			"header": 2
 		},
 		{
-			"name": "Blessed Healer",
+			"name": "Blessed {@feat Healer|sw5e-phb}",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Way of the Sage",
@@ -8915,9 +8915,9 @@
 				"The modifications are presented in alphabetical order.",
 				{
 					"type": "entries",
-					"name": "Absorption Shield",
+					"name": "Absorption {@item Shield|sw5e-phb}",
 					"entries": [
-						"{@i {@b Prerequisite:} Physical Shield} You modify your physical {@item Shield|sw5e-phb|shield} to block incoming damage. As a {@variantrule Bonus Action|sw5e-phb} you can activate this ability and gain temporary {@variantrule Hit Points|sw5e-phb|hit points} equal to 1d4 + Intelligence modifier, which last for one hour.",
+						"{@i {@b Prerequisite:} Physical {@item Shield|sw5e-phb}} You modify your physical {@item Shield|sw5e-phb|shield} to block incoming damage. As a {@variantrule Bonus Action|sw5e-phb} you can activate this ability and gain temporary {@variantrule Hit Points|sw5e-phb|hit points} equal to 1d4 + Intelligence modifier, which last for one hour.",
 						"You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
@@ -8966,9 +8966,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision Visor",
+					"name": "{@spell Darkvision|sw5e-phb} Visor",
 					"entries": [
-						"{@i {@b Prerequisite:} Armor} While wearing your modified armor, you have {@spell Darkvision|sw5e-phb|darkvision} to a range of 60 feet. If you already have {@spell Darkvision|sw5e-phb|darkvision}, this modification increases its range by 30 feet."
+						"{@i {@b Prerequisite:} Armor} While wearing your modified armor, you have {@sense Darkvision|sw5e-phb|darkvision} to a range of 60 feet. If you already have {@sense Darkvision|sw5e-phb|darkvision}, this modification increases its range by 30 feet."
 					]
 				},
 				{
@@ -8980,9 +8980,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Electroshock Shield",
+					"name": "{@spell Electroshock|sw5e-phb} {@item Shield|sw5e-phb}",
 					"entries": [
-						"{@i {@b Prerequisite:} Shield Generator} You install electroshockers in your {@item Shield|sw5e-phb|shield} generator. Whenever an enemy misses you with a melee attack, you can use your {@variantrule Reaction|sw5e-phb} to do 1d4 + your Intelligence modifier lightning damage to the attacker."
+						"{@i {@b Prerequisite:} {@item Shield|sw5e-phb} Generator} You install electroshockers in your {@item Shield|sw5e-phb|shield} generator. Whenever an enemy misses you with a melee attack, you can use your {@variantrule Reaction|sw5e-phb} to do 1d4 + your Intelligence modifier lightning damage to the attacker."
 					]
 				},
 				{
@@ -9019,16 +9019,16 @@
 				},
 				{
 					"type": "entries",
-					"name": "Magnetized Shield",
+					"name": "Magnetized {@item Shield|sw5e-phb}",
 					"entries": [
-						"{@i {@b Prerequisite:} Physical Shield} You modify your physical {@item Shield|sw5e-phb|shield} such that when a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} misses you by an amount less than or equal to your bonus to AC from your {@item Shield|sw5e-phb|shield}, the attacking creature must make a Strength check against your tech save DC. On a failed save, the creature's weapon adheres to the {@item Shield|sw5e-phb|shield}. As an action, a creature can repeat this check. On a success, the weapon is freed."
+						"{@i {@b Prerequisite:} Physical {@item Shield|sw5e-phb}} You modify your physical {@item Shield|sw5e-phb|shield} such that when a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} misses you by an amount less than or equal to your bonus to AC from your {@item Shield|sw5e-phb|shield}, the attacking creature must make a Strength check against your tech save DC. On a failed save, the creature's weapon adheres to the {@item Shield|sw5e-phb|shield}. As an action, a creature can repeat this check. On a success, the weapon is freed."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Overload Shield",
+					"name": "{@spell Overload|sw5e-phb} {@item Shield|sw5e-phb}",
 					"entries": [
-						"{@i {@b Prerequisite:} Shield Generator} You modify your {@item Shield|sw5e-phb|shield} generator to {@spell Overload|sw5e-phb|overload}. As an action you can {@spell Overload|sw5e-phb|overload} your {@item Shield|sw5e-phb|shield}. Each Large or smaller creature within 5 feet of you must make a Dexterity or Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (their choice). On a failed save, they are pushed back 5 feet and knocked prone.",
+						"{@i {@b Prerequisite:} {@item Shield|sw5e-phb} Generator} You modify your {@item Shield|sw5e-phb|shield} generator to {@spell Overload|sw5e-phb|overload}. As an action you can {@spell Overload|sw5e-phb|overload} your {@item Shield|sw5e-phb|shield}. Each Large or smaller creature within 5 feet of you must make a Dexterity or Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (their choice). On a failed save, they are pushed back 5 feet and knocked {@condition Prone|sw5e-phb|prone}.",
 						"You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
@@ -9057,7 +9057,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Resistance",
+					"name": "{@spell Resistance|sw5e-phb}",
 					"entries": [
 						"{@i {@b Prerequisite:} Armor} You tune your modified armor against certain forms of damage. Choose acid, cold, fire, ion, lightning, or sonic damage. While wearing your modified armor you have {@spell Resistance|sw5e-phb|resistance} to that type of damage.",
 						"You can select this modification multiple times. Each time you do so, you must choose a different damage type."
@@ -9081,17 +9081,17 @@
 				},
 				{
 					"type": "entries",
-					"name": "Shield Amplifier",
+					"name": "{@item Shield|sw5e-phb} Amplifier",
 					"entries": [
-						"{@i {@b Prerequisite:} Shield Generator} You modify your {@item Shield|sw5e-phb|shield} generator to {@spell Project|sw5e-phb|project} outward. As a {@variantrule Bonus Action|sw5e-phb} you can amplify your {@item Shield|sw5e-phb|shield} until the start of your next turn. Each creature within 5 feet of you gains a bonus to AC equal to your {@item Shield|sw5e-phb|shield}'s bonus.",
+						"{@i {@b Prerequisite:} {@item Shield|sw5e-phb} Generator} You modify your {@item Shield|sw5e-phb|shield} generator to {@spell Project|sw5e-phb|project} outward. As a {@variantrule Bonus Action|sw5e-phb} you can amplify your {@item Shield|sw5e-phb|shield} until the start of your next turn. Each creature within 5 feet of you gains a bonus to AC equal to your {@item Shield|sw5e-phb|shield}'s bonus.",
 						"You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Shield Anchor",
+					"name": "{@item Shield|sw5e-phb} Anchor",
 					"entries": [
-						"{@i {@b Prerequisite:} Physical Shield} You modify your {@item Shield|sw5e-phb|shield} to be used as a portable source of {@variantrule Cover|sw5e-phb|cover}. As an action, you can anchor or deanchor the {@item Shield|sw5e-phb|shield}. While anchored, you gain no benefit from a {@item Shield|sw5e-phb|shield}, and it does not require the use of a hand. Instead, while anchored, a light {@item Shield|sw5e-phb|shield} provides one-quarter {@variantrule Cover|sw5e-phb|cover}, a medium {@item Shield|sw5e-phb|shield} provides {@variantrule Cover|sw5e-phb|half cover}, and a heavy {@item Shield|sw5e-phb|shield} provides three-quarters {@variantrule Cover|sw5e-phb|cover}."
+						"{@i {@b Prerequisite:} Physical {@item Shield|sw5e-phb}} You modify your {@item Shield|sw5e-phb|shield} to be used as a portable source of {@variantrule Cover|sw5e-phb|cover}. As an action, you can anchor or deanchor the {@item Shield|sw5e-phb|shield}. While anchored, you gain no benefit from a {@item Shield|sw5e-phb|shield}, and it does not require the use of a hand. Instead, while anchored, a light {@item Shield|sw5e-phb|shield} provides one-quarter {@variantrule Cover|sw5e-phb|cover}, a medium {@item Shield|sw5e-phb|shield} provides {@variantrule Cover|sw5e-phb|half cover}, and a heavy {@item Shield|sw5e-phb|shield} provides three-quarters {@variantrule Cover|sw5e-phb|cover}."
 					]
 				},
 				{
@@ -9445,7 +9445,7 @@
 					"type": "entries",
 					"name": "Staggering Oscillator",
 					"entries": [
-						"{@i {@b Prerequisite:} {@filter vibroweapon|items|type=martial weapon}} When you hit with the weapon, you can force the target to make a Strength {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the creature is pushed back 10 feet and knocked prone.",
+						"{@i {@b Prerequisite:} {@filter vibroweapon|items|type=martial weapon}} When you hit with the weapon, you can force the target to make a Strength {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the creature is pushed back 10 feet and knocked {@condition Prone|sw5e-phb|prone}.",
 						"Once you've used this feature, you must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 					]
 				},
@@ -9461,7 +9461,7 @@
 					"type": "entries",
 					"name": "Truelight",
 					"entries": [
-						"{@i {@b Prerequisite:} 11th level, Flashlight} You modify your flashlight with a toggle allowing you to briefly gain enhanced sight. As a {@variantrule Bonus Action|sw5e-phb}, you can activate the truesight feature of your flashlight. When toggled on, for the next minute your flashlight now automatically dispel illusions and can {@spell Detect Invisibility|sw5e-phb|detect invisibility}, as with truesight.",
+						"{@i {@b Prerequisite:} 11th level, Flashlight} You modify your flashlight with a toggle allowing you to briefly gain enhanced sight. As a {@variantrule Bonus Action|sw5e-phb}, you can activate the {@sense Truesight|sw5e-phb|truesight} feature of your flashlight. When toggled on, for the next minute your flashlight now automatically dispel illusions and can {@spell Detect Invisibility|sw5e-phb|detect invisibility}, as with {@sense Truesight|sw5e-phb|truesight}.",
 						"Once you've used this feature, you must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 					]
 				},
@@ -9672,9 +9672,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision Goggles",
+					"name": "{@spell Darkvision|sw5e-phb} Goggles",
 					"entries": [
-						"You craft a pair of sight-enhancing goggles. While wearing these goggles, you have {@spell Darkvision|sw5e-phb|darkvision} to a range of 60 feet. If you already have {@spell Darkvision|sw5e-phb|darkvision}, this modification increases its range by 30 feet."
+						"You craft a pair of sight-enhancing goggles. While wearing these goggles, you have {@sense Darkvision|sw5e-phb|darkvision} to a range of 60 feet. If you already have {@sense Darkvision|sw5e-phb|darkvision}, this modification increases its range by 30 feet."
 					]
 				},
 				{
@@ -9769,7 +9769,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Powered Grappling Hook",
+					"name": "Powered {@item Grappling hook|sw5e-phb|Grappling Hook}",
 					"entries": [
 						"{@i {@b Prerequisite:} 9th level, Wrist-Mounted {@item Grappling hook|sw5e-phb|Grappling Hook}} While your wrist-mounted {@item Grappling hook|sw5e-phb|grappling hook} is deployed, when you cast a {@book tech power|sw5e-phb|12|Tech Powers} with a range of touch, your hook can deliver the power as if it had cast it."
 					]
@@ -9834,7 +9834,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Stealth Field Generator",
+					"name": "{@skill Stealth|sw5e-phb} Field Generator",
 					"entries": [
 						"{@i {@b Prerequisite:} 9th level} You create an augmented belt that functions as a portable, personal cloaking device. Activating or deactivating the generator requires a {@variantrule Bonus Action|sw5e-phb} and, while active, you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth|sw5e-phb}) {@variantrule Ability Check|sw5e-phb|ability checks} that rely on sight. The generator lasts for 1 minute. This effect ends early if you make an attack or cast a force- or tech- power.",
 						"Once the belt has been activated, it can't be activated again until you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -9851,7 +9851,7 @@
 					"type": "entries",
 					"name": "Truesight Goggles",
 					"entries": [
-						"{@i {@b Prerequisite:} 11th level, {@spell Darkvision|sw5e-phb} Goggles} You modify your goggles with a toggle allowing you to briefly gain enhanced sight. As a {@variantrule Bonus Action|sw5e-phb}, you can activate the truesight feature of your goggles. When toggled on, for the next minute your goggles now automatically dispel illusions and can {@spell Detect Invisibility|sw5e-phb|detect invisibility}, as with truesight.",
+						"{@i {@b Prerequisite:} 11th level, {@spell Darkvision|sw5e-phb} Goggles} You modify your goggles with a toggle allowing you to briefly gain enhanced sight. As a {@variantrule Bonus Action|sw5e-phb}, you can activate the {@sense Truesight|sw5e-phb|truesight} feature of your goggles. When toggled on, for the next minute your goggles now automatically dispel illusions and can {@spell Detect Invisibility|sw5e-phb|detect invisibility}, as with {@sense Truesight|sw5e-phb|truesight}.",
 						"Once you've used this feature, you must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 					]
 				},
@@ -9871,7 +9871,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Wrist-Mounted Grappling Hook",
+					"name": "Wrist-Mounted {@item Grappling hook|sw5e-phb|Grappling Hook}",
 					"entries": [
 						"You craft a wrist-mounted {@item Grappling hook|sw5e-phb|grappling hook} weapon attached to a tightly coiled cord. With this contraption, you can make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a range of 30/60. On a hit, it deals 1d4 kinetic damage. This attack can target a surface, object, or creature.",
 						"A creature struck by this attack is impaled by the hook. As an action, a creature can attempt to remove the hook. Removing the hook requires a Strength check. While the hook is stuck in the target, you are connected to the target by a 60 foot cable.",
@@ -10281,10 +10281,10 @@
 			"header": 2
 		},
 		{
-			"name": "Assault Specialist",
+			"name": "Assault {@feat Specialist|sw5e-phb}",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Assault Specialist",
+			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10297,7 +10297,7 @@
 			"name": "Brute Force",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Assault Specialist",
+			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10311,7 +10311,7 @@
 			"name": "Brute Force",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Assault Specialist",
+			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10325,7 +10325,7 @@
 			"name": "Brute Force",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Assault Specialist",
+			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10339,7 +10339,7 @@
 			"name": "Improved Critical",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Assault Specialist",
+			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10350,10 +10350,10 @@
 			"header": 2
 		},
 		{
-			"name": "Remarkable Athlete",
+			"name": "Remarkable {@feat Athlete|sw5e-phb}",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Assault Specialist",
+			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10367,7 +10367,7 @@
 			"name": "Brutish Durability",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Assault Specialist",
+			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10382,7 +10382,7 @@
 			"name": "Brutish Durability",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Assault Specialist",
+			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10397,7 +10397,7 @@
 			"name": "Brutish Durability",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Assault Specialist",
+			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10412,7 +10412,7 @@
 			"name": "Devastating Critical",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Assault Specialist",
+			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10426,7 +10426,7 @@
 			"name": "Survivor",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Assault Specialist",
+			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10437,10 +10437,10 @@
 			"header": 2
 		},
 		{
-			"name": "Blademaster Specialist",
+			"name": "Blademaster {@feat Specialist|sw5e-phb}",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Blademaster Specialist",
+			"subclassShortName": "Blademaster {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10453,7 +10453,7 @@
 			"name": "Unarmored Defense",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Blademaster Specialist",
+			"subclassShortName": "Blademaster {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10467,7 +10467,7 @@
 			"name": "Adaptive Fighting",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Blademaster Specialist",
+			"subclassShortName": "Blademaster {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10503,7 +10503,7 @@
 			"name": "Dervish",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Blademaster Specialist",
+			"subclassShortName": "Blademaster {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10514,10 +10514,10 @@
 			"header": 2
 		},
 		{
-			"name": "Resilient Fighting",
+			"name": "{@feat Resilient|sw5e-phb} Fighting",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Blademaster Specialist",
+			"subclassShortName": "Blademaster {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10531,7 +10531,7 @@
 			"name": "Adrenaline Rush",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Blademaster Specialist",
+			"subclassShortName": "Blademaster {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10545,7 +10545,7 @@
 			"name": "Bladestorm",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Blademaster Specialist",
+			"subclassShortName": "Blademaster {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10557,23 +10557,23 @@
 			"header": 2
 		},
 		{
-			"name": "Shield Specialist",
+			"name": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shield Specialist",
+			"subclassShortName": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"Those fighters who choose to become Shield Specialists train to bolster those around them. They can inspire their allies with renewed vigor while simultaneously protecting them from harm."
+				"Those fighters who choose to become {@item Shield|sw5e-phb} Specialists train to bolster those around them. They can inspire their allies with renewed vigor while simultaneously protecting them from harm."
 			]
 		},
 		{
-			"name": "Techcasting",
+			"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting}",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shield Specialist",
+			"subclassShortName": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10582,13 +10582,13 @@
 				"You have derived powers from schematics with the aid of your {@item Wristpad|sw5e-phb|wristpad}. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book techcasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 12|sw5e-phb|12|Tech Powers} for the {@book tech powers list|sw5e-phb|12|Tech Powers}.",
 				{
 					"type": "entries",
-					"name": "Shield Specialist Techcasting",
+					"name": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting}",
 					"entries": [
 						{
 							"type": "table",
 							"colLabels": [
 								"Level",
-								"Tech Powers Known",
+								"{@book Tech Powers Known|sw5e-phb|12|Tech Powers}",
 								"Tech Points",
 								"Max Power Level"
 							],
@@ -10713,29 +10713,29 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tech Powers Known",
+					"name": "{@book Tech Powers Known|sw5e-phb|12|Tech Powers}",
 					"entries": [
-						"You learn 3 {@book tech powers|sw5e-phb|12|Tech Powers} of your choice, and you learn more at higher levels, as shown in the {@book Tech Powers Known|sw5e-phb|12|Tech Powers} column of the Shield {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table. You may not learn a {@book tech power|sw5e-phb|12|Tech Powers} of a level higher than your Max Power Level."
+						"You learn 3 {@book tech powers|sw5e-phb|12|Tech Powers} of your choice, and you learn more at higher levels, as shown in the {@book Tech Powers Known|sw5e-phb|12|Tech Powers} column of the {@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table. You may not learn a {@book tech power|sw5e-phb|12|Tech Powers} of a level higher than your Max Power Level."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Tech Points",
 					"entries": [
-						"You have a number of tech points equal to half your fighter level, as shown in the Tech Points column of the Shield {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table, + your Intelligence modifier. You use these tech points to cast {@book tech powers|sw5e-phb|12|Tech Powers}. You regain all expended tech points when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
+						"You have a number of tech points equal to half your fighter level, as shown in the Tech Points column of the {@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table, + your Intelligence modifier. You use these tech points to cast {@book tech powers|sw5e-phb|12|Tech Powers}. You regain all expended tech points when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Max Power Level",
 					"entries": [
-						"Many {@book tech powers|sw5e-phb|12|Tech Powers} can be overcharged, consuming more tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the Shield {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table.",
+						"Many {@book tech powers|sw5e-phb|12|Tech Powers} can be overcharged, consuming more tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the {@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table.",
 						"You may only cast {@book tech powers|sw5e-phb|12|Tech Powers} at 4th-level once. You regain the ability to do so after a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Techcasting Ability",
+					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} Ability",
 					"entries": [
 						"Intelligence is your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} for your {@book tech powers|sw5e-phb|12|Tech Powers}. You use your Intelligence whenever a power refers to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability}. Additionally, you use your Intelligence modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book tech power|sw5e-phb|12|Tech Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Tech save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Intelligence modifier",
@@ -10744,7 +10744,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Techcasting Focus",
+					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} Focus",
 					"entries": [
 						"You use a {@item Wristpad|sw5e-phb|wristpad} (found in {@book chapter 5|sw5e-phb|5}) as a tech focus for your {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
@@ -10756,7 +10756,7 @@
 			"name": "Stay in Formation",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shield Specialist",
+			"subclassShortName": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10770,7 +10770,7 @@
 			"name": "Rallying Cry",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shield Specialist",
+			"subclassShortName": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10779,7 +10779,7 @@
 				"When you use your Second Wind feature, you can choose up to three allies within 60 feet of you that can see or hear you. Each ally regains {@variantrule Hit Points|sw5e-phb|hit points} equal to your fighter level.",
 				{
 					"type": "entries",
-					"name": "Shield Specialist Techcasting",
+					"name": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting}",
 					"entries": [
 						"You can choose an additional ally at 9th, 13th, and 17th level."
 					]
@@ -10791,7 +10791,7 @@
 			"name": "Inspiring Surge",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shield Specialist",
+			"subclassShortName": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10805,7 +10805,7 @@
 			"name": "Bulwark",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shield Specialist",
+			"subclassShortName": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10819,7 +10819,7 @@
 			"name": "Greater Inspiring Surge",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shield Specialist",
+			"subclassShortName": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10830,10 +10830,10 @@
 			"header": 2
 		},
 		{
-			"name": "Tactical Specialist",
+			"name": "Tactical {@feat Specialist|sw5e-phb}",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Tactical Specialist",
+			"subclassShortName": "Tactical {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10846,7 +10846,7 @@
 			"name": "Bonus Proficiencies",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Tactical Specialist",
+			"subclassShortName": "Tactical {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10860,7 +10860,7 @@
 			"name": "Improved Combat Superiority",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Tactical Specialist",
+			"subclassShortName": "Tactical {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -10869,7 +10869,7 @@
 				"Your tactical skill in combat improves, granting bonuses to your Combat Superiority.",
 				{
 					"type": "entries",
-					"name": "Tactical Superiority",
+					"name": "{@spell Tactical Superiority|sw5e-phb}",
 					"entries": [
 						{
 							"type": "table",
@@ -10987,7 +10987,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Improved Superiority Dice",
+					"name": "Improved {@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers}",
 					"entries": [
 						"You have four {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}, instead of two, and you earn more at higher levels, as shown in the {@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Quantity column of the {@spell Tactical Superiority|sw5e-phb} table."
 					]
@@ -10996,10 +10996,10 @@
 			"header": 2
 		},
 		{
-			"name": "Maneuver Versatility",
+			"name": "{@book maneuver|sw5e-phb|13|Maneuvers} Versatility",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Tactical Specialist",
+			"subclassShortName": "Tactical {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11014,7 +11014,7 @@
 			"name": "Know Your Enemy",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Tactical Specialist",
+			"subclassShortName": "Tactical {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11037,10 +11037,10 @@
 			"header": 2
 		},
 		{
-			"name": "Maneuver Adept",
+			"name": "{@book maneuver|sw5e-phb|13|Maneuvers} Adept",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Tactical Specialist",
+			"subclassShortName": "Tactical {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11054,7 +11054,7 @@
 			"name": "Relentless",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Tactical Specialist",
+			"subclassShortName": "Tactical {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11065,10 +11065,10 @@
 			"header": 2
 		},
 		{
-			"name": "Maneuver Mastery",
+			"name": "{@book maneuver|sw5e-phb|13|Maneuvers} Mastery",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Tactical Specialist",
+			"subclassShortName": "Tactical {@feat Specialist|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11079,10 +11079,10 @@
 			"header": 2
 		},
 		{
-			"name": "Makashi Form",
+			"name": "{@optfeature Makashi Form|sw5e-phb}",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Makashi Form",
+			"subclassShortName": "{@optfeature Makashi Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11095,7 +11095,7 @@
 			"name": "Form Basics",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Makashi Form",
+			"subclassShortName": "{@optfeature Makashi Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11109,7 +11109,7 @@
 			"name": "The Way of the Ysalamiri",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Makashi Form",
+			"subclassShortName": "{@optfeature Makashi Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11124,7 +11124,7 @@
 			"name": "Channel the Force",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Makashi Form",
+			"subclassShortName": "{@optfeature Makashi Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11133,7 +11133,7 @@
 				"You gain the following Channel the Force option.",
 				{
 					"type": "entries",
-					"name": "Makashi Riposte",
+					"name": "Makashi {@optfeature Riposte|sw5e-phb}",
 					"entries": [
 						"When another creature damages you with a melee attack, you can expend a use of your Channel the Force and use your {@variantrule Reaction|sw5e-phb} to attempt to deflect the attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your guardian level.",
 						"If you reduce the damage to 0, you can immediately make a single {@variantrule Attack Roll|sw5e-phb|melee weapon attack} against that creature as a part of the {@variantrule Reaction|sw5e-phb}."
@@ -11146,7 +11146,7 @@
 			"name": "Force-Empowered Reflexes",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Makashi Form",
+			"subclassShortName": "{@optfeature Makashi Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11160,7 +11160,7 @@
 			"name": "Glancing Blow",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Makashi Form",
+			"subclassShortName": "{@optfeature Makashi Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11174,7 +11174,7 @@
 			"name": "Master of Contention",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Makashi Form",
+			"subclassShortName": "{@optfeature Makashi Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11194,10 +11194,10 @@
 			"header": 2
 		},
 		{
-			"name": "Niman Form",
+			"name": "{@optfeature Niman Form|sw5e-phb}",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Niman Form",
+			"subclassShortName": "{@optfeature Niman Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11210,7 +11210,7 @@
 			"name": "Form Basics",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Niman Form",
+			"subclassShortName": "{@optfeature Niman Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11224,7 +11224,7 @@
 			"name": "The Way of the Rancor",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Niman Form",
+			"subclassShortName": "{@optfeature Niman Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11239,7 +11239,7 @@
 			"name": "Channel the Force",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Niman Form",
+			"subclassShortName": "{@optfeature Niman Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11260,7 +11260,7 @@
 			"name": "Enlightenment",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Niman Form",
+			"subclassShortName": "{@optfeature Niman Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11274,7 +11274,7 @@
 			"name": "Redirect",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Niman Form",
+			"subclassShortName": "{@optfeature Niman Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11289,7 +11289,7 @@
 			"name": "Master of Moderation",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Niman Form",
+			"subclassShortName": "{@optfeature Niman Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11309,10 +11309,10 @@
 			"header": 2
 		},
 		{
-			"name": "Shien/Djem So Form",
+			"name": "Shien/{@optfeature Djem So Form|sw5e-phb}",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shien/Djem So Form",
+			"subclassShortName": "Shien/{@optfeature Djem So Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11325,7 +11325,7 @@
 			"name": "Bonus Proficiencies",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shien/Djem So Form",
+			"subclassShortName": "Shien/{@optfeature Djem So Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11339,7 +11339,7 @@
 			"name": "Form Basics",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shien/Djem So Form",
+			"subclassShortName": "Shien/{@optfeature Djem So Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11353,7 +11353,7 @@
 			"name": "The Way of the Krayt Dragon",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shien/Djem So Form",
+			"subclassShortName": "Shien/{@optfeature Djem So Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11368,7 +11368,7 @@
 			"name": "Channel the Force",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shien/Djem So Form",
+			"subclassShortName": "Shien/{@optfeature Djem So Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11396,7 +11396,7 @@
 			"name": "Determination",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shien/Djem So Form",
+			"subclassShortName": "Shien/{@optfeature Djem So Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11424,7 +11424,7 @@
 			"name": "Presence",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shien/Djem So Form",
+			"subclassShortName": "Shien/{@optfeature Djem So Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11452,7 +11452,7 @@
 			"name": "Master of Perseverance",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Shien/Djem So Form",
+			"subclassShortName": "Shien/{@optfeature Djem So Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11472,10 +11472,10 @@
 			"header": 2
 		},
 		{
-			"name": "Soresu Form",
+			"name": "{@optfeature Soresu Form|sw5e-phb}",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Soresu Form",
+			"subclassShortName": "{@optfeature Soresu Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11488,7 +11488,7 @@
 			"name": "Bonus Proficiencies",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Soresu Form",
+			"subclassShortName": "{@optfeature Soresu Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11502,7 +11502,7 @@
 			"name": "Form Basics",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Soresu Form",
+			"subclassShortName": "{@optfeature Soresu Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11516,7 +11516,7 @@
 			"name": "The Way of the Mynock",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Soresu Form",
+			"subclassShortName": "{@optfeature Soresu Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11531,7 +11531,7 @@
 			"name": "Channel the Force",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Soresu Form",
+			"subclassShortName": "{@optfeature Soresu Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11552,7 +11552,7 @@
 			"name": "Circle of Shelter",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Soresu Form",
+			"subclassShortName": "{@optfeature Soresu Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11567,7 +11567,7 @@
 			"name": "Circle of Shelter",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Soresu Form",
+			"subclassShortName": "{@optfeature Soresu Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11582,7 +11582,7 @@
 			"name": "Circle of Shelter",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Soresu Form",
+			"subclassShortName": "{@optfeature Soresu Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11597,7 +11597,7 @@
 			"name": "Circle of Shelter",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Soresu Form",
+			"subclassShortName": "{@optfeature Soresu Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11612,7 +11612,7 @@
 			"name": "Stand Against the Tide",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Soresu Form",
+			"subclassShortName": "{@optfeature Soresu Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11626,7 +11626,7 @@
 			"name": "Master of Resilience",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
-			"subclassShortName": "Soresu Form",
+			"subclassShortName": "{@optfeature Soresu Form|sw5e-phb}",
 			"subclassSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
@@ -11728,7 +11728,7 @@
 			"page": 49,
 			"level": 11,
 			"entries": [
-				"When you attempt to {@optfeature Perceive|sw5e-phb|perceive} your surroundings on your turn, you can opt to not move on that turn. If you avoid moving, you gain a +10 bonus to your Wisdom ({@skill Perception|sw5e-phb}) checks until the start of your next turn. You lose this benefit if you move or fall prone, either voluntarily or because of some external effect."
+				"When you attempt to {@optfeature Perceive|sw5e-phb|perceive} your surroundings on your turn, you can opt to not move on that turn. If you avoid moving, you gain a +10 bonus to your Wisdom ({@skill Perception|sw5e-phb}) checks until the start of your next turn. You lose this benefit if you move or fall {@condition Prone|sw5e-phb|prone}, either voluntarily or because of some external effect."
 			],
 			"header": 2
 		},
@@ -12011,7 +12011,7 @@
 			"header": 2
 		},
 		{
-			"name": "Spirit Blade Assault",
+			"name": "{@spell Spirit Blade|sw5e-phb} Assault",
 			"className": "Monk",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Nightsister Order",
@@ -12081,7 +12081,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tumble",
+					"name": "{@optfeature Tumble|sw5e-phb}",
 					"entries": [
 						"You attempt to nimbly roll away. You immediately move 10 feet in a direction of your choice, and the target must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, this movement does not provoke {@action Opportunity Attack|sw5e-phb|opportunity attacks} from the creature."
 					]
@@ -12135,7 +12135,7 @@
 			"level": 17,
 			"entries": [
 				"You can take two turns during the first round of any combat. You take your first turn at your normal {@variantrule Initiative|sw5e-phb|initiative} and your second turn at your {@variantrule Initiative|sw5e-phb|initiative} minus 10. You can't use this feature when you are surprised.",
-				"Additionally, you learn to utilize the momentum of your fall to make deadly vertical strikes. Whenever you fall at least 50 feet and land within 5 feet of an enemy creature you can use your {@variantrule Reaction|sw5e-phb} to make one {@variantrule Attack Roll|sw5e-phb|weapon attack} against that creature. If the attack is a Sneak Attack, you can deal three additional weapon dice worth of damage and the creature must succeed on a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} against your Deft Hands save DC or be knocked prone."
+				"Additionally, you learn to utilize the momentum of your fall to make deadly vertical strikes. Whenever you fall at least 50 feet and land within 5 feet of an enemy creature you can use your {@variantrule Reaction|sw5e-phb} to make one {@variantrule Attack Roll|sw5e-phb|weapon attack} against that creature. If the attack is a Sneak Attack, you can deal three additional weapon dice worth of damage and the creature must succeed on a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} against your Deft Hands save DC or be knocked {@condition Prone|sw5e-phb|prone}."
 			],
 			"header": 2
 		},
@@ -12153,7 +12153,7 @@
 			]
 		},
 		{
-			"name": "Forcecasting",
+			"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
 			"className": "Operative",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Beguiler Practice",
@@ -12165,13 +12165,13 @@
 				"You have derived powers from your emotional connection to the Force. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11|Force Powers} for the {@book force powers list|sw5e-phb|11|Force Powers}.",
 				{
 					"type": "entries",
-					"name": "Beguiler Practice Forcecasting",
+					"name": "Beguiler Practice {@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
 					"entries": [
 						{
 							"type": "table",
 							"colLabels": [
 								"Level",
-								"Force Powers Known",
+								"{@book Force Powers Known|sw5e-phb|11|Force Powers}",
 								"Force Points",
 								"Max Power Level"
 							],
@@ -12296,7 +12296,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Force Powers Known",
+					"name": "{@book Force Powers Known|sw5e-phb|11|Force Powers}",
 					"entries": [
 						"You learn 4 {@book force powers|sw5e-phb|11|Force Powers} of your choice, and you learn more at higher levels, as shown in the {@book Force Powers Known|sw5e-phb|11|Force Powers} column of the Beguiler Practice {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} table. You may not learn a {@book force power|sw5e-phb|11|Force Powers} of a level higher than your Max Power Level, and you may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time you learn its prerequisite."
 					]
@@ -12318,7 +12318,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Forcecasting Ability",
+					"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting} Ability",
 					"entries": [
 						"Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. You use your Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (your choice). You use this ability whenever a power refers to your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Force save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} modifier",
@@ -12554,7 +12554,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Penetrating Shot",
+					"name": "{@optfeature Penetrating Shot|sw5e-phb}",
 					"entries": [
 						"You attempt to damage another target with the same attack. Choose a second target within 15 feet of and directly behind your initial target. If the original {@variantrule Attack Roll|sw5e-phb|attack roll} would hit the second target, it takes two dice worth of Sneak Attack damage.",
 						"The damage is of the same type dealt by the original attack."
@@ -12873,7 +12873,7 @@
 			"header": 2
 		},
 		{
-			"name": "Remote Healer",
+			"name": "Remote {@feat Healer|sw5e-phb}",
 			"className": "Scholar",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Physician Pursuit",
@@ -12960,7 +12960,7 @@
 				"When you select this pursuit, you gain access to new discoveries which reflect the progress of your studies into the medical arts. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.",
 				{
 					"type": "entries",
-					"name": "Advanced Remote Healer",
+					"name": "Advanced Remote {@feat Healer|sw5e-phb}",
 					"entries": [
 						"{@i {@b Prerequisite:} 11th level} The range of your Remote {@feat Healer|sw5e-phb} feature increases to 60 feet."
 					]
@@ -13052,7 +13052,7 @@
 										],
 										[
 											"8",
-											"The creature's eyes glows bright red. The creature also gains {@spell Darkvision|sw5e-phb|darkvision}, but if they already have {@spell Darkvision|sw5e-phb|darkvision} they get a light headache instead."
+											"The creature's eyes glows bright red. The creature also gains {@sense Darkvision|sw5e-phb|darkvision}, but if they already have {@sense Darkvision|sw5e-phb|darkvision} they get a light headache instead."
 										],
 										[
 											"9",
@@ -13153,7 +13153,7 @@
 			"header": 2
 		},
 		{
-			"name": "Force of Personality",
+			"name": "{@feat Force of Personality|sw5e-phb}",
 			"className": "Scholar",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Politician Pursuit",
@@ -13368,7 +13368,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Contingency Plan",
+					"name": "{@spell Contingency|sw5e-phb} Plan",
 					"entries": [
 						"{@i {@b Prerequisite:} 9th level} When the target of your Critical Analysis feature scores a {@variantrule Critical Hit|sw5e-phb|critical hit}, you can use your {@variantrule Reaction|sw5e-phb} and expend a superiority die to treat the attack as a normal hit instead."
 					]
@@ -13389,7 +13389,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Observant Leader",
+					"name": "{@feat Observant|sw5e-phb} Leader",
 					"entries": [
 						"You have {@variantrule Advantage|sw5e-phb|advantage} Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sight."
 					]
@@ -13745,7 +13745,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Whirlwind Attack",
+					"name": "{@spell Whirlwind|sw5e-phb} Attack",
 					"entries": [
 						"You can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate {@variantrule Attack Roll|sw5e-phb|attack roll} for each target."
 					]
@@ -13936,7 +13936,7 @@
 			"page": 49,
 			"level": 7,
 			"entries": [
-				"You've become adept at evading creatures that rely on {@spell Darkvision|sw5e-phb|darkvision}. While in {@spell Darkness|sw5e-phb|darkness}, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@spell Darkvision|sw5e-phb|darkvision} to see you in that {@spell Darkness|sw5e-phb|darkness}.",
+				"You've become adept at evading creatures that rely on {@sense Darkvision|sw5e-phb|darkvision}. While in {@spell Darkness|sw5e-phb|darkness}, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@sense Darkvision|sw5e-phb|darkvision} to see you in that {@spell Darkness|sw5e-phb|darkness}.",
 				"Additionally, when you hit a creature with a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} while hidden, you can force that creature to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} against your tech save DC. On a failed save, the creature's {@variantrule Speed|sw5e-phb|speed} is reduced to 0 until the end of your next turn. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -13951,7 +13951,7 @@
 			"page": 49,
 			"level": 9,
 			"entries": [
-				"You've become adept at evading creatures that rely on {@spell Darkvision|sw5e-phb|darkvision}. While in {@spell Darkness|sw5e-phb|darkness}, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@spell Darkvision|sw5e-phb|darkvision} to see you in that {@spell Darkness|sw5e-phb|darkness}.",
+				"You've become adept at evading creatures that rely on {@sense Darkvision|sw5e-phb|darkvision}. While in {@spell Darkness|sw5e-phb|darkness}, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@sense Darkvision|sw5e-phb|darkvision} to see you in that {@spell Darkness|sw5e-phb|darkness}.",
 				"Additionally, when you hit a creature with a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} while hidden, you can force that creature to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} against your tech save DC. On a failed save, the creature's {@variantrule Speed|sw5e-phb|speed} is reduced to 0 until the end of your next turn. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -13966,7 +13966,7 @@
 			"page": 49,
 			"level": 13,
 			"entries": [
-				"You've become adept at evading creatures that rely on {@spell Darkvision|sw5e-phb|darkvision}. While in {@spell Darkness|sw5e-phb|darkness}, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@spell Darkvision|sw5e-phb|darkvision} to see you in that {@spell Darkness|sw5e-phb|darkness}.",
+				"You've become adept at evading creatures that rely on {@sense Darkvision|sw5e-phb|darkvision}. While in {@spell Darkness|sw5e-phb|darkness}, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@sense Darkvision|sw5e-phb|darkvision} to see you in that {@spell Darkness|sw5e-phb|darkness}.",
 				"Additionally, when you hit a creature with a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} while hidden, you can force that creature to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} against your tech save DC. On a failed save, the creature's {@variantrule Speed|sw5e-phb|speed} is reduced to 0 until the end of your next turn. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -13981,7 +13981,7 @@
 			"page": 49,
 			"level": 17,
 			"entries": [
-				"You've become adept at evading creatures that rely on {@spell Darkvision|sw5e-phb|darkvision}. While in {@spell Darkness|sw5e-phb|darkness}, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@spell Darkvision|sw5e-phb|darkvision} to see you in that {@spell Darkness|sw5e-phb|darkness}.",
+				"You've become adept at evading creatures that rely on {@sense Darkvision|sw5e-phb|darkvision}. While in {@spell Darkness|sw5e-phb|darkness}, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@sense Darkvision|sw5e-phb|darkvision} to see you in that {@spell Darkness|sw5e-phb|darkness}.",
 				"Additionally, when you hit a creature with a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} while hidden, you can force that creature to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} against your tech save DC. On a failed save, the creature's {@variantrule Speed|sw5e-phb|speed} is reduced to 0 until the end of your next turn. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -14397,7 +14397,7 @@
 			"header": 2
 		},
 		{
-			"name": "Twin Saber Throw",
+			"name": "Twin {@spell Saber Throw|sw5e-phb}",
 			"className": "Sentinel",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Path of the Forceblade",
@@ -14412,7 +14412,7 @@
 			"header": 2
 		},
 		{
-			"name": "Twin Saber Throw",
+			"name": "Twin {@spell Saber Throw|sw5e-phb}",
 			"className": "Sentinel",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Path of the Forceblade",
@@ -14427,7 +14427,7 @@
 			"header": 2
 		},
 		{
-			"name": "Twin Saber Throw",
+			"name": "Twin {@spell Saber Throw|sw5e-phb}",
 			"className": "Sentinel",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Path of the Forceblade",
@@ -14442,7 +14442,7 @@
 			"header": 2
 		},
 		{
-			"name": "Twin Saber Throw",
+			"name": "Twin {@spell Saber Throw|sw5e-phb}",
 			"className": "Sentinel",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Path of the Forceblade",
@@ -14480,7 +14480,7 @@
 			"page": 49,
 			"level": 18,
 			"entries": [
-				"You've mastered controlling your forceblade with your mind, using it to keep your enemies at bay. As an action, you can telekinetically control your forceblade and have it strike any number of creatures within 10 feet of you, spending 1 force point per target. Each target must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your bonus to {@variantrule Attack Roll|sw5e-phb|weapon attack rolls} with that weapon). On a failed save, it takes damage using your Kinetic Combat die + half your sentinel level, is pushed back 10 feet and knocked prone."
+				"You've mastered controlling your forceblade with your mind, using it to keep your enemies at bay. As an action, you can telekinetically control your forceblade and have it strike any number of creatures within 10 feet of you, spending 1 force point per target. Each target must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your bonus to {@variantrule Attack Roll|sw5e-phb|weapon attack rolls} with that weapon). On a failed save, it takes damage using your Kinetic Combat die + half your sentinel level, is pushed back 10 feet and knocked {@condition Prone|sw5e-phb|prone}."
 			],
 			"header": 2
 		}

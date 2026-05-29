@@ -25,7 +25,7 @@
 					"type": "entries",
 					"name": "Strength",
 					"entries": [
-						"While wearing armor or wielding a shield with the strength property, your speed is reduced by 10 unless your Strength score meets or exceeds the strength number."
+						"While wearing armor or wielding a {@item Shield|sw5e-phb|shield} with the strength property, your {@variantrule Speed|sw5e-phb|speed} is reduced by 10 unless your Strength score meets or exceeds the strength number."
 					]
 				}
 			]
@@ -53,7 +53,7 @@
 					"type": "entries",
 					"name": "Bulky",
 					"entries": [
-						"While wearing armor with the bulky property, you have disadvantage on Dexterity ({@skill Stealth}) checks that rely on sound."
+						"While wearing armor with the bulky property, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Dexterity ({@skill Stealth|sw5e-phb}) checks that rely on sound."
 					]
 				}
 			]
@@ -67,7 +67,7 @@
 					"type": "entries",
 					"name": "Burst",
 					"entries": [
-						"When you would make a ranged weapon attack with a weapon with the burst property, you can instead spray a 10-foot-cube area within range with shots, consuming ammunition equal to the burst number. Each creature in the area must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon) or take the weapon's normal damage. Before you use the burst property, you can declare one creature that would be affected by it. If the creature fails its save, in addition to the weapon's normal damage, it is subjected to any additional effects that would occur on a hit. If the targeted area is beyond normal range but within long range, affected targets have advantage on the save."
+						"When you would make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a weapon with the burst property, you can instead spray a 10-foot-cube area within range with shots, consuming ammunition equal to the burst number. Each creature in the area must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your bonus to attacks with the weapon) or take the weapon's normal damage. Before you use the burst property, you can declare one creature that would be affected by it. If the creature fails its save, in addition to the weapon's normal damage, it is subjected to any additional effects that would occur on a hit. If the targeted area is beyond normal range but within long range, affected targets have {@variantrule Advantage|sw5e-phb|advantage} on the save."
 					]
 				}
 			],
@@ -82,7 +82,7 @@
 					"type": "entries",
 					"name": "Dexterity",
 					"entries": [
-						"A weapon with the dexterity property requires more skill to control. While wielding it, you have disadvantage on attack rolls unless you meet the Dexterity requirement. "
+						"A weapon with the dexterity property requires more skill to control. While wielding it, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} unless you meet the Dexterity requirement. "
 					]
 				}
 			],
@@ -97,7 +97,7 @@
 					"type": "entries",
 					"name": "Disguised",
 					"entries": [
-						"You have advantage on Charisma ({@skill Deception}) checks made to hide the nature of a weapon with the disguised property."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on Charisma ({@skill Deception|sw5e-phb}) checks made to hide the nature of a weapon with the disguised property."
 					]
 				}
 			]
@@ -126,7 +126,7 @@
 					"type": "entries",
 					"name": "Finesse",
 					"entries": [
-						"When making an attack with a weapon with the finesse property, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
+						"When making an attack with a weapon with {@itemProperty SWF|sw5e-phb|the finesse property}, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
 					]
 				}
 			]
@@ -140,7 +140,7 @@
 					"type": "entries",
 					"name": "Fixed",
 					"entries": [
-						"A weapon with the fixed property does not fill the hand, but you can't use the weapon while the hand is full. Additionally, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of this weapon."
+						"A weapon with the fixed property does not fill the hand, but you can't use the weapon while the hand is full. Additionally, you have a +10 bonus to {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being disarmed of this weapon."
 					]
 				}
 			]
@@ -154,7 +154,7 @@
 					"type": "entries",
 					"name": "Heavy",
 					"entries": [
-						"When you hit with an attack roll using Strength with a weapon with the heavy property, you deal additional damage equal to half your Strength modifier (rounded up, minimum of +1)."
+						"When you hit with an {@variantrule Attack Roll|sw5e-phb|attack roll} using Strength with a weapon with the heavy property, you deal additional damage equal to half your Strength modifier (rounded up, minimum of +1)."
 					]
 				}
 			]
@@ -168,7 +168,7 @@
 					"type": "entries",
 					"name": "Hidden",
 					"entries": [
-						"You have advantage on Dexterity ({@skill Sleight of Hand}) checks made to conceal a weapon with the hidden property."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Sleight of Hand|sw5e-phb}) checks made to {@optfeature Conceal|sw5e-phb|conceal} a weapon with the hidden property."
 					]
 				}
 			]
@@ -210,7 +210,7 @@
 					"type": "entries",
 					"name": "Luminous",
 					"entries": [
-						"A weapon with the luminous property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity ({@skill Stealth}) checks made while the weapon is activated have disadvantage."
+						"A weapon with the luminous property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity ({@skill Stealth|sw5e-phb}) checks made while the weapon is activated have {@variantrule Disadvantage|sw5e-phb|disadvantage}."
 					]
 				}
 			]
@@ -239,7 +239,7 @@
 					"type": "entries",
 					"name": "Obtrusive",
 					"entries": [
-						"While wielding a shield with the obtrusive property, you have disadvantage on Dexterity ({@skill Stealth}) checks that rely on sight."
+						"While wielding a {@item Shield|sw5e-phb|shield} with the obtrusive property, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Dexterity ({@skill Stealth|sw5e-phb}) checks that rely on sight."
 					]
 				}
 			]
@@ -253,7 +253,7 @@
 					"type": "entries",
 					"name": "Penetrating",
 					"entries": [
-						"When you would make a ranged weapon attack with a weapon with the penetrating property, you can instead attempt to penetrate and hit a creature behind the target, consuming ammunition equal to the penetrating number. Make an attack roll against the initial target. If the attack hits, there is a creature within 15 feet of that creature and directly behind it, and the original attack roll would hit the second creature, it also takes normal weapon damage."
+						"When you would make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a weapon with the penetrating property, you can instead attempt to penetrate and hit a creature behind the target, consuming ammunition equal to the penetrating number. Make an {@variantrule Attack Roll|sw5e-phb|attack roll} against the initial target. If the attack hits, there is a creature within 15 feet of that creature and directly behind it, and the original {@variantrule Attack Roll|sw5e-phb|attack roll} would hit the second creature, it also takes normal weapon damage."
 					]
 				}
 			],
@@ -266,9 +266,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Power Cell",
+					"name": "{@item Power cell|sw5e-phb|Power Cell}",
 					"entries": [
-						"Weapons with the power cell property are fueled by power cells, which must be loaded in order to fire the weapon."
+						"Weapons with the {@item Power cell|sw5e-phb} property are fueled by {@item Power cell|sw5e-phb|power cells}, which must be loaded in order to fire the weapon."
 					]
 				}
 			],
@@ -283,7 +283,7 @@
 					"type": "entries",
 					"name": "Rapid",
 					"entries": [
-						"When you would make a ranged weapon attack with a weapon with the rapid property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, roll the weapon's damage dice twice and add them together, adding relevant modifiers as normal and subjecting the target to any additional effects that would occur on a hit. If the target is beyond normal range but within long range, it has advantage on the save."
+						"When you would make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a weapon with the rapid property, you can instead unload on a single target, consuming ammunition equal to the rapid number. The target must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your bonus to attacks with the weapon). On a failed save, roll the weapon's damage dice twice and add them together, adding relevant modifiers as normal and subjecting the target to any additional effects that would occur on a hit. If the target is beyond normal range but within long range, it has {@variantrule Advantage|sw5e-phb|advantage} on the save."
 					]
 				}
 			],
@@ -324,9 +324,9 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Slug Cartridge",
+					"name": "{@item Slug cartridge|sw5e-phb|Slug Cartridge}",
 					"entries": [
-						"Weapons with the slug cartridge property fire slug cartridges, which must be loaded in order to fire the weapon."
+						"Weapons with the {@item Slug cartridge|sw5e-phb|slug cartridge} property fire slug cartridges, which must be loaded in order to fire the weapon."
 					]
 				}
 			],
@@ -370,7 +370,7 @@
 					"type": "entries",
 					"name": "Thrown",
 					"entries": [
-						"Weapons with the thrown property can be thrown to make a ranged attack. If the weapon would normally be used to make melee weapon attacks, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. "
+						"Weapons with the thrown property can be thrown to make a ranged attack. If the weapon would normally be used to make melee weapon attacks, you use the same ability modifier for that {@variantrule Attack Roll|sw5e-phb|attack roll} and damage roll that you would use for a melee attack with the weapon. "
 					]
 				}
 			],
@@ -414,7 +414,7 @@
 					"type": "entries",
 					"name": "Strength",
 					"entries": [
-						"A weapon with the strength property has a heavy kickback. While wielding it, you have disadvantage on attack rolls unless you meet the Strength requirement. If the weapon has the burst, penetrating, or rapid property, you must meet the Strength requirement to use this feature. If the weapon lacks the two-handed property, you can wield the weapon in two hands to temporarily reduce the strength number by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If this would reduce the strength number below 11, you ignore it entirely."
+						"A weapon with the strength property has a heavy kickback. While wielding it, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} unless you meet the Strength requirement. If the weapon has the burst, penetrating, or rapid property, you must meet the Strength requirement to use this feature. If the weapon lacks the two-handed property, you can wield the weapon in two hands to temporarily reduce the strength number by one step (from 19 to 17, 17 to 15, 15 to 13, or 13 to 11). If this would reduce the strength number below 11, you ignore it entirely."
 					]
 				}
 			]

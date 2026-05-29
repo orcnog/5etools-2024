@@ -61,7 +61,7 @@
 				"intimidation": "+1"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 13,
 			"resist": [

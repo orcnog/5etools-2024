@@ -63,7 +63,7 @@
 				"intimidation": "+2"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 14,
 			"resist": [
@@ -149,7 +149,7 @@
 				"int": "+2"
 			},
 			"senses": [
-				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
+				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 10,
 			"resist": [
@@ -216,7 +216,7 @@
 					]
 				},
 				{
-					"name": "Unusual {@skill Nature|sw5e-phb}",
+					"name": "Unusual {@skill Nature}",
 					"entries": [
 						"The security droid doesn't require air, food, drink, or sleep."
 					]
@@ -237,7 +237,7 @@
 				}
 			],
 			"traitTags": [
-				"Unusual {@skill Nature|sw5e-phb}"
+				"Unusual {@skill Nature}"
 			],
 			"senseTags": [
 				"D"
@@ -404,7 +404,7 @@
 				"stealth": "+2"
 			},
 			"senses": [
-				"blindsight 60 ft. (blind beyond this radius)"
+				"{@sense Blindsight|sw5e-phb|blindsight} 60 ft. (blind beyond this radius)"
 			],
 			"passive": 10,
 			"vulnerable": [
@@ -1278,7 +1278,7 @@
 				{
 					"name": "Topple (Costs 2 Actions)",
 					"entries": [
-						"Sifo-Dyas uses the Force to pull down a huge object or piece of terrain (ex: a support column). The affected area is one of the following: a line 10 ft. wide and 40 ft. long extending from the base of the object, or a 15 ft. radius from a point of Sifo-Dyas' choosing. Each creature in the area of effect must succeed on a {@dc 16} Dexterity Saving Throw or take {@damage 5d6} bludgeoning damage and be knocked {@condition prone|sw5e-phb}. The affected area becomes {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} until cleared."
+						"Sifo-Dyas uses the Force to pull down a huge object or piece of terrain (ex: a support column). The affected area is one of the following: a line 10 ft. wide and 40 ft. long extending from the base of the object, or a 15 ft. radius from a point of Sifo-Dyas' choosing. Each creature in the area of effect must succeed on a {@dc 16} {@variantrule Saving Throw|sw5e-phb|Dexterity saving throw} or take {@damage 5d6} bludgeoning damage and be knocked {@condition prone|sw5e-phb}. The affected area becomes {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} until cleared."
 					]
 				}
 			],

@@ -17,7 +17,7 @@
 	},
 	"optionalfeature": [
 		{
-			"name": "Area Mastery",
+			"name": "{@optfeature Area Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -36,7 +36,7 @@
 			]
 		},
 		{
-			"name": "Assisting Mastery",
+			"name": "{@optfeature Assisting Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -60,7 +60,7 @@
 			]
 		},
 		{
-			"name": "Berserk Mastery",
+			"name": "{@optfeature Berserk Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -79,7 +79,7 @@
 			]
 		},
 		{
-			"name": "Blindfighting Mastery",
+			"name": "{@optfeature Blindfighting Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -92,13 +92,13 @@
 					"items": [
 						"Once per round, when a creature would have {@variantrule Disadvantage|sw5e-phb|disadvantage} on an {@variantrule Attack Roll|sw5e-phb|attack roll} against you due to being {@condition Blinded|sw5e-phb|blinded}, they must reroll one of the dice once.",
 						"Once per round, when you would have {@variantrule Advantage|sw5e-phb|advantage} on an {@variantrule Attack Roll|sw5e-phb|attack roll} against a creature that is {@condition Blinded|sw5e-phb|blinded}, you can reroll one of the dice once.",
-						"You gain blindsight out to a number of feet equal to 5 x your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already have blindsight, it instead increases by a number of feet equal to 5 x your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
+						"You gain {@sense Blindsight|sw5e-phb|blindsight} out to a number of feet equal to 5 x your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already have {@sense Blindsight|sw5e-phb|blindsight}, it instead increases by a number of feet equal to 5 x your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
 		},
 		{
-			"name": "Brawler Mastery",
+			"name": "{@optfeature Brawler Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -118,7 +118,7 @@
 			]
 		},
 		{
-			"name": "Counterstrike Mastery",
+			"name": "{@optfeature Counterstrike Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -138,7 +138,7 @@
 			]
 		},
 		{
-			"name": "Covert Mastery",
+			"name": "{@optfeature Covert Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -158,7 +158,7 @@
 			]
 		},
 		{
-			"name": "Defense Mastery",
+			"name": "{@optfeature Defense Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -177,7 +177,7 @@
 			]
 		},
 		{
-			"name": "Disruption Mastery",
+			"name": "{@optfeature Disruption Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -196,7 +196,7 @@
 			]
 		},
 		{
-			"name": "Dual Wield Mastery",
+			"name": "{@optfeature Dual Wield Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -217,7 +217,7 @@
 			]
 		},
 		{
-			"name": "Duelist Mastery",
+			"name": "{@optfeature Duelist Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -236,7 +236,7 @@
 			]
 		},
 		{
-			"name": "Equilibrium Mastery",
+			"name": "{@optfeature Equilibrium Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -255,7 +255,7 @@
 			]
 		},
 		{
-			"name": "Explosives Mastery",
+			"name": "{@optfeature Explosives Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -274,7 +274,7 @@
 			]
 		},
 		{
-			"name": "Formation Mastery",
+			"name": "{@optfeature Formation Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -293,7 +293,7 @@
 			]
 		},
 		{
-			"name": "Formfighting Mastery",
+			"name": "{@optfeature Formfighting Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -312,7 +312,7 @@
 			]
 		},
 		{
-			"name": "Great Weapon Mastery",
+			"name": "{@optfeature Great Weapon Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -332,7 +332,7 @@
 			]
 		},
 		{
-			"name": "Guerrilla Mastery",
+			"name": "{@optfeature Guerrilla Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -352,7 +352,7 @@
 			]
 		},
 		{
-			"name": "Gunning Mastery",
+			"name": "{@optfeature Gunning Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -372,7 +372,7 @@
 			]
 		},
 		{
-			"name": "Mounted Mastery",
+			"name": "{@optfeature Mounted Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -392,7 +392,7 @@
 			]
 		},
 		{
-			"name": "Onslaught Mastery",
+			"name": "{@optfeature Onslaught Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -403,7 +403,7 @@
 				{
 					"type": "list",
 					"items": [
-						"When a creature falls prone within 5 feet of you, they provoke an {@action Opportunity Attack|sw5e-phb|opportunity attack} from you.",
+						"When a creature falls {@condition Prone|sw5e-phb|prone} within 5 feet of you, they provoke an {@action Opportunity Attack|sw5e-phb|opportunity attack} from you.",
 						"When you would have {@variantrule Advantage|sw5e-phb|advantage} on a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} due to a creature being prone, you can reroll one of the dice once.",
 						"When a prone creature within 5 feet of you attempts to stand, they provoke an {@action Opportunity Attack|sw5e-phb|opportunity attack} from you.",
 						"Once on each of your turns, if you move at least 10 feet in a straight line towards a creature immediately before hitting it with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack}, you can deal additional damage equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
@@ -412,7 +412,7 @@
 			]
 		},
 		{
-			"name": "Poisoner Mastery",
+			"name": "{@optfeature Poisoner Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -432,7 +432,7 @@
 			]
 		},
 		{
-			"name": "Secured Mastery",
+			"name": "{@optfeature Secured Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -452,7 +452,7 @@
 			]
 		},
 		{
-			"name": "Sentinel Mastery",
+			"name": "{@optfeature Sentinel Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -471,7 +471,7 @@
 			]
 		},
 		{
-			"name": "Sharpshooter Mastery",
+			"name": "{@optfeature Sharpshooter Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -490,7 +490,7 @@
 			]
 		},
 		{
-			"name": "Shield Mastery",
+			"name": "{@optfeature Shield Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -509,7 +509,7 @@
 			]
 		},
 		{
-			"name": "Snapshot Mastery",
+			"name": "{@optfeature Snapshot Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -528,7 +528,7 @@
 			]
 		},
 		{
-			"name": "Split Mastery",
+			"name": "{@optfeature Split Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -548,7 +548,7 @@
 			]
 		},
 		{
-			"name": "Spotting Mastery",
+			"name": "{@optfeature Spotting Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -569,7 +569,7 @@
 			]
 		},
 		{
-			"name": "Superiority Mastery",
+			"name": "{@optfeature Superiority Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -589,7 +589,7 @@
 			]
 		},
 		{
-			"name": "Throwing Mastery",
+			"name": "{@optfeature Throwing Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -614,7 +614,7 @@
 			]
 		},
 		{
-			"name": "Twin-Blade Mastery",
+			"name": "{@optfeature Twin-Blade Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -634,7 +634,7 @@
 			]
 		},
 		{
-			"name": "Versatile Mastery",
+			"name": "{@optfeature Versatile Mastery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [

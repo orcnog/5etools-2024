@@ -17,7 +17,7 @@
 	},
 	"item": [
 		{
-			"name": "Antitoxkit",
+			"name": "{@item Antitoxkit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"name": "Aquatic rebreather",
+			"name": "{@item Aquatic rebreather|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -41,7 +41,7 @@
 			]
 		},
 		{
-			"name": "Armormech's implements",
+			"name": "{@item Armormech's implements|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -53,7 +53,7 @@
 			]
 		},
 		{
-			"name": "Armstech's implements",
+			"name": "{@item Armstech's implements|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"name": "Artificer's implements",
+			"name": "{@item Artificer's implements|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -77,7 +77,7 @@
 			]
 		},
 		{
-			"name": "Assault armor",
+			"name": "{@item Assault armor|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "HA",
@@ -97,7 +97,7 @@
 			]
 		},
 		{
-			"name": "Assault cannon",
+			"name": "{@item Assault cannon|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -128,7 +128,7 @@
 			"burst": 4
 		},
 		{
-			"name": "Astrotech's implements",
+			"name": "{@item Astrotech's implements|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -140,7 +140,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Backpack",
+			"name": "{@item Backpack|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -155,7 +155,7 @@
 			}
 		},
 		{
-			"name": "Bandolier",
+			"name": "{@item Bandolier|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -167,7 +167,7 @@
 			]
 		},
 		{
-			"name": "Battle armor",
+			"name": "{@item Battle armor|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "HA",
@@ -187,7 +187,7 @@
 			]
 		},
 		{
-			"name": "Beam rifle",
+			"name": "{@item Beam rifle|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -218,7 +218,7 @@
 			"penetrating": 2
 		},
 		{
-			"name": "Bedroll",
+			"name": "{@item Bedroll|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -230,7 +230,7 @@
 			]
 		},
 		{
-			"name": "Binders",
+			"name": "{@item Binders|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -242,7 +242,7 @@
 			]
 		},
 		{
-			"name": "Biochemist's kit",
+			"name": "{@item Biochemist's kit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -254,7 +254,7 @@
 			]
 		},
 		{
-			"name": "Biotech's implements",
+			"name": "{@item Biotech's implements|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -274,12 +274,12 @@
 			"value": 2000,
 			"weight": 2.0,
 			"entries": [
-				"A bipod is a device mounted to a two-handed {@filter blaster|items|firearm=true} that lacks the fixed property to offer increased stability while prone. As an action, you can deploy or collapse the bipod. While deployed, you ignore the Strength requirement on the attached {@filter blaster|items|firearm=true} with the strength property while you are prone, and your {@variantrule Speed|sw5e-phb|speed} is reduced to 0. Additionally, while deployed and prone, you have a +10 bonus to {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being disarmed of the weapon."
+				"A bipod is a device mounted to a two-handed {@filter blaster|items|firearm=true} that lacks the fixed property to offer increased stability while {@condition Prone|sw5e-phb|prone}. As an action, you can deploy or collapse the bipod. While deployed, you ignore the Strength requirement on the attached {@filter blaster|items|firearm=true} with the strength property while you are {@condition Prone|sw5e-phb|prone}, and your {@variantrule Speed|sw5e-phb|speed} is reduced to 0. Additionally, while deployed and prone, you have a +10 bonus to {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being disarmed of the weapon."
 			],
 			"bonusSavingThrow": "+1"
 		},
 		{
-			"name": "Blanket",
+			"name": "{@item Blanket|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -291,7 +291,7 @@
 			]
 		},
 		{
-			"name": "Blaster carbine",
+			"name": "{@item Blaster carbine|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -318,7 +318,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Blaster pistol",
+			"name": "{@item Blaster pistol|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -344,7 +344,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Blaster rifle",
+			"name": "{@item Blaster rifle|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -371,7 +371,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Bottle",
+			"name": "{@item Bottle|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -383,7 +383,7 @@
 			]
 		},
 		{
-			"name": "Bowcaster",
+			"name": "{@item Bowcaster|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -414,17 +414,17 @@
 			"burst": 4
 		},
 		{
-			"name": "Burglar's Pack",
+			"name": "{@item Burglar's Pack|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"Costs 290 credits. Includes a backpack, two glowrods, a hydrospanner, a fusion cutter, a chronometer, a grappling hook, 5 days of field rations, and a canteen."
+				"Costs 290 credits. Includes a {@item Backpack|sw5e-phb|backpack}, two glowrods, a {@item Hydrospanner|sw5e-phb|hydrospanner}, a {@item Fusion cutter|sw5e-phb|fusion cutter}, a {@item Chronometer|sw5e-phb|chronometer}, a {@item Grappling hook|sw5e-phb|grappling hook}, 5 days of field rations, and a {@item Canteen|sw5e-phb|canteen}."
 			]
 		},
 		{
-			"name": "Canteen",
+			"name": "{@item Canteen|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -436,7 +436,7 @@
 			]
 		},
 		{
-			"name": "Carbine rifle",
+			"name": "{@item Carbine rifle|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -468,7 +468,7 @@
 			"rapid": 3
 		},
 		{
-			"name": "Chakram",
+			"name": "{@item Chakram|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -490,7 +490,7 @@
 			"range": "30/90"
 		},
 		{
-			"name": "Chance cubes",
+			"name": "{@item Chance cubes|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "GS",
@@ -502,7 +502,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Chef's kit",
+			"name": "{@item Chef's kit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -529,7 +529,7 @@
 			}
 		},
 		{
-			"name": "Chronometer",
+			"name": "{@item Chronometer|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -541,7 +541,7 @@
 			]
 		},
 		{
-			"name": "Clothes, common",
+			"name": "{@item Clothes, common|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -553,7 +553,7 @@
 			]
 		},
 		{
-			"name": "Clothes, costume",
+			"name": "{@item Clothes, costume|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -565,7 +565,7 @@
 			]
 		},
 		{
-			"name": "Clothes, dress uniform",
+			"name": "{@item Clothes, dress uniform|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -577,7 +577,7 @@
 			]
 		},
 		{
-			"name": "Clothes, fine",
+			"name": "{@item Clothes, fine|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -589,7 +589,7 @@
 			]
 		},
 		{
-			"name": "Clothes, traveler's",
+			"name": "{@item Clothes, traveler's|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -601,7 +601,7 @@
 			]
 		},
 		{
-			"name": "Code cylinder",
+			"name": "{@item Code cylinder|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -613,7 +613,7 @@
 			]
 		},
 		{
-			"name": "Combat suit",
+			"name": "{@item Combat suit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "LA",
@@ -630,7 +630,7 @@
 			"strength": null
 		},
 		{
-			"name": "Comm jammer",
+			"name": "{@item Comm jammer|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -642,7 +642,7 @@
 			]
 		},
 		{
-			"name": "Commlink",
+			"name": "{@item Commlink|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -654,7 +654,7 @@
 			]
 		},
 		{
-			"name": "Commlink, hands-free",
+			"name": "{@item Commlink, hands-free|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -666,7 +666,7 @@
 			]
 		},
 		{
-			"name": "Composite armor",
+			"name": "{@item Composite armor|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "MA",
@@ -697,7 +697,7 @@
 			]
 		},
 		{
-			"name": "Credit",
+			"name": "{@item Credit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "$",
@@ -705,12 +705,12 @@
 			"value": 10,
 			"entries": [
 				"Credits come in a variety of denominations: from a single chit to cards loaded with incredible value. While the Republic and Empire have their own currencies, in most worlds they can be used interchangeably.",
-				"With ten credits, a character can buy a power cell, a stylus, or a glowrod. A skilled (but not exceptional) artisan can earn ten {@item credit|sw5e-phb|credits} a day. The credit is the standard unit of measure for wealth, even if the chit itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of credits, the transactions don't usually involve the exchange of individual chits. Rather, the credit is a standard measure of value, and the actual exchange is in credit cards, letters of credit, or valuable goods.",
+				"With ten credits, a character can buy a {@item Power cell|sw5e-phb}, a stylus, or a {@item Glowrod|sw5e-phb|glowrod}. A skilled (but not exceptional) artisan can earn ten {@item credit|sw5e-phb|credits} a day. The {@item Credit|sw5e-phb|credit} is the standard unit of measure for wealth, even if the chit itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of credits, the transactions don't usually involve the exchange of individual chits. Rather, the {@item Credit|sw5e-phb|credit} is a standard measure of value, and the actual exchange is in {@item Credit|sw5e-phb|credit} cards, letters of {@item Credit|sw5e-phb|credit}, or valuable goods.",
 				"A standard chit weighs about a third of an ounce, so fifty chits weigh a pound."
 			]
 		},
 		{
-			"name": "Cybertech's implements",
+			"name": "{@item Cybertech's implements|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -722,7 +722,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Cycler rifle",
+			"name": "{@item Cycler rifle|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -741,7 +741,7 @@
 			"dmg1": "1d8",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "slug cartridge",
+			"ammoType": "{@item Slug cartridge|sw5e-phb|slug cartridge}",
 			"reload": 8,
 			"range": "90/360",
 			"entries": [
@@ -764,7 +764,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Datacard",
+			"name": "{@item Datacard|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -776,7 +776,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Datacron",
+			"name": "{@item Datacron|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -788,7 +788,7 @@
 			]
 		},
 		{
-			"name": "Datapad",
+			"name": "{@item Datapad|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -800,7 +800,7 @@
 			]
 		},
 		{
-			"name": "Dejarik set",
+			"name": "{@item Dejarik set|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "GS",
@@ -812,7 +812,7 @@
 			]
 		},
 		{
-			"name": "Demolitions kit",
+			"name": "{@item Demolitions kit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -824,17 +824,17 @@
 			]
 		},
 		{
-			"name": "Diplomat's Pack",
+			"name": "{@item Diplomat's Pack|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"Costs 330 credits. Includes a chest, a set of fine clothes, a datapad, 5 datacards, a stylus, 5 days of field rations, and a canteen."
+				"Costs 330 credits. Includes a chest, a set of fine clothes, a {@item Datapad|sw5e-phb|datapad}, 5 datacards, a stylus, 5 days of field rations, and a {@item Canteen|sw5e-phb|canteen}."
 			]
 		},
 		{
-			"name": "Disguise kit",
+			"name": "{@item Disguise kit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -846,7 +846,7 @@
 			]
 		},
 		{
-			"name": "Doubleblade",
+			"name": "{@item Doubleblade|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -868,7 +868,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "Doublesaber",
+			"name": "{@item Doublesaber|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -890,7 +890,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "Doubleshoto",
+			"name": "{@item Doubleshoto|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -913,7 +913,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "Doublesword",
+			"name": "{@item Doublesword|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -946,17 +946,17 @@
 			]
 		},
 		{
-			"name": "Dungeoneer's Pack",
+			"name": "{@item Dungeoneer's Pack|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"Costs 320 credits. Includes a backpack, five glowrods, a fusion cutter, a grappling hook, a chronometer, 10 days of field rations, a canteen, and 50 feet of fibercord cable strapped to the side of it."
+				"Costs 320 credits. Includes a {@item Backpack|sw5e-phb|backpack}, five glowrods, a {@item Fusion cutter|sw5e-phb|fusion cutter}, a {@item Grappling hook|sw5e-phb|grappling hook}, a {@item Chronometer|sw5e-phb|chronometer}, 10 days of field rations, a {@item Canteen|sw5e-phb|canteen}, and 50 feet of fibercord cable strapped to the side of it."
 			]
 		},
 		{
-			"name": "Emergency battery",
+			"name": "{@item Emergency battery|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -968,7 +968,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Emergency shelter",
+			"name": "{@item Emergency shelter|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -980,17 +980,17 @@
 			]
 		},
 		{
-			"name": "Entertainer's Pack",
+			"name": "{@item Entertainer's Pack|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"Costs 420 credits. Includes a backpack, a bedroll, two costumes, two glowrods, 5 days of field rations, a canteen, and a disguise kit."
+				"Costs 420 credits. Includes a {@item Backpack|sw5e-phb|backpack}, a {@item Bedroll|sw5e-phb|bedroll}, two costumes, two glowrods, 5 days of field rations, a {@item Canteen|sw5e-phb|canteen}, and a {@item Disguise kit|sw5e-phb|disguise kit}."
 			]
 		},
 		{
-			"name": "Enviro-suit",
+			"name": "{@item Enviro-suit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -998,21 +998,21 @@
 			"value": 20000,
 			"weight": 15,
 			"entries": [
-				"Environment suits, atmospheric suits, or EVA suits, are pressure suits that enabled wearers to survive and operate in zero gravity space and other dangerous conditions."
+				"Environment suits, atmospheric suits, or EVA suits, are pressure suits that enabled wearers to {@optfeature Survive|sw5e-phb|survive} and operate in zero gravity space and other dangerous conditions."
 			]
 		},
 		{
-			"name": "Explorer's Pack",
+			"name": "{@item Explorer's Pack|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"Costs 250 credits. Includes a backpack, a bedroll, a blanket, a mess kit, two glowrods, a commlink, 10 days of field rations, a canteen, and 50 feet of fibercord cable strapped to the side of it."
+				"Costs 250 credits. Includes a {@item Backpack|sw5e-phb|backpack}, a {@item Bedroll|sw5e-phb|bedroll}, a {@item Blanket|sw5e-phb|blanket}, a {@item Mess kit|sw5e-phb|mess kit}, two glowrods, a {@item Commlink|sw5e-phb|commlink}, 10 days of field rations, a {@item Canteen|sw5e-phb|canteen}, and 50 feet of fibercord cable strapped to the side of it."
 			]
 		},
 		{
-			"name": "Fiber armor",
+			"name": "{@item Fiber armor|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "LA",
@@ -1052,7 +1052,7 @@
 			]
 		},
 		{
-			"name": "Flight suit",
+			"name": "{@item Flight suit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1076,7 +1076,7 @@
 			]
 		},
 		{
-			"name": "Forgery kit",
+			"name": "{@item Forgery kit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -1088,7 +1088,7 @@
 			]
 		},
 		{
-			"name": "Friction-grip gear",
+			"name": "{@item Friction-grip gear|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1100,7 +1100,7 @@
 			]
 		},
 		{
-			"name": "Fusion cutter",
+			"name": "{@item Fusion cutter|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1112,7 +1112,7 @@
 			]
 		},
 		{
-			"name": "Gadgeteer's implements",
+			"name": "{@item Gadgeteer's implements|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -1124,7 +1124,7 @@
 			]
 		},
 		{
-			"name": "Glowrod",
+			"name": "{@item Glowrod|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1136,7 +1136,7 @@
 			]
 		},
 		{
-			"name": "Grappling hook",
+			"name": "{@item Grappling hook|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1148,7 +1148,7 @@
 			]
 		},
 		{
-			"name": "Great-saber",
+			"name": "{@item Great-saber|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -1170,7 +1170,7 @@
 			"dexterity": 11
 		},
 		{
-			"name": "Grenade, fragmentation",
+			"name": "{@item Grenade, fragmentation|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -1182,7 +1182,7 @@
 			]
 		},
 		{
-			"name": "Grenade, gas",
+			"name": "{@item Grenade, gas|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -1195,7 +1195,7 @@
 			]
 		},
 		{
-			"name": "Grenade, ion",
+			"name": "{@item Grenade, ion|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -1207,7 +1207,7 @@
 			]
 		},
 		{
-			"name": "Grenade, plasma",
+			"name": "{@item Grenade, plasma|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -1219,7 +1219,7 @@
 			]
 		},
 		{
-			"name": "Headcomm",
+			"name": "{@item Headcomm|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1227,11 +1227,11 @@
 			"value": 2000,
 			"weight": 1,
 			"entries": [
-				"A headcomm can be installed in a helmet or worn independently. It functions as a hands-free {@item commlink|sw5e-phb}."
+				"A {@item Headcomm|sw5e-phb|headcomm} can be installed in a helmet or worn independently. It functions as a hands-free {@item commlink|sw5e-phb}."
 			]
 		},
 		{
-			"name": "Heat generator",
+			"name": "{@item Heat generator|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1243,7 +1243,7 @@
 			]
 		},
 		{
-			"name": "Heavy blaster rifle",
+			"name": "Heavy {@item Blaster rifle|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1274,7 +1274,7 @@
 			"rapid": 2
 		},
 		{
-			"name": "Heavy bowcaster",
+			"name": "{@item Heavy bowcaster|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1305,7 +1305,7 @@
 			"burst": 2
 		},
 		{
-			"name": "Heavy carbine",
+			"name": "{@item Heavy carbine|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1336,7 +1336,7 @@
 			"rapid": 4
 		},
 		{
-			"name": "Heavy exoskeleton",
+			"name": "{@item Heavy exoskeleton|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "HA",
@@ -1356,7 +1356,7 @@
 			]
 		},
 		{
-			"name": "Heavy physical shield",
+			"name": "Heavy physical {@item Shield|sw5e-phb|shield}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "S",
@@ -1376,7 +1376,7 @@
 			]
 		},
 		{
-			"name": "Heavy pistol",
+			"name": "{@item Heavy pistol|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1402,7 +1402,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Heavy repeater",
+			"name": "{@item Heavy repeater|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1436,7 +1436,7 @@
 			"rapid": 4
 		},
 		{
-			"name": "Heavy shield generator",
+			"name": "Heavy {@item Shield|sw5e-phb|shield} generator",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "S",
@@ -1452,7 +1452,7 @@
 			]
 		},
 		{
-			"name": "Heavy shotgun",
+			"name": "{@item Heavy shotgun|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1471,7 +1471,7 @@
 			"dmg1": "2d4",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "slug cartridge",
+			"ammoType": "{@item Slug cartridge|sw5e-phb|slug cartridge}",
 			"reload": 8,
 			"range": "60/240",
 			"entries": [
@@ -1482,7 +1482,7 @@
 			"burst": 2
 		},
 		{
-			"name": "Heavy slugpistol",
+			"name": "{@item Heavy slugpistol|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1499,7 +1499,7 @@
 			"dmg1": "1d8",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "slug cartridge",
+			"ammoType": "{@item Slug cartridge|sw5e-phb|slug cartridge}",
 			"reload": 12,
 			"range": "30/120",
 			"entries": [
@@ -1509,7 +1509,7 @@
 			"rapid": 8
 		},
 		{
-			"name": "Hidden blade",
+			"name": "{@item Hidden blade|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -1531,7 +1531,7 @@
 			]
 		},
 		{
-			"name": "Hold-out",
+			"name": "{@item Hold-out|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1559,7 +1559,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Holocomm",
+			"name": "{@item Holocomm|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1571,7 +1571,7 @@
 			]
 		},
 		{
-			"name": "Holocron",
+			"name": "{@item Holocron|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1583,7 +1583,7 @@
 			]
 		},
 		{
-			"name": "Holorecorder",
+			"name": "{@item Holorecorder|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1595,7 +1595,7 @@
 			]
 		},
 		{
-			"name": "Holotrace device",
+			"name": "{@item Holotrace device|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1607,7 +1607,7 @@
 			]
 		},
 		{
-			"name": "Homing beacon",
+			"name": "{@item Homing beacon|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1619,7 +1619,7 @@
 			]
 		},
 		{
-			"name": "Hunting rifle",
+			"name": "{@item Hunting rifle|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1637,7 +1637,7 @@
 			"dmg1": "1d10",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "slug cartridge",
+			"ammoType": "{@item Slug cartridge|sw5e-phb|slug cartridge}",
 			"reload": 4,
 			"range": "125/500",
 			"entries": [
@@ -1647,7 +1647,7 @@
 			"strength": 11
 		},
 		{
-			"name": "Hydrospanner",
+			"name": "{@item Hydrospanner|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1659,7 +1659,7 @@
 			]
 		},
 		{
-			"name": "Ion cannon",
+			"name": "{@item Ion cannon|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1691,7 +1691,7 @@
 			"burst": 4
 		},
 		{
-			"name": "Ion carbine",
+			"name": "{@item Ion carbine|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1718,7 +1718,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Ion pistol",
+			"name": "{@item Ion pistol|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1744,7 +1744,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Ion rifle",
+			"name": "{@item Ion rifle|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1771,7 +1771,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Jetpack",
+			"name": "{@item Jetpack|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1788,7 +1788,7 @@
 			}
 		},
 		{
-			"name": "Light physical shield",
+			"name": "Light physical {@item Shield|sw5e-phb|shield}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "S",
@@ -1804,7 +1804,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Light pistol",
+			"name": "{@item Light pistol|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1831,7 +1831,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Light repeater",
+			"name": "{@item Light repeater|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1861,7 +1861,7 @@
 			"rapid": 5
 		},
 		{
-			"name": "Light shield generator",
+			"name": "Light {@item Shield|sw5e-phb|shield} generator",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "S",
@@ -1877,7 +1877,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Light slugpistol",
+			"name": "{@item Light slugpistol|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1894,7 +1894,7 @@
 			"dmg1": "1d4",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "slug cartridge",
+			"ammoType": "{@item Slug cartridge|sw5e-phb|slug cartridge}",
 			"reload": 8,
 			"range": "35/140",
 			"entries": [
@@ -1903,7 +1903,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Light-lance",
+			"name": "{@item Light-lance|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -1926,7 +1926,7 @@
 			"dexterity": 11
 		},
 		{
-			"name": "Lightaxe",
+			"name": "{@item Lightaxe|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -1948,7 +1948,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "Lightblade",
+			"name": "{@item Lightblade|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -1969,7 +1969,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "Lightclub",
+			"name": "{@item Lightclub|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -1991,7 +1991,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "Lightdagger",
+			"name": "{@item Lightdagger|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2015,7 +2015,7 @@
 			"range": "20/60"
 		},
 		{
-			"name": "Lightfoil",
+			"name": "{@item Lightfoil|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2036,7 +2036,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "Lightsaber",
+			"name": "{@item Lightsaber|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2058,7 +2058,7 @@
 			]
 		},
 		{
-			"name": "Lightstaff",
+			"name": "{@item Lightstaff|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2093,7 +2093,7 @@
 			]
 		},
 		{
-			"name": "Macrobinoculars",
+			"name": "{@item Macrobinoculars|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2105,7 +2105,7 @@
 			]
 		},
 		{
-			"name": "Martial lightsaber",
+			"name": "{@item Martial lightsaber|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2127,7 +2127,7 @@
 			]
 		},
 		{
-			"name": "Mechanic's kit",
+			"name": "{@item Mechanic's kit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -2139,7 +2139,7 @@
 			]
 		},
 		{
-			"name": "Medium physical shield",
+			"name": "Medium physical {@item Shield|sw5e-phb|shield}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "S",
@@ -2158,7 +2158,7 @@
 			]
 		},
 		{
-			"name": "Medium shield generator",
+			"name": "Medium {@item Shield|sw5e-phb|shield} generator",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "S",
@@ -2174,7 +2174,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Medpac",
+			"name": "{@item Medpac|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2186,7 +2186,7 @@
 			]
 		},
 		{
-			"name": "Mesh armor",
+			"name": "{@item Mesh armor|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "MA",
@@ -2202,7 +2202,7 @@
 			"strength": null
 		},
 		{
-			"name": "Mess kit",
+			"name": "{@item Mess kit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2214,7 +2214,7 @@
 			]
 		},
 		{
-			"name": "Mine, fragmentation",
+			"name": "{@item Mine, fragmentation|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -2226,7 +2226,7 @@
 			]
 		},
 		{
-			"name": "Mine, gas",
+			"name": "{@item Mine, gas|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -2238,7 +2238,7 @@
 			]
 		},
 		{
-			"name": "Mine, incendiary",
+			"name": "{@item Mine, incendiary|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -2251,7 +2251,7 @@
 			]
 		},
 		{
-			"name": "Mirror",
+			"name": "{@item Mirror|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2263,7 +2263,7 @@
 			]
 		},
 		{
-			"name": "Missile, fragmentation",
+			"name": "{@item Missile, fragmentation|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AF",
@@ -2297,7 +2297,7 @@
 			"range": "15"
 		},
 		{
-			"name": "Ommni box",
+			"name": "{@item Ommni box|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "INS",
@@ -2309,7 +2309,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Pazaak deck",
+			"name": "{@item Pazaak deck|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "GS",
@@ -2321,7 +2321,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Pikesaber",
+			"name": "{@item Pikesaber|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2344,7 +2344,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "Pitcher",
+			"name": "{@item Pitcher|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2356,7 +2356,7 @@
 			]
 		},
 		{
-			"name": "Pocket scrambler",
+			"name": "{@item Pocket scrambler|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2368,7 +2368,7 @@
 			]
 		},
 		{
-			"name": "Poison",
+			"name": "{@item Poison|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2381,7 +2381,7 @@
 			"poison": true
 		},
 		{
-			"name": "Poisoner's kit",
+			"name": "{@item Poisoner's kit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -2408,7 +2408,7 @@
 			}
 		},
 		{
-			"name": "Power cell",
+			"name": "{@item Power cell|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AF",
@@ -2420,17 +2420,17 @@
 			]
 		},
 		{
-			"name": "Priest's Pack",
+			"name": "{@item Priest's Pack|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"Costs 275 credits. Includes a backpack, a blanket, two glowrods, a datapad, a traumakit, 5 days of field rations, and a canteen."
+				"Costs 275 credits. Includes a {@item Backpack|sw5e-phb|backpack}, a {@item Blanket|sw5e-phb|blanket}, two glowrods, a {@item Datapad|sw5e-phb|datapad}, a {@item Traumakit|sw5e-phb|traumakit}, 5 days of field rations, and a {@item Canteen|sw5e-phb|canteen}."
 			]
 		},
 		{
-			"name": "Projector canister, cryo",
+			"name": "{@item Projector canister, cryo|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AF",
@@ -2442,7 +2442,7 @@
 			]
 		},
 		{
-			"name": "Projector canister, incendiary",
+			"name": "{@item Projector canister, incendiary|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AF",
@@ -2454,7 +2454,7 @@
 			]
 		},
 		{
-			"name": "Ram, portable",
+			"name": "{@item Ram, portable|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2466,7 +2466,7 @@
 			]
 		},
 		{
-			"name": "Remote detonator",
+			"name": "{@item Remote detonator|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2478,7 +2478,7 @@
 			]
 		},
 		{
-			"name": "Repair kit",
+			"name": "{@item Repair kit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2490,7 +2490,7 @@
 			]
 		},
 		{
-			"name": "Repeating blaster",
+			"name": "Repeating {@filter blaster|items|firearm=true}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2524,7 +2524,7 @@
 			"rapid": 4
 		},
 		{
-			"name": "Respirator",
+			"name": "{@item Respirator|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2536,7 +2536,7 @@
 			]
 		},
 		{
-			"name": "Restraining bolt",
+			"name": "{@item Restraining bolt|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2549,7 +2549,7 @@
 			]
 		},
 		{
-			"name": "Rocket boots",
+			"name": "{@item Rocket boots|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2566,7 +2566,7 @@
 			}
 		},
 		{
-			"name": "Rotary cannon",
+			"name": "{@item Rotary cannon|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2598,7 +2598,7 @@
 			"rapid": 2
 		},
 		{
-			"name": "Sabacc deck",
+			"name": "{@item Sabacc deck|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "GS",
@@ -2610,7 +2610,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Saber-spear",
+			"name": "{@item Saber-spear|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2633,7 +2633,7 @@
 			"range": "20/60"
 		},
 		{
-			"name": "Saberwhip",
+			"name": "{@item Saberwhip|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2655,7 +2655,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "Scattergun",
+			"name": "{@item Scattergun|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2673,7 +2673,7 @@
 			"dmg1": "1d6",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "slug cartridge",
+			"ammoType": "{@item Slug cartridge|sw5e-phb|slug cartridge}",
 			"reload": 8,
 			"range": "30/120",
 			"entries": [
@@ -2684,17 +2684,17 @@
 			"burst": 2
 		},
 		{
-			"name": "Scholar's Pack",
+			"name": "{@item Scholar's Pack|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
 			"rarity": "none",
 			"entries": [
-				"Costs 290 credits. Includes a backpack, a datapad, 5 datacards, a stylus, a holorecorder, 5 days of field rations, and a canteen."
+				"Costs 290 credits. Includes a {@item Backpack|sw5e-phb|backpack}, a {@item Datapad|sw5e-phb|datapad}, 5 datacards, a stylus, a {@item Holorecorder|sw5e-phb|holorecorder}, 5 days of field rations, and a {@item Canteen|sw5e-phb|canteen}."
 			]
 		},
 		{
-			"name": "Security kit",
+			"name": "{@item Security kit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -2706,20 +2706,20 @@
 			]
 		},
 		{
-			"name": "Shield",
+			"name": "{@item Shield|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "S",
 			"rarity": "none",
 			"entries": [
-				"Shields come in varying weights, sizes, and materials. Light shields are smaller and mounted to the forearm, while medium and heavy shields are held in hand. You can only benefit from one shield at a time.",
-				"{@b {@i Physical Shields.}} Physical shields are made entirely of physical materials. They are cheaper than their generator counterparts, but heavier.",
-				"{@b {@i Shield Generators.}} Shield generators are made almost entirely of energy barriers. Medium and heavy shield generators have a physical handheld component from which the barrier emanates; medium shield generators are orbs that are slightly larger than a fist, while heavy shield generators project from a large cross.",
-				"See {@item Light physical shield|sw5e-phb}, {@item Medium physical shield|sw5e-phb}, {@item Heavy physical shield|sw5e-phb}, and shield generators in the equipment chapter."
+				"Shields come in varying weights, sizes, and materials. Light {@item Shield|sw5e-phb|shields} are smaller and mounted to the forearm, while medium and heavy {@item Shield|sw5e-phb|shields} are held in hand. You can only benefit from one {@item Shield|sw5e-phb|shield} at a time.",
+				"{@b {@i Physical Shields.}} Physical {@item Shield|sw5e-phb|shields} are made entirely of physical materials. They are cheaper than their generator counterparts, but heavier.",
+				"{@b {@i Shield Generators.}} {@item Shield|sw5e-phb} generators are made almost entirely of energy barriers. Medium and heavy {@item Shield|sw5e-phb|shield} generators have a physical handheld component from which the barrier emanates; medium {@item Shield|sw5e-phb|shield} generators are orbs that are slightly larger than a fist, while heavy {@item Shield|sw5e-phb|shield} generators {@spell Project|sw5e-phb|project} from a large cross.",
+				"See {@item Light physical shield|sw5e-phb}, {@item Medium physical shield|sw5e-phb}, {@item Heavy physical shield|sw5e-phb}, and {@item Shield|sw5e-phb|shield} generators in the equipment chapter."
 			]
 		},
 		{
-			"name": "Shotgun",
+			"name": "{@item Shotgun|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2738,7 +2738,7 @@
 			"dmg1": "2d4",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "slug cartridge",
+			"ammoType": "{@item Slug cartridge|sw5e-phb|slug cartridge}",
 			"reload": 4,
 			"range": "30/120",
 			"entries": [
@@ -2749,7 +2749,7 @@
 			"burst": 2
 		},
 		{
-			"name": "Shotosaber",
+			"name": "{@item Shotosaber|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2771,7 +2771,7 @@
 			]
 		},
 		{
-			"name": "Shovel",
+			"name": "{@item Shovel|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2783,7 +2783,7 @@
 			]
 		},
 		{
-			"name": "Slicer's kit",
+			"name": "{@item Slicer's kit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -2795,7 +2795,7 @@
 			]
 		},
 		{
-			"name": "Slug cartridge",
+			"name": "{@item Slug cartridge|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AF",
@@ -2807,7 +2807,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Slugpistol",
+			"name": "{@item Slugpistol|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2825,7 +2825,7 @@
 			"dmg1": "1d6",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "slug cartridge",
+			"ammoType": "{@item Slug cartridge|sw5e-phb|slug cartridge}",
 			"reload": 16,
 			"range": "40/160",
 			"entries": [
@@ -2836,7 +2836,7 @@
 			"rapid": 8
 		},
 		{
-			"name": "Slugthrower",
+			"name": "{@item Slugthrower|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2853,7 +2853,7 @@
 			"dmg1": "1d8",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "slug cartridge",
+			"ammoType": "{@item Slug cartridge|sw5e-phb|slug cartridge}",
 			"reload": 12,
 			"range": "105/420",
 			"entries": [
@@ -2862,7 +2862,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Sniper rifle",
+			"name": "{@item Sniper rifle|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2891,7 +2891,7 @@
 			"strength": 13
 		},
 		{
-			"name": "Splitsaber",
+			"name": "{@item Splitsaber|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2912,7 +2912,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "Splitshoto",
+			"name": "{@item Splitshoto|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2934,7 +2934,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "Stealth field generator",
+			"name": "{@skill Stealth|sw5e-phb} field generator",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2946,7 +2946,7 @@
 			]
 		},
 		{
-			"name": "Stylus pen",
+			"name": "{@item Stylus pen|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2958,7 +2958,7 @@
 			]
 		},
 		{
-			"name": "Subrepeater",
+			"name": "{@item Subrepeater|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2990,7 +2990,7 @@
 			"rapid": 4
 		},
 		{
-			"name": "Techaxe",
+			"name": "{@item Techaxe|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3011,7 +3011,7 @@
 			"range": "25/75"
 		},
 		{
-			"name": "Techblade",
+			"name": "{@item Techblade|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3031,7 +3031,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "Techstaff",
+			"name": "{@item Techstaff|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3053,7 +3053,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "Tent, two-person",
+			"name": "{@item Tent, two-person|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -3065,7 +3065,7 @@
 			]
 		},
 		{
-			"name": "Thermal detonator",
+			"name": "{@item Thermal detonator|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -3073,11 +3073,11 @@
 			"value": 20000,
 			"weight": 1.0,
 			"entries": [
-				"Thermal detonators are unique in that can only be turned off by whoever turned them on. They can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 20 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d6 fire and 2d10 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone."
+				"Thermal detonators are unique in that can only be turned off by whoever turned them on. They can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 20 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d6 fire and 2d10 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition Prone|sw5e-phb|prone}."
 			]
 		},
 		{
-			"name": "Tinker's implements",
+			"name": "{@item Tinker's implements|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -3089,7 +3089,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "Tracker utility vest",
+			"name": "{@item Tracker utility vest|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -3101,7 +3101,7 @@
 			]
 		},
 		{
-			"name": "Trapper's kit",
+			"name": "{@item Trapper's kit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -3113,7 +3113,7 @@
 			]
 		},
 		{
-			"name": "Traumakit",
+			"name": "{@item Traumakit|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -3125,7 +3125,7 @@
 			]
 		},
 		{
-			"name": "Tripod",
+			"name": "{@item Tripod|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -3138,7 +3138,7 @@
 			"bonusSavingThrow": "+1"
 		},
 		{
-			"name": "Vibroaxe",
+			"name": "{@item Vibroaxe|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3159,7 +3159,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "Vibroblade",
+			"name": "{@item Vibroblade|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3179,7 +3179,7 @@
 			"dmg2": "1d10"
 		},
 		{
-			"name": "Vibrodagger",
+			"name": "{@item Vibrodagger|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3201,7 +3201,7 @@
 			"range": "20/60"
 		},
 		{
-			"name": "Vibrodart",
+			"name": "{@item Vibrodart|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3223,7 +3223,7 @@
 			"range": "20/60"
 		},
 		{
-			"name": "Vibroknuckler",
+			"name": "{@item Vibroknuckler|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3243,7 +3243,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "Vibromace",
+			"name": "{@item Vibromace|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3264,7 +3264,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "Vibropike",
+			"name": "{@item Vibropike|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3286,7 +3286,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "Vibrorapier",
+			"name": "{@item Vibrorapier|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3305,7 +3305,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "Vibrospear",
+			"name": "{@item Vibrospear|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3327,7 +3327,7 @@
 			"range": "25/75"
 		},
 		{
-			"name": "Vibrostaff",
+			"name": "{@item Vibrostaff|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3347,7 +3347,7 @@
 			"dmg2": "2d4"
 		},
 		{
-			"name": "Vibrosword",
+			"name": "{@item Vibrosword|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3368,7 +3368,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "Vibrowhip",
+			"name": "{@item Vibrowhip|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3388,7 +3388,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "Weave armor",
+			"name": "{@item Weave armor|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "MA",
@@ -3404,7 +3404,7 @@
 			"strength": null
 		},
 		{
-			"name": "Wrist launcher",
+			"name": "{@item Wrist launcher|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -3429,7 +3429,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Wristblaster",
+			"name": "{@item Wristblaster|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -3458,7 +3458,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "Wristpad",
+			"name": "{@item Wristpad|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",

@@ -457,7 +457,7 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"firearm": true,
-			"ammoType": "crossbow bolts|phb",
+			"ammoType": "bolt|sw5e-ec",
 			"reload": 1,
 			"range": "90/360",
 			"dmgType": "Unknown",
@@ -856,7 +856,7 @@
 			"dmg1": "1d8",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "arrow|phb",
+			"ammoType": "arrow|sw5e-ec",
 			"range": "75/300",
 			"ammunition": true
 		},
@@ -3443,7 +3443,7 @@
 			"value": 8000,
 			"weight": 7,
 			"entries": [
-				"When you would make a Strength ({@skill Athletics|sw5e-phb}) check to attempt to grapple a creature while wielding a weapon with the grappling property, you can instead make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} with it. If the attack hits, the creature becomes {@condition grappled|sw5e-phb} by you, and it takes damage equal to your Strength modifier of the same type as the weapon's damage."
+				"When you would make a Strength ({@skill Athletics}) check to attempt to grapple a creature while wielding a weapon with the grappling property, you can instead make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} with it. If the attack hits, the creature becomes {@condition grappled|sw5e-phb} by you, and it takes damage equal to your Strength modifier of the same type as the weapon's damage."
 			],
 			"property": [
 				"R",
@@ -5936,7 +5936,7 @@
 			"value": 5000,
 			"weight": 1,
 			"entries": [
-				"A shock glove is a type of armored glove that is coated with a webbed lacing. When used for an attack, this webbing carries a {@optfeature Charge|sw5e-phb|charge} that deals {@damage 1d4} lightning damage to any objects that the glove come in contact with. If you are engaged in combat with the target of the attack, you must make a grapple check instead of an {@variantrule Attack Roll|sw5e-phb|attack roll}, using a Strength ({@skill Athletics|sw5e-phb}) check contested by the target's Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check (the target chooses the ability to use)."
+				"A shock glove is a type of armored glove that is coated with a webbed lacing. When used for an attack, this webbing carries a {@optfeature Charge|sw5e-phb|charge} that deals {@damage 1d4} lightning damage to any objects that the glove come in contact with. If you are engaged in combat with the target of the attack, you must make a grapple check instead of an {@variantrule Attack Roll|sw5e-phb|attack roll}, using a Strength ({@skill Athletics}) check contested by the target's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use)."
 			]
 		},
 		{
@@ -5983,7 +5983,7 @@
 			"dmg1": "1d6",
 			"dmgType": "Kinetic",
 			"firearm": true,
-			"ammoType": "arrow|phb",
+			"ammoType": "arrow|sw5e-ec",
 			"range": "60/240",
 			"ammunition": true
 		},
@@ -6182,7 +6182,7 @@
 			]
 		},
 		{
-			"name": "{@skill Stealth|sw5e-phb} carbine",
+			"name": "{@skill Stealth} carbine",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "R",
@@ -7784,7 +7784,7 @@
 				}
 			},
 			"entries": [
-				"You ward a 30-foot radius sphere centered on you with a manually-operated trap. The trap is well disguised. Any creature that can't see the area at the time the power is cast must make a Wisdom ({@skill Perception|sw5e-phb}) check against your tech save DC to notice the trap before entering the area. Once after this power is cast, when a creature you can see enters or moves within the warded area, you can use your {@variantrule Reaction|sw5e-phb} to trigger the trap. The effect on the creature depends on the kind of trap you employ, which you choose when you cast this power. You can maintain a maximum number of instances of this power at once equal to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier.",
+				"You ward a 30-foot radius sphere centered on you with a manually-operated trap. The trap is well disguised. Any creature that can't see the area at the time the power is cast must make a Wisdom ({@skill Perception}) check against your tech save DC to notice the trap before entering the area. Once after this power is cast, when a creature you can see enters or moves within the warded area, you can use your {@variantrule Reaction|sw5e-phb} to trigger the trap. The effect on the creature depends on the kind of trap you employ, which you choose when you cast this power. You can maintain a maximum number of instances of this power at once equal to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier.",
 				{
 					"type": "list",
 					"items": [
@@ -8141,7 +8141,7 @@
 				"{@b {@i Prerequisite: {@spell Kinetite|null}}}",
 				"A 20-foot-radius sphere of compressed lightning springs into existence centered on a point you choose within range. The sphere remains for the power's duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} or take {@damage 2d6} kinetic damage. The sphere's space is {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}.",
 				"Until the power ends, you can use a {@variantrule Bonus Action|sw5e-phb} on each of your turns to cause a bolt of lightning to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged force attack. You have {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll} if the target is in the sphere. On a hit, the target takes {@damage 4d6} lightning damage.",
-				"Creatures within 30 feet of the sphere have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) checks made to listen."
+				"Creatures within 30 feet of the sphere have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception}) checks made to listen."
 			],
 			"entriesHigherLevel": [
 				{
@@ -8668,7 +8668,7 @@
 					"items": [
 						"Your body becomes more flexible. You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would grapple or restrain you, and your movement is unaffected by {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} or squeezing.",
 						"You grow one additional appendage. This appendage serves as an arm and a hand, though it can take the shape of a limb, tentacle, or similar appendage. You can select this property twice to grow a maximum number of two appendages. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required).",
-						"You sprout antennae that give you {@sense tremorsense|MM} out to a range of 30 feet.",
+						"You sprout antennae that give you {@sense Tremorsense|sw5e-phb|tremorsense} out to a range of 30 feet.",
 						"You extend the length of your limbs. When you make a melee attack or attempt to grapple, shove, or trip a creature on your turn, your reach for it is 5 feet greater than normal.",
 						"You gain a burrowing {@variantrule Speed|sw5e-phb|speed} equal to your walking {@variantrule Speed|sw5e-phb|speed}.",
 						"Your flesh hardens. Your AC can't be less than 16, regardless of what kind of armor you're wearing.",
@@ -8814,7 +8814,7 @@
 					]
 				},
 				"If you cast this power multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.",
-				"A creature that witnesses the effects of this power can use its action to make an Intelligence ({@skill Investigation|sw5e-phb}) check against your tech save DC. On a successful check, the creature discerns that the effects are illusory, and they become faint to the creature.",
+				"A creature that witnesses the effects of this power can use its action to make an Intelligence ({@skill Investigation}) check against your tech save DC. On a successful check, the creature discerns that the effects are illusory, and they become faint to the creature.",
 				"The maximum number of active effects increases by 3 when you reach 5th level (6), 11th level (9), and 17th level (12)."
 			],
 			"miscTags": [
@@ -9768,7 +9768,7 @@
 				}
 			],
 			"entries": [
-				"Until the end of the turn, you have a climbing {@variantrule Speed|sw5e-phb|speed} equal to your walking {@variantrule Speed|sw5e-phb|speed} and you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Acrobatics|sw5e-phb}) and Strength ({@skill Athletics|sw5e-phb}) checks that involve movement. For the same duration, you can move up, down, and across vertical surfaces while leaving your hands free. This does not allow you to move upside down along ceilings. If you are on a vertical surface when you no longer have a climbing {@variantrule Speed|sw5e-phb|speed}, you immediately fall unless you have some other means of remaining there."
+				"Until the end of the turn, you have a climbing {@variantrule Speed|sw5e-phb|speed} equal to your walking {@variantrule Speed|sw5e-phb|speed} and you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Acrobatics}) and Strength ({@skill Athletics}) checks that involve movement. For the same duration, you can move up, down, and across vertical surfaces while leaving your hands free. This does not allow you to move upside down along ceilings. If you are on a vertical surface when you no longer have a climbing {@variantrule Speed|sw5e-phb|speed}, you immediately fall unless you have some other means of remaining there."
 			]
 		},
 		{
@@ -9840,7 +9840,7 @@
 			],
 			"entries": [
 				"You {@spell Project|sw5e-phb|project} a length of wire towards a foe to bring them within your grasp. Make a ranged tech attack against the target. On a hit, the target takes {@damage 2d10} kinetic damage, and you can pull it up to 25 feet closer to you. If you score a {@variantrule Critical Hit|sw5e-phb|critical hit}, the target is also knocked {@condition prone|sw5e-phb}. If the target ends this movement within 5 feet of you and is no more than one size larger than you, the target is {@condition grappled|sw5e-phb} by you for the duration.",
-				"If a creature you grapple with this power uses its action to escape, it must succeed on a Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check against your tech save DC to do so.",
+				"If a creature you grapple with this power uses its action to escape, it must succeed on a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check against your tech save DC to do so.",
 				"This power ends if the attack misses or the grapple ends."
 			],
 			"entriesHigherLevel": [

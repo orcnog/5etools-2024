@@ -17,131 +17,131 @@
 	},
 	"skill": [
 		{
-			"name": "Acrobatics",
+			"name": "{@skill Acrobatics|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "dex",
 			"entries": [
-				"Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking spaceship's deck. The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips."
+				"Your Dexterity ({@skill Acrobatics|sw5e-phb}) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking spaceship's deck. The GM might also call for a Dexterity ({@skill Acrobatics|sw5e-phb}) check to see if you can {@optfeature Perform|sw5e-phb|perform} acrobatic stunts, including dives, rolls, somersaults, and flips."
 			]
 		},
 		{
-			"name": "Animal Handling",
+			"name": "{@skill Animal Handling|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "wis",
 			"entries": [
-				"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver."
+				"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom ({@skill Animal Handling|sw5e-phb}) check. You also make a Wisdom ({@skill Animal Handling|sw5e-phb}) check to control your mount when you attempt a risky {@book maneuver|sw5e-phb|13|Maneuvers}."
 			]
 		},
 		{
-			"name": "Athletics",
+			"name": "{@skill Athletics|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "str",
 			"entries": [
-				"Your Strength (Athletics) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:"
+				"Your Strength ({@skill Athletics|sw5e-phb}) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:"
 			]
 		},
 		{
-			"name": "Deception",
+			"name": "{@skill Deception|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "cha",
 			"entries": [
-				"Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
+				"Your Charisma ({@skill Deception|sw5e-phb}) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
 			]
 		},
 		{
-			"name": "Insight",
+			"name": "{@skill Insight|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "wis",
 			"entries": [
-				"Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
+				"Your Wisdom ({@skill Insight|sw5e-phb}) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
 			]
 		},
 		{
-			"name": "Intimidation",
+			"name": "{@skill Intimidation|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "cha",
 			"entries": [
-				"When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision."
+				"When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma ({@skill Intimidation|sw5e-phb}) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken {@item Bottle|sw5e-phb|bottle} to convince a sneering vizier to reconsider a decision."
 			]
 		},
 		{
-			"name": "Investigation",
+			"name": "{@skill Investigation|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "int",
 			"entries": [
-				"When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient materials in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check."
+				"When you look around for clues and make deductions based on those clues, you make an Intelligence ({@skill Investigation|sw5e-phb}) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient materials in search of a hidden fragment of knowledge might also call for an Intelligence ({@skill Investigation|sw5e-phb}) check."
 			]
 		},
 		{
-			"name": "Lore",
+			"name": "{@skill Lore|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "int",
 			"entries": [
-				"Your Intelligence (Lore) check measures your ability to recall information about the Force, artifacts, histories, and religions.",
-				"{@homebrew A DnD5e character should replace their {@skill History} and/or {@skill Religion} skills with the Lore skill when determining proficiencies.}"
+				"Your Intelligence ({@skill Lore|sw5e-phb}) check measures your ability to recall information about the Force, artifacts, histories, and religions.",
+				"{@homebrew A DnD5e character should replace their {@skill History} and/or {@skill Religion} skills with the {@skill Lore|sw5e-phb} skill when determining proficiencies.}"
 			]
 		},
 		{
-			"name": "Medicine",
+			"name": "{@skill Medicine|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "wis",
 			"entries": [
-				"A Wisdom (Medicine) check lets you try to stabilize a dying companion or diagnose an illness."
+				"A Wisdom ({@skill Medicine|sw5e-phb}) check lets you try to stabilize a dying companion or diagnose an illness."
 			]
 		},
 		{
-			"name": "Nature",
+			"name": "{@skill Nature|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "int",
 			"entries": [
-				"Your Intelligence (Nature) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles."
+				"Your Intelligence ({@skill Nature|sw5e-phb}) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles."
 			]
 		},
 		{
-			"name": "Perception",
+			"name": "{@skill Perception|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "wis",
 			"entries": [
-				"Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door."
+				"Your Wisdom ({@skill Perception|sw5e-phb}) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door."
 			]
 		},
 		{
-			"name": "Performance",
+			"name": "{@skill Performance|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "cha",
 			"entries": [
-				"Your Charisma (Performance) check determines how well you can delight an audience with music, dance. acting, storytelling, or some other form of entertainment."
+				"Your Charisma ({@skill Performance|sw5e-phb}) check determines how well you can delight an audience with music, dance. acting, storytelling, or some other form of entertainment."
 			]
 		},
 		{
-			"name": "Persuasion",
+			"name": "{@skill Persuasion|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "cha",
 			"entries": [
-				"When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a Chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk."
+				"When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma ({@skill Persuasion|sw5e-phb}) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a Chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk."
 			]
 		},
 		{
-			"name": "Piloting",
+			"name": "{@skill Piloting|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "int",
 			"entries": [
-				"Your Intelligence (Piloting) check measures your ability to control vehicles, aircraft, and spaceships. Piloting governs your ability to maneuver through tight spaces and debris fields or dogfight with enemy craft.",
-				"{@homebrew A DnD5e character can count any proficiency in {@skill Vehicles (Land)} or {@skill Vehicles (Water)} as having proficiency in the Piloting skill.}"
+				"Your Intelligence ({@skill Piloting|sw5e-phb}) check measures your ability to control vehicles, aircraft, and spaceships. {@skill Piloting|sw5e-phb} governs your ability to {@book maneuver|sw5e-phb|13|Maneuvers} through tight spaces and debris fields or dogfight with enemy craft.",
+				"{@homebrew A DnD5e character can count any proficiency in {@skill Vehicles (Land)} or {@skill Vehicles (Water)} as having proficiency in the {@skill Piloting|sw5e-phb} skill.}"
 			]
 		},
 		{
@@ -150,35 +150,35 @@
 			"page": 178,
 			"ability": "dex",
 			"entries": [
-				"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a wallet off another person or slip something out of another person's pocket."
+				"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check. The GM might also call for a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check to determine whether you can lift a wallet off another person or slip something out of another person's pocket."
 			]
 		},
 		{
-			"name": "Stealth",
+			"name": "{@skill Stealth|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "dex",
 			"entries": [
-				"Make a Dexterity (Stealth) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
+				"Make a Dexterity ({@skill Stealth|sw5e-phb}) check when you attempt to {@optfeature Conceal|sw5e-phb|conceal} yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
 			]
 		},
 		{
-			"name": "Survival",
+			"name": "{@skill Survival|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "wis",
 			"entries": [
-				"The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that rancors live nearby, predict the weather, or avoid quicksand and other natural hazards."
+				"The GM might ask you to make a Wisdom ({@skill Survival|sw5e-phb}) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that rancors live nearby, predict the weather, or avoid quicksand and other natural hazards."
 			]
 		},
 		{
-			"name": "Technology",
+			"name": "{@skill Technology|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "int",
 			"entries": [
-				"Your Intelligence (Technology) checks measure your ability to recall information about droids, vehicles, spaceships, aircraft, and computers, as well as your ability to interface with them. Technology can also be used to stabilize a droid or construct.",
-				"{@homebrew A DnD5e character should replace their {@skill Arcana} skill with the Technology skill when determining proficiency.}"
+				"Your Intelligence ({@skill Technology|sw5e-phb}) checks measure your ability to recall information about droids, vehicles, spaceships, aircraft, and computers, as well as your ability to interface with them. {@skill Technology|sw5e-phb} can also be used to stabilize a droid or construct.",
+				"{@homebrew A DnD5e character should replace their {@skill Arcana} skill with the {@skill Technology|sw5e-phb} skill when determining proficiency.}"
 			]
 		}
 	]

@@ -514,7 +514,7 @@
 							"entries": [
 								"Hogsbottom is a quaint, pig-themed town nestled at the foot of Hogs Hill, known for its simple folk and odd local legends. While it seems like a peaceful, if not somewhat backward, rural town, a few  small-town mysteries add a dash of intrigue to daily life. At its center is The Swaggering Swine, a lively tavern run by the jovial Hampton J. Porkbelly, where villagers gather to celebrate and unwind. Nearby, Darathra Shendrel, the town's skilled blacksmith, crafts the finest weapons around.",
 								"Just beyond the cornfields lies Elazar Manor, home to the mysterious Emmanuel Elazar, a recluse who keeps to himself, leaving the townsfolk content to let him be. Higher up, atop Hogs Hill, stands Hogsbottom Manor, home to the miserly family of Lord Higby Hogbottom IV, the town's namesake.",
-								"Hogsbottom is a place where life moves at its own pace, steeped in tradition and local color. As a DM, you're free to adapt Hogsbottom's details—whether swapping names or locations—but its rustic charm and unique quirks provide a solid backdrop for any adventure."
+								"Hogsbottom is a place where life moves at its own pace, steeped in tradition and local color. As a DM, you're free to adapt Hogsbottom's details\u2014whether swapping names or locations\u2014but its rustic charm and unique quirks provide a solid backdrop for any adventure."
 							]
 						},
 						{
@@ -962,7 +962,7 @@
 										{
 											"type": "insetReadaloud",
 											"entries": [
-												"You open the door to a Sitting Room: clean and tidy, but barely used. You feel a prickle on your arm, a slight draft of cold air, perchance a window was left open. Looking around, you are beset by the bewildering influence of the gloomy furniture of the room—of the dark and heavy draperies, which, tortured into motion by the breath of a rising tempest, sway fitfully to and fro upon the walls, and rustle uneasily about the decorations on the mantle of an unused fireplace."
+												"You open the door to a Sitting Room: clean and tidy, but barely used. You feel a prickle on your arm, a slight draft of cold air, perchance a window was left open. Looking around, you are beset by the bewildering influence of the gloomy furniture of the room\u2014of the dark and heavy draperies, which, tortured into motion by the breath of a rising tempest, sway fitfully to and fro upon the walls, and rustle uneasily about the decorations on the mantle of an unused fireplace."
 											]
 										},
 										"{@cue LOOT! - If a player investigates the fireplace, a DC 15 {@skill Investigation} check...}",
@@ -1091,7 +1091,7 @@
 										{
 											"type": "insetReadaloud",
 											"entries": [
-												"The kitchen looks as though it hasn't seen a meal prepared in years—amongst the sparse, clearly unused equipment, not a scrap of food can be found. A single door leads to what must be a pantry, its handle worn as though used more often than the rest of the room."
+												"The kitchen looks as though it hasn't seen a meal prepared in years\u2014amongst the sparse, clearly unused equipment, not a scrap of food can be found. A single door leads to what must be a pantry, its handle worn as though used more often than the rest of the room."
 											]
 										}
 									]
@@ -1436,7 +1436,7 @@
 										{
 											"type": "insetReadaloud",
 											"entries": [
-												"As you step into the room, the stale scent of parchment hits you. A large desk, strewn with various alchemical equipment, takes up the north end of the room. The glass beakers and vials are filled with strange, dark fluids, and beside them are scattered sheets of parchment, all covered in frantic handwriting. The writings suggest that someone has been testing their own blood—dark, viscous droplets still dot the edges of the paper."
+												"As you step into the room, the stale scent of parchment hits you. A large desk, strewn with various alchemical equipment, takes up the north end of the room. The glass beakers and vials are filled with strange, dark fluids, and beside them are scattered sheets of parchment, all covered in frantic handwriting. The writings suggest that someone has been testing their own blood\u2014dark, viscous droplets still dot the edges of the paper."
 											]
 										},
 										"{@cue PLOT / INVESTIGATION: If any character investigates/searches the room with a DC 10 {@skill Investigation} check, read the following}",
@@ -1450,7 +1450,7 @@
 										{
 											"type": "insetReadaloud",
 											"entries": [
-												"But your eyes are drawn to something else—a crumpled, nearly hidden scrap of parchment beneath a beaker, slightly stained with blood. It describes servants, bound to the will of their master, their loyalty not broken by death. One sentence is underlined, 'Even in the dark, they rise from their rest when summoned, beneath the ground, beneath the veil of life.' A drawing of a crude coffin, half-buried in dirt, lingers ominously at the bottom of the page."
+												"But your eyes are drawn to something else\u2014a crumpled, nearly hidden scrap of parchment beneath a beaker, slightly stained with blood. It describes servants, bound to the will of their master, their loyalty not broken by death. One sentence is underlined, 'Even in the dark, they rise from their rest when summoned, beneath the ground, beneath the veil of life.' A drawing of a crude coffin, half-buried in dirt, lingers ominously at the bottom of the page."
 											]
 										},
 										"{@cue LOOT! - If anything SPECIFIC in the room is searched, a DC 10 {@skill Investigation} check reveals a {@item Potion of Healing} amongst the clutter.}"
@@ -1493,7 +1493,7 @@
 										{
 											"type": "insetReadaloud",
 											"entries": [
-												"Stepping into the corridor, the sense of cold precision intensifies. The floor and walls are formed of immaculate, polished stone, with intricate, angular carvings that stretch from floor to ceiling. The hallway's symmetry is almost oppressive, its sharp lines conveying a sense of meticulous design. The air is thick with the scent of damp stone and something faintly metallic. At the far end, a large fountain gurgles with a thick, dark liquid, the sound echoing eerily through the space. Blood pours endlessly from the mouth of a stone figure, pooling at its base. Alcoves along each side of the hall are home to grotesque carvings—twisted demonic creatures frozen in expressions of agony, their bodies contorted in unnatural ways. Their pained faces seem to follow you as you pass, the stone almost lifelike in the dim light. The chill of the space clings to your skin, seeping into your bones as you move deeper into the hall."
+												"Stepping into the corridor, the sense of cold precision intensifies. The floor and walls are formed of immaculate, polished stone, with intricate, angular carvings that stretch from floor to ceiling. The hallway's symmetry is almost oppressive, its sharp lines conveying a sense of meticulous design. The air is thick with the scent of damp stone and something faintly metallic. At the far end, a large fountain gurgles with a thick, dark liquid, the sound echoing eerily through the space. Blood pours endlessly from the mouth of a stone figure, pooling at its base. Alcoves along each side of the hall are home to grotesque carvings\u2014twisted demonic creatures frozen in expressions of agony, their bodies contorted in unnatural ways. Their pained faces seem to follow you as you pass, the stone almost lifelike in the dim light. The chill of the space clings to your skin, seeping into your bones as you move deeper into the hall."
 											]
 										}
 									]
@@ -1560,7 +1560,7 @@
 										{
 											"type": "insetReadaloud",
 											"entries": [
-												"As you descend the ladder, you feel an immediate shift in atmosphere. The opulence of the Baroque manor above gives way to something much colder, both physically and emotionally. The walls here are made of smooth, finely cut stone, devoid of the rich ornamentation you've grown accustomed to. Instead, the stone is sleek, clean, and sterile, with hard lines that give the space an air of calculated precision. The temperature drops sharply by at least ten degrees, and your breath mists slightly in the cold air. The quiet here is absolute—no creaks of aged wood, no murmurs of life, just the unsettling silence of a tomb."
+												"As you descend the ladder, you feel an immediate shift in atmosphere. The opulence of the Baroque manor above gives way to something much colder, both physically and emotionally. The walls here are made of smooth, finely cut stone, devoid of the rich ornamentation you've grown accustomed to. Instead, the stone is sleek, clean, and sterile, with hard lines that give the space an air of calculated precision. The temperature drops sharply by at least ten degrees, and your breath mists slightly in the cold air. The quiet here is absolute\u2014no creaks of aged wood, no murmurs of life, just the unsettling silence of a tomb."
 											]
 										}
 									]
@@ -1594,7 +1594,7 @@
 										{
 											"type": "insetReadaloud",
 											"entries": [
-												"The air grows heavier as you push open the doors to these cramped, suffocating chambers. Stale, cold air greets you—tinged with the scent of decay. The small rooms are crowded with ancient wooden coffins, their surfaces marred by age. Each coffin bears the same grotesque, hand-carved emblem—a symbol of allegiance to something far older and darker. The coffins are packed tightly together, and the room feels still, there's an unsettling weight in the air, as though these lifeless things hold more than just dust. You note that, amongst the intricate stonework of this underground lair, these seem to be the only things made of wood at all."
+												"The air grows heavier as you push open the doors to these cramped, suffocating chambers. Stale, cold air greets you\u2014tinged with the scent of decay. The small rooms are crowded with ancient wooden coffins, their surfaces marred by age. Each coffin bears the same grotesque, hand-carved emblem\u2014a symbol of allegiance to something far older and darker. The coffins are packed tightly together, and the room feels still, there's an unsettling weight in the air, as though these lifeless things hold more than just dust. You note that, amongst the intricate stonework of this underground lair, these seem to be the only things made of wood at all."
 											]
 										},
 										"{@cue If the players opt to BREAK OPEN a coffin...}",

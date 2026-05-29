@@ -28,7 +28,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Investigation|sw5e-phb}|sw5e-phb}, {@skill {@skill Lore|sw5e-phb}|sw5e-phb}, and {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception}|sw5e-phb}, {@skill {@skill Investigation}|sw5e-phb}, {@skill {@skill Lore}|sw5e-phb}, and {@skill {@skill Persuasion}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -65,7 +65,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -110,7 +110,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -147,7 +147,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -184,7 +184,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -235,7 +235,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}, and {@skill {@skill Stealth|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception}|sw5e-phb}, {@skill {@skill Insight}|sw5e-phb}, {@skill {@skill Persuasion}|sw5e-phb}, and {@skill {@skill Stealth}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -277,7 +277,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -322,7 +322,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -359,7 +359,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -396,7 +396,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -447,7 +447,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Intimidation|sw5e-phb}|sw5e-phb}, {@skill Sleight of Hand|sw5e-phb}, and {@skill {@skill Stealth|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception}|sw5e-phb}, {@skill {@skill Intimidation}|sw5e-phb}, {@skill Sleight of Hand|sw5e-phb}, and {@skill {@skill Stealth}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -484,7 +484,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -529,7 +529,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -566,7 +566,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -603,7 +603,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -643,7 +643,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Entertainer",
+			"name": "{@feat Entertainer|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 143,
 			"entries": [
@@ -654,7 +654,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Acrobatics|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Performance|sw5e-phb}|sw5e-phb}, and {@skill Sleight of Hand|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Acrobatics}|sw5e-phb}, {@skill {@skill Insight}|sw5e-phb}, {@skill {@skill Performance}|sw5e-phb}, and {@skill Sleight of Hand|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -691,7 +691,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -736,7 +736,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -773,7 +773,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -810,7 +810,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -861,7 +861,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Perception|sw5e-phb}|sw5e-phb}, and {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception}|sw5e-phb}, {@skill {@skill Insight}|sw5e-phb}, {@skill {@skill Perception}|sw5e-phb}, and {@skill {@skill Persuasion}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -898,7 +898,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -943,7 +943,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -980,7 +980,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -1017,7 +1017,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -1068,7 +1068,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Intimidation|sw5e-phb}|sw5e-phb}, and {@skill Sleight of Hand|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception}|sw5e-phb}, {@skill {@skill Insight}|sw5e-phb}, {@skill {@skill Intimidation}|sw5e-phb}, and {@skill Sleight of Hand|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -1105,7 +1105,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -1150,7 +1150,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -1187,7 +1187,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -1224,7 +1224,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -1264,7 +1264,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "Investigator",
+			"name": "{@feat Investigator|sw5e-phb}",
 			"source": "sw5e-phb",
 			"page": 143,
 			"entries": [
@@ -1275,7 +1275,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Investigation|sw5e-phb}|sw5e-phb}, {@skill {@skill Perception|sw5e-phb}|sw5e-phb}, and {@skill {@skill Survival|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Insight}|sw5e-phb}, {@skill {@skill Investigation}|sw5e-phb}, {@skill {@skill Perception}|sw5e-phb}, and {@skill {@skill Survival}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -1312,7 +1312,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -1357,7 +1357,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -1394,7 +1394,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -1431,7 +1431,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -1482,7 +1482,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Investigation|sw5e-phb}|sw5e-phb}, {@skill {@skill Lore|sw5e-phb}|sw5e-phb}, and {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Insight}|sw5e-phb}, {@skill {@skill Investigation}|sw5e-phb}, {@skill {@skill Lore}|sw5e-phb}, and {@skill {@skill Persuasion}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -1525,7 +1525,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -1570,7 +1570,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -1607,7 +1607,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -1644,7 +1644,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -1695,7 +1695,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Athletics|sw5e-phb}|sw5e-phb}, {@skill {@skill Intimidation|sw5e-phb}|sw5e-phb}, {@skill {@skill Piloting|sw5e-phb}|sw5e-phb}, and {@skill {@skill Survival|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Athletics}|sw5e-phb}, {@skill {@skill Intimidation}|sw5e-phb}, {@skill {@skill Piloting}|sw5e-phb}, and {@skill {@skill Survival}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -1737,7 +1737,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -1782,7 +1782,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -1819,7 +1819,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -1856,7 +1856,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -1907,7 +1907,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Athletics|sw5e-phb}|sw5e-phb}, {@skill {@skill Investigation|sw5e-phb}|sw5e-phb}, {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}, and {@skill {@skill Piloting|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Athletics}|sw5e-phb}, {@skill {@skill Investigation}|sw5e-phb}, {@skill {@skill Persuasion}|sw5e-phb}, and {@skill {@skill Piloting}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -1949,7 +1949,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -1994,7 +1994,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -2031,7 +2031,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -2068,7 +2068,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -2119,7 +2119,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Lore|sw5e-phb}|sw5e-phb}, and {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception}|sw5e-phb}, {@skill {@skill Insight}|sw5e-phb}, {@skill {@skill Lore}|sw5e-phb}, and {@skill {@skill Persuasion}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -2161,7 +2161,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -2206,7 +2206,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -2243,7 +2243,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -2280,7 +2280,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -2331,7 +2331,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Animal Handling|sw5e-phb}|sw5e-phb}, {@skill {@skill Athletics|sw5e-phb}|sw5e-phb}, {@skill {@skill Medicine|sw5e-phb}|sw5e-phb}, and {@skill {@skill Survival|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Animal Handling}|sw5e-phb}, {@skill {@skill Athletics}|sw5e-phb}, {@skill {@skill Medicine}|sw5e-phb}, and {@skill {@skill Survival}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -2373,7 +2373,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -2418,7 +2418,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -2455,7 +2455,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -2492,7 +2492,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -2543,7 +2543,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Acrobatics|sw5e-phb}|sw5e-phb}, {@skill {@skill Athletics|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, and {@skill {@skill Survival|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Acrobatics}|sw5e-phb}, {@skill {@skill Athletics}|sw5e-phb}, {@skill {@skill Insight}|sw5e-phb}, and {@skill {@skill Survival}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -2585,7 +2585,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -2630,7 +2630,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -2667,7 +2667,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -2704,7 +2704,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -2755,7 +2755,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Athletics|sw5e-phb}|sw5e-phb}, {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Intimidation|sw5e-phb}|sw5e-phb}, and {@skill {@skill Piloting|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Athletics}|sw5e-phb}, {@skill {@skill Deception}|sw5e-phb}, {@skill {@skill Intimidation}|sw5e-phb}, and {@skill {@skill Piloting}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -2776,7 +2776,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Feature: Galactic Scourge",
+					"name": "Feature: Galactic {@spell Scourge|sw5e-phb}",
 					"entries": [
 						"You've been from one end of the galaxy to the other. You know the most lucrative trade routes. You have expert knowledge of the various hyperlanes. In addition to this, you know a large number of the models and designs of common space ships that are found in the galaxy. Further, the bonds you formed with your crew are strong, and you can call on their aid even if you've been away from their side for some time. You can expect your former comrades to offer you passage aboard ship, reasonable aid, or shelter when you are in need. Keep in mind that this bond goes both ways, and they may come to you expecting the same."
 					],
@@ -2792,7 +2792,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -2837,7 +2837,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -2874,7 +2874,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -2911,7 +2911,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -2962,7 +2962,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Lore|sw5e-phb}|sw5e-phb}, {@skill {@skill Medicine|sw5e-phb}|sw5e-phb}, {@skill {@skill Nature|sw5e-phb}|sw5e-phb}, and {@skill {@skill Technology|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Lore}|sw5e-phb}, {@skill {@skill Medicine}|sw5e-phb}, {@skill {@skill Nature}|sw5e-phb}, and {@skill {@skill Technology}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -3004,7 +3004,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -3049,7 +3049,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -3086,7 +3086,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -3123,7 +3123,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -3174,12 +3174,12 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Performance|sw5e-phb}|sw5e-phb}, and {@skill Sleight of Hand|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception}|sw5e-phb}, {@skill {@skill Insight}|sw5e-phb}, {@skill {@skill Performance}|sw5e-phb}, and {@skill Sleight of Hand|sw5e-phb}"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies:",
-							"entry": "{@item Disguise kit|sw5e-phb|Disguise Kit}, Forgery Kit"
+							"entry": "{@item Disguise kit|sw5e-phb|Disguise Kit}, {@item Forgery kit|sw5e-phb|Forgery Kit}"
 						},
 						{
 							"type": "item",
@@ -3212,7 +3212,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -3257,7 +3257,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -3294,7 +3294,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -3331,7 +3331,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -3382,7 +3382,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Intimidation|sw5e-phb}|sw5e-phb}, and {@skill {@skill Lore|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception}|sw5e-phb}, {@skill {@skill Insight}|sw5e-phb}, {@skill {@skill Intimidation}|sw5e-phb}, and {@skill {@skill Lore}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -3424,7 +3424,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -3469,7 +3469,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -3506,7 +3506,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -3543,7 +3543,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -3594,7 +3594,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Piloting|sw5e-phb}|sw5e-phb}, {@skill Sleight of Hand|sw5e-phb}, and {@skill {@skill Stealth|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception}|sw5e-phb}, {@skill {@skill Piloting}|sw5e-phb}, {@skill Sleight of Hand|sw5e-phb}, and {@skill {@skill Stealth}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -3631,7 +3631,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -3676,7 +3676,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -3713,7 +3713,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -3750,7 +3750,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -3801,7 +3801,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Athletics|sw5e-phb}|sw5e-phb}, {@skill {@skill Intimidation|sw5e-phb}|sw5e-phb}, {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}, and {@skill {@skill Piloting|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Athletics}|sw5e-phb}, {@skill {@skill Intimidation}|sw5e-phb}, {@skill {@skill Persuasion}|sw5e-phb}, and {@skill {@skill Piloting}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -3843,7 +3843,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -3888,7 +3888,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -3925,7 +3925,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -3962,7 +3962,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -4013,7 +4013,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Investigation|sw5e-phb}|sw5e-phb}, {@skill {@skill Piloting|sw5e-phb}|sw5e-phb}, and {@skill {@skill Technology|sw5e-phb}|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Insight}|sw5e-phb}, {@skill {@skill Investigation}|sw5e-phb}, {@skill {@skill Piloting}|sw5e-phb}, and {@skill {@skill Technology}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -4055,7 +4055,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Personality Trait"
 							],
 							"colStyles": [
@@ -4100,7 +4100,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Ideal"
 							],
 							"colStyles": [
@@ -4137,7 +4137,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Bond"
 							],
 							"colStyles": [
@@ -4174,7 +4174,7 @@
 						{
 							"type": "table",
 							"colLabels": [
-								"d8",
+								"{@dice d8}",
 								"Flaw"
 							],
 							"colStyles": [
@@ -4238,7 +4238,7 @@
 			]
 		},
 		{
-			"name": "Entertainer",
+			"name": "{@feat Entertainer|sw5e-phb}",
 			"source": "sw5e-phb",
 			"entries": [
 				"You thrive in front of an audience, knowing how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life."
@@ -4259,7 +4259,7 @@
 			]
 		},
 		{
-			"name": "Investigator",
+			"name": "{@feat Investigator|sw5e-phb}",
 			"source": "sw5e-phb",
 			"entries": [
 				"Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to {@optfeature Investigate|sw5e-phb|investigate} crime scenes and track down criminals."

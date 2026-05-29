@@ -91,7 +91,7 @@
 												"type": "entries",
 												"name": "Chapter 7: Using Ability Scores",
 												"entries": [
-													"Generally the same, with the exception of skills; Arcana, History, and Religion have been collapsed into {@skill Lore|sw5e-phb}, with {@skill Piloting|sw5e-phb} and {@skill Technology|sw5e-phb} being new skills. {@variantrule Expertise|sw5e-phb} is now a defined keyword alongside proficiency."
+													"Generally the same, with the exception of skills; Arcana, History, and Religion have been collapsed into {@skill Lore}, with {@skill Piloting} and {@skill Technology} being new skills. {@variantrule Expertise|sw5e-phb} is now a defined keyword alongside proficiency."
 												]
 											},
 											{
@@ -198,7 +198,7 @@
 								"{@b Game Master (GM):} OK, one at a time. Rickey, you're approaching the guardsmen?",
 								"{@b Rickey:} Yeah. Do they seem to be doing anything?",
 								"{@b GM:} Make a Wisdom check.",
-								"{@b Rickey:} Does my {@skill Perception|sw5e-phb} skill apply?",
+								"{@b Rickey:} Does my {@skill Perception} skill apply?",
 								"{@b GM:} Sure!",
 								"{@b Rickey (rolling a d20):} Ugh. Seven.",
 								"{@b GM:} You can see a couple of them crouching over the ground but you can't make out what they're doing. And Drew, Dash is prepping a grenade?",
@@ -334,7 +334,7 @@
 								"But that's not the end of the story. You can think of an adventure as a single episode of a TV series, made up of multiple exciting scenes. A campaign is the whole series—a string of adventures joined together, with a consistent group of adventurers following the narrative from start to finish.",
 								{
 									"type": "entries",
-									"name": "The Force and {@skill Technology|sw5e-phb}",
+									"name": "The Force and {@skill Technology}",
 									"entries": [
 										"Few {@i Star Wars} adventures end without interacting with a force- or tech-caster. Whether helpful or harmful, powers appear frequently in the life of an adventurer, and it is the focus of chapters 10, 11, and 12.",
 										"In the worlds of {@i Star Wars}, practitioners of the Force are uncommon, set apart from the masses of people by their extraordinary talent.",
@@ -1790,14 +1790,14 @@
 											"type": "entries",
 											"name": "Bulky",
 											"entries": [
-												"While wearing armor with this property, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Dexterity ({@skill Stealth|sw5e-phb}) checks that rely on sound."
+												"While wearing armor with this property, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Dexterity ({@skill Stealth}) checks that rely on sound."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Obtrusive",
 											"entries": [
-												"While wielding a {@item Shield|sw5e-phb|shield} with this property, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Dexterity ({@skill Stealth|sw5e-phb}) checks that rely on sight."
+												"While wielding a {@item Shield|sw5e-phb|shield} with this property, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Dexterity ({@skill Stealth}) checks that rely on sight."
 											]
 										},
 										{
@@ -2159,7 +2159,7 @@
 											"type": "entries",
 											"name": "Disguised",
 											"entries": [
-												"You have {@variantrule Advantage|sw5e-phb|advantage} on Charisma ({@skill Deception|sw5e-phb}) checks made to hide the nature of a weapon with this property."
+												"You have {@variantrule Advantage|sw5e-phb|advantage} on Charisma ({@skill Deception}) checks made to hide the nature of a weapon with this property."
 											]
 										},
 										{
@@ -2215,7 +2215,7 @@
 											"type": "entries",
 											"name": "Luminous",
 											"entries": [
-												"A weapon with this property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity ({@skill Stealth|sw5e-phb}) checks made while the weapon is activated have {@variantrule Disadvantage|sw5e-phb|disadvantage}."
+												"A weapon with this property sheds dim light in a 5-foot radius while activated. Additionally, Dexterity ({@skill Stealth}) checks made while the weapon is activated have {@variantrule Disadvantage|sw5e-phb|disadvantage}."
 											]
 										},
 										{
@@ -3055,7 +3055,7 @@
 											"type": "entries",
 											"name": "{@item Comm jammer|sw5e-phb|Comm Jammer}",
 											"entries": [
-												"A device used to scramble and block transmissions from communications devices in a 300 foot radius. The device can be activated or deactivated as an action. Any creature {@spell Sending|sw5e-phb|sending} incoming or outgoing communications within range must succeed on a DC 15 Intelligence ({@skill Technology|sw5e-phb}) check. On a failure, their communications are jammed until the {@item Comm jammer|sw5e-phb|comm jammer} is deactivated or they move out of its range. The {@item Comm jammer|sw5e-phb|comm jammer} lasts for 1 hour and can be recharged by connecting to a power source or by replacing the {@item Power cell|sw5e-phb}."
+												"A device used to scramble and block transmissions from communications devices in a 300 foot radius. The device can be activated or deactivated as an action. Any creature {@spell Sending|sw5e-phb|sending} incoming or outgoing communications within range must succeed on a DC 15 Intelligence ({@skill Technology}) check. On a failure, their communications are jammed until the {@item Comm jammer|sw5e-phb|comm jammer} is deactivated or they move out of its range. The {@item Comm jammer|sw5e-phb|comm jammer} lasts for 1 hour and can be recharged by connecting to a power source or by replacing the {@item Power cell|sw5e-phb}."
 											]
 										},
 										{
@@ -3324,7 +3324,7 @@
 											"type": "entries",
 											"name": "{@item Thermal detonator|sw5e-phb|Thermal Detonator}",
 											"entries": [
-												"Thermal detonators are unique in that can only be turned off by whoever turned them on. They can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 20 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d6 fire and 2d10 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone."
+												"Thermal detonators are unique in that can only be turned off by whoever turned them on. They can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 20 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d6 fire and 2d10 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition Prone|sw5e-phb|prone}."
 											]
 										}
 									]
@@ -3350,7 +3350,7 @@
 											"type": "entries",
 											"name": "{@item Emergency battery|sw5e-phb|Emergency Battery}",
 											"entries": [
-												"All non-expendable droids need recharging as they are used. The battery has ten uses. As an action, you can expend one use of the battery to stabilize a droid that has 0 {@variantrule Hit Points|sw5e-phb|hit points}, without needing to make an Intelligence ({@skill Technology|sw5e-phb}) check."
+												"All non-expendable droids need recharging as they are used. The battery has ten uses. As an action, you can expend one use of the battery to stabilize a droid that has 0 {@variantrule Hit Points|sw5e-phb|hit points}, without needing to make an Intelligence ({@skill Technology}) check."
 											]
 										},
 										{
@@ -3750,9 +3750,9 @@
 										},
 										{
 											"type": "entries",
-											"name": "{@skill Stealth|sw5e-phb} Field Generator",
+											"name": "{@skill Stealth} Field Generator",
 											"entries": [
-												"{@skill Stealth|sw5e-phb} field generators are special devices typically worn on belts that function as a portable, personal cloaking device. Activating or deactivating the generator requires a {@variantrule Bonus Action|sw5e-phb} and, while active, you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth|sw5e-phb}) {@variantrule Ability Check|sw5e-phb|ability checks} that rely on sight. The generator lasts for 1 minute and can be recharged by a power source or replacing the {@item Power cell|sw5e-phb}. This effect ends early if you make an attack or cast a force or {@book tech power|sw5e-phb|12|Tech Powers}."
+												"{@skill Stealth} field generators are special devices typically worn on belts that function as a portable, personal cloaking device. Activating or deactivating the generator requires a {@variantrule Bonus Action|sw5e-phb} and, while active, you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth}) {@variantrule Ability Check|sw5e-phb|ability checks} that rely on sight. The generator lasts for 1 minute and can be recharged by a power source or replacing the {@item Power cell|sw5e-phb}. This effect ends early if you make an attack or cast a force or {@book tech power|sw5e-phb|12|Tech Powers}."
 											]
 										},
 										{
@@ -4709,7 +4709,7 @@
 													"type": "inset",
 													"name": "Self-Sufficiency",
 													"entries": [
-														"The expenses and lifestyles described in this chapter assume that you are spending your time between adventures in cities, availing yourself of whatever services you can afford— paying for food and shelter, paying townspeople to repair your equipment, and so on. Some characters, though, might prefer to spend their time away from civilization, sustaining themselves in the wild by hunting, foraging, and repairing their own gear. Maintaining this kind of lifestyle doesn't require you to spend any coin, but it is time-consuming. If you spend your time between adventures practicing a profession, as described in {@book chapter 8|sw5e-phb|8}, you can eke out the equivalent of a poor lifestyle. Proficiency in the {@skill Survival|sw5e-phb} skill lets you live at the equivalent of a comfortable lifestyle."
+														"The expenses and lifestyles described in this chapter assume that you are spending your time between adventures in cities, availing yourself of whatever services you can afford— paying for food and shelter, paying townspeople to repair your equipment, and so on. Some characters, though, might prefer to spend their time away from civilization, sustaining themselves in the wild by hunting, foraging, and repairing their own gear. Maintaining this kind of lifestyle doesn't require you to spend any coin, but it is time-consuming. If you spend your time between adventures practicing a profession, as described in {@book chapter 8|sw5e-phb|8}, you can eke out the equivalent of a poor lifestyle. Proficiency in the {@skill Survival} skill lets you live at the equivalent of a comfortable lifestyle."
 													]
 												}
 											]
@@ -6158,7 +6158,7 @@
 								"Characters have a {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} determined by level, as detailed in {@book chapter 1|sw5e-phb|1}. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on {@variantrule Ability Check|sw5e-phb|ability checks}, {@variantrule Saving Throw|sw5e-phb|saving throws}, and {@variantrule Attack Roll|sw5e-phb|attack rolls}.",
 								"Your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw}, you nevertheless add the bonus only once when you make the save.",
 								"Occasionally, your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} might be multiplied or divided (doubled or halved. for example) before you apply it. If a circumstance suggests that your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} applies more than once to the same roll, you still add it only once and multiply or divide it only once.",
-								"By the same token, if a feature or effect allows you to multiply your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} when making an {@variantrule Ability Check|sw5e-phb|ability check} that wouldn't normally benefit from your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, you still don't add the bonus to the check. For that check your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you lack proficiency in the {@skill Lore|sw5e-phb} skill, you gain no benefit from a feature that lets you double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} when you make Intelligence ({@skill Lore|sw5e-phb}) checks.",
+								"By the same token, if a feature or effect allows you to multiply your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} when making an {@variantrule Ability Check|sw5e-phb|ability check} that wouldn't normally benefit from your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, you still don't add the bonus to the check. For that check your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you lack proficiency in the {@skill Lore} skill, you gain no benefit from a feature that lets you double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} when you make Intelligence ({@skill Lore}) checks.",
 								"In general, you don't multiply your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} for {@variantrule Attack Roll|sw5e-phb|attack rolls} or {@variantrule Saving Throw|sw5e-phb|saving throws}. If a feature or effect allows you to do so, these same rules apply.",
 								{
 									"type": "entries",
@@ -6267,26 +6267,26 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Strength}: {@skill Athletics|sw5e-phb}",
-												"{@b Dexterity}: {@skill Acrobatics|sw5e-phb}, Sleight of Hand, {@skill Stealth|sw5e-phb}",
-												"{@b Intelligence}: {@skill Investigation|sw5e-phb}, {@skill Lore|sw5e-phb}, {@skill Nature|sw5e-phb}, {@skill Piloting|sw5e-phb}, {@skill Technology|sw5e-phb}",
-												"{@b Wisdom}: Animal handling, {@skill Insight|sw5e-phb}, {@skill Medicine|sw5e-phb}, {@skill Perception|sw5e-phb}, {@skill Survival|sw5e-phb}"
+												"{@b Strength}: {@skill Athletics}",
+												"{@b Dexterity}: {@skill Acrobatics}, Sleight of Hand, {@skill Stealth}",
+												"{@b Intelligence}: {@skill Investigation}, {@skill Lore}, {@skill Nature}, {@skill Piloting}, {@skill Technology}",
+												"{@b Wisdom}: Animal handling, {@skill Insight}, {@skill Medicine}, {@skill Perception}, {@skill Survival}"
 											]
 										},
 										{
 											"type": "list",
 											"items": [
-												"{@b Charisma}: {@skill Deception|sw5e-phb}, {@skill Intimidation|sw5e-phb}, {@skill Performance|sw5e-phb}, {@skill Persuasion|sw5e-phb}"
+												"{@b Charisma}: {@skill Deception}, {@skill Intimidation}, {@skill Performance}, {@skill Persuasion}"
 											]
 										},
-										"Sometimes, the GM might ask for an {@variantrule Ability Check|sw5e-phb|ability check} using a specific skill—for example, \"Make a Wisdom ({@skill Perception|sw5e-phb}) check.\" At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to {@variantrule Ability Check|sw5e-phb|ability checks} that involve that skill. Without proficiency in the skill, the individual makes a normal {@variantrule Ability Check|sw5e-phb|ability check}.",
-										"For example, if a character attempts to climb up a dangerous cliff. the Dungeon Master might ask for a Strength ({@skill Athletics|sw5e-phb}) check. If the character is proficient in {@skill Athletics|sw5e-phb}, the character's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} is added to the Strength check. If the character lacks that proficiency, he or she just makes a Strength check.",
+										"Sometimes, the GM might ask for an {@variantrule Ability Check|sw5e-phb|ability check} using a specific skill—for example, \"Make a Wisdom ({@skill Perception}) check.\" At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to {@variantrule Ability Check|sw5e-phb|ability checks} that involve that skill. Without proficiency in the skill, the individual makes a normal {@variantrule Ability Check|sw5e-phb|ability check}.",
+										"For example, if a character attempts to climb up a dangerous cliff. the Dungeon Master might ask for a Strength ({@skill Athletics}) check. If the character is proficient in {@skill Athletics}, the character's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} is added to the Strength check. If the character lacks that proficiency, he or she just makes a Strength check.",
 										{
 											"type": "entries",
 											"name": "Variant: Skills with Other Abilities",
 											"entries": [
-												"Normally, your proficiency in a skill applies only to a specific kind of {@variantrule Ability Check|sw5e-phb|ability check}. Proficiency in {@skill Athletics|sw5e-phb}, for example, usually applies to Strength checks. In some situations, though, your proficiency might reasonably apply to a different kind of check. In such cases, the GM might ask for a check using an unusual combination of ability and skill, or you might ask your GM if you can apply a proficiency to a different check. For example, if you have to swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far. In this case, your GM might allow you to apply your proficiency in {@skill Athletics|sw5e-phb} and ask for a Constitution ({@skill Athletics|sw5e-phb}) check.",
-												"So if you're proficient in {@skill Athletics|sw5e-phb}, you apply your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the Constitution check just as you would normally do for a Strength ({@skill Athletics|sw5e-phb}) check. Similarly, when your trandoshan berserker uses a display of raw strength to intimidate an enemy, your GM might ask for a Strength ({@skill Intimidation|sw5e-phb}) check, even though {@skill Intimidation|sw5e-phb} is normally associated with Charisma."
+												"Normally, your proficiency in a skill applies only to a specific kind of {@variantrule Ability Check|sw5e-phb|ability check}. Proficiency in {@skill Athletics}, for example, usually applies to Strength checks. In some situations, though, your proficiency might reasonably apply to a different kind of check. In such cases, the GM might ask for a check using an unusual combination of ability and skill, or you might ask your GM if you can apply a proficiency to a different check. For example, if you have to swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far. In this case, your GM might allow you to apply your proficiency in {@skill Athletics} and ask for a Constitution ({@skill Athletics}) check.",
+												"So if you're proficient in {@skill Athletics}, you apply your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the Constitution check just as you would normally do for a Strength ({@skill Athletics}) check. Similarly, when your trandoshan berserker uses a display of raw strength to intimidate an enemy, your GM might ask for a Strength ({@skill Intimidation}) check, even though {@skill Intimidation} is normally associated with Charisma."
 											]
 										}
 									]
@@ -6297,7 +6297,7 @@
 									"entries": [
 										"A passive check is a special kind of {@variantrule Ability Check|sw5e-phb|ability check} that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster.",
 										"Here's how to determine a character's total for a passive check: 10 + all modifiers that normally apply to the check. If the character has {@variantrule Advantage|sw5e-phb|advantage} on the check, add 5. For {@variantrule Disadvantage|sw5e-phb|disadvantage}, subtract 5. The game refers to a passive check total as a score.",
-										"For example. if a 1st-level character has a Wisdom of 15 and proficiency in {@skill Perception|sw5e-phb}, he or she has a passive Wisdom ({@skill Perception|sw5e-phb}) score of 14.",
+										"For example. if a 1st-level character has a Wisdom of 15 and proficiency in {@skill Perception}, he or she has a passive Wisdom ({@skill Perception}) score of 14.",
 										"The rules on hiding in the \"Dexterity\" section below rely on passive checks, as do the exploration rules in {@book chapter 8|sw5e-phb|8}."
 									]
 								},
@@ -6312,7 +6312,7 @@
 											"name": "Group Checks",
 											"entries": [
 												"When a number of individuals are trying to accomplish something together, the GM might ask for a group {@variantrule Ability Check|sw5e-phb|ability check}. In such a situation, the characters who are skilled at the task at hand help {@variantrule Cover|sw5e-phb|cover} those who aren't. To make a group {@variantrule Ability Check|sw5e-phb|ability check},  everyone in the group makes the {@variantrule Ability Check|sw5e-phb|ability check}. If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails.",
-												"Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the GM might call for a group Wisdom ({@skill Survival|sw5e-phb}) check to see if the characters can avoid the natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards."
+												"Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the GM might call for a group Wisdom ({@skill Survival}) check to see if the characters can avoid the natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards."
 											]
 										}
 									]
@@ -6334,8 +6334,8 @@
 											"type": "entries",
 											"name": "Strength Checks",
 											"entries": [
-												"A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The {@skill Athletics|sw5e-phb} skill reflects aptitude in certain kinds of Strength checks.",
-												"{@b {@i Athletics.}} Your Strength ({@skill Athletics|sw5e-phb}) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:",
+												"A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The {@skill Athletics} skill reflects aptitude in certain kinds of Strength checks.",
+												"{@b {@i Athletics.}} Your Strength ({@skill Athletics}) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:",
 												{
 													"type": "list",
 													"items": [
@@ -6402,10 +6402,10 @@
 											"type": "entries",
 											"name": "Dexterity Checks",
 											"entries": [
-												"A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The {@skill Acrobatics|sw5e-phb}, Sleight of Hand, and {@skill Stealth|sw5e-phb} skills reflect aptitude in certain kinds of Dexterity checks.",
-												"{@b {@i Acrobatics.}} Your Dexterity ({@skill Acrobatics|sw5e-phb}) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking spaceship's deck. The GM might also call for a Dexterity ({@skill Acrobatics|sw5e-phb}) check to see if you can {@optfeature Perform|sw5e-phb|perform} acrobatic stunts, including dives, rolls, somersaults, and flips.",
+												"A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The {@skill Acrobatics}, Sleight of Hand, and {@skill Stealth} skills reflect aptitude in certain kinds of Dexterity checks.",
+												"{@b {@i Acrobatics.}} Your Dexterity ({@skill Acrobatics}) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking spaceship's deck. The GM might also call for a Dexterity ({@skill Acrobatics}) check to see if you can {@optfeature Perform|sw5e-phb|perform} acrobatic stunts, including dives, rolls, somersaults, and flips.",
 												"{@b {@i Sleight of Hand.}} Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check. The GM might also call for a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check to determine whether you can lift a wallet off another person or slip something out of another person's pocket.",
-												"{@b {@i Stealth.}} Make a Dexterity ({@skill Stealth|sw5e-phb}) check when you attempt to {@optfeature Conceal|sw5e-phb|conceal} yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.",
+												"{@b {@i Stealth.}} Make a Dexterity ({@skill Stealth}) check when you attempt to {@optfeature Conceal|sw5e-phb|conceal} yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.",
 												"{@b {@i Other Dexterity Checks.}} The GM might call for a Dexterity check when you try to accomplish tasks like the following:",
 												{
 													"type": "list",
@@ -6445,7 +6445,7 @@
 													"type": "inset",
 													"name": "Hiding",
 													"entries": [
-														"hen you try to hide, make a Dexterity ({@skill Stealth|sw5e-phb}) check. Until you are discovered or you stop hiding, that checks total is contested by the Wisdom ({@skill Perception|sw5e-phb}) check of any creature that actively searches for signs of your presence. You can't hide from a creature that can see you, and if you make noise (such as shouting a warning or knocking over a vase), you give away your position. An {@condition Invisible|sw5e-phb|invisible} creature can't be seen, so it can always try to hide. Signs of its passage might still be noticed, however, and it still has to stay quiet. In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the Dungeon Master might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain {@variantrule Advantage|sw5e-phb|advantage} on an attack before you are seen. {@b {@i Passive Perception.}} When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM compares your Dexterity ({@skill Stealth|sw5e-phb}) check with that creature's passive Wisdom ({@skill Perception|sw5e-phb}) score, which equals 10 + the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has {@variantrule Advantage|sw5e-phb|advantage}, add 5. For {@variantrule Disadvantage|sw5e-phb|disadvantage}, subtract 5. For example, if a lst-level character (with a {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in {@skill Perception|sw5e-phb}, he or she has a passive Wisdom ({@skill Perception|sw5e-phb}) of 14. {@b {@i What Can You See?}} One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be {@b lightly} or {@b heavily} obscured, as explained in {@book chapter 8|sw5e-phb|8}."
+														"hen you try to hide, make a Dexterity ({@skill Stealth}) check. Until you are discovered or you stop hiding, that checks total is contested by the Wisdom ({@skill Perception}) check of any creature that actively searches for signs of your presence. You can't hide from a creature that can see you, and if you make noise (such as shouting a warning or knocking over a vase), you give away your position. An {@condition Invisible|sw5e-phb|invisible} creature can't be seen, so it can always try to hide. Signs of its passage might still be noticed, however, and it still has to stay quiet. In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the Dungeon Master might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain {@variantrule Advantage|sw5e-phb|advantage} on an attack before you are seen. {@b {@i Passive Perception.}} When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM compares your Dexterity ({@skill Stealth}) check with that creature's passive Wisdom ({@skill Perception}) score, which equals 10 + the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has {@variantrule Advantage|sw5e-phb|advantage}, add 5. For {@variantrule Disadvantage|sw5e-phb|disadvantage}, subtract 5. For example, if a lst-level character (with a {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in {@skill Perception}, he or she has a passive Wisdom ({@skill Perception}) of 14. {@b {@i What Can You See?}} One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be {@b lightly} or {@b heavily} obscured, as explained in {@book chapter 8|sw5e-phb|8}."
 													]
 												}
 											]
@@ -6494,12 +6494,12 @@
 											"type": "entries",
 											"name": "Intelligence Checks",
 											"entries": [
-												"An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The {@skill Investigation|sw5e-phb}, {@skill Lore|sw5e-phb}, {@skill Nature|sw5e-phb}, {@skill Piloting|sw5e-phb}, and {@skill Technology|sw5e-phb} skills reflect aptitude in certain kinds of Intelligence checks.",
-												"{@b {@i Investigation.}} When you look around for clues and make deductions based on those clues, you make an Intelligence ({@skill Investigation|sw5e-phb}) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient materials in search of a hidden fragment of knowledge might also call for an Intelligence ({@skill Investigation|sw5e-phb}) check.",
-												"{@b {@i Lore.}} Your Intelligence ({@skill Lore|sw5e-phb}) check measures your ability to recall information about the Force, artifacts, histories, and religions.",
-												"{@b {@i Nature.}} Your Intelligence ({@skill Nature|sw5e-phb}) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.",
-												"{@b {@i Piloting.}} Your Intelligence ({@skill Piloting|sw5e-phb}) check measures your ability to control vehicles, aircraft, and spaceships. {@skill Piloting|sw5e-phb} governs your ability to {@book maneuver|sw5e-phb|13|Maneuvers} through tight spaces and debris fields or dogfight with enemy craft.",
-												"{@b {@i Technology.}} Your Intelligence ({@skill Technology|sw5e-phb}) checks measure your ability to recall information about droids, vehicles, spaceships, aircraft, and computers, as well as your ability to interface with them. {@skill Technology|sw5e-phb} can also be used to stabilize a droid or construct.",
+												"An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The {@skill Investigation}, {@skill Lore}, {@skill Nature}, {@skill Piloting}, and {@skill Technology} skills reflect aptitude in certain kinds of Intelligence checks.",
+												"{@b {@i Investigation.}} When you look around for clues and make deductions based on those clues, you make an Intelligence ({@skill Investigation}) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient materials in search of a hidden fragment of knowledge might also call for an Intelligence ({@skill Investigation}) check.",
+												"{@b {@i Lore.}} Your Intelligence ({@skill Lore}) check measures your ability to recall information about the Force, artifacts, histories, and religions.",
+												"{@b {@i Nature.}} Your Intelligence ({@skill Nature}) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.",
+												"{@b {@i Piloting.}} Your Intelligence ({@skill Piloting}) check measures your ability to control vehicles, aircraft, and spaceships. {@skill Piloting} governs your ability to {@book maneuver|sw5e-phb|13|Maneuvers} through tight spaces and debris fields or dogfight with enemy craft.",
+												"{@b {@i Technology.}} Your Intelligence ({@skill Technology}) checks measure your ability to recall information about droids, vehicles, spaceships, aircraft, and computers, as well as your ability to interface with them. {@skill Technology} can also be used to stabilize a droid or construct.",
 												"{@b {@i Other Intelligence Checks.}} The GM might call for an Intelligence check when you try to accomplish tasks like the following:",
 												{
 													"type": "list",
@@ -6532,12 +6532,12 @@
 											"type": "entries",
 											"name": "Wisdom Checks",
 											"entries": [
-												"A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The {@skill Animal Handling|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Medicine|sw5e-phb}, {@skill Perception|sw5e-phb}, and {@skill Survival|sw5e-phb} skills reflect aptitude in certain kinds of Wisdom checks.",
-												"{@b {@i Animal Handling.}} When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom ({@skill Animal Handling|sw5e-phb}) check. You also make a Wisdom ({@skill Animal Handling|sw5e-phb}) check to control your mount when you attempt a risky {@book maneuver|sw5e-phb|13|Maneuvers}.",
-												"{@b {@i Insight.}} Your Wisdom ({@skill Insight|sw5e-phb}) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.",
-												"{@b {@i Medicine.}} A Wisdom ({@skill Medicine|sw5e-phb}) check lets you try to stabilize a dying companion or diagnose an illness.",
-												"{@b {@i Perception.}} Your Wisdom ({@skill Perception|sw5e-phb}) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.",
-												"{@b {@i Survival.}} The GM might ask you to make a Wisdom ({@skill Survival|sw5e-phb}) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that rancors live nearby, predict the weather, or avoid quicksand and other natural hazards.",
+												"A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The {@skill Animal Handling}, {@skill Insight}, {@skill Medicine}, {@skill Perception}, and {@skill Survival} skills reflect aptitude in certain kinds of Wisdom checks.",
+												"{@b {@i Animal Handling.}} When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom ({@skill Animal Handling}) check. You also make a Wisdom ({@skill Animal Handling}) check to control your mount when you attempt a risky {@book maneuver|sw5e-phb|13|Maneuvers}.",
+												"{@b {@i Insight.}} Your Wisdom ({@skill Insight}) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.",
+												"{@b {@i Medicine.}} A Wisdom ({@skill Medicine}) check lets you try to stabilize a dying companion or diagnose an illness.",
+												"{@b {@i Perception.}} Your Wisdom ({@skill Perception}) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.",
+												"{@b {@i Survival.}} The GM might ask you to make a Wisdom ({@skill Survival}) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that rancors live nearby, predict the weather, or avoid quicksand and other natural hazards.",
 												"{@b {@i Other Wisdom Checks.}} The GM might call for a Wisdom check when you try to accomplish tasks like the following:",
 												{
 													"type": "list",
@@ -6557,7 +6557,7 @@
 													"type": "inset",
 													"name": "Finding a Hidden Object",
 													"entries": [
-														"When your character searches for a hidden object such as a secret door or a trap, the GM typically asks you to make a Wisdom ({@skill Perception|sw5e-phb}) check. Such a check can be used to find hidden details or other information and clues that you might otherwise overlook. In most cases, you need to describe where you are looking in order for the GM to determine your chance of success. For example, a key is hidden beneath a set of folded clothes in the top drawer ofa bureau. If you tell the GM that you pace around the room, looking at the walls and furniture for clues, you have no chance of finding the key, regardless of your Wisdom ({@skill Perception|sw5e-phb}) check result. You would have to specify that you were opening the drawers or searching the bureau in order to have any chance of success."
+														"When your character searches for a hidden object such as a secret door or a trap, the GM typically asks you to make a Wisdom ({@skill Perception}) check. Such a check can be used to find hidden details or other information and clues that you might otherwise overlook. In most cases, you need to describe where you are looking in order for the GM to determine your chance of success. For example, a key is hidden beneath a set of folded clothes in the top drawer ofa bureau. If you tell the GM that you pace around the room, looking at the walls and furniture for clues, you have no chance of finding the key, regardless of your Wisdom ({@skill Perception}) check result. You would have to specify that you were opening the drawers or searching the bureau in order to have any chance of success."
 													]
 												}
 											]
@@ -6573,11 +6573,11 @@
 											"type": "entries",
 											"name": "Charisma Checks",
 											"entries": [
-												"A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The {@skill Deception|sw5e-phb}, {@skill Intimidation|sw5e-phb}, {@skill Performance|sw5e-phb}, and {@skill Persuasion|sw5e-phb} skills reflect aptitude in certain kinds of Charisma checks.",
-												"{@b {@i Deception.}} Your Charisma ({@skill Deception|sw5e-phb}) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.",
-												"{@b {@i Intimidation.}} When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma ({@skill Intimidation|sw5e-phb}) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken {@item Bottle|sw5e-phb|bottle} to convince a sneering vizier to reconsider a decision.",
-												"{@b {@i Performance.}} Your Charisma ({@skill Performance|sw5e-phb}) check determines how well you can delight an audience with music, dance. acting, storytelling, or some other form of entertainment.",
-												"{@b {@i Persuasion.}} When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma ({@skill Persuasion|sw5e-phb}) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a Chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.",
+												"A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The {@skill Deception}, {@skill Intimidation}, {@skill Performance}, and {@skill Persuasion} skills reflect aptitude in certain kinds of Charisma checks.",
+												"{@b {@i Deception.}} Your Charisma ({@skill Deception}) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.",
+												"{@b {@i Intimidation.}} When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma ({@skill Intimidation}) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken {@item Bottle|sw5e-phb|bottle} to convince a sneering vizier to reconsider a decision.",
+												"{@b {@i Performance.}} Your Charisma ({@skill Performance}) check determines how well you can delight an audience with music, dance. acting, storytelling, or some other form of entertainment.",
+												"{@b {@i Persuasion.}} When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma ({@skill Persuasion}) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a Chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk.",
 												"{@b {@i Other Charisma Checks.}} The GM might call for a Charisma check when you try to accomplish tasks like the following:",
 												{
 													"type": "list",
@@ -6683,7 +6683,7 @@
 																	"400 feet",
 																	"4 miles",
 																	"30 miles",
-																	"-5 penalty to passive Wisdom ({@skill Perception|sw5e-phb}) scores"
+																	"-5 penalty to passive Wisdom ({@skill Perception}) scores"
 																],
 																[
 																	"Normal",
@@ -6723,7 +6723,7 @@
 											"type": "entries",
 											"name": "Climbing, Swimming and Crawling",
 											"entries": [
-												"While climbing, swimming, or crawling, each foot of movement costs 1 extra foot (2 extra feet in {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}), unless a creature has a climbing or swimming {@variantrule Speed|sw5e-phb|speed}. At the GM's option, climbing a slippery vertical surface or one with few handholds requires a successful Strength ({@skill Athletics|sw5e-phb}) check. Similarly, gaining any distance in rough water might require a successful Strength ({@skill Athletics|sw5e-phb}) check."
+												"While climbing, swimming, or crawling, each foot of movement costs 1 extra foot (2 extra feet in {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}), unless a creature has a climbing or swimming {@variantrule Speed|sw5e-phb|speed}. At the GM's option, climbing a slippery vertical surface or one with few handholds requires a successful Strength ({@skill Athletics}) check. Similarly, gaining any distance in rough water might require a successful Strength ({@skill Athletics}) check."
 											]
 										},
 										{
@@ -6732,9 +6732,9 @@
 											"entries": [
 												"Your Strength determines how far you can jump.",
 												"{@b {@i Long Jump.}} When you make a long jump, you {@variantrule Cover|sw5e-phb|cover} a number of feet up to your Strength score if you move at least 10 feet on foot immediately before the jump. When you make a standing long jump, you can leap only half that distance. Either way, each foot you clear on the jump costs a foot of movement.",
-												"This rule assumes that the height of your jump doesn't matter, such as a jump across a stream or chasm. At your GM's option, you must succeed on a DC 10 Strength ({@skill Athletics|sw5e-phb}) check to clear a low obstacle (no taller than a quarter of the jump's distance), such as a hedge or low wall. Otherwise, you hit it.",
-												"When you land in {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}, you must succeed on a DC 10 Dexterity ({@skill Acrobatics|sw5e-phb}) check to land on your feet. Otherwise, you land prone.",
-												"{@b {@i High Jump.}} When you make a high jump, you leap into the air a number of feet equal to 3 + your Strength modifier if you move at least 10 feet on foot immediately before the jump. When you make a standing high jump, you can jump only half that distance. Either way, each foot you clear on the jump costs a foot of movement. In some circumstances, your GM might allow you to make a Strength ({@skill Athletics|sw5e-phb}) check to jump higher than you normally can.",
+												"This rule assumes that the height of your jump doesn't matter, such as a jump across a stream or chasm. At your GM's option, you must succeed on a DC 10 Strength ({@skill Athletics}) check to clear a low obstacle (no taller than a quarter of the jump's distance), such as a hedge or low wall. Otherwise, you hit it.",
+												"When you land in {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}, you must succeed on a DC 10 Dexterity ({@skill Acrobatics}) check to land on your feet. Otherwise, you land prone.",
+												"{@b {@i High Jump.}} When you make a high jump, you leap into the air a number of feet equal to 3 + your Strength modifier if you move at least 10 feet on foot immediately before the jump. When you make a standing high jump, you can jump only half that distance. Either way, each foot you clear on the jump costs a foot of movement. In some circumstances, your GM might allow you to make a Strength ({@skill Athletics}) check to jump higher than you normally can.",
 												"You can extend your arms half your height above yourself during the jump. Thus, you can reach above you a distance equal to the height of the jump plus 1 1/2 times your height."
 											]
 										}
@@ -6757,7 +6757,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "{@skill Stealth|sw5e-phb}",
+											"name": "{@skill Stealth}",
 											"entries": [
 												"While traveling at a slow pace, the characters can move stealthily. As long as they're not in the open, they can try to surprise or sneak by other creatures they encounter. See the rules for hiding in {@book chapter 7|sw5e-phb|7}."
 											]
@@ -6766,7 +6766,7 @@
 											"type": "entries",
 											"name": "Noticing Threats",
 											"entries": [
-												"Use the passive Wisdom ({@skill Perception|sw5e-phb}) scores of the characters to determine whether anyone in the group notices a hidden threat. The GM might decide that a threat can be noticed only by characters in a particular rank. For example, as the characters are exploring a maze of tunnels, the GM might decide that only those characters in the back rank have a chance to hear or spot a {@feat Stealthy|sw5e-phb|stealthy} creature following the group, while characters in the front and middle ranks cannot. While traveling at a fast pace, characters take a -5 penalty to their passive Wisdom ({@skill Perception|sw5e-phb}) scores to notice hidden threats.",
+												"Use the passive Wisdom ({@skill Perception}) scores of the characters to determine whether anyone in the group notices a hidden threat. The GM might decide that a threat can be noticed only by characters in a particular rank. For example, as the characters are exploring a maze of tunnels, the GM might decide that only those characters in the back rank have a chance to hear or spot a {@feat Stealthy|sw5e-phb|stealthy} creature following the group, while characters in the front and middle ranks cannot. While traveling at a fast pace, characters take a -5 penalty to their passive Wisdom ({@skill Perception}) scores to notice hidden threats.",
 												"{@b {@i Encountering Creatures.}} If the GM determines that the adventurers encounter other creatures while they're traveling, it's up to both groups to decide what happens next. Either group might decide to attack, initiate a conversation, run away, or wait to see what the other group does.",
 												"{@b {@i Surprising Foes.}} If the adventurers encounter a hostile creature or group, the GM determines whether the adventurers or their foes might be surprised when combat erupts. See {@book chapter 9|sw5e-phb|9} for more about surprise."
 											]
@@ -6775,11 +6775,11 @@
 											"type": "entries",
 											"name": "Other Activities",
 											"entries": [
-												"Characters who turn their attention to other tasks as the group travels are not focused on watching for danger. These characters don't contribute their passive Wisdom ({@skill Perception|sw5e-phb}) scores to the group's chance of noticing hidden threats. However, a character not watching for danger can do one of the following activities instead, or some other activity with the GM's permission.",
-												"{@b {@i Navigate.}} The character can try to prevent the group from becoming lost, making a Wisdom ({@skill Survival|sw5e-phb}) check when the GM calls for it. (The {@i Dungeon Master's Guide} has rules to determine whether the group gets lost.)",
+												"Characters who turn their attention to other tasks as the group travels are not focused on watching for danger. These characters don't contribute their passive Wisdom ({@skill Perception}) scores to the group's chance of noticing hidden threats. However, a character not watching for danger can do one of the following activities instead, or some other activity with the GM's permission.",
+												"{@b {@i Navigate.}} The character can try to prevent the group from becoming lost, making a Wisdom ({@skill Survival}) check when the GM calls for it. (The {@i Dungeon Master's Guide} has rules to determine whether the group gets lost.)",
 												"{@b {@i Draw a Map.}} The character can draw a map that records the group's progress and helps the characters get back on course if they get lost. No {@variantrule Ability Check|sw5e-phb|ability check} is required.",
-												"{@b {@i Track.}} A character can follow the tracks of another creature, making a Wisdom ({@skill Survival|sw5e-phb}) check when the GM calls for it. (The {@i Dungeon Master's Guide} has rules for tracking.)",
-												"{@b {@i Forage.}} The character can keep an eye out for ready sources of food and water, making a Wisdom ({@skill Survival|sw5e-phb}) check when the GM calls for it. (The {@i Dungeon Master's Guide} has rules for foraging.)",
+												"{@b {@i Track.}} A character can follow the tracks of another creature, making a Wisdom ({@skill Survival}) check when the GM calls for it. (The {@i Dungeon Master's Guide} has rules for tracking.)",
+												"{@b {@i Forage.}} The character can keep an eye out for ready sources of food and water, making a Wisdom ({@skill Survival}) check when the GM calls for it. (The {@i Dungeon Master's Guide} has rules for foraging.)",
 												{
 													"type": "inset",
 													"name": "Splitting Up",
@@ -6826,7 +6826,7 @@
 									"name": "Vision and Light",
 									"entries": [
 										"The most fundamental tasks of adventuring—noticing danger, finding hidden objects, hitting an enemy in combat, and targeting a power, to name just a few—rely heavily on a character's ability to see. {@spell Darkness|sw5e-phb} and other effects that obscure vision can prove a significant hindrance.",
-										"A given area might be lightly or heavily obscured. In a {@b lightly obscured} area, such as dim light, patchy fog, or moderate foliage, creatures have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sight.",
+										"A given area might be lightly or heavily obscured. In a {@b lightly obscured} area, such as dim light, patchy fog, or moderate foliage, creatures have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception}) checks that rely on sight.",
 										"A {@b heavily obscured} area-such as {@spell Darkness|sw5e-phb|darkness}, opaque fog, or dense foliage-blocks vision entirely. A creature in or looking in a heavily obscured area effectively suffers from the {@condition Blinded|sw5e-phb|blinded} condition (see {@book Appendix A|sw5e-phb|14}).",
 										"The presence or absence of light in an environment creates three categories of illumination: bright light, dim light, and {@spell Darkness|sw5e-phb|darkness}.",
 										"{@b Bright light} lets most creatures see normally. Even gloomy days provide bright light, as do torches, lanterns, fires, and other sources of illumination within a specific radius.",
@@ -6834,23 +6834,23 @@
 										"{@b Darkness} creates a heavily obscured area. Characters face {@spell Darkness|sw5e-phb|darkness} outdoors at night (even most moonlit nights), or within the confines of an unlit dungeon or a subterranean vault.",
 										{
 											"type": "entries",
-											"name": "Blindsight",
+											"name": "{@sense Blindsight|sw5e-phb}",
 											"entries": [
-												"A creature with blindsight can {@optfeature Perceive|sw5e-phb|perceive} its surroundings without relying on sight, within a specific radius. Creatures without eyes, such as Miraluka, and creatures with echolocation or heightened senses, such as Togruta or Verpine, have this sense."
+												"A creature with {@sense Blindsight|sw5e-phb|blindsight} can {@optfeature Perceive|sw5e-phb|perceive} its surroundings without relying on sight, within a specific radius. Creatures without eyes, such as Miraluka, and creatures with echolocation or heightened senses, such as Togruta or Verpine, have this sense."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "{@spell Darkvision|sw5e-phb}",
+											"name": "{@sense Darkvision|sw5e-phb}",
 											"entries": [
-												"Many creatures in the worlds of Star Wars, especially those that dwell underground, have {@spell Darkvision|sw5e-phb|darkvision}. Within a specified range, a creature with {@spell Darkvision|sw5e-phb|darkvision} can see in {@spell Darkness|sw5e-phb|darkness} as if the {@spell Darkness|sw5e-phb|darkness} were dim light, so areas of {@spell Darkness|sw5e-phb|darkness} are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+												"Many creatures in the worlds of Star Wars, especially those that dwell underground, have {@sense Darkvision|sw5e-phb|darkvision}. Within a specified range, a creature with {@sense Darkvision|sw5e-phb|darkvision} can see in {@spell Darkness|sw5e-phb|darkness} as if the {@spell Darkness|sw5e-phb|darkness} were dim light, so areas of {@spell Darkness|sw5e-phb|darkness} are only lightly obscured as far as that creature is concerned. However, the creature can't discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "Truesight",
+											"name": "{@sense Truesight|sw5e-phb}",
 											"entries": [
-												"A creature with truesight can, out to a specific range, see in normal and enhanced {@spell Darkness|sw5e-phb|darkness}, see {@condition Invisible|sw5e-phb|invisible} creatures and objects, automatically detect visual illusions and succeed on {@variantrule Saving Throw|sw5e-phb|saving throws} against them, and perceives the original form of a shapechanger or a creature that is transformed by a power."
+												"A creature with {@sense Truesight|sw5e-phb|truesight} can, out to a specific range, see in normal and enhanced {@spell Darkness|sw5e-phb|darkness}, see {@condition Invisible|sw5e-phb|invisible} creatures and objects, automatically detect visual illusions and succeed on {@variantrule Saving Throw|sw5e-phb|saving throws} against them, and perceives the original form of a shapechanger or a creature that is transformed by a power."
 											]
 										}
 									]
@@ -6948,7 +6948,7 @@
 									"entries": [
 										"In addition to roleplaying, {@variantrule Ability Check|sw5e-phb|ability checks} are key in determining the outcome of an interaction.",
 										"Your roleplaying efforts can alter an NPC's attitude, but there might still be an element of chance in the situation. For example, your GM can call for a Charisma check at any point during an interaction if he or she wants the dice to play a role in determining an NPC's reactions. Other checks might be appropriate in certain situations, at your GM's discretion.",
-										"Pay attention to your skill proficiencies when thinking of how you want to interact with an NPC, and {@spell Stack the Deck|sw5e-phb|stack the deck} in your favor by using an approach that relies on your best bonuses and skills. If the group needs to trick a guard into letting them into a pavilion, the scoundrel who is proficient in {@skill Deception|sw5e-phb} is the best bet to lead the discussion. When negotiating for a hostage's {@spell Release|sw5e-phb|release}, the force initiate with {@skill Persuasion|sw5e-phb} should do most of the talking."
+										"Pay attention to your skill proficiencies when thinking of how you want to interact with an NPC, and {@spell Stack the Deck|sw5e-phb|stack the deck} in your favor by using an approach that relies on your best bonuses and skills. If the group needs to trick a guard into letting them into a pavilion, the scoundrel who is proficient in {@skill Deception} is the best bet to lead the discussion. When negotiating for a hostage's {@spell Release|sw5e-phb|release}, the force initiate with {@skill Persuasion} should do most of the talking."
 									]
 								}
 							],
@@ -7023,7 +7023,7 @@
 											"entries": [
 												"You can work between adventures, allowing you to maintain a modest lifestyle without having to pay 10 cr per day (see {@book chapter 5|sw5e-phb|5} for more information on lifestyle expenses). This benefit lasts as long you continue to practice your profession.",
 												"If you are a member of an organization that can provide gainful employment, such as a syndicate or guild, you earn enough to support a comfortable lifestyle instead.",
-												"If you have proficiency in the {@skill Performance|sw5e-phb} skill and put your performance skill to use during your downtime, you earn enough to support a wealthy lifestyle instead."
+												"If you have proficiency in the {@skill Performance} skill and put your performance skill to use during your downtime, you earn enough to support a wealthy lifestyle instead."
 											]
 										},
 										{
@@ -7046,7 +7046,7 @@
 											"name": "Researching",
 											"entries": [
 												"The time between adventures is a great chance to {@optfeature Perform|sw5e-phb|perform} research, gaining insight into mysteries that have unfurled over the course of the campaign. Research can include poring over dusty tomes and ancient datacrons in a library or buying drinks for the locals to pry rumors and gossip from their lips.",
-												"When you begin your research, the GM determines whether the information is available, how many days of downtime it will take to find it, and whether there are any restrictions on your research (such as needing to seek out a specific individual, tome, or location). The GM might also require you to make one or more {@variantrule Ability Check|sw5e-phb|ability checks}, such as an Intelligence ({@skill Investigation|sw5e-phb}) check to find clues pointing toward the information you seek, or a Charisma ({@skill Persuasion|sw5e-phb}) check to secure someone's aid. Once those conditions are met, you learn the information if it is available.",
+												"When you begin your research, the GM determines whether the information is available, how many days of downtime it will take to find it, and whether there are any restrictions on your research (such as needing to seek out a specific individual, tome, or location). The GM might also require you to make one or more {@variantrule Ability Check|sw5e-phb|ability checks}, such as an Intelligence ({@skill Investigation}) check to find clues pointing toward the information you seek, or a Charisma ({@skill Persuasion}) check to secure someone's aid. Once those conditions are met, you learn the information if it is available.",
 												"For each day of research, you must spend 10 cr to {@variantrule Cover|sw5e-phb|cover} your expenses. This cost is in addition to your normal lifestyle expenses (as discussed in {@book chapter 5|sw5e-phb|5})."
 											]
 										},
@@ -7083,7 +7083,7 @@
 									"name": "Surprise",
 									"entries": [
 										"A band of adventurers sneaks up on a Mandalorian camp, springing from {@variantrule Cover|sw5e-phb|cover} to attack them. Kath hounds patrol down a hallway, leashed to their handler, unnoticed by the adventurers until the hound smells one of them. In these situations, one side of the battle gains surprise over the other.",
-										"The GM determines who might be surprised. If neither side tries to be {@feat Stealthy|sw5e-phb|stealthy}, they automatically notice each other. Otherwise, the GM compares the Dexterity ({@skill Stealth|sw5e-phb}) checks of anyone hiding with the passive Wisdom ({@skill Perception|sw5e-phb}) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is surprised at the start of the encounter until the end of their first turn.",
+										"The GM determines who might be surprised. If neither side tries to be {@feat Stealthy|sw5e-phb|stealthy}, they automatically notice each other. Otherwise, the GM compares the Dexterity ({@skill Stealth}) checks of anyone hiding with the passive Wisdom ({@skill Perception}) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is surprised at the start of the encounter until the end of their first turn.",
 										"If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a {@variantrule Reaction|sw5e-phb} until that turn ends. A member of a group can be surprised even if the other members aren't."
 									]
 								},
@@ -7199,9 +7199,9 @@
 									"type": "entries",
 									"name": "Being Prone",
 									"entries": [
-										"Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone, a condition described in {@book Appendix A|sw5e-phb|14}.",
+										"Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are {@condition Prone|sw5e-phb|prone}, a condition described in {@book Appendix A|sw5e-phb|14}.",
 										"You can {@b drop prone} without using any of your {@variantrule Speed|sw5e-phb|speed}. {@b Standing up} takes more effort, costing an amount of movement equal to half your {@variantrule Speed|sw5e-phb|speed}. For example, if your {@variantrule Speed|sw5e-phb|speed} is 30 feet, you must spend 15 feet of movement to stand up. You can't stand up if you don't have enough movement left or if your {@variantrule Speed|sw5e-phb|speed} is 0.",
-										"To move while prone, you must {@b crawl} or use powers that teleport. Every foot of movement while crawling costs 1 extra foot. Crawling 1 foot in {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}, therefore, costs 3 feet of movement."
+										"To move while {@condition Prone|sw5e-phb|prone}, you must {@b crawl} or use powers that teleport. Every foot of movement while crawling costs 1 extra foot. Crawling 1 foot in {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}, therefore, costs 3 feet of movement."
 									]
 								},
 								{
@@ -7217,7 +7217,7 @@
 									"type": "entries",
 									"name": "Flying Movement",
 									"entries": [
-										"Flying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked prone, has its {@variantrule Speed|sw5e-phb|speed} reduced to 0, or is otherwise deprived of the ability to move, the creature falls, unless it has the ability to hover."
+										"Flying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling. If a flying creature is knocked {@condition Prone|sw5e-phb|prone}, has its {@variantrule Speed|sw5e-phb|speed} reduced to 0, or is otherwise deprived of the ability to move, the creature falls, unless it has the ability to hover."
 									]
 								},
 								{
@@ -7360,7 +7360,7 @@
 									"type": "entries",
 									"name": "Hide",
 									"entries": [
-										"When you take the {@action Hide|sw5e-phb} action, you make a Dexterity ({@skill Stealth|sw5e-phb}) check in an attempt to hide, following the rules in {@book chapter 7|sw5e-phb|7} for hiding. If you succeed, you gain certain benefits, as described in the {@book Unseen Attackers and Targets|sw5e-phb|9|Unseen Attackers and Targets} section later in this chapter.",
+										"When you take the {@action Hide|sw5e-phb} action, you make a Dexterity ({@skill Stealth}) check in an attempt to hide, following the rules in {@book chapter 7|sw5e-phb|7} for hiding. If you succeed, you gain certain benefits, as described in the {@book Unseen Attackers and Targets|sw5e-phb|9|Unseen Attackers and Targets} section later in this chapter.",
 										{
 											"type": "inset",
 											"name": "Improvising an Action",
@@ -7384,7 +7384,7 @@
 									"type": "entries",
 									"name": "Search",
 									"entries": [
-										"When you take the {@action Search|sw5e-phb} action, you devote your attention to finding something. Depending on the nature of your search, the GM might have you make a Wisdom ({@skill Perception|sw5e-phb}) check or an Intelligence ({@skill Investigation|sw5e-phb}) check."
+										"When you take the {@action Search|sw5e-phb} action, you devote your attention to finding something. Depending on the nature of your search, the GM might have you make a Wisdom ({@skill Perception}) check or an Intelligence ({@skill Investigation}) check."
 									]
 								},
 								{
@@ -7476,8 +7476,8 @@
 														"in Combat Battle often involves pitting your prowess against that of your foe. Such a challenge is represented by a contest. This section includes the most common contests that require an action in combat. The GM can use these contests as models for improvising others."
 													]
 												},
-												"The target of your grapple must be no more than one size larger than you, and it must be within your reach. Using at least one free hand, which is occupied for the duration of the grapple, you try to seize the target by making a Strength ({@skill Athletics|sw5e-phb}) check contested by the target's Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check (the target chooses the ability to use). If you succeed, you subject the target to the {@condition Grappled|sw5e-phb|grappled} condition (see {@book Appendix A|sw5e-phb|14}). The condition specifies the things that end it, and you can {@spell Release|sw5e-phb|release} the target whenever you like (no action required).",
-												"{@b {@i Escaping a Grapple.}} A {@condition Grappled|sw5e-phb|grappled} creature can use its action to escape. To do so, it must succeed on a Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check contested by your Strength ({@skill Athletics|sw5e-phb}) check.",
+												"The target of your grapple must be no more than one size larger than you, and it must be within your reach. Using at least one free hand, which is occupied for the duration of the grapple, you try to seize the target by making a Strength ({@skill Athletics}) check contested by the target's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use). If you succeed, you subject the target to the {@condition Grappled|sw5e-phb|grappled} condition (see {@book Appendix A|sw5e-phb|14}). The condition specifies the things that end it, and you can {@spell Release|sw5e-phb|release} the target whenever you like (no action required).",
+												"{@b {@i Escaping a Grapple.}} A {@condition Grappled|sw5e-phb|grappled} creature can use its action to escape. To do so, it must succeed on a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check contested by your Strength ({@skill Athletics}) check.",
 												"{@b {@i Moving a Grappled Creature.}} When you move, you can drag or carry the {@condition Grappled|sw5e-phb|grappled} creature with you, but your {@variantrule Speed|sw5e-phb|speed} is halved, unless the creature is two or more sizes smaller than you."
 											]
 										},
@@ -7486,7 +7486,7 @@
 											"name": "Shoving and Tripping",
 											"entries": [
 												"Using the {@action Attack|sw5e-phb} action, you can make a special melee attack to {@b shove} a creature to push it away from you, or to {@b trip} a creature to knock it prone. If you're able to make multiple attacks with the {@action Attack|sw5e-phb} action, this attack replaces one of them.",
-												"The target of your shove or trip must be no more than one size larger than you, and it must be within your reach. You make a Strength ({@skill Athletics|sw5e-phb}) check contested by the target's Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check (the target chooses the ability to use). If you win the contest, you either shove the target 5 feet away from you or trip it prone."
+												"The target of your shove or trip must be no more than one size larger than you, and it must be within your reach. You make a Strength ({@skill Athletics}) check contested by the target's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use). If you win the contest, you either shove the target 5 feet away from you or trip it prone."
 											]
 										}
 									]
@@ -7668,7 +7668,7 @@
 											"name": "Stabilizing a Creature",
 											"entries": [
 												"The best way to save a creature with 0 {@variantrule Hit Points|sw5e-phb|hit points} is to heal it. If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed {@variantrule Death Saving Throw|sw5e-phb|death saving throw}.",
-												"You can use your action to administer first aid to an {@condition Unconscious|sw5e-phb} creature and attempt to stabilize it, which requires a successful DC 10 Wisdom ({@skill Medicine|sw5e-phb}) check, or an Intelligence ({@skill Technology|sw5e-phb}) check for a droid or construct.",
+												"You can use your action to administer first aid to an {@condition Unconscious|sw5e-phb} creature and attempt to stabilize it, which requires a successful DC 10 Wisdom ({@skill Medicine}) check, or an Intelligence ({@skill Technology}) check for a droid or construct.",
 												"A {@b stable} creature doesn't make {@variantrule Death Saving Throw|sw5e-phb|death saving throws}, even though it has 0 {@variantrule Hit Points|sw5e-phb|hit points}, but it does remain {@condition Unconscious|sw5e-phb}. The creature stops being stable, and must start making {@variantrule Death Saving Throw|sw5e-phb|death saving throws} again, if it takes any damage. A stable creature that isn't healed regains 1 hit point after 1d4 hours."
 											]
 										},
@@ -7736,8 +7736,8 @@
 									"name": "Mounting and Dismounting",
 									"entries": [
 										"Once during your move, you can mount or dismount a vehicle or willing creature that is within 5 feet of you. Doing so costs an amount of movement equal to half your {@variantrule Speed|sw5e-phb|speed}. For example, if your {@variantrule Speed|sw5e-phb|speed} is 30 feet, you must spend 15 feet of movement to mount a dewback. Therefore, you can't mount it if you don't have 15 feet of movement left or if your {@variantrule Speed|sw5e-phb|speed} is 0.",
-										"If an effect moves your mount against its will while you're on it, you must succeed on a DC 10 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} or fall off the mount, landing prone in a space within 5 feet of it. If you're knocked prone while mounted, you must make the same {@variantrule Saving Throw|sw5e-phb|saving throw}.",
-										"If your mount is knocked prone, you can use your {@variantrule Reaction|sw5e-phb} to dismount it as it falls and land on your feet. Otherwise, you are dismounted and fall prone in a space within 5 feet it.",
+										"If an effect moves your mount against its will while you're on it, you must succeed on a DC 10 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} or fall off the mount, landing prone in a space within 5 feet of it. If you're knocked {@condition Prone|sw5e-phb|prone} while mounted, you must make the same {@variantrule Saving Throw|sw5e-phb|saving throw}.",
+										"If your mount is knocked {@condition Prone|sw5e-phb|prone}, you can use your {@variantrule Reaction|sw5e-phb} to dismount it as it falls and land on your feet. Otherwise, you are dismounted and fall {@condition Prone|sw5e-phb|prone} in a space within 5 feet it.",
 										{
 											"type": "entries",
 											"name": "Controlling a Mount",
@@ -9277,7 +9277,7 @@
 										{
 											"type": "inset",
 											"entries": [
-												"For the crosscaster archetypes, such as Way of {@skill Technology|sw5e-phb} consular, you can simply flip the powers accordingly."
+												"For the crosscaster archetypes, such as Way of {@skill Technology} consular, you can simply flip the powers accordingly."
 											]
 										}
 									]
@@ -9748,8 +9748,8 @@
 										"If you would have superadvantage on a careful check, you can instead take 18. If you have hyperadvantage on a check, you can instead take 20."
 									]
 								},
-								"Occasionally, as GM, you might put forth a task for your players that is more difficult than they might be prepared for, and that task might have multiple ways to accomplish it, such as asking your operative to make an {@variantrule Ability Check|sw5e-phb|ability check} to {@optfeature Conceal|sw5e-phb|conceal} a device on a highly {@feat Perceptive|sw5e-phb|perceptive} individual. This task could be reasonable accomplished with a (Dexterity) Sleight of Hand check or a Charisma ({@skill Deception|sw5e-phb}) check. Rather than choosing between the two possible checks, the player could elect to do both. If they do so, they must make two separate {@variantrule Ability Check|sw5e-phb|ability checks}, but the target DC for the checks should be reduced by 5.",
-								"For instance, using the above example, you might set the DC for the initial check to be 25, allowing the character to {@optfeature Perform|sw5e-phb|perform} a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check or Charisma ({@skill Deception|sw5e-phb}) check. The player might instead decide to attempt both checks. If they do so, they must instead succeed on a DC 20 Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check and a DC 20 Charisma ({@skill Deception|sw5e-phb}) check. If they succeed on both checks, they accomplish their task. If the fail on either check, they fail the task regardless of the outcome of the other check.",
+								"Occasionally, as GM, you might put forth a task for your players that is more difficult than they might be prepared for, and that task might have multiple ways to accomplish it, such as asking your operative to make an {@variantrule Ability Check|sw5e-phb|ability check} to {@optfeature Conceal|sw5e-phb|conceal} a device on a highly {@feat Perceptive|sw5e-phb|perceptive} individual. This task could be reasonable accomplished with a (Dexterity) Sleight of Hand check or a Charisma ({@skill Deception}) check. Rather than choosing between the two possible checks, the player could elect to do both. If they do so, they must make two separate {@variantrule Ability Check|sw5e-phb|ability checks}, but the target DC for the checks should be reduced by 5.",
+								"For instance, using the above example, you might set the DC for the initial check to be 25, allowing the character to {@optfeature Perform|sw5e-phb|perform} a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check or Charisma ({@skill Deception}) check. The player might instead decide to attempt both checks. If they do so, they must instead succeed on a DC 20 Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check and a DC 20 Charisma ({@skill Deception}) check. If they succeed on both checks, they accomplish their task. If the fail on either check, they fail the task regardless of the outcome of the other check.",
 								{
 									"type": "entries",
 									"name": "Minimum DC",
@@ -10086,11 +10086,11 @@
 												],
 												[
 													"71-90",
-													"You remove a leg. The creature's {@variantrule Speed|sw5e-phb|speed} is halved if it has at least one more leg. Otherwise, its {@variantrule Speed|sw5e-phb|speed} is reduced to 0 and it is knocked prone."
+													"You remove a leg. The creature's {@variantrule Speed|sw5e-phb|speed} is halved if it has at least one more leg. Otherwise, its {@variantrule Speed|sw5e-phb|speed} is reduced to 0 and it is knocked {@condition Prone|sw5e-phb|prone}."
 												],
 												[
 													"91-98",
-													"You remove both legs. If the creature has more than two legs, its {@variantrule Speed|sw5e-phb|speed} is halved. Otherwise, its {@variantrule Speed|sw5e-phb|speed} is reduced to 0 and it is knocked prone."
+													"You remove both legs. If the creature has more than two legs, its {@variantrule Speed|sw5e-phb|speed} is halved. Otherwise, its {@variantrule Speed|sw5e-phb|speed} is reduced to 0 and it is knocked {@condition Prone|sw5e-phb|prone}."
 												],
 												[
 													"99-100",
@@ -10234,7 +10234,7 @@
 									"type": "entries",
 									"name": "Standing from Prone while Flanked",
 									"entries": [
-										"When a creature attempts to stand from prone while flanked, it can choose to make a Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check (DC = 10 + its penalty from flanking). On a success, the creature stands and can move to an unoccupied space within 5 feet of it without provoking {@action Opportunity Attack|sw5e-phb|opportunity attacks}. On a failure, the creature remains prone and loses the movement it would have used to stand."
+										"When a creature attempts to stand from prone while flanked, it can choose to make a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (DC = 10 + its penalty from flanking). On a success, the creature stands and can move to an unoccupied space within 5 feet of it without provoking {@action Opportunity Attack|sw5e-phb|opportunity attacks}. On a failure, the creature remains prone and loses the movement it would have used to stand."
 									]
 								},
 								"TThe Force is manifested by two powerful and opposing aspects: the Ashla and the Bogan, more commonly known as the light side and the dark. As force-wielding characters evolve throughout the game, they can gravitate towards one side or the other (or neither, should they choose), resulting in physical manifestations and boons.",
@@ -10786,7 +10786,7 @@
 											"type": "entries",
 											"name": "Tier I",
 											"entries": [
-												"When you or an ally within 30 feet of you makes a Charisma ({@skill Persuasion|sw5e-phb}) check to attempt to calm a creature or bring peace/alliance, you may spend a force point to add 1d4 to the result of the roll."
+												"When you or an ally within 30 feet of you makes a Charisma ({@skill Persuasion}) check to attempt to calm a creature or bring peace/alliance, you may spend a force point to add 1d4 to the result of the roll."
 											]
 										},
 										{
@@ -10884,7 +10884,7 @@
 											"type": "entries",
 											"name": "Tier I",
 											"entries": [
-												"You have {@variantrule Advantage|sw5e-phb|advantage} on Charisma ({@skill Intimidation|sw5e-phb}) checks and {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Insight|sw5e-phb}) checks made against creatures with a higher Wisdom score than you."
+												"You have {@variantrule Advantage|sw5e-phb|advantage} on Charisma ({@skill Intimidation}) checks and {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Insight}) checks made against creatures with a higher Wisdom score than you."
 											]
 										},
 										{
@@ -11920,7 +11920,7 @@
 									"type": "entries",
 									"name": "Repairing Damaged/Broken Weapons",
 									"entries": [
-										"A weapon is destroyed when it drops to 0 {@variantrule Hit Points|sw5e-phb|hit points}. As long as a weapon has 1 or more {@variantrule Hit Points|sw5e-phb|hit points} remaining, a character can attempt to {@optfeature Perform|sw5e-phb|perform} minor repairs by spending one or more of the weapon's Hit Dice at the end of a {@variantrule Short Rest|sw5e-phb|short rest}, up to the weapon's maximum number of Hit Dice. To restore hit dice, the player must first make an Intelligence ({@skill Technology|sw5e-phb}) check If a weapon has at least 1 HP remaining, you can attempt to make minor repairs to it during a {@variantrule Short Rest|sw5e-phb}. To attempt to restore HD, a character must make an Intelligence ({@skill Technology|sw5e-phb}) roll. The DC is 8 + the amount of damage the weapon has taken. The player has {@variantrule Advantage|sw5e-phb|advantage} on the roll if they know the {@i mending} {@book tech power|sw5e-phb|12|Tech Powers} or are proficient with the appropriate artisan's tools (armstech's tools for {@filter blasters|items|firearm=true} and {@filter vibroweapons|items|type=martial weapon}, artificer's tools for {@filter lightweapons|items|type=martial weapon|category=lightweapon}). On a failure, the Hit Die is expended and no {@variantrule Hit Points|sw5e-phb|hit points} are restored. On a success, the player can spend the weapon's Hit Dice to restore {@variantrule Hit Points|sw5e-phb|hit points}. The player can decide to spend an additional Hit Die after each roll.",
+										"A weapon is destroyed when it drops to 0 {@variantrule Hit Points|sw5e-phb|hit points}. As long as a weapon has 1 or more {@variantrule Hit Points|sw5e-phb|hit points} remaining, a character can attempt to {@optfeature Perform|sw5e-phb|perform} minor repairs by spending one or more of the weapon's Hit Dice at the end of a {@variantrule Short Rest|sw5e-phb|short rest}, up to the weapon's maximum number of Hit Dice. To restore hit dice, the player must first make an Intelligence ({@skill Technology}) check If a weapon has at least 1 HP remaining, you can attempt to make minor repairs to it during a {@variantrule Short Rest|sw5e-phb}. To attempt to restore HD, a character must make an Intelligence ({@skill Technology}) roll. The DC is 8 + the amount of damage the weapon has taken. The player has {@variantrule Advantage|sw5e-phb|advantage} on the roll if they know the {@i mending} {@book tech power|sw5e-phb|12|Tech Powers} or are proficient with the appropriate artisan's tools (armstech's tools for {@filter blasters|items|firearm=true} and {@filter vibroweapons|items|type=martial weapon}, artificer's tools for {@filter lightweapons|items|type=martial weapon|category=lightweapon}). On a failure, the Hit Die is expended and no {@variantrule Hit Points|sw5e-phb|hit points} are restored. On a success, the player can spend the weapon's Hit Dice to restore {@variantrule Hit Points|sw5e-phb|hit points}. The player can decide to spend an additional Hit Die after each roll.",
 										"A weapon regains Hit Dice when serviced by a professional with the appropriate artisan's tools, who can repair the weapon over a number of hours equal to the size of the weapon's damage dice. For instance, a {@item Blaster rifle|sw5e-phb} has a 1d8 damage die, so it would take 8 hours to repair. This service costs half the value of the weapon.",
 										{
 											"type": "inset",
@@ -12591,24 +12591,24 @@
 		"dateLastModified": 1780070312,
 		"skills": {
 			"Piloting": [
-				"Your Intelligence ({@skill Piloting|sw5e-phb}) check measures your ability to control vehicles, aircraft, and spaceships. {@skill Piloting|sw5e-phb} governs your ability to {@book maneuver|sw5e-phb|13|Maneuvers} through tight spaces and debris fields or dogfight with enemy craft.",
-				"{@homebrew A DnD5e character can count any proficiency in {@skill Vehicles (Land)} or {@skill Vehicles (Water)} as having proficiency in the {@skill Piloting|sw5e-phb} skill.}"
+				"Your Intelligence ({@skill Piloting}) check measures your ability to control vehicles, aircraft, and spaceships. {@skill Piloting} governs your ability to {@book maneuver|sw5e-phb|13|Maneuvers} through tight spaces and debris fields or dogfight with enemy craft.",
+				"{@homebrew A DnD5e character can count any proficiency in {@skill Vehicles (Land)} or {@skill Vehicles (Water)} as having proficiency in the {@skill Piloting} skill.}"
 			],
 			"Technology": [
-				"Your Intelligence ({@skill Technology|sw5e-phb}) checks measure your ability to recall information about droids, vehicles, spaceships, aircraft, and computers, as well as your ability to interface with them. {@skill Technology|sw5e-phb} can also be used to stabilize a droid or construct.",
-				"{@homebrew A DnD5e character should replace their {@skill Arcana} skill with the {@skill Technology|sw5e-phb} skill when determining proficiency.}"
+				"Your Intelligence ({@skill Technology}) checks measure your ability to recall information about droids, vehicles, spaceships, aircraft, and computers, as well as your ability to interface with them. {@skill Technology} can also be used to stabilize a droid or construct.",
+				"{@homebrew A DnD5e character should replace their {@skill Arcana} skill with the {@skill Technology} skill when determining proficiency.}"
 			],
 			"Lore": [
-				"Your Intelligence ({@skill Lore|sw5e-phb}) check measures your ability to recall information about the Force, artifacts, histories, and religions.",
-				"{@homebrew A DnD5e character should replace their {@skill History} and/or {@skill Religion} skills with the {@skill Lore|sw5e-phb} skill when determining proficiencies.}"
+				"Your Intelligence ({@skill Lore}) check measures your ability to recall information about the Force, artifacts, histories, and religions.",
+				"{@homebrew A DnD5e character should replace their {@skill History} and/or {@skill Religion} skills with the {@skill Lore} skill when determining proficiencies.}"
 			],
 			"Biochemist's Kit": [
 				"A {@item Biochemist's Kit|sw5e-phb} includes all of the necessary components to create and house standard adrenals, medpacs, and stimpacs.",
 				{
 					"type": "list",
 					"items": [
-						"{@b {@skill Investigation|sw5e-phb}}. Proficiency with a {@item Biochemist's kit|sw5e-phb|biochemist's kit} allows you to unlock more information on {@skill Investigation|sw5e-phb} checks involving adrenals, medpacs, and stimpacs",
-						"{@b {@skill Perception|sw5e-phb}}. When you inspect an area for clues, proficiency with {@item Biochemist's kit|sw5e-phb|biochemist's kit} grants additional insight into any chemicals or other substances that might have been used in the area."
+						"{@b {@skill Investigation}}. Proficiency with a {@item Biochemist's kit|sw5e-phb|biochemist's kit} allows you to unlock more information on {@skill Investigation} checks involving adrenals, medpacs, and stimpacs",
+						"{@b {@skill Perception}}. When you inspect an area for clues, proficiency with {@item Biochemist's kit|sw5e-phb|biochemist's kit} grants additional insight into any chemicals or other substances that might have been used in the area."
 					]
 				},
 				{
@@ -12655,8 +12655,8 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b {@skill Lore|sw5e-phb}}. Your knowledge of explosives grants you insight when answering questions about the most effective explosives for a given task.",
-						"{@b {@skill Investigation|sw5e-phb} and {@skill Perception|sw5e-phb}}. You gain additional insight when looking for mines and charges, because you have learned a variety of common signs that betray their presence."
+						"{@b {@skill Lore}}. Your knowledge of explosives grants you insight when answering questions about the most effective explosives for a given task.",
+						"{@b {@skill Investigation} and {@skill Perception}}. You gain additional insight when looking for mines and charges, because you have learned a variety of common signs that betray their presence."
 					]
 				},
 				{
@@ -12695,9 +12695,9 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b {@skill Lore|sw5e-phb}}. Your skill allows you to more readily discern the make and model of vehicle and ship parts.",
-						"{@b {@skill Investigation|sw5e-phb}}. Your experience lets you more readily identify aftermarket modifications in vehicles and ships.",
-						"{@b {@skill Technology|sw5e-phb}}. Your experience grants you greater insight when conducting repairs on ships or vehicles."
+						"{@b {@skill Lore}}. Your skill allows you to more readily discern the make and model of vehicle and ship parts.",
+						"{@b {@skill Investigation}}. Your experience lets you more readily identify aftermarket modifications in vehicles and ships.",
+						"{@b {@skill Technology}}. Your experience grants you greater insight when conducting repairs on ships or vehicles."
 					]
 				},
 				{
@@ -12747,8 +12747,8 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b {@skill Lore|sw5e-phb}}. Your knowledge of traps grants you insight when answering questions about locations that are renowned for their traps.",
-						"{@b {@skill Investigation|sw5e-phb} and {@skill Perception|sw5e-phb}}. You gain additional insight when looking for traps, because you have learned a variety of common signs that betray their presence."
+						"{@b {@skill Lore}}. Your knowledge of traps grants you insight when answering questions about locations that are renowned for their traps.",
+						"{@b {@skill Investigation} and {@skill Perception}}. You gain additional insight when looking for traps, because you have learned a variety of common signs that betray their presence."
 					]
 				},
 				{
@@ -12787,9 +12787,9 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b {@skill Lore|sw5e-phb}}. Your knowledge of digital securities grants you insight when answering questions about them.",
-						"{@b {@skill Investigation|sw5e-phb}}. You gain additional insight when looking for digital securities when using computers and terminals.",
-						"{@b {@skill Technology|sw5e-phb}}. Your knowledge of common digital security types makes it easier for you to identify them."
+						"{@b {@skill Lore}}. Your knowledge of digital securities grants you insight when answering questions about them.",
+						"{@b {@skill Investigation}}. You gain additional insight when looking for digital securities when using computers and terminals.",
+						"{@b {@skill Technology}}. Your knowledge of common digital security types makes it easier for you to identify them."
 					]
 				},
 				{
@@ -12821,49 +12821,49 @@
 				"{@homebrew A DnD5e character should consider replacing their proficiency with {@skill Thieves' Tools} with a proficiency with either a {@item Security kit|sw5e-phb}, {@item Slicer's Kit|sw5e-phb}, or {@item Trapper's Kit|sw5e-phb}.}"
 			],
 			"Athletics": [
-				"Your Strength ({@skill Athletics|sw5e-phb}) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:"
+				"Your Strength ({@skill Athletics}) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:"
 			],
 			"Acrobatics": [
-				"Your Dexterity ({@skill Acrobatics|sw5e-phb}) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking spaceship's deck. The GM might also call for a Dexterity ({@skill Acrobatics|sw5e-phb}) check to see if you can {@optfeature Perform|sw5e-phb|perform} acrobatic stunts, including dives, rolls, somersaults, and flips."
+				"Your Dexterity ({@skill Acrobatics}) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking spaceship's deck. The GM might also call for a Dexterity ({@skill Acrobatics}) check to see if you can {@optfeature Perform|sw5e-phb|perform} acrobatic stunts, including dives, rolls, somersaults, and flips."
 			],
 			"Sleight of Hand": [
 				"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check. The GM might also call for a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check to determine whether you can lift a wallet off another person or slip something out of another person's pocket."
 			],
 			"Stealth": [
-				"Make a Dexterity ({@skill Stealth|sw5e-phb}) check when you attempt to {@optfeature Conceal|sw5e-phb|conceal} yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
+				"Make a Dexterity ({@skill Stealth}) check when you attempt to {@optfeature Conceal|sw5e-phb|conceal} yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
 			],
 			"Investigation": [
-				"When you look around for clues and make deductions based on those clues, you make an Intelligence ({@skill Investigation|sw5e-phb}) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient materials in search of a hidden fragment of knowledge might also call for an Intelligence ({@skill Investigation|sw5e-phb}) check."
+				"When you look around for clues and make deductions based on those clues, you make an Intelligence ({@skill Investigation}) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient materials in search of a hidden fragment of knowledge might also call for an Intelligence ({@skill Investigation}) check."
 			],
 			"Nature": [
-				"Your Intelligence ({@skill Nature|sw5e-phb}) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles."
+				"Your Intelligence ({@skill Nature}) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles."
 			],
 			"Animal Handling": [
-				"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom ({@skill Animal Handling|sw5e-phb}) check. You also make a Wisdom ({@skill Animal Handling|sw5e-phb}) check to control your mount when you attempt a risky {@book maneuver|sw5e-phb|13|Maneuvers}."
+				"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom ({@skill Animal Handling}) check. You also make a Wisdom ({@skill Animal Handling}) check to control your mount when you attempt a risky {@book maneuver|sw5e-phb|13|Maneuvers}."
 			],
 			"Insight": [
-				"Your Wisdom ({@skill Insight|sw5e-phb}) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
+				"Your Wisdom ({@skill Insight}) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
 			],
 			"Medicine": [
-				"A Wisdom ({@skill Medicine|sw5e-phb}) check lets you try to stabilize a dying companion or diagnose an illness."
+				"A Wisdom ({@skill Medicine}) check lets you try to stabilize a dying companion or diagnose an illness."
 			],
 			"Perception": [
-				"Your Wisdom ({@skill Perception|sw5e-phb}) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door."
+				"Your Wisdom ({@skill Perception}) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door."
 			],
 			"Survival": [
-				"The GM might ask you to make a Wisdom ({@skill Survival|sw5e-phb}) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that rancors live nearby, predict the weather, or avoid quicksand and other natural hazards."
+				"The GM might ask you to make a Wisdom ({@skill Survival}) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that rancors live nearby, predict the weather, or avoid quicksand and other natural hazards."
 			],
 			"Deception": [
-				"Your Charisma ({@skill Deception|sw5e-phb}) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
+				"Your Charisma ({@skill Deception}) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
 			],
 			"Intimidation": [
-				"When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma ({@skill Intimidation|sw5e-phb}) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken {@item Bottle|sw5e-phb|bottle} to convince a sneering vizier to reconsider a decision."
+				"When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma ({@skill Intimidation}) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken {@item Bottle|sw5e-phb|bottle} to convince a sneering vizier to reconsider a decision."
 			],
 			"Performance": [
-				"Your Charisma ({@skill Performance|sw5e-phb}) check determines how well you can delight an audience with music, dance. acting, storytelling, or some other form of entertainment."
+				"Your Charisma ({@skill Performance}) check determines how well you can delight an audience with music, dance. acting, storytelling, or some other form of entertainment."
 			],
 			"Persuasion": [
-				"When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma ({@skill Persuasion|sw5e-phb}) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a Chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk."
+				"When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma ({@skill Persuasion}) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a Chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk."
 			]
 		},
 		"spellSchools": {

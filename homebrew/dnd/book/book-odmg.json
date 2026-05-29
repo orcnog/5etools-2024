@@ -263,7 +263,7 @@
 											"type": "entries",
 											"name": "Party-size variants",
 											"entries": [
-												"Encounters with a {@b Party Size} dropdown (see the example above) can link a {@i separate} pinned list for each variant (3, 4, 5 players, etc.). Switch the dropdown, link or save as usual, then switch variants again — each remembers its own link and party level. Initiative and Adjusted XP always reflect the currently selected variant."
+												"Encounters with a {@b Party Size} dropdown (see the example above) can link a {@i separate} pinned list for each variant (3, 4, 5 players, etc.). Switch the dropdown, link or save as usual, then switch variants again \u2014 each remembers its own link and party level. Initiative and Adjusted XP always reflect the currently selected variant."
 											]
 										},
 										{
@@ -343,7 +343,7 @@
 					"page": 1,
 					"id": "running the adventure",
 					"entries": [
-						"The sections below cover session prep and navigating adventure text at the table—practical guidance for running these digital adventures, not a full DMing primer.",
+						"The sections below cover session prep and navigating adventure text at the table\u2014practical guidance for running these digital adventures, not a full DMing primer.",
 						{
 							"type": "entries",
 							"name": "Prep",

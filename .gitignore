@@ -32,3 +32,6 @@ js/controller-config.js
 
 # Dev scripts
 dev-*.sh
+**/__pycache__/
+*.pyc
+homebrew/sw5e/book/*.bak
