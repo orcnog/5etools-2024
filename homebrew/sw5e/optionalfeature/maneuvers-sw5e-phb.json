@@ -1,5 +1,20 @@
 {
 	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-phb",
+				"abbreviation": "PHB",
+				"full": "SW5e: Player's Handbook",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
+				"color": "#aa0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		]
+	},
 	"optionalfeature": [
 		{
 			"name": "Administer Aid",
@@ -2247,20 +2262,5 @@
 				"When you or a friendly creature that you can see reduces a hostile creature to 0 hit points, you can use your reaction and expend a superiority die to give yourself or that friendly creature temporary hit points equal to the number rolled + your universal forcecasting modifier."
 			]
 		}
-	],
-	"_meta": {
-		"sources": [
-			{
-				"json": "sw5e-phb",
-				"abbreviation": "PHB",
-				"full": "SW5e: Player's Handbook",
-				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
-				"color": "#aa0000",
-				"authors": [],
-				"convertedBy": [
-					"orcnog"
-				]
-			}
-		]
-	}
+	]
 }

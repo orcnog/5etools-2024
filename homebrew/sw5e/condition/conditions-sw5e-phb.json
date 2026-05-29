@@ -1,5 +1,20 @@
 {
 	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-phb",
+				"abbreviation": "PHB",
+				"full": "SW5e: Player's Handbook",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
+				"color": "#aa0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		]
+	},
 	"condition": [
 		{
 			"name": "Blinded",
@@ -224,20 +239,5 @@
 				}
 			]
 		}
-	],
-	"_meta": {
-		"sources": [
-			{
-				"json": "sw5e-phb",
-				"abbreviation": "PHB",
-				"full": "SW5e: Player's Handbook",
-				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
-				"color": "#aa0000",
-				"authors": [],
-				"convertedBy": [
-					"orcnog"
-				]
-			}
-		]
-	}
+	]
 }
