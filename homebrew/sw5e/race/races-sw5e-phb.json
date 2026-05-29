@@ -57,21 +57,21 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Detail Oriented",
 					"entries": [
-						"You are practiced at scouring for details. You have advantage on Intelligence (Investigation) checks within 5 feet."
+						"You are {@feat Practiced|sw5e-phb|practiced} at scouring for details. You have {@variantrule Advantage|sw5e-phb|advantage} on Intelligence ({@skill Investigation|sw5e-phb}) checks within 5 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Keen Hearing and Smell",
 					"entries": [
-						"You have advantage on Wisdom (Perception) checks that involve hearing or smell."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception|sw5e-phb}) checks that involve hearing or smell."
 					]
 				},
 				{
@@ -85,21 +85,21 @@
 					"type": "entries",
 					"name": "Programmer",
 					"entries": [
-						"Whenever you make an Intelligence (Technology) check related to computers, you are considered to have expertise in the Technology skill."
+						"Whenever you make an Intelligence ({@skill Technology|sw5e-phb}) check related to computers, you are considered to have {@variantrule Expertise|sw5e-phb|expertise} in the {@skill Technology|sw5e-phb} skill."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Sonic Sensitivity",
 					"entries": [
-						"Your powerful sense of hearing makes you especially vulnerable to deafening sounds. You have disadvantage on saving throws against effects that would deal sonic damage (explained in chapter 9)."
+						"Your powerful sense of hearing makes you especially vulnerable to deafening sounds. You have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would deal sonic damage (explained in chapter 9)."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Trance",
 					"entries": [
-						"You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits."
+						"You only need 3 hours of sleep during a {@variantrule Long Rest|sw5e-phb|long rest} to gain its benefits, instead of 6. Additionally, if your {@variantrule Long Rest|sw5e-phb|long rest} would be interrupted, you only need to complete the {@variantrule Long Rest|sw5e-phb|long rest} instead of restarting it to gain its benefits."
 					]
 				},
 				{
@@ -170,7 +170,7 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
@@ -184,14 +184,14 @@
 					"type": "entries",
 					"name": "Nimble Escape",
 					"entries": [
-						"You can take the Disengage or Hide action as a bonus action on each of your turns."
+						"You can take the Disengage or {@action Hide|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb} on each of your turns."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Shrewd",
 					"entries": [
-						"You are proficient in the Insight and Deception skills."
+						"You are proficient in the {@skill Insight|sw5e-phb} and {@skill Deception|sw5e-phb} skills."
 					]
 				},
 				{
@@ -262,42 +262,42 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Cat's Claws",
 					"entries": [
-						"Your unarmed strikes deal 1d6 kinetic damage and have the finesse property."
+						"Your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} deal 1d6 kinetic damage and have {@itemProperty SWF|sw5e-phb|the finesse property}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Leonine Agility",
 					"entries": [
-						"Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns."
+						"Your reflexes and agility allow you to move with a burst of {@variantrule Speed|sw5e-phb|speed}. When you move on your turn in combat, you can double your {@variantrule Speed|sw5e-phb|speed} until the end of the turn. Once you use this trait, you can’t use it again until you move 0 feet on one of your turns."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Silent Step",
 					"entries": [
-						"You have proficiency in the Stealth skill."
+						"You have proficiency in the {@skill Stealth|sw5e-phb} skill."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Treeclimber",
 					"entries": [
-						"You have a climbing speed of 30 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing."
+						"You have a climbing {@variantrule Speed|sw5e-phb|speed} of 30 feet. You have {@variantrule Advantage|sw5e-phb|advantage} on Strength {@variantrule Saving Throw|sw5e-phb|saving throws} and Strength ({@skill Athletics|sw5e-phb}) checks that involve climbing."
 					]
 				},
 				{
@@ -369,42 +369,42 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Intuitive Initiative",
 					"entries": [
-						"You can choose to reroll Initiative checks, but you must use the new roll."
+						"You can choose to reroll {@variantrule Initiative|sw5e-phb} checks, but you must use the new roll."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Natural Instinct",
 					"entries": [
-						"You have proficiency with Nature or Perception (your choice)."
+						"You have proficiency with {@skill Nature|sw5e-phb} or {@skill Perception|sw5e-phb} (your choice)."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Prediction",
 					"entries": [
-						"You can embrace the Force and use your advanced insight to predict likely outcomes, allowing you to turn failures into successes. When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+						"You can embrace the Force and use your advanced insight to predict likely outcomes, allowing you to turn failures into successes. When you roll a 1 on an {@variantrule Attack Roll|sw5e-phb|attack roll}, {@variantrule Ability Check|sw5e-phb|ability check}, or {@variantrule Saving Throw|sw5e-phb|saving throw}, you can reroll the die and must use the new roll."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Second Heart",
 					"entries": [
-						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest."
+						"When you are reduced to 0 {@variantrule Hit Points|sw5e-phb|hit points} but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Trance",
 					"entries": [
-						"You only need 3 hours of sleep during a long rest to gain its benefits, instead of 6. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it to gain its benefits."
+						"You only need 3 hours of sleep during a {@variantrule Long Rest|sw5e-phb|long rest} to gain its benefits, instead of 6. Additionally, if your {@variantrule Long Rest|sw5e-phb|long rest} would be interrupted, you only need to complete the {@variantrule Long Rest|sw5e-phb|long rest} instead of restarting it to gain its benefits."
 					]
 				},
 				{
@@ -475,35 +475,35 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Martial Proficiency",
 					"entries": [
-						"You have proficiency with light and medium armor as well as the heavy pistol and sniper rifle."
+						"You have proficiency with light and {@filter medium armor|items|type=medium armor} as well as the {@item Heavy pistol|sw5e-phb} and {@item Sniper rifle|sw5e-phb|sniper rifle}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Politically Minded",
 					"entries": [
-						"You have proficiency in the Insight skill."
+						"You have proficiency in the {@skill Insight|sw5e-phb} skill."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Tech Resistance",
 					"entries": [
-						"Growing up around technology leaves an impact on chiss. You have advantage on Dexterity and Intelligence saving throws against tech powers."
+						"Growing up around technology leaves an impact on chiss. You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity and Intelligence {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Superior Darkvision",
 					"entries": [
-						"Your vision can easily cut through darkness. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 120 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
@@ -575,49 +575,49 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Curiosity",
 					"entries": [
-						"You have proficiency with Survival or Investigation (your choice)."
+						"You have proficiency with {@skill Survival|sw5e-phb} or {@skill Investigation|sw5e-phb} (your choice)."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Heat Adaptation",
 					"entries": [
-						"You have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on Constitution {@variantrule Saving Throw|sw5e-phb|saving throws} made to avoid {@condition Exhaustion|sw5e-phb|exhaustion} due to extreme heat."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Jungle Dweller",
 					"entries": [
-						"Growing up in the jungles of Devaron has left an impact. You don’t treat jungle terrain as difficult terrain."
+						"Growing up in the jungles of Devaron has left an impact. You don’t treat jungle terrain as {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Silver Tongue",
 					"entries": [
-						"You have proficiency with Deception or Persuasion (your choice)."
+						"You have proficiency with {@skill Deception|sw5e-phb} or {@skill Persuasion|sw5e-phb} (your choice)."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Tech Resistance",
 					"entries": [
-						"Growing up around technology leaves an impact on devaronians. You have advantage on Dexterity and Intelligence saving throws against tech powers."
+						"Growing up around technology leaves an impact on devaronians. You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity and Intelligence {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Two Livered",
 					"entries": [
-						"Devaronians have two livers, which makes them adept at filtering toxins. You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9)."
+						"Devaronians have two livers, which makes them adept at filtering toxins. You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@item Poison|sw5e-phb|poison}, and you have {@spell Resistance|sw5e-phb|resistance} against {@item Poison|sw5e-phb|poison} damage (explained in chapter 9)."
 					]
 				},
 				{
@@ -690,7 +690,7 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 25 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
 				},
 				{
@@ -704,35 +704,35 @@
 					"type": "entries",
 					"name": "Armor Integration",
 					"entries": [
-						"You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a long rest. This work must be done by someone proficient with astrotech's implements. You must be proficient in armor in order to have it integrated."
+						"You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a {@variantrule Long Rest|sw5e-phb|long rest}. This work must be done by someone proficient with {@item Astrotech's implements|sw5e-phb|astrotech's implements}. You must be proficient in armor in order to have it integrated."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Resistances",
 					"entries": [
-						"You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease."
+						"You are resistant to necrotic, {@item Poison|sw5e-phb|poison}, and psychic damage, and are immune to {@item Poison|sw5e-phb|poison} and disease."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Systems",
 					"entries": [
-						"You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast tech powers."
+						"You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Vulnerabilities",
 					"entries": [
-						"You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage."
+						"You are vulnerable to ion damage. Additionally, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would deal ion or lightning damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Force-Insensitive",
 					"entries": [
-						"While droids can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes."
+						"While droids can be manipulated by many {@book force powers|sw5e-phb|11|Force Powers}, they can not sense the Force. You can not use {@book force powers|sw5e-phb|11|Force Powers} or take levels in {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} classes."
 					]
 				},
 				{
@@ -746,14 +746,14 @@
 					"type": "entries",
 					"name": "Maintenance Mode",
 					"entries": [
-						"Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it."
+						"Rather than sleep, you must spend 3 hours performing routine maintenance during a {@variantrule Long Rest|sw5e-phb|long rest} to gain its benefits, during which you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) checks. Additionally, if your {@variantrule Long Rest|sw5e-phb|long rest} would be interrupted, you only need to complete the {@variantrule Long Rest|sw5e-phb|long rest} instead of restarting it."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Rapid Reconstruction",
 					"entries": [
-						"You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points."
+						"You are built with internal repair mechanisms. As a {@variantrule Bonus Action|sw5e-phb}, you can choose to spend one of your Hit Dice to recover {@variantrule Hit Points|sw5e-phb|hit points}."
 					]
 				},
 				{
@@ -823,7 +823,7 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 25 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
 				},
 				{
@@ -837,56 +837,56 @@
 					"type": "entries",
 					"name": "Armor Integration",
 					"entries": [
-						"You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a long rest. This work must be done by someone proficient with astrotech's implements. You must be proficient in armor in order to have it integrated."
+						"You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a {@variantrule Long Rest|sw5e-phb|long rest}. This work must be done by someone proficient with {@item Astrotech's implements|sw5e-phb|astrotech's implements}. You must be proficient in armor in order to have it integrated."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Resistances",
 					"entries": [
-						"You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease."
+						"You are resistant to necrotic, {@item Poison|sw5e-phb|poison}, and psychic damage, and are immune to {@item Poison|sw5e-phb|poison} and disease."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Systems",
 					"entries": [
-						"You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast tech powers."
+						"You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Vulnerabilities",
 					"entries": [
-						"You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage."
+						"You are vulnerable to ion damage. Additionally, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would deal ion or lightning damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Force-Insensitive",
 					"entries": [
-						"While droids can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes."
+						"While droids can be manipulated by many {@book force powers|sw5e-phb|11|Force Powers}, they can not sense the Force. You can not use {@book force powers|sw5e-phb|11|Force Powers} or take levels in {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} classes."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Integrated Engineering",
 					"entries": [
-						"You have proficiency in one specialist's kit of your choice. The chosen kit is integrated into your chassis, and can not be removed while you are conscious."
+						"You have proficiency in one {@feat Specialist|sw5e-phb|specialist}'s kit of your choice. The chosen kit is integrated into your chassis, and can not be removed while you are conscious."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Maintenance Mode",
 					"entries": [
-						"Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it."
+						"Rather than sleep, you must spend 3 hours performing routine maintenance during a {@variantrule Long Rest|sw5e-phb|long rest} to gain its benefits, during which you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) checks. Additionally, if your {@variantrule Long Rest|sw5e-phb|long rest} would be interrupted, you only need to complete the {@variantrule Long Rest|sw5e-phb|long rest} instead of restarting it."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Rapid Reconstruction",
 					"entries": [
-						"You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points."
+						"You are built with internal repair mechanisms. As a {@variantrule Bonus Action|sw5e-phb}, you can choose to spend one of your Hit Dice to recover {@variantrule Hit Points|sw5e-phb|hit points}."
 					]
 				},
 				{
@@ -900,7 +900,7 @@
 					"type": "entries",
 					"name": "Undersized",
 					"entries": [
-						"Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
+						"Your small stature makes it hard for you to wield bigger weapons. You can't use heavy {@item Shield|sw5e-phb|shields}. Additionally, you can't use {@filter Martial weapons|items|type=martial weapon} with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
 					]
 				},
 				{
@@ -969,7 +969,7 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 25 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
 				},
 				{
@@ -983,56 +983,56 @@
 					"type": "entries",
 					"name": "Armor Integration",
 					"entries": [
-						"You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a long rest. This work must be done by someone proficient with astrotech's implements. You must be proficient in armor in order to have it integrated."
+						"You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a {@variantrule Long Rest|sw5e-phb|long rest}. This work must be done by someone proficient with {@item Astrotech's implements|sw5e-phb|astrotech's implements}. You must be proficient in armor in order to have it integrated."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Resistances",
 					"entries": [
-						"You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease."
+						"You are resistant to necrotic, {@item Poison|sw5e-phb|poison}, and psychic damage, and are immune to {@item Poison|sw5e-phb|poison} and disease."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Systems",
 					"entries": [
-						"You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast tech powers."
+						"You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Vulnerabilities",
 					"entries": [
-						"You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage."
+						"You are vulnerable to ion damage. Additionally, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would deal ion or lightning damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Force-Insensitive",
 					"entries": [
-						"While droids can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes."
+						"While droids can be manipulated by many {@book force powers|sw5e-phb|11|Force Powers}, they can not sense the Force. You can not use {@book force powers|sw5e-phb|11|Force Powers} or take levels in {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} classes."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Knowledge Protocol",
 					"entries": [
-						"You have proficiency in the Lore skill."
+						"You have proficiency in the {@skill Lore|sw5e-phb} skill."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Maintenance Mode",
 					"entries": [
-						"Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it."
+						"Rather than sleep, you must spend 3 hours performing routine maintenance during a {@variantrule Long Rest|sw5e-phb|long rest} to gain its benefits, during which you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) checks. Additionally, if your {@variantrule Long Rest|sw5e-phb|long rest} would be interrupted, you only need to complete the {@variantrule Long Rest|sw5e-phb|long rest} instead of restarting it."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Rapid Reconstruction",
 					"entries": [
-						"You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points."
+						"You are built with internal repair mechanisms. As a {@variantrule Bonus Action|sw5e-phb}, you can choose to spend one of your Hit Dice to recover {@variantrule Hit Points|sw5e-phb|hit points}."
 					]
 				},
 				{
@@ -1100,7 +1100,7 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
@@ -1114,56 +1114,56 @@
 					"type": "entries",
 					"name": "Armor Integration",
 					"entries": [
-						"You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a long rest. This work must be done by someone proficient with astrotech's implements. You must be proficient in armor in order to have it integrated."
+						"You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a {@variantrule Long Rest|sw5e-phb|long rest}. This work must be done by someone proficient with {@item Astrotech's implements|sw5e-phb|astrotech's implements}. You must be proficient in armor in order to have it integrated."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Resistances",
 					"entries": [
-						"You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease."
+						"You are resistant to necrotic, {@item Poison|sw5e-phb|poison}, and psychic damage, and are immune to {@item Poison|sw5e-phb|poison} and disease."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Systems",
 					"entries": [
-						"You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast tech powers."
+						"You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Vulnerabilities",
 					"entries": [
-						"You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage."
+						"You are vulnerable to ion damage. Additionally, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would deal ion or lightning damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Force-Insensitive",
 					"entries": [
-						"While droids can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes."
+						"While droids can be manipulated by many {@book force powers|sw5e-phb|11|Force Powers}, they can not sense the Force. You can not use {@book force powers|sw5e-phb|11|Force Powers} or take levels in {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} classes."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Maintenance Mode",
 					"entries": [
-						"Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it."
+						"Rather than sleep, you must spend 3 hours performing routine maintenance during a {@variantrule Long Rest|sw5e-phb|long rest} to gain its benefits, during which you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) checks. Additionally, if your {@variantrule Long Rest|sw5e-phb|long rest} would be interrupted, you only need to complete the {@variantrule Long Rest|sw5e-phb|long rest} instead of restarting it."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Martial Protocol",
 					"entries": [
-						"You have proficiency with light and medium armor as well as two simple or martial blasters or vibroweapons of your choice."
+						"You have proficiency with light and {@filter medium armor|items|type=medium armor} as well as two simple or martial {@filter blasters|items|firearm=true} or {@filter vibroweapons|items|type=martial weapon} of your choice."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Rapid Reconstruction",
 					"entries": [
-						"You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points."
+						"You are built with internal repair mechanisms. As a {@variantrule Bonus Action|sw5e-phb}, you can choose to spend one of your Hit Dice to recover {@variantrule Hit Points|sw5e-phb|hit points}."
 					]
 				},
 				{
@@ -1231,7 +1231,7 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
@@ -1245,49 +1245,49 @@
 					"type": "entries",
 					"name": "Armor Integration",
 					"entries": [
-						"You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a long rest. This work must be done by someone proficient with astrotech's implements. You must be proficient in armor in order to have it integrated."
+						"You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a {@variantrule Long Rest|sw5e-phb|long rest}. This work must be done by someone proficient with {@item Astrotech's implements|sw5e-phb|astrotech's implements}. You must be proficient in armor in order to have it integrated."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Resistances",
 					"entries": [
-						"You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease."
+						"You are resistant to necrotic, {@item Poison|sw5e-phb|poison}, and psychic damage, and are immune to {@item Poison|sw5e-phb|poison} and disease."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Systems",
 					"entries": [
-						"You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast tech powers."
+						"You do not need to eat, drink, or breathe. Additionally, you no longer require a tech focus to cast {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Droid Vulnerabilities",
 					"entries": [
-						"You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage."
+						"You are vulnerable to ion damage. Additionally, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would deal ion or lightning damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Force-Insensitive",
 					"entries": [
-						"While droids can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes."
+						"While droids can be manipulated by many {@book force powers|sw5e-phb|11|Force Powers}, they can not sense the Force. You can not use {@book force powers|sw5e-phb|11|Force Powers} or take levels in {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} classes."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Maintenance Mode",
 					"entries": [
-						"Rather than sleep, you must spend 3 hours performing routine maintenance during a long rest to gain its benefits, during which you have disadvantage on Wisdom (Perception) checks. Additionally, if your long rest would be interrupted, you only need to complete the long rest instead of restarting it."
+						"Rather than sleep, you must spend 3 hours performing routine maintenance during a {@variantrule Long Rest|sw5e-phb|long rest} to gain its benefits, during which you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) checks. Additionally, if your {@variantrule Long Rest|sw5e-phb|long rest} would be interrupted, you only need to complete the {@variantrule Long Rest|sw5e-phb|long rest} instead of restarting it."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Manual Laborer",
 					"entries": [
-						"You have proficiency in Athletics and one set of artisan's implements of your choice."
+						"You have proficiency in {@skill Athletics|sw5e-phb} and one set of artisan's implements of your choice."
 					]
 				},
 				{
@@ -1301,7 +1301,7 @@
 					"type": "entries",
 					"name": "Rapid Reconstruction",
 					"entries": [
-						"You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points."
+						"You are built with internal repair mechanisms. As a {@variantrule Bonus Action|sw5e-phb}, you can choose to spend one of your Hit Dice to recover {@variantrule Hit Points|sw5e-phb|hit points}."
 					]
 				},
 				{
@@ -1369,21 +1369,21 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Galactic Traveler",
 					"entries": [
-						"You have proficiency in the Piloting and Lore skills."
+						"You have proficiency in the {@skill Piloting|sw5e-phb} and {@skill Lore|sw5e-phb} skills."
 					]
 				},
 				{
@@ -1397,14 +1397,14 @@
 					"type": "entries",
 					"name": "Superior Memory",
 					"entries": [
-						"You can double your proficiency bonus for it when you make an Intelligence (Lore) check to recall information you have learned, or to recall the details of your experiences."
+						"You can double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} for it when you make an Intelligence ({@skill Lore|sw5e-phb}) check to recall information you have learned, or to recall the details of your experiences."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Tech Resistance",
 					"entries": [
-						"Growing up around technology leaves an impact on duros. You have advantage on Dexterity and Intelligence saving throws against tech powers."
+						"Growing up around technology leaves an impact on duros. You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity and Intelligence {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
 				},
 				{
@@ -1474,21 +1474,21 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 25 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Crude Weapon Specialists",
 					"entries": [
-						"Ewoks are used to making do with less. You can spend 1 hour, which you can do over the course of a short rest, crafting a weapon out of loose materials. You can craft any simple kinetic weapon, but the weapon's damage suffers a -1 penalty."
+						"Ewoks are used to making do with less. You can spend 1 hour, which you can do over the course of a {@variantrule Short Rest|sw5e-phb|short rest}, crafting a weapon out of loose materials. You can craft any simple kinetic weapon, but the weapon's damage suffers a -1 penalty."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Keen Smell",
 					"entries": [
-						"You have advantage on Wisdom (Perception) checks that rely on smell."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on smell."
 					]
 				},
 				{
@@ -1509,21 +1509,21 @@
 					"type": "entries",
 					"name": "Natural Survivalist",
 					"entries": [
-						"You have proficiency in Nature and Survival."
+						"You have proficiency in {@skill Nature|sw5e-phb} and {@skill Survival|sw5e-phb}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Treeclimber",
 					"entries": [
-						"You have a climbing speed of 25 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing."
+						"You have a climbing {@variantrule Speed|sw5e-phb|speed} of 25 feet. You have {@variantrule Advantage|sw5e-phb|advantage} on Strength {@variantrule Saving Throw|sw5e-phb|saving throws} and Strength ({@skill Athletics|sw5e-phb}) checks that involve climbing."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Undersized",
 					"entries": [
-						"Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
+						"Your small stature makes it hard for you to wield bigger weapons. You can't use heavy {@item Shield|sw5e-phb|shields}. Additionally, you can't use {@filter Martial weapons|items|type=martial weapon} with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
 					]
 				},
 				{
@@ -1592,28 +1592,28 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Gamorrean Toughness",
 					"entries": [
-						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level. Additionally, you have advantage on Constitution saving throws."
+						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level. Additionally, you have {@variantrule Advantage|sw5e-phb|advantage} on Constitution {@variantrule Saving Throw|sw5e-phb|saving throws}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Gamorrean Weaponry",
 					"entries": [
-						"You have proficiency with the vibroaxe, vibromace, and vibrosword."
+						"You have proficiency with the {@item Vibroaxe|sw5e-phb|vibroaxe}, {@item Vibromace|sw5e-phb|vibromace}, and {@item Vibrosword|sw5e-phb|vibrosword}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Savage Attacks",
 					"entries": [
-						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+						"When you score a {@variantrule Critical Hit|sw5e-phb|critical hit} with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack}, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the {@variantrule Critical Hit|sw5e-phb|critical hit}."
 					]
 				},
 				{
@@ -1680,7 +1680,7 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
@@ -1694,42 +1694,42 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Flexible",
 					"entries": [
-						"You have advantage on Dexterity (Acrobatics) checks that involve flexibility."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Acrobatics|sw5e-phb}) checks that involve flexibility."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Heat Sensitivity",
 					"entries": [
-						"You have disadvantage on Constitution saving throws made to avoid exhaustion due to extreme heat."
+						"You have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Constitution {@variantrule Saving Throw|sw5e-phb|saving throws} made to avoid {@condition Exhaustion|sw5e-phb|exhaustion} due to extreme heat."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Martial Proficiency",
 					"entries": [
-						"You have proficiency with light and medium armor as well as the techstaff and vibropike."
+						"You have proficiency with light and {@filter medium armor|items|type=medium armor} as well as the {@item Techstaff|sw5e-phb|techstaff} and {@item Vibropike|sw5e-phb|vibropike}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Strong-Legged",
 					"entries": [
-						"When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier."
+						"When you make a long jump, you can {@variantrule Cover|sw5e-phb|cover} a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Swim",
 					"entries": [
-						"You have a swimming speed of 30 feet."
+						"You have a swimming {@variantrule Speed|sw5e-phb|speed} of 30 feet."
 					]
 				},
 				{
@@ -1800,14 +1800,14 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Defiant",
 					"entries": [
-						"Humans are known to be stubborn and often refuse to give up, even against the worst odds. When you or a creature you can see that can see and understand you makes an ability check, attack roll, or saving throw, you can roll a d4 and add it to their roll (no action required). Once you've used this feature, you must complete a short or long rest before you can use it again."
+						"Humans are known to be stubborn and often refuse to give up, even against the worst odds. When you or a creature you can see that can see and understand you makes an {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw}, you can roll a {@dice d4} and add it to their roll (no action required). Once you've used this feature, you must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 					]
 				},
 				{
@@ -1884,14 +1884,14 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Call for Peace",
 					"entries": [
-						"As an action on your turn, you can emphatically demand that your foes embrace peace, thereby distracting them. Until the end of your next turn, enemies within 10 feet of you that can see you gain disadvantage on attack rolls against your allies. Once you use this trait, you can't use it again until you finish a short or long rest."
+						"As an action on your turn, you can emphatically demand that your foes embrace peace, thereby distracting them. Until the end of your next turn, enemies within 10 feet of you that can see you gain {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} against your allies. Once you use this trait, you can't use it again until you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
@@ -1905,14 +1905,14 @@
 					"type": "entries",
 					"name": "Law of Life",
 					"entries": [
-						"Ithorians have a sacred respect for the natural world, taking great care to preserve and study it. You have proficiency in the Nature skill and the bioanalysis kit."
+						"Ithorians have a sacred respect for the natural world, taking great care to preserve and study it. You have proficiency in the {@skill Nature|sw5e-phb} skill and the bioanalysis kit."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Sonic Scream",
 					"entries": [
-						"As an action, you can violently expel air in a 15-foot cone. When you do so, each creature in the area of the exhalation must make a Wisdom saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). A creature takes 2d6 sonic damage on a failed save, and half as much damage on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th level. This ability has no effect on constructs. You can use this feature a number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest."
+						"As an action, you can violently expel air in a 15-foot cone. When you do so, each creature in the area of the exhalation must make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Constitution modifier). A creature takes 2d6 sonic damage on a failed save, and half as much damage on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th level. This ability has no effect on constructs. You can use this feature a number of times equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. You regain all expended uses when you complete a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
@@ -1984,35 +1984,35 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 25 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Grovel, Cower, and Beg",
 					"entries": [
-						"As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can’t use it again until you finish a short or long rest."
+						"As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} against enemies within 10 feet of you that can see you. Once you use this trait, you can’t use it again until you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Heat Adaptation",
 					"entries": [
-						"You have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on Constitution {@variantrule Saving Throw|sw5e-phb|saving throws} made to avoid {@condition Exhaustion|sw5e-phb|exhaustion} due to extreme heat."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Tech Dabbler",
 					"entries": [
-						"You know the {@i ion blast} at-will tech power. When you reach 3rd level, you learn and can cast the {@i repair droid} tech power once per long rest. When you reach 5th level, you learn and can cast the {@i hold droid} tech power once per long rest. Your techcasting ability is Intelligence. You do not require use of a wristpad for these powers."
+						"You know the {@i ion blast} at-will {@book tech power|sw5e-phb|12|Tech Powers}. When you reach 3rd level, you learn and can cast the {@i repair droid} {@book tech power|sw5e-phb|12|Tech Powers} once per {@variantrule Long Rest|sw5e-phb|long rest}. When you reach 5th level, you learn and can cast the {@i hold droid} {@book tech power|sw5e-phb|12|Tech Powers} once per {@variantrule Long Rest|sw5e-phb|long rest}. Your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} is Intelligence. You do not require use of a {@item Wristpad|sw5e-phb|wristpad} for these powers."
 					]
 				},
 				{
@@ -2026,14 +2026,14 @@
 					"type": "entries",
 					"name": "Tinker",
 					"entries": [
-						"You have proficiency with tinker’s implements. You can use these and spend 1 hour and 100 cr worth of materials to construct a Tiny Device (AC 5, 1 hp). You can take the Use an Object action to have your device cause one of the following effects: create a small explosion, create a repeating loud noise for 1 minute, create smoke for 1 minute, cause a small electrical fire. You can maintain a number of these devices up to your proficiency bonus at once, and a device stops functioning after 24 hours away from you. You can dismantle the device to reclaim the materials used to create it."
+						"You have proficiency with tinker’s implements. You can use these and spend 1 hour and 100 cr worth of materials to construct a Tiny Device (AC 5, 1 hp). You can take the {@action Use an Object|sw5e-phb} action to have your device cause one of the following effects: create a small {@spell Explosion|sw5e-phb|explosion}, create a repeating loud noise for 1 minute, create smoke for 1 minute, cause a small electrical fire. You can maintain a number of these devices up to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} at once, and a device stops functioning after 24 hours away from you. You can dismantle the device to reclaim the materials used to create it."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Undersized",
 					"entries": [
-						"Your small stature makes it hard for you to wield bigger weapons. You can’t use heavy shields. Additionally, you can’t use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
+						"Your small stature makes it hard for you to wield bigger weapons. You can’t use heavy {@item Shield|sw5e-phb|shields}. Additionally, you can’t use {@filter Martial weapons|items|type=martial weapon} with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands."
 					]
 				},
 				{
@@ -2103,14 +2103,14 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your natural evolution allows you to see what others do not in dim and dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"Your natural evolution allows you to see what others do not in dim and dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can't discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
@@ -2124,7 +2124,7 @@
 					"type": "entries",
 					"name": "Life in the Void",
 					"entries": [
-						"You have resistance to necrotic damage, and while exposed to the vacuum of space, you can survive for a number of hours equal to your Constitution modifier (minimum 1 hour), instead of a number of rounds."
+						"You have {@spell Resistance|sw5e-phb|resistance} to necrotic damage, and while exposed to the vacuum of space, you can {@optfeature Survive|sw5e-phb|survive} for a number of hours equal to your Constitution modifier (minimum 1 hour), instead of a number of rounds."
 					]
 				},
 				{
@@ -2203,7 +2203,7 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
@@ -2217,14 +2217,14 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can't discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Mon Calamari Resistance",
 					"entries": [
-						"You have advantage on saving throws against effects that grant the slowed condition and you have resistance against cold damage (explained in chapter 9)."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that grant the {@condition Slowed|sw5e-phb|slowed} condition and you have {@spell Resistance|sw5e-phb|resistance} against cold damage (explained in chapter 9)."
 					]
 				},
 				{
@@ -2238,7 +2238,7 @@
 					"type": "entries",
 					"name": "Swim",
 					"entries": [
-						"You have a swimming speed of 30 feet."
+						"You have a swimming {@variantrule Speed|sw5e-phb|speed} of 30 feet."
 					]
 				},
 				{
@@ -2311,14 +2311,14 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Acute Smell",
 					"entries": [
-						"Whenever you make a Wisdom (Perception) check involving smell, you are considered to have expertise in the Perception skill."
+						"Whenever you make a Wisdom ({@skill Perception|sw5e-phb}) check involving smell, you are considered to have {@variantrule Expertise|sw5e-phb|expertise} in the {@skill Perception|sw5e-phb} skill."
 					]
 				},
 				{
@@ -2332,28 +2332,28 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Hide",
 					"entries": [
-						"You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier."
+						"You have a thick hide. While you are unarmored or wearing {@filter light armor|items|type=light armor}, your AC is 12 + your Dexterity modifier."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Natural Empathy",
 					"entries": [
-						"Nautolan head tentacles are adept at determining moods. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you."
+						"Nautolan head tentacles are adept at determining moods. You have {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Insight|sw5e-phb}) checks to determine emotions against humanoids and beasts within 10 feet of you."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Swim",
 					"entries": [
-						"You have a swimming speed of 30 feet."
+						"You have a swimming {@variantrule Speed|sw5e-phb|speed} of 30 feet."
 					]
 				},
 				{
@@ -2424,35 +2424,35 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Adept Climbers",
 					"entries": [
-						"You have a climbing speed of 30 feet."
+						"You have a climbing {@variantrule Speed|sw5e-phb|speed} of 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Keen Hearing and Smell",
 					"entries": [
-						"You have advantage on Wisdom (Perception) checks that involve hearing or smell."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception|sw5e-phb}) checks that involve hearing or smell."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Stalking Hunter",
 					"entries": [
-						"You have proficiency in the Survival and Stealth skills."
+						"You have proficiency in the {@skill Survival|sw5e-phb} and {@skill Stealth|sw5e-phb} skills."
 					]
 				},
 				{
@@ -2524,35 +2524,35 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Force-Sensitive",
 					"entries": [
-						"You know the {@i denounce} at-will force power. When you reach 3rd level, you learn and can cast the {@i curse} force power once per long rest. When you reach 5th level, you learn and can cast the {@i bestow curse} force power once per long rest. Your forcecasting ability is Charisma for these powers."
+						"You know the {@i denounce} at-will {@book force power|sw5e-phb|11|Force Powers}. When you reach 3rd level, you learn and can cast the {@i curse} {@book force power|sw5e-phb|11|Force Powers} once per {@variantrule Long Rest|sw5e-phb|long rest}. When you reach 5th level, you learn and can cast the {@i bestow curse} {@book force power|sw5e-phb|11|Force Powers} once per {@variantrule Long Rest|sw5e-phb|long rest}. Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} is Charisma for these powers."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Keen Senses",
 					"entries": [
-						"You have proficiency in the Perception skill."
+						"You have proficiency in the {@skill Perception|sw5e-phb} skill."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Menacing",
 					"entries": [
-						"You have proficiency in the Intimidation skill."
+						"You have proficiency in the {@skill Intimidation|sw5e-phb} skill."
 					]
 				},
 				{
@@ -2625,7 +2625,7 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
@@ -2646,7 +2646,7 @@
 					"type": "entries",
 					"name": "Wild Hunters",
 					"entries": [
-						"You have proficiency in the Survival skill."
+						"You have proficiency in the {@skill Survival|sw5e-phb} skill."
 					]
 				},
 				{
@@ -2718,42 +2718,42 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Claws",
 					"entries": [
-						"Your claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage."
+						"Your claws are natural weapons, which you can use to make {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes}. Additionally, your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} deal 1d4 kinetic damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Hide",
 					"entries": [
-						"You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier."
+						"You have a thick hide. While you are unarmored or wearing {@filter light armor|items|type=light armor}, your AC is 12 + your Dexterity modifier."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Regenerative",
 					"entries": [
-						"When you take damage, you can use your reaction and expend a Hit Die to regain hit points as long as the damage would not reduce your hit points to 0."
+						"When you take damage, you can use your {@variantrule Reaction|sw5e-phb} and expend a Hit Die to regain {@variantrule Hit Points|sw5e-phb|hit points} as long as the damage would not reduce your {@variantrule Hit Points|sw5e-phb|hit points} to 0."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Saving Face",
 					"entries": [
-						"Trandoshans are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can’t use it again until you finish a short or long rest."
+						"Trandoshans are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an {@variantrule Attack Roll|sw5e-phb|attack roll} or fail an {@variantrule Ability Check|sw5e-phb|ability check} or a {@variantrule Saving Throw|sw5e-phb|saving throw}, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can’t use it again until you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
@@ -2821,56 +2821,56 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Aggressive",
 					"entries": [
-						"As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started."
+						"As a {@variantrule Bonus Action|sw5e-phb}, you can move up to your {@variantrule Speed|sw5e-phb|speed} toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Animal Handler",
 					"entries": [
-						"You have proficiency in the Animal Handling skill."
+						"You have proficiency in the {@skill Animal Handling|sw5e-phb} skill."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Desert Protection",
 					"entries": [
-						"You have advantage on saving throws against being blinded."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against being {@condition Blinded|sw5e-phb|blinded}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Fearsome Roar",
 					"entries": [
-						"Once per day, you can cast the {@i fear} force power. Charisma is your forcecasting ability for this power."
+						"Once per day, you can cast the {@i fear} {@book force power|sw5e-phb|11|Force Powers}. Charisma is your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} for this power."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Survivors of the Sands",
 					"entries": [
-						"You have proficiency in the Survival skill. Additionally, you don’t treat desert terrain as difficult terrain. Lastly, you have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat."
+						"You have proficiency in the {@skill Survival|sw5e-phb} skill. Additionally, you don’t treat desert terrain as {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}. Lastly, you have {@variantrule Advantage|sw5e-phb|advantage} on Constitution {@variantrule Saving Throw|sw5e-phb|saving throws} made to avoid {@condition Exhaustion|sw5e-phb|exhaustion} due to extreme heat."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Tech-Impaired",
 					"entries": [
-						"While tuskens can figure out basic technology, they experience difficulty using more complex equipment like wristpads. You can not use tech powers or take levels in techcasting classes."
+						"While tuskens can figure out basic technology, they experience difficulty using more complex equipment like wristpads. You can not use {@book tech powers|sw5e-phb|12|Tech Powers} or take levels in {@book techcasting|sw5e-phb|10|Force- and Tech-casting} classes."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Tusken Weaponry",
 					"entries": [
-						"You have proficiency with the cycler rifle and vibroaxe."
+						"You have proficiency with the {@item Cycler rifle|sw5e-phb|cycler rifle} and {@item Vibroaxe|sw5e-phb|vibroaxe}."
 					]
 				},
 				{
@@ -2938,42 +2938,42 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Charismatic",
 					"entries": [
-						"You have proficiency with Deception or Persuasion (your choice)."
+						"You have proficiency with {@skill Deception|sw5e-phb} or {@skill Persuasion|sw5e-phb} (your choice)."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Elegant Dancers",
 					"entries": [
-						"You have proficiency in the Performance skill."
+						"You have proficiency in the {@skill Performance|sw5e-phb} skill."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Natural Antitoxins",
 					"entries": [
-						"You have advantage on saving throws against poison and disease, and you have resistance against poison damage (explained in Chapter 9)."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@item Poison|sw5e-phb|poison} and disease, and you have {@spell Resistance|sw5e-phb|resistance} against {@item Poison|sw5e-phb|poison} damage (explained in Chapter 9)."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Unarmed Combatant",
 					"entries": [
-						"Your unarmed strikes deal 1d4 kinetic damage and have the finesse property."
+						"Your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} deal 1d4 kinetic damage and have {@itemProperty SWF|sw5e-phb|the finesse property}."
 					]
 				},
 				{
@@ -3045,35 +3045,35 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Keen Smell",
 					"entries": [
-						"You have advantage on Wisdom (Perception) checks that rely on smell."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on smell."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Savage Attacks",
 					"entries": [
-						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit."
+						"When you score a {@variantrule Critical Hit|sw5e-phb|critical hit} with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack}, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the {@variantrule Critical Hit|sw5e-phb|critical hit}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Tanned",
 					"entries": [
-						"You have tough, leathery skin. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier. Additionally, You have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat."
+						"You have tough, leathery skin. While you are unarmored or wearing {@filter light armor|items|type=light armor}, your AC is 13 + your Dexterity modifier. Additionally, You have {@variantrule Advantage|sw5e-phb|advantage} on Constitution {@variantrule Saving Throw|sw5e-phb|saving throws} made to avoid {@condition Exhaustion|sw5e-phb|exhaustion} due to extreme heat."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Weapon Training",
 					"entries": [
-						"You have proficiency in two vibroweapons or blasters of your choice."
+						"You have proficiency in two {@filter vibroweapons|items|type=martial weapon} or {@filter blasters|items|firearm=true} of your choice."
 					]
 				},
 				{
@@ -3145,35 +3145,35 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Claws",
 					"entries": [
-						"Your claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage."
+						"Your claws are natural weapons, which you can use to make {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes}. Additionally, your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} deal 1d4 kinetic damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
+						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Hide",
 					"entries": [
-						"You have a thick hide. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier. Additionally, you have advantage on Constitution saving throws made to avoid exhaustion due to extreme cold."
+						"You have a thick hide. While you are unarmored or wearing {@filter light armor|items|type=light armor}, your AC is 13 + your Dexterity modifier. Additionally, you have {@variantrule Advantage|sw5e-phb|advantage} on Constitution {@variantrule Saving Throw|sw5e-phb|saving throws} made to avoid {@condition Exhaustion|sw5e-phb|exhaustion} due to extreme cold."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Menacing",
 					"entries": [
-						"You have proficiency in the Intimidation skill."
+						"You have proficiency in the {@skill Intimidation|sw5e-phb} skill."
 					]
 				},
 				{
@@ -3187,7 +3187,7 @@
 					"type": "entries",
 					"name": "Treeclimber",
 					"entries": [
-						"You have a climbing speed of 30 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing."
+						"You have a climbing {@variantrule Speed|sw5e-phb|speed} of 30 feet. You have {@variantrule Advantage|sw5e-phb|advantage} on Strength {@variantrule Saving Throw|sw5e-phb|saving throws} and Strength ({@skill Athletics|sw5e-phb}) checks that involve climbing."
 					]
 				},
 				{
@@ -3255,14 +3255,14 @@
 					"type": "entries",
 					"name": "Speed",
 					"entries": [
-						"Your base walking speed is 30 feet."
+						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Coercive",
 					"entries": [
-						"You have proficiency with Persuasion or Intimidation (your choice)."
+						"You have proficiency with {@skill Persuasion|sw5e-phb} or {@skill Intimidation|sw5e-phb} (your choice)."
 					]
 				},
 				{
@@ -3276,7 +3276,7 @@
 					"type": "entries",
 					"name": "Second Heart",
 					"entries": [
-						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest."
+						"When you are reduced to 0 {@variantrule Hit Points|sw5e-phb|hit points} but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
@@ -3290,7 +3290,7 @@
 					"type": "entries",
 					"name": "Unarmed Combatant",
 					"entries": [
-						"Your unarmed strikes deal 1d4 kinetic damage and have the finesse property."
+						"Your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} deal 1d4 kinetic damage and have {@itemProperty SWF|sw5e-phb|the finesse property}."
 					]
 				},
 				{
@@ -3377,7 +3377,7 @@
 					"type": "entries",
 					"name": "Society and Culture",
 					"entries": [
-						"Bothan culture is guided by the philosophy and principles from the ancient text known as The Way, written by Golm Fervse'dra. In this \"Bothan Way\", the pursuit of power and influence is paramount. Thus, individual bothans put their own political and economic success above all other concerns, and as a species, bothans put their own advancement ahead of other intergalactic interests. The volume of backstabbing, subtle character assassination and political maneuvering in bothan society is dizzying, and results in many species stereotyping bothans as untrustworthy. In fact, most bothans are habitually paranoid, believing that anyone who's not working with them, is working against them. In times of crisis, the focus of bothan society shifts to a survivalist state known as \"ar'krai\". When engaged in ar'krai, all fit bothans volunteer to defend their species from impending extinction."
+						"Bothan culture is guided by the philosophy and principles from the ancient text known as The Way, written by Golm Fervse'dra. In this \"Bothan Way\", the pursuit of power and influence is paramount. Thus, individual bothans put their own political and economic success above all other concerns, and as a species, bothans put their own advancement ahead of other intergalactic interests. The volume of backstabbing, subtle character assassination and political maneuvering in bothan society is dizzying, and results in many species stereotyping bothans as untrustworthy. In fact, most bothans are habitually paranoid, believing that anyone who's not working with them, is working against them. In times of crisis, the focus of bothan society shifts to a {@feat Survivalist|sw5e-phb|survivalist} state known as \"ar'krai\". When engaged in ar'krai, all fit bothans volunteer to defend their species from impending extinction."
 					]
 				},
 				{
@@ -3415,7 +3415,7 @@
 					"type": "entries",
 					"name": "Society and Culture",
 					"entries": [
-						"On their homeworld, Cathar live in cities built into giant trees, and are organized into clans governed by elders. Stories of their great heroes were often carved into the trunks of these tree-homes for following generations to see. The Cathar mate for life, to the extent that when one mate dies, the survivor never has a relationship with another. Cathar clan society includes great pageants and celebrations, especially for their heroes. Their religion includes a ritual known as the \"Blood Hunt,\" in which Cathar warriors individually engaged in combat against entire nests of Kiltik in order to gain honor and purge themselves of inner darkness. The native language of the Cathar is Catharese, which included the emphasis of some spoken words with a growl."
+						"On their homeworld, Cathar live in cities built into giant trees, and are organized into clans governed by elders. Stories of their great heroes were often carved into the trunks of these tree-homes for following generations to see. The Cathar mate for life, to the extent that when one mate dies, the survivor never has a relationship with another. Cathar clan society includes great pageants and celebrations, especially for their heroes. Their religion includes a ritual known as the \"Blood Hunt,\" in which Cathar warriors individually engaged in combat against entire nests of Kiltik in order to gain honor and purge themselves of inner {@spell Darkness|sw5e-phb|darkness}. The native language of the Cathar is Catharese, which included the emphasis of some spoken words with a growl."
 					]
 				},
 				{
@@ -3445,7 +3445,7 @@
 					"type": "entries",
 					"name": "Biology and Appearance",
 					"entries": [
-						"The Cereans' enlarged skulls, extending above their foreheads, house complex binary brains, provided with sufficient blood by an extra heart in their heads. The binary structure of Cerean thinking helps them to ponder two sides of an issue at once. It also enables them to process information and solve problems rapidly and provides a highly advanced capacity for concentration and meditation. Because of their thoughtful nature, they tend to be calm, rational and analytical, preferring peaceful philosophies and a lifestyle which works in harmony with nature. Though the quick-thinking Cereans have equally quick reflexes, they are commonly not as well coordinated as humans."
+						"The Cereans' enlarged skulls, extending above their foreheads, house complex binary brains, provided with sufficient blood by an extra heart in their heads. The binary structure of Cerean thinking helps them to ponder two sides of an issue at once. It also enables them to process information and solve problems rapidly and provides a highly advanced capacity for {@variantrule Concentration|sw5e-phb|concentration} and meditation. Because of their thoughtful nature, they tend to be calm, rational and analytical, preferring peaceful philosophies and a lifestyle which works in harmony with nature. Though the quick-thinking Cereans have equally quick reflexes, they are commonly not as well coordinated as humans."
 					]
 				},
 				{
@@ -3489,7 +3489,7 @@
 					"type": "entries",
 					"name": "Society and Culture",
 					"entries": [
-						"Chiss society is highly structured and ordered with the rule of law being enforced by a group of four affiliations known as the Ruling Families: the Csapla, Nuruodo, Inrokini and Sabosen. These are not biological family groupings but instead different branches of their government. Every chiss claims affiliation to one of the four families, as determined by both tradition and place of birth. The family names are more of a cultural holdover; the bloodlines had grown so co-meddled that any chiss could claim affiliation to any of the ruling families. In spite of the outward impression of calm and order that the chiss like to project to outsiders, there were evidently tensions within the Families; political assassinations are a real part of chiss political life for the Ruling Families."
+						"Chiss society is highly structured and ordered with the rule of law being enforced by a group of four affiliations known as the Ruling Families: the Csapla, Nuruodo, Inrokini and Sabosen. These are not biological family groupings but instead different branches of their government. Every chiss claims affiliation to one of the four families, as determined by both tradition and place of birth. The family names are more of a cultural holdover; the bloodlines had grown so co-meddled that any chiss could claim affiliation to any of the ruling families. In spite of the outward impression of calm and order that the chiss like to {@spell Project|sw5e-phb|project} to outsiders, there were evidently tensions within the Families; political assassinations are a real part of chiss political life for the Ruling Families."
 					]
 				},
 				{
@@ -3519,7 +3519,7 @@
 					"type": "entries",
 					"name": "Biology and Appearance",
 					"entries": [
-						"A bipedal mammalian species, Devaronians evolved in the dense jungles of Devaron as a hunter-gather species. Their bodies are denser than most humanoids' and as a result they were heavier than their appearance would tend to indicate. Devaronians have silver-based blood, which appears thick and black when exposed. They possess a unique blood filtration and cleansing system which processes through two livers. Because their bodies are constantly cleansed of toxins and carcinogens, the species is highly resistant to poison. To this end, sulfur is used as a stimulant on Devaron to enhance speed and strength, because inhaling it causes the substance to enter the bloodstream rapidly. Their livers struggle to eliminate sulfur from their system, meaning that long-term use can be dangerous."
+						"A bipedal mammalian species, Devaronians evolved in the dense jungles of Devaron as a hunter-gather species. Their bodies are denser than most humanoids' and as a result they were heavier than their appearance would tend to indicate. Devaronians have silver-based blood, which appears thick and black when exposed. They possess a unique blood filtration and cleansing system which processes through two livers. Because their bodies are constantly cleansed of toxins and carcinogens, the species is highly resistant to {@item Poison|sw5e-phb|poison}. To this end, sulfur is used as a stimulant on Devaron to enhance {@variantrule Speed|sw5e-phb|speed} and strength, because inhaling it causes the substance to enter the bloodstream rapidly. Their livers struggle to eliminate sulfur from their system, meaning that long-term use can be dangerous."
 					]
 				},
 				{
@@ -3678,7 +3678,7 @@
 					"type": "entries",
 					"name": "Utility",
 					"entries": [
-						"Class IV droids are programmed for military and security purposes. Such droids tend to perform tasks of violence or combat might be expected. Almost all class IV droids carry weapons. Armed combat droids are among the first droids ever created. Security, gladiator, battle, and assassin droids are all class IV droids."
+						"Class IV droids are programmed for military and security purposes. Such droids tend to {@optfeature Perform|sw5e-phb|perform} tasks of violence or combat might be expected. Almost all class IV droids carry weapons. Armed combat droids are among the first droids ever created. Security, gladiator, battle, and assassin droids are all class IV droids."
 					]
 				},
 				{
@@ -3716,7 +3716,7 @@
 					"type": "entries",
 					"name": "Utility",
 					"entries": [
-						"Class V droids are programmed for menial and low-skill tasks. Such droids tend to perform basic tasks such as construction, lifting, maintenance, mining, sanitation, and transportation. Labor droids are fifth-degree droids."
+						"Class V droids are programmed for menial and low-skill tasks. Such droids tend to {@optfeature Perform|sw5e-phb|perform} basic tasks such as construction, lifting, maintenance, mining, sanitation, and transportation. Labor droids are fifth-degree droids."
 					]
 				},
 				{
@@ -3755,7 +3755,7 @@
 					"entries": [
 						"Their home planet Duro is primarily uninhabited due to massive pollution on the world over time. Instead, it is covered with automated farms for food production. The duros live in twenty orbital space cities above the planet.",
 						"The duros also established a vast, grand starship construction industry in the Duro system. The duros set up their government around a consortium of starship construction corporations, with all important political decisions made by the stockholders of the corporations. This meant that any duros that held stock in a company could participate in the administration of the system.",
-						"With their strong memories, some duros also choose to become extraordinary storytellers, renowned galaxy-wide for their ability to learn a wide range of narratives by heart, and perform them all with stunning accuracy."
+						"With their strong memories, some duros also choose to become extraordinary storytellers, renowned galaxy-wide for their ability to learn a wide range of narratives by heart, and {@optfeature Perform|sw5e-phb|perform} them all with stunning accuracy."
 					]
 				},
 				{
@@ -3785,7 +3785,7 @@
 					"type": "entries",
 					"name": "Biology and Appearance",
 					"entries": [
-						"Ewoks are sentient humanoid mammals, averaging about one meter in height, which can provide an advantage when trying to hide. They are covered in fur from head to toe, with brown and black the most common colors. Other Ewoks have near-white or reddish fur, but red fur is supposedly the rarest shade an Ewok can get. Most Ewoks have solid-colored fur, though a few sport stripes. Ewoks have large, bright eyes, small humanoid noses, and hands that possess two fingers and an opposable thumb. Despite their small size, Ewoks are physically strong enough to overpower combat-trained Humans. Their appearance has been likened to \"little bears,\" though they are sometimes referred to as \"mini Wookiees.\""
+						"Ewoks are sentient humanoid mammals, averaging about one meter in height, which can provide an {@variantrule Advantage|sw5e-phb|advantage} when trying to hide. They are covered in fur from head to toe, with brown and black the most common colors. Other Ewoks have near-white or reddish fur, but red fur is supposedly the rarest shade an Ewok can get. Most Ewoks have solid-colored fur, though a few sport stripes. Ewoks have large, bright eyes, small humanoid noses, and hands that possess two fingers and an opposable thumb. Despite their small size, Ewoks are physically strong enough to overpower combat-trained Humans. Their appearance has been likened to \"little bears,\" though they are sometimes referred to as \"mini Wookiees.\""
 					]
 				},
 				{
@@ -3823,7 +3823,7 @@
 					"type": "entries",
 					"name": "Biology and Appearance",
 					"entries": [
-						"Although a typical gamorrean is squat, green, and heavily built, not all shared these characteristics. Most gamorreans have a dark greenish coloration over a large portion of their bodies; however skin coloration does vary, particularly among females, with light skinned and two-toned pigmentation not uncommon. Black, brown, pinkish yellow, and even a rare white pigmentation are possible. Males tended to have less skin variation and had a greater tendency towards dark green skin perhaps because of their higher exposure to the radiation of the Gamorr Star. Eye coloration varied evenly between gold-yellow, blue, black and brown. The gamorreans generally put no importance on skin or eye coloration although there were some superstitions linked to certain markings."
+						"Although a typical gamorrean is squat, green, and heavily built, not all shared these characteristics. Most gamorreans have a dark greenish coloration over a large portion of their bodies; however skin coloration does vary, particularly among females, with light skinned and two-toned pigmentation not uncommon. Black, brown, pinkish yellow, and even a rare white pigmentation are possible. Males tended to have less skin variation and had a greater tendency towards dark green skin perhaps because of their higher exposure to the {@spell Radiation|sw5e-phb|radiation} of the Gamorr Star. Eye coloration varied evenly between gold-yellow, blue, black and brown. The gamorreans generally put no importance on skin or eye coloration although there were some superstitions linked to certain markings."
 					]
 				},
 				{
@@ -4011,7 +4011,7 @@
 					"type": "entries",
 					"name": "Biology and Appearence",
 					"entries": [
-						"Due to Dorin having a unique atmosphere composed of helium and a gas unique to their world, the kel dors are forced to wear an antiox breath mask and protective goggles whenever in atmospheres of a different composition. Without their protective goggles, kel dors were considered effectively blind when away from Dorin. They were also able to survive in the vacuum of space for a short time, though it was unknown exactly how long they could withstand it.",
+						"Due to Dorin having a unique atmosphere composed of helium and a gas unique to their world, the kel dors are forced to wear an antiox breath mask and protective goggles whenever in atmospheres of a different composition. Without their protective goggles, kel dors were considered effectively blind when away from Dorin. They were also able to {@optfeature Survive|sw5e-phb|survive} in the vacuum of space for a short time, though it was unknown exactly how long they could withstand it.",
 						"The kel dors also have heightened reflexes, a result of the extrasensory organs in their heads. They are typically quick and wise."
 					]
 				},
@@ -4057,7 +4057,7 @@
 					"type": "entries",
 					"name": "Society and Culture",
 					"entries": [
-						"The mon calamari have developed a very advanced and civilized culture. Their art, music, literature, and science show a creativity surpassed by few in the galaxy. Mon calamari literature depicts stars as islands in a galactic sea, showing a passionate longing to explore space and discover other civilizations. Mon Calamari are both soft-spoken and gentle, slow to anger, and have the remarkable ability to maintain their concentration without being distracted by emotional responses. They are both inquisitive and creative, and have a near-legendary quality of being both determined and dedicated; once a mon calamari decides on a course of action, they are not easily swayed from that decision. They often fixate themselves on \"lost causes.\""
+						"The mon calamari have developed a very advanced and civilized culture. Their art, music, literature, and science show a creativity surpassed by few in the galaxy. Mon calamari literature depicts stars as islands in a galactic sea, showing a passionate longing to explore space and discover other civilizations. Mon Calamari are both soft-spoken and gentle, slow to anger, and have the remarkable ability to maintain their {@variantrule Concentration|sw5e-phb|concentration} without being distracted by emotional responses. They are both inquisitive and creative, and have a near-legendary quality of being both determined and dedicated; once a mon calamari decides on a course of action, they are not easily swayed from that decision. They often fixate themselves on \"lost causes.\""
 					]
 				},
 				{
@@ -4132,7 +4132,7 @@
 					"type": "entries",
 					"name": "Society and Culture",
 					"entries": [
-						"Rodian culture is obsessed with violence and death, due to behaviors and practices that are ingrained since their earliest ancestry. Their densely packed jungle homeworld is ill-suited for agriculture, requiring rodians to compete with vicious predators for most of their food, some of which can wipe out entire rodian villages. As the rodians developed cunning hunting tactics to survive, the hunt became central to their culture. Eventually, having driven most of the other predators on the planet to near extinction, they began to hunt each other in various wars and gladiatorial contests."
+						"Rodian culture is obsessed with violence and death, due to behaviors and practices that are ingrained since their earliest ancestry. Their densely packed jungle homeworld is ill-suited for agriculture, requiring rodians to compete with vicious predators for most of their food, some of which can wipe out entire rodian villages. As the rodians developed cunning hunting tactics to {@optfeature Survive|sw5e-phb|survive}, the hunt became central to their culture. Eventually, having driven most of the other predators on the planet to near extinction, they began to hunt each other in various wars and gladiatorial contests."
 					]
 				},
 				{
@@ -4162,7 +4162,7 @@
 					"type": "entries",
 					"name": "Biology and Appearance",
 					"entries": [
-						"Sith are a proud and violent species of humanoids that evolved on Korriban, a planet within the Horuset system in an isolated Outer Rim region called the Stygian Caldera. Sith have a larger than average number of individuals with potential to use the Force in their species, so high in fact that the entire species was considered strongly Force-sensitive.",
+						"Sith are a proud and violent species of humanoids that evolved on Korriban, a planet within the Horuset system in an isolated Outer Rim region called the Stygian Caldera. Sith have a larger than average number of individuals with potential to use the Force in their species, so high in fact that the entire species was considered strongly {@feat Force-Sensitive|sw5e-phb|Force-sensitive}.",
 						"Sith purebloods are characterized by their expressive facial appendages, bone spurs, cranial horns, and predatory gaze."
 					]
 				},
@@ -4238,7 +4238,7 @@
 					"type": "entries",
 					"name": "Biology and Appearance",
 					"entries": [
-						"Trandoshans are a large, bipedal sentient species, with scaly skin which was shed roughly once every standard year and was thought to be very durable. Cold-blooded reptiles, trandoshans had two super-sensitive varied color eyes with horizontal black pupils, which could see far into the infrared range. Each of their four limbs ends in three razor sharp claws. These are perfect for combat, but did not grant them manual dexterity, making a trandoshan's finger movements somewhat clumsy and awkward."
+						"Trandoshans are a large, bipedal sentient species, with scaly skin which was shed roughly once every standard year and was thought to be very {@feat Durable|sw5e-phb|durable}. Cold-blooded reptiles, trandoshans had two super-sensitive varied color eyes with horizontal black pupils, which could see far into the infrared range. Each of their four limbs ends in three razor sharp claws. These are perfect for combat, but did not grant them manual dexterity, making a trandoshan's finger movements somewhat clumsy and awkward."
 					]
 				},
 				{

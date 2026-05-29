@@ -28,8 +28,8 @@
 				{
 					"type": "list",
 					"items": [
-						"When a creature successfully saves against your projector canister, you can use your bonus action to force them to repeat the save.",
-						"When a creature rolls a 1 on the saving throw against a projector canister you control, they treat the effect's damage as if it had rolled the maximum."
+						"When a creature successfully saves against your projector canister, you can use your {@variantrule Bonus Action|sw5e-phb} to force them to repeat the save.",
+						"When a creature rolls a 1 on the {@variantrule Saving Throw|sw5e-phb|saving throw} against a projector canister you control, they treat the effect's damage as if it had rolled the maximum."
 					]
 				}
 			]
@@ -46,8 +46,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You can take the Help action as a bonus action. If you could already take the Help action as a bonus action, you can instead take it as a reaction on your turn.",
-						"Creatures benefiting from your Help action can't have disadvantage on the affected ability check or attack roll."
+						"You can take the {@action Help|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}. If you could already take the {@action Help|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}, you can instead take it as a {@variantrule Reaction|sw5e-phb} on your turn.",
+						"Creatures benefiting from your {@action Help|sw5e-phb} action can't have {@variantrule Disadvantage|sw5e-phb|disadvantage} on the affected {@variantrule Ability Check|sw5e-phb|ability check} or {@variantrule Attack Roll|sw5e-phb|attack roll}."
 					]
 				}
 			]
@@ -64,7 +64,7 @@
 				{
 					"type": "list",
 					"items": [
-						"When you hit with a melee weapon attack using Strength, you deal additional damage equal to your Strength modifier if that creature dealt damage to you since the start of your last turn.",
+						"When you hit with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} using Strength, you deal additional damage equal to your Strength modifier if that creature dealt damage to you since the start of your last turn.",
 						"When you choose to let an attack that would miss you hit you instead, the creature rolls the damage as normal instead of choosing the maximum."
 					]
 				}
@@ -83,7 +83,7 @@
 					"type": "list",
 					"items": [
 						"You gain blindsight out to 10 feet. If you already have blindsight, it instead increases by 10 feet.",
-						"You can use your bonus action to double the range of your blindsight until the start of your next turn."
+						"You can use your {@variantrule Bonus Action|sw5e-phb} to double the range of your blindsight until the start of your next turn."
 					]
 				}
 			]
@@ -96,13 +96,13 @@
 				"FS"
 			],
 			"entries": [
-				"You are skilled at using your weight to your advantage. You gain the following benefits:",
+				"You are skilled at using your weight to your {@variantrule Advantage|sw5e-phb|advantage}. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
 						"You are proficient with improvised weapons.",
-						"Your damage die for your unarmed strikes and natural weapons increases by one step (from 1 to d4, d4 to d6, or d6 to d8).",
-						"When you take the Attack action and attempt to grapple, shove, or trip a creature, or make an attack against a creature with an unarmed strike or a weapon wielded in one hand on your turn, you can use your bonus action to make an unarmed strike, grapple, shove, or trip against the same creature."
+						"Your damage die for your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} and natural weapons increases by one step (from 1 to {@dice d4}, {@dice d4} to {@dice d6}, or {@dice d6} to {@dice d8}).",
+						"When you take the {@action Attack|sw5e-phb} action and attempt to grapple, shove, or trip a creature, or make an attack against a creature with an unarmed strike or a weapon wielded in one hand on your turn, you can use your {@variantrule Bonus Action|sw5e-phb} to make an unarmed strike, grapple, shove, or trip against the same creature."
 					]
 				}
 			]
@@ -119,8 +119,8 @@
 				{
 					"type": "list",
 					"items": [
-						"When you would provoke an opportunity attack on your turn, you can use your bonus action to force the creature to make the opportunity attack, if it can.",
-						"Creatures who make opportunity attacks against you provoke opportunity attacks from you."
+						"When you would provoke an {@action Opportunity Attack|sw5e-phb|opportunity attack} on your turn, you can use your {@variantrule Bonus Action|sw5e-phb} to force the creature to make the {@action Opportunity Attack|sw5e-phb|opportunity attack}, if it can.",
+						"Creatures who make {@action Opportunity Attack|sw5e-phb|opportunity attacks} against you provoke {@action Opportunity Attack|sw5e-phb|opportunity attacks} from you."
 					]
 				}
 			]
@@ -137,8 +137,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You can take the Hide action as a bonus action. If you could already take the Hide action as a bonus action, you can instead take it as a reaction on your turn.",
-						"Creatures you've dealt damage to since the start of your last turn have disadvantage on Wisdom (Perception) checks made to find you."
+						"You can take the {@action Hide|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}. If you could already take the {@action Hide|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}, you can instead take it as a {@variantrule Reaction|sw5e-phb} on your turn.",
+						"Creatures you've dealt damage to since the start of your last turn have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) checks made to find you."
 					]
 				}
 			]
@@ -155,8 +155,8 @@
 				{
 					"type": "list",
 					"items": [
-						"While you are wearing medium or heavy armor with which you are proficient, you can use your bonus action to mark a target within 30 feet that you can see until the end of your next turn. When you do so, damage dealt to you by the target is reduced by an amount equal to half your Strength or Constitution modifier (your choice, minimum of one) while marked. If this would reduce the damage to 0, the damage is instead reduced to 1. You can only have one creature marked in this way at a time.",
-						"You have advantage on Strength checks and Strength saving throws to avoid being moved."
+						"While you are wearing medium or {@filter heavy armor|items|type=heavy armor} with which you are proficient, you can use your {@variantrule Bonus Action|sw5e-phb} to mark a target within 30 feet that you can see until the end of your next turn. When you do so, damage dealt to you by the target is reduced by an amount equal to half your Strength or Constitution modifier (your choice, minimum of one) while marked. If this would reduce the damage to 0, the damage is instead reduced to 1. You can only have one creature marked in this way at a time.",
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on Strength checks and Strength {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being moved."
 					]
 				}
 			]
@@ -173,8 +173,8 @@
 				{
 					"type": "list",
 					"items": [
-						"When you force a creature to make a Constitution saving throw to maintain concentration on your turn, and they succeed on the save, you can use your bonus action to force them to reroll the save. They must use the new roll.",
-						"Once per round, when a hostile creature attempts to cast a power while within 5 feet of you, they must first make a Constitution saving throw as if to maintain concentration (DC = 10 + the power's level). On a failure, the power isn't cast and any points are wasted."
+						"When you force a creature to make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} to maintain {@variantrule Concentration|sw5e-phb|concentration} on your turn, and they succeed on the save, you can use your {@variantrule Bonus Action|sw5e-phb} to force them to reroll the save. They must use the new roll.",
+						"Once per round, when a hostile creature attempts to cast a power while within 5 feet of you, they must first make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} as if to maintain {@variantrule Concentration|sw5e-phb|concentration} (DC = 10 + the power's level). On a failure, the power isn't cast and any points are wasted."
 					]
 				}
 			]
@@ -209,8 +209,8 @@
 				{
 					"type": "list",
 					"items": [
-						"While you are wielding a weapon in one hand with which you are proficient and no other weapons, you can use your bonus action to feint. If you do so, you must make a Dexterity (Sleight of Hand) or Charisma (Deception) check (your choice) contested by the target's Wisdom (Insight) check. On a success, you have advantage on the first attack roll you make against them before the start of your next turn.",
-						"While you are wielding a weapon in one hand with which you are proficient and no other weapons, when you miss with a weapon attack on your turn, you can use your bonus action to repeat the attack against the same target. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll.",
+						"While you are wielding a weapon in one hand with which you are proficient and no other weapons, you can use your {@variantrule Bonus Action|sw5e-phb} to feint. If you do so, you must make a Dexterity (Sleight of Hand) or Charisma ({@skill Deception|sw5e-phb}) check (your choice) contested by the target's Wisdom ({@skill Insight|sw5e-phb}) check. On a success, you have {@variantrule Advantage|sw5e-phb|advantage} on the first {@variantrule Attack Roll|sw5e-phb|attack roll} you make against them before the start of your next turn.",
+						"While you are wielding a weapon in one hand with which you are proficient and no other weapons, when you miss with a {@variantrule Attack Roll|sw5e-phb|weapon attack} on your turn, you can use your {@variantrule Bonus Action|sw5e-phb} to repeat the attack against the same target. Any modifications to the original {@variantrule Attack Roll|sw5e-phb|attack roll}, such as {@variantrule Advantage|sw5e-phb|advantage}, {@variantrule Disadvantage|sw5e-phb|disadvantage}, or without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, also affect this {@variantrule Attack Roll|sw5e-phb|attack roll}.",
 						"Once on each of your turns, drawing or stowing a one-handed weapon no longer requires your object interaction."
 					]
 				}
@@ -228,8 +228,8 @@
 				{
 					"type": "list",
 					"items": [
-						"While you are wearing light or no armor and not wielding a shield, you can use your bonus action to mark a target within 30 feet that you can see until the end of your next turn. When you do so, you gain a bonus to AC and Dexterity saving throws against effects the target controls equal to half your Dexterity modifier (minimum of +1) while marked. You can only have one creature marked in this way at a time.",
-						"You have advantage on Dexterity checks and Dexterity saving throws to avoid being moved."
+						"While you are wearing light or no armor and not wielding a {@item Shield|sw5e-phb|shield}, you can use your {@variantrule Bonus Action|sw5e-phb} to mark a target within 30 feet that you can see until the end of your next turn. When you do so, you gain a bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws} against effects the target controls equal to half your Dexterity modifier (minimum of +1) while marked. You can only have one creature marked in this way at a time.",
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity checks and Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being moved."
 					]
 				}
 			]
@@ -246,8 +246,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You can throw grenades and set mines with your bonus action, instead of your action. If you could already throw grenades and set mines as a bonus action, you can instead do so as a reaction on your turn.",
-						"When a creature rolls a 1 on the saving throw against a grenade, mine, or missile you control, they treat the effect's damage as if it had rolled the maximum."
+						"You can throw grenades and set mines with your {@variantrule Bonus Action|sw5e-phb}, instead of your action. If you could already throw grenades and set mines as a {@variantrule Bonus Action|sw5e-phb}, you can instead do so as a {@variantrule Reaction|sw5e-phb} on your turn.",
+						"When a creature rolls a 1 on the {@variantrule Saving Throw|sw5e-phb|saving throw} against a grenade, mine, or missile you control, they treat the effect's damage as if it had rolled the maximum."
 					]
 				}
 			]
@@ -264,8 +264,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You can take the Guard action as a bonus action. If you could already take the Guard action as a bonus action, you can instead take it as a reaction on your turn.",
-						"When you move on your turn, you can use a bonus action to allow a willing ally within 5 feet of you to move with you (no action required by the ally). The ally must end this movement within 5 feet of you, and this movement can't exceed the ally's speed.",
+						"You can take the {@action Guard|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}. If you could already take the {@action Guard|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}, you can instead take it as a {@variantrule Reaction|sw5e-phb} on your turn.",
+						"When you move on your turn, you can use a {@variantrule Bonus Action|sw5e-phb} to allow a willing ally within 5 feet of you to move with you (no action required by the ally). The ally must end this movement within 5 feet of you, and this movement can't exceed the ally's {@variantrule Speed|sw5e-phb|speed}.",
 						"When you choose to let an attack that would hit a guarded ally hit you instead, the creature rolls the damage as normal instead of choosing the maximum."
 					]
 				}
@@ -279,12 +279,12 @@
 				"FS"
 			],
 			"entries": [
-				"{@i {@b Prerequisite:} The ability to cast force powers} You are skilled at the basics of the known forms of lightsaber combat. You gain the following benefits:",
+				"{@i {@b Prerequisite:} The ability to cast {@book force powers|sw5e-phb|11|Force Powers}} You are skilled at the basics of the known forms of {@item Lightsaber|sw5e-phb|lightsaber} combat. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"You learn three lightsaber forms, detailed later in this chapter.",
-						"Once on each of your turns, you can draw or stow a lightweapon without using your object interaction."
+						"You learn three {@book lightsaber forms|sw5e-phb|6|Lightsaber Forms}, detailed later in this chapter.",
+						"Once on each of your turns, you can draw or stow a {@filter lightweapon|items|type=martial weapon|category=lightweapon} without using your object interaction."
 					]
 				}
 			]
@@ -297,7 +297,7 @@
 				"FS"
 			],
 			"entries": [
-				"You are skilled at putting the weight of a weapon to your advantage. You gain the following benefits:",
+				"You are skilled at putting the weight of a weapon to your {@variantrule Advantage|sw5e-phb|advantage}. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -319,8 +319,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You can take the Disengage action as a bonus action. If you could already take the Disengage action as a bonus action, you can instead take it as a reaction on your turn.",
-						"When you take the Disengage action, you ignore unenhanced difficult terrain, and you have advantage on the first ability check or saving throw to avoid an effect that impairs your movement speed or forces you to move before the start of your next turn."
+						"You can take the {@action Disengage|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}. If you could already take the {@action Disengage|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}, you can instead take it as a {@variantrule Reaction|sw5e-phb} on your turn.",
+						"When you take the {@action Disengage|sw5e-phb} action, you ignore unenhanced {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}, and you have {@variantrule Advantage|sw5e-phb|advantage} on the first {@variantrule Ability Check|sw5e-phb|ability check} or {@variantrule Saving Throw|sw5e-phb|saving throw} to avoid an effect that impairs your movement {@variantrule Speed|sw5e-phb|speed} or forces you to move before the start of your next turn."
 					]
 				}
 			]
@@ -333,11 +333,11 @@
 				"FS"
 			],
 			"entries": [
-				"You are skilled at using blasters in unique ways. You gain the following benefits:",
+				"You are skilled at using {@filter blasters|items|firearm=true} in unique ways. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"When a creature rolls a 1 on the saving throw against your burst or rapid property, they treat the effect's damage as if it had rolled the maximum.",
+						"When a creature rolls a 1 on the {@variantrule Saving Throw|sw5e-phb|saving throw} against your burst or rapid property, they treat the effect's damage as if it had rolled the maximum.",
 						"When you use the burst property of a weapon, you can instead spray a line 20 feet long and 5 feet wide within range with shots.",
 						"When you use the rapid property of a weapon, when you roll the weapon's damage dice twice, you can double one set of the weapon's damage dice and forgo the other instead of adding them together."
 					]
@@ -370,12 +370,12 @@
 				"FS"
 			],
 			"entries": [
-				"You are skilled at using your momentum to your advantage. You gain the following benefits:",
+				"You are skilled at using your momentum to your {@variantrule Advantage|sw5e-phb|advantage}. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"You can take the Dash action as a bonus action. If you could already take the Dash action as a bonus action, you can instead take it as a reaction on your turn.",
-						"When you would make an ability check to attempt to shove or trip a creature, you can make a melee weapon attack against the target's AC instead of a contested check. If you are wielding your weapon in two hands, you make this attack roll with advantage."
+						"You can take the {@action Dash|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}. If you could already take the {@action Dash|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}, you can instead take it as a {@variantrule Reaction|sw5e-phb} on your turn.",
+						"When you would make an {@variantrule Ability Check|sw5e-phb|ability check} to attempt to shove or trip a creature, you can make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} against the target's AC instead of a contested check. If you are wielding your weapon in two hands, you make this {@variantrule Attack Roll|sw5e-phb|attack roll} with {@variantrule Advantage|sw5e-phb|advantage}."
 					]
 				}
 			]
@@ -392,8 +392,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You can apply poisons with your bonus action, instead of your action. If you could already apply poisons as a bonus action, you can instead do so as a reaction on your turn.",
-						"When a creature rolls a 1 on the saving throw against a poison you control, they treat the effect's damage as if it had rolled the maximum."
+						"You can apply poisons with your {@variantrule Bonus Action|sw5e-phb}, instead of your action. If you could already apply poisons as a {@variantrule Bonus Action|sw5e-phb}, you can instead do so as a {@variantrule Reaction|sw5e-phb} on your turn.",
+						"When a creature rolls a 1 on the {@variantrule Saving Throw|sw5e-phb|saving throw} against a {@item Poison|sw5e-phb|poison} you control, they treat the effect's damage as if it had rolled the maximum."
 					]
 				}
 			]
@@ -410,7 +410,7 @@
 				{
 					"type": "list",
 					"items": [
-						"At the start of each of your turns while wielding a fixed weapon, you can choose to treat the weapon as a light shield until the start of your next turn. If you do so, you can't make attacks with the weapon for the duration.",
+						"At the start of each of your turns while wielding a fixed weapon, you can choose to treat the weapon as a light {@item Shield|sw5e-phb|shield} until the start of your next turn. If you do so, you can't make attacks with the weapon for the duration.",
 						"You can benefit from fixed weapons while the hand is full."
 					]
 				}
@@ -424,12 +424,12 @@
 				"FS"
 			],
 			"entries": [
-				"You are skilled at techniques that take advantage of every drop in any enemy's guard. You gain the following benefits:",
+				"You are skilled at techniques that take {@variantrule Advantage|sw5e-phb|advantage} of every drop in any enemy's guard. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"Creatures provoke an opportunity attack when they move to within your reach or move 5 feet or greater while within your reach.",
-						"When you hit a creature that is no more than one size larger than you with an opportunity attack, the creature gains 4 slowed levels until the end of the current turn."
+						"Creatures provoke an {@action Opportunity Attack|sw5e-phb|opportunity attack} when they move to within your reach or move 5 feet or greater while within your reach.",
+						"When you hit a creature that is no more than one size larger than you with an {@action Opportunity Attack|sw5e-phb|opportunity attack}, the creature gains 4 {@condition Slowed|sw5e-phb|slowed} levels until the end of the current turn."
 					]
 				}
 			]
@@ -446,8 +446,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You can use your bonus action to mark a target greater than 30 feet from you that you can see. If you do so, and that target moves at least 5 feet before the start of your next turn, they provoke an opportunity attack from you, and you can make a ranged weapon attack with a blaster weapon for that opportunity attack.",
-						"Your ranged weapon attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter) against targets greater than 30 feet from you. If the target has one-quarter cover, you ignore it entirely.",
+						"You can use your {@variantrule Bonus Action|sw5e-phb} to mark a target greater than 30 feet from you that you can see. If you do so, and that target moves at least 5 feet before the start of your next turn, they provoke an {@action Opportunity Attack|sw5e-phb|opportunity attack} from you, and you can make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a {@filter blaster|items|firearm=true} weapon for that {@action Opportunity Attack|sw5e-phb|opportunity attack}.",
+						"Your ranged weapon attacks reduce partial {@variantrule Cover|sw5e-phb|cover} by one step (from three-quarters to half or half to one-quarter) against targets greater than 30 feet from you. If the target has one-quarter {@variantrule Cover|sw5e-phb|cover}, you ignore it entirely.",
 						"Grasping a two-handed weapon you are wielding in only one hand with your other hand no longer requires your object interaction."
 					]
 				}
@@ -461,13 +461,13 @@
 				"FS"
 			],
 			"entries": [
-				"You are skilled at using your shield to defend your allies as well as yourself. You gain the following benefits:",
+				"You are skilled at using your {@item Shield|sw5e-phb|shield} to defend your allies as well as yourself. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"You are no longer restricted to wielding light weapons while wielding a heavy shield.",
-						"You can use a bonus action to try to shove or trip a creature within 5 feet of you with your shield.",
-						"When you use a shield as an improvised weapon, you are considered proficient in it, light shields are considered to have the light and fixed weapon properties, and heavy shields are considered to have the heavy weapon property."
+						"You are no longer restricted to wielding light weapons while wielding a heavy {@item Shield|sw5e-phb|shield}.",
+						"You can use a {@variantrule Bonus Action|sw5e-phb} to try to shove or trip a creature within 5 feet of you with your {@item Shield|sw5e-phb|shield}.",
+						"When you use a {@item Shield|sw5e-phb|shield} as an improvised weapon, you are considered proficient in it, light {@item Shield|sw5e-phb|shields} are considered to have the light and fixed weapon properties, and heavy {@item Shield|sw5e-phb|shields} are considered to have the heavy weapon property."
 					]
 				}
 			]
@@ -484,9 +484,9 @@
 				{
 					"type": "list",
 					"items": [
-						"You no longer have disadvantage on ranged weapon attacks due to being within 5 feet of a hostile creature.",
-						"Your ranged weapon attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter) against targets within 30 feet of you. If the target has one-quarter cover, you ignore it entirely.",
-						"Your blaster weapon damage rolls against creatures within 30 feet of you gain a minimum roll threshold, discussed in chapter 7.",
+						"You no longer have {@variantrule Disadvantage|sw5e-phb|disadvantage} on ranged weapon attacks due to being within 5 feet of a hostile creature.",
+						"Your ranged weapon attacks reduce partial {@variantrule Cover|sw5e-phb|cover} by one step (from three-quarters to half or half to one-quarter) against targets within 30 feet of you. If the target has one-quarter {@variantrule Cover|sw5e-phb|cover}, you ignore it entirely.",
+						"Your {@filter blaster|items|firearm=true} weapon damage rolls against creatures within 30 feet of you gain a minimum roll threshold, discussed in chapter 7.",
 						"Grasping a two-handed weapon you are wielding in only one hand with your other hand no longer requires your object interaction."
 					]
 				}
@@ -504,7 +504,7 @@
 				{
 					"type": "list",
 					"items": [
-						"When you engage in Double-Weapon Fighting, you can add your ability modifier to the attack roll of your Double-Weapon Fighting attack as long as it doesn't already include that modifier.",
+						"When you engage in Double-Weapon Fighting, you can add your ability modifier to the {@variantrule Attack Roll|sw5e-phb|attack roll} of your Double-Weapon Fighting attack as long as it doesn't already include that modifier.",
 						"When you engage in Two-Weapon Fighting, you can add your ability modifier to the damage roll of your Two-Weapon Fighting attack as long as it doesn't already include that modifier."
 					]
 				}
@@ -522,8 +522,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You can take the Search action as a bonus action. If you could already take the Search action as a bonus action, you can instead take it as a reaction on your turn.",
-						"You have advantage on ability checks and saving throws to determine the nature of illusions. If you would already have advantage, you can instead reroll one of the dice once."
+						"You can take the {@action Search|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}. If you could already take the {@action Search|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}, you can instead take it as a {@variantrule Reaction|sw5e-phb} on your turn.",
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} to determine the nature of illusions. If you would already have {@variantrule Advantage|sw5e-phb|advantage}, you can instead reroll one of the dice once."
 					]
 				}
 			]
@@ -536,12 +536,12 @@
 				"FS"
 			],
 			"entries": [
-				"You are skilled at utilizing maneuvers to enhance your skills on the battlefield. You gain the following benefits:",
+				"You are skilled at utilizing {@book maneuvers|sw5e-phb|13|Maneuvers} to enhance your skills on the battlefield. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"You learn one maneuver, detailed in Chapter 13. Your maneuver ability is Strength, Dexterity, or Constitution for physical maneuvers (your choice), Intelligence, Wisdom, or Charisma for mental maneuvers (your choice), and an ability of your choice for general maneuvers.",
-						"You gain one superiority die, which is a d4. This die changes as you gain levels: to d6 at 5th level, to d8 at 9th level, to d10 at 13th level, and to d12 at 17th level. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest."
+						"You learn one {@book maneuver|sw5e-phb|13|Maneuvers}, detailed in {@book chapter 13|sw5e-phb|13}. Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} is Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}.",
+						"You gain one superiority die, which is a {@dice d4}. This die changes as you gain levels: to {@dice d6} at 5th level, to {@dice d8} at 9th level, to {@dice d10} at 13th level, and to {@dice d12} at 17th level. A superiority die is expended when you use it. You regain all of your expended {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers} when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				}
 			]
@@ -559,8 +559,8 @@
 					"type": "list",
 					"items": [
 						"Whenever you make a ranged attack with a thrown weapon, you can immediately draw another weapon.",
-						"Whenever you make a ranged attack with a thrown weapon, you can move up to 5 feet without provoking opportunity attacks.",
-						"When you miss with a ranged attack with a thrown weapon, you can use your bonus action to repeat the attack against a creature within 15 feet and behind your initial target. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll."
+						"Whenever you make a ranged attack with a thrown weapon, you can move up to 5 feet without provoking {@action Opportunity Attack|sw5e-phb|opportunity attacks}.",
+						"When you miss with a ranged attack with a thrown weapon, you can use your {@variantrule Bonus Action|sw5e-phb} to repeat the attack against a creature within 15 feet and behind your initial target. Any modifications to the original {@variantrule Attack Roll|sw5e-phb|attack roll}, such as {@variantrule Advantage|sw5e-phb|advantage}, {@variantrule Disadvantage|sw5e-phb|disadvantage}, or without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, also affect this {@variantrule Attack Roll|sw5e-phb|attack roll}."
 					]
 				}
 			]
@@ -577,7 +577,7 @@
 				{
 					"type": "list",
 					"items": [
-						"When you engage in Double-Weapon Fighting, you can add your ability modifier to the attack roll of your Double-Weapon Fighting attack as long as it doesn't already include that modifier.",
+						"When you engage in Double-Weapon Fighting, you can add your ability modifier to the {@variantrule Attack Roll|sw5e-phb|attack roll} of your Double-Weapon Fighting attack as long as it doesn't already include that modifier.",
 						"Grasping a double weapon you are wielding in only one hand with your other hand no longer requires your object interaction."
 					]
 				}
@@ -595,8 +595,8 @@
 				{
 					"type": "list",
 					"items": [
-						"When you miss with a melee weapon attack on your turn while wielding a versatile weapon with which you are proficient in two hands, you can use your bonus action to repeat the attack roll against the same target using one hand. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll.",
-						"When you miss with a melee weapon attack on your turn while wielding a versatile weapon with which you are proficient in one hand, you can use your bonus action to attempt to shove or trip that creature. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this ability check.",
+						"When you miss with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} on your turn while wielding a versatile weapon with which you are proficient in two hands, you can use your {@variantrule Bonus Action|sw5e-phb} to repeat the {@variantrule Attack Roll|sw5e-phb|attack roll} against the same target using one hand. Any modifications to the original {@variantrule Attack Roll|sw5e-phb|attack roll}, such as {@variantrule Advantage|sw5e-phb|advantage}, {@variantrule Disadvantage|sw5e-phb|disadvantage}, or without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, also affect this {@variantrule Attack Roll|sw5e-phb|attack roll}.",
+						"When you miss with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} on your turn while wielding a versatile weapon with which you are proficient in one hand, you can use your {@variantrule Bonus Action|sw5e-phb} to attempt to shove or trip that creature. Any modifications to the original {@variantrule Attack Roll|sw5e-phb|attack roll}, such as {@variantrule Advantage|sw5e-phb|advantage}, {@variantrule Disadvantage|sw5e-phb|disadvantage}, or without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, also affect this {@variantrule Ability Check|sw5e-phb|ability check}.",
 						"Grasping a versatile weapon you are wielding in only one hand with your other hand no longer requires your object interaction."
 					]
 				}

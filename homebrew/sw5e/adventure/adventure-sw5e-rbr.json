@@ -44,7 +44,7 @@
 				{
 					"ac": 15,
 					"from": [
-						"light battle armor"
+						"light {@item Battle armor|sw5e-phb|battle armor}"
 					]
 				}
 			],
@@ -74,7 +74,7 @@
 				{
 					"name": "Terrible Shot",
 					"entries": [
-						"The storm trooper has permanent disadvantage when making a blaster attack."
+						"The storm trooper has permanent {@variantrule Disadvantage|sw5e-phb|disadvantage} when making a {@filter blaster|items|firearm=true} attack."
 					]
 				}
 			],
@@ -82,13 +82,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The elite storm trooper makes two blaster attacks."
+						"The elite storm trooper makes two {@filter blaster|items|firearm=true} attacks."
 					]
 				},
 				{
-					"name": "E-11 Blaster Rifle",
+					"name": "E-11 {@filter blaster|items|firearm=true} Rifle",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 3}) energy damage. Storm troopers make blaster attacks at disadvantage (obviously)."
+						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}6 ({@damage 1d10 + 3}) energy damage. Storm troopers make {@filter blaster|items|firearm=true} attacks at {@variantrule Disadvantage|sw5e-phb|disadvantage} (obviously)."
 					]
 				},
 				{
@@ -145,7 +145,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"battle armor"
+						"{@item Battle armor|sw5e-phb|battle armor}"
 					]
 				}
 			],
@@ -167,7 +167,7 @@
 				"survival": "+3"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 13,
 			"languages": [
@@ -179,11 +179,11 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The rebel soldier makes two blaster rifle or stock strike attacks."
+						"The rebel soldier makes two {@item Blaster rifle|sw5e-phb} or stock strike attacks."
 					]
 				},
 				{
-					"name": "Blaster Rifle",
+					"name": "{@filter blaster|items|firearm=true} Rifle",
 					"entries": [
 						"{@atk rw} {@hit 5} to hit, range 60/240 ft., one target. {@h}7 ({@damage 1d6 + 3}) energy damage."
 					]
@@ -197,7 +197,7 @@
 				{
 					"name": "Thermal Grenade (1/Day)",
 					"entries": [
-						"The rebel soldier throws a grenade, choosing a point within 40 feet. Each creature within 10 feet must make a {@dc 14} Dexterity saving throw. A creature takes {@dice 2d6} fire and {@damage 2d6} kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition prone}."
+						"The rebel soldier throws a grenade, choosing a point within 40 feet. Each creature within 10 feet must make a {@dc 14} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes {@dice 2d6} fire and {@damage 2d6} kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition prone|sw5e-phb}."
 					]
 				}
 			],
@@ -253,11 +253,11 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The rebel soldier makes three blaster rifle or stock strike attacks."
+						"The rebel soldier makes three {@item Blaster rifle|sw5e-phb} or stock strike attacks."
 					]
 				},
 				{
-					"name": "Blaster Rifle",
+					"name": "{@filter blaster|items|firearm=true} Rifle",
 					"entries": [
 						"{@atk rw} {@hit 5} to hit, range 60/240 ft., one target. {@h}7 ({@damage 1d6 + 3}) energy damage."
 					]
@@ -271,7 +271,7 @@
 				{
 					"name": "Thermal Grenade (2/Day)",
 					"entries": [
-						"The rebel soldier throws a grenade, choosing a point within 40 feet. Each creature within 10 feet must make a {@dc 14} Dexterity saving throw. A creature takes {@dice 2d6} fire and {@damage 2d6} kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition prone}."
+						"The rebel soldier throws a grenade, choosing a point within 40 feet. Each creature within 10 feet must make a {@dc 14} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes {@dice 2d6} fire and {@damage 2d6} kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition prone|sw5e-phb}."
 					]
 				}
 			],
@@ -297,11 +297,11 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The rebel soldier makes two slugthrower or stock strike attacks."
+						"The rebel soldier makes two {@item Slugthrower|sw5e-phb|slugthrower} or stock strike attacks."
 					]
 				},
 				{
-					"name": "G-22 Slugthrower",
+					"name": "G-22 {@item Slugthrower|sw5e-phb}",
 					"entries": [
 						"{@atk rw} {@hit 5} to hit, range 60/240 ft., one target. {@h}8 ({@damage 1d8 + 3}) energy damage."
 					]
@@ -315,7 +315,7 @@
 				{
 					"name": "Thermal Grenade (1/Day)",
 					"entries": [
-						"The rebel soldier throws a grenade, choosing a point within 40 feet. Each creature within 10 feet must make a {@dc 14} Dexterity saving throw. A creature takes {@dice 2d6} fire and {@damage 2d6} kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition prone}."
+						"The rebel soldier throws a grenade, choosing a point within 40 feet. Each creature within 10 feet must make a {@dc 14} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes {@dice 2d6} fire and {@damage 2d6} kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition prone|sw5e-phb}."
 					]
 				}
 			],
@@ -337,7 +337,7 @@
 				{
 					"ac": 17,
 					"from": [
-						"battle armor"
+						"{@item Battle armor|sw5e-phb|battle armor}"
 					]
 				}
 			],
@@ -428,7 +428,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"light battle armor"
+						"light {@item Battle armor|sw5e-phb|battle armor}"
 					]
 				}
 			],
@@ -459,7 +459,7 @@
 				{
 					"name": "Terrible Shot",
 					"entries": [
-						"The stormtrooper captain has permanent disadvantage when making a blaster attack."
+						"The stormtrooper captain has permanent {@variantrule Disadvantage|sw5e-phb|disadvantage} when making a {@filter blaster|items|firearm=true} attack."
 					]
 				}
 			],
@@ -467,13 +467,13 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The stormtrooper captain makes three blaster attacks."
+						"The stormtrooper captain makes three {@filter blaster|items|firearm=true} attacks."
 					]
 				},
 				{
-					"name": "E-11 Blaster Rifle",
+					"name": "E-11 {@filter blaster|items|firearm=true} Rifle",
 					"entries": [
-						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}14 ({@damage 1d10 + 3}) energy damage. Stormtroopers make blaster attacks at disadvantage (obviously)."
+						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}14 ({@damage 1d10 + 3}) energy damage. Stormtroopers make {@filter blaster|items|firearm=true} attacks at {@variantrule Disadvantage|sw5e-phb|disadvantage} (obviously)."
 					]
 				},
 				{
@@ -545,16 +545,16 @@
 				"int": "+2"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 10,
 			"immune": [
-				"poison"
+				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"paralyzed",
-				"petrified",
-				"poisoned"
+				"{@condition Paralyzed|sw5e-phb|paralyzed}",
+				"{@condition Petrified|sw5e-phb|petrified}",
+				"{@condition Poisoned|sw5e-phb}"
 			],
 			"languages": [
 				"Common"
@@ -564,7 +564,7 @@
 				{
 					"name": "Malfunction",
 					"entries": [
-						"Whenever the super battle droid takes 15 damage or more from a single source and isn't reduced to 0 hit points by that damage, roll a {@dice d20} to determine if it suffers a malfunction:",
+						"Whenever the super battle droid takes 15 damage or more from a single source and isn't reduced to 0 {@variantrule Hit Points|sw5e-phb|hit points} by that damage, roll a {@dice d20} to determine if it suffers a malfunction:",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -578,9 +578,9 @@
 								},
 								{
 									"type": "item",
-									"name": "11-12: \"Logic error. System reboot.\"",
+									"name": "11-12: \"Logic error. System {@spell Reboot|sw5e-phb|reboot}.\"",
 									"entries": [
-										"The super battle droid is {@condition incapacitated} for 1 minute."
+										"The super battle droid is {@condition incapacitated|sw5e-phb} for 1 minute."
 									]
 								},
 								{
@@ -594,19 +594,19 @@
 									"type": "item",
 									"name": "15-16: \"Not a time to lose one's head.\"",
 									"entries": [
-										"The super battle droid's head falls off and deactivates, causing the autognome to be {@condition blinded} and {@condition deafened}. The super battle droid continues to attack indiscriminately."
+										"The super battle droid's head falls off and deactivates, causing the autognome to be {@condition blinded|sw5e-phb} and {@condition deafened|sw5e-phb}. The super battle droid continues to attack indiscriminately."
 									]
 								},
 								{
 									"type": "item",
-									"name": "17-20: \"WARNING! EXPLOSION IMMINATE!\"",
+									"name": "17-20: \"WARNING! {@spell Explosion|sw5e-phb|EXPLOSION} IMMINATE!\"",
 									"entries": [
-										"The super battle droid explodes and is destroyed. Each creature within 20 feet of the explosion must make a {@dc 11} Dexterity saving throw, taking 22 ({@damage 4d10}) slashing damage on a failed save, or half as much damage on a successful one."
+										"The super battle droid explodes and is destroyed. Each creature within 20 feet of the {@spell Explosion|sw5e-phb|explosion} must make a {@dc 11} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 22 ({@damage 4d10}) slashing damage on a failed save, or half as much damage on a successful one."
 									]
 								},
 								{
 									"type": "item",
-									"name": "Unusual Nature",
+									"name": "Unusual {@skill Nature|sw5e-phb}",
 									"entries": [
 										"The super battle droid doesn't require air, food, drink, or sleep."
 									]
@@ -616,7 +616,7 @@
 					]
 				},
 				{
-					"name": "Unusual Nature",
+					"name": "Unusual {@skill Nature|sw5e-phb}",
 					"entries": [
 						"The super battle droid doesn't require air, food, drink, or sleep."
 					]
@@ -626,11 +626,11 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The super battle droid makes three blaster attacks, or two blaster attacks and one shock attack."
+						"The super battle droid makes three {@filter blaster|items|firearm=true} attacks, or two {@filter blaster|items|firearm=true} attacks and one shock attack."
 					]
 				},
 				{
-					"name": "Blaster",
+					"name": "{@filter blaster|items|firearm=true}",
 					"entries": [
 						"{@atk mw,rw} {@hit 5} to hit, reach 5 ft. or range 60 ft., one target. {@h}14 ({@damage 4d8}) lightning damage."
 					]
@@ -638,12 +638,12 @@
 				{
 					"name": "Shock {@recharge 5}",
 					"entries": [
-						"The super battle droid emits a dangerous electrostatic discharge. Each creature within 10 feet of the shock must make a {@dc 13} Dexterity saving throw, taking 22 ({@damage 4d10}) lightning damage on a failed save, or half as much damage on a successful one."
+						"The super battle droid emits a dangerous electrostatic discharge. Each creature within 10 feet of the shock must make a {@dc 13} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 22 ({@damage 4d10}) lightning damage on a failed save, or half as much damage on a successful one."
 					]
 				}
 			],
 			"traitTags": [
-				"Unusual Nature"
+				"Unusual {@skill Nature|sw5e-phb}"
 			],
 			"senseTags": [
 				"D"
@@ -653,7 +653,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"B2 Super Battle Droids are the hulking, brutal cousins of the wiry B1-series battle droids of the Separatist army. Heavily armored and devastatingly powerful with their integrated wrist blasters, the sight of a squad of these droids on the battlefield can chill even the most seasoned of clone troopers."
+					"B2 Super Battle Droids are the hulking, brutal cousins of the wiry B1-series battle droids of the Separatist army. Heavily armored and devastatingly powerful with their integrated wrist {@filter blasters|items|firearm=true}, the sight of a squad of these droids on the battlefield can chill even the most seasoned of clone troopers."
 				],
 				"images": [
 					{
@@ -718,19 +718,19 @@
 				"int": "+2"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 10,
 			"resist": [
 				"ranged attacks"
 			],
 			"immune": [
-				"poison"
+				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"paralyzed",
-				"petrified",
-				"poisoned"
+				"{@condition Paralyzed|sw5e-phb|paralyzed}",
+				"{@condition Petrified|sw5e-phb|petrified}",
+				"{@condition Poisoned|sw5e-phb}"
 			],
 			"languages": [
 				"Common"
@@ -740,7 +740,7 @@
 				{
 					"name": "Malfunction",
 					"entries": [
-						"Whenever the droideka takes 15 damage or more from a single source and isn't reduced to 0 hit points by that damage, roll a {@dice d20} to determine if it suffers a malfunction:",
+						"Whenever the droideka takes 15 damage or more from a single source and isn't reduced to 0 {@variantrule Hit Points|sw5e-phb|hit points} by that damage, roll a {@dice d20} to determine if it suffers a malfunction:",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -754,9 +754,9 @@
 								},
 								{
 									"type": "item",
-									"name": "11-12: \"Logic error. System reboot.\"",
+									"name": "11-12: \"Logic error. System {@spell Reboot|sw5e-phb|reboot}.\"",
 									"entries": [
-										"The droideka is {@condition incapacitated} for 1 minute."
+										"The droideka is {@condition incapacitated|sw5e-phb} for 1 minute."
 									]
 								},
 								{
@@ -770,14 +770,14 @@
 									"type": "item",
 									"name": "15-16: \"Not a time to lose one's head.\"",
 									"entries": [
-										"The droideka's head falls off and deactivates, causing the autognome to be {@condition blinded} and {@condition deafened}. The droideka continues to attack indiscriminately."
+										"The droideka's head falls off and deactivates, causing the autognome to be {@condition blinded|sw5e-phb} and {@condition deafened|sw5e-phb}. The droideka continues to attack indiscriminately."
 									]
 								},
 								{
 									"type": "item",
-									"name": "17-20: \"WARNING! EXPLOSION IMMINATE!\"",
+									"name": "17-20: \"WARNING! {@spell Explosion|sw5e-phb|EXPLOSION} IMMINATE!\"",
 									"entries": [
-										"The droideka explodes and is destroyed. Each creature within 20 feet of the explosion must make a {@dc 11} Dexterity saving throw, taking 22 ({@damage 4d10}) slashing damage on a failed save, or half as much damage on a successful one."
+										"The droideka explodes and is destroyed. Each creature within 20 feet of the {@spell Explosion|sw5e-phb|explosion} must make a {@dc 11} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 22 ({@damage 4d10}) slashing damage on a failed save, or half as much damage on a successful one."
 									]
 								}
 							]
@@ -785,13 +785,13 @@
 					]
 				},
 				{
-					"name": "Shield Generator",
+					"name": "{@item Shield|sw5e-phb} Generator",
 					"entries": [
-						"The droideka has resistance to all blaster and slug attacks."
+						"The droideka has {@spell Resistance|sw5e-phb|resistance} to all {@filter blaster|items|firearm=true} and slug attacks."
 					]
 				},
 				{
-					"name": "Unusual Nature",
+					"name": "Unusual {@skill Nature|sw5e-phb}",
 					"entries": [
 						"The droideka doesn't require air, food, drink, or sleep."
 					]
@@ -801,18 +801,18 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The droideka makes two blaster attacks."
+						"The droideka makes two {@filter blaster|items|firearm=true} attacks."
 					]
 				},
 				{
-					"name": "Blaster",
+					"name": "{@filter blaster|items|firearm=true}",
 					"entries": [
 						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 60/120 ft., one target. {@h}7 ({@damage 3d6}) lightning damage."
 					]
 				}
 			],
 			"traitTags": [
-				"Unusual Nature"
+				"Unusual {@skill Nature|sw5e-phb}"
 			],
 			"senseTags": [
 				"D"
@@ -822,7 +822,7 @@
 			],
 			"fluff": {
 				"entries": [
-					"Droidekas (a.k.a. destroyers) are quick, pack twin blasters, and come with their own shield generators. Nothing short of a cannon will pierce it, but they do have two weaknesses, and you will need to work together to exploit them. The shields deflect high velocity attacks. What the shields don't stop are slow or stationary objects. They're designed to absorb them so nothing hinders their movement."
+					"Droidekas (a.k.a. destroyers) are quick, pack twin {@filter blasters|items|firearm=true}, and come with their own {@item Shield|sw5e-phb|shield} generators. Nothing short of a cannon will pierce it, but they do have two weaknesses, and you will need to work together to exploit them. The {@item Shield|sw5e-phb|shields} deflect high velocity attacks. What the {@item Shield|sw5e-phb|shields} don't stop are slow or stationary objects. They're designed to absorb them so nothing hinders their movement."
 				],
 				"images": [
 					{
@@ -911,7 +911,7 @@
 				}
 			],
 			"conditionImmune": [
-				"blinded"
+				"{@condition Blinded|sw5e-phb|blinded}"
 			],
 			"languages": [
 				"Abyssal",
@@ -925,14 +925,14 @@
 						"Darth Ensis' spellcasting ability is Intelligence (spell save {@dc 16}). Darth Ensis can innately cast the following spells, requiring no material components:"
 					],
 					"will": [
-						"{@spell chromatic orb} (lightning)",
-						"{@spell dispel magic}"
+						"{@spell Shock|sw5e-phb} (lightning)",
+						"{@spell Sever Force|sw5e-phb}"
 					],
 					"daily": {
 						"1e": [
-							"{@spell confusion}",
-							"{@spell major image}",
-							"{@spell power word stun}"
+							"{@spell Force Confusion|sw5e-phb}",
+							"{@spell Hallucination|sw5e-phb}",
+							"{@spell Stun|sw5e-phb}"
 						]
 					},
 					"ability": "int"
@@ -940,9 +940,9 @@
 			],
 			"trait": [
 				{
-					"name": "Legendary Resistance (2/Day)",
+					"name": "Legendary {@spell Resistance|sw5e-phb} (2/Day)",
 					"entries": [
-						"If Darth Ensis fails a saving throw, he can choose to succeed instead."
+						"If Darth Ensis fails a {@variantrule Saving Throw|sw5e-phb|saving throw}, he can choose to succeed instead."
 					]
 				}
 			],
@@ -950,11 +950,11 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"Darth Ensis makes three attacks with his lightsaber."
+						"Darth Ensis makes three attacks with his {@item Lightsaber|sw5e-phb|lightsaber}."
 					]
 				},
 				{
-					"name": "Lightsaber",
+					"name": "{@item Lightsaber|sw5e-phb}",
 					"entries": [
 						"{@atk mw} {@hit 9} to hit, reach 5ft., one target. {@h}12 ({@damage 2d6 + 6}) slashing damage."
 					]
@@ -962,30 +962,30 @@
 			],
 			"reaction": [
 				{
-					"name": "Deflect Blaster",
+					"name": "Deflect {@filter blaster|items|firearm=true}",
 					"entries": [
-						"As a reaction, Darth Ensis can use his lightsaber to deflect any blaster or projectile attack that hits. Select a target within range to redirect the blast toward, using the original roll to hit."
+						"As a {@variantrule Reaction|sw5e-phb}, Darth Ensis can use his {@item Lightsaber|sw5e-phb|lightsaber} to deflect any {@filter blaster|items|firearm=true} or projectile attack that hits. Select a target within range to redirect the blast toward, using the original roll to hit."
 					]
 				}
 			],
 			"legendaryActions": 3,
 			"legendary": [
 				{
-					"name": "Force Speed",
+					"name": "Force {@variantrule Speed|sw5e-phb}",
 					"entries": [
-						"Darth Ensis can imbue himself with a burst of speed through his knowledge of the Force.  Darth Ensis can move up to his maximum speed once on another creature's turn.  (This movement does invoke attacks of opportunity.)"
+						"Darth Ensis can imbue himself with a burst of {@variantrule Speed|sw5e-phb|speed} through his knowledge of the Force.  Darth Ensis can move up to his maximum {@variantrule Speed|sw5e-phb|speed} once on another creature's turn.  (This movement does invoke attacks of opportunity.)"
 					]
 				},
 				{
 					"name": "Force Choke",
 					"entries": [
-						"Range 60 feet.  Darth Ensis makes a constricting gesture at a creature within range. The target must make a {@dc 16} Constitution saving throw. On a failed save target takes 12 ({@damage 4d6}) force damage and is {@condition restrained} until the end of your next turn. On a successful save, the target takes half as much damage and is not {@condition restrained}."
+						"Range 60 feet.  Darth Ensis makes a constricting gesture at a creature within range. The target must make a {@dc 16} Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save target takes 12 ({@damage 4d6}) force damage and is {@condition restrained|sw5e-phb} until the end of your next turn. On a successful save, the target takes half as much damage and is not {@condition restrained|sw5e-phb}."
 					]
 				},
 				{
 					"name": "Force Push",
 					"entries": [
-						"Range 60 feet. Darth Ensis uses the Force to move a Medium or smaller creature or object not being worn or carried within range. The target must make a {@dc 16} Strength saving throw. On a failed save, it moves a number of feet in a direction of Ensis' choice based on its size. Tiny: up to 30 ft., Small: up to 20 ft., Medium: up to 10 ft. If at the end of this movement the creature or object strikes another creature or object, it must make a Dexterity saving throw. On a failed save, they both take {@damage 2d4} kinetic damage."
+						"Range 60 feet. Darth Ensis uses the Force to move a Medium or smaller creature or object not being worn or carried within range. The target must make a {@dc 16} Strength {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, it moves a number of feet in a direction of Ensis' choice based on its size. Tiny: up to 30 ft., Small: up to 20 ft., Medium: up to 10 ft. If at the end of this movement the creature or object strikes another creature or object, it must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, they both take {@damage 2d4} kinetic damage."
 					]
 				},
 				{
@@ -997,7 +997,7 @@
 			],
 			"traitTags": [
 				"Legendary Resistances",
-				"Magic Resistance"
+				"Magic {@spell Resistance|sw5e-phb}"
 			],
 			"senseTags": [
 				"U"
@@ -1043,10 +1043,10 @@
 				"SW5e"
 			],
 			"conditionInflict": [
-				"restrained"
+				"{@condition Restrained|sw5e-phb}"
 			],
 			"conditionInflictSpell": [
-				"stunned"
+				"{@condition Stunned|sw5e-phb|stunned}"
 			],
 			"tokenUrl": "https://i.imgur.com/4qJAcwX.png"
 		},
@@ -1065,7 +1065,7 @@
 				{
 					"ac": 18,
 					"from": [
-						"heavy armor plating"
+						"{@filter heavy armor|items|type=heavy armor} plating"
 					]
 				}
 			],
@@ -1092,11 +1092,11 @@
 				"lightning"
 			],
 			"conditionImmune": [
-				"poison",
+				"{@item Poison|sw5e-phb|poison}",
 				"disease"
 			],
 			"immune": [
-				"poison",
+				"{@item Poison|sw5e-phb|poison}",
 				"psychic"
 			],
 			"cr": "6",
@@ -1110,22 +1110,22 @@
 				{
 					"name": "Hydraulics Line",
 					"entries": [
-						"In addition to defeating the construct in combat, characters render it useless by severing its hydraulic line. With a successful {@dc 15} Intelligence (Arcana) check (as an action), any character fighting the AT-RT notes that a number of metal-sheathed hoses protrudes slightly from its back. A character within melee range of the construct can target one of these hydraulic lines with a slashing or piercing attack to sever it by succeeding on an attack roll vs. a 23 AC."
+						"In addition to defeating the construct in combat, characters render it useless by severing its hydraulic line. With a successful {@dc 15} Intelligence (Arcana) check (as an action), any character fighting the AT-RT notes that a number of metal-sheathed hoses protrudes slightly from its back. A character within melee range of the construct can target one of these hydraulic lines with a slashing or piercing attack to sever it by succeeding on an {@variantrule Attack Roll|sw5e-phb|attack roll} vs. a 23 AC."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Repeating Blaster Canon",
+					"name": "Repeating {@filter blaster|items|firearm=true} Canon",
 					"entries": [
-						"The AT-RT fires a cannon blast at a point within 400 ft. Each creature in that area must make a {@dc 15} Dexterity saving throw, taking 31 ({@damage 7d8}) energy damage on a failed save, or half as much damage on a successful one. Any stormtrooper that is targeted with this attack automatically fails and is killed."
+						"The AT-RT fires a cannon blast at a point within 400 ft. Each creature in that area must make a {@dc 15} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 31 ({@damage 7d8}) energy damage on a failed save, or half as much damage on a successful one. Any stormtrooper that is targeted with this attack automatically fails and is killed."
 					]
 				}
 			],
 			"fluff": {
 				"entries": [
 					"One of several precursors to the AT-ST walker, the AT-RT was 3.2 meters tall and 2.9 meters long, with a saddle-like seat for a single clone trooper driver. Its open cockpit design made the driver especially vulnerable to sniper fire, a notable flaw, but low costs and good visibility of the battlefield made up for this shortcoming. While other walkers like the AT-PT eliminated the flaw of the exposed driver position, the AT-PT was slower, and this made the AT-RT competitive with the former as it was capable of tremendous speeds and could also leap quite a distance thanks to its light construction.",
-					"The recon walker was equipped with a nose-mounted repeating blaster cannon and mortar launcher, both of which made the walker a formidable anti-infantry unit, although a group of five walkers could easily overpower a single AAT. The AT-RT was fitted with a motion detection scanner and sensor equipment capable of providing Forward Command Centers with updated situation reports from the battlefield.",
+					"The recon walker was equipped with a nose-mounted repeating {@filter blaster|items|firearm=true} cannon and mortar launcher, both of which made the walker a formidable anti-infantry unit, although a group of five walkers could easily overpower a single AAT. The AT-RT was fitted with a motion detection scanner and sensor equipment capable of providing Forward Command Centers with updated situation reports from the battlefield.",
 					"AT-RTs could be deployed to the battle field in various ways. They were usually deployed from landed Acclamator-class assault ship, but this wasn't always practical for size reasons. When this occurred, they could be deployed by LAAT/is, 1 per gunship stored on the speeder bike ramp, 2 could be carried if the crew bay was empty.",
 					"The walkers could also be deployed from modified AT-TEs with special cargo lifts in their back section. They could transport 2 Walkers and their riders. ARF Troopers were known to pilot these walkers."
 				],
@@ -1190,7 +1190,7 @@
 				{
 					"name": "Stomp",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 20 ft., one target. {@h}27 ({@damage 5d8 + 5}) bludgeoning damage, and the target must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+						"{@atk mw} {@hit 8} to hit, reach 20 ft., one target. {@h}27 ({@damage 5d8 + 5}) bludgeoning damage, and the target must succeed on a {@dc 14} Strength {@variantrule Saving Throw|sw5e-phb|saving throw} or be knocked {@condition prone|sw5e-phb}."
 					]
 				},
 				{

@@ -25,7 +25,7 @@
 			"value": 6000,
 			"weight": 4.0,
 			"entries": [
-				"An antitoxkit contained a variety of wide-spectrum antidote hypospray injectors that were designed to neutralize all known poisons. A kit has five charges. As an action, you can administer a charge of the kit to cure a target of one poison affecting them or to give them advantage on saving throws against poison for 1 hour. It confers no benefit to droids or constructs."
+				"An {@item Antitoxkit|sw5e-phb|antitoxkit} contained a variety of wide-spectrum antidote hypospray injectors that were designed to neutralize all known poisons. A kit has five charges. As an action, you can administer a {@optfeature Charge|sw5e-phb|charge} of the kit to cure a target of one {@item Poison|sw5e-phb|poison} affecting them or to give them {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@item Poison|sw5e-phb|poison} for 1 hour. It confers no benefit to droids or constructs."
 			]
 		},
 		{
@@ -49,7 +49,7 @@
 			"value": 2000,
 			"weight": 8.0,
 			"entries": [
-				"Tool (Armormech's implements)."
+				"Tool ({@item Armormech's implements|sw5e-phb})."
 			]
 		},
 		{
@@ -61,7 +61,7 @@
 			"value": 2500,
 			"weight": 9.0,
 			"entries": [
-				"Tool (Armstech's implements)."
+				"Tool ({@item Armstech's implements|sw5e-phb})."
 			]
 		},
 		{
@@ -73,7 +73,7 @@
 			"value": 3000,
 			"weight": 5.0,
 			"entries": [
-				"Tool (Artificer's implements)."
+				"Tool ({@item Artificer's implements|sw5e-phb})."
 			]
 		},
 		{
@@ -85,7 +85,7 @@
 			"value": 20000,
 			"weight": 60.0,
 			"entries": [
-				"Assault armor improved on battle armor, with the benefit of micro-hydraulics that boost the efficacy of the operator. It offers better protection, but increased weight."
+				"{@item Assault armor|sw5e-phb} improved on {@item Battle armor|sw5e-phb|battle armor}, with the benefit of micro-hydraulics that boost the efficacy of the operator. It offers better protection, but increased weight."
 			],
 			"armor": true,
 			"ac": "17",
@@ -121,7 +121,7 @@
 			"reload": 4,
 			"range": "90/360",
 			"entries": [
-				"d12 energy damage. Properties: Burst 4; power cell (range 90/360); reload 4; strength 15; two-handed."
+				"{@dice d12} energy damage. Properties: Burst 4; {@item Power cell|sw5e-phb|power cell} (range 90/360); reload 4; strength 15; two-handed."
 			],
 			"ammunition": true,
 			"strength": 15,
@@ -135,7 +135,7 @@
 			"rarity": "none",
 			"value": 4000,
 			"entries": [
-				"Tool (Astrotech's implements)."
+				"Tool ({@item Astrotech's implements|sw5e-phb})."
 			],
 			"weight": 0.0
 		},
@@ -148,7 +148,7 @@
 			"value": 500,
 			"weight": 5.0,
 			"entries": [
-				"A backpack stores 30 lb., not exceeding 1 cubic foot."
+				"A {@item Backpack|sw5e-phb|backpack} stores 30 lb., not exceeding 1 cubic foot."
 			],
 			"containerCapacity": {
 				"weight": 30
@@ -163,7 +163,7 @@
 			"value": 1000,
 			"weight": 2.0,
 			"entries": [
-				"A bandolier is worn across the chest. It has 12 pockets that can each hold a single item that weighs less than 2.00 lb, such as a vibrodagger, a fragmentation grenade, or a power cell. Once per turn, drawing an item from a bandolier does not require your object interaction."
+				"A {@item Bandolier|sw5e-phb|bandolier} is worn across the chest. It has 12 pockets that can each hold a single item that weighs less than 2.00 lb, such as a {@item Vibrodagger|sw5e-phb}, a fragmentation grenade, or a {@item Power cell|sw5e-phb}. Once per turn, drawing an item from a {@item Bandolier|sw5e-phb|bandolier} does not require your object interaction."
 			]
 		},
 		{
@@ -175,7 +175,7 @@
 			"value": 7500,
 			"weight": 55.0,
 			"entries": [
-				"Battle armor is an armor that reduced weight, but restricts movement. The armor is commonly used by mercenaries, bounty hunters, soldiers, and civilians that live in dangerous areas."
+				"{@item Battle armor|sw5e-phb} is an armor that reduced weight, but restricts movement. The armor is commonly used by mercenaries, bounty hunters, soldiers, and civilians that live in dangerous areas."
 			],
 			"armor": true,
 			"ac": "16",
@@ -211,7 +211,7 @@
 			"reload": 2,
 			"range": "150/600",
 			"entries": [
-				"2d6 energy damage. Properties: Penetrating 2; power cell (range 150/600); reload 2; strength 15; two-handed."
+				"2d6 energy damage. Properties: Penetrating 2; {@item Power cell|sw5e-phb|power cell} (range 150/600); reload 2; strength 15; two-handed."
 			],
 			"ammunition": true,
 			"strength": 15,
@@ -226,7 +226,7 @@
 			"value": 100,
 			"weight": 7.0,
 			"entries": [
-				"Utility (Bedroll)."
+				"Utility ({@item Bedroll|sw5e-phb})."
 			]
 		},
 		{
@@ -238,7 +238,7 @@
 			"value": 500,
 			"weight": 6.0,
 			"entries": [
-				"Binders can be used to restrain a Small or Medium creature with appropriate appendages. Applying binders takes an action, and the target must make a DC 14 Strength or Dexterity saving throw (the target chooses the ability to use). A hostile creature makes this save with advantage. Breaking the binders requires a DC 20 Strength check. Escaping them requires a DC 20 Dexterity check. A set of binders comes with one key. Without the key, unlocking the binders requires a DC 15 security kit to force open. Binders have an AC of 10 and 15 hit points. Destroying the binders frees the creature without harming it."
+				"{@item Binders|sw5e-phb} can be used to restrain a Small or Medium creature with appropriate appendages. Applying {@item Binders|sw5e-phb|binders} takes an action, and the target must make a DC 14 Strength or Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (the target chooses the ability to use). A hostile creature makes this save with {@variantrule Advantage|sw5e-phb|advantage}. Breaking the {@item Binders|sw5e-phb|binders} requires a DC 20 Strength check. Escaping them requires a DC 20 Dexterity check. A set of {@item Binders|sw5e-phb|binders} comes with one key. Without the key, unlocking the {@item Binders|sw5e-phb|binders} requires a DC 15 {@item Security kit|sw5e-phb|security kit} to force open. {@item Binders|sw5e-phb} have an AC of 10 and 15 {@variantrule Hit Points|sw5e-phb|hit points}. Destroying the {@item Binders|sw5e-phb|binders} frees the creature without harming it."
 			]
 		},
 		{
@@ -262,7 +262,7 @@
 			"value": 4500,
 			"weight": 6.0,
 			"entries": [
-				"Tool (Biotech's implements)."
+				"Tool ({@item Biotech's implements|sw5e-phb})."
 			]
 		},
 		{
@@ -274,7 +274,7 @@
 			"value": 2000,
 			"weight": 2.0,
 			"entries": [
-				"A bipod is a device mounted to a two-handed blaster that lacks the fixed property to offer increased stability while prone. As an action, you can deploy or collapse the bipod. While deployed, you ignore the Strength requirement on the attached blaster with the strength property while you are prone, and your speed is reduced to 0. Additionally, while deployed and prone, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of the weapon."
+				"A bipod is a device mounted to a two-handed {@filter blaster|items|firearm=true} that lacks the fixed property to offer increased stability while prone. As an action, you can deploy or collapse the bipod. While deployed, you ignore the Strength requirement on the attached {@filter blaster|items|firearm=true} with the strength property while you are prone, and your {@variantrule Speed|sw5e-phb|speed} is reduced to 0. Additionally, while deployed and prone, you have a +10 bonus to {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being disarmed of the weapon."
 			],
 			"bonusSavingThrow": "+1"
 		},
@@ -287,7 +287,7 @@
 			"value": 50,
 			"weight": 3.0,
 			"entries": [
-				"Utility (Blanket)."
+				"Utility ({@item Blanket|sw5e-phb})."
 			]
 		},
 		{
@@ -313,7 +313,7 @@
 			"reload": 16,
 			"range": "70/280",
 			"entries": [
-				"d6 energy damage. Properties: Power cell (range 70/280); reload 16; two-handed."
+				"{@dice d6} energy damage. Properties: {@item Power cell|sw5e-phb} (range 70/280); reload 16; two-handed."
 			],
 			"ammunition": true
 		},
@@ -339,7 +339,7 @@
 			"reload": 16,
 			"range": "50/200",
 			"entries": [
-				"d6 energy damage. Properties: Power cell (range 50/200); reload 16."
+				"{@dice d6} energy damage. Properties: {@item Power cell|sw5e-phb} (range 50/200); reload 16."
 			],
 			"ammunition": true
 		},
@@ -366,7 +366,7 @@
 			"reload": 12,
 			"range": "105/420",
 			"entries": [
-				"d8 energy damage. Properties: Power cell (range 105/420); reload 12; two-handed."
+				"{@dice d8} energy damage. Properties: {@item Power cell|sw5e-phb} (range 105/420); reload 12; two-handed."
 			],
 			"ammunition": true
 		},
@@ -379,7 +379,7 @@
 			"value": 200,
 			"weight": 1.0,
 			"entries": [
-				"A bottle stores 1 and 1/2 pints of liquid."
+				"A {@item Bottle|sw5e-phb|bottle} stores 1 and 1/2 pints of liquid."
 			]
 		},
 		{
@@ -407,11 +407,21 @@
 			"reload": 4,
 			"range": "50/200",
 			"entries": [
-				"d10 energy damage. Properties: Burst 4; power cell (range 50/200); reload 4; strength 13; two-handed."
+				"{@dice d10} energy damage. Properties: Burst 4; {@item Power cell|sw5e-phb|power cell} (range 50/200); reload 4; strength 13; two-handed."
 			],
 			"ammunition": true,
 			"strength": 13,
 			"burst": 4
+		},
+		{
+			"name": "Burglar's Pack",
+			"source": "sw5e-phb",
+			"page": 167,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"Costs 290 credits. Includes a backpack, two glowrods, a hydrospanner, a fusion cutter, a chronometer, a grappling hook, 5 days of field rations, and a canteen."
+			]
 		},
 		{
 			"name": "Canteen",
@@ -422,7 +432,7 @@
 			"value": 100,
 			"weight": 3.0,
 			"entries": [
-				"A canteen stores 4 pints of liquid."
+				"A {@item Canteen|sw5e-phb|canteen} stores 4 pints of liquid."
 			]
 		},
 		{
@@ -451,7 +461,7 @@
 			"reload": 12,
 			"range": "90/360",
 			"entries": [
-				"d8 energy damage. Properties: Auto; power cell (range 90/360); rapid 3; reload 12; strength 11; two-handed."
+				"{@dice d8} energy damage. Properties: Auto; {@item Power cell|sw5e-phb|power cell} (range 90/360); rapid 3; reload 12; strength 11; two-handed."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -475,7 +485,7 @@
 			"dmg1": "1d6",
 			"dmgType": "Kinetic",
 			"entries": [
-				"d6 kinetic damage. Properties: Finesse; returning; thrown (range 30/90)."
+				"{@dice d6} kinetic damage. Properties: Finesse; returning; thrown (range 30/90)."
 			],
 			"range": "30/90"
 		},
@@ -487,7 +497,7 @@
 			"rarity": "none",
 			"value": 10,
 			"entries": [
-				"GamingSet (Chance cubes)."
+				"GamingSet ({@item Chance cubes|sw5e-phb})."
 			],
 			"weight": 0.0
 		},
@@ -500,7 +510,7 @@
 			"value": 700,
 			"weight": 8.0,
 			"entries": [
-				"Kit (Chef's kit)."
+				"Kit ({@item Chef's kit|sw5e-phb})."
 			]
 		},
 		{
@@ -527,7 +537,7 @@
 			"value": 1000,
 			"weight": 1.0,
 			"entries": [
-				"A chronometer is a device that measures and keeps linear time."
+				"A {@item Chronometer|sw5e-phb|chronometer} is a device that measures and keeps linear time."
 			]
 		},
 		{
@@ -539,7 +549,7 @@
 			"value": 50,
 			"weight": 3.0,
 			"entries": [
-				"Clothing (Clothes, common)."
+				"Clothing ({@item Clothes, common|sw5e-phb})."
 			]
 		},
 		{
@@ -551,7 +561,7 @@
 			"value": 500,
 			"weight": 4.0,
 			"entries": [
-				"Clothing (Clothes, costume)."
+				"Clothing ({@item Clothes, costume|sw5e-phb})."
 			]
 		},
 		{
@@ -563,7 +573,7 @@
 			"value": 1000,
 			"weight": 8.0,
 			"entries": [
-				"Clothing (Clothes, dress uniform)."
+				"Clothing ({@item Clothes, dress uniform|sw5e-phb})."
 			]
 		},
 		{
@@ -575,7 +585,7 @@
 			"value": 1500,
 			"weight": 6.0,
 			"entries": [
-				"Clothing (Clothes, fine)."
+				"Clothing ({@item Clothes, fine|sw5e-phb})."
 			]
 		},
 		{
@@ -587,7 +597,7 @@
 			"value": 200,
 			"weight": 4.0,
 			"entries": [
-				"Clothing (Clothes, traveler's)."
+				"Clothing ({@item Clothes, traveler's|sw5e-phb})."
 			]
 		},
 		{
@@ -628,7 +638,7 @@
 			"value": 4500,
 			"weight": 3.0,
 			"entries": [
-				"A device used to scramble and block transmissions from communications devices in a 300 foot radius. The device can be activated or deactivated as an action. Any creature sending incoming or outgoing communications within range must succeed on a DC 15 Intelligence (Technology) check. On a failure, their communications are jammed until the comm jammer is deactivated or they move out of its range. The comm jammer lasts for 1 hour and can be recharged by connecting to a power source or by replacing the power cell."
+				"A device used to scramble and block transmissions from communications devices in a 300 foot radius. The device can be activated or deactivated as an action. Any creature {@spell Sending|sw5e-phb|sending} incoming or outgoing communications within range must succeed on a DC 15 Intelligence ({@skill Technology|sw5e-phb}) check. On a failure, their communications are jammed until the {@item Comm jammer|sw5e-phb|comm jammer} is deactivated or they move out of its range. The {@item Comm jammer|sw5e-phb|comm jammer} lasts for 1 hour and can be recharged by connecting to a power source or by replacing the {@item Power cell|sw5e-phb}."
 			]
 		},
 		{
@@ -640,7 +650,7 @@
 			"value": 500,
 			"weight": 0.5,
 			"entries": [
-				"commlinks are simple handheld communication devices, fitted with microphones and receivers. Basic, personal commlinks have a range of up to 30 miles, but are reduced in dense, urban areas or areas of high level interference. The commlink lasts for 10 hours and can be recharged by connecting to a power source or by replacing the power cell."
+				"commlinks are simple handheld communication devices, fitted with microphones and receivers. Basic, personal commlinks have a range of up to 30 miles, but are reduced in dense, urban areas or areas of high level interference. The {@item Commlink|sw5e-phb|commlink} lasts for 10 hours and can be recharged by connecting to a power source or by replacing the {@item Power cell|sw5e-phb}."
 			]
 		},
 		{
@@ -652,7 +662,7 @@
 			"value": 2000,
 			"weight": 1.0,
 			"entries": [
-				"A hands-free commlink functions as a commlink, but can be installed in a helmet or worn independently, such as on your head or ear."
+				"A hands-free {@item Commlink|sw5e-phb|commlink} functions as a {@item Commlink|sw5e-phb|commlink}, but can be installed in a helmet or worn independently, such as on your head or ear."
 			]
 		},
 		{
@@ -664,7 +674,7 @@
 			"value": 25000,
 			"weight": 45.0,
 			"entries": [
-				"Composite armor is a type of armored suit that offers a good balance of mobility and protection against most types of weapons. The micro-hydraulics of this type of powered armor provide the operator with protection, but are more bulky than mesh or weave armors. This type of armor is rarely seen outside of professional mercenaries' and soldiers' use."
+				"{@item Composite armor|sw5e-phb} is a type of armored suit that offers a good balance of mobility and protection against most types of weapons. The micro-hydraulics of this type of powered armor provide the operator with protection, but are more bulky than mesh or weave armors. This type of armor is rarely seen outside of professional mercenaries' and soldiers' use."
 			],
 			"armor": true,
 			"ac": "15",
@@ -707,7 +717,7 @@
 			"rarity": "none",
 			"value": 5000,
 			"entries": [
-				"Tool (Cybertech's implements)."
+				"Tool ({@item Cybertech's implements|sw5e-phb})."
 			],
 			"weight": 0.0
 		},
@@ -735,7 +745,7 @@
 			"reload": 8,
 			"range": "90/360",
 			"entries": [
-				"d8 kinetic damage. Properties: Rapid 2; reload 8; slug cartridge (range 90/360); strength 11; two-handed."
+				"{@dice d8} kinetic damage. Properties: Rapid 2; reload 8; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 90/360); strength 11; two-handed."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -749,7 +759,7 @@
 			"rarity": "none",
 			"value": 50,
 			"entries": [
-				"This wrist launcher ammunition deals 1d6 kinetic damage on a hit."
+				"This {@item Wrist launcher|sw5e-phb|wrist launcher} ammunition deals 1d6 kinetic damage on a hit."
 			],
 			"weight": 0.0
 		},
@@ -761,7 +771,7 @@
 			"rarity": "none",
 			"value": 50,
 			"entries": [
-				"A datacard or data disk is a flat, hand-held device used in conjunction with a datapad to store information."
+				"A {@item Datacard|sw5e-phb|datacard} or data disk is a flat, hand-held device used in conjunction with a {@item Datapad|sw5e-phb|datapad} to store information."
 			],
 			"weight": 0.0
 		},
@@ -774,7 +784,7 @@
 			"value": 10000,
 			"weight": 2.0,
 			"entries": [
-				"A datacron is a type of holocron that can be accessed by non-Force-sensitives and are mainly used to store encrypted data. They are complete with an interactive projection to access the information."
+				"A {@item Datacron|sw5e-phb|datacron} is a type of {@item Holocron|sw5e-phb|holocron} that can be accessed by non-Force-sensitives and are mainly used to store encrypted data. They are complete with an interactive projection to access the information."
 			]
 		},
 		{
@@ -786,7 +796,7 @@
 			"value": 1000,
 			"weight": 0.5,
 			"entries": [
-				"A datapad is a small electronic device used for the input, storage and displaying of information. It features a holoprojective surface for 3D viewing."
+				"A {@item Datapad|sw5e-phb|datapad} is a small electronic device used for the input, storage and displaying of information. It features a holoprojective surface for 3D viewing."
 			]
 		},
 		{
@@ -798,7 +808,7 @@
 			"value": 3000,
 			"weight": 8.0,
 			"entries": [
-				"GamingSet (Dejarik set)."
+				"GamingSet ({@item Dejarik set|sw5e-phb})."
 			]
 		},
 		{
@@ -814,6 +824,16 @@
 			]
 		},
 		{
+			"name": "Diplomat's Pack",
+			"source": "sw5e-phb",
+			"page": 167,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"Costs 330 credits. Includes a chest, a set of fine clothes, a datapad, 5 datacards, a stylus, 5 days of field rations, and a canteen."
+			]
+		},
+		{
 			"name": "Disguise kit",
 			"source": "sw5e-phb",
 			"page": 0,
@@ -822,7 +842,7 @@
 			"value": 2500,
 			"weight": 3.0,
 			"entries": [
-				"Kit (Disguise kit)."
+				"Kit ({@item Disguise kit|sw5e-phb})."
 			]
 		},
 		{
@@ -834,7 +854,7 @@
 			"value": 4000,
 			"weight": 3.5,
 			"entries": [
-				"d6 kinetic damage. Properties: Double (1d6 kinetic); finesse; light."
+				"{@dice d6} kinetic damage. Properties: Double (1d6 kinetic); finesse; light."
 			],
 			"double": "1d6 kinetic",
 			"property": [
@@ -856,7 +876,7 @@
 			"value": 7250,
 			"weight": 2.25,
 			"entries": [
-				"d8 energy damage. Properties: Double (1d8 energy); finesse; luminous."
+				"{@dice d8} energy damage. Properties: Double (1d8 energy); finesse; luminous."
 			],
 			"double": "1d8 energy",
 			"property": [
@@ -878,7 +898,7 @@
 			"value": 7000,
 			"weight": 1.75,
 			"entries": [
-				"d6 energy damage. Properties: Double (1d6 energy); finesse; light; luminous."
+				"{@dice d6} energy damage. Properties: Double (1d6 energy); finesse; light; luminous."
 			],
 			"double": "1d6 energy",
 			"property": [
@@ -901,7 +921,7 @@
 			"value": 4500,
 			"weight": 5.5,
 			"entries": [
-				"d8 kinetic damage. Properties: Double (1d8 kinetic); finesse."
+				"{@dice d8} kinetic damage. Properties: Double (1d8 kinetic); finesse."
 			],
 			"double": "1d8 kinetic",
 			"property": [
@@ -926,6 +946,16 @@
 			]
 		},
 		{
+			"name": "Dungeoneer's Pack",
+			"source": "sw5e-phb",
+			"page": 167,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"Costs 320 credits. Includes a backpack, five glowrods, a fusion cutter, a grappling hook, a chronometer, 10 days of field rations, a canteen, and 50 feet of fibercord cable strapped to the side of it."
+			]
+		},
+		{
 			"name": "Emergency battery",
 			"source": "sw5e-phb",
 			"page": 0,
@@ -933,7 +963,7 @@
 			"rarity": "none",
 			"value": 700,
 			"entries": [
-				"All non-expendable droids need recharging as they are used. The battery has ten uses. As an action, you can expend one use of the battery to stabilize a droid that has 0 hit points, without needing to make an Intelligence (Technology) check."
+				"All non-expendable droids need recharging as they are used. The battery has ten uses. As an action, you can expend one use of the battery to stabilize a droid that has 0 {@variantrule Hit Points|sw5e-phb|hit points}, without needing to make an Intelligence ({@skill Technology|sw5e-phb}) check."
 			],
 			"weight": 0.0
 		},
@@ -946,7 +976,17 @@
 			"value": 6000,
 			"weight": 15.0,
 			"entries": [
-				"This shelter comes packed in a 2-foot-long tube. When activated, the shelter deploys, expanding to full size in 1 minute. The shelter is 8 feet long, 8 feet wide, and 6 feet tall, and can house up to six Medium creatures. The shelter includes spikes that automatically mount to the ground, provided they can find purchase. The shelter comes with an integrated power generator, faint glowing lights in the interior which provide dim light, and creatures in the shelter are protected from the elements, including hot and cold climates, as described in chapter 5 of the Dungeon Master's Guide. The shelter's power generator lasts for seven days, after which it stops providing light. The shelter can be collapsed and restored over the course of 10 minutes."
+				"This shelter comes packed in a 2-foot-long tube. When activated, the shelter deploys, expanding to full size in 1 minute. The shelter is 8 feet long, 8 feet wide, and 6 feet tall, and can house up to six Medium creatures. The shelter includes spikes that automatically mount to the ground, provided they can find purchase. The shelter comes with an integrated power generator, faint glowing lights in the interior which provide dim light, and creatures in the shelter are protected from the elements, including hot and cold climates, as described in {@book chapter 5|sw5e-phb|5} of the Dungeon Master's Guide. The shelter's power generator lasts for seven days, after which it stops providing light. The shelter can be collapsed and restored over the course of 10 minutes."
+			]
+		},
+		{
+			"name": "Entertainer's Pack",
+			"source": "sw5e-phb",
+			"page": 167,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"Costs 420 credits. Includes a backpack, a bedroll, two costumes, two glowrods, 5 days of field rations, a canteen, and a disguise kit."
 			]
 		},
 		{
@@ -962,6 +1002,16 @@
 			]
 		},
 		{
+			"name": "Explorer's Pack",
+			"source": "sw5e-phb",
+			"page": 167,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"Costs 250 credits. Includes a backpack, a bedroll, a blanket, a mess kit, two glowrods, a commlink, 10 days of field rations, a canteen, and 50 feet of fibercord cable strapped to the side of it."
+			]
+		},
+		{
 			"name": "Fiber armor",
 			"source": "sw5e-phb",
 			"page": 0,
@@ -970,7 +1020,7 @@
 			"value": 4500,
 			"weight": 13.0,
 			"entries": [
-				"Fiber armor is a type of armor that offers more protection than the lighter combat suit. Fiber armor is heavier overall than combat suits, and not quite as flexible, but many consider the trade-offs worthwhile. It is a good source of defense from physical attacks and light blaster fire."
+				"{@item Fiber armor|sw5e-phb} is a type of armor that offers more protection than the lighter {@item Combat suit|sw5e-phb|combat suit}. {@item Fiber armor|sw5e-phb} is heavier overall than combat suits, and not quite as flexible, but many consider the trade-offs worthwhile. It is a good source of defense from physical attacks and light {@filter blaster|items|firearm=true} fire."
 			],
 			"armor": true,
 			"ac": "12",
@@ -1034,7 +1084,7 @@
 			"value": 1500,
 			"weight": 5.0,
 			"entries": [
-				"Kit (Forgery kit)."
+				"Kit ({@item Forgery kit|sw5e-phb})."
 			]
 		},
 		{
@@ -1046,7 +1096,7 @@
 			"value": 20000,
 			"weight": 12.0,
 			"entries": [
-				"A special set of gloves and boots that allow the wearer to stick to and climb surfaces. While wearing these items, you gain the ability to move along vertical surfaces and ceilings while leaving your hands free. You also gain a climbing speed equal your walking speed."
+				"A special set of gloves and boots that allow the wearer to stick to and climb surfaces. While wearing these items, you gain the ability to move along vertical surfaces and ceilings while leaving your hands free. You also gain a climbing {@variantrule Speed|sw5e-phb|speed} equal your walking {@variantrule Speed|sw5e-phb|speed}."
 			]
 		},
 		{
@@ -1058,7 +1108,7 @@
 			"value": 250,
 			"weight": 2.0,
 			"entries": [
-				"A fusion cutter is a handheld cutting tool popular among technicians. It can cut through almost any reinforced material, given enough time. The internal power cell supplies an hour's worth of continuous operation."
+				"A {@item Fusion cutter|sw5e-phb|fusion cutter} is a handheld cutting tool popular among technicians. It can cut through almost any reinforced material, given enough time. The internal {@item Power cell|sw5e-phb} supplies an hour's worth of continuous operation."
 			]
 		},
 		{
@@ -1070,7 +1120,7 @@
 			"value": 3500,
 			"weight": 7.0,
 			"entries": [
-				"Tool (Gadgeteer's implements)."
+				"Tool ({@item Gadgeteer's implements|sw5e-phb})."
 			]
 		},
 		{
@@ -1082,7 +1132,7 @@
 			"value": 100,
 			"weight": 2.0,
 			"entries": [
-				"Glowrods create a beam of light illuminating the area around you in bright light for a 20-foot radius and dim light for an additional 20 feet. The glowrod lasts for 10 hours and can be recharged by connecting to a power source or by replacing the power cell."
+				"Glowrods create a beam of light illuminating the area around you in bright light for a 20-foot radius and dim light for an additional 20 feet. The {@item Glowrod|sw5e-phb|glowrod} lasts for 10 hours and can be recharged by connecting to a power source or by replacing the {@item Power cell|sw5e-phb}."
 			]
 		},
 		{
@@ -1094,7 +1144,7 @@
 			"value": 500,
 			"weight": 4.0,
 			"entries": [
-				"A grappling hook allows a user to climb or ascend large objects. It can be mounted to a blaster, belt, or elsewhere. It has a 50-foot length."
+				"A {@item Grappling hook|sw5e-phb|grappling hook} allows a user to climb or ascend large objects. It can be mounted to a {@filter blaster|items|firearm=true}, belt, or elsewhere. It has a 50-foot length."
 			]
 		},
 		{
@@ -1128,7 +1178,7 @@
 			"value": 1000,
 			"weight": 1.0,
 			"entries": [
-				"Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d10 kinetic damage on a failed save, or half as much as on a successful one."
+				"Grenades can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d10 kinetic damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -1140,8 +1190,8 @@
 			"value": 3000,
 			"weight": 1.0,
 			"entries": [
-				"Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. The grenade explodes, filling the air in a 10-foot-radius sphere with yellow-green fog for 1 minute. The fog spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.",
-				"When a creature enters the fog or starts its turn there, it creature must make a DC 14 Constitution saving throw. The creature takes 2d6 poison damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is poisoned while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected."
+				"Grenades can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. The grenade explodes, filling the air in a 10-foot-radius sphere with yellow-green fog for 1 minute. The fog spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.",
+				"When a creature enters the fog or starts its turn there, it creature must make a DC 14 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. The creature takes 2d6 {@item Poison|sw5e-phb|poison} damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is {@condition Poisoned|sw5e-phb} while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected."
 			]
 		},
 		{
@@ -1153,7 +1203,7 @@
 			"value": 2500,
 			"weight": 1.0,
 			"entries": [
-				"Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d6 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted."
+				"Grenades can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d6 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted."
 			]
 		},
 		{
@@ -1165,7 +1215,7 @@
 			"value": 1250,
 			"weight": 1.0,
 			"entries": [
-				"Grenades can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity saving throw. A creature takes 2d10 energy damage on a failed save, or half as much as on a successful one."
+				"Grenades can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d10 energy damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -1189,7 +1239,7 @@
 			"value": 4000,
 			"weight": 4.0,
 			"entries": [
-				"Heat generators are special devices typically worn on belts that function as a portable, personal heat supply. Activating or deactivating the generator requires a bonus action and, while active, you are adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide. The generator lasts for 10 minutes and can be recharged by a power source or replacing the power cell."
+				"Heat generators are special devices typically worn on belts that function as a portable, personal heat supply. Activating or deactivating the generator requires a {@variantrule Bonus Action|sw5e-phb} and, while active, you are adapted to cold climates, as described in {@book chapter 5|sw5e-phb|5} of the Dungeon Master's Guide. The generator lasts for 10 minutes and can be recharged by a power source or replacing the {@item Power cell|sw5e-phb}."
 			]
 		},
 		{
@@ -1217,7 +1267,7 @@
 			"reload": 8,
 			"range": "100/400",
 			"entries": [
-				"2d4 energy damage. Properties: Power cell (range 100/400); rapid 2; reload 8; strength 13; two-handed."
+				"2d4 energy damage. Properties: {@item Power cell|sw5e-phb} (range 100/400); rapid 2; reload 8; strength 13; two-handed."
 			],
 			"ammunition": true,
 			"strength": 13,
@@ -1248,7 +1298,7 @@
 			"reload": 4,
 			"range": "90/360",
 			"entries": [
-				"d12 energy damage. Properties: Burst 2; power cell (range 90/360); reload 4; strength 17; two-handed."
+				"{@dice d12} energy damage. Properties: Burst 2; {@item Power cell|sw5e-phb|power cell} (range 90/360); reload 4; strength 17; two-handed."
 			],
 			"ammunition": true,
 			"strength": 17,
@@ -1279,7 +1329,7 @@
 			"reload": 16,
 			"range": "60/240",
 			"entries": [
-				"d8 energy damage. Properties: Power cell (range 60/240); rapid 4; reload 16; strength 11; two-handed."
+				"{@dice d8} energy damage. Properties: {@item Power cell|sw5e-phb} (range 60/240); rapid 4; reload 16; strength 11; two-handed."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -1347,7 +1397,7 @@
 			"reload": 16,
 			"range": "45/180",
 			"entries": [
-				"d8 energy damage. Properties: Power cell (range 45/180); reload 16."
+				"{@dice d8} energy damage. Properties: {@item Power cell|sw5e-phb} (range 45/180); reload 16."
 			],
 			"ammunition": true
 		},
@@ -1378,7 +1428,7 @@
 			"reload": 8,
 			"range": "80/320",
 			"entries": [
-				"2d4 energy damage. Properties: Auto; burst 4; power cell (range 80/320); rapid 4; reload 8; strength 13; two-handed."
+				"2d4 energy damage. Properties: Auto; burst 4; {@item Power cell|sw5e-phb|power cell} (range 80/320); rapid 4; reload 8; strength 13; two-handed."
 			],
 			"ammunition": true,
 			"strength": 13,
@@ -1425,7 +1475,7 @@
 			"reload": 8,
 			"range": "60/240",
 			"entries": [
-				"2d4 kinetic damage. Properties: Burst 2; reload 8; slug cartridge (range 60/240); strength 13; two-handed."
+				"2d4 kinetic damage. Properties: Burst 2; reload 8; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 60/240); strength 13; two-handed."
 			],
 			"ammunition": true,
 			"strength": 13,
@@ -1453,7 +1503,7 @@
 			"reload": 12,
 			"range": "30/120",
 			"entries": [
-				"d8 kinetic damage. Properties: Rapid 8; reload 12; slug cartridge (range 30/120)."
+				"{@dice d8} kinetic damage. Properties: Rapid 8; reload 12; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 30/120)."
 			],
 			"ammunition": true,
 			"rapid": 8
@@ -1477,7 +1527,7 @@
 			"dmg1": "1d4",
 			"dmgType": "Kinetic",
 			"entries": [
-				"d4 kinetic damage. Properties: Finesse; fixed; hidden; light."
+				"{@dice d4} kinetic damage. Properties: Finesse; fixed; hidden; light."
 			]
 		},
 		{
@@ -1504,7 +1554,7 @@
 			"reload": 8,
 			"range": "30/120",
 			"entries": [
-				"d4 energy damage. Properties: Hidden; light; power cell (range 30/120); reload 8."
+				"{@dice d4} energy damage. Properties: Hidden; light; {@item Power cell|sw5e-phb|power cell} (range 30/120); reload 8."
 			],
 			"ammunition": true
 		},
@@ -1517,7 +1567,7 @@
 			"value": 3000,
 			"weight": 2.0,
 			"entries": [
-				"A holocomm is a communications unit that utilizes the HoloNet. It enables users to send and receive messages through holographic-based transmission networks."
+				"A {@item Holocomm|sw5e-phb|holocomm} is a communications unit that utilizes the HoloNet. It enables users to send and receive messages through holographic-based transmission networks."
 			]
 		},
 		{
@@ -1541,7 +1591,7 @@
 			"value": 1000,
 			"weight": 1.0,
 			"entries": [
-				"A holorecorder is a device used to record and project holograms. Some droid models are equipped with internal holorecorders."
+				"A {@item Holorecorder|sw5e-phb|holorecorder} is a device used to record and {@spell Project|sw5e-phb|project} holograms. Some droid models are equipped with internal holorecorders."
 			]
 		},
 		{
@@ -1553,7 +1603,7 @@
 			"value": 10000,
 			"weight": 5.0,
 			"entries": [
-				"A holotrace device is a wrist-worn gadget that can be used to trace a holographic transmission back to its source."
+				"A {@item Holotrace device|sw5e-phb|holotrace device} is a wrist-worn gadget that can be used to trace a holographic transmission back to its source."
 			]
 		},
 		{
@@ -1565,7 +1615,7 @@
 			"value": 4500,
 			"weight": 1.0,
 			"entries": [
-				"A homing beacon is a device used to track starships or any other entity being transported. Homing beacons transmit using non-mass HoloNet transceivers able to be tracked through hyperspace. Homing beacons are small enough that they can easily be hidden inside a ship, or tucked into some crevice on its exterior."
+				"A {@item Homing beacon|sw5e-phb|homing beacon} is a device used to track starships or any other entity being transported. Homing beacons transmit using non-mass HoloNet transceivers able to be tracked through hyperspace. Homing beacons are small enough that they can easily be hidden inside a ship, or tucked into some crevice on its exterior."
 			]
 		},
 		{
@@ -1591,7 +1641,7 @@
 			"reload": 4,
 			"range": "125/500",
 			"entries": [
-				"d10 kinetic damage. Properties: Reload 4; slug cartridge (range 125/500); strength 11; two-handed."
+				"{@dice d10} kinetic damage. Properties: Reload 4; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 125/500); strength 11; two-handed."
 			],
 			"ammunition": true,
 			"strength": 11
@@ -1605,7 +1655,7 @@
 			"value": 100,
 			"weight": 2.0,
 			"entries": [
-				"Utility (Hydrospanner)."
+				"Utility ({@item Hydrospanner|sw5e-phb})."
 			]
 		},
 		{
@@ -1634,7 +1684,7 @@
 			"reload": 4,
 			"range": "90/360",
 			"entries": [
-				"d10 ion damage. Properties: Auto; burst 4; power cell (range 90/360); reload 4; strength 15; two-handed."
+				"{@dice d10} ion damage. Properties: Auto; burst 4; {@item Power cell|sw5e-phb|power cell} (range 90/360); reload 4; strength 15; two-handed."
 			],
 			"ammunition": true,
 			"strength": 15,
@@ -1663,7 +1713,7 @@
 			"reload": 12,
 			"range": "60/240",
 			"entries": [
-				"d4 ion damage. Properties: Power cell (range 60/240); reload 12; two-handed."
+				"{@dice d4} ion damage. Properties: {@item Power cell|sw5e-phb} (range 60/240); reload 12; two-handed."
 			],
 			"ammunition": true
 		},
@@ -1689,7 +1739,7 @@
 			"reload": 16,
 			"range": "40/160",
 			"entries": [
-				"Properties: Power cell (range 40/160); reload 16."
+				"Properties: {@item Power cell|sw5e-phb} (range 40/160); reload 16."
 			],
 			"ammunition": true
 		},
@@ -1716,7 +1766,7 @@
 			"reload": 8,
 			"range": "80/320",
 			"entries": [
-				"d6 ion damage. Properties: Power cell (range 80/320); reload 8; two-handed."
+				"{@dice d6} ion damage. Properties: {@item Power cell|sw5e-phb} (range 80/320); reload 8; two-handed."
 			],
 			"ammunition": true
 		},
@@ -1729,7 +1779,7 @@
 			"value": 45000,
 			"weight": 20.0,
 			"entries": [
-				"Jetpacks are personal aerial transportation devices that allow the operator to fly into and through the air with great mobility. Activating or deactivating the jetpack requires a bonus action and, while active, you have a flying speed of 30 feet. The jetpack last for 1 minute per power cell (to a maximum of 10 minutes) and can be recharged by a power source or replacing the power cells."
+				"Jetpacks are personal aerial transportation devices that allow the operator to fly into and through the air with great mobility. Activating or deactivating the {@item Jetpack|sw5e-phb|jetpack} requires a {@variantrule Bonus Action|sw5e-phb} and, while active, you have a flying {@variantrule Speed|sw5e-phb|speed} of 30 feet. The {@item Jetpack|sw5e-phb|jetpack} last for 1 minute per {@item Power cell|sw5e-phb} (to a maximum of 10 minutes) and can be recharged by a power source or replacing the {@item Power cell|sw5e-phb|power cells}."
 			],
 			"modifySpeed": {
 				"static": {
@@ -1776,7 +1826,7 @@
 			"reload": 8,
 			"range": "40/160",
 			"entries": [
-				"d4 energy damage. Properties: Light; power cell (range 40/160); reload 8."
+				"{@dice d4} energy damage. Properties: Light; {@item Power cell|sw5e-phb|power cell} (range 40/160); reload 8."
 			],
 			"ammunition": true
 		},
@@ -1805,7 +1855,7 @@
 			"reload": 20,
 			"range": "50/200",
 			"entries": [
-				"d6 energy damage. Properties: Auto; power cell (range 50/200); rapid 5; reload 20; two-handed."
+				"{@dice d6} energy damage. Properties: Auto; {@item Power cell|sw5e-phb|power cell} (range 50/200); rapid 5; reload 20; two-handed."
 			],
 			"ammunition": true,
 			"rapid": 5
@@ -1848,7 +1898,7 @@
 			"reload": 8,
 			"range": "35/140",
 			"entries": [
-				"d4 kinetic damage. Properties: Light; reload 8; slug cartridge (range 35/140)."
+				"{@dice d4} kinetic damage. Properties: Light; reload 8; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 35/140)."
 			],
 			"ammunition": true
 		},
@@ -1884,7 +1934,7 @@
 			"value": 15500,
 			"weight": 3.75,
 			"entries": [
-				"d12 energy damage. Properties: Dexterity 11; heavy; luminous; two-handed."
+				"{@dice d12} energy damage. Properties: Dexterity 11; heavy; luminous; two-handed."
 			],
 			"dexterity": 11,
 			"property": [
@@ -1906,7 +1956,7 @@
 			"value": 3750,
 			"weight": 1.5,
 			"entries": [
-				"d6 energy damage. Properties: Finesse; hidden; luminous."
+				"{@dice d6} energy damage. Properties: Finesse; hidden; luminous."
 			],
 			"property": [
 				"SWF",
@@ -1927,7 +1977,7 @@
 			"value": 13000,
 			"weight": 3.75,
 			"entries": [
-				"d10 energy damage. Properties: Dexterity 11; heavy; luminous; two-handed."
+				"{@dice d10} energy damage. Properties: Dexterity 11; heavy; luminous; two-handed."
 			],
 			"dexterity": 11,
 			"property": [
@@ -1949,7 +1999,7 @@
 			"value": 4250,
 			"weight": 1.0,
 			"entries": [
-				"d4 energy damage. Properties: Finesse; hidden; light; luminous; thrown (range 20/60)."
+				"{@dice d4} energy damage. Properties: Finesse; hidden; light; luminous; thrown (range 20/60)."
 			],
 			"property": [
 				"SWF",
@@ -1973,7 +2023,7 @@
 			"value": 4750,
 			"weight": 1.5,
 			"entries": [
-				"d8 energy damage. Properties: Finesse; hidden; luminous."
+				"{@dice d8} energy damage. Properties: Finesse; hidden; luminous."
 			],
 			"property": [
 				"SWF",
@@ -2004,7 +2054,7 @@
 			"dmgType": "Energy",
 			"dmg2": "2d4",
 			"entries": [
-				"d6 energy damage. Properties: Hidden; luminous; versatile (2d4)."
+				"{@dice d6} energy damage. Properties: Hidden; luminous; versatile (2d4)."
 			]
 		},
 		{
@@ -2051,7 +2101,7 @@
 			"value": 7500,
 			"weight": 1.0,
 			"entries": [
-				"Macrobinoculars are handheld viewing devices that allow users to observe distant objects. Some models are able to see into space from the surface of a planet."
+				"{@item Macrobinoculars|sw5e-phb} are handheld viewing devices that allow users to observe distant objects. Some models are able to see into space from the surface of a planet."
 			]
 		},
 		{
@@ -2073,7 +2123,7 @@
 			"dmgType": "Energy",
 			"dmg2": "1d10",
 			"entries": [
-				"d8 energy damage. Properties: Hidden; luminous; versatile (1d10)."
+				"{@dice d8} energy damage. Properties: Hidden; luminous; versatile (1d10)."
 			]
 		},
 		{
@@ -2132,7 +2182,7 @@
 			"value": 3000,
 			"weight": 0.5,
 			"entries": [
-				"A medpac is a quick-acting syringe filled with a concentrated dose of kolto. As an action, you can use this medpac to restore hit points to a beast or humanoid within 5 feet. The creature rolls one die equal to the size of their Hit Die and regains hit points equal to the amount rolled + their Constitution modifier (minimum of one hit point). If the creature has Hit Dice of different sizes, use whichever Hit Die size they have the most of."
+				"A {@item Medpac|sw5e-phb|medpac} is a quick-acting syringe filled with a concentrated dose of kolto. As an action, you can use this {@item Medpac|sw5e-phb|medpac} to restore {@variantrule Hit Points|sw5e-phb|hit points} to a beast or humanoid within 5 feet. The creature rolls one die equal to the size of their Hit Die and regains {@variantrule Hit Points|sw5e-phb|hit points} equal to the amount rolled + their Constitution modifier (minimum of one hit point). If the creature has Hit Dice of different sizes, use whichever Hit Die size they have the most of."
 			]
 		},
 		{
@@ -2144,7 +2194,7 @@
 			"value": 5000,
 			"weight": 20.0,
 			"entries": [
-				"Providing solid protection for a minimal cost, mesh armor is considered excellent protection for entrenched troops or guards. However, this protection comes at a cost of mobility, limiting its uses by rapidly advancing infantry. Still, it provides more mobility than battle armor."
+				"Providing solid protection for a minimal cost, {@item Mesh armor|sw5e-phb|mesh armor} is considered excellent protection for entrenched troops or guards. However, this protection comes at a cost of mobility, limiting its uses by rapidly advancing infantry. Still, it provides more mobility than {@item Battle armor|sw5e-phb|battle armor}."
 			],
 			"armor": true,
 			"ac": "13",
@@ -2172,7 +2222,7 @@
 			"value": 2000,
 			"weight": 2.0,
 			"entries": [
-				"Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 14 Dexterity saving throw. A creature takes 2d10 kinetic damage on a failed save, or half as much as on a successful one."
+				"Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a {@item Remote detonator|sw5e-phb|remote detonator}. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d10 kinetic damage on a failed save, or half as much as on a successful one."
 			]
 		},
 		{
@@ -2196,8 +2246,8 @@
 			"value": 5500,
 			"weight": 2.0,
 			"entries": [
-				"Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote detonator. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, the mine sets the ground in a 15-foot radius ablaze for 1 minute. The fire ignites any flammable objects in the area that aren't being worn or carried.",
-				"When a creature enters the fire or starts its turn there, it creature must make a DC 14 Dexterity saving throw. The creature takes 2d8 fire damage on a failed save, or half as much damage on a successful one."
+				"Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a {@item Remote detonator|sw5e-phb|remote detonator}. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, the mine sets the ground in a 15-foot radius ablaze for 1 minute. The fire ignites any flammable objects in the area that aren't being worn or carried.",
+				"When a creature enters the fire or starts its turn there, it creature must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. The creature takes 2d8 fire damage on a failed save, or half as much damage on a successful one."
 			]
 		},
 		{
@@ -2209,7 +2259,7 @@
 			"value": 500,
 			"weight": 0.5,
 			"entries": [
-				"Utility (Mirror)."
+				"Utility ({@item Mirror|sw5e-phb})."
 			]
 		},
 		{
@@ -2221,7 +2271,7 @@
 			"value": 1000,
 			"weight": 0.5,
 			"entries": [
-				"This wrist launcher ammunition deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 14 Dexterity saving throw, taking 1d10 kinetic damage on a failed save or half as much on a successful one."
+				"This {@item Wrist launcher|sw5e-phb|wrist launcher} ammunition deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 1d10 kinetic damage on a failed save or half as much on a successful one."
 			]
 		},
 		{
@@ -2233,7 +2283,7 @@
 			"value": 3000,
 			"weight": 3.0,
 			"entries": [
-				"A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on formless or Huge or larger creatures. A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. The net has an AC of 10, 5 hit points, and immunity to all damage not dealt by melee weapons. Destroying the net frees the creature without harming it and immediately ends the net's effects. While a creature is restrained by a net, you can make no further attacks with it."
+				"A Large or smaller creature hit by a net is {@condition Restrained|sw5e-phb} until it is freed. A net has no effect on formless or Huge or larger creatures. A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. The net has an AC of 10, 5 {@variantrule Hit Points|sw5e-phb|hit points}, and immunity to all damage not dealt by melee weapons. Destroying the net frees the creature without harming it and immediately ends the net's effects. While a creature is {@condition Restrained|sw5e-phb} by a net, you can make no further attacks with it."
 			],
 			"property": [
 				"SWL",
@@ -2254,7 +2304,7 @@
 			"rarity": "none",
 			"value": 2500,
 			"entries": [
-				"MusicalInstrument (Ommni box)."
+				"MusicalInstrument ({@item Ommni box|sw5e-phb})."
 			],
 			"weight": 0.0
 		},
@@ -2266,7 +2316,7 @@
 			"rarity": "none",
 			"value": 1000,
 			"entries": [
-				"GamingSet (Pazaak deck)."
+				"GamingSet ({@item Pazaak deck|sw5e-phb})."
 			],
 			"weight": 0.0
 		},
@@ -2279,7 +2329,7 @@
 			"value": 16750,
 			"weight": 5.25,
 			"entries": [
-				"d10 energy damage. Properties: Dexterity 11; luminous; reach; two-handed."
+				"{@dice d10} energy damage. Properties: Dexterity 11; luminous; reach; two-handed."
 			],
 			"dexterity": 11,
 			"property": [
@@ -2302,7 +2352,7 @@
 			"value": 80,
 			"weight": 2.0,
 			"entries": [
-				"A pitcher stores 1 gallon of liquid."
+				"A {@item Pitcher|sw5e-phb|pitcher} stores 1 gallon of liquid."
 			]
 		},
 		{
@@ -2314,7 +2364,7 @@
 			"value": 8000,
 			"weight": 1.0,
 			"entries": [
-				"A pocket scrambler is a simple add-on to any commlink that automatically encodes any messages sent out. The transmitted message can only be read by a device equipped with a matched scrambler."
+				"A {@item Pocket scrambler|sw5e-phb|pocket scrambler} is a simple add-on to any {@item Commlink|sw5e-phb|commlink} that automatically encodes any messages sent out. The transmitted message can only be read by a device equipped with a matched scrambler."
 			]
 		},
 		{
@@ -2326,7 +2376,7 @@
 			"value": 1250,
 			"weight": 0.5,
 			"entries": [
-				"As an action, you can use the poison in this vial to coat one vibroweapon, one slug cartridge, or one wrist launcher dart. A creature hit by the poisoned weapon must make a DC 14 Constitution saving throw, taking 2d4 poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
+				"As an action, you can use the {@item Poison|sw5e-phb|poison} in this vial to coat one {@filter vibroweapon|items|type=martial weapon}, one {@item Slug cartridge|sw5e-phb|slug cartridge}, or one {@item Wrist launcher|sw5e-phb|wrist launcher} dart. A creature hit by the {@condition Poisoned|sw5e-phb} weapon must make a DC 14 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 2d4 {@item Poison|sw5e-phb|poison} damage on a failed save or half as much on a successful one. Once applied, the {@item Poison|sw5e-phb|poison} retains potency for 1 minute before drying."
 			],
 			"poison": true
 		},
@@ -2339,7 +2389,7 @@
 			"value": 5000,
 			"weight": 2.0,
 			"entries": [
-				"Kit (Poisoner's kit)."
+				"Kit ({@item Poisoner's kit|sw5e-phb})."
 			]
 		},
 		{
@@ -2366,7 +2416,17 @@
 			"value": 100,
 			"weight": 1.0,
 			"entries": [
-				"Weapons with this property are fueled by power cells, which must be loaded in order to fire the weapon. A power cell fuels a number of attacks equal to the weapon's reload number."
+				"Weapons with this property are fueled by {@item Power cell|sw5e-phb|power cells}, which must be loaded in order to fire the weapon. A {@item Power cell|sw5e-phb} fuels a number of attacks equal to the weapon's reload number."
+			]
+		},
+		{
+			"name": "Priest's Pack",
+			"source": "sw5e-phb",
+			"page": 167,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"Costs 275 credits. Includes a backpack, a blanket, two glowrods, a datapad, a traumakit, 5 days of field rations, and a canteen."
 			]
 		},
 		{
@@ -2378,7 +2438,7 @@
 			"value": 3500,
 			"weight": 2.0,
 			"entries": [
-				"When triggered, this wrist launcher ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution saving throw. On a failed save, a creature takes 1d4 cold damage and gains 1 slowed level until the end of your next turn. On a successful save, a creature takes half damage and isn't slowed. If this damage reduces a creature to 0 hit points, that creature is frozen in carbonite for 1 hour. If you lack proficiency in the wrist launcher, you must roll the damage dice twice and take the lesser total."
+				"When triggered, this {@item Wrist launcher|sw5e-phb|wrist launcher} ammunition produces a beam of {@spell Carbonite|sw5e-phb|carbonite} energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature takes 1d4 cold damage and gains 1 {@condition Slowed|sw5e-phb|slowed} level until the end of your next turn. On a successful save, a creature takes half damage and isn't {@condition Slowed|sw5e-phb|slowed}. If this damage reduces a creature to 0 {@variantrule Hit Points|sw5e-phb|hit points}, that creature is frozen in {@spell Carbonite|sw5e-phb|carbonite} for 1 hour. If you lack proficiency in the {@item Wrist launcher|sw5e-phb|wrist launcher}, you must roll the damage dice twice and take the lesser total."
 			]
 		},
 		{
@@ -2390,7 +2450,7 @@
 			"value": 3250,
 			"weight": 2.0,
 			"entries": [
-				"When triggered, this wrist launcher ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Dexterity saving throw, taking 1d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried. If you lack proficiency in the wrist launcher, you must roll the damage dice twice and take the lesser total."
+				"When triggered, this {@item Wrist launcher|sw5e-phb|wrist launcher} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 1d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried. If you lack proficiency in the {@item Wrist launcher|sw5e-phb|wrist launcher}, you must roll the damage dice twice and take the lesser total."
 			]
 		},
 		{
@@ -2402,7 +2462,7 @@
 			"value": 400,
 			"weight": 35.0,
 			"entries": [
-				"You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check."
+				"You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you {@variantrule Advantage|sw5e-phb|advantage} on this check."
 			]
 		},
 		{
@@ -2426,7 +2486,7 @@
 			"value": 7500,
 			"weight": 3.0,
 			"entries": [
-				"A repair kit included the basic tools needed to repair a droid or construct after being damaged in combat. The kit has three uses. As an action, you can expend one use of the kit to restore hit points to a droid or construct within 5 feet. The creature rolls one die equal to the size of their Hit Die and regains hit points equal"
+				"A {@item Repair kit|sw5e-phb|repair kit} included the basic tools needed to repair a droid or construct after being damaged in combat. The kit has three uses. As an action, you can expend one use of the kit to restore {@variantrule Hit Points|sw5e-phb|hit points} to a droid or construct within 5 feet. The creature rolls one die equal to the size of their Hit Die and regains {@variantrule Hit Points|sw5e-phb|hit points} equal"
 			]
 		},
 		{
@@ -2456,7 +2516,7 @@
 			"reload": 8,
 			"range": "75/300",
 			"entries": [
-				"d8 energy damage. Properties: Auto; burst 4; power cell (range 75/300); rapid 4; reload 8; strength 11; two-handed."
+				"{@dice d8} energy damage. Properties: Auto; burst 4; {@item Power cell|sw5e-phb|power cell} (range 75/300); rapid 4; reload 8; strength 11; two-handed."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -2472,7 +2532,7 @@
 			"value": 2000,
 			"weight": 1.0,
 			"entries": [
-				"A respirator, or breath mask, is a portable device that includes 1 hour's worth of oxygen. The respirator is designed to function in all environments."
+				"A {@item Respirator|sw5e-phb|respirator}, or breath mask, is a portable device that includes 1 hour's worth of oxygen. The {@item Respirator|sw5e-phb|respirator} is designed to function in all environments."
 			]
 		},
 		{
@@ -2484,8 +2544,8 @@
 			"value": 3500,
 			"weight": 1.0,
 			"entries": [
-				"Restraining bolts are small, cylindrical devices that can be affixed to a droid in order to limit its functions and enforce its obedience. When inserted, a restraining bolt restricts the droid from any movement its master does not desire, and also forced it to respond to signals produced by a hand-held control unit.",
-				"Installing a restraining bolt takes 1 minute. The droid must make a DC 14 Constitution saving throw. A hostile droid makes this save with advantage. On a successful save, the restraining bolt overloads and is rendered useless. On a failed save, the restraining bolt is correctly installed, and the control unit can be used to actively control the droid. While the control unit is inactive, the droid can act freely but it can not attempt to remove the restraining bolt."
+				"Restraining bolts are small, cylindrical devices that can be affixed to a droid in order to limit its functions and enforce its obedience. When inserted, a {@item Restraining bolt|sw5e-phb|restraining bolt} restricts the droid from any movement its master does not desire, and also forced it to respond to signals produced by a hand-held control unit.",
+				"Installing a {@item Restraining bolt|sw5e-phb|restraining bolt} takes 1 minute. The droid must make a DC 14 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. A hostile droid makes this save with {@variantrule Advantage|sw5e-phb|advantage}. On a successful save, the {@item Restraining bolt|sw5e-phb|restraining bolt} overloads and is rendered useless. On a failed save, the {@item Restraining bolt|sw5e-phb|restraining bolt} is correctly installed, and the control unit can be used to actively control the droid. While the control unit is inactive, the droid can act freely but it can not attempt to remove the {@item Restraining bolt|sw5e-phb|restraining bolt}."
 			]
 		},
 		{
@@ -2497,7 +2557,7 @@
 			"value": 25000,
 			"weight": 3.0,
 			"entries": [
-				"Rocket boots are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard jetpack. Activating or deactivating the boots requires a bonus action and, while active, you have a flying speed of 25 feet. The rocket boots last for 1 minute and can be recharged by a power source or replacing the power cells."
+				"{@item Rocket boots|sw5e-phb} are a form of rocket propulsion system affixed to a pair of boots instead of being worn on the back like a standard {@item Jetpack|sw5e-phb|jetpack}. Activating or deactivating the boots requires a {@variantrule Bonus Action|sw5e-phb} and, while active, you have a flying {@variantrule Speed|sw5e-phb|speed} of 25 feet. The {@item Rocket boots|sw5e-phb|rocket boots} last for 1 minute and can be recharged by a power source or replacing the {@item Power cell|sw5e-phb|power cells}."
 			],
 			"modifySpeed": {
 				"static": {
@@ -2531,7 +2591,7 @@
 			"reload": 8,
 			"range": "75/300",
 			"entries": [
-				"d10 energy damage. Properties: Auto; power cell (range 75/300); rapid 2; reload 8; strength 13; two-handed."
+				"{@dice d10} energy damage. Properties: Auto; {@item Power cell|sw5e-phb|power cell} (range 75/300); rapid 2; reload 8; strength 13; two-handed."
 			],
 			"ammunition": true,
 			"strength": 13,
@@ -2545,7 +2605,7 @@
 			"rarity": "none",
 			"value": 1500,
 			"entries": [
-				"GamingSet (Sabacc deck)."
+				"GamingSet ({@item Sabacc deck|sw5e-phb})."
 			],
 			"weight": 0.0
 		},
@@ -2581,7 +2641,7 @@
 			"value": 7500,
 			"weight": 3.5,
 			"entries": [
-				"d4 energy damage. Properties: Finesse; hidden; luminous; reach."
+				"{@dice d4} energy damage. Properties: Finesse; hidden; luminous; reach."
 			],
 			"property": [
 				"SWF",
@@ -2617,11 +2677,21 @@
 			"reload": 8,
 			"range": "30/120",
 			"entries": [
-				"d6 kinetic damage. Properties: Burst 2; reload 8; slug cartridge (range 30/120); strength 11."
+				"{@dice d6} kinetic damage. Properties: Burst 2; reload 8; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 30/120); strength 11."
 			],
 			"ammunition": true,
 			"strength": 11,
 			"burst": 2
+		},
+		{
+			"name": "Scholar's Pack",
+			"source": "sw5e-phb",
+			"page": 167,
+			"type": "G",
+			"rarity": "none",
+			"entries": [
+				"Costs 290 credits. Includes a backpack, a datapad, 5 datacards, a stylus, a holorecorder, 5 days of field rations, and a canteen."
+			]
 		},
 		{
 			"name": "Security kit",
@@ -2633,6 +2703,19 @@
 			"weight": 3.0,
 			"entries": [
 				"Security kits are used to bypass physical locks."
+			]
+		},
+		{
+			"name": "Shield",
+			"source": "sw5e-phb",
+			"page": 167,
+			"type": "S",
+			"rarity": "none",
+			"entries": [
+				"Shields come in varying weights, sizes, and materials. Light shields are smaller and mounted to the forearm, while medium and heavy shields are held in hand. You can only benefit from one shield at a time.",
+				"{@b {@i Physical Shields.}} Physical shields are made entirely of physical materials. They are cheaper than their generator counterparts, but heavier.",
+				"{@b {@i Shield Generators.}} Shield generators are made almost entirely of energy barriers. Medium and heavy shield generators have a physical handheld component from which the barrier emanates; medium shield generators are orbs that are slightly larger than a fist, while heavy shield generators project from a large cross.",
+				"See {@item Light physical shield|sw5e-phb}, {@item Medium physical shield|sw5e-phb}, {@item Heavy physical shield|sw5e-phb}, and shield generators in the equipment chapter."
 			]
 		},
 		{
@@ -2659,7 +2742,7 @@
 			"reload": 4,
 			"range": "30/120",
 			"entries": [
-				"2d4 kinetic damage. Properties: Burst 2; reload 4; slug cartridge (range 30/120); strength 11; two-handed."
+				"2d4 kinetic damage. Properties: Burst 2; reload 4; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 30/120); strength 11; two-handed."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -2684,7 +2767,7 @@
 			"dmg1": "1d6",
 			"dmgType": "Energy",
 			"entries": [
-				"d6 energy damage. Properties: Finesse; hidden; light; luminous."
+				"{@dice d6} energy damage. Properties: Finesse; hidden; light; luminous."
 			]
 		},
 		{
@@ -2696,7 +2779,7 @@
 			"value": 70,
 			"weight": 5.0,
 			"entries": [
-				"Utility (Shovel)."
+				"Utility ({@item Shovel|sw5e-phb})."
 			]
 		},
 		{
@@ -2746,7 +2829,7 @@
 			"reload": 16,
 			"range": "40/160",
 			"entries": [
-				"d6 kinetic damage. Properties: Rapid 8; reload 16; slug cartridge (range 40/160); strength 11."
+				"{@dice d6} kinetic damage. Properties: Rapid 8; reload 16; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 40/160); strength 11."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -2774,7 +2857,7 @@
 			"reload": 12,
 			"range": "105/420",
 			"entries": [
-				"d8 kinetic damage. Properties: Reload 12; slug cartridge (range 105/420); two-handed."
+				"{@dice d8} kinetic damage. Properties: Reload 12; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 105/420); two-handed."
 			],
 			"ammunition": true
 		},
@@ -2802,7 +2885,7 @@
 			"reload": 2,
 			"range": "150/600",
 			"entries": [
-				"d12 energy damage. Properties: Power cell (range 150/600); reload 2; strength 13; two-handed."
+				"{@dice d12} energy damage. Properties: {@item Power cell|sw5e-phb} (range 150/600); reload 2; strength 13; two-handed."
 			],
 			"ammunition": true,
 			"strength": 13
@@ -2837,7 +2920,7 @@
 			"value": 11500,
 			"weight": 2.0,
 			"entries": [
-				"d8 energy damage. Properties: Double (1d8 energy); interlocking; light; luminous."
+				"{@dice d8} energy damage. Properties: Double (1d8 energy); interlocking; light; luminous."
 			],
 			"double": "1d8 energy",
 			"property": [
@@ -2859,7 +2942,7 @@
 			"value": 80000,
 			"weight": 3.0,
 			"entries": [
-				"Stealth field generators are special devices typically worn on belts that function as a portable, personal cloaking device. Activating or deactivating the generator requires a bonus action and, while active, you have advantage on Dexterity (Stealth) ability checks that rely on sight. The generator lasts for 1 minute and can be recharged by a power source or replacing the power cell. This effect ends early if you make an attack or cast a force or tech power."
+				"{@skill Stealth|sw5e-phb} field generators are special devices typically worn on belts that function as a portable, personal cloaking device. Activating or deactivating the generator requires a {@variantrule Bonus Action|sw5e-phb} and, while active, you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth|sw5e-phb}) {@variantrule Ability Check|sw5e-phb|ability checks} that rely on sight. The generator lasts for 1 minute and can be recharged by a power source or replacing the {@item Power cell|sw5e-phb}. This effect ends early if you make an attack or cast a force or {@book tech power|sw5e-phb|12|Tech Powers}."
 			]
 		},
 		{
@@ -2871,7 +2954,7 @@
 			"value": 100,
 			"weight": 0.5,
 			"entries": [
-				"A stylus pen is designed to write on both solid surfaces and touch screen interfaces."
+				"A {@item Stylus pen|sw5e-phb|stylus pen} is designed to write on both solid surfaces and touch screen interfaces."
 			]
 		},
 		{
@@ -2900,7 +2983,7 @@
 			"reload": 16,
 			"range": "30/120",
 			"entries": [
-				"d6 energy damage. Properties: Auto; rapid 4; light; power cell (range 30/120); reload 16; strength 11."
+				"{@dice d6} energy damage. Properties: Auto; rapid 4; light; {@item Power cell|sw5e-phb|power cell} (range 30/120); reload 16; strength 11."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -2915,7 +2998,7 @@
 			"value": 750,
 			"weight": 1.0,
 			"entries": [
-				"d6 kinetic damage. Properties: Light; thrown (range 25/75)."
+				"{@dice d6} kinetic damage. Properties: Light; thrown (range 25/75)."
 			],
 			"property": [
 				"SWL",
@@ -2936,7 +3019,7 @@
 			"value": 1000,
 			"weight": 1.5,
 			"entries": [
-				"d6 kinetic damage. Properties: Finesse; light."
+				"{@dice d6} kinetic damage. Properties: Finesse; light."
 			],
 			"property": [
 				"SWF",
@@ -2978,7 +3061,7 @@
 			"value": 200,
 			"weight": 5.0,
 			"entries": [
-				"Utility (Tent, two-person)."
+				"Utility ({@item Tent, two-person|sw5e-phb})."
 			]
 		},
 		{
@@ -2990,7 +3073,7 @@
 			"value": 20000,
 			"weight": 1.0,
 			"entries": [
-				"Thermal detonators are unique in that can only be turned off by whoever turned them on. They can be set to detonate on impact or with a timer that causes them to explode on initiative count 20 (losing all initiative ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 20 feet must make a DC 14 Dexterity saving throw. A creature takes 2d6 fire and 2d10 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone."
+				"Thermal detonators are unique in that can only be turned off by whoever turned them on. They can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 20 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d6 fire and 2d10 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone."
 			]
 		},
 		{
@@ -3001,7 +3084,7 @@
 			"rarity": "none",
 			"value": 5000,
 			"entries": [
-				"Tool (Tinker's implements)."
+				"Tool ({@item Tinker's implements|sw5e-phb})."
 			],
 			"weight": 0.0
 		},
@@ -3038,7 +3121,7 @@
 			"value": 500,
 			"weight": 3.0,
 			"entries": [
-				"A common traumakit is stocked with essentials for the treatment of wounds. A traumakit has five uses. As an action, you can expend a use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check."
+				"A common {@item Traumakit|sw5e-phb|traumakit} is stocked with essentials for the treatment of wounds. A {@item Traumakit|sw5e-phb|traumakit} has five uses. As an action, you can expend a use of the kit to stabilize a creature that has 0 {@variantrule Hit Points|sw5e-phb|hit points}, without needing to make a Wisdom ({@skill Medicine|sw5e-phb}) check."
 			]
 		},
 		{
@@ -3050,7 +3133,7 @@
 			"value": 4500,
 			"weight": 16.0,
 			"entries": [
-				"A tripod is a device mounted to a two-handed blaster that lacks the fixed property to offer increased stability. Over the course of 1 minute, you can deploy or collapse the tripod. While deployed, you ignore the Strength requirement on the attached blaster with the strength property, and your speed is reduced to 0. Additionally, while deployed, you have a +10 bonus to ability checks and saving throws to avoid being disarmed of the weapon."
+				"A {@item Tripod|sw5e-phb|tripod} is a device mounted to a two-handed {@filter blaster|items|firearm=true} that lacks the fixed property to offer increased stability. Over the course of 1 minute, you can deploy or collapse the {@item Tripod|sw5e-phb|tripod}. While deployed, you ignore the Strength requirement on the attached {@filter blaster|items|firearm=true} with the strength property, and your {@variantrule Speed|sw5e-phb|speed} is reduced to 0. Additionally, while deployed, you have a +10 bonus to {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being disarmed of the weapon."
 			],
 			"bonusSavingThrow": "+1"
 		},
@@ -3063,7 +3146,7 @@
 			"value": 9500,
 			"weight": 9.25,
 			"entries": [
-				"d12 kinetic damage. Properties: Dexterity 11; heavy; two-handed."
+				"{@dice d12} kinetic damage. Properties: Dexterity 11; heavy; two-handed."
 			],
 			"dexterity": 11,
 			"property": [
@@ -3084,7 +3167,7 @@
 			"value": 2000,
 			"weight": 5.0,
 			"entries": [
-				"d8 kinetic damage. Properties: Versatile (1d10)."
+				"{@dice d8} kinetic damage. Properties: Versatile (1d10)."
 			],
 			"property": [
 				"SWV"
@@ -3104,7 +3187,7 @@
 			"value": 500,
 			"weight": 0.5,
 			"entries": [
-				"d4 kinetic damage. Properties: Finesse; light; thrown (range 20/60)."
+				"{@dice d4} kinetic damage. Properties: Finesse; light; thrown (range 20/60)."
 			],
 			"property": [
 				"SWF",
@@ -3126,7 +3209,7 @@
 			"value": 50,
 			"weight": 0.5,
 			"entries": [
-				"Due to their diminutive size, vibrodarts make ineffective melee weapons. Melee attack rolls made with them are made at disadvantage."
+				"Due to their diminutive size, vibrodarts make ineffective melee weapons. Melee {@variantrule Attack Roll|sw5e-phb|attack rolls} made with them are made at {@variantrule Disadvantage|sw5e-phb|disadvantage}."
 			],
 			"property": [
 				"SWF",
@@ -3148,7 +3231,7 @@
 			"value": 750,
 			"weight": 1.25,
 			"entries": [
-				"d6 kinetic damage. Properties: Hidden; light."
+				"{@dice d6} kinetic damage. Properties: Hidden; light."
 			],
 			"property": [
 				"HID",
@@ -3168,7 +3251,7 @@
 			"value": 7000,
 			"weight": 7.0,
 			"entries": [
-				"d10 kinetic damage. Properties: Dexterity 11; heavy; two-handed."
+				"{@dice d10} kinetic damage. Properties: Dexterity 11; heavy; two-handed."
 			],
 			"dexterity": 11,
 			"property": [
@@ -3189,7 +3272,7 @@
 			"value": 9500,
 			"weight": 9.25,
 			"entries": [
-				"d10 kinetic damage. Properties: Dexterity 11; reach; two-handed."
+				"{@dice d10} kinetic damage. Properties: Dexterity 11; reach; two-handed."
 			],
 			"dexterity": 11,
 			"property": [
@@ -3211,7 +3294,7 @@
 			"value": 1500,
 			"weight": 3.5,
 			"entries": [
-				"d8 kinetic damage. Properties: Finesse."
+				"{@dice d8} kinetic damage. Properties: Finesse."
 			],
 			"property": [
 				"SWF"
@@ -3230,7 +3313,7 @@
 			"value": 1250,
 			"weight": 4.0,
 			"entries": [
-				"d6 kinetic damage. Properties: Thrown (range 25/75); versatile (2d4)."
+				"{@dice d6} kinetic damage. Properties: Thrown (range 25/75); versatile (2d4)."
 			],
 			"property": [
 				"SWT",
@@ -3252,7 +3335,7 @@
 			"value": 1000,
 			"weight": 4.0,
 			"entries": [
-				"d6 kinetic damage. Properties: Versatile (2d4)."
+				"{@dice d6} kinetic damage. Properties: Versatile (2d4)."
 			],
 			"property": [
 				"SWV"
@@ -3293,7 +3376,7 @@
 			"value": 2750,
 			"weight": 3.5,
 			"entries": [
-				"d4 kinetic damage. Properties: Finesse; reach."
+				"{@dice d4} kinetic damage. Properties: Finesse; reach."
 			],
 			"property": [
 				"SWF",
@@ -3313,7 +3396,7 @@
 			"value": 10000,
 			"weight": 25.0,
 			"entries": [
-				"Weave armor was constructed from a mesh of metal or composite plates and a padded jumpsuit. Variants of the armor included less plates and more padding for a lighter, though less protect-ive armor, and heavier plating with molded pieces to fit the wearer. Though the armor was available unmodified, most users personalized their armor."
+				"{@item Weave armor|sw5e-phb} was constructed from a mesh of metal or composite plates and a padded jumpsuit. Variants of the armor included less plates and more padding for a lighter, though less protect-ive armor, and heavier plating with molded pieces to fit the wearer. Though the armor was available unmodified, most users personalized their armor."
 			],
 			"armor": true,
 			"ac": "14",
@@ -3329,7 +3412,7 @@
 			"value": 4000,
 			"weight": 2.0,
 			"entries": [
-				"Rather than traditional power cells, the wrist launcher fires specialized projectiles in the form of darts, small missiles, or specialized canisters."
+				"Rather than traditional {@item Power cell|sw5e-phb|power cells}, the {@item Wrist launcher|sw5e-phb|wrist launcher} fires specialized projectiles in the form of darts, small missiles, or specialized canisters."
 			],
 			"property": [
 				"FXD",
@@ -3370,7 +3453,7 @@
 			"reload": 8,
 			"range": "30/120",
 			"entries": [
-				"d4 energy damage. Properties: Disguised; fixed; light; power cell (range 30/120); reload 8."
+				"{@dice d4} energy damage. Properties: Disguised; fixed; light; {@item Power cell|sw5e-phb|power cell} (range 30/120); reload 8."
 			],
 			"ammunition": true
 		},
@@ -3383,7 +3466,7 @@
 			"value": 6000,
 			"weight": 2.0,
 			"entries": [
-				"A wristpad is a harness with an integrated datapad and holoprojector interface that fits on the forearm and includes self-charging battery packs."
+				"A {@item Wristpad|sw5e-phb|wristpad} is a harness with an integrated {@item Datapad|sw5e-phb|datapad} and holoprojector interface that fits on the forearm and includes self-charging battery packs."
 			]
 		}
 	]

@@ -61,12 +61,12 @@
 				"intimidation": "+1"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 13,
 			"resist": [
 				"necrotic",
-				"poison",
+				"{@item Poison|sw5e-phb|poison}",
 				"psychic",
 				{
 					"special": "energy from melee weapon attacks"
@@ -78,7 +78,7 @@
 				}
 			],
 			"conditionImmune": [
-				"poisoned",
+				"{@condition Poisoned|sw5e-phb}",
 				"disease"
 			],
 			"languages": [
@@ -90,20 +90,20 @@
 				{
 					"name": "Circuitry",
 					"entries": [
-						"The MagnaGuard has disadvantage on saving throws against effects that would deal ion or lightning damage."
+						"The MagnaGuard has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would deal ion or lightning damage."
 					]
 				},
 				{
 					"name": "Droid Synergy",
 					"entries": [
-						"Once per turn, the MagnaGuard can deal an extra 3 ({@damage 1d6}) damage to a creature it hits with a weapon attack if that creature is within 5 feet of a MagnaGuard ally that isn't {@condition incapacitated}."
+						"Once per turn, the MagnaGuard can deal an extra 3 ({@damage 1d6}) damage to a creature it hits with a {@variantrule Attack Roll|sw5e-phb|weapon attack} if that creature is within 5 feet of a MagnaGuard ally that isn't {@condition incapacitated|sw5e-phb}."
 					]
 				},
 				{
 					"name": "Leap",
 					"entries": [
-						"The MagnaGuard can expend all its movement on its turn to jump up to its current movement speed in any direction.",
-						"Mag-lock Limbs. The MagnaGuard can climb metal surfaces, including upside down on ceilings, without needing to make an ability check."
+						"The MagnaGuard can expend all its movement on its turn to jump up to its current movement {@variantrule Speed|sw5e-phb|speed} in any direction.",
+						"Mag-lock Limbs. The MagnaGuard can climb metal surfaces, including upside down on ceilings, without needing to make an {@variantrule Ability Check|sw5e-phb|ability check}."
 					]
 				}
 			],
@@ -121,7 +121,7 @@
 					]
 				},
 				{
-					"name": "Blaster Pistol",
+					"name": "{@filter blaster|items|firearm=true} Pistol",
 					"entries": [
 						"{@atk rw} {@hit 6} to hit, range 40/160 ft., one target. {@h}7 ({@damage 1d6 + 4}) energy damage."
 					]

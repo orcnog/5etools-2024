@@ -1,0 +1,183 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-phb",
+				"abbreviation": "PHB",
+				"full": "SW5e: Player's Handbook",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
+				"color": "#aa0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		]
+	},
+	"action": [
+		{
+			"name": "Attack",
+			"source": "sw5e-phb",
+			"page": 221,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"The most common action to take in combat is the Attack action, whether you are swinging a vibrosword, firing a blaster, or brawling with your fists. With this action, you make one melee or ranged attack. See the \"Making an Attack\" section for the rules that govern attacks.",
+				"Certain features, such as the Extra Attack class feature, allow you to make more than one attack with this action."
+			]
+		},
+		{
+			"name": "Dash",
+			"source": "sw5e-phb",
+			"page": 221,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move up to 60 feet on your turn if you dash.",
+				"Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of 30 feet is reduced to 15 feet, for instance, you can move up to 30 feet this turn if you Dash."
+			]
+		},
+		{
+			"name": "Disengage",
+			"source": "sw5e-phb",
+			"page": 221,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"If you take the Disengage action, your movement doesn't provoke opportunity attacks for the rest of the turn."
+			]
+		},
+		{
+			"name": "Dodge",
+			"source": "sw5e-phb",
+			"page": 221,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Dodge action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. You lose this benefit if you are incapacitated (as explained in {@book Appendix A|sw5e-phb|14}) or if your speed drops to 0."
+			]
+		},
+		{
+			"name": "Guard",
+			"source": "sw5e-phb",
+			"page": 221,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"You can defend an ally within 5 feet of you. When you take the Guard action, you focus entirely on preventing attacks from reaching your ally. Until the start of your next turn, any attack roll made against the guarded ally has disadvantage if you can see the attacker, as long as the ally is within 5 feet of you.",
+				"Additionally, if an attack would hit the guarded ally, you can instead have it hit you (no action required). If you do so, the attacker chooses the maximum amount of damage instead of rolling."
+			]
+		},
+		{
+			"name": "Help",
+			"source": "sw5e-phb",
+			"page": 221,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"You can lend your aid to an ally in the completion of a task. When you take the Help action, the ally you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.",
+				"Alternatively, you can aid an ally in attacking a creature within 5 feet of you. You feint, distract the target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before your next turn, the first attack roll is made with advantage."
+			]
+		},
+		{
+			"name": "Hide",
+			"source": "sw5e-phb",
+			"page": 221,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules in {@book chapter 7|sw5e-phb|7} for hiding. If you succeed, you gain certain benefits, as described in the {@book Unseen Attackers and Targets|sw5e-phb|9|Unseen Attackers and Targets} section later in this chapter."
+			]
+		},
+		{
+			"name": "Ready",
+			"source": "sw5e-phb",
+			"page": 221,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"Sometimes you want to get the jump on a foe or wait for a particular circumstance before you act. To do so, you can take the Ready action on your turn, which lets you act using your reaction before the start of your next turn.",
+				"First, you decide what perceivable circumstance will trigger your reaction. Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. Examples include \"If the soldier steps on the trapdoor, I'll pull the lever that opens it,\" and \"If the gamorrean steps next to me, I move away.\"",
+				"When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. Remember that you can take only one reaction per round.",
+				"When you ready a power, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a power must have a casting time of 1 action, and holding onto the power's effect requires concentration (explained in {@book chapter 10|sw5e-phb|10}). If your concentration is broken, the power dissipates without taking effect. For example, if you are concentrating on the {@i knight speed} power and ready {@i shock,} your {@i knight speed} power ends, and if you take damage before you release {@i shock} with your reaction, your concentration might be broken."
+			]
+		},
+		{
+			"name": "Search",
+			"source": "sw5e-phb",
+			"page": 221,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Search action, you devote your attention to finding something. Depending on the nature of your search, the GM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+			]
+		},
+		{
+			"name": "Use an Object",
+			"source": "sw5e-phb",
+			"page": 221,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"Many objects and items, such as grenades or medpacs, require your action to use. When an object requires your action for its use, you take the Use an Object action. If you would normally have to use your object interaction to draw the item you are using, you can instead do so as part of the Use an Object action."
+			]
+		},
+		{
+			"name": "Opportunity Attack",
+			"source": "sw5e-phb",
+			"page": 221,
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction"
+				}
+			],
+			"entries": [
+				"In a fight, everyone is constantly watching for enemies to drop their guard. You can rarely move heedlessly past your foes without putting yourself in danger; doing so provokes an opportunity attack.",
+				"You can make an opportunity attack when a hostile creature that you can see moves out of your reach. To make the opportunity attack, you use your reaction to make one melee attack against the provoking creature. The attack interrupts the provoking creature's movement, occurring right before the creature leaves your reach.",
+				"You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something unwillingly moves you without using your movement, action, bonus action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy. However, you do provoke an opportunity attack if a power such as {@i force jump}, or an ally's Formation fighting style feature, causes you to move out of an enemies' reach, unless that feature says otherwise."
+			]
+		}
+	]
+}

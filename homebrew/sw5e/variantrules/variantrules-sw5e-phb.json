@@ -1,0 +1,304 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-phb",
+				"abbreviation": "PHB",
+				"full": "SW5e: Player's Handbook",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
+				"color": "#aa0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		]
+	},
+	"variantrule": [
+		{
+			"name": "Ability Check",
+			"source": "sw5e-phb",
+			"page": 207,
+			"ruleType": "C",
+			"entries": [
+				"An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character or monster attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.",
+				"For every ability check, the GM decides which of the six abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class (DC). The more difficult a task, the higher its DC. The Ability Check DCs table shows common DCs.",
+				"To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success—the creature overcomes the challenge at hand. Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM."
+			]
+		},
+		{
+			"name": "Saving Throw",
+			"source": "sw5e-phb",
+			"page": 207,
+			"ruleType": "C",
+			"entries": [
+				"A saving throw-also called a save-represents an attempt to resist a power, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm.",
+				"To make a saving throw, roll a d20 and add the appropriate ability modifier. For example, you use your Dexterity modifier for a Dexterity saving throw.",
+				"A saving throw can be modified by a situational bonus or penalty and can be affected by advantage and disadvantage, as determined by the GM.",
+				"Each class gives proficiency in at least two saving throws. The operative, for example, is proficient in Intelligence saves. As with skill proficiencies, proficiency in a saving throw lets a character add his or her proficiency bonus to saving throws made using a particular ability score. Some monsters have saving throw proficiencies as well.",
+				"The Difficulty Class for a saving throw is determined by the effect that causes it. For example, the DC for a saving throw allowed by a power is determined by the caster's force- or tech-casting ability and proficiency bonus.",
+				"The result of a successful or failed saving throw is also detailed in the effect that allows the save. Usually, a successful save means that a creature suffers no harm, or reduced harm, from an effect."
+			]
+		},
+		{
+			"name": "Advantage",
+			"source": "sw5e-phb",
+			"page": 207,
+			"ruleType": "C",
+			"entries": [
+				"Sometimes a special ability or power tells you that you have advantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage.",
+				"If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.",
+				"If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20."
+			]
+		},
+		{
+			"name": "Disadvantage",
+			"source": "sw5e-phb",
+			"page": 207,
+			"ruleType": "C",
+			"entries": [
+				"Sometimes a special ability or power tells you that you have disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the lower of the two rolls if you have disadvantage.",
+				"If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20.",
+				"If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20."
+			]
+		},
+		{
+			"name": "Attack Roll",
+			"source": "sw5e-phb",
+			"page": 221,
+			"ruleType": "C",
+			"entries": [
+				"When you make an attack, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a d20 and add the appropriate modifiers. If the total of the roll plus modifiers equals or exceeds the target's Armor Class (AC), the attack hits. The AC of a character is determined at character creation, whereas the AC of a creature is in its stat block.",
+				{
+					"type": "entries",
+					"name": "Modifiers to the Roll",
+					"entries": [
+						"When a character makes an attack roll, the two most common modifiers to the roll are an ability modifier and the character's proficiency bonus. When a creature makes an attack roll, it uses whatever modifier is provided in its stat block.",
+						"{@b {@i Ability Modifier.}} The ability modifier used for a melee weapon attack is Strength, and the ability modifier used for a ranged weapon attack is Dexterity. Weapons that have the finesse or thrown property break this rule.",
+						"Some powers also require an attack roll. The ability modifier used for a power attack depends on the force- or tech-casting ability of the force- or tech-caster, as explained in {@book chapter 10|sw5e-phb|10}.",
+						"{@b {@i Proficiency Bonus.}} You add your proficiency bonus to your attack roll when you attack using a weapon with which you have proficiency, as well as when you attack with a power."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rolling 1 or 20",
+					"entries": [
+						"Sometimes fate blesses or curses a combatant, causing the novice to hit and the veteran to miss.",
+						"If the d20 roll for an attack is a 20, the attack hits regardless of any modifiers or the target's AC. In addition, the attack is a critical hit, as explained later in this chapter.",
+						"If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Choosing to be Hit",
+					"entries": [
+						"Sometimes, an attack might miss you when you wanted it to hit. You can choose to allow a miss to hit you (no action required). If you do so, the attacker chooses the maximum amount of damage instead of rolling."
+					]
+				}
+			]
+		},
+		{
+			"name": "Armor Class",
+			"source": "sw5e-phb",
+			"page": 207,
+			"ruleType": "C",
+			"entries": [
+				"Your {@b Armor Class} (AC) represents how well your character avoids being wounded in battle. Things that contribute to your AC include the armor you wear, the shield you carry, and your Dexterity modifier. Not all characters wear armor or carry shields, however.",
+				"Without armor or a shield, your character's AC equals 10 + his or her Dexterity modifier. If your character wears armor, carries a shield, or both, calculate your AC using the rules in {@book Equipment|sw5e-phb|5}. Record your AC on your character sheet.",
+				"Your character needs to be proficient with armor and shields to wear and use them effectively, and your armor and shield proficiencies are determined by your class. There are drawbacks to wearing armor or carrying a shield if you lack the required proficiency, as explained in {@book Equipment|sw5e-phb|5}.",
+				"Some powers and class features give you a different way to calculate your AC. If you have multiple features that give you different ways to calculate your AC, you choose which one to use."
+			]
+		},
+		{
+			"name": "Bonus Action",
+			"source": "sw5e-phb",
+			"page": 221,
+			"ruleType": "C",
+			"entries": [
+				"Various class features, powers, and other abilities let you take an additional action on your turn called a bonus action. The Cunning Action feature, for example, allows an operative to take a bonus action. You can take a bonus action only when a special ability, power, or other feature of the game states that you can do something as a bonus action. You otherwise don't have a bonus action to take.",
+				"You can take only one bonus action on your turn, so you must choose which bonus action to use when you have more than one available.",
+				"You choose when to take a bonus action during your turn, unless the bonus action's timing is specified, and anything that deprives you of your ability to take actions also prevents you from taking a bonus action."
+			]
+		},
+		{
+			"name": "Reaction",
+			"source": "sw5e-phb",
+			"page": 221,
+			"ruleType": "C",
+			"entries": [
+				"Certain special abilities, powers, and situations allow you to take a special action called a reaction. A reaction, typically an instant response to a trigger of some kind, can occur on your turn or on someone else's. The opportunity attack, described later in this chapter, is the most common type of reaction.",
+				"When you take a reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that creature can continue its turn right after the reaction.",
+				"Certain features, such as the scholar's Multitasker, might grant you an additional reaction. If you have two or more reactions, you can only take one per turn."
+			]
+		},
+		{
+			"name": "Critical Hit",
+			"source": "sw5e-phb",
+			"page": 221,
+			"ruleType": "C",
+			"entries": [
+				"When you score a critical hit, you get to roll all of the attack's damage dice twice, including any additional damage dice, and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once.",
+				"{@b {@i Critical Hit Range.}} The critical hit range of an effect determines on what d20 results that effect scores a critical hit. Typically, an effect has a critical hit range of 1, meaning it only scores a critical hit on a 20. A critical hit range of 2, however, would mean the effect scores a critical hit on a roll of 19 or 20. A critical hit range cannot exceed 5, scoring a critical hit on 16-20."
+			]
+		},
+		{
+			"name": "Hit Points",
+			"source": "sw5e-phb",
+			"page": 221,
+			"ruleType": "C",
+			"entries": [
+				"Your Constitution modifier contributes to your hit points. Typically, you add your Constitution modifier to each Hit Die you roll for your hit points.",
+				"If your Constitution modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Constitution score when you reach 4th level and your Constitution modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2. So you add 3 hit points for your first three levels, and then roll your hit points for 4th level using your new modifier. Or if you're 7th level and some effect lowers your Constitution score so as to reduce your Constitution modifier by 1, your hit point maximum is reduced by 7."
+			]
+		},
+		{
+			"name": "Short Rest",
+			"source": "sw5e-phb",
+			"page": 215,
+			"ruleType": "C",
+			"entries": [
+				"A short rest is a period of downtime, at least 1 hour long, during which a character does nothing more strenuous than eating, drinking, reading, and tending to wounds.",
+				"A character can spend one or more Hit Dice at the end of a short rest, up to the character's maximum number of Hit Dice, which is equal to the character's level. Whenever a character spends a Hit Die to regain hit points, the player rolls the die and adds the character's Constitution modifier to it. The character regains hit points equal to the total. The player can decide to spend an additional Hit Die after each roll."
+			]
+		},
+		{
+			"name": "Long Rest",
+			"source": "sw5e-phb",
+			"page": 215,
+			"ruleType": "C",
+			"entries": [
+				"A long rest is a period of extended downtime, at least 8 hours long, during which a character sleeps for at least 6 hours and performs light activity, such as reading, talking, eating, or standing watch, for no more than 2 hours. If the rest is interrupted by a period of strenuous activity—fighting, casting powers, at least 1 hour of walking, or similar adventuring activity—the characters must restart the rest to benefit from it.",
+				"At the end of a long rest, a character regains all lost hit points. The character also regains spent Hit Dice, up to a number of dice equal to half of the character's total number of them (minimum of one).",
+				"A character can't benefit from more than one long rest in a 24-hour period, and a character must have at least 1 hit point at the start of the rest to gain its benefits.",
+				{
+					"type": "entries",
+					"name": "Variant: Resting in Armor",
+					"entries": [
+						"Resting in armor makes it difficult to recover fully. At the end of a long rest, if you wore your armor, you only recover one-quarter your spent Hit Dice (minimum of one), instead of half."
+					]
+				}
+			]
+		},
+		{
+			"name": "Proficiency",
+			"source": "sw5e-phb",
+			"page": 207,
+			"ruleType": "C",
+			"entries": [
+				"Characters have a proficiency bonus determined by level, as detailed in {@book chapter 1|sw5e-phb|1}. Monsters also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on ability checks, saving throws, and attack rolls.",
+				"Your proficiency bonus can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save.",
+				"Occasionally, your proficiency bonus might be multiplied or divided (doubled or halved. for example) before you apply it. If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.",
+				"By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn't normally benefit from your proficiency bonus, you still don't add the bonus to the check. For that check your proficiency bonus is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you lack proficiency in the Lore skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Intelligence (Lore) checks.",
+				"In general, you don't multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply.",
+				{
+					"type": "entries",
+					"name": "Expertise",
+					"entries": [
+						"Certain features, such as the Expertise class feature or Ace Pilot feat, grant expertise in a skill or tool, letting you double your proficiency bonus with that skill or tool. As usual, you can only gain expertise in a skill or tool once.",
+						"Far less common, though still possible, a creature can gain expertise in a saving throw. Creatures cannot gain expertise in weapons, however."
+					]
+				}
+			]
+		},
+		{
+			"name": "Speed",
+			"source": "sw5e-phb",
+			"page": 215,
+			"ruleType": "C",
+			"entries": [
+				"Your speed determines how far you can move when traveling ({@book chapter 8|sw5e-phb|8}) and fighting ({@book chapter 9|sw5e-phb|9})."
+			]
+		},
+		{
+			"name": "Initiative",
+			"source": "sw5e-phb",
+			"page": 207,
+			"ruleType": "C",
+			"entries": [
+				"At the beginning of every combat, you roll initiative by making a Dexterity check. Initiative determines the order of creatures' turns in combat, as described in {@book chapter 9|sw5e-phb|9}.",
+				{
+					"type": "inset",
+					"name": "Hiding",
+					"entries": [
+						"hen you try to hide, make a Dexterity (Stealth) check. Until you are discovered or you stop hiding, that checks total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence. You can't hide from a creature that can see you, and if you make noise (such as shouting a warning or knocking over a vase), you give away your position. An invisible creature can't be seen, so it can always try to hide. Signs of its passage might still be noticed, however, and it still has to stay quiet. In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the Dungeon Master might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack before you are seen. {@b {@i Passive Perception.}} When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM compares your Dexterity (Stealth) check with that creature's passive Wisdom (Perception) score, which equals 10 + the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has advantage, add 5. For disadvantage, subtract 5. For example, if a lst-level character (with a proficiency bonus of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in Perception, he or she has a passive Wisdom (Perception) of 14. {@b {@i What Can You See?}} One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be {@b lightly} or {@b heavily} obscured, as explained in {@book chapter 8|sw5e-phb|8}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Death Saving Throw",
+			"source": "sw5e-phb",
+			"page": 221,
+			"ruleType": "C",
+			"entries": [
+				"Whenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto life. Unlike other saving throws, this one isn't tied to any ability score. You are in the hands of fate now, aided only by powers and features that improve your chances of succeeding on a saving throw. Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become stable (see below). On your third failure, you die. The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any hit points or become stable.",
+				"{@b {@i Rolling 1 or 20.}} When you make a death saving throw and roll a 1 on the d20, it counts as two failures. If you roll a 20 on the d20, you regain 1 hit point.",
+				"{@b {@i Damage at 0 Hit Points.}} If you take any damage while you have 0 hit points (for example, by catching fire because your limbs were all chopped off next to a pit of lava), you suffer a death saving throw failure. If the damage is from a critical hit, you suffer two failures instead. If the damage equals or exceeds your hit point maximum, you suffer instant death."
+			]
+		},
+		{
+			"name": "Unarmed Strike",
+			"source": "sw5e-phb",
+			"page": 221,
+			"ruleType": "C",
+			"entries": [
+				"Regardless of whether or not you are armed, you can fight in melee by making an unarmed strike. Your unarmed strikes are a weapon with which you are proficient and, unless otherwise indicated, they do 1 + your Strength modifier kinetic damage."
+			]
+		},
+		{
+			"name": "Cover",
+			"source": "sw5e-phb",
+			"page": 221,
+			"ruleType": "C",
+			"entries": [
+				"Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.",
+				"There are four degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies, not added together.",
+				"A target with {@b one-quarter cover} has a +2 bonus to AC and Dexterity saving throws. A target has one-quarter cover if an obstacle blocks at least one-fourth of its body, such as a thin pillar or a creature of one size category smaller.",
+				"A target with {@b half cover} has a +3 bonus to AC and Dexterity saving throws. A target has half cover if an obstacle blocks at least half of its body, such as a low wall or a creature of the same size category.",
+				"A target with {@b three-quarters cover} has a +5 bonus to AC and Dexterity saving throws. A target has three-quarter cover if about three-quarters of it is obstructed, whether by an obstacle or a creature of one size category larger.",
+				"A target with {@b total cover} can't be targeted directly by an attack or a power, although some powers can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle.",
+				{
+					"type": "entries",
+					"name": "Variant: Creatures Providing Cover",
+					"entries": [
+						"Sometimes, creatures in close proximity create a veritable mess of bodies, potentially causing attacks targeting one to hit another. Using this variant, if an attack would miss a creature by an amount less than or equal to the bonus to AC granted by the cover of another creature, and the attack would hit that other creature, the GM might consider having that other creature take the attack's damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Difficult Terrain",
+			"source": "sw5e-phb",
+			"page": 215,
+			"ruleType": "C",
+			"entries": [
+				"Combat rarely takes place in bare rooms or on featureless plains. Boulder-strewn caverns, briar-choked forests, treacherous staircases—the setting of a typical fight contains difficult terrain.",
+				"Every foot of movement in difficult terrain costs 1 extra foot. This rule is true even if multiple things in a space count as difficult terrain.",
+				"Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are examples of difficult terrain. The space of another creature, whether hostile or not, also counts as difficult terrain."
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "sw5e-phb",
+			"page": 207,
+			"ruleType": "C",
+			"entries": [
+				"Certain features, such as the Expertise class feature or Ace Pilot feat, grant expertise in a skill or tool, letting you double your proficiency bonus with that skill or tool. As usual, you can only gain expertise in a skill or tool once.",
+				"Far less common, though still possible, a creature can gain expertise in a saving throw. Creatures cannot gain expertise in weapons, however."
+			]
+		},
+		{
+			"name": "Concentration",
+			"source": "sw5e-phb",
+			"page": 0,
+			"ruleType": "C",
+			"entries": [
+				"Some powers require you to maintain concentration in order to keep their effect active. If you lose concentration, such a power ends.",
+				"If a power must be maintained with concentration, that fact appears in its Duration entry, and the power specifies how long you can concentrate on it. You can end concentration at any time (no action required).",
+				"Normal activity, such as moving and attacking, doesn't interfere with concentration. The following factors can break concentration:",
+				"The GM might also decide that certain environmental phenomena, such as turbulence on a ship or rocky terrain on a speeder, require you to succeed on a DC 10 Constitution saving throw to maintain concentration on a power."
+			]
+		}
+	]
+}

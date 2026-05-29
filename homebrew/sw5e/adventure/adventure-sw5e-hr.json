@@ -61,7 +61,7 @@
 			"wis": 9,
 			"cha": 6,
 			"senses": [
-				"darkvision 120 ft."
+				"{@spell Darkvision|sw5e-phb|darkvision} 120 ft."
 			],
 			"passive": 9,
 			"cr": "8",
@@ -124,7 +124,7 @@
 				{
 					"ac": 16,
 					"from": [
-						"weave armor"
+						"{@item Weave armor|sw5e-phb|weave armor}"
 					]
 				}
 			],
@@ -149,13 +149,13 @@
 				"survival": "+4"
 			},
 			"senses": [
-				"darkvision 60 ft",
+				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft",
 				"(adv, sight and hearing)"
 			],
 			"passive": 14,
 			"languages": [
 				"Galactic Basic",
-				"Mando'a Challenge 2 (450 XP)                    Proficiency Bonus +2"
+				"Mando'a Challenge 2 (450 XP)                    {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} +2"
 			],
 			"trait": [
 				{
@@ -173,13 +173,13 @@
 					]
 				},
 				{
-					"name": "Blaster Carbine",
+					"name": "{@filter blaster|items|firearm=true} Carbine",
 					"entries": [
 						"{@atk rw} (105/420 ft.), +5, {@dice 2d6 + 3} (10) energy."
 					]
 				},
 				{
-					"name": "Techblade",
+					"name": "{@item Techblade|sw5e-phb}",
 					"entries": [
 						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}{@dice 2d6 + 3} (10) kinetic damage."
 					]
@@ -187,7 +187,7 @@
 				{
 					"name": "Flash Grenade (once per day)",
 					"entries": [
-						"{@dc 14} Con save: {@condition blinded} [fail] (1min; repeat start of turn). The mandalorian throws a grenade at a point it can see within 35ft of it. It explodes, affecting each creature within 10 feet."
+						"{@dc 14} Con save: {@condition blinded|sw5e-phb} [fail] (1min; repeat start of turn). The mandalorian throws a grenade at a point it can see within 35ft of it. It explodes, affecting each creature within 10 feet."
 					]
 				}
 			],
@@ -195,7 +195,7 @@
 				{
 					"name": "Aggressive",
 					"entries": [
-						"The mandalorian moves up to its speed toward a hostile creature that it can see."
+						"The mandalorian moves up to its {@variantrule Speed|sw5e-phb|speed} toward a hostile creature that it can see."
 					]
 				}
 			],
@@ -229,8 +229,8 @@
 				{
 					"ac": 16,
 					"from": [
-						"mesh armor",
-						"light shield generator"
+						"{@item Mesh armor|sw5e-phb|mesh armor}",
+						"light {@item Shield|sw5e-phb|shield} generator"
 					]
 				}
 			],
@@ -258,12 +258,12 @@
 				"survival": "+5"
 			},
 			"senses": [
-				"darkvision 60 ft",
+				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft",
 				"(adv, sight and hearing)"
 			],
 			"passive": 15,
 			"languages": [
-				"Galactic Basic and Mando'a Challenge 2 (450 XP)                    Proficiency Bonus +2"
+				"Galactic Basic and Mando'a Challenge 2 (450 XP)                    {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} +2"
 			],
 			"trait": [
 				{
@@ -283,13 +283,13 @@
 					]
 				},
 				{
-					"name": "Blaster Rifle",
+					"name": "{@filter blaster|items|firearm=true} Rifle",
 					"entries": [
 						"Ranged: (105/420 ft.), To hit +5, {@dice 2d8 + 3} (12) energy."
 					]
 				},
 				{
-					"name": "Hidden Blade",
+					"name": "{@item Hidden blade|sw5e-phb|Hidden Blade}",
 					"entries": [
 						"Melee: (5 ft.) To hit +5, {@dice 2d4 + 3} (8) kinetic."
 					]
@@ -297,7 +297,7 @@
 				{
 					"name": "Flash Grenade (once per day)",
 					"entries": [
-						"{@dc 14} Con save: {@condition blinded} [fail] (1min; repeat start of turn). The mandalorian throws a grenade at a point it can see within 35ft of it. It explodes, affecting each creature within 10 feet."
+						"{@dc 14} Con save: {@condition blinded|sw5e-phb} [fail] (1min; repeat start of turn). The mandalorian throws a grenade at a point it can see within 35ft of it. It explodes, affecting each creature within 10 feet."
 					]
 				}
 			],
@@ -305,7 +305,7 @@
 				{
 					"name": "Aggressive",
 					"entries": [
-						"The mandalorian moves up to its speed toward a hostile creature that it can see."
+						"The mandalorian moves up to its {@variantrule Speed|sw5e-phb|speed} toward a hostile creature that it can see."
 					]
 				}
 			],
@@ -322,7 +322,7 @@
 			"cr": "2"
 		},
 		{
-			"name": "Mandalorian Commando",
+			"name": "Mandalorian {@feat Commando|sw5e-phb}",
 			"source": "sw5e-hr",
 			"page": 0,
 			"size": [
@@ -337,8 +337,8 @@
 				{
 					"ac": 18,
 					"from": [
-						"weave armor",
-						"light shield generator"
+						"{@item Weave armor|sw5e-phb|weave armor}",
+						"light {@item Shield|sw5e-phb|shield} generator"
 					]
 				}
 			],
@@ -367,18 +367,18 @@
 				"survival": "+9"
 			},
 			"senses": [
-				"darkvision 60 ft",
+				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft",
 				"(adv, sight and hearing)"
 			],
 			"passive": 19,
 			"languages": [
-				"Galactic Basic and Mando'a Challenge 5 (1,800 Xp)                 Proficiency Bonus +2"
+				"Galactic Basic and Mando'a Challenge 5 (1,800 Xp)                 {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} +2"
 			],
 			"trait": [
 				{
 					"name": "Mandalorian Mettle",
 					"entries": [
-						"The mandalorian has advantage on saving throws against being {@condition frightened} and {@condition charmed}."
+						"The mandalorian has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against being {@condition frightened|sw5e-phb} and {@condition charmed|sw5e-phb}."
 					]
 				},
 				{
@@ -399,10 +399,10 @@
 					]
 				},
 				{
-					"name": "Blaster Pistol",
+					"name": "{@filter blaster|items|firearm=true} Pistol",
 					"entries": [
 						"{@atk rw} {@hit 6} to hit, range 40/160 ft., one target. {@h}11 ({@dice 2d6 + 4}) energy.",
-						"Hidden blade. Melee Weapon Attack: {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@dice 2d4 + 4}) kinetic."
+						"{@item Hidden blade|sw5e-phb}. Melee Weapon Attack: {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@dice 2d4 + 4}) kinetic."
 					]
 				},
 				{
@@ -414,7 +414,7 @@
 				{
 					"name": "Wrist Flamer",
 					"entries": [
-						"Each creature in a 15-foot cone or 5-foot wide line from the mandalorian must make a {@dc 13} Dexterity saving throw, taking 4 ({@damage 1d8}) fire damage or half as much on a successful one. The fire spreads around corners and ignites flammable objects in the area that aren't being worn or carried."
+						"Each creature in a 15-foot cone or 5-foot wide line from the mandalorian must make a {@dc 13} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 4 ({@damage 1d8}) fire damage or half as much on a successful one. The fire spreads around corners and ignites flammable objects in the area that aren't being worn or carried."
 					]
 				}
 			],
@@ -422,13 +422,13 @@
 				{
 					"name": "Aggressive",
 					"entries": [
-						"The mandalorian moves up to its speed toward a hostile creature that it can see."
+						"The mandalorian moves up to its {@variantrule Speed|sw5e-phb|speed} toward a hostile creature that it can see."
 					]
 				},
 				{
-					"name": "Jetpack",
+					"name": "{@item Jetpack|sw5e-phb}",
 					"entries": [
-						"While active, the Mandalorian has a flying speed of 30 feet. The jetpack lasts for a maximum of 10 minutes."
+						"While active, the Mandalorian has a flying {@variantrule Speed|sw5e-phb|speed} of 30 feet. The {@item Jetpack|sw5e-phb|jetpack} lasts for a maximum of 10 minutes."
 					]
 				}
 			],
@@ -485,7 +485,7 @@
 			"wis": 8,
 			"cha": 6,
 			"senses": [
-				"darkvision 60 ft."
+				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 9,
 			"cr": "1/8",
@@ -493,7 +493,7 @@
 				{
 					"name": "Atmosphere Agnostic",
 					"entries": [
-						"The mynock can survive in any type of atmosphere or vacuum."
+						"The mynock can {@optfeature Survive|sw5e-phb|survive} in any type of atmosphere or vacuum."
 					]
 				},
 				{
@@ -505,7 +505,7 @@
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The mynock has advantage on an attack roll against a creature if at least one ally of the mynock is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"The mynock has {@variantrule Advantage|sw5e-phb|advantage} on an {@variantrule Attack Roll|sw5e-phb|attack roll} against a creature if at least one ally of the mynock is within 5 feet of the creature and the ally isn't {@condition incapacitated|sw5e-phb}."
 					]
 				}
 			],
@@ -513,7 +513,7 @@
 				{
 					"name": "Energy Drain",
 					"entries": [
-						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) kinetic damage, and the mynock attaches to the target. A creature, including the target, can use its action to detach the Mynock. If attached to a target, at the start of each of the mynock's turns, the target loses 5 ({@dice 1d4 + 3}) hit points due to energy being drained, and the Mynock gains those hit points."
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one creature. {@h}5 ({@damage 1d4 + 3}) kinetic damage, and the mynock attaches to the target. A creature, including the target, can use its action to detach the Mynock. If attached to a target, at the start of each of the mynock's turns, the target loses 5 ({@dice 1d4 + 3}) {@variantrule Hit Points|sw5e-phb|hit points} due to energy being drained, and the Mynock gains those {@variantrule Hit Points|sw5e-phb|hit points}."
 					]
 				}
 			],
@@ -521,7 +521,7 @@
 				{
 					"name": "Detatch",
 					"entries": [
-						"The mynock can detach itself from a target as a bonus action."
+						"The mynock can detach itself from a target as a {@variantrule Bonus Action|sw5e-phb}."
 					]
 				}
 			],
@@ -578,10 +578,10 @@
 			],
 			"passive": 11,
 			"resist": [
-				"poison"
+				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"poisoned",
+				"{@condition Poisoned|sw5e-phb}",
 				"prone"
 			],
 			"cr": "5",
@@ -589,13 +589,13 @@
 				{
 					"name": "Spider Climb",
 					"entries": [
-						"The rathtar can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+						"The rathtar can climb difficult surfaces, including upside down on ceilings, without needing to make an {@variantrule Ability Check|sw5e-phb|ability check}."
 					]
 				},
 				{
 					"name": "Grasping Arms",
 					"entries": [
-						"The rathtar can have up to eight arms at a time. Each arm can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying an arm deals no damage to the rathtar, which can extrude a replacement arm on its next turn. An arm can also be broken if a creature takes an action and succeeds on a {@dc 15} Strength check against it."
+						"The rathtar can have up to eight arms at a time. Each arm can be attacked (AC 20; 10 {@variantrule Hit Points|sw5e-phb|hit points}; immunity to {@item Poison|sw5e-phb|poison} and psychic damage). Destroying an arm deals no damage to the rathtar, which can extrude a replacement arm on its next turn. An arm can also be broken if a creature takes an action and succeeds on a {@dc 15} Strength check against it."
 					]
 				}
 			],
@@ -609,7 +609,7 @@
 				{
 					"name": "Flailing Arms",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}6 ({@damage 1d4 + 4}) kinetic damage, and the target is {@condition grappled} (escape {@dc 15}) if it is Medium or smaller. Until the grapple ends, the rathar can't use this arm on another target. The rathtar has eight arms and can have up to four creatures {@condition grappled} at a time."
+						"{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}6 ({@damage 1d4 + 4}) kinetic damage, and the target is {@condition grappled|sw5e-phb} (escape {@dc 15}) if it is Medium or smaller. Until the grapple ends, the rathar can't use this arm on another target. The rathtar has eight arms and can have up to four creatures {@condition grappled|sw5e-phb} at a time."
 					]
 				},
 				{
@@ -639,7 +639,7 @@
 				"RCH"
 			],
 			"conditionInflict": [
-				"grappled"
+				"{@condition Grappled|sw5e-phb|grappled}"
 			]
 		},
 		{
@@ -687,13 +687,13 @@
 				{
 					"name": "Keen Hearing and Smell",
 					"entries": [
-						"The rat has advantage on on Wisdom ({@skill Perception}) checks that rely on hearing and smell."
+						"The rat has {@variantrule Advantage|sw5e-phb|advantage} on on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on hearing and smell."
 					]
 				},
 				{
 					"name": "Pack Tactics",
 					"entries": [
-						"The rat has advantage on an attack roll against a creature if it is {@condition grappled} by at least one of the rat's allies."
+						"The rat has {@variantrule Advantage|sw5e-phb|advantage} on an {@variantrule Attack Roll|sw5e-phb|attack roll} against a creature if it is {@condition grappled|sw5e-phb} by at least one of the rat's allies."
 					]
 				}
 			],
@@ -701,7 +701,7 @@
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}{@dice 2d4 + 2}) kinetic damage. If the target is a creature, it must succeed on a {@dc 11} Strength saving throw or be {@condition grappled}."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}{@dice 2d4 + 2}) kinetic damage. If the target is a creature, it must succeed on a {@dc 11} Strength {@variantrule Saving Throw|sw5e-phb|saving throw} or be {@condition grappled|sw5e-phb}."
 					]
 				}
 			],
@@ -713,7 +713,7 @@
 				"MW"
 			],
 			"conditionInflict": [
-				"grappled"
+				"{@condition Grappled|sw5e-phb|grappled}"
 			],
 			"savingThrowForced": [
 				"strength"
@@ -756,7 +756,7 @@
 				"stealth": "+3"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 11,
 			"languages": [
@@ -781,13 +781,13 @@
 				{
 					"name": "Tentacles",
 					"entries": [
-						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}4 ({@damage 1d4 + 2}) kinetic damage, and the target is {@condition grappled} (escape {@dc 11}). Until this grapple ends, the target is {@condition restrained}."
+						"{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}4 ({@damage 1d4 + 2}) kinetic damage, and the target is {@condition grappled|sw5e-phb} (escape {@dc 11}). Until this grapple ends, the target is {@condition restrained|sw5e-phb}."
 					]
 				},
 				{
 					"name": "Bite",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) kinetic damage. If the target is a creature, it must succeed on a {@dc 13} Constitution saving throw or be {@condition poisoned} for 1 minute. Until the poison ends, the target is {@condition paralyzed}. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success."
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) kinetic damage. If the target is a creature, it must succeed on a {@dc 13} Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} or be {@condition poisoned|sw5e-phb} for 1 minute. Until the {@item Poison|sw5e-phb|poison} ends, the target is {@condition paralyzed|sw5e-phb}. The target can repeat the {@variantrule Saving Throw|sw5e-phb|saving throw} at the end of each of its turns, ending the {@item Poison|sw5e-phb|poison} on itself on a success."
 					]
 				}
 			],
@@ -803,10 +803,10 @@
 				"RCH"
 			],
 			"conditionInflict": [
-				"grappled",
-				"paralyzed",
-				"poisoned",
-				"restrained"
+				"{@condition Grappled|sw5e-phb|grappled}",
+				"{@condition Paralyzed|sw5e-phb|paralyzed}",
+				"{@condition Poisoned|sw5e-phb}",
+				"{@condition Restrained|sw5e-phb}"
 			],
 			"savingThrowForced": [
 				"constitution"

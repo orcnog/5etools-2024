@@ -28,9 +28,9 @@
 				{
 					"type": "list",
 					"items": [
-						"When determining the save DC of a projector canister you control, you can use 8 + your proficiency bonus + your Intelligence modifier, if it would be higher than the item's DC.",
-						"Your projector canisters reduce partial cover by one step (from three-quarters to half or half to one-quarter). If a creature has one-quarter cover, you ignore it entirely.",
-						"When using a projector canister that requires a saving throw and deals damage, you can take a penalty to the save DC equal to your proficiency bonus. If you do so, the item's damage increases by an amount equal to your proficiency bonus."
+						"When determining the save DC of a projector canister you control, you can use 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Intelligence modifier, if it would be higher than the item's DC.",
+						"Your projector canisters reduce partial {@variantrule Cover|sw5e-phb|cover} by one step (from three-quarters to half or half to one-quarter). If a creature has one-quarter {@variantrule Cover|sw5e-phb|cover}, you ignore it entirely.",
+						"When using a projector canister that requires a {@variantrule Saving Throw|sw5e-phb|saving throw} and deals damage, you can take a penalty to the save DC equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you do so, the item's damage increases by an amount equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -47,14 +47,14 @@
 				{
 					"type": "list",
 					"items": [
-						"When you take the Help action and target an ally, you can choose to forgo up to half your speed. If you do so, when that ally makes its ability check to complete the task with advantage, it can reroll one of the dice once. You can not use this feature if you have moved more than half your speed this turn."
+						"When you take the {@action Help|sw5e-phb} action and target an ally, you can choose to forgo up to half your {@variantrule Speed|sw5e-phb|speed}. If you do so, when that ally makes its {@variantrule Ability Check|sw5e-phb|ability check} to complete the task with {@variantrule Advantage|sw5e-phb|advantage}, it can reroll one of the dice once. You can not use this feature if you have moved more than half your {@variantrule Speed|sw5e-phb|speed} this turn."
 					]
 				},
 				{
 					"type": "list",
 					"items": [
-						"When you take the Help action and target an enemy, you can choose to forgo up to half your speed. If you do so, when an ally makes its attack roll against the creature with advantage, it can reroll one of the dice once. You can not use this feature if you have moved more than half your speed this turn.",
-						"When you take the Help action, it has a range in feet equal to 5 x your proficiency bonus."
+						"When you take the {@action Help|sw5e-phb} action and target an enemy, you can choose to forgo up to half your {@variantrule Speed|sw5e-phb|speed}. If you do so, when an ally makes its {@variantrule Attack Roll|sw5e-phb|attack roll} against the creature with {@variantrule Advantage|sw5e-phb|advantage}, it can reroll one of the dice once. You can not use this feature if you have moved more than half your {@variantrule Speed|sw5e-phb|speed} this turn.",
+						"When you take the {@action Help|sw5e-phb} action, it has a range in feet equal to 5 x your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -67,13 +67,13 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered returning pain to those who deliver it, becoming a scourge on the battlefield. You gain the following benefits:",
+				"You've mastered returning pain to those who deliver it, becoming a {@spell Scourge|sw5e-phb|scourge} on the battlefield. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"When a creature scores a critical hit against you, you have advantage on the first attack you make against that creature before the end of your next turn. If you would already have advantage, you can instead reroll one of the dice once.",
-						"You have advantage on saving throws that would force you to act against your will, be frightened, or prevent you from attacking a creature.",
-						"When a creature within 5 feet of you deals damage to you with a weapon or unarmed strike, you can use your reaction to make a melee weapon attack or unarmed strike against that creature. On a hit, you deal additional damage equal to your proficiency bonus."
+						"When a creature scores a {@variantrule Critical Hit|sw5e-phb|critical hit} against you, you have {@variantrule Advantage|sw5e-phb|advantage} on the first attack you make against that creature before the end of your next turn. If you would already have {@variantrule Advantage|sw5e-phb|advantage}, you can instead reroll one of the dice once.",
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} that would force you to act against your will, be {@condition Frightened|sw5e-phb}, or prevent you from attacking a creature.",
+						"When a creature within 5 feet of you deals damage to you with a weapon or unarmed strike, you can use your {@variantrule Reaction|sw5e-phb} to make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} or unarmed strike against that creature. On a hit, you deal additional damage equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -86,13 +86,13 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered fighting without sight, finding a home in the darkness that your enemies fear. You gain the following benefits:",
+				"You've mastered fighting without sight, finding a home in the {@spell Darkness|sw5e-phb|darkness} that your enemies fear. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"Once per round, when a creature would have disadvantage on an attack roll against you due to being blinded, they must reroll one of the dice once.",
-						"Once per round, when you would have advantage on an attack roll against a creature that is blinded, you can reroll one of the dice once.",
-						"You gain blindsight out to a number of feet equal to 5 x your proficiency bonus. If you already have blindsight, it instead increases by a number of feet equal to 5 x your proficiency bonus."
+						"Once per round, when a creature would have {@variantrule Disadvantage|sw5e-phb|disadvantage} on an {@variantrule Attack Roll|sw5e-phb|attack roll} against you due to being {@condition Blinded|sw5e-phb|blinded}, they must reroll one of the dice once.",
+						"Once per round, when you would have {@variantrule Advantage|sw5e-phb|advantage} on an {@variantrule Attack Roll|sw5e-phb|attack roll} against a creature that is {@condition Blinded|sw5e-phb|blinded}, you can reroll one of the dice once.",
+						"You gain blindsight out to a number of feet equal to 5 x your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already have blindsight, it instead increases by a number of feet equal to 5 x your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -105,14 +105,14 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered using your weight to your advantage, easily wrangling targets around. You gain the following benefits:",
+				"You've mastered using your weight to your {@variantrule Advantage|sw5e-phb|advantage}, easily wrangling targets around. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"Your improvised weapons use a d6 for damage and gain the versatile (2d4) property.",
-						"Your damage die for your unarmed strikes and natural weapons increases by one step (from 1 to d4, d4 to d6, or d6 to d8).",
-						"Your speed isn't halved by carrying a grappled creature who is the same size category as you or smaller.",
-						"Once on each of your turns, when you hit a creature with an unarmed strike or a weapon wielded in one hand on your turn, you can make an additional unarmed strike against the same target without the aid of your proficiency bonus (no action required)."
+						"Your improvised weapons use a {@dice d6} for damage and gain the versatile (2d4) property.",
+						"Your damage die for your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} and natural weapons increases by one step (from 1 to {@dice d4}, {@dice d4} to {@dice d6}, or {@dice d6} to {@dice d8}).",
+						"Your {@variantrule Speed|sw5e-phb|speed} isn't halved by carrying a {@condition Grappled|sw5e-phb|grappled} creature who is the same size category as you or smaller.",
+						"Once on each of your turns, when you hit a creature with an unarmed strike or a weapon wielded in one hand on your turn, you can make an additional unarmed strike against the same target without the aid of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} (no action required)."
 					]
 				}
 			]
@@ -129,10 +129,10 @@
 				{
 					"type": "list",
 					"items": [
-						"Creatures have disadvantage on damage rolls from opportunity attacks they make that hit you, and you have advantage on damage roll for opportunity attacks you make that hit.",
-						"When you roll a die to reduce the damage you take from a weapon, you have advantage on the die roll.",
-						"Once per round, when a creature provokes an opportunity attack from you, you can choose to gain a special reaction which you can only use to make that opportunity attack. If you do so, you make the opportunity attack without the aid of your proficiency bonus.",
-						"When you would be the target of a weapon attack, you can immediately use your reaction to make an opportunity attack against the target without your proficiency bonus. On a hit, the target suffers the attack's normal effects, and you impose disadvantage on the triggering roll."
+						"Creatures have {@variantrule Disadvantage|sw5e-phb|disadvantage} on damage rolls from {@action Opportunity Attack|sw5e-phb|opportunity attacks} they make that hit you, and you have {@variantrule Advantage|sw5e-phb|advantage} on damage roll for {@action Opportunity Attack|sw5e-phb|opportunity attacks} you make that hit.",
+						"When you roll a die to reduce the damage you take from a weapon, you have {@variantrule Advantage|sw5e-phb|advantage} on the die roll.",
+						"Once per round, when a creature provokes an {@action Opportunity Attack|sw5e-phb|opportunity attack} from you, you can choose to gain a special {@variantrule Reaction|sw5e-phb} which you can only use to make that {@action Opportunity Attack|sw5e-phb|opportunity attack}. If you do so, you make the {@action Opportunity Attack|sw5e-phb|opportunity attack} without the aid of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}.",
+						"When you would be the target of a {@variantrule Attack Roll|sw5e-phb|weapon attack}, you can immediately use your {@variantrule Reaction|sw5e-phb} to make an {@action Opportunity Attack|sw5e-phb|opportunity attack} against the target without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. On a hit, the target suffers the attack's normal effects, and you impose {@variantrule Disadvantage|sw5e-phb|disadvantage} on the triggering roll."
 					]
 				}
 			]
@@ -145,14 +145,14 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered fighting from unseen angles, gaining an advantage over your foes. You gain the following benefits:",
+				"You've mastered fighting from unseen angles, gaining an {@variantrule Advantage|sw5e-phb|advantage} over your foes. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
 						"You can try to hide when you are lightly obscured from the creature from which you are hiding.",
-						"Dim light doesn't impose disadvantage on your Wisdom (Perception) checks that rely on sight.",
-						"When you are hidden from a creature and miss it with an unarmed strike or weapon attack, making the attack doesn't automatically reveal your position.",
-						"Once per turn, when you deal damage to a creature with an unarmed strike or weapon attack while hidden from it, you deal additional damage equal to your proficiency bonus."
+						"Dim light doesn't impose {@variantrule Disadvantage|sw5e-phb|disadvantage} on your Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sight.",
+						"When you are hidden from a creature and miss it with an unarmed strike or {@variantrule Attack Roll|sw5e-phb|weapon attack}, making the attack doesn't automatically reveal your position.",
+						"Once per turn, when you deal damage to a creature with an unarmed strike or {@variantrule Attack Roll|sw5e-phb|weapon attack} while hidden from it, you deal additional damage equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -169,9 +169,9 @@
 				{
 					"type": "list",
 					"items": [
-						"While you are wearing medium or heavy armor with which you are proficient, when a creature makes a melee attack against you while within your reach, whether the attack hits or misses, you can use your reaction to attempt to shove that creature up to 10 feet directly away from you.",
+						"While you are wearing medium or {@filter heavy armor|items|type=heavy armor} with which you are proficient, when a creature makes a melee attack against you while within your reach, whether the attack hits or misses, you can use your {@variantrule Reaction|sw5e-phb} to attempt to shove that creature up to 10 feet directly away from you.",
 						"The time it takes for you to don and doff armor is reduced by half.",
-						"While you are wearing medium or heavy armor with which you are proficient, damage that you take from weapons is reduced by an amount equal to your proficiency bonus. If this would reduce the damage to 0, the damage is instead reduced to 1."
+						"While you are wearing medium or {@filter heavy armor|items|type=heavy armor} with which you are proficient, damage that you take from weapons is reduced by an amount equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If this would reduce the damage to 0, the damage is instead reduced to 1."
 					]
 				}
 			]
@@ -184,13 +184,13 @@
 				"FM"
 			],
 			"entries": [
-				"Choose one from force- or tech-casting. You've mastered fighting and interfering with casters of the chosen type, confounding their concentration. You gain the following benefits:",
+				"Choose one from force- or tech-casting. You've mastered fighting and interfering with casters of the chosen type, confounding their {@variantrule Concentration|sw5e-phb|concentration}. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"When a creature within 30 feet of you that you can see casts a power, they provoke an opportunity attack from you.",
-						"You have advantage on saving throws against powers cast by creatures you can see if you've dealt damage to them since the start of your last turn.",
-						"Whenever you force a creature to make a saving throw to maintain concentration, the DC for the saving throw increases by an amount equal to your proficiency bonus."
+						"When a creature within 30 feet of you that you can see casts a power, they provoke an {@action Opportunity Attack|sw5e-phb|opportunity attack} from you.",
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against powers cast by creatures you can see if you've dealt damage to them since the start of your last turn.",
+						"Whenever you force a creature to make a {@variantrule Saving Throw|sw5e-phb|saving throw} to maintain {@variantrule Concentration|sw5e-phb|concentration}, the DC for the {@variantrule Saving Throw|sw5e-phb|saving throw} increases by an amount equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -209,9 +209,9 @@
 					"items": [
 						"You can engage in Two-Weapon Fighting even when the weapons you are wielding lack the light property.",
 						"You can reload two weapons when you would normally only be able to reload one, and reloading no longer requires a free hand, provided you are wielding separate weapons in each hand.",
-						"Once per round, when you make an opportunity attack while wielding separate weapons in each hand, you can attack with both weapons. Make a separate attack roll with each weapon.",
-						"When you use your bonus action to engage in Two-Weapon Fighting, you can choose to forgo one or more attacks. For each attack you forgo, you gain a +1 bonus to AC until the start of your next turn.",
-						"When you use your bonus action to engage in Two-Weapon Fighting, you can choose to forgo your proficiency bonus. If you do so, you can make an additional attack with that weapon, also without your proficiency bonus. If you would normally make more than one attack with your bonus action, only one attack is made without your proficiency bonus."
+						"Once per round, when you make an {@action Opportunity Attack|sw5e-phb|opportunity attack} while wielding separate weapons in each hand, you can attack with both weapons. Make a separate {@variantrule Attack Roll|sw5e-phb|attack roll} with each weapon.",
+						"When you use your {@variantrule Bonus Action|sw5e-phb} to engage in Two-Weapon Fighting, you can choose to forgo one or more attacks. For each attack you forgo, you gain a +1 bonus to AC until the start of your next turn.",
+						"When you use your {@variantrule Bonus Action|sw5e-phb} to engage in Two-Weapon Fighting, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you do so, you can make an additional attack with that weapon, also without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you would normally make more than one attack with your {@variantrule Bonus Action|sw5e-phb}, only one attack is made without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -228,9 +228,9 @@
 				{
 					"type": "list",
 					"items": [
-						"You have advantage on ability checks and saving throws to avoid being disarmed.",
-						"While you are wielding a weapon in one hand with which you are proficient and no other weapons, when you take the Attack action, you can choose to attack with haste at the expense of accuracy. Your weapon attack is made without the aid of your proficiency bonus, but you can use your reaction to make an additional weapon attack, also without your proficiency bonus. If you would make more than one attack when you take the Attack action, only one attack is made without your proficiency bonus.",
-						"While you are wielding a weapon in one hand with which you are proficient and no other weapons, when a creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being disarmed.",
+						"While you are wielding a weapon in one hand with which you are proficient and no other weapons, when you take the {@action Attack|sw5e-phb} action, you can choose to attack with haste at the expense of accuracy. Your {@variantrule Attack Roll|sw5e-phb|weapon attack} is made without the aid of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, but you can use your {@variantrule Reaction|sw5e-phb} to make an additional {@variantrule Attack Roll|sw5e-phb|weapon attack}, also without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you would make more than one attack when you take the {@action Attack|sw5e-phb} action, only one attack is made without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}.",
+						"While you are wielding a weapon in one hand with which you are proficient and no other weapons, when a creature hits you with a melee attack, you can use your {@variantrule Reaction|sw5e-phb} to add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to your AC for that attack, potentially causing the attack to miss you."
 					]
 				}
 			]
@@ -247,9 +247,9 @@
 				{
 					"type": "list",
 					"items": [
-						"If you are disarmed, you can use your reaction to immediately catch the weapon.",
-						"While you are wearing light or no armor and not wielding a shield, when a creature misses you with a weapon attack, you can use your reaction to make an unarmed strike or weapon attack against that creature without your proficiency bonus.",
-						"While you are wearing light or no armor and not wielding a shield, when a creature hits you with a weapon attack, you can use your reaction to impose a penalty to the attack roll equal to your proficiency bonus, potentially causing the attack to miss."
+						"If you are disarmed, you can use your {@variantrule Reaction|sw5e-phb} to immediately catch the weapon.",
+						"While you are wearing light or no armor and not wielding a {@item Shield|sw5e-phb|shield}, when a creature misses you with a {@variantrule Attack Roll|sw5e-phb|weapon attack}, you can use your {@variantrule Reaction|sw5e-phb} to make an unarmed strike or {@variantrule Attack Roll|sw5e-phb|weapon attack} against that creature without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}.",
+						"While you are wearing light or no armor and not wielding a {@item Shield|sw5e-phb|shield}, when a creature hits you with a {@variantrule Attack Roll|sw5e-phb|weapon attack}, you can use your {@variantrule Reaction|sw5e-phb} to impose a penalty to the {@variantrule Attack Roll|sw5e-phb|attack roll} equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, potentially causing the attack to miss."
 					]
 				}
 			]
@@ -266,9 +266,9 @@
 				{
 					"type": "list",
 					"items": [
-						"When determining the save DC of a grenade, mine, or missile you control, you can use 8 + your proficiency bonus + your Intelligence modifier, if it would be higher than the item's DC.",
-						"You have advantage on saving throws against grenades, mines, and missiles you control.",
-						"When using a grenade, mine, or missile that requires a saving throw and deals damage, you can take a penalty to the save DC equal to your proficiency bonus. If you do so, the item's damage increases by an amount equal to your proficiency bonus."
+						"When determining the save DC of a grenade, mine, or missile you control, you can use 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Intelligence modifier, if it would be higher than the item's DC.",
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against grenades, mines, and missiles you control.",
+						"When using a grenade, mine, or missile that requires a {@variantrule Saving Throw|sw5e-phb|saving throw} and deals damage, you can take a penalty to the save DC equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you do so, the item's damage increases by an amount equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -285,9 +285,9 @@
 				{
 					"type": "list",
 					"items": [
-						"When you take the Guard action, the guarded ally has advantage on Dexterity saving throws that would affect only them while guarded.",
-						"When a creature misses an ally within 5 feet of you with a weapon attack, you can use your reaction to make a weapon attack against that creature without your proficiency bonus.",
-						"When a creature hits an ally within 5 feet of you with a weapon attack, you can use your reaction to impose a penalty to the attack roll equal to your proficiency bonus, potentially causing the attack to miss."
+						"When you take the {@action Guard|sw5e-phb} action, the guarded ally has {@variantrule Advantage|sw5e-phb|advantage} on Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws} that would affect only them while guarded.",
+						"When a creature misses an ally within 5 feet of you with a {@variantrule Attack Roll|sw5e-phb|weapon attack}, you can use your {@variantrule Reaction|sw5e-phb} to make a {@variantrule Attack Roll|sw5e-phb|weapon attack} against that creature without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}.",
+						"When a creature hits an ally within 5 feet of you with a {@variantrule Attack Roll|sw5e-phb|weapon attack}, you can use your {@variantrule Reaction|sw5e-phb} to impose a penalty to the {@variantrule Attack Roll|sw5e-phb|attack roll} equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, potentially causing the attack to miss."
 					]
 				}
 			]
@@ -300,13 +300,13 @@
 				"FM"
 			],
 			"entries": [
-				"{@i {@b Prerequisite:} The ability to cast force powers} You've mastered the basics of the known forms of lightsaber combat, wielding your weapon with unparalleled grace. You gain the following benefits:",
+				"{@i {@b Prerequisite:} The ability to cast {@book force powers|sw5e-phb|11|Force Powers}} You've mastered the basics of the known forms of {@item Lightsaber|sw5e-phb|lightsaber} combat, wielding your weapon with unparalleled grace. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"You learn three lightsaber forms, detailed later in this chapter. If you already know at least three lightsaber forms, you instead learn seven lightsaber forms.",
-						"Once on each of your turns, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If you do so, you can engage in one of your lightsaber forms without using your bonus action. If that form lets you make an attack, that attack is also made without your proficiency bonus.",
-						"Once on each of your turns, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If you do so, and the attack hits, you can choose another creature within 5 feet of it. If the original attack roll would hit the second creature, it takes damage of the weapon's type equal to twice your proficiency bonus."
+						"You learn three {@book lightsaber forms|sw5e-phb|6|Lightsaber Forms}, detailed later in this chapter. If you already know at least three {@book lightsaber forms|sw5e-phb|6|Lightsaber Forms}, you instead learn seven {@book lightsaber forms|sw5e-phb|6|Lightsaber Forms}.",
+						"Once on each of your turns, before you make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack}, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you do so, you can engage in one of your {@book lightsaber forms|sw5e-phb|6|Lightsaber Forms} without using your {@variantrule Bonus Action|sw5e-phb}. If that form lets you make an attack, that attack is also made without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}.",
+						"Once on each of your turns, before you make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack}, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you do so, and the attack hits, you can choose another creature within 5 feet of it. If the original {@variantrule Attack Roll|sw5e-phb|attack roll} would hit the second creature, it takes damage of the weapon's type equal to twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -319,14 +319,14 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered putting the weight of a weapon to your advantage, letting its momentum empower your strikes. You gain the following benefits:",
+				"You've mastered putting the weight of a weapon to your {@variantrule Advantage|sw5e-phb|advantage}, letting its momentum empower your strikes. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"On your turn, when you score a critical hit or reduce a creature to 0 hit points with a melee weapon attack, you can make one melee weapon attack as a bonus action.",
-						"While you are wielding a two-handed light- or vibro-weapon with which you are proficient, when you miss with a melee weapon attack, you can use your bonus action to repeat the attack against the same target. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll. On a hit, this attack deals kinetic damage equal to your Strength modifier.",
-						"You have advantage on ability checks and saving throws to avoid being disarmed.",
-						"While you are wielding a two-handed light- or vibro-weapon with which you are proficient, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If the attack hits, you add twice your proficiency bonus to the attack's damage."
+						"On your turn, when you score a {@variantrule Critical Hit|sw5e-phb|critical hit} or reduce a creature to 0 {@variantrule Hit Points|sw5e-phb|hit points} with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack}, you can make one {@variantrule Attack Roll|sw5e-phb|melee weapon attack} as a {@variantrule Bonus Action|sw5e-phb}.",
+						"While you are wielding a two-handed light- or vibro-weapon with which you are proficient, when you miss with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack}, you can use your {@variantrule Bonus Action|sw5e-phb} to repeat the attack against the same target. Any modifications to the original {@variantrule Attack Roll|sw5e-phb|attack roll}, such as {@variantrule Advantage|sw5e-phb|advantage}, {@variantrule Disadvantage|sw5e-phb|disadvantage}, or without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, also affect this {@variantrule Attack Roll|sw5e-phb|attack roll}. On a hit, this attack deals kinetic damage equal to your Strength modifier.",
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being disarmed.",
+						"While you are wielding a two-handed light- or vibro-weapon with which you are proficient, before you make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack}, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If the attack hits, you add twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the attack's damage."
 					]
 				}
 			]
@@ -344,9 +344,9 @@
 					"type": "list",
 					"items": [
 						"You can move through a hostile creature's space regardless of that creature's size.",
-						"When you hit a creature with an opportunity attack, you can move up to half your speed (no action required) without provoking opportunity attacks from that creature.",
-						"When a hostile creature moves to within 5 feet of you, you can use your reaction to Disengage and move up to half your speed.",
-						"Once per turn, when you hit a creature with a weapon attack, another enemy of the creature is within 5 feet of it, and that enemy isn't incapacitated, you can deal additional damage equal to twice your proficiency bonus."
+						"When you hit a creature with an {@action Opportunity Attack|sw5e-phb|opportunity attack}, you can move up to half your {@variantrule Speed|sw5e-phb|speed} (no action required) without provoking {@action Opportunity Attack|sw5e-phb|opportunity attacks} from that creature.",
+						"When a hostile creature moves to within 5 feet of you, you can use your {@variantrule Reaction|sw5e-phb} to Disengage and move up to half your {@variantrule Speed|sw5e-phb|speed}.",
+						"Once per turn, when you hit a creature with a {@variantrule Attack Roll|sw5e-phb|weapon attack}, another enemy of the creature is within 5 feet of it, and that enemy isn't {@condition Incapacitated|sw5e-phb}, you can deal additional damage equal to twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -359,14 +359,14 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered using blasters in unique ways, controlling the battlefield. You gain the following benefits:",
+				"You've mastered using {@filter blasters|items|firearm=true} in unique ways, controlling the battlefield. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"When a creature succeeds on the saving throw against the burst or rapid property of your weapon, they take damage equal to the weapon's governing ability modifier.",
+						"When a creature succeeds on the {@variantrule Saving Throw|sw5e-phb|saving throw} against the burst or rapid property of your weapon, they take damage equal to the weapon's governing ability modifier.",
 						"You treat the strength number of weapons as one step lower (19 to 17, 17 to 15, 15 to 13, or 13 to 11). If the strength number is 11, you ignore it entirely.",
-						"When you use the burst property of a weapon, you can choose to forgo your proficiency bonus to the save DC. If you do so, each creature that fails the save takes additional damage equal to your proficiency bonus.",
-						"When you use the rapid property of a weapon, you can choose to forgo your proficiency bonus to the save DC. If you do so, and the target fails the save, they take additional damage equal to twice your proficiency bonus."
+						"When you use the burst property of a weapon, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the save DC. If you do so, each creature that fails the save takes additional damage equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}.",
+						"When you use the rapid property of a weapon, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the save DC. If you do so, and the target fails the save, they take additional damage equal to twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -383,10 +383,10 @@
 				{
 					"type": "list",
 					"items": [
-						"If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, you can use your reaction to have it instead take no damage if it succeeds on the saving throw, and only half damage if it fails.",
-						"While mounted on a controlled beast, you can use your bonus action to have your mount make a single melee attack against a creature within its reach. If you could already use your bonus action to have your mount make an attack, you can instead do so as a reaction on your turn.",
-						"While mounted on a vehicle, you can take a vehicle action with your bonus action, instead of your action. If you could already take a vehicle action as a bonus action, you can instead do so as a reaction on your turn. You can't take the same action twice in one turn.",
-						"Once per turn, you can choose to have advantage on a melee weapon attack roll against an unmounted creature that is smaller than your mount. If the attack hits, you deal additional damage equal to your proficiency bonus."
+						"If your mount is subjected to an effect that allows it to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} to take only half damage, you can use your {@variantrule Reaction|sw5e-phb} to have it instead take no damage if it succeeds on the {@variantrule Saving Throw|sw5e-phb|saving throw}, and only half damage if it fails.",
+						"While mounted on a controlled beast, you can use your {@variantrule Bonus Action|sw5e-phb} to have your mount make a single melee attack against a creature within its reach. If you could already use your {@variantrule Bonus Action|sw5e-phb} to have your mount make an attack, you can instead do so as a {@variantrule Reaction|sw5e-phb} on your turn.",
+						"While mounted on a vehicle, you can take a vehicle action with your {@variantrule Bonus Action|sw5e-phb}, instead of your action. If you could already take a vehicle action as a {@variantrule Bonus Action|sw5e-phb}, you can instead do so as a {@variantrule Reaction|sw5e-phb} on your turn. You can't take the same action twice in one turn.",
+						"Once per turn, you can choose to have {@variantrule Advantage|sw5e-phb|advantage} on a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} roll against an unmounted creature that is smaller than your mount. If the attack hits, you deal additional damage equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -399,14 +399,14 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered using your momentum to your advantage, effectively pummeling creatures into submission and keeping them down once they fall. You gain the following benefits:",
+				"You've mastered using your momentum to your {@variantrule Advantage|sw5e-phb|advantage}, effectively pummeling creatures into submission and keeping them down once they fall. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"When a creature falls prone within 5 feet of you, they provoke an opportunity attack from you.",
-						"When you would have advantage on a melee weapon attack due to a creature being prone, you can reroll one of the dice once.",
-						"When a prone creature within 5 feet of you attempts to stand, they provoke an opportunity attack from you.",
-						"Once on each of your turns, if you move at least 10 feet in a straight line towards a creature immediately before hitting it with a melee weapon attack, you can deal additional damage equal to your proficiency bonus."
+						"When a creature falls prone within 5 feet of you, they provoke an {@action Opportunity Attack|sw5e-phb|opportunity attack} from you.",
+						"When you would have {@variantrule Advantage|sw5e-phb|advantage} on a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} due to a creature being prone, you can reroll one of the dice once.",
+						"When a prone creature within 5 feet of you attempts to stand, they provoke an {@action Opportunity Attack|sw5e-phb|opportunity attack} from you.",
+						"Once on each of your turns, if you move at least 10 feet in a straight line towards a creature immediately before hitting it with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack}, you can deal additional damage equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -423,10 +423,10 @@
 				{
 					"type": "list",
 					"items": [
-						"When determining the save DC of a poison you control, you can use 8 + your proficiency bonus + your Intelligence modifier, if it would be higher than the item's DC.",
-						"When you apply a poison to a weapon or ammunition, that poison can affect an additional hit or an additional piece of ammunition.",
-						"Creatures suffering from the poisoned condition have disadvantage on saving throws against poisons you control.",
-						"When using a poison that requires a saving throw and deals damage, you can take a penalty to the save DC equal to your proficiency bonus. If you do so, the item's damage increases by an amount equal to twice your proficiency bonus."
+						"When determining the save DC of a {@item Poison|sw5e-phb|poison} you control, you can use 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Intelligence modifier, if it would be higher than the item's DC.",
+						"When you apply a {@item Poison|sw5e-phb|poison} to a weapon or ammunition, that {@item Poison|sw5e-phb|poison} can affect an additional hit or an additional piece of ammunition.",
+						"Creatures suffering from the {@condition Poisoned|sw5e-phb} condition have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against poisons you control.",
+						"When using a {@item Poison|sw5e-phb|poison} that requires a {@variantrule Saving Throw|sw5e-phb|saving throw} and deals damage, you can take a penalty to the save DC equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you do so, the item's damage increases by an amount equal to twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -444,9 +444,9 @@
 					"type": "list",
 					"items": [
 						"You can wield a number of items on each forearm equal to your full Strength modifier, instead of half.",
-						"You can now reload fixed weapons using your reaction or object interaction, instead of just your action or bonus action. If you could already reload the weapon using your reaction or object interaction, once on each of your turns, you can instead reload the weapon (no action required). You must have one free hand to reload.",
-						"Once on each of your turns, when you miss an attack with a weapon that lacks the fixed property, you can make an additional attack against the same target with a fixed weapon without the aid of your proficiency bonus (no action required).",
-						"Once on each of your turns, when you would make a weapon attack with a fixed weapon, you can forgo the attack. If you do so, you can add your proficiency bonus to your AC against one attack that would hit you before the start of your next turn (no action required)."
+						"You can now reload fixed weapons using your {@variantrule Reaction|sw5e-phb} or object interaction, instead of just your action or {@variantrule Bonus Action|sw5e-phb}. If you could already reload the weapon using your {@variantrule Reaction|sw5e-phb} or object interaction, once on each of your turns, you can instead reload the weapon (no action required). You must have one free hand to reload.",
+						"Once on each of your turns, when you miss an attack with a weapon that lacks the fixed property, you can make an additional attack against the same target with a fixed weapon without the aid of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} (no action required).",
+						"Once on each of your turns, when you would make a {@variantrule Attack Roll|sw5e-phb|weapon attack} with a fixed weapon, you can forgo the attack. If you do so, you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to your AC against one attack that would hit you before the start of your next turn (no action required)."
 					]
 				}
 			]
@@ -459,13 +459,13 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered techniques to take advantage of every drop in any enemy's guard; in tight spaces you are indomitable. You gain the following benefits:",
+				"You've mastered techniques to take {@variantrule Advantage|sw5e-phb|advantage} of every drop in any enemy's guard; in tight spaces you are indomitable. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"Creatures within your reach provoke opportunity attacks from you even if they take the Disengage action.",
-						"When you take the Dodge action, once per round, you can take two reactions on the same turn, instead of only one. You can only take one reaction per trigger.",
-						"You can use a bonus action to enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you have a number of special reactions equal to your proficiency bonus that you can only use to make opportunity attacks."
+						"Creatures within your reach provoke {@action Opportunity Attack|sw5e-phb|opportunity attacks} from you even if they take the {@action Disengage|sw5e-phb} action.",
+						"When you take the {@action Dodge|sw5e-phb} action, once per round, you can take two reactions on the same turn, instead of only one. You can only take one {@variantrule Reaction|sw5e-phb} per trigger.",
+						"You can use a {@variantrule Bonus Action|sw5e-phb} to enter a defensive stance that lasts until the start of your next turn. While in your defensive stance, you have a number of special reactions equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} that you can only use to make {@action Opportunity Attack|sw5e-phb|opportunity attacks}."
 					]
 				}
 			]
@@ -478,13 +478,13 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered blaster weapons and can easily make shots that others find impossible. You gain the following benefits:",
+				"You've mastered {@filter blaster|items|firearm=true} weapons and can easily make shots that others find impossible. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.",
-						"Your ranged weapon attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter) against targets greater than 30 feet from you. If the target has one-quarter cover, you ignore it entirely.",
-						"Before you make an attack against a target greater than 30 feet from you with a blaster weapon with which you are proficient, you can choose to forgo your proficiency bonus. If the attack hits, you add twice your proficiency bonus to the attack's damage."
+						"Attacking at long range doesn't impose {@variantrule Disadvantage|sw5e-phb|disadvantage} on your ranged {@variantrule Attack Roll|sw5e-phb|weapon attack rolls}.",
+						"Your ranged weapon attacks reduce partial {@variantrule Cover|sw5e-phb|cover} by one step (from three-quarters to half or half to one-quarter) against targets greater than 30 feet from you. If the target has one-quarter {@variantrule Cover|sw5e-phb|cover}, you ignore it entirely.",
+						"Before you make an attack against a target greater than 30 feet from you with a {@filter blaster|items|firearm=true} weapon with which you are proficient, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If the attack hits, you add twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the attack's damage."
 					]
 				}
 			]
@@ -497,13 +497,13 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered using a shield to defend your allies as well as yourself, strategically imposing your shield to capitalize on its protection. You gain the following benefits:",
+				"You've mastered using a {@item Shield|sw5e-phb|shield} to defend your allies as well as yourself, strategically imposing your {@item Shield|sw5e-phb|shield} to capitalize on its protection. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"If you aren't incapacitated, you can add your shield's AC bonus to any Dexterity saving throw you make against a power or other harmful effect.",
-						"While you are wielding a shield with which you are proficient, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, and you succeed on the saving throw, you can use your reaction to take no damage.",
-						"When a creature you can see damages you while you are wielding a shield with which you are proficient, you can use your reaction to reduce the damage by an amount equal to your proficiency bonus."
+						"If you aren't {@condition Incapacitated|sw5e-phb}, you can add your {@item Shield|sw5e-phb|shield}'s AC bonus to any Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} you make against a power or other harmful effect.",
+						"While you are wielding a {@item Shield|sw5e-phb|shield} with which you are proficient, when you are subjected to an effect that allows you to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} to take only half damage, and you succeed on the {@variantrule Saving Throw|sw5e-phb|saving throw}, you can use your {@variantrule Reaction|sw5e-phb} to take no damage.",
+						"When a creature you can see damages you while you are wielding a {@item Shield|sw5e-phb|shield} with which you are proficient, you can use your {@variantrule Reaction|sw5e-phb} to reduce the damage by an amount equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -516,13 +516,13 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered getting up close and personal with blaster weapons, maintaining both rate of fire and accuracy. You gain the following benefits:",
+				"You've mastered getting up close and personal with {@filter blaster|items|firearm=true} weapons, maintaining both rate of fire and accuracy. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"Your ranged weapon attacks reduce partial cover by one step (from three-quarters to half or half to one-quarter) against targets within 30 feet of you. If the target has one-quarter cover, you ignore it entirely.",
-						"Other creatures provoke an opportunity attack from you when they move to within 30 feet of you, and you can make ranged weapon attacks with blaster weapons when making opportunity attacks.",
-						"When you take the Attack action targeting a creature within 30 feet while you are wielding a blaster weapon with which you are proficient, you can choose to attack rapidly at the expense of accuracy. Your ranged weapon attack is made without the aid of your proficiency bonus, but you can use your bonus action to make an additional ranged weapon attack, also without your proficiency bonus. If you would make more than one attack when you take the Attack action, only one attack is made without your proficiency bonus."
+						"Your ranged weapon attacks reduce partial {@variantrule Cover|sw5e-phb|cover} by one step (from three-quarters to half or half to one-quarter) against targets within 30 feet of you. If the target has one-quarter {@variantrule Cover|sw5e-phb|cover}, you ignore it entirely.",
+						"Other creatures provoke an {@action Opportunity Attack|sw5e-phb|opportunity attack} from you when they move to within 30 feet of you, and you can make ranged weapon attacks with {@filter blaster|items|firearm=true} weapons when making {@action Opportunity Attack|sw5e-phb|opportunity attacks}.",
+						"When you take the {@action Attack|sw5e-phb} action targeting a creature within 30 feet while you are wielding a {@filter blaster|items|firearm=true} weapon with which you are proficient, you can choose to attack rapidly at the expense of accuracy. Your ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} is made without the aid of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, but you can use your {@variantrule Bonus Action|sw5e-phb} to make an additional ranged {@variantrule Attack Roll|sw5e-phb|weapon attack}, also without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you would make more than one attack when you take the {@action Attack|sw5e-phb} action, only one attack is made without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -541,8 +541,8 @@
 					"items": [
 						"Once on each of your turns, detaching or reattaching your interlocking weapon no longer requires your object interaction.",
 						"You can engage in Double- and Two-Weapon Fighting even when the weapons you are wielding lack the light property.",
-						"Before you make a melee weapon attack while you are wielding separate weapons in each hand with which you are proficient, you can choose to forgo your proficiency bonus. If the attack hits, you add your proficiency bonus to the attack's damage.",
-						"When you use your bonus action to engage in Double-Weapon Fighting, you can choose to forgo your proficiency bonus. If you do so, you can make an additional attack with that weapon, also without your proficiency bonus. If you would normally make more than one attack with your bonus action, only one attack is made without your proficiency bonus."
+						"Before you make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} while you are wielding separate weapons in each hand with which you are proficient, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If the attack hits, you add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the attack's damage.",
+						"When you use your {@variantrule Bonus Action|sw5e-phb} to engage in Double-Weapon Fighting, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you do so, you can make an additional attack with that weapon, also without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you would normally make more than one attack with your {@variantrule Bonus Action|sw5e-phb}, only one attack is made without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -559,11 +559,11 @@
 				{
 					"type": "list",
 					"items": [
-						"You no longer have disadvantage on Wisdom (Perception) checks due to an area being lightly obscured in a 120 foot range.",
-						"When a creature rolls a d20 to redirect an attack roll you make to an illusory duplicate, they have disadvantage on the roll.",
-						"When you take the Search action, you give off no indication that you are devoting your attention to finding something.",
-						"When you find a hidden creature using the Search action, it has disadvantage on any ability checks it makes to attempt Hide from you before the start of your next turn.",
-						"When you take the Search action, you have advantage on all ability checks, attack rolls, and saving throws made as a part of that search that occur within a radius in feet equal to 5 x your proficiency bonus."
+						"You no longer have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) checks due to an area being lightly obscured in a 120 foot range.",
+						"When a creature rolls a {@dice d20} to redirect an {@variantrule Attack Roll|sw5e-phb|attack roll} you make to an illusory duplicate, they have {@variantrule Disadvantage|sw5e-phb|disadvantage} on the roll.",
+						"When you take the {@action Search|sw5e-phb} action, you give off no indication that you are devoting your attention to finding something.",
+						"When you find a hidden creature using the {@action Search|sw5e-phb} action, it has {@variantrule Disadvantage|sw5e-phb|disadvantage} on any {@variantrule Ability Check|sw5e-phb|ability checks} it makes to attempt Hide from you before the start of your next turn.",
+						"When you take the {@action Search|sw5e-phb} action, you have {@variantrule Advantage|sw5e-phb|advantage} on all {@variantrule Ability Check|sw5e-phb|ability checks}, {@variantrule Attack Roll|sw5e-phb|attack rolls}, and {@variantrule Saving Throw|sw5e-phb|saving throws} made as a part of that search that occur within a radius in feet equal to 5 x your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -576,14 +576,14 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered utilizing maneuvers to enhance your skills on the battlefield, {@i expanded}. You gain the following benefits:",
+				"You've mastered utilizing {@book maneuvers|sw5e-phb|13|Maneuvers} to enhance your skills on the battlefield, {@i expanded}. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"You learn one maneuver, detailed in Chapter 13. If you already know at least one maneuver, you instead learn three maneuvers. Your maneuver ability is Strength, Dexterity, or Constitution for physical maneuvers (your choice), your Intelligence, Wisdom, or Charisma for mental maneuvers (your choice), and an ability of your choice for general maneuvers.",
-						"You gain one superiority die. If you already have at least one superiority die, you instead gain two additional superiority dice. Your superiority die is a d4, and it changes as you gain levels: to d6 at 5th level, to d8 at 9th level, to d10 at 13th level, and to d12 at 17th level. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.",
-						"When you use a maneuver on your turn that involves rolling a superiority die, you can use your bonus action to gain advantage on the superiority die roll.",
-						"Choose one maneuver you know. When you would use the chosen maneuver, you can use a d4 instead of expending a superiority die. You can do so a number of times equal to your proficiency bonus. You regain all expended uses when you complete a long rest."
+						"You learn one {@book maneuver|sw5e-phb|13|Maneuvers}, detailed in {@book chapter 13|sw5e-phb|13}. If you already know at least one {@book maneuver|sw5e-phb|13|Maneuvers}, you instead learn three {@book maneuvers|sw5e-phb|13|Maneuvers}. Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} is Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), your Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}.",
+						"You gain one superiority die. If you already have at least one superiority die, you instead gain two additional {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}. Your superiority die is a {@dice d4}, and it changes as you gain levels: to {@dice d6} at 5th level, to {@dice d8} at 9th level, to {@dice d10} at 13th level, and to {@dice d12} at 17th level. A superiority die is expended when you use it. You regain all of your expended {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers} when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}.",
+						"When you use a {@book maneuver|sw5e-phb|13|Maneuvers} on your turn that involves rolling a superiority die, you can use your {@variantrule Bonus Action|sw5e-phb} to gain {@variantrule Advantage|sw5e-phb|advantage} on the superiority die roll.",
+						"Choose one {@book maneuver|sw5e-phb|13|Maneuvers} you know. When you would use the chosen {@book maneuver|sw5e-phb|13|Maneuvers}, you can use a {@dice d4} instead of expending a superiority die. You can do so a number of times equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. You regain all expended uses when you complete a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				}
 			]
@@ -600,15 +600,15 @@
 				{
 					"type": "list",
 					"items": [
-						"Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls with thrown weapons.",
-						"When you hit a creature with a ranged attack with a thrown weapon, you have advantage on your next melee weapon attack against that creature before the end of your next turn."
+						"Attacking at long range doesn't impose {@variantrule Disadvantage|sw5e-phb|disadvantage} on your ranged {@variantrule Attack Roll|sw5e-phb|weapon attack rolls} with thrown weapons.",
+						"When you hit a creature with a ranged attack with a thrown weapon, you have {@variantrule Advantage|sw5e-phb|advantage} on your next {@variantrule Attack Roll|sw5e-phb|melee weapon attack} against that creature before the end of your next turn."
 					]
 				},
 				{
 					"type": "list",
 					"items": [
 						"Once per turn, you can draw a thrown weapon without using your object interaction.",
-						"Once on each of your turns, you can make a ranged weapon attack with a thrown weapon against a target within the weapon's normal range without the aid of your proficiency bonus (no action required)."
+						"Once on each of your turns, you can make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a thrown weapon against a target within the weapon's normal range without the aid of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} (no action required)."
 					]
 				}
 			]
@@ -625,10 +625,10 @@
 				{
 					"type": "list",
 					"items": [
-						"While you are wielding a double weapon with which you are proficient, whenever you roll the maximum on a weapon damage die against a creature, you gain a +1 bonus to the next attack roll you make against that creature before the end of your next turn.",
+						"While you are wielding a double weapon with which you are proficient, whenever you roll the maximum on a weapon damage die against a creature, you gain a +1 bonus to the next {@variantrule Attack Roll|sw5e-phb|attack roll} you make against that creature before the end of your next turn.",
 						"You can engage in Double-Weapon Fighting even when the weapon you are wielding lacks the light property.",
-						"Before you make a melee weapon attack while wielding a double weapon in two hands, you can choose to forgo your proficiency bonus. If the attack hits, you add one and a half times your proficiency bonus to the attack's damage.",
-						"Before you make a melee weapon attack while wielding a double weapon in one hand, you can choose to forgo your proficiency bonus. If the attack hits, you add your proficiency bonus to the attack's damage."
+						"Before you make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} while wielding a double weapon in two hands, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If the attack hits, you add one and a half times your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the attack's damage.",
+						"Before you make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} while wielding a double weapon in one hand, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If the attack hits, you add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the attack's damage."
 					]
 				}
 			]
@@ -645,10 +645,10 @@
 				{
 					"type": "list",
 					"items": [
-						"Once per turn, when you make a melee attack roll while wielding a weapon in two hands, you can attempt to follow up on the attack. If the attack hits, the creature must make a Strength saving throw (DC = 8 + your bonus to attacks with the weapon). On a failed save, the creature is pushed back 5 feet, and you can immediately move into the space it just vacated without provoking opportunity attacks.",
-						"Once per turn, when you make a melee attack roll while wielding a weapon in one hand, the target is wielding a shield, and your other hand is empty, you can use your other hand to pull down the shield (no action required). If you do so, the creature gains no benefit to armor class from its shield for that attack.",
-						"Before you make a melee weapon attack while wielding a versatile weapon in two hands, you can choose to forgo your proficiency bonus. If the attack hits, you add one and a half times your proficiency bonus to the attack's damage.",
-						"Before you make a melee weapon attack while wielding a versatile weapon in one hand, you can choose to forgo your proficiency bonus. If the attack hits, you add your proficiency bonus to the attack's damage."
+						"Once per turn, when you make a melee {@variantrule Attack Roll|sw5e-phb|attack roll} while wielding a weapon in two hands, you can attempt to follow up on the attack. If the attack hits, the creature must make a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your bonus to attacks with the weapon). On a failed save, the creature is pushed back 5 feet, and you can immediately move into the space it just vacated without provoking {@action Opportunity Attack|sw5e-phb|opportunity attacks}.",
+						"Once per turn, when you make a melee {@variantrule Attack Roll|sw5e-phb|attack roll} while wielding a weapon in one hand, the target is wielding a {@item Shield|sw5e-phb|shield}, and your other hand is empty, you can use your other hand to pull down the {@item Shield|sw5e-phb|shield} (no action required). If you do so, the creature gains no benefit to {@variantrule Armor Class|sw5e-phb|armor class} from its {@item Shield|sw5e-phb|shield} for that attack.",
+						"Before you make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} while wielding a versatile weapon in two hands, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If the attack hits, you add one and a half times your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the attack's damage.",
+						"Before you make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} while wielding a versatile weapon in one hand, you can choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If the attack hits, you add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the attack's damage."
 					]
 				}
 			]

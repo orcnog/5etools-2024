@@ -28,7 +28,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Deception|sw5e-phb}, {@skill Investigation|sw5e-phb}, {@skill Lore|sw5e-phb}, and {@skill Persuasion|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Investigation|sw5e-phb}|sw5e-phb}, {@skill {@skill Lore|sw5e-phb}|sw5e-phb}, and {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -235,12 +235,12 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Deception|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Persuasion|sw5e-phb}, and {@skill Stealth|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}, and {@skill {@skill Stealth|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies:",
-							"entry": "Your choice of demolitions kit, security kit, or slicer's kit"
+							"entry": "Your choice of {@item Demolitions kit|sw5e-phb|demolitions kit}, {@item Security kit|sw5e-phb|security kit}, or {@item Slicer's kit|sw5e-phb|slicer's kit}"
 						},
 						{
 							"type": "item",
@@ -250,7 +250,7 @@
 						{
 							"type": "item",
 							"name": "Equipment:",
-							"entry": "A set of clothes appropriate to your duties, a set of binders, and a pouch containing 200 cr"
+							"entry": "A set of clothes appropriate to your duties, a set of {@item Binders|sw5e-phb|binders}, and a pouch containing 200 cr"
 						},
 						{
 							"type": "item",
@@ -263,7 +263,7 @@
 					"type": "entries",
 					"name": "Feature: Ear to the Ground",
 					"entries": [
-						"You are in frequent contact with people in the segment of society that your chosen quarries move through. These people might be associated with the criminal underworld, the rough-and-tumble folk of the streets, or members of high society. This connection comes in the form of a contact in any city you visit, a person who provides information about the people and places of the local area."
+						"You are in frequent contact with people in the segment of society that your chosen quarries move through. These people might be associated with the criminal underworld, the rough-and-{@optfeature Tumble|sw5e-phb|tumble} folk of the streets, or members of high society. This connection comes in the form of a contact in any city you visit, a person who provides information about the people and places of the local area."
 					],
 					"data": {
 						"isFeature": true
@@ -447,12 +447,12 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Deception|sw5e-phb}, {@skill Intimidation|sw5e-phb}, {@skill Sleight of Hand|sw5e-phb}, and {@skill Stealth|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Intimidation|sw5e-phb}|sw5e-phb}, {@skill Sleight of Hand|sw5e-phb}, and {@skill {@skill Stealth|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies:",
-							"entry": "One type of gaming set, your choice of demolitions kit, security kit, or slicer's kit"
+							"entry": "One type of gaming set, your choice of {@item Demolitions kit|sw5e-phb|demolitions kit}, {@item Security kit|sw5e-phb|security kit}, or {@item Slicer's kit|sw5e-phb|slicer's kit}"
 						},
 						{
 							"type": "item",
@@ -654,12 +654,12 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Acrobatics|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Performance|sw5e-phb}, and {@skill Sleight of Hand|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Acrobatics|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Performance|sw5e-phb}|sw5e-phb}, and {@skill Sleight of Hand|sw5e-phb}"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies:",
-							"entry": "Disguise kit, one type of musical instrument"
+							"entry": "{@item Disguise kit|sw5e-phb}, one type of musical instrument"
 						},
 						{
 							"type": "item",
@@ -677,7 +677,7 @@
 					"type": "entries",
 					"name": "Feature: By Popular Demand",
 					"entries": [
-						"You can always find a place to perform, usually in an inn or cantina but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+						"You can always find a place to {@optfeature Perform|sw5e-phb|perform}, usually in an inn or cantina but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you {@optfeature Perform|sw5e-phb|perform} each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
 					],
 					"data": {
 						"isFeature": true
@@ -746,7 +746,7 @@
 							"rows": [
 								[
 									"1",
-									"When I perform, I make the world better than it was. (Light)"
+									"When I {@optfeature Perform|sw5e-phb|perform}, I make the world better than it was. (Light)"
 								],
 								[
 									"2",
@@ -762,7 +762,7 @@
 								],
 								[
 									"5",
-									"I like seeing the smiles on people's faces when I perform. That's all that matters. (Neutral)"
+									"I like seeing the smiles on people's faces when I {@optfeature Perform|sw5e-phb|perform}. That's all that matters. (Neutral)"
 								],
 								[
 									"6",
@@ -861,7 +861,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Deception|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Perception|sw5e-phb}, and {@skill Persuasion|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Perception|sw5e-phb}|sw5e-phb}, and {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -994,7 +994,7 @@
 								],
 								[
 									"2",
-									"I am fully dedicated to the will of the Force.  It leads and I follow."
+									"I am fully dedicated to the {@spell Will of the Force|sw5e-phb|will of the Force}.  It leads and I follow."
 								],
 								[
 									"3",
@@ -1068,7 +1068,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Deception|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Intimidation|sw5e-phb}, and {@skill Sleight of Hand|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Intimidation|sw5e-phb}|sw5e-phb}, and {@skill Sleight of Hand|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -1275,7 +1275,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Insight|sw5e-phb}, {@skill Investigation|sw5e-phb}, {@skill Perception|sw5e-phb}, and {@skill Survival|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Investigation|sw5e-phb}|sw5e-phb}, {@skill {@skill Perception|sw5e-phb}|sw5e-phb}, and {@skill {@skill Survival|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -1285,7 +1285,7 @@
 						{
 							"type": "item",
 							"name": "Equipment:",
-							"entry": "A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of binders, and a pouch containing 100 cr"
+							"entry": "A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of {@item Binders|sw5e-phb|binders}, and a pouch containing 100 cr"
 						},
 						{
 							"type": "item",
@@ -1482,7 +1482,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Insight|sw5e-phb}, {@skill Investigation|sw5e-phb}, {@skill Lore|sw5e-phb}, and {@skill Persuasion|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Investigation|sw5e-phb}|sw5e-phb}, {@skill {@skill Lore|sw5e-phb}|sw5e-phb}, and {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -1695,7 +1695,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Athletics|sw5e-phb}, {@skill Intimidation|sw5e-phb}, {@skill Piloting|sw5e-phb}, and {@skill Survival|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Athletics|sw5e-phb}|sw5e-phb}, {@skill {@skill Intimidation|sw5e-phb}|sw5e-phb}, {@skill {@skill Piloting|sw5e-phb}|sw5e-phb}, and {@skill {@skill Survival|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -1874,7 +1874,7 @@
 								],
 								[
 									"3",
-									"I don't see much use in talking, a blaster is all I need to make my point."
+									"I don't see much use in talking, a {@filter blaster|items|firearm=true} is all I need to make my point."
 								],
 								[
 									"4",
@@ -1907,7 +1907,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Athletics|sw5e-phb}, {@skill Investigation|sw5e-phb}, {@skill Persuasion|sw5e-phb}, and {@skill Piloting|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Athletics|sw5e-phb}|sw5e-phb}, {@skill {@skill Investigation|sw5e-phb}|sw5e-phb}, {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}, and {@skill {@skill Piloting|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -2119,7 +2119,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Deception|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Lore|sw5e-phb}, and {@skill Persuasion|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Lore|sw5e-phb}|sw5e-phb}, and {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -2331,7 +2331,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Animal Handling|sw5e-phb}, {@skill Athletics|sw5e-phb}, {@skill Medicine|sw5e-phb}, and {@skill Survival|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Animal Handling|sw5e-phb}|sw5e-phb}, {@skill {@skill Athletics|sw5e-phb}|sw5e-phb}, {@skill {@skill Medicine|sw5e-phb}|sw5e-phb}, and {@skill {@skill Survival|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -2543,12 +2543,12 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Acrobatics|sw5e-phb}, {@skill Athletics|sw5e-phb}, {@skill Insight|sw5e-phb}, and {@skill Survival|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Acrobatics|sw5e-phb}|sw5e-phb}, {@skill {@skill Athletics|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, and {@skill {@skill Survival|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies:",
-							"entry": "Disguise kit"
+							"entry": "{@item Disguise kit|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -2571,7 +2571,7 @@
 					"type": "entries",
 					"name": "Feature: Notorious",
 					"entries": [
-						"Since you come from the ranks of the common folk, you fit among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you've shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you."
+						"Since you come from the ranks of the common folk, you fit among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you've shown yourself to be a danger to them. They will {@item Shield|sw5e-phb|shield} you from the law or anyone else searching for you, though they will not risk their lives for you."
 					],
 					"data": {
 						"isFeature": true
@@ -2755,12 +2755,12 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Athletics|sw5e-phb}, {@skill Deception|sw5e-phb}, {@skill Intimidation|sw5e-phb}, and {@skill Piloting|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Athletics|sw5e-phb}|sw5e-phb}, {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Intimidation|sw5e-phb}|sw5e-phb}, and {@skill {@skill Piloting|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies:",
-							"entry": "One type of gaming set, your choice of demolitions kit, security kit, or slicer's kit"
+							"entry": "One type of gaming set, your choice of {@item Demolitions kit|sw5e-phb|demolitions kit}, {@item Security kit|sw5e-phb|security kit}, or {@item Slicer's kit|sw5e-phb|slicer's kit}"
 						},
 						{
 							"type": "item",
@@ -2788,7 +2788,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Despite the cutthroat nature of the business, pirates come in all shapes and personalities. Some are bloodthirsty brigands who leave no survivors, others are free spirits who believe in strength over weakness. The hardened warriors of deep space can be implacable foes who often form unshakable bonds with their crewmates. The same circumstances that give them their edge can also grind them down, leaving them vulnerable to greed, shame, and the scars of fear and horror left by battle.",
+						"Despite the cutthroat nature of the business, pirates come in all shapes and personalities. Some are bloodthirsty brigands who leave no survivors, others are free spirits who believe in strength over weakness. The hardened warriors of deep space can be implacable foes who often form unshakable bonds with their crewmates. The same circumstances that give them their edge can also grind them down, leaving them vulnerable to greed, shame, and the scars of fear and {@spell Horror|sw5e-phb|horror} left by battle.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -2937,7 +2937,7 @@
 								],
 								[
 									"5",
-									"I won't let myself be captured. If a raid goes sour, I'm the first to run for cover."
+									"I won't let myself be captured. If a raid goes sour, I'm the first to run for {@variantrule Cover|sw5e-phb|cover}."
 								],
 								[
 									"6",
@@ -2962,7 +2962,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Lore|sw5e-phb}, {@skill Medicine|sw5e-phb}, {@skill Nature|sw5e-phb}, and {@skill Technology|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Lore|sw5e-phb}|sw5e-phb}, {@skill {@skill Medicine|sw5e-phb}|sw5e-phb}, {@skill {@skill Nature|sw5e-phb}|sw5e-phb}, and {@skill {@skill Technology|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -2977,7 +2977,7 @@
 						{
 							"type": "item",
 							"name": "Equipment:",
-							"entry": "A set of common clothes, a datapad, a book on your field of research, a pouch containing 100 cr"
+							"entry": "A set of common clothes, a {@item Datapad|sw5e-phb|datapad}, a book on your field of research, a pouch containing 100 cr"
 						},
 						{
 							"type": "item",
@@ -3174,17 +3174,17 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Deception|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Performance|sw5e-phb}, and {@skill Sleight of Hand|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Performance|sw5e-phb}|sw5e-phb}, and {@skill Sleight of Hand|sw5e-phb}"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies:",
-							"entry": "Disguise Kit, Forgery Kit"
+							"entry": "{@item Disguise kit|sw5e-phb|Disguise Kit}, Forgery Kit"
 						},
 						{
 							"type": "item",
 							"name": "Equipment:",
-							"entry": "A set of fine clothes, a disguise kit, a memento of a former con, and a belt pouch containing 150 cr"
+							"entry": "A set of fine clothes, a {@item Disguise kit|sw5e-phb|disguise kit}, a memento of a former con, and a belt pouch containing 150 cr"
 						},
 						{
 							"type": "item",
@@ -3208,7 +3208,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Scoundrels are colorful characters who conceal their true selves behind the masks they construct. They reflect what people want to see, what they want to believe, and how they see the world. But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues.",
+						"Scoundrels are colorful characters who {@optfeature Conceal|sw5e-phb|conceal} their true selves behind the masks they construct. They reflect what people want to see, what they want to believe, and how they see the world. But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -3382,7 +3382,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Deception|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Intimidation|sw5e-phb}, and {@skill Lore|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Intimidation|sw5e-phb}|sw5e-phb}, and {@skill {@skill Lore|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -3420,7 +3420,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Sith are shaped by their training. They study the Sith code and use it to oppress the weak and quell resistance. Their study of the Sith code affects their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
+						"Sith are shaped by their training. They study the Sith code and use it to oppress the weak and quell {@spell Resistance|sw5e-phb|resistance}. Their study of the Sith code affects their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -3442,7 +3442,7 @@
 								],
 								[
 									"3",
-									"I prefer using a lightsaber to solve my problems."
+									"I prefer using a {@item Lightsaber|sw5e-phb|lightsaber} to solve my problems."
 								],
 								[
 									"4",
@@ -3553,7 +3553,7 @@
 							"rows": [
 								[
 									"1",
-									"I am too merciful, and empathize with those I shouldn't."
+									"I am too merciful, and {@optfeature Empathize|sw5e-phb|empathize} with those I shouldn't."
 								],
 								[
 									"2",
@@ -3594,17 +3594,17 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Deception|sw5e-phb}, {@skill Piloting|sw5e-phb}, {@skill Sleight of Hand|sw5e-phb}, and {@skill Stealth|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Deception|sw5e-phb}|sw5e-phb}, {@skill {@skill Piloting|sw5e-phb}|sw5e-phb}, {@skill Sleight of Hand|sw5e-phb}, and {@skill {@skill Stealth|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies:",
-							"entry": "One type of gaming set and your choice of demolitions kit, security kit, or slicer's kit"
+							"entry": "One type of gaming set and your choice of {@item Demolitions kit|sw5e-phb|demolitions kit}, {@item Security kit|sw5e-phb|security kit}, or {@item Slicer's kit|sw5e-phb|slicer's kit}"
 						},
 						{
 							"type": "item",
 							"name": "Equipment:",
-							"entry": "A fusion cutter, a set of dark common clothes including a hood, and a belt pouch containing 150 cr"
+							"entry": "A {@item Fusion cutter|sw5e-phb|fusion cutter}, a set of dark common clothes including a hood, and a belt pouch containing 150 cr"
 						},
 						{
 							"type": "item",
@@ -3617,7 +3617,7 @@
 					"type": "entries",
 					"name": "Feature: Careful Selection",
 					"entries": [
-						"Some close brushes with the law have taught you that not every city guard can be bribed, and some people are simply too keen to miss minute discrepancies. This feature allows you to study a person and gain insight into whether or not they would accept a bribe, or to pick up on whether they are exceptionally more perceptive than you. It does not reveal how expensive a bribe may be for a given situation, however."
+						"Some close brushes with the law have taught you that not every city guard can be bribed, and some people are simply too keen to miss minute discrepancies. This feature allows you to study a person and gain insight into whether or not they would accept a bribe, or to pick up on whether they are exceptionally more {@feat Perceptive|sw5e-phb|perceptive} than you. It does not reveal how expensive a bribe may be for a given situation, however."
 					],
 					"data": {
 						"isFeature": true
@@ -3669,7 +3669,7 @@
 								],
 								[
 									"8",
-									"I act irrationally confident in the face of danger, nobody suspects anything when you seem like you're in charge."
+									"I act irrationally confident in the face of danger, nobody suspects anything when you seem like you're in {@optfeature Charge|sw5e-phb|charge}."
 								]
 							]
 						},
@@ -3686,7 +3686,7 @@
 							"rows": [
 								[
 									"1",
-									"I only smuggle things to improve the lives of the common folk. (Light)"
+									"I only {@spell Smuggle|sw5e-phb|smuggle} things to improve the lives of the common folk. (Light)"
 								],
 								[
 									"2",
@@ -3801,7 +3801,7 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Athletics|sw5e-phb}, {@skill Intimidation|sw5e-phb}, {@skill Persuasion|sw5e-phb}, and {@skill Piloting|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Athletics|sw5e-phb}|sw5e-phb}, {@skill {@skill Intimidation|sw5e-phb}|sw5e-phb}, {@skill {@skill Persuasion|sw5e-phb}|sw5e-phb}, and {@skill {@skill Piloting|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
@@ -4013,12 +4013,12 @@
 						{
 							"type": "item",
 							"name": "Skill Proficiencies:",
-							"entry": "Choose two from {@skill Insight|sw5e-phb}, {@skill Investigation|sw5e-phb}, {@skill Piloting|sw5e-phb}, and {@skill Technology|sw5e-phb}"
+							"entry": "Choose two from {@skill {@skill Insight|sw5e-phb}|sw5e-phb}, {@skill {@skill Investigation|sw5e-phb}|sw5e-phb}, {@skill {@skill Piloting|sw5e-phb}|sw5e-phb}, and {@skill {@skill Technology|sw5e-phb}|sw5e-phb}"
 						},
 						{
 							"type": "item",
 							"name": "Tool Proficiencies:",
-							"entry": "Your choice of chef's kit, mechanic's kit, or one type of gaming set"
+							"entry": "Your choice of {@item Chef's kit|sw5e-phb|chef's kit}, {@item Mechanic's kit|sw5e-phb|mechanic's kit}, or one type of gaming set"
 						},
 						{
 							"type": "item",
@@ -4248,7 +4248,7 @@
 			"name": "Force Adept",
 			"source": "sw5e-phb",
 			"entries": [
-				"You are keenly attuned to the flow of the mysterious energy field known as the Force.  With proper training, you could learn to consciously sense and manipulate that energy further.  As it is, you may appear to have heightened senses, extremely quick reflexes, an intuitive understanding of others, or an uncanny ability to persuade people to your way of thinking. Your powers may have lain dormant for a long time, perhaps you felt something inside of you but never knew what it was. Perhaps your abilities were awoken by a strong encounter with another force-sensitive with the powers of the Force, or an object associated with the Force, such as a lightsaber."
+				"You are keenly attuned to the flow of the mysterious energy field known as the Force.  With proper training, you could learn to consciously sense and manipulate that energy further.  As it is, you may appear to have heightened senses, extremely quick reflexes, an intuitive understanding of others, or an uncanny ability to {@optfeature Persuade|sw5e-phb|persuade} people to your way of thinking. Your powers may have lain dormant for a long time, perhaps you felt something inside of you but never knew what it was. Perhaps your abilities were awoken by a strong encounter with another {@feat Force-Sensitive|sw5e-phb|force-sensitive} with the powers of the Force, or an object associated with the Force, such as a {@item Lightsaber|sw5e-phb|lightsaber}."
 			]
 		},
 		{
@@ -4262,7 +4262,7 @@
 			"name": "Investigator",
 			"source": "sw5e-phb",
 			"entries": [
-				"Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to investigate crime scenes and track down criminals."
+				"Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to {@optfeature Investigate|sw5e-phb|investigate} crime scenes and track down criminals."
 			]
 		},
 		{
@@ -4331,7 +4331,7 @@
 			"name": "Scoundrel",
 			"source": "sw5e-phb",
 			"entries": [
-				"You have always had a way with people. You can tease out their heart's desires after a few minutes of conversation, and with a few leading questions you can read them like they were children's books. It's a useful talent, and one that you're perfectly willing to use for your advantage. You know what people want and you promise to deliver, coaxing people into otherwise foolish decisions. You make the improbable sound plausible, and come ahead on every deal."
+				"You have always had a way with people. You can tease out their heart's desires after a few minutes of conversation, and with a few leading questions you can read them like they were children's books. It's a useful talent, and one that you're perfectly willing to use for your {@variantrule Advantage|sw5e-phb|advantage}. You know what people want and you promise to deliver, coaxing people into otherwise foolish decisions. You make the improbable sound plausible, and come ahead on every deal."
 			]
 		},
 		{
@@ -4345,7 +4345,7 @@
 			"name": "Smuggler",
 			"source": "sw5e-phb",
 			"entries": [
-				"You have spent your life hiding in the darkness, making shady deals behind closed doors. What led you to engage in a life of crime? Do you crave the thrill of lawbreaking, or did you enter the profession to pay off a debt, risking your hide on behalf of a less than honorable noble? A smuggler is an individual trained in the art of acquisition, a professional thug who can deliver anything... for a price. Smugglers tend to be bolder criminals than most, preferring bribery or distraction over subterfuge and stealth."
+				"You have spent your life hiding in the {@spell Darkness|sw5e-phb|darkness}, making shady deals behind closed doors. What led you to engage in a life of crime? Do you crave the thrill of lawbreaking, or did you enter the profession to pay off a debt, risking your hide on behalf of a less than honorable noble? A smuggler is an individual trained in the art of acquisition, a professional thug who can deliver anything... for a price. Smugglers tend to be bolder criminals than most, preferring bribery or distraction over subterfuge and stealth."
 			]
 		},
 		{

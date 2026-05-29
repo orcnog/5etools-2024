@@ -63,12 +63,12 @@
 				"intimidation": "+2"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 14,
 			"resist": [
 				"necrotic",
-				"poison",
+				"{@item Poison|sw5e-phb|poison}",
 				"psychic"
 			],
 			"vulnerable": [
@@ -80,8 +80,8 @@
 				}
 			],
 			"conditionImmune": [
-				"diseased",
-				"poisoned"
+				"{@condition Diseased|sw5e-phb|diseased}",
+				"{@condition Poisoned|sw5e-phb}"
 			],
 			"languages": [
 				"Galactic basic",
@@ -92,7 +92,7 @@
 				{
 					"name": "Circuitry",
 					"entries": [
-						"The construct has disadvantage on saving throws against effects that would deal ion or lightning damage."
+						"The construct has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would deal ion or lightning damage."
 					]
 				}
 			],
@@ -149,19 +149,19 @@
 				"int": "+2"
 			},
 			"senses": [
-				"darkvision 60 ft."
+				"{@spell Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"passive": 10,
 			"resist": [
 				"ranged attacks"
 			],
 			"immune": [
-				"poison"
+				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"paralyzed",
-				"petrified",
-				"poisoned"
+				"{@condition Paralyzed|sw5e-phb|paralyzed}",
+				"{@condition Petrified|sw5e-phb|petrified}",
+				"{@condition Poisoned|sw5e-phb}"
 			],
 			"languages": [
 				"Common"
@@ -171,7 +171,7 @@
 				{
 					"name": "Malfunction",
 					"entries": [
-						"Whenever the security droid takes 15 damage or more from a single source and isn't reduced to 0 hit points by that damage, roll a {@dice d20} to determine if it suffers a malfunction:",
+						"Whenever the security droid takes 15 damage or more from a single source and isn't reduced to 0 {@variantrule Hit Points|sw5e-phb|hit points} by that damage, roll a {@dice d20} to determine if it suffers a malfunction:",
 						{
 							"type": "list",
 							"style": "list-hang-notitle",
@@ -185,9 +185,9 @@
 								},
 								{
 									"type": "item",
-									"name": "11-12: \"Logic error. System reboot.\"",
+									"name": "11-12: \"Logic error. System {@spell Reboot|sw5e-phb|reboot}.\"",
 									"entries": [
-										"The security droid is {@condition incapacitated} for 1 minute."
+										"The security droid is {@condition incapacitated|sw5e-phb} for 1 minute."
 									]
 								},
 								{
@@ -201,14 +201,14 @@
 									"type": "item",
 									"name": "15-16: \"Not a time to lose one's head.\"",
 									"entries": [
-										"The security droid's head falls off and deactivates, causing the autognome to be {@condition blinded} and {@condition deafened}. The security droid continues to attack indiscriminately."
+										"The security droid's head falls off and deactivates, causing the autognome to be {@condition blinded|sw5e-phb} and {@condition deafened|sw5e-phb}. The security droid continues to attack indiscriminately."
 									]
 								},
 								{
 									"type": "item",
-									"name": "17-20: \"WARNING! EXPLOSION IMMINATE!\"",
+									"name": "17-20: \"WARNING! {@spell Explosion|sw5e-phb|EXPLOSION} IMMINATE!\"",
 									"entries": [
-										"The security droid explodes and is destroyed. Each creature within 20 feet of the explosion must make a {@dc 11} Dexterity saving throw, taking 22 ({@damage 4d10}) slashing damage on a failed save, or half as much damage on a successful one."
+										"The security droid explodes and is destroyed. Each creature within 20 feet of the {@spell Explosion|sw5e-phb|explosion} must make a {@dc 11} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 22 ({@damage 4d10}) slashing damage on a failed save, or half as much damage on a successful one."
 									]
 								}
 							]
@@ -216,7 +216,7 @@
 					]
 				},
 				{
-					"name": "Unusual Nature",
+					"name": "Unusual {@skill Nature|sw5e-phb}",
 					"entries": [
 						"The security droid doesn't require air, food, drink, or sleep."
 					]
@@ -226,18 +226,18 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The security droid makes two blaster attacks."
+						"The security droid makes two {@filter blaster|items|firearm=true} attacks."
 					]
 				},
 				{
-					"name": "Blaster",
+					"name": "{@filter blaster|items|firearm=true}",
 					"entries": [
 						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 60/120 ft., one target. {@h}7 ({@damage 3d6}) lightning damage."
 					]
 				}
 			],
 			"traitTags": [
-				"Unusual Nature"
+				"Unusual {@skill Nature|sw5e-phb}"
 			],
 			"senseTags": [
 				"D"
@@ -248,7 +248,7 @@
 			"fluff": {
 				"entries": [
 					"KX-series security droids, also referred to as enforcer droids, are a model of security droid manufactured by Arakyd Industries that was in service to the Galactic Empire during the Galactic Civil War.",
-					"Enforcer droids come equipped with a built-in comm package, recharge port, and a computer interface arm that allows them to connect with standard communication frequencies for areas they are assigned to. The droids were designed with exaggerated human proportions but with the mobility of a human athlete. They were able to operate a variety or tools and equipment and can carry gear without becoming exhausted.",
+					"Enforcer droids come equipped with a built-in comm package, recharge port, and a computer interface arm that allows them to connect with standard communication frequencies for areas they are assigned to. The droids were designed with exaggerated human proportions but with the mobility of a human {@feat Athlete|sw5e-phb|athlete}. They were able to operate a variety or tools and equipment and can carry gear without becoming exhausted.",
 					"While the Imperial Senate had prohibited the creation of battle droids, Arakyd was able to use a loophole in the law by marketing the KX-series as \"security droids.\" They were programmed without the standard restriction against harming organic sentient lifeforms.",
 					"The KX-series droids were programmed to speak and interact with people, but were not as proficient at it as protocol droids were. They could handle a wide range of tasks, including escorting dignitaries, protecting important people and defending Imperial installations. The droids were also programmed to recognize and defer to Imperial Military officers ranked Lieutenant or higher."
 				],
@@ -278,7 +278,7 @@
 			"tokenUrl": "https://preview.redd.it/kx-droids-hd-and-ld-versions-v0-nzx1hvyun0ea1.png?width=722&format=png&auto=webp&s=5282bac9e0e9bb80546a043e6858397fee6556c2"
 		},
 		{
-			"name": "Repair Droid",
+			"name": "{@spell Repair Droid|sw5e-phb}",
 			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
@@ -311,7 +311,7 @@
 			"cha": 5,
 			"resist": [
 				"necrotic",
-				"poison",
+				"{@item Poison|sw5e-phb|poison}",
 				"psychic"
 			],
 			"vulnerable": [
@@ -320,7 +320,7 @@
 				}
 			],
 			"conditionImmune": [
-				"poison",
+				"{@item Poison|sw5e-phb|poison}",
 				"disease"
 			],
 			"languages": [
@@ -332,7 +332,7 @@
 				{
 					"name": "Circuitry",
 					"entries": [
-						"The droid has disadvantage on saving throws against effects that would deal ion or lightning damage."
+						"The droid has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would deal ion or lightning damage."
 					]
 				}
 			],
@@ -340,19 +340,19 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"The repair droid makes two electro cable attacks."
+						"The {@spell Repair Droid|sw5e-phb|repair droid} makes two electro cable attacks."
 					]
 				},
 				{
 					"name": "Electro Cable",
 					"entries": [
-						"{@atk mw} {@hit 4} to hit, reach 15 ft., one target. {@h}5 ({@damage 1d6 + 2}) energy damage and the target is {@condition grappled} ({@dc 10} escape). While the target is {@condition grappled} in this way, the droid can reinflict the damage at the beginning of each of its turns as a bonus action."
+						"{@atk mw} {@hit 4} to hit, reach 15 ft., one target. {@h}5 ({@damage 1d6 + 2}) energy damage and the target is {@condition grappled|sw5e-phb} ({@dc 10} escape). While the target is {@condition grappled|sw5e-phb} in this way, the droid can reinflict the damage at the beginning of each of its turns as a {@variantrule Bonus Action|sw5e-phb}."
 					]
 				},
 				{
 					"name": "Repair (1/Day)",
 					"entries": [
-						"As an action, the droid can restore {@dice 2d4 + 2} hit points to a droid or construct within 5 feet."
+						"As an action, the droid can restore {@dice 2d4 + 2} {@variantrule Hit Points|sw5e-phb|hit points} to a droid or construct within 5 feet."
 					]
 				}
 			],
@@ -364,7 +364,7 @@
 				"RCH"
 			],
 			"conditionInflict": [
-				"grappled"
+				"{@condition Grappled|sw5e-phb|grappled}"
 			],
 			"tokenUrl": "https://i.imgur.com/LWrp8eD.png"
 		},
@@ -411,9 +411,9 @@
 				"fire"
 			],
 			"conditionImmune": [
-				"blinded",
-				"deafened",
-				"exhaustion"
+				"{@condition Blinded|sw5e-phb|blinded}",
+				"{@condition Deafened|sw5e-phb|deafened}",
+				"{@condition Exhaustion|sw5e-phb|exhaustion}"
 			],
 			"cr": "5",
 			"trait": [
@@ -441,13 +441,13 @@
 				{
 					"name": "Pacifying Spores (3/Day)",
 					"entries": [
-						"The spider ejects spores in 15-foot cone. All creatures in the area must succeed on a {@dc 14} Constitution saving throw or be {@condition stunned} for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+						"The spider ejects spores in 15-foot cone. All creatures in the area must succeed on a {@dc 14} Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} or be {@condition stunned|sw5e-phb} for 1 minute. The target can repeat the {@variantrule Saving Throw|sw5e-phb|saving throw} at the end of each of its turns, ending the effect on itself on a success."
 					]
 				},
 				{
 					"name": "Stinger",
 					"entries": [
-						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) kinetic damage, and the target must make a {@dc 15} Constitution saving throw, taking 18 ({@damage 4d8}) poison damage on a failed save, or half as much damage on a successful one. If the poison damage reduces the target to 0 hit points, the target is stable but {@condition poisoned} for 1 hour, even after regaining hit points, and is {@condition paralyzed} while {@condition poisoned} in this way."
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) kinetic damage, and the target must make a {@dc 15} Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 18 ({@damage 4d8}) {@item Poison|sw5e-phb|poison} damage on a failed save, or half as much damage on a successful one. If the {@item Poison|sw5e-phb|poison} damage reduces the target to 0 {@variantrule Hit Points|sw5e-phb|hit points}, the target is stable but {@condition poisoned|sw5e-phb} for 1 hour, even after regaining {@variantrule Hit Points|sw5e-phb|hit points}, and is {@condition paralyzed|sw5e-phb} while {@condition poisoned|sw5e-phb} in this way."
 					]
 				}
 			],
@@ -477,9 +477,9 @@
 				"RCH"
 			],
 			"conditionInflict": [
-				"paralyzed",
-				"poisoned",
-				"stunned"
+				"{@condition Paralyzed|sw5e-phb|paralyzed}",
+				"{@condition Poisoned|sw5e-phb}",
+				"{@condition Stunned|sw5e-phb|stunned}"
 			],
 			"savingThrowForced": [
 				"constitution"
@@ -506,7 +506,7 @@
 				{
 					"ac": 14,
 					"from": [
-						"17 with battle precognition"
+						"17 with {@spell Battle Precognition|sw5e-phb|battle precognition}"
 					]
 				}
 			],
@@ -539,7 +539,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The Jedi Temple Guard is a 6th level forcecaster it's forcecasting ability is Wisdom (force save {@dc 14}, {@hit 6} to hit with force attacks, 18 force points). The Jedi Healer knows the following force powers:"
+						"The Jedi Temple Guard is a 6th level forcecaster it's {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} is Wisdom (force save {@dc 14}, {@hit 6} to hit with force attacks, 18 force points). The Jedi {@feat Healer|sw5e-phb} knows the following {@book force powers|sw5e-phb|11|Force Powers}:"
 					],
 					"spells": {
 						"0": {
@@ -591,11 +591,11 @@
 				{
 					"name": "Multiattack",
 					"entries": [
-						"When the Jedi makes three doublesaber attacks."
+						"When the Jedi makes three {@item Doublesaber|sw5e-phb|doublesaber} attacks."
 					]
 				},
 				{
-					"name": "Doublesaber",
+					"name": "{@item Doublesaber|sw5e-phb}",
 					"entries": [
 						"{@atk mw} {@hit 7} to hit, reach 5ft., one target. Hit 12 ({@dice 2d8 + 4})"
 					]
@@ -605,7 +605,7 @@
 				{
 					"name": "Double Bladed Strike",
 					"entries": [
-						"The Jedi can attack with both blades when making an opportunity attack"
+						"The Jedi can attack with both blades when making an {@action Opportunity Attack|sw5e-phb|opportunity attack}"
 					]
 				}
 			],
@@ -642,7 +642,7 @@
 				{
 					"ac": 11,
 					"from": [
-						"14 with battle precognition"
+						"14 with {@spell Battle Precognition|sw5e-phb|battle precognition}"
 					]
 				}
 			],
@@ -673,16 +673,16 @@
 				{
 					"name": "Spellcasting",
 					"entries": [
-						"The padawan is a 4th-level forcecaster. Its forcecasting ability is Wisdom (power save {@dc 12}, {@hit 4} to hit with force attacks) and it has 18 force points. The padawan knows the following force powers:",
-						"At-will: give life, guidance, spare the dying, turbulence",
-						"1st-level: cloud mind, heal, project, valor",
-						"2nd-level: calm emotions, force barrier"
+						"The padawan is a 4th-level forcecaster. Its {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} is Wisdom (power save {@dc 12}, {@hit 4} to hit with force attacks) and it has 18 force points. The padawan knows the following {@book force powers|sw5e-phb|11|Force Powers}:",
+						"At-will: {@spell Give Life|sw5e-phb|give life}, {@spell Guidance|sw5e-phb|guidance}, {@spell Spare the Dying|sw5e-phb|spare the dying}, {@spell Turbulence|sw5e-phb|turbulence}",
+						"1st-level: {@spell Cloud Mind|sw5e-phb|cloud mind}, heal, {@spell Project|sw5e-phb|project}, valor",
+						"2nd-level: {@spell Calm Emotions|sw5e-phb|calm emotions}, {@spell Force Barrier|sw5e-phb|force barrier}"
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Shotosaber",
+					"name": "{@item Shotosaber|sw5e-phb}",
 					"entries": [
 						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) energy damage."
 					]
@@ -715,7 +715,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"combat suit"
+						"{@item Combat suit|sw5e-phb|combat suit}"
 					]
 				}
 			],
@@ -747,7 +747,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The apprentice is a 4th-level forcecaster. Its forcecasting ability is Wisdom (power save {@dc 11}, {@hit 3} to hit with force attacks) and it has 14 force points. The apprentice knows the following force powers:"
+						"The apprentice is a 4th-level forcecaster. Its {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} is Wisdom (power save {@dc 11}, {@hit 3} to hit with force attacks) and it has 14 force points. The apprentice knows the following {@book force powers|sw5e-phb|11|Force Powers}:"
 					],
 					"spells": {
 						"0": {
@@ -778,7 +778,7 @@
 				{
 					"name": "Devotion",
 					"entries": [
-						"The apprentice has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"The apprentice has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against being {@condition charmed|sw5e-phb} or {@condition frightened|sw5e-phb}."
 					]
 				}
 			],
@@ -790,7 +790,7 @@
 					]
 				},
 				{
-					"name": "Doublesaber",
+					"name": "{@item Doublesaber|sw5e-phb}",
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) energy damage."
 					]
@@ -829,7 +829,7 @@
 				{
 					"ac": 12,
 					"from": [
-						"15 with battle precognition"
+						"15 with {@spell Battle Precognition|sw5e-phb|battle precognition}"
 					]
 				}
 			],
@@ -864,8 +864,8 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The dark aspirant is a 5th-level forcecaster. Its forcecasting ability is Charisma (Power save {@dc 15}, {@hit 4} to hit with force attacks) and it has 24 force points.",
-						"The Sith High Apprentice Can use Twinned Power and Heightened Power The dark aspirant knows the following force powers:"
+						"The dark aspirant is a 5th-level forcecaster. Its {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} is Charisma (Power save {@dc 15}, {@hit 4} to hit with force attacks) and it has 24 force points.",
+						"The Sith High Apprentice Can use Twinned Power and Heightened Power The dark aspirant knows the following {@book force powers|sw5e-phb|11|Force Powers}:"
 					],
 					"spells": {
 						"0": {
@@ -907,19 +907,19 @@
 				{
 					"name": "Devotion",
 					"entries": [
-						"The dark aspirant has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"The dark aspirant has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against being {@condition charmed|sw5e-phb} or {@condition frightened|sw5e-phb}."
 					]
 				},
 				{
-					"name": "Force Shield",
+					"name": "Force {@item Shield|sw5e-phb}",
 					"entries": [
-						"3/day: When the dark aspirant is hit by an attack, it can use its reaction to shroud itself in Force energy. Until the start of its next turn, it has a +4 bonus to AC."
+						"3/day: When the dark aspirant is hit by an attack, it can use its {@variantrule Reaction|sw5e-phb} to shroud itself in Force energy. Until the start of its next turn, it has a +4 bonus to AC."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Lightfoil",
+					"name": "{@item Lightfoil|sw5e-phb}",
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) energy damage."
 					]
@@ -956,7 +956,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"16 with battle precognition"
+						"16 with {@spell Battle Precognition|sw5e-phb|battle precognition}"
 					]
 				}
 			],
@@ -989,7 +989,7 @@
 					"name": "Spellcasting",
 					"type": "spellcasting",
 					"headerEntries": [
-						"The Sith Sorcerer is a 11th level forcecaster it's forcecasting ability is Charisma (force save {@dc 16}, {@hit 8} to hit with force attacks, 44 force points). The Sith Sorcerer knows the following force powers:"
+						"The Sith Sorcerer is a 11th level forcecaster it's {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} is Charisma (force save {@dc 16}, {@hit 8} to hit with force attacks, 44 force points). The Sith Sorcerer knows the following {@book force powers|sw5e-phb|11|Force Powers}:"
 					],
 					"spells": {
 						"0": {
@@ -1050,19 +1050,19 @@
 				{
 					"name": "Quickened Power (3/Day)",
 					"entries": [
-						"When the Sith Sorcerer casts a power that has a casting time of 1 action, it can change the casting time to 1 bonus action for this casting."
+						"When the Sith Sorcerer casts a power that has a casting time of 1 action, it can change the casting time to 1 {@variantrule Bonus Action|sw5e-phb} for this casting."
 					]
 				},
 				{
 					"name": "War Caster",
 					"entries": [
-						"The Sith Sorcerer has advantage on Constitution saving throws that it makes to maintain it's {@status concentration} on a power when it takes damage."
+						"The Sith Sorcerer has {@variantrule Advantage|sw5e-phb|advantage} on Constitution {@variantrule Saving Throw|sw5e-phb|saving throws} that it makes to maintain it's {@variantrule Concentration|sw5e-phb|concentration} on a power when it takes damage."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Lightsaber",
+					"name": "{@item Lightsaber|sw5e-phb}",
 					"entries": [
 						"{@atk mw} {@hit 6} to hit, reach 5ft., one target. Hit 6 ({@dice 1d6 + 3})"
 					]
@@ -1072,7 +1072,7 @@
 				{
 					"name": "War Caster",
 					"entries": [
-						"When a hostile creature's movement provokes an opportunity attack from the Sith Sorcerer, it can use it's reaction to cast a power at the creature, rather than making an opportunity attack. The power must have a casting time of 1 action and must target only that creature."
+						"When a hostile creature's movement provokes an {@action Opportunity Attack|sw5e-phb|opportunity attack} from the Sith Sorcerer, it can use it's {@variantrule Reaction|sw5e-phb} to cast a power at the creature, rather than making an {@action Opportunity Attack|sw5e-phb|opportunity attack}. The power must have a casting time of 1 action and must target only that creature."
 					]
 				}
 			],
@@ -1083,7 +1083,7 @@
 				"MW"
 			],
 			"conditionInflictSpell": [
-				"charmed"
+				"{@condition Charmed|sw5e-phb|charmed}"
 			],
 			"savingThrowForcedSpell": [
 				"constitution",
@@ -1111,7 +1111,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"16 with battle precognition"
+						"16 with {@spell Battle Precognition|sw5e-phb|battle precognition}"
 					]
 				}
 			],
@@ -1143,7 +1143,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Sifo-Dyas is a 11th level forcecaster it's forcecasting ability is Charisma (force save {@dc 16}, {@hit 8} to hit with force attacks). Sifo-Dyas knows the following force powers:"
+						"Sifo-Dyas is a 11th level forcecaster it's {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} is Charisma (force save {@dc 16}, {@hit 8} to hit with force attacks). Sifo-Dyas knows the following {@book force powers|sw5e-phb|11|Force Powers}:"
 					],
 					"spells": {
 						"0": {
@@ -1211,25 +1211,25 @@
 				{
 					"name": "Quickened Power (2/Day)",
 					"entries": [
-						"When Sifo-Dyas casts a power that has a casting time of 1 action, he can change the casting time to 1 bonus action for this casting."
+						"When Sifo-Dyas casts a power that has a casting time of 1 action, he can change the casting time to 1 {@variantrule Bonus Action|sw5e-phb} for this casting."
 					]
 				},
 				{
 					"name": "War Caster",
 					"entries": [
-						"Sifo-Dyas has advantage on Constitution saving throws that he makes to maintain it's {@status concentration} on a power when he takes damage."
+						"Sifo-Dyas has {@variantrule Advantage|sw5e-phb|advantage} on Constitution {@variantrule Saving Throw|sw5e-phb|saving throws} that he makes to maintain it's {@variantrule Concentration|sw5e-phb|concentration} on a power when he takes damage."
 					]
 				},
 				{
-					"name": "Legendary Resistance (2/Day)",
+					"name": "Legendary {@spell Resistance|sw5e-phb} (2/Day)",
 					"entries": [
-						"If Sifo-Dyas fails a saving throw, he can choose to succeed instead."
+						"If Sifo-Dyas fails a {@variantrule Saving Throw|sw5e-phb|saving throw}, he can choose to succeed instead."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Lightsaber",
+					"name": "{@item Lightsaber|sw5e-phb}",
 					"entries": [
 						"{@atk mw} {@hit 6} to hit, reach 5ft., one target. Hit 6 ({@dice 1d6 + 3})"
 					]
@@ -1239,7 +1239,7 @@
 				{
 					"name": "War Caster",
 					"entries": [
-						"When a hostile creature's movement provokes an opportunity attack from Sifo-Dyas, he can use it's reaction to cast a power at the creature, rather than making an opportunity attack. The power must have a casting time of 1 action and must target only that creature."
+						"When a hostile creature's movement provokes an {@action Opportunity Attack|sw5e-phb|opportunity attack} from Sifo-Dyas, he can use it's {@variantrule Reaction|sw5e-phb} to cast a power at the creature, rather than making an {@action Opportunity Attack|sw5e-phb|opportunity attack}. The power must have a casting time of 1 action and must target only that creature."
 					]
 				}
 			],
@@ -1250,7 +1250,7 @@
 				"MW"
 			],
 			"conditionInflictSpell": [
-				"charmed"
+				"{@condition Charmed|sw5e-phb|charmed}"
 			],
 			"isNamedCreature": true,
 			"traitTags": [
@@ -1270,15 +1270,15 @@
 					]
 				},
 				{
-					"name": "Force Speed",
+					"name": "Force {@variantrule Speed|sw5e-phb}",
 					"entries": [
-						"Sifo-Dyas can move up to his maximum speed without incurring attacks of opportunity. Sifo-Dyas imbues himself with a burst of speed through his knowledge of the Force."
+						"Sifo-Dyas can move up to his maximum {@variantrule Speed|sw5e-phb|speed} without incurring attacks of opportunity. Sifo-Dyas imbues himself with a burst of {@variantrule Speed|sw5e-phb|speed} through his knowledge of the Force."
 					]
 				},
 				{
 					"name": "Topple (Costs 2 Actions)",
 					"entries": [
-						"Sifo-Dyas uses the Force to pull down a huge object or piece of terrain (ex: a support column). The affected area is one of the following: a line 10 ft. wide and 40 ft. long extending from the base of the object, or a 15 ft. radius from a point of Sifo-Dyas' choosing. Each creature in the area of effect must succeed on a {@dc 16} Dexterity Saving Throw or take {@damage 5d6} bludgeoning damage and be knocked {@condition prone}. The affected area becomes difficult terrain until cleared."
+						"Sifo-Dyas uses the Force to pull down a huge object or piece of terrain (ex: a support column). The affected area is one of the following: a line 10 ft. wide and 40 ft. long extending from the base of the object, or a 15 ft. radius from a point of Sifo-Dyas' choosing. Each creature in the area of effect must succeed on a {@dc 16} Dexterity Saving Throw or take {@damage 5d6} bludgeoning damage and be knocked {@condition prone|sw5e-phb}. The affected area becomes {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} until cleared."
 					]
 				}
 			],
@@ -1359,8 +1359,8 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"Seryan Brim is a 5th-level forcecaster. Its forcecasting ability is Charisma (Power save {@dc 15}, {@hit 4} to hit with force attacks) and it has 24 force points.",
-						"Seryan can use Twinned Power and Heightened Power The dark aspirant knows the following force powers:"
+						"Seryan Brim is a 5th-level forcecaster. Its {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} is Charisma (Power save {@dc 15}, {@hit 4} to hit with force attacks) and it has 24 force points.",
+						"Seryan can use Twinned Power and Heightened Power The dark aspirant knows the following {@book force powers|sw5e-phb|11|Force Powers}:"
 					],
 					"spells": {
 						"0": {
@@ -1406,19 +1406,19 @@
 				{
 					"name": "Devotion",
 					"entries": [
-						"Seryan Brim has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"Seryan Brim has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against being {@condition charmed|sw5e-phb} or {@condition frightened|sw5e-phb}."
 					]
 				},
 				{
-					"name": "Force Shield",
+					"name": "Force {@item Shield|sw5e-phb}",
 					"entries": [
-						"2/day: When the Seryan Brim is hit by an attack, he can use his reaction to shroud himself in Force energy. Until the start of his next turn, it has a +4 bonus to AC."
+						"2/day: When the Seryan Brim is hit by an attack, he can use his {@variantrule Reaction|sw5e-phb} to shroud himself in Force energy. Until the start of his next turn, it has a +4 bonus to AC."
 					]
 				}
 			],
 			"action": [
 				{
-					"name": "Lightfoil",
+					"name": "{@item Lightfoil|sw5e-phb}",
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) energy damage."
 					]
@@ -1466,7 +1466,7 @@
 				{
 					"ac": 13,
 					"from": [
-						"combat suit"
+						"{@item Combat suit|sw5e-phb|combat suit}"
 					]
 				}
 			],
@@ -1497,7 +1497,7 @@
 				{
 					"name": "Spellcasting",
 					"headerEntries": [
-						"The Jedi Temple Guard is a 4th-level forcecaster. Its forcecasting ability is Wisdom (power save {@dc 11}, {@hit 3} to hit with force attacks) and it has 14 force points. The Temple Guard knows the following force powers:"
+						"The Jedi Temple Guard is a 4th-level forcecaster. Its {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} is Wisdom (power save {@dc 11}, {@hit 3} to hit with force attacks) and it has 14 force points. The Temple Guard knows the following {@book force powers|sw5e-phb|11|Force Powers}:"
 					],
 					"spells": {
 						"0": {
@@ -1531,7 +1531,7 @@
 				{
 					"name": "Devotion",
 					"entries": [
-						"The Jedi Temple Guard has advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+						"The Jedi Temple Guard has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against being {@condition charmed|sw5e-phb} or {@condition frightened|sw5e-phb}."
 					]
 				}
 			],
@@ -1543,7 +1543,7 @@
 					]
 				},
 				{
-					"name": "Doublesaber",
+					"name": "{@item Doublesaber|sw5e-phb}",
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) energy damage."
 					]
