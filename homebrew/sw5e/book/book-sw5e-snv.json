@@ -100,7 +100,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "1.4 FD P-Tower Turret",
@@ -151,8 +152,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -191,7 +192,8 @@
 			"miscTags": [
 				"AOE",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "3P0 Series",
@@ -244,8 +246,8 @@
 				"lightning"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"All registered languages"
@@ -264,7 +266,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "74-Z Speeder Bike",
@@ -315,8 +318,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -371,7 +374,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "AAT",
@@ -419,16 +423,16 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Incapacitated|sw5e-phb|incapacitated}",
-				"{@condition Stunned|sw5e-phb|stunned}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"frightened",
+				"petrified",
+				"restrained",
+				"incapacitated",
+				"stunned",
+				"prone",
+				"charmed",
+				"deafened",
+				"diseased"
 			],
 			"languages": [
 				"�"
@@ -513,7 +517,8 @@
 				"AOE",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Acklay, Adolescent",
@@ -577,7 +582,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Acklay, Adult",
@@ -641,7 +647,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Aiwha",
@@ -719,7 +726,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Anooba",
@@ -769,7 +777,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Aryx",
@@ -822,7 +831,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "AT-AT",
@@ -876,16 +886,16 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Incapacitated|sw5e-phb|incapacitated}",
-				"{@condition Stunned|sw5e-phb|stunned}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"frightened",
+				"petrified",
+				"restrained",
+				"incapacitated",
+				"stunned",
+				"prone",
+				"charmed",
+				"deafened",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -991,7 +1001,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "AT-RT",
@@ -1042,8 +1053,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"�"
@@ -1098,7 +1109,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "AT-ST",
@@ -1152,16 +1164,16 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Incapacitated|sw5e-phb|incapacitated}",
-				"{@condition Stunned|sw5e-phb|stunned}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"frightened",
+				"petrified",
+				"restrained",
+				"incapacitated",
+				"stunned",
+				"prone",
+				"charmed",
+				"deafened",
+				"diseased"
 			],
 			"languages": [
 				"�"
@@ -1226,7 +1238,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "AT-TE",
@@ -1278,16 +1291,16 @@
 				"psychic"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Incapacitated|sw5e-phb|incapacitated}",
-				"{@condition Stunned|sw5e-phb|stunned}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"frightened",
+				"petrified",
+				"restrained",
+				"incapacitated",
+				"stunned",
+				"prone",
+				"charmed",
+				"deafened",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -1381,7 +1394,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Auto-Turret",
@@ -1432,8 +1446,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -1476,7 +1490,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Ax-108 Sentry Gun",
@@ -1527,8 +1542,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -1561,7 +1576,8 @@
 			"miscTags": [
 				"AOE",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "B'omarr Brain Walker",
@@ -1618,9 +1634,9 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}"
+				"deafened",
+				"frightened",
+				"paralyzed"
 			],
 			"languages": [
 				"{@language Galactic Basic|sw5e-phb}",
@@ -1653,7 +1669,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "B'omarr Monk Initiate",
@@ -1708,7 +1725,8 @@
 			"miscTags": [
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "B1 Series, B1-A",
@@ -1756,8 +1774,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -1801,7 +1819,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "B1 Series, B1-X",
@@ -1852,8 +1871,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -1906,7 +1925,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "B1 Series, Squad",
@@ -1964,15 +1984,15 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Grappled|sw5e-phb|grappled}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}",
-				"{@condition Diseased|sw5e-phb|diseased}",
-				"{@condition Poisoned|sw5e-phb}"
+				"deafened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned",
+				"diseased",
+				"poisoned"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -2038,7 +2058,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "B2 Series, B2-A",
@@ -2086,8 +2107,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -2142,7 +2163,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "B2 Series, B2-HA",
@@ -2193,8 +2215,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -2255,7 +2277,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Bantha, Adolescent",
@@ -2319,7 +2342,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Bantha, Adult",
@@ -2383,7 +2407,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Battle Hydra",
@@ -2486,7 +2511,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "BB Series Astromech Droid",
@@ -2539,8 +2565,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"Speaks binary",
@@ -2575,7 +2601,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Beggar's Canyon Womp Rat",
@@ -2643,7 +2670,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Blastromech Series, BT-1",
@@ -2697,8 +2725,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -2780,7 +2808,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Blurrg",
@@ -2853,7 +2882,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Boar-wolf",
@@ -2929,7 +2959,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Bogwing, Greater",
@@ -2998,7 +3029,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Bogwing, Lesser",
@@ -3057,7 +3089,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Bor Gullet",
@@ -3113,7 +3146,7 @@
 				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}"
+				"poisoned"
 			],
 			"languages": [
 				"underst",
@@ -3215,7 +3248,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Brain Worm",
@@ -3263,7 +3297,7 @@
 				"cold"
 			],
 			"conditionImmune": [
-				"{@condition Charmed|sw5e-phb|charmed}"
+				"charmed"
 			],
 			"languages": [
 				"Geonosian (underst",
@@ -3314,7 +3348,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "BX Series, BX-5C",
@@ -3369,8 +3404,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -3431,7 +3466,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "BX Series, BX-A",
@@ -3483,8 +3519,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -3535,7 +3571,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "C1 Series Astromech Droid",
@@ -3588,8 +3625,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"Speaks binary",
@@ -3630,7 +3667,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Cantina Brawl",
@@ -3673,13 +3711,13 @@
 				"kinetic"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				"{@language Galactic Basic|sw5e-phb}",
@@ -3736,7 +3774,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Carnivorous Plant",
@@ -3780,10 +3819,10 @@
 				"fire"
 			],
 			"conditionImmune": [
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}",
-				"{@condition Prone|sw5e-phb|prone}"
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
 			],
 			"languages": [
 				""
@@ -3816,7 +3855,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Cliff Wampa",
@@ -3915,7 +3955,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Clodhopper",
@@ -3973,7 +4014,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Condor Dragon",
@@ -4057,7 +4099,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Cyborg Khagan",
@@ -4122,7 +4165,7 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}"
+				"poisoned"
 			],
 			"languages": [
 				"{@language Galactic Basic|sw5e-phb}",
@@ -4235,7 +4278,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Dark Lord Spirit",
@@ -4295,10 +4339,10 @@
 				"lightning"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}"
+				"deafened",
+				"frightened",
+				"poisoned",
+				"exhaustion"
 			],
 			"languages": [
 				"all",
@@ -4382,7 +4426,8 @@
 			"miscTags": [
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Dark Side Spirit",
@@ -4440,15 +4485,15 @@
 				"kinetic"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Grappled|sw5e-phb|grappled}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}"
+				"deafened",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"exhaustion"
 			],
 			"languages": [
 				"the languages it knew in life"
@@ -4488,7 +4533,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Death Trooper",
@@ -4620,7 +4666,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Destroyer Droid",
@@ -4671,8 +4718,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -4734,7 +4781,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Dewback, Adolescent",
@@ -4812,7 +4860,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Dewback, Adult",
@@ -4890,7 +4939,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "DF.9 Anti-Infantry Turret",
@@ -4941,8 +4991,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -5004,7 +5054,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Dianoga, Adolescent",
@@ -5088,7 +5139,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Dianoga, Adult",
@@ -5185,7 +5237,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Dragonsnake",
@@ -5270,7 +5323,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "DRK-1 Tracker Droid",
@@ -5321,8 +5375,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -5355,7 +5409,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "DSD1 Dwarf Spider Droid",
@@ -5407,8 +5462,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -5465,7 +5520,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "DUM-Series PIT Droid",
@@ -5513,8 +5569,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -5569,7 +5625,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Emperor's Hand",
@@ -5708,7 +5765,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Energy Spider",
@@ -5813,7 +5871,8 @@
 				"MW",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Eopie",
@@ -5860,7 +5919,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Ewok Pony",
@@ -5907,7 +5967,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Exogorth, Adolescent",
@@ -6019,7 +6080,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Exogorth, Adult",
@@ -6131,7 +6193,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Fambaa",
@@ -6205,7 +6268,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Fambaa Howdah",
@@ -6286,7 +6350,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Fathier",
@@ -6350,7 +6415,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Fexian Skullborer",
@@ -6398,7 +6464,7 @@
 				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}"
+				"poisoned"
 			],
 			"languages": [
 				""
@@ -6443,7 +6509,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Flesh Raider",
@@ -6496,7 +6563,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Flesh Raider Apprentice",
@@ -6574,7 +6642,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Flesh Raider Berserker",
@@ -6638,7 +6707,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Flutterplume",
@@ -6704,7 +6774,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Force Storm Eye",
@@ -6755,14 +6826,14 @@
 				"and kinetic from unenhanced weapons"
 			],
 			"conditionImmune": [
-				"{@condition Grappled|sw5e-phb|grappled}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}"
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"stunned",
+				"exhaustion"
 			],
 			"languages": [
 				""
@@ -6847,7 +6918,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Forest Nexu, Adult",
@@ -6949,7 +7021,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Fyrnock",
@@ -7032,7 +7105,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Gamorrean Guard",
@@ -7105,7 +7179,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Geejaw",
@@ -7164,7 +7239,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "GH-7 Medical Analysis Unit",
@@ -7209,8 +7285,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Galactic Basic|sw5e-phb}",
@@ -7256,7 +7332,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Ghest",
@@ -7348,7 +7425,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Giant Worrt",
@@ -7395,7 +7473,7 @@
 				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}"
+				"poisoned"
 			],
 			"languages": [
 				""
@@ -7428,7 +7506,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Gizka",
@@ -7495,7 +7574,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Gizka Swarm",
@@ -7535,13 +7615,13 @@
 				"{@sense Blindsight|sw5e-phb|blindsight} 120 feet (blind beyond this radius)"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				"�"
@@ -7574,7 +7654,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Gonk Droid",
@@ -7620,8 +7701,8 @@
 				"lightning"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -7651,7 +7732,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Gorax",
@@ -7761,7 +7843,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Grand Admiral",
@@ -7945,7 +8028,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Greysor",
@@ -8008,7 +8092,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Gundark, Adolescent",
@@ -8091,7 +8176,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Gundark, Adult",
@@ -8180,7 +8266,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Gundark, Alpha",
@@ -8272,7 +8359,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Gundark, Matriarch",
@@ -8372,7 +8460,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Gutkurr",
@@ -8446,7 +8535,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Hawk-bat",
@@ -8525,7 +8615,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Hawk-bat Swarm",
@@ -8570,13 +8661,13 @@
 				"{@sense Blindsight|sw5e-phb|blindsight} 60 ft."
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				"�"
@@ -8615,7 +8706,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Hidden Turret",
@@ -8666,8 +8758,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -8706,7 +8798,8 @@
 			"miscTags": [
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Hive Rat",
@@ -8751,7 +8844,7 @@
 				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}"
+				"poisoned"
 			],
 			"languages": [
 				"�"
@@ -8785,7 +8878,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "HK Series, HK-47",
@@ -8840,8 +8934,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -8933,7 +9027,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Horned Kath Hound",
@@ -9019,7 +9114,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Hrumph",
@@ -9080,7 +9176,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Hssiss",
@@ -9186,7 +9283,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Hutt Crime Lord",
@@ -9238,8 +9336,8 @@
 				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Prone|sw5e-phb|prone}"
+				"deafened",
+				"prone"
 			],
 			"languages": [
 				"{@language Huttese|sw5e-phb|Huttese}",
@@ -9358,7 +9456,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Hutt Wrestler",
@@ -9403,8 +9502,8 @@
 				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Prone|sw5e-phb|prone}"
+				"deafened",
+				"prone"
 			],
 			"languages": [
 				"{@language Huttese|sw5e-phb|Huttese}",
@@ -9454,7 +9553,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Hyena-Class Bomber",
@@ -9505,8 +9605,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -9581,7 +9681,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "ID9 Seeker Droid",
@@ -9627,8 +9728,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -9652,7 +9753,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Ig Series, Model 86",
@@ -9705,8 +9807,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -9751,7 +9853,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "IG Series, Model 88",
@@ -9810,8 +9913,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -9889,7 +9992,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "IG-100 Series",
@@ -9942,8 +10046,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -9991,7 +10095,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "IG-227 Hailfire-Class Droid",
@@ -10044,8 +10149,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -10099,7 +10204,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Imperial Guard Champion",
@@ -10146,7 +10252,7 @@
 				"wis": "+7"
 			},
 			"conditionImmune": [
-				"{@condition Frightened|sw5e-phb|frightened}"
+				"frightened"
 			],
 			"languages": [
 				"{@language Galactic Basic|sw5e-phb}"
@@ -10201,7 +10307,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Imperial Guard Sentinel",
@@ -10271,7 +10378,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Imperial Royal Guard",
@@ -10364,7 +10472,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Imperial Senate Guard",
@@ -10444,7 +10553,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Imperial Shadow Guard",
@@ -10522,7 +10632,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Inquisitor, Grand",
@@ -10637,7 +10748,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Inquisitor, Knight",
@@ -10732,7 +10844,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Inquisitor, Master",
@@ -10834,7 +10947,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "ISB Infiltrator",
@@ -10927,7 +11041,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "ISB Officer",
@@ -11007,7 +11122,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "IT-O Interrog. Unit",
@@ -11052,8 +11168,8 @@
 				"lightning"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -11078,7 +11194,8 @@
 			"miscTags": [
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Jakrab",
@@ -11136,7 +11253,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Jawa Scrapper",
@@ -11213,7 +11331,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Jawa Shaman",
@@ -11297,7 +11416,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Jawa Tinkerer",
@@ -11374,7 +11494,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "JK-13 Security Droid",
@@ -11489,7 +11610,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Jubba Bird",
@@ -11560,7 +11682,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Jundland Wastes Womp Rat",
@@ -11621,7 +11744,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Junk Behemoth",
@@ -11666,8 +11790,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -11712,7 +11836,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Junk Droid",
@@ -11757,8 +11882,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -11803,7 +11928,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "K'lor'slug",
@@ -11872,7 +11998,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Kaadu",
@@ -11931,7 +12058,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Katarn",
@@ -12006,7 +12134,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Kath Hound",
@@ -12077,7 +12206,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Knobby White Spider",
@@ -12123,8 +12253,8 @@
 				"fire"
 			],
 			"conditionImmune": [
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}"
+				"charmed",
+				"exhaustion"
 			],
 			"languages": [
 				"�"
@@ -12180,7 +12310,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Knobby White Spiderling",
@@ -12254,7 +12385,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Kolkpravis Baatar",
@@ -12347,7 +12479,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Kolkpravis Blackarm",
@@ -12443,7 +12576,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Kolkpravis Khagan",
@@ -12544,7 +12678,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Kolkpravis Khan",
@@ -12652,7 +12787,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Kolkpravis Tarkhan",
@@ -12750,7 +12886,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Kolkpravis Warrior",
@@ -12840,7 +12977,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Krayt Dragon, Adult",
@@ -12894,7 +13032,7 @@
 				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}"
+				"poisoned"
 			],
 			"languages": [
 				"�"
@@ -12972,7 +13110,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Krayt Dragon, Greater",
@@ -13090,7 +13229,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Krayt Dragon, Juvenile",
@@ -13174,7 +13314,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "KX-Series Security Droid",
@@ -13222,8 +13363,8 @@
 				"lightning"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Galactic Basic|sw5e-phb}",
@@ -13254,7 +13395,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "L0M Series",
@@ -13306,8 +13448,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"All registered languages"
@@ -13344,7 +13486,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "LR1K Sonic Cannon",
@@ -13392,8 +13535,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -13426,7 +13569,8 @@
 			"miscTags": [
 				"AOE",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Lylek",
@@ -13516,7 +13660,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Maalraas",
@@ -13604,7 +13749,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Manifestation of Abeloth",
@@ -13661,10 +13807,10 @@
 				"lightning"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}"
+				"deafened",
+				"frightened",
+				"poisoned",
+				"exhaustion"
 			],
 			"languages": [
 				"all",
@@ -13750,7 +13896,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Marksman-H Remote",
@@ -13801,8 +13948,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -13842,7 +13989,8 @@
 				"AOE",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Massiff",
@@ -13915,7 +14063,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Melee Destroyer Droid",
@@ -13966,8 +14115,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -14028,7 +14177,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Mistryl Apprentice",
@@ -14105,7 +14255,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Mistryl Master",
@@ -14207,7 +14358,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Mistryl Prime",
@@ -14322,7 +14474,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Mob",
@@ -14362,13 +14515,13 @@
 				"kinetic"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				"any one language (usually Basic)"
@@ -14402,7 +14555,8 @@
 				"AOE",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Mole Serpent, Adult",
@@ -14473,7 +14627,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Monkey-Lizard",
@@ -14533,7 +14688,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Monkey-Lizard Swarm",
@@ -14578,13 +14734,13 @@
 				"kinetic"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				"�"
@@ -14614,7 +14770,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Moof",
@@ -14678,7 +14835,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Mott",
@@ -14741,7 +14899,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Mucous Salamander",
@@ -14792,9 +14951,9 @@
 				"lightning in liquid form"
 			],
 			"conditionImmune": [
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Grappled|sw5e-phb|grappled}",
-				"{@condition Restrained in liquid form|sw5e-phb|restrained in liquid form}"
+				"prone",
+				"grappled",
+				"restrained"
 			],
 			"languages": [
 				"�"
@@ -14854,7 +15013,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Mynock",
@@ -14932,7 +15092,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Mynock Swarm",
@@ -14983,13 +15144,13 @@
 				"kinetic"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				""
@@ -15029,7 +15190,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Narglatch",
@@ -15122,7 +15284,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Navy Pilot",
@@ -15184,7 +15347,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Navy Trooper",
@@ -15251,7 +15415,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Nerf",
@@ -15325,7 +15490,8 @@
 				"MW",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "NR-N99 Persuader-Class Enforcer",
@@ -15378,8 +15544,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -15445,7 +15611,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Nuna",
@@ -15503,7 +15670,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Officer, Junior",
@@ -15582,7 +15750,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Officer, Senior",
@@ -15667,7 +15836,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Opee Sea Killer",
@@ -15742,7 +15912,8 @@
 				"MW",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Orbalisk",
@@ -15807,7 +15978,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Orbalisk Swarm",
@@ -15891,7 +16063,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Pelko Bug",
@@ -15959,7 +16132,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Pelko Bug Swarm",
@@ -16036,7 +16210,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Pistoeka sabotage droid",
@@ -16079,8 +16254,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -16123,7 +16298,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Porg",
@@ -16182,7 +16358,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Porg Swarm",
@@ -16227,13 +16404,13 @@
 				"kinetic"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				"�"
@@ -16263,7 +16440,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Probe Killer Swarm",
@@ -16317,8 +16495,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -16353,7 +16531,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Purge Trooper",
@@ -16461,7 +16640,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "R2 Series Astromech Droid",
@@ -16514,8 +16694,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"Speaks binary",
@@ -16556,7 +16736,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Rakghoul",
@@ -16629,7 +16810,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Rakghoul, Hulking",
@@ -16713,7 +16895,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Rancor, Adolescent",
@@ -16800,7 +16983,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Rancor, Adult",
@@ -16900,7 +17084,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Rancor, Ancient",
@@ -17043,7 +17228,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Rancor, Juvenile",
@@ -17115,7 +17301,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Rathtar",
@@ -17166,8 +17353,8 @@
 				"and kinetic from unenhanced weapons"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Prone|sw5e-phb|prone}"
+				"poisoned",
+				"prone"
 			],
 			"languages": [
 				"�"
@@ -17223,7 +17410,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Rathtar, Dwarf",
@@ -17272,8 +17460,8 @@
 				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Prone|sw5e-phb|prone}"
+				"poisoned",
+				"prone"
 			],
 			"languages": [
 				"�"
@@ -17329,7 +17517,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Reek, Adolescent",
@@ -17387,7 +17576,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Reek, Adult",
@@ -17445,7 +17635,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Riot",
@@ -17485,13 +17676,13 @@
 				"kinetic"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				"any one language (usually Basic)"
@@ -17531,7 +17722,8 @@
 				"AOE",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Rock Wart",
@@ -17591,7 +17783,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Ronto",
@@ -17661,7 +17854,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Sando Aqua Monster",
@@ -17722,9 +17916,9 @@
 				"and energy from unenhanced weapon attacks"
 			],
 			"conditionImmune": [
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Restrained|sw5e-phb|restrained}"
+				"frightened",
+				"paralyzed",
+				"restrained"
 			],
 			"languages": [
 				"�"
@@ -17840,7 +18034,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Sarlacc, Adult",
@@ -17895,12 +18090,12 @@
 				"and kinetic from unenhanced weapons"
 			],
 			"conditionImmune": [
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Grappled|sw5e-phb|grappled}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}"
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"exhaustion"
 			],
 			"languages": [
 				"�"
@@ -18003,7 +18198,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Scrange",
@@ -18100,7 +18296,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Scurrier",
@@ -18177,7 +18374,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "SD-K4 Assassin Droid",
@@ -18231,8 +18429,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -18308,7 +18506,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Shaak",
@@ -18358,7 +18557,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Shrub",
@@ -18401,10 +18601,10 @@
 				"fire"
 			],
 			"conditionImmune": [
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}",
-				"{@condition Prone|sw5e-phb|prone}"
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
 			],
 			"languages": [
 				""
@@ -18431,7 +18631,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Shyrack",
@@ -18495,7 +18696,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Shyrack Swarm",
@@ -18542,13 +18744,13 @@
 				"kinetic"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				""
@@ -18581,7 +18783,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Sibian Hound",
@@ -18650,7 +18853,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Sith Probe Droid",
@@ -18704,8 +18908,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -18744,7 +18948,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Sketto",
@@ -18798,7 +19003,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Snow Wampa",
@@ -18897,7 +19103,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Spotlight Sloth",
@@ -18980,7 +19187,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Starweird",
@@ -19038,15 +19246,15 @@
 				"and kinetic from unenhanced weapons"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Grappled|sw5e-phb|grappled}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}"
+				"deafened",
+				"frightened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"poisoned",
+				"prone",
+				"restrained",
+				"exhaustion"
 			],
 			"languages": [
 				"�"
@@ -19114,7 +19322,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Steelpecker",
@@ -19186,7 +19395,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Steep",
@@ -19265,7 +19475,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Stintaril",
@@ -19333,7 +19544,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Stintaril Swarm",
@@ -19377,13 +19589,13 @@
 				"kinetic"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				""
@@ -19416,7 +19628,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Super Tactical Droid",
@@ -19473,12 +19686,12 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Galactic Basic|sw5e-phb}",
@@ -19572,7 +19785,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Swamp Slug",
@@ -19628,8 +19842,8 @@
 				"and kinetic from unenhanced weapons"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Prone|sw5e-phb|prone}"
+				"poisoned",
+				"prone"
 			],
 			"languages": [
 				""
@@ -19686,7 +19900,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Swamp Wampa",
@@ -19771,7 +19986,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "T-Series Tactical Droid",
@@ -19831,8 +20047,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Galactic Basic|sw5e-phb}",
@@ -19877,7 +20093,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "T3-Series Utility Droid",
@@ -19923,8 +20140,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -19958,7 +20175,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Tauntaun",
@@ -20008,7 +20226,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Terentatek",
@@ -20113,7 +20332,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trandoshan Elite Warrior",
@@ -20237,7 +20457,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trandoshan Hunter",
@@ -20339,7 +20560,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trandoshan Huntmaster",
@@ -20464,7 +20686,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trandoshan T'doshok",
@@ -20638,7 +20861,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trandoshan Warrior",
@@ -20739,7 +20963,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Tree",
@@ -20785,10 +21010,10 @@
 				"fire"
 			],
 			"conditionImmune": [
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}",
-				"{@condition Prone|sw5e-phb|prone}"
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
 			],
 			"languages": [
 				""
@@ -20815,7 +21040,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trooper",
@@ -20882,7 +21108,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trooper, Captain",
@@ -20992,7 +21219,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trooper, Demolitions",
@@ -21071,7 +21299,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trooper, Flame",
@@ -21142,7 +21371,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trooper, Headhunter",
@@ -21226,7 +21456,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trooper, Heavy",
@@ -21297,7 +21528,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trooper, Jump",
@@ -21377,7 +21609,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trooper, Mounted",
@@ -21414,7 +21647,7 @@
 				"athletics": "+4"
 			},
 			"conditionImmune": [
-				"{@condition Exhaustion|sw5e-phb|exhaustion}"
+				"exhaustion"
 			],
 			"languages": [
 				"{@language Galactic Basic|sw5e-phb}",
@@ -21474,7 +21707,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trooper, Scout",
@@ -21566,7 +21800,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trooper, Shore",
@@ -21655,7 +21890,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trooper, Sniper",
@@ -21737,7 +21973,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Trooper, Squad",
@@ -21787,13 +22024,13 @@
 				"{@sense Darkvision|sw5e-phb|darkvision} 60 ft."
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Grappled|sw5e-phb|grappled}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"grappled",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				"{@language Galactic Basic|sw5e-phb}",
@@ -21847,7 +22084,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Tuk'ata",
@@ -21950,7 +22188,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Tusk Cat",
@@ -22026,7 +22265,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Tusken Brute",
@@ -22098,7 +22338,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Tusken Chieftain",
@@ -22191,7 +22432,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Tusken Raider",
@@ -22260,7 +22502,8 @@
 				"MW",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Twirrl",
@@ -22325,7 +22568,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "TX-225 Occupier Tank",
@@ -22379,16 +22623,16 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Incapacitated|sw5e-phb|incapacitated}",
-				"{@condition Stunned|sw5e-phb|stunned}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"frightened",
+				"petrified",
+				"restrained",
+				"incapacitated",
+				"stunned",
+				"prone",
+				"charmed",
+				"deafened",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -22453,7 +22697,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Uprising",
@@ -22493,13 +22738,13 @@
 				"kinetic"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				"any one language (usually Basic)"
@@ -22539,7 +22784,8 @@
 				"AOE",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Varactyl, Adolescent",
@@ -22595,7 +22841,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Varactyl, Adult",
@@ -22651,7 +22898,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Veermok",
@@ -22732,7 +22980,8 @@
 				"Multiattack",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Vessel of Abeloth",
@@ -22795,11 +23044,11 @@
 				"necrotic"
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"poisoned",
+				"exhaustion"
 			],
 			"languages": [
 				"all",
@@ -22880,7 +23129,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Vesuvague Tree",
@@ -22923,9 +23173,9 @@
 				"fire"
 			],
 			"conditionImmune": [
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}",
-				"{@condition Frightened|sw5e-phb|frightened}"
+				"charmed",
+				"exhaustion",
+				"frightened"
 			],
 			"languages": [
 				"{@language Galactic Basic|sw5e-phb}",
@@ -22958,7 +23208,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Vines",
@@ -22999,10 +23250,10 @@
 				"fire"
 			],
 			"conditionImmune": [
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}",
-				"{@condition Prone|sw5e-phb|prone}"
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"prone"
 			],
 			"languages": [
 				""
@@ -23035,7 +23286,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Viper Probe Droid",
@@ -23088,8 +23340,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -23129,7 +23381,8 @@
 				"AOE",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Vornskr",
@@ -23206,7 +23459,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Voxyn",
@@ -23253,7 +23507,7 @@
 				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}"
+				"poisoned"
 			],
 			"languages": [
 				"Yuuzhan Vong"
@@ -23277,7 +23531,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Vulptex",
@@ -23343,7 +23598,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Vulture-Class Droid",
@@ -23395,8 +23651,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -23459,7 +23715,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "War Wyrm",
@@ -23600,7 +23857,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Weaponized Gonk Droid",
@@ -23646,8 +23904,8 @@
 				"lightning"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"{@language Binary|sw5e-phb|Binary}",
@@ -23684,7 +23942,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Whisper Bird",
@@ -23749,7 +24008,8 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Woodoo",
@@ -23790,8 +24050,8 @@
 				"sonic"
 			],
 			"conditionImmune": [
-				"{@condition Exhaustion|sw5e-phb|exhaustion}",
-				"{@condition Poisoned|sw5e-phb|poisoned}"
+				"exhaustion",
+				"poisoned"
 			],
 			"languages": [
 				""
@@ -23837,7 +24097,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Wookiee Berserker",
@@ -23923,7 +24184,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Wookiee Engineer",
@@ -24018,7 +24280,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Wookiee Hunter",
@@ -24128,7 +24391,8 @@
 			],
 			"languageTags": [
 				"CB"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Worrt",
@@ -24175,7 +24439,7 @@
 				"{@item Poison|sw5e-phb|poison}"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}"
+				"poisoned"
 			],
 			"languages": [
 				""
@@ -24209,7 +24473,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Wraid",
@@ -24286,7 +24551,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Wyyyschokk",
@@ -24376,7 +24642,8 @@
 				"MW",
 				"RW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Ysalamir",
@@ -24439,7 +24706,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Ysalamiri Swarm",
@@ -24480,13 +24748,13 @@
 				"{@sense Darkvision|sw5e-phb|darkvision} 30 ft."
 			],
 			"conditionImmune": [
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Frightened|sw5e-phb|frightened}",
-				"{@condition Paralyzed|sw5e-phb|paralyzed}",
-				"{@condition Petrified|sw5e-phb|petrified}",
-				"{@condition Prone|sw5e-phb|prone}",
-				"{@condition Restrained|sw5e-phb|restrained}",
-				"{@condition Stunned|sw5e-phb|stunned}"
+				"deafened",
+				"frightened",
+				"paralyzed",
+				"petrified",
+				"prone",
+				"restrained",
+				"stunned"
 			],
 			"languages": [
 				"�"
@@ -24520,7 +24788,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Z-58 Series Security Droid",
@@ -24568,8 +24837,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				""
@@ -24615,7 +24884,8 @@
 				"AOE",
 				"MW",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "Zalaaca",
@@ -24699,7 +24969,8 @@
 				"MW",
 				"Multiattack",
 				"SW5e"
-			]
+			],
+			"hasFluff": true
 		},
 		{
 			"name": "3PO Series Protocol Droid",
@@ -24751,8 +25022,8 @@
 				"lightning"
 			],
 			"conditionImmune": [
-				"{@condition Diseased|sw5e-phb|diseased}",
-				"{@condition Poisoned|sw5e-phb}"
+				"diseased",
+				"poisoned"
 			],
 			"languages": [
 				"all registered languages"
@@ -24823,10 +25094,10 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Charmed|sw5e-phb|charmed}",
-				"{@condition Deafened|sw5e-phb|deafened}",
-				"{@condition Exhaustion|sw5e-phb|exhaustion}",
-				"{@condition Poisoned|sw5e-phb}"
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"poisoned"
 			],
 			"languages": [
 				""
