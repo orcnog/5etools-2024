@@ -230,7 +230,9 @@
 						]
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Consular",
@@ -460,7 +462,9 @@
 						]
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Engineer",
@@ -706,7 +710,9 @@
 						]
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Fighter",
@@ -994,7 +1000,9 @@
 						]
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Guardian",
@@ -1276,7 +1284,9 @@
 						]
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Monk",
@@ -1521,7 +1531,9 @@
 						]
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Operative",
@@ -1710,7 +1722,9 @@
 						]
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Scholar",
@@ -1973,7 +1987,9 @@
 						]
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Scout",
@@ -2263,7 +2279,9 @@
 						]
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Sentinel",
@@ -2548,7 +2566,9 @@
 						]
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	],
 	"subclass": [
@@ -14483,6 +14503,420 @@
 				"You've mastered controlling your forceblade with your mind, using it to keep your enemies at bay. As an action, you can telekinetically control your forceblade and have it strike any number of creatures within 10 feet of you, spending 1 force point per target. Each target must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your bonus to {@variantrule Attack Roll|sw5e-phb|weapon attack rolls} with that weapon). On a failed save, it takes damage using your Kinetic Combat die + half your sentinel level, is pushed back 10 feet and knocked {@condition Prone|sw5e-phb|prone}."
 			],
 			"header": 2
+		}
+	],
+	"classFluff": [
+		{
+			"name": "Berserker",
+			"source": "sw5e-phb",
+			"entries": [
+				"Melee combatant who utilizes rage to increase prowess",
+				"A massive wookiee hunter prowls through the forest, hefting his {@item Vibroaxe|sw5e-phb|vibroaxe}. With a roar he charges at the pair of trandoshans who dared poach his kin.",
+				"A gamorrean snarls at the latest challenger to his authority over their savage tribe, ready to break his neck with his bare hands as he did to the last six rivals.",
+				"Frothing at the mouth, a nikto slams his helmet into the face of his foe, then turns to drive his armored elbow into the gut of another.",
+				"These berserkers, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea. For every berserker, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.",
+				{
+					"type": "entries",
+					"name": "Primal Instinct",
+					"entries": [
+						"People of towns and cities take pride in how their civilized ways set them apart from animals, as if denying one's own nature was a mark of superiority. To a berserker, though, civilization is no virtue, but a sign of weakness. The strong embrace their animal nature keen instincts, primal physicality, and ferocious rage. Berserkers are uncomfortable when hedged in by walls and crowds. They thrive where the civilized don't.",
+						"Berserkers come alive in the chaos of combat. They can enter a berserk state where rage takes over, giving them superhuman strength and resilience. A berserker can draw on this reservoir of fury only a few times without resting, but those few rages are usually sufficient to defeat whatever threats arise."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "A Life of Danger",
+					"entries": [
+						"Not every person deemed \"berserkers\" by scions of civilized society has the berserker class. A true berserker among these people is as uncommon as a skilled fighter in a town, and he or she plays a similar role as a protector of the people and a leader in times of war. Life in the wild places of the world is fraught with peril: rival tribes, deadly weather, and terrifying monsters. Berserkers {@optfeature Charge|sw5e-phb|charge} headlong into that danger so that their people don't have to.",
+						"Their courage in the face of danger makes berserkers perfectly suited for adventuring. Wandering is often a way of life for their native tribes, and the rootless life of the adventurer is little hardship for a berserker. Some berserkers miss the close-knit family structures of the tribe, but eventually find them replaced by the bonds formed among the members of their adventuring parties."
+					]
+				},
+				"When creating a berserker character, think about where your character comes from and his or her place in the world. Talk with your GM about an appropriate origin for your berserker. Did you come from a remote planet, making you a stranger in the area of the campaign? Or is the campaign set in a rough-and-{@optfeature Tumble|sw5e-phb|tumble} frontier where berserkers are common?",
+				"What led you to take up the adventuring life? Were you lured to settled planets by the promise of riches? Did you join forces with soldiers of those lands to face a shared threat? Did monsters or an invading horde drive you out of your homeland, making you a rootless refugee? Perhaps you were a prisoner of war, brought in chains to \"civilized\" lands and only now able to win your freedom. Or you might have been cast out from your people because of a crime you committed, a taboo you violated, or a coup that removed you from a position of authority.",
+				"You can make a berserker quickly by following these suggestions. First, put your highest ability score in Strength, followed by Constitution. Second, choose the mercenary background."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/berserker_01.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Consular",
+			"source": "sw5e-phb",
+			"entries": [
+				"Force-wielder who focuses on utilizing {@book force powers|sw5e-phb|11|Force Powers}",
+				"A twi'lek in black robes steps on a terrified rodian, who  scampers away on the ground. Lightning sparks from his fingers, illuminating his red and black tattoos. The rodian's pleas for mercy fall on deaf ears as the Sith channels his lightning into his failed apprentice, leaving nothing but a charred husk behind.",
+				"Sitting cross-legged on a dense patch of grass, a miraluka mystic meditates on the Force. With every breath, the trees sway with a rhythmic breeze. Though she lacks simple vision, she can see the Force as it moves everything around her.",
+				"A drably-robed human focuses inward, channeling the Force into the ground around him. Slowly, all the debris within arms reach rises into the air around him; with a flick of his wrist, he clears the air, {@spell Sending|sw5e-phb|sending} his projectiles to pound on the approaching tank.",
+				"Consulars are the supreme wielders of the Force, defined and united by the powers they cast. Drawing on the omnipresent Force that permeates the universe, consulars cast powers of rejuvenating healing and destructive lightning, draining life-force and manipulating minds; the most powerful with the Force can even experience brief glimpses of the future.",
+				{
+					"type": "entries",
+					"name": "Strong with the Force",
+					"entries": [
+						"Refraining from drawing their lightsabers except as a measure of last resort, consulars spend a great deal of time studying the mysteries of the Force. Their knowledge allows them to channel the Force to greater heights, unlocking unrivaled power, and twisting those powers to greater effect."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sage or Sorcerer",
+					"entries": [
+						"Consulars who follow the light side of the Force, using their powers to better their communities and people, are often called sages, while consulars who fall to the dark side and subjugate or cast aside all in their path are commonly called sorcerers. Alternatively, they may tend toward the middle, refraining from politics and war, spending their time in isolation and study."
+					]
+				},
+				"While creating your consular, consider your personal philosophy in regards to the Force and its most famous practitioners — the Jedi and the Sith. Are you a member of one of the two orders, or do you walk a different path? Perhaps you were ostracized from your primitive village out of superstition or jealousy. You may have been brutally trained from a young age in the dark side, fueling your innate thirst for power, or perhaps you were trained as a padawan in one of the Jedi temples. How do you treat strangers, and how do they treat you once they know your abilities? What was your family like, or what did you have instead of a family? Do you see the Force as light and dark, or an impartial river of gray?",
+				"You can make a consular quickly by following these suggestions. First, make Wisdom or Charisma your highest ability score, followed by Dexterity. Second, choose the Jedi or Sith background."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/consular_01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/consular_02.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Engineer",
+			"source": "sw5e-phb",
+			"entries": [
+				"Tech caster who enhances items to benefit allies",
+				"Flinching occasionally as a {@filter blaster|items|firearm=true} bolt hits the nearby bulkhead, a Sullustan mechanic quickly solders a large wire. He peers through his tinted goggles, ignoring the shouts of his ship captain as the enemy descends on the hanger. Finally he shouts with pride as the repaired coupling powers up, causing the frigate to hum with energy. He gathers his tools and runs into the ship moments before it finally takes off.",
+				"Inside, the human captain jumps into the cockpit. She nods to her droid co-pilot, who quickly begins charting a course home. Before the calculations can be completed, enemy Starfighters scream in from the clouds. The pilot rolls the ship, nimbly evading incoming fire. She reroutes the power to {@item Shield|sw5e-phb|shields}, leaving just enough for astronavigation. Just as the energy reserves near depletion, the exosphere and stars beyond blur into streaks of light. In a flash, they warp to safety.",
+				"A Cerean officer surveys the battlefield, looking for weaknesses. When he identifies a potential problem, he keys in a quick combination in his {@item Wristpad|sw5e-phb|wristpad}. In a blink, a custom suit of armor assembles itself around him. As the helmet locks into place, the officer leaps into the air, flying overhead and raining destruction on the opposition.",
+				"Every machine needs an engineer to run it, and a living crew is no different. Engineers are the experts and professionals who rely on skill, bravery, and their tools to {@optfeature Survive|sw5e-phb|survive} and keep others alive. While they do not claim to be fighters, their mere presence can turn the tide of battle or simply keep operations running.",
+				{
+					"type": "entries",
+					"name": "Behind the Curtain",
+					"entries": [
+						"While perhaps not as intimidating as a heavily-armored trooper, or as exotic as a lighsaber-wielding guardian, engineers are no less vital to group dynamic. They are armorers and gunsmiths, electricians and welders, or any other facet to be found in facilities across the galaxy. Their work, often unsung, is what keeps starships (and their crew) intact."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unflappable",
+					"entries": [
+						"It takes bravery for a soldier to enter a battlefield. It perhaps takes more for someone who is unarmed, and untrained in combat, to do the same. Engineers put their lives on the line for a living, whether by choice or acknowledging their plights as an occupational hazard. Whether they come from an elite training academy or learned their talents surviving in the slums, they are no strangers to danger and conflict."
+					]
+				},
+				"While creating your engineer character, consider what your primary skill set is and how you use it. You could be a street-smart mechanic who taught yourself how to fix swoop bikes as a teenager. Perhaps you are the recent graduate of an esteemed medical college, or a rookie pilot in the fledgling Rebel Alliance. What is the number one skill you are known for? Why are you willing to enter battles when you have no combat training? How do you view the more adventurous members of your group, and how do they see you and your role?",
+				"You can make an engineer quickly by following these suggestions. First, make Intelligence your highest ability score. Your next-highest score should be Constitution. Second, choose the scientist background."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/engineer_01.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Fighter",
+			"source": "sw5e-phb",
+			"entries": [
+				"Versatile combatant who excels at both range and in melee",
+				"A Trandoshan runs frantically across rooftops, constantly looking over his shoulder. As he prepares to leap a gap, a {@filter blaster|items|firearm=true} bolt hits him in the back and renders him {@condition Unconscious|sw5e-phb|unconscious}. His blurry vision barely makes out the figure of a masked woman who casually approaches, ready to collect her bounty.",
+				"With his muscular arms held wide, a grizzled-looking Wookiee grins to his bloodthirsty crowd. He turns back to his arena opponent just in time to see the Besalisk take a swing. He ducks, punching the four-armed fighter in the gut. Two wild haymakers later, and he stands alone as the gladiatorial champion.",
+				"Taking a deep breath, a Republic soldier looks out onto the war zone waging across the frozen surface of Ilum. He grips his {@item Blaster rifle|sw5e-phb} tightly then, with a nod to the dozen squad-mates beside him, he charges onto the battlefield.",
+				"Fighters combine discipline with martial skills to become the best pure warriors in the galaxy. Fighters can be stalwart defenders of those in need, cruel marauders, or brave advent-urers. They fight for glory, honor, to right wrongs, to gain power, to acquire wealth, or simple for the thrill of battle.",
+				{
+					"type": "entries",
+					"name": "All in a Day's Work",
+					"entries": [
+						"Many fighters see adventures, raids on enemy strongholds, and dangerous missions as their jobs. Some want to defend those who can't defend themselves while others seek to use their muscle to carve their own place of importance in the galaxy. Fighters can take the form of guards, champions, bounty hunters, enforcers, mercenaries, freedom fighters, or simply armed explorers."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Code Red",
+					"entries": [
+						"Most fighters come to the profession after receiving at least some amount of formal training from a military organization. Some attend formal academies; others are self-taught and well tested. A fighter may have taken up his weapon to escape a mundane life while another may be following a proud family tradition. Whatever their origins, most fighters share an unshakeable loyalty. Fighters follow orders with little hesitation, as failure can often mean death."
+					]
+				},
+				"While creating your fighter character, consider where your loyalties lie. You could be part of a formal military, one of countless troopers fighting for your enterprise. Perhaps you are a gun-for-hire, traveling the galaxy in search of your next gig. What weapons do you prefer and specialize in? Who or what do you fight for? Do you have aspirations of a life beyond the battlefield, or have you been at war so long you know of nothing else?",
+				"You can make a fighter quickly by following these suggestions. First, make Strength or Dexterity your highest ability modifier, depending on whether you want to focus on melee combat or on ranged weapons (or finesse weapons). Your next-highest score should be Constitution. Second, choose the soldier background."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/fighter_01.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Guardian",
+			"source": "sw5e-phb",
+			"entries": [
+				"Force-wielder specializing in melee combat",
+				"A dark-skinned human quickly runs down a corridor, the metal armor under his grey cloak clanking with each step. He rounds the corner into the prison while the lights and power are still out, urging the {@condition Weakened|sw5e-phb|weakened} prisoners to escape. Just then a handful of slavers arrive and ready their {@filter blasters|items|firearm=true}. The man draws and ignites a white-bladed {@item Lightsaber|sw5e-phb|lightsaber}, ready to die for the strangers behind him.",
+				"A sith pureblood, clad head to toe in black and red armor, charges towards a line of soldiers. Shot after shot deflects off his armor until he reaches his prey, where he unleashes his fury in a series of devastating {@item Lightsaber|sw5e-phb|lightsaber} sweeps.",
+				"A zabrak general dramatically leaps to his soon-to-be overrun squad, landing with a flurry of {@item Lightsaber|sw5e-phb|lightsaber} attacks. At the arrival of this powerful Jedi, the attackers fall back.",
+				"Guardians are the master of the art of {@item Lightsaber|sw5e-phb|lightsaber} combat. They focus on utilizing the everpresent power of the Force to enable devastating attacks, often single-handedly turning the tide of battle.",
+				{
+					"type": "entries",
+					"name": "Protector or Destroyer",
+					"entries": [
+						"An unstoppable agent of the Force, the guardian channels the power flowing through him into his weapons. Their skills with a {@item Lightsaber|sw5e-phb|lightsaber} are unrivalled. Subduing their enemies and bolstering their allies, the guardian uses the Force to control what happens around them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Leaders",
+					"entries": [
+						"The guardian's command of the Force lends them a powerful presence. Whether through fear and intimidation or respect and admiration, the guardian is one of the greatest generals on the battlefield. They are a symbol of power to their followers."
+					]
+				},
+				"While creating your guardian, consider your attraction to the Force and its most famous practitioners — the Jedi and the Sith. Are you a member of one of the two orders, or do you walk a different path? Are you a soldier tapping into a latent Force-sensitivity? Were you trained in the force from a young age, or did you discover it as an adult? How do you treat those weaker than you? What was your family like? Do you see the Force as light and dark, or an impartial river of gray?",
+				"You can make a guardian quickly by following these suggestions. First, make Strength your highest ability score, followed by Constitution. Second, choose the Jedi or Sith background."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/guardian_01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/guardian_02.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Monk",
+			"source": "sw5e-phb",
+			"entries": [
+				"Unarmed combatant who uses focus to fuel abilities",
+				"Her {@item Vibrostaff|sw5e-phb|vibrostaff} a blur as they deflect an incoming hail of {@filter blaster|items|firearm=true} bolts, a human springs over a barricade and throws herself into the massed ranks of pirates on the other side. She whirls among them, knocking their blows aside and {@spell Sending|sw5e-phb|sending} them reeling, until at last she stands alone.",
+				"Taking a deep breath, a zabrak covered in tattoos settles into a battle stance. As the first charging mercenaries reach him, he exhales and a blast of negative energy courses from his hands, engulfing his foes.",
+				"Moving with the silence of the night, a black-clad mirialan steps into a shadow beneath an arch and nimbly climbs to the balcony a stone's throw above her. She slides her blade free of its cloth-wrapped scabbard and peers through the open window at the warlord, so vulnerable in the grip of sleep.",
+				"Whatever their discipline, monks are united in their ability to harness the energy that flows in their bodies. Whether channeled as a striking display of combat prowess or a subtler focus of defensive ability and {@variantrule Speed|sw5e-phb|speed}, this energy infuses all that a monk does.",
+				{
+					"type": "entries",
+					"name": "The Power of Focus",
+					"entries": [
+						"Monks make careful study of a mystical energy that most monastic orders call focus. This energy is an element of the power that suffuses the galaxy—specifically, the element that flows through living bodies. Monks harness this energy within themselves to create powerful effects and exceed their bodies' physical capabilities, and some of their special attacks can hinder the flow of focus in their opponents. Using this energy, monks channel uncanny {@variantrule Speed|sw5e-phb|speed} and strength into their {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes}. As they gain experience, their martial training and their mastery of focus gives them more power over their bodies and the bodies of their foes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Training and Asceticism",
+					"entries": [
+						"Most monks live entirely apart from the surrounding population, secluded from anything that might impede their spiritual progress. Others are sworn to isolation, emerging only to serve as spies or assassins at the command of their leader, a noble patron, or some other power.",
+						"The majority of monks don't shun their neighbors, making frequent visits to nearby towns or villages and exchanging their service for food and other goods. As versatile warriors, monks often end up protecting their neighbors from monsters or brigands.",
+						"For a monk, becoming an adventurer means leaving a structured, communal lifestyle to become a wanderer. This can be a harsh transition, and monks don't undertake it lightly. Those who leave their cloisters take their work seriously, approaching their adventures as personal tests of their physical and spiritual growth."
+					]
+				},
+				"As you make your monk character, think about your connection to the monastery where you learned your skills and spent your formative years. Were you an orphan or a child left on the monastery's threshold? Did your parents promise you to the monastery in gratitude for a service performed by the monks? Did you enter this secluded life to hide from a crime you committed? Or did you choose the monastic life for yourself?",
+				"Consider why you left. Did the head of your monastery choose you for a particularly important mission beyond the cloister? Perhaps you were cast out because of some violation of the community's rules. Did you dread leaving, or were you happy to go? Is there something you hope to accomplish outside the monastery? Are you eager to return to your home?",
+				"As a result of the structured life of a monastic community and the discipline required to harness focus, monks are typically lawful in alignment.",
+				"You can make a monk quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. Second, choose the agent background."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/monk_01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/monk_02.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Operative",
+			"source": "sw5e-phb",
+			"entries": [
+				"Controller who focuses on stealth and techniques",
+				"A Bothan spy takes a moment to adjust her infrared goggles. Nimbly sidestepping the laser grid in the room, she slips to the computer at the far end. Counting down the seconds in her head, she slices the mainframe. Twenty seconds. Ten seconds. A handful of soldiers bursts into the room, but she is already gone — with the data in hand.",
+				"With a wary eye on the door, a scruffy-looking Duros plays pazaak in a seedy cantina. When two city guards appear at the exit, he smiles and reaches under the table. Before they can move in, the smuggler flips the table and opens fire. The crowd scatters in panic, giving him just enough {@variantrule Cover|sw5e-phb|cover} to escape.",
+				"A gorgeous young human dances before an intoxicated senator in his parlor. She winks enticingly through her golden blonde hair as she sways closer. Leaning in for a kiss, the senator is instead surprised by the barrel of a {@item Hold-out|sw5e-phb} {@item Blaster pistol|sw5e-phb} shoved into his mouth. He has no time to shout before the assassin pulls the trigger.",
+				"Operatives, whether good, bad, or neutral, are those who focus on a specific practice and utilize it to get the upper hand. They can come from any world or region in the galaxy, with origins from the lowliest scoundrel to the once social elite.",
+				{
+					"type": "entries",
+					"name": "Evading Danger",
+					"entries": [
+						"Operatives have a knack for getting out of trouble. They have an instinct for {@optfeature Self-Preservation|sw5e-phb|self-preservation} that keeps them alive, but it's usually tempered with a need to experience the thrills that their profession has to offer, and many adventurous operatives are also saddled with a sense of honor that sometimes makes them go against their natural inclinations. No matter what their immediate concerns may be, survival is the name of the game."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Outside the Law",
+					"entries": [
+						"Operatives don't often start out seeking to defy authority and break the law. Some are thrust into the profession as a means of rebellion. Others wind up on the wrong side of the law due to bad luck, poor decisions, or circumstances beyond their control. The skills they pick up along the way make them great members of any mission team."
+					]
+				},
+				"While creating your operative character, consider how you first started on your path. Maybe you were raised on the street and fell into the criminal element as a means of survival. You could be a simple trader who decided to strike against the Sith Empire when it encroached on your business. What would you say is your greatest skill set? What is your core, the truest essence about yourself that keeps you focused? Why would society treat you as a criminal, yet your allies hold you as a loyal companion?",
+				"You can make an operative quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Intelligence or Charisma. Second, choose the gambler background."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/operative_01.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Scholar",
+			"source": "sw5e-phb",
+			"entries": [
+				"Academic who uses wits and allies to control the battlefield",
+				"An overwhelming horde of tusken raiders bears down on a chiss and her fellow adventurers. She gives the order and her allies unleash a single coordinated attack cutting deep into their lines. Under her command the enemy is quickly routed against all odds, all according to plan.",
+				"Deep within the once thought abandoned ruins, a nautolan tends to his companions wounds as they rest. Countless long nights of study and training have conditioned him to keep going even when all others have exhausted themselves. He will see them through this.",
+				"A twi'lek in fine vestments addresses a gathering crowd. What was the making of an angry mob begins to disperse, his mere presence putting them at ease, giving his companions time to make their escape.",
+				"Scholars are master of the mundane arts, using methodical practices to turn the tables to their {@variantrule Advantage|sw5e-phb|advantage}. From years of study and testing, scholars take in the situation around them and quickly formulate the means to achieve whatever they have minds set to. Whatever pursuit they follow, a scholar will have a plan for anything that comes their way.",
+				{
+					"type": "entries",
+					"name": "The Pursuit of Knowledge",
+					"entries": [
+						"A true scholar is never satisfied. They are always seeking out a new answer to a new question. This often goes hand-in-hand with seeking a life of adventure, to explore new, hidden areas, or accompany those that do. The life of a scholar often times begins in the mundane, as a teacher or sage. Sometimes they serve as doctors, diplomats, or as officers in the military."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "To Learn, To Know",
+					"entries": [
+						"For scholars, mundane life is often too slow. When life becomes stagnant or when an answer cannot be found, the call to adventure rings louder. Scholars will often go to ancient, forgotten, and often dangerous places to find something to quench their thirst for knowledge."
+					]
+				},
+				"As you create a scholar, it's important to think of where you gained your knowledge. Did you serve as an apprentice under a master? Did you attend college or other formal education? Perhaps you gained it on your own, searching out and pouring over dusty tomes found in forgotten places. Where did your thirst for knowledge come from? Insatiable curiosity? Always wanting to know the right answer? Or do you have something to prove? Think about what field you wish to pursue and think of what is driving you in that direction.",
+				"You can make a scholar quickly by following these suggestions. First, make Intelligence your highest ability score. Your next-highest score should be Dexterity. Second, choose the noble background."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/scholar_01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/scholar_02.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Scout",
+			"source": "sw5e-phb",
+			"entries": [
+				"Versatile combatant who blends {@book tech powers|sw5e-phb|12|Tech Powers} with weapons",
+				"Rough and grizzled looking, a human stalks alone through the shadows of trees, hunting the quarry he knows is planning a raid on a nearby settlement. Clutching a {@item Techblade|sw5e-phb} in each hand, he becomes a {@spell Whirlwind|sw5e-phb|whirlwind} of steel, cutting down one enemy after another.",
+				"After tumbling away from the shrapnel of a missile's {@spell Explosion|sw5e-phb|explosion}, a bothan finds her feet and quick-fires two shots from her carbine at the oncoming tank. Shrugging off the wave of fear that threatens to permeate her entire being, she strafes around her foe, firing shot after shot to try to penetrate the tank's thick armor.",
+				"Glancing at his {@item Wristpad|sw5e-phb|wristpad}, a sullustan looks through the eyes of his tracker droid. Transmitting instructions, he sends his droid to distract the houk he's been tracking while he readies his {@item Sniper rifle|sw5e-phb|sniper rifle} for the shot.",
+				"Scouts are the first on the trail and the last to lose it, tracking their quarry for miles unimpeded. They are adaptable, wielding both {@book tech powers|sw5e-phb|12|Tech Powers} and their weaponry to overcome their foes.",
+				{
+					"type": "entries",
+					"name": "Deadly Hunters",
+					"entries": [
+						"Warriors in their own right, scouts specialize in tracking and hunting the monsters that {@optfeature Threaten|sw5e-phb|threaten} civilization—humanoid raiders, rampaging beasts and monstrosities, terrible Force-wielders, and renegade droids. They learn to track their quarry as a predator does, moving stealthily through any terrain and hiding themselves in brush and rubble. Scouts focus their combat training on techniques that are particularly useful against their specific favored foes.",
+						"Scouts acquire the ability to cast {@book tech powers|sw5e-phb|12|Tech Powers} through utilization of a {@item Wristpad|sw5e-phb|wristpad}. Their powers, like their combat abilities, emphasize {@variantrule Speed|sw5e-phb|speed}, stealth, and the hunt. A scout's talents and abilities are honed with deadly focus on the grim task of protecting the civilization."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Independent Adventurers",
+					"entries": [
+						"Though a scout might make a living as a bounty hunter, a guide, or a tracker, a scout's true calling is to defend civilization from the ravages of monsters and humanoid hordes that press in. In some places, scouts gather in secretive orders, though many scouts are independent almost to a fault, knowing that, when a rancor or a band of pirates attacks, a scout might be the first—and possibly the last—line of defense. This fierce independence makes scouts well suited to adventuring, since they are accustomed to life far from the comforts of a dry bed and a hot bath. Faced with city-bred adventurers who grouse and whine about the hardships of the wild, scouts respond with some mixture of amusement, frustration, and compassion. But they quickly learn that other adventurers who can carry their own weight in a fight against civilization's foes are worth any extra burden. Coddled city folk might not know how to feed themselves or find fresh water in the wild, but they make up for it in other ways."
+					]
+				},
+				"As you create your scout character, consider the nature of the training that gave you your particular capabilities. Did you train with a single mentor, tracking together until you mastered the scout's ways? Did you leave your apprenticeship, or was your mentor slain—perhaps by some kind of bestial monstrosity on which you've sworn revenge? Or perhaps you learned your skills as part of a band of mercenaries.",
+				"What's the source of your particular hatred of a certain kind of enemy? Did a monster kill someone you loved or destroy your home village? Or did you see too much of the destruction these monsters cause and commit yourself to reining in their depredations? Is your adventuring career a continuation of your work, or a significant change?",
+				"What made you join up with a band of adventurers? Do you find it challenging to teach new allies the ways of the wild, or do you welcome the relief from solitude that they offer?",
+				"You can make a scout quickly by following these suggestions. First, make Strength or Dexterity your highest ability modifier, depending on whether you want to focus on melee combat or on ranged weapons (or finesse weapons). Your next-highest score should be Intelligence. Second, choose the bounty hunter background."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/scout_01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/scout_02.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Sentinel",
+			"source": "sw5e-phb",
+			"entries": [
+				"Force-wielder who blends melee combat with the Force",
+				"Clad in black robes, the rattataki pulls his hood forward and steps into the shadowy alcove, only to reappear further down the hall. As his quarry walks past, he presses the hilt of his {@item Lightsaber|sw5e-phb|lightsaber} to the back of their head, quickly toggling it on-and-off. He is gone before the corpse hits the ground.",
+				"The togruta dashes across the battlefield, {@item Doublesaber|sw5e-phb|doublesaber} deflecting {@filter blaster|items|firearm=true} shots to the ground. She pulls her wounded padawan to her feet, and guides her away from the warzone.",
+				"Green-bladed {@item Lightsaber|sw5e-phb|lightsaber} a blur, the cathar ferociously presses the attack. With each strike, she guides her opponent closer to the ravine's edge. A flurry of blows followed by a quick {@i force push} and her foe tumbles over the edge.",
+				"Sentinels are the masters of blending {@book force powers|sw5e-phb|11|Force Powers} with weapon attacks. They weave the two together so expertly that their foes have trouble predicting them.",
+				{
+					"type": "entries",
+					"name": "The Middle of the Road",
+					"entries": [
+						"The sentinel uses stealth and subterfuge to accomplish the {@spell Will of the Force|sw5e-phb|will of the Force}. Where the consular focuses on mastery of the Force and the guardian focuses on the mastery of the {@item Lightsaber|sw5e-phb|lightsaber}, the sentinel focuses on merging the two."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Solitary Action",
+					"entries": [
+						"Sentinels are notoriously independent, most comfortable acting alone and without backup; where some use a team to make up for their weaknesses, the sentinel uses the Force to overcome theirs. While some take this independent streak to the extreme, they are usually accepting of authority, as long as they are allowed to carry out directions using their preferred methods."
+					]
+				},
+				"While creating your sentinel, consider your personal philosophy in regards to the Force and its most famous practitioners — the Jedi and the Sith.  Are you a member of one of the two orders, or do you walk a different path? Are you an operative tapping into a latent Force-sensitivity? Were you trained in the force from a young age, or did you discover it as an adult? How do you treat those weaker than you? What was your family like? Do you see the Force as light and dark, or an impartial river of gray?",
+				"You can make a sentinel quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom or Charisma. Second, choose the Jedi or Sith background."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/sentinel_01.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://starwars5ecentral.blob.core.windows.net/site-images/classes/sentinel_02.png"
+					}
+				}
+			]
 		}
 	]
 }

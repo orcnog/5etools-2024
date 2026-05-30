@@ -1,4 +1,647 @@
 {
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-phb",
+				"abbreviation": "PHB",
+				"full": "SW5e: Player's Handbook",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
+				"color": "#aa0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		],
+		"dateAdded": 1657936771,
+		"dateLastModified": 1780155932,
+		"skills": {
+			"Piloting": [
+				"Your Intelligence ({@skill Piloting|sw5e-phb}) check measures your ability to control vehicles, aircraft, and spaceships. {@skill Piloting|sw5e-phb} governs your ability to {@book maneuver|sw5e-phb|13|Maneuvers} through tight spaces and debris fields or dogfight with enemy craft.",
+				"{@homebrew A DnD5e character can count any proficiency in {@skill Vehicles (Land)} or {@skill Vehicles (Water)} as having proficiency in the {@skill Piloting|sw5e-phb} skill.}"
+			],
+			"Technology": [
+				"Your Intelligence ({@skill Technology|sw5e-phb}) checks measure your ability to recall information about droids, vehicles, spaceships, aircraft, and computers, as well as your ability to interface with them. {@skill Technology|sw5e-phb} can also be used to stabilize a droid or construct.",
+				"{@homebrew A DnD5e character should replace their {@skill Arcana} skill with the {@skill Technology|sw5e-phb} skill when determining proficiency.}"
+			],
+			"Lore": [
+				"Your Intelligence ({@skill Lore|sw5e-phb}) check measures your ability to recall information about the Force, artifacts, histories, and religions.",
+				"{@homebrew A DnD5e character should replace their {@skill History} and/or {@skill Religion} skills with the {@skill Lore|sw5e-phb} skill when determining proficiencies.}"
+			],
+			"Biochemist's Kit": [
+				"A {@item Biochemist's Kit|sw5e-phb} includes all of the necessary components to create and house standard adrenals, medpacs, and stimpacs.",
+				{
+					"type": "list",
+					"items": [
+						"{@b {@skill Investigation|sw5e-phb}}. Proficiency with a {@item Biochemist's kit|sw5e-phb|biochemist's kit} allows you to unlock more information on {@skill Investigation|sw5e-phb} checks involving adrenals, medpacs, and stimpacs",
+						"{@b {@skill Perception|sw5e-phb}}. When you inspect an area for clues, proficiency with {@item Biochemist's kit|sw5e-phb|biochemist's kit} grants additional insight into any chemicals or other substances that might have been used in the area."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Medpac Improvement",
+					"entries": [
+						"Over the course of a short or {@variantrule Long Rest|sw5e-phb|long rest}, you can make a DC 15 {@item Biochemist's kit|sw5e-phb|biochemist's kit} check to temporarily improve the potency of one {@item medpac|sw5e-phb}. To use this benefit, you must have a {@item Biochemist's kit|sw5e-phb|biochemist's kit} with you, and the {@item Medpac|sw5e-phb|medpac} must be within reach. If the {@item Medpac|sw5e-phb|medpac} is consumed before the end of your next short or {@variantrule Long Rest|sw5e-phb|long rest}, when a creature uses this {@item Medpac|sw5e-phb|medpac}, they take the maximum instead of rolling."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Sample Activities",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-6 text-left",
+						"col-2 text-left"
+					],
+					"rows": [
+						[
+							"Create a {@item traumakit|sw5e-phb}",
+							"10"
+						],
+						[
+							"Identify a chemical",
+							"10"
+						],
+						[
+							"Create a {@item medpac|sw5e-phb}",
+							"15"
+						],
+						[
+							"Create an {@item antitoxkit|sw5e-phb}",
+							"20"
+						]
+					]
+				},
+				"{@homebrew A DnD5e character should replace their {@skill Herbalism Kit} skill proficiency with a {@item Biochemist's kit|sw5e-phb|Biochemist's Kit} skill proficiency.}"
+			],
+			"Demolitions Kit": [
+				"A {@item Demolitions Kit|sw5e-phb} includes all of the necessary components to create, set, and disarm explosives. It contains a plastic face guard and heavy duty gloves, as well as precision cutting and gripping tools, and various common components of grenades and mines.",
+				{
+					"type": "list",
+					"items": [
+						"{@b {@skill Lore|sw5e-phb}}. Your knowledge of explosives grants you insight when answering questions about the most effective explosives for a given task.",
+						"{@b {@skill Investigation|sw5e-phb} and {@skill Perception|sw5e-phb}}. You gain additional insight when looking for mines and charges, because you have learned a variety of common signs that betray their presence."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amplify Explosive",
+					"entries": [
+						"Over the course of a short or {@variantrule Long Rest|sw5e-phb|long rest}, you can make a DC 15 {@item Demolitions kit|sw5e-phb|demolitions kit} check to temporarily improve one grenade or mine. To use this benefit, you must have a {@item Demolitions kit|sw5e-phb|demolitions kit} with you, and the object must be within reach. If the explosive is detonated before the end of your next short or {@variantrule Long Rest|sw5e-phb|long rest}, it deals bonus damage. This bonus is a die, with a maximum value equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you have {@variantrule Expertise|sw5e-phb|expertise} in the tool, this die's maximum is instead equal to twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Sample Activities",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-6 text-left",
+						"col-2 text-left"
+					],
+					"rows": [
+						[
+							"{@optfeature Conceal|sw5e-phb} an explosive",
+							"15"
+						],
+						[
+							"Disarm a mine",
+							"Varies"
+						]
+					]
+				},
+				"{@homebrew A DnD5e character should replace their {@skill Alchemist's Supplies} skill proficiency with the {@item Demolitions kit|sw5e-phb|Demolitions Kit} skill proficiency.}"
+			],
+			"Mechanic's Kit": [
+				"A {@item Mechanic's Kit|sw5e-phb} contains all of the commonly required tools to make repairs on constructs, such as ships, speeders, and turrets. Proficiency with this kit lets you add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to any {@variantrule Ability Check|sw5e-phb|ability checks} you make to perform repairs or install ship upgrades.",
+				{
+					"type": "list",
+					"items": [
+						"{@b {@skill Lore|sw5e-phb}}. Your skill allows you to more readily discern the make and model of vehicle and ship parts.",
+						"{@b {@skill Investigation|sw5e-phb}}. Your experience lets you more readily identify aftermarket modifications in vehicles and ships.",
+						"{@b {@skill Technology|sw5e-phb}}. Your experience grants you greater insight when conducting repairs on ships or vehicles."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Quick Fixer",
+					"entries": [
+						"When you are interrupted while you are conducting repairs on a vehicle or ship, reduce the required time by half as long as you are present during the entirety of the repairs."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Sample Activities",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-6 text-left",
+						"col-2 text-left"
+					],
+					"rows": [
+						[
+							"Restoring power to a damaged vehicle",
+							"15"
+						],
+						[
+							"Disassembling a vehicle's engine",
+							"20"
+						]
+					]
+				},
+				"{@homebrew A DnD5e character should replace their {@skill Tinker's Tools} skill proficiency with the {@item Mechanic's kit|sw5e-phb|Mechanic's Kit} skill proficiency.}"
+			],
+			"Munitions Kit": [
+				"A {@item Munitions Kit|sw5e-phb} contains the necessary tools to create ammunition for {@filter blasters|items|firearm=true}, as well as devices to hone {@filter lightweapons|items|type=martial weapon|category=lightweapon} and {@filter vibroweapons|items|type=martial weapon}.",
+				{
+					"type": "entries",
+					"name": "Hone Weapon",
+					"entries": [
+						"Over the course of a short or {@variantrule Long Rest|sw5e-phb|long rest}, you can make a DC 15 munitions kit check to temporarily improve a {@filter blaster|items|firearm=true} or {@filter vibroweapon|items|type=martial weapon}. To use this benefit, you must have munitions kit with you, and the object must be within reach. On a success, once before your next short or {@variantrule Long Rest|sw5e-phb|long rest}, a character wielding this weapon can gain a bonus to one weapon damage roll. This bonus is a die, with a maximum value equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you have {@variantrule Expertise|sw5e-phb|expertise} in the tool, this die's maximum is instead equal to twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
+					]
+				},
+				"{@homebrew A DnD5e character should replace their {@skill Smith's Tools} skill proficiency with the Munitions Kit skill proficiency.}"
+			],
+			"Security Kit": [
+				"A {@item Security Kit|sw5e-phb} includes all of the necessary components to set or disarm locks and traps.",
+				{
+					"type": "list",
+					"items": [
+						"{@b {@skill Lore|sw5e-phb}}. Your knowledge of traps grants you insight when answering questions about locations that are renowned for their traps.",
+						"{@b {@skill Investigation|sw5e-phb} and {@skill Perception|sw5e-phb}}. You gain additional insight when looking for traps, because you have learned a variety of common signs that betray their presence."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Set a Trap",
+					"entries": [
+						"Just as you can disable traps, you can also set them. As part of a {@variantrule Short Rest|sw5e-phb|short rest}, you can create a trap using items you have on hand. The total of your check becomes the DC for someone else's attempt to discover or disable the trap. The trap deals damage appropriate to the materials used in crafting it (such as {@item Poison|sw5e-phb|poison} or a weapon) or damage equal to half the total of your check, whichever the DM deems appropriate."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Sample Activities",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-6 text-left",
+						"col-2 text-left"
+					],
+					"rows": [
+						[
+							"Pick a moderate lock",
+							"15"
+						],
+						[
+							"Disable a trap",
+							"Varies"
+						]
+					]
+				},
+				"{@homebrew A DnD5e character should consider replacing their proficiency with {@skill Thieves' Tools} with a proficiency with either a {@item Security kit|sw5e-phb}, {@item Slicer's Kit|sw5e-phb}, or {@item Trapper's Kit|sw5e-phb}.}"
+			],
+			"Slicer's Kit": [
+				"A {@item Slicer's Kit|sw5e-phb} includes all of the necessary components to interface with and disarm digital securities.",
+				{
+					"type": "list",
+					"items": [
+						"{@b {@skill Lore|sw5e-phb}}. Your knowledge of digital securities grants you insight when answering questions about them.",
+						"{@b {@skill Investigation|sw5e-phb}}. You gain additional insight when looking for digital securities when using computers and terminals.",
+						"{@b {@skill Technology|sw5e-phb}}. Your knowledge of common digital security types makes it easier for you to identify them."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Sample Activities",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-6 text-left",
+						"col-2 text-left"
+					],
+					"rows": [
+						[
+							"Identify a hidden security routine",
+							"15"
+						],
+						[
+							"Reprogram a security routine",
+							"20"
+						]
+					]
+				},
+				"{@homebrew A DnD5e character should consider replacing their proficiency with {@skill Thieves' Tools} with a proficiency with either a {@item Security kit|sw5e-phb}, {@item Slicer's Kit|sw5e-phb}, or {@item Trapper's Kit|sw5e-phb}.}"
+			],
+			"Trapper's Kit": [
+				"A {@item Trapper's Kit|sw5e-phb} includes all of the necessary components to create, disarm, and disassemble traps.",
+				"{@homebrew A DnD5e character should consider replacing their proficiency with {@skill Thieves' Tools} with a proficiency with either a {@item Security kit|sw5e-phb}, {@item Slicer's Kit|sw5e-phb}, or {@item Trapper's Kit|sw5e-phb}.}"
+			],
+			"Athletics": [
+				"Your Strength ({@skill Athletics|sw5e-phb}) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:"
+			],
+			"Acrobatics": [
+				"Your Dexterity ({@skill Acrobatics|sw5e-phb}) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking spaceship's deck. The GM might also call for a Dexterity ({@skill Acrobatics|sw5e-phb}) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips."
+			],
+			"Sleight of Hand": [
+				"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check. The GM might also call for a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check to determine whether you can lift a wallet off another person or slip something out of another person's pocket."
+			],
+			"Stealth": [
+				"Make a Dexterity ({@skill Stealth|sw5e-phb}) check when you attempt to {@optfeature Conceal|sw5e-phb|conceal} yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
+			],
+			"Investigation": [
+				"When you look around for clues and make deductions based on those clues, you make an Intelligence ({@skill Investigation|sw5e-phb}) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient materials in search of a hidden fragment of knowledge might also call for an Intelligence ({@skill Investigation|sw5e-phb}) check."
+			],
+			"Nature": [
+				"Your Intelligence ({@skill Nature|sw5e-phb}) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles."
+			],
+			"Animal Handling": [
+				"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom ({@skill Animal Handling|sw5e-phb}) check. You also make a Wisdom ({@skill Animal Handling|sw5e-phb}) check to control your mount when you attempt a risky {@book maneuver|sw5e-phb|13|Maneuvers}."
+			],
+			"Insight": [
+				"Your Wisdom ({@skill Insight|sw5e-phb}) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
+			],
+			"Medicine": [
+				"A Wisdom ({@skill Medicine|sw5e-phb}) check lets you try to stabilize a dying companion or diagnose an illness."
+			],
+			"Perception": [
+				"Your Wisdom ({@skill Perception|sw5e-phb}) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door."
+			],
+			"Survival": [
+				"The GM might ask you to make a Wisdom ({@skill Survival|sw5e-phb}) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that rancors live nearby, predict the weather, or avoid quicksand and other natural hazards."
+			],
+			"Deception": [
+				"Your Charisma ({@skill Deception|sw5e-phb}) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
+			],
+			"Intimidation": [
+				"When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma ({@skill Intimidation|sw5e-phb}) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken {@item Bottle|sw5e-phb|bottle} to convince a sneering vizier to reconsider a decision."
+			],
+			"Performance": [
+				"Your Charisma ({@skill Performance|sw5e-phb}) check determines how well you can delight an audience with music, dance. acting, storytelling, or some other form of entertainment."
+			],
+			"Persuasion": [
+				"When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma ({@skill Persuasion|sw5e-phb}) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a Chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk."
+			]
+		},
+		"spellSchools": {
+			"LT": {
+				"full": "Light",
+				"short": "Lght.",
+				"color": "2c90dd"
+			},
+			"DK": {
+				"full": "Dark",
+				"short": "Drk.",
+				"color": "#940000"
+			},
+			"UV": {
+				"full": "Universal",
+				"short": "Univ.",
+				"color": "d29a38"
+			},
+			"TP": {
+				"full": "Tech Power",
+				"short": "Tch.",
+				"color": "008e2f"
+			}
+		},
+		"currencyConversions": {
+			"Credits": [
+				{
+					"coin": "cr",
+					"mult": 0.1,
+					"isFallback": true
+				}
+			]
+		},
+		"optionalFeatureTypes": {
+			"MV:B": "{@book maneuver|sw5e-phb|13|Maneuvers}",
+			"FS": "Fighting Style",
+			"FM": "Fighting Mastery",
+			"LSF": "{@item Lightsaber|sw5e-phb} Form"
+		},
+		"internalCopies": [
+			"subclass"
+		]
+	},
+	"book": [
+		{
+			"name": "SW5e: Player's Handbook",
+			"id": "sw5e-phb",
+			"source": "sw5e-phb",
+			"group": "homebrew",
+			"published": "2022-01-01",
+			"author": "SW5e Community",
+			"contents": [
+				{
+					"name": "Introduction",
+					"headers": [
+						"What's Different",
+						"Using This Book",
+						"How to Play",
+						"Specific Beats General",
+						"The Three Pillars of Adventuring"
+					]
+				},
+				{
+					"name": "Chapter 1: Step-by-Step Characters",
+					"headers": [
+						"Choose a Species",
+						"Choose a Class",
+						"Determine Ability Scores",
+						"Describe Your Character",
+						"Choose Equipment",
+						"Come Together"
+					]
+				},
+				{
+					"name": "Chapter 2: Species",
+					"headers": [
+						"Choosing a Species",
+						"Special Traits",
+						{
+							"depth": 1,
+							"header": "Ability Score Increase"
+						},
+						{
+							"depth": 1,
+							"header": "Age"
+						},
+						{
+							"depth": 1,
+							"header": "Alignment"
+						},
+						{
+							"depth": 1,
+							"header": "Size"
+						},
+						{
+							"depth": 1,
+							"header": "Speed"
+						},
+						{
+							"depth": 1,
+							"header": "Languages"
+						},
+						"Species"
+					]
+				},
+				{
+					"name": "Chapter 3: Classes",
+					"headers": [
+						"Classes"
+					]
+				},
+				{
+					"name": "Chapter 4: Backgrounds",
+					"headers": [
+						"Character Details",
+						{
+							"depth": 1,
+							"header": "Height and Weight"
+						},
+						{
+							"depth": 1,
+							"header": "Languages"
+						},
+						"Inspiration",
+						"Backgrounds",
+						{
+							"depth": 1,
+							"header": "Customizing a Background"
+						}
+					]
+				},
+				{
+					"name": "Chapter 5: Equipment",
+					"headers": [
+						"Wealth",
+						"Armor and Shields",
+						"Weapons",
+						"Adventuring Gear",
+						{
+							"depth": 1,
+							"header": "Equipment Packs"
+						},
+						{
+							"depth": 1,
+							"header": "Ammunition"
+						},
+						{
+							"depth": 1,
+							"header": "Communications"
+						},
+						{
+							"depth": 1,
+							"header": "Data Recording and Storage"
+						},
+						{
+							"depth": 1,
+							"header": "Explosives"
+						},
+						{
+							"depth": 1,
+							"header": "Life Support"
+						},
+						{
+							"depth": 1,
+							"header": "Medical Supplies"
+						},
+						{
+							"depth": 1,
+							"header": "Storage"
+						},
+						{
+							"depth": 1,
+							"header": "Utilities"
+						},
+						{
+							"depth": 1,
+							"header": "Weapon and Armor Accessories"
+						},
+						"Tools",
+						"Expenses"
+					]
+				},
+				{
+					"name": "Chapter 6: Customization Options",
+					"headers": [
+						"Multiclassing",
+						"Class Features",
+						"Feats",
+						"Fighting Styles",
+						"Fighting Masteries",
+						"Lightsaber Forms"
+					]
+				},
+				{
+					"name": "Chapter 7: Using Ability Scores",
+					"headers": [
+						"Ability Scores and Modifiers",
+						"Advantage and Disadvantage",
+						"Minimum Roll Threshold",
+						"Proficiency Bonus",
+						"Ability Checks",
+						"Using Each Ability",
+						"Saving Throws"
+					]
+				},
+				{
+					"name": "Chapter 8: Adventuring",
+					"headers": [
+						"Time",
+						"Movement",
+						"The Environment",
+						"Social Interaction",
+						"Resting",
+						"Between Adventures"
+					]
+				},
+				{
+					"name": "Chapter 9: Combat",
+					"headers": [
+						"The Order of Combat",
+						"Movement and Position",
+						"Actions in Combat",
+						"Making an Attack",
+						{
+							"depth": 1,
+							"header": "Attack Rolls"
+						},
+						{
+							"depth": 1,
+							"header": "Melee Attacks"
+						},
+						{
+							"depth": 1,
+							"header": "Ranged Attacks"
+						},
+						{
+							"depth": 1,
+							"header": "Double-Weapon Fighting"
+						},
+						{
+							"depth": 1,
+							"header": "Two-Weapon Fighting"
+						},
+						"Cover",
+						"Damage and Healing",
+						{
+							"depth": 1,
+							"header": "Hit Points"
+						},
+						{
+							"depth": 1,
+							"header": "Damage Rolls"
+						},
+						{
+							"depth": 1,
+							"header": "Damage Resistance and Vulnerability"
+						},
+						{
+							"depth": 1,
+							"header": "Healing"
+						},
+						{
+							"depth": 1,
+							"header": "Dropping to 0 Hit Points"
+						},
+						{
+							"depth": 1,
+							"header": "Knocking a Creature Out"
+						},
+						"Temporary Hit Points",
+						{
+							"depth": 1,
+							"header": "Temporary Force and Tech Points"
+						},
+						"Underwater Combat",
+						"Mounted Combat"
+					]
+				},
+				{
+					"name": "Chapter 10: Force- and Tech-casting",
+					"headers": [
+						"What is a Power?",
+						"Casting a Power"
+					]
+				},
+				{
+					"name": "Chapter 11: Force Powers",
+					"headers": [
+						"At-Will (Cantrips)",
+						"1st Level",
+						"2nd Level",
+						"3rd Level",
+						"4th Level",
+						"5th Level",
+						"6th Level",
+						"7th Level",
+						"8th Level",
+						"9th Level"
+					]
+				},
+				{
+					"name": "Chapter 12: Tech Powers",
+					"headers": [
+						"At-Will (Cantrips)",
+						"1st Level",
+						"2nd Level",
+						"3rd Level",
+						"4th Level",
+						"5th Level",
+						"6th Level",
+						"7th Level",
+						"8th Level",
+						"9th Level"
+					]
+				},
+				{
+					"name": "Chapter 13: Maneuvers",
+					"headers": [
+						"General",
+						"Mental",
+						"Physical"
+					]
+				},
+				{
+					"name": "Appendix A: Conditions",
+					"headers": []
+				},
+				{
+					"name": "Appendix B: Recommended Variant Rules",
+					"headers": [
+						"Defense Rolls",
+						"Saving Throw Checks",
+						"Force and Tech Prowess",
+						"Simplified Force- and Tech-casting",
+						"ASI and a Feat",
+						"Crueler Criticals",
+						"Milestone Leveling",
+						"Bonus Action Consumables",
+						"Hunted"
+					]
+				},
+				{
+					"name": "Index",
+					"headers": []
+				},
+				{
+					"name": "Credits",
+					"headers": []
+				}
+			]
+		}
+	],
 	"bookData": [
 		{
 			"id": "sw5e-phb",
@@ -12263,648 +12906,5 @@
 			]
 		}
 	],
-	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
-	"book": [
-		{
-			"name": "SW5e: Player's Handbook",
-			"id": "sw5e-phb",
-			"source": "sw5e-phb",
-			"group": "homebrew",
-			"published": "2022-01-01",
-			"author": "SW5e Community",
-			"contents": [
-				{
-					"name": "Introduction",
-					"headers": [
-						"What's Different",
-						"Using This Book",
-						"How to Play",
-						"Specific Beats General",
-						"The Three Pillars of Adventuring"
-					]
-				},
-				{
-					"name": "Chapter 1: Step-by-Step Characters",
-					"headers": [
-						"Choose a Species",
-						"Choose a Class",
-						"Determine Ability Scores",
-						"Describe Your Character",
-						"Choose Equipment",
-						"Come Together"
-					]
-				},
-				{
-					"name": "Chapter 2: Species",
-					"headers": [
-						"Choosing a Species",
-						"Special Traits",
-						{
-							"depth": 1,
-							"header": "Ability Score Increase"
-						},
-						{
-							"depth": 1,
-							"header": "Age"
-						},
-						{
-							"depth": 1,
-							"header": "Alignment"
-						},
-						{
-							"depth": 1,
-							"header": "Size"
-						},
-						{
-							"depth": 1,
-							"header": "Speed"
-						},
-						{
-							"depth": 1,
-							"header": "Languages"
-						},
-						"Species"
-					]
-				},
-				{
-					"name": "Chapter 3: Classes",
-					"headers": [
-						"Classes"
-					]
-				},
-				{
-					"name": "Chapter 4: Backgrounds",
-					"headers": [
-						"Character Details",
-						{
-							"depth": 1,
-							"header": "Height and Weight"
-						},
-						{
-							"depth": 1,
-							"header": "Languages"
-						},
-						"Inspiration",
-						"Backgrounds",
-						{
-							"depth": 1,
-							"header": "Customizing a Background"
-						}
-					]
-				},
-				{
-					"name": "Chapter 5: Equipment",
-					"headers": [
-						"Wealth",
-						"Armor and Shields",
-						"Weapons",
-						"Adventuring Gear",
-						{
-							"depth": 1,
-							"header": "Equipment Packs"
-						},
-						{
-							"depth": 1,
-							"header": "Ammunition"
-						},
-						{
-							"depth": 1,
-							"header": "Communications"
-						},
-						{
-							"depth": 1,
-							"header": "Data Recording and Storage"
-						},
-						{
-							"depth": 1,
-							"header": "Explosives"
-						},
-						{
-							"depth": 1,
-							"header": "Life Support"
-						},
-						{
-							"depth": 1,
-							"header": "Medical Supplies"
-						},
-						{
-							"depth": 1,
-							"header": "Storage"
-						},
-						{
-							"depth": 1,
-							"header": "Utilities"
-						},
-						{
-							"depth": 1,
-							"header": "Weapon and Armor Accessories"
-						},
-						"Tools",
-						"Expenses"
-					]
-				},
-				{
-					"name": "Chapter 6: Customization Options",
-					"headers": [
-						"Multiclassing",
-						"Class Features",
-						"Feats",
-						"Fighting Styles",
-						"Fighting Masteries",
-						"Lightsaber Forms"
-					]
-				},
-				{
-					"name": "Chapter 7: Using Ability Scores",
-					"headers": [
-						"Ability Scores and Modifiers",
-						"Advantage and Disadvantage",
-						"Minimum Roll Threshold",
-						"Proficiency Bonus",
-						"Ability Checks",
-						"Using Each Ability",
-						"Saving Throws"
-					]
-				},
-				{
-					"name": "Chapter 8: Adventuring",
-					"headers": [
-						"Time",
-						"Movement",
-						"The Environment",
-						"Social Interaction",
-						"Resting",
-						"Between Adventures"
-					]
-				},
-				{
-					"name": "Chapter 9: Combat",
-					"headers": [
-						"The Order of Combat",
-						"Movement and Position",
-						"Actions in Combat",
-						"Making an Attack",
-						{
-							"depth": 1,
-							"header": "Attack Rolls"
-						},
-						{
-							"depth": 1,
-							"header": "Melee Attacks"
-						},
-						{
-							"depth": 1,
-							"header": "Ranged Attacks"
-						},
-						{
-							"depth": 1,
-							"header": "Double-Weapon Fighting"
-						},
-						{
-							"depth": 1,
-							"header": "Two-Weapon Fighting"
-						},
-						"Cover",
-						"Damage and Healing",
-						{
-							"depth": 1,
-							"header": "Hit Points"
-						},
-						{
-							"depth": 1,
-							"header": "Damage Rolls"
-						},
-						{
-							"depth": 1,
-							"header": "Damage Resistance and Vulnerability"
-						},
-						{
-							"depth": 1,
-							"header": "Healing"
-						},
-						{
-							"depth": 1,
-							"header": "Dropping to 0 Hit Points"
-						},
-						{
-							"depth": 1,
-							"header": "Knocking a Creature Out"
-						},
-						"Temporary Hit Points",
-						{
-							"depth": 1,
-							"header": "Temporary Force and Tech Points"
-						},
-						"Underwater Combat",
-						"Mounted Combat"
-					]
-				},
-				{
-					"name": "Chapter 10: Force- and Tech-casting",
-					"headers": [
-						"What is a Power?",
-						"Casting a Power"
-					]
-				},
-				{
-					"name": "Chapter 11: Force Powers",
-					"headers": [
-						"At-Will (Cantrips)",
-						"1st Level",
-						"2nd Level",
-						"3rd Level",
-						"4th Level",
-						"5th Level",
-						"6th Level",
-						"7th Level",
-						"8th Level",
-						"9th Level"
-					]
-				},
-				{
-					"name": "Chapter 12: Tech Powers",
-					"headers": [
-						"At-Will (Cantrips)",
-						"1st Level",
-						"2nd Level",
-						"3rd Level",
-						"4th Level",
-						"5th Level",
-						"6th Level",
-						"7th Level",
-						"8th Level",
-						"9th Level"
-					]
-				},
-				{
-					"name": "Chapter 13: Maneuvers",
-					"headers": [
-						"General",
-						"Mental",
-						"Physical"
-					]
-				},
-				{
-					"name": "Appendix A: Conditions",
-					"headers": []
-				},
-				{
-					"name": "Appendix B: Recommended Variant Rules",
-					"headers": [
-						"Defense Rolls",
-						"Saving Throw Checks",
-						"Force and Tech Prowess",
-						"Simplified Force- and Tech-casting",
-						"ASI and a Feat",
-						"Crueler Criticals",
-						"Milestone Leveling",
-						"Bonus Action Consumables",
-						"Hunted"
-					]
-				},
-				{
-					"name": "Index",
-					"headers": []
-				},
-				{
-					"name": "Credits",
-					"headers": []
-				}
-			]
-		}
-	],
-	"_meta": {
-		"sources": [
-			{
-				"json": "sw5e-phb",
-				"abbreviation": "PHB",
-				"full": "SW5e: Player's Handbook",
-				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
-				"color": "#aa0000",
-				"authors": [],
-				"convertedBy": [
-					"orcnog"
-				]
-			}
-		],
-		"dateAdded": 1657936771,
-		"dateLastModified": 1780070312,
-		"skills": {
-			"Piloting": [
-				"Your Intelligence ({@skill Piloting|sw5e-phb}) check measures your ability to control vehicles, aircraft, and spaceships. {@skill Piloting|sw5e-phb} governs your ability to {@book maneuver|sw5e-phb|13|Maneuvers} through tight spaces and debris fields or dogfight with enemy craft.",
-				"{@homebrew A DnD5e character can count any proficiency in {@skill Vehicles (Land)} or {@skill Vehicles (Water)} as having proficiency in the {@skill Piloting|sw5e-phb} skill.}"
-			],
-			"Technology": [
-				"Your Intelligence ({@skill Technology|sw5e-phb}) checks measure your ability to recall information about droids, vehicles, spaceships, aircraft, and computers, as well as your ability to interface with them. {@skill Technology|sw5e-phb} can also be used to stabilize a droid or construct.",
-				"{@homebrew A DnD5e character should replace their {@skill Arcana} skill with the {@skill Technology|sw5e-phb} skill when determining proficiency.}"
-			],
-			"Lore": [
-				"Your Intelligence ({@skill Lore|sw5e-phb}) check measures your ability to recall information about the Force, artifacts, histories, and religions.",
-				"{@homebrew A DnD5e character should replace their {@skill History} and/or {@skill Religion} skills with the {@skill Lore|sw5e-phb} skill when determining proficiencies.}"
-			],
-			"Biochemist's Kit": [
-				"A {@item Biochemist's Kit|sw5e-phb} includes all of the necessary components to create and house standard adrenals, medpacs, and stimpacs.",
-				{
-					"type": "list",
-					"items": [
-						"{@b {@skill Investigation|sw5e-phb}}. Proficiency with a {@item Biochemist's kit|sw5e-phb|biochemist's kit} allows you to unlock more information on {@skill Investigation|sw5e-phb} checks involving adrenals, medpacs, and stimpacs",
-						"{@b {@skill Perception|sw5e-phb}}. When you inspect an area for clues, proficiency with {@item Biochemist's kit|sw5e-phb|biochemist's kit} grants additional insight into any chemicals or other substances that might have been used in the area."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Medpac Improvement",
-					"entries": [
-						"Over the course of a short or {@variantrule Long Rest|sw5e-phb|long rest}, you can make a DC 15 {@item Biochemist's kit|sw5e-phb|biochemist's kit} check to temporarily improve the potency of one {@item medpac|sw5e-phb}. To use this benefit, you must have a {@item Biochemist's kit|sw5e-phb|biochemist's kit} with you, and the {@item Medpac|sw5e-phb|medpac} must be within reach. If the {@item Medpac|sw5e-phb|medpac} is consumed before the end of your next short or {@variantrule Long Rest|sw5e-phb|long rest}, when a creature uses this {@item Medpac|sw5e-phb|medpac}, they take the maximum instead of rolling."
-					]
-				},
-				{
-					"type": "table",
-					"caption": "Sample Activities",
-					"colLabels": [
-						"Activity",
-						"DC"
-					],
-					"colStyles": [
-						"col-6 text-left",
-						"col-2 text-left"
-					],
-					"rows": [
-						[
-							"Create a {@item traumakit|sw5e-phb}",
-							"10"
-						],
-						[
-							"Identify a chemical",
-							"10"
-						],
-						[
-							"Create a {@item medpac|sw5e-phb}",
-							"15"
-						],
-						[
-							"Create an {@item antitoxkit|sw5e-phb}",
-							"20"
-						]
-					]
-				},
-				"{@homebrew A DnD5e character should replace their {@skill Herbalism Kit} skill proficiency with a {@item Biochemist's kit|sw5e-phb|Biochemist's Kit} skill proficiency.}"
-			],
-			"Demolitions Kit": [
-				"A {@item Demolitions Kit|sw5e-phb} includes all of the necessary components to create, set, and disarm explosives. It contains a plastic face guard and heavy duty gloves, as well as precision cutting and gripping tools, and various common components of grenades and mines.",
-				{
-					"type": "list",
-					"items": [
-						"{@b {@skill Lore|sw5e-phb}}. Your knowledge of explosives grants you insight when answering questions about the most effective explosives for a given task.",
-						"{@b {@skill Investigation|sw5e-phb} and {@skill Perception|sw5e-phb}}. You gain additional insight when looking for mines and charges, because you have learned a variety of common signs that betray their presence."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Amplify Explosive",
-					"entries": [
-						"Over the course of a short or {@variantrule Long Rest|sw5e-phb|long rest}, you can make a DC 15 {@item Demolitions kit|sw5e-phb|demolitions kit} check to temporarily improve one grenade or mine. To use this benefit, you must have a {@item Demolitions kit|sw5e-phb|demolitions kit} with you, and the object must be within reach. If the explosive is detonated before the end of your next short or {@variantrule Long Rest|sw5e-phb|long rest}, it deals bonus damage. This bonus is a die, with a maximum value equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you have {@variantrule Expertise|sw5e-phb|expertise} in the tool, this die's maximum is instead equal to twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
-					]
-				},
-				{
-					"type": "table",
-					"caption": "Sample Activities",
-					"colLabels": [
-						"Activity",
-						"DC"
-					],
-					"colStyles": [
-						"col-6 text-left",
-						"col-2 text-left"
-					],
-					"rows": [
-						[
-							"{@optfeature Conceal|sw5e-phb} an explosive",
-							"15"
-						],
-						[
-							"Disarm a mine",
-							"Varies"
-						]
-					]
-				},
-				"{@homebrew A DnD5e character should replace their {@skill Alchemist's Supplies} skill proficiency with the {@item Demolitions kit|sw5e-phb|Demolitions Kit} skill proficiency.}"
-			],
-			"Mechanic's Kit": [
-				"A {@item Mechanic's Kit|sw5e-phb} contains all of the commonly required tools to make repairs on constructs, such as ships, speeders, and turrets. Proficiency with this kit lets you add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to any {@variantrule Ability Check|sw5e-phb|ability checks} you make to perform repairs or install ship upgrades.",
-				{
-					"type": "list",
-					"items": [
-						"{@b {@skill Lore|sw5e-phb}}. Your skill allows you to more readily discern the make and model of vehicle and ship parts.",
-						"{@b {@skill Investigation|sw5e-phb}}. Your experience lets you more readily identify aftermarket modifications in vehicles and ships.",
-						"{@b {@skill Technology|sw5e-phb}}. Your experience grants you greater insight when conducting repairs on ships or vehicles."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Quick Fixer",
-					"entries": [
-						"When you are interrupted while you are conducting repairs on a vehicle or ship, reduce the required time by half as long as you are present during the entirety of the repairs."
-					]
-				},
-				{
-					"type": "table",
-					"caption": "Sample Activities",
-					"colLabels": [
-						"Activity",
-						"DC"
-					],
-					"colStyles": [
-						"col-6 text-left",
-						"col-2 text-left"
-					],
-					"rows": [
-						[
-							"Restoring power to a damaged vehicle",
-							"15"
-						],
-						[
-							"Disassembling a vehicle's engine",
-							"20"
-						]
-					]
-				},
-				"{@homebrew A DnD5e character should replace their {@skill Tinker's Tools} skill proficiency with the {@item Mechanic's kit|sw5e-phb|Mechanic's Kit} skill proficiency.}"
-			],
-			"Munitions Kit": [
-				"A {@item Munitions Kit|sw5e-phb} contains the necessary tools to create ammunition for {@filter blasters|items|firearm=true}, as well as devices to hone {@filter lightweapons|items|type=martial weapon|category=lightweapon} and {@filter vibroweapons|items|type=martial weapon}.",
-				{
-					"type": "entries",
-					"name": "Hone Weapon",
-					"entries": [
-						"Over the course of a short or {@variantrule Long Rest|sw5e-phb|long rest}, you can make a DC 15 munitions kit check to temporarily improve a {@filter blaster|items|firearm=true} or {@filter vibroweapon|items|type=martial weapon}. To use this benefit, you must have munitions kit with you, and the object must be within reach. On a success, once before your next short or {@variantrule Long Rest|sw5e-phb|long rest}, a character wielding this weapon can gain a bonus to one weapon damage roll. This bonus is a die, with a maximum value equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you have {@variantrule Expertise|sw5e-phb|expertise} in the tool, this die's maximum is instead equal to twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
-					]
-				},
-				"{@homebrew A DnD5e character should replace their {@skill Smith's Tools} skill proficiency with the Munitions Kit skill proficiency.}"
-			],
-			"Security Kit": [
-				"A {@item Security Kit|sw5e-phb} includes all of the necessary components to set or disarm locks and traps.",
-				{
-					"type": "list",
-					"items": [
-						"{@b {@skill Lore|sw5e-phb}}. Your knowledge of traps grants you insight when answering questions about locations that are renowned for their traps.",
-						"{@b {@skill Investigation|sw5e-phb} and {@skill Perception|sw5e-phb}}. You gain additional insight when looking for traps, because you have learned a variety of common signs that betray their presence."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Set a Trap",
-					"entries": [
-						"Just as you can disable traps, you can also set them. As part of a {@variantrule Short Rest|sw5e-phb|short rest}, you can create a trap using items you have on hand. The total of your check becomes the DC for someone else's attempt to discover or disable the trap. The trap deals damage appropriate to the materials used in crafting it (such as {@item Poison|sw5e-phb|poison} or a weapon) or damage equal to half the total of your check, whichever the DM deems appropriate."
-					]
-				},
-				{
-					"type": "table",
-					"caption": "Sample Activities",
-					"colLabels": [
-						"Activity",
-						"DC"
-					],
-					"colStyles": [
-						"col-6 text-left",
-						"col-2 text-left"
-					],
-					"rows": [
-						[
-							"Pick a moderate lock",
-							"15"
-						],
-						[
-							"Disable a trap",
-							"Varies"
-						]
-					]
-				},
-				"{@homebrew A DnD5e character should consider replacing their proficiency with {@skill Thieves' Tools} with a proficiency with either a {@item Security kit|sw5e-phb}, {@item Slicer's Kit|sw5e-phb}, or {@item Trapper's Kit|sw5e-phb}.}"
-			],
-			"Slicer's Kit": [
-				"A {@item Slicer's Kit|sw5e-phb} includes all of the necessary components to interface with and disarm digital securities.",
-				{
-					"type": "list",
-					"items": [
-						"{@b {@skill Lore|sw5e-phb}}. Your knowledge of digital securities grants you insight when answering questions about them.",
-						"{@b {@skill Investigation|sw5e-phb}}. You gain additional insight when looking for digital securities when using computers and terminals.",
-						"{@b {@skill Technology|sw5e-phb}}. Your knowledge of common digital security types makes it easier for you to identify them."
-					]
-				},
-				{
-					"type": "table",
-					"caption": "Sample Activities",
-					"colLabels": [
-						"Activity",
-						"DC"
-					],
-					"colStyles": [
-						"col-6 text-left",
-						"col-2 text-left"
-					],
-					"rows": [
-						[
-							"Identify a hidden security routine",
-							"15"
-						],
-						[
-							"Reprogram a security routine",
-							"20"
-						]
-					]
-				},
-				"{@homebrew A DnD5e character should consider replacing their proficiency with {@skill Thieves' Tools} with a proficiency with either a {@item Security kit|sw5e-phb}, {@item Slicer's Kit|sw5e-phb}, or {@item Trapper's Kit|sw5e-phb}.}"
-			],
-			"Trapper's Kit": [
-				"A {@item Trapper's Kit|sw5e-phb} includes all of the necessary components to create, disarm, and disassemble traps.",
-				"{@homebrew A DnD5e character should consider replacing their proficiency with {@skill Thieves' Tools} with a proficiency with either a {@item Security kit|sw5e-phb}, {@item Slicer's Kit|sw5e-phb}, or {@item Trapper's Kit|sw5e-phb}.}"
-			],
-			"Athletics": [
-				"Your Strength ({@skill Athletics|sw5e-phb}) check covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:"
-			],
-			"Acrobatics": [
-				"Your Dexterity ({@skill Acrobatics|sw5e-phb}) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking spaceship's deck. The GM might also call for a Dexterity ({@skill Acrobatics|sw5e-phb}) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips."
-			],
-			"Sleight of Hand": [
-				"Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check. The GM might also call for a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check to determine whether you can lift a wallet off another person or slip something out of another person's pocket."
-			],
-			"Stealth": [
-				"Make a Dexterity ({@skill Stealth|sw5e-phb}) check when you attempt to {@optfeature Conceal|sw5e-phb|conceal} yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
-			],
-			"Investigation": [
-				"When you look around for clues and make deductions based on those clues, you make an Intelligence ({@skill Investigation|sw5e-phb}) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient materials in search of a hidden fragment of knowledge might also call for an Intelligence ({@skill Investigation|sw5e-phb}) check."
-			],
-			"Nature": [
-				"Your Intelligence ({@skill Nature|sw5e-phb}) check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles."
-			],
-			"Animal Handling": [
-				"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom ({@skill Animal Handling|sw5e-phb}) check. You also make a Wisdom ({@skill Animal Handling|sw5e-phb}) check to control your mount when you attempt a risky {@book maneuver|sw5e-phb|13|Maneuvers}."
-			],
-			"Insight": [
-				"Your Wisdom ({@skill Insight|sw5e-phb}) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms."
-			],
-			"Medicine": [
-				"A Wisdom ({@skill Medicine|sw5e-phb}) check lets you try to stabilize a dying companion or diagnose an illness."
-			],
-			"Perception": [
-				"Your Wisdom ({@skill Perception|sw5e-phb}) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door."
-			],
-			"Survival": [
-				"The GM might ask you to make a Wisdom ({@skill Survival|sw5e-phb}) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that rancors live nearby, predict the weather, or avoid quicksand and other natural hazards."
-			],
-			"Deception": [
-				"Your Charisma ({@skill Deception|sw5e-phb}) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie."
-			],
-			"Intimidation": [
-				"When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma ({@skill Intimidation|sw5e-phb}) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken {@item Bottle|sw5e-phb|bottle} to convince a sneering vizier to reconsider a decision."
-			],
-			"Performance": [
-				"Your Charisma ({@skill Performance|sw5e-phb}) check determines how well you can delight an audience with music, dance. acting, storytelling, or some other form of entertainment."
-			],
-			"Persuasion": [
-				"When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma ({@skill Persuasion|sw5e-phb}) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a Chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk."
-			]
-		},
-		"spellSchools": {
-			"LT": {
-				"full": "Light",
-				"short": "Lght.",
-				"color": "2c90dd"
-			},
-			"DK": {
-				"full": "Dark",
-				"short": "Drk.",
-				"color": "#940000"
-			},
-			"UV": {
-				"full": "Universal",
-				"short": "Univ.",
-				"color": "d29a38"
-			},
-			"TP": {
-				"full": "Tech Power",
-				"short": "Tch.",
-				"color": "008e2f"
-			}
-		},
-		"currencyConversions": {
-			"Credits": [
-				{
-					"coin": "cr",
-					"mult": 0.1,
-					"isFallback": true
-				}
-			]
-		},
-		"optionalFeatureTypes": {
-			"MV:B": "{@book maneuver|sw5e-phb|13|Maneuvers}",
-			"FS": "Fighting Style",
-			"FM": "Fighting Mastery",
-			"LSF": "{@item Lightsaber|sw5e-phb} Form"
-		},
-		"internalCopies": [
-			"subclass"
-		]
-	}
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json"
 }

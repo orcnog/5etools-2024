@@ -1101,7 +1101,7 @@ export class BrewUtil2Base {
 
 	_PAGE_TO_PROPS = {
 		[UrlUtil.PG_SPELLS]: this._PAGE_TO_PROPS__SPELLS,
-		[UrlUtil.PG_CLASSES]: ["class", "subclass", "classFeature", "subclassFeature"],
+		[UrlUtil.PG_CLASSES]: ["class", "subclass", "classFeature", "subclassFeature", "classFluff"],
 		[UrlUtil.PG_BESTIARY]: this._PAGE_TO_PROPS__BESTIARY,
 		[UrlUtil.PG_BACKGROUNDS]: ["background"],
 		[UrlUtil.PG_FEATS]: ["feat"],
