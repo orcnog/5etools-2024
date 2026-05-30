@@ -846,8 +846,8 @@ class BlocklistUi {
 		if (!isSkipListUpdate) this._list.update();
 	}
 
-	_addAllHomebrewSources () { this._addMassSources({fnFilter: source => BrewUtil2.getSources().map(s => s.json).includes(source)}); }
-	_removeAllHomebrewSources () { this._removeMassSources({fnFilter: source => BrewUtil2.getSources().map(s => s.json).includes(source)}); }
+	_addAllHomebrewSources () { this._addMassSources({fnFilter: source => BlocklistUi._getLoadedHomebrewSourceIdsSync().has(source)}); }
+	_removeAllHomebrewSources () { this._removeMassSources({fnFilter: source => BlocklistUi._getLoadedHomebrewSourceIdsSync().has(source)}); }
 
 	_remove (ix, hash, category, source, {isSkipListUpdate = false, isSkipPersist = false} = {}) {
 		this._removeExclude(hash, category, source, {isSkipPersist});
@@ -1144,7 +1144,7 @@ class BlocklistUi {
 		await this._pInitBrewSources();
 
 		let currentExcludes = this._mutRemoveLegacyPHBPartialExcludes(ExcludeUtil.getList());
-		const nonSw5eSources = this._getNonSW5eSources();
+		const nonSw5eSources = await this._pGetNonSW5eSources();
 
 		const newExcludes = [...currentExcludes];
 		let addedCount = 0;
@@ -1174,7 +1174,7 @@ class BlocklistUi {
 		await this._pInitBrewSources();
 
 		const currentExcludes = ExcludeUtil.getList();
-		const nonSw5eSources = new Set(this._getNonSW5eSources());
+		const nonSw5eSources = new Set(await this._pGetNonSW5eSources());
 
 		const newExcludes = currentExcludes.filter(ex => {
 			if (ex.category === "*" && ex.hash === "*" && nonSw5eSources.has(ex.source)) return false;
@@ -1205,6 +1205,49 @@ class BlocklistUi {
 		if (typeof PrereleaseUtil !== "undefined" && PrereleaseUtil.pInit) await PrereleaseUtil.pInit();
 	}
 
+	static _getBrewUtils () {
+		return [
+			typeof BrewUtil2 !== "undefined" ? BrewUtil2 : null,
+			typeof PrereleaseUtil !== "undefined" ? PrereleaseUtil : null,
+		].filter(Boolean);
+	}
+
+	static _mutCollectBrewSourceIdsFromUtil ({brewUtil, sources}) {
+		if (!brewUtil?.getSources) return;
+		brewUtil.getSources()
+			.map(srcMeta => srcMeta.json)
+			.filter(Boolean)
+			.forEach(source => sources.add(source));
+	}
+
+	static _mutCollectBrewSourceIdsFromBrewDocs ({brewDocs, sources}) {
+		(brewDocs || []).forEach(brewDoc => {
+			(brewDoc.body?._meta?.sources || []).forEach(srcMeta => {
+				if (srcMeta?.json) sources.add(srcMeta.json);
+			});
+		});
+	}
+
+	static _getLoadedHomebrewSourceIdsSync () {
+		const sources = new Set();
+		this._getBrewUtils().forEach(brewUtil => this._mutCollectBrewSourceIdsFromUtil({brewUtil, sources}));
+		return sources;
+	}
+
+	static async _pGetAllLoadedHomebrewSourceIds () {
+		await this._pInitBrewSources();
+
+		const sources = new Set();
+		for (const brewUtil of this._getBrewUtils()) {
+			this._mutCollectBrewSourceIdsFromUtil({brewUtil, sources});
+			this._mutCollectBrewSourceIdsFromBrewDocs({
+				brewDocs: await brewUtil.pGetBrew(),
+				sources,
+			});
+		}
+		return [...sources];
+	}
+
 	static _isLegacyPHBPartialExclude (ex) {
 		return ex.source === BlocklistUi._PHB_SOURCE && ex.hash === "*" && ex.category !== "*";
 	}
@@ -1216,12 +1259,7 @@ class BlocklistUi {
 	// Helper methods for source filtering
 	static _getAllCatalogSources () {
 		const sources = new Set(Object.keys(Parser.SOURCE_JSON_TO_DATE));
-		if (typeof BrewUtil2 !== "undefined") {
-			BrewUtil2.getSources().map(s => s.json).forEach(source => sources.add(source));
-		}
-		if (typeof PrereleaseUtil !== "undefined" && PrereleaseUtil.getSources) {
-			PrereleaseUtil.getSources().map(s => s.json).forEach(source => sources.add(source));
-		}
+		this._getLoadedHomebrewSourceIdsSync().forEach(source => sources.add(source));
 		return [...sources];
 	}
 
@@ -1247,27 +1285,65 @@ class BlocklistUi {
 
 	static _getSW5eSources () {
 		const sources = new Set();
-		if (typeof BrewUtil2 !== "undefined") {
-			BrewUtil2.getSources()
-				.map(s => s.json)
-				.filter(source => source.startsWith("sw5e"))
-				.forEach(source => sources.add(source));
-		}
+		[...this._getLoadedHomebrewSourceIdsSync()]
+			.filter(source => source.startsWith("sw5e"))
+			.forEach(source => sources.add(source));
 		ExcludeUtil.getList()
 			.filter(ex => ex.source?.startsWith("sw5e"))
 			.forEach(ex => sources.add(ex.source));
 		return [...sources];
 	}
 
-	static _getNonSW5eSources () {
+	static async _pGetNonSW5eSources () {
 		const sources = new Set(Object.keys(Parser.SOURCE_JSON_TO_DATE));
-		if (typeof BrewUtil2 !== "undefined") {
-			BrewUtil2.getSources().map(s => s.json).forEach(source => sources.add(source));
-		}
-		if (typeof PrereleaseUtil !== "undefined" && PrereleaseUtil.getSources) {
-			PrereleaseUtil.getSources().map(s => s.json).forEach(source => sources.add(source));
-		}
+		(await this._pGetAllLoadedHomebrewSourceIds()).forEach(source => sources.add(source));
 		return [...sources].filter(source => !source.startsWith("sw5e"));
+	}
+
+	/**
+	 * Ensure loaded homebrew sources match the active content mode.
+	 * Called on init so newly loaded partnered/local brew is blocked without re-toggling mode.
+	 */
+	static async pSyncContentModeLoadedHomebrew () {
+		const mode = typeof ContentMode !== "undefined" ? ContentMode.getMode() : null;
+		if (mode !== ContentMode.MODE_SW5E && mode !== ContentMode.MODE_DND) return;
+
+		await ExcludeUtil.pInitialise();
+		const homebrewSources = await this._pGetAllLoadedHomebrewSourceIds();
+		if (!homebrewSources.length) return;
+
+		let excludes = ExcludeUtil.getList();
+		let changed = false;
+
+		if (mode === ContentMode.MODE_SW5E) {
+			const nxt = excludes.filter(ex =>
+				!(ex.category === "*" && ex.hash === "*" && ex.source?.startsWith("sw5e")),
+			);
+			if (nxt.length !== excludes.length) {
+				excludes = nxt;
+				changed = true;
+			}
+
+			homebrewSources
+				.filter(source => !source.startsWith("sw5e"))
+				.forEach(source => {
+					if (!excludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
+						excludes.push({displayName: "*", hash: "*", category: "*", source});
+						changed = true;
+					}
+				});
+		} else {
+			homebrewSources
+				.filter(source => source.startsWith("sw5e"))
+				.forEach(source => {
+					if (!excludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
+						excludes.push({displayName: "*", hash: "*", category: "*", source});
+						changed = true;
+					}
+				});
+		}
+
+		if (changed) await ExcludeUtil.pSetList(excludes);
 	}
 
 	/** Block all non-SW5e sources and unblock all SW5e sources (single persist). */
@@ -1280,7 +1356,7 @@ class BlocklistUi {
 			!(ex.category === "*" && ex.hash === "*" && ex.source?.startsWith("sw5e")),
 		);
 
-		const nonSw5eSources = this._getNonSW5eSources();
+		const nonSw5eSources = await this._pGetNonSW5eSources();
 		nonSw5eSources.forEach(source => {
 			if (!excludes.find(ex => ex.source === source && ex.category === "*" && ex.hash === "*")) {
 				excludes.push({displayName: "*", hash: "*", category: "*", source});
@@ -1299,7 +1375,7 @@ class BlocklistUi {
 		await ExcludeUtil.pInitialise();
 		await this._pInitBrewSources();
 
-		const nonSw5eSources = new Set(this._getNonSW5eSources());
+		const nonSw5eSources = new Set(await this._pGetNonSW5eSources());
 		let excludes = ExcludeUtil.getList().filter(ex => {
 			if (ex.category === "*" && ex.hash === "*" && nonSw5eSources.has(ex.source)) return false;
 			return !this._isLegacyPHBPartialExclude(ex);
@@ -1445,6 +1521,8 @@ class ContentMode {
 		StorageUtil.syncSet(VeCt.STORAGE_CONTENT_MODE, mode);
 		await StorageUtil.pSet(VeCt.STORAGE_CONTENT_MODE, mode);
 		this.syncApplyDocumentClass(mode);
+
+		await BlocklistUi.pSyncContentModeLoadedHomebrew();
 	}
 
 	static async pSetMode (mode) {
