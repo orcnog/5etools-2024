@@ -266,7 +266,7 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "{@item Power cell|sw5e-phb|Power Cell}",
+					"name": "Power cell",
 					"entries": [
 						"Weapons with the {@item Power cell|sw5e-phb} property are fueled by {@item Power cell|sw5e-phb|power cells}, which must be loaded in order to fire the weapon."
 					]
@@ -324,7 +324,7 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "{@item Slug cartridge|sw5e-phb|Slug Cartridge}",
+					"name": "Slug cartridge",
 					"entries": [
 						"Weapons with the {@item Slug cartridge|sw5e-phb|slug cartridge} property fire slug cartridges, which must be loaded in order to fire the weapon."
 					]

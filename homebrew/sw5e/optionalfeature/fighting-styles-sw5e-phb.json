@@ -17,7 +17,7 @@
 	},
 	"optionalfeature": [
 		{
-			"name": "{@optfeature Area Style|sw5e-phb}",
+			"name": "Area Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -35,7 +35,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Assisting Style|sw5e-phb}",
+			"name": "Assisting Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -53,7 +53,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Berserk Style|sw5e-phb}",
+			"name": "Berserk Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -71,7 +71,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Blindfighting Style|sw5e-phb}",
+			"name": "Blindfighting Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -89,7 +89,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Brawler Style|sw5e-phb}",
+			"name": "Brawler Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -108,7 +108,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Counterstrike Style|sw5e-phb}",
+			"name": "Counterstrike Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -126,7 +126,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Covert Style|sw5e-phb}",
+			"name": "Covert Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -144,7 +144,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Defense Style|sw5e-phb}",
+			"name": "Defense Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -162,7 +162,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Disruption Style|sw5e-phb}",
+			"name": "Disruption Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -180,7 +180,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Dual Wield Style|sw5e-phb}",
+			"name": "Dual Wield Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -198,7 +198,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Duelist Style|sw5e-phb}",
+			"name": "Duelist Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -217,7 +217,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Equilibrium Style|sw5e-phb}",
+			"name": "Equilibrium Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -235,7 +235,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Explosives Style|sw5e-phb}",
+			"name": "Explosives Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -253,7 +253,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Formation Style|sw5e-phb}",
+			"name": "Formation Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -272,7 +272,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Formfighting Style|sw5e-phb}",
+			"name": "Formfighting Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -290,7 +290,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Great Weapon Style|sw5e-phb}",
+			"name": "Great Weapon Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -308,7 +308,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Guerrilla Style|sw5e-phb}",
+			"name": "Guerrilla Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -326,7 +326,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Gunning Style|sw5e-phb}",
+			"name": "Gunning Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -345,7 +345,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Mounted Style|sw5e-phb}",
+			"name": "Mounted Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -363,7 +363,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Onslaught Style|sw5e-phb}",
+			"name": "Onslaught Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -381,7 +381,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Poisoner Style|sw5e-phb}",
+			"name": "Poisoner Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -399,7 +399,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Secured Style|sw5e-phb}",
+			"name": "Secured Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -417,7 +417,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Sentinel Style|sw5e-phb}",
+			"name": "Sentinel Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -435,7 +435,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Sharpshooter Style|sw5e-phb}",
+			"name": "Sharpshooter Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -454,7 +454,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Shield Style|sw5e-phb}",
+			"name": "Shield Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -473,7 +473,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Snapshot Style|sw5e-phb}",
+			"name": "Snapshot Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -493,7 +493,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Split Style|sw5e-phb}",
+			"name": "Split Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -511,7 +511,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Spotting Style|sw5e-phb}",
+			"name": "Spotting Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -529,7 +529,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Superiority Style|sw5e-phb}",
+			"name": "Superiority Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -547,7 +547,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Throwing Style|sw5e-phb}",
+			"name": "Throwing Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -566,7 +566,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Twin-Blade Style|sw5e-phb}",
+			"name": "Twin-Blade Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -584,7 +584,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Versatile Style|sw5e-phb}",
+			"name": "Versatile Style",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [

@@ -82,8 +82,8 @@
 				"disease"
 			],
 			"languages": [
-				"Binary",
-				"Galactic Basic"
+				"{@language Binary|sw5e-phb|Binary}",
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "4",
 			"trait": [
@@ -121,7 +121,7 @@
 					]
 				},
 				{
-					"name": "{@filter blaster|items|firearm=true} Pistol",
+					"name": "blaster Pistol",
 					"entries": [
 						"{@atk rw} {@hit 6} to hit, range 40/160 ft., one target. {@h}7 ({@damage 1d6 + 4}) energy damage."
 					]

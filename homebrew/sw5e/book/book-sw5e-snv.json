@@ -131,13 +131,13 @@
 			],
 			"passive": 10,
 			"languages": [
-				"Galactic Basic",
+				"{@language Galactic Basic|sw5e-phb}",
 				"one other"
 			],
 			"cr": "1/2",
 			"action": [
 				{
-					"name": "{@filter blaster|items|firearm=true} Rifle",
+					"name": "blaster Rifle",
 					"entries": [
 						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}7 ({@damage 1d8 + 3}) energy damage."
 					]
@@ -200,7 +200,7 @@
 			],
 			"passive": 11,
 			"languages": [
-				"Galactic Basic",
+				"{@language Galactic Basic|sw5e-phb}",
 				"two others"
 			],
 			"cr": "1",
@@ -212,7 +212,7 @@
 					]
 				},
 				{
-					"name": "{@filter blaster|items|firearm=true} Rifle",
+					"name": "blaster Rifle",
 					"entries": [
 						"{@atk rw} {@hit 5} to hit, range 60/240 ft., one target. {@h}7 ({@damage 1d6 + 3}) energy damage."
 					]
@@ -247,7 +247,7 @@
 			]
 		},
 		{
-			"name": "{@spell Autonomous Servant|sw5e-phb}",
+			"name": "Autonomous Servant",
 			"source": "sw5e-snv",
 			"page": 0,
 			"size": [

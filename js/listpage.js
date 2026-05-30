@@ -1346,7 +1346,10 @@ class ListPage {
 	static _MAX_DATA_CHUNK_SIZE = 4096;
 
 	_addData (data) {
-		if (!this._dataProps.some(prop => data[prop] && data[prop].length)) return;
+		if (!this._dataProps.some(prop => data[prop] && data[prop].length)) {
+			this._filterBox?.render();
+			return;
+		}
 
 		for (const prop of this._dataProps) {
 			const len = data[prop]?.length || 0;

@@ -17,7 +17,7 @@
 	},
 	"item": [
 		{
-			"name": "{@item Antitoxkit|sw5e-phb}",
+			"name": "Antitoxkit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -29,7 +29,7 @@
 			]
 		},
 		{
-			"name": "{@item Aquatic rebreather|sw5e-phb}",
+			"name": "Aquatic rebreather",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -41,7 +41,7 @@
 			]
 		},
 		{
-			"name": "{@item Armormech's implements|sw5e-phb}",
+			"name": "Armormech's implements",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -53,7 +53,7 @@
 			]
 		},
 		{
-			"name": "{@item Armstech's implements|sw5e-phb}",
+			"name": "Armstech's implements",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -65,7 +65,7 @@
 			]
 		},
 		{
-			"name": "{@item Artificer's implements|sw5e-phb}",
+			"name": "Artificer's implements",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -77,7 +77,7 @@
 			]
 		},
 		{
-			"name": "{@item Assault armor|sw5e-phb}",
+			"name": "Assault armor",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "HA",
@@ -97,7 +97,7 @@
 			]
 		},
 		{
-			"name": "{@item Assault cannon|sw5e-phb}",
+			"name": "Assault cannon",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -128,7 +128,7 @@
 			"burst": 4
 		},
 		{
-			"name": "{@item Astrotech's implements|sw5e-phb}",
+			"name": "Astrotech's implements",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -140,7 +140,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Backpack|sw5e-phb}",
+			"name": "Backpack",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -155,7 +155,7 @@
 			}
 		},
 		{
-			"name": "{@item Bandolier|sw5e-phb}",
+			"name": "Bandolier",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -167,7 +167,7 @@
 			]
 		},
 		{
-			"name": "{@item Battle armor|sw5e-phb}",
+			"name": "Battle armor",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "HA",
@@ -187,7 +187,7 @@
 			]
 		},
 		{
-			"name": "{@item Beam rifle|sw5e-phb}",
+			"name": "Beam rifle",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -218,7 +218,7 @@
 			"penetrating": 2
 		},
 		{
-			"name": "{@item Bedroll|sw5e-phb}",
+			"name": "Bedroll",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -230,7 +230,7 @@
 			]
 		},
 		{
-			"name": "{@item Binders|sw5e-phb}",
+			"name": "Binders",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -242,7 +242,7 @@
 			]
 		},
 		{
-			"name": "{@item Biochemist's kit|sw5e-phb}",
+			"name": "Biochemist's kit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -254,7 +254,7 @@
 			]
 		},
 		{
-			"name": "{@item Biotech's implements|sw5e-phb}",
+			"name": "Biotech's implements",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -279,7 +279,7 @@
 			"bonusSavingThrow": "+1"
 		},
 		{
-			"name": "{@item Blanket|sw5e-phb}",
+			"name": "Blanket",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -291,7 +291,7 @@
 			]
 		},
 		{
-			"name": "{@item Blaster carbine|sw5e-phb}",
+			"name": "Blaster carbine",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -318,7 +318,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Blaster pistol|sw5e-phb}",
+			"name": "Blaster pistol",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -344,7 +344,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Blaster rifle|sw5e-phb}",
+			"name": "Blaster rifle",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -371,7 +371,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Bottle|sw5e-phb}",
+			"name": "Bottle",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -383,7 +383,7 @@
 			]
 		},
 		{
-			"name": "{@item Bowcaster|sw5e-phb}",
+			"name": "Bowcaster",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -414,7 +414,7 @@
 			"burst": 4
 		},
 		{
-			"name": "{@item Burglar's Pack|sw5e-phb}",
+			"name": "Burglar's Pack",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
@@ -424,7 +424,7 @@
 			]
 		},
 		{
-			"name": "{@item Canteen|sw5e-phb}",
+			"name": "Canteen",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -436,7 +436,7 @@
 			]
 		},
 		{
-			"name": "{@item Carbine rifle|sw5e-phb}",
+			"name": "Carbine rifle",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -468,7 +468,7 @@
 			"rapid": 3
 		},
 		{
-			"name": "{@item Chakram|sw5e-phb}",
+			"name": "Chakram",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -490,7 +490,7 @@
 			"range": "30/90"
 		},
 		{
-			"name": "{@item Chance cubes|sw5e-phb}",
+			"name": "Chance cubes",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "GS",
@@ -502,7 +502,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Chef's kit|sw5e-phb}",
+			"name": "Chef's kit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -529,7 +529,7 @@
 			}
 		},
 		{
-			"name": "{@item Chronometer|sw5e-phb}",
+			"name": "Chronometer",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -541,7 +541,7 @@
 			]
 		},
 		{
-			"name": "{@item Clothes, common|sw5e-phb}",
+			"name": "Clothes, common",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -553,7 +553,7 @@
 			]
 		},
 		{
-			"name": "{@item Clothes, costume|sw5e-phb}",
+			"name": "Clothes, costume",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -565,7 +565,7 @@
 			]
 		},
 		{
-			"name": "{@item Clothes, dress uniform|sw5e-phb}",
+			"name": "Clothes, dress uniform",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -577,7 +577,7 @@
 			]
 		},
 		{
-			"name": "{@item Clothes, fine|sw5e-phb}",
+			"name": "Clothes, fine",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -589,7 +589,7 @@
 			]
 		},
 		{
-			"name": "{@item Clothes, traveler's|sw5e-phb}",
+			"name": "Clothes, traveler's",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -601,7 +601,7 @@
 			]
 		},
 		{
-			"name": "{@item Code cylinder|sw5e-phb}",
+			"name": "Code cylinder",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -613,7 +613,7 @@
 			]
 		},
 		{
-			"name": "{@item Combat suit|sw5e-phb}",
+			"name": "Combat suit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "LA",
@@ -630,7 +630,7 @@
 			"strength": null
 		},
 		{
-			"name": "{@item Comm jammer|sw5e-phb}",
+			"name": "Comm jammer",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -642,7 +642,7 @@
 			]
 		},
 		{
-			"name": "{@item Commlink|sw5e-phb}",
+			"name": "Commlink",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -654,7 +654,7 @@
 			]
 		},
 		{
-			"name": "{@item Commlink, hands-free|sw5e-phb}",
+			"name": "Commlink, hands-free",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -666,7 +666,7 @@
 			]
 		},
 		{
-			"name": "{@item Composite armor|sw5e-phb}",
+			"name": "Composite armor",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "MA",
@@ -697,7 +697,7 @@
 			]
 		},
 		{
-			"name": "{@item Credit|sw5e-phb}",
+			"name": "Credit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "$",
@@ -710,7 +710,7 @@
 			]
 		},
 		{
-			"name": "{@item Cybertech's implements|sw5e-phb}",
+			"name": "Cybertech's implements",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -722,7 +722,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Cycler rifle|sw5e-phb}",
+			"name": "Cycler rifle",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -764,7 +764,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Datacard|sw5e-phb}",
+			"name": "Datacard",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -776,7 +776,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Datacron|sw5e-phb}",
+			"name": "Datacron",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -788,7 +788,7 @@
 			]
 		},
 		{
-			"name": "{@item Datapad|sw5e-phb}",
+			"name": "Datapad",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -800,7 +800,7 @@
 			]
 		},
 		{
-			"name": "{@item Dejarik set|sw5e-phb}",
+			"name": "Dejarik set",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "GS",
@@ -812,7 +812,7 @@
 			]
 		},
 		{
-			"name": "{@item Demolitions kit|sw5e-phb}",
+			"name": "Demolitions kit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -824,7 +824,7 @@
 			]
 		},
 		{
-			"name": "{@item Diplomat's Pack|sw5e-phb}",
+			"name": "Diplomat's Pack",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
@@ -834,7 +834,7 @@
 			]
 		},
 		{
-			"name": "{@item Disguise kit|sw5e-phb}",
+			"name": "Disguise kit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -846,7 +846,7 @@
 			]
 		},
 		{
-			"name": "{@item Doubleblade|sw5e-phb}",
+			"name": "Doubleblade",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -868,7 +868,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "{@item Doublesaber|sw5e-phb}",
+			"name": "Doublesaber",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -890,7 +890,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "{@item Doubleshoto|sw5e-phb}",
+			"name": "Doubleshoto",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -913,7 +913,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "{@item Doublesword|sw5e-phb}",
+			"name": "Doublesword",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -946,7 +946,7 @@
 			]
 		},
 		{
-			"name": "{@item Dungeoneer's Pack|sw5e-phb}",
+			"name": "Dungeoneer's Pack",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
@@ -956,7 +956,7 @@
 			]
 		},
 		{
-			"name": "{@item Emergency battery|sw5e-phb}",
+			"name": "Emergency battery",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -968,7 +968,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Emergency shelter|sw5e-phb}",
+			"name": "Emergency shelter",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -980,7 +980,7 @@
 			]
 		},
 		{
-			"name": "{@item Entertainer's Pack|sw5e-phb}",
+			"name": "Entertainer's Pack",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
@@ -990,7 +990,7 @@
 			]
 		},
 		{
-			"name": "{@item Enviro-suit|sw5e-phb}",
+			"name": "Enviro-suit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1002,7 +1002,7 @@
 			]
 		},
 		{
-			"name": "{@item Explorer's Pack|sw5e-phb}",
+			"name": "Explorer's Pack",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
@@ -1012,7 +1012,7 @@
 			]
 		},
 		{
-			"name": "{@item Fiber armor|sw5e-phb}",
+			"name": "Fiber armor",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "LA",
@@ -1052,7 +1052,7 @@
 			]
 		},
 		{
-			"name": "{@item Flight suit|sw5e-phb}",
+			"name": "Flight suit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1076,7 +1076,7 @@
 			]
 		},
 		{
-			"name": "{@item Forgery kit|sw5e-phb}",
+			"name": "Forgery kit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -1088,7 +1088,7 @@
 			]
 		},
 		{
-			"name": "{@item Friction-grip gear|sw5e-phb}",
+			"name": "Friction-grip gear",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1100,7 +1100,7 @@
 			]
 		},
 		{
-			"name": "{@item Fusion cutter|sw5e-phb}",
+			"name": "Fusion cutter",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1112,7 +1112,7 @@
 			]
 		},
 		{
-			"name": "{@item Gadgeteer's implements|sw5e-phb}",
+			"name": "Gadgeteer's implements",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -1124,7 +1124,7 @@
 			]
 		},
 		{
-			"name": "{@item Glowrod|sw5e-phb}",
+			"name": "Glowrod",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1136,7 +1136,7 @@
 			]
 		},
 		{
-			"name": "{@item Grappling hook|sw5e-phb}",
+			"name": "Grappling hook",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1148,7 +1148,7 @@
 			]
 		},
 		{
-			"name": "{@item Great-saber|sw5e-phb}",
+			"name": "Great-saber",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -1170,7 +1170,7 @@
 			"dexterity": 11
 		},
 		{
-			"name": "{@item Grenade, fragmentation|sw5e-phb}",
+			"name": "Grenade, fragmentation",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -1182,7 +1182,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, gas|sw5e-phb}",
+			"name": "Grenade, gas",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -1195,7 +1195,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, ion|sw5e-phb}",
+			"name": "Grenade, ion",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -1207,7 +1207,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, plasma|sw5e-phb}",
+			"name": "Grenade, plasma",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -1219,7 +1219,7 @@
 			]
 		},
 		{
-			"name": "{@item Headcomm|sw5e-phb}",
+			"name": "Headcomm",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1231,7 +1231,7 @@
 			]
 		},
 		{
-			"name": "{@item Heat generator|sw5e-phb}",
+			"name": "Heat generator",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1243,7 +1243,7 @@
 			]
 		},
 		{
-			"name": "Heavy {@item Blaster rifle|sw5e-phb}",
+			"name": "Heavy Blaster rifle",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1274,7 +1274,7 @@
 			"rapid": 2
 		},
 		{
-			"name": "{@item Heavy bowcaster|sw5e-phb}",
+			"name": "Heavy bowcaster",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1305,7 +1305,7 @@
 			"burst": 2
 		},
 		{
-			"name": "{@item Heavy carbine|sw5e-phb}",
+			"name": "Heavy carbine",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1336,7 +1336,7 @@
 			"rapid": 4
 		},
 		{
-			"name": "{@item Heavy exoskeleton|sw5e-phb}",
+			"name": "Heavy exoskeleton",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "HA",
@@ -1356,7 +1356,7 @@
 			]
 		},
 		{
-			"name": "Heavy physical {@item Shield|sw5e-phb|shield}",
+			"name": "Heavy physical shield",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "S",
@@ -1376,7 +1376,7 @@
 			]
 		},
 		{
-			"name": "{@item Heavy pistol|sw5e-phb}",
+			"name": "Heavy pistol",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1402,7 +1402,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Heavy repeater|sw5e-phb}",
+			"name": "Heavy repeater",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1436,7 +1436,7 @@
 			"rapid": 4
 		},
 		{
-			"name": "Heavy {@item Shield|sw5e-phb|shield} generator",
+			"name": "Heavy shield generator",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "S",
@@ -1452,7 +1452,7 @@
 			]
 		},
 		{
-			"name": "{@item Heavy shotgun|sw5e-phb}",
+			"name": "Heavy shotgun",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1482,7 +1482,7 @@
 			"burst": 2
 		},
 		{
-			"name": "{@item Heavy slugpistol|sw5e-phb}",
+			"name": "Heavy slugpistol",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1509,7 +1509,7 @@
 			"rapid": 8
 		},
 		{
-			"name": "{@item Hidden blade|sw5e-phb}",
+			"name": "Hidden blade",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -1531,7 +1531,7 @@
 			]
 		},
 		{
-			"name": "{@item Hold-out|sw5e-phb}",
+			"name": "Hold-out",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1559,7 +1559,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Holocomm|sw5e-phb}",
+			"name": "Holocomm",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1571,7 +1571,7 @@
 			]
 		},
 		{
-			"name": "{@item Holocron|sw5e-phb}",
+			"name": "Holocron",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1583,7 +1583,7 @@
 			]
 		},
 		{
-			"name": "{@item Holorecorder|sw5e-phb}",
+			"name": "Holorecorder",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1595,7 +1595,7 @@
 			]
 		},
 		{
-			"name": "{@item Holotrace device|sw5e-phb}",
+			"name": "Holotrace device",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1607,7 +1607,7 @@
 			]
 		},
 		{
-			"name": "{@item Homing beacon|sw5e-phb}",
+			"name": "Homing beacon",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1619,7 +1619,7 @@
 			]
 		},
 		{
-			"name": "{@item Hunting rifle|sw5e-phb}",
+			"name": "Hunting rifle",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1647,7 +1647,7 @@
 			"strength": 11
 		},
 		{
-			"name": "{@item Hydrospanner|sw5e-phb}",
+			"name": "Hydrospanner",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1659,7 +1659,7 @@
 			]
 		},
 		{
-			"name": "{@item Ion cannon|sw5e-phb}",
+			"name": "Ion cannon",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1691,7 +1691,7 @@
 			"burst": 4
 		},
 		{
-			"name": "{@item Ion carbine|sw5e-phb}",
+			"name": "Ion carbine",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1718,7 +1718,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Ion pistol|sw5e-phb}",
+			"name": "Ion pistol",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1744,7 +1744,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Ion rifle|sw5e-phb}",
+			"name": "Ion rifle",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1771,7 +1771,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Jetpack|sw5e-phb}",
+			"name": "Jetpack",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -1788,7 +1788,7 @@
 			}
 		},
 		{
-			"name": "Light physical {@item Shield|sw5e-phb|shield}",
+			"name": "Light physical shield",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "S",
@@ -1804,7 +1804,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Light pistol|sw5e-phb}",
+			"name": "Light pistol",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1831,7 +1831,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Light repeater|sw5e-phb}",
+			"name": "Light repeater",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1861,7 +1861,7 @@
 			"rapid": 5
 		},
 		{
-			"name": "Light {@item Shield|sw5e-phb|shield} generator",
+			"name": "Light shield generator",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "S",
@@ -1877,7 +1877,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Light slugpistol|sw5e-phb}",
+			"name": "Light slugpistol",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -1903,7 +1903,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Light-lance|sw5e-phb}",
+			"name": "Light-lance",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -1926,7 +1926,7 @@
 			"dexterity": 11
 		},
 		{
-			"name": "{@item Lightaxe|sw5e-phb}",
+			"name": "Lightaxe",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -1948,7 +1948,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "{@item Lightblade|sw5e-phb}",
+			"name": "Lightblade",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -1969,7 +1969,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "{@item Lightclub|sw5e-phb}",
+			"name": "Lightclub",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -1991,7 +1991,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "{@item Lightdagger|sw5e-phb}",
+			"name": "Lightdagger",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2015,7 +2015,7 @@
 			"range": "20/60"
 		},
 		{
-			"name": "{@item Lightfoil|sw5e-phb}",
+			"name": "Lightfoil",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2036,7 +2036,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "{@item Lightsaber|sw5e-phb}",
+			"name": "Lightsaber",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2058,7 +2058,7 @@
 			]
 		},
 		{
-			"name": "{@item Lightstaff|sw5e-phb}",
+			"name": "Lightstaff",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2093,7 +2093,7 @@
 			]
 		},
 		{
-			"name": "{@item Macrobinoculars|sw5e-phb}",
+			"name": "Macrobinoculars",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2105,7 +2105,7 @@
 			]
 		},
 		{
-			"name": "{@item Martial lightsaber|sw5e-phb}",
+			"name": "Martial lightsaber",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2127,7 +2127,7 @@
 			]
 		},
 		{
-			"name": "{@item Mechanic's kit|sw5e-phb}",
+			"name": "Mechanic's kit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -2139,7 +2139,7 @@
 			]
 		},
 		{
-			"name": "Medium physical {@item Shield|sw5e-phb|shield}",
+			"name": "Medium physical shield",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "S",
@@ -2158,7 +2158,7 @@
 			]
 		},
 		{
-			"name": "Medium {@item Shield|sw5e-phb|shield} generator",
+			"name": "Medium shield generator",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "S",
@@ -2174,7 +2174,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Medpac|sw5e-phb}",
+			"name": "Medpac",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2186,7 +2186,7 @@
 			]
 		},
 		{
-			"name": "{@item Mesh armor|sw5e-phb}",
+			"name": "Mesh armor",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "MA",
@@ -2202,7 +2202,7 @@
 			"strength": null
 		},
 		{
-			"name": "{@item Mess kit|sw5e-phb}",
+			"name": "Mess kit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2214,7 +2214,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, fragmentation|sw5e-phb}",
+			"name": "Mine, fragmentation",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -2226,7 +2226,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, gas|sw5e-phb}",
+			"name": "Mine, gas",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -2238,7 +2238,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, incendiary|sw5e-phb}",
+			"name": "Mine, incendiary",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -2251,7 +2251,7 @@
 			]
 		},
 		{
-			"name": "{@item Mirror|sw5e-phb}",
+			"name": "Mirror",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2263,7 +2263,7 @@
 			]
 		},
 		{
-			"name": "{@item Missile, fragmentation|sw5e-phb}",
+			"name": "Missile, fragmentation",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AF",
@@ -2297,7 +2297,7 @@
 			"range": "15"
 		},
 		{
-			"name": "{@item Ommni box|sw5e-phb}",
+			"name": "Ommni box",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "INS",
@@ -2309,7 +2309,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Pazaak deck|sw5e-phb}",
+			"name": "Pazaak deck",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "GS",
@@ -2321,7 +2321,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Pikesaber|sw5e-phb}",
+			"name": "Pikesaber",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2344,7 +2344,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "{@item Pitcher|sw5e-phb}",
+			"name": "Pitcher",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2356,7 +2356,7 @@
 			]
 		},
 		{
-			"name": "{@item Pocket scrambler|sw5e-phb}",
+			"name": "Pocket scrambler",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2368,7 +2368,7 @@
 			]
 		},
 		{
-			"name": "{@item Poison|sw5e-phb}",
+			"name": "Poison",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2381,7 +2381,7 @@
 			"poison": true
 		},
 		{
-			"name": "{@item Poisoner's kit|sw5e-phb}",
+			"name": "Poisoner's kit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -2408,7 +2408,7 @@
 			}
 		},
 		{
-			"name": "{@item Power cell|sw5e-phb}",
+			"name": "Power cell",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AF",
@@ -2420,7 +2420,7 @@
 			]
 		},
 		{
-			"name": "{@item Priest's Pack|sw5e-phb}",
+			"name": "Priest's Pack",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
@@ -2430,7 +2430,7 @@
 			]
 		},
 		{
-			"name": "{@item Projector canister, cryo|sw5e-phb}",
+			"name": "Projector canister, cryo",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AF",
@@ -2442,7 +2442,7 @@
 			]
 		},
 		{
-			"name": "{@item Projector canister, incendiary|sw5e-phb}",
+			"name": "Projector canister, incendiary",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AF",
@@ -2454,7 +2454,7 @@
 			]
 		},
 		{
-			"name": "{@item Ram, portable|sw5e-phb}",
+			"name": "Ram, portable",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2466,7 +2466,7 @@
 			]
 		},
 		{
-			"name": "{@item Remote detonator|sw5e-phb}",
+			"name": "Remote detonator",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2478,7 +2478,7 @@
 			]
 		},
 		{
-			"name": "{@item Repair kit|sw5e-phb}",
+			"name": "Repair kit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2490,7 +2490,7 @@
 			]
 		},
 		{
-			"name": "Repeating {@filter blaster|items|firearm=true}",
+			"name": "Repeating blaster",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2524,7 +2524,7 @@
 			"rapid": 4
 		},
 		{
-			"name": "{@item Respirator|sw5e-phb}",
+			"name": "Respirator",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2536,7 +2536,7 @@
 			]
 		},
 		{
-			"name": "{@item Restraining bolt|sw5e-phb}",
+			"name": "Restraining bolt",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2549,7 +2549,7 @@
 			]
 		},
 		{
-			"name": "{@item Rocket boots|sw5e-phb}",
+			"name": "Rocket boots",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2566,7 +2566,7 @@
 			}
 		},
 		{
-			"name": "{@item Rotary cannon|sw5e-phb}",
+			"name": "Rotary cannon",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2598,7 +2598,7 @@
 			"rapid": 2
 		},
 		{
-			"name": "{@item Sabacc deck|sw5e-phb}",
+			"name": "Sabacc deck",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "GS",
@@ -2610,7 +2610,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Saber-spear|sw5e-phb}",
+			"name": "Saber-spear",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2633,7 +2633,7 @@
 			"range": "20/60"
 		},
 		{
-			"name": "{@item Saberwhip|sw5e-phb}",
+			"name": "Saberwhip",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2655,7 +2655,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "{@item Scattergun|sw5e-phb}",
+			"name": "Scattergun",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2684,7 +2684,7 @@
 			"burst": 2
 		},
 		{
-			"name": "{@item Scholar's Pack|sw5e-phb}",
+			"name": "Scholar's Pack",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "G",
@@ -2694,7 +2694,7 @@
 			]
 		},
 		{
-			"name": "{@item Security kit|sw5e-phb}",
+			"name": "Security kit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -2706,7 +2706,7 @@
 			]
 		},
 		{
-			"name": "{@item Shield|sw5e-phb}",
+			"name": "Shield",
 			"source": "sw5e-phb",
 			"page": 167,
 			"type": "S",
@@ -2719,7 +2719,7 @@
 			]
 		},
 		{
-			"name": "{@item Shotgun|sw5e-phb}",
+			"name": "Shotgun",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2749,7 +2749,7 @@
 			"burst": 2
 		},
 		{
-			"name": "{@item Shotosaber|sw5e-phb}",
+			"name": "Shotosaber",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2771,7 +2771,7 @@
 			]
 		},
 		{
-			"name": "{@item Shovel|sw5e-phb}",
+			"name": "Shovel",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2783,7 +2783,7 @@
 			]
 		},
 		{
-			"name": "{@item Slicer's kit|sw5e-phb}",
+			"name": "Slicer's kit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -2795,7 +2795,7 @@
 			]
 		},
 		{
-			"name": "{@item Slug cartridge|sw5e-phb}",
+			"name": "Slug cartridge",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AF",
@@ -2807,7 +2807,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Slugpistol|sw5e-phb}",
+			"name": "Slugpistol",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2836,7 +2836,7 @@
 			"rapid": 8
 		},
 		{
-			"name": "{@item Slugthrower|sw5e-phb}",
+			"name": "Slugthrower",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2862,7 +2862,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Sniper rifle|sw5e-phb}",
+			"name": "Sniper rifle",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2891,7 +2891,7 @@
 			"strength": 13
 		},
 		{
-			"name": "{@item Splitsaber|sw5e-phb}",
+			"name": "Splitsaber",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2912,7 +2912,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "{@item Splitshoto|sw5e-phb}",
+			"name": "Splitshoto",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -2934,7 +2934,7 @@
 			"dmgType": "Energy"
 		},
 		{
-			"name": "{@skill Stealth|sw5e-phb} field generator",
+			"name": "Stealth field generator",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2946,7 +2946,7 @@
 			]
 		},
 		{
-			"name": "{@item Stylus pen|sw5e-phb}",
+			"name": "Stylus pen",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -2958,7 +2958,7 @@
 			]
 		},
 		{
-			"name": "{@item Subrepeater|sw5e-phb}",
+			"name": "Subrepeater",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -2990,7 +2990,7 @@
 			"rapid": 4
 		},
 		{
-			"name": "{@item Techaxe|sw5e-phb}",
+			"name": "Techaxe",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3011,7 +3011,7 @@
 			"range": "25/75"
 		},
 		{
-			"name": "{@item Techblade|sw5e-phb}",
+			"name": "Techblade",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3031,7 +3031,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "{@item Techstaff|sw5e-phb}",
+			"name": "Techstaff",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3053,7 +3053,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "{@item Tent, two-person|sw5e-phb}",
+			"name": "Tent, two-person",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -3065,7 +3065,7 @@
 			]
 		},
 		{
-			"name": "{@item Thermal detonator|sw5e-phb}",
+			"name": "Thermal detonator",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "EXP",
@@ -3077,7 +3077,7 @@
 			]
 		},
 		{
-			"name": "{@item Tinker's implements|sw5e-phb}",
+			"name": "Tinker's implements",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "AT",
@@ -3089,7 +3089,7 @@
 			"weight": 0.0
 		},
 		{
-			"name": "{@item Tracker utility vest|sw5e-phb}",
+			"name": "Tracker utility vest",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -3101,7 +3101,7 @@
 			]
 		},
 		{
-			"name": "{@item Trapper's kit|sw5e-phb}",
+			"name": "Trapper's kit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "T",
@@ -3113,7 +3113,7 @@
 			]
 		},
 		{
-			"name": "{@item Traumakit|sw5e-phb}",
+			"name": "Traumakit",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -3125,7 +3125,7 @@
 			]
 		},
 		{
-			"name": "{@item Tripod|sw5e-phb}",
+			"name": "Tripod",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",
@@ -3138,7 +3138,7 @@
 			"bonusSavingThrow": "+1"
 		},
 		{
-			"name": "{@item Vibroaxe|sw5e-phb}",
+			"name": "Vibroaxe",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3159,7 +3159,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "{@item Vibroblade|sw5e-phb}",
+			"name": "Vibroblade",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3179,7 +3179,7 @@
 			"dmg2": "1d10"
 		},
 		{
-			"name": "{@item Vibrodagger|sw5e-phb}",
+			"name": "Vibrodagger",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3201,7 +3201,7 @@
 			"range": "20/60"
 		},
 		{
-			"name": "{@item Vibrodart|sw5e-phb}",
+			"name": "Vibrodart",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3223,7 +3223,7 @@
 			"range": "20/60"
 		},
 		{
-			"name": "{@item Vibroknuckler|sw5e-phb}",
+			"name": "Vibroknuckler",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3243,7 +3243,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "{@item Vibromace|sw5e-phb}",
+			"name": "Vibromace",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3264,7 +3264,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "{@item Vibropike|sw5e-phb}",
+			"name": "Vibropike",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3286,7 +3286,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "{@item Vibrorapier|sw5e-phb}",
+			"name": "Vibrorapier",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3305,7 +3305,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "{@item Vibrospear|sw5e-phb}",
+			"name": "Vibrospear",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3327,7 +3327,7 @@
 			"range": "25/75"
 		},
 		{
-			"name": "{@item Vibrostaff|sw5e-phb}",
+			"name": "Vibrostaff",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3347,7 +3347,7 @@
 			"dmg2": "2d4"
 		},
 		{
-			"name": "{@item Vibrosword|sw5e-phb}",
+			"name": "Vibrosword",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3368,7 +3368,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "{@item Vibrowhip|sw5e-phb}",
+			"name": "Vibrowhip",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "M",
@@ -3388,7 +3388,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "{@item Weave armor|sw5e-phb}",
+			"name": "Weave armor",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "MA",
@@ -3404,7 +3404,7 @@
 			"strength": null
 		},
 		{
-			"name": "{@item Wrist launcher|sw5e-phb}",
+			"name": "Wrist launcher",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -3429,7 +3429,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Wristblaster|sw5e-phb}",
+			"name": "Wristblaster",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "R",
@@ -3458,7 +3458,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@item Wristpad|sw5e-phb}",
+			"name": "Wristpad",
 			"source": "sw5e-phb",
 			"page": 0,
 			"type": "G",

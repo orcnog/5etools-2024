@@ -2893,8 +2893,8 @@
 			]
 		},
 		{
-			"name": "Assault {@feat Specialist|sw5e-phb}",
-			"shortName": "Assault {@feat Specialist|sw5e-phb}",
+			"name": "Assault Specialist",
+			"shortName": "Assault Specialist",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -2914,8 +2914,8 @@
 			]
 		},
 		{
-			"name": "Blademaster {@feat Specialist|sw5e-phb}",
-			"shortName": "Blademaster {@feat Specialist|sw5e-phb}",
+			"name": "Blademaster Specialist",
+			"shortName": "Blademaster Specialist",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -2931,15 +2931,15 @@
 			]
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
-			"shortName": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
+			"name": "Shield Specialist",
+			"shortName": "Shield Specialist",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
 				"{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|3",
-				"{@book techcasting|sw5e-phb|10|Force- and Tech-casting}|Fighter|sw5e-phb|Shield Specialist|sw5e-phb|3",
+				"{@book techcasting|sw5e-phb|10|Force- and Tech-casting}|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|3",
 				"Stay in Formation|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|3",
 				"Rallying Cry|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|7",
 				"Inspiring Surge|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|10",
@@ -2951,7 +2951,7 @@
 					"title": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting}",
 					"subclasses": [
 						{
-							"name": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
+							"name": "Shield Specialist",
 							"source": "sw5e-phb"
 						}
 					],
@@ -3071,8 +3071,8 @@
 			]
 		},
 		{
-			"name": "Tactical {@feat Specialist|sw5e-phb}",
-			"shortName": "Tactical {@feat Specialist|sw5e-phb}",
+			"name": "Tactical Specialist",
+			"shortName": "Tactical Specialist",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -3081,16 +3081,16 @@
 				"Tactical {@feat Specialist|sw5e-phb}|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|3",
 				"Bonus Proficiencies|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|3",
 				"Improved Combat Superiority|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|3",
-				"{@book maneuver|sw5e-phb|13|Maneuvers} Versatility|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|3",
+				"{@book maneuver|sw5e-phb|13|Maneuvers} Versatility|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|3",
 				"Know Your Enemy|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|7",
-				"{@book maneuver|sw5e-phb|13|Maneuvers} Adept|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|10",
+				"{@book maneuver|sw5e-phb|13|Maneuvers} Adept|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|10",
 				"Relentless|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|15",
-				"{@book maneuver|sw5e-phb|13|Maneuvers} Mastery|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|18"
+				"{@book maneuver|sw5e-phb|13|Maneuvers} Mastery|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|18"
 			]
 		},
 		{
-			"name": "{@optfeature Makashi Form|sw5e-phb}",
-			"shortName": "{@optfeature Makashi Form|sw5e-phb}",
+			"name": "Makashi Form",
+			"shortName": "Makashi Form",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -3106,8 +3106,8 @@
 			]
 		},
 		{
-			"name": "{@optfeature Niman Form|sw5e-phb}",
-			"shortName": "{@optfeature Niman Form|sw5e-phb}",
+			"name": "Niman Form",
+			"shortName": "Niman Form",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -3123,8 +3123,8 @@
 			]
 		},
 		{
-			"name": "Shien/{@optfeature Djem So Form|sw5e-phb}",
-			"shortName": "Shien/{@optfeature Djem So Form|sw5e-phb}",
+			"name": "Shien/Djem So Form",
+			"shortName": "Shien/Djem So Form",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -3141,8 +3141,8 @@
 			]
 		},
 		{
-			"name": "{@optfeature Soresu Form|sw5e-phb}",
-			"shortName": "{@optfeature Soresu Form|sw5e-phb}",
+			"name": "Soresu Form",
+			"shortName": "Soresu Form",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -3688,7 +3688,7 @@
 			]
 		},
 		{
-			"name": "{@spell Danger Sense|sw5e-phb}",
+			"name": "Danger Sense",
 			"className": "Berserker",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -4076,7 +4076,7 @@
 			]
 		},
 		{
-			"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
+			"name": "forcecasting",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -4086,7 +4086,7 @@
 				"In your meditations on the force, you have learned powers, fragments of knowledge that imbue you with an abiding force ability. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11|Force Powers} for the {@book force powers list|sw5e-phb|11|Force Powers}.",
 				{
 					"type": "entries",
-					"name": "{@book Force Powers Known|sw5e-phb|11|Force Powers}",
+					"name": "Force Powers Known",
 					"entries": [
 						"You learn 9 {@book force powers|sw5e-phb|11|Force Powers} of your choice, and you learn more at higher levels, as shown in the {@book Force Powers Known|sw5e-phb|11|Force Powers} column of the consular table. You may not learn a {@book force power|sw5e-phb|11|Force Powers} of a level higher than your Max Power Level, and you may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time you learn its prerequisite."
 					]
@@ -4108,7 +4108,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting} Ability",
+					"name": "Force- and Tech-casting Ability",
 					"entries": [
 						"Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. You use Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (your choice). You use this ability whenever a power refers to your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Force save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} modifier",
@@ -4141,7 +4141,7 @@
 			]
 		},
 		{
-			"name": "Force {@item Shield|sw5e-phb}",
+			"name": "Force Shield",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -4295,7 +4295,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature One with the Force|sw5e-phb}",
+			"name": "One with the Force",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -4454,7 +4454,7 @@
 			]
 		},
 		{
-			"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting}",
+			"name": "techcasting",
 			"className": "Engineer",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -4464,7 +4464,7 @@
 				"During your training you have derived powers from schematics with the aid of your {@item Wristpad|sw5e-phb|wristpad}. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book techcasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 12|sw5e-phb|12|Tech Powers} for the {@book tech powers list|sw5e-phb|12|Tech Powers}.",
 				{
 					"type": "entries",
-					"name": "{@book Tech Powers Known|sw5e-phb|12|Tech Powers}",
+					"name": "Tech Powers Known",
 					"entries": [
 						"You learn 6 {@book tech powers|sw5e-phb|12|Tech Powers} of your choice, and you learn more at higher levels, as shown in the {@book Tech Powers Known|sw5e-phb|12|Tech Powers} column of the engineer table. You may not learn a {@book tech power|sw5e-phb|12|Tech Powers} of a level higher than your Max Power Level."
 					]
@@ -4486,7 +4486,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} Ability",
+					"name": "Force- and Tech-casting Ability",
 					"entries": [
 						"Intelligence is your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} for your {@book tech powers|sw5e-phb|12|Tech Powers}. You use your Intelligence whenever a power refers to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability}. Additionally, you use your Intelligence modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book tech power|sw5e-phb|12|Tech Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Tech save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Intelligence modifier",
@@ -4495,7 +4495,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} Focus",
+					"name": "Force- and Tech-casting Focus",
 					"entries": [
 						"You use a {@item Wristpad|sw5e-phb|wristpad} (found in {@book chapter 5|sw5e-phb|5}) or the tools in which you are granted proficiency by this class as a tech focus for your {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
@@ -4530,7 +4530,7 @@
 			]
 		},
 		{
-			"name": "Tool {@variantrule Expertise|sw5e-phb}",
+			"name": "Tool Expertise",
 			"className": "Engineer",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -4749,7 +4749,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers}",
+					"name": "Superiority Dice",
 					"entries": [
 						"You have two {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}, which are d4s, and you earn more at higher levels, as shown in the {@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Quantity column of the fighter table. This die changes as you gain fighter levels, as shown in the {@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Size column of the fighter table. A superiority die is expended when you use it.",
 						"You regain all of your expended {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers} when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -4757,7 +4757,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book maneuver|sw5e-phb|13|Maneuvers} Ability",
+					"name": "Maneuvers Ability",
 					"entries": [
 						"Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} varies based on the type of the {@book maneuver|sw5e-phb|13|Maneuvers} you use. You use Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}. You use this ability whenever a {@book maneuver|sw5e-phb|13|Maneuvers} refers to your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book maneuver|sw5e-phb|13|Maneuvers} you use.",
 						"{@b Maneuver save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} modifier"
@@ -4966,7 +4966,7 @@
 				"The strategies are presented in alphabetical order.",
 				{
 					"type": "entries",
-					"name": "{@variantrule Cover|sw5e-phb} Strategist",
+					"name": "Cover Strategist",
 					"entries": [
 						"You treat partial {@variantrule Cover|sw5e-phb|cover} as one step higher (from one-quarter to half or half to three-quarters). While in {@variantrule Cover|sw5e-phb|cover}, your attacks reduce partial {@variantrule Cover|sw5e-phb|cover} by one step (from three-quarters to half or half to one-quarter)."
 					]
@@ -4975,7 +4975,7 @@
 					"type": "entries",
 					"name": "Cunning Strategist",
 					"entries": [
-						"Choose two from the following. You can {@optfeature Perform|sw5e-phb|perform} each of the chosen options with your {@variantrule Bonus Action|sw5e-phb}, instead of your action:",
+						"Choose two from the following. You can perform each of the chosen options with your {@variantrule Bonus Action|sw5e-phb}, instead of your action:",
 						{
 							"type": "list",
 							"items": [
@@ -5016,7 +5016,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book maneuver|sw5e-phb|13|Maneuvers} Strategist",
+					"name": "Maneuvers Strategist",
 					"entries": [
 						"You learn two additional {@book maneuvers|sw5e-phb|13|Maneuvers}. When you complete a {@variantrule Short Rest|sw5e-phb|short rest}, you can replace one of these {@book maneuvers|sw5e-phb|13|Maneuvers} with another one. When you complete a {@variantrule Long Rest|sw5e-phb|long rest}, you can replace both of these {@book maneuvers|sw5e-phb|13|Maneuvers} with other ones."
 					]
@@ -5093,7 +5093,7 @@
 			]
 		},
 		{
-			"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
+			"name": "forcecasting",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -5103,7 +5103,7 @@
 				"In your meditations on the Force, you have learned powers, fragments of knowledge that imbue you with an abiding force ability. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11|Force Powers} for the {@book force powers list|sw5e-phb|11|Force Powers}.",
 				{
 					"type": "entries",
-					"name": "{@book Force Powers Known|sw5e-phb|11|Force Powers}",
+					"name": "Force Powers Known",
 					"entries": [
 						"You learn 5 {@book force powers|sw5e-phb|11|Force Powers} of your choice, and you learn more at higher levels, as shown in the {@book Force Powers Known|sw5e-phb|11|Force Powers} column of the guardian table. You may not learn a {@book force power|sw5e-phb|11|Force Powers} of a level higher than your Max Power Level, and you may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time you learn its prerequisite."
 					]
@@ -5125,7 +5125,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting} Ability",
+					"name": "Force- and Tech-casting Ability",
 					"entries": [
 						"Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. You use Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (your choice). You use this ability whenever a power refers to your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Force save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} modifier",
@@ -5383,7 +5383,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@spell Aura of Vigor|sw5e-phb}",
+					"name": "Aura of Vigor",
 					"entries": [
 						"Whenever a friendly creature starts its turn within 5 feet of you, that creature gains temporary {@variantrule Hit Points|sw5e-phb|hit points} equal to your Wisdom or Charisma modifier (your choice, minimum of one)."
 					]
@@ -5940,7 +5940,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Vow of {@spell Restoration|sw5e-phb}",
+					"name": "Vow of Restoration",
 					"entries": [
 						"When you would make an unarmed strike, you can spend 1 focus point to instead touch a willing creature within your reach. Roll your Martial Arts die. The target gains {@variantrule Hit Points|sw5e-phb|hit points} equal to the amount rolled + your Wisdom or Charisma modifier (your choice, minimum of +1)."
 					]
@@ -6020,7 +6020,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Expertise|sw5e-phb}",
+			"name": "Expertise",
 			"className": "Operative",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -6032,7 +6032,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Expertise|sw5e-phb}",
+			"name": "Expertise",
 			"className": "Operative",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -6452,7 +6452,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers}",
+					"name": "Superiority Dice",
 					"entries": [
 						"You have three {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}, which are d4s, and you earn more at higher levels, as shown in the {@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Quantity column of the scholar table. This die changes as you gain scholar levels, as shown in the {@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Size column of the scholar table. A superiority die is expended when you use it.",
 						"You regain all of your expended {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers} when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -6460,7 +6460,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book maneuver|sw5e-phb|13|Maneuvers} Ability",
+					"name": "Maneuvers Ability",
 					"entries": [
 						"Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} varies based on the type of the {@book maneuver|sw5e-phb|13|Maneuvers} you use. You use Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}. You use this ability whenever a {@book maneuver|sw5e-phb|13|Maneuvers} refers to your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book maneuver|sw5e-phb|13|Maneuvers} you use.",
 						"{@b Maneuver save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} modifier"
@@ -6523,7 +6523,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Expertise|sw5e-phb}",
+			"name": "Expertise",
 			"className": "Scholar",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -6535,7 +6535,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Expertise|sw5e-phb}",
+			"name": "Expertise",
 			"className": "Scholar",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -6802,7 +6802,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Perfect {@book maneuver|sw5e-phb|13|Maneuvers}",
+					"name": "Perfect Maneuvers",
 					"entries": [
 						"Your superiority die rolls gain a minimum roll threshold, discussed in chapter 7."
 					]
@@ -6844,7 +6844,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@skill Survival|sw5e-phb} Expert",
+					"name": "Survival Expert",
 					"entries": [
 						"When you make a {@skill Survival|sw5e-phb} skill check, you may use your Critical Analysis ability modifier instead of your Wisdom modifier.",
 						"Additionally, you have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@item Poison|sw5e-phb|poison}."
@@ -7028,7 +7028,7 @@
 			]
 		},
 		{
-			"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting}",
+			"name": "techcasting",
 			"className": "Scout",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -7038,7 +7038,7 @@
 				"You have derived powers from schematics with the aid of your {@item Wristpad|sw5e-phb|wristpad}. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book techcasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 12|sw5e-phb|12|Tech Powers} for the {@book tech powers list|sw5e-phb|12|Tech Powers}.",
 				{
 					"type": "entries",
-					"name": "{@book Tech Powers Known|sw5e-phb|12|Tech Powers}",
+					"name": "Tech Powers Known",
 					"entries": [
 						"You learn 4 {@book tech powers|sw5e-phb|12|Tech Powers} of your choice, and you learn more at higher levels, as shown in the {@book Tech Powers Known|sw5e-phb|12|Tech Powers} column of the scout table. You may not learn a {@book tech power|sw5e-phb|12|Tech Powers} of a level higher than your Max Power Level."
 					]
@@ -7060,7 +7060,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} Ability",
+					"name": "Force- and Tech-casting Ability",
 					"entries": [
 						"Intelligence is your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} for your {@book tech powers|sw5e-phb|12|Tech Powers}. You use your Intelligence whenever a power refers to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability}. Additionally, you use your Intelligence modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book tech power|sw5e-phb|12|Tech Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Tech save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Intelligence modifier",
@@ -7069,7 +7069,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} Focus",
+					"name": "Force- and Tech-casting Focus",
 					"entries": [
 						"You use a {@item Wristpad|sw5e-phb|wristpad} (found in {@book chapter 5|sw5e-phb|5}) as a tech focus for your {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
@@ -7209,7 +7209,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Expertise|sw5e-phb}",
+			"name": "Expertise",
 			"className": "Scout",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -7221,7 +7221,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Expertise|sw5e-phb}",
+			"name": "Expertise",
 			"className": "Scout",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -7233,7 +7233,7 @@
 			]
 		},
 		{
-			"name": "{@feat Commando|sw5e-phb}",
+			"name": "Commando",
 			"className": "Scout",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -7393,7 +7393,7 @@
 			]
 		},
 		{
-			"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
+			"name": "forcecasting",
 			"className": "Sentinel",
 			"classSource": "sw5e-phb",
 			"source": "sw5e-phb",
@@ -7403,7 +7403,7 @@
 				"In your meditations on the force, you have learned powers, fragments of knowledge that imbue you with an abiding force ability. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11|Force Powers} for the {@book force powers list|sw5e-phb|11|Force Powers}.",
 				{
 					"type": "entries",
-					"name": "{@book Force Powers Known|sw5e-phb|11|Force Powers}",
+					"name": "Force Powers Known",
 					"entries": [
 						"You learn 7 {@book force powers|sw5e-phb|11|Force Powers} of your choice, and you learn more at higher levels, as shown in the {@book Force Powers Known|sw5e-phb|11|Force Powers} column of the sentinel table. You may not learn a {@book force power|sw5e-phb|11|Force Powers} of a level higher than your Max Power Level, and you may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time you learn its prerequisite."
 					]
@@ -7425,7 +7425,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting} Ability",
+					"name": "Force- and Tech-casting Ability",
 					"entries": [
 						"Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. You use Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (your choice). You use this ability whenever a power refers to your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Force save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} modifier",
@@ -7776,7 +7776,7 @@
 			]
 		},
 		{
-			"name": "{@spell Firestorm|sw5e-phb}",
+			"name": "Firestorm",
 			"className": "Berserker",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Ballistic Approach",
@@ -7841,7 +7841,7 @@
 			"header": 2
 		},
 		{
-			"name": "{@optfeature Rampage|sw5e-phb}",
+			"name": "Rampage",
 			"className": "Berserker",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Ballistic Approach",
@@ -8080,7 +8080,7 @@
 			]
 		},
 		{
-			"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
+			"name": "forcecasting",
 			"className": "Berserker",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Marauder Approach",
@@ -8092,7 +8092,7 @@
 				"You have derived powers from your primal connection to the Force. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11|Force Powers} for the {@book force powers list|sw5e-phb|11|Force Powers}.",
 				{
 					"type": "entries",
-					"name": "Marauder Approach {@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
+					"name": "Marauder Approach Force- and Tech-casting",
 					"entries": [
 						{
 							"type": "table",
@@ -8223,7 +8223,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book Force Powers Known|sw5e-phb|11|Force Powers}",
+					"name": "Force Powers Known",
 					"entries": [
 						"You learn 4 {@book force powers|sw5e-phb|11|Force Powers} of your choice, and you learn more at higher levels, as shown in the {@book Force Powers Known|sw5e-phb|11|Force Powers} column of the Marauder Approach {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} table. You may not learn a {@book force power|sw5e-phb|11|Force Powers} of a level higher than your Max Power Level, and you may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time you learn its prerequisite."
 					]
@@ -8245,7 +8245,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting} Ability",
+					"name": "Force- and Tech-casting Ability",
 					"entries": [
 						"Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. You use Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (your choice). You use this ability whenever a power refers to your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Force save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} modifier",
@@ -8300,7 +8300,7 @@
 			"header": 2
 		},
 		{
-			"name": "{@spell Force Storm|sw5e-phb}",
+			"name": "Force Storm",
 			"className": "Berserker",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Marauder Approach",
@@ -8327,7 +8327,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Barrier|sw5e-phb}",
+			"name": "Force Barrier",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Way of Balance",
@@ -8386,7 +8386,7 @@
 			"header": 2
 		},
 		{
-			"name": "Force {@spell Resistance|sw5e-phb}",
+			"name": "Force Resistance",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Way of Balance",
@@ -8442,7 +8442,7 @@
 			"header": 2
 		},
 		{
-			"name": "Blistering {@spell Rebuke|sw5e-phb}",
+			"name": "Blistering Rebuke",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Way of Lightning",
@@ -8457,7 +8457,7 @@
 			"header": 2
 		},
 		{
-			"name": "Blistering {@spell Rebuke|sw5e-phb}",
+			"name": "Blistering Rebuke",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Way of Lightning",
@@ -8472,7 +8472,7 @@
 			"header": 2
 		},
 		{
-			"name": "Blistering {@spell Rebuke|sw5e-phb}",
+			"name": "Blistering Rebuke",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Way of Lightning",
@@ -8744,7 +8744,7 @@
 			"header": 2
 		},
 		{
-			"name": "Blessed {@feat Healer|sw5e-phb}",
+			"name": "Blessed Healer",
 			"className": "Consular",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Way of the Sage",
@@ -8823,7 +8823,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"You learn to modify one unenhanced suit of armor or {@item Shield|sw5e-phb|shield} utilizing your armormech knowledge. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can modify one suit of armor or a {@item Shield|sw5e-phb|shield}. You must have the armor or {@item Shield|sw5e-phb|shield} and {@item Armormech's implements|sw5e-phb|armormech's implements} in order to {@optfeature Perform|sw5e-phb|perform} this modification.",
+				"You learn to modify one unenhanced suit of armor or {@item Shield|sw5e-phb|shield} utilizing your armormech knowledge. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can modify one suit of armor or a {@item Shield|sw5e-phb|shield}. You must have the armor or {@item Shield|sw5e-phb|shield} and {@item Armormech's implements|sw5e-phb|armormech's implements} in order to perform this modification.",
 				"Your modified armor or {@item Shield|sw5e-phb|shield} is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your {@book tech powers|sw5e-phb|12|Tech Powers} while you are attuned to it. Your modified armor has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, your tech point maximum is reduced by 1. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can install, replace, or remove a number of modifications up to your Intelligence modifier (minimum of one).",
 				"Some modification effects require {@variantrule Saving Throw|sw5e-phb|saving throws}. When you use such an effect from this class, the DC equals your tech save DC.",
 				"At 9th level, you can maintain both a modified suit of armor and {@item Shield|sw5e-phb|shield}. Each modified item has modification slots as shown in the Modification Slots column of the engineer table."
@@ -8915,7 +8915,7 @@
 				"The modifications are presented in alphabetical order.",
 				{
 					"type": "entries",
-					"name": "Absorption {@item Shield|sw5e-phb}",
+					"name": "Absorption Shield",
 					"entries": [
 						"{@i {@b Prerequisite:} Physical {@item Shield|sw5e-phb}} You modify your physical {@item Shield|sw5e-phb|shield} to block incoming damage. As a {@variantrule Bonus Action|sw5e-phb} you can activate this ability and gain temporary {@variantrule Hit Points|sw5e-phb|hit points} equal to 1d4 + Intelligence modifier, which last for one hour.",
 						"You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -8966,7 +8966,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@spell Darkvision|sw5e-phb} Visor",
+					"name": "Darkvision Visor",
 					"entries": [
 						"{@i {@b Prerequisite:} Armor} While wearing your modified armor, you have {@sense Darkvision|sw5e-phb|darkvision} to a range of 60 feet. If you already have {@sense Darkvision|sw5e-phb|darkvision}, this modification increases its range by 30 feet."
 					]
@@ -8980,7 +8980,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@spell Electroshock|sw5e-phb} {@item Shield|sw5e-phb}",
+					"name": "Electroshock Shield",
 					"entries": [
 						"{@i {@b Prerequisite:} {@item Shield|sw5e-phb} Generator} You install electroshockers in your {@item Shield|sw5e-phb|shield} generator. Whenever an enemy misses you with a melee attack, you can use your {@variantrule Reaction|sw5e-phb} to do 1d4 + your Intelligence modifier lightning damage to the attacker."
 					]
@@ -9019,14 +9019,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Magnetized {@item Shield|sw5e-phb}",
+					"name": "Magnetized Shield",
 					"entries": [
 						"{@i {@b Prerequisite:} Physical {@item Shield|sw5e-phb}} You modify your physical {@item Shield|sw5e-phb|shield} such that when a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} misses you by an amount less than or equal to your bonus to AC from your {@item Shield|sw5e-phb|shield}, the attacking creature must make a Strength check against your tech save DC. On a failed save, the creature's weapon adheres to the {@item Shield|sw5e-phb|shield}. As an action, a creature can repeat this check. On a success, the weapon is freed."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "{@spell Overload|sw5e-phb} {@item Shield|sw5e-phb}",
+					"name": "Overload Shield",
 					"entries": [
 						"{@i {@b Prerequisite:} {@item Shield|sw5e-phb} Generator} You modify your {@item Shield|sw5e-phb|shield} generator to {@spell Overload|sw5e-phb|overload}. As an action you can {@spell Overload|sw5e-phb|overload} your {@item Shield|sw5e-phb|shield}. Each Large or smaller creature within 5 feet of you must make a Dexterity or Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (their choice). On a failed save, they are pushed back 5 feet and knocked {@condition Prone|sw5e-phb|prone}.",
 						"You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -9057,7 +9057,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@spell Resistance|sw5e-phb}",
+					"name": "Resistance",
 					"entries": [
 						"{@i {@b Prerequisite:} Armor} You tune your modified armor against certain forms of damage. Choose acid, cold, fire, ion, lightning, or sonic damage. While wearing your modified armor you have {@spell Resistance|sw5e-phb|resistance} to that type of damage.",
 						"You can select this modification multiple times. Each time you do so, you must choose a different damage type."
@@ -9081,7 +9081,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@item Shield|sw5e-phb} Amplifier",
+					"name": "Shield Amplifier",
 					"entries": [
 						"{@i {@b Prerequisite:} {@item Shield|sw5e-phb} Generator} You modify your {@item Shield|sw5e-phb|shield} generator to {@spell Project|sw5e-phb|project} outward. As a {@variantrule Bonus Action|sw5e-phb} you can amplify your {@item Shield|sw5e-phb|shield} until the start of your next turn. Each creature within 5 feet of you gains a bonus to AC equal to your {@item Shield|sw5e-phb|shield}'s bonus.",
 						"You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -9089,7 +9089,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@item Shield|sw5e-phb} Anchor",
+					"name": "Shield Anchor",
 					"entries": [
 						"{@i {@b Prerequisite:} Physical {@item Shield|sw5e-phb}} You modify your {@item Shield|sw5e-phb|shield} to be used as a portable source of {@variantrule Cover|sw5e-phb|cover}. As an action, you can anchor or deanchor the {@item Shield|sw5e-phb|shield}. While anchored, you gain no benefit from a {@item Shield|sw5e-phb|shield}, and it does not require the use of a hand. Instead, while anchored, a light {@item Shield|sw5e-phb|shield} provides one-quarter {@variantrule Cover|sw5e-phb|cover}, a medium {@item Shield|sw5e-phb|shield} provides {@variantrule Cover|sw5e-phb|half cover}, and a heavy {@item Shield|sw5e-phb|shield} provides three-quarters {@variantrule Cover|sw5e-phb|cover}."
 					]
@@ -9148,7 +9148,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"You learn to modify one unenhanced weapon with which you are proficient utilizing your armstech experience. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can modify the weapon. You must have the weapon and {@item Armstech's implements|sw5e-phb|armstech's implements} in order to {@optfeature Perform|sw5e-phb|perform} this modification.",
+				"You learn to modify one unenhanced weapon with which you are proficient utilizing your armstech experience. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can modify the weapon. You must have the weapon and {@item Armstech's implements|sw5e-phb|armstech's implements} in order to perform this modification.",
 				"Your modified weapon is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your {@book tech powers|sw5e-phb|12|Tech Powers} while you are attuned to it. Your modified weapon has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, your tech point maximum is reduced by 1. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can install, replace, or remove a number of modifications up to your Intelligence modifier (minimum of one).",
 				"Some modification effects require {@variantrule Saving Throw|sw5e-phb|saving throws}. When you use such an effect from this class, the DC equals your tech save DC.",
 				"At 9th level, you can maintain two modified weapons. Each modified weapon has modification slots as shown in the Modification Slots column of the engineer table."
@@ -9513,7 +9513,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"You learn to create and modify adventuring gear utilizing your gadgeteer experience. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can create your modified gadgeteer harness. You must have {@item Gadgeteer's implements|sw5e-phb|gadgeteer's implements} in order to {@optfeature Perform|sw5e-phb|perform} this modification.",
+				"You learn to create and modify adventuring gear utilizing your gadgeteer experience. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can create your modified gadgeteer harness. You must have {@item Gadgeteer's implements|sw5e-phb|gadgeteer's implements} in order to perform this modification.",
 				"Your gadgeteer harness is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your {@book tech powers|sw5e-phb|12|Tech Powers} while you are attuned to it. Your gadgeteer harness has 4 modification slots to which you can affix gadgets, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, your tech point maximum is reduced by 1. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can install, replace, or remove a number of modifications up to your Intelligence modifier (minimum of one).",
 				"Some modification effects require {@variantrule Saving Throw|sw5e-phb|saving throws}. When you use such an effect from this class, the DC equals your tech save DC."
 			],
@@ -9672,7 +9672,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@spell Darkvision|sw5e-phb} Goggles",
+					"name": "Darkvision Goggles",
 					"entries": [
 						"You craft a pair of sight-enhancing goggles. While wearing these goggles, you have {@sense Darkvision|sw5e-phb|darkvision} to a range of 60 feet. If you already have {@sense Darkvision|sw5e-phb|darkvision}, this modification increases its range by 30 feet."
 					]
@@ -9769,7 +9769,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Powered {@item Grappling hook|sw5e-phb|Grappling Hook}",
+					"name": "Powered Grappling Hook",
 					"entries": [
 						"{@i {@b Prerequisite:} 9th level, Wrist-Mounted {@item Grappling hook|sw5e-phb|Grappling Hook}} While your wrist-mounted {@item Grappling hook|sw5e-phb|grappling hook} is deployed, when you cast a {@book tech power|sw5e-phb|12|Tech Powers} with a range of touch, your hook can deliver the power as if it had cast it."
 					]
@@ -9834,7 +9834,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@skill Stealth|sw5e-phb} Field Generator",
+					"name": "Stealth Field Generator",
 					"entries": [
 						"{@i {@b Prerequisite:} 9th level} You create an augmented belt that functions as a portable, personal cloaking device. Activating or deactivating the generator requires a {@variantrule Bonus Action|sw5e-phb} and, while active, you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth|sw5e-phb}) {@variantrule Ability Check|sw5e-phb|ability checks} that rely on sight. The generator lasts for 1 minute. This effect ends early if you make an attack or cast a force- or tech- power.",
 						"Once the belt has been activated, it can't be activated again until you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -9871,7 +9871,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Wrist-Mounted {@item Grappling hook|sw5e-phb|Grappling Hook}",
+					"name": "Wrist-Mounted Grappling Hook",
 					"entries": [
 						"You craft a wrist-mounted {@item Grappling hook|sw5e-phb|grappling hook} weapon attached to a tightly coiled cord. With this contraption, you can make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a range of 30/60. On a hit, it deals 1d4 kinetic damage. This attack can target a surface, object, or creature.",
 						"A creature struck by this attack is impaled by the hook. As an action, a creature can attempt to remove the hook. Removing the hook requires a Strength check. While the hook is stuck in the target, you are connected to the target by a 60 foot cable.",
@@ -9919,7 +9919,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"You learn to enhance your {@item Tinker's implements|sw5e-phb|tinker's implements} with unstable science, modifying them into a harness with a cannon. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can modify your {@item Tinker's implements|sw5e-phb|tinker's implements} to create a tinkercannon. You must have {@item Tinker's implements|sw5e-phb|tinker's implements} in order to {@optfeature Perform|sw5e-phb|perform} this modification.",
+				"You learn to enhance your {@item Tinker's implements|sw5e-phb|tinker's implements} with unstable science, modifying them into a harness with a cannon. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can modify your {@item Tinker's implements|sw5e-phb|tinker's implements} to create a tinkercannon. You must have {@item Tinker's implements|sw5e-phb|tinker's implements} in order to perform this modification.",
 				"Whenever you cast a {@book tech power|sw5e-phb|12|Tech Powers} of 1st level or higher while wielding your tinkercannon, you risk unexpected complications. Your GM can have you roll a {@dice d20}. If you roll a 1, roll on the Unstable Engineering Surge table to create a random effect.",
 				"Additionally, your tinkercannon come equipped with four overrides, and they gain more at higher levels, as shown in the Modification Slots column of the engineer table. Each time you trigger an Unstable Engineering Surge, you can use an override to reroll the percentile dice. You must use the new result, you can only do this once per surge, and each time you do so in excess of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} (resetting on a {@variantrule Long Rest|sw5e-phb|long rest}) your maximum tech points is reduced by 1 until you complete a {@variantrule Long Rest|sw5e-phb|long rest}. You regain all expended overrides when you complete a {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
@@ -9935,7 +9935,7 @@
 			"page": 49,
 			"level": 9,
 			"entries": [
-				"You learn to enhance your {@item Tinker's implements|sw5e-phb|tinker's implements} with unstable science, modifying them into a harness with a cannon. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can modify your {@item Tinker's implements|sw5e-phb|tinker's implements} to create a tinkercannon. You must have {@item Tinker's implements|sw5e-phb|tinker's implements} in order to {@optfeature Perform|sw5e-phb|perform} this modification.",
+				"You learn to enhance your {@item Tinker's implements|sw5e-phb|tinker's implements} with unstable science, modifying them into a harness with a cannon. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can modify your {@item Tinker's implements|sw5e-phb|tinker's implements} to create a tinkercannon. You must have {@item Tinker's implements|sw5e-phb|tinker's implements} in order to perform this modification.",
 				"Whenever you cast a {@book tech power|sw5e-phb|12|Tech Powers} of 1st level or higher while wielding your tinkercannon, you risk unexpected complications. Your GM can have you roll a {@dice d20}. If you roll a 1, roll on the Unstable Engineering Surge table to create a random effect.",
 				"Additionally, your tinkercannon come equipped with four overrides, and they gain more at higher levels, as shown in the Modification Slots column of the engineer table. Each time you trigger an Unstable Engineering Surge, you can use an override to reroll the percentile dice. You must use the new result, you can only do this once per surge, and each time you do so in excess of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} (resetting on a {@variantrule Long Rest|sw5e-phb|long rest}) your maximum tech points is reduced by 1 until you complete a {@variantrule Long Rest|sw5e-phb|long rest}. You regain all expended overrides when you complete a {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
@@ -9951,7 +9951,7 @@
 			"page": 49,
 			"level": 17,
 			"entries": [
-				"You learn to enhance your {@item Tinker's implements|sw5e-phb|tinker's implements} with unstable science, modifying them into a harness with a cannon. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can modify your {@item Tinker's implements|sw5e-phb|tinker's implements} to create a tinkercannon. You must have {@item Tinker's implements|sw5e-phb|tinker's implements} in order to {@optfeature Perform|sw5e-phb|perform} this modification.",
+				"You learn to enhance your {@item Tinker's implements|sw5e-phb|tinker's implements} with unstable science, modifying them into a harness with a cannon. Over the course of a {@variantrule Long Rest|sw5e-phb|long rest}, you can modify your {@item Tinker's implements|sw5e-phb|tinker's implements} to create a tinkercannon. You must have {@item Tinker's implements|sw5e-phb|tinker's implements} in order to perform this modification.",
 				"Whenever you cast a {@book tech power|sw5e-phb|12|Tech Powers} of 1st level or higher while wielding your tinkercannon, you risk unexpected complications. Your GM can have you roll a {@dice d20}. If you roll a 1, roll on the Unstable Engineering Surge table to create a random effect.",
 				"Additionally, your tinkercannon come equipped with four overrides, and they gain more at higher levels, as shown in the Modification Slots column of the engineer table. Each time you trigger an Unstable Engineering Surge, you can use an override to reroll the percentile dice. You must use the new result, you can only do this once per surge, and each time you do so in excess of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} (resetting on a {@variantrule Long Rest|sw5e-phb|long rest}) your maximum tech points is reduced by 1 until you complete a {@variantrule Long Rest|sw5e-phb|long rest}. You regain all expended overrides when you complete a {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
@@ -10281,7 +10281,7 @@
 			"header": 2
 		},
 		{
-			"name": "Assault {@feat Specialist|sw5e-phb}",
+			"name": "Assault Specialist",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
@@ -10350,7 +10350,7 @@
 			"header": 2
 		},
 		{
-			"name": "Remarkable {@feat Athlete|sw5e-phb}",
+			"name": "Remarkable Athlete",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Assault {@feat Specialist|sw5e-phb}",
@@ -10437,7 +10437,7 @@
 			"header": 2
 		},
 		{
-			"name": "Blademaster {@feat Specialist|sw5e-phb}",
+			"name": "Blademaster Specialist",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Blademaster {@feat Specialist|sw5e-phb}",
@@ -10514,7 +10514,7 @@
 			"header": 2
 		},
 		{
-			"name": "{@feat Resilient|sw5e-phb} Fighting",
+			"name": "Resilient Fighting",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Blademaster {@feat Specialist|sw5e-phb}",
@@ -10557,7 +10557,7 @@
 			"header": 2
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
+			"name": "Shield Specialist",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
@@ -10570,7 +10570,7 @@
 			]
 		},
 		{
-			"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting}",
+			"name": "techcasting",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}",
@@ -10582,7 +10582,7 @@
 				"You have derived powers from schematics with the aid of your {@item Wristpad|sw5e-phb|wristpad}. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book techcasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 12|sw5e-phb|12|Tech Powers} for the {@book tech powers list|sw5e-phb|12|Tech Powers}.",
 				{
 					"type": "entries",
-					"name": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting}",
+					"name": "Shield Specialist Force- and Tech-casting",
 					"entries": [
 						{
 							"type": "table",
@@ -10713,7 +10713,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book Tech Powers Known|sw5e-phb|12|Tech Powers}",
+					"name": "Tech Powers Known",
 					"entries": [
 						"You learn 3 {@book tech powers|sw5e-phb|12|Tech Powers} of your choice, and you learn more at higher levels, as shown in the {@book Tech Powers Known|sw5e-phb|12|Tech Powers} column of the {@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table. You may not learn a {@book tech power|sw5e-phb|12|Tech Powers} of a level higher than your Max Power Level."
 					]
@@ -10735,7 +10735,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} Ability",
+					"name": "Force- and Tech-casting Ability",
 					"entries": [
 						"Intelligence is your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} for your {@book tech powers|sw5e-phb|12|Tech Powers}. You use your Intelligence whenever a power refers to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability}. Additionally, you use your Intelligence modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book tech power|sw5e-phb|12|Tech Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Tech save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Intelligence modifier",
@@ -10744,7 +10744,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} Focus",
+					"name": "Force- and Tech-casting Focus",
 					"entries": [
 						"You use a {@item Wristpad|sw5e-phb|wristpad} (found in {@book chapter 5|sw5e-phb|5}) as a tech focus for your {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
@@ -10779,7 +10779,7 @@
 				"When you use your Second Wind feature, you can choose up to three allies within 60 feet of you that can see or hear you. Each ally regains {@variantrule Hit Points|sw5e-phb|hit points} equal to your fighter level.",
 				{
 					"type": "entries",
-					"name": "{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting}",
+					"name": "Shield Specialist Force- and Tech-casting",
 					"entries": [
 						"You can choose an additional ally at 9th, 13th, and 17th level."
 					]
@@ -10830,7 +10830,7 @@
 			"header": 2
 		},
 		{
-			"name": "Tactical {@feat Specialist|sw5e-phb}",
+			"name": "Tactical Specialist",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Tactical {@feat Specialist|sw5e-phb}",
@@ -10869,7 +10869,7 @@
 				"Your tactical skill in combat improves, granting bonuses to your Combat Superiority.",
 				{
 					"type": "entries",
-					"name": "{@spell Tactical Superiority|sw5e-phb}",
+					"name": "Tactical Superiority",
 					"entries": [
 						{
 							"type": "table",
@@ -10987,7 +10987,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Improved {@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers}",
+					"name": "Improved Superiority and Maneuvers",
 					"entries": [
 						"You have four {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}, instead of two, and you earn more at higher levels, as shown in the {@book Superiority Dice|sw5e-phb|13|Superiority and Maneuvers} Quantity column of the {@spell Tactical Superiority|sw5e-phb} table."
 					]
@@ -10996,7 +10996,7 @@
 			"header": 2
 		},
 		{
-			"name": "{@book maneuver|sw5e-phb|13|Maneuvers} Versatility",
+			"name": "Maneuvers Versatility",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Tactical {@feat Specialist|sw5e-phb}",
@@ -11037,7 +11037,7 @@
 			"header": 2
 		},
 		{
-			"name": "{@book maneuver|sw5e-phb|13|Maneuvers} Adept",
+			"name": "Maneuvers Adept",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Tactical {@feat Specialist|sw5e-phb}",
@@ -11065,7 +11065,7 @@
 			"header": 2
 		},
 		{
-			"name": "{@book maneuver|sw5e-phb|13|Maneuvers} Mastery",
+			"name": "Maneuvers Mastery",
 			"className": "Fighter",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Tactical {@feat Specialist|sw5e-phb}",
@@ -11079,7 +11079,7 @@
 			"header": 2
 		},
 		{
-			"name": "{@optfeature Makashi Form|sw5e-phb}",
+			"name": "Makashi Form",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "{@optfeature Makashi Form|sw5e-phb}",
@@ -11133,7 +11133,7 @@
 				"You gain the following Channel the Force option.",
 				{
 					"type": "entries",
-					"name": "Makashi {@optfeature Riposte|sw5e-phb}",
+					"name": "Makashi Riposte",
 					"entries": [
 						"When another creature damages you with a melee attack, you can expend a use of your Channel the Force and use your {@variantrule Reaction|sw5e-phb} to attempt to deflect the attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your guardian level.",
 						"If you reduce the damage to 0, you can immediately make a single {@variantrule Attack Roll|sw5e-phb|melee weapon attack} against that creature as a part of the {@variantrule Reaction|sw5e-phb}."
@@ -11194,7 +11194,7 @@
 			"header": 2
 		},
 		{
-			"name": "{@optfeature Niman Form|sw5e-phb}",
+			"name": "Niman Form",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "{@optfeature Niman Form|sw5e-phb}",
@@ -11309,7 +11309,7 @@
 			"header": 2
 		},
 		{
-			"name": "Shien/{@optfeature Djem So Form|sw5e-phb}",
+			"name": "Shien/Djem So Form",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Shien/{@optfeature Djem So Form|sw5e-phb}",
@@ -11472,7 +11472,7 @@
 			"header": 2
 		},
 		{
-			"name": "{@optfeature Soresu Form|sw5e-phb}",
+			"name": "Soresu Form",
 			"className": "Guardian",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "{@optfeature Soresu Form|sw5e-phb}",
@@ -11669,7 +11669,7 @@
 			"level": 3,
 			"entries": [
 				"You gain proficiency in light and {@filter medium armor|items|type=medium armor}. If you are already proficient in light and {@filter medium armor|items|type=medium armor}, you instead gain proficiency in {@filter heavy armor|items|type=heavy armor}. Additionally, you can now gain the benefits of your Martial Arts and Unarmored Movement features while wearing armor as long as you are not wielding a {@item Shield|sw5e-phb|shield}.",
-				"Additionally, you've learned to adapt to new weaponry. Over the course of an hour, which can be performed during a {@variantrule Short Rest|sw5e-phb|short rest}, you can {@optfeature Perform|sw5e-phb|perform} a kata with a weapon of your choice. You gain proficiency in that weapon if you do not already have proficiency, and it becomes a monk weapon for you. You can only adapt to one weapon at a time, and if you attempt to adapt to another weapon you immediately lose your proficiency with the chosen weapon."
+				"Additionally, you've learned to adapt to new weaponry. Over the course of an hour, which can be performed during a {@variantrule Short Rest|sw5e-phb|short rest}, you can perform a kata with a weapon of your choice. You gain proficiency in that weapon if you do not already have proficiency, and it becomes a monk weapon for you. You can only adapt to one weapon at a time, and if you attempt to adapt to another weapon you immediately lose your proficiency with the chosen weapon."
 			],
 			"header": 2
 		},
@@ -12011,7 +12011,7 @@
 			"header": 2
 		},
 		{
-			"name": "{@spell Spirit Blade|sw5e-phb} Assault",
+			"name": "Spirit Blade Assault",
 			"className": "Monk",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Nightsister Order",
@@ -12062,7 +12062,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"You learn a number of techniques to distract and confuse your opponents. When you deal Sneak Attack damage, you may choose to forgo two of your Sneak Attack dice to {@optfeature Perform|sw5e-phb|perform} a deft hand {@book maneuver|sw5e-phb|13|Maneuvers}.",
+				"You learn a number of techniques to distract and confuse your opponents. When you deal Sneak Attack damage, you may choose to forgo two of your Sneak Attack dice to perform a deft hand {@book maneuver|sw5e-phb|13|Maneuvers}.",
 				"Some of your deft hand {@book maneuvers|sw5e-phb|13|Maneuvers} require your target to make a {@variantrule Saving Throw|sw5e-phb|saving throw} to resist the deft hand {@book maneuver|sw5e-phb|13|Maneuvers}'s effects. The {@variantrule Saving Throw|sw5e-phb|saving throw} DC is as follows:",
 				"{@b Deft Hands save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Dexterity modifier",
 				{
@@ -12081,7 +12081,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@optfeature Tumble|sw5e-phb}",
+					"name": "Tumble",
 					"entries": [
 						"You attempt to nimbly roll away. You immediately move 10 feet in a direction of your choice, and the target must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, this movement does not provoke {@action Opportunity Attack|sw5e-phb|opportunity attacks} from the creature."
 					]
@@ -12153,7 +12153,7 @@
 			]
 		},
 		{
-			"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
+			"name": "forcecasting",
 			"className": "Operative",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Beguiler Practice",
@@ -12165,7 +12165,7 @@
 				"You have derived powers from your emotional connection to the Force. See {@book chapter 10|sw5e-phb|10|Force- and Tech-casting} for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11|Force Powers} for the {@book force powers list|sw5e-phb|11|Force Powers}.",
 				{
 					"type": "entries",
-					"name": "Beguiler Practice {@book forcecasting|sw5e-phb|10|Force- and Tech-casting}",
+					"name": "Beguiler Practice Force- and Tech-casting",
 					"entries": [
 						{
 							"type": "table",
@@ -12296,7 +12296,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book Force Powers Known|sw5e-phb|11|Force Powers}",
+					"name": "Force Powers Known",
 					"entries": [
 						"You learn 4 {@book force powers|sw5e-phb|11|Force Powers} of your choice, and you learn more at higher levels, as shown in the {@book Force Powers Known|sw5e-phb|11|Force Powers} column of the Beguiler Practice {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} table. You may not learn a {@book force power|sw5e-phb|11|Force Powers} of a level higher than your Max Power Level, and you may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time you learn its prerequisite."
 					]
@@ -12318,7 +12318,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@book forcecasting|sw5e-phb|10|Force- and Tech-casting} Ability",
+					"name": "Force- and Tech-casting Ability",
 					"entries": [
 						"Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. You use your Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (your choice). You use this ability whenever a power refers to your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} you cast and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
 						"{@b Force save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} modifier",
@@ -12554,7 +12554,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@optfeature Penetrating Shot|sw5e-phb}",
+					"name": "Penetrating Shot",
 					"entries": [
 						"You attempt to damage another target with the same attack. Choose a second target within 15 feet of and directly behind your initial target. If the original {@variantrule Attack Roll|sw5e-phb|attack roll} would hit the second target, it takes two dice worth of Sneak Attack damage.",
 						"The damage is of the same type dealt by the original attack."
@@ -12873,7 +12873,7 @@
 			"header": 2
 		},
 		{
-			"name": "Remote {@feat Healer|sw5e-phb}",
+			"name": "Remote Healer",
 			"className": "Scholar",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Physician Pursuit",
@@ -12960,7 +12960,7 @@
 				"When you select this pursuit, you gain access to new discoveries which reflect the progress of your studies into the medical arts. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.",
 				{
 					"type": "entries",
-					"name": "Advanced Remote {@feat Healer|sw5e-phb}",
+					"name": "Advanced Remote Healer",
 					"entries": [
 						"{@i {@b Prerequisite:} 11th level} The range of your Remote {@feat Healer|sw5e-phb} feature increases to 60 feet."
 					]
@@ -13153,7 +13153,7 @@
 			"header": 2
 		},
 		{
-			"name": "{@feat Force of Personality|sw5e-phb}",
+			"name": "Force of Personality",
 			"className": "Scholar",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Politician Pursuit",
@@ -13368,7 +13368,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@spell Contingency|sw5e-phb} Plan",
+					"name": "Contingency Plan",
 					"entries": [
 						"{@i {@b Prerequisite:} 9th level} When the target of your Critical Analysis feature scores a {@variantrule Critical Hit|sw5e-phb|critical hit}, you can use your {@variantrule Reaction|sw5e-phb} and expend a superiority die to treat the attack as a normal hit instead."
 					]
@@ -13389,7 +13389,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@feat Observant|sw5e-phb} Leader",
+					"name": "Observant Leader",
 					"entries": [
 						"You have {@variantrule Advantage|sw5e-phb|advantage} Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sight."
 					]
@@ -13745,7 +13745,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@spell Whirlwind|sw5e-phb} Attack",
+					"name": "Whirlwind Attack",
 					"entries": [
 						"You can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate {@variantrule Attack Roll|sw5e-phb|attack roll} for each target."
 					]
@@ -14383,7 +14383,7 @@
 			"level": 3,
 			"entries": [
 				"You learn how to bond with a light- or vibro-weapon through the Force, making it part of you.",
-				"You {@optfeature Perform|sw5e-phb|perform} the ritual over the course of 1 hour, which can be done during a {@variantrule Short Rest|sw5e-phb|short rest}. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond, gaining the following benefits:",
+				"You perform the ritual over the course of 1 hour, which can be done during a {@variantrule Short Rest|sw5e-phb|short rest}. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond, gaining the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -14397,7 +14397,7 @@
 			"header": 2
 		},
 		{
-			"name": "Twin {@spell Saber Throw|sw5e-phb}",
+			"name": "Twin Saber Throw",
 			"className": "Sentinel",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Path of the Forceblade",
@@ -14412,7 +14412,7 @@
 			"header": 2
 		},
 		{
-			"name": "Twin {@spell Saber Throw|sw5e-phb}",
+			"name": "Twin Saber Throw",
 			"className": "Sentinel",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Path of the Forceblade",
@@ -14427,7 +14427,7 @@
 			"header": 2
 		},
 		{
-			"name": "Twin {@spell Saber Throw|sw5e-phb}",
+			"name": "Twin Saber Throw",
 			"className": "Sentinel",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Path of the Forceblade",
@@ -14442,7 +14442,7 @@
 			"header": 2
 		},
 		{
-			"name": "Twin {@spell Saber Throw|sw5e-phb}",
+			"name": "Twin Saber Throw",
 			"className": "Sentinel",
 			"classSource": "sw5e-phb",
 			"subclassShortName": "Path of the Forceblade",

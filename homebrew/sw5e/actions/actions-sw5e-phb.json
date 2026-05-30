@@ -100,7 +100,7 @@
 				}
 			],
 			"entries": [
-				"You can lend your aid to an ally in the completion of a task. When you take the {@action Help|sw5e-phb} action, the ally you aid gains {@variantrule Advantage|sw5e-phb|advantage} on the next {@variantrule Ability Check|sw5e-phb|ability check} it makes to {@optfeature Perform|sw5e-phb|perform} the task you are helping with, provided that it makes the check before the start of your next turn.",
+				"You can lend your aid to an ally in the completion of a task. When you take the {@action Help|sw5e-phb} action, the ally you aid gains {@variantrule Advantage|sw5e-phb|advantage} on the next {@variantrule Ability Check|sw5e-phb|ability check} it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.",
 				"Alternatively, you can aid an ally in attacking a creature within 5 feet of you. You feint, distract the target, or in some other way team up to make your ally's attack more effective. If your ally attacks the target before your next turn, the first {@variantrule Attack Roll|sw5e-phb|attack roll} is made with {@variantrule Advantage|sw5e-phb|advantage}."
 			]
 		},
@@ -164,13 +164,13 @@
 			]
 		},
 		{
-			"name": "{@action Opportunity Attack|sw5e-phb}",
+			"name": "Opportunity Attack",
 			"source": "sw5e-phb",
 			"page": 221,
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}"
+					"unit": "reaction"
 				}
 			],
 			"entries": [

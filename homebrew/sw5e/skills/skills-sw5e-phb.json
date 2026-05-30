@@ -17,16 +17,16 @@
 	},
 	"skill": [
 		{
-			"name": "{@skill Acrobatics|sw5e-phb}",
+			"name": "Acrobatics",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "dex",
 			"entries": [
-				"Your Dexterity ({@skill Acrobatics|sw5e-phb}) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking spaceship's deck. The GM might also call for a Dexterity ({@skill Acrobatics|sw5e-phb}) check to see if you can {@optfeature Perform|sw5e-phb|perform} acrobatic stunts, including dives, rolls, somersaults, and flips."
+				"Your Dexterity ({@skill Acrobatics|sw5e-phb}) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking spaceship's deck. The GM might also call for a Dexterity ({@skill Acrobatics|sw5e-phb}) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips."
 			]
 		},
 		{
-			"name": "{@skill Animal Handling|sw5e-phb}",
+			"name": "Animal Handling",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "wis",
@@ -35,7 +35,7 @@
 			]
 		},
 		{
-			"name": "{@skill Athletics|sw5e-phb}",
+			"name": "Athletics",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "str",
@@ -44,7 +44,7 @@
 			]
 		},
 		{
-			"name": "{@skill Deception|sw5e-phb}",
+			"name": "Deception",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "cha",
@@ -53,7 +53,7 @@
 			]
 		},
 		{
-			"name": "{@skill Insight|sw5e-phb}",
+			"name": "Insight",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "wis",
@@ -62,7 +62,7 @@
 			]
 		},
 		{
-			"name": "{@skill Intimidation|sw5e-phb}",
+			"name": "Intimidation",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "cha",
@@ -71,7 +71,7 @@
 			]
 		},
 		{
-			"name": "{@skill Investigation|sw5e-phb}",
+			"name": "Investigation",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "int",
@@ -80,7 +80,7 @@
 			]
 		},
 		{
-			"name": "{@skill Lore|sw5e-phb}",
+			"name": "Lore",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "int",
@@ -90,7 +90,7 @@
 			]
 		},
 		{
-			"name": "{@skill Medicine|sw5e-phb}",
+			"name": "Medicine",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "wis",
@@ -99,7 +99,7 @@
 			]
 		},
 		{
-			"name": "{@skill Nature|sw5e-phb}",
+			"name": "Nature",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "int",
@@ -108,7 +108,7 @@
 			]
 		},
 		{
-			"name": "{@skill Perception|sw5e-phb}",
+			"name": "Perception",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "wis",
@@ -117,7 +117,7 @@
 			]
 		},
 		{
-			"name": "{@skill Performance|sw5e-phb}",
+			"name": "Performance",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "cha",
@@ -126,7 +126,7 @@
 			]
 		},
 		{
-			"name": "{@skill Persuasion|sw5e-phb}",
+			"name": "Persuasion",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "cha",
@@ -135,7 +135,7 @@
 			]
 		},
 		{
-			"name": "{@skill Piloting|sw5e-phb}",
+			"name": "Piloting",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "int",
@@ -154,7 +154,7 @@
 			]
 		},
 		{
-			"name": "{@skill Stealth|sw5e-phb}",
+			"name": "Stealth",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "dex",
@@ -163,7 +163,7 @@
 			]
 		},
 		{
-			"name": "{@skill Survival|sw5e-phb}",
+			"name": "Survival",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "wis",
@@ -172,7 +172,7 @@
 			]
 		},
 		{
-			"name": "{@skill Technology|sw5e-phb}",
+			"name": "Technology",
 			"source": "sw5e-phb",
 			"page": 178,
 			"ability": "int",

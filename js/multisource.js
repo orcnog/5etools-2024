@@ -85,6 +85,24 @@ class ListPageMultiSource extends ListPage {
 		toLoad.loaded = true;
 	}
 
+	_registerSourcesFromMergedData (merged) {
+		if (!merged || typeof merged !== "object") return;
+
+		const sources = new Set();
+		this._dataProps.forEach(prop => {
+			const arr = merged[prop];
+			if (!(arr instanceof Array)) return;
+			arr.forEach(ent => {
+				if (ent?.source) sources.add(ent.source);
+			});
+		});
+
+		sources.forEach(src => {
+			if (this._loadedSources[src]) return;
+			this._loadedSources[src] = {source: src, loaded: true};
+		});
+	}
+
 	async _pOnLoad_pGetData () {
 		const siteSourcesAvail = new Set(
 			Object.keys(await DataUtil[this._propLoader].pLoadIndex())
@@ -157,14 +175,18 @@ class ListPageMultiSource extends ListPage {
 			});
 		}
 
+		const prerelease = await (this._prereleaseDataSource ? this._prereleaseDataSource() : PrereleaseUtil.pGetBrewProcessed());
+		const homebrew = await (this._brewDataSource ? this._brewDataSource() : BrewUtil2.pGetBrewProcessed());
+
+		const merged = BrewUtil2.getMergedData(PrereleaseUtil.getMergedData(toAdd, prerelease), homebrew);
+
+		this._registerSourcesFromMergedData(merged);
+
 		Object.keys(this._loadedSources)
 			.map(src => new SourceFilterItem({item: src}))
 			.forEach(fi => this._pageFilter.sourceFilter.addItem(fi));
 
-		const prerelease = await (this._prereleaseDataSource ? this._prereleaseDataSource() : PrereleaseUtil.pGetBrewProcessed());
-		const homebrew = await (this._brewDataSource ? this._brewDataSource() : BrewUtil2.pGetBrewProcessed());
-
-		return BrewUtil2.getMergedData(PrereleaseUtil.getMergedData(toAdd, prerelease), homebrew);
+		return merged;
 	}
 
 	_pOnLoad_getLinkHashSource ({siteSourcesAvail}) {

@@ -17,7 +17,7 @@
 	},
 	"optionalfeature": [
 		{
-			"name": "{@optfeature Administer Aid|sw5e-phb}",
+			"name": "Administer Aid",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -42,7 +42,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Administer Aid|sw5e-phb} (Greater)",
+			"name": "Administer Aid (Greater)",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -67,7 +67,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Administer Aid|sw5e-phb} (Improved)",
+			"name": "Administer Aid (Improved)",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -92,7 +92,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Adrenaline Hit|sw5e-phb}",
+			"name": "Adrenaline Hit",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -117,7 +117,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Assist|sw5e-phb}",
+			"name": "Assist",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -142,7 +142,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Automatic Startup Sequence|sw5e-phb}",
+			"name": "Automatic Startup Sequence",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -167,7 +167,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Body Over Bother|sw5e-phb}",
+			"name": "Body Over Bother",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -185,7 +185,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Call the Guards|sw5e-phb}",
+			"name": "Call the Guards",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -210,7 +210,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Call to Arms|sw5e-phb}",
+			"name": "Call to Arms",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -235,7 +235,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Call to Arms|sw5e-phb} (Improved)",
+			"name": "Call to Arms (Improved)",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -260,7 +260,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Calling Card|sw5e-phb}",
+			"name": "Calling Card",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -278,7 +278,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}",
+			"name": "Charge",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -303,7 +303,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charging Attack|sw5e-phb}",
+			"name": "Charging Attack",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -321,7 +321,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charming Presence|sw5e-phb}",
+			"name": "Charming Presence",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -346,7 +346,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Commander's Strike|sw5e-phb}",
+			"name": "Commander's Strike",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -364,7 +364,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Commander's Strike|sw5e-phb} (Greater)",
+			"name": "Commander's Strike (Greater)",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -389,7 +389,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Commander's Strike|sw5e-phb} (Improved)",
+			"name": "Commander's Strike (Improved)",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -414,7 +414,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Conceal|sw5e-phb}",
+			"name": "Conceal",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -439,7 +439,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Crippling Blow|sw5e-phb}",
+			"name": "Crippling Blow",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -457,7 +457,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Deceive|sw5e-phb}",
+			"name": "Deceive",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -482,7 +482,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Disarming Blow|sw5e-phb}",
+			"name": "Disarming Blow",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -500,7 +500,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Distracting Blow|sw5e-phb}",
+			"name": "Distracting Blow",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -518,7 +518,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Effective Flanking|sw5e-phb}",
+			"name": "Effective Flanking",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -536,7 +536,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Effective Flanking|sw5e-phb} (Greater)",
+			"name": "Effective Flanking (Greater)",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -561,7 +561,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Effective Flanking|sw5e-phb} (Improved)",
+			"name": "Effective Flanking (Improved)",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -586,7 +586,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Empathize|sw5e-phb}",
+			"name": "Empathize",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -611,7 +611,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Encouraging Pace|sw5e-phb}",
+			"name": "Encouraging Pace",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -629,7 +629,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Encouraging Speech|sw5e-phb}",
+			"name": "Encouraging Speech",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -655,7 +655,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Enhancement Injection|sw5e-phb}",
+			"name": "Enhancement Injection",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -680,7 +680,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Evasive Footwork|sw5e-phb}",
+			"name": "Evasive Footwork",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -698,7 +698,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Exploit Weakness|sw5e-phb}",
+			"name": "Exploit Weakness",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -716,7 +716,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Fast Access Programs|sw5e-phb}",
+			"name": "Fast Access Programs",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -741,7 +741,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Feinting Attack|sw5e-phb}",
+			"name": "Feinting Attack",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -759,7 +759,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Firewall|sw5e-phb}",
+			"name": "Firewall",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -809,7 +809,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Flourish|sw5e-phb}",
+			"name": "Flourish",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -834,7 +834,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Force Resonance|sw5e-phb}",
+			"name": "Force Resonance",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -859,7 +859,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Fortune and Glory|sw5e-phb}",
+			"name": "Fortune and Glory",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -884,7 +884,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Goading Attack|sw5e-phb}",
+			"name": "Goading Attack",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -902,7 +902,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Hacked Communications|sw5e-phb}",
+			"name": "Hacked Communications",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -927,7 +927,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Handle Animal|sw5e-phb}",
+			"name": "Handle Animal",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -952,7 +952,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Heads Up|sw5e-phb}",
+			"name": "Heads Up",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -970,7 +970,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Incite|sw5e-phb}",
+			"name": "Incite",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -995,7 +995,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Inner Strength|sw5e-phb}",
+			"name": "Inner Strength",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1013,7 +1013,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Intimidating Presence|sw5e-phb}",
+			"name": "Intimidating Presence",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1038,7 +1038,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Investigate|sw5e-phb}",
+			"name": "Investigate",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1063,7 +1063,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Lunging Attack|sw5e-phb}",
+			"name": "Lunging Attack",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1081,7 +1081,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Maneuvering Attack|sw5e-phb}",
+			"name": "Maneuvering Attack",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1100,7 +1100,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Menacing Attack|sw5e-phb}",
+			"name": "Menacing Attack",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1118,7 +1118,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Mind Over Matter|sw5e-phb}",
+			"name": "Mind Over Matter",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1136,7 +1136,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Naturalize|sw5e-phb}",
+			"name": "Naturalize",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1161,7 +1161,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Neuroblock|sw5e-phb}",
+			"name": "Neuroblock",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1186,7 +1186,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature No Escape|sw5e-phb}",
+			"name": "No Escape",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1204,7 +1204,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature One Step Ahead|sw5e-phb}",
+			"name": "One Step Ahead",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1222,7 +1222,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature One With Shadows|sw5e-phb}",
+			"name": "One With Shadows",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1247,7 +1247,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature One with the Force|sw5e-phb}",
+			"name": "One with the Force",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1272,7 +1272,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Overcapacity Powers|sw5e-phb}",
+			"name": "Overcapacity Powers",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1297,7 +1297,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Overwhelming Wit|sw5e-phb}",
+			"name": "Overwhelming Wit",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1365,7 +1365,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Penetrating Shot|sw5e-phb}",
+			"name": "Penetrating Shot",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1384,7 +1384,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Perceive|sw5e-phb}",
+			"name": "Perceive",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1409,7 +1409,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Perform|sw5e-phb}",
+			"name": "Perform",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1434,7 +1434,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Persuade|sw5e-phb}",
+			"name": "Persuade",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1484,7 +1484,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Precise Movements|sw5e-phb}",
+			"name": "Precise Movements",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1503,7 +1503,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Precision Attack|sw5e-phb}",
+			"name": "Precision Attack",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1521,7 +1521,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Program|sw5e-phb}",
+			"name": "Program",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1546,7 +1546,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Pure Sabacc|sw5e-phb}",
+			"name": "Pure Sabacc",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1564,7 +1564,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Pushing Attack|sw5e-phb}",
+			"name": "Pushing Attack",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1600,7 +1600,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Rampage|sw5e-phb}",
+			"name": "Rampage",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1618,7 +1618,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Rattle|sw5e-phb}",
+			"name": "Rattle",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1643,7 +1643,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Reassure|sw5e-phb}",
+			"name": "Reassure",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1668,7 +1668,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Remove Toxins|sw5e-phb}",
+			"name": "Remove Toxins",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1693,7 +1693,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Return Fire|sw5e-phb}",
+			"name": "Return Fire",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1711,7 +1711,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Riposte|sw5e-phb}",
+			"name": "Riposte",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1729,7 +1729,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Riposte|sw5e-phb} (Improved)",
+			"name": "Riposte (Improved)",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1754,7 +1754,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Runtime Extension|sw5e-phb}",
+			"name": "Runtime Extension",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1779,7 +1779,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Self-Preservation|sw5e-phb}",
+			"name": "Self-Preservation",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1797,7 +1797,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Short Round|sw5e-phb}",
+			"name": "Short Round",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1822,7 +1822,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Steady the Nerves|sw5e-phb}",
+			"name": "Steady the Nerves",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1847,7 +1847,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Strikeforce|sw5e-phb}",
+			"name": "Strikeforce",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1897,7 +1897,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Subtle Execution|sw5e-phb}",
+			"name": "Subtle Execution",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1922,7 +1922,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Survive|sw5e-phb}",
+			"name": "Survive",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1947,7 +1947,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Sweeping Attack|sw5e-phb}",
+			"name": "Sweeping Attack",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1965,7 +1965,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Sweeping Attack|sw5e-phb} (Improved)",
+			"name": "Sweeping Attack (Improved)",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -1990,7 +1990,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Targeted Strike|sw5e-phb}",
+			"name": "Targeted Strike",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -2008,7 +2008,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Tenacity|sw5e-phb}",
+			"name": "Tenacity",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -2033,7 +2033,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Threaten|sw5e-phb}",
+			"name": "Threaten",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -2058,7 +2058,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Trip Attack|sw5e-phb}",
+			"name": "Trip Attack",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -2076,7 +2076,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Tumble|sw5e-phb}",
+			"name": "Tumble",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -2101,7 +2101,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Tyrannical Strike|sw5e-phb}",
+			"name": "Tyrannical Strike",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -2127,7 +2127,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Unrelenting Grasp|sw5e-phb}",
+			"name": "Unrelenting Grasp",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -2152,7 +2152,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Vanity|sw5e-phb}",
+			"name": "Vanity",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -2170,7 +2170,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Weak Point Strike|sw5e-phb}",
+			"name": "Weak Point Strike",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -2195,7 +2195,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature World on Fire|sw5e-phb}",
+			"name": "World on Fire",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
@@ -2213,7 +2213,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Wrestle and Drag|sw5e-phb}",
+			"name": "Wrestle and Drag",
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [

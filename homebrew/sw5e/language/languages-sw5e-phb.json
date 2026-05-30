@@ -1,0 +1,83 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-phb",
+				"abbreviation": "PHB",
+				"full": "SW5e: Player's Handbook",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
+				"color": "#aa0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		]
+	},
+	"language": [
+		{
+			"name": "Galactic Basic",
+			"source": "sw5e-phb",
+			"page": 49,
+			"type": "standard",
+			"entries": [
+				"The common trade language of the galaxy, derived from Old Galactic Standard and influenced by many species' tongues."
+			]
+		},
+		{
+			"name": "Binary",
+			"source": "sw5e-phb",
+			"page": 49,
+			"type": "exotic",
+			"entries": [
+				"The language of droids, expressed as sequences of beeps and whistles. Many organic species can understand {@language Binary|sw5e-phb|Binary} but cannot speak it."
+			]
+		},
+		{
+			"name": "Huttese",
+			"source": "sw5e-phb",
+			"page": 215,
+			"type": "standard",
+			"entries": [
+				"The language of the Hutts and much of the underworld. Many crime lords insist on communicating in {@language Huttese|sw5e-phb|Huttese}."
+			]
+		},
+		{
+			"name": "Bith",
+			"source": "sw5e-phb",
+			"page": 49,
+			"type": "exotic",
+			"entries": [
+				"The language of the Bith, characterized by tonal qualities that other species {@optfeature Perceive|sw5e-phb|perceive} as musical."
+			]
+		},
+		{
+			"name": "Shyriiwook",
+			"source": "sw5e-phb",
+			"page": 49,
+			"type": "exotic",
+			"entries": [
+				"The language of Wookiees. Most Wookiees can understand {@language Galactic Basic|sw5e-phb} but cannot speak it due to their vocal anatomy."
+			]
+		},
+		{
+			"name": "Twi'leki",
+			"source": "sw5e-phb",
+			"page": 49,
+			"type": "exotic",
+			"entries": [
+				"The spoken language of the Twi'leks. Twi'leks also communicate through subtle lekku gestures."
+			]
+		},
+		{
+			"name": "Sith",
+			"source": "sw5e-phb",
+			"page": 49,
+			"type": "exotic",
+			"entries": [
+				"An agglutinative language once associated with the Sith species and later preserved by the Sith Order."
+			]
+		}
+	]
+}

@@ -185,7 +185,7 @@
 								},
 								{
 									"type": "item",
-									"name": "11-12: \"Logic error. System {@spell Reboot|sw5e-phb|reboot}.\"",
+									"name": "11-12: \"Logic error. System reboot.\"",
 									"entries": [
 										"The security droid is {@condition incapacitated|sw5e-phb} for 1 minute."
 									]
@@ -206,9 +206,9 @@
 								},
 								{
 									"type": "item",
-									"name": "17-20: \"WARNING! {@spell Explosion|sw5e-phb|EXPLOSION} IMMINATE!\"",
+									"name": "17-20: \"WARNING! EXPLOSION IMMINATE!\"",
 									"entries": [
-										"The security droid explodes and is destroyed. Each creature within 20 feet of the {@spell Explosion|sw5e-phb|explosion} must make a {@dc 11} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 22 ({@damage 4d10}) slashing damage on a failed save, or half as much damage on a successful one."
+										"The security droid explodes and is destroyed. Each creature within 20 feet of the {@spell Explosion|sw5e-phb|explosion} must make a {@dc 11} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 22 ({@damage 4d10}) kinetic damage on a failed save, or half as much damage on a successful one."
 									]
 								}
 							]
@@ -216,7 +216,7 @@
 					]
 				},
 				{
-					"name": "Unusual {@skill Nature}",
+					"name": "Unusual Nature",
 					"entries": [
 						"The security droid doesn't require air, food, drink, or sleep."
 					]
@@ -230,14 +230,14 @@
 					]
 				},
 				{
-					"name": "{@filter blaster|items|firearm=true}",
+					"name": "blaster",
 					"entries": [
 						"{@atk mw,rw} {@hit 4} to hit, reach 5 ft. or range 60/120 ft., one target. {@h}7 ({@damage 3d6}) lightning damage."
 					]
 				}
 			],
 			"traitTags": [
-				"Unusual {@skill Nature}"
+				"Unusual {@skill Nature|sw5e-phb}"
 			],
 			"senseTags": [
 				"D"
@@ -278,7 +278,7 @@
 			"tokenUrl": "https://preview.redd.it/kx-droids-hd-and-ld-versions-v0-nzx1hvyun0ea1.png?width=722&format=png&auto=webp&s=5282bac9e0e9bb80546a043e6858397fee6556c2"
 		},
 		{
-			"name": "{@spell Repair Droid|sw5e-phb}",
+			"name": "Repair Droid",
 			"source": "sw5e-ljt",
 			"page": 0,
 			"size": [
@@ -324,8 +324,8 @@
 				"disease"
 			],
 			"languages": [
-				"Binary",
-				"Galactic Basic"
+				"{@language Binary|sw5e-phb|Binary}",
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "1/4",
 			"trait": [
@@ -531,7 +531,7 @@
 			},
 			"passive": 16,
 			"languages": [
-				"Galactic Basic"
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "5",
 			"spellcasting": [
@@ -595,7 +595,7 @@
 					]
 				},
 				{
-					"name": "{@item Doublesaber|sw5e-phb}",
+					"name": "Doublesaber",
 					"entries": [
 						"{@atk mw} {@hit 7} to hit, reach 5ft., one target. Hit 12 ({@dice 2d8 + 4})"
 					]
@@ -666,7 +666,7 @@
 			},
 			"passive": 14,
 			"languages": [
-				"Galactic Basic and two others"
+				"{@language Galactic Basic|sw5e-phb} and two others"
 			],
 			"cr": "2",
 			"trait": [
@@ -682,7 +682,7 @@
 			],
 			"action": [
 				{
-					"name": "{@item Shotosaber|sw5e-phb}",
+					"name": "Shotosaber",
 					"entries": [
 						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) energy damage."
 					]
@@ -739,7 +739,7 @@
 			},
 			"passive": 11,
 			"languages": [
-				"Galactic Basic and one other"
+				"{@language Galactic Basic|sw5e-phb} and one other"
 			],
 			"cr": "2",
 			"spellcasting": [
@@ -790,7 +790,7 @@
 					]
 				},
 				{
-					"name": "{@item Doublesaber|sw5e-phb}",
+					"name": "Doublesaber",
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) energy damage."
 					]
@@ -856,7 +856,7 @@
 			},
 			"passive": 10,
 			"languages": [
-				"Galactic Basic and one other"
+				"{@language Galactic Basic|sw5e-phb} and one other"
 			],
 			"cr": "6",
 			"spellcasting": [
@@ -911,7 +911,7 @@
 					]
 				},
 				{
-					"name": "Force {@item Shield|sw5e-phb}",
+					"name": "Force Shield",
 					"entries": [
 						"3/day: When the dark aspirant is hit by an attack, it can use its {@variantrule Reaction|sw5e-phb} to shroud itself in Force energy. Until the start of its next turn, it has a +4 bonus to AC."
 					]
@@ -919,7 +919,7 @@
 			],
 			"action": [
 				{
-					"name": "{@item Lightfoil|sw5e-phb}",
+					"name": "Lightfoil",
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) energy damage."
 					]
@@ -981,7 +981,7 @@
 			},
 			"passive": 15,
 			"languages": [
-				"Galactic Basic"
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "7",
 			"spellcasting": [
@@ -1062,7 +1062,7 @@
 			],
 			"action": [
 				{
-					"name": "{@item Lightsaber|sw5e-phb}",
+					"name": "Lightsaber",
 					"entries": [
 						"{@atk mw} {@hit 6} to hit, reach 5ft., one target. Hit 6 ({@dice 1d6 + 3})"
 					]
@@ -1136,7 +1136,7 @@
 			},
 			"passive": 15,
 			"languages": [
-				"Galactic Basic"
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "7",
 			"spellcasting": [
@@ -1221,7 +1221,7 @@
 					]
 				},
 				{
-					"name": "Legendary {@spell Resistance|sw5e-phb} (2/Day)",
+					"name": "Legendary Resistance (2/Day)",
 					"entries": [
 						"If Sifo-Dyas fails a {@variantrule Saving Throw|sw5e-phb|saving throw}, he can choose to succeed instead."
 					]
@@ -1229,7 +1229,7 @@
 			],
 			"action": [
 				{
-					"name": "{@item Lightsaber|sw5e-phb}",
+					"name": "Lightsaber",
 					"entries": [
 						"{@atk mw} {@hit 6} to hit, reach 5ft., one target. Hit 6 ({@dice 1d6 + 3})"
 					]
@@ -1270,7 +1270,7 @@
 					]
 				},
 				{
-					"name": "Force {@variantrule Speed|sw5e-phb}",
+					"name": "Force Speed",
 					"entries": [
 						"Sifo-Dyas can move up to his maximum {@variantrule Speed|sw5e-phb|speed} without incurring attacks of opportunity. Sifo-Dyas imbues himself with a burst of {@variantrule Speed|sw5e-phb|speed} through his knowledge of the Force."
 					]
@@ -1278,7 +1278,7 @@
 				{
 					"name": "Topple (Costs 2 Actions)",
 					"entries": [
-						"Sifo-Dyas uses the Force to pull down a huge object or piece of terrain (ex: a support column). The affected area is one of the following: a line 10 ft. wide and 40 ft. long extending from the base of the object, or a 15 ft. radius from a point of Sifo-Dyas' choosing. Each creature in the area of effect must succeed on a {@dc 16} {@variantrule Saving Throw|sw5e-phb|Dexterity saving throw} or take {@damage 5d6} bludgeoning damage and be knocked {@condition prone|sw5e-phb}. The affected area becomes {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} until cleared."
+						"Sifo-Dyas uses the Force to pull down a huge object or piece of terrain (ex: a support column). The affected area is one of the following: a line 10 ft. wide and 40 ft. long extending from the base of the object, or a 15 ft. radius from a point of Sifo-Dyas' choosing. Each creature in the area of effect must succeed on a {@dc 16} {@variantrule Saving Throw|sw5e-phb|Dexterity saving throw} or take {@damage 5d6} kinetic damage and be knocked {@condition prone|sw5e-phb}. The affected area becomes {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} until cleared."
 					]
 				}
 			],
@@ -1352,7 +1352,7 @@
 			},
 			"passive": 10,
 			"languages": [
-				"Galactic Basic and one other"
+				"{@language Galactic Basic|sw5e-phb} and one other"
 			],
 			"cr": "6",
 			"spellcasting": [
@@ -1410,7 +1410,7 @@
 					]
 				},
 				{
-					"name": "Force {@item Shield|sw5e-phb}",
+					"name": "Force Shield",
 					"entries": [
 						"2/day: When the Seryan Brim is hit by an attack, he can use his {@variantrule Reaction|sw5e-phb} to shroud himself in Force energy. Until the start of his next turn, it has a +4 bonus to AC."
 					]
@@ -1418,7 +1418,7 @@
 			],
 			"action": [
 				{
-					"name": "{@item Lightfoil|sw5e-phb}",
+					"name": "Lightfoil",
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d8 + 1}) energy damage."
 					]
@@ -1490,7 +1490,7 @@
 			},
 			"passive": 11,
 			"languages": [
-				"Galactic Basic and one other"
+				"{@language Galactic Basic|sw5e-phb} and one other"
 			],
 			"cr": "2",
 			"spellcasting": [
@@ -1543,7 +1543,7 @@
 					]
 				},
 				{
-					"name": "{@item Doublesaber|sw5e-phb}",
+					"name": "Doublesaber",
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d8 + 2}) energy damage."
 					]

@@ -1331,17 +1331,28 @@ export class BrewUtil2Base {
 	 */
 	getMergedData (data, homebrew) {
 		const out = {};
-		Object.entries(data)
-			.forEach(([prop, val]) => {
-				if (!homebrew[prop]) {
-					out[prop] = [...val];
-					return;
-				}
+		const props = new Set([
+			...Object.keys(data || {}),
+			...Object.keys(homebrew || {}),
+		]);
 
-				if (!(homebrew[prop] instanceof Array)) throw new Error(`${this.DISPLAY_NAME.uppercaseFirst()} was not array!`);
-				if (!(val instanceof Array)) throw new Error(`Data was not array!`);
-				out[prop] = [...val, ...homebrew[prop]];
-			});
+		props.forEach(prop => {
+			const val = data?.[prop];
+			const brewVal = homebrew?.[prop];
+
+			if (brewVal == null) {
+				if (val != null) out[prop] = val instanceof Array ? [...val] : val;
+				return;
+			}
+			if (val == null) {
+				out[prop] = brewVal instanceof Array ? [...brewVal] : brewVal;
+				return;
+			}
+
+			if (!(brewVal instanceof Array)) throw new Error(`${this.DISPLAY_NAME.uppercaseFirst()} was not array!`);
+			if (!(val instanceof Array)) throw new Error(`Data was not array!`);
+			out[prop] = [...val, ...brewVal];
+		});
 
 		return out;
 	}

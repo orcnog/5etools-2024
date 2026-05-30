@@ -154,7 +154,7 @@
 			],
 			"passive": 14,
 			"languages": [
-				"Galactic Basic",
+				"{@language Galactic Basic|sw5e-phb}",
 				"Mando'a Challenge 2 (450 XP)                    {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} +2"
 			],
 			"trait": [
@@ -173,13 +173,13 @@
 					]
 				},
 				{
-					"name": "{@filter blaster|items|firearm=true} Carbine",
+					"name": "blaster Carbine",
 					"entries": [
 						"{@atk rw} (105/420 ft.), +5, {@dice 2d6 + 3} (10) energy."
 					]
 				},
 				{
-					"name": "{@item Techblade|sw5e-phb}",
+					"name": "Techblade",
 					"entries": [
 						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}{@dice 2d6 + 3} (10) kinetic damage."
 					]
@@ -263,7 +263,7 @@
 			],
 			"passive": 15,
 			"languages": [
-				"Galactic Basic and Mando'a Challenge 2 (450 XP)                    {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} +2"
+				"{@language Galactic Basic|sw5e-phb} and Mando'a Challenge 2 (450 XP)                    {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} +2"
 			],
 			"trait": [
 				{
@@ -283,13 +283,13 @@
 					]
 				},
 				{
-					"name": "{@filter blaster|items|firearm=true} Rifle",
+					"name": "blaster Rifle",
 					"entries": [
 						"Ranged: (105/420 ft.), To hit +5, {@dice 2d8 + 3} (12) energy."
 					]
 				},
 				{
-					"name": "{@item Hidden blade|sw5e-phb|Hidden Blade}",
+					"name": "Hidden Blade",
 					"entries": [
 						"Melee: (5 ft.) To hit +5, {@dice 2d4 + 3} (8) kinetic."
 					]
@@ -322,7 +322,7 @@
 			"cr": "2"
 		},
 		{
-			"name": "Mandalorian {@feat Commando|sw5e-phb}",
+			"name": "Mandalorian Commando",
 			"source": "sw5e-hr",
 			"page": 0,
 			"size": [
@@ -372,7 +372,7 @@
 			],
 			"passive": 19,
 			"languages": [
-				"Galactic Basic and Mando'a Challenge 5 (1,800 Xp)                 {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} +2"
+				"{@language Galactic Basic|sw5e-phb} and Mando'a Challenge 5 (1,800 Xp)                 {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} +2"
 			],
 			"trait": [
 				{
@@ -399,7 +399,7 @@
 					]
 				},
 				{
-					"name": "{@filter blaster|items|firearm=true} Pistol",
+					"name": "blaster Pistol",
 					"entries": [
 						"{@atk rw} {@hit 6} to hit, range 40/160 ft., one target. {@h}11 ({@dice 2d6 + 4}) energy.",
 						"{@item Hidden blade|sw5e-phb}. Melee Weapon Attack: {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@dice 2d4 + 4}) kinetic."
@@ -426,7 +426,7 @@
 					]
 				},
 				{
-					"name": "{@item Jetpack|sw5e-phb}",
+					"name": "Jetpack",
 					"entries": [
 						"While active, the Mandalorian has a flying {@variantrule Speed|sw5e-phb|speed} of 30 feet. The {@item Jetpack|sw5e-phb|jetpack} lasts for a maximum of 10 minutes."
 					]
@@ -687,7 +687,7 @@
 				{
 					"name": "Keen Hearing and Smell",
 					"entries": [
-						"The rat has {@variantrule Advantage|sw5e-phb|advantage} on on Wisdom ({@skill Perception}) checks that rely on hearing and smell."
+						"The rat has {@variantrule Advantage|sw5e-phb|advantage} on on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on hearing and smell."
 					]
 				},
 				{

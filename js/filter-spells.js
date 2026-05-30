@@ -141,7 +141,7 @@ class PageFilterSpells extends PageFilterBase {
 				.sort(SortUtil.ascSort)
 				.forEach(([k]) => out.push(k.toTitleCase()));
 		}
-		if (s.duration.filter(d => d.concentration).length) {
+		if (s.duration?.filter(d => d.concentration)?.length) {
 			out.push(PageFilterSpells._META_ADD_CONC);
 			s._isConc = true;
 		} else s._isConc = false;
@@ -155,13 +155,13 @@ class PageFilterSpells extends PageFilterBase {
 			else out.push(PageFilterSpells._META_ADD_M_CONSUMED);
 		}
 		if (s.miscTags) out.push(...s.miscTags);
-		if ((!s.miscTags || (s.miscTags && !s.miscTags.includes("PRM"))) && s.duration.filter(it => it.type === "permanent").length) out.push("PRM");
+		if ((!s.miscTags || (s.miscTags && !s.miscTags.includes("PRM"))) && s.duration?.filter(it => it.type === "permanent")?.length) out.push("PRM");
 		if ((!s.miscTags || (s.miscTags && !s.miscTags.includes("SCL"))) && s.entriesHigherLevel) out.push("SCL");
 		return out;
 	}
 
 	static getFilterDuration (spell) {
-		const fDur = spell.duration[0] || {type: "special"};
+		const fDur = spell.duration?.[0] || {type: "special"};
 		switch (fDur.type) {
 			case "instant": return "Instant";
 			case "timed": {
@@ -496,7 +496,7 @@ class PageFilterSpells extends PageFilterBase {
 		s._fFeats = Renderer.spell.getCombinedGeneric(s, {propSpell: "feats", prop: "feat"}).map(it => it.name);
 		s._fOptionalfeatures = Renderer.spell.getCombinedGeneric(s, {propSpell: "optionalfeatures", prop: "optionalfeature"}).map(it => it.name);
 		s._fGroups = Renderer.spell.getCombinedGeneric(s, {propSpell: "groups"}).map(it => it.name);
-		s._fTimeType = s.time.map(t => t.unit);
+		s._fTimeType = (s.time || []).map(t => t.unit);
 		s._fDurationType = PageFilterSpells.getFilterDuration(s);
 		s._fRangeType = PageFilterSpells.getRangeType(s.range);
 

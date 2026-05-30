@@ -17,7 +17,7 @@
 	},
 	"feat": [
 		{
-			"name": "{@feat Ace Pilot|sw5e-phb}",
+			"name": "Ace Pilot",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -33,7 +33,7 @@
 			]
 		},
 		{
-			"name": "{@feat Acrobat|sw5e-phb}",
+			"name": "Acrobat",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -81,7 +81,7 @@
 			]
 		},
 		{
-			"name": "{@feat Animal Handler|sw5e-phb}",
+			"name": "Animal Handler",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -97,7 +97,7 @@
 			]
 		},
 		{
-			"name": "{@feat Armor Expert|sw5e-phb}",
+			"name": "Armor Expert",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -115,7 +115,7 @@
 			]
 		},
 		{
-			"name": "{@feat Athlete|sw5e-phb}",
+			"name": "Athlete",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -132,7 +132,7 @@
 			]
 		},
 		{
-			"name": "{@feat Battle Scarred|sw5e-phb}",
+			"name": "Battle Scarred",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -148,7 +148,7 @@
 			]
 		},
 		{
-			"name": "{@feat Bountiful Luck|sw5e-phb}",
+			"name": "Bountiful Luck",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -157,7 +157,7 @@
 			]
 		},
 		{
-			"name": "{@feat Brawny|sw5e-phb}",
+			"name": "Brawny",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -173,7 +173,7 @@
 			]
 		},
 		{
-			"name": "{@feat Charmer|sw5e-phb}",
+			"name": "Charmer",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -189,7 +189,7 @@
 			]
 		},
 		{
-			"name": "{@feat Climber|sw5e-phb}",
+			"name": "Climber",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -206,7 +206,7 @@
 			]
 		},
 		{
-			"name": "{@feat Commando|sw5e-phb}",
+			"name": "Commando",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -223,7 +223,7 @@
 			]
 		},
 		{
-			"name": "{@feat Competitor|sw5e-phb}",
+			"name": "Competitor",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -240,7 +240,7 @@
 			]
 		},
 		{
-			"name": "{@feat Crafter|sw5e-phb}",
+			"name": "Crafter",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -258,7 +258,7 @@
 			]
 		},
 		{
-			"name": "{@feat Dungeon Delver|sw5e-phb}",
+			"name": "Dungeon Delver",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -276,7 +276,7 @@
 			]
 		},
 		{
-			"name": "{@feat Durable|sw5e-phb}",
+			"name": "Durable",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -292,7 +292,7 @@
 			]
 		},
 		{
-			"name": "{@feat Empathic|sw5e-phb}",
+			"name": "Empathic",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -308,7 +308,7 @@
 			]
 		},
 		{
-			"name": "{@feat Entertainer|sw5e-phb}",
+			"name": "Entertainer",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -325,7 +325,7 @@
 			]
 		},
 		{
-			"name": "{@feat Fanatic|sw5e-phb}",
+			"name": "Fanatic",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -340,7 +340,7 @@
 			]
 		},
 		{
-			"name": "{@feat Feigned Confidence|sw5e-phb}",
+			"name": "Feigned Confidence",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -355,7 +355,7 @@
 			]
 		},
 		{
-			"name": "{@feat Fighting Master|sw5e-phb}",
+			"name": "Fighting Master",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -363,7 +363,7 @@
 			]
 		},
 		{
-			"name": "{@feat Fighting Stylist|sw5e-phb}",
+			"name": "Fighting Stylist",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -379,7 +379,7 @@
 			]
 		},
 		{
-			"name": "Force {@spell Guidance|sw5e-phb}",
+			"name": "Force Guidance",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -395,7 +395,7 @@
 			]
 		},
 		{
-			"name": "{@feat Force of Personality|sw5e-phb}",
+			"name": "Force of Personality",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -411,7 +411,7 @@
 			]
 		},
 		{
-			"name": "{@feat Force-Sensitive|sw5e-phb}",
+			"name": "Force-Sensitive",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -419,7 +419,7 @@
 			]
 		},
 		{
-			"name": "{@feat Forceful Vigor|sw5e-phb}",
+			"name": "Forceful Vigor",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -435,7 +435,7 @@
 			]
 		},
 		{
-			"name": "{@feat Formfighting Dabbler|sw5e-phb}",
+			"name": "Formfighting Dabbler",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -450,7 +450,7 @@
 			]
 		},
 		{
-			"name": "{@feat Galvanizing Presence|sw5e-phb}",
+			"name": "Galvanizing Presence",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -465,7 +465,7 @@
 			]
 		},
 		{
-			"name": "{@feat Haggler|sw5e-phb}",
+			"name": "Haggler",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -481,7 +481,7 @@
 			]
 		},
 		{
-			"name": "{@feat Healer|sw5e-phb}",
+			"name": "Healer",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -497,7 +497,7 @@
 			]
 		},
 		{
-			"name": "{@feat Inspiring Leader|sw5e-phb}",
+			"name": "Inspiring Leader",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -505,7 +505,7 @@
 			]
 		},
 		{
-			"name": "{@feat Investigator|sw5e-phb}",
+			"name": "Investigator",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -521,7 +521,7 @@
 			]
 		},
 		{
-			"name": "{@feat Keen Mind|sw5e-phb}",
+			"name": "Keen Mind",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -538,7 +538,7 @@
 			]
 		},
 		{
-			"name": "{@feat Linguist|sw5e-phb}",
+			"name": "Linguist",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -554,7 +554,7 @@
 			]
 		},
 		{
-			"name": "{@feat Loremaster|sw5e-phb}",
+			"name": "Loremaster",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -581,7 +581,7 @@
 			]
 		},
 		{
-			"name": "{@feat Mariner|sw5e-phb}",
+			"name": "Mariner",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -614,7 +614,7 @@
 			]
 		},
 		{
-			"name": "{@feat Mobile|sw5e-phb}",
+			"name": "Mobile",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -630,7 +630,7 @@
 			]
 		},
 		{
-			"name": "{@feat Naturalist|sw5e-phb}",
+			"name": "Naturalist",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -646,7 +646,7 @@
 			]
 		},
 		{
-			"name": "{@feat Observant|sw5e-phb}",
+			"name": "Observant",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -662,7 +662,7 @@
 			]
 		},
 		{
-			"name": "{@feat Perceptive|sw5e-phb}",
+			"name": "Perceptive",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -678,7 +678,7 @@
 			]
 		},
 		{
-			"name": "{@feat Performer|sw5e-phb}",
+			"name": "Performer",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -694,7 +694,7 @@
 			]
 		},
 		{
-			"name": "{@feat Power Adept|sw5e-phb}",
+			"name": "Power Adept",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -703,7 +703,7 @@
 			]
 		},
 		{
-			"name": "{@feat Power Channeling|sw5e-phb}",
+			"name": "Power Channeling",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -712,7 +712,7 @@
 			]
 		},
 		{
-			"name": "{@feat Practiced|sw5e-phb}",
+			"name": "Practiced",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -727,7 +727,7 @@
 			]
 		},
 		{
-			"name": "{@feat Promising Commander|sw5e-phb}",
+			"name": "Promising Commander",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -742,11 +742,11 @@
 			]
 		},
 		{
-			"name": "{@feat Quick-Fingered|sw5e-phb}",
+			"name": "Quick-Fingered",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
-				"Your nimble fingers and agility let you {@optfeature Perform|sw5e-phb|perform} sleight of hand. You gain the following benefits:",
+				"Your nimble fingers and agility let you perform sleight of hand. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -758,7 +758,7 @@
 			]
 		},
 		{
-			"name": "{@feat Quick-Witted|sw5e-phb}",
+			"name": "Quick-Witted",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -774,7 +774,7 @@
 			]
 		},
 		{
-			"name": "{@feat Resilient|sw5e-phb}",
+			"name": "Resilient",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -789,7 +789,7 @@
 			]
 		},
 		{
-			"name": "{@feat Shard Modification|sw5e-phb}",
+			"name": "Shard Modification",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -805,7 +805,7 @@
 			]
 		},
 		{
-			"name": "{@feat Silver-Tongued|sw5e-phb}",
+			"name": "Silver-Tongued",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -821,7 +821,7 @@
 			]
 		},
 		{
-			"name": "{@feat Snappy Interjection|sw5e-phb}",
+			"name": "Snappy Interjection",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -836,7 +836,7 @@
 			]
 		},
 		{
-			"name": "{@feat Specialist|sw5e-phb}",
+			"name": "Specialist",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -854,7 +854,7 @@
 			]
 		},
 		{
-			"name": "{@feat Stealthy|sw5e-phb}",
+			"name": "Stealthy",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -875,7 +875,7 @@
 			]
 		},
 		{
-			"name": "{@feat Supreme Accuracy|sw5e-phb}",
+			"name": "Supreme Accuracy",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -890,7 +890,7 @@
 			]
 		},
 		{
-			"name": "{@feat Supreme Aptitude|sw5e-phb}",
+			"name": "Supreme Aptitude",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -905,7 +905,7 @@
 			]
 		},
 		{
-			"name": "{@feat Supreme Durability|sw5e-phb}",
+			"name": "Supreme Durability",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -920,7 +920,7 @@
 			]
 		},
 		{
-			"name": "{@feat Survivalist|sw5e-phb}",
+			"name": "Survivalist",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -936,7 +936,7 @@
 			]
 		},
 		{
-			"name": "{@feat Tech Dabbler|sw5e-phb}",
+			"name": "Tech Dabbler",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -944,7 +944,7 @@
 			]
 		},
 		{
-			"name": "{@feat Techie|sw5e-phb}",
+			"name": "Techie",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -960,7 +960,7 @@
 			]
 		},
 		{
-			"name": "{@feat Threatening|sw5e-phb}",
+			"name": "Threatening",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
@@ -991,7 +991,7 @@
 			]
 		},
 		{
-			"name": "{@feat Weapon Expert|sw5e-phb}",
+			"name": "Weapon Expert",
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [

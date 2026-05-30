@@ -127,7 +127,7 @@
 			]
 		},
 		{
-			"name": "Anti-materiel {@filter blaster|items|firearm=true}",
+			"name": "Anti-materiel blaster",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "R",
@@ -213,7 +213,7 @@
 			"baseItem": "arrow|sw5e-phb"
 		},
 		{
-			"name": "Arrow, {@spell Electroshock|sw5e-phb}",
+			"name": "Arrow, Electroshock",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -258,7 +258,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "{@item Binders|sw5e-phb} (Champion)",
+			"name": "Binders (Champion)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -268,7 +268,7 @@
 			]
 		},
 		{
-			"name": "{@item Binders|sw5e-phb} (Exceptional)",
+			"name": "Binders (Exceptional)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -278,7 +278,7 @@
 			]
 		},
 		{
-			"name": "{@item Binders|sw5e-phb} (Fine)",
+			"name": "Binders (Fine)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -288,7 +288,7 @@
 			]
 		},
 		{
-			"name": "{@item Binders|sw5e-phb} (Improved)",
+			"name": "Binders (Improved)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -298,7 +298,7 @@
 			]
 		},
 		{
-			"name": "{@item Binders|sw5e-phb} (Superior)",
+			"name": "Binders (Superior)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -308,7 +308,7 @@
 			]
 		},
 		{
-			"name": "{@filter blaster|items|firearm=true} cannon",
+			"name": "blaster cannon",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "R",
@@ -620,7 +620,7 @@
 			]
 		},
 		{
-			"name": "Chained {@item Lightdagger|sw5e-phb|lightdagger}",
+			"name": "Chained lightdagger",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "M",
@@ -642,7 +642,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}, Fragmentation (Average)",
+			"name": "Charge, Fragmentation (Average)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -653,7 +653,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}, Fragmentation (Deadly)",
+			"name": "Charge, Fragmentation (Deadly)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -664,7 +664,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}, Fragmentation (Devastating)",
+			"name": "Charge, Fragmentation (Devastating)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -675,7 +675,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}, Fragmentation (Lethal)",
+			"name": "Charge, Fragmentation (Lethal)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -686,7 +686,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}, Fragmentation (Major)",
+			"name": "Charge, Fragmentation (Major)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -697,7 +697,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}, Plasma (Average)",
+			"name": "Charge, Plasma (Average)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -708,7 +708,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}, Plasma (Deadly)",
+			"name": "Charge, Plasma (Deadly)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -719,7 +719,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}, Plasma (Devastating)",
+			"name": "Charge, Plasma (Devastating)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -730,7 +730,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}, Plasma (Lethal)",
+			"name": "Charge, Plasma (Lethal)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -741,7 +741,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}, Plasma (Major)",
+			"name": "Charge, Plasma (Major)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -752,7 +752,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}, fragmentation",
+			"name": "Charge, fragmentation",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -765,7 +765,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Charge|sw5e-phb}, plasma",
+			"name": "Charge, plasma",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -928,7 +928,7 @@
 			"bonusWeapon": "+2"
 		},
 		{
-			"name": "{@item Credit|sw5e-phb} Chip (Champion)",
+			"name": "Credit Chip (Champion)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -938,7 +938,7 @@
 			]
 		},
 		{
-			"name": "{@item Credit|sw5e-phb} Chip (Exceptional)",
+			"name": "Credit Chip (Exceptional)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -948,7 +948,7 @@
 			]
 		},
 		{
-			"name": "{@item Credit|sw5e-phb} Chip (Fine)",
+			"name": "Credit Chip (Fine)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -958,7 +958,7 @@
 			]
 		},
 		{
-			"name": "{@item Credit|sw5e-phb} Chip (Improved)",
+			"name": "Credit Chip (Improved)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -968,7 +968,7 @@
 			]
 		},
 		{
-			"name": "{@item Credit|sw5e-phb} Chip (Superior)",
+			"name": "Credit Chip (Superior)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -2565,7 +2565,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, gas|sw5e-phb|Grenade, Gas} (Average)",
+			"name": "Grenade, Gas (Average)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2576,7 +2576,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, gas|sw5e-phb|Grenade, Gas} (Deadly)",
+			"name": "Grenade, Gas (Deadly)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2587,7 +2587,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, gas|sw5e-phb|Grenade, Gas} (Devastating)",
+			"name": "Grenade, Gas (Devastating)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2598,7 +2598,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, gas|sw5e-phb|Grenade, Gas} (Lethal)",
+			"name": "Grenade, Gas (Lethal)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2609,7 +2609,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, gas|sw5e-phb|Grenade, Gas} (Major)",
+			"name": "Grenade, Gas (Major)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2675,7 +2675,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, ion|sw5e-phb|Grenade, Ion} (Average)",
+			"name": "Grenade, Ion (Average)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2685,7 +2685,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, ion|sw5e-phb|Grenade, Ion} (Deadly)",
+			"name": "Grenade, Ion (Deadly)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2695,7 +2695,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, ion|sw5e-phb|Grenade, Ion} (Devastating)",
+			"name": "Grenade, Ion (Devastating)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2705,7 +2705,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, ion|sw5e-phb|Grenade, Ion} (Lethal)",
+			"name": "Grenade, Ion (Lethal)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2715,7 +2715,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, ion|sw5e-phb|Grenade, Ion} (Major)",
+			"name": "Grenade, Ion (Major)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2780,7 +2780,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, plasma|sw5e-phb|Grenade, Plasma} (Average)",
+			"name": "Grenade, Plasma (Average)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2790,7 +2790,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, plasma|sw5e-phb|Grenade, Plasma} (Deadly)",
+			"name": "Grenade, Plasma (Deadly)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2800,7 +2800,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, plasma|sw5e-phb|Grenade, Plasma} (Devastating)",
+			"name": "Grenade, Plasma (Devastating)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2810,7 +2810,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, plasma|sw5e-phb|Grenade, Plasma} (Lethal)",
+			"name": "Grenade, Plasma (Lethal)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2820,7 +2820,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, plasma|sw5e-phb|Grenade, Plasma} (Major)",
+			"name": "Grenade, Plasma (Major)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -2909,7 +2909,7 @@
 			]
 		},
 		{
-			"name": "Hooked {@item Vibroblade|sw5e-phb|vibroblade}",
+			"name": "Hooked vibroblade",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "M",
@@ -3030,7 +3030,7 @@
 			"bonusWeapon": "+2"
 		},
 		{
-			"name": "Jagged {@item Vibroblade|sw5e-phb|vibroblade}",
+			"name": "Jagged vibroblade",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "M",
@@ -3400,7 +3400,7 @@
 			"range": "25/75"
 		},
 		{
-			"name": "{@item Lightsaber|sw5e-phb} pike",
+			"name": "Lightsaber pike",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "M",
@@ -3443,7 +3443,7 @@
 			"value": 8000,
 			"weight": 7,
 			"entries": [
-				"When you would make a Strength ({@skill Athletics}) check to attempt to grapple a creature while wielding a weapon with the grappling property, you can instead make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} with it. If the attack hits, the creature becomes {@condition grappled|sw5e-phb} by you, and it takes damage equal to your Strength modifier of the same type as the weapon's damage."
+				"When you would make a Strength ({@skill Athletics|sw5e-phb}) check to attempt to grapple a creature while wielding a weapon with the grappling property, you can instead make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} with it. If the attack hits, the creature becomes {@condition grappled|sw5e-phb} by you, and it takes damage equal to your Strength modifier of the same type as the weapon's damage."
 			],
 			"property": [
 				"R",
@@ -3456,7 +3456,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "Marksman {@filter blaster|items|firearm=true}",
+			"name": "Marksman blaster",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "R",
@@ -3762,7 +3762,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, gas|sw5e-phb|Mine, Gas} (Average)",
+			"name": "Mine, Gas (Average)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -3773,7 +3773,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, gas|sw5e-phb|Mine, Gas} (Deadly)",
+			"name": "Mine, Gas (Deadly)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -3784,7 +3784,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, gas|sw5e-phb|Mine, Gas} (Devastating)",
+			"name": "Mine, Gas (Devastating)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -3795,7 +3795,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, gas|sw5e-phb|Mine, Gas} (Lethal)",
+			"name": "Mine, Gas (Lethal)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -3806,7 +3806,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, gas|sw5e-phb|Mine, Gas} (Major)",
+			"name": "Mine, Gas (Major)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -3817,7 +3817,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, incendiary|sw5e-phb|Mine, Incendiary} (Average)",
+			"name": "Mine, Incendiary (Average)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -3828,7 +3828,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, incendiary|sw5e-phb|Mine, Incendiary} (Deadly)",
+			"name": "Mine, Incendiary (Deadly)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -3839,7 +3839,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, incendiary|sw5e-phb|Mine, Incendiary} (Devastating)",
+			"name": "Mine, Incendiary (Devastating)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -3850,7 +3850,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, incendiary|sw5e-phb|Mine, Incendiary} (Lethal)",
+			"name": "Mine, Incendiary (Lethal)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -3861,7 +3861,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, incendiary|sw5e-phb|Mine, Incendiary} (Major)",
+			"name": "Mine, Incendiary (Major)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -4082,7 +4082,7 @@
 			]
 		},
 		{
-			"name": "{@item Missile, fragmentation|sw5e-phb|Missile, Fragmentation} (Average)",
+			"name": "Missile, Fragmentation (Average)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4093,7 +4093,7 @@
 			"bonusWeaponAttack": "+1"
 		},
 		{
-			"name": "{@item Missile, fragmentation|sw5e-phb|Missile, Fragmentation} (Deadly)",
+			"name": "Missile, Fragmentation (Deadly)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4104,7 +4104,7 @@
 			"bonusWeaponAttack": "+3"
 		},
 		{
-			"name": "{@item Missile, fragmentation|sw5e-phb|Missile, Fragmentation} (Devastating)",
+			"name": "Missile, Fragmentation (Devastating)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4115,7 +4115,7 @@
 			"bonusWeaponAttack": "+3"
 		},
 		{
-			"name": "{@item Missile, fragmentation|sw5e-phb|Missile, Fragmentation} (Lethal)",
+			"name": "Missile, Fragmentation (Lethal)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4126,7 +4126,7 @@
 			"bonusWeaponAttack": "+3"
 		},
 		{
-			"name": "{@item Missile, fragmentation|sw5e-phb|Missile, Fragmentation} (Major)",
+			"name": "Missile, Fragmentation (Major)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4753,7 +4753,7 @@
 			]
 		},
 		{
-			"name": "{@item Projector canister, cryo|sw5e-phb|Projector Canister, Cryo} (Average)",
+			"name": "Projector Canister, Cryo (Average)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4763,7 +4763,7 @@
 			]
 		},
 		{
-			"name": "{@item Projector canister, cryo|sw5e-phb|Projector Canister, Cryo} (Deadly)",
+			"name": "Projector Canister, Cryo (Deadly)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4773,7 +4773,7 @@
 			]
 		},
 		{
-			"name": "{@item Projector canister, cryo|sw5e-phb|Projector Canister, Cryo} (Devastating)",
+			"name": "Projector Canister, Cryo (Devastating)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4783,7 +4783,7 @@
 			]
 		},
 		{
-			"name": "{@item Projector canister, cryo|sw5e-phb|Projector Canister, Cryo} (Lethal)",
+			"name": "Projector Canister, Cryo (Lethal)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4793,7 +4793,7 @@
 			]
 		},
 		{
-			"name": "{@item Projector canister, cryo|sw5e-phb|Projector Canister, Cryo} (Major)",
+			"name": "Projector Canister, Cryo (Major)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4803,7 +4803,7 @@
 			]
 		},
 		{
-			"name": "{@item Projector canister, incendiary|sw5e-phb|Projector Canister, Incendiary} (Average)",
+			"name": "Projector Canister, Incendiary (Average)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4813,7 +4813,7 @@
 			]
 		},
 		{
-			"name": "{@item Projector canister, incendiary|sw5e-phb|Projector Canister, Incendiary} (Deadly)",
+			"name": "Projector Canister, Incendiary (Deadly)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4823,7 +4823,7 @@
 			]
 		},
 		{
-			"name": "{@item Projector canister, incendiary|sw5e-phb|Projector Canister, Incendiary} (Devastating)",
+			"name": "Projector Canister, Incendiary (Devastating)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4833,7 +4833,7 @@
 			]
 		},
 		{
-			"name": "{@item Projector canister, incendiary|sw5e-phb|Projector Canister, Incendiary} (Lethal)",
+			"name": "Projector Canister, Incendiary (Lethal)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -4843,7 +4843,7 @@
 			]
 		},
 		{
-			"name": "{@item Projector canister, incendiary|sw5e-phb|Projector Canister, Incendiary} (Major)",
+			"name": "Projector Canister, Incendiary (Major)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "AF",
@@ -5043,7 +5043,7 @@
 			]
 		},
 		{
-			"name": "{@spell Radiation|sw5e-phb} cannon",
+			"name": "Radiation cannon",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "R",
@@ -5123,7 +5123,7 @@
 			]
 		},
 		{
-			"name": "{@item Remote detonator|sw5e-phb|Remote Detonator} (Champion)",
+			"name": "Remote Detonator (Champion)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5133,7 +5133,7 @@
 			]
 		},
 		{
-			"name": "{@item Remote detonator|sw5e-phb|Remote Detonator} (Exceptional)",
+			"name": "Remote Detonator (Exceptional)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5143,7 +5143,7 @@
 			]
 		},
 		{
-			"name": "{@item Remote detonator|sw5e-phb|Remote Detonator} (Fine)",
+			"name": "Remote Detonator (Fine)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5153,7 +5153,7 @@
 			]
 		},
 		{
-			"name": "{@item Remote detonator|sw5e-phb|Remote Detonator} (Improved)",
+			"name": "Remote Detonator (Improved)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5163,7 +5163,7 @@
 			]
 		},
 		{
-			"name": "{@item Remote detonator|sw5e-phb|Remote Detonator} (Superior)",
+			"name": "Remote Detonator (Superior)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5185,7 +5185,7 @@
 			]
 		},
 		{
-			"name": "{@item Restraining bolt|sw5e-phb|Restraining Bolt} (Champion)",
+			"name": "Restraining Bolt (Champion)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5196,7 +5196,7 @@
 			]
 		},
 		{
-			"name": "{@item Restraining bolt|sw5e-phb|Restraining Bolt} (Exceptional)",
+			"name": "Restraining Bolt (Exceptional)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5207,7 +5207,7 @@
 			]
 		},
 		{
-			"name": "{@item Restraining bolt|sw5e-phb|Restraining Bolt} (Fine)",
+			"name": "Restraining Bolt (Fine)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5218,7 +5218,7 @@
 			]
 		},
 		{
-			"name": "{@item Restraining bolt|sw5e-phb|Restraining Bolt} (Improved)",
+			"name": "Restraining Bolt (Improved)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5229,7 +5229,7 @@
 			]
 		},
 		{
-			"name": "{@item Restraining bolt|sw5e-phb|Restraining Bolt} (Superior)",
+			"name": "Restraining Bolt (Superior)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5662,7 +5662,7 @@
 			]
 		},
 		{
-			"name": "Scatter {@filter blaster|items|firearm=true}",
+			"name": "Scatter blaster",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "R",
@@ -5736,7 +5736,7 @@
 			"keen": 1
 		},
 		{
-			"name": "{@spell Shatter|sw5e-phb} cannon",
+			"name": "Shatter cannon",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "R",
@@ -5769,7 +5769,7 @@
 			"burst": 4
 		},
 		{
-			"name": "{@spell Shatter|sw5e-phb} pistol",
+			"name": "Shatter pistol",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "R",
@@ -5799,7 +5799,7 @@
 			"strength": 11
 		},
 		{
-			"name": "{@spell Shatter|sw5e-phb} rifle",
+			"name": "Shatter rifle",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "R",
@@ -5862,7 +5862,7 @@
 			"bonusAc": "+3"
 		},
 		{
-			"name": "Ship {@item Shield|sw5e-phb} (Fine)",
+			"name": "Ship Shield (Fine)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5873,7 +5873,7 @@
 			"bonusSavingThrow": "+1"
 		},
 		{
-			"name": "Ship {@item Shield|sw5e-phb} (Improved)",
+			"name": "Ship Shield (Improved)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5884,7 +5884,7 @@
 			"bonusSavingThrow": "+2"
 		},
 		{
-			"name": "Ship {@item Shield|sw5e-phb} (Superior)",
+			"name": "Ship Shield (Superior)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "G",
@@ -5936,7 +5936,7 @@
 			"value": 5000,
 			"weight": 1,
 			"entries": [
-				"A shock glove is a type of armored glove that is coated with a webbed lacing. When used for an attack, this webbing carries a {@optfeature Charge|sw5e-phb|charge} that deals {@damage 1d4} lightning damage to any objects that the glove come in contact with. If you are engaged in combat with the target of the attack, you must make a grapple check instead of an {@variantrule Attack Roll|sw5e-phb|attack roll}, using a Strength ({@skill Athletics}) check contested by the target's Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check (the target chooses the ability to use)."
+				"A shock glove is a type of armored glove that is coated with a webbed lacing. When used for an attack, this webbing carries a {@optfeature Charge|sw5e-phb|charge} that deals {@damage 1d4} lightning damage to any objects that the glove come in contact with. If you are engaged in combat with the target of the attack, you must make a grapple check instead of an {@variantrule Attack Roll|sw5e-phb|attack roll}, using a Strength ({@skill Athletics|sw5e-phb}) check contested by the target's Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check (the target chooses the ability to use)."
 			]
 		},
 		{
@@ -6182,7 +6182,7 @@
 			]
 		},
 		{
-			"name": "{@skill Stealth} carbine",
+			"name": "Stealth carbine",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "R",
@@ -6424,7 +6424,7 @@
 			]
 		},
 		{
-			"name": "{@item Thermal detonator|sw5e-phb|Thermal Detonator} (Average)",
+			"name": "Thermal Detonator (Average)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -6434,7 +6434,7 @@
 			]
 		},
 		{
-			"name": "{@item Thermal detonator|sw5e-phb|Thermal Detonator} (Deadly)",
+			"name": "Thermal Detonator (Deadly)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -6444,7 +6444,7 @@
 			]
 		},
 		{
-			"name": "{@item Thermal detonator|sw5e-phb|Thermal Detonator} (Devastating)",
+			"name": "Thermal Detonator (Devastating)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -6454,7 +6454,7 @@
 			]
 		},
 		{
-			"name": "{@item Thermal detonator|sw5e-phb|Thermal Detonator} (Lethal)",
+			"name": "Thermal Detonator (Lethal)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -6464,7 +6464,7 @@
 			]
 		},
 		{
-			"name": "{@item Thermal detonator|sw5e-phb|Thermal Detonator} (Major)",
+			"name": "Thermal Detonator (Major)",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "EXP",
@@ -6676,7 +6676,7 @@
 			]
 		},
 		{
-			"name": "{@spell Tranquilizer|sw5e-phb} rifle",
+			"name": "Tranquilizer rifle",
 			"source": "sw5e-ec",
 			"page": 0,
 			"type": "R",
@@ -7068,7 +7068,7 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when a creature within range that you can see would roll {@variantrule Initiative|sw5e-phb|initiative}"
 				}
 			],
@@ -7784,7 +7784,7 @@
 				}
 			},
 			"entries": [
-				"You ward a 30-foot radius sphere centered on you with a manually-operated trap. The trap is well disguised. Any creature that can't see the area at the time the power is cast must make a Wisdom ({@skill Perception}) check against your tech save DC to notice the trap before entering the area. Once after this power is cast, when a creature you can see enters or moves within the warded area, you can use your {@variantrule Reaction|sw5e-phb} to trigger the trap. The effect on the creature depends on the kind of trap you employ, which you choose when you cast this power. You can maintain a maximum number of instances of this power at once equal to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier.",
+				"You ward a 30-foot radius sphere centered on you with a manually-operated trap. The trap is well disguised. Any creature that can't see the area at the time the power is cast must make a Wisdom ({@skill Perception|sw5e-phb}) check against your tech save DC to notice the trap before entering the area. Once after this power is cast, when a creature you can see enters or moves within the warded area, you can use your {@variantrule Reaction|sw5e-phb} to trigger the trap. The effect on the creature depends on the kind of trap you employ, which you choose when you cast this power. You can maintain a maximum number of instances of this power at once equal to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier.",
 				{
 					"type": "list",
 					"items": [
@@ -7904,14 +7904,14 @@
 			]
 		},
 		{
-			"name": "Greater {@spell Energy Shield|sw5e-phb}",
+			"name": "Greater Energy Shield",
 			"source": "sw5e-ec",
 			"level": 2,
 			"school": "TP",
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when a creature you can see within range is hit by an attack or targeted by the *{@spell Homing Rockets|sw5e-phb|homing rockets}* power"
 				}
 			],
@@ -8048,7 +8048,7 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when you would roll {@variantrule Initiative|sw5e-phb|initiative}"
 				}
 			],
@@ -8079,7 +8079,7 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when you would roll {@variantrule Initiative|sw5e-phb|initiative}"
 				}
 			],
@@ -8141,7 +8141,7 @@
 				"{@b {@i Prerequisite: {@spell Kinetite|null}}}",
 				"A 20-foot-radius sphere of compressed lightning springs into existence centered on a point you choose within range. The sphere remains for the power's duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} or take {@damage 2d6} kinetic damage. The sphere's space is {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}.",
 				"Until the power ends, you can use a {@variantrule Bonus Action|sw5e-phb} on each of your turns to cause a bolt of lightning to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged force attack. You have {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll} if the target is in the sphere. On a hit, the target takes {@damage 4d6} lightning damage.",
-				"Creatures within 30 feet of the sphere have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception}) checks made to listen."
+				"Creatures within 30 feet of the sphere have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) checks made to listen."
 			],
 			"entriesHigherLevel": [
 				{
@@ -8211,7 +8211,7 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when you are hit by an attack"
 				}
 			],
@@ -8564,7 +8564,7 @@
 			]
 		},
 		{
-			"name": "Lesser {@spell Mislead|sw5e-phb}",
+			"name": "Lesser Mislead",
 			"source": "sw5e-ec",
 			"level": 2,
 			"school": "TP",
@@ -8814,7 +8814,7 @@
 					]
 				},
 				"If you cast this power multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.",
-				"A creature that witnesses the effects of this power can use its action to make an Intelligence ({@skill Investigation}) check against your tech save DC. On a successful check, the creature discerns that the effects are illusory, and they become faint to the creature.",
+				"A creature that witnesses the effects of this power can use its action to make an Intelligence ({@skill Investigation|sw5e-phb}) check against your tech save DC. On a successful check, the creature discerns that the effects are illusory, and they become faint to the creature.",
 				"The maximum number of active effects increases by 3 when you reach 5th level (6), 11th level (9), and 17th level (12)."
 			],
 			"miscTags": [
@@ -9305,14 +9305,14 @@
 			]
 		},
 		{
-			"name": "Squad {@item Shield|sw5e-phb}",
+			"name": "Squad Shield",
 			"source": "sw5e-ec",
 			"level": 7,
 			"school": "TP",
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take in response to an incoming threat"
 				}
 			],
@@ -9646,7 +9646,7 @@
 			]
 		},
 		{
-			"name": "Vitality {@item Shield|sw5e-phb}",
+			"name": "Vitality Shield",
 			"source": "sw5e-ec",
 			"level": 2,
 			"school": "UV",
@@ -9768,7 +9768,7 @@
 				}
 			],
 			"entries": [
-				"Until the end of the turn, you have a climbing {@variantrule Speed|sw5e-phb|speed} equal to your walking {@variantrule Speed|sw5e-phb|speed} and you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Acrobatics}) and Strength ({@skill Athletics}) checks that involve movement. For the same duration, you can move up, down, and across vertical surfaces while leaving your hands free. This does not allow you to move upside down along ceilings. If you are on a vertical surface when you no longer have a climbing {@variantrule Speed|sw5e-phb|speed}, you immediately fall unless you have some other means of remaining there."
+				"Until the end of the turn, you have a climbing {@variantrule Speed|sw5e-phb|speed} equal to your walking {@variantrule Speed|sw5e-phb|speed} and you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Acrobatics|sw5e-phb}) and Strength ({@skill Athletics|sw5e-phb}) checks that involve movement. For the same duration, you can move up, down, and across vertical surfaces while leaving your hands free. This does not allow you to move upside down along ceilings. If you are on a vertical surface when you no longer have a climbing {@variantrule Speed|sw5e-phb|speed}, you immediately fall unless you have some other means of remaining there."
 			]
 		},
 		{
@@ -9840,7 +9840,7 @@
 			],
 			"entries": [
 				"You {@spell Project|sw5e-phb|project} a length of wire towards a foe to bring them within your grasp. Make a ranged tech attack against the target. On a hit, the target takes {@damage 2d10} kinetic damage, and you can pull it up to 25 feet closer to you. If you score a {@variantrule Critical Hit|sw5e-phb|critical hit}, the target is also knocked {@condition prone|sw5e-phb}. If the target ends this movement within 5 feet of you and is no more than one size larger than you, the target is {@condition grappled|sw5e-phb} by you for the duration.",
-				"If a creature you grapple with this power uses its action to escape, it must succeed on a Strength ({@skill Athletics}) or Dexterity ({@skill Acrobatics}) check against your tech save DC to do so.",
+				"If a creature you grapple with this power uses its action to escape, it must succeed on a Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check against your tech save DC to do so.",
 				"This power ends if the attack misses or the grapple ends."
 			],
 			"entriesHigherLevel": [

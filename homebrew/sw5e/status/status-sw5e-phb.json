@@ -1,0 +1,33 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-phb",
+				"abbreviation": "PHB",
+				"full": "SW5e: Player's Handbook",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-phb.json",
+				"color": "#aa0000",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		]
+	},
+	"status": [
+		{
+			"name": "Concentration",
+			"source": "sw5e-phb",
+			"page": 292,
+			"entries": [
+				"Some powers require you to maintain {@variantrule Concentration|sw5e-phb|concentration} in order to keep their effect active. If you lose {@variantrule Concentration|sw5e-phb|concentration}, such a power ends.",
+				"If a power must be maintained with {@variantrule Concentration|sw5e-phb|concentration}, that fact appears in its Duration entry, and the power specifies how long you can concentrate on it. You can end {@variantrule Concentration|sw5e-phb|concentration} at any time (no action required).",
+				"Normal activity, such as moving and attacking, doesn't interfere with {@variantrule Concentration|sw5e-phb|concentration}. The following factors can break {@variantrule Concentration|sw5e-phb|concentration}:",
+				"- Casting another power that requires {@variantrule Concentration|sw5e-phb|concentration}. You can't concentrate on two powers at once.",
+				"- Taking damage. Whenever you take damage while concentrating on a power, you must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} to maintain {@variantrule Concentration|sw5e-phb|concentration}. The DC equals 10 or half the damage you take, whichever number is higher. If you take damage from multiple sources, such as an arrow and a dragon's breath, you make a separate {@variantrule Saving Throw|sw5e-phb|saving throw} for each source of damage.",
+				"- Being {@condition Incapacitated|sw5e-phb|incapacitated} or killed. You lose {@variantrule Concentration|sw5e-phb|concentration} on a power if you are {@condition Incapacitated|sw5e-phb|incapacitated} or if you die."
+			]
+		}
+	]
+}

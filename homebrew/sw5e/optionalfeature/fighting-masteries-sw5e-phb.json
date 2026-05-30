@@ -17,7 +17,7 @@
 	},
 	"optionalfeature": [
 		{
-			"name": "{@optfeature Area Mastery|sw5e-phb}",
+			"name": "Area Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -36,7 +36,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Assisting Mastery|sw5e-phb}",
+			"name": "Assisting Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -60,7 +60,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Berserk Mastery|sw5e-phb}",
+			"name": "Berserk Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -79,7 +79,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Blindfighting Mastery|sw5e-phb}",
+			"name": "Blindfighting Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -98,7 +98,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Brawler Mastery|sw5e-phb}",
+			"name": "Brawler Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -118,7 +118,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Counterstrike Mastery|sw5e-phb}",
+			"name": "Counterstrike Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -138,7 +138,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Covert Mastery|sw5e-phb}",
+			"name": "Covert Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -158,7 +158,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Defense Mastery|sw5e-phb}",
+			"name": "Defense Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -177,7 +177,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Disruption Mastery|sw5e-phb}",
+			"name": "Disruption Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -196,7 +196,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Dual Wield Mastery|sw5e-phb}",
+			"name": "Dual Wield Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -217,7 +217,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Duelist Mastery|sw5e-phb}",
+			"name": "Duelist Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -236,7 +236,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Equilibrium Mastery|sw5e-phb}",
+			"name": "Equilibrium Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -255,7 +255,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Explosives Mastery|sw5e-phb}",
+			"name": "Explosives Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -274,7 +274,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Formation Mastery|sw5e-phb}",
+			"name": "Formation Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -293,7 +293,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Formfighting Mastery|sw5e-phb}",
+			"name": "Formfighting Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -312,7 +312,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Great Weapon Mastery|sw5e-phb}",
+			"name": "Great Weapon Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -332,7 +332,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Guerrilla Mastery|sw5e-phb}",
+			"name": "Guerrilla Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -352,7 +352,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Gunning Mastery|sw5e-phb}",
+			"name": "Gunning Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -372,7 +372,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Mounted Mastery|sw5e-phb}",
+			"name": "Mounted Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -392,7 +392,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Onslaught Mastery|sw5e-phb}",
+			"name": "Onslaught Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -412,7 +412,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Poisoner Mastery|sw5e-phb}",
+			"name": "Poisoner Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -432,7 +432,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Secured Mastery|sw5e-phb}",
+			"name": "Secured Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -452,7 +452,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Sentinel Mastery|sw5e-phb}",
+			"name": "Sentinel Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -471,7 +471,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Sharpshooter Mastery|sw5e-phb}",
+			"name": "Sharpshooter Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -490,7 +490,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Shield Mastery|sw5e-phb}",
+			"name": "Shield Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -509,7 +509,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Snapshot Mastery|sw5e-phb}",
+			"name": "Snapshot Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -528,7 +528,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Split Mastery|sw5e-phb}",
+			"name": "Split Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -548,7 +548,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Spotting Mastery|sw5e-phb}",
+			"name": "Spotting Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -569,7 +569,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Superiority Mastery|sw5e-phb}",
+			"name": "Superiority Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -589,7 +589,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Throwing Mastery|sw5e-phb}",
+			"name": "Throwing Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -614,7 +614,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Twin-Blade Mastery|sw5e-phb}",
+			"name": "Twin-Blade Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -634,7 +634,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Versatile Mastery|sw5e-phb}",
+			"name": "Versatile Mastery",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [

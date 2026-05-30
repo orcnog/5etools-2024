@@ -128,7 +128,7 @@
 			"entries": [
 				{
 					"type": "entries",
-					"name": "{@spell Disintegrate|sw5e-phb}",
+					"name": "Disintegrate",
 					"entries": [
 						"When a creature is reduced to 0 {@variantrule Hit Points|sw5e-phb|hit points} by a weapon with the {@spell Disintegrate|sw5e-phb|disintegrate} property, it must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}, DC equal to the {@spell Disintegrate|sw5e-phb|disintegrate} number. On a failed save, it dies immediately without making {@variantrule Death Saving Throw|sw5e-phb|death saving throws}. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
 					]
@@ -233,7 +233,7 @@
 					"type": "entries",
 					"name": "Silent",
 					"entries": [
-						"When you make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a weapon with the silent property while hidden, it does not automatically reveal your presence. Make a Dexterity ({@skill Stealth}) check contested by your targets' Wisdom ({@skill Perception}) check. On a success, you remain hidden."
+						"When you make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a weapon with the silent property while hidden, it does not automatically reveal your presence. Make a Dexterity ({@skill Stealth|sw5e-phb}) check contested by your targets' Wisdom ({@skill Perception|sw5e-phb}) check. On a success, you remain hidden."
 					]
 				}
 			]
@@ -364,7 +364,7 @@
 					"type": "entries",
 					"name": "Barbed",
 					"entries": [
-						"When you succeed on a Strength ({@skill Athletics}) check to initiate or maintain a grapple while wearing armor with the barbed property, the creature takes kinetic damage using the barbed damage (which appears in parentheses with the property) + your Strength modifier."
+						"When you succeed on a Strength ({@skill Athletics|sw5e-phb}) check to initiate or maintain a grapple while wearing armor with the barbed property, the creature takes kinetic damage using the barbed damage (which appears in parentheses with the property) + your Strength modifier."
 					]
 				}
 			]
@@ -393,7 +393,7 @@
 					"type": "entries",
 					"name": "Concealing",
 					"entries": [
-						"While wielding a {@item Shield|sw5e-phb|shield} with the concealing property, you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth}) checks that rely on sight."
+						"While wielding a {@item Shield|sw5e-phb|shield} with the concealing property, you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth|sw5e-phb}) checks that rely on sight."
 					]
 				}
 			]
@@ -492,7 +492,7 @@
 					"type": "entries",
 					"name": "Lambent",
 					"entries": [
-						"While wielding a {@item Shield|sw5e-phb|shield} with the lambent property, you can use a {@variantrule Bonus Action|sw5e-phb} to activate or deactivate the {@item Shield|sw5e-phb|shield}'s light. While active, the {@item Shield|sw5e-phb|shield} sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Additionally, Dexterity ({@skill Stealth}) checks made while the {@item Shield|sw5e-phb|shield}'s light is active that rely on sight have {@variantrule Disadvantage|sw5e-phb|disadvantage}."
+						"While wielding a {@item Shield|sw5e-phb|shield} with the lambent property, you can use a {@variantrule Bonus Action|sw5e-phb} to activate or deactivate the {@item Shield|sw5e-phb|shield}'s light. While active, the {@item Shield|sw5e-phb|shield} sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Additionally, Dexterity ({@skill Stealth|sw5e-phb}) checks made while the {@item Shield|sw5e-phb|shield}'s light is active that rely on sight have {@variantrule Disadvantage|sw5e-phb|disadvantage}."
 					]
 				}
 			]
@@ -534,7 +534,7 @@
 					"type": "entries",
 					"name": "Obscured",
 					"entries": [
-						"While wearing armor or wielding a {@item Shield|sw5e-phb|shield} with the obscured property, electronic sensors and cameras have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks against you that rely on sight."
+						"While wearing armor or wielding a {@item Shield|sw5e-phb|shield} with the obscured property, electronic sensors and cameras have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) and Intelligence ({@skill Investigation|sw5e-phb}) checks against you that rely on sight."
 					]
 				}
 			]
@@ -632,7 +632,7 @@
 					"type": "entries",
 					"name": "Silent",
 					"entries": [
-						"While wearing armor with the silent property, you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth}) checks that rely on sound."
+						"While wearing armor with the silent property, you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth|sw5e-phb}) checks that rely on sound."
 					]
 				}
 			]
@@ -646,7 +646,7 @@
 					"type": "entries",
 					"name": "Spiked",
 					"entries": [
-						"When you succeed on a Strength ({@skill Athletics}) check to shove or trip a creature while wielding a {@item Shield|sw5e-phb|shield} with the spiked property, the creature takes kinetic damage using the spiked damage (which appears in parentheses with the property) + your Strength modifier. If you use a {@item Shield|sw5e-phb|shield} with the spiked property as an improvised weapon, the damage increases by one step (from {@dice d4} to {@dice d6}, {@dice d6} to {@dice d8}, or {@dice d8} to 2d4)."
+						"When you succeed on a Strength ({@skill Athletics|sw5e-phb}) check to shove or trip a creature while wielding a {@item Shield|sw5e-phb|shield} with the spiked property, the creature takes kinetic damage using the spiked damage (which appears in parentheses with the property) + your Strength modifier. If you use a {@item Shield|sw5e-phb|shield} with the spiked property as an improvised weapon, the damage increases by one step (from {@dice d4} to {@dice d6}, {@dice d6} to {@dice d8}, or {@dice d8} to 2d4)."
 					]
 				}
 			]
@@ -1041,123 +1041,123 @@
 			"bonusWeaponAttack": "+3"
 		},
 		{
-			"name": "{@feat Ace Pilot|sw5e-phb}'s Pattern (Basic)",
+			"name": "Ace Pilot's Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Piloting} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Piloting|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Ace Pilot|sw5e-phb}'s Pattern (Choice)",
+			"name": "Ace Pilot's Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Piloting} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Piloting|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Ace Pilot|sw5e-phb}'s Pattern (Elite)",
+			"name": "Ace Pilot's Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Piloting} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Piloting|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Ace Pilot|sw5e-phb}'s Pattern (Exquisite)",
+			"name": "Ace Pilot's Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Piloting}."
+				"You gain grand mastery in {@skill Piloting|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Ace Pilot|sw5e-phb}'s Pattern (Favored)",
+			"name": "Ace Pilot's Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Piloting} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Piloting|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Ace Pilot|sw5e-phb}'s Pattern (Fine)",
+			"name": "Ace Pilot's Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Piloting} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Piloting|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Acrobat|sw5e-phb}'s Pattern (Basic)",
+			"name": "Acrobat's Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Acrobatics} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Acrobatics|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Acrobat|sw5e-phb}'s Pattern (Choice)",
+			"name": "Acrobat's Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Acrobatics} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Acrobatics|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Acrobat|sw5e-phb}'s Pattern (Elite)",
+			"name": "Acrobat's Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Acrobatics} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Acrobatics|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Acrobat|sw5e-phb}'s Pattern (Exquisite)",
+			"name": "Acrobat's Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Acrobatics}."
+				"You gain grand mastery in {@skill Acrobatics|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Acrobat|sw5e-phb}'s Pattern (Favored)",
+			"name": "Acrobat's Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Acrobatics} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Acrobatics|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Acrobat|sw5e-phb}'s Pattern (Fine)",
+			"name": "Acrobat's Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Acrobatics} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Acrobatics|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -1607,63 +1607,63 @@
 			]
 		},
 		{
-			"name": "{@feat Animal Handler|sw5e-phb}'s Pattern (Basic)",
+			"name": "Animal Handler's Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Animal Handling} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Animal Handling|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Animal Handler|sw5e-phb}'s Pattern (Choice)",
+			"name": "Animal Handler's Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Animal Handling} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Animal Handling|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Animal Handler|sw5e-phb}'s Pattern (Elite)",
+			"name": "Animal Handler's Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Animal Handling} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Animal Handling|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Animal Handler|sw5e-phb}'s Pattern (Exquisite)",
+			"name": "Animal Handler's Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Animal Handling}."
+				"You gain grand mastery in {@skill Animal Handling|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Animal Handler|sw5e-phb}'s Pattern (Favored)",
+			"name": "Animal Handler's Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Animal Handling} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Animal Handling|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Animal Handler|sw5e-phb}'s Pattern (Fine)",
+			"name": "Animal Handler's Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Animal Handling} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Animal Handling|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -1673,7 +1673,7 @@
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"While you wear this belt with its field on, Wisdom ({@skill Perception}) checks made to see you have {@variantrule Disadvantage|sw5e-phb|disadvantage}, and you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth}) checks made to hide, as the belt funnels light around you. Activating or deactivating the belt takes an action.",
+				"While you wear this belt with its field on, Wisdom ({@skill Perception|sw5e-phb}) checks made to see you have {@variantrule Disadvantage|sw5e-phb|disadvantage}, and you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth|sw5e-phb}) checks made to hide, as the belt funnels light around you. Activating or deactivating the belt takes an action.",
 				"{@i The success of this high-end stealth field generator emboldened Aratech to branch out into other hardware.}"
 			],
 			"reqAttune": true
@@ -1696,7 +1696,7 @@
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth}) checks that rely on moving silently.",
+				"While you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth|sw5e-phb}) checks that rely on moving silently.",
 				"{@i Before their repulsorcraft hit it big, Aratech honed its edge in the stealth field generator market.}"
 			],
 			"reqAttune": true
@@ -1731,7 +1731,7 @@
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"You gain proficiency in all simple and {@filter Martial weapons|items|type=martial weapon}, all armor, and the {@skill Piloting} skill. Additionally, when you make an Intelligence check to recall or discern information about a weapon, piece of armor, or a military vehicle that this library contains information on, you are considered proficient in the check.",
+				"You gain proficiency in all simple and {@filter Martial weapons|items|type=martial weapon}, all armor, and the {@skill Piloting|sw5e-phb} skill. Additionally, when you make an Intelligence check to recall or discern information about a weapon, piece of armor, or a military vehicle that this library contains information on, you are considered proficient in the check.",
 				"{@b Side Effect:} This aggressively effective library can make it difficult to focus in stressful situations. You have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Constitution {@variantrule Saving Throw|sw5e-phb|saving throws} to maintain {@variantrule Concentration|sw5e-phb|concentration}. Additionally, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Ability Check|sw5e-phb|ability checks} while concentrating on a power.",
 				"{@i This small and unassuming electronic module installed in the parietal lobe contains a massive library of information pertaining to weapons, armor, droids, and every other defense system known to the galaxy at large. Even rare or obscure pieces of technology are described here, offering a unique perspective on the universe - if you can handle it.}"
 			],
@@ -2144,7 +2144,7 @@
 			]
 		},
 		{
-			"name": "Baragwin {@skill Stealth} Unit",
+			"name": "Baragwin Stealth Unit",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -2249,7 +2249,7 @@
 			]
 		},
 		{
-			"name": "Beskar {@item Weave armor|sw5e-phb|weave armor}",
+			"name": "Beskar weave armor",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "MA",
@@ -2427,7 +2427,7 @@
 			]
 		},
 		{
-			"name": "{@filter blaster|items|firearm=true} Chassis (Advanced)",
+			"name": "blaster Chassis (Advanced)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "R",
@@ -2443,7 +2443,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@filter blaster|items|firearm=true} Chassis (Artifact)",
+			"name": "blaster Chassis (Artifact)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "R",
@@ -2459,7 +2459,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@filter blaster|items|firearm=true} Chassis (Legendary)",
+			"name": "blaster Chassis (Legendary)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "R",
@@ -2475,7 +2475,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@filter blaster|items|firearm=true} Chassis (Premium)",
+			"name": "blaster Chassis (Premium)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "R",
@@ -2491,7 +2491,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@filter blaster|items|firearm=true} Chassis (Prototype)",
+			"name": "blaster Chassis (Prototype)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "R",
@@ -2507,7 +2507,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@filter blaster|items|firearm=true} Chassis (Standard)",
+			"name": "blaster Chassis (Standard)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "R",
@@ -2523,7 +2523,7 @@
 			"ammunition": true
 		},
 		{
-			"name": "{@filter blaster|items|firearm=true} Integration",
+			"name": "blaster Integration",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -2876,7 +2876,7 @@
 			"bonusAc": "+1"
 		},
 		{
-			"name": "Bone light {@item Shield|sw5e-phb|shield}",
+			"name": "Bone light shield",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -2921,13 +2921,13 @@
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"While wearing these boots, creatures have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Survival}) checks made to track your steps.",
-				"Additionally, you can use a {@variantrule Bonus Action|sw5e-phb} to cause the boots to leave behind no footprints for 1 minute. When you do, another set of similar footprints appear on the ground that lead in random directions. These footprints last for 8 hours and travel up to 300 feet. A successful DC 14 Intelligence ({@skill Investigation}) check reveals that the footprints are false. Once you've used this feature, you must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
+				"While wearing these boots, creatures have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Survival|sw5e-phb}) checks made to track your steps.",
+				"Additionally, you can use a {@variantrule Bonus Action|sw5e-phb} to cause the boots to leave behind no footprints for 1 minute. When you do, another set of similar footprints appear on the ground that lead in random directions. These footprints last for 8 hours and travel up to 300 feet. A successful DC 14 Intelligence ({@skill Investigation|sw5e-phb}) check reveals that the footprints are false. Once you've used this feature, you must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 			],
 			"recharge": "restLong"
 		},
 		{
-			"name": "{@feat Brawny|sw5e-phb} Arm Prosthesis",
+			"name": "Brawny Arm Prosthesis",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -2940,63 +2940,63 @@
 			]
 		},
 		{
-			"name": "{@feat Brawny|sw5e-phb} Pattern (Basic)",
+			"name": "Brawny Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Athletics} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Athletics|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Brawny|sw5e-phb} Pattern (Choice)",
+			"name": "Brawny Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Athletics} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Athletics|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Brawny|sw5e-phb} Pattern (Elite)",
+			"name": "Brawny Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Athletics} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Athletics|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Brawny|sw5e-phb} Pattern (Exquisite)",
+			"name": "Brawny Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Athletics}."
+				"You gain grand mastery in {@skill Athletics|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Brawny|sw5e-phb} Pattern (Favored)",
+			"name": "Brawny Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Athletics} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Athletics|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Brawny|sw5e-phb} Pattern (Fine)",
+			"name": "Brawny Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Athletics} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Athletics|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -3742,63 +3742,63 @@
 			]
 		},
 		{
-			"name": "{@feat Charmer|sw5e-phb}'s Pattern (Basic)",
+			"name": "Charmer's Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Persuasion} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Persuasion|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Charmer|sw5e-phb}'s Pattern (Choice)",
+			"name": "Charmer's Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Persuasion} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Persuasion|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Charmer|sw5e-phb}'s Pattern (Elite)",
+			"name": "Charmer's Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Persuasion} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Persuasion|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Charmer|sw5e-phb}'s Pattern (Exquisite)",
+			"name": "Charmer's Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Persuasion}."
+				"You gain grand mastery in {@skill Persuasion|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Charmer|sw5e-phb}'s Pattern (Favored)",
+			"name": "Charmer's Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Persuasion} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Persuasion|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Charmer|sw5e-phb}'s Pattern (Fine)",
+			"name": "Charmer's Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Persuasion} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Persuasion|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -3953,7 +3953,7 @@
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"This article of clothing come with one hidden pocket, which can store up to 1 lb. Finding this hidden pocket requires a DC 15 {@skill Investigation} check."
+				"This article of clothing come with one hidden pocket, which can store up to 1 lb. Finding this hidden pocket requires a DC 15 {@skill Investigation|sw5e-phb} check."
 			],
 			"containerCapacity": {
 				"weight": 1
@@ -3966,7 +3966,7 @@
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"This article of clothing come with six hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 30 {@skill Investigation} check."
+				"This article of clothing come with six hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 30 {@skill Investigation|sw5e-phb} check."
 			],
 			"containerCapacity": {
 				"weight": 1
@@ -3979,7 +3979,7 @@
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"This article of clothing come with five hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 27 {@skill Investigation} check."
+				"This article of clothing come with five hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 27 {@skill Investigation|sw5e-phb} check."
 			],
 			"containerCapacity": {
 				"weight": 1
@@ -3992,7 +3992,7 @@
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"This article of clothing come with two hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 18 {@skill Investigation} check."
+				"This article of clothing come with two hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 18 {@skill Investigation|sw5e-phb} check."
 			],
 			"containerCapacity": {
 				"weight": 1
@@ -4005,7 +4005,7 @@
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"This article of clothing come with three hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 21 {@skill Investigation} check."
+				"This article of clothing come with three hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 21 {@skill Investigation|sw5e-phb} check."
 			],
 			"containerCapacity": {
 				"weight": 1
@@ -4018,7 +4018,7 @@
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"This article of clothing come with four hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 24 {@skill Investigation} check."
+				"This article of clothing come with four hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 24 {@skill Investigation|sw5e-phb} check."
 			],
 			"containerCapacity": {
 				"weight": 1
@@ -4097,7 +4097,7 @@
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"These clothes come with nine hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 30 {@skill Investigation} check."
+				"These clothes come with nine hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 30 {@skill Investigation|sw5e-phb} check."
 			],
 			"containerCapacity": {
 				"weight": 1
@@ -4110,7 +4110,7 @@
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"These clothes come with eight hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 27 {@skill Investigation} check."
+				"These clothes come with eight hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 27 {@skill Investigation|sw5e-phb} check."
 			],
 			"containerCapacity": {
 				"weight": 1
@@ -4123,7 +4123,7 @@
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"These clothes come with three hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 18 {@skill Investigation} check."
+				"These clothes come with three hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 18 {@skill Investigation|sw5e-phb} check."
 			],
 			"containerCapacity": {
 				"weight": 1
@@ -4136,7 +4136,7 @@
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"These clothes come with five hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 21 {@skill Investigation} check."
+				"These clothes come with five hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 21 {@skill Investigation|sw5e-phb} check."
 			],
 			"containerCapacity": {
 				"weight": 1
@@ -4149,7 +4149,7 @@
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"These clothes come with six hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 24 {@skill Investigation} check."
+				"These clothes come with six hidden pockets, each of which can store up to 1 lb. Finding these hidden pockets requires a DC 24 {@skill Investigation|sw5e-phb} check."
 			],
 			"containerCapacity": {
 				"weight": 1
@@ -4164,7 +4164,7 @@
 			"value": 3000,
 			"weight": 7,
 			"entries": [
-				"These clothes come with two hidden pockets, each of which can store up to 1.00 lb. Finding these hidden pockets requires a DC 15 {@skill Investigation} check."
+				"These clothes come with two hidden pockets, each of which can store up to 1.00 lb. Finding these hidden pockets requires a DC 15 {@skill Investigation|sw5e-phb} check."
 			],
 			"containerCapacity": {
 				"weight": 1
@@ -4840,7 +4840,7 @@
 			"charges": 10
 		},
 		{
-			"name": "{@item Credit|sw5e-phb} chip",
+			"name": "Credit chip",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -5041,7 +5041,7 @@
 			"vicious": 1
 		},
 		{
-			"name": "Crystadium medium {@item Shield|sw5e-phb|shield}",
+			"name": "Crystadium medium shield",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -5235,7 +5235,7 @@
 			]
 		},
 		{
-			"name": "Daring {@feat Acrobat|sw5e-phb} Package",
+			"name": "Daring Acrobat Package",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -5264,7 +5264,7 @@
 			"bonusWeapon": "+3"
 		},
 		{
-			"name": "{@spell Darkvision|sw5e-phb} Goggles",
+			"name": "Darkvision Goggles",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -5274,7 +5274,7 @@
 			]
 		},
 		{
-			"name": "{@spell Darkvision|sw5e-phb} Visor",
+			"name": "Darkvision Visor",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -5339,7 +5339,7 @@
 			"bonusWeapon": "+2"
 		},
 		{
-			"name": "{@item Datacron|sw5e-phb} Mk I",
+			"name": "Datacron Mk I",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -5350,7 +5350,7 @@
 			]
 		},
 		{
-			"name": "{@item Datacron|sw5e-phb} Mk II",
+			"name": "Datacron Mk II",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -5361,7 +5361,7 @@
 			]
 		},
 		{
-			"name": "{@item Datacron|sw5e-phb} Mk III",
+			"name": "Datacron Mk III",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -5372,7 +5372,7 @@
 			]
 		},
 		{
-			"name": "{@item Datacron|sw5e-phb} Mk IV",
+			"name": "Datacron Mk IV",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -5383,7 +5383,7 @@
 			]
 		},
 		{
-			"name": "{@item Datacron|sw5e-phb} Mk V",
+			"name": "Datacron Mk V",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -5394,7 +5394,7 @@
 			]
 		},
 		{
-			"name": "{@item Datacron|sw5e-phb} Mk VI",
+			"name": "Datacron Mk VI",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -5505,7 +5505,7 @@
 			"entries": [
 				"This augmentation replaces an eye.",
 				"As an action, you can remove or replace this eye. While removed, the eye sprouts eight small legs, has a {@variantrule Speed|sw5e-phb|speed} of 15 feet, an AC of 10, and 1 hit point. As an action on each of your turns, you can move the eye up to its {@variantrule Speed|sw5e-phb|speed} as long as it is within 30 feet of you. You can see through both the detached eye and your remaining eye at the same time, or you can use your action to see through only one eye or the other.",
-				"{@b Side Effect:} While the eye is removed, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Intelligence ({@skill Investigation}) and Wisdom ({@skill Perception}) checks that rely on sight beyond 5 feet.",
+				"{@b Side Effect:} While the eye is removed, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Intelligence ({@skill Investigation|sw5e-phb}) and Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sight beyond 5 feet.",
 				"{@i This eye replacement is a favored tool for the augmented spy.}"
 			]
 		},
@@ -5835,7 +5835,7 @@
 			]
 		},
 		{
-			"name": "Dire {@item Vibroblade|sw5e-phb|vibroblade}",
+			"name": "Dire vibroblade",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "M",
@@ -6392,7 +6392,7 @@
 			"focus": true
 		},
 		{
-			"name": "Durafiber {@item Battle armor|sw5e-phb|battle armor}",
+			"name": "Durafiber battle armor",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "HA",
@@ -6412,7 +6412,7 @@
 			]
 		},
 		{
-			"name": "Duranium {@item Combat suit|sw5e-phb|combat suit}",
+			"name": "Duranium combat suit",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "LA",
@@ -6454,7 +6454,7 @@
 			]
 		},
 		{
-			"name": "Duravlex {@item Fiber armor|sw5e-phb|fiber armor}",
+			"name": "Duravlex fiber armor",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "LA",
@@ -6857,63 +6857,63 @@
 			]
 		},
 		{
-			"name": "{@feat Empathic|sw5e-phb} Pattern (Basic)",
+			"name": "Empathic Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Insight} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Insight|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Empathic|sw5e-phb} Pattern (Choice)",
+			"name": "Empathic Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Insight} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Insight|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Empathic|sw5e-phb} Pattern (Elite)",
+			"name": "Empathic Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Insight} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Insight|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Empathic|sw5e-phb} Pattern (Exquisite)",
+			"name": "Empathic Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Insight}."
+				"You gain grand mastery in {@skill Insight|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Empathic|sw5e-phb} Pattern (Favored)",
+			"name": "Empathic Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Insight} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Insight|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Empathic|sw5e-phb} Pattern (Fine)",
+			"name": "Empathic Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Insight} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Insight|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -8188,7 +8188,7 @@
 			]
 		},
 		{
-			"name": "Fleximetal {@item Fiber armor|sw5e-phb|fiber armor}",
+			"name": "Fleximetal fiber armor",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "LA",
@@ -8952,7 +8952,7 @@
 			"strength": 11
 		},
 		{
-			"name": "{@item Grenade, fragmentation|sw5e-phb|Grenade, Fragmentation} (Average)",
+			"name": "Grenade, Fragmentation (Average)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "EXP",
@@ -8962,7 +8962,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, fragmentation|sw5e-phb|Grenade, Fragmentation} (Deadly)",
+			"name": "Grenade, Fragmentation (Deadly)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "EXP",
@@ -8972,7 +8972,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, fragmentation|sw5e-phb|Grenade, Fragmentation} (Devastating)",
+			"name": "Grenade, Fragmentation (Devastating)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "EXP",
@@ -8982,7 +8982,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, fragmentation|sw5e-phb|Grenade, Fragmentation} (Lethal)",
+			"name": "Grenade, Fragmentation (Lethal)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "EXP",
@@ -8992,7 +8992,7 @@
 			]
 		},
 		{
-			"name": "{@item Grenade, fragmentation|sw5e-phb|Grenade, Fragmentation} (Major)",
+			"name": "Grenade, Fragmentation (Major)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "EXP",
@@ -9260,7 +9260,7 @@
 			"keen": 1
 		},
 		{
-			"name": "Hand {@filter blaster|items|firearm=true}",
+			"name": "Hand blaster",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "R",
@@ -9509,8 +9509,8 @@
 			"rarity": "uncommon",
 			"entries": [
 				"This augmentation replaces your eyes.",
-				"You can activate or deactivate this augmentation as a {@variantrule Bonus Action|sw5e-phb}. While this augmentation is active, you gain {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception}) checks that rely on sight beyond 30 feet. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.",
-				"{@b Side Effect:} While this augmentation is active, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks within 30 feet that rely on sight.",
+				"You can activate or deactivate this augmentation as a {@variantrule Bonus Action|sw5e-phb}. While this augmentation is active, you gain {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sight beyond 30 feet. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.",
+				"{@b Side Effect:} While this augmentation is active, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) and Intelligence ({@skill Investigation|sw5e-phb}) checks within 30 feet that rely on sight.",
 				"{@i This eye replacement features integrated macrobinoculars, granting improved ability to see further away.}"
 			]
 		},
@@ -9573,7 +9573,7 @@
 			"bonusWeapon": "+1"
 		},
 		{
-			"name": "Hidden Compartment {@filter blaster|items|firearm=true}",
+			"name": "Hidden Compartment blaster",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -9593,7 +9593,7 @@
 			"rarity": "rare",
 			"entries": [
 				"This augmentation replaces an arm.",
-				"When you hit with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} using Strength with a weapon wielded by this arm, you gain a +1 bonus to the damage roll. Additionally, when you make a Strength ({@skill Athletics}) check that involves this arm, you gain a +1 bonus to the check.",
+				"When you hit with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} using Strength with a weapon wielded by this arm, you gain a +1 bonus to the damage roll. Additionally, when you make a Strength ({@skill Athletics|sw5e-phb}) check that involves this arm, you gain a +1 bonus to the check.",
 				"{@b Side Effect:} You have {@variantrule Disadvantage|sw5e-phb|disadvantage} on melee weapon attacks and {@variantrule Ability Check|sw5e-phb|ability checks} using Dexterity that involve this arm.",
 				"{@i This arm replacement features enhanced strength.}"
 			]
@@ -9607,12 +9607,12 @@
 			"entries": [
 				"This augmentation replaces both legs.",
 				"You gain {@variantrule Advantage|sw5e-phb|advantage} on Strength {@variantrule Ability Check|sw5e-phb|ability checks} and Strength {@variantrule Saving Throw|sw5e-phb|saving throws}, you can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet, and your {@variantrule Speed|sw5e-phb|speed} increases by 10 feet.",
-				"{@b Side Effect:} Your powerful legs have difficulty moving quietly. You have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Dexterity ({@skill Stealth}) checks that rely on moving silently.",
+				"{@b Side Effect:} Your powerful legs have difficulty moving quietly. You have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Dexterity ({@skill Stealth|sw5e-phb}) checks that rely on moving silently.",
 				"{@i This mechanical leg replacement increases speed and jumping height.}"
 			]
 		},
 		{
-			"name": "Hilt {@filter blaster|items|firearm=true}",
+			"name": "Hilt blaster",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -9622,7 +9622,7 @@
 			]
 		},
 		{
-			"name": "{@item Holocron|sw5e-phb} (Adept)",
+			"name": "Holocron (Adept)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -9633,7 +9633,7 @@
 			]
 		},
 		{
-			"name": "{@item Holocron|sw5e-phb} (Ancient)",
+			"name": "Holocron (Ancient)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -9644,7 +9644,7 @@
 			]
 		},
 		{
-			"name": "{@item Holocron|sw5e-phb} (Apprentice)",
+			"name": "Holocron (Apprentice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -9655,7 +9655,7 @@
 			]
 		},
 		{
-			"name": "{@item Holocron|sw5e-phb} (Journeyman)",
+			"name": "Holocron (Journeyman)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -9666,7 +9666,7 @@
 			]
 		},
 		{
-			"name": "{@item Holocron|sw5e-phb} (Master)",
+			"name": "Holocron (Master)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -9677,7 +9677,7 @@
 			]
 		},
 		{
-			"name": "{@item Holocron|sw5e-phb} (Novice)",
+			"name": "Holocron (Novice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -10826,7 +10826,7 @@
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"While you are interfaced via the {@spell tracker droid interface|sw5e-phb} {@book tech power|sw5e-phb|12|Tech Powers}, when your handler makes a Wisdom ({@skill Survival}) check to track a target, and you are also tracking that target, your handler gains {@variantrule Advantage|sw5e-phb|advantage} on the check. If they already have {@variantrule Advantage|sw5e-phb|advantage}, they can instead reroll one of the dice once."
+				"While you are interfaced via the {@spell tracker droid interface|sw5e-phb} {@book tech power|sw5e-phb|12|Tech Powers}, when your handler makes a Wisdom ({@skill Survival|sw5e-phb}) check to track a target, and you are also tracking that target, your handler gains {@variantrule Advantage|sw5e-phb|advantage} on the check. If they already have {@variantrule Advantage|sw5e-phb|advantage}, they can instead reroll one of the dice once."
 			]
 		},
 		{
@@ -10876,63 +10876,63 @@
 			]
 		},
 		{
-			"name": "{@feat Investigator|sw5e-phb}'s Pattern (Basic)",
+			"name": "Investigator's Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Investigation} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Investigation|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Investigator|sw5e-phb}'s Pattern (Choice)",
+			"name": "Investigator's Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Investigation} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Investigation|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Investigator|sw5e-phb}'s Pattern (Elite)",
+			"name": "Investigator's Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Investigation} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Investigation|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Investigator|sw5e-phb}'s Pattern (Exquisite)",
+			"name": "Investigator's Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Investigation}."
+				"You gain grand mastery in {@skill Investigation|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Investigator|sw5e-phb}'s Pattern (Favored)",
+			"name": "Investigator's Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Investigation} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Investigation|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Investigator|sw5e-phb}'s Pattern (Fine)",
+			"name": "Investigator's Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Investigation} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Investigation|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -11039,7 +11039,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"While wearing this cloak with its hood up, you can try to hide when you are lightly obscured from the creature from which you are hiding. Pulling the hood up or down requires a {@variantrule Bonus Action|sw5e-phb}.",
-				"{@b {@i Jensaarai Regalia.}} While wearing and attuned to this cloak and {@item Jensaarai Armor|sw5e-wh}, while its hood is up, Wisdom ({@skill Perception}) checks made to see you have {@variantrule Disadvantage|sw5e-phb|disadvantage}, and you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth}) checks made to hide. While wearing and attuned to this cloak, Jensaraai Armor, and {@item Jensaarai Headgear|sw5e-wh}, when you make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} to an avoid an effect that would deal cold, energy, fire, force, or kinetic damage, you can add your Wisdom or Charisma modifier (your choice, minimum of one) to the roll if it doesn't already include that modifier.",
+				"{@b {@i Jensaarai Regalia.}} While wearing and attuned to this cloak and {@item Jensaarai Armor|sw5e-wh}, while its hood is up, Wisdom ({@skill Perception|sw5e-phb}) checks made to see you have {@variantrule Disadvantage|sw5e-phb|disadvantage}, and you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth|sw5e-phb}) checks made to hide. While wearing and attuned to this cloak, Jensaraai Armor, and {@item Jensaarai Headgear|sw5e-wh}, when you make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} to an avoid an effect that would deal cold, energy, fire, force, or kinetic damage, you can add your Wisdom or Charisma modifier (your choice, minimum of one) to the roll if it doesn't already include that modifier.",
 				"{@i Most Jensaari wear a gray cloak that subtly adapts to their surroundings.}"
 			],
 			"reqAttune": true
@@ -11058,7 +11058,7 @@
 			"reqAttune": true
 		},
 		{
-			"name": "{@item Jetpack|sw5e-phb} (Champion)",
+			"name": "Jetpack (Champion)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -11073,7 +11073,7 @@
 			}
 		},
 		{
-			"name": "{@item Jetpack|sw5e-phb} (Exceptional)",
+			"name": "Jetpack (Exceptional)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -11088,7 +11088,7 @@
 			}
 		},
 		{
-			"name": "{@item Jetpack|sw5e-phb} (Fine)",
+			"name": "Jetpack (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -11103,7 +11103,7 @@
 			}
 		},
 		{
-			"name": "{@item Jetpack|sw5e-phb} (Improved)",
+			"name": "Jetpack (Improved)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -11118,7 +11118,7 @@
 			}
 		},
 		{
-			"name": "{@item Jetpack|sw5e-phb} (Superior)",
+			"name": "Jetpack (Superior)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -11694,63 +11694,63 @@
 			]
 		},
 		{
-			"name": "{@feat Loremaster|sw5e-phb}'s Pattern (Basic)",
+			"name": "Loremaster's Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Lore} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Lore|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Loremaster|sw5e-phb}'s Pattern (Choice)",
+			"name": "Loremaster's Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Lore} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Lore|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Loremaster|sw5e-phb}'s Pattern (Elite)",
+			"name": "Loremaster's Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Lore} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Lore|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Loremaster|sw5e-phb}'s Pattern (Exquisite)",
+			"name": "Loremaster's Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Lore}."
+				"You gain grand mastery in {@skill Lore|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Loremaster|sw5e-phb}'s Pattern (Favored)",
+			"name": "Loremaster's Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Lore} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Lore|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Loremaster|sw5e-phb}'s Pattern (Fine)",
+			"name": "Loremaster's Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Lore} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Lore|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -11832,7 +11832,7 @@
 			]
 		},
 		{
-			"name": "Magnetized {@item Shield|sw5e-phb}",
+			"name": "Magnetized Shield",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -11842,7 +11842,7 @@
 			]
 		},
 		{
-			"name": "Magnetized {@item Shield|sw5e-phb} (Champion)",
+			"name": "Magnetized Shield (Champion)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -11852,7 +11852,7 @@
 			]
 		},
 		{
-			"name": "Magnetized {@item Shield|sw5e-phb} (Exceptional)",
+			"name": "Magnetized Shield (Exceptional)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -11862,7 +11862,7 @@
 			]
 		},
 		{
-			"name": "Magnetized {@item Shield|sw5e-phb} (Fine)",
+			"name": "Magnetized Shield (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -11872,7 +11872,7 @@
 			]
 		},
 		{
-			"name": "Magnetized {@item Shield|sw5e-phb} (Improved)",
+			"name": "Magnetized Shield (Improved)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -11882,7 +11882,7 @@
 			]
 		},
 		{
-			"name": "Magnetized {@item Shield|sw5e-phb} (Superior)",
+			"name": "Magnetized Shield (Superior)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -11923,7 +11923,7 @@
 			"rarity": "uncommon",
 			"entries": [
 				"This helmet comes equipped with a {@item headcomm|sw5e-phb} and {@item holorecorder|sw5e-phb}. Additionally, while wearing this helmet, you have {@sense Darkvision|sw5e-phb|darkvision} out to 60 feet.",
-				"{@b {@i Mandalorian Vestments.}} While wearing and attuned to this helmet and {@item Mandalorian Beskar'gam|sw5e-wh}, you have {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception}) checks that rely on sight within 60 feet. While wearing and attuned to this helmet, {@item Mandalorian Beskar'gam|sw5e-wh}, and {@item Mandalorian Shuk'orok|sw5e-wh}, you have {@variantrule Advantage|sw5e-phb|advantage} on Intelligence ({@skill Investigation}) checks within 5 feet.",
+				"{@b {@i Mandalorian Vestments.}} While wearing and attuned to this helmet and {@item Mandalorian Beskar'gam|sw5e-wh}, you have {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sight within 60 feet. While wearing and attuned to this helmet, {@item Mandalorian Beskar'gam|sw5e-wh}, and {@item Mandalorian Shuk'orok|sw5e-wh}, you have {@variantrule Advantage|sw5e-phb|advantage} on Intelligence ({@skill Investigation|sw5e-phb}) checks within 5 feet.",
 				"{@i Featuring the iconic T-shaped visor of the Mandalorians, this helmet strikes fear into the hearts of the unwary.}"
 			],
 			"reqAttune": true
@@ -12014,7 +12014,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You can stabilize a droid within 5 feet of you that has 0 {@variantrule Hit Points|sw5e-phb|hit points}, without needing to make an Intelligence ({@skill Technology}) check.",
+						"You can stabilize a droid within 5 feet of you that has 0 {@variantrule Hit Points|sw5e-phb|hit points}, without needing to make an Intelligence ({@skill Technology|sw5e-phb}) check.",
 						"You can restore {@dice 2d4 + 2} {@variantrule Hit Points|sw5e-phb|hit points} to a droid or construct within 5 feet."
 					]
 				},
@@ -12034,7 +12034,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You can stabilize a creature within 5 feet of you that has 0 {@variantrule Hit Points|sw5e-phb|hit points}, without needing to make a Wisdom ({@skill Medicine}) check.",
+						"You can stabilize a creature within 5 feet of you that has 0 {@variantrule Hit Points|sw5e-phb|hit points}, without needing to make a Wisdom ({@skill Medicine|sw5e-phb}) check.",
 						"You can restore {@dice 1d4 + 1} {@variantrule Hit Points|sw5e-phb|hit points} to a creature within 5 feet.",
 						"You can cure a target of one {@item Poison|sw5e-phb|poison} affecting them or to give them {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@item Poison|sw5e-phb|poison} for 1 hour."
 					]
@@ -12051,7 +12051,7 @@
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Medicine} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Medicine|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
@@ -12061,7 +12061,7 @@
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Medicine} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Medicine|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
@@ -12071,7 +12071,7 @@
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Medicine} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Medicine|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
@@ -12081,7 +12081,7 @@
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Medicine}."
+				"You gain grand mastery in {@skill Medicine|sw5e-phb}."
 			]
 		},
 		{
@@ -12091,7 +12091,7 @@
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Medicine} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Medicine|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
@@ -12101,11 +12101,11 @@
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Medicine} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Medicine|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@item Medpac|sw5e-phb} (Champion)",
+			"name": "Medpac (Champion)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "FD",
@@ -12115,7 +12115,7 @@
 			]
 		},
 		{
-			"name": "{@item Medpac|sw5e-phb} (Exceptional)",
+			"name": "Medpac (Exceptional)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "FD",
@@ -12125,7 +12125,7 @@
 			]
 		},
 		{
-			"name": "{@item Medpac|sw5e-phb} (Fine)",
+			"name": "Medpac (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "FD",
@@ -12135,7 +12135,7 @@
 			]
 		},
 		{
-			"name": "{@item Medpac|sw5e-phb} (Improved)",
+			"name": "Medpac (Improved)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "FD",
@@ -12145,7 +12145,7 @@
 			]
 		},
 		{
-			"name": "{@item Medpac|sw5e-phb} (Superior)",
+			"name": "Medpac (Superior)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "FD",
@@ -12173,12 +12173,12 @@
 			"entries": [
 				"This augmentation replaces your eyes.",
 				"You can activate or deactivate this implant as a {@variantrule Bonus Action|sw5e-phb}. While active, you have {@sense Truesight|sw5e-phb|truesight} to a range of 30 feet.",
-				"{@b Side Effect:} While active, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception}) checks beyond 30 feet.",
+				"{@b Side Effect:} While active, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) checks beyond 30 feet.",
 				"{@i This augmentation is a large, boxy eye replacement that covers both eyes with digital optic feeds and high resolution sensors.}"
 			]
 		},
 		{
-			"name": "Mighty {@feat Athlete|sw5e-phb} Package",
+			"name": "Mighty Athlete Package",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -12210,7 +12210,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, fragmentation|sw5e-phb|Mine, Fragmentation} (Average)",
+			"name": "Mine, Fragmentation (Average)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "EXP",
@@ -12220,7 +12220,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, fragmentation|sw5e-phb|Mine, Fragmentation} (Deadly)",
+			"name": "Mine, Fragmentation (Deadly)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "EXP",
@@ -12230,7 +12230,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, fragmentation|sw5e-phb|Mine, Fragmentation} (Devastating)",
+			"name": "Mine, Fragmentation (Devastating)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "EXP",
@@ -12240,7 +12240,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, fragmentation|sw5e-phb|Mine, Fragmentation} (Lethal)",
+			"name": "Mine, Fragmentation (Lethal)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "EXP",
@@ -12250,7 +12250,7 @@
 			]
 		},
 		{
-			"name": "{@item Mine, fragmentation|sw5e-phb|Mine, Fragmentation} (Major)",
+			"name": "Mine, Fragmentation (Major)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "EXP",
@@ -12744,63 +12744,63 @@
 			]
 		},
 		{
-			"name": "{@feat Naturalist|sw5e-phb}'s Pattern (Basic)",
+			"name": "Naturalist's Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Nature} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Nature|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Naturalist|sw5e-phb}'s Pattern (Choice)",
+			"name": "Naturalist's Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Nature} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Nature|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Naturalist|sw5e-phb}'s Pattern (Elite)",
+			"name": "Naturalist's Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Nature} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Nature|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Naturalist|sw5e-phb}'s Pattern (Exquisite)",
+			"name": "Naturalist's Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Nature}."
+				"You gain grand mastery in {@skill Nature|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Naturalist|sw5e-phb}'s Pattern (Favored)",
+			"name": "Naturalist's Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Nature} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Nature|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Naturalist|sw5e-phb}'s Pattern (Fine)",
+			"name": "Naturalist's Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Nature} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Nature|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -13060,7 +13060,7 @@
 			"entries": [
 				"This augmentation replaces your eyes.",
 				"You can activate or deactivate this implant as a {@variantrule Bonus Action|sw5e-phb}. While active, you gain {@sense Darkvision|sw5e-phb|darkvision} to a range of 120 feet.",
-				"{@b Side Effect:} While active and in bright light, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls}, as well as on Wisdom ({@skill Perception}) checks that rely on sight."
+				"{@b Side Effect:} While active and in bright light, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls}, as well as on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sight."
 			]
 		},
 		{
@@ -13520,7 +13520,7 @@
 			]
 		},
 		{
-			"name": "{@spell Overload|sw5e-phb} {@item Shield|sw5e-phb}",
+			"name": "Overload Shield",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -13662,123 +13662,123 @@
 			"charges": 10
 		},
 		{
-			"name": "{@feat Perceptive|sw5e-phb} Pattern (Basic)",
+			"name": "Perceptive Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Perception} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Perception|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Perceptive|sw5e-phb} Pattern (Choice)",
+			"name": "Perceptive Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Perception} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Perception|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Perceptive|sw5e-phb} Pattern (Elite)",
+			"name": "Perceptive Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Perception} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Perception|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Perceptive|sw5e-phb} Pattern (Exquisite)",
+			"name": "Perceptive Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Perception}."
+				"You gain grand mastery in {@skill Perception|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Perceptive|sw5e-phb} Pattern (Favored)",
+			"name": "Perceptive Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Perception} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Perception|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Perceptive|sw5e-phb} Pattern (Fine)",
+			"name": "Perceptive Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Perception} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Perception|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Performer|sw5e-phb}'s Pattern (Basic)",
+			"name": "Performer's Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Performance} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Performance|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Performer|sw5e-phb}'s Pattern (Choice)",
+			"name": "Performer's Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Performance} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Performance|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Performer|sw5e-phb}'s Pattern (Elite)",
+			"name": "Performer's Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Performance} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Performance|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Performer|sw5e-phb}'s Pattern (Exquisite)",
+			"name": "Performer's Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Performance}."
+				"You gain grand mastery in {@skill Performance|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Performer|sw5e-phb}'s Pattern (Favored)",
+			"name": "Performer's Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Performance} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Performance|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Performer|sw5e-phb}'s Pattern (Fine)",
+			"name": "Performer's Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Performance} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Performance|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -13989,7 +13989,7 @@
 			]
 		},
 		{
-			"name": "{@item Poison|sw5e-phb} (Average)",
+			"name": "Poison (Average)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -14003,7 +14003,7 @@
 			]
 		},
 		{
-			"name": "{@item Poison|sw5e-phb} (Deadly)",
+			"name": "Poison (Deadly)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -14017,7 +14017,7 @@
 			]
 		},
 		{
-			"name": "{@item Poison|sw5e-phb} (Devastating)",
+			"name": "Poison (Devastating)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -14031,7 +14031,7 @@
 			]
 		},
 		{
-			"name": "{@item Poison|sw5e-phb} (Lethal)",
+			"name": "Poison (Lethal)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -14045,7 +14045,7 @@
 			]
 		},
 		{
-			"name": "{@item Poison|sw5e-phb} (Major)",
+			"name": "Poison (Major)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -14119,7 +14119,7 @@
 			]
 		},
 		{
-			"name": "{@item Power cell|sw5e-phb|Power Cell} (Average)",
+			"name": "Power Cell (Average)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "AF",
@@ -14130,7 +14130,7 @@
 			"bonusWeapon": "+1"
 		},
 		{
-			"name": "{@item Power cell|sw5e-phb|Power Cell} (Deadly)",
+			"name": "Power Cell (Deadly)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "AF",
@@ -14141,7 +14141,7 @@
 			"bonusWeapon": "+3"
 		},
 		{
-			"name": "{@item Power cell|sw5e-phb|Power Cell} (Devastating)",
+			"name": "Power Cell (Devastating)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "AF",
@@ -14152,7 +14152,7 @@
 			"bonusWeaponAttack": "+3"
 		},
 		{
-			"name": "{@item Power cell|sw5e-phb|Power Cell} (Lethal)",
+			"name": "Power Cell (Lethal)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "AF",
@@ -14163,7 +14163,7 @@
 			"bonusWeaponAttack": "+3"
 		},
 		{
-			"name": "{@item Power cell|sw5e-phb|Power Cell} (Major)",
+			"name": "Power Cell (Major)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "AF",
@@ -14457,7 +14457,7 @@
 			]
 		},
 		{
-			"name": "Quadanium heavy {@item Shield|sw5e-phb|shield}",
+			"name": "Quadanium heavy shield",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -14531,7 +14531,7 @@
 			]
 		},
 		{
-			"name": "{@feat Quick-Fingered|sw5e-phb} Pattern (Basic)",
+			"name": "Quick-Fingered Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -14541,7 +14541,7 @@
 			]
 		},
 		{
-			"name": "{@feat Quick-Fingered|sw5e-phb} Pattern (Choice)",
+			"name": "Quick-Fingered Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -14551,7 +14551,7 @@
 			]
 		},
 		{
-			"name": "{@feat Quick-Fingered|sw5e-phb} Pattern (Elite)",
+			"name": "Quick-Fingered Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -14561,7 +14561,7 @@
 			]
 		},
 		{
-			"name": "{@feat Quick-Fingered|sw5e-phb} Pattern (Exquisite)",
+			"name": "Quick-Fingered Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -14571,7 +14571,7 @@
 			]
 		},
 		{
-			"name": "{@feat Quick-Fingered|sw5e-phb} Pattern (Favored)",
+			"name": "Quick-Fingered Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -14581,7 +14581,7 @@
 			]
 		},
 		{
-			"name": "{@feat Quick-Fingered|sw5e-phb} Pattern (Fine)",
+			"name": "Quick-Fingered Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -15589,7 +15589,7 @@
 			"focus": true
 		},
 		{
-			"name": "{@item Repair kit|sw5e-phb|Repair Kit} Mk II",
+			"name": "Repair Kit Mk II",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -15599,7 +15599,7 @@
 			]
 		},
 		{
-			"name": "{@item Repair kit|sw5e-phb|Repair Kit} Mk III",
+			"name": "Repair Kit Mk III",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -15609,7 +15609,7 @@
 			]
 		},
 		{
-			"name": "{@item Repair kit|sw5e-phb|Repair Kit} Mk IV",
+			"name": "Repair Kit Mk IV",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -15619,7 +15619,7 @@
 			]
 		},
 		{
-			"name": "{@item Repair kit|sw5e-phb|Repair Kit} Mk V",
+			"name": "Repair Kit Mk V",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -15629,7 +15629,7 @@
 			]
 		},
 		{
-			"name": "{@item Repair kit|sw5e-phb|Repair Kit} Mk VI",
+			"name": "Repair Kit Mk VI",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -15771,7 +15771,7 @@
 			]
 		},
 		{
-			"name": "Repelling {@item Wristpad|sw5e-phb|wristpad}",
+			"name": "Repelling wristpad",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -16117,7 +16117,7 @@
 			"reqAttune": true
 		},
 		{
-			"name": "{@item Rocket boots|sw5e-phb|Rocket Boots} (Champion)",
+			"name": "Rocket Boots (Champion)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -16132,7 +16132,7 @@
 			}
 		},
 		{
-			"name": "{@item Rocket boots|sw5e-phb|Rocket Boots} (Exceptional)",
+			"name": "Rocket Boots (Exceptional)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -16147,7 +16147,7 @@
 			}
 		},
 		{
-			"name": "{@item Rocket boots|sw5e-phb|Rocket Boots} (Fine)",
+			"name": "Rocket Boots (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -16162,7 +16162,7 @@
 			}
 		},
 		{
-			"name": "{@item Rocket boots|sw5e-phb|Rocket Boots} (Improved)",
+			"name": "Rocket Boots (Improved)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -16177,7 +16177,7 @@
 			}
 		},
 		{
-			"name": "{@item Rocket boots|sw5e-phb|Rocket Boots} (Superior)",
+			"name": "Rocket Boots (Superior)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -16610,7 +16610,7 @@
 			]
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} (Champion)",
+			"name": "Shield (Champion)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -16622,7 +16622,7 @@
 			"bonusAc": "+3"
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} (Exceptional)",
+			"name": "Shield (Exceptional)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -16634,7 +16634,7 @@
 			"bonusAc": "+3"
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} (Fine)",
+			"name": "Shield (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -16646,7 +16646,7 @@
 			"bonusAc": "+1"
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} (Improved)",
+			"name": "Shield (Improved)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -16658,7 +16658,7 @@
 			"bonusAc": "+2"
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} (Superior)",
+			"name": "Shield (Superior)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -16670,7 +16670,7 @@
 			"bonusAc": "+3"
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} Amplifier",
+			"name": "Shield Amplifier",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -16682,7 +16682,7 @@
 			"recharge": "restLong"
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} Anchor",
+			"name": "Shield Anchor",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -16692,7 +16692,7 @@
 			]
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} Chassis (Advanced)",
+			"name": "Shield Chassis (Advanced)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -16704,7 +16704,7 @@
 			"reqAttune": true
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} Chassis (Artifact)",
+			"name": "Shield Chassis (Artifact)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -16716,7 +16716,7 @@
 			"reqAttune": true
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} Chassis (Legendary)",
+			"name": "Shield Chassis (Legendary)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -16728,7 +16728,7 @@
 			"reqAttune": true
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} Chassis (Premium)",
+			"name": "Shield Chassis (Premium)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -16740,7 +16740,7 @@
 			"reqAttune": true
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} Chassis (Prototype)",
+			"name": "Shield Chassis (Prototype)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -16752,7 +16752,7 @@
 			"reqAttune": true
 		},
 		{
-			"name": "{@item Shield|sw5e-phb} Chassis (Standard)",
+			"name": "Shield Chassis (Standard)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "S",
@@ -16860,7 +16860,7 @@
 			"shocking": 18
 		},
 		{
-			"name": "{@item Shotgun|sw5e-phb} Axe",
+			"name": "Shotgun Axe",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "M",
@@ -16947,7 +16947,7 @@
 			"bonusWeapon": "+3"
 		},
 		{
-			"name": "Shoulder {@filter blaster|items|firearm=true}",
+			"name": "Shoulder blaster",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "R",
@@ -17122,63 +17122,63 @@
 			]
 		},
 		{
-			"name": "{@feat Silver-Tongued|sw5e-phb} Pattern (Basic)",
+			"name": "Silver-Tongued Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Deception} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Deception|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Silver-Tongued|sw5e-phb} Pattern (Choice)",
+			"name": "Silver-Tongued Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Deception} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Deception|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Silver-Tongued|sw5e-phb} Pattern (Elite)",
+			"name": "Silver-Tongued Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Deception} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Deception|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Silver-Tongued|sw5e-phb} Pattern (Exquisite)",
+			"name": "Silver-Tongued Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Deception}."
+				"You gain grand mastery in {@skill Deception|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Silver-Tongued|sw5e-phb} Pattern (Favored)",
+			"name": "Silver-Tongued Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Deception} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Deception|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Silver-Tongued|sw5e-phb} Pattern (Fine)",
+			"name": "Silver-Tongued Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Deception} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Deception|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -17294,7 +17294,7 @@
 			]
 		},
 		{
-			"name": "{@item Slug cartridge|sw5e-phb|Slug Cartridge} (Average)",
+			"name": "Slug Cartridge (Average)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "AF",
@@ -17305,7 +17305,7 @@
 			"bonusWeapon": "+1"
 		},
 		{
-			"name": "{@item Slug cartridge|sw5e-phb|Slug Cartridge} (Deadly)",
+			"name": "Slug Cartridge (Deadly)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "AF",
@@ -17316,7 +17316,7 @@
 			"bonusWeapon": "+3"
 		},
 		{
-			"name": "{@item Slug cartridge|sw5e-phb|Slug Cartridge} (Devastating)",
+			"name": "Slug Cartridge (Devastating)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "AF",
@@ -17327,7 +17327,7 @@
 			"bonusWeaponAttack": "+3"
 		},
 		{
-			"name": "{@item Slug cartridge|sw5e-phb|Slug Cartridge} (Lethal)",
+			"name": "Slug Cartridge (Lethal)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "AF",
@@ -17338,7 +17338,7 @@
 			"bonusWeaponAttack": "+3"
 		},
 		{
-			"name": "{@item Slug cartridge|sw5e-phb|Slug Cartridge} (Major)",
+			"name": "Slug Cartridge (Major)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "AF",
@@ -17486,7 +17486,7 @@
 			"rarity": "none",
 			"value": 4000,
 			"entries": [
-				"This {@item backpack|sw5e-phb} comes with a main compartment that stores 15.00 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 5 lb., not exceeding 1/4 cubic foot. Finding the hidden compartment requires a DC 15 {@skill Investigation} check."
+				"This {@item backpack|sw5e-phb} comes with a main compartment that stores 15.00 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 5 lb., not exceeding 1/4 cubic foot. Finding the hidden compartment requires a DC 15 {@skill Investigation|sw5e-phb} check."
 			],
 			"baseItem": "{@item Backpack|sw5e-phb|backpack}",
 			"containerCapacity": {
@@ -17500,7 +17500,7 @@
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"This {@item backpack|sw5e-phb} comes with a main compartment that stores 10 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 10 lb., not exceeding 3/8 cubic foot. Finding the hidden compartment requires a DC 30 {@skill Investigation} check."
+				"This {@item backpack|sw5e-phb} comes with a main compartment that stores 10 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 10 lb., not exceeding 3/8 cubic foot. Finding the hidden compartment requires a DC 30 {@skill Investigation|sw5e-phb} check."
 			],
 			"baseItem": "{@item Backpack|sw5e-phb|backpack}",
 			"containerCapacity": {
@@ -17514,7 +17514,7 @@
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"This {@item backpack|sw5e-phb} comes with a main compartment that stores 11 lb., not exceeding 3/8 cubic foot. Additionally, it has a hidden storage compartment that stores 9 lb., not exceeding 3/8 cubic foot. Finding the hidden compartment requires a DC 27 {@skill Investigation} check."
+				"This {@item backpack|sw5e-phb} comes with a main compartment that stores 11 lb., not exceeding 3/8 cubic foot. Additionally, it has a hidden storage compartment that stores 9 lb., not exceeding 3/8 cubic foot. Finding the hidden compartment requires a DC 27 {@skill Investigation|sw5e-phb} check."
 			],
 			"baseItem": "{@item Backpack|sw5e-phb|backpack}",
 			"containerCapacity": {
@@ -17528,7 +17528,7 @@
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"This {@item backpack|sw5e-phb} comes with a main compartment that stores 14 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 6 lb., not exceeding 1/4 cubic foot. Finding the hidden compartment requires a DC 18 {@skill Investigation} check."
+				"This {@item backpack|sw5e-phb} comes with a main compartment that stores 14 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 6 lb., not exceeding 1/4 cubic foot. Finding the hidden compartment requires a DC 18 {@skill Investigation|sw5e-phb} check."
 			],
 			"baseItem": "{@item Backpack|sw5e-phb|backpack}",
 			"containerCapacity": {
@@ -17542,7 +17542,7 @@
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"This {@item backpack|sw5e-phb} comes with a main compartment that stores 13 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 7 lb., not exceeding 1/4 cubic foot. Finding the hidden compartment requires a DC 21 {@skill Investigation} check."
+				"This {@item backpack|sw5e-phb} comes with a main compartment that stores 13 lb., not exceeding 1/2 cubic foot. Additionally, it has a hidden storage compartment that stores 7 lb., not exceeding 1/4 cubic foot. Finding the hidden compartment requires a DC 21 {@skill Investigation|sw5e-phb} check."
 			],
 			"baseItem": "{@item Backpack|sw5e-phb|backpack}",
 			"containerCapacity": {
@@ -17556,7 +17556,7 @@
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"This {@item backpack|sw5e-phb} comes with a main compartment that stores 12 lb., not exceeding 3/8 cubic foot. Additionally, it has a hidden storage compartment that stores 8 lb., not exceeding 3/8 cubic foot. Finding the hidden compartment requires a DC 24 {@skill Investigation} check."
+				"This {@item backpack|sw5e-phb} comes with a main compartment that stores 12 lb., not exceeding 3/8 cubic foot. Additionally, it has a hidden storage compartment that stores 8 lb., not exceeding 3/8 cubic foot. Finding the hidden compartment requires a DC 24 {@skill Investigation|sw5e-phb} check."
 			],
 			"baseItem": "{@item Backpack|sw5e-phb|backpack}",
 			"containerCapacity": {
@@ -17941,63 +17941,63 @@
 			]
 		},
 		{
-			"name": "{@feat Stealthy|sw5e-phb} Pattern (Basic)",
+			"name": "Stealthy Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Stealth} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Stealth|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Stealthy|sw5e-phb} Pattern (Choice)",
+			"name": "Stealthy Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Stealth} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Stealth|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Stealthy|sw5e-phb} Pattern (Elite)",
+			"name": "Stealthy Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Stealth} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Stealth|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Stealthy|sw5e-phb} Pattern (Exquisite)",
+			"name": "Stealthy Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Stealth}."
+				"You gain grand mastery in {@skill Stealth|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Stealthy|sw5e-phb} Pattern (Favored)",
+			"name": "Stealthy Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Stealth} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Stealth|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Stealthy|sw5e-phb} Pattern (Fine)",
+			"name": "Stealthy Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Stealth} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Stealth|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -18393,7 +18393,7 @@
 			"rarity": "none",
 			"value": 200,
 			"entries": [
-				"These shades are worn over the eyes. While worn, you can no longer have {@variantrule Disadvantage|sw5e-phb|disadvantage} due to direct sunlight on {@variantrule Attack Roll|sw5e-phb|attack rolls} and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to {@optfeature Perceive|sw5e-phb|perceive} is in direct sunlight. However, while worn, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to {@optfeature Perceive|sw5e-phb|perceive} is in dim light."
+				"These shades are worn over the eyes. While worn, you can no longer have {@variantrule Disadvantage|sw5e-phb|disadvantage} due to direct sunlight on {@variantrule Attack Roll|sw5e-phb|attack rolls} and on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to {@optfeature Perceive|sw5e-phb|perceive} is in direct sunlight. However, while worn, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} and on Wisdom ({@skill Perception|sw5e-phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to {@optfeature Perceive|sw5e-phb|perceive} is in dim light."
 			]
 		},
 		{
@@ -18482,7 +18482,7 @@
 			]
 		},
 		{
-			"name": "{@skill Survival} and Surveillance Implant",
+			"name": "Survival and Surveillance Implant",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -18503,7 +18503,7 @@
 			]
 		},
 		{
-			"name": "{@skill Survival} and Surveillance Implant Mk II",
+			"name": "Survival and Surveillance Implant Mk II",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -18514,8 +18514,8 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b Communications Mode:} This communications suite includes a {@item headcomm|sw5e-phb} with a scrambler that automatically encodes messages sent to a specified recipient {@item commlink|sw5e-phb} or receiver. While this mode is active, you cannot be {@condition deafened|sw5e-phb}. Additionally, if you listen to any spoken language for 10 minutes, the software in this package will begin to attempt to decipher it. Make an Intelligence ({@skill Lore}) check, DC determined by the GM depending on the rarity of the language. On a success, you can understand the spoken form of this language, and speak it if your species' vocal capabilities allow for it.",
-						"{@b Interceptor Mode:} This is a jamming and electronic warfare suite that includes a {@item comm jammer|sw5e-phb}, a {@item holotrace device|sw5e-phb} and {@item Pocket scrambler|sw5e-phb|pocket scrambler}. Additionally, you can attempt to listen in on nearby audio communications chatter such as from a {@item commlink|sw5e-phb} or {@item holocomm|sw5e-phb} as an action. Make an Intelligence ({@skill Technology}) check, DC determined by the GM depending on the sophistication of the technology. On a success, you can hear electronic communications originating from within 100 feet.",
+						"{@b Communications Mode:} This communications suite includes a {@item headcomm|sw5e-phb} with a scrambler that automatically encodes messages sent to a specified recipient {@item commlink|sw5e-phb} or receiver. While this mode is active, you cannot be {@condition deafened|sw5e-phb}. Additionally, if you listen to any spoken language for 10 minutes, the software in this package will begin to attempt to decipher it. Make an Intelligence ({@skill Lore|sw5e-phb}) check, DC determined by the GM depending on the rarity of the language. On a success, you can understand the spoken form of this language, and speak it if your species' vocal capabilities allow for it.",
+						"{@b Interceptor Mode:} This is a jamming and electronic warfare suite that includes a {@item comm jammer|sw5e-phb}, a {@item holotrace device|sw5e-phb} and {@item Pocket scrambler|sw5e-phb|pocket scrambler}. Additionally, you can attempt to listen in on nearby audio communications chatter such as from a {@item commlink|sw5e-phb} or {@item holocomm|sw5e-phb} as an action. Make an Intelligence ({@skill Technology|sw5e-phb}) check, DC determined by the GM depending on the sophistication of the technology. On a success, you can hear electronic communications originating from within 100 feet.",
 						"{@b Respirator Mode:} This includes a basic {@item respirator|sw5e-phb} that grants {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} made to avoid being {@condition poisoned|sw5e-phb} and {@spell Resistance|sw5e-phb|resistance} to {@item Poison|sw5e-phb|poison} damage. Additionally, you do not need air to breathe, allowing you to {@optfeature Survive|sw5e-phb|survive} even in vacuum for up to 1 hour."
 					]
 				},
@@ -18524,63 +18524,63 @@
 			]
 		},
 		{
-			"name": "{@feat Survivalist|sw5e-phb}'s Pattern (Basic)",
+			"name": "Survivalist's Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Survival} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Survival|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Survivalist|sw5e-phb}'s Pattern (Choice)",
+			"name": "Survivalist's Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Survival} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Survival|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Survivalist|sw5e-phb}'s Pattern (Elite)",
+			"name": "Survivalist's Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Survival} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Survival|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Survivalist|sw5e-phb}'s Pattern (Exquisite)",
+			"name": "Survivalist's Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Survival}."
+				"You gain grand mastery in {@skill Survival|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Survivalist|sw5e-phb}'s Pattern (Favored)",
+			"name": "Survivalist's Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Survival} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Survival|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Survivalist|sw5e-phb}'s Pattern (Fine)",
+			"name": "Survivalist's Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Survival} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Survival|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -18712,123 +18712,123 @@
 			]
 		},
 		{
-			"name": "{@feat Techie|sw5e-phb}'s Pattern (Basic)",
+			"name": "Techie's Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Technology} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Technology|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Techie|sw5e-phb}'s Pattern (Choice)",
+			"name": "Techie's Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Technology} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Technology|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Techie|sw5e-phb}'s Pattern (Elite)",
+			"name": "Techie's Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Technology} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Technology|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Techie|sw5e-phb}'s Pattern (Exquisite)",
+			"name": "Techie's Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Technology}."
+				"You gain grand mastery in {@skill Technology|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Techie|sw5e-phb}'s Pattern (Favored)",
+			"name": "Techie's Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Technology} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Technology|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Techie|sw5e-phb}'s Pattern (Fine)",
+			"name": "Techie's Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Technology} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Technology|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Threatening|sw5e-phb} Pattern (Basic)",
+			"name": "Threatening Pattern (Basic)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your level of proficiency in {@skill Intimidation} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
+				"Your level of proficiency in {@skill Intimidation|sw5e-phb} increases by one step (to trained, from trained to proficient, from proficient to {@variantrule Expertise|sw5e-phb|expertise}, from {@variantrule Expertise|sw5e-phb|expertise} to mastery, from mastery to high mastery, or from high mastery to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Threatening|sw5e-phb} Pattern (Choice)",
+			"name": "Threatening Pattern (Choice)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "very rare",
 			"entries": [
-				"Your level of proficiency in {@skill Intimidation} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
+				"Your level of proficiency in {@skill Intimidation|sw5e-phb} increases by four steps (to mastery, from trained to high mastery, or from proficient to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Threatening|sw5e-phb} Pattern (Elite)",
+			"name": "Threatening Pattern (Elite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "legendary",
 			"entries": [
-				"Your level of proficiency in {@skill Intimidation} increases by five steps (to high mastery or from trained to grand mastery)."
+				"Your level of proficiency in {@skill Intimidation|sw5e-phb} increases by five steps (to high mastery or from trained to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Threatening|sw5e-phb} Pattern (Exquisite)",
+			"name": "Threatening Pattern (Exquisite)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "artifact",
 			"entries": [
-				"You gain grand mastery in {@skill Intimidation}."
+				"You gain grand mastery in {@skill Intimidation|sw5e-phb}."
 			]
 		},
 		{
-			"name": "{@feat Threatening|sw5e-phb} Pattern (Favored)",
+			"name": "Threatening Pattern (Favored)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "rare",
 			"entries": [
-				"Your level of proficiency in {@skill Intimidation} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
+				"Your level of proficiency in {@skill Intimidation|sw5e-phb} increases by three steps (to {@variantrule Expertise|sw5e-phb|expertise}, from trained to mastery, from proficient to high mastery, or from {@variantrule Expertise|sw5e-phb|expertise} to grand mastery)."
 			]
 		},
 		{
-			"name": "{@feat Threatening|sw5e-phb} Pattern (Fine)",
+			"name": "Threatening Pattern (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
 			"rarity": "uncommon",
 			"entries": [
-				"Your level of proficiency in {@skill Intimidation} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
+				"Your level of proficiency in {@skill Intimidation|sw5e-phb} increases by two steps (to proficient, from trained to {@variantrule Expertise|sw5e-phb|expertise}, from proficient to mastery, from {@variantrule Expertise|sw5e-phb|expertise} to high mastery, or from mastery to grand mastery)."
 			]
 		},
 		{
@@ -19353,7 +19353,7 @@
 			]
 		},
 		{
-			"name": "Underwater {@item Respirator|sw5e-phb|respirator}",
+			"name": "Underwater respirator",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -19617,7 +19617,7 @@
 			"type": "G",
 			"rarity": "common",
 			"entries": [
-				"Your {@variantrule Speed|sw5e-phb|speed} increases by 5 feet, and you can now speak Binary in addition to understanding it."
+				"Your {@variantrule Speed|sw5e-phb|speed} increases by 5 feet, and you can now speak {@language Binary|sw5e-phb|Binary} in addition to understanding it."
 			]
 		},
 		{
@@ -19832,7 +19832,7 @@
 			"keen": 1
 		},
 		{
-			"name": "Vibro-{@item Shield|sw5e-phb|shield}",
+			"name": "Vibro-shield",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "M",
@@ -20177,7 +20177,7 @@
 			"dmgType": "Kinetic"
 		},
 		{
-			"name": "{@filter vibroweapon|items|type=martial weapon} Chassis (Advanced)",
+			"name": "vibroweapon Chassis (Advanced)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "M",
@@ -20190,7 +20190,7 @@
 			"reqAttune": true
 		},
 		{
-			"name": "{@filter vibroweapon|items|type=martial weapon} Chassis (Artifact)",
+			"name": "vibroweapon Chassis (Artifact)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "M",
@@ -20203,7 +20203,7 @@
 			"reqAttune": true
 		},
 		{
-			"name": "{@filter vibroweapon|items|type=martial weapon} Chassis (Legendary)",
+			"name": "vibroweapon Chassis (Legendary)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "M",
@@ -20216,7 +20216,7 @@
 			"reqAttune": true
 		},
 		{
-			"name": "{@filter vibroweapon|items|type=martial weapon} Chassis (Premium)",
+			"name": "vibroweapon Chassis (Premium)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "M",
@@ -20229,7 +20229,7 @@
 			"reqAttune": true
 		},
 		{
-			"name": "{@filter vibroweapon|items|type=martial weapon} Chassis (Prototype)",
+			"name": "vibroweapon Chassis (Prototype)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "M",
@@ -20242,7 +20242,7 @@
 			"reqAttune": true
 		},
 		{
-			"name": "{@filter vibroweapon|items|type=martial weapon} Chassis (Standard)",
+			"name": "vibroweapon Chassis (Standard)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "M",
@@ -21408,7 +21408,7 @@
 			]
 		},
 		{
-			"name": "Wrist-Mounted {@item Grappling hook|sw5e-phb|Grappling Hook}",
+			"name": "Wrist-Mounted Grappling Hook",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "G",
@@ -21421,7 +21421,7 @@
 			]
 		},
 		{
-			"name": "{@item Wristpad|sw5e-phb} (Fine)",
+			"name": "Wristpad (Fine)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "SCF",
@@ -21435,7 +21435,7 @@
 			"bonusWeaponAttack": "+1"
 		},
 		{
-			"name": "{@item Wristpad|sw5e-phb} (Improved)",
+			"name": "Wristpad (Improved)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "SCF",
@@ -21449,7 +21449,7 @@
 			"bonusWeaponAttack": "+2"
 		},
 		{
-			"name": "{@item Wristpad|sw5e-phb} (Superior)",
+			"name": "Wristpad (Superior)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "SCF",
@@ -21463,7 +21463,7 @@
 			"bonusWeaponAttack": "+3"
 		},
 		{
-			"name": "{@item Wristpad|sw5e-phb} Chassis (Advanced)",
+			"name": "Wristpad Chassis (Advanced)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "SCF",
@@ -21476,7 +21476,7 @@
 			"focus": true
 		},
 		{
-			"name": "{@item Wristpad|sw5e-phb} Chassis (Artifact)",
+			"name": "Wristpad Chassis (Artifact)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "SCF",
@@ -21489,7 +21489,7 @@
 			"focus": true
 		},
 		{
-			"name": "{@item Wristpad|sw5e-phb} Chassis (Legendary)",
+			"name": "Wristpad Chassis (Legendary)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "SCF",
@@ -21502,7 +21502,7 @@
 			"focus": true
 		},
 		{
-			"name": "{@item Wristpad|sw5e-phb} Chassis (Premium)",
+			"name": "Wristpad Chassis (Premium)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "SCF",
@@ -21515,7 +21515,7 @@
 			"focus": true
 		},
 		{
-			"name": "{@item Wristpad|sw5e-phb} Chassis (Prototype)",
+			"name": "Wristpad Chassis (Prototype)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "SCF",
@@ -21528,7 +21528,7 @@
 			"focus": true
 		},
 		{
-			"name": "{@item Wristpad|sw5e-phb} Chassis (Standard)",
+			"name": "Wristpad Chassis (Standard)",
 			"source": "sw5e-wh",
 			"page": 0,
 			"type": "SCF",
@@ -21571,7 +21571,7 @@
 			"type": "M",
 			"rarity": "uncommon",
 			"entries": [
-				"You have a +1 bonus to damage rolls with this enhanced weapon. Additionally, when you make the Dexterity ({@skill Stealth}) check to remain hidden as a part of the weapon's silent property, you have {@variantrule Advantage|sw5e-phb|advantage} on the check.",
+				"You have a +1 bonus to damage rolls with this enhanced weapon. Additionally, when you make the Dexterity ({@skill Stealth|sw5e-phb}) check to remain hidden as a part of the weapon's silent property, you have {@variantrule Advantage|sw5e-phb|advantage} on the check.",
 				"{@i This nightstinger rifle has the unique property of shooting invisible rounds.}"
 			],
 			"weapon": true,

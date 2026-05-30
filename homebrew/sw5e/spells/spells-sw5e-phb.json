@@ -20,14 +20,14 @@
 	},
 	"spell": [
 		{
-			"name": "{@spell Absorb Energy|sw5e-phb}",
+			"name": "Absorb Energy",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when you take acid, cold, energy, fire, ion, kinetic, lightning, or sonic damage"
 				}
 			],
@@ -60,7 +60,7 @@
 			]
 		},
 		{
-			"name": "{@spell Acid Dart|sw5e-phb}",
+			"name": "Acid Dart",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -99,7 +99,7 @@
 			]
 		},
 		{
-			"name": "{@spell Acid Splash|sw5e-phb}",
+			"name": "Acid Splash",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -146,7 +146,7 @@
 			]
 		},
 		{
-			"name": "{@spell Acid Wind|sw5e-phb}",
+			"name": "Acid Wind",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -190,7 +190,7 @@
 			]
 		},
 		{
-			"name": "{@spell Acidic Strike|sw5e-phb}",
+			"name": "Acidic Strike",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -239,7 +239,7 @@
 			]
 		},
 		{
-			"name": "{@spell Affect Mind|sw5e-phb}",
+			"name": "Affect Mind",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -276,7 +276,7 @@
 			]
 		},
 		{
-			"name": "{@spell Affliction|sw5e-phb}",
+			"name": "Affliction",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "DK",
@@ -352,7 +352,7 @@
 			]
 		},
 		{
-			"name": "{@spell Analyze|sw5e-phb}",
+			"name": "Analyze",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -379,7 +379,7 @@
 			]
 		},
 		{
-			"name": "{@spell Animate Weapon|sw5e-phb}",
+			"name": "Animate Weapon",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -422,7 +422,7 @@
 			]
 		},
 		{
-			"name": "{@spell Antipathy/Sympathy|sw5e-phb}",
+			"name": "Antipathy/Sympathy",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "TP",
@@ -474,7 +474,7 @@
 			]
 		},
 		{
-			"name": "{@spell Armor of Abeloth|sw5e-phb}",
+			"name": "Armor of Abeloth",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "DK",
@@ -519,7 +519,7 @@
 			]
 		},
 		{
-			"name": "{@spell Assess the Situation|sw5e-phb}",
+			"name": "Assess the Situation",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -553,7 +553,7 @@
 			]
 		},
 		{
-			"name": "{@spell Aura of Purity|sw5e-phb}",
+			"name": "Aura of Purity",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "LT",
@@ -604,7 +604,7 @@
 			]
 		},
 		{
-			"name": "{@spell Aura of Vigor|sw5e-phb}",
+			"name": "Aura of Vigor",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "LT",
@@ -637,7 +637,7 @@
 			]
 		},
 		{
-			"name": "{@spell Autonomous Servant|sw5e-phb}",
+			"name": "Autonomous Servant",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -685,7 +685,7 @@
 			]
 		},
 		{
-			"name": "{@spell Bacta Pack|sw5e-phb}",
+			"name": "Bacta Pack",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -729,7 +729,7 @@
 			]
 		},
 		{
-			"name": "{@spell Ballistic Shield|sw5e-phb}",
+			"name": "Ballistic Shield",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -761,7 +761,7 @@
 			]
 		},
 		{
-			"name": "Battle {@skill Insight|sw5e-phb}",
+			"name": "Battle Insight",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -795,7 +795,7 @@
 			]
 		},
 		{
-			"name": "{@spell Battle Meditation|sw5e-phb}",
+			"name": "Battle Meditation",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -832,7 +832,7 @@
 			]
 		},
 		{
-			"name": "{@spell Battle Precognition|sw5e-phb}",
+			"name": "Battle Precognition",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -862,7 +862,7 @@
 			]
 		},
 		{
-			"name": "{@spell Beacon of Hope|sw5e-phb}",
+			"name": "Beacon of Hope",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "LT",
@@ -902,7 +902,7 @@
 			]
 		},
 		{
-			"name": "{@spell Beast Trick|sw5e-phb}",
+			"name": "Beast Trick",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "LT",
@@ -951,7 +951,7 @@
 			]
 		},
 		{
-			"name": "{@spell Bestow Curse|sw5e-phb}",
+			"name": "Bestow Curse",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "DK",
@@ -1009,7 +1009,7 @@
 			]
 		},
 		{
-			"name": "{@spell Bestow Virus|sw5e-phb}",
+			"name": "Bestow Virus",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -1066,7 +1066,7 @@
 			]
 		},
 		{
-			"name": "{@spell Breath Control|sw5e-phb}",
+			"name": "Breath Control",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -1109,7 +1109,7 @@
 			]
 		},
 		{
-			"name": "{@spell Buffer|sw5e-phb}",
+			"name": "Buffer",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -1196,7 +1196,7 @@
 			]
 		},
 		{
-			"name": "Burst of {@variantrule Speed|sw5e-phb}",
+			"name": "Burst of Speed",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -1277,7 +1277,7 @@
 			]
 		},
 		{
-			"name": "{@spell Call Lightning|sw5e-phb}",
+			"name": "Call Lightning",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "LT",
@@ -1326,7 +1326,7 @@
 			]
 		},
 		{
-			"name": "{@spell Calm Emotions|sw5e-phb}",
+			"name": "Calm Emotions",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "LT",
@@ -1375,7 +1375,7 @@
 			]
 		},
 		{
-			"name": "{@spell Capacity Boost|sw5e-phb}",
+			"name": "Capacity Boost",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -1416,7 +1416,7 @@
 			]
 		},
 		{
-			"name": "{@spell Carbon Fog|sw5e-phb}",
+			"name": "Carbon Fog",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "TP",
@@ -1455,7 +1455,7 @@
 			]
 		},
 		{
-			"name": "{@spell Carbonite|sw5e-phb}",
+			"name": "Carbonite",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "TP",
@@ -1501,7 +1501,7 @@
 			]
 		},
 		{
-			"name": "{@spell Carbonite Explosion|sw5e-phb}",
+			"name": "Carbonite Explosion",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "TP",
@@ -1597,7 +1597,7 @@
 			]
 		},
 		{
-			"name": "{@spell Cloaking Screen|sw5e-phb}",
+			"name": "Cloaking Screen",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -1632,7 +1632,7 @@
 			]
 		},
 		{
-			"name": "{@spell Cloud Mind|sw5e-phb}",
+			"name": "Cloud Mind",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "LT",
@@ -1678,7 +1678,7 @@
 			]
 		},
 		{
-			"name": "{@spell Coerce Mind|sw5e-phb}",
+			"name": "Coerce Mind",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -1724,7 +1724,7 @@
 			]
 		},
 		{
-			"name": "{@spell Combustive Shot|sw5e-phb}",
+			"name": "Combustive Shot",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -1761,7 +1761,7 @@
 			]
 		},
 		{
-			"name": "{@spell Comprehend Speech|sw5e-phb}",
+			"name": "Comprehend Speech",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -1791,7 +1791,7 @@
 			]
 		},
 		{
-			"name": "{@spell Concealed Caltrops|sw5e-phb}",
+			"name": "Concealed Caltrops",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -1831,7 +1831,7 @@
 			]
 		},
 		{
-			"name": "{@spell Condense/Vaporize|sw5e-phb}",
+			"name": "Condense/Vaporize",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -1867,7 +1867,7 @@
 			]
 		},
 		{
-			"name": "{@spell Contingency|sw5e-phb}",
+			"name": "Contingency",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "TP",
@@ -1899,7 +1899,7 @@
 			]
 		},
 		{
-			"name": "{@spell Control Pain|sw5e-phb}",
+			"name": "Control Pain",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "UV",
@@ -1939,7 +1939,7 @@
 			]
 		},
 		{
-			"name": "{@spell Convulsion|sw5e-phb}",
+			"name": "Convulsion",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "UV",
@@ -2011,7 +2011,7 @@
 			]
 		},
 		{
-			"name": "{@spell Corrosive Sphere|sw5e-phb}",
+			"name": "Corrosive Sphere",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -2053,7 +2053,7 @@
 			]
 		},
 		{
-			"name": "{@spell Countermeasures|sw5e-phb}",
+			"name": "Countermeasures",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -2141,7 +2141,7 @@
 			]
 		},
 		{
-			"name": "{@spell Cryogenic Blast|sw5e-phb}",
+			"name": "Cryogenic Blast",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -2184,7 +2184,7 @@
 			]
 		},
 		{
-			"name": "{@spell Cryogenic Burst|sw5e-phb}",
+			"name": "Cryogenic Burst",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -2227,7 +2227,7 @@
 			]
 		},
 		{
-			"name": "{@spell Cryogenic Spray|sw5e-phb}",
+			"name": "Cryogenic Spray",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -2269,7 +2269,7 @@
 			]
 		},
 		{
-			"name": "{@spell Cryogenic Storm|sw5e-phb}",
+			"name": "Cryogenic Storm",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -2313,7 +2313,7 @@
 			]
 		},
 		{
-			"name": "{@spell Cryogenic Suspension|sw5e-phb}",
+			"name": "Cryogenic Suspension",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -2356,7 +2356,7 @@
 			]
 		},
 		{
-			"name": "{@spell Cryogenic Volley|sw5e-phb}",
+			"name": "Cryogenic Volley",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -2398,7 +2398,7 @@
 			]
 		},
 		{
-			"name": "{@spell Cryogenic Wave|sw5e-phb}",
+			"name": "Cryogenic Wave",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -2488,7 +2488,7 @@
 			]
 		},
 		{
-			"name": "{@spell Danger Sense|sw5e-phb}",
+			"name": "Danger Sense",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -2524,7 +2524,7 @@
 			]
 		},
 		{
-			"name": "{@spell Dark Aura|sw5e-phb}",
+			"name": "Dark Aura",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "DK",
@@ -2575,7 +2575,7 @@
 			]
 		},
 		{
-			"name": "{@spell Dark Shear|sw5e-phb}",
+			"name": "Dark Shear",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "DK",
@@ -2620,7 +2620,7 @@
 			]
 		},
 		{
-			"name": "{@spell Dark Side Tendrils|sw5e-phb}",
+			"name": "Dark Side Tendrils",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "DK",
@@ -2661,7 +2661,7 @@
 			]
 		},
 		{
-			"name": "{@spell Darkness|sw5e-phb}",
+			"name": "Darkness",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "DK",
@@ -2725,7 +2725,7 @@
 			]
 		},
 		{
-			"name": "{@spell Death Field|sw5e-phb}",
+			"name": "Death Field",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "DK",
@@ -2762,7 +2762,7 @@
 			]
 		},
 		{
-			"name": "{@spell Debilitating Gas|sw5e-phb}",
+			"name": "Debilitating Gas",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -2797,7 +2797,7 @@
 			]
 		},
 		{
-			"name": "{@spell Decryption Program|sw5e-phb}",
+			"name": "Decryption Program",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -2829,7 +2829,7 @@
 			]
 		},
 		{
-			"name": "{@spell Defibrillate|sw5e-phb}",
+			"name": "Defibrillate",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -2858,7 +2858,7 @@
 			]
 		},
 		{
-			"name": "{@spell Delayed Explosion|sw5e-phb}",
+			"name": "Delayed Explosion",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "TP",
@@ -2906,7 +2906,7 @@
 			]
 		},
 		{
-			"name": "{@spell Denounce|sw5e-phb}",
+			"name": "Denounce",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "DK",
@@ -2943,7 +2943,7 @@
 			]
 		},
 		{
-			"name": "{@spell Destroy Droid|sw5e-phb}",
+			"name": "Destroy Droid",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "LT",
@@ -2986,7 +2986,7 @@
 			]
 		},
 		{
-			"name": "{@spell Destroy Tech|sw5e-phb}",
+			"name": "Destroy Tech",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -3028,7 +3028,7 @@
 			]
 		},
 		{
-			"name": "{@spell Detect Enhancement|sw5e-phb}",
+			"name": "Detect Enhancement",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -3061,7 +3061,7 @@
 			]
 		},
 		{
-			"name": "{@spell Detect Invisibility|sw5e-phb}",
+			"name": "Detect Invisibility",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -3094,7 +3094,7 @@
 			]
 		},
 		{
-			"name": "{@spell Detect Traps|sw5e-phb}",
+			"name": "Detect Traps",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -3127,7 +3127,7 @@
 			]
 		},
 		{
-			"name": "{@spell Diminish Tech|sw5e-phb}",
+			"name": "Diminish Tech",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -3163,7 +3163,7 @@
 			]
 		},
 		{
-			"name": "{@spell Disable Droid|sw5e-phb}",
+			"name": "Disable Droid",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "LT",
@@ -3206,7 +3206,7 @@
 			]
 		},
 		{
-			"name": "{@spell Disintegrate|sw5e-phb}",
+			"name": "Disintegrate",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "TP",
@@ -3251,7 +3251,7 @@
 			]
 		},
 		{
-			"name": "{@spell Disperse Energy|sw5e-phb}",
+			"name": "Disperse Energy",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "TP",
@@ -3284,14 +3284,14 @@
 			]
 		},
 		{
-			"name": "{@spell Disperse Force|sw5e-phb}",
+			"name": "Disperse Force",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when you take cold, energy, fire, ion, lightning, or sonic damage"
 				}
 			],
@@ -3328,7 +3328,7 @@
 			]
 		},
 		{
-			"name": "{@spell Dominate Beast|sw5e-phb}",
+			"name": "Dominate Beast",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "DK",
@@ -3379,7 +3379,7 @@
 			]
 		},
 		{
-			"name": "{@spell Dominate Mind|sw5e-phb}",
+			"name": "Dominate Mind",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "DK",
@@ -3434,7 +3434,7 @@
 			]
 		},
 		{
-			"name": "{@spell Dominate Monster|sw5e-phb}",
+			"name": "Dominate Monster",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "DK",
@@ -3489,7 +3489,7 @@
 			]
 		},
 		{
-			"name": "{@spell Drain Life|sw5e-phb}",
+			"name": "Drain Life",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "DK",
@@ -3536,7 +3536,7 @@
 			]
 		},
 		{
-			"name": "{@spell Drain Vitality|sw5e-phb}",
+			"name": "Drain Vitality",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "DK",
@@ -3589,7 +3589,7 @@
 			]
 		},
 		{
-			"name": "{@spell Dun Moch|sw5e-phb}",
+			"name": "Dun Moch",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "DK",
@@ -3629,7 +3629,7 @@
 			]
 		},
 		{
-			"name": "{@spell Earthquake|sw5e-phb}",
+			"name": "Earthquake",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "UV",
@@ -3692,7 +3692,7 @@
 			]
 		},
 		{
-			"name": "{@spell Echo Blast|sw5e-phb}",
+			"name": "Echo Blast",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -3729,7 +3729,7 @@
 			]
 		},
 		{
-			"name": "{@spell Electrical Burst|sw5e-phb}",
+			"name": "Electrical Burst",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -3774,7 +3774,7 @@
 			]
 		},
 		{
-			"name": "{@spell Electromesh|sw5e-phb}",
+			"name": "Electromesh",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -3823,7 +3823,7 @@
 			]
 		},
 		{
-			"name": "{@spell Electroshock|sw5e-phb}",
+			"name": "Electroshock",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -3865,14 +3865,14 @@
 			]
 		},
 		{
-			"name": "{@spell Element of Surprise|sw5e-phb}",
+			"name": "Element of Surprise",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take in response to being damaged by a creature within 60 feet of you that you can see"
 				}
 			],
@@ -3908,7 +3908,7 @@
 			]
 		},
 		{
-			"name": "{@spell Elemental Accelerant|sw5e-phb}",
+			"name": "Elemental Accelerant",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -3956,7 +3956,7 @@
 			]
 		},
 		{
-			"name": "{@spell Encrypted Message|sw5e-phb}",
+			"name": "Encrypted Message",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -3988,7 +3988,7 @@
 			]
 		},
 		{
-			"name": "{@spell Energetic Burst|sw5e-phb}",
+			"name": "Energetic Burst",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -4030,7 +4030,7 @@
 			]
 		},
 		{
-			"name": "{@spell Energizing Aura|sw5e-phb}",
+			"name": "Energizing Aura",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "TP",
@@ -4062,14 +4062,14 @@
 			]
 		},
 		{
-			"name": "{@spell Energy Shield|sw5e-phb}",
+			"name": "Energy Shield",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when you are hit by an attack"
 				}
 			],
@@ -4096,7 +4096,7 @@
 			]
 		},
 		{
-			"name": "{@spell Enfeeble|sw5e-phb}",
+			"name": "Enfeeble",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "DK",
@@ -4133,7 +4133,7 @@
 			]
 		},
 		{
-			"name": "{@spell Enhance Droid|sw5e-phb}",
+			"name": "Enhance Droid",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -4191,7 +4191,7 @@
 			]
 		},
 		{
-			"name": "{@spell Enhance Weapon|sw5e-phb}",
+			"name": "Enhance Weapon",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -4232,7 +4232,7 @@
 			]
 		},
 		{
-			"name": "{@spell Eruption|sw5e-phb}",
+			"name": "Eruption",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "UV",
@@ -4283,7 +4283,7 @@
 			]
 		},
 		{
-			"name": "{@spell Execute Command|sw5e-phb}",
+			"name": "Execute Command",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -4343,7 +4343,7 @@
 			]
 		},
 		{
-			"name": "{@spell Expeditious Retreat|sw5e-phb}",
+			"name": "Expeditious Retreat",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -4375,7 +4375,7 @@
 			]
 		},
 		{
-			"name": "{@spell Explosion|sw5e-phb}",
+			"name": "Explosion",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -4418,7 +4418,7 @@
 			]
 		},
 		{
-			"name": "{@spell Extinguish|sw5e-phb}",
+			"name": "Extinguish",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -4455,7 +4455,7 @@
 			]
 		},
 		{
-			"name": "{@spell Fabricate Trap|sw5e-phb}",
+			"name": "Fabricate Trap",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -4557,7 +4557,7 @@
 			]
 		},
 		{
-			"name": "{@spell Feedback|sw5e-phb}",
+			"name": "Feedback",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "DK",
@@ -4603,7 +4603,7 @@
 			]
 		},
 		{
-			"name": "{@spell Find the Path|sw5e-phb}",
+			"name": "Find the Path",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "TP",
@@ -4636,7 +4636,7 @@
 			]
 		},
 		{
-			"name": "{@spell Firestorm|sw5e-phb}",
+			"name": "Firestorm",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "TP",
@@ -4681,7 +4681,7 @@
 			]
 		},
 		{
-			"name": "{@spell Flame Sweep|sw5e-phb}",
+			"name": "Flame Sweep",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -4723,7 +4723,7 @@
 			]
 		},
 		{
-			"name": "{@spell Flaming Shots|sw5e-phb}",
+			"name": "Flaming Shots",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -4812,7 +4812,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Barrier|sw5e-phb}",
+			"name": "Force Barrier",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "LT",
@@ -4852,7 +4852,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Blind/Deafen|sw5e-phb}",
+			"name": "Force Blind/Deafen",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "LT",
@@ -4902,7 +4902,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Blinding|sw5e-phb}",
+			"name": "Force Blinding",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "LT",
@@ -4946,7 +4946,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Blur|sw5e-phb}",
+			"name": "Force Blur",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -4979,7 +4979,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Body|sw5e-phb}",
+			"name": "Force Body",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -5013,7 +5013,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Breach|sw5e-phb}",
+			"name": "Force Breach",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "UV",
@@ -5049,7 +5049,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Camouflage|sw5e-phb}",
+			"name": "Force Camouflage",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -5084,7 +5084,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Chain Lightning|sw5e-phb}",
+			"name": "Force Chain Lightning",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "DK",
@@ -5131,7 +5131,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Concealment|sw5e-phb}",
+			"name": "Force Concealment",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -5169,7 +5169,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Confusion|sw5e-phb}",
+			"name": "Force Confusion",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -5213,7 +5213,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Disarm|sw5e-phb}",
+			"name": "Force Disarm",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -5243,7 +5243,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Enlightenment|sw5e-phb}",
+			"name": "Force Enlightenment",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "LT",
@@ -5303,7 +5303,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Focus|sw5e-phb}",
+			"name": "Force Focus",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "LT",
@@ -5339,7 +5339,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Imbuement|sw5e-phb}",
+			"name": "Force Imbuement",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -5369,7 +5369,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Immunity|sw5e-phb}",
+			"name": "Force Immunity",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "UV",
@@ -5410,7 +5410,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Jump|sw5e-phb}",
+			"name": "Force Jump",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -5449,7 +5449,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Leap|sw5e-phb}",
+			"name": "Force Leap",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -5479,7 +5479,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Lightning|sw5e-phb}",
+			"name": "Force Lightning",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "DK",
@@ -5522,7 +5522,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Lightning Cone|sw5e-phb}",
+			"name": "Force Lightning Cone",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "DK",
@@ -5564,7 +5564,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Link|sw5e-phb}",
+			"name": "Force Link",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "UV",
@@ -5595,7 +5595,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Mask|sw5e-phb}",
+			"name": "Force Mask",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -5627,7 +5627,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Meld|sw5e-phb}",
+			"name": "Force Meld",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "UV",
@@ -5660,7 +5660,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Mend|sw5e-phb}",
+			"name": "Force Mend",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "LT",
@@ -5695,7 +5695,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Project|sw5e-phb}",
+			"name": "Force Project",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "UV",
@@ -5737,7 +5737,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Propel|sw5e-phb}",
+			"name": "Force Propel",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -5780,7 +5780,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Push/Pull|sw5e-phb}",
+			"name": "Force Push/Pull",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -5820,14 +5820,14 @@
 			]
 		},
 		{
-			"name": "{@spell Force Reflect|sw5e-phb}",
+			"name": "Force Reflect",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take in response to being hit by a ranged attack"
 				}
 			],
@@ -5860,7 +5860,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Repulse|sw5e-phb}",
+			"name": "Force Repulse",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "UV",
@@ -5905,7 +5905,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Scream|sw5e-phb}",
+			"name": "Force Scream",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "DK",
@@ -5941,7 +5941,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Shunt|sw5e-phb}",
+			"name": "Force Shunt",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -5991,7 +5991,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Sight|sw5e-phb}",
+			"name": "Force Sight",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -6032,7 +6032,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Storm|sw5e-phb}",
+			"name": "Force Storm",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "DK",
@@ -6073,7 +6073,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Suppression|sw5e-phb}",
+			"name": "Force Suppression",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "UV",
@@ -6109,7 +6109,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Technique|sw5e-phb}",
+			"name": "Force Technique",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "LT",
@@ -6155,7 +6155,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Throw|sw5e-phb}",
+			"name": "Force Throw",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -6204,7 +6204,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Trance|sw5e-phb}",
+			"name": "Force Trance",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "LT",
@@ -6250,7 +6250,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Vision|sw5e-phb}",
+			"name": "Force Vision",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -6294,7 +6294,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Weapon|sw5e-phb}",
+			"name": "Force Weapon",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "UV",
@@ -6336,7 +6336,7 @@
 			]
 		},
 		{
-			"name": "{@spell Force Whisper|sw5e-phb}",
+			"name": "Force Whisper",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -6368,7 +6368,7 @@
 			]
 		},
 		{
-			"name": "{@spell Freedom of Movement|sw5e-phb}",
+			"name": "Freedom of Movement",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "UV",
@@ -6403,7 +6403,7 @@
 			]
 		},
 		{
-			"name": "{@spell Frequency Scan|sw5e-phb}",
+			"name": "Frequency Scan",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -6446,7 +6446,7 @@
 			]
 		},
 		{
-			"name": "{@spell Friendly Fire|sw5e-phb}",
+			"name": "Friendly Fire",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -6486,7 +6486,7 @@
 			]
 		},
 		{
-			"name": "{@spell Give Life|sw5e-phb}",
+			"name": "Give Life",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "LT",
@@ -6515,7 +6515,7 @@
 			]
 		},
 		{
-			"name": "{@spell Gleaming Outline|sw5e-phb}",
+			"name": "Gleaming Outline",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -6565,7 +6565,7 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when you or a creature within 30 feet of you falls"
 				}
 			],
@@ -6590,7 +6590,7 @@
 			]
 		},
 		{
-			"name": "{@spell Grasping Vine|sw5e-phb}",
+			"name": "Grasping Vine",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "LT",
@@ -6629,7 +6629,7 @@
 			]
 		},
 		{
-			"name": "{@spell Greater Analyze|sw5e-phb}",
+			"name": "Greater Analyze",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -6655,7 +6655,7 @@
 			]
 		},
 		{
-			"name": "{@spell Greater Explosion|sw5e-phb}",
+			"name": "Greater Explosion",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "TP",
@@ -6692,7 +6692,7 @@
 			]
 		},
 		{
-			"name": "{@spell Greater Feedback|sw5e-phb}",
+			"name": "Greater Feedback",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "DK",
@@ -6729,7 +6729,7 @@
 			]
 		},
 		{
-			"name": "{@spell Greater Heal|sw5e-phb}",
+			"name": "Greater Heal",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "LT",
@@ -6770,7 +6770,7 @@
 			]
 		},
 		{
-			"name": "{@spell Greater Hologram|sw5e-phb}",
+			"name": "Greater Hologram",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -6817,7 +6817,7 @@
 			]
 		},
 		{
-			"name": "{@spell Greater Light|sw5e-phb}",
+			"name": "Greater Light",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -6853,7 +6853,7 @@
 			]
 		},
 		{
-			"name": "{@spell Greater Saber Throw|sw5e-phb}",
+			"name": "Greater Saber Throw",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "UV",
@@ -6908,7 +6908,7 @@
 			]
 		},
 		{
-			"name": "{@spell Greater Sabotage Charges|sw5e-phb}",
+			"name": "Greater Sabotage Charges",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "TP",
@@ -6952,7 +6952,7 @@
 			]
 		},
 		{
-			"name": "{@spell Greater Salvo|sw5e-phb}",
+			"name": "Greater Salvo",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "TP",
@@ -6990,7 +6990,7 @@
 			]
 		},
 		{
-			"name": "{@spell Greater Translation Program|sw5e-phb}",
+			"name": "Greater Translation Program",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -7020,7 +7020,7 @@
 			]
 		},
 		{
-			"name": "{@spell Greater Translocate|sw5e-phb}",
+			"name": "Greater Translocate",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -7056,7 +7056,7 @@
 			]
 		},
 		{
-			"name": "{@spell Group Hologram|sw5e-phb}",
+			"name": "Group Hologram",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -7095,7 +7095,7 @@
 			]
 		},
 		{
-			"name": "{@spell Guidance|sw5e-phb}",
+			"name": "Guidance",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "LT",
@@ -7128,7 +7128,7 @@
 			]
 		},
 		{
-			"name": "{@spell Hallucination|sw5e-phb}",
+			"name": "Hallucination",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "DK",
@@ -7183,7 +7183,7 @@
 			]
 		},
 		{
-			"name": "{@spell Haywire|sw5e-phb}",
+			"name": "Haywire",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -7268,7 +7268,7 @@
 			]
 		},
 		{
-			"name": "{@spell Heroism|sw5e-phb}",
+			"name": "Heroism",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "LT",
@@ -7361,7 +7361,7 @@
 			]
 		},
 		{
-			"name": "{@spell Hold Droid|sw5e-phb}",
+			"name": "Hold Droid",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -7412,7 +7412,7 @@
 			]
 		},
 		{
-			"name": "{@spell Holding Cell|sw5e-phb}",
+			"name": "Holding Cell",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -7451,7 +7451,7 @@
 			]
 		},
 		{
-			"name": "{@spell Hologram|sw5e-phb}",
+			"name": "Hologram",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -7486,7 +7486,7 @@
 			]
 		},
 		{
-			"name": "{@spell Holographic Disguise|sw5e-phb}",
+			"name": "Holographic Disguise",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -7517,7 +7517,7 @@
 			]
 		},
 		{
-			"name": "{@spell Homing Rockets|sw5e-phb}",
+			"name": "Homing Rockets",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -7559,7 +7559,7 @@
 			]
 		},
 		{
-			"name": "{@spell Horror|sw5e-phb}",
+			"name": "Horror",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "DK",
@@ -7599,7 +7599,7 @@
 			]
 		},
 		{
-			"name": "{@spell Hysteria|sw5e-phb}",
+			"name": "Hysteria",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "DK",
@@ -7654,7 +7654,7 @@
 			]
 		},
 		{
-			"name": "{@spell Illusory Strike|sw5e-phb}",
+			"name": "Illusory Strike",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -7688,7 +7688,7 @@
 			]
 		},
 		{
-			"name": "{@spell Illusory Terrain|sw5e-phb}",
+			"name": "Illusory Terrain",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -7720,7 +7720,7 @@
 			]
 		},
 		{
-			"name": "{@spell Immolate|sw5e-phb}",
+			"name": "Immolate",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -7764,7 +7764,7 @@
 			]
 		},
 		{
-			"name": "{@spell Implant Message|sw5e-phb}",
+			"name": "Implant Message",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -7799,7 +7799,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Battle Meditation|sw5e-phb}",
+			"name": "Improved Battle Meditation",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "UV",
@@ -7837,7 +7837,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Dark Side Tendrils|sw5e-phb}",
+			"name": "Improved Dark Side Tendrils",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "DK",
@@ -7884,7 +7884,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Feedback|sw5e-phb}",
+			"name": "Improved Feedback",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "DK",
@@ -7930,7 +7930,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Force Barrier|sw5e-phb}",
+			"name": "Improved Force Barrier",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "LT",
@@ -7970,7 +7970,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Force Camouflage|sw5e-phb}",
+			"name": "Improved Force Camouflage",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "UV",
@@ -8006,7 +8006,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Force Immunity|sw5e-phb}",
+			"name": "Improved Force Immunity",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "UV",
@@ -8049,7 +8049,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Force Scream|sw5e-phb}",
+			"name": "Improved Force Scream",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "DK",
@@ -8087,7 +8087,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Heal|sw5e-phb}",
+			"name": "Improved Heal",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "LT",
@@ -8127,7 +8127,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Phasestrike|sw5e-phb}",
+			"name": "Improved Phasestrike",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "UV",
@@ -8162,7 +8162,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Phasewalk|sw5e-phb}",
+			"name": "Improved Phasewalk",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "UV",
@@ -8199,7 +8199,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Restoration|sw5e-phb}",
+			"name": "Improved Restoration",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "LT",
@@ -8239,7 +8239,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Revitalize|sw5e-phb}",
+			"name": "Improved Revitalize",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "LT",
@@ -8269,7 +8269,7 @@
 			]
 		},
 		{
-			"name": "{@spell Improved Saber Throw|sw5e-phb}",
+			"name": "Improved Saber Throw",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -8312,7 +8312,7 @@
 			]
 		},
 		{
-			"name": "{@spell Incendiary Cloud|sw5e-phb}",
+			"name": "Incendiary Cloud",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "TP",
@@ -8353,7 +8353,7 @@
 			]
 		},
 		{
-			"name": "{@spell Infiltrate|sw5e-phb}",
+			"name": "Infiltrate",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -8397,7 +8397,7 @@
 			]
 		},
 		{
-			"name": "{@spell Insanity|sw5e-phb}",
+			"name": "Insanity",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "DK",
@@ -8472,7 +8472,7 @@
 			]
 		},
 		{
-			"name": "{@spell Invisibility to Cameras|sw5e-phb}",
+			"name": "Invisibility to Cameras",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -8505,7 +8505,7 @@
 			]
 		},
 		{
-			"name": "{@spell Invulnerability|sw5e-phb}",
+			"name": "Invulnerability",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "TP",
@@ -8537,7 +8537,7 @@
 			]
 		},
 		{
-			"name": "{@spell Ion Blast|sw5e-phb}",
+			"name": "Ion Blast",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -8584,7 +8584,7 @@
 			]
 		},
 		{
-			"name": "{@spell Ionic Bond|sw5e-phb}",
+			"name": "Ionic Bond",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -8629,7 +8629,7 @@
 			]
 		},
 		{
-			"name": "{@spell Ionic Strike|sw5e-phb}",
+			"name": "Ionic Strike",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -8675,7 +8675,7 @@
 			]
 		},
 		{
-			"name": "{@spell Jet of Flame|sw5e-phb}",
+			"name": "Jet of Flame",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -8754,7 +8754,7 @@
 			]
 		},
 		{
-			"name": "Knight {@variantrule Speed|sw5e-phb}",
+			"name": "Knight Speed",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "UV",
@@ -8796,7 +8796,7 @@
 			]
 		},
 		{
-			"name": "{@spell Kolto Cloud|sw5e-phb}",
+			"name": "Kolto Cloud",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -8836,7 +8836,7 @@
 			]
 		},
 		{
-			"name": "{@spell Kolto Dispenser|sw5e-phb}",
+			"name": "Kolto Dispenser",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -8884,7 +8884,7 @@
 			]
 		},
 		{
-			"name": "{@spell Kolto Infusion|sw5e-phb}",
+			"name": "Kolto Infusion",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "TP",
@@ -8924,7 +8924,7 @@
 			]
 		},
 		{
-			"name": "{@spell Kolto Pack|sw5e-phb}",
+			"name": "Kolto Pack",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -8964,7 +8964,7 @@
 			]
 		},
 		{
-			"name": "{@spell Kolto Reserve|sw5e-phb}",
+			"name": "Kolto Reserve",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -8993,7 +8993,7 @@
 			]
 		},
 		{
-			"name": "{@spell Kolto Waves|sw5e-phb}",
+			"name": "Kolto Waves",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "TP",
@@ -9065,7 +9065,7 @@
 			]
 		},
 		{
-			"name": "{@spell Lightning Charge|sw5e-phb}",
+			"name": "Lightning Charge",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "DK",
@@ -9106,7 +9106,7 @@
 			]
 		},
 		{
-			"name": "{@spell Locate Creature|sw5e-phb}",
+			"name": "Locate Creature",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "UV",
@@ -9139,7 +9139,7 @@
 			]
 		},
 		{
-			"name": "{@spell Locate Object|sw5e-phb}",
+			"name": "Locate Object",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -9201,7 +9201,7 @@
 			]
 		},
 		{
-			"name": "{@spell Maddening Darkness|sw5e-phb}",
+			"name": "Maddening Darkness",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "DK",
@@ -9242,7 +9242,7 @@
 			]
 		},
 		{
-			"name": "{@spell Magnetic Field|sw5e-phb}",
+			"name": "Magnetic Field",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -9283,7 +9283,7 @@
 			]
 		},
 		{
-			"name": "{@spell Magnetic Hold|sw5e-phb}",
+			"name": "Magnetic Hold",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -9315,7 +9315,7 @@
 			]
 		},
 		{
-			"name": "{@spell Malacia|sw5e-phb}",
+			"name": "Malacia",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -9360,7 +9360,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mass Animation|sw5e-phb}",
+			"name": "Mass Animation",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "UV",
@@ -9451,7 +9451,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mass Coerce Mind|sw5e-phb}",
+			"name": "Mass Coerce Mind",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "UV",
@@ -9503,7 +9503,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mass Hysteria|sw5e-phb}",
+			"name": "Mass Hysteria",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "DK",
@@ -9546,7 +9546,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mass Malacia|sw5e-phb}",
+			"name": "Mass Malacia",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "UV",
@@ -9588,7 +9588,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mass Repair Droid|sw5e-phb}",
+			"name": "Mass Repair Droid",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -9627,7 +9627,7 @@
 			]
 		},
 		{
-			"name": "{@spell Master Battle Meditation|sw5e-phb}",
+			"name": "Master Battle Meditation",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "UV",
@@ -9665,7 +9665,7 @@
 			]
 		},
 		{
-			"name": "{@spell Master Feedback|sw5e-phb}",
+			"name": "Master Feedback",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "DK",
@@ -9708,7 +9708,7 @@
 			]
 		},
 		{
-			"name": "{@spell Master Force Barrier|sw5e-phb}",
+			"name": "Master Force Barrier",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "LT",
@@ -9759,7 +9759,7 @@
 			]
 		},
 		{
-			"name": "{@spell Master Force Immunity|sw5e-phb}",
+			"name": "Master Force Immunity",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "UV",
@@ -9809,7 +9809,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@spell Tech Override|sw5e-phb}/{@spell Sever Force|sw5e-phb}",
+					"name": "Tech Override/Sever Force",
 					"entries": [
 						"Powers and enhanced effects such as *{@spell Sever Force|sw5e-phb|sever force}* have no effect on the sphere. Likewise, the spheres created by different {@spell Scrambling Field|sw5e-phb|scrambling field} powers don't nullify each other."
 					]
@@ -9817,7 +9817,7 @@
 			]
 		},
 		{
-			"name": "{@spell Master Force Scream|sw5e-phb}",
+			"name": "Master Force Scream",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "DK",
@@ -9857,7 +9857,7 @@
 			]
 		},
 		{
-			"name": "{@spell Master Heal|sw5e-phb}",
+			"name": "Master Heal",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "LT",
@@ -9894,7 +9894,7 @@
 			]
 		},
 		{
-			"name": "{@spell Master Malacia|sw5e-phb}",
+			"name": "Master Malacia",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "UV",
@@ -9939,7 +9939,7 @@
 			]
 		},
 		{
-			"name": "{@spell Master Revitalize|sw5e-phb}",
+			"name": "Master Revitalize",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "LT",
@@ -9967,7 +9967,7 @@
 			]
 		},
 		{
-			"name": "{@spell Master Saber Throw|sw5e-phb}",
+			"name": "Master Saber Throw",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "UV",
@@ -10009,7 +10009,7 @@
 			]
 		},
 		{
-			"name": "Master {@variantrule Speed|sw5e-phb}",
+			"name": "Master Speed",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "UV",
@@ -10060,7 +10060,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mending|sw5e-phb}",
+			"name": "Mending",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -10089,7 +10089,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mind Blank|sw5e-phb}",
+			"name": "Mind Blank",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "UV",
@@ -10123,7 +10123,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mind Prison|sw5e-phb}",
+			"name": "Mind Prison",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "DK",
@@ -10170,7 +10170,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mind Spike|sw5e-phb}",
+			"name": "Mind Spike",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "DK",
@@ -10215,7 +10215,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mind Trap|sw5e-phb}",
+			"name": "Mind Trap",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "UV",
@@ -10264,7 +10264,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mind Trick|sw5e-phb}",
+			"name": "Mind Trick",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -10304,7 +10304,7 @@
 			]
 		},
 		{
-			"name": "{@spell Minor Defibrillation|sw5e-phb}",
+			"name": "Minor Defibrillation",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -10346,7 +10346,7 @@
 			]
 		},
 		{
-			"name": "{@spell Minor Hologram|sw5e-phb}",
+			"name": "Minor Hologram",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -10391,7 +10391,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mirror Image|sw5e-phb}",
+			"name": "Mirror Image",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -10425,7 +10425,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mislead|sw5e-phb}",
+			"name": "Mislead",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -10467,7 +10467,7 @@
 			]
 		},
 		{
-			"name": "{@spell Mobile Lights|sw5e-phb}",
+			"name": "Mobile Lights",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -10504,7 +10504,7 @@
 			]
 		},
 		{
-			"name": "{@spell Morichro|sw5e-phb}",
+			"name": "Morichro",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "LT",
@@ -10601,7 +10601,7 @@
 			]
 		},
 		{
-			"name": "{@spell Motivator Boost|sw5e-phb}",
+			"name": "Motivator Boost",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -10649,7 +10649,7 @@
 			]
 		},
 		{
-			"name": "{@spell Necrotic Charge|sw5e-phb}",
+			"name": "Necrotic Charge",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "DK",
@@ -10695,7 +10695,7 @@
 			]
 		},
 		{
-			"name": "{@spell Necrotic Touch|sw5e-phb}",
+			"name": "Necrotic Touch",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "DK",
@@ -10742,7 +10742,7 @@
 			]
 		},
 		{
-			"name": "{@spell Neurotoxin|sw5e-phb}",
+			"name": "Neurotoxin",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "TP",
@@ -10792,7 +10792,7 @@
 			]
 		},
 		{
-			"name": "{@spell Oil Slick|sw5e-phb}",
+			"name": "Oil Slick",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -10834,7 +10834,7 @@
 			]
 		},
 		{
-			"name": "{@spell On/Off|sw5e-phb}",
+			"name": "On/Off",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -10861,7 +10861,7 @@
 			]
 		},
 		{
-			"name": "{@spell Overheat|sw5e-phb}",
+			"name": "Overheat",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -10913,7 +10913,7 @@
 			]
 		},
 		{
-			"name": "{@spell Overload|sw5e-phb}",
+			"name": "Overload",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -10957,7 +10957,7 @@
 			]
 		},
 		{
-			"name": "{@spell Override Interface|sw5e-phb}",
+			"name": "Override Interface",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -11012,7 +11012,7 @@
 			]
 		},
 		{
-			"name": "{@spell Paralyze Creature|sw5e-phb}",
+			"name": "Paralyze Creature",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -11064,7 +11064,7 @@
 			]
 		},
 		{
-			"name": "{@spell Paralyze Humanoid|sw5e-phb}",
+			"name": "Paralyze Humanoid",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -11116,7 +11116,7 @@
 			]
 		},
 		{
-			"name": "{@spell Phasestrike|sw5e-phb}",
+			"name": "Phasestrike",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -11152,7 +11152,7 @@
 			]
 		},
 		{
-			"name": "{@spell Phasewalk|sw5e-phb}",
+			"name": "Phasewalk",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -11182,7 +11182,7 @@
 			]
 		},
 		{
-			"name": "{@spell Pheromone Burst|sw5e-phb}",
+			"name": "Pheromone Burst",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -11231,7 +11231,7 @@
 			]
 		},
 		{
-			"name": "{@spell Plague|sw5e-phb}",
+			"name": "Plague",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "DK",
@@ -11275,7 +11275,7 @@
 			]
 		},
 		{
-			"name": "{@spell Plant Surge|sw5e-phb}",
+			"name": "Plant Surge",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "LT",
@@ -11307,7 +11307,7 @@
 			]
 		},
 		{
-			"name": "{@spell Poison Dart|sw5e-phb}",
+			"name": "Poison Dart",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -11349,7 +11349,7 @@
 			]
 		},
 		{
-			"name": "{@spell Poison Spray|sw5e-phb}",
+			"name": "Poison Spray",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -11396,7 +11396,7 @@
 			]
 		},
 		{
-			"name": "{@spell Precognition|sw5e-phb}",
+			"name": "Precognition",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "UV",
@@ -11427,7 +11427,7 @@
 			]
 		},
 		{
-			"name": "{@spell Predictive AI|sw5e-phb}",
+			"name": "Predictive AI",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "TP",
@@ -11457,7 +11457,7 @@
 			]
 		},
 		{
-			"name": "{@spell Preparedness|sw5e-phb}",
+			"name": "Preparedness",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -11486,7 +11486,7 @@
 			]
 		},
 		{
-			"name": "{@spell Pressure Crush|sw5e-phb}",
+			"name": "Pressure Crush",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -11535,7 +11535,7 @@
 			]
 		},
 		{
-			"name": "{@spell Programmed Illusion|sw5e-phb}",
+			"name": "Programmed Illusion",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "TP",
@@ -11568,7 +11568,7 @@
 			]
 		},
 		{
-			"name": "{@spell Project|sw5e-phb}",
+			"name": "Project",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "LT",
@@ -11610,7 +11610,7 @@
 			]
 		},
 		{
-			"name": "{@spell Project Hologram|sw5e-phb}",
+			"name": "Project Hologram",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "TP",
@@ -11653,7 +11653,7 @@
 			]
 		},
 		{
-			"name": "{@spell Protection from Energy|sw5e-phb}",
+			"name": "Protection from Energy",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -11745,7 +11745,7 @@
 			]
 		},
 		{
-			"name": "{@spell Psychic Charge|sw5e-phb}",
+			"name": "Psychic Charge",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "DK",
@@ -11791,7 +11791,7 @@
 			]
 		},
 		{
-			"name": "{@spell Psychometry|sw5e-phb}",
+			"name": "Psychometry",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "UV",
@@ -11822,7 +11822,7 @@
 			]
 		},
 		{
-			"name": "{@spell Pyrotechnics|sw5e-phb}",
+			"name": "Pyrotechnics",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -11865,7 +11865,7 @@
 			]
 		},
 		{
-			"name": "{@spell Radiation|sw5e-phb}",
+			"name": "Radiation",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -11965,7 +11965,7 @@
 			]
 		},
 		{
-			"name": "{@spell Read Memory|sw5e-phb}",
+			"name": "Read Memory",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -12000,7 +12000,7 @@
 			]
 		},
 		{
-			"name": "{@spell Reboot|sw5e-phb}",
+			"name": "Reboot",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -12040,7 +12040,7 @@
 			]
 		},
 		{
-			"name": "{@spell Rebuke|sw5e-phb}",
+			"name": "Rebuke",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "LT",
@@ -12073,7 +12073,7 @@
 			]
 		},
 		{
-			"name": "{@spell Release|sw5e-phb}",
+			"name": "Release",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -12105,7 +12105,7 @@
 			]
 		},
 		{
-			"name": "{@spell Remove Curse|sw5e-phb}",
+			"name": "Remove Curse",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "LT",
@@ -12131,7 +12131,7 @@
 			]
 		},
 		{
-			"name": "{@spell Remove Virus|sw5e-phb}",
+			"name": "Remove Virus",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -12157,7 +12157,7 @@
 			]
 		},
 		{
-			"name": "{@spell Repair Droid|sw5e-phb}",
+			"name": "Repair Droid",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -12195,7 +12195,7 @@
 			]
 		},
 		{
-			"name": "{@spell Reprogram Droid|sw5e-phb}",
+			"name": "Reprogram Droid",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -12248,7 +12248,7 @@
 			]
 		},
 		{
-			"name": "{@spell Rescue|sw5e-phb}",
+			"name": "Rescue",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "UV",
@@ -12279,7 +12279,7 @@
 			]
 		},
 		{
-			"name": "{@spell Resistance|sw5e-phb}",
+			"name": "Resistance",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -12312,7 +12312,7 @@
 			]
 		},
 		{
-			"name": "{@spell Restoration|sw5e-phb}",
+			"name": "Restoration",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "LT",
@@ -12344,7 +12344,7 @@
 			]
 		},
 		{
-			"name": "{@spell Revitalize|sw5e-phb}",
+			"name": "Revitalize",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "LT",
@@ -12374,7 +12374,7 @@
 			]
 		},
 		{
-			"name": "{@spell Rewrite Memory|sw5e-phb}",
+			"name": "Rewrite Memory",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -12430,7 +12430,7 @@
 			]
 		},
 		{
-			"name": "{@spell Rime Shot|sw5e-phb}",
+			"name": "Rime Shot",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -12467,7 +12467,7 @@
 			]
 		},
 		{
-			"name": "{@spell Rime Strike|sw5e-phb}",
+			"name": "Rime Strike",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -12513,7 +12513,7 @@
 			]
 		},
 		{
-			"name": "{@spell Ring of Fire|sw5e-phb}",
+			"name": "Ring of Fire",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -12596,14 +12596,14 @@
 			]
 		},
 		{
-			"name": "{@spell Saber Reflect|sw5e-phb}",
+			"name": "Saber Reflect",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take in response to being dealt damage by a ranged attack"
 				}
 			],
@@ -12637,7 +12637,7 @@
 			]
 		},
 		{
-			"name": "{@spell Saber Throw|sw5e-phb}",
+			"name": "Saber Throw",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -12668,7 +12668,7 @@
 			]
 		},
 		{
-			"name": "{@spell Saber Ward|sw5e-phb}",
+			"name": "Saber Ward",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -12698,7 +12698,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sabotage Charges|sw5e-phb}",
+			"name": "Sabotage Charges",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -12788,7 +12788,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sanctuary|sw5e-phb}",
+			"name": "Sanctuary",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "LT",
@@ -12823,7 +12823,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sap Vitality|sw5e-phb}",
+			"name": "Sap Vitality",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "DK",
@@ -12861,7 +12861,7 @@
 			]
 		},
 		{
-			"name": "{@spell Scan Area|sw5e-phb}",
+			"name": "Scan Area",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -12894,7 +12894,7 @@
 			]
 		},
 		{
-			"name": "{@spell Scourge|sw5e-phb}",
+			"name": "Scourge",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "DK",
@@ -12945,7 +12945,7 @@
 			]
 		},
 		{
-			"name": "{@spell Scramble Interface|sw5e-phb}",
+			"name": "Scramble Interface",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -12988,7 +12988,7 @@
 			]
 		},
 		{
-			"name": "{@spell Scrambling Barrier|sw5e-phb}",
+			"name": "Scrambling Barrier",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "TP",
@@ -13030,7 +13030,7 @@
 			]
 		},
 		{
-			"name": "{@spell Scrambling Field|sw5e-phb}",
+			"name": "Scrambling Field",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "TP",
@@ -13079,7 +13079,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@spell Tech Override|sw5e-phb}/{@spell Diminish Tech|sw5e-phb}",
+					"name": "Tech Override/Diminish Tech",
 					"entries": [
 						"Powers and enhanced effects such as *{@spell Tech Override|sw5e-phb|tech override}* have no effect on the sphere. Likewise, the spheres created by different {@spell Scrambling Field|sw5e-phb|scrambling field} powers don't nullify each other."
 					]
@@ -13087,7 +13087,7 @@
 			]
 		},
 		{
-			"name": "{@spell Security Protocols|sw5e-phb}",
+			"name": "Security Protocols",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "TP",
@@ -13138,7 +13138,7 @@
 			]
 		},
 		{
-			"name": "{@spell Seethe|sw5e-phb}",
+			"name": "Seethe",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "DK",
@@ -13164,7 +13164,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sending|sw5e-phb}",
+			"name": "Sending",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -13195,7 +13195,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sense Emotion|sw5e-phb}",
+			"name": "Sense Emotion",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -13233,7 +13233,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sense Force|sw5e-phb}",
+			"name": "Sense Force",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -13274,7 +13274,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sensor Probe|sw5e-phb}",
+			"name": "Sensor Probe",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -13311,14 +13311,14 @@
 			]
 		},
 		{
-			"name": "{@spell Sever Force|sw5e-phb}",
+			"name": "Sever Force",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "UV",
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when you see a creature within 60 feet of you casting a {@book force power|sw5e-phb|11|Force Powers}"
 				}
 			],
@@ -13348,7 +13348,7 @@
 			]
 		},
 		{
-			"name": "{@spell Shadow Sight|sw5e-phb}",
+			"name": "Shadow Sight",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -13378,7 +13378,7 @@
 			]
 		},
 		{
-			"name": "{@spell Share Life|sw5e-phb}",
+			"name": "Share Life",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "LT",
@@ -13422,7 +13422,7 @@
 			]
 		},
 		{
-			"name": "{@spell Shared Shielding|sw5e-phb}",
+			"name": "Shared Shielding",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -13516,7 +13516,7 @@
 			]
 		},
 		{
-			"name": "{@spell Shatter|sw5e-phb}",
+			"name": "Shatter",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -13602,7 +13602,7 @@
 			]
 		},
 		{
-			"name": "{@spell Shocking Ray|sw5e-phb}",
+			"name": "Shocking Ray",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -13641,7 +13641,7 @@
 			]
 		},
 		{
-			"name": "{@spell Shocking Shield|sw5e-phb}",
+			"name": "Shocking Shield",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "DK",
@@ -13679,7 +13679,7 @@
 			]
 		},
 		{
-			"name": "{@spell Short Circuit|sw5e-phb}",
+			"name": "Short Circuit",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -13726,7 +13726,7 @@
 			]
 		},
 		{
-			"name": "{@spell Shroud of Darkness|sw5e-phb}",
+			"name": "Shroud of Darkness",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "DK",
@@ -13772,7 +13772,7 @@
 			]
 		},
 		{
-			"name": "{@spell Shutdown|sw5e-phb}",
+			"name": "Shutdown",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -13808,7 +13808,7 @@
 			]
 		},
 		{
-			"name": "{@spell Siphon Life|sw5e-phb}",
+			"name": "Siphon Life",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "DK",
@@ -13862,7 +13862,7 @@
 			]
 		},
 		{
-			"name": "{@spell Skill Empowerment|sw5e-phb}",
+			"name": "Skill Empowerment",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "LT",
@@ -13933,14 +13933,14 @@
 			]
 		},
 		{
-			"name": "{@spell Slow Descent|sw5e-phb}",
+			"name": "Slow Descent",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when you or a creature within 60 feet of you falls"
 				}
 			],
@@ -13965,7 +13965,7 @@
 			]
 		},
 		{
-			"name": "{@spell Slow-Release Medpac|sw5e-phb}",
+			"name": "Slow-Release Medpac",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -14000,7 +14000,7 @@
 			]
 		},
 		{
-			"name": "{@spell Smoke Cloud|sw5e-phb}",
+			"name": "Smoke Cloud",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -14042,7 +14042,7 @@
 			]
 		},
 		{
-			"name": "{@spell Smuggle|sw5e-phb}",
+			"name": "Smuggle",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -14074,7 +14074,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sonic Charge|sw5e-phb}",
+			"name": "Sonic Charge",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -14120,7 +14120,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sonic Fists|sw5e-phb}",
+			"name": "Sonic Fists",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -14156,7 +14156,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sonic Shot|sw5e-phb}",
+			"name": "Sonic Shot",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -14196,7 +14196,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sonic Strike|sw5e-phb}",
+			"name": "Sonic Strike",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -14242,7 +14242,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sound Trick|sw5e-phb}",
+			"name": "Sound Trick",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -14285,7 +14285,7 @@
 			]
 		},
 		{
-			"name": "{@spell Spare the Dying|sw5e-phb}",
+			"name": "Spare the Dying",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "LT",
@@ -14311,7 +14311,7 @@
 			]
 		},
 		{
-			"name": "{@spell Spectrum Bolt|sw5e-phb}",
+			"name": "Spectrum Bolt",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -14396,7 +14396,7 @@
 			]
 		},
 		{
-			"name": "{@spell Spectrum Ray|sw5e-phb}",
+			"name": "Spectrum Ray",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -14437,7 +14437,7 @@
 			]
 		},
 		{
-			"name": "{@spell Spirit Blade|sw5e-phb}",
+			"name": "Spirit Blade",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "UV",
@@ -14467,7 +14467,7 @@
 			]
 		},
 		{
-			"name": "{@spell Spot the Weakness|sw5e-phb}",
+			"name": "Spot the Weakness",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -14515,7 +14515,7 @@
 			]
 		},
 		{
-			"name": "{@spell Stack the Deck|sw5e-phb}",
+			"name": "Stack the Deck",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -14557,7 +14557,7 @@
 			]
 		},
 		{
-			"name": "{@spell Stasis|sw5e-phb}",
+			"name": "Stasis",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "LT",
@@ -14609,7 +14609,7 @@
 			]
 		},
 		{
-			"name": "{@spell Stasis Field|sw5e-phb}",
+			"name": "Stasis Field",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "LT",
@@ -14661,7 +14661,7 @@
 			]
 		},
 		{
-			"name": "{@spell Storming Shot|sw5e-phb}",
+			"name": "Storming Shot",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -14740,7 +14740,7 @@
 			]
 		},
 		{
-			"name": "{@spell Stun Dart|sw5e-phb}",
+			"name": "Stun Dart",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "TP",
@@ -14774,7 +14774,7 @@
 			]
 		},
 		{
-			"name": "{@spell Stun Droid|sw5e-phb}",
+			"name": "Stun Droid",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "LT",
@@ -14816,7 +14816,7 @@
 			]
 		},
 		{
-			"name": "{@spell Superior Translation Program|sw5e-phb}",
+			"name": "Superior Translation Program",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "TP",
@@ -14855,7 +14855,7 @@
 			]
 		},
 		{
-			"name": "{@spell Sustained Lightning|sw5e-phb}",
+			"name": "Sustained Lightning",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "DK",
@@ -14901,7 +14901,7 @@
 			]
 		},
 		{
-			"name": "{@spell Synchronicity|sw5e-phb}",
+			"name": "Synchronicity",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -14935,7 +14935,7 @@
 			]
 		},
 		{
-			"name": "Tactical {@variantrule Advantage|sw5e-phb}",
+			"name": "Tactical Advantage",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -14976,7 +14976,7 @@
 			]
 		},
 		{
-			"name": "{@spell Tactical Barrier|sw5e-phb}",
+			"name": "Tactical Barrier",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -15012,7 +15012,7 @@
 			]
 		},
 		{
-			"name": "{@spell Tactical Superiority|sw5e-phb}",
+			"name": "Tactical Superiority",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "TP",
@@ -15062,7 +15062,7 @@
 			]
 		},
 		{
-			"name": "{@spell Target Lock|sw5e-phb}",
+			"name": "Target Lock",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -15110,7 +15110,7 @@
 			]
 		},
 		{
-			"name": "{@spell Targeting Shot|sw5e-phb}",
+			"name": "Targeting Shot",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -15144,14 +15144,14 @@
 			]
 		},
 		{
-			"name": "{@spell Tech Override|sw5e-phb}",
+			"name": "Tech Override",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when you see a creature within 60 feet of you casting a {@book tech power|sw5e-phb|12|Tech Powers}"
 				}
 			],
@@ -15181,7 +15181,7 @@
 			]
 		},
 		{
-			"name": "{@spell Telekinesis|sw5e-phb}",
+			"name": "Telekinesis",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "UV",
@@ -15247,7 +15247,7 @@
 			]
 		},
 		{
-			"name": "{@spell Telekinetic Burst|sw5e-phb}",
+			"name": "Telekinetic Burst",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "LT",
@@ -15299,7 +15299,7 @@
 			]
 		},
 		{
-			"name": "{@spell Telekinetic Shield|sw5e-phb}",
+			"name": "Telekinetic Shield",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "UV",
@@ -15348,7 +15348,7 @@
 			]
 		},
 		{
-			"name": "{@spell Telekinetic Storm|sw5e-phb}",
+			"name": "Telekinetic Storm",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "LT",
@@ -15400,7 +15400,7 @@
 			]
 		},
 		{
-			"name": "{@spell Telekinetic Wave|sw5e-phb}",
+			"name": "Telekinetic Wave",
 			"source": "sw5e-phb",
 			"level": 8,
 			"school": "LT",
@@ -15446,7 +15446,7 @@
 			]
 		},
 		{
-			"name": "{@spell Telemetry|sw5e-phb}",
+			"name": "Telemetry",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -15473,7 +15473,7 @@
 			]
 		},
 		{
-			"name": "{@spell Temporary Boost|sw5e-phb}",
+			"name": "Temporary Boost",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -15506,7 +15506,7 @@
 			]
 		},
 		{
-			"name": "{@spell Tonal Translocate|sw5e-phb}",
+			"name": "Tonal Translocate",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
@@ -15553,7 +15553,7 @@
 			]
 		},
 		{
-			"name": "{@spell Toxic Cloud|sw5e-phb}",
+			"name": "Toxic Cloud",
 			"source": "sw5e-phb",
 			"level": 5,
 			"school": "TP",
@@ -15603,7 +15603,7 @@
 			]
 		},
 		{
-			"name": "{@spell Toxin Purge|sw5e-phb}",
+			"name": "Toxin Purge",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -15646,7 +15646,7 @@
 			]
 		},
 		{
-			"name": "{@spell Toxin Scan|sw5e-phb}",
+			"name": "Toxin Scan",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -15681,7 +15681,7 @@
 			]
 		},
 		{
-			"name": "{@spell Tracer Bolt|sw5e-phb}",
+			"name": "Tracer Bolt",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -15724,7 +15724,7 @@
 			]
 		},
 		{
-			"name": "{@spell Tracker Droid Interface|sw5e-phb}",
+			"name": "Tracker Droid Interface",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -15767,7 +15767,7 @@
 			]
 		},
 		{
-			"name": "{@spell Tranquilizer|sw5e-phb}",
+			"name": "Tranquilizer",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -15810,7 +15810,7 @@
 			]
 		},
 		{
-			"name": "{@spell Translation Program|sw5e-phb}",
+			"name": "Translation Program",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -15841,7 +15841,7 @@
 			]
 		},
 		{
-			"name": "{@spell Translocate|sw5e-phb}",
+			"name": "Translocate",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -15871,7 +15871,7 @@
 			]
 		},
 		{
-			"name": "{@spell Tremor|sw5e-phb}",
+			"name": "Tremor",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "UV",
@@ -15917,7 +15917,7 @@
 			]
 		},
 		{
-			"name": "{@spell True Sight|sw5e-phb}",
+			"name": "True Sight",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "UV",
@@ -15948,7 +15948,7 @@
 			]
 		},
 		{
-			"name": "{@spell Truth Serum|sw5e-phb}",
+			"name": "Truth Serum",
 			"source": "sw5e-phb",
 			"level": 2,
 			"school": "TP",
@@ -15982,7 +15982,7 @@
 			]
 		},
 		{
-			"name": "{@spell Turbulence|sw5e-phb}",
+			"name": "Turbulence",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "LT",
@@ -16062,7 +16062,7 @@
 			]
 		},
 		{
-			"name": "{@spell Venomous Strike|sw5e-phb}",
+			"name": "Venomous Strike",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -16104,14 +16104,14 @@
 			]
 		},
 		{
-			"name": "{@spell Vertical Maneuvering|sw5e-phb}",
+			"name": "Vertical Maneuvering",
 			"source": "sw5e-phb",
 			"level": 3,
 			"school": "TP",
 			"time": [
 				{
 					"number": 1,
-					"unit": "{@variantrule Reaction|sw5e-phb}",
+					"unit": "reaction",
 					"condition": "which you take when you are falling and within 30 feet of a solid surface"
 				}
 			],
@@ -16140,7 +16140,7 @@
 			]
 		},
 		{
-			"name": "{@spell Voltaic Shielding|sw5e-phb}",
+			"name": "Voltaic Shielding",
 			"source": "sw5e-phb",
 			"level": 1,
 			"school": "TP",
@@ -16185,7 +16185,7 @@
 			]
 		},
 		{
-			"name": "{@spell Vortex Shot|sw5e-phb}",
+			"name": "Vortex Shot",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -16218,7 +16218,7 @@
 			]
 		},
 		{
-			"name": "{@spell Wall of Light|sw5e-phb}",
+			"name": "Wall of Light",
 			"source": "sw5e-phb",
 			"level": 6,
 			"school": "LT",
@@ -16288,7 +16288,7 @@
 			]
 		},
 		{
-			"name": "{@spell Warding Shot|sw5e-phb}",
+			"name": "Warding Shot",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",
@@ -16331,7 +16331,7 @@
 			]
 		},
 		{
-			"name": "{@spell Whirlwind|sw5e-phb}",
+			"name": "Whirlwind",
 			"source": "sw5e-phb",
 			"level": 7,
 			"school": "UV",
@@ -16380,7 +16380,7 @@
 			]
 		},
 		{
-			"name": "{@spell Will of the Force|sw5e-phb}",
+			"name": "Will of the Force",
 			"source": "sw5e-phb",
 			"level": 9,
 			"school": "LT",
@@ -16487,7 +16487,7 @@
 			]
 		},
 		{
-			"name": "{@spell Wire Bind|sw5e-phb}",
+			"name": "Wire Bind",
 			"source": "sw5e-phb",
 			"level": 4,
 			"school": "TP",
@@ -16531,7 +16531,7 @@
 			]
 		},
 		{
-			"name": "{@spell Wire Line|sw5e-phb}",
+			"name": "Wire Line",
 			"source": "sw5e-phb",
 			"level": 0,
 			"school": "TP",

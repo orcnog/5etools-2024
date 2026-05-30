@@ -643,7 +643,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "{@feat Entertainer|sw5e-phb}",
+			"name": "Entertainer",
 			"source": "sw5e-phb",
 			"page": 143,
 			"entries": [
@@ -677,7 +677,7 @@
 					"type": "entries",
 					"name": "Feature: By Popular Demand",
 					"entries": [
-						"You can always find a place to {@optfeature Perform|sw5e-phb|perform}, usually in an inn or cantina but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you {@optfeature Perform|sw5e-phb|perform} each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
+						"You can always find a place to perform, usually in an inn or cantina but possibly with a circus, at a theater, or even in a noble's court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you."
 					],
 					"data": {
 						"isFeature": true
@@ -746,7 +746,7 @@
 							"rows": [
 								[
 									"1",
-									"When I {@optfeature Perform|sw5e-phb|perform}, I make the world better than it was. (Light)"
+									"When I perform, I make the world better than it was. (Light)"
 								],
 								[
 									"2",
@@ -762,7 +762,7 @@
 								],
 								[
 									"5",
-									"I like seeing the smiles on people's faces when I {@optfeature Perform|sw5e-phb|perform}. That's all that matters. (Neutral)"
+									"I like seeing the smiles on people's faces when I perform. That's all that matters. (Neutral)"
 								],
 								[
 									"6",
@@ -1264,7 +1264,7 @@
 			"hasFluff": true
 		},
 		{
-			"name": "{@feat Investigator|sw5e-phb}",
+			"name": "Investigator",
 			"source": "sw5e-phb",
 			"page": 143,
 			"entries": [
@@ -2776,7 +2776,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Feature: Galactic {@spell Scourge|sw5e-phb}",
+					"name": "Feature: Galactic Scourge",
 					"entries": [
 						"You've been from one end of the galaxy to the other. You know the most lucrative trade routes. You have expert knowledge of the various hyperlanes. In addition to this, you know a large number of the models and designs of common space ships that are found in the galaxy. Further, the bonds you formed with your crew are strong, and you can call on their aid even if you've been away from their side for some time. You can expect your former comrades to offer you passage aboard ship, reasonable aid, or shelter when you are in need. Keep in mind that this bond goes both ways, and they may come to you expecting the same."
 					],
@@ -4238,7 +4238,7 @@
 			]
 		},
 		{
-			"name": "{@feat Entertainer|sw5e-phb}",
+			"name": "Entertainer",
 			"source": "sw5e-phb",
 			"entries": [
 				"You thrive in front of an audience, knowing how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life."
@@ -4259,7 +4259,7 @@
 			]
 		},
 		{
-			"name": "{@feat Investigator|sw5e-phb}",
+			"name": "Investigator",
 			"source": "sw5e-phb",
 			"entries": [
 				"Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to {@optfeature Investigate|sw5e-phb|investigate} crime scenes and track down criminals."

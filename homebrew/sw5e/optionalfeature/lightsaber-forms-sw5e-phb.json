@@ -17,7 +17,7 @@
 	},
 	"optionalfeature": [
 		{
-			"name": "{@optfeature Aqinos Form|sw5e-phb}",
+			"name": "Aqinos Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -28,7 +28,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Ataru Form|sw5e-phb}",
+			"name": "Ataru Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -39,7 +39,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Bakuuni Hand Form|sw5e-phb}",
+			"name": "Bakuuni Hand Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -51,7 +51,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Djem So Form|sw5e-phb}",
+			"name": "Djem So Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -62,7 +62,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Drallig Form|sw5e-phb}",
+			"name": "Drallig Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -73,7 +73,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Ishu Form|sw5e-phb}",
+			"name": "Ishu Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -84,7 +84,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Jar'Kai Form|sw5e-phb}",
+			"name": "Jar'Kai Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -96,7 +96,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Juyo Form|sw5e-phb}",
+			"name": "Juyo Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -107,7 +107,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Makashi Form|sw5e-phb}",
+			"name": "Makashi Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -118,7 +118,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Niman Form|sw5e-phb}",
+			"name": "Niman Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -130,7 +130,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Shien Form|sw5e-phb}",
+			"name": "Shien Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -141,7 +141,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Shii-Cho Form|sw5e-phb}",
+			"name": "Shii-Cho Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -153,7 +153,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Sokan Form|sw5e-phb}",
+			"name": "Sokan Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -164,7 +164,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Soresu Form|sw5e-phb}",
+			"name": "Soresu Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -175,7 +175,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Trakata Form|sw5e-phb}",
+			"name": "Trakata Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -186,7 +186,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Trispzest Form|sw5e-phb}",
+			"name": "Trispzest Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -197,7 +197,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Twilight Form|sw5e-phb}",
+			"name": "Twilight Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -208,7 +208,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Vaapad Form|sw5e-phb}",
+			"name": "Vaapad Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -219,7 +219,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Vonil Form|sw5e-phb}",
+			"name": "Vonil Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [
@@ -230,7 +230,7 @@
 			]
 		},
 		{
-			"name": "{@optfeature Ysannanite Form|sw5e-phb}",
+			"name": "Ysannanite Form",
 			"source": "sw5e-phb",
 			"page": 185,
 			"featureType": [

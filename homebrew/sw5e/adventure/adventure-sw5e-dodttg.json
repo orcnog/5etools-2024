@@ -59,13 +59,13 @@
 			],
 			"passive": 10,
 			"languages": [
-				"Galactic Basic",
+				"{@language Galactic Basic|sw5e-phb}",
 				"one other"
 			],
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "{@filter blaster|items|firearm=true} Rifle",
+					"name": "blaster Rifle",
 					"entries": [
 						"{@atk rw} {@hit 5} to hit, range 100/400 ft., one target. {@h}3 ({@damage 1d4 + 1}) energy damage."
 					]
@@ -115,18 +115,18 @@
 			"cha": 11,
 			"passive": 13,
 			"languages": [
-				"Galactic Basic"
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "{@item Hold-out|sw5e-phb|Hold-Out}",
+					"name": "Hold-Out",
 					"entries": [
 						"{@atk rw} {@hit 2} to hit, range 30/120 ft., one target. Hit 2 ({@damage 1d4}) energy damage. Reload 6."
 					]
 				},
 				{
-					"name": "{@item Vibrodagger|sw5e-phb}",
+					"name": "Vibrodagger",
 					"entries": [
 						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
 					]
@@ -178,8 +178,8 @@
 			},
 			"passive": 12,
 			"languages": [
-				"Galactic Basic",
-				"Huttese"
+				"{@language Galactic Basic|sw5e-phb}",
+				"{@language Huttese|sw5e-phb|Huttese}"
 			],
 			"cr": "1/2",
 			"trait": [
@@ -192,13 +192,13 @@
 			],
 			"action": [
 				{
-					"name": "{@filter blaster|items|firearm=true} Pistol",
+					"name": "blaster Pistol",
 					"entries": [
 						"{@atk rw} {@hit 5} to hit, range 40/160 ft., one target. Hit 5 ({@dice 1d6 + 3}). Reload 12."
 					]
 				},
 				{
-					"name": "{@item Vibrodagger|sw5e-phb}",
+					"name": "Vibrodagger",
 					"entries": [
 						"{@atk mw} {@hit 2} to hit, reach 5ft., one target. {@h}2 ({@damage 1d4}) kinetic damage."
 					]
@@ -262,7 +262,7 @@
 			"cr": "1/4",
 			"action": [
 				{
-					"name": "{@item Hold-out|sw5e-phb|Hold-Out}",
+					"name": "Hold-Out",
 					"entries": [
 						"{@atk rw} {@hit 1} to hit, range 30/120 ft., one target. Hit 1 ({@damage 1d4 - 1}) energy damage. Reload 6."
 					]
@@ -311,16 +311,16 @@
 				"none"
 			],
 			"languages": [
-				"Galactic Basic",
+				"{@language Galactic Basic|sw5e-phb}",
 				"Chevin",
-				"Huttese",
+				"{@language Huttese|sw5e-phb|Huttese}",
 				"Rodese",
 				"Shyriiwook"
 			],
 			"cr": "1/2",
 			"action": [
 				{
-					"name": "{@filter blaster|items|firearm=true} Pistol",
+					"name": "blaster Pistol",
 					"entries": [
 						"{@atk rw} {@hit 1} to hit, range 40/160 ft., one target. Hit 2 ({@damage 1d6 - 1}) energy damage. Reload 12."
 					]
@@ -374,18 +374,18 @@
 			"cha": 10,
 			"passive": 11,
 			"languages": [
-				"Galactic Basic"
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "{@item Blaster pistol|sw5e-phb}",
+					"name": "Blaster pistol",
 					"entries": [
 						"{@atk rw} {@hit 2} to hit, range 40/160 ft., one target. {@h}3 ({@damage 1d6}) energy damage. Reload 20."
 					]
 				},
 				{
-					"name": "{@item Vibroaxe|sw5e-phb}",
+					"name": "Vibroaxe",
 					"entries": [
 						"{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d12 + 1}) kinetic damage."
 					]
@@ -472,7 +472,7 @@
 			"cha": 13,
 			"passive": 13,
 			"languages": [
-				"Galactic Basic",
+				"{@language Galactic Basic|sw5e-phb}",
 				"High Galactic"
 			],
 			"cr": "1/4",
@@ -486,7 +486,7 @@
 			],
 			"action": [
 				{
-					"name": "{@filter blaster|items|firearm=true} Pistol",
+					"name": "blaster Pistol",
 					"entries": [
 						"{@atk rw} {@hit 2} to hit, range 40/160 ft., one target. Hit 2 ({@damage 1d6 - 1}) energy damage. Reload 12."
 					]
@@ -564,7 +564,7 @@
 				"disease"
 			],
 			"languages": [
-				"Galactic Basic"
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "1",
 			"trait": [
@@ -583,7 +583,7 @@
 					]
 				},
 				{
-					"name": "Medium {@filter blaster|items|firearm=true} Cannon",
+					"name": "Medium blaster Cannon",
 					"entries": [
 						"{@atk rw} {@hit 5} to hit, range 60/240 ft., one target. Hit 7 ({@damage 1d10 + 2}) energy damage."
 					]
@@ -662,7 +662,7 @@
 				"sleight of hand": "+6",
 				"special": [
 					"{@item Mechanic's Kit|sw5e-phb} {@skillCheck Mechanic's_Kit 10} ({@variantrule Expertise|sw5e-phb|expertise}), ",
-					"{@skill Piloting|Piloting} {@skillCheck Piloting 10} ({@variantrule Expertise|sw5e-phb|expertise}), ",
+					"{@skill Piloting|sw5e-phb} {@skillCheck Piloting 10} ({@variantrule Expertise|sw5e-phb|expertise}), ",
 					"{@item Security Kit|sw5e-phb} {@skillCheck Security_Kit 10} ({@variantrule Expertise|sw5e-phb|expertise}), ",
 					"{@item Slicer's Kit|sw5e-phb} {@skillCheck Slicer's_Kit 10} ({@variantrule Expertise|sw5e-phb|expertise}), ",
 					"{@skill Technology|sw5e-phb} {@skillCheck Technology 10} ({@variantrule Expertise|sw5e-phb|expertise})"
@@ -670,9 +670,9 @@
 			},
 			"passive": 14,
 			"languages": [
-				"Galactic Basic",
-				"Huttese",
-				"Binary"
+				"{@language Galactic Basic|sw5e-phb}",
+				"{@language Huttese|sw5e-phb|Huttese}",
+				"{@language Binary|sw5e-phb|Binary}"
 			],
 			"cr": "5",
 			"trait": [
@@ -701,7 +701,7 @@
 					]
 				},
 				{
-					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} (3/Rest)",
+					"name": "Force- and Tech-casting (3/Rest)",
 					"entries": [
 						"Captain O'Keefe is a 6th-level techcaster. Her {@book techcasting ability|sw5e-phb|10|Techcasting Ability} is Intelligence (power save {@dc 15}, {@hit 7} to hit with power attacks).",
 						"At-will: {@spell Encrypted Message|sw5e-phb}, {@spell Mending|sw5e-phb}",
@@ -717,13 +717,13 @@
 			],
 			"action": [
 				{
-					"name": "{@filter blaster|items|firearm=true} Pistol",
+					"name": "blaster Pistol",
 					"entries": [
 						"{@hit 6} to hit, range 40/160 ft., one target. Hit 6 ({@damage 1d6 + 3}) energy damage. Reload 12."
 					]
 				},
 				{
-					"name": "{@item Vibrodagger|sw5e-phb}",
+					"name": "Vibrodagger",
 					"entries": [
 						"{@atk mw} {@hit 6} to hit, reach 5ft., one target. {@h}3 ({@damage 1d4 + 3}) kinetic damage.",
 						"{@item Hidden blade|sw5e-phb}. Melee Weapon Attack: {@hit 6} to hit, reach 5ft., one target. {@h}5 ({@damage 1d4 + 3}) kinetic damage."
@@ -782,7 +782,7 @@
 				"special": [
 					"{@skill Lore|sw5e-phb} {@skillCheck Lore 6}, ",
 					"{@item Mechanic's Kit|sw5e-phb} {@skillCheck Mechanic's_Kit 6}, ",
-					"{@skill Piloting|Piloting} {@skillCheck Piloting 6}, ",
+					"{@skill Piloting|sw5e-phb} {@skillCheck Piloting 6}, ",
 					"{@item Slicer's Kit|sw5e-phb} {@skillCheck Slicer's_Kit 6}, ",
 					"{@skill Technology|sw5e-phb} {@skillCheck Technology 8} ({@variantrule Expertise|sw5e-phb|expertise})"
 				]
@@ -798,9 +798,9 @@
 				"intelligence +5"
 			],
 			"languages": [
-				"Binary",
-				"Galactic Basic (Understand)",
-				"Huttese (Understand)"
+				"{@language Binary|sw5e-phb|Binary}",
+				"{@language Galactic Basic|sw5e-phb} (Understand)",
+				"{@language Huttese|sw5e-phb|Huttese} (Understand)"
 			],
 			"cr": "2",
 			"trait": [
@@ -837,11 +837,11 @@
 				{
 					"name": "Sensor Augmentation",
 					"entries": [
-						"Crash has {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks made to detect the presence of secret doors. He has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} made to avoid or resist traps. He has has {@spell Resistance|sw5e-phb|resistance} to the damage dealt by traps. He can search for traps while traveling at a normal pace, instead of only at a slow pace."
+						"Crash has {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception|sw5e-phb}) and Intelligence ({@skill Investigation|sw5e-phb}) checks made to detect the presence of secret doors. He has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} made to avoid or resist traps. He has has {@spell Resistance|sw5e-phb|resistance} to the damage dealt by traps. He can search for traps while traveling at a normal pace, instead of only at a slow pace."
 					]
 				},
 				{
-					"name": "{@book techcasting|sw5e-phb|10|Force- and Tech-casting} (6/Rest)",
+					"name": "Force- and Tech-casting (6/Rest)",
 					"entries": [
 						"Crash is a 3rd-level techcaster. His {@book techcasting ability|sw5e-phb|10|Techcasting Ability} is Intelligence (power save {@dc 14}, {@hit 6} to hit with power attacks).",
 						"At-will: {@spell Electroshock|sw5e-phb}, {@spell Encrypted Message|sw5e-phb}, Light, {@spell Mending|sw5e-phb}",
@@ -852,13 +852,13 @@
 			],
 			"action": [
 				{
-					"name": "{@item Blaster carbine|sw5e-phb}",
+					"name": "Blaster carbine",
 					"entries": [
 						"{@atk rw} {@hit 4} to hit, range 60/240 ft., one target. Hit 5 ({@damage 1d6 + 2}) energy damage. Reload 16."
 					]
 				},
 				{
-					"name": "{@item Vibrodagger|sw5e-phb}",
+					"name": "Vibrodagger",
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 5ft., one target. {@h}4 ({@damage 1d4 + 2}) kinetic damage."
 					]
@@ -913,13 +913,13 @@
 			"cr": "6",
 			"trait": [
 				{
-					"name": "{@item Shield|sw5e-phb} Points",
+					"name": "Shield Points",
 					"entries": [
 						"19 (Quick-{@optfeature Charge|sw5e-phb})."
 					]
 				},
 				{
-					"name": "{@item Shield|sw5e-phb} Regeneration",
+					"name": "Shield Regeneration",
 					"entries": [
 						"Rate 16."
 					]
@@ -1113,13 +1113,13 @@
 					]
 				},
 				{
-					"name": "{@spell Beast Trick|sw5e-phb} (1/Rest)",
+					"name": "Beast Trick (1/Rest)",
 					"entries": [
 						"This power lets the Chief distract a beast. Choose a beast that he can see within range. If the beast's Intelligence is 4 or higher, the power fails. Otherwise, the beast must succeed on a {@dc 17} Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} or be {@condition charmed|sw5e-phb} by the Chief for 24 hours. If the Chief or one of his companions harms the target, the power ends."
 					]
 				},
 				{
-					"name": "{@spell Plant Surge|sw5e-phb} (1/Rest)",
+					"name": "Plant Surge (1/Rest)",
 					"entries": [
 						"If the Chief casts this power using 1 action, all normal plants in a 100-foot radius centered on a point become overgrown. Moving through the area spends 4 feet of movement for every 1 foot moved. He can exclude areas of any size within the power's area from being affected. If he casts this power over 8 hours, all plants in a halfmile radius centered on a point yield twice the normal amount of food when harvested for 1 year."
 					]
@@ -1311,12 +1311,12 @@
 			"cha": 10,
 			"passive": 13,
 			"languages": [
-				"Galactic Basic"
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "1/8",
 			"action": [
 				{
-					"name": "{@filter blaster|items|firearm=true} Pistol",
+					"name": "blaster Pistol",
 					"entries": [
 						"{@atk rw} {@hit 3} to hit, range 40/160 ft., one target. Hit 4 ({@damage 1d6 + 2}) energy damage. Reload 16."
 					]
@@ -1362,8 +1362,8 @@
 				"lightning"
 			],
 			"languages": [
-				"Galactic Basic",
-				"Binary",
+				"{@language Galactic Basic|sw5e-phb}",
+				"{@language Binary|sw5e-phb|Binary}",
 				"and two others"
 			],
 			"cr": "1/8",
@@ -1495,14 +1495,14 @@
 			"cha": 8,
 			"passive": 12,
 			"languages": [
-				"Galactic Basic"
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "1/4",
 			"action": [
 				{
-					"name": "{@item Light repeater|sw5e-phb|Light Repeater} Burst",
+					"name": "Light Repeater Burst",
 					"entries": [
-						"The Imperial gunner sprays a 10-foot-cube area within 80 ft. with shots. A creature in the area takes the weapon's {@damage 1d8 + 2} energy damage, or half damage on a successful {@dc 13} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. The gunner can {@optfeature Perform|sw5e-phb|perform} this action 3 times before reloading."
+						"The Imperial gunner sprays a 10-foot-cube area within 80 ft. with shots. A creature in the area takes the weapon's {@damage 1d8 + 2} energy damage, or half damage on a successful {@dc 13} Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. The gunner can perform this action 3 times before reloading."
 					]
 				},
 				{
@@ -1555,7 +1555,7 @@
 			"cha": 13,
 			"passive": 13,
 			"languages": [
-				"Galactic Basic",
+				"{@language Galactic Basic|sw5e-phb}",
 				"High Galactic"
 			],
 			"cr": "1/4",
@@ -1569,13 +1569,13 @@
 			],
 			"action": [
 				{
-					"name": "{@filter blaster|items|firearm=true} Pistol",
+					"name": "blaster Pistol",
 					"entries": [
 						"{@atk rw} {@hit 2} to hit, range 40/160 ft., one target. Hit 2 ({@damage 1d6 - 1}) energy damage. Reload 12."
 					]
 				},
 				{
-					"name": "{@item Vibrodagger|sw5e-phb}",
+					"name": "Vibrodagger",
 					"entries": [
 						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. {@h}2 ({@damage 1d4}) kinetic damage."
 					]
@@ -1630,18 +1630,18 @@
 			"cha": 10,
 			"passive": 12,
 			"languages": [
-				"Galactic Basic"
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "1/4",
 			"action": [
 				{
-					"name": "{@filter blaster|items|firearm=true} Pistol",
+					"name": "blaster Pistol",
 					"entries": [
 						"{@atk rw} {@hit 3} to hit, range 40/160 ft., one target. Hit 4 ({@damage 1d6 + 1}) energy damage. Reload 12."
 					]
 				},
 				{
-					"name": "{@item Vibrodagger|sw5e-phb}",
+					"name": "Vibrodagger",
 					"entries": [
 						"{@atk mw} {@hit 3} to hit, reach 5ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
 					]
@@ -1688,12 +1688,12 @@
 			"cha": 10,
 			"passive": 12,
 			"languages": [
-				"Galactic Basic"
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "1/4",
 			"action": [
 				{
-					"name": "{@filter blaster|items|firearm=true} Pistol",
+					"name": "blaster Pistol",
 					"entries": [
 						"{@atk rw} {@hit 3} to hit, range 40/160 ft., one target. Hit 4 ({@damage 1d6 + 1}) energy damage. Reload 12."
 					]
@@ -1741,7 +1741,7 @@
 			"cha": 10,
 			"passive": 11,
 			"languages": [
-				"Galactic Basic"
+				"{@language Galactic Basic|sw5e-phb}"
 			],
 			"cr": "1/8",
 			"action": [
@@ -1803,8 +1803,8 @@
 				"disease"
 			],
 			"languages": [
-				"Galactic Basic",
-				"Binary"
+				"{@language Galactic Basic|sw5e-phb}",
+				"{@language Binary|sw5e-phb|Binary}"
 			],
 			"cr": "1/4",
 			"action": [
@@ -1829,7 +1829,7 @@
 			]
 		},
 		{
-			"name": "Admiral Varth (as of Felucian {@spell Rescue|sw5e-phb})",
+			"name": "Admiral Varth (as of Felucian Rescue)",
 			"isNpc": true,
 			"isNamedCreature": true,
 			"source": "sw5e-dodttg",
@@ -1876,7 +1876,7 @@
 			},
 			"passive": 26,
 			"languages": [
-				"Galactic Basic",
+				"{@language Galactic Basic|sw5e-phb}",
 				"High Galactic"
 			],
 			"cr": "9",
@@ -1888,7 +1888,7 @@
 					]
 				},
 				{
-					"name": "{@feat Inspiring Leader|sw5e-phb}",
+					"name": "Inspiring Leader",
 					"entries": [
 						"Admiral Varth can spend 10 minutes inspiring his companions, shoring up their resolve to fight. When he does so, choose up to six friendly creatures (which can include him) within 30 feet of him who can see or hear him and who can understand him. Each creature can gain temporary {@variantrule Hit Points|sw5e-phb|hit points} equal to 15. A creature can't gain temporary {@variantrule Hit Points|sw5e-phb|hit points} from this feat again until it has finished a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
@@ -1976,7 +1976,7 @@
 			"cha": 13,
 			"passive": 13,
 			"languages": [
-				"Galactic Basic",
+				"{@language Galactic Basic|sw5e-phb}",
 				"Bocce",
 				"Durese",
 				"High Galactic"
@@ -1992,13 +1992,13 @@
 			],
 			"action": [
 				{
-					"name": "{@filter blaster|items|firearm=true} Pistol",
+					"name": "blaster Pistol",
 					"entries": [
 						"{@atk rw} {@hit 4} to hit, range 40/160 ft., one target. Hit 4 ({@damage 1d6 + 1}) energy damage. Reload 12."
 					]
 				},
 				{
-					"name": "{@item Vibrodagger|sw5e-phb}",
+					"name": "Vibrodagger",
 					"entries": [
 						"{@atk mw} {@hit 4} to hit, reach 5ft., one target. {@h}3 ({@damage 1d4 + 1}) kinetic damage."
 					]
@@ -2302,7 +2302,7 @@
 										"The Promenade is filled with the bustle of revelry and commerce. Spilling out of the gambling halls are the sounds of victory and the moans of defeat, while the music of local bands issues from the cantinas. Only a handful of citizens mill about in the main areas of the Promenade, a few gazing out the massive windows at the planet Brentaal hovering below. Businesspeople hawk their wares to the passersby, and a few Imperial stormtroopers make their way down the main avenue of the Promenade on their usual patrol at a leisurely pace."
 									]
 								},
-								"After the heroes have had a moment to soak in the sights and sounds of the Promenade, give them each a chance to make a DC 10 {@skill Perception} check. Those who succeed on the roll notice two men loitering on the Promenade who do not appear to be part of the larger crowd. Each seems to be scanning the crowd closely as though looking for someone, though they pay no attention to the heroes. Those who succeed on the {@skill Perception} check with a roll of 15 or higher also notice that, despite wearing normal traveling clothes, each man is carrying a {@item Hold-out|sw5e-phb} {@filter blaster|items|firearm=true} tucked into his jacket, and both men are wearing identical garments. Those who succeed on the check with a 20 or higher also notice that both men seem to be whispering to themselves, obviously speaking into hidden {@item commlink|sw5e-phb|commlinks}.",
+								"After the heroes have had a moment to soak in the sights and sounds of the Promenade, give them each a chance to make a DC 10 {@skill Perception|sw5e-phb} check. Those who succeed on the roll notice two men loitering on the Promenade who do not appear to be part of the larger crowd. Each seems to be scanning the crowd closely as though looking for someone, though they pay no attention to the heroes. Those who succeed on the {@skill Perception|sw5e-phb} check with a roll of 15 or higher also notice that, despite wearing normal traveling clothes, each man is carrying a {@item Hold-out|sw5e-phb} {@filter blaster|items|firearm=true} tucked into his jacket, and both men are wearing identical garments. Those who succeed on the check with a 20 or higher also notice that both men seem to be whispering to themselves, obviously speaking into hidden {@item commlink|sw5e-phb|commlinks}.",
 								"Within moments, a slender woman wearing the greasy clothes of a mechanic stumbles down the Promenade. Though she is trying to hide it, she has clearly been wounded somehow, and she looks disheveled. Once the heroes have had a chance to see the woman, the two men make their way toward her, and she turns and runs toward the nearest hero (or toward the heroes who are closest to one another). She pleads for assistance, offering {@item credit|sw5e-phb|credits} to anyone who will help her. The two men give chase, and the first encounter begins.",
 								"The woman is {@creature Maya|sw5e-dodttg}, an Alderaanian Security agent, and the men are undercover {@creature Imperial Informant|sw5e-dodttg|informants} for the Empire."
 							]
@@ -2342,7 +2342,7 @@
 									"name": "Read-Aloud Text",
 									"id": "Read-Aloud Text",
 									"entries": [
-										"After the heroes make their {@skill Perception} checks to notice the two {@creature Imperial Informant|sw5e-dodttg|Imperial informants} (whether they succeed or fail), introduce {@creature Maya|sw5e-dodttg}, the stumbling Alderaanian Security agent who approaches the heroes and pleads for assistance:",
+										"After the heroes make their {@skill Perception|sw5e-phb} checks to notice the two {@creature Imperial Informant|sw5e-dodttg|Imperial informants} (whether they succeed or fail), introduce {@creature Maya|sw5e-dodttg}, the stumbling Alderaanian Security agent who approaches the heroes and pleads for assistance:",
 										{
 											"type": "insetReadaloud",
 											"name": "",
@@ -2358,7 +2358,7 @@
 									"type": "entries",
 									"name": "Stormtrooper Recruits (2)",
 									"entries": [
-										"The Empire doesn't send its best and brightest to Sel Zonn Station; instead, the post is usually a testing ground for new {@creature Trooper, Recruit|sw5e-dodttg|stormtrooper recruits}. Though adorned with the accoutrements of {@creature Trooper|orcnogSW5e|normal stormtroopers}, these recruits don't have the experience that other stormtroopers do, and are {@condition Prone|sw5e-phb|prone} to missing their targets under fire.",
+										"The Empire doesn't send its best and brightest to Sel Zonn Station; instead, the post is usually a testing ground for new {@creature Trooper, Recruit|sw5e-dodttg|stormtrooper recruits}. Though adorned with the accoutrements of {@creature Trooper|sw5e-snv|normal stormtroopers}, these recruits don't have the experience that other stormtroopers do, and are {@condition Prone|sw5e-phb|prone} to missing their targets under fire.",
 										{
 											"type": "entries",
 											"name": "Stormtrooper Recruit Tactics",
@@ -2428,7 +2428,7 @@
 									"type": "entries",
 									"name": "Development",
 									"entries": [
-										"Once the heroes subdue the Imperial informers and defeat the security officers, they must quickly get to safety before reinforcements arrive. If the heroes did not manage to save {@creature Maya|sw5e-dodttg}, a {@item datapad|sw5e-phb} she carries contains notes on \"V14\" and \"Switch\" as clues to the location of some valuable cargo. The heroes should be able to make {@skill Investigation} checks to learn what those words mean. A successful DC 10 check reveals that V14 is a deep storage bay on the station. A successful DC 15} check reveals that information, plus the fact that {@creature Switch|sw5e-dodttg} is a well-known droid information broker that operates from a secret location within the station. The heroes should be able to figure out that something important (and possibly profitable) is going on, and they should be on the right track to discover V14's secrets.",
+										"Once the heroes subdue the Imperial informers and defeat the security officers, they must quickly get to safety before reinforcements arrive. If the heroes did not manage to save {@creature Maya|sw5e-dodttg}, a {@item datapad|sw5e-phb} she carries contains notes on \"V14\" and \"Switch\" as clues to the location of some valuable cargo. The heroes should be able to make {@skill Investigation|sw5e-phb} checks to learn what those words mean. A successful DC 10 check reveals that V14 is a deep storage bay on the station. A successful DC 15} check reveals that information, plus the fact that {@creature Switch|sw5e-dodttg} is a well-known droid information broker that operates from a secret location within the station. The heroes should be able to figure out that something important (and possibly profitable) is going on, and they should be on the right track to discover V14's secrets.",
 										"If the heroes keep {@creature Maya|sw5e-dodttg} from being killed in the fracas, she directs them to safe quarters where they can talk. She is still grievously wounded and has four levels of {@condition Exhaustion|sw5e-phb|exhaustion} that can be removed only with surgery or a dip in a bacta tank. However, despite her injuries, she tells the heroes enough to set them on the right path. They need to get to deep storage bay V14, where a droid named {@creature Switch|sw5e-dodttg} can provide them with the location of some very valuable cargo. According to {@creature Maya|sw5e-dodttg}, Switch was responsible for receiving and storing this cargo, which was shipped all the way from the Deep Core. {@creature Maya|sw5e-dodttg} was supposed to contact {@creature Switch|sw5e-dodttg}, recover the cargo, and deliver it to Senator Bail Organa of Alderaan. She reveals that she is a member of Alderaanian Security and part of Organa's personal security detail, and that she was waylaid by the Empire mere hours after arriving on the station. Apparently, the fact that she works for a vocal opponent of the Emperor has flagged her as a troublemaker, and the Empire wants her off the station one way or the other.",
 										"If the heroes agree to help her further, {@creature Maya|sw5e-dodttg} assures them that Bail Organa will be happy to reward them for their efforts, and she emphasizes that the work they are helping her with could save the lives of many innocent beings. She doesn't go into more detail than that, but she assures the heroes that her mission advances the cause of good. If the heroes can procure the cargo from {@creature Switch|sw5e-dodttg}, she will provide them with transport from Sel Zonn Station to Alderaan. Unfortunately, due to the recent confrontation, the heroes will need to keep a low profile, and {@creature Maya|sw5e-dodttg} herself must remain safe in her quarters until fully healed.",
 										"If the heroes take her up on her offer, {@creature Maya|sw5e-dodttg} entrusts them with directions to bay V14 and tells them to contact her when they procure the cargo."
@@ -2442,11 +2442,11 @@
 							"id": "Deep Storage Bay V14",
 							"entries": [
 								"If the heroes want to learn more about the deep storage bay V14, they can do so in a variety of ways. Any informational computer terminal on the station can confirm that bay V14 is on a level that is off limits to non-Imperial personnel. If the heroes attempt to access further information on V14 it can be obtained with the technology skill at a DC of 15. A successful check reveals that bay V14 is in a section of the station that has been quarantined for over a year and a half, yet no maintenance requests have been made for repairs to that section. Additionally, the terminal reveals that deep storage bay V14 is located along one of the station's primary exhaust systems, meaning that exhaust conduits should be running right through the storage bay.",
-								"An {@skill Investigation} check regarding storage bay V14 has a DC of 10 and counts as learning local news or rumors. Success reveals that despite the fact that V14 is in a quarantined zone, a large number of aliens are often seen going into that zone. Rumor has it that the aliens operate some kind of criminal organization out of that section of the station, and that a contingent of {@creature Gamorrean Thug|sw5e-dodttg|Gamorreans} is always on guard near the deep storage bay.",
+								"An {@skill Investigation|sw5e-phb} check regarding storage bay V14 has a DC of 10 and counts as learning local news or rumors. Success reveals that despite the fact that V14 is in a quarantined zone, a large number of aliens are often seen going into that zone. Rumor has it that the aliens operate some kind of criminal organization out of that section of the station, and that a contingent of {@creature Gamorrean Thug|sw5e-dodttg|Gamorreans} is always on guard near the deep storage bay.",
 								"An attempt to learn secret information about bay V14 has a DC of 20 and reveals that since the quarantine was put into place, the station manager has been taking bribes to keep it that way. The bribes are delivered to the manager on a monthly basis by an unsavory-looking Twi'lek, and though the Empire doesn't like it, the local security forces ensure that Imperials never get too close to the quarantined areas.",
 								"When the heroes finally arrive in the vicinity of deep storage bay V14, they find that they have entered a very neglected part of the station. Many of the lights have burned out, and {@filter blaster|items|firearm=true} marks and carbon scoring mar the walls, ceiling, and floor. The area reeks of ozone and electrical fires, and pools of coolant litter the hallways at regular intervals. After winding their way through a near-labyrinth of decrepit corridors, the heroes come upon bay V14, which is guarded by a pair of {@creature Gamorrean Thug|sw5e-dodttg|Gamorreans} wielding vibro-axes.",
 								"If the heroes approach openly, the {@creature Gamorrean Thug|sw5e-dodttg|Gamorreans} take no hostile actions and seem concerned only with blocking the doors. If the heroes approach stealthily, the {@creature Gamorrean Thug|sw5e-dodttg|Gamorreans} are not likely to notice and seem more interested in conversing in their grunting language than in watching for outsiders.",
-								"If the heroes attempt to {@optfeature Persuade|sw5e-phb|persuade} the guards to let them in to see {@creature Switch|sw5e-dodttg}, they might find it easier than they suspect. Provided that the heroes do not attack them on sight, if the heroes make a successful DC 11 {@skill Persuasion} check, the guards let them inside. A bribe of at least 50 {@item credit|sw5e-phb|credits} grants the heroes a +5 circumstance bonus on any {@skill Persuasion} checks against the guards.",
+								"If the heroes attempt to {@optfeature Persuade|sw5e-phb|persuade} the guards to let them in to see {@creature Switch|sw5e-dodttg}, they might find it easier than they suspect. Provided that the heroes do not attack them on sight, if the heroes make a successful DC 11 {@skill Persuasion|sw5e-phb} check, the guards let them inside. A bribe of at least 50 {@item credit|sw5e-phb|credits} grants the heroes a +5 circumstance bonus on any {@skill Persuasion|sw5e-phb} checks against the guards.",
 								"Once the heroes enter bay V14, read the following text aloud:",
 								{
 									"type": "insetReadaloud",
@@ -2455,7 +2455,7 @@
 									]
 								},
 								"Near the center of the room is an item that seems very out of place—a large, finely crafted desk made of Japor ivory wood, which means that the desk is both priceless and rare. Sitting peacefully behind the desk is a protocol droid with shiny, ebony coverings that seem to soak up light and offer only the slightest reflection. The droid's eyes flicker slightly, as though imitating a person blinking rapidly.",
-								"At first glance, {@creature Switch|sw5e-dodttg}, the protocol droid information broker, appears to be the only occupant of the storage bay, but several of his thugs and associates are also spread throughout the room. Three {@creature Switch's Thug|sw5e-dodttg|bodyguards} hide behind crates scattered around the room, and the heroes can make {@skill Perception} checks (opposed by the {@creature Switch's Thug|sw5e-dodttg|thugs}' {@skill Stealth} checks) to notice them. Additionally, {@creature Switch|sw5e-dodttg}'s most valued companion - a blue-and-red astromech droid with the designation R5-B8 - beeps and burbles quietly besides the protocol droid, seemingly lost in its own world. Lastly, {@creature Switch|sw5e-dodttg}'s majordomo, a {@creature Twi'lek Thug|sw5e-dodttg|Twi'lek thug}, stands quietly off to one side, not actively hiding but also not clearly visible until the heroes approach the desk.",
+								"At first glance, {@creature Switch|sw5e-dodttg}, the protocol droid information broker, appears to be the only occupant of the storage bay, but several of his thugs and associates are also spread throughout the room. Three {@creature Switch's Thug|sw5e-dodttg|bodyguards} hide behind crates scattered around the room, and the heroes can make {@skill Perception|sw5e-phb} checks (opposed by the {@creature Switch's Thug|sw5e-dodttg|thugs}' {@skill Stealth|sw5e-phb} checks) to notice them. Additionally, {@creature Switch|sw5e-dodttg}'s most valued companion - a blue-and-red astromech droid with the designation R5-B8 - beeps and burbles quietly besides the protocol droid, seemingly lost in its own world. Lastly, {@creature Switch|sw5e-dodttg}'s majordomo, a {@creature Twi'lek Thug|sw5e-dodttg|Twi'lek thug}, stands quietly off to one side, not actively hiding but also not clearly visible until the heroes approach the desk.",
 								{
 									"type": "entries",
 									"name": "Meeting with Switch",
@@ -2468,7 +2468,7 @@
 											"type": "entries",
 											"name": "Critical Challenge",
 											"entries": [
-												"The heroes need to get their hands on whatever cargo {@creature Switch|sw5e-dodttg} is holding for the Alderaanian Security officer, {@creature Maya|sw5e-dodttg}. If they can make a DC 17 {@skill Persuasion} check, {@creature Switch|sw5e-dodttg} acknowledges that he is holding cargo for {@creature Maya|sw5e-dodttg} but does not tell them where. If they manage to get {@creature Switch|sw5e-dodttg} talking, however, their options expand greatly.",
+												"The heroes need to get their hands on whatever cargo {@creature Switch|sw5e-dodttg} is holding for the Alderaanian Security officer, {@creature Maya|sw5e-dodttg}. If they can make a DC 17 {@skill Persuasion|sw5e-phb} check, {@creature Switch|sw5e-dodttg} acknowledges that he is holding cargo for {@creature Maya|sw5e-dodttg} but does not tell them where. If they manage to get {@creature Switch|sw5e-dodttg} talking, however, their options expand greatly.",
 												"Once {@creature Switch|sw5e-dodttg} has been persuaded to admit possession of {@creature Maya|sw5e-dodttg}'s cargo, he is willing to accept payment to {@spell Release|sw5e-phb|release} it to the heroes. For the \"eminently reasonable\" sum of 1,000 {@item credit|sw5e-phb|credits}, they can take the cargo wherever they wish. If the heroes don't have that much money, or if they don't want to spend that much, {@creature Switch|sw5e-dodttg} is willing to accept less, provided that one or more of the heroes agrees to supply him with information on a regular basis from wherever their travels may take them. Each hero who agrees to this deal reduces the required payment by 200 {@item credit|sw5e-phb|credits}. Of course, the heroes can agree with no intentions of {@spell Sending|sw5e-phb|sending} information to {@creature Switch|sw5e-dodttg} in the future, but doing so might have dire repercussions. (Any such consequences are beyond the scope of this adventure, but feel free to include your own adventures and enemies later in the campaign.) On the other hand, the heroes might like the idea of working for a droid crime lord, even indirectly, which can open up plot hooks of its own.",
 												"Once {@creature Switch|sw5e-dodttg} is satisfied, he reveals that the cargo is in the main docking bay on Blue Deck, a section of the station heavily traveled by Imperial loyalists and one of the few places where Imperial ships dock. If the heroes fail to convince {@creature Switch|sw5e-dodttg} to give them the cargo, they might have another chance to succeed; see the development section of \"{@area Arrival of Ganga Lor|Arrival of Ganga Lor|x}\" (below)."
 											]
@@ -2659,15 +2659,15 @@
 									]
 								},
 								"Moving about the halls of Blue Deck are large numbers of Humans, most of them wealthy by all appearances. They pay little attention to the few aliens found in the area, except, perhaps, to sneer as they pass.",
-								"When the heroes reach Blue Deck, they might head directly to the main docking bay, which is fine but leaves them ignorant of developments in the hangar bay. If the heroes take the time to make a DC 10 {@skill investigation} check to retrieve local news and rumors, they discover that the Empire has just sent an entire squad of security officers to the main docking bay to check out some suspicious cargo. If the heroes do not try to make an {@skill investigation} check, they can learn the same information by making a successful DC 20 {@skill Perception} check to overhear two nobles talking about the situation.",
+								"When the heroes reach Blue Deck, they might head directly to the main docking bay, which is fine but leaves them ignorant of developments in the hangar bay. If the heroes take the time to make a DC 10 {@skill investigation|sw5e-phb} check to retrieve local news and rumors, they discover that the Empire has just sent an entire squad of security officers to the main docking bay to check out some suspicious cargo. If the heroes do not try to make an {@skill investigation|sw5e-phb} check, they can learn the same information by making a successful DC 20 {@skill Perception|sw5e-phb} check to overhear two nobles talking about the situation.",
 								{
 									"type": "entries",
 									"name": "Skig Banos, Imperial Informant",
 									"id": "Skig Banos, Imperial Informant",
 									"entries": [
-										"As the heroes make their way across Blue Deck, they see a face that might be familiar. Any heroes who managed to notice the two {@creature Imperial Informant|sw5e-dodttg|Imperial informants} on the Promenade before {@creature Maya|sw5e-dodttg} approached them now also notice a similarly dressed man on Blue Deck. In fact, any hero who succeeds on a DC 15 {@skill Perception} check realizes that this man was on the Promenade earlier but fled at the first sign of {@filter blaster|items|firearm=true} fire. The man is Skig Banos, an {@creature Imperial Informant|sw5e-dodttg|Imperial informant} and world-class coward. With a mop of greasy black hair and a physique that is little more than skin hanging off bones, Skig looks a bit on the pathetic side. His beady eyes and oversized nose give him a more sinister edge, causing him to resemble a wild womp rat eager to escape captivity.",
-										"If the heroes confront Skig, he immediately tries to escape. If the heroes manage to stop him without making too much of a ruckus, they should be able to interrogate him and get a bit more information about what is going on. Skig is too afraid of being harmed by the heroes to raise an alarm, and though he acts unfriendly at first, a successful DC 17 {@skill Persuasion} check can make him more amenable. Similarly, a successful DC 12 {@skill Intimidation} check can make him more helpful.",
-										"If either of these checks succeed, Skig is willing to tell the heroes almost anything so that they will let him go. This includes lying to them - he makes {@skill Deception} checks every round at +2 until caught in a lie - and Skig's lies include that the Empire has discovered them, that the Empire has killed {@creature Maya|sw5e-dodttg}, and that he's just a merchant out for a walk on Blue Deck. An indifferent Skig simply wants to get away, and he does everything he can to escape without getting killed or raising an alarm. Truthfully, Skig is equally scared of the Empire and fears that they will betray him at any time.",
+										"As the heroes make their way across Blue Deck, they see a face that might be familiar. Any heroes who managed to notice the two {@creature Imperial Informant|sw5e-dodttg|Imperial informants} on the Promenade before {@creature Maya|sw5e-dodttg} approached them now also notice a similarly dressed man on Blue Deck. In fact, any hero who succeeds on a DC 15 {@skill Perception|sw5e-phb} check realizes that this man was on the Promenade earlier but fled at the first sign of {@filter blaster|items|firearm=true} fire. The man is Skig Banos, an {@creature Imperial Informant|sw5e-dodttg|Imperial informant} and world-class coward. With a mop of greasy black hair and a physique that is little more than skin hanging off bones, Skig looks a bit on the pathetic side. His beady eyes and oversized nose give him a more sinister edge, causing him to resemble a wild womp rat eager to escape captivity.",
+										"If the heroes confront Skig, he immediately tries to escape. If the heroes manage to stop him without making too much of a ruckus, they should be able to interrogate him and get a bit more information about what is going on. Skig is too afraid of being harmed by the heroes to raise an alarm, and though he acts unfriendly at first, a successful DC 17 {@skill Persuasion|sw5e-phb} check can make him more amenable. Similarly, a successful DC 12 {@skill Intimidation|sw5e-phb} check can make him more helpful.",
+										"If either of these checks succeed, Skig is willing to tell the heroes almost anything so that they will let him go. This includes lying to them - he makes {@skill Deception|sw5e-phb} checks every round at +2 until caught in a lie - and Skig's lies include that the Empire has discovered them, that the Empire has killed {@creature Maya|sw5e-dodttg}, and that he's just a merchant out for a walk on Blue Deck. An indifferent Skig simply wants to get away, and he does everything he can to escape without getting killed or raising an alarm. Truthfully, Skig is equally scared of the Empire and fears that they will betray him at any time.",
 										"If Skig can be made friendly, he actually volunteers useful information. He knows that the Imperials were recently tipped off about contraband in the main docking bay (by one of {@creature Ganga Lor|sw5e-dodttg}'s toadies looking to make a few quick {@item credit|sw5e-phb|credits}, though Skig doesn't know that) and have gone to {@optfeature Investigate|sw5e-phb|investigate}. He saw at least three security officers and their sergeant head toward the docking bay, though he thinks there may be more in the bay. Additionally, Skig saw them moving a repulsor sled into the main docking bay, meaning that they have some heavier weapons at their disposal. With this information in hand, the heroes should be a bit better prepared for the fight ahead of them."
 									]
 								},
@@ -2834,7 +2834,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Sirona O'Keefe and the {@i Banshee}",
+							"name": "Sirona O'Keefe and the Banshee",
 							"id": "Sirona O'Keefe and the Banshee",
 							"entries": [
 								"If the heroes agree to discover the fate of Admiral Varth, Senator Organa tells them that he has arranged transport aboard a vessel owned and operated by one of his longtime friends. {@creature Sirona O'keefe|sw5e-dodttg} is a free trader and transport pilot who frequently works for Organa and his agents—most recently, {@creature Maya|sw5e-dodttg}. On retainer from the Senator, {@creature Sirona O'keefe|sw5e-dodttg|Captain O'Keefe} is a beautiful middle-aged woman who knows her way around the galaxy. For the first arc of the {@b Dawn of Defiance} campaign, her modified Baudo-class Star Yacht, the {@i {@creature The Banshee|sw5e-dodttg|Banshee}}, will serve as the heroes' primary mode of transportation. {@creature Sirona O'keefe|sw5e-dodttg|Captain O'Keefe} is fiercely loyal to Senator Organa and trusts the heroes only because he does.",
@@ -2894,14 +2894,14 @@
 										"Your first steps onto the soil of Felucia make it clear that this planet is truly alive. Massive mushrooms tower overhead, their overhanging edges creating a canopy that blocks out much of the planet's sunlight. Every step on Felucian soil turns up insects and other fungi just beneath the surface. The noise of the jungle is loud and alien, full of the sounds of a hundred insects and animals moving through the mushroom swamps, all part of a living and vibrant ecosystem."
 									]
 								},
-								"Traveling through the jungle toward the Imperial prison requires frequent {@skill Survival} checks to stay on course and avoid hazards. The journey requires at least 12 hours' worth of successful progress from the {@i {@creature The Banshee|sw5e-dodttg|Banshee}} to the facility. The heroes must make a DC 15 {@skill Survival} check each hour of travel. Success indicates that they make progress toward their destination, whereas failure results in no progress. If the hero making the {@skill Survival} check fails the check by 5 or more, the group might encounter a hazard. Sample hazards are described below, but you should feel free to include any other jungle hazards appropriate to the planet.",
+								"Traveling through the jungle toward the Imperial prison requires frequent {@skill Survival|sw5e-phb} checks to stay on course and avoid hazards. The journey requires at least 12 hours' worth of successful progress from the {@i {@creature The Banshee|sw5e-dodttg|Banshee}} to the facility. The heroes must make a DC 15 {@skill Survival|sw5e-phb} check each hour of travel. Success indicates that they make progress toward their destination, whereas failure results in no progress. If the hero making the {@skill Survival|sw5e-phb} check fails the check by 5 or more, the group might encounter a hazard. Sample hazards are described below, but you should feel free to include any other jungle hazards appropriate to the planet.",
 								{
 									"type": "list",
 									"items": [
-										"{@b Acid Pool (CR 1):} Acid pools are dangerous hazards on Felucia because they resemble pools of standing water. Each acid pool can be detected with a successful DC 10 {@skill Perception} check. Any hero who fails this {@skill Perception} check steps in a pool of acid, taking 1d6 points of acid damage. Each round thereafter, the acid makes an {@variantrule Attack Roll|sw5e-phb|attack roll} against the hero's Fortitude Defense at a +2 attack bonus, dealing an additional 1d6 points of damage when successful. The acid stops attacking the target whenever it fails an {@variantrule Attack Roll|sw5e-phb|attack roll} against the target, or if the hero washes the acid off with water.",
+										"{@b Acid Pool (CR 1):} Acid pools are dangerous hazards on Felucia because they resemble pools of standing water. Each acid pool can be detected with a successful DC 10 {@skill Perception|sw5e-phb} check. Any hero who fails this {@skill Perception|sw5e-phb} check steps in a pool of acid, taking 1d6 points of acid damage. Each round thereafter, the acid makes an {@variantrule Attack Roll|sw5e-phb|attack roll} against the hero's Fortitude Defense at a +2 attack bonus, dealing an additional 1d6 points of damage when successful. The acid stops attacking the target whenever it fails an {@variantrule Attack Roll|sw5e-phb|attack roll} against the target, or if the hero washes the acid off with water.",
 										"{@b Exploding Fungus Bloom (CR 2):} These blooms are filled with chemicals that become highly explosive and flammable when combined. When the heroes encounter this hazard, one hero at random bumps into an exploding fungus bloom. The bloom explodes, making a ranged attack with a +3 attack bonus and dealing 2d6 points of energy damage as a flash incinerates the fungus.",
 										"{@b Razor Mushroom (CR 2):} These fungi are extremely dangerous and, like the exploding fungus blooms, activate only when someone gets too close. If the heroes encounter this hazard, one hero at random passes too close to a razor mushroom. The mushroom bursts outward with spines and razor-sharp tendrils, making a melee attack against that hero with a +3 attack bonus and dealing 1d6+2 points of damage on a successful attack.",
-										"{@b Sinkhole (CR 1):} Throughout the jungle are a number of sinkholes, created when the roots of a massive fungus rot away but leave detritus in the ground. Spotting a sinkhole requires a DC 10 {@skill Perception} check, and success means the sinkhole is avoided. Any hero who fails this check falls into the sinkhole, which is 3 squares deep and leads to a pit with a thin layer of sludge at the bottom. Any hero who falls in takes normal falling damage."
+										"{@b Sinkhole (CR 1):} Throughout the jungle are a number of sinkholes, created when the roots of a massive fungus rot away but leave detritus in the ground. Spotting a sinkhole requires a DC 10 {@skill Perception|sw5e-phb} check, and success means the sinkhole is avoided. Any hero who fails this check falls into the sinkhole, which is 3 squares deep and leads to a pit with a thin layer of sludge at the bottom. Any hero who falls in takes normal falling damage."
 									]
 								}
 							]
@@ -2939,7 +2939,7 @@
 									"name": "Setup",
 									"id": "Setup 3",
 									"entries": [
-										"The encounter begins in a swampy area with small islands of solid ground interspersed throughout a shallow pool of water. Each of the four Felucian scouts is lying prone on a different island, making {@skill Stealth} checks to remain hidden from the heroes."
+										"The encounter begins in a swampy area with small islands of solid ground interspersed throughout a shallow pool of water. Each of the four Felucian scouts is lying prone on a different island, making {@skill Stealth|sw5e-phb} checks to remain hidden from the heroes."
 									]
 								},
 								{
@@ -3004,7 +3004,7 @@
 						},
 						{
 							"type": "entries",
-							"name": "Felucian {@spell Sanctuary|sw5e-phb}",
+							"name": "Felucian Sanctuary",
 							"id": "Felucian {@spell Sanctuary|sw5e-phb}",
 							"entries": [
 								"A hidden village deep within the Felucian jungle, this {@spell Sanctuary|sw5e-phb|sanctuary} is home to more than a dozen Felucian families. Additionally, a former Separatist soldier, now a hermit on the fungal world, resides in the village, hiding from the Empire. The {@spell Sanctuary|sw5e-phb|sanctuary} has remained a secret in the months since the Empire took over, and it is a place where the Separatist and the Felucians can live without fear of Imperial discovery.",
@@ -3048,7 +3048,7 @@
 									"id": "The Translator",
 									"entries": [
 										"Living among the native Felucians is a former Separatist commander named Vazus Mandrake. A middle-aged Human male from Corulag with a scarred face and stringy gray hair, Mandrake was stranded on Felucia during the Clone Wars after his mercenary unit was destroyed by clone troopers. Crawling off into the jungle while grievously wounded, Mandrake managed to escape execution by the clone troopers and nursed himself back to health. When the war ended and the Empire rose, Mandrake decided to make his home among the Felucians, where he has been living ever since. He also tends a small group of kybucks that he imported to the world when his unit was stationed here. Although his unit fell, the kybucks survived, and Mandrake has named them all after his former comrades.",
-										"If the heroes do not have a translator droid, Vazus Mandrake approaches them and offers to serve as their go-between with the villagers. Mandrake is an expert in the Felucians' guttural tongue, and he can converse with them fluently. He is immediately curious about the heroes and their intentions, and if they make it clear that they are not allies of the Empire, he treats them like old friends. Though bitter about his defeat at the hands of the Empire, Mandrake is genial and happily translates for the heroes. He is initially indifferent towards them, but becomes friendly if they mention that they are opposed to the Empire. If the heroes succeed on a DC 10 {@skill Persuasion} check, he will not only translate for them but also attempt to aid another on any {@skill Persuasion} checks the heroes make on the Felucians.",
+										"If the heroes do not have a translator droid, Vazus Mandrake approaches them and offers to serve as their go-between with the villagers. Mandrake is an expert in the Felucians' guttural tongue, and he can converse with them fluently. He is immediately curious about the heroes and their intentions, and if they make it clear that they are not allies of the Empire, he treats them like old friends. Though bitter about his defeat at the hands of the Empire, Mandrake is genial and happily translates for the heroes. He is initially indifferent towards them, but becomes friendly if they mention that they are opposed to the Empire. If the heroes succeed on a DC 10 {@skill Persuasion|sw5e-phb} check, he will not only translate for them but also attempt to aid another on any {@skill Persuasion|sw5e-phb} checks the heroes make on the Felucians.",
 										"Mandrake is an important ally for the heroes. In addition to his ability to translate for them, he has some knowledge of the Imperial prison facility. If the heroes mention the facility in Mandrake's presence, his face darkens and he becomes very serious. Mandrake has wanted to destroy the prison for some time now, though his new life among the Felucians has cooled his passions somewhat and he is no longer so gung-ho about doing the job himself. If he learns of the heroes' intentions to raid the facility, he begs them to help him with his sabotage. Mandrake produces a large explosive {@optfeature Charge|sw5e-phb|charge} and explains that if they can set it in the facility's communications center, the blast should be powerful enough to destroy the prison and {@spell Overload|sw5e-phb|overload} Imperial communications on Felucia for some time. That will also make it easier for the heroes to escape from Felucia. If the heroes agree, Mandrake gives them the explosive {@optfeature Charge|sw5e-phb|charge} and shows them how to set the timer."
 									]
 								},
@@ -3080,7 +3080,7 @@
 											"type": "entries",
 											"name": "Auxhiliary Challenge 1",
 											"entries": [
-												"One other thing the heroes can do during this encounter is learn a bit more about the Imperial prison facility. If the chief can be made friendly to the heroes and any hero asks about the prison, that hero can make a DC 10 {@skill Investigation} check to learn more about the facility. If successful, the heroes learn that the villagers call it the \"Vanishing Place\" and steer clear of it whenever possible. The chief explains that many Felucians have disappeared in the area around the Vanishing Place, and when the Felucians sent a few shamans to {@optfeature Investigate|sw5e-phb|investigate}, they had to leave quickly before they were overwhelmed with pain. The chief believes that many of the missing Felucians are being held in the prison facility, and that the Empire is causing them great pain. The chief also tells the heroes that the source of the pain seems most concentrated on the west side of the facility."
+												"One other thing the heroes can do during this encounter is learn a bit more about the Imperial prison facility. If the chief can be made friendly to the heroes and any hero asks about the prison, that hero can make a DC 10 {@skill Investigation|sw5e-phb} check to learn more about the facility. If successful, the heroes learn that the villagers call it the \"Vanishing Place\" and steer clear of it whenever possible. The chief explains that many Felucians have disappeared in the area around the Vanishing Place, and when the Felucians sent a few shamans to {@optfeature Investigate|sw5e-phb|investigate}, they had to leave quickly before they were overwhelmed with pain. The chief believes that many of the missing Felucians are being held in the prison facility, and that the Empire is causing them great pain. The chief also tells the heroes that the source of the pain seems most concentrated on the west side of the facility."
 											]
 										},
 										{
@@ -3104,8 +3104,8 @@
 									"name": "Sick Children",
 									"id": "Sick Children",
 									"entries": [
-										"Several of the younger Felucians in the village have fallen ill in recent days, many of them deteriorating to the point of paralysis. The Felucians have hidden these children away in one of their mushroom huts, and only a hero who makes a successful DC 15 {@skill Perception} check while walking through the village notices their anguished cries. If the hero investigates further, he or she discovers four Felucian children who lie on cots, frail and nearly immobile except when they cry out in pain. In truth, the children have contracted a virus engineered by Captain Vischera in the Imperial prison facility (see Part 3 for more information on Vischera and his experiments). The children's skin has faded to a sickly gray, and their muscles have thinned to the point that they are visibly too weak to support their weight.",
-										"A hero can treat the virus with a DC 10 {@skill Medicine} check, and curing the children requires 8 hours of tending. Feel free to let the heroes take this time, since there is no real time restraint during this part of the adventure. Although the heroes should feel the illusion of pressure (reaching the prison facility before some ill fate befalls Admiral Varth), they should not be punished for an altruistic act.",
+										"Several of the younger Felucians in the village have fallen ill in recent days, many of them deteriorating to the point of paralysis. The Felucians have hidden these children away in one of their mushroom huts, and only a hero who makes a successful DC 15 {@skill Perception|sw5e-phb} check while walking through the village notices their anguished cries. If the hero investigates further, he or she discovers four Felucian children who lie on cots, frail and nearly immobile except when they cry out in pain. In truth, the children have contracted a virus engineered by Captain Vischera in the Imperial prison facility (see Part 3 for more information on Vischera and his experiments). The children's skin has faded to a sickly gray, and their muscles have thinned to the point that they are visibly too weak to support their weight.",
+										"A hero can treat the virus with a DC 10 {@skill Medicine|sw5e-phb} check, and curing the children requires 8 hours of tending. Feel free to let the heroes take this time, since there is no real time restraint during this part of the adventure. Although the heroes should feel the illusion of pressure (reaching the prison facility before some ill fate befalls Admiral Varth), they should not be punished for an altruistic act.",
 										{
 											"type": "entries",
 											"name": "Ad-Hoc XP Award",
@@ -3122,9 +3122,9 @@
 							"name": "Imperial Scout",
 							"id": "Imperial Scout",
 							"entries": [
-								"Once the heroes have had a chance to interact with the villagers and deal with the encounters above, have them make DC 10 {@skill Perception} checks. Any hero who succeeds notices a low whine coming from the outskirts of the village, as though a repulsor were passing around its edges. Upon further investigation, the heroes spot a scout trooper on a speeder bike zooming away from the village, headed into the deep jungle. They catch only a glimpse of him before he speeds out of view, but it seems certain that the scout trooper saw them.",
+								"Once the heroes have had a chance to interact with the villagers and deal with the encounters above, have them make DC 10 {@skill Perception|sw5e-phb} checks. Any hero who succeeds notices a low whine coming from the outskirts of the village, as though a repulsor were passing around its edges. Upon further investigation, the heroes spot a scout trooper on a speeder bike zooming away from the village, headed into the deep jungle. They catch only a glimpse of him before he speeds out of view, but it seems certain that the scout trooper saw them.",
 								"If the heroes don't realize it immediately, Vazus Mandrake does: The scout trooper will report the hidden Felucian village—and the presence of the heroes—to his superiors, and soon after, stormtroopers will descend upon them. Fortunately, though, the mushrooms in the area have chemicals in their stalks that block long-range communications, so there is little chance that the scout trooper could report his findings before reaching his base. Thus, Mandrake begs the heroes to take his kybucks and chase the scout trooper down. He assures them that the kybucks are tame (which is true) and urges them to catch the Imperial scout before it's too late.",
-								"If all of the heroes fail the {@skill Perception} check above, they still notice the scout trooper, but each hero has {@variantrule Disadvantage|sw5e-phb|disadvantage} on his or her {@variantrule Initiative|sw5e-phb} check when the chase sequence begins.",
+								"If all of the heroes fail the {@skill Perception|sw5e-phb} check above, they still notice the scout trooper, but each hero has {@variantrule Disadvantage|sw5e-phb|disadvantage} on his or her {@variantrule Initiative|sw5e-phb} check when the chase sequence begins.",
 								{
 									"type": "entries",
 									"name": "Zone 1: The Chase Begins",
@@ -3140,14 +3140,14 @@
 											"title": "A kybuck (with a small green rider)"
 										},
 										"Kybucks move very, very quickly, and as the beasts lurch forward, the heroes realize that they'll have no trouble keeping up with a speeder bike. Large mushrooms and other huge fungi streak by faster than the eye can see, and the ground whips by at an incredible pace. The kybucks provide a relatively smooth ride, and it is clear that the animals know the terrain far better than any of the heroes might. Each kybuck leaps, turns, twists, and dodges between the massive growths of the fungal forest. Throughout the chase sequence, be sure to emphasize the {@variantrule Speed|sw5e-phb|speed} at which the heroes are moving.",
-										"On the first round of the chase, the heroes streak out of the village and into an area of sparse growth. Although {@skill Animal Handling} checks are not needed to control the kybucks, have each hero make a DC 10 {@skill Animal Handling} check during the first round regardless.",
+										"On the first round of the chase, the heroes streak out of the village and into an area of sparse growth. Although {@skill Animal Handling|sw5e-phb} checks are not needed to control the kybucks, have each hero make a DC 10 {@skill Animal Handling|sw5e-phb} check during the first round regardless.",
 										{
 											"type": "list",
 											"items": [
-												"Any hero who succeeds on the {@skill Animal Handling} check by less than 5 is accepted by his or her kybuck, and the beast dashes through the jungle with no ill effect for the rest of the chase.",
-												"Any hero who succeeds on the {@skill Animal Handling} check by 5 or more (in other words, with a roll of 15 or higher) also gains {@variantrule Advantage|sw5e-phb|advantage} on {@skill Animal Handling} checks for the remainder of the chase sequence.",
-												"Any hero who fails the {@skill Animal Handling} check by less than 5 can make a DC 10 {@skill Persuasion} check as a free action to calm his or her kybuck for no ill effect. Failure means the hero has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@skill Animal Handling} checks made through the next round.",
-												"Any hero who fails the initial {@skill Animal Handling} check by 5 or more has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@skill Animal Handling} checks made through the next round."
+												"Any hero who succeeds on the {@skill Animal Handling|sw5e-phb} check by less than 5 is accepted by his or her kybuck, and the beast dashes through the jungle with no ill effect for the rest of the chase.",
+												"Any hero who succeeds on the {@skill Animal Handling|sw5e-phb} check by 5 or more (in other words, with a roll of 15 or higher) also gains {@variantrule Advantage|sw5e-phb|advantage} on {@skill Animal Handling|sw5e-phb} checks for the remainder of the chase sequence.",
+												"Any hero who fails the {@skill Animal Handling|sw5e-phb} check by less than 5 can make a DC 10 {@skill Persuasion|sw5e-phb} check as a free action to calm his or her kybuck for no ill effect. Failure means the hero has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@skill Animal Handling|sw5e-phb} checks made through the next round.",
+												"Any hero who fails the initial {@skill Animal Handling|sw5e-phb} check by 5 or more has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@skill Animal Handling|sw5e-phb} checks made through the next round."
 											]
 										},
 										"The scout trooper is almost completely out of Zone 1 when the chase begins. During the first round of combat, the scout trooper is out of line of sight from the heroes. You (the GM) should roll {@variantrule Initiative|sw5e-phb} for the scout trooper as normal, moving him from zone to zone just as the heroes move, though the scout technically begins the chase at the far end of Zone 1. As such, even though a hero might advance to the next zone before the scout trooper does, the scout will always be farther ahead of the heroes in the next zone when the heroes' turn comes up. On subsequent rounds, the heroes might have a chance to draw closer to the scout trooper on his speeder bike. In any round in which the heroes manage to draw close enough to the scout to stop his progress (with a ranged attack, a {@book force power|sw5e-phb|11|Force Powers}, or some other means), another scout trooper zooms ahead from a hidden post, moving into the next zone and out of line of sight immediately. This allows you to keep the chase going while letting the heroes gain experience points for defeating any scout troopers they manage to catch.",
@@ -3160,14 +3160,14 @@
 									"id": "Zone 2: The Fungal Swamp",
 									"entries": [
 										"The second zone of the chase is a massive fungal swamp. In this zone, shallow pools of water litter the landscape, and the kybucks send up huge splashes as their hoofed feet pass through the puddles. Large, multicolored fungi droop low over the landscape, and huge birds swoop down to scoop up prey. The fungal swamp is so thick that the heroes can hardly see in front of them; anything beyond 20 squares is out of their line of sight. The kybucks have no difficulty navigating the swampy terrain, though the heroes should feel as though the jungle is closing in on them.",
-										"On each hero's turn, have that character make a DC 10 {@skill Animal Handling} check.",
+										"On each hero's turn, have that character make a DC 10 {@skill Animal Handling|sw5e-phb} check.",
 										{
 											"type": "list",
 											"items": [
-												"Any hero who succeeds on the {@skill Animal Handling} check by less than 5 manages to lead his or her kybuck out of the fungal swamp.",
-												"Any hero who succeeds on the {@skill Animal Handling} check by 5 or more also moves within Long range of a {@item Blaster pistol|sw5e-phb} (160 ft.) of the scout trooper. If the hero chooses a different path than the scout (see below), he remains within that range for Zone 4 as well.",
-												"Any hero who fails the {@skill Animal Handling} check by less than 5 can make a DC 10 {@skill Perception} check as a free action to keep from getting lost in the thick undergrowth. Failure means the hero and his or her kybuck get lost in the fungal swamp and do not advance to the next zone of the chase on the next round. Although this does not have immediate consequences, it can prevent the hero from joining his comrades in the encounter at the end of the chase.",
-												"Any hero who fails the initial {@skill Animal Handling} check by 5 or more gets lost in the fungal swamp and does not advance, as described above."
+												"Any hero who succeeds on the {@skill Animal Handling|sw5e-phb} check by less than 5 manages to lead his or her kybuck out of the fungal swamp.",
+												"Any hero who succeeds on the {@skill Animal Handling|sw5e-phb} check by 5 or more also moves within Long range of a {@item Blaster pistol|sw5e-phb} (160 ft.) of the scout trooper. If the hero chooses a different path than the scout (see below), he remains within that range for Zone 4 as well.",
+												"Any hero who fails the {@skill Animal Handling|sw5e-phb} check by less than 5 can make a DC 10 {@skill Perception|sw5e-phb} check as a free action to keep from getting lost in the thick undergrowth. Failure means the hero and his or her kybuck get lost in the fungal swamp and do not advance to the next zone of the chase on the next round. Although this does not have immediate consequences, it can prevent the hero from joining his comrades in the encounter at the end of the chase.",
+												"Any hero who fails the initial {@skill Animal Handling|sw5e-phb} check by 5 or more gets lost in the fungal swamp and does not advance, as described above."
 											]
 										},
 										"Each hero who advances through Zone 2 to the next zone of the chase must choose a path to follow. On each hero's turn in this zone, describe two paths: one that appears to go through thick foliage, and another that travels through the hollowed-out trunk of a massive Felucian tree. Randomly determine which path the scout trooper takes with his speeder bike. Any heroes who choose the path through the foliage proceed to Zone 3A below. Any heroes who choose the path through the tree proceed to Zone 3B below. Both paths converge again in Zone 4."
@@ -3179,12 +3179,12 @@
 									"id": "Zone 3A: Hazardous Terrain",
 									"entries": [
 										"Any heroes who choose the path covered with thick overgrowth soon find themselves in treacherous terrain. This zone is filled with sinkholes and trenches, causing the kybucks to leap over the small gorges and chasms with bouncing grace. As the animals bound through this zone, the heroes dip and rise along with the terrain, making it difficult to see very far ahead.",
-										"On each hero's turn, have that character make a DC 10 {@skill Animal Handling} check.",
+										"On each hero's turn, have that character make a DC 10 {@skill Animal Handling|sw5e-phb} check.",
 										{
 											"type": "list",
 											"items": [
-												"Any hero who succeeds on the {@skill Animal Handling} check by less than 5 manages to help direct his or her kybuck to the next zone without any difficulties.",
-												"Any hero who succeeds on the {@skill Animal Handling} check by 5 or more also gains {@variantrule Advantage|sw5e-phb|advantage} on {@skill Animal Handling} checks in the next round.",
+												"Any hero who succeeds on the {@skill Animal Handling|sw5e-phb} check by less than 5 manages to help direct his or her kybuck to the next zone without any difficulties.",
+												"Any hero who succeeds on the {@skill Animal Handling|sw5e-phb} check by 5 or more also gains {@variantrule Advantage|sw5e-phb|advantage} on {@skill Animal Handling|sw5e-phb} checks in the next round.",
 												"Any hero who fails the Ride check by less than 5 is moved down by 2 in the {@variantrule Initiative|sw5e-phb} order for the next round.",
 												"Any hero who fails the Ride check by 5 or more is moved down by 5 in the {@variantrule Initiative|sw5e-phb} order for the next round."
 											]
@@ -3198,13 +3198,13 @@
 									"id": "Zone 3B: Natural Tunnels",
 									"entries": [
 										"Heroes who choose the path through the hollowed-out tree find themselves traveling through a series of hollow logs and underground tunnels. The heroes and their mounts must lower their heads to prevent scraping the ceiling of these natural passageways. As the kybucks zip through the underground tunnels, chunks of moss and other fungi droop down from above, while breaks in the ceiling let occasional rays of light shine down on the heroes.",
-										"On each hero's turn, have that character make a DC 10 {@skill Animal Handling} check.",
+										"On each hero's turn, have that character make a DC 10 {@skill Animal Handling|sw5e-phb} check.",
 										{
 											"type": "list",
 											"items": [
-												"Any hero who succeeds on the {@skill Animal Handling} check by less than 5 progresses to the next zone without incident.",
-												"Any hero who succeeds on the {@skill Animal Handling} check by 5 or more also closes further with the scout trooper, drawing within 160 ft. (if the hero had not closed with the scout on previous rounds) or within 40 ft. (if the hero had previously closed with the scout).",
-												"Any hero who fails the {@skill Animal Handling} check by less than 5 rides too close to a grasping set of roots that hang down into the tunnel like tentacles. That hero must succeed on an opposed grapple check (versus the roots, which have a +2 bonus) to continue to the next zone. A failed check means that the hero and his or her kybuck becomes stuck in the natural tunnels, and on the following round the hero can take an action to disentangle from the roots.",
+												"Any hero who succeeds on the {@skill Animal Handling|sw5e-phb} check by less than 5 progresses to the next zone without incident.",
+												"Any hero who succeeds on the {@skill Animal Handling|sw5e-phb} check by 5 or more also closes further with the scout trooper, drawing within 160 ft. (if the hero had not closed with the scout on previous rounds) or within 40 ft. (if the hero had previously closed with the scout).",
+												"Any hero who fails the {@skill Animal Handling|sw5e-phb} check by less than 5 rides too close to a grasping set of roots that hang down into the tunnel like tentacles. That hero must succeed on an opposed grapple check (versus the roots, which have a +2 bonus) to continue to the next zone. A failed check means that the hero and his or her kybuck becomes stuck in the natural tunnels, and on the following round the hero can take an action to disentangle from the roots.",
 												"Any hero who fails the Ride check by 5 or more runs into the hanging roots at full {@variantrule Speed|sw5e-phb|speed} and is knocked off the kybuck. The animal stops and waits for the hero to mount up again the following round, but the hero is delayed in advancing until the following round.",
 												"Any hero not snagged in the natural tunnels automatically advances to Zone 4. Any hero who managed to close with the scout trooper in the previous zone can make attacks or use {@book force powers|sw5e-phb|11|Force Powers} against the scout in this round (but only if the scout followed this path, of course)."
 											]
@@ -3218,14 +3218,14 @@
 									"entries": [
 										"When the heroes advance to Zone 4, they encounter a deadly specimen of Felucian fauna: a rancor. Fortunately, the creature is dying, and its death throes are all that it can bring to bear against the riders.",
 										"When the first heroes move into this zone, the ground in front of them erupts. The rancor had buried itself under the dirt and undergrowth, and now it rises up and attempts to grab a hero and a kybuck as a last meal. The rancor is sluggish, but as it rises to its full height, pieces of debris and detritus fall off its body, creating a rain of soil and plants that spatters any heroes who race past.",
-										"On each hero's turn, have that character make a DC 10 {@skill Animal Handling} check.",
+										"On each hero's turn, have that character make a DC 10 {@skill Animal Handling|sw5e-phb} check.",
 										{
 											"type": "list",
 											"items": [
-												"Any hero who succeeds on the {@skill Animal Handling} check by less than 5 manages to lead his or her kybuck past the dying rancor without being slashed by its claws.",
-												"Any hero who succeeds on the {@skill Animal Handling} check by 5 or more avoids any attack by the rancor and increases his or her {@variantrule Initiative|sw5e-phb} by +2.",
-												"Any hero who fails the {@skill Animal Handling} check by less than 5 is attacked by the rancor. However, the attack is a glancing blow, dealing 1d6+5 points of damage on a success.",
-												"Any hero who fails the {@skill Animal Handling} check by 5 or more is attacked by the rancor. The creature makes a melee attack against the hero at a +8 bonus, dealing 2d6+5 points of damage on a success."
+												"Any hero who succeeds on the {@skill Animal Handling|sw5e-phb} check by less than 5 manages to lead his or her kybuck past the dying rancor without being slashed by its claws.",
+												"Any hero who succeeds on the {@skill Animal Handling|sw5e-phb} check by 5 or more avoids any attack by the rancor and increases his or her {@variantrule Initiative|sw5e-phb} by +2.",
+												"Any hero who fails the {@skill Animal Handling|sw5e-phb} check by less than 5 is attacked by the rancor. However, the attack is a glancing blow, dealing 1d6+5 points of damage on a success.",
+												"Any hero who fails the {@skill Animal Handling|sw5e-phb} check by 5 or more is attacked by the rancor. The creature makes a melee attack against the hero at a +8 bonus, dealing 2d6+5 points of damage on a success."
 											]
 										},
 										"Even if a hero is attacked by the rancor, all heroes who make it through the zone advance to Zone 5, an Imperial outpost.",
@@ -3245,14 +3245,14 @@
 									"id": "Zone 5: Valley Outpost",
 									"entries": [
 										"After encountering the rancor, the heroes leave the area of dense fungal growth and move into a clearing with a small river cutting through it. Though the river is shallow, it is relatively wide, and the kybucks splash through the river as it turns north toward a narrow valley. The scout trooper flies through this area just above the river, the speeder bike's repulsors splitting the water and kicking up a wake. Several large, bulbous mushrooms rise out of the riverbank, creating large obstacles for anyone moving through the zone.",
-										"On each hero's turn, have that character make a DC 10 {@skill Animal Handling} check.",
+										"On each hero's turn, have that character make a DC 10 {@skill Animal Handling|sw5e-phb} check.",
 										{
 											"type": "list",
 											"items": [
-												"Any hero who succeeds on the {@skill Animal Handling} check by less than 5 advances to the combat encounter with no incidents and no special penalties or bonuses.",
-												"Any hero who succeeds on the {@skill Animal Handling} check by 5 or more also gains {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} in the first round of combat.",
-												"Any hero who fails the {@skill Animal Handling} check by less than 5 suffers {@variantrule Disadvantage|sw5e-phb|disadvantage} on all {@variantrule Saving Throw|sw5e-phb|saving throws} in the first round of combat.",
-												"Any hero who fails the {@skill Animal Handling} check by 5 or more gives their enemies {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} in the first round of combat."
+												"Any hero who succeeds on the {@skill Animal Handling|sw5e-phb} check by less than 5 advances to the combat encounter with no incidents and no special penalties or bonuses.",
+												"Any hero who succeeds on the {@skill Animal Handling|sw5e-phb} check by 5 or more also gains {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} in the first round of combat.",
+												"Any hero who fails the {@skill Animal Handling|sw5e-phb} check by less than 5 suffers {@variantrule Disadvantage|sw5e-phb|disadvantage} on all {@variantrule Saving Throw|sw5e-phb|saving throws} in the first round of combat.",
+												"Any hero who fails the {@skill Animal Handling|sw5e-phb} check by 5 or more gives their enemies {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} in the first round of combat."
 											]
 										},
 										"When the heroes advance through Zone 5, they move into the encounter area, where combat takes place. See \"Jungle Watch Outpost\" for information on running the encounter."
@@ -3330,7 +3330,7 @@
 									"name": "Conclusion",
 									"id": "Conclusion 4",
 									"entries": [
-										"If the heroes defeat the soldiers and seize control of the communications facility, they have an opportunity to wreak some havoc with Imperial communications. A successful DC 15 {@skill Technology} check tunes the communications array to the same frequency as the interference generated by the Felucian plant life, essentially broadcasting white noise across the entire Imperial communications spectrum. Doing so also scrambles the navigational arrays built into scout trooper armor, which prevents reinforcements from arriving."
+										"If the heroes defeat the soldiers and seize control of the communications facility, they have an opportunity to wreak some havoc with Imperial communications. A successful DC 15 {@skill Technology|sw5e-phb} check tunes the communications array to the same frequency as the interference generated by the Felucian plant life, essentially broadcasting white noise across the entire Imperial communications spectrum. Doing so also scrambles the navigational arrays built into scout trooper armor, which prevents reinforcements from arriving."
 									]
 								},
 								{
@@ -3367,7 +3367,7 @@
 					"entries": [
 						"Once the heroes have concluded their visit to the Felucian village (and prevented the Imperials from reporting its location), they can make their way to the Imperial prison facility. Their Felucian scout leads them around obstacles and potential threats and takes them directly to the facility. Their guide doesn't say much on the journey—and unless the heroes have a translating droid, they won't understand him, anyway—and simply leads them to their target with solemn determination.",
 						"When the heroes arrive, they discover that the prison facility is a relatively squat, two-story building in characteristic Imperial style: gray walls with a slight outward slant, no visible windows, and a plain visage that leaves no room for accoutrements. The second story of the building is visibly smaller than the ground floor, and blinking lights line the top floor's edges. A large set of blast doors denotes the ground floor entry to the building, while a single gun turret (which appears to be an {@item Assault cannon|sw5e-phb|assault cannon} built into the wall) juts out a few meters to the door's left. Otherwise, there are no other visible entrances or exits to the facility.",
-						"Stormtroopers stand guard at the facility's blast doors, while the low hum of speeder engines indicates that there might be scout troopers on patrol nearby. Additionally, any hero who succeeds on a DC 15 {@skill Perception} check hears heavy thudding sounds in the distance, along with the noises of plants being crushed, indicating the presence of a walker of some kind.",
+						"Stormtroopers stand guard at the facility's blast doors, while the low hum of speeder engines indicates that there might be scout troopers on patrol nearby. Additionally, any hero who succeeds on a DC 15 {@skill Perception|sw5e-phb} check hears heavy thudding sounds in the distance, along with the noises of plants being crushed, indicating the presence of a walker of some kind.",
 						"Fortunately for the heroes, their Felucian scout is aware of a secret entrance. He leads them to the northwest corner of the building, where a ventilation grate barely hangs on its bolts. With the right application of force (dealing at least 10 points of damage to the grate), it can be pried free, giving the heroes a way into the prison facility.",
 						"Within the facility, the heroes will find that everything follows the typical Imperial style, with standard metal walls (DT 10, 150 hp) and metal doors (DT 10, 50 hp). Additionally, the facility has a central computer system with a {@item Slicer's Kit|sw5e-phb|Slicing} DC of 20 without the correct {@item code cylinder|sw5e-phb}. All of the doors in the facility's interior are unlocked by default. However, the exterior blast doors are sealed from the inside. From the outside, the doors can be opened only by {@item Slicer's Kit|sw5e-phb|slicing} the computer (using the terminal and scomp link that provides access to the computer).",
 						"An overall map of the first floor appears below. Each detailed encounter in the facility also has its own map.",
@@ -3509,7 +3509,7 @@
 											"type": "entries",
 											"name": "Features of the Area",
 											"entries": [
-												"This room is filled with medical equipment of all kinds. The beds (where the Felucians are secured until combat begins) provide low {@variantrule Cover|sw5e-phb|cover} to anyone standing adjacent to them. Additionally, if any of the bacta tanks takes more than 5 points of damage, it shatters and spills bacta onto the floor. When this happens, unless a character moves at half {@variantrule Speed|sw5e-phb|speed}, the character must succeed on an DC 10 {@skill Acrobatics} check or fall {@condition Prone|sw5e-phb|prone}."
+												"This room is filled with medical equipment of all kinds. The beds (where the Felucians are secured until combat begins) provide low {@variantrule Cover|sw5e-phb|cover} to anyone standing adjacent to them. Additionally, if any of the bacta tanks takes more than 5 points of damage, it shatters and spills bacta onto the floor. When this happens, unless a character moves at half {@variantrule Speed|sw5e-phb|speed}, the character must succeed on an DC 10 {@skill Acrobatics|sw5e-phb} check or fall {@condition Prone|sw5e-phb|prone}."
 											]
 										}
 									]
@@ -3539,7 +3539,7 @@
 											"style": "list-no-bullets",
 											"items": [
 												"1 x {@creature Imperial Gunner|sw5e-dodttg}",
-												"4 x {@creature trooper, shore|orcnogSW5e|Stormtroopers}",
+												"4 x {@creature trooper, shore|sw5e-snv|Stormtroopers}",
 												"<hr/>",
 												"See: {@area Defense Turret Controls Encounter Map|Defense Turret Controls Encounter Map|x}"
 											]
@@ -3588,7 +3588,7 @@
 									"name": "Stormtrooper (4)",
 									"id": "Stormtrooper (4)",
 									"entries": [
-										"See: {@creature trooper, shore|orcnogSW5e|Stormtrooper} statblock."
+										"See: {@creature trooper, shore|sw5e-snv|Stormtrooper} statblock."
 									]
 								},
 								{
@@ -3723,7 +3723,7 @@
 											"type": "inset",
 											"name": "Features of the Area",
 											"entries": [
-												"The walls of this room are lined with computer consoles, each featuring different communications arrays. Although the consoles provide no special terrain effects, any comm operator can use them to send a message to the command center that there are intruders in the facility. Doing so requires a comm operator to make a successful {@skill technology} check as a standard action on one of the consoles. If such a message is sent, at the conclusion of combat the heroes can attempt to cancel the alert by similarly using the communications arrays and making a successful {@skill Deception} check against Captain Vischera."
+												"The walls of this room are lined with computer consoles, each featuring different communications arrays. Although the consoles provide no special terrain effects, any comm operator can use them to send a message to the command center that there are intruders in the facility. Doing so requires a comm operator to make a successful {@skill technology|sw5e-phb} check as a standard action on one of the consoles. If such a message is sent, at the conclusion of combat the heroes can attempt to cancel the alert by similarly using the communications arrays and making a successful {@skill Deception|sw5e-phb} check against Captain Vischera."
 											]
 										}
 									]
@@ -3926,7 +3926,7 @@
 											"items": [
 												"1 x {@creature Captain Vischera|sw5e-dodttg}",
 												"2 x {@creature Kargrek and Hagark|sw5e-dodttg}",
-												"4 x {@creature trooper, shore|orcnogSW5e|Stormtroopers}",
+												"4 x {@creature trooper, shore|sw5e-snv|Stormtroopers}",
 												"1 x {@creature Admiral Varth (as of Felucian Rescue)|sw5e-dodttg|Admiral Varth} {@color (Allied)|008e2f}",
 												"<hr/>",
 												"See: {@area P5: Command Center Encounter Map|P5: Command Center Encounter Map|x}"
@@ -4006,7 +4006,7 @@
 									"name": "Stormtroopers (4)",
 									"id": "Stormtroopers (4) 3",
 									"entries": [
-										"See: {@creature trooper, shore|orcnogSW5e|Stormtrooper} statblock."
+										"See: {@creature trooper, shore|sw5e-snv|Stormtrooper} statblock."
 									]
 								},
 								{

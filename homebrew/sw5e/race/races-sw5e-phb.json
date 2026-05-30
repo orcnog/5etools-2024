@@ -55,7 +55,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -106,7 +106,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic, Bith, and one more language of your choice."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb}, Bith, and one more language of your choice."
 					]
 				}
 			],
@@ -168,14 +168,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Naturally {@feat Stealthy|sw5e-phb}",
+					"name": "Naturally Stealthy",
 					"entries": [
 						"You can attempt to hide even when you are obscured only by a creature that is your size or larger than you."
 					]
@@ -198,7 +198,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Bothese. Bothese had a great influence on the forming of Galactic Basic; the two languages share many cognates."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Bothese. Bothese had a great influence on the forming of {@language Galactic Basic|sw5e-phb}; the two languages share many cognates."
 					]
 				}
 			],
@@ -260,7 +260,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -274,7 +274,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@sense Darkvision|sw5e-phb}",
+					"name": "Darkvision",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -304,7 +304,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Catharese."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Catharese."
 					]
 				}
 			],
@@ -367,14 +367,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Intuitive {@variantrule Initiative|sw5e-phb}",
+					"name": "Intuitive Initiative",
 					"entries": [
 						"You can choose to reroll {@variantrule Initiative|sw5e-phb} checks, but you must use the new roll."
 					]
@@ -411,7 +411,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Cerean. Cerean is characterized by its gravelly sounds."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Cerean. Cerean is characterized by its gravelly sounds."
 					]
 				}
 			],
@@ -473,7 +473,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -494,14 +494,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tech {@spell Resistance|sw5e-phb}",
+					"name": "Tech Resistance",
 					"entries": [
 						"Growing up around technology leaves an impact on chiss. You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity and Intelligence {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Superior {@sense Darkvision|sw5e-phb}",
+					"name": "Superior Darkvision",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 120 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -510,7 +510,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic, Cheunh, and your choice of Minnisiat or Sy Bisti. Cheunh is a complex language that is difficult for non-chiss to learn. Chiss take pride in this difficulty. Communications with outsiders are conducted through local trade-languages like Minnisiat or Sy Bisti."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb}, Cheunh, and your choice of Minnisiat or Sy Bisti. Cheunh is a complex language that is difficult for non-chiss to learn. Chiss take pride in this difficulty. Communications with outsiders are conducted through local trade-languages like Minnisiat or Sy Bisti."
 					]
 				}
 			],
@@ -573,7 +573,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -608,7 +608,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tech {@spell Resistance|sw5e-phb}",
+					"name": "Tech Resistance",
 					"entries": [
 						"Growing up around technology leaves an impact on devaronians. You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity and Intelligence {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
@@ -624,7 +624,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Devaronese. Devaronese is characterized by grunts and grumbles. It is rare to hear a Devaronian speak it anywhere other than their homeworld of Devaron."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Devaronese. Devaronese is characterized by grunts and grumbles. It is rare to hear a Devaronian speak it anywhere other than their homeworld of Devaron."
 					]
 				}
 			],
@@ -688,7 +688,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
@@ -760,7 +760,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and one language of your choice. You can understand spoken and written Binary, but you can not speak it."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and one language of your choice. You can understand spoken and written {@language Binary|sw5e-phb|Binary}, but you can not speak it."
 					]
 				}
 			],
@@ -821,7 +821,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
@@ -907,7 +907,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Binary. You can understand spoken and written Galactic Basic and one language of your choice, but you can not speak them."
+						"You can speak, read, and write {@language Binary|sw5e-phb|Binary}. You can understand spoken and written {@language Galactic Basic|sw5e-phb} and one language of your choice, but you can not speak them."
 					]
 				}
 			],
@@ -967,7 +967,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
@@ -1098,7 +1098,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -1170,7 +1170,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and one language of your choice. You can understand spoken and written Binary, but you can not speak it."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and one language of your choice. You can understand spoken and written {@language Binary|sw5e-phb|Binary}, but you can not speak it."
 					]
 				}
 			],
@@ -1229,7 +1229,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -1308,7 +1308,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Binary. You can understand spoken and written Galactic Basic and one language of your choice, but you can not speak it."
+						"You can speak, read, and write {@language Binary|sw5e-phb|Binary}. You can understand spoken and written {@language Galactic Basic|sw5e-phb} and one language of your choice, but you can not speak it."
 					]
 				}
 			],
@@ -1367,14 +1367,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "{@sense Darkvision|sw5e-phb}",
+					"name": "Darkvision",
 					"entries": [
 						"You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -1402,7 +1402,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Tech {@spell Resistance|sw5e-phb}",
+					"name": "Tech Resistance",
 					"entries": [
 						"Growing up around technology leaves an impact on duros. You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity and Intelligence {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book tech powers|sw5e-phb|12|Tech Powers}."
 					]
@@ -1411,7 +1411,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Durese. Durese is a common interstellar tongue used by prominent spacers and traders."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Durese. Durese is a common interstellar tongue used by prominent spacers and traders."
 					]
 				}
 			],
@@ -1472,7 +1472,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
@@ -1507,7 +1507,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Natural {@feat Survivalist|sw5e-phb}",
+					"name": "Natural Survivalist",
 					"entries": [
 						"You have proficiency in {@skill Nature|sw5e-phb} and {@skill Survival|sw5e-phb}."
 					]
@@ -1530,7 +1530,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Ewokese. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it."
+						"You can speak, read, and write Ewokese. You can understand spoken and written {@language Galactic Basic|sw5e-phb}, but your vocal cords do not allow you to speak it."
 					]
 				}
 			],
@@ -1590,7 +1590,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -1620,7 +1620,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Gamorrese. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it. Gamorrese is characterized by its grunts and squeals, and its writing is a crude, pictographic style."
+						"You can speak, read, and write Gamorrese. You can understand spoken and written {@language Galactic Basic|sw5e-phb}, but your vocal cords do not allow you to speak it. Gamorrese is characterized by its grunts and squeals, and its writing is a crude, pictographic style."
 					]
 				}
 			],
@@ -1678,7 +1678,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -1692,7 +1692,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@sense Darkvision|sw5e-phb}",
+					"name": "Darkvision",
 					"entries": [
 						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -1736,7 +1736,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Gungan. When speaking Galactic Basic, you often have trouble with word tenses and infinitives; this usually has a comical effect."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Gungan. When speaking {@language Galactic Basic|sw5e-phb}, you often have trouble with word tenses and infinitives; this usually has a comical effect."
 					]
 				}
 			],
@@ -1798,7 +1798,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -1821,7 +1821,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: trandoshan curses, twi'lek musical expressions, chiss military phrases, and so on."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: trandoshan curses, twi'lek musical expressions, chiss military phrases, and so on."
 					]
 				}
 			],
@@ -1882,7 +1882,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -1919,7 +1919,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Ithorese. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it."
+						"You can speak, read, and write Ithorese. You can understand spoken and written {@language Galactic Basic|sw5e-phb}, but your vocal cords do not allow you to speak it."
 					]
 				}
 			],
@@ -1982,14 +1982,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 25 feet."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "{@sense Darkvision|sw5e-phb}",
+					"name": "Darkvision",
 					"entries": [
 						"You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -2010,7 +2010,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@feat Tech Dabbler|sw5e-phb}",
+					"name": "Tech Dabbler",
 					"entries": [
 						"You know the {@i ion blast} at-will {@book tech power|sw5e-phb|12|Tech Powers}. When you reach 3rd level, you learn and can cast the {@i repair droid} {@book tech power|sw5e-phb|12|Tech Powers} once per {@variantrule Long Rest|sw5e-phb|long rest}. When you reach 5th level, you learn and can cast the {@i hold droid} {@book tech power|sw5e-phb|12|Tech Powers} once per {@variantrule Long Rest|sw5e-phb|long rest}. Your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} is Intelligence. You do not require use of a {@item Wristpad|sw5e-phb|wristpad} for these powers."
 					]
@@ -2040,7 +2040,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Jawaese (and the Jawa Trade Language). You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it. Jawaese blends quickly spoken, semi-meaningless syllables with scents to be understood. To more easily bargain and trade with other species, they rely on a simplified variant called the Jawa Trade language which removes the use of scent."
+						"You can speak, read, and write Jawaese (and the Jawa Trade Language). You can understand spoken and written {@language Galactic Basic|sw5e-phb}, but your vocal cords do not allow you to speak it. Jawaese blends quickly spoken, semi-meaningless syllables with scents to be understood. To more easily bargain and trade with other species, they rely on a simplified variant called the Jawa Trade language which removes the use of scent."
 					]
 				}
 			],
@@ -2101,14 +2101,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "{@sense Darkvision|sw5e-phb}",
+					"name": "Darkvision",
 					"entries": [
 						"Your natural evolution allows you to see what others do not in dim and dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can't discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -2138,7 +2138,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Kel Dor."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Kel Dor."
 					]
 				}
 			],
@@ -2201,7 +2201,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2215,14 +2215,14 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@sense Darkvision|sw5e-phb}",
+					"name": "Darkvision",
 					"entries": [
 						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can't discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Mon Calamari {@spell Resistance|sw5e-phb}",
+					"name": "Mon Calamari Resistance",
 					"entries": [
 						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that grant the {@condition Slowed|sw5e-phb|slowed} condition and you have {@spell Resistance|sw5e-phb|resistance} against cold damage (explained in chapter 9)."
 					]
@@ -2245,7 +2245,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic, Mon Cal, and one language of your choice."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb}, Mon Cal, and one language of your choice."
 					]
 				}
 			],
@@ -2309,7 +2309,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2330,7 +2330,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@sense Darkvision|sw5e-phb}",
+					"name": "Darkvision",
 					"entries": [
 						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -2360,7 +2360,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Nautila. Nautila is unique in that it can only be properly pronounced underwater due to its use of pheromones in addition to spoken sounds. In any other environment, the language loses a great amount of detail; that nautolans find this annoying."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Nautila. Nautila is unique in that it can only be properly pronounced underwater due to its use of pheromones in addition to spoken sounds. In any other environment, the language loses a great amount of detail; that nautolans find this annoying."
 					]
 				}
 			],
@@ -2422,7 +2422,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2436,7 +2436,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@sense Darkvision|sw5e-phb}",
+					"name": "Darkvision",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -2459,7 +2459,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Rodese. Rodians can communicate with each other using pheromones. Force-sensitives can detect this communication, though they can’t understand it."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Rodese. Rodians can communicate with each other using pheromones. Force-sensitives can detect this communication, though they can’t understand it."
 					]
 				}
 			],
@@ -2522,21 +2522,21 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "{@sense Darkvision|sw5e-phb}",
+					"name": "Darkvision",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "{@feat Force-Sensitive|sw5e-phb}",
+					"name": "Force-Sensitive",
 					"entries": [
 						"You know the {@i denounce} at-will {@book force power|sw5e-phb|11|Force Powers}. When you reach 3rd level, you learn and can cast the {@i curse} {@book force power|sw5e-phb|11|Force Powers} once per {@variantrule Long Rest|sw5e-phb|long rest}. When you reach 5th level, you learn and can cast the {@i bestow curse} {@book force power|sw5e-phb|11|Force Powers} once per {@variantrule Long Rest|sw5e-phb|long rest}. Your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} is Charisma for these powers."
 					]
@@ -2559,7 +2559,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Sith. Sith is an agglutinative language, in which words or even phrases were made up of linears sequences of distinct meaningful units."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Sith. Sith is an agglutinative language, in which words or even phrases were made up of linears sequences of distinct meaningful units."
 					]
 				}
 			],
@@ -2623,7 +2623,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2653,7 +2653,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Togruti. Togruti is an ornate language characterized by trills and long vowel sounds which are modified by subtle tremors in the togruta’s head-tails. This language is heavily influenced by Basic, but also incorporates some native idioms, which cause Basic-speaking togruta to use seemingly strange expressions."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Togruti. Togruti is an ornate language characterized by trills and long vowel sounds which are modified by subtle tremors in the togruta’s head-tails. This language is heavily influenced by Basic, but also incorporates some native idioms, which cause Basic-speaking togruta to use seemingly strange expressions."
 					]
 				}
 			],
@@ -2716,7 +2716,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2730,7 +2730,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@sense Darkvision|sw5e-phb}",
+					"name": "Darkvision",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -2760,7 +2760,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Dosh. Dosh is characterized by its harsh grunts, hisses and growls, and its written form that used alphabetic glyphs."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Dosh. Dosh is characterized by its harsh grunts, hisses and growls, and its written form that used alphabetic glyphs."
 					]
 				}
 			],
@@ -2819,7 +2819,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2833,7 +2833,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@feat Animal Handler|sw5e-phb}",
+					"name": "Animal Handler",
 					"entries": [
 						"You have proficiency in the {@skill Animal Handling|sw5e-phb} skill."
 					]
@@ -2877,7 +2877,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak Tusken, and speak, read, and write Galactic Basic. Tusken is a guttural language characterized by its barks, growls, and roars. While Tuskens typically understand Galactic Basic, it is rare to hear them speak anything but Tusken. Tusken has no written form. Tuskens also know a complex sign language used to communicate with other tuskens silently."
+						"You can speak Tusken, and speak, read, and write {@language Galactic Basic|sw5e-phb}. Tusken is a guttural language characterized by its barks, growls, and roars. While Tuskens typically understand {@language Galactic Basic|sw5e-phb}, it is rare to hear them speak anything but Tusken. Tusken has no written form. Tuskens also know a complex sign language used to communicate with other tuskens silently."
 					]
 				}
 			],
@@ -2936,7 +2936,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -2950,7 +2950,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@sense Darkvision|sw5e-phb}",
+					"name": "Darkvision",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -2980,7 +2980,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Twi’leki. You can communicate non-verbally with other twi’leks through a complex language of subtle head-tail motions."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Twi’leki. You can communicate non-verbally with other twi’leks through a complex language of subtle head-tail motions."
 					]
 				}
 			],
@@ -3043,7 +3043,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -3080,7 +3080,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Sriluurian. You can communicate with other Weequay within 30 feet without speaking through use of pheromones. Force attuned individuals can detect the communication but can’t understand it."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Sriluurian. You can communicate with other Weequay within 30 feet without speaking through use of pheromones. Force attuned individuals can detect the communication but can’t understand it."
 					]
 				}
 			],
@@ -3143,7 +3143,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -3157,7 +3157,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@sense Darkvision|sw5e-phb}",
+					"name": "Darkvision",
 					"entries": [
 						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
 					]
@@ -3194,7 +3194,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Shyriiwook. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it."
+						"You can speak, read, and write Shyriiwook. You can understand spoken and written {@language Galactic Basic|sw5e-phb}, but your vocal cords do not allow you to speak it."
 					]
 				}
 			],
@@ -3253,7 +3253,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "{@variantrule Speed|sw5e-phb}",
+					"name": "Speed",
 					"entries": [
 						"Your base walking {@variantrule Speed|sw5e-phb|speed} is 30 feet."
 					]
@@ -3297,7 +3297,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Galactic Basic and Zabraki."
+						"You can speak, read, and write {@language Galactic Basic|sw5e-phb} and Zabraki."
 					]
 				}
 			],
@@ -3602,7 +3602,7 @@
 					"type": "entries",
 					"name": "Utility",
 					"entries": [
-						"Class II droids are programmed for engineering and other technical sciences. They differ from class one droids because they apply the science to real-life situations. Class II droids are rarely equipped with Basic vocabulators, instead communicating through Binary. There are five subcategories of class II droids. Astromech, exploration, environmental, engineering, and maintenance droids are all class II droids."
+						"Class II droids are programmed for engineering and other technical sciences. They differ from class one droids because they apply the science to real-life situations. Class II droids are rarely equipped with Basic vocabulators, instead communicating through {@language Binary|sw5e-phb|Binary}. There are five subcategories of class II droids. Astromech, exploration, environmental, engineering, and maintenance droids are all class II droids."
 					]
 				},
 				{
@@ -3678,7 +3678,7 @@
 					"type": "entries",
 					"name": "Utility",
 					"entries": [
-						"Class IV droids are programmed for military and security purposes. Such droids tend to {@optfeature Perform|sw5e-phb|perform} tasks of violence or combat might be expected. Almost all class IV droids carry weapons. Armed combat droids are among the first droids ever created. Security, gladiator, battle, and assassin droids are all class IV droids."
+						"Class IV droids are programmed for military and security purposes. Such droids tend to perform tasks of violence or combat might be expected. Almost all class IV droids carry weapons. Armed combat droids are among the first droids ever created. Security, gladiator, battle, and assassin droids are all class IV droids."
 					]
 				},
 				{
@@ -3716,7 +3716,7 @@
 					"type": "entries",
 					"name": "Utility",
 					"entries": [
-						"Class V droids are programmed for menial and low-skill tasks. Such droids tend to {@optfeature Perform|sw5e-phb|perform} basic tasks such as construction, lifting, maintenance, mining, sanitation, and transportation. Labor droids are fifth-degree droids."
+						"Class V droids are programmed for menial and low-skill tasks. Such droids tend to perform basic tasks such as construction, lifting, maintenance, mining, sanitation, and transportation. Labor droids are fifth-degree droids."
 					]
 				},
 				{
@@ -3755,7 +3755,7 @@
 					"entries": [
 						"Their home planet Duro is primarily uninhabited due to massive pollution on the world over time. Instead, it is covered with automated farms for food production. The duros live in twenty orbital space cities above the planet.",
 						"The duros also established a vast, grand starship construction industry in the Duro system. The duros set up their government around a consortium of starship construction corporations, with all important political decisions made by the stockholders of the corporations. This meant that any duros that held stock in a company could participate in the administration of the system.",
-						"With their strong memories, some duros also choose to become extraordinary storytellers, renowned galaxy-wide for their ability to learn a wide range of narratives by heart, and {@optfeature Perform|sw5e-phb|perform} them all with stunning accuracy."
+						"With their strong memories, some duros also choose to become extraordinary storytellers, renowned galaxy-wide for their ability to learn a wide range of narratives by heart, and perform them all with stunning accuracy."
 					]
 				},
 				{

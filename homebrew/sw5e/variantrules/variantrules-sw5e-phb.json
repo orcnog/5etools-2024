@@ -42,7 +42,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Advantage|sw5e-phb}",
+			"name": "Advantage",
 			"source": "sw5e-phb",
 			"page": 207,
 			"ruleType": "C",
@@ -53,7 +53,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Disadvantage|sw5e-phb}",
+			"name": "Disadvantage",
 			"source": "sw5e-phb",
 			"page": 207,
 			"ruleType": "C",
@@ -99,7 +99,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Armor Class|sw5e-phb}",
+			"name": "Armor Class",
 			"source": "sw5e-phb",
 			"page": 207,
 			"ruleType": "C",
@@ -111,7 +111,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Bonus Action|sw5e-phb}",
+			"name": "Bonus Action",
 			"source": "sw5e-phb",
 			"page": 221,
 			"ruleType": "C",
@@ -122,7 +122,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Reaction|sw5e-phb}",
+			"name": "Reaction",
 			"source": "sw5e-phb",
 			"page": 221,
 			"ruleType": "C",
@@ -133,7 +133,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Critical Hit|sw5e-phb}",
+			"name": "Critical Hit",
 			"source": "sw5e-phb",
 			"page": 221,
 			"ruleType": "C",
@@ -143,7 +143,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Hit Points|sw5e-phb}",
+			"name": "Hit Points",
 			"source": "sw5e-phb",
 			"page": 221,
 			"ruleType": "C",
@@ -153,7 +153,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Short Rest|sw5e-phb}",
+			"name": "Short Rest",
 			"source": "sw5e-phb",
 			"page": 215,
 			"ruleType": "C",
@@ -163,7 +163,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Long Rest|sw5e-phb}",
+			"name": "Long Rest",
 			"source": "sw5e-phb",
 			"page": 215,
 			"ruleType": "C",
@@ -193,7 +193,7 @@
 				"In general, you don't multiply your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} for {@variantrule Attack Roll|sw5e-phb|attack rolls} or {@variantrule Saving Throw|sw5e-phb|saving throws}. If a feature or effect allows you to do so, these same rules apply.",
 				{
 					"type": "entries",
-					"name": "{@variantrule Expertise|sw5e-phb}",
+					"name": "Expertise",
 					"entries": [
 						"Certain features, such as the {@variantrule Expertise|sw5e-phb} class feature or {@feat Ace Pilot|sw5e-phb} feat, grant {@variantrule Expertise|sw5e-phb|expertise} in a skill or tool, letting you double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} with that skill or tool. As usual, you can only gain {@variantrule Expertise|sw5e-phb|expertise} in a skill or tool once.",
 						"Far less common, though still possible, a creature can gain {@variantrule Expertise|sw5e-phb|expertise} in a {@variantrule Saving Throw|sw5e-phb|saving throw}. Creatures cannot gain {@variantrule Expertise|sw5e-phb|expertise} in weapons, however."
@@ -202,7 +202,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Speed|sw5e-phb}",
+			"name": "Speed",
 			"source": "sw5e-phb",
 			"page": 215,
 			"ruleType": "C",
@@ -211,7 +211,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Initiative|sw5e-phb}",
+			"name": "Initiative",
 			"source": "sw5e-phb",
 			"page": 207,
 			"ruleType": "C",
@@ -238,7 +238,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Unarmed Strike|sw5e-phb}",
+			"name": "Unarmed Strike",
 			"source": "sw5e-phb",
 			"page": 221,
 			"ruleType": "C",
@@ -247,7 +247,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Cover|sw5e-phb}",
+			"name": "Cover",
 			"source": "sw5e-phb",
 			"page": 221,
 			"ruleType": "C",
@@ -260,7 +260,7 @@
 				"A target with {@b total cover} can't be targeted directly by an attack or a power, although some powers can reach such a target by including it in an area of effect. A target has {@variantrule Cover|sw5e-phb|total cover} if it is completely concealed by an obstacle.",
 				{
 					"type": "entries",
-					"name": "Variant: Creatures Providing {@variantrule Cover|sw5e-phb}",
+					"name": "Variant: Creatures Providing Cover",
 					"entries": [
 						"Sometimes, creatures in close proximity create a veritable mess of bodies, potentially causing attacks targeting one to hit another. Using this variant, if an attack would miss a creature by an amount less than or equal to the bonus to AC granted by the {@variantrule Cover|sw5e-phb|cover} of another creature, and the attack would hit that other creature, the GM might consider having that other creature take the attack's damage."
 					]
@@ -268,7 +268,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Difficult Terrain|sw5e-phb}",
+			"name": "Difficult Terrain",
 			"source": "sw5e-phb",
 			"page": 215,
 			"ruleType": "C",
@@ -279,7 +279,7 @@
 			]
 		},
 		{
-			"name": "{@variantrule Expertise|sw5e-phb}",
+			"name": "Expertise",
 			"source": "sw5e-phb",
 			"page": 207,
 			"ruleType": "C",
@@ -289,15 +289,132 @@
 			]
 		},
 		{
-			"name": "{@variantrule Concentration|sw5e-phb}",
+			"name": "Concentration",
 			"source": "sw5e-phb",
-			"page": 0,
+			"page": 292,
 			"ruleType": "C",
 			"entries": [
 				"Some powers require you to maintain {@variantrule Concentration|sw5e-phb|concentration} in order to keep their effect active. If you lose {@variantrule Concentration|sw5e-phb|concentration}, such a power ends.",
 				"If a power must be maintained with {@variantrule Concentration|sw5e-phb|concentration}, that fact appears in its Duration entry, and the power specifies how long you can concentrate on it. You can end {@variantrule Concentration|sw5e-phb|concentration} at any time (no action required).",
 				"Normal activity, such as moving and attacking, doesn't interfere with {@variantrule Concentration|sw5e-phb|concentration}. The following factors can break {@variantrule Concentration|sw5e-phb|concentration}:",
 				"The GM might also decide that certain environmental phenomena, such as {@spell Turbulence|sw5e-phb|turbulence} on a ship or rocky terrain on a speeder, require you to succeed on a DC 10 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} to maintain {@variantrule Concentration|sw5e-phb|concentration} on a power."
+			]
+		},
+		{
+			"name": "Acid",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"Vials of corrosive liquid or the {@i acid splash} {@book tech power|sw5e-phb|12|Tech Powers} deal acid damage."
+			]
+		},
+		{
+			"name": "Cold",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"The chill energy of {@spell Carbonite|sw5e-phb|carbonite} and cryogenesis deal cold damage."
+			]
+		},
+		{
+			"name": "Energy",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"Energy damage is the damage dealt by {@filter blaster|items|firearm=true} weapons, {@filter lightweapons|items|type=martial weapon|category=lightweapon}, and other powers or abilities."
+			]
+		},
+		{
+			"name": "Fire",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"The concussive damage of an {@spell Explosion|sw5e-phb|explosion} or an open flame deal fire damage."
+			]
+		},
+		{
+			"name": "Force",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"Certain {@book force powers|sw5e-phb|11|Force Powers} that channel the pure energy of the Force deal force damage."
+			]
+		},
+		{
+			"name": "Ion",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"Ion damage is a special damage type that is most effective against droids and constructs. Simple electronics dealt ion damage are disabled until rebooted, unless that damage would destroy them outright."
+			]
+		},
+		{
+			"name": "Kinetic",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"Kinetic damage encompasses all physical damage commonly dealt by {@filter vibroweapons|items|type=martial weapon}."
+			]
+		},
+		{
+			"name": "Lightning",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"The electrifying energy of the {@i force lightning} power deals lightning damage."
+			]
+		},
+		{
+			"name": "Necrotic",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"Necrotic damage, dealt by powers like {@i death field}, withers matter and even the soul."
+			]
+		},
+		{
+			"name": "Poison",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"Venomous stings and the toxic {@i poison spray} power deal {@item Poison|sw5e-phb|poison} damage."
+			]
+		},
+		{
+			"name": "Psychic",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"The crippling agony caused by powers like {@i feedback} deal psychic damage."
+			]
+		},
+		{
+			"name": "Sonic",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"Debilitating noises cause sonic damage."
+			]
+		},
+		{
+			"name": "True",
+			"source": "sw5e-phb",
+			"page": 242,
+			"ruleType": "DT",
+			"entries": [
+				"True damage is not dealt by any specific source. Instead, effects that prevent or redirect damage cannot be used to counter the loss of life caused by true damage."
 			]
 		}
 	]

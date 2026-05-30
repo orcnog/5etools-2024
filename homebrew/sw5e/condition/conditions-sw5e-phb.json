@@ -17,7 +17,7 @@
 	},
 	"condition": [
 		{
-			"name": "{@condition Blinded|sw5e-phb}",
+			"name": "Blinded",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -25,7 +25,7 @@
 			]
 		},
 		{
-			"name": "{@condition Charmed|sw5e-phb}",
+			"name": "Charmed",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -33,7 +33,7 @@
 			]
 		},
 		{
-			"name": "{@condition Corroded|sw5e-phb}",
+			"name": "Corroded",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -42,7 +42,7 @@
 			]
 		},
 		{
-			"name": "{@condition Deafened|sw5e-phb}",
+			"name": "Deafened",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -50,7 +50,7 @@
 			]
 		},
 		{
-			"name": "{@condition Diseased|sw5e-phb}",
+			"name": "Diseased",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -63,7 +63,7 @@
 			]
 		},
 		{
-			"name": "{@condition Exhaustion|sw5e-phb}",
+			"name": "Exhaustion",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -71,7 +71,7 @@
 			]
 		},
 		{
-			"name": "{@condition Frightened|sw5e-phb}",
+			"name": "Frightened",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -79,7 +79,7 @@
 			]
 		},
 		{
-			"name": "{@condition Grappled|sw5e-phb}",
+			"name": "Grappled",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -87,7 +87,7 @@
 			]
 		},
 		{
-			"name": "{@condition Ignited|sw5e-phb}",
+			"name": "Ignited",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -101,7 +101,7 @@
 			]
 		},
 		{
-			"name": "{@condition Incapacitated|sw5e-phb}",
+			"name": "Incapacitated",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -109,7 +109,7 @@
 			]
 		},
 		{
-			"name": "{@condition Invisible|sw5e-phb}",
+			"name": "Invisible",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -117,7 +117,7 @@
 			]
 		},
 		{
-			"name": "{@condition Paralyzed|sw5e-phb}",
+			"name": "Paralyzed",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -125,7 +125,7 @@
 			]
 		},
 		{
-			"name": "{@condition Petrified|sw5e-phb}",
+			"name": "Petrified",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -133,7 +133,7 @@
 			]
 		},
 		{
-			"name": "{@condition Poisoned|sw5e-phb}",
+			"name": "Poisoned",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -149,7 +149,7 @@
 			]
 		},
 		{
-			"name": "{@condition Restrained|sw5e-phb}",
+			"name": "Restrained",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -157,7 +157,7 @@
 			]
 		},
 		{
-			"name": "{@condition Shocked|sw5e-phb}",
+			"name": "Shocked",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -165,14 +165,14 @@
 			]
 		},
 		{
-			"name": "{@condition Slowed|sw5e-phb}",
+			"name": "Slowed",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
 				"Some abilities, effects, and hazards can lead to a special condition called {@condition Slowed|sw5e-phb|slowed}. {@condition Slowed|sw5e-phb} is measured in four levels. An effect can give a creature one or more levels of {@condition Slowed|sw5e-phb|slowed}, as specified in the effect's description.",
 				{
 					"type": "entries",
-					"name": "{@condition Slowed|sw5e-phb} Level",
+					"name": "Slowed Level",
 					"entries": [
 						{
 							"type": "table",
@@ -210,7 +210,7 @@
 			]
 		},
 		{
-			"name": "{@condition Stunned|sw5e-phb}",
+			"name": "Stunned",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -218,7 +218,7 @@
 			]
 		},
 		{
-			"name": "{@condition Unconscious|sw5e-phb}",
+			"name": "Unconscious",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
@@ -226,7 +226,7 @@
 			]
 		},
 		{
-			"name": "{@condition Weakened|sw5e-phb}",
+			"name": "Weakened",
 			"source": "sw5e-phb",
 			"page": 311,
 			"entries": [
