@@ -276,7 +276,7 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -503,7 +503,7 @@
 					"type": "entries",
 					"name": "Superior Darkvision",
 					"entries": [
-						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 120 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"Your vision can easily cut through darkness. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -617,7 +617,7 @@
 					"type": "entries",
 					"name": "Two Livered",
 					"entries": [
-						"Devaronians have two livers, which makes them adept at filtering toxins. You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@item Poison|sw5e-phb|poison}, and you have {@spell Resistance|sw5e-phb|resistance} against {@item Poison|sw5e-phb|poison} damage (explained in chapter 9)."
+						"Devaronians have two livers, which makes them adept at filtering toxins. You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against poison, and you have resistance against poison damage (explained in chapter 9)."
 					]
 				},
 				{
@@ -711,7 +711,7 @@
 					"type": "entries",
 					"name": "Droid Resistances",
 					"entries": [
-						"You are resistant to necrotic, {@item Poison|sw5e-phb|poison}, and psychic damage, and are immune to {@item Poison|sw5e-phb|poison} and disease."
+						"You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease."
 					]
 				},
 				{
@@ -844,7 +844,7 @@
 					"type": "entries",
 					"name": "Droid Resistances",
 					"entries": [
-						"You are resistant to necrotic, {@item Poison|sw5e-phb|poison}, and psychic damage, and are immune to {@item Poison|sw5e-phb|poison} and disease."
+						"You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease."
 					]
 				},
 				{
@@ -990,7 +990,7 @@
 					"type": "entries",
 					"name": "Droid Resistances",
 					"entries": [
-						"You are resistant to necrotic, {@item Poison|sw5e-phb|poison}, and psychic damage, and are immune to {@item Poison|sw5e-phb|poison} and disease."
+						"You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease."
 					]
 				},
 				{
@@ -1121,7 +1121,7 @@
 					"type": "entries",
 					"name": "Droid Resistances",
 					"entries": [
-						"You are resistant to necrotic, {@item Poison|sw5e-phb|poison}, and psychic damage, and are immune to {@item Poison|sw5e-phb|poison} and disease."
+						"You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease."
 					]
 				},
 				{
@@ -1252,7 +1252,7 @@
 					"type": "entries",
 					"name": "Droid Resistances",
 					"entries": [
-						"You are resistant to necrotic, {@item Poison|sw5e-phb|poison}, and psychic damage, and are immune to {@item Poison|sw5e-phb|poison} and disease."
+						"You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease."
 					]
 				},
 				{
@@ -1376,7 +1376,7 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -1694,7 +1694,7 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -1991,7 +1991,7 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -2026,7 +2026,7 @@
 					"type": "entries",
 					"name": "Tinker",
 					"entries": [
-						"You have proficiency with tinker’s implements. You can use these and spend 1 hour and 100 cr worth of materials to construct a Tiny Device (AC 5, 1 hp). You can take the {@action Use an Object|sw5e-phb} action to have your device cause one of the following effects: create a small {@spell Explosion|sw5e-phb|explosion}, create a repeating loud noise for 1 minute, create smoke for 1 minute, cause a small electrical fire. You can maintain a number of these devices up to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} at once, and a device stops functioning after 24 hours away from you. You can dismantle the device to reclaim the materials used to create it."
+						"You have proficiency with tinker’s implements. You can use these and spend 1 hour and 100 cr worth of materials to construct a Tiny Device (AC 5, 1 hp). You can take the {@action Use an Object|sw5e-phb} action to have your device cause one of the following effects: create a small explosion, create a repeating loud noise for 1 minute, create smoke for 1 minute, cause a small electrical fire. You can maintain a number of these devices up to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} at once, and a device stops functioning after 24 hours away from you. You can dismantle the device to reclaim the materials used to create it."
 					]
 				},
 				{
@@ -2110,7 +2110,7 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your natural evolution allows you to see what others do not in dim and dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can't discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"Your natural evolution allows you to see what others do not in dim and dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -2124,7 +2124,7 @@
 					"type": "entries",
 					"name": "Life in the Void",
 					"entries": [
-						"You have {@spell Resistance|sw5e-phb|resistance} to necrotic damage, and while exposed to the vacuum of space, you can {@optfeature Survive|sw5e-phb|survive} for a number of hours equal to your Constitution modifier (minimum 1 hour), instead of a number of rounds."
+						"You have resistance to necrotic damage, and while exposed to the vacuum of space, you can survive for a number of hours equal to your Constitution modifier (minimum 1 hour), instead of a number of rounds."
 					]
 				},
 				{
@@ -2217,14 +2217,14 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can't discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Mon Calamari Resistance",
 					"entries": [
-						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that grant the {@condition Slowed|sw5e-phb|slowed} condition and you have {@spell Resistance|sw5e-phb|resistance} against cold damage (explained in chapter 9)."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that grant the {@condition Slowed|sw5e-phb|slowed} condition and you have resistance against cold damage (explained in chapter 9)."
 					]
 				},
 				{
@@ -2332,7 +2332,7 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -2438,7 +2438,7 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -2531,7 +2531,7 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -2732,7 +2732,7 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -2952,7 +2952,7 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -2966,7 +2966,7 @@
 					"type": "entries",
 					"name": "Natural Antitoxins",
 					"entries": [
-						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@item Poison|sw5e-phb|poison} and disease, and you have {@spell Resistance|sw5e-phb|resistance} against {@item Poison|sw5e-phb|poison} damage (explained in Chapter 9)."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against poison and disease, and you have resistance against poison damage (explained in Chapter 9)."
 					]
 				},
 				{
@@ -3159,7 +3159,7 @@
 					"type": "entries",
 					"name": "Darkvision",
 					"entries": [
-						"Your vision can easily cut through {@spell Darkness|sw5e-phb|darkness}. You can see in dim light within 60 feet of you as if it were bright light, and in {@spell Darkness|sw5e-phb|darkness} as if it were dim light. You can’t discern color in {@spell Darkness|sw5e-phb|darkness}, only shades of gray."
+						"Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -3415,7 +3415,7 @@
 					"type": "entries",
 					"name": "Society and Culture",
 					"entries": [
-						"On their homeworld, Cathar live in cities built into giant trees, and are organized into clans governed by elders. Stories of their great heroes were often carved into the trunks of these tree-homes for following generations to see. The Cathar mate for life, to the extent that when one mate dies, the survivor never has a relationship with another. Cathar clan society includes great pageants and celebrations, especially for their heroes. Their religion includes a ritual known as the \"Blood Hunt,\" in which Cathar warriors individually engaged in combat against entire nests of Kiltik in order to gain honor and purge themselves of inner {@spell Darkness|sw5e-phb|darkness}. The native language of the Cathar is Catharese, which included the emphasis of some spoken words with a growl."
+						"On their homeworld, Cathar live in cities built into giant trees, and are organized into clans governed by elders. Stories of their great heroes were often carved into the trunks of these tree-homes for following generations to see. The Cathar mate for life, to the extent that when one mate dies, the survivor never has a relationship with another. Cathar clan society includes great pageants and celebrations, especially for their heroes. Their religion includes a ritual known as the \"Blood Hunt,\" in which Cathar warriors individually engaged in combat against entire nests of Kiltik in order to gain honor and purge themselves of inner darkness. The native language of the Cathar is Catharese, which included the emphasis of some spoken words with a growl."
 					]
 				},
 				{
@@ -3489,7 +3489,7 @@
 					"type": "entries",
 					"name": "Society and Culture",
 					"entries": [
-						"Chiss society is highly structured and ordered with the rule of law being enforced by a group of four affiliations known as the Ruling Families: the Csapla, Nuruodo, Inrokini and Sabosen. These are not biological family groupings but instead different branches of their government. Every chiss claims affiliation to one of the four families, as determined by both tradition and place of birth. The family names are more of a cultural holdover; the bloodlines had grown so co-meddled that any chiss could claim affiliation to any of the ruling families. In spite of the outward impression of calm and order that the chiss like to {@spell Project|sw5e-phb|project} to outsiders, there were evidently tensions within the Families; political assassinations are a real part of chiss political life for the Ruling Families."
+						"Chiss society is highly structured and ordered with the rule of law being enforced by a group of four affiliations known as the Ruling Families: the Csapla, Nuruodo, Inrokini and Sabosen. These are not biological family groupings but instead different branches of their government. Every chiss claims affiliation to one of the four families, as determined by both tradition and place of birth. The family names are more of a cultural holdover; the bloodlines had grown so co-meddled that any chiss could claim affiliation to any of the ruling families. In spite of the outward impression of calm and order that the chiss like to project to outsiders, there were evidently tensions within the Families; political assassinations are a real part of chiss political life for the Ruling Families."
 					]
 				},
 				{
@@ -3519,7 +3519,7 @@
 					"type": "entries",
 					"name": "Biology and Appearance",
 					"entries": [
-						"A bipedal mammalian species, Devaronians evolved in the dense jungles of Devaron as a hunter-gather species. Their bodies are denser than most humanoids' and as a result they were heavier than their appearance would tend to indicate. Devaronians have silver-based blood, which appears thick and black when exposed. They possess a unique blood filtration and cleansing system which processes through two livers. Because their bodies are constantly cleansed of toxins and carcinogens, the species is highly resistant to {@item Poison|sw5e-phb|poison}. To this end, sulfur is used as a stimulant on Devaron to enhance {@variantrule Speed|sw5e-phb|speed} and strength, because inhaling it causes the substance to enter the bloodstream rapidly. Their livers struggle to eliminate sulfur from their system, meaning that long-term use can be dangerous."
+						"A bipedal mammalian species, Devaronians evolved in the dense jungles of Devaron as a hunter-gather species. Their bodies are denser than most humanoids' and as a result they were heavier than their appearance would tend to indicate. Devaronians have silver-based blood, which appears thick and black when exposed. They possess a unique blood filtration and cleansing system which processes through two livers. Because their bodies are constantly cleansed of toxins and carcinogens, the species is highly resistant to poison. To this end, sulfur is used as a stimulant on Devaron to enhance {@variantrule Speed|sw5e-phb|speed} and strength, because inhaling it causes the substance to enter the bloodstream rapidly. Their livers struggle to eliminate sulfur from their system, meaning that long-term use can be dangerous."
 					]
 				},
 				{
@@ -3823,7 +3823,7 @@
 					"type": "entries",
 					"name": "Biology and Appearance",
 					"entries": [
-						"Although a typical gamorrean is squat, green, and heavily built, not all shared these characteristics. Most gamorreans have a dark greenish coloration over a large portion of their bodies; however skin coloration does vary, particularly among females, with light skinned and two-toned pigmentation not uncommon. Black, brown, pinkish yellow, and even a rare white pigmentation are possible. Males tended to have less skin variation and had a greater tendency towards dark green skin perhaps because of their higher exposure to the {@spell Radiation|sw5e-phb|radiation} of the Gamorr Star. Eye coloration varied evenly between gold-yellow, blue, black and brown. The gamorreans generally put no importance on skin or eye coloration although there were some superstitions linked to certain markings."
+						"Although a typical gamorrean is squat, green, and heavily built, not all shared these characteristics. Most gamorreans have a dark greenish coloration over a large portion of their bodies; however skin coloration does vary, particularly among females, with light skinned and two-toned pigmentation not uncommon. Black, brown, pinkish yellow, and even a rare white pigmentation are possible. Males tended to have less skin variation and had a greater tendency towards dark green skin perhaps because of their higher exposure to the radiation of the Gamorr Star. Eye coloration varied evenly between gold-yellow, blue, black and brown. The gamorreans generally put no importance on skin or eye coloration although there were some superstitions linked to certain markings."
 					]
 				},
 				{
@@ -4011,7 +4011,7 @@
 					"type": "entries",
 					"name": "Biology and Appearence",
 					"entries": [
-						"Due to Dorin having a unique atmosphere composed of helium and a gas unique to their world, the kel dors are forced to wear an antiox breath mask and protective goggles whenever in atmospheres of a different composition. Without their protective goggles, kel dors were considered effectively blind when away from Dorin. They were also able to {@optfeature Survive|sw5e-phb|survive} in the vacuum of space for a short time, though it was unknown exactly how long they could withstand it.",
+						"Due to Dorin having a unique atmosphere composed of helium and a gas unique to their world, the kel dors are forced to wear an antiox breath mask and protective goggles whenever in atmospheres of a different composition. Without their protective goggles, kel dors were considered effectively blind when away from Dorin. They were also able to survive in the vacuum of space for a short time, though it was unknown exactly how long they could withstand it.",
 						"The kel dors also have heightened reflexes, a result of the extrasensory organs in their heads. They are typically quick and wise."
 					]
 				},
@@ -4132,7 +4132,7 @@
 					"type": "entries",
 					"name": "Society and Culture",
 					"entries": [
-						"Rodian culture is obsessed with violence and death, due to behaviors and practices that are ingrained since their earliest ancestry. Their densely packed jungle homeworld is ill-suited for agriculture, requiring rodians to compete with vicious predators for most of their food, some of which can wipe out entire rodian villages. As the rodians developed cunning hunting tactics to {@optfeature Survive|sw5e-phb|survive}, the hunt became central to their culture. Eventually, having driven most of the other predators on the planet to near extinction, they began to hunt each other in various wars and gladiatorial contests."
+						"Rodian culture is obsessed with violence and death, due to behaviors and practices that are ingrained since their earliest ancestry. Their densely packed jungle homeworld is ill-suited for agriculture, requiring rodians to compete with vicious predators for most of their food, some of which can wipe out entire rodian villages. As the rodians developed cunning hunting tactics to survive, the hunt became central to their culture. Eventually, having driven most of the other predators on the planet to near extinction, they began to hunt each other in various wars and gladiatorial contests."
 					]
 				},
 				{
@@ -4162,7 +4162,7 @@
 					"type": "entries",
 					"name": "Biology and Appearance",
 					"entries": [
-						"Sith are a proud and violent species of humanoids that evolved on Korriban, a planet within the Horuset system in an isolated Outer Rim region called the Stygian Caldera. Sith have a larger than average number of individuals with potential to use the Force in their species, so high in fact that the entire species was considered strongly {@feat Force-Sensitive|sw5e-phb|Force-sensitive}.",
+						"Sith are a proud and violent species of humanoids that evolved on Korriban, a planet within the Horuset system in an isolated Outer Rim region called the Stygian Caldera. Sith have a larger than average number of individuals with potential to use the Force in their species, so high in fact that the entire species was considered strongly Force-sensitive.",
 						"Sith purebloods are characterized by their expressive facial appendages, bone spurs, cranial horns, and predatory gaze."
 					]
 				},

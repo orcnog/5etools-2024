@@ -269,7 +269,7 @@
 						"Increase your Intelligence or Wisdom score by 1, to a maximum of 20.",
 						"You have {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Perception|sw5e-phb}) and Intelligence ({@skill Investigation|sw5e-phb}) checks made to detect the presence of secret doors.",
 						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} made to avoid or resist traps.",
-						"You have {@spell Resistance|sw5e-phb|resistance} to the damage dealt by traps.",
+						"You have resistance to the damage dealt by traps.",
 						"Traveling at a fast pace no longer imposes a -5 penalty to your passive Wisdom ({@skill Perception|sw5e-phb}) score."
 					]
 				}
@@ -280,7 +280,7 @@
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
-				"Hardy and {@feat Resilient|sw5e-phb|resilient}, you gain the following benefits:",
+				"Hardy and resilient, you gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -439,7 +439,7 @@
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
-				"You've dabbled in the basics of the known forms of {@item Lightsaber|sw5e-phb|lightsaber} combat. You gain the following benefits:",
+				"You've dabbled in the basics of the known forms of lightsaber combat. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -698,7 +698,7 @@
 			"source": "sw5e-phb",
 			"page": 185,
 			"entries": [
-				"When you gain this feat, choose one of the following damage types: acid, cold, fire, force, lightning, or necrotic. Powers you cast ignore {@spell Resistance|sw5e-phb|resistance} to damage of the chosen type. In addition, when you roll damage for a power you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.",
+				"When you gain this feat, choose one of the following damage types: acid, cold, fire, force, lightning, or necrotic. Powers you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a power you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.",
 				"You can take this feat multiple times. Each time you do so, you must choose a different damage type."
 			]
 		},
@@ -752,7 +752,7 @@
 					"items": [
 						"Increase your Dexterity score by 1, to a maximum of 20.",
 						"You gain proficiency in the Sleight of Hand skill. If you are already proficient in it, you instead gain {@variantrule Expertise|sw5e-phb|expertise} in it.",
-						"As a {@variantrule Bonus Action|sw5e-phb}, you can make a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check to plant something on someone else, {@optfeature Conceal|sw5e-phb|conceal} an object on a creature, lift a purse, or take something from a pocket."
+						"As a {@variantrule Bonus Action|sw5e-phb}, you can make a Dexterity ({@skill Sleight Of Hand|sw5e-phb}) check to plant something on someone else, conceal an object on a creature, lift a purse, or take something from a pocket."
 					]
 				}
 			]

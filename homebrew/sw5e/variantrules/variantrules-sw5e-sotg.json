@@ -1,0 +1,2891 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-sotg",
+				"abbreviation": "SotG",
+				"full": "SW5e: Starships of the Galaxy",
+				"url": "homebrew/sw5e/book/book-sw5e-sotg.json",
+				"color": "#5577ee",
+				"authors": [],
+				"convertedBy": [
+					"cursor"
+				]
+			}
+		]
+	},
+	"variantrule": [
+		{
+			"name": "Ablative Plating Layer",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You add an ablative coating to your hull, granting your hull resistance to energy damage."
+			]
+		},
+		{
+			"name": "Absorptive Shielding",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You add an absorbtive capacitor to your shield generator, granting your shields resistance to kinetic damage."
+			]
+		},
+		{
+			"name": "Adaptive Ailerons",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"While you are in atmosphere, this modification reduces your turn {@variantrule Speed|sw5e-phb|speed} by 100 feet (min. 50 feet) and grants you a +1 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}."
+			]
+		},
+		{
+			"name": "Alternative Fuel Converter",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship is equipped with an alternative fuel converter which allows the conversion of materials to a potential fuel source. Over the course of 10 minutes, a crewmember can make a Constitution ({@skill Regulation|sw5e-sotg}) check (DC  = 10 or half the number of days since the ship's last refueling, whichever number is higher). On a success, the ship recovers one unit worth of fuel. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes refitting."
+			]
+		},
+		{
+			"name": "Amphibious Systems",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"This modification allows your ship and all of its systems (including weapons) to function underwater.  Your ship gains a swimming {@variantrule Speed|sw5e-phb|speed} equal to half of its normal {@variantrule Speed|sw5e-phb|speed}."
+			]
+		},
+		{
+			"name": "Anti-Boarding System",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"An anti-boarding system is a robust series of blast doors, cameras, and hidden turrets, reinforcing each portal throughout the ship, as well as directly outside each ship entrance. These features are controllable from the cockpit or in the Security Suite (if it exists) by a crewmember. The anti-boarding system comes with its own power backup in case of main system failure. The reinforced doors can be bypassed with a DC 20 Intelligence ({@item Security kit|sw5e-phb|Security Kit}) check."
+			]
+		},
+		{
+			"name": "Armory",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes with storage for weapons and armor to outfit a number of crewmembers equal to twice the ship’s suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table. When installed it comes fully stocked with {@item Blaster pistol|sw5e-phb|blaster pistols}, {@item Blaster rifle|sw5e-phb|blaster rifles}, {@item Techblade|sw5e-phb|techblades}, and vibroblades, as well as combat suits, {@item Mesh armor|sw5e-phb|mesh armor}, {@item Battle armor|sw5e-phb|battle armor}, and light and medium shields. The armory is also equipped with both a key and a code lock. The armory can be accessed with a DC 20 Intelligence ({@item Security kit|sw5e-phb|Security Kit}) check. When the armory is accessed, an alarm sounds in the Bridge and Security Suite (if it exists). If a player rolls a 25 or higher on the Intelligence ({@item Security kit|sw5e-phb|Security Kit}) check to unlock the armory, or has the key or code, the alarm can be bypassed. Additionally, it comes with a number of weapon training simulators equal to one-fourth the ship’s suite capacity by size (minimum of one), as shown in the {@b Starship Size Suite Capacity} table. Lastly, when a creature completes a {@variantrule Long Rest|sw5e-phb|long rest} involving this suite, they gain {@variantrule Advantage|sw5e-phb|advantage} on the first {@variantrule Attack Roll|sw5e-phb|attack roll} they make before the start of their next {@variantrule Long Rest|sw5e-phb|long rest}."
+			]
+		},
+		{
+			"name": "Astromech Socket",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 0",
+				"This system adds space for a single Small or Tiny droid crewmember and allows that crewmember to take the {@variantrule Patch|sw5e-sotg} action as a {@variantrule Bonus Action|sw5e-phb} on their turn.  Additionally, this crewmember can use a {@variantrule Bonus Action|sw5e-phb} to make an Intelligence ({@skill Astrogation|sw5e-sotg}) check. This modification cannot be installed in a ship that already has Co-Pilot Seat installed."
+			]
+		},
+		{
+			"name": "Automated Protocols",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 2",
+				"You upgrade your damage control system. A crewmember can take the {@variantrule Patch|sw5e-sotg} action as a {@variantrule Reaction|sw5e-phb}.  This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes refitting. Additionally, you can add your ship's intelligence modifier (minimum of +1) to whenever you roll hull dice to regain hull points. Finally, your ship is expertly equipped for Constitution ({@skill Patch|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Blinding Rounds",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 0",
+				"When you have {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll} and hit, and the lower of the two {@dice d20} rolls would also hit, or when the target ship has {@variantrule Disadvantage|sw5e-phb|disadvantage} on the {@variantrule Saving Throw|sw5e-phb|saving throw} and fails, and the higher of the two rolls would also fail, you can force the target to make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + the ship's Strength modifier). On a failed save, the ship is {@condition Blinded|sw5e-sotg|blinded} until the start of your next turn. If the damaged ship is larger than your ship, it has {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Saving Throw|sw5e-phb|saving throw}. If the damaged ship is smaller than your ship, it instead has {@variantrule Disadvantage|sw5e-phb|disadvantage}."
+			]
+		},
+		{
+			"name": "Boarding Harpoon",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 2",
+				"Your ship has been further modified with a massive grappling harpoon, through which creatures can pass. Your ship is expertly equipped for Strength ({@skill Ram|sw5e-sotg}) checks. Additionally, when a crewmember takes the Ram action, on a success, the ships become harpooned. While harpooned, your ship and the target ship are {@condition Slowed|sw5e-sotg|slowed} as show in the Harpooned and Harpooning Ships {@condition Slowed|sw5e-sotg} Level tables, below. A crewmember can release the harpooned ship at any time (no action required). The harpooned ship is automatically released if your ship becomes {@condition Disabled|sw5e-sotg|disabled}, or if it is forcefully moved more than 100 feet away from your ship.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Target Ship Size",
+						"Tiny",
+						"Small",
+						"Med.",
+						"Large",
+						"Huge",
+						"Garg."
+					],
+					"colStyles": [
+						"col-4 text-left",
+						"col-4 text-left",
+						"col-4 text-left",
+						"col-4 text-left",
+						"col-4 text-left",
+						"col-4 text-left",
+						"col-4 text-left"
+					],
+					"rows": [
+						[
+							"{@b Tiny}",
+							"3",
+							"4",
+							"4",
+							"4",
+							"4",
+							"4"
+						],
+						[
+							"{@b Small}",
+							"2",
+							"3",
+							"4",
+							"4",
+							"4",
+							"4"
+						],
+						[
+							"{@b Medium}",
+							"1",
+							"2",
+							"3",
+							"4",
+							"4",
+							"4"
+						],
+						[
+							"{@b Large}",
+							"—",
+							"1",
+							"2",
+							"3",
+							"4",
+							"4"
+						],
+						[
+							"{@b Huge}",
+							"—",
+							"—",
+							"1",
+							"2",
+							"3",
+							"4"
+						],
+						[
+							"{@b Gargantuan}",
+							"—",
+							"—",
+							"—",
+							"1",
+							"2",
+							"3"
+						],
+						[
+							"Target Ship Size",
+							"Tiny",
+							"Small",
+							"Med.",
+							"Large",
+							"Huge",
+							"Garg."
+						],
+						[
+							":----:",
+							":----:",
+							":----:",
+							":----:",
+							":----:",
+							":----:",
+							":----:"
+						],
+						[
+							"{@b Tiny}",
+							"2",
+							"1",
+							"—",
+							"—",
+							"—",
+							"—"
+						],
+						[
+							"{@b Small}",
+							"3",
+							"2",
+							"1",
+							"—",
+							"—",
+							"—"
+						],
+						[
+							"{@b Medium}",
+							"4",
+							"3",
+							"2",
+							"1",
+							"—",
+							"—"
+						],
+						[
+							"{@b Large}",
+							"4",
+							"4",
+							"3",
+							"2",
+							"1",
+							"—"
+						],
+						[
+							"{@b Huge}",
+							"4",
+							"4",
+							"4",
+							"3",
+							"2",
+							"1"
+						],
+						[
+							"{@b Gargantuan}",
+							"4",
+							"4",
+							"4",
+							"4",
+							"3",
+							"2"
+						]
+					]
+				},
+				"{@b {@i Removing the Harpoon.}} A crewmember at the helm of the harpooned ship can use its action to make a contested Strength ({@skill Boost|sw5e-sotg}) check, ending the effect on a success. {@b {@i Moving a Harpooned Ship.}} When your ship moves, it can drag the harpooned ship with it. {@b {@i Boarding a Harpooned Ship.}} While the ship is harpooned, up to six creatures of Medium size or smaller can move through the gap onto the harpooned ship each round. {@b {@i Recovering the Harpoon.}} Recovering and reinstalling the harpoon takes 1 minute."
+			]
+		},
+		{
+			"name": "Boarding Pods",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite adds boarding pods to your ship. Boarding pods are designed to be fired at a ship, burrow into the ship's hull, and inject host droids to overcome the target ship. Each boarding pod can support ten Medium or smaller droids. The quantity of boarding pods is equal to one-hundredth of the ship's suite capacity, as shown in the {@b Starship Size Suite Capacity} table. Boarding pods are Small size and have a flying {@variantrule Speed|sw5e-phb|speed} of 200 feet, a turning {@variantrule Speed|sw5e-phb|speed} of 100 feet, an AC of 12, and 10 hull points. Boarding pods do not have weapons, but can take the Ram action. The DC for the {@variantrule Saving Throw|sw5e-phb|saving throw} is 12, and the target has {@variantrule Disadvantage|sw5e-phb|disadvantage}. On a failure, the ship takes 2d4 kinetic damage, and the pod burrows into the ship's hull, releasing its contents on the target ship."
+			]
+		},
+		{
+			"name": "Broadside Mounting",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 0",
+				"The Broadside Mounting is a modification to two Hardpoints that grants an additional limited firing arc to each hardpoint, as described in chapter 9.  The hardpoints must share at least 1 limited firing arc, and the two firing arcs of a hardpoint need not be adjacent."
+			]
+		},
+		{
+			"name": "Buzz Droid Cloud",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 2",
+				"As an action, a crewmember may scatter a large number of Buzz Droids across space in a 200-foot radius sphere centered on a point within 1500 feet. These Buzz Droids tear apart the hull of any ship that encounters them. The area becomes {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} for up to a number of minutes equal to you ship's tier. When a ship moves into or within the area, it takes 2d4 kinetic damage directly to the hull for every 50 feet it travels. The Buzz Droids are nearly {@condition Invisible|sw5e-sotg|invisible} in the darkness of space. Any creature or ship that can’t see the area at the time the area is created must make a Wisdom ({@skill Scan|sw5e-sotg}) check (DC 15) to notice the Buzz Droids before entering the area. The effects of this feature last until the beginning of your next turn unless the crewmember uses a {@variantrule Bonus Action|sw5e-phb} to maintain it. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship is refitted."
+			]
+		},
+		{
+			"name": "Carbonite Launcher, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 1",
+				"As an action, a crewmember may cause a wave of cold energy to spread out from your ship. Each ship in a 150-foot cone must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's wisdom modifier). On a failed save, a ship takes 2d6 cold damage and gains a level of {@condition Slowed|sw5e-sotg|slowed} until the end of its next turn. On a success, it takes half as much damage, and suffers no additional effect. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Carbonite Launcher, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 2",
+				"As an action, a crewmember may cause an explosion of cold energy to erupt from a point it chooses within 900 feet. Each ship in a 50-foot-radius sphere centered on that point must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's wisdom modifier). On a failed save, a ship takes 3d6 cold damage, and gains 1 {@condition Slowed|sw5e-sotg} Level until the start of your next turn. On a successful save, a ship takes half as much damage and isn’t {@condition Slowed|sw5e-sotg|slowed}. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Carbonite Launcher, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 3",
+				"A storm of cryogenic energy encompasses space in a 300-foot-radius sphere centered on a point within 1200 feet. Each ship in the sphere must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's wisdom modifier). A creature takes 2d8 kinetic damage and 4d6 cold damage on a failed save, or half as much damage on a successful one. The storm’s area of effect becomes {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} until the end of your next turn. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Carbonite Launcher, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 4",
+				"As an action, your ship can create a cloud of icy fog in a 200-foot-radius sphere centered on a point within 1200 feet. The sphere extends around objects, and its area is heavily obscured. The fog is semi-solid, and its area is considered {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}. Each ship that enters the area for the first time on a turn or starts its turn there takes 4d6 cold damage and gains 1 {@condition Slowed|sw5e-sotg} Level until the end of its turn. The fog lasts for a number of rounds equal to your ship's tier (minimum of one) or until it’s dispersed. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Carbonite Launcher, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 5",
+				"As an action, a crewmember may generate an explosion of cryogenic energy in a 600-foot-radius sphere centered on a point you can see within 2500 feet. Each ship in the affected area must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's iwisdom modifier). On a failed save, the ship takes 8d6 + 20 cold damage and is {@condition Stunned|sw5e-sotg|stunned} for 1 minute as it is encased in carbonite. On a successful save, the ship takes half damage and is {@condition Stunned|sw5e-sotg|stunned} until the end of its next turn. As an action, a crewmember of a {@condition Stunned|sw5e-sotg|stunned} ship can make a Strength check (DC = 8 + prof. bonus + ship's wisdom modifier), ending this effect on itself on a success. A ship reduced to 0 hull points by this power explodes instantly, as its hull shatters into frozen chunks. This feature can be used once. All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Casino",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite offers all of the necessary implements, including furniture and customized chips, to run a gambling institution. In order to operate, the casino requires a number of crewmembers, equal to one-tenth the ship's suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table. A casino can comfortably host a number of guests equal to half the ship's suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table. At the end of each gaming day, the GM can roll a {@dice d20} to determine whether and how much the casino makes or loses money. The amount the casino makes or loses depends on the ship's size:",
+				{
+					"type": "table",
+					"colLabels": [
+						"{@dice d20} Roll",
+						"Large",
+						"Huge",
+						"Garagntuan"
+					],
+					"colStyles": [
+						"col-4 text-left",
+						"col-4 text-left",
+						"col-4 text-left",
+						"col-4 text-left"
+					],
+					"rows": [
+						[
+							"20",
+							"15,000 cr",
+							"150,000 cr",
+							"1,500,000 cr"
+						],
+						[
+							"16-19",
+							"7,200 cr",
+							"72,000 cr",
+							"720,000 cr"
+						],
+						[
+							"12-15",
+							"3,500 cr",
+							"35,000 cr",
+							"350,000 cr"
+						],
+						[
+							"8-11",
+							"1,000 cr",
+							"10,000 cr",
+							"100,000 cr"
+						],
+						[
+							"4-7",
+							"0 cr",
+							"0 cr",
+							"0 cr"
+						],
+						[
+							"2-3",
+							"-4,800 cr",
+							"-48,000 cr",
+							"-480,000 cr"
+						],
+						[
+							"1",
+							"-9,000 cr",
+							"-90,000 cr",
+							"-900,000 cr"
+						]
+					]
+				},
+				"These amounts include the wages of the employees."
+			]
+		},
+		{
+			"name": "Central Computer, Makeshift",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You install a central computer, complete with artificial intelligence, in your ship. Your ship gains the ability to take one action of its own on it's turn: it can take any action granted by a modification. The artificial intelligence has a {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} of +2. Additionally, your ship can move itself based on a pre-selected destination, avoiding obstacles, outside of combat conditions."
+			]
+		},
+		{
+			"name": "Central Computer, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You improve your ship's central computer. Your ship can now take bonus actions granted by modifications.  Additionally, your ship can now take any standard action except the Fire and Helm actions. Finally, your ship gains {@variantrule Advantage|sw5e-phb|advantage} on Intelligence ({@skill Astrogation|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Central Computer, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You further improve your ship's central computer. Your artificial intelligence's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} increases to 3. Additionally, your ship can now take reactions granted by modifications and can take the {@variantrule Fire|sw5e-sotg} action with ship weapons.  It is proficient in ship weapons.  It is still limited to one action per turn."
+			]
+		},
+		{
+			"name": "Central Computer, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You greatly improve your ship's central computer. Your artificial intelligence's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} increases to 4. Additionally, your artificial intelligence gains proficiency in {@skill Piloting|sw5e-phb}, can move the ship during combat conditions, and can take the {@variantrule Helm|sw5e-sotg} action if at the helm."
+			]
+		},
+		{
+			"name": "Central Computer, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 4",
+				"You massively improve your ship's central computer. Your artificial intelligence's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} increases to 5. Additionally, when your artificial intelligence takes the Interfere action, it has {@variantrule Advantage|sw5e-phb|advantage} on the Charisma ({@skill Interfere|sw5e-sotg}) check."
+			]
+		},
+		{
+			"name": "Central Computer, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 5",
+				"You ship's central computer has reached its maximum potential. Your artificial intelligence's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} increases to 6. Additionally, it gains {@variantrule Expertise|sw5e-phb|expertise} in {@skill Piloting|sw5e-phb}."
+			]
+		},
+		{
+			"name": "Cloaking Device",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 5",
+				"{@b {@i Modification Grade} 5} This system adds an additional stealth function to your ship, adding a true cloaking device. As an action, your ship and everything within it is {@condition Invisible|sw5e-sotg|invisible} for one minute.  The invisibility ends if your ship fires it's weapons, or otherwise takes a hostile action. Additionally, when your ship makes a Dexterity ({@skill Hide|sw5e-sotg}) check while your cloaking device is active, it has {@variantrule Advantage|sw5e-phb|advantage} on the roll. If your ship already has {@variantrule Advantage|sw5e-phb|advantage} on the roll, you can instead reroll one of the dice once. This feature can be used a number of times equal to your ship’s tier (a minimum of once). All expended uses are regained when the ship undergoes refitting."
+			]
+		},
+		{
+			"name": "Cloaking Field",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 5",
+				"{@b {@i Modification Grade{@b  5{@i  }}Prerequisite:} {@skill Stealth|sw5e-phb} Field and Cloaking Device} This system improves the cloaking function of your ship, extending its range. While your Cloaking Device is active, each starship you choose within 300 feet of your ship also becomes {@condition Invisible|sw5e-sotg|invisible} and gains the other effects of the device."
+			]
+		},
+		{
+			"name": "Co-pilot Seat",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You integrate a co-pilot seat in your ship. Your ship's maximum crew capacity increases by 1. This modification cannot be installed in a ship that already has Astromech Socket installed."
+			]
+		},
+		{
+			"name": "Combat Thrusters, Makeshift",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"Your ship’s turning {@variantrule Speed|sw5e-phb|speed} decreases by 50 feet and flying {@variantrule Speed|sw5e-phb|speed} decreases by 50 feet."
+			]
+		},
+		{
+			"name": "Combat Thrusters, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"{@b {@i Prerequisite:} Dexterity 9} Your ship’s turning {@variantrule Speed|sw5e-phb|speed} decreases by 50 feet."
+			]
+		},
+		{
+			"name": "Combat Thrusters, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"{@b {@i Prerequisite:} Dexterity 11, Combat Thrusters, Mk I} Your ship’s turning {@variantrule Speed|sw5e-phb|speed} decreases by 50 feet."
+			]
+		},
+		{
+			"name": "Combat Thrusters, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"{@b {@i Prerequisite:} Dexterity 13, Combat Thrusters, Mk II} Your ship’s turning {@variantrule Speed|sw5e-phb|speed} decreases by 50 feet."
+			]
+		},
+		{
+			"name": "Combat Thrusters, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 4",
+				"{@b {@i Prerequisite:} Dexterity 15, Combat Thrusters, Mk III} Your ship’s turning {@variantrule Speed|sw5e-phb|speed} decreases by 50 feet."
+			]
+		},
+		{
+			"name": "Combat Thrusters, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 5",
+				"{@b {@i Prerequisite:} Dexterity 17, Combat Thrusters, Mk IV} Your ship’s turning {@variantrule Speed|sw5e-phb|speed} decreases by 50 feet."
+			]
+		},
+		{
+			"name": "Command Center",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite creates a separate command center designed to give a comprehensive view of the area surrounding the ship. When a crewmember deployed in a command center takes the Direct action, they can target an additional ally.  This ability can only be used once per ship turn."
+			]
+		},
+		{
+			"name": "Comms Package, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 1",
+				"{@b {@i Modification Grade} 1} This modification augments the native communications on your ship. crewmembers can now communicate in real time with any planets, space stations, and starships in the same sector as you as long as they are similarly equipped. Finally, your ship is proficiently equipped for Intelligence ({@skill Data|sw5e-sotg}) checks. If your ship is already proficiently equipped, it is instead considered expertly equipped."
+			]
+		},
+		{
+			"name": "Comms Package, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 2",
+				"{@b {@i Modification Grade{@b  2{@i  }}Prerequisite:} Comms Package, Mk I} This modification improves the native communications on your ship. crewmembers can now communicate in real time with any planets, space stations, and starships in the same region as you as long as they are similarly equipped. Additionally, when your ship sends out communications, those communications can be encrypted, only understandable by recipients with the cipher. A crewmember can encrypt communications by making an Intelligence ({@skill Data|sw5e-sotg}) check, setting the decrypt DC. Your ship can also decode encrypted communications within your communications range by spending 1 minute to detect and decode communications. If any communications are intercepted, a crewmember can decrypt the message by using the correct cipher if they know it or by making an Intelligence ({@skill Data|sw5e-sotg}) check against the decrypt DC of the intercepted message. On a success, they decrypt the message. On a failure, they do not decrypt the {@spell Encrypted Message|sw5e-phb|encrypted message}, and can’t attempt to do so on the same target again for one day. Finally, your ship is expertly equipped for Intelligence ({@skill Data|sw5e-sotg}) checks. If your ship is already proficiently equipped, it is instead has {@variantrule Advantage|sw5e-phb|advantage} on Intelligence ({@skill Data|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Comms Package, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 3",
+				"{@b {@i Modification Grade{@b  3{@i  }}Prerequisite:} Comms Package, Mk II} This modification massively improves the native communications on your ship. crewmembers can now communicate in real time with any planets, space stations, and starships anywhere in the known galaxy as long as they are similarly equipped. Additionally, your ship has {@variantrule Advantage|sw5e-phb|advantage} on Intelligence ({@skill Data|sw5e-sotg}) checks. If they already have {@variantrule Advantage|sw5e-phb|advantage} on the roll, they can instead reroll one of the dice once."
+			]
+		},
+		{
+			"name": "Communications Suppressor, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 1",
+				"{@b {@i Modification Grade} 1} This modification adds a device designed to suppress the communications of a space station or starship within 1,000 feet of your ship. As an action, a crewmember can attempt to suppress the target’s communications by forcing them to succeed at a Charisma {@variantrule Saving Throw|sw5e-phb|saving throw} (DC equal to 8 + your Charisma ({@skill Interfere|sw5e-sotg}) bonus). On a failure, the target’s communications are suppressed for 1 hour, preventing any communication to or from external sources. On a success, they become immune to this feature for one day. Additionally, your ship is proficiently equipped for Charisma ({@skill Interfere|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Communications Suppressor, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 2",
+				"{@b {@i Modification Grade{@b  2{@i  }}Prerequisite:} Communications Suppressor, Mk I} This modification improves the communications suppressor. Your ship can now attempt to suppress the communications of a single target on a planet, a space station, or a starship within 1,000 feet of your ship or the communications of a space station or starship within 1 mile. Additionally, your ship is expertly equipped for Charisma ({@skill Interfere|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Communications Suppressor, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 3",
+				"{@b {@i Modification Grade{@b  3{@i  }}Prerequisite:} Communications Suppressor, Mk II} This modification massively improves the suppressor on your ship. Your ship can now attempt to suppress the communications of a single target on a planet, a space station, or a starship within 1 mile of your ship or the communications of a space station or starship within 10 miles. Additionally, your ship has {@variantrule Advantage|sw5e-phb|advantage} on Charisma ({@skill Interfere|sw5e-sotg}) checks. If they already have {@variantrule Advantage|sw5e-phb|advantage} on the roll, they can instead reroll one of the dice once."
+			]
+		},
+		{
+			"name": "Countermeasures",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"This modification adds a series of {@spell Countermeasures|sw5e-phb|countermeasures} to the ship, granting it a more active approach to ward off effects. Once per round, when your ship is forced to make a {@variantrule Saving Throw|sw5e-phb|saving throw} against an effect that would cause it to be {@condition Blinded|sw5e-sotg|blinded}, {@condition Ionized|sw5e-sotg|ionized}, {@condition Shocked|sw5e-sotg|shocked}, {@condition Stalled|sw5e-sotg|stalled}, {@condition Stunned|sw5e-sotg|stunned}, or {@condition Tractored|sw5e-sotg|tractored} a crewmember can use their {@variantrule Reaction|sw5e-phb} to add the ship's Wisdom modifier to the roll (minimum of +1)."
+			]
+		},
+		{
+			"name": "Crew Expansion",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"You integrate an additional seating arrangement in your ship. Your ship's maximum crew capacity increases by an amount equal to the ship's suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table."
+			]
+		},
+		{
+			"name": "Cryogenic Capacitor, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You install high-efficiency reserve {@item Power cell|sw5e-phb|power cells} giving your ship the ability to better meet peak power demands.  Your ship is proficiently equipped for Strength ({@skill Boost|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Cryogenic Capacitor, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You improve your ship's reserve {@item Power cell|sw5e-phb|power cells}.  Your ship is expertly equipped for Strength ({@skill Boost|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Damage Control System",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"You install a damage control system on your ship.  A crewmember can take the {@variantrule Patch|sw5e-sotg} action as a {@variantrule Bonus Action|sw5e-phb}.  This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes refitting. Additionally, your ship is proficiently equipped for Constitution ({@skill Patch|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Data Core, Makeshift",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You improve your ship's Data Core, at a cost. Your ship's Intelligence score increases by 1. One ability score other than Intelligence (chosen by the GM) decreases by 1. As normal, you can't increase your ship's Intelligence score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Data Core, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You improve your ship's Data Core. Your ship's Intelligence score increases by 1. As normal, you can't increase your ship's Intelligence score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Data Core, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You further improve your ship's Data Core. Your ship's Intelligence score increases by 1. As normal, you can't increase your ship's Intelligence score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Data Core, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You greatly improve your ship's Data Core. Your ship's Intelligence score increases by 1. As normal, you can't increase your ship's Intelligence score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Data Core, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 4",
+				"You massively improve your ship's Data Core. Your ship's Intelligence score increases by 1. As normal, you can't increase your ship's Intelligence score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Data Core, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 5",
+				"Your ship's Data Core has reached it's maximum potential. Your ship's Intelligence score increases by 2. Your ship's maximum for this score increases by 2."
+			]
+		},
+		{
+			"name": "Direct Controller",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 0",
+				"You have installed a dedicated gunner station at or about the hardpoint.  A crewmember deployed at this station can use their Dexterity modifier instead of the ship's Wisdom modifier for the {@variantrule Attack Roll|sw5e-phb|attack rolls} or save DCs of the chosen weapon."
+			]
+		},
+		{
+			"name": "Disguised Features",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You modify your ship to more easily disguise and/or hide installed modifications and equipment. Your ship is proficiently equipped for Charisma ({@skill Swindle|sw5e-sotg}) checks. If your ship is already proficiently equipped, it is instead considered expertly equipped."
+			]
+		},
+		{
+			"name": "Docking Bay",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes equipped with an integrated {@item Mechanic's kit|sw5e-phb|mechanic's kit} and has space for all of the necessary equipment to launch, receive, repair, rearm, and house another starship. The size it can house varies depending on the ship's size.",
+				"Alternatively, this suite can house multiple ships of smaller size. A Huge ship takes up the space of 10 Large ships, which in turn takes up the place of 10 Medium ships. One Medium ship takes up the space of five Small ships, which in turn takes up the space of two Tiny ships. You can also replace a ship with a droid or construct of four size categories larger.  Up to two docking bays can be combined to combine their storage capacity. Over the course of 1 minute, a crewmember at the helm can launch or dock in the docking bay.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Medium:} A Medium docking bay can house one Tiny ship.",
+						"{@b Large:} A Large docking bay can house two Medium ships.",
+						"{@b Huge:} A Huge docking bay can house one Large ship.",
+						"{@b Gargantuan:} A Gargantuan docking bay can house one Huge ship."
+					]
+				}
+			]
+		},
+		{
+			"name": "Docking Bay, Rapid Launch",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite has space for all of the necessary equipment to launch and house other starships. The amount it can house varies depending on the ship's size.",
+				"Alternatively, this suite can house multiple ships of smaller size. A Large ship takes up the space of 10 Medium ships, which in turn takes up the place of five Small ships, which in turn takes up the space of two Tiny ships. You can also replace a ship with a droid or construct of four size categories larger. A crewmember at the helm of their ship can launch their ship from the rapid launch bay as an action.  A launched ship cannot be received by a rapid launch bay, and must instead be received in a docking bay of the same ship.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Large:} A Large rapid launch bay can house five small ships.",
+						"{@b Huge:} A Huge rapid launch bay can house five Medium ships.",
+						"{@b Gargantuan:} A Gargantuan rapid launch bay can house five Large ships."
+					]
+				}
+			]
+		},
+		{
+			"name": "Droid Brain, Makeshift",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You install a droid brain that can singularly control your starship. Your starship's maximum and minimum crew requirement become 0, and your starship cannot benefit from features that would increase or decrease it's crew capacity. The droid brain controls all aspects of the ship, instead. The droid brain has a {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} of +2, and proficiency in {@skill Piloting|sw5e-phb}. In combat, the droid brain rolls its own {@variantrule Initiative|sw5e-phb|initiative}, to which it gains no bonus.  The droid brain can cause the ship to move and can take bonus actions and reactions, but cannot take any actions."
+			]
+		},
+		{
+			"name": "Droid Brain, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You improve your ship's droid brain. The number of actions it can take each turn increases:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Tiny or Small:} A Tiny or Small ship can take a number of actions equal to half its {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} (rounded up).",
+						"{@b Medium:} A Medium ship can take a number of actions equal to its {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Droid Brain, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You further improve your ship's droid brain. Your droid brain's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} increases to 3. Additionally, your ship's droid brain has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Initiative|sw5e-phb|initiative} rolls."
+			]
+		},
+		{
+			"name": "Droid Brain, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You greatly improve your ship's droid brain. Your droid brain's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} increases to 4. Additionally, it gains a rank in a Deployment of your choice."
+			]
+		},
+		{
+			"name": "Droid Brain, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 4",
+				"You massively improve your ship's droid brain. Your droid brain's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} increases to 5. Additionally, your droid brain has {@variantrule Expertise|sw5e-phb|expertise} in {@skill Piloting|sw5e-phb}."
+			]
+		},
+		{
+			"name": "Droid Brain, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 5",
+				"Your ship's droid brain has reached its maximum potential. Your droid brain's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} increases to 6. Additionally, it gains a rank in a Deployment of your choice."
+			]
+		},
+		{
+			"name": "Droid Storage",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite offers a single room featuring tightly-packed racks suitable for storing and housing a number of Medium droids equal to four times the ship's suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table. Alternatively, this suite can house droids of other sizes. A Huge droid takes up the space of two Large droids, which in turn takes up the place of two Medium droids, and so on."
+			]
+		},
+		{
+			"name": "Ejection Pod",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You integrate an ejection pod in your ship's cockpit. When your ship is reduced to 0 hull points but not destroyed outright, you can use your {@variantrule Reaction|sw5e-phb} to eject the pod from the ship. The pod includes emergency rations and supplies that can support a number of creatures equal to your maximum crew capacity for 1 day, in both hot and cold climates, as described in {@book chapter 5|sw5e-phb|5} of the Dungeon Master's Guide. The pod is Tiny size and has a flying {@variantrule Speed|sw5e-phb|speed} of 150 feet, a turning {@variantrule Speed|sw5e-phb|speed} of 50 feet, an AC of 10, and 5 hull points. The pod includes one unit of fuel."
+			]
+		},
+		{
+			"name": "Electrical Dischargers",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"As an action a crewmember may cause your ship to emit a burst of electricity. Each ship within 150 feet, other than you, must succeed on a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's strength modifier) or take 1d6 lightning damage. This power’s damage increases by 1d6 for every tier your ship is above first tier: 2nd tier (2d6), 3rd tier (3d6), 4th tier (4d6), and 5th tier (5d6). This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Electromagnetic Scrambler, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 1",
+				"As an action, a crewmember can cause a ship you can see within 300 feet to become shrouded with electronic interference and holographic illusions. The target must succeed on a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's charisma modifier), or it takes 1d6 lightning damage and moves 50 feet in a random direction if it can move and its {@variantrule Speed|sw5e-phb|speed} is at least 50 feet. Roll a {@dice d4} for the direction: 1, north; 2, south; 3, east; or 4, west. If the direction rolled is blocked, the target doesn’t move. This power’s damage increases by 1d6 for every tier your ship is above first tier: 2nd tier (2d6), 3rd tier (3d6), 4th tier (4d6), and 5th tier (5d6). This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Electromagnetic Scrambler, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 2",
+				"As an action, a crewmember may choose up to three ships that you can see within 300 feet to make Wisdom {@variantrule Saving Throw|sw5e-phb|saving throws} (DC = 8 + prof. bonus + ship's charisma modifier). The first time each turn a target that fails this {@variantrule Saving Throw|sw5e-phb|saving throw} makes an {@variantrule Attack Roll|sw5e-phb|attack roll} or a {@variantrule Saving Throw|sw5e-phb|saving throw} for up to a minute until the ability ends, the target must roll a {@dice d4} and subtract the number rolled from the {@variantrule Attack Roll|sw5e-phb|attack roll} or {@variantrule Saving Throw|sw5e-phb|saving throw}. The effects of this feature last until the beginning of your next turn unless the crewmember uses a {@variantrule Bonus Action|sw5e-phb} to maintain it. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Electromagnetic Scrambler, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 3",
+				"As an action, a crewmember may choose one ship you can see within 1200 feet and scramble its ability to differentiate targets. The target must make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's charisma modifier). If the ship is directly piloted by a humanoid that is not {@condition Incapacitated|sw5e-phb|incapacitated}, it gains a bonus to the {@variantrule Saving Throw|sw5e-phb|saving throw} equal to that crewmember’s Intelligence modifier. On a failed save, the target loses the ability to distinguish friend from foe, regarding all ships it can see as enemies for up to one minute until the power ends. Each time the target takes damage, it can repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on itself on a success. Whenever the affected ship chooses another target, it must choose the target at random from among the ships it can see within range of the attack, power, or other ability it’s using. The effects of this feature last until the beginning of your next turn unless the crewmember uses a {@variantrule Bonus Action|sw5e-phb} to maintain it. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Electromagnetic Scrambler, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 4",
+				"As an action, a crewmember may scramble the targeting protocols of nearby ships. Each ship in a 300-foot-radius sphere centered on a point within 1200 feet must make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's charisma modifier).  If the ship is directly piloted by a humanoid that is not {@condition Incapacitated|sw5e-phb|incapacitated}, it gains a bonus to the {@variantrule Saving Throw|sw5e-phb|saving throw} equal to that crewmember’s Intelligence modifier. On a failed save, the target loses the ability to distinguish friend from foe, regarding all creatures it can see as enemies up to a minute, until the ability ends. Each time the target takes damage, it can repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on itself on a success. Whenever the affected ship chooses another target, it must choose the target at random from among the ships it can see within range of the attack, power, or other ability it's using. The effects of this feature last until the beginning of your next turn unless the crewmember uses a {@variantrule Bonus Action|sw5e-phb} to maintain it. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Electromagnetic Scrambler, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 5",
+				"You emit an electromagnetic pulse, potentially shutting down all ships besides your own within 1200 feet. Ships within range must succeed on a Wisdom (DC = 8 + prof. bonus + ship's charisma modifier) or become {@condition Disabled|sw5e-sotg|disabled} up to a minute or until the power ends. Each time the target takes damage, it makes a new Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} against the power. If the {@variantrule Saving Throw|sw5e-phb|saving throw} succeeds, the power ends. The effects of this feature last until the beginning of your next turn unless the crewmember uses a {@variantrule Bonus Action|sw5e-phb} to maintain it. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Electronic Baffle",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 0",
+				"When your ship would become {@condition Ionized|sw5e-sotg|ionized}, {@condition Shocked|sw5e-sotg|shocked}, or {@condition Stunned|sw5e-sotg|stunned}, a crewmember can use their {@variantrule Reaction|sw5e-phb} to roll one hull die and suffer damage to the hull equal to the amount rolled in order to ignore the triggering condition. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes refitting."
+			]
+		},
+		{
+			"name": "Emergency Generator",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship is equipped with an emergency generator to recharge shields. When your ship is reduced to 0 shield points but not destroyed outright, a crewmember can use their {@variantrule Reaction|sw5e-phb} to have it drop to 1 shield point instead. Alternatively, if the ship has 0 shield points, a crewmember can use their action to restore shield points equal to twice the ship's strength modifier. Once either feature has been used, the emergency generator can't be used again until the ship recharges."
+			]
+		},
+		{
+			"name": "EMP Device",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 0",
+				"This modification adds a reusable EMP device to disable nearby electronics.  As an action, a crewmember can activate the device.  Each ship, within 100 feet must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + the crewmember's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + the ship's Strength modifier). On a failed save, a ship is {@condition Stunned|sw5e-sotg|stunned} for 1 minute. As an action on each of the ship's turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success.  You ship automatically fails the initial {@variantrule Saving Throw|sw5e-phb|saving throw}, but has {@variantrule Advantage|sw5e-phb|advantage} on subsequent {@variantrule Saving Throw|sw5e-phb|saving throws} against this effect. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Equipment Room",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite adds an equipment room, adding 4 modification slots to your base modification capacity."
+			]
+		},
+		{
+			"name": "Escape Pods",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite adds escape pods to your ship. Each escape pod comes equipped with 5 units of fuel and emergency rations and supplies that can support four crewmembers for 5 days, in both hot and cold climates, as described in {@book chapter 5|sw5e-phb|5} of the Dungeon Master’s Guide. The quantity of escape pods is equal to one-fourth the ship’s suite capacity, as shown in the {@b Starship Size Suite Capacity} table. All expended escape pods are replaced when the ship undergoes refitting."
+			]
+		},
+		{
+			"name": "Escape Pods, Hyperspace Capable",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 3",
+				"This suite adds escape pods to your ship. Each escape pod comes equipped with a Class 15 hyperdrive, 5 units of fuel, and emergency rations and supplies that can support four crewmembers for 5 days, in both hot and cold climates, as described in {@book chapter 5|sw5e-phb|5} of the Dungeon Master’s Guide. The quantity of escape pods is equal to one-fourth the ship’s suite capacity, as shown in the {@b Starship Size Suite Capacity} table. All expended escape pods are replaced when the ship undergoes refitting."
+			]
+		},
+		{
+			"name": "Expanded Payload",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 0",
+				"The reload value of the chosen weapon increases by half."
+			]
+		},
+		{
+			"name": "Explosive Payload",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 0",
+				"When a ship fails a {@variantrule Saving Throw|sw5e-phb|saving throw} against the chosen weapon and another ship is within 50 feet of it, the second ship must also make the {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the second ship takes damage equal to your ship's Strength modifier. The damage is of the same type dealt by the original attack."
+			]
+		},
+		{
+			"name": "External Docking System",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"Your ship is equipped with an airlock and couplers designed to attach and connect to one ship of a size one category smaller than your ship. As an action, a crewmember can engage or disengage the external docking system. While a ship is coupled to your ship, the ships can share primary systems as appropriate, and creatures can transfer between ships readily. If at least one external docking system is occupied by at least one ship, your ship’s flying {@variantrule Speed|sw5e-phb|speed} decreases by 50 feet (to a minimum of 50 feet), its turning {@variantrule Speed|sw5e-phb|speed} increases by 50 feet, and its hyperdrive is considered one class greater (to a maximum of Class 20) for determining travel time in hyperspace. Alternatively, this suite can accommodate multiple ships of smaller size. A Huge ship takes up the space of 10 Large ships, which in turn takes up the place of 10 Medium ships. One Medium ship takes up the space of five Small ships, which in turn takes up the space of two Tiny ships. You can also substitute a Huge or Gargantuan droid/construct for a Tiny or Small ship, respectively."
+			]
+		},
+		{
+			"name": "Extra Fuel Tank",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"This tank adds fuel capacity to your ship equal to half of your ship's normal fuel capacity."
+			]
+		},
+		{
+			"name": "Feedback Shield",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship's shield is enhanced to reflect damage to would-be attackers. As a {@variantrule Reaction|sw5e-phb} to the ship being hit with a primary or secondary weapon, a crewmember can use their {@variantrule Reaction|sw5e-phb} to deal damage to the attacking ship. The damage depends on your ship's size: 1d4 for a Tiny ship, 1d6 for a Small ship, 1d8 for a Medium ship, 1d10 for a Large ship, 1d12 for a Huge ship, or 1d20 for a Gargantuan ship. The damage is of the same type dealt by the original attack."
+			]
+		},
+		{
+			"name": "Fire-Linked Mounting",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 0",
+				"The Fire-Linked Mounting is a modification to a Hardpoint that allows a primary weapon with no constitution requirement to synchronize it's fire with another identical primary weapon having no constitution requirement. When you Fire a primary weapon equipped to this hardpoint, you can use an object interaction to link an eligible weapon and a {@variantrule Bonus Action|sw5e-phb} to Fire the linked weapon in the same firing arc if it has not yet been Fired this round. You don't add the ship's ability modifier to the damage roll of the bonus attack, unless that modifier is negative. A weapon that has been Fired using your {@variantrule Bonus Action|sw5e-phb} in this way cannot be Fired again this round."
+			]
+		},
+		{
+			"name": "Fire-linked Primer",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 1",
+				"{@b {@i Prerequisite:}} {@i Fire-Linked Mounting} When you make a bonus attack with a weapon equipped to this mounting, you can add the ship's damage modifier to the damage roll of the bonus attack as long as it doesn’t already include that modifier."
+			]
+		},
+		{
+			"name": "Fire-Linked Variable Compensator",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 2",
+				"{@b {@i Prerequisite:}} {@i Fire-Linked Mounting} You can gain the benefits of your Fire-Linked Mounting even if the weapons are different from each other."
+			]
+		},
+		{
+			"name": "Fire-Linked Weapon Reinforcement",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 3",
+				"{@b {@i Prerequisite:}} {@i Fire-Linked Mounting} You can gain the benefits of your Fire-Linked Mounting even if one or both weapons have a constitution requirement."
+			]
+		},
+		{
+			"name": "Flare Pods",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship is equipped with a series of counter-measure flares. When your ship is forced to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, a crewmember can use their {@variantrule Reaction|sw5e-phb} to release a flare. When they do so, your ship has {@variantrule Advantage|sw5e-phb|advantage} on the triggering {@variantrule Saving Throw|sw5e-phb|saving throw}. The crewmember can choose to use this feature after the roll is made, but before the GM says whether the roll succeeds or fails. If they already have {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Saving Throw|sw5e-phb|saving throw}, they can instead reroll one of the dice once. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes refitting."
+			]
+		},
+		{
+			"name": "Flight Computer",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 0",
+				"Once per round, this system allows a crewmember at the helm to take the Fly or Evade action as a {@variantrule Bonus Action|sw5e-phb}, or a crewmember to take the Regenerate shield action as a {@variantrule Bonus Action|sw5e-phb}, on their turn, rather than as an action."
+			]
+		},
+		{
+			"name": "Frame, Makeshift",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You improve your ship's frame, at a cost. Your ship's Constitution score increases by 1. One ability score other than Constitution (chosen by the GM) decreases by 1. As normal, you can't increase your ship's Constitution score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Frame, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You improve your ship's frame. Your ship's Constitution score increases by 1. As normal, you can't increase your ship's Constitution score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Frame, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You further improve your ship's frame. Your ship's Constitution score increases by 1. As normal, you can't increase your ship's Constitution score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Frame, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You greatly improve your ship's frame. Your ship's Constitution score increases by 1. As normal, you can't increase your ship's Constitution score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Frame, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 4",
+				"You massively improve your ship's frame. Your ship's Constitution score increases by 1. As normal, you can't increase your ship's Constitution score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Frame, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 5",
+				"Your ship's Frame has reached it's maximum potential. Your ship's Constitution score increases by 2. Your ship's maximum for this score increases by 2."
+			]
+		},
+		{
+			"name": "Fuel Storage",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This large fuel tank is able to store additional fuel portions in your starship. The tank stores fuel units equal to 5 times your ship's normal fuel capacity. These units can be used to fuel your own starship, or they can be transfered to other ships. Fuel can be transferred to ships of other size. A Gargantuan fuel unit takes up the space of 10 Huge units, which in turn takes up the space of 10 Large units, which takes the space of 10 Medium units. One Medium unit takes up the space of two Small units, which in turn takes up the space of two Tiny units."
+			]
+		},
+		{
+			"name": "Full Salvo Protocol",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 3",
+				"{@b {@i Prerequisite:}} {@i Fire-Linked Mounting} You can gain the benefits of your Fire-Linked Mounting even if one or both weapons are tertiary weapons."
+			]
+		},
+		{
+			"name": "Gauss Rounds",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 0",
+				"When you roll a 1 or 2 on a damage die with the chosen weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2."
+			]
+		},
+		{
+			"name": "Gravitic Polarization Beam",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 4",
+				"As an action, a crewmember can use a ship's gravity well projector to target a ship within 600 feet and within that projector's limited arc. The beam disrupts matter on an atomic level, causing it to rip apart. The target must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + ship tier + the ship’s Strength modifier). The target takes 8d8 true damage on a failed save, or half as much damage on a successful one. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Gravity Slice",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 3",
+				"As an action, a crewmember can release a circular gravitic burst. Each ship within 200 feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save, a ship takes 8d6 true damage and, if the ship is the same size or smaller, is pushed back 50 feet. On a successful save, a ship takes half damage and isn’t pushed. All objects one size category smaller than the ship or smaller are also pushed 50 feet back. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Gravity Well Projector",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship is modified with a gravity well projector that prevents ships from jumping to hyperspace, and even pulls ships from hyperspace, through use of an interdiction field. A crewmember can activate the gravity well projector as an action, which has a range of 1,000 feet and a limited firing arc, as described in Chapter 9. For up to a minute, while active, this ship and ships of the same size or smaller that enter or start their turn within the gravity well projector's firing arc can't activate their hyperdrives. The effects of this feature last until the beginning of your next turn unless the crewmember uses a {@variantrule Bonus Action|sw5e-phb} to maintain it. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Hardened Prow",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship has been modified to to be more effective at ramming. When a crewmember takes the Ram action, and the target fails the contested check, the damage dealt is increased by an amount equal to two of your ship's Hull Dice. Additionally, your ship is proficiently equipped for Strength ({@skill Ram|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Hardpoint",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 0",
+				"A hardpoint is used to mount a primary, secondary, tertiary, or quaternary weapon. A weapon mounted on a Hardpoint has a limited firing arc, as described in chapter 9."
+			]
+		},
+		{
+			"name": "Hidden Storage",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes equipped with hidden storage compartments, which have a capacity equal to half your ship's base cargo capacity, as shown in the {@b Starship Size Cargo Capacity} table on page 79. Finding the hidden storage compartments requires a successful DC 20 Intelligence ({@skill Investigation|sw5e-phb}) or Wisdom ({@skill Perception|sw5e-phb}) check, which is made with {@variantrule Disadvantage|sw5e-phb|disadvantage}."
+			]
+		},
+		{
+			"name": "Holding Cells",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite includes a security post and a number of individual holding cells equal to the ship’s suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table, equipped with both a key and a code lock. {@spell Holding Cell|sw5e-phb|Holding cell} doors are magnetically sealed to prevent them opening in the event of power failure."
+			]
+		},
+		{
+			"name": "Hydroponics Garden",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite grows plants for either consumption or commerce. If the Garden is configured for consumption, every day it produces common food in an amount capable of supporting a number of civilians, crewmembers, or troopers equal to one-eighth the ship's suite capacity, as shown in the {@b Starship Size Suite Capacity} table. If the Garden is configured for commerce, at the end of every month (7 weeks of 5 days) it produces plant goods with a market value in Credits of 10 times the ship's suite capacity, as shown in the {@b Starship Size Suite Capacity} table.  In some cases, a GM may determine that this value could be increased if a particularly rare plant good is produced.  In such cases, the players may need to procure rare starter material such as seeds or cuttings to start or continue production."
+			]
+		},
+		{
+			"name": "Hyperdrive Slot",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 0",
+				"This modification adds a hyperdrive slot on your ship and includes a class 15 hyperdrive."
+			]
+		},
+		{
+			"name": "Hyperdrive, Backup",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 0",
+				"This modification adds a backup hyperdrive slot on your ship and includes a class 15 hyperdrive. A crewmember can switch to or from the backup hyperdrive as an action."
+			]
+		},
+		{
+			"name": "Hyperspace pulsemass generator",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 4",
+				"As an action, a crewmember can create a turbulent field of tiny spheres of hyper-energy that buffets ships around you. The field extends out to a distance of 150 feet around your ship for a number of rounds up to your ship's tier (minimum of one). When you activate this feature, you can designate any number of ships you can see to be unaffected by it. An affected ship gains 1 {@condition Slowed|sw5e-sotg} Level while in the area, and when the ship enters the area for the first time on a turn or starts its turn there, it must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save, the ship takes 3d8 energy damage. On a successful save, the ship takes half as much damage. The effects of this feature last until the beginning of your next turn unless the crewmember uses a {@variantrule Bonus Action|sw5e-phb} to maintain it. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Impressive Exterior",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"Modifies the exterior appearance of your ship by using a modern design, replacing exterior components with those of higher quality and visual appeal, and includes an anti-corrosion coating to prevent wear and corrosion on the ship's exterior. Your ship is proficiently equipped for Charisma ({@skill Impress|sw5e-sotg}) checks. If your ship is already proficiently equipped, it instead becomes expertly equipped for Charisma ({@skill Impress|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Impressive Interior",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"Modifies the interior appearance of your ship by using a modern design, replacing interior components with those of higher quality and visual appeal, and includes more comfortable accoutrements for crew and passengers. Your ship is proficiently equipped for Charisma ({@skill Impress|sw5e-sotg}) checks. If your ship is already proficiently equipped, it instead becomes expertly equipped for Charisma ({@skill Impress|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Improved Countermeasures",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 2",
+				"This modification enhances your ship's {@spell Countermeasures|sw5e-phb|countermeasures}, allowing it to quickly clear lingering effects. As an action, a crewmember can activate this feature, ending the {@condition Blinded|sw5e-sotg|blinded}, {@condition Ionized|sw5e-sotg|ionized}, {@condition Shocked|sw5e-sotg|shocked}, {@condition Stalled|sw5e-sotg|stalled}, {@condition Stunned|sw5e-sotg|stunned}, and {@condition Tractored|sw5e-sotg|tractored} conditions. This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship undergoes refitting. Additionally, your ship can now add half its Wisdom modifier (rounded down) to its Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}."
+			]
+		},
+		{
+			"name": "Improved Emergency Backup",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"This system augments your ship's primary system emergency backup. This back up can now continue running the starship, provided there is adequate fuel, for 7 days."
+			]
+		},
+		{
+			"name": "Inertial Dampeners",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"This system lessens the transfer of external impacts into the ship's interior.  When you are forced to make a {@variantrule Concentration|sw5e-phb} check due to damage, impacts, or explosions exterior to the ship, you have {@variantrule Advantage|sw5e-phb|advantage}. Additionally, when you take the Evade action, skill checks and {@variantrule Attack Roll|sw5e-phb|attack rolls} made by your ship or anyone on it do not suffer from {@variantrule Disadvantage|sw5e-phb|disadvantage} from the evasion.  Once this feature has been used, it can't be used again until the ship recharges."
+			]
+		},
+		{
+			"name": "Interdiction Drive",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 2",
+				"You install an interdiction drive on your ship, which can be activated to impede ships around it. As an action, a crewmember can engage the interdiction drive. Each ship within 300 feet of your ship must make a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + the crewmembers's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + the ship's Strength modifier). On a failed save, a ship gains 1 level of {@condition Slowed|sw5e-sotg|slowed} until the end of your ship's next turn. If a ship is two or more sizes larger than your ship, it has {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Saving Throw|sw5e-phb|saving throw}. If it is two or more sizes smaller, it instead has {@variantrule Disadvantage|sw5e-phb|disadvantage}. This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Interrogation Chamber",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite includes all of the necessary implements and apparatuses necessary to interrogate, or even torture, a number of prisoners equal to half the ship's suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table. When interrogating a prisoner, the interrogator has {@variantrule Advantage|sw5e-phb|advantage} on Charisma ({@skill Intimidation|sw5e-phb}) and Charisma ({@skill Persuasion|sw5e-phb}) checks. If they spend at least an hour interrogating a prisoner, the prisoner has {@variantrule Disadvantage|sw5e-phb|disadvantage} on Charisma ({@skill Deception|sw5e-phb}) checks."
+			]
+		},
+		{
+			"name": "Investigation Suite",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes with a number of investigation rooms equal up to one-fourth the ship’s suite capacity by size (minimum of one), as shown in the {@b Starship Size Suite Capacity} table. {@skill Investigation|sw5e-phb} rooms are equipped with an integrated archaeologist kit, {@item Disguise kit|sw5e-phb|disguise kit}, {@item Forgery kit|sw5e-phb|forgery kit}, jeweler’s implements, {@item Security kit|sw5e-phb|security kit}, slicer’s kit, and surveyor’s implements. While making a check with any of these tools in an investigation room, you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make if you do not already do so. If you already add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier. Additionally, while crafting in an investigation room using the integrated tools, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make with them, the market value increases by 10 x your character level. Lastly, when a creature completes a {@variantrule Long Rest|sw5e-phb|long rest} involving this suite, they gain {@variantrule Advantage|sw5e-phb|advantage} on the first Dexterity ({@skill Stealth|sw5e-phb}), Intelligence ({@skill Investigation|sw5e-phb}), Wisdom ({@skill Insight|sw5e-phb}), or Wisdom ({@skill Perception|sw5e-phb}) check they make before the start of their next {@variantrule Long Rest|sw5e-phb|long rest}."
+			]
+		},
+		{
+			"name": "Invulnerability Drive",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 3",
+				"Your ship is equipped with an experimental device which can render it immune to all damage. As an action, a crewmember can activate the drive. Once activated, the drive lasts for 1d4 rounds, granting the following benefits:",
+				"A crewmember can end this effect at any time, no action required. When the effect ends, the crewmember must make a {@variantrule Destruction Saving Throw|sw5e-sotg}. On a failure, the ship suffers 1 level of {@condition System Damage|sw5e-sotg|system damage}. Once this feature has been used, it can't be used again until the ship undergoes refitting.",
+				{
+					"type": "list",
+					"items": [
+						"Your ship is immune to all damage.",
+						"Your ship's flying {@variantrule Speed|sw5e-phb|speed} is reduced by half.",
+						"Your ship's turning {@variantrule Speed|sw5e-phb|speed} is doubled."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ionizing Rounds",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 0",
+				"When you score a {@variantrule Critical Hit|sw5e-phb|critical hit} with the chosen weapon; when you have {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll} and hit, and the lower of the two {@dice d20} rolls would also hit; when the target ship rolls a 1 on the {@variantrule Saving Throw|sw5e-phb|saving throw} to avoid the weapon's effects; or when the target ship has {@variantrule Disadvantage|sw5e-phb|disadvantage} on the {@variantrule Saving Throw|sw5e-phb|saving throw} and fails, and the higher of the two rolls would also fail, you can force the target to make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + the ship's Strength modifier). On a failed save, the ship is {@condition Ionized|sw5e-sotg|ionized} until the start of your next turn. If the damaged ship is larger than your ship, it has {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Saving Throw|sw5e-phb|saving throw}. If the damaged ship is smaller than your ship, it instead has {@variantrule Disadvantage|sw5e-phb|disadvantage}."
+			]
+		},
+		{
+			"name": "Junk Disposal",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"As an action, a crewmember may jettison a clump of refuse or junk that expands into a 50-foot-radius sphere centered on a point within 100 feet.  Each ship in that area must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + the crewmembers's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + the ship's Constitution modifier). On a failed save, a ship takes 1d6 kinetic damage and is {@condition Shocked|sw5e-sotg|shocked} until the end of it's next turn. The junk field's area of effect becomes {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} for one minute or until cleared. This feature can be used a number of times equal to your ship’s tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Kennel",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes with all of the proper equipment to house beasts and comes with an integrated {@item Trapper's kit|sw5e-phb|trapper's kit}. When making {@skill Animal Handling|sw5e-phb} or {@item Trapper's kit|sw5e-phb|trapper's kit} checks on your ship, you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make if you do not already do so. If you already add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier. Additionally, while crafting in a kennel using the integrated kit, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make with them, the market value increases by 10 x your character level. Lastly, this suite can house a number of medium beasts equal to half of the ship's suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table. Alternatively, this suite can house beasts of other sizes. A Huge beast takes up the space of two Large beasts, which in turn takes up the place of two Medium beasts, and so on."
+			]
+		},
+		{
+			"name": "Laboratory",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes with a number of laboratories equal up to one-fourth the ship’s suite capacity by size (minimum of one), as shown in the {@b Starship Size Suite Capacity} table. Laboratories are equipped with an integrated alchemist's kit, biotech’s implements, geneticist's implements, poisoner’s kit, and a spicer’s kit. While making a check with any of these tools in a laboratory, you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make if you do not already do so. If you already add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier. Additionally, while crafting in a laboratory using the integrated tools, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make with them, the market value increases by 10 x your character level. Lastly, when a creature completes a {@variantrule Long Rest|sw5e-phb|long rest} involving this suite, they gain {@variantrule Advantage|sw5e-phb|advantage} on the first Intelligence ({@skill Nature|sw5e-phb}) or Wisdom ({@skill Medicine|sw5e-phb}) check they make before the start of their next {@variantrule Long Rest|sw5e-phb|long rest}."
+			]
+		},
+		{
+			"name": "Mechanic's Shop",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes with a number of mechanical rooms equal up to one-fourth the ship’s suite capacity by size (minimum of one), as shown in the {@b Starship Size Suite Capacity} table. Mechanical rooms are equipped with an integrated artillerist’s kit, astrotech’s implements, constructor’s implements, mechanic’s kit, and a scavenging kit. While making a check with any of these tools in a workshop, you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make if you do not already do so. If you already add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier. Additionally, while crafting in a mechanic's shop using the integrated tools, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make with them, the market value increases by 10 x your character level. Lastly, this suite can house droids and constructs, depending on the ship’s size:",
+				"Alternatively, this suite can house constructs or droids of smaller sizes. A Gargantuan construct or droid takes up the space of two Huge constructs or droids, which in turn takes up the space of two Large constructs or droids, and so on.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Small:} A Small mechanic’s shop can house one Medium droid or construct.",
+						"{@b Medium:} A Medium mechanic’s shop can house one Huge droid or construct.",
+						"{@b Large:} A Large mechanic’s shop can house one Gargantuan droid or construct.",
+						"{@b Huge:} A Huge mechanic’s shop can house 10 Gargantuan droids or constructs.",
+						"{@b Gargantuan:} A Gargantuan mechanic’s shop can house 100 Gargantuan droids or constructs."
+					]
+				}
+			]
+		},
+		{
+			"name": "Medbay",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite offers a single room featuring medical equipment and storage for medical supplies. When this suite is installed it comes stocked with the following items.",
+				"For every two hours spent in a biobed or one hour spent in a bacta tank, a creature’s {@condition Exhaustion|sw5e-phb|exhaustion} level is reduced by 1, and it can roll a Hit Die to recover {@variantrule Hit Points|sw5e-phb|hit points} without expending the die. After two hours, a creature in a bacta tank is also cured of any poison, disease, or harmful condition (such as {@condition Blinded|sw5e-sotg|blinded}, {@condition Corroded|sw5e-phb|corroded}, {@condition Deafened|sw5e-phb|deafened}, {@condition Paralyzed|sw5e-phb|paralyzed}, {@condition Poisoned|sw5e-phb|poisoned}, or {@condition Weakened|sw5e-phb|weakened}). This suite also offers a number of medical stations equal up to one-fourth the ship’s suite capacity by size (minimum of one), as shown in the {@b Starship Size Suite Capacity} table. Medical stations are equipped with an integrated biochemist’s kit and a bioanalysis kit. While making a check with any of these tools at a medical station, you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make if you do not already do so. If you already add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier. Additionally, while crafting at a medical station using the integrated tools, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make with them, the market value increases by 10 x your character level.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Small:} One biobed.",
+						"{@b Medium:} Two biobeds.",
+						"{@b Large:} 10 biobeds and four bacta tanks.",
+						"{@b Huge:} 100 biobeds and 40 bacta tanks.",
+						"{@b Gargantuan:} 100 biobeds and 400 bacta tanks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Meditation Chamber",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes with a number of separate unique chambers equal to one-fourth the ship’s suite capacity by size (minimum of one), as shown in the {@b Starship Size Suite Capacity} table. When a forcecaster completes a {@variantrule Long Rest|sw5e-phb|long rest} involving this suite, they gain temporary force points equal to their {@book force power|sw5e-phb|11|Force Powers} maximum power level + their Wisdom or Charisma modifier (their choice, minimum of one). When you would spend a force point while you have temporary force points, the temporary force points are spent first. All temporary force points are lost at the end of your next {@variantrule Long Rest|sw5e-phb|long rest}. Additionally each chamber is equipped with integrated artificer’s implements. While making a check with these tools in a meditation chamber, you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make if you do not already do so. If you already add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier."
+			]
+		},
+		{
+			"name": "Mess Hall",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes with dining areas, that can accommodate a number of civilians, crewmembers, or troopers equal to twice the ship’s suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table, as well as kitchens equal up to one-fourth the ship’s suite capacity by size (minimum of one), as shown in the {@b Starship Size Suite Capacity} table. Kitchens are equipped with an integrated brewer’s kit and a chef’s kit. While making a check with any of these tools in a kitchen, you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make if you do not already do so. If you already add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier. Additionally, while crafting in a kitchen using the integrated tools, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make with them, the market value increases by 10 x your character level. Lastly, when a creature completes a {@variantrule Long Rest|sw5e-phb|long rest} involving this suite, they regain two additional Hit Dice and have {@variantrule Advantage|sw5e-phb|advantage} on Constitution {@variantrule Saving Throw|sw5e-phb|saving throws} against disease for the next 24 hours."
+			]
+		},
+		{
+			"name": "Mining Laser",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship is equipped with a laser used to extract ores and other minerals from objects such as asteroids.  Checks made while using the mining laser for determining outcomes of work (for example, using downtime rules from Wretched Hives) are made with {@variantrule Advantage|sw5e-phb|advantage}. If you already have {@variantrule Advantage|sw5e-phb|advantage} on the roll, you can instead reroll one of the dice once. Additionally, a crewmember can activate the mining laser as an action in order to make a Strength ({@skill Boost|sw5e-sotg}) check against a ship that is touching you (for example, a ship that is ramming or being rammed by your ship, or one you are landed on) (DC = the ship's AC).  On a success, the adjacent ship takes 1d8 + Strength modifier energy damage."
+			]
+		},
+		{
+			"name": "Nano-Droid Distributor",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship is equipped with a nano-droid distributor that allows it to repair other ships. When a crewmember takes the Patch action, they can instead repair another ship within 100 feet. You spend and roll one of your ship's Hull Dice, and the target ship regains that many hull points."
+			]
+		},
+		{
+			"name": "Navcomputer",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 0",
+				"This modification adds a navcomputer slot on your ship and includes a basic navcomputer.  Your ship is proficiently equipped for Intelligence ({@skill Astrogation|sw5e-sotg}) checks.  A crewmember can use their {@variantrule Bonus Action|sw5e-phb} to make their Intelligence ({@skill Astrogation|sw5e-sotg}) check, rather than their action. Your ship can still only make one check per round."
+			]
+		},
+		{
+			"name": "Navcomputer, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 2",
+				"This modification improves the navcomputer on your ship.  Your ship is expertly equipped for Intelligence ({@skill Astrogation|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Navcomputer, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 3",
+				"This modification further improves the navcomputer on your ship.  Your ship has {@variantrule Advantage|sw5e-phb|advantage} on Intelligence ({@skill Astrogation|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Navcomputer, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 4",
+				"This modification greatly improves the navcomputer on your ship.  When your ship rolls {@variantrule Advantage|sw5e-phb|advantage} on Intelligence ({@skill Astrogation|sw5e-sotg}) checks, you can reroll one of the dice once. You must use the new roll."
+			]
+		},
+		{
+			"name": "Navcomputer, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 5",
+				"This modification massively improves the navcomputer on your ship.  When your ship rolls {@variantrule Advantage|sw5e-phb|advantage} on Intelligence ({@skill Astrogation|sw5e-sotg}) checks, you can reroll each of the dice once. You must use the new roll for each die."
+			]
+		},
+		{
+			"name": "Piloting Chamber",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"A chamber big enough for a single crewmember is integrated into the ship."
+			]
+		},
+		{
+			"name": "Pinpointing Addition, Mk 2",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 2",
+				"The weapon's close range returns to its normal close range."
+			]
+		},
+		{
+			"name": "Pinpointing Addition, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 1",
+				"The ranges of the chosen weapon of your choice increase by half."
+			]
+		},
+		{
+			"name": "Plating, Deflection Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You upgrade your ship's armor plating, granting your ship a +1 bonus to AC."
+			]
+		},
+		{
+			"name": "Plating, Deflection Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You further upgrade your ship's armor plating, granting your ship a total DR of 4, but granting your ship {@variantrule Disadvantage|sw5e-phb|disadvantage} on Dexterity ({@skill Hide|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Plating, Deflection Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You substantially upgrade your ship's armor plating, removing your ship's {@variantrule Disadvantage|sw5e-phb|disadvantage} on Dexterity ({@skill Hide|sw5e-sotg}) checks caused by your armor's plating."
+			]
+		},
+		{
+			"name": "Plating, Lightweight Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You upgrade your ship's armor plating, granting your ship a +1 bonus to AC."
+			]
+		},
+		{
+			"name": "Plating, Lightweight Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You further upgrade your ship's armor plating, granting your ship an additional +1 bonus to AC."
+			]
+		},
+		{
+			"name": "Plating, Lightweight Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You substantially upgrade your ship's armor plating, adding 50 feet to your {@variantrule Speed|sw5e-phb|speed}."
+			]
+		},
+		{
+			"name": "Plating, Reinforced Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You upgrade your ship's armor plating, granting your ship a total DR of 7."
+			]
+		},
+		{
+			"name": "Plating, Reinforced Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You substantially upgrade your ship's armor plating, causing critical hits made on {@variantrule Attack Roll|sw5e-phb|attack rolls} against you to be treated as normal hits."
+			]
+		},
+		{
+			"name": "Plating, Reinforced Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You further upgrade your ship's armor plating, granting your ship a total DR of 8."
+			]
+		},
+		{
+			"name": "Power Backup",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship is equipped with a back up battery, which can give it renewed energy. When your ship is reduced to 0 hull points but not destroyed outright, a crewmember can use their {@variantrule Reaction|sw5e-phb} to have it drop to 1 hull point instead. Alternatively, if the ship is making {@variantrule Destruction Saving Throw|sw5e-sotg|destruction saving throws}, a crewmember can use their action to have the ship automatically succeed on a {@variantrule Destruction Saving Throw|sw5e-sotg}. Once either feature has been used, the power backup can't be used again until the ship recharges."
+			]
+		},
+		{
+			"name": "Power Converter, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You improve your ship's power converters. Your ship is proficiently equipped for Constitution ({@skill Regulation|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Power Converter, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You further improve your ship's power converters. Your ship is expertly equipped for Constitution ({@skill Regulation|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Power Harpoon",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"As an action, a crewmember may make a ship {@variantrule Attack Roll|sw5e-phb|weapon attack} with the power harpoon.  The harpoon's range is 400/1600 ft.  On a hit, the target is harpooned, connecting your ship to the target by a 1,600 foot cable. At any time as a free action, if the connected objects are closer than 1600 feet, a crewmember on your ship can choose whether the cable is slack or taught. When the cable is taught, any movement by one object away from the other, tows the other object.  When the cable is taught, movement by the first object away from the other object is considered movement through {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} if the first object is within one size category of the other object.  An object two or more size categories smaller than the other object cannot move away from the other object when the cable is taught. If the objects are 1600 feet apart, the cable is always taught. While connected by the cable, a crewmember can use a {@variantrule Bonus Action|sw5e-phb} to reel, pulling your ship towards the target (if larger than your ship), or the target to-wards your ship (if the same size or smaller than your ship) by 200 feet. At any time, a crewmember on your ship can release the cable (no action required). As an action, a crewmember of a harpooned ship can attempt to remove the harpoon. To do so, the ship must succeed on a Strength ({@skill Boost|sw5e-sotg}) check contested by your Strength ({@skill Boost|sw5e-sotg}) or Dexterity ({@skill Maneuvering|sw5e-sotg}) check. Once this feature has been used, it can't be used again until the ship recharges."
+			]
+		},
+		{
+			"name": "Pressor Beam Generator",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 1",
+				"As an action, a crewmember can choose one ship or object within 600 feet that is two or more size categories smaller than your ship and in an arc of a tractor beam of the ship. The ship or object is pushed 600 feet in a direction of your choice. If the ship or object collides with any one target during its travel, both the ship or object and the target take 3d8 kinetic damage. If the target is a ship, it must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save, it takes 3d8 kinetic damage, or half as much on a successful one. This feature shares uses with the ship's Tractor Beam, and grants an additional such use."
+			]
+		},
+		{
+			"name": "Pressor Field Generator",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 1",
+				"As an action, a crewmember can unleash a burst of energy from a selected tractor beam of the ship. Each ship in the tractor beam arc and within 150 feet must make a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save, a ship takes 3d6 kinetic damage and, if it is one size category larger than your ship or smaller, is also pushed back 50 feet. On a successful save, a ship takes half as much damage and isn’t pushed. All objects your ship's size category or smaller within the area of effect are also pushed 50 feet. This feature shares uses with the ship's Tractor Beam, and grants an additional such use."
+			]
+		},
+		{
+			"name": "Pressor Lensing",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 3",
+				"As an action, a crewmember can choose a ship within 600 feet within an arc of a tractor beam of the ship. The target must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save the target takes 5d8 kinetic damage and is {@condition Tractored|sw5e-sotg|tractored} until the end of your next turn. On a successful save, the target takes half as much damage and is not {@condition Tractored|sw5e-sotg|tractored}. The same crewmember can use a {@variantrule Bonus Action|sw5e-phb} while the target is {@condition Tractored|sw5e-sotg|tractored} to move the target up to 50 feet in any direction. This feature shares uses with the ship's Tractor Beam, and grants an additional such use."
+			]
+		},
+		{
+			"name": "Quarters, Basic",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite features a single room, or series of rooms, to house a number of crewmembers equal to twice the ship's suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table. Each room features bunks and individual storage, as well a communal refresher station for every eight beds (minimum of one)."
+			]
+		},
+		{
+			"name": "Quarters, Living",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite features separate rooms to house a number of creatures equal to the ship's suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table. Each room comes fully furnished and includes a communal refresher station for every four rooms (minimum of one). When a creature completes a {@variantrule Long Rest|sw5e-phb|long rest} involving this suite, their {@condition Exhaustion|sw5e-phb|exhaustion} level is reduced by 2, instead of only 1."
+			]
+		},
+		{
+			"name": "Quarters, Luxury",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite features separate rooms to house a number of creatures equal to half the ship's suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table. Each room comes fully furnished and includes its own refresher station. When a creature completes a {@variantrule Long Rest|sw5e-phb|long rest} involving this suite, they regain all spent Hit Dice, instead of only half, and their {@condition Exhaustion|sw5e-phb|exhaustion} level is reduced by 2, instead of only 1."
+			]
+		},
+		{
+			"name": "Reactive Plating Layer",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You add a reactive layer to your ship's hull granting your hull resistance to kinetic damage."
+			]
+		},
+		{
+			"name": "Reactive Shielding Compensator",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You add a reactive compensator to your ship's shield generator granting your shields resistance to energy damage."
+			]
+		},
+		{
+			"name": "Reactor, Makeshift",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You improve your ship's reactor, at a cost. Your ship's Strength score increases by 1. One ability score other than Strength (chosen by the GM) decreases by 1. As normal, you can't increase your ship's Strength score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Reactor, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You improve your ship's reactor. Your ship's Strength score increases by 1. As normal, you can't increase your ship's Strength score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Reactor, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You further improve your ship's reactor. Your ship's Strength score increases by 1. As normal, you can't increase your ship's Strength score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Reactor, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You greatly improve your ship's reactor. Your ship's Strength score increases by 1. As normal, you can't increase your ship's Strength score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Reactor, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 4",
+				"You massively improve your ship's reactor. Your ship's Strength score increases by 1. As normal, you can't increase your ship's Strength score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Reactor, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 5",
+				"Your ship's reactor has reached it's maximum potential. Your ship's Strength score increases by 2. Your ship's maximum for this score increases by 2."
+			]
+		},
+		{
+			"name": "Recreation",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes with a number of recreational areas equal up to one-fourth the ship’s suite capacity by size (minimum of one), as shown in the {@b Starship Size Suite Capacity} table. Recreational areas are equipped with integrated artist’s implements, gaming sets, musical instruments, and writer's implements. While making a check with any of these tools in a recreational area, you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make if you do not already do so. If you already add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier. Additionally, while utilizing any of these tools, you gain a benefit based on which tools you are using.",
+				"Lastly, when a creature completes a {@variantrule Long Rest|sw5e-phb|long rest} involving this suite, they gain {@variantrule Advantage|sw5e-phb|advantage} on the first {@variantrule Ability Check|sw5e-phb|ability check} they make before the start of their next {@variantrule Long Rest|sw5e-phb|long rest}.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Gaming set or musical instrument:} While playing one of the gaming sets or musical instruments, you can always readily read the emotions of those paying attention to you. During this time, and for up to one minute after completing, you have {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Insight|sw5e-phb}) checks to read the emotions of those you performed for or competed against.",
+						"{@b Artists's implements or writer's implements:} While crafting with these implements, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make with them, the market value increases by 10 x your character level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Remote Control Console",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite includes the proper equipment necessary for a crewmember to take remote control of another ship from the safety of their own ship. A number of crewmembers can be deployed at a time in remote ships from this suite equal to one quarter of the ship’s suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table. The distance at which this suite can connect to remote ships is limited by the communications of the ship this suite is installed in."
+			]
+		},
+		{
+			"name": "Remote Override, Makeshift",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You install a remote override that can allow your ship to be controlled from afar, provided the controller has access to a console and transmitter to control the ship from.  If proper credentials are not supplied, a successful Intelligence (Slicer Kit) check (DC = 10 + the ship's Tier + the ship's Intelligence Modifier) is required to control the ship.  If the ship is currently controlled by another party, the check is made with {@variantrule Disadvantage|sw5e-phb|disadvantage}. Your ship’s maximum and minimum crew requirement become 1: the remote controller.  Your starship cannot benefit from features that would increase or decrease its crew capacity. The controller instead controls all aspects of the ship, as if they were deployed inside of it. The starship has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} and {@variantrule Ability Check|sw5e-phb|ability checks} while being remote controlled. This ship can be controlled remotely from a distance of 10,000 feet. Lastly, if an effect would suppress communications for the ship, it cannot be controlled remotely for the duration of that suppression."
+			]
+		},
+		{
+			"name": "Remote Override, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"The ship no longer suffers from {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} and {@variantrule Ability Check|sw5e-phb|ability checks} while being remote controlled."
+			]
+		},
+		{
+			"name": "Remote Override, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"This modification allows the ship it is installed in to be remotely controlled from anywhere in the system by a properly equipped controller."
+			]
+		},
+		{
+			"name": "Remote Override, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"Additionally, your starship’s maximum crew requirement becomes 2, and can support 2 remote controllers."
+			]
+		},
+		{
+			"name": "Remote Override, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 4",
+				"Your starship’s maximum crew requirement becomes 3, and can support 3 remote controllers. Additionally, your ship can be remotely controlled from anywhere in the sector by a properly equipped controller."
+			]
+		},
+		{
+			"name": "Remote Override, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 5",
+				"This modification allows the ship it is installed in to be remotely controlled from anywhere in the known galaxy by a properly equipped controller."
+			]
+		},
+		{
+			"name": "Repulsor Ray",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 5",
+				"As an action, a crewmember can unleash a beam of focused energy from a tractor beam of the ship in a 50-foot-wide, 600-foot-long line. Each ship in the line must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save, a ship takes 8d6 kinetic damage and is {@condition Shocked|sw5e-sotg|shocked} until the beginning of their next turn. On a successful save, it takes half as much damage and isn’t {@condition Shocked|sw5e-sotg|shocked}. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Resilient Comms",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You overhaul your ship's communications systems to make them more adaptive. Your ship is proficiently equipped for Charisma {@variantrule Saving Throw|sw5e-phb|saving throws}."
+			]
+		},
+		{
+			"name": "Resilient Hull",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You overhaul your ship's hull to make it more adaptive. Your ship is proficiently equipped for Constitution {@variantrule Saving Throw|sw5e-phb|saving throws}."
+			]
+		},
+		{
+			"name": "Resilient Processors",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You overhaul your ship's computer to make it more adaptive. Your ship is proficiently equipped for Intelligence {@variantrule Saving Throw|sw5e-phb|saving throws}."
+			]
+		},
+		{
+			"name": "Resilient Reactor",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You overhaul your ship's reactor to make it more adaptive. Your ship is proficiently equipped for Strength {@variantrule Saving Throw|sw5e-phb|saving throws}."
+			]
+		},
+		{
+			"name": "Resilient Sensors",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You overhaul your ship's sensors to make them more adaptive. Your ship is proficiently equipped for Wisdom {@variantrule Saving Throw|sw5e-phb|saving throws}."
+			]
+		},
+		{
+			"name": "Resilient Thruster",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You overhaul your ship's thruster to make it more adaptive. Your ship is proficiently equipped for Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}."
+			]
+		},
+		{
+			"name": "S-Foils",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 0",
+				"Your primary weapons are mounted to Strike Foils giving your ship variable operational capacities.  As a {@variantrule Bonus Action|sw5e-phb}, a crewmember can switch between two modes:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Locked:} Your ship's {@variantrule Speed|sw5e-phb|speed} increases by 50 feet and your primary weapons suffer a -2 penalty to {@variantrule Attack Roll|sw5e-phb|attack rolls}.",
+						"{@b Unlocked:} Your ship's primary weapons gain a +1 bonus to {@variantrule Attack Roll|sw5e-phb|attack rolls}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scanner, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 1",
+				"{@b {@i Modification Grade}} 1 This system augments the native radar scanner on your ship. Your ship gains {@sense Blindsight|sw5e-phb|blindsight} out to 1,000 feet. Additionally, your ship is proficiently equipped for Intelligence ({@skill Probe|sw5e-sotg}) and Wisdom ({@skill Scan|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Scanner, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 2",
+				"{@b {@i Modification Grade}} 2 {@b {@i Prerequisite:} Scanner, Mk I} This modification improves the radar scanner on your ship. Your ship now has {@sense Blindsight|sw5e-phb|blindsight} out to 2,000 feet. Your ship is expertly equipped for Intelligence ({@skill Probe|sw5e-sotg}) and Wisdom ({@skill Scan|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Scanner, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 3",
+				"{@b {@i Modification Grade}} 3 {@b {@i Prerequisite:} Scanner, Mk II} This modification greatly improves the radar scanner on your ship. Your ship has {@variantrule Advantage|sw5e-phb|advantage} on Intelligence ({@skill Probe|sw5e-sotg}) and Wisdom ({@skill Scan|sw5e-sotg}) checks that rely on scanners."
+			]
+		},
+		{
+			"name": "Scanner, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 4",
+				"{@b {@i Modification Grade}} 4 {@b {@i Prerequisite:} Scanner, Mk III} This modification massively improves the radar scanner on your ship. Your ship gains {@sense Truesight|sw5e-phb|truesight} out to 1,000 feet."
+			]
+		},
+		{
+			"name": "Secondary Transponder Code",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 2",
+				"This modification implements a secondary transponder code into your ship's sublight engines. This transponder code can differ from your primary transponder code in terms of ship's owner, designation, make and model, any registered modifications, and the ship's ownership history. A crewmember can switch the ship's transponder code as an action. A creature can determine this transponder code is a fake by making an Intelligence ({@skill Technology|sw5e-phb}) check (DC = 8 + your ship's bonus to Charisma ({@skill Swindle|sw5e-sotg}) checks). On a success, they determine that your transponder code is a fake. Additionally, your ship is proficiently equipped for Charisma ({@skill Swindle|sw5e-sotg}) checks.  If your ship is already proficiently equipped, it is instead considered expertly equipped."
+			]
+		},
+		{
+			"name": "Security Suite",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes equipped with a full base of security for your ship, including secured storage, a brig, and a compact armory.",
+				{
+					"type": "list",
+					"items": [
+						"The secured storage can hold an amount equal to one-tenth the ship's base cargo capacity, as shown in the {@b Starship Size Cargo Capacity} table on page 79. The secured storage is equipped with both a key and a code lock, and is magnetically sealed to prevent it opening in the event of power failure. The secured storage can be accessed with a DC 20 Intelligence ({@item Security kit|sw5e-phb|Security Kit}) check.",
+						"The brig can host a number of prisoners equal to one-fourth the ship's suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table.",
+						"The armory comes equipped with an amount of {@filter simple blasters|items|firearm=true|weaponcategory=simple} and {@filter vibroweapons|items|type=martial weapon}, as well as {@filter light armor|items|type=light armor} and shields, to outfit a force equal to one-half the ship's suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table. When installed it comes fully stocked with {@item Blaster pistol|sw5e-phb|blaster pistols}, {@filter blaster|items|firearm=true} carbines, and {@item Techblade|sw5e-phb|techblades}, as well as combat suits and light shields"
+					]
+				}
+			]
+		},
+		{
+			"name": "Self-Destruct Mechanism",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship is equipped with a self-destruct mechanism that can cause immense destruction at the expense of the ship. A crewmember can activate the self-destruct mechanism as an action, setting a timer up to 10 minutes in length. When the timer expires, the ship explodes, dealing fire damage to each enemy within range. The damage is calculated as follows; for each Hull Die the ship has, roll it and add the ship's Strength modifier to the roll. The range that the self-destruct mechanism impacts varies, depending on the ship's size:",
+				{
+					"type": "list",
+					"items": [
+						"{@b Tiny}: A Tiny ship deals damage to each ship within 50 feet of it.",
+						"{@b Small}: A Small ship deals damage to each ship within 100 feet of it.",
+						"{@b Medium}: A Medium ship deals damage to each ship within 200 feet of it.",
+						"{@b Large}: A Large ship deals damage to each ship within 400 feet of it.",
+						"{@b Huge}: A Huge ship deals damage to each ship within 1,000 feet of it.",
+						"{@b Gargantuan}: A Gargantuan ship deals damage to each ship within 2,000 feet of it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sensor Array, Makeshift",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You improve your ship's Sensor Array, at a cost. Your ship's Wisdom score increases by 1. One ability score other than Wisdom (chosen by the GM) decreases by 1. As normal, you can't increase your ship's Wisdom score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Sensor Array, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You improve your ship's Sensor Array. Your ship's Wisdom score increases by 1. As normal, you can't increase your ship's Wisdom score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Sensor Array, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You further improve your ship's Sensor Array. Your ship's Wisdom score increases by 1. As normal, you can't increase your ship's Wisdom score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Sensor Array, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You greatly improve your ship's Sensor Array. Your ship's Wisdom score increases by 1. As normal, you can't increase your ship's Wisdom score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Sensor Array, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 4",
+				"You massively improve your ship's Sensor Array. Your ship's Wisdom score increases by 1. As normal, you can't increase your ship's Wisdom score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Sensor Array, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 5",
+				"Your ship's Sensor Array has reached it's maximum potential. Your ship's Wisdom score increases by 2. Your ship's maximum for this score increases by 2."
+			]
+		},
+		{
+			"name": "Sensor Dampener",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 2",
+				"This modification adds a remote sensor dampener to your ship. As an action, a crewmember can attempt to dampen the sensors of a ship they can see within 1,000 feet. The target makes a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your Charisma ({@skill Interfere|sw5e-sotg}) bonus. On a failed save, the ship is {@condition Blinded|sw5e-sotg|blinded} for 1 minute. As an action on each of the ship's turns, a crewmember on the affected ship can repeat this save, ending the effect on a success. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges. Additionally, your ship is proficiently equipped for Dexterity ({@skill Hide|sw5e-sotg}) checks. If your ship is already proficiently equipped, it is instead considered expertly equipped."
+			]
+		},
+		{
+			"name": "Shield Bleedthrough",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 2",
+				"Your ship's reactor is overhauled to give temporary boosts to your ship's weapon batteries. When your ship hits another ship with a primary or secondary {@variantrule Attack Roll|sw5e-phb|weapon attack} while it still has shield points, a crewmember can use their {@variantrule Reaction|sw5e-phb} to cause some of the damage to bleed through. The damage the ship's shields take is reduced by an amount equal to your ship's Strength modifier. The ship's hull then takes this much damage. This damage is of the same type as the weapon's damage."
+			]
+		},
+		{
+			"name": "Shield Disruptor",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 2",
+				"This modification adds a shield disruptor to a ship, which is used to interfere with another ship's shield. As an action, a crewmember can activate the shield disruptor and choose a ship they can see within 1,000 feet. You make a Charisma ({@skill Interfere|sw5e-sotg}) check contested by the target’s Constitution (Regulate) check. On a failed save, the ship’s shield regeneration rate is reduced by half for 1 minute. Additionally they take damage to their shields equal to two of their shield dice. At the start of each of the target ship's turns, a crewmember can use an action to repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success. If a ship is targeted by a larger ship, it has {@variantrule Disadvantage|sw5e-phb|disadvantage} on the {@variantrule Saving Throw|sw5e-phb|saving throw}. If targeted by a smaller ship, it instead has {@variantrule Advantage|sw5e-phb|advantage}. You can end the shield disruptor at any time (no action required).  This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Ship Slicer, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 1",
+				"As an action, a crewmember may choose a Small or smaller ship you can see within 1200 feet. The target must make an Intelligence (DC = 8 + prof. bonus + ship's charisma modifier) {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, it is {@condition Disabled|sw5e-sotg|disabled} until the start of your next turn. Each time the ship takes damage or is the target of a hostile power or ability while {@condition Disabled|sw5e-sotg|disabled} in this way, it can repeat this {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Ship Slicer, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 2",
+				"As an action, a crewmember may upload a computer virus that stalls a ship within 900 feet. Roll 7d6; if the ship’s remaining hull points are less than the total, the ship is {@condition Stalled|sw5e-sotg|stalled} for one minute or until the ship takes damage. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Ship Slicer, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 3",
+				"As an action, a crewmember can dictate a one-word command to a ship you can see within 600 feet. The target must succeed on an Intelligence {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's charisma modifier) or follow the command on its next turn. If the ship is directly piloted by a humanoid that is not {@condition Incapacitated|sw5e-phb|incapacitated}, it gains a bonus to the {@variantrule Saving Throw|sw5e-phb|saving throw} equal to that crewmember’s Intelligence modifier. Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the GM determines how the target behaves. If the target can’t follow your command, the ability ends. {@b Approach.} The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you. {@b Deactivate.} The target becomes {@condition Disabled|sw5e-sotg|disabled} and then ends its turn. {@b Flee.} The target spends its turn moving away from you by the fastest available means. {@b Halt.} The target doesn’t move and takes no actions. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Ship Slicer, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 4",
+				"As an action, a crewmember may cause a ship that you can see within 600 feet to succeed on an Intelligence {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's charisma modifier) or be {@condition Disabled|sw5e-sotg|disabled} for up to a minute, until the feature ends. At the beginning of each of its turns, the ship can make another Intelligence {@variantrule Saving Throw|sw5e-phb|saving throw}. On a success, the feature ends. The effects of this feature last until the beginning of your next turn unless the crewmember uses a {@variantrule Bonus Action|sw5e-phb} to maintain it. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Ship Slicer, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 5",
+				"As an action, a crewmember can choose one ship you can see within 600 feet and attempt to remotely override its controls. The target must make an Intelligence {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's charisma modifier). If the ship is directly piloted by a humanoid that is not {@condition Incapacitated|sw5e-phb|incapacitated}, it gains a bonus to the {@variantrule Saving Throw|sw5e-phb|saving throw} equal to that crewmember’s Intelligence modifier. If you or ships that are friendly to you are fighting it, it has {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the ship is {@condition Charmed|sw5e-phb|charmed} by you for the duration. While the ship is {@condition Charmed|sw5e-phb|charmed}, you have a wireless link with it as long as the two of you are within the same system. Via your ship, you can use this link to issue commands to the ship while you are conscious (using a {@variantrule Bonus Action|sw5e-phb}), which it does its best to obey. You can specify a simple and general course of action, such as “Attack that ship,” “Move over there,” or “Fly casual.” If the ship completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability. You can use your action to take total and precise control of the target. Until the end of your next turn, the ship takes only the actions you choose, and doesn’t do anything that you don’t allow it to do. During this time, you can also cause the ship to use a {@variantrule Reaction|sw5e-phb}, but this requires you to use your own {@variantrule Reaction|sw5e-phb} as well.  For every action, {@variantrule Bonus Action|sw5e-phb}, or {@variantrule Reaction|sw5e-phb} you make the ship use, you must spend an equivalent action. Each time the target takes damage, it makes a new Intelligence {@variantrule Saving Throw|sw5e-phb|saving throw} against the power. If the {@variantrule Saving Throw|sw5e-phb|saving throw} succeeds, the power ends. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Shock Absorbers",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship has been modified to withstand sudden impacts, and to be more effective at ramming. Your ship has resistance to kinetic damage caused by ramming."
+			]
+		},
+		{
+			"name": "Shocking Harpoon",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 4",
+				"Your ship's harpoon has been modified, allowing it to conduct bursts of energy into the harpooned ship. A harpooned ship has {@variantrule Disadvantage|sw5e-phb|disadvantage} on the contested Strength ({@skill Boost|sw5e-sotg}) check to remove the harpoon. Additionally, as an action on each of their turns, a crewmember can deal lightning damage to a harpooned ship. The damage is equal to one of your ship's shield Dice + your ship's Strength modifier. Finally, when your ship makes a Strength ({@skill Ram|sw5e-sotg}) check, it can reroll one of the dice."
+			]
+		},
+		{
+			"name": "Shocking Rounds",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 0",
+				"When you score a {@variantrule Critical Hit|sw5e-phb|critical hit} with the chosen weapon; when you have {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll} and hit, and the lower of the two {@dice d20} rolls would also hit; when the target ship rolls a 1 on the {@variantrule Saving Throw|sw5e-phb|saving throw} to avoid the weapon's effects; or when the target ship has {@variantrule Disadvantage|sw5e-phb|disadvantage} on the {@variantrule Saving Throw|sw5e-phb|saving throw} and fails, and the higher of the two rolls would also fail, you can force the target to make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + the ship's Strength modifier). On a failed save, the ship is {@condition Shocked|sw5e-sotg|shocked} until the start of your next turn. If the damaged ship is larger than your ship, it has {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Saving Throw|sw5e-phb|saving throw}. If the damaged ship is smaller than your ship, it instead has {@variantrule Disadvantage|sw5e-phb|disadvantage}."
+			]
+		},
+		{
+			"name": "Slam",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 2",
+				"Your ship gains a SubLight Acceleration Motor (SLAM). As an action, a crewmember can activate the SLAM to cause the ship to immediately move forward an amount up to the ship's movement {@variantrule Speed|sw5e-phb|speed}.  This movement must be made in a straight line and the ship's heading cannot change during this movement. This feature can be used a number of times equal to your ship's tier (a minimum of once) but no more than once per ship's turn. All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "SLAM, Advanced",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 3",
+				"Your ship's SubLight Acceleration Motor (SLAM) has been enhanced, granting more utility.  When a crewmember takes the Fly action, the increase now equals twice your {@variantrule Speed|sw5e-phb|speed}, after applying any modifiers. With a {@variantrule Speed|sw5e-phb|speed} of 300 feet, for example, your ship can move up to 900 feet on its turn if you Fly. Any increase or decrease to your {@variantrule Speed|sw5e-phb|speed} changes this additional Movement by the same amount. If your ship's {@variantrule Speed|sw5e-phb|speed} of 300 feet is reduced to 150 feet, for instance, your ship can move up to 450 feet this turn if you Fly. This action still affects your entire ship: any skill check or {@variantrule Attack Roll|sw5e-phb|attack roll} made by your ship or anyone on it has {@variantrule Disadvantage|sw5e-phb|disadvantage}. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Slave Circuit",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You install a slave circuit in your ship. You reduce the minimum crew requirement by half (minimum of 1)."
+			]
+		},
+		{
+			"name": "Slave Circuit Automation",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You improve the slave circuit in your ship for further automation. You reduce the minimum crew requirement to one quarter (minimum of 1), instead of by half."
+			]
+		},
+		{
+			"name": "Slave Circuit Independence",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 4",
+				"Your ship's slave circuit automates crew functions seamlessly. You reduce the minimum crew requirement to one eighth (minimum of 1), instead of to one quarter."
+			]
+		},
+		{
+			"name": "Slave Pens",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite offers a single room, equipped with both a key and a code lock, that can house a number of prisoners equal to twice the ship's suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table. Slave pen doors are magnetically sealed to prevent them opening in the event of power failure. When a creature completes a {@variantrule Long Rest|sw5e-phb|long rest} involving this suite, their {@condition Exhaustion|sw5e-phb|exhaustion} level is not reduced. Additionally, for each week spent in this suite, creatures suffer 1 level of {@condition Exhaustion|sw5e-phb|exhaustion}."
+			]
+		},
+		{
+			"name": "Stealth Device",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 2",
+				"This modification adds a stealth device to your ship. This device effectively counteracts or negates the use of scanners, both for and against your ship. A crewmember can activate or deactivate the stealth device as an action. While active, your ship has {@variantrule Advantage|sw5e-phb|advantage} on Dexterty (Hide) checks that rely on scanners, but your ship has {@variantrule Disadvantage|sw5e-phb|disadvantage} on Intelligence ({@skill Probe|sw5e-sotg}) and Wisdom ({@skill Scan|sw5e-sotg}) checks that rely on scanners. Additionally, if you try to enter hyperspace while the cloaking device is active, you must roll on the Hyperspace Mishaps table on page 76. Finally, your ship is proficiently equipped for Dexterity ({@skill Hide|sw5e-sotg}) checks.  If your ship is already proficiently equipped, it is instead considered expertly equipped."
+			]
+		},
+		{
+			"name": "Stealth Device, Active Camo",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 3",
+				"{@b {@i Modification Grade{@b  3{@i  }}Prerequisite:} {@skill Stealth|sw5e-phb} Device} This system improves the stealth mode function on your ship. While your stealth device is active, your ship no longer has {@variantrule Disadvantage|sw5e-phb|disadvantage} on Intelligence ({@skill Probe|sw5e-sotg}) and Wisdom ({@skill Scan|sw5e-sotg}) checks that rely on scanners, and no longer has to roll on the Hyperspace Mishaps table before entering hyperspace while stealth mode is active. Additionally, your ship is expertly equipped for Dexterity ({@skill Hide|sw5e-sotg}) checks. If it is already expertly equipped, it instead gains a bonus equal to half the ship’s tier (rounded up)."
+			]
+		},
+		{
+			"name": "Stealth Field",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 3",
+				"{@b {@i Modification Grade{@b  3{@i  }}Prerequisite:} {@skill Stealth|sw5e-phb} Device} This system improves the stealth mode function on your ship. While is active, your ship extends all effects of it's {@skill Stealth|sw5e-phb} Device to nearby starships for one hour. Additionally, for the duration, each starship you choose within 300 feet of you has a +10 bonus to Dexterity ({@skill Hide|sw5e-sotg}) checks and can’t be tracked except by enhanced means while within this radius."
+			]
+		},
+		{
+			"name": "Storage Compartment",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite increases the cargo capacity on your ship by its base cargo capacity, as shown in the {@b Starship Size Cargo Capacity} table on page 79. This suite's Modification Category Base Cost is only 500 cr."
+			]
+		},
+		{
+			"name": "Stunning Rounds",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 0",
+				"When you score a {@variantrule Critical Hit|sw5e-phb|critical hit} with the chosen weapon, or when the target ship rolls a 1 on the {@variantrule Saving Throw|sw5e-phb|saving throw} to avoid the weapon's effects, you can force the target to make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + the ship's Strength modifier). On a failed save, the ship is {@condition Stunned|sw5e-sotg|stunned} until the start of your next turn. If the damaged ship is larger than your ship, it has {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Saving Throw|sw5e-phb|saving throw}. If the damaged ship is smaller than your ship, it instead has {@variantrule Disadvantage|sw5e-phb|disadvantage}."
+			]
+		},
+		{
+			"name": "Sublight Drive, Makeshift",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"Your ship’s flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet and turning {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
+			]
+		},
+		{
+			"name": "Sublight Drive, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"{@b {@i Prerequisite:} Strength 9} Your ship’s flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
+			]
+		},
+		{
+			"name": "Sublight Drive, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"{@b {@i Prerequisite:} Strength 11, Sublight Drive, Mk I} Your ship’s flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
+			]
+		},
+		{
+			"name": "Sublight Drive, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"{@b {@i Prerequisite:} Strength 13, Sublight Drive, Mk II} Your ship’s flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
+			]
+		},
+		{
+			"name": "Sublight Drive, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 4",
+				"{@b {@i Prerequisite:} Strength 15, Sublight Drive, Mk III} Your ship’s flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
+			]
+		},
+		{
+			"name": "Sublight Drive, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 5",
+				"{@b {@i Prerequisite:} Strength 17, Sublight Drive, Mk IV} Your ship’s flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
+			]
+		},
+		{
+			"name": "Super-Heavy Ion Cannon",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship is equipped with a weapon designed to disable enemy ships without damaging them through use of a specialized {@item Ion cannon|sw5e-sotg} that delivers a powerful electromagnetic burst. A crewmember can fire the super-heavy {@item Ion cannon|sw5e-sotg} at a target as an action, which has a range of 1,000 feet and a limited firing arc, as described in Chapter 9. The target must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + the crewmember’s {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + the ship’s Strength modifier). On a failed save, a ship is {@condition Stunned|sw5e-sotg|stunned} for 1 minute. As an action on each of the ship’s turns, a crewmember can repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success. If a ship is targeted by a ship two or more sizes larger than them, it has {@variantrule Disadvantage|sw5e-phb|disadvantage} on the initial {@variantrule Saving Throw|sw5e-phb|saving throw}. If targeted by a ship two or more sizes smaller, it instead has {@variantrule Advantage|sw5e-phb|advantage}. This feature can be used a number of times equal to your ship’s tier (a minimum of once). All expended uses are regained when the ship recharges. If you have more than one Super-{@item Heavy ion cannon|sw5e-sotg} installed, they all share this amount of uses, and each Super-{@item Heavy ion cannon|sw5e-sotg} past the first grants an additional use."
+			]
+		},
+		{
+			"name": "Supercharger Station",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes with a number of separate unique stations equal to one-fourth the ship's suite capacity by size (minimum of one), as shown in the {@b Starship Size Suite Capacity} table. When a techcaster completes a {@variantrule Long Rest|sw5e-phb|long rest} involving this suite, as long as they have their {@book techcasting|sw5e-phb|10|Force- and Tech-casting} focus, they gain temporary tech points equal to their {@book tech power|sw5e-phb|12|Tech Powers} maximum power level + their Intelligence modifier (minimum of one). When you would spend a tech point while you have temporary tech points, the temporary tech points are spent first. All temporary tech points are lost at the end of your next {@variantrule Long Rest|sw5e-phb|long rest}. Additionally each station is equipped with integrated cybertech’s implements. While making a check with these tools in a supercharger station, you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make if you do not already do so. If you already add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier."
+			]
+		},
+		{
+			"name": "Surge Protector",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You augment your ship's preventative measures in order to mitigate damage to its systems. When refitting is conducted on your ship, its {@condition System Damage|sw5e-sotg|system damage} level is reduced by 2, instead of only 1."
+			]
+		},
+		{
+			"name": "Threat Tracker",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Operation, {@b Grade:} 0",
+				"You equip your ship with a specialized defensive computer system.  When you would make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, you can instead make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw}. You can use this feature a number of times equal to your ship's Wisdom modifier.  All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Threatening Design",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"Through vicious-looking weaponry, forboding structure, or overwhelming displays of {@variantrule Speed|sw5e-phb|speed} or power, your ship is better able than most to portray itself to enemies as a dangerous element on the battlefield. Your ship is proficiently equipped for Charisma ({@skill Menace|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Threatening Hardware",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"Your ship gains the ability to fine-tune the readings it displays to enemy craft so as to project how dangerous it is directly to their sensor readouts. As an action, a crewmember can attempt to demoralize one ship within 1,000 feet of your ships that can sense your ship by forcing it to succeed at a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} (DC equal to 8 + your Charisma ({@skill Menace|sw5e-sotg}) bonus). On a failed save, the target cannot willingly move closer to your ship and has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Attack Roll|sw5e-phb|attack rolls} while it can sense your ship until the end of your ship's next turn. On a success, the target can’t be affected by this modification for 1 hour. If your ship has {@variantrule Advantage|sw5e-phb|advantage} on Charisma ({@skill Menace|sw5e-sotg}) checks, the targeted ship makes its {@variantrule Saving Throw|sw5e-phb|saving throw} at {@variantrule Disadvantage|sw5e-phb|disadvantage}. Additionally, your ship is expertly equipped for Charisma ({@skill Menace|sw5e-sotg}) checks."
+			]
+		},
+		{
+			"name": "Thrusters, Makeshift",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You improve your ship's thrusters, at a cost. Your ship's Dexterity score increases by 1. One ability score other than Dexterity (chosen by the GM) decreases by 1. As normal, you can't increase your ship's Dexterity score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Thrusters, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You improve your ship's thrusters. Your ship's Dexterity score increases by 1. As normal, you can't increase your ship's Dexterity score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Thrusters, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You further improve your ship's Thrusters. Your ship's Dexterity score increases by 1. As normal, you can't increase your ship's Dexterity score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Thrusters, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You greatly improve your ship's Thrusters. Your ship's Dexterity score increases by 1. As normal, you can't increase your ship's Dexterity score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Thrusters, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 4",
+				"You massively improve your ship's Thrusters. Your ship's Dexterity score increases by 1. As normal, you can't increase your ship's Dexterity score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Thrusters, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 5",
+				"Your ship's Thrusters have reached it's maximum potential. Your ship's Dexterity score increases by 2. Your ship's maximum for this score increases by 2."
+			]
+		},
+		{
+			"name": "Tibanna Gas Projector, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 1",
+				"As an action, a crewmember can dump a load of tibanna gas in a 100-foot cube within 600 feet. For up to a number of rounds equal to your ship's tier, it is {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} and lightly obscures the area. When the gas appears, each ship in its area must succeed on a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's constitution modifier) or become {@condition Ionized|sw5e-sotg|ionized}. A ship that enters the area or ends its turn there must also succeed on a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. The gas is flammable. Any 50 foot cube of the gas exposed to fire burns away in one round. Each ship that enters the fire or starts it turn there must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 3d6 fire damage on a failed save, or half as much on a successful one. The fire ignites any flammable objects in the area. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Tibanna Gas Projector, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 2",
+				"As an action, a crewmember can shoot a thin sheet of flames from the ship. Each ship in a 150-foot cone must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's constitution modifier). A ship takes 3d6 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Tibanna Gas Projector, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 3",
+				"As an action, a crewmember can expel a burst of flame in a line 300 feet long and 50 feet wide, originating from your ship. Each ship in the line must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's constitution modifier). A ship takes 3d8 fire damage on a failed save, or half as much damage on a successful one. The fire ignites any flammable objects in the area. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Tibanna Gas Projector, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 4",
+				"As an action, a crewmember can create a wall of fire within 1200 feet. You can make the wall up to 300 feet on a side and 10 feet thick, or a spherical shell up to 150 feet in diameter, and 10 feet thick. The wall is opaque and lasts for up to a number of rounds equal to your ship's tier. Each ship that enters the fire or starts it turn there must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's constitution modifier). On a failed save, a creature takes 5d8 fire damage, or half as much damage on a successful save. The fire ignites any flammable objects in the area. The effects of this feature last until the beginning of your next turn unless the crewmember uses a {@variantrule Bonus Action|sw5e-phb} to maintain it. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Tibanna Gas Projector, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 5",
+				"As an action, a crewmember can launch tibanna gas canisters, creating a {@spell Firestorm|sw5e-phb|firestorm} in a location they choose within 1500 feet. The area of the storm consists of up to ten 100-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each ship in the area must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + prof. bonus + ship's constitution modifier). It takes 7d10 fire damage on a failed save, or half as much damage on a successful one. A ship in the area of more than one cube is affected only once. The fire ignites any flammable objects in the area. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Tractor Beam",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"This modification adds a tractor beam to a ship, which can be used to grasp and guide vessels and debris. As an action, a crewmember can activate the tractor beam, which has a range of 600 feet and a limited firing arc, as described in Chapter 9. Each ship or object of your size or smaller within the firing arc must make a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save, a ship is {@condition Tractored|sw5e-sotg|tractored}. An object automatically fails this {@variantrule Saving Throw|sw5e-phb|saving throw}. As a {@variantrule Bonus Action|sw5e-phb}, a crewmember can move a {@condition Tractored|sw5e-sotg|tractored} ship or object in any direction.  A ship or object two or more sizes smaller than you can be moved up to 200 feet, a ship or object one size category smaller than you can be moved up to 100 feet, and a ship or object your size can be moved up to 50 feet. If at the end of this movement the ship or object strikes another ship or object, it must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. An object automatically fails this {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, they both take 1d4 kinetic damage. As an action, a crewmember at the helm of the {@condition Tractored|sw5e-sotg|tractored} ship can repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success. The {@variantrule Saving Throw|sw5e-phb|saving throws} are made with {@variantrule Disadvantage|sw5e-phb|disadvantage} if the ship is smaller than you. If you attempt to tractor a ship or object larger than you, you can choose to gain the {@condition Tractored|sw5e-sotg|tractored} condition and move yourself. You can end the tractor beam at any time (no action required). This feature can be used a number of times equal to your ship’s tier (a minimum of once). All expended uses are regained when the ship recharges. If you have more than one Tractor Beam installed, they all share this amount of uses, and each Tractor Beam past the first grants an additional use."
+			]
+		},
+		{
+			"name": "Tractor Beam Heavy Capacitors",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 2",
+				"As an action, a crewmember can use a ship's tractor beam to move a ship or object one size category larger than the ship or smaller within 900 feet and within the tractor beam's arc. The target must make a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + ship tier + the ship’s Strength modifier). An object automatically fails this {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the ship or object moves a number of feet in a direction of your choice based on its size. A ship or object two or more size categories smaller than your ship can be moved up to 900 feet, a ship or object one size category smaller can be moved up to 600 feet, a ship or object of the same size category can be moved up to 300 feet, and a ship or object one size category larger can be moved up to 100 feet. If at the end of this movement the ship or object strikes another ship or object, they both take 2d8 kinetic damage. This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Transmitters, Makeshift",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You improve your ship's Transmitters, at a cost. Your ship's Charisma score increases by 1. One ability score other than Charisma (chosen by the GM) decreases by 1. As normal, you can't increase your ship's Charisma score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Transmitters, Mk I",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 1",
+				"You improve your ship's Transmitters. Your ship's Charisma score increases by 1. As normal, you can't increase your ship's Charisma score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Transmitters, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 2",
+				"You further improve your ship's Transmitters. Your ship's Charisma score increases by 1. As normal, you can't increase your ship's Charisma score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Transmitters, Mk III",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 3",
+				"You greatly improve your ship's Transmitters. Your ship's Charisma score increases by 1. As normal, you can't increase your ship's Charisma score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Transmitters, Mk IV",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 4",
+				"You massively improve your ship's Transmitters. Your ship's Charisma score increases by 1. As normal, you can't increase your ship's Charisma score above the maximum for your size with this system."
+			]
+		},
+		{
+			"name": "Transmitters, Mk V",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 5",
+				"Your ship's Transmitters have reached their maximum potential. Your ship's Charisma score increases by 2. Your ship's maximum for this score increases by 2."
+			]
+		},
+		{
+			"name": "Transportation",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite offers a single room, or series of rooms, typically located near the cockpit or entrance ramp, featuring a number of seats and individual storage, as well as communal refresher stations (one for every 16 seats), to transport a number of humanoids equal to four times the ship’s suite capacity by size, as shown in the {@b Starship Size Suite Capacity} table."
+			]
+		},
+		{
+			"name": "Tributary Beam",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 3",
+				"This modification can be taken a number of times equal to a ship's Constitution modifier. This modification upgrades the Super-Heavy Turbolaser Battery, Capital Railgun, or Superweapon on your starship. The weapon deals an additional die of damage of the type used by the weapon."
+			]
+		},
+		{
+			"name": "Tuned Engines",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You tune your engine output to allow a crewmember to take the Boost Engines action as a {@variantrule Bonus Action|sw5e-phb} on their turn."
+			]
+		},
+		{
+			"name": "Tuned Shields",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You tune your shield output to allow a crewmember to take the Boost Shields action as a {@variantrule Bonus Action|sw5e-phb} on their turn."
+			]
+		},
+		{
+			"name": "Tuned Weapons",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Universal, {@b Grade:} 0",
+				"You tune your weapon output to allow a crewmember to take the Boost Weapons action as a {@variantrule Bonus Action|sw5e-phb} on their turn."
+			]
+		},
+		{
+			"name": "Turret Mounting",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 2",
+				"The Turret Hardpoint is a modification to a Hardpoint that grants an improved firing arc. The weapon attached to the chosen Hardpoint now has an unlimited firing arc in addition to its limited arc, as described in chapter 9."
+			]
+		},
+		{
+			"name": "Two-Wave Gravshock",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 5",
+				"As an action, a crewmember can use a gravity well projector to wrack the hull of a Large or larger ship that you can see within the projector's arc with violent gravwaves. The target must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + ship tier + the ship’s Strength modifier). On a failed save, it takes 14d6 kinetic damage, or half as much damage on a successful save. The damage can’t reduce the target’s hull points below 1. If the target fails the {@variantrule Saving Throw|sw5e-phb|saving throw}, its hull point maximum is reduced until the ship is recharged by an amount equal to the kinetic damage it took. This feature can be used once before a ship recharges."
+			]
+		},
+		{
+			"name": "Upgraded Retrorockets",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 0",
+				"Your ship's retrorockets allow it to abruptly reverse its thrust. As a {@variantrule Reaction|sw5e-phb} on this ship's turn, a crewmember at the helm can activate the retrorockets and immediately move the ship 100 feet directly backward from the direction the ship is facing. This feature can be used a number of times equal to your ship’s tier (a minimum of once). All expended uses are regained when the ship recharges."
+			]
+		},
+		{
+			"name": "Vault",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes equipped with a vault, which has a capacity equal to half your ship's base cargo capacity, as shown in the {@b Starship Size Cargo Capacity} table on page 79. The vault is equipped with both a key and a code lock, and is magnetically sealed to prevent it opening in the event of power failure. The vault can be accessed with a DC 25 Intelligence ({@item Security kit|sw5e-phb|Security Kit}) check. When the vault is accessed, an alarm sounds in the Bridge and Security Suite (if it exists). If a player rolls a 30 or higher on the Intelligence ({@item Security kit|sw5e-phb|Security Kit}) check to unlock the vault, or has the key or code, the alarm can be bypassed."
+			]
+		},
+		{
+			"name": "Warhead Launcher",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Engineering, {@b Grade:} 5",
+				"As an action, a crewmember may generate a nuclear explosion in a 400-foot-radius sphere centered on a point within 1500 feet.  Every ship in that sphere must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + ship tier + the ship’s Constitution modifier). On a failed save, a target takes 40d6 fire damage and is {@condition Shocked|sw5e-sotg|shocked} until the end of it's next turn from an electromagnetic pulse.  On a success, a ship takes half damage and is not {@condition Shocked|sw5e-sotg|shocked}. The explosion spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried. This feature can be used once before a ship is refitted. The Starship Size Modification Cost for this modification is Large, regardless of the size of ship it is installed on."
+			]
+		},
+		{
+			"name": "Weapon Slave Array",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 1",
+				"A weapon slave array is attached to a hardpoint and used to fire the weapon effectively from a remote station.  A crewmember taking the Attack Run, Dogfight, or Harass action and using a weapon equipped to this hardpoint is no longer limited to a forward facing arc. Additionally, when taking the Fire action with a weapon equipped to this hardpoint, a crewmwmber at the helm no longer suffers {@variantrule Disadvantage|sw5e-phb|disadvantage} with a forward-facing limited arc."
+			]
+		},
+		{
+			"name": "Weapon Slave Array, Mk II",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Weapon, {@b Grade:} 2",
+				"A crewmember at the helm, when taking the Fire action with a weapon equipped to this hardpoint, no longer suffers {@variantrule Disadvantage|sw5e-phb|disadvantage}."
+			]
+		},
+		{
+			"name": "Workshop",
+			"source": "sw5e-sotg",
+			"page": 51,
+			"ruleType": "O",
+			"entries": [
+				"{@b Type:} Suite, {@b Grade:} 0",
+				"This suite comes with a number of workshops equal up to one-half the ship’s suite capacity by size (minimum of one), as shown in the {@b Starship Size Suite Capacity} table. The workshops are equipped with an integrated armormech’s implements, armstech’s implements, artificer’s implements, audiotech's implements, cybertech’s implements, {@item Demolitions kit|sw5e-phb|demolitions kit}, {@item Gadgeteer's implements|sw5e-phb|gadgeteer's implements}, munitions kit, tinker’s implements, and a {@item Trapper's kit|sw5e-phb|trapper's kit}. While making a check with any of these tools in a workshop, you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make if you do not already do so. If you already add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you already double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier. Additionally, while crafting in a workshop using the integrated tools, the total market value you can craft per day increases by an amount of credits equal to 5 x your character level. If you add double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make with them, the market value increases by 10 x your character level. Lastly, when a creature completes a {@variantrule Long Rest|sw5e-phb|long rest} involving this suite, they gain {@variantrule Advantage|sw5e-phb|advantage} on the first {@variantrule Ability Check|sw5e-phb|ability check} using tools they make before the start of their next {@variantrule Long Rest|sw5e-phb|long rest}, except for checks made while using a suite."
+			]
+		}
+	]
+}

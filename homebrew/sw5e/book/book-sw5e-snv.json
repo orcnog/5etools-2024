@@ -6,7 +6,7 @@
 				"json": "sw5e-snv",
 				"abbreviation": "SnV",
 				"full": "SW5e: Scum and Villainy",
-				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-snv.json",
+				"url": "homebrew/sw5e/book/book-sw5e-snv.json",
 				"color": "#11aa11",
 				"authors": [],
 				"convertedBy": [
@@ -15,8 +15,9 @@
 			}
 		],
 		"dateAdded": 1657936771,
-		"dateLastModified": 1780145733,
+		"dateLastModified": 1780288148,
 		"internalCopies": [
+			"monster",
 			"monsterFluff"
 		]
 	},
@@ -72,8 +73,8 @@
 				"ion"
 			],
 			"conditionImmune": [
-				"{@condition Poisoned|sw5e-phb|poisoned}",
-				"{@condition Diseased|sw5e-phb|diseased}"
+				"poisoned",
+				"diseased"
 			],
 			"languages": [
 				"All registered languages"
@@ -29065,6 +29066,3934 @@
 			"entries": [
 				"Zalaacas are swift, intelligent, and fierce omnivores native to the Gungan swamps of Naboo.Rather little is known about their habits. They seem to dwell primarily in woody uplands, yet are strong swimmers. Narglatch will not attack adult-sized zalaacas.",
 				"Ysalamiri are furry, lizard-like tree-dwellers about 2 feet in length, native to the planet Myrkr, and most known for their ability to create a Force-neutral bubble. This ability evolved in response to predation by the {@feat Force-Sensitive|sw5e-phb|Force-sensitive} vornskrs. Many ysalamiri grouped together would expand their Force-neutral bubble by varying distances — sometimes by kilometers.Ysalamiri sink their claws into the Olbio trees on which they live and draw nutrients. It is very difficult to remove a ysalamir from its tree without killing it, although this has been known to happen. Some few have developed back harness or nutrient frames which allow transport of the ysalamiri and, therefore, their Force repelling bubble. Ysalamiri do not actually negate the Force; since all existence is infused with Force energy, this would not be possible. Rather, they {@spell Project|sw5e-phb|project} a bubble inside which users are unable to exert any influence over the Force. A single bubble measures a few meters in diameter; large groups of ysalamiri could extend their collective bubble by kilometers, but only in great numbers.Miriskin was a commodity  made from ysalamir skin."
+			]
+		}
+	],
+	"book": [
+		{
+			"name": "SW5e: Scum and Villainy",
+			"id": "sw5e-snv",
+			"source": "sw5e-snv",
+			"group": "homebrew",
+			"published": "2020",
+			"author": "SW5e Community",
+			"contents": [
+				{
+					"name": "Introduction",
+					"headers": []
+				},
+				{
+					"name": "Beasts",
+					"headers": []
+				},
+				{
+					"name": "Humanoids",
+					"headers": []
+				},
+				{
+					"name": "Droids",
+					"headers": []
+				},
+				{
+					"name": "Constructs",
+					"headers": []
+				},
+				{
+					"name": "Aberrations",
+					"headers": []
+				},
+				{
+					"name": "Plants",
+					"headers": []
+				},
+				{
+					"name": "Undead",
+					"headers": []
+				},
+				{
+					"name": "Elementals",
+					"headers": []
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "sw5e-snv",
+			"source": "sw5e-snv",
+			"data": [
+				{
+					"type": "section",
+					"name": "Introduction",
+					"page": 1,
+					"entries": [
+						"Scum and Villainy includes a menagerie of Star Wars-themed monsters and villains. Each entry below shows lore from the bestiary followed by its stat block."
+					]
+				},
+				{
+					"type": "section",
+					"name": "Beasts",
+					"page": 2,
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Acklay, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Acklay, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Acklay, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Acklay, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Aiwha",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Aiwha",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Anooba",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Anooba",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Aryx",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Aryx",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Bantha, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Bantha, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Bantha, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Bantha, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Beggar's Canyon Womp Rat",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Beggar's Canyon Womp Rat",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Blurrg",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Blurrg",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Boar-wolf",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Boar-wolf",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Bogwing, Greater",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Bogwing, Greater",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Bogwing, Lesser",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Bogwing, Lesser",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Bor Gullet",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Bor Gullet",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Brain Worm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Brain Worm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Cliff Wampa",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Cliff Wampa",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Clodhopper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Clodhopper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Condor Dragon",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Condor Dragon",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Dewback, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Dewback, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Dewback, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Dewback, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Dianoga, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Dianoga, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Dianoga, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Dianoga, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Dragonsnake",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Dragonsnake",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Energy Spider",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Energy Spider",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Eopie",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Eopie",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Ewok Pony",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Ewok Pony",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Exogorth, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Exogorth, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Exogorth, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Exogorth, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Fambaa",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Fambaa",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Fambaa Howdah",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Fambaa Howdah",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Fathier",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Fathier",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Fexian Skullborer",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Fexian Skullborer",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Flutterplume",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Flutterplume",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Forest Nexu, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Forest Nexu, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Fyrnock",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Fyrnock",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Geejaw",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Geejaw",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Ghest",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Ghest",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Giant Worrt",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Giant Worrt",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Gizka",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Gizka",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Gizka Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Gizka Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Greysor",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Greysor",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Gundark, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Gundark, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Gundark, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Gundark, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Gundark, Alpha",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Gundark, Alpha",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Gundark, Matriarch",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Gundark, Matriarch",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Gutkurr",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Gutkurr",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Hawk-bat",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Hawk-bat",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Hawk-bat Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Hawk-bat Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Hive Rat",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Hive Rat",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Horned Kath Hound",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Horned Kath Hound",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Hrumph",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Hrumph",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Jakrab",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Jakrab",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Jubba Bird",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Jubba Bird",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Jundland Wastes Womp Rat",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Jundland Wastes Womp Rat",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "K'lor'slug",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "K'lor'slug",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Kaadu",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Kaadu",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Katarn",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Katarn",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Kath Hound",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Kath Hound",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Krayt Dragon, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Krayt Dragon, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Krayt Dragon, Greater",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Krayt Dragon, Greater",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Krayt Dragon, Juvenile",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Krayt Dragon, Juvenile",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Lylek",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Lylek",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Maalraas",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Maalraas",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Massiff",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Massiff",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Mole Serpent, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Mole Serpent, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Monkey-Lizard",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Monkey-Lizard",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Monkey-Lizard Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Monkey-Lizard Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Moof",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Moof",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Mott",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Mott",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Mucous Salamander",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Mucous Salamander",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Mynock",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Mynock",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Mynock Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Mynock Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Narglatch",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Narglatch",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Nerf",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Nerf",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Nuna",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Nuna",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Opee Sea Killer",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Opee Sea Killer",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Orbalisk",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Orbalisk",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Orbalisk Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Orbalisk Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Pelko Bug",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Pelko Bug",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Pelko Bug Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Pelko Bug Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Porg",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Porg",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Porg Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Porg Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Rancor, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Rancor, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Rancor, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Rancor, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Rancor, Ancient",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Rancor, Ancient",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Rancor, Juvenile",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Rancor, Juvenile",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Rathtar",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Rathtar",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Rathtar, Dwarf",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Rathtar, Dwarf",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Reek, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Reek, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Reek, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Reek, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Rock Wart",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Rock Wart",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Ronto",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Ronto",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Sando Aqua Monster",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Sando Aqua Monster",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Scrange",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Scrange",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Scurrier",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Scurrier",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Shaak",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Shaak",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Shyrack",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Shyrack",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Shyrack Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Shyrack Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Sibian Hound",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Sibian Hound",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Sketto",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Sketto",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Snow Wampa",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Snow Wampa",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Spotlight Sloth",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Spotlight Sloth",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Steelpecker",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Steelpecker",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Steep",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Steep",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Stintaril",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Stintaril",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Stintaril Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Stintaril Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Swamp Slug",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Swamp Slug",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Swamp Wampa",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Swamp Wampa",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Tauntaun",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Tauntaun",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Tusk Cat",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Tusk Cat",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Twirrl",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Twirrl",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Varactyl, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Varactyl, Adolescent",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Varactyl, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Varactyl, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Veermok",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Veermok",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Vornskr",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Vornskr",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Voxyn",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Voxyn",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Vulptex",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Vulptex",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Whisper Bird",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Whisper Bird",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Woodoo",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Woodoo",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Worrt",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Worrt",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Wraid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Wraid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Wyyyschokk",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Wyyyschokk",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Ysalamir",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Ysalamir",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Ysalamiri Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Ysalamiri Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Zalaaca",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Zalaaca",
+							"source": "sw5e-snv",
+							"style": "inset"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Humanoids",
+					"page": 3,
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "B'omarr Monk Initiate",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "B'omarr Monk Initiate",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Cantina Brawl",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Cantina Brawl",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Cyborg Khagan",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Cyborg Khagan",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Death Trooper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Death Trooper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Emperor's Hand",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Emperor's Hand",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Gamorrean Guard",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Gamorrean Guard",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Gorax",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Gorax",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Grand Admiral",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Grand Admiral",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Hutt Crime Lord",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Hutt Crime Lord",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Hutt Wrestler",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Hutt Wrestler",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Imperial Guard Champion",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Imperial Guard Champion",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Imperial Guard Sentinel",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Imperial Guard Sentinel",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Imperial Royal Guard",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Imperial Royal Guard",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Imperial Senate Guard",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Imperial Senate Guard",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Imperial Shadow Guard",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Imperial Shadow Guard",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Inquisitor, Grand",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Inquisitor, Grand",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Inquisitor, Knight",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Inquisitor, Knight",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Inquisitor, Master",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Inquisitor, Master",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "ISB Infiltrator",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "ISB Infiltrator",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "ISB Officer",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "ISB Officer",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Jawa Scrapper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Jawa Scrapper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Jawa Shaman",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Jawa Shaman",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Jawa Tinkerer",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Jawa Tinkerer",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Kolkpravis Baatar",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Kolkpravis Baatar",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Kolkpravis Blackarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Kolkpravis Blackarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Kolkpravis Khagan",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Kolkpravis Khagan",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Kolkpravis Khan",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Kolkpravis Khan",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Kolkpravis Tarkhan",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Kolkpravis Tarkhan",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Kolkpravis Warrior",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Kolkpravis Warrior",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Mistryl Apprentice",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Mistryl Apprentice",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Mistryl Master",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Mistryl Master",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Mistryl Prime",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Mistryl Prime",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Mob",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Mob",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Navy Pilot",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Navy Pilot",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Navy Trooper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Navy Trooper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Officer, Junior",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Officer, Junior",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Officer, Senior",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Officer, Senior",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Purge Trooper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Purge Trooper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Riot",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Riot",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trandoshan Elite Warrior",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trandoshan Elite Warrior",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trandoshan Hunter",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trandoshan Hunter",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trandoshan Huntmaster",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trandoshan Huntmaster",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trandoshan T'doshok",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trandoshan T'doshok",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trandoshan Warrior",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trandoshan Warrior",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trooper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trooper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trooper, Captain",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trooper, Captain",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trooper, Demolitions",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trooper, Demolitions",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trooper, Flame",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trooper, Flame",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trooper, Headhunter",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trooper, Headhunter",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trooper, Heavy",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trooper, Heavy",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trooper, Jump",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trooper, Jump",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trooper, Mounted",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trooper, Mounted",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trooper, Scout",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trooper, Scout",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trooper, Shore",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trooper, Shore",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trooper, Sniper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trooper, Sniper",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Trooper, Squad",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Trooper, Squad",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Tusken Brute",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Tusken Brute",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Tusken Chieftain",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Tusken Chieftain",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Tusken Raider",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Tusken Raider",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Uprising",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Uprising",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Wookiee Berserker",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Wookiee Berserker",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Wookiee Engineer",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Wookiee Engineer",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Wookiee Hunter",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Wookiee Hunter",
+							"source": "sw5e-snv",
+							"style": "inset"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Droids",
+					"page": 4,
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "000 Series Protocol Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "000 Series Protocol Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "3P0 Series",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "3P0 Series",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "3PO Series Protocol Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "B1 Series, B1-A",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "B1 Series, B1-A",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "B1 Series, B1-X",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "B1 Series, B1-X",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "B1 Series, Squad",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "B1 Series, Squad",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "B2 Series, B2-A",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "B2 Series, B2-A",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "B2 Series, B2-HA",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "B2 Series, B2-HA",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "BB Series Astromech Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "BB Series Astromech Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Blastromech Series, BT-1",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Blastromech Series, BT-1",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "BX Series, BX-5C",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "BX Series, BX-5C",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "BX Series, BX-A",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "BX Series, BX-A",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "C1 Series Astromech Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "C1 Series Astromech Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Destroyer Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Destroyer Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "DRK-1 Tracker Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "DRK-1 Tracker Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "DSD1 Dwarf Spider Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "DSD1 Dwarf Spider Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "DUM-Series PIT Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "DUM-Series PIT Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "GH-7 Medical Analysis Unit",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "GH-7 Medical Analysis Unit",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Gonk Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Gonk Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "HK Series, HK-47",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "HK Series, HK-47",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Hyena-Class Bomber",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Hyena-Class Bomber",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "ID9 Seeker Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "ID9 Seeker Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Ig Series, Model 86",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Ig Series, Model 86",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "IG Series, Model 88",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "IG Series, Model 88",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "IG-100 Series",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "IG-100 Series",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "IG-227 Hailfire-Class Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "IG-227 Hailfire-Class Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "IT-O Interrog. Unit",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "IT-O Interrog. Unit",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "JK-13 Security Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "JK-13 Security Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Junk Behemoth",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Junk Behemoth",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Junk Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Junk Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "KX-Series Security Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "KX-Series Security Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "L0M Series",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "L0M Series",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Marksman-H Remote",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Marksman-H Remote",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Melee Destroyer Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Melee Destroyer Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "NR-N99 Persuader-Class Enforcer",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "NR-N99 Persuader-Class Enforcer",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Pistoeka sabotage droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Pistoeka sabotage droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Probe Killer Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Probe Killer Swarm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "R2 Series Astromech Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "R2 Series Astromech Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "SD-K4 Assassin Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "SD-K4 Assassin Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Sith Probe Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Sith Probe Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Super Tactical Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Super Tactical Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "T-Series Tactical Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "T-Series Tactical Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "T3-Series Utility Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "T3-Series Utility Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Viper Probe Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Viper Probe Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Vulture-Class Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Vulture-Class Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Weaponized Gonk Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Weaponized Gonk Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Z-58 Series Security Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Z-58 Series Security Droid",
+							"source": "sw5e-snv",
+							"style": "inset"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Constructs",
+					"page": 5,
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "1.4 FD P-Tower Turret",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "1.4 FD P-Tower Turret",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "74-Z Speeder Bike",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "74-Z Speeder Bike",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "AAT",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "AAT",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "AT-AT",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "AT-AT",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "AT-RT",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "AT-RT",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "AT-ST",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "AT-ST",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "AT-TE",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "AT-TE",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Auto-Turret",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Auto-Turret",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Autonomous Servant",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Ax-108 Sentry Gun",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Ax-108 Sentry Gun",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "B'omarr Brain Walker",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "B'omarr Brain Walker",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "DF.9 Anti-Infantry Turret",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "DF.9 Anti-Infantry Turret",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Hidden Turret",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Hidden Turret",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "LR1K Sonic Cannon",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "LR1K Sonic Cannon",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "TX-225 Occupier Tank",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "TX-225 Occupier Tank",
+							"source": "sw5e-snv",
+							"style": "inset"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Aberrations",
+					"page": 6,
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Battle Hydra",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Battle Hydra",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Flesh Raider",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Flesh Raider",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Flesh Raider Apprentice",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Flesh Raider Apprentice",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Flesh Raider Berserker",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Flesh Raider Berserker",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Hssiss",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Hssiss",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Rakghoul",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Rakghoul",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Rakghoul, Hulking",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Rakghoul, Hulking",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Starweird",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Starweird",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Terentatek",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Terentatek",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Tuk'ata",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Tuk'ata",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "War Wyrm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "War Wyrm",
+							"source": "sw5e-snv",
+							"style": "inset"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Plants",
+					"page": 7,
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Carnivorous Plant",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Carnivorous Plant",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Knobby White Spider",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Knobby White Spider",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Knobby White Spiderling",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Knobby White Spiderling",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Sarlacc, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Sarlacc, Adult",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Shrub",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Shrub",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Tree",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Tree",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Vesuvague Tree",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Vesuvague Tree",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Vines",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Vines",
+							"source": "sw5e-snv",
+							"style": "inset"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Undead",
+					"page": 8,
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Dark Lord Spirit",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Dark Lord Spirit",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Dark Side Spirit",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Dark Side Spirit",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Manifestation of Abeloth",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Manifestation of Abeloth",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Vessel of Abeloth",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Vessel of Abeloth",
+							"source": "sw5e-snv",
+							"style": "inset"
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Elementals",
+					"page": 9,
+					"entries": [
+						{
+							"type": "statblock",
+							"tag": "creatureFluff",
+							"name": "Force Storm Eye",
+							"source": "sw5e-snv",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "creature",
+							"name": "Force Storm Eye",
+							"source": "sw5e-snv",
+							"style": "inset"
+						}
+					]
+				}
 			]
 		}
 	]

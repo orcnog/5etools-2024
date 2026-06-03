@@ -67,7 +67,7 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered returning pain to those who deliver it, becoming a {@spell Scourge|sw5e-phb|scourge} on the battlefield. You gain the following benefits:",
+				"You've mastered returning pain to those who deliver it, becoming a scourge on the battlefield. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -86,7 +86,7 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered fighting without sight, finding a home in the {@spell Darkness|sw5e-phb|darkness} that your enemies fear. You gain the following benefits:",
+				"You've mastered fighting without sight, finding a home in the darkness that your enemies fear. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -300,7 +300,7 @@
 				"FM"
 			],
 			"entries": [
-				"{@i {@b Prerequisite:} The ability to cast {@book force powers|sw5e-phb|11|Force Powers}} You've mastered the basics of the known forms of {@item Lightsaber|sw5e-phb|lightsaber} combat, wielding your weapon with unparalleled grace. You gain the following benefits:",
+				"{@i {@b Prerequisite:} The ability to cast {@book force powers|sw5e-phb|11|Force Powers}} You've mastered the basics of the known forms of lightsaber combat, wielding your weapon with unparalleled grace. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -423,10 +423,10 @@
 				{
 					"type": "list",
 					"items": [
-						"When determining the save DC of a {@item Poison|sw5e-phb|poison} you control, you can use 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Intelligence modifier, if it would be higher than the item's DC.",
-						"When you apply a {@item Poison|sw5e-phb|poison} to a weapon or ammunition, that {@item Poison|sw5e-phb|poison} can affect an additional hit or an additional piece of ammunition.",
+						"When determining the save DC of a poison you control, you can use 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Intelligence modifier, if it would be higher than the item's DC.",
+						"When you apply a poison to a weapon or ammunition, that poison can affect an additional hit or an additional piece of ammunition.",
 						"Creatures suffering from the {@condition Poisoned|sw5e-phb} condition have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against poisons you control.",
-						"When using a {@item Poison|sw5e-phb|poison} that requires a {@variantrule Saving Throw|sw5e-phb|saving throw} and deals damage, you can take a penalty to the save DC equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you do so, the item's damage increases by an amount equal to twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
+						"When using a poison that requires a {@variantrule Saving Throw|sw5e-phb|saving throw} and deals damage, you can take a penalty to the save DC equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you do so, the item's damage increases by an amount equal to twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
 					]
 				}
 			]
@@ -576,14 +576,14 @@
 				"FM"
 			],
 			"entries": [
-				"You've mastered utilizing {@book maneuvers|sw5e-phb|13|Maneuvers} to enhance your skills on the battlefield, {@i expanded}. You gain the following benefits:",
+				"You've mastered utilizing maneuvers to enhance your skills on the battlefield, {@i expanded}. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"You learn one {@book maneuver|sw5e-phb|13|Maneuvers}, detailed in {@book chapter 13|sw5e-phb|13}. If you already know at least one {@book maneuver|sw5e-phb|13|Maneuvers}, you instead learn three {@book maneuvers|sw5e-phb|13|Maneuvers}. Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} is Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), your Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}.",
+						"You learn one maneuver, detailed in {@book chapter 13|sw5e-phb|13}. If you already know at least one maneuver, you instead learn three maneuvers. Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} is Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), your Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}.",
 						"You gain one superiority die. If you already have at least one superiority die, you instead gain two additional {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}. Your superiority die is a {@dice d4}, and it changes as you gain levels: to {@dice d6} at 5th level, to {@dice d8} at 9th level, to {@dice d10} at 13th level, and to {@dice d12} at 17th level. A superiority die is expended when you use it. You regain all of your expended {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers} when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}.",
-						"When you use a {@book maneuver|sw5e-phb|13|Maneuvers} on your turn that involves rolling a superiority die, you can use your {@variantrule Bonus Action|sw5e-phb} to gain {@variantrule Advantage|sw5e-phb|advantage} on the superiority die roll.",
-						"Choose one {@book maneuver|sw5e-phb|13|Maneuvers} you know. When you would use the chosen {@book maneuver|sw5e-phb|13|Maneuvers}, you can use a {@dice d4} instead of expending a superiority die. You can do so a number of times equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. You regain all expended uses when you complete a {@variantrule Long Rest|sw5e-phb|long rest}."
+						"When you use a maneuver on your turn that involves rolling a superiority die, you can use your {@variantrule Bonus Action|sw5e-phb} to gain {@variantrule Advantage|sw5e-phb|advantage} on the superiority die roll.",
+						"Choose one maneuver you know. When you would use the chosen maneuver, you can use a {@dice d4} instead of expending a superiority die. You can do so a number of times equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. You regain all expended uses when you complete a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				}
 			]

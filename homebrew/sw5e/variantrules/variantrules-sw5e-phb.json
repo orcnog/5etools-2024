@@ -33,7 +33,7 @@
 			"page": 207,
 			"ruleType": "C",
 			"entries": [
-				"A {@variantrule Saving Throw|sw5e-phb|saving throw}-also called a save-represents an attempt to resist a power, a trap, a {@item Poison|sw5e-phb|poison}, a disease, or a similar threat. You don't normally decide to make a {@variantrule Saving Throw|sw5e-phb|saving throw}; you are forced to make one because your character or monster is at risk of harm.",
+				"A {@variantrule Saving Throw|sw5e-phb|saving throw}-also called a save-represents an attempt to resist a power, a trap, a poison, a disease, or a similar threat. You don't normally decide to make a {@variantrule Saving Throw|sw5e-phb|saving throw}; you are forced to make one because your character or monster is at risk of harm.",
 				"To make a {@variantrule Saving Throw|sw5e-phb|saving throw}, roll a {@dice d20} and add the appropriate ability modifier. For example, you use your Dexterity modifier for a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}.",
 				"A {@variantrule Saving Throw|sw5e-phb|saving throw} can be modified by a situational bonus or penalty and can be affected by {@variantrule Advantage|sw5e-phb|advantage} and {@variantrule Disadvantage|sw5e-phb|disadvantage}, as determined by the GM.",
 				"Each class gives proficiency in at least two {@variantrule Saving Throw|sw5e-phb|saving throws}. The operative, for example, is proficient in Intelligence saves. As with skill proficiencies, proficiency in a {@variantrule Saving Throw|sw5e-phb|saving throw} lets a character add his or her {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to {@variantrule Saving Throw|sw5e-phb|saving throws} made using a particular ability score. Some monsters have {@variantrule Saving Throw|sw5e-phb|saving throw} proficiencies as well.",
@@ -106,7 +106,7 @@
 			"entries": [
 				"Your {@b Armor Class} (AC) represents how well your character avoids being wounded in battle. Things that contribute to your AC include the armor you wear, the {@item Shield|sw5e-phb|shield} you carry, and your Dexterity modifier. Not all characters wear armor or carry {@item Shield|sw5e-phb|shields}, however.",
 				"Without armor or a {@item Shield|sw5e-phb|shield}, your character's AC equals 10 + his or her Dexterity modifier. If your character wears armor, carries a {@item Shield|sw5e-phb|shield}, or both, calculate your AC using the rules in {@book Equipment|sw5e-phb|5}. Record your AC on your character sheet.",
-				"Your character needs to be proficient with armor and {@item Shield|sw5e-phb|shields} to wear and use them effectively, and your armor and {@item Shield|sw5e-phb|shield} proficiencies are determined by your class. There are drawbacks to wearing armor or carrying a {@item Shield|sw5e-phb|shield} if you lack the required proficiency, as explained in {@book Equipment|sw5e-phb|5}.",
+				"Your character needs to be proficient with armor and shields to wear and use them effectively, and your armor and {@item Shield|sw5e-phb|shield} proficiencies are determined by your class. There are drawbacks to wearing armor or carrying a {@item Shield|sw5e-phb|shield} if you lack the required proficiency, as explained in {@book Equipment|sw5e-phb|5}.",
 				"Some powers and class features give you a different way to calculate your AC. If you have multiple features that give you different ways to calculate your AC, you choose which one to use."
 			]
 		},
@@ -315,7 +315,7 @@
 			"page": 242,
 			"ruleType": "DT",
 			"entries": [
-				"The chill energy of {@spell Carbonite|sw5e-phb|carbonite} and cryogenesis deal cold damage."
+				"The chill energy of carbonite and cryogenesis deal cold damage."
 			]
 		},
 		{
@@ -333,7 +333,7 @@
 			"page": 242,
 			"ruleType": "DT",
 			"entries": [
-				"The concussive damage of an {@spell Explosion|sw5e-phb|explosion} or an open flame deal fire damage."
+				"The concussive damage of an explosion or an open flame deal fire damage."
 			]
 		},
 		{
@@ -387,7 +387,7 @@
 			"page": 242,
 			"ruleType": "DT",
 			"entries": [
-				"Venomous stings and the toxic {@i poison spray} power deal {@item Poison|sw5e-phb|poison} damage."
+				"Venomous stings and the toxic {@i poison spray} power deal poison damage."
 			]
 		},
 		{

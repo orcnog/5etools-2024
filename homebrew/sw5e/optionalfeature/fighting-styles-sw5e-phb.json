@@ -279,7 +279,7 @@
 				"FS"
 			],
 			"entries": [
-				"{@i {@b Prerequisite:} The ability to cast {@book force powers|sw5e-phb|11|Force Powers}} You are skilled at the basics of the known forms of {@item Lightsaber|sw5e-phb|lightsaber} combat. You gain the following benefits:",
+				"{@i {@b Prerequisite:} The ability to cast {@book force powers|sw5e-phb|11|Force Powers}} You are skilled at the basics of the known forms of lightsaber combat. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
@@ -393,7 +393,7 @@
 					"type": "list",
 					"items": [
 						"You can apply poisons with your {@variantrule Bonus Action|sw5e-phb}, instead of your action. If you could already apply poisons as a {@variantrule Bonus Action|sw5e-phb}, you can instead do so as a {@variantrule Reaction|sw5e-phb} on your turn.",
-						"When a creature rolls a 1 on the {@variantrule Saving Throw|sw5e-phb|saving throw} against a {@item Poison|sw5e-phb|poison} you control, they treat the effect's damage as if it had rolled the maximum."
+						"When a creature rolls a 1 on the {@variantrule Saving Throw|sw5e-phb|saving throw} against a poison you control, they treat the effect's damage as if it had rolled the maximum."
 					]
 				}
 			]
@@ -536,11 +536,11 @@
 				"FS"
 			],
 			"entries": [
-				"You are skilled at utilizing {@book maneuvers|sw5e-phb|13|Maneuvers} to enhance your skills on the battlefield. You gain the following benefits:",
+				"You are skilled at utilizing maneuvers to enhance your skills on the battlefield. You gain the following benefits:",
 				{
 					"type": "list",
 					"items": [
-						"You learn one {@book maneuver|sw5e-phb|13|Maneuvers}, detailed in {@book chapter 13|sw5e-phb|13}. Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} is Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}.",
+						"You learn one maneuver, detailed in {@book chapter 13|sw5e-phb|13}. Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} is Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}.",
 						"You gain one superiority die, which is a {@dice d4}. This die changes as you gain levels: to {@dice d6} at 5th level, to {@dice d8} at 9th level, to {@dice d10} at 13th level, and to {@dice d12} at 17th level. A superiority die is expended when you use it. You regain all of your expended {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers} when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				}

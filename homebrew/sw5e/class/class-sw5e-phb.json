@@ -829,7 +829,7 @@
 				{
 					"name": "Maneuvers",
 					"featureType": [
-						"MV:B"
+						"MV"
 					],
 					"progression": {
 						"2": 1,
@@ -1824,7 +1824,7 @@
 				{
 					"name": "Maneuvers",
 					"featureType": [
-						"MV:B"
+						"MV"
 					],
 					"progression": {
 						"1": 1,
@@ -2774,7 +2774,7 @@
 				"Projected Barrier|Consular|sw5e-phb|Way of Balance|sw5e-phb|6",
 				"At-Will Barrier|Consular|sw5e-phb|Way of Balance|sw5e-phb|10",
 				"Improved Suppression|Consular|sw5e-phb|Way of Balance|sw5e-phb|14",
-				"Force {@spell Resistance|sw5e-phb}|Consular|sw5e-phb|Way of Balance|sw5e-phb|18"
+				"Force resistance|Consular|sw5e-phb|Way of Balance|sw5e-phb|18"
 			]
 		},
 		{
@@ -2920,17 +2920,17 @@
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
-				"Assault {@feat Specialist|sw5e-phb}|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|3",
-				"Brute Force|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|3",
-				"Brute Force|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|10",
-				"Brute Force|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|16",
-				"Improved Critical|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|3",
-				"Remarkable {@feat Athlete|sw5e-phb}|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|7",
-				"Brutish Durability|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|10",
-				"Brutish Durability|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|13",
-				"Brutish Durability|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|17",
-				"Devastating Critical|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|15",
-				"Survivor|Fighter|sw5e-phb|Assault {@feat Specialist|sw5e-phb}|sw5e-phb|18"
+				"Assault Specialist|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|3",
+				"Brute Force|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|3",
+				"Brute Force|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|10",
+				"Brute Force|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|16",
+				"Improved Critical|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|3",
+				"Remarkable {@feat Athlete|sw5e-phb}|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|7",
+				"Brutish Durability|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|10",
+				"Brutish Durability|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|13",
+				"Brutish Durability|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|17",
+				"Devastating Critical|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|15",
+				"Survivor|Fighter|sw5e-phb|Assault Specialist|sw5e-phb|18"
 			]
 		},
 		{
@@ -2941,13 +2941,13 @@
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
-				"Blademaster {@feat Specialist|sw5e-phb}|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|3",
-				"Unarmored Defense|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|3",
-				"Adaptive Fighting|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|3",
-				"Dervish|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|7",
-				"{@feat Resilient|sw5e-phb} Fighting|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|10",
-				"Adrenaline Rush|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|15",
-				"Bladestorm|Fighter|sw5e-phb|Blademaster {@feat Specialist|sw5e-phb}|sw5e-phb|18"
+				"Blademaster Specialist|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|3",
+				"Unarmored Defense|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|3",
+				"Adaptive Fighting|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|3",
+				"Dervish|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|7",
+				"{@feat Resilient|sw5e-phb} Fighting|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|10",
+				"Adrenaline Rush|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|15",
+				"Bladestorm|Fighter|sw5e-phb|Blademaster Specialist|sw5e-phb|18"
 			]
 		},
 		{
@@ -2958,7 +2958,7 @@
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
-				"{@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb}|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|3",
+				"Shield Specialist|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|3",
 				"{@book techcasting|sw5e-phb|10|Force- and Tech-casting}|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|3",
 				"Stay in Formation|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|3",
 				"Rallying Cry|Fighter|sw5e-phb|Shield {@feat Specialist|sw5e-phb}|sw5e-phb|7",
@@ -3098,14 +3098,14 @@
 			"source": "sw5e-phb",
 			"page": 49,
 			"subclassFeatures": [
-				"Tactical {@feat Specialist|sw5e-phb}|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|3",
-				"Bonus Proficiencies|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|3",
-				"Improved Combat Superiority|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|3",
-				"{@book maneuver|sw5e-phb|13|Maneuvers} Versatility|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|3",
-				"Know Your Enemy|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|7",
-				"{@book maneuver|sw5e-phb|13|Maneuvers} Adept|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|10",
-				"Relentless|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|15",
-				"{@book maneuver|sw5e-phb|13|Maneuvers} Mastery|Fighter|sw5e-phb|Tactical {@feat Specialist|sw5e-phb}|sw5e-phb|18"
+				"Tactical Specialist|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|3",
+				"Bonus Proficiencies|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|3",
+				"Improved Combat Superiority|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|3",
+				"maneuver Versatility|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|3",
+				"Know Your Enemy|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|7",
+				"maneuver Adept|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|10",
+				"Relentless|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|15",
+				"maneuver Mastery|Fighter|sw5e-phb|Tactical Specialist|sw5e-phb|18"
 			]
 		},
 		{
@@ -3666,7 +3666,7 @@
 					"items": [
 						"You have {@variantrule Advantage|sw5e-phb|advantage} on Strength checks and Strength {@variantrule Saving Throw|sw5e-phb|saving throws}.",
 						"When you make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} using Strength, you gain a bonus to the damage roll that increases as you gain levels as a berserker, as shown in the Rage Damage column of the berserker table.",
-						"You have {@spell Resistance|sw5e-phb|resistance} to kinetic and energy damage."
+						"You have resistance to kinetic and energy damage."
 					]
 				},
 				"If you are able to cast powers, you can't cast them or concentrate on them while raging.",
@@ -3969,7 +3969,7 @@
 					"type": "entries",
 					"name": "Dewback's Instinct",
 					"entries": [
-						"Choose three damage types other than true damage. While raging, you have {@spell Resistance|sw5e-phb|resistance} to the chosen damage types."
+						"Choose three damage types other than true damage. While raging, you have resistance to the chosen damage types."
 					]
 				},
 				{
@@ -4758,13 +4758,13 @@
 			"page": 49,
 			"level": 2,
 			"entries": [
-				"You learn {@book maneuvers|sw5e-phb|13|Maneuvers} that are fueled by special dice called {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}. See {@book chapter 13|sw5e-phb|13|Maneuvers} for the {@book maneuvers list|sw5e-phb|13|Maneuvers}.",
+				"You learn maneuvers that are fueled by special dice called {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}. See {@book chapter 13|sw5e-phb|13|Maneuvers} for the {@book maneuvers list|sw5e-phb|13|Maneuvers}.",
 				{
 					"type": "entries",
 					"name": "Maneuvers Known",
 					"entries": [
-						"You learn one {@book maneuver|sw5e-phb|13|Maneuvers} of your choice, and you earn more at higher levels, as shown in the Maneuvers Known column of the fighter table. Many {@book maneuvers|sw5e-phb|13|Maneuvers} enhance an attack in some way. You can use only one {@book maneuver|sw5e-phb|13|Maneuvers} per attack, and you may only use each {@book maneuver|sw5e-phb|13|Maneuvers} once per turn.",
-						"Each time you learn new {@book maneuvers|sw5e-phb|13|Maneuvers}, you can also replace one {@book maneuver|sw5e-phb|13|Maneuvers} you know with a different one."
+						"You learn one maneuver of your choice, and you earn more at higher levels, as shown in the Maneuvers Known column of the fighter table. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack, and you may only use each maneuver once per turn.",
+						"Each time you learn new maneuvers, you can also replace one maneuver you know with a different one."
 					]
 				},
 				{
@@ -4779,7 +4779,7 @@
 					"type": "entries",
 					"name": "Maneuvers Ability",
 					"entries": [
-						"Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} varies based on the type of the {@book maneuver|sw5e-phb|13|Maneuvers} you use. You use Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}. You use this ability whenever a {@book maneuver|sw5e-phb|13|Maneuvers} refers to your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book maneuver|sw5e-phb|13|Maneuvers} you use.",
+						"Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} varies based on the type of the maneuver you use. You use Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}. You use this ability whenever a maneuver refers to your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a maneuver you use.",
 						"{@b Maneuver save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} modifier"
 					]
 				}
@@ -4999,7 +4999,7 @@
 						{
 							"type": "list",
 							"items": [
-								"Applying {@item Poison|sw5e-phb|poison}",
+								"Applying poison",
 								"Dash",
 								"Disengage",
 								"Guard",
@@ -5038,7 +5038,7 @@
 					"type": "entries",
 					"name": "Maneuvers Strategist",
 					"entries": [
-						"You learn two additional {@book maneuvers|sw5e-phb|13|Maneuvers}. When you complete a {@variantrule Short Rest|sw5e-phb|short rest}, you can replace one of these {@book maneuvers|sw5e-phb|13|Maneuvers} with another one. When you complete a {@variantrule Long Rest|sw5e-phb|long rest}, you can replace both of these {@book maneuvers|sw5e-phb|13|Maneuvers} with other ones."
+						"You learn two additional maneuvers. When you complete a {@variantrule Short Rest|sw5e-phb|short rest}, you can replace one of these maneuvers with another one. When you complete a {@variantrule Long Rest|sw5e-phb|long rest}, you can replace both of these maneuvers with other ones."
 					]
 				},
 				{
@@ -5176,7 +5176,7 @@
 					"type": "entries",
 					"name": "Lend Aid",
 					"entries": [
-						"As a {@variantrule Bonus Action|sw5e-phb}, you can expend a use of your Channel the Force and touch a beast or humanoid within 5 feet of you. That creature regains {@variantrule Hit Points|sw5e-phb|hit points} equal to your guardian level + your Wisdom modifier (minimum of +1). Alternatively, if the beast or humanoid is {@condition Poisoned|sw5e-phb} or {@condition Diseased|sw5e-phb|diseased}, you neutralize the {@item Poison|sw5e-phb|poison} or disease. If more than one {@item Poison|sw5e-phb|poison} or disease afflicts the target, you neutralize one {@item Poison|sw5e-phb|poison} or disease that you know is present, or you neutralize one at random."
+						"As a {@variantrule Bonus Action|sw5e-phb}, you can expend a use of your Channel the Force and touch a beast or humanoid within 5 feet of you. That creature regains {@variantrule Hit Points|sw5e-phb|hit points} equal to your guardian level + your Wisdom modifier (minimum of +1). Alternatively, if the beast or humanoid is {@condition Poisoned|sw5e-phb} or {@condition Diseased|sw5e-phb|diseased}, you neutralize the poison or disease. If more than one poison or disease afflicts the target, you neutralize one poison or disease that you know is present, or you neutralize one at random."
 					]
 				}
 			]
@@ -5332,7 +5332,7 @@
 			"page": 49,
 			"level": 6,
 			"entries": [
-				"The Force flowing through you makes you immune to {@item Poison|sw5e-phb|poison} and disease."
+				"The Force flowing through you makes you immune to poison and disease."
 			]
 		},
 		{
@@ -5412,7 +5412,7 @@
 					"type": "entries",
 					"name": "Aura of Warding",
 					"entries": [
-						"You and friendly creatures within 5 feet of you have {@spell Resistance|sw5e-phb|resistance} to damage from {@book force powers|sw5e-phb|11|Force Powers}."
+						"You and friendly creatures within 5 feet of you have resistance to damage from {@book force powers|sw5e-phb|11|Force Powers}."
 					]
 				}
 			]
@@ -5773,7 +5773,7 @@
 			"page": 49,
 			"level": 6,
 			"entries": [
-				"Your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} count as enhanced for the purpose of overcoming {@spell Resistance|sw5e-phb|resistance} and immunity to unenhanced attacks and damage."
+				"Your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage."
 			]
 		},
 		{
@@ -5806,7 +5806,7 @@
 			"page": 49,
 			"level": 13,
 			"entries": [
-				"You are immune to disease and {@item Poison|sw5e-phb|poison} and resistant to {@item Poison|sw5e-phb|poison} damage."
+				"You are immune to disease and poison and resistant to poison damage."
 			]
 		},
 		{
@@ -5839,7 +5839,7 @@
 			"page": 49,
 			"level": 18,
 			"entries": [
-				"You can use your action to spend 4 focus points to become {@condition Invisible|sw5e-phb|invisible} for 1 minute. During that time, you also have {@spell Resistance|sw5e-phb|resistance} to all damage but force damage."
+				"You can use your action to spend 4 focus points to become {@condition Invisible|sw5e-phb|invisible} for 1 minute. During that time, you also have resistance to all damage but force damage."
 			]
 		},
 		{
@@ -6461,13 +6461,13 @@
 			"page": 49,
 			"level": 1,
 			"entries": [
-				"You learn {@book maneuvers|sw5e-phb|13|Maneuvers} that are fueled by special dice called {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}. See {@book chapter 13|sw5e-phb|13|Maneuvers} for the {@book maneuvers list|sw5e-phb|13|Maneuvers}.",
+				"You learn maneuvers that are fueled by special dice called {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}. See {@book chapter 13|sw5e-phb|13|Maneuvers} for the {@book maneuvers list|sw5e-phb|13|Maneuvers}.",
 				{
 					"type": "entries",
 					"name": "Maneuvers Known",
 					"entries": [
-						"You learn one {@book maneuver|sw5e-phb|13|Maneuvers} of your choice, and you earn more at higher levels, as shown in the Maneuvers Known column of the scholar table. Many {@book maneuvers|sw5e-phb|13|Maneuvers} enhance an attack in some way. You can use only one {@book maneuver|sw5e-phb|13|Maneuvers} per attack, and you may only use each {@book maneuver|sw5e-phb|13|Maneuvers} once per turn.",
-						"Each time you learn new {@book maneuvers|sw5e-phb|13|Maneuvers}, you can also replace one {@book maneuver|sw5e-phb|13|Maneuvers} you know with a different one."
+						"You learn one maneuver of your choice, and you earn more at higher levels, as shown in the Maneuvers Known column of the scholar table. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack, and you may only use each maneuver once per turn.",
+						"Each time you learn new maneuvers, you can also replace one maneuver you know with a different one."
 					]
 				},
 				{
@@ -6482,7 +6482,7 @@
 					"type": "entries",
 					"name": "Maneuvers Ability",
 					"entries": [
-						"Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} varies based on the type of the {@book maneuver|sw5e-phb|13|Maneuvers} you use. You use Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}. You use this ability whenever a {@book maneuver|sw5e-phb|13|Maneuvers} refers to your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book maneuver|sw5e-phb|13|Maneuvers} you use.",
+						"Your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} varies based on the type of the maneuver you use. You use Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (your choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (your choice), and an ability of your choice for {@book general maneuvers|sw5e-phb|13|General}. You use this ability whenever a maneuver refers to your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers}. Additionally, you use this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a maneuver you use.",
 						"{@b Maneuver save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} modifier"
 					]
 				}
@@ -6720,7 +6720,7 @@
 			"page": 49,
 			"level": 20,
 			"entries": [
-				"You are the pinnacle of your pursuit. Your Intelligence score increases by 4. Your maximum for that score increases by 4. Additionally, you can use any {@book maneuver|sw5e-phb|13|Maneuvers} you know without expending a superiority die, rolling a {@dice d4} instead."
+				"You are the pinnacle of your pursuit. Your Intelligence score increases by 4. Your maximum for that score increases by 4. Additionally, you can use any maneuver you know without expending a superiority die, rolling a {@dice d4} instead."
 			]
 		},
 		{
@@ -6774,7 +6774,7 @@
 					"name": "Hardened Mind",
 					"entries": [
 						"{@i {@b Prerequisite:} 9th level} You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against illusions and on Intelligence checks to discern them from reality.",
-						"You also gain {@spell Resistance|sw5e-phb|resistance} to psychic damage."
+						"You also gain resistance to psychic damage."
 					]
 				},
 				{
@@ -6796,7 +6796,7 @@
 					"type": "entries",
 					"name": "Malleable Maneuvering",
 					"entries": [
-						"You learn two additional {@book maneuvers|sw5e-phb|13|Maneuvers}. When you complete a {@variantrule Short Rest|sw5e-phb|short rest}, you can replace one of these {@book maneuvers|sw5e-phb|13|Maneuvers} with another one. When you complete a {@variantrule Long Rest|sw5e-phb|long rest}, you can replace both of these {@book maneuvers|sw5e-phb|13|Maneuvers} with other ones."
+						"You learn two additional maneuvers. When you complete a {@variantrule Short Rest|sw5e-phb|short rest}, you can replace one of these maneuvers with another one. When you complete a {@variantrule Long Rest|sw5e-phb|long rest}, you can replace both of these maneuvers with other ones."
 					]
 				},
 				{
@@ -6867,7 +6867,7 @@
 					"name": "Survival Expert",
 					"entries": [
 						"When you make a {@skill Survival|sw5e-phb} skill check, you may use your Critical Analysis ability modifier instead of your Wisdom modifier.",
-						"Additionally, you have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@item Poison|sw5e-phb|poison}."
+						"Additionally, you have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against poison."
 					]
 				},
 				{
@@ -6896,7 +6896,7 @@
 					"type": "entries",
 					"name": "Versatile Maneuvers",
 					"entries": [
-						"Choose two {@book maneuvers|sw5e-phb|13|Maneuvers} you know. The chosen {@book maneuvers|sw5e-phb|13|Maneuvers} count as {@book general maneuvers|sw5e-phb|13|General} for you. You can choose another {@book maneuver|sw5e-phb|13|Maneuvers} at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can replace one of these {@book maneuvers|sw5e-phb|13|Maneuvers} with another {@book maneuver|sw5e-phb|13|Maneuvers} you know."
+						"Choose two maneuvers you know. The chosen maneuvers count as {@book general maneuvers|sw5e-phb|13|General} for you. You can choose another maneuver at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can replace one of these maneuvers with another maneuver you know."
 					]
 				}
 			]
@@ -7321,7 +7321,7 @@
 					"type": "entries",
 					"name": "Maven's Routine",
 					"entries": [
-						"At the start of each of your turns, you can choose to gain {@spell Resistance|sw5e-phb|resistance} to damage from {@book tech powers|sw5e-phb|12|Tech Powers} until the start of your next turn. Alternatively, you can choose to extend this benefit to allies within 5 feet of you."
+						"At the start of each of your turns, you can choose to gain resistance to damage from {@book tech powers|sw5e-phb|12|Tech Powers} until the start of your next turn. Alternatively, you can choose to extend this benefit to allies within 5 feet of you."
 					]
 				},
 				{
@@ -7683,7 +7683,7 @@
 					"name": "Ideal of the Contender",
 					"entries": [
 						"Your unarmed strike damage increases by one step (from 1 to {@dice d4}, {@dice d4} to {@dice d6}, or {@dice d6} to {@dice d8}), and your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} gain {@itemProperty SWF|sw5e-phb|the finesse property}.",
-						"Additionally, as a {@variantrule Bonus Action|sw5e-phb}, you can manifest this ideal in a brief surge of energy. For the next minute, your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} count as enhanced for the purpose of overcoming {@spell Resistance|sw5e-phb|resistance} and immunity to unenhanced attacks and damage, and you can use your Wisdom or Charisma modifier (your choice) instead of Strength for checks made to grapple a target or escape a grapple."
+						"Additionally, as a {@variantrule Bonus Action|sw5e-phb}, you can manifest this ideal in a brief surge of energy. For the next minute, your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage, and you can use your Wisdom or Charisma modifier (your choice) instead of Strength for checks made to grapple a target or escape a grapple."
 					]
 				},
 				{
@@ -7699,7 +7699,7 @@
 					"name": "Ideal of the Hunter",
 					"entries": [
 						"You gain {@sense Darkvision|sw5e-phb|darkvision} out to a range of 60 feet. If you already have {@sense Darkvision|sw5e-phb|darkvision}, this ideal increases its range by 30 feet.",
-						"Additionally, as a {@variantrule Bonus Action|sw5e-phb}, you can manifest this ideal in a brief surge of energy. For the next minute, you can see normally in enhanced {@spell Darkness|sw5e-phb|darkness}, and you gain {@sense Blindsight|sw5e-phb|blindsight} to 10 feet."
+						"Additionally, as a {@variantrule Bonus Action|sw5e-phb}, you can manifest this ideal in a brief surge of energy. For the next minute, you can see normally in enhanced darkness, and you gain {@sense Blindsight|sw5e-phb|blindsight} to 10 feet."
 					]
 				},
 				{
@@ -7912,7 +7912,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"The Cyclone Approach empowers the berserker's ability to fight with weapons in each hand. Followers of this approach learn to move quickly to avoid attacks and can become a {@spell Whirlwind|sw5e-phb|whirlwind} of fury and steel, cleaving through hordes of enemies."
+				"The Cyclone Approach empowers the berserker's ability to fight with weapons in each hand. Followers of this approach learn to move quickly to avoid attacks and can become a whirlwind of fury and steel, cleaving through hordes of enemies."
 			]
 		},
 		{
@@ -8081,7 +8081,7 @@
 			"page": 49,
 			"level": 14,
 			"entries": [
-				"You're able to {@optfeature Charge|sw5e-phb|charge} in unerring bursts. As an action, you can {@optfeature Charge|sw5e-phb|charge} up to twice your {@variantrule Speed|sw5e-phb|speed} in a straight line without provoking {@action Opportunity Attack|sw5e-phb|opportunity attacks}. Each creature within 5 feet of your path must make a Strength or Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Strength modifier, the target chooses the ability they use use). On a failed save, a creature takes damage equal to your Strength modifier + your Rage damage and, if it is no more than one size category larger than you, is pushed back 5 feet in a direction of your choice. Creatures smaller than you make this save with {@variantrule Disadvantage|sw5e-phb|disadvantage}. When you end this movement, if a creature is within 5 feet of you, you can make one {@variantrule Attack Roll|sw5e-phb|melee weapon attack} (no action required). On a hit, the creature takes additional damage equal to your berserker level.",
+				"You're able to charge in unerring bursts. As an action, you can charge up to twice your {@variantrule Speed|sw5e-phb|speed} in a straight line without provoking {@action Opportunity Attack|sw5e-phb|opportunity attacks}. Each creature within 5 feet of your path must make a Strength or Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Strength modifier, the target chooses the ability they use use). On a failed save, a creature takes damage equal to your Strength modifier + your Rage damage and, if it is no more than one size category larger than you, is pushed back 5 feet in a direction of your choice. Creatures smaller than you make this save with {@variantrule Disadvantage|sw5e-phb|disadvantage}. When you end this movement, if a creature is within 5 feet of you, you can make one {@variantrule Attack Roll|sw5e-phb|melee weapon attack} (no action required). On a hit, the creature takes additional damage equal to your berserker level.",
 				"Once you've used this feature, you must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 			],
 			"header": 2
@@ -8415,7 +8415,7 @@
 			"page": 49,
 			"level": 18,
 			"entries": [
-				"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book force powers|sw5e-phb|11|Force Powers}. Additionally, you have {@spell Resistance|sw5e-phb|resistance} against the damage of {@book force powers|sw5e-phb|11|Force Powers}."
+				"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book force powers|sw5e-phb|11|Force Powers}. Additionally, you have resistance against the damage of {@book force powers|sw5e-phb|11|Force Powers}."
 			],
 			"header": 2
 		},
@@ -8516,7 +8516,7 @@
 			"page": 49,
 			"level": 14,
 			"entries": [
-				"You gain {@spell Resistance|sw5e-phb|resistance} to lightning damage, and {@book force powers|sw5e-phb|11|Force Powers} you cast ignore {@spell Resistance|sw5e-phb|resistance} to lightning damage."
+				"You gain resistance to lightning damage, and {@book force powers|sw5e-phb|11|Force Powers} you cast ignore resistance to lightning damage."
 			],
 			"header": 2
 		},
@@ -8685,7 +8685,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"The rejuvenating power of the Force is incredible, and the consular is the master of this usage. Those consulars who follow the Way of the Sage {@optfeature Assist|sw5e-phb|assist} with an array of healing powers that grant allies the strength to continue through even the harshest of encounters. Separated from the heart of the fray, the sage can be an unfailing warden to those in need."
+				"The rejuvenating power of the Force is incredible, and the consular is the master of this usage. Those consulars who follow the Way of the Sage assist with an array of healing powers that grant allies the strength to continue through even the harshest of encounters. Separated from the heart of the fray, the sage can be an unfailing warden to those in need."
 			]
 		},
 		{
@@ -9018,7 +9018,7 @@
 					"entries": [
 						"{@i {@b Prerequisite:} Armor} Your modified armor gains an integrated grappling harpoon set into your gauntlet. With this harpoon, you can make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a range of 30/60. On a hit, it deals 1d6 kinetic damage. This attack can target a surface, object, or creature.",
 						"A creature struck by this attack is impaled by the harpoon. As an action, a creature can attempt to remove the harpoon. Removing the harpoon requires a Strength check. While the harpoon is stuck in the target, you are connected to the target by a 60 foot cable.",
-						"While the harpoon is deployed, you can use your {@variantrule Bonus Action|sw5e-phb} to activate the reel, pulling yourself to the location if the target is larger than you. A creature or object your size or smaller is pulled to you. Alternatively, you can opt to {@spell Release|sw5e-phb|release} the cable (no action required).",
+						"While the harpoon is deployed, you can use your {@variantrule Bonus Action|sw5e-phb} to activate the reel, pulling yourself to the location if the target is larger than you. A creature or object your size or smaller is pulled to you. Alternatively, you can opt to release the cable (no action required).",
 						"Once you've used this feature, you can't use it again until you recover and reinsert the harpoon as an action."
 					]
 				},
@@ -9033,7 +9033,7 @@
 					"type": "entries",
 					"name": "Infiltration Suit",
 					"entries": [
-						"{@i {@b Prerequisite:} Armor} You install a cloaking device in your modified armor. This device has 2 charges. As an action you can use 1 {@optfeature Charge|sw5e-phb|charge} to cast {@i infiltrate} targeting yourself.",
+						"{@i {@b Prerequisite:} Armor} You install a cloaking device in your modified armor. This device has 2 charges. As an action you can use 1 charge to cast {@i infiltrate} targeting yourself.",
 						"The cloaking device regains all expended charges after a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
@@ -9048,7 +9048,7 @@
 					"type": "entries",
 					"name": "Overload Shield",
 					"entries": [
-						"{@i {@b Prerequisite:} {@item Shield|sw5e-phb} Generator} You modify your {@item Shield|sw5e-phb|shield} generator to {@spell Overload|sw5e-phb|overload}. As an action you can {@spell Overload|sw5e-phb|overload} your {@item Shield|sw5e-phb|shield}. Each Large or smaller creature within 5 feet of you must make a Dexterity or Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (their choice). On a failed save, they are pushed back 5 feet and knocked {@condition Prone|sw5e-phb|prone}.",
+						"{@i {@b Prerequisite:} {@item Shield|sw5e-phb} Generator} You modify your {@item Shield|sw5e-phb|shield} generator to overload. As an action you can overload your {@item Shield|sw5e-phb|shield}. Each Large or smaller creature within 5 feet of you must make a Dexterity or Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (their choice). On a failed save, they are pushed back 5 feet and knocked {@condition Prone|sw5e-phb|prone}.",
 						"You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
@@ -9079,7 +9079,7 @@
 					"type": "entries",
 					"name": "Resistance",
 					"entries": [
-						"{@i {@b Prerequisite:} Armor} You tune your modified armor against certain forms of damage. Choose acid, cold, fire, ion, lightning, or sonic damage. While wearing your modified armor you have {@spell Resistance|sw5e-phb|resistance} to that type of damage.",
+						"{@i {@b Prerequisite:} Armor} You tune your modified armor against certain forms of damage. Choose acid, cold, fire, ion, lightning, or sonic damage. While wearing your modified armor you have resistance to that type of damage.",
 						"You can select this modification multiple times. Each time you do so, you must choose a different damage type."
 					]
 				},
@@ -9087,7 +9087,7 @@
 					"type": "entries",
 					"name": "Sealed Suit",
 					"entries": [
-						"{@i {@b Prerequisite:} 5th level, Armor} As a {@variantrule Bonus Action|sw5e-phb} you can hermetically seal your modified armor, giving you an air supply for up to 1 hour and making you immune to {@item Poison|sw5e-phb|poison} (but not curing you of existing {@condition Poisoned|sw5e-phb} conditions). Your armor regains 1 minute of air for every minute that you are not submerged and the armor is not sealed.",
+						"{@i {@b Prerequisite:} 5th level, Armor} As a {@variantrule Bonus Action|sw5e-phb} you can hermetically seal your modified armor, giving you an air supply for up to 1 hour and making you immune to poison (but not curing you of existing {@condition Poisoned|sw5e-phb} conditions). Your armor regains 1 minute of air for every minute that you are not submerged and the armor is not sealed.",
 						"Additionally, while you are wearing your modified armor you are considered adapted to cold and hot climates as well as high altitude, as described in {@book chapter 5|sw5e-phb|5} of the Dungeon Master's Guide."
 					]
 				},
@@ -9103,7 +9103,7 @@
 					"type": "entries",
 					"name": "Shield Amplifier",
 					"entries": [
-						"{@i {@b Prerequisite:} {@item Shield|sw5e-phb} Generator} You modify your {@item Shield|sw5e-phb|shield} generator to {@spell Project|sw5e-phb|project} outward. As a {@variantrule Bonus Action|sw5e-phb} you can amplify your {@item Shield|sw5e-phb|shield} until the start of your next turn. Each creature within 5 feet of you gains a bonus to AC equal to your {@item Shield|sw5e-phb|shield}'s bonus.",
+						"{@i {@b Prerequisite:} {@item Shield|sw5e-phb} Generator} You modify your {@item Shield|sw5e-phb|shield} generator to project outward. As a {@variantrule Bonus Action|sw5e-phb} you can amplify your {@item Shield|sw5e-phb|shield} until the start of your next turn. Each creature within 5 feet of you gains a bonus to AC equal to your {@item Shield|sw5e-phb|shield}'s bonus.",
 						"You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain any expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
@@ -9342,7 +9342,7 @@
 					"entries": [
 						"You install a secondary firemode that launches a harpoon attached to a tightly coiled cord. With this harpoon, you can make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a range of 30/60. On a hit, it deals 1d6 kinetic damage. This attack can target a surface, object, or creature.",
 						"A creature struck by this attack is impaled by the harpoon. As an action, a creature can attempt to remove the harpoon. Removing the harpoon requires a Strength check. While the harpoon is stuck in the target, you are connected to the target by a 60 foot cable.",
-						"While connected in this manner, you can use your {@variantrule Bonus Action|sw5e-phb} to activate the reel, pulling yourself to the location if the target is your size or larger. A creature or object smaller than you is pulled to you. Alternatively, you can opt to {@spell Release|sw5e-phb|release} the cable (no action required).",
+						"While connected in this manner, you can use your {@variantrule Bonus Action|sw5e-phb} to activate the reel, pulling yourself to the location if the target is your size or larger. A creature or object smaller than you is pulled to you. Alternatively, you can opt to release the cable (no action required).",
 						"Once you've used this feature, you can't use it again until you recover and reinsert the harpoon as an action."
 					]
 				},
@@ -9350,7 +9350,7 @@
 					"type": "entries",
 					"name": "Imbue Weapon",
 					"entries": [
-						"{@i {@b Prerequisite:} 9th level} You modify your weapon to carry a {@optfeature Charge|sw5e-phb|charge}. Over the course of a {@variantrule Short Rest|sw5e-phb|short rest}, you can cast an at-will {@book tech power|sw5e-phb|12|Tech Powers}, channeling it into your weapon. The next time you hit with your weapon, the stored power is released. If the power would require an {@variantrule Attack Roll|sw5e-phb|attack roll}, make a tech {@variantrule Attack Roll|sw5e-phb|attack roll}. If the power would require a {@variantrule Saving Throw|sw5e-phb|saving throw}, the target must make the {@variantrule Saving Throw|sw5e-phb|saving throw} as normal. On a hit, or a failure, the target suffers the power's normal effects."
+						"{@i {@b Prerequisite:} 9th level} You modify your weapon to carry a charge. Over the course of a {@variantrule Short Rest|sw5e-phb|short rest}, you can cast an at-will {@book tech power|sw5e-phb|12|Tech Powers}, channeling it into your weapon. The next time you hit with your weapon, the stored power is released. If the power would require an {@variantrule Attack Roll|sw5e-phb|attack roll}, make a tech {@variantrule Attack Roll|sw5e-phb|attack roll}. If the power would require a {@variantrule Saving Throw|sw5e-phb|saving throw}, the target must make the {@variantrule Saving Throw|sw5e-phb|saving throw} as normal. On a hit, or a failure, the target suffers the power's normal effects."
 					]
 				},
 				{
@@ -9473,7 +9473,7 @@
 					"type": "entries",
 					"name": "Tracker",
 					"entries": [
-						"{@i {@b Prerequisite:} 5th level} You add a tracking mechanism to your modified weapon. The tracker has 3 charges. As a {@variantrule Bonus Action|sw5e-phb} you can use 1 {@optfeature Charge|sw5e-phb|charge} to cast {@i target lock}. As an action you can use 2 charges to cast {@i detect invisibility}.",
+						"{@i {@b Prerequisite:} 5th level} You add a tracking mechanism to your modified weapon. The tracker has 3 charges. As a {@variantrule Bonus Action|sw5e-phb} you can use 1 charge to cast {@i target lock}. As an action you can use 2 charges to cast {@i detect invisibility}.",
 						"The tracker regains all expended charges after a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
@@ -9489,7 +9489,7 @@
 					"type": "entries",
 					"name": "Venomous Oscillator",
 					"entries": [
-						"{@i {@b Prerequisite:} 9th level, {@filter vibroweapon|items|type=martial weapon}} As a {@variantrule Bonus Action|sw5e-phb}, you can coat your weapon in a thin layer of {@item Poison|sw5e-phb|poison} for 1 minute. The next time you hit with the weapon, the creature must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} against your tech save DC. On a failed save, a creature takes 1d10 {@item Poison|sw5e-phb|poison} damage and becomes {@condition Poisoned|sw5e-phb} for 1 minute.",
+						"{@i {@b Prerequisite:} 9th level, {@filter vibroweapon|items|type=martial weapon}} As a {@variantrule Bonus Action|sw5e-phb}, you can coat your weapon in a thin layer of poison for 1 minute. The next time you hit with the weapon, the creature must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} against your tech save DC. On a failed save, a creature takes 1d10 poison damage and becomes {@condition Poisoned|sw5e-phb} for 1 minute.",
 						"Once you've used this feature, you must complete a {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 					]
 				}
@@ -9549,19 +9549,19 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"As a {@variantrule Bonus Action|sw5e-phb} while wearing your gadgeteer harness, you can expend a use of your Potent Aptitude to {@spell Project|sw5e-phb|project} a barrier on a friendly creature you can see within 30 feet. A creature can only have one barrier active at a time.",
+				"As a {@variantrule Bonus Action|sw5e-phb} while wearing your gadgeteer harness, you can expend a use of your Potent Aptitude to project a barrier on a friendly creature you can see within 30 feet. A creature can only have one barrier active at a time.",
 				{
 					"type": "entries",
 					"name": "Environmental Barrier",
 					"entries": [
-						"You {@spell Project|sw5e-phb|project} an environmental barrier that lasts until the end of your next short or {@variantrule Long Rest|sw5e-phb|long rest}. The barrier has a number of {@variantrule Hit Points|sw5e-phb|hit points} equal to the amount rolled on your Potent Aptitude die + your engineer level. Whenever a creature with this barrier takes damage (one of acid, cold, fire, force, lightning, necrotic, {@item Poison|sw5e-phb|poison}, psychic, or sonic, chosen by you when you activate the effect), the barrier takes the damage instead. If this damage reduces the barrier to 0 {@variantrule Hit Points|sw5e-phb|hit points}, the creature take any remaining damage."
+						"You project an environmental barrier that lasts until the end of your next short or {@variantrule Long Rest|sw5e-phb|long rest}. The barrier has a number of {@variantrule Hit Points|sw5e-phb|hit points} equal to the amount rolled on your Potent Aptitude die + your engineer level. Whenever a creature with this barrier takes damage (one of acid, cold, fire, force, lightning, necrotic, poison, psychic, or sonic, chosen by you when you activate the effect), the barrier takes the damage instead. If this damage reduces the barrier to 0 {@variantrule Hit Points|sw5e-phb|hit points}, the creature take any remaining damage."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Physical Barrier",
 					"entries": [
-						"You {@spell Project|sw5e-phb|project} a physical barrier that lasts until the end of your next short or {@variantrule Long Rest|sw5e-phb|long rest}. The barrier has a number of {@variantrule Hit Points|sw5e-phb|hit points} equal to the amount rolled on your Potent Aptitude die + half your engineer level. Whenever a creature with this barrier takes damage (one of energy, ion, or kinetic, chosen by you when you activate the effect), the barrier takes the damage instead. If this damage reduces the barrier to 0 {@variantrule Hit Points|sw5e-phb|hit points}, the creature take any remaining damage."
+						"You project a physical barrier that lasts until the end of your next short or {@variantrule Long Rest|sw5e-phb|long rest}. The barrier has a number of {@variantrule Hit Points|sw5e-phb|hit points} equal to the amount rolled on your Potent Aptitude die + half your engineer level. Whenever a creature with this barrier takes damage (one of energy, ion, or kinetic, chosen by you when you activate the effect), the barrier takes the damage instead. If this damage reduces the barrier to 0 {@variantrule Hit Points|sw5e-phb|hit points}, the creature take any remaining damage."
 					]
 				}
 			],
@@ -9647,7 +9647,7 @@
 			"page": 49,
 			"level": 18,
 			"entries": [
-				"When a creature who has one of your barriers within 30 feet of you that you can see takes damage, and that damage is of a type that could be affected by that barrier, you can use your {@variantrule Reaction|sw5e-phb} to grant them {@spell Resistance|sw5e-phb|resistance} to the triggering damage. If that damage is the same type as the barrier's chosen damage, you instead grant them immunity. Whether {@spell Resistance|sw5e-phb|resistance} or immunity, the barrier immediately drops to 0 {@variantrule Hit Points|sw5e-phb|hit points}."
+				"When a creature who has one of your barriers within 30 feet of you that you can see takes damage, and that damage is of a type that could be affected by that barrier, you can use your {@variantrule Reaction|sw5e-phb} to grant them resistance to the triggering damage. If that damage is the same type as the barrier's chosen damage, you instead grant them immunity. Whether resistance or immunity, the barrier immediately drops to 0 {@variantrule Hit Points|sw5e-phb|hit points}."
 			],
 			"header": 2
 		},
@@ -9798,7 +9798,7 @@
 					"type": "entries",
 					"name": "Prototype Grounding System",
 					"entries": [
-						"{@i {@b Prerequisite:} 9th level, Grounding System} While wearing your gadgeteer harness you have {@spell Resistance|sw5e-phb|resistance} to lightning damage."
+						"{@i {@b Prerequisite:} 9th level, Grounding System} While wearing your gadgeteer harness you have resistance to lightning damage."
 					]
 				},
 				{
@@ -9819,21 +9819,21 @@
 					"type": "entries",
 					"name": "Recycled Adrenals",
 					"entries": [
-						"You can augment a single adrenal to regain its {@optfeature Charge|sw5e-phb|charge}. This adrenal can only be used by you, and it can only affect you. Once you've used this adrenal, you can't use it again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
+						"You can augment a single adrenal to regain its charge. This adrenal can only be used by you, and it can only affect you. Once you've used this adrenal, you can't use it again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Recycled Explosives",
 					"entries": [
-						"You can augment a single explosive to regain its {@optfeature Charge|sw5e-phb|charge}. This explosive can only be used by you, and it uses your tech save DC instead of its own, unless its own DC would be higher. Once you've used this explosive, you can't use it again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
+						"You can augment a single explosive to regain its charge. This explosive can only be used by you, and it uses your tech save DC instead of its own, unless its own DC would be higher. Once you've used this explosive, you can't use it again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Recycled Stimpacs",
 					"entries": [
-						"You can augment a single stimpac to regain its {@optfeature Charge|sw5e-phb|charge}. This stimpac can only be used by you, and it can only affect you. Once you've used this stimpac, you can't use it again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
+						"You can augment a single stimpac to regain its charge. This stimpac can only be used by you, and it can only affect you. Once you've used this stimpac, you can't use it again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
@@ -9895,7 +9895,7 @@
 					"entries": [
 						"You craft a wrist-mounted {@item Grappling hook|sw5e-phb|grappling hook} weapon attached to a tightly coiled cord. With this contraption, you can make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a range of 30/60. On a hit, it deals 1d4 kinetic damage. This attack can target a surface, object, or creature.",
 						"A creature struck by this attack is impaled by the hook. As an action, a creature can attempt to remove the hook. Removing the hook requires a Strength check. While the hook is stuck in the target, you are connected to the target by a 60 foot cable.",
-						"While the hook is deployed, you can use your {@variantrule Bonus Action|sw5e-phb} to activate the reel, pulling yourself to the location if the target is your size or larger. A creature or object smaller than you is pulled to you. Alternatively, you can opt to {@spell Release|sw5e-phb|release} the cable (no action required).",
+						"While the hook is deployed, you can use your {@variantrule Bonus Action|sw5e-phb} to activate the reel, pulling yourself to the location if the target is your size or larger. A creature or object smaller than you is pulled to you. Alternatively, you can opt to release the cable (no action required).",
 						"Once you've used this feature, you can't use it again until you recover and reinsert the hook as an action."
 					]
 				}
@@ -10235,7 +10235,7 @@
 								],
 								[
 									"71-72",
-									"You gain {@spell Resistance|sw5e-phb|resistance} to all damage for the next minute."
+									"You gain resistance to all damage for the next minute."
 								],
 								[
 									"73-74",
@@ -10267,7 +10267,7 @@
 								],
 								[
 									"87-88",
-									"You are frozen in {@spell Carbonite|sw5e-phb|carbonite} and {@condition Paralyzed|sw5e-phb|paralyzed} for 1 minute or until you take damage."
+									"You are frozen in carbonite and {@condition Paralyzed|sw5e-phb|paralyzed} for 1 minute or until you take damage."
 								],
 								[
 									"89-90",
@@ -10543,7 +10543,7 @@
 			"page": 49,
 			"level": 10,
 			"entries": [
-				"When you expend a use of your Adaptive Fighting, you gain {@spell Resistance|sw5e-phb|resistance} to energy and kinetic damage dealt by weapons until the start of your next turn."
+				"When you expend a use of your Adaptive Fighting, you gain resistance to energy and kinetic damage dealt by weapons until the start of your next turn."
 			],
 			"header": 2
 		},
@@ -10735,21 +10735,21 @@
 					"type": "entries",
 					"name": "Tech Powers Known",
 					"entries": [
-						"You learn 3 {@book tech powers|sw5e-phb|12|Tech Powers} of your choice, and you learn more at higher levels, as shown in the {@book Tech Powers Known|sw5e-phb|12|Tech Powers} column of the {@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table. You may not learn a {@book tech power|sw5e-phb|12|Tech Powers} of a level higher than your Max Power Level."
+						"You learn 3 {@book tech powers|sw5e-phb|12|Tech Powers} of your choice, and you learn more at higher levels, as shown in the {@book Tech Powers Known|sw5e-phb|12|Tech Powers} column of the Shield Specialist {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table. You may not learn a {@book tech power|sw5e-phb|12|Tech Powers} of a level higher than your Max Power Level."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Tech Points",
 					"entries": [
-						"You have a number of tech points equal to half your fighter level, as shown in the Tech Points column of the {@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table, + your Intelligence modifier. You use these tech points to cast {@book tech powers|sw5e-phb|12|Tech Powers}. You regain all expended tech points when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
+						"You have a number of tech points equal to half your fighter level, as shown in the Tech Points column of the Shield Specialist {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table, + your Intelligence modifier. You use these tech points to cast {@book tech powers|sw5e-phb|12|Tech Powers}. You regain all expended tech points when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Max Power Level",
 					"entries": [
-						"Many {@book tech powers|sw5e-phb|12|Tech Powers} can be overcharged, consuming more tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the {@item Shield|sw5e-phb} {@feat Specialist|sw5e-phb} {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table.",
+						"Many {@book tech powers|sw5e-phb|12|Tech Powers} can be overcharged, consuming more tech points to create a greater effect. You can overcharge these powers to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the Shield Specialist {@book techcasting|sw5e-phb|10|Force- and Tech-casting} table.",
 						"You may only cast {@book tech powers|sw5e-phb|12|Tech Powers} at 4th-level once. You regain the ability to do so after a {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
@@ -10859,7 +10859,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"Those fighters who choose to become Tactical Specialists employ martial techniques passed down through generations. To a Tactical {@feat Specialist|sw5e-phb}, combat is an academic field, sometimes including subjects beyond battle such as armstech or armormech. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Tactical Specialty, but those who do are well-rounded fighters of great skill and knowledge."
+				"Those fighters who choose to become Tactical Specialists employ martial techniques passed down through generations. To a Tactical Specialist, combat is an academic field, sometimes including subjects beyond battle such as armstech or armormech. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Tactical Specialty, but those who do are well-rounded fighters of great skill and knowledge."
 			]
 		},
 		{
@@ -11002,7 +11002,7 @@
 					"type": "entries",
 					"name": "Improved Maneuvers",
 					"entries": [
-						"You know four {@book maneuvers|sw5e-phb|13|Maneuvers} of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the {@spell Tactical Superiority|sw5e-phb} table."
+						"You know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the {@spell Tactical Superiority|sw5e-phb} table."
 					]
 				},
 				{
@@ -11025,8 +11025,8 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"You can use each {@book maneuver|sw5e-phb|13|Maneuvers} twice per turn, instead of once.",
-				"Additionally, choose two {@book maneuvers|sw5e-phb|13|Maneuvers} you know. The chosen {@book maneuvers|sw5e-phb|13|Maneuvers} count as {@book general maneuvers|sw5e-phb|13|General} for you. You can choose another {@book maneuver|sw5e-phb|13|Maneuvers} at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can replace one of these {@book maneuvers|sw5e-phb|13|Maneuvers} with another {@book maneuver|sw5e-phb|13|Maneuvers} you know."
+				"You can use each maneuver twice per turn, instead of once.",
+				"Additionally, choose two maneuvers you know. The chosen maneuvers count as {@book general maneuvers|sw5e-phb|13|General} for you. You can choose another maneuver at 5th, 9th, 13th, and 17th level. Whenever you gain a level in this class, you can replace one of these maneuvers with another maneuver you know."
 			],
 			"header": 2
 		},
@@ -11204,7 +11204,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You have {@spell Resistance|sw5e-phb|resistance} to kinetic and energy damage, and you ignore {@spell Resistance|sw5e-phb|resistance} to kinetic and energy damage.",
+						"You have resistance to kinetic and energy damage, and you ignore resistance to kinetic and energy damage.",
 						"All melee attacks have {@variantrule Disadvantage|sw5e-phb|disadvantage} against you.",
 						"Your melee weapon attacks inflict an additional damage die."
 					]
@@ -11319,8 +11319,8 @@
 				{
 					"type": "list",
 					"items": [
-						"You have {@spell Resistance|sw5e-phb|resistance} to kinetic and energy damage from unenhanced weapons.",
-						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book force powers|sw5e-phb|11|Force Powers}. Additionally, you have {@spell Resistance|sw5e-phb|resistance} against the damage of {@book force powers|sw5e-phb|11|Force Powers}.",
+						"You have resistance to kinetic and energy damage from unenhanced weapons.",
+						"You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@book force powers|sw5e-phb|11|Force Powers}. Additionally, you have resistance against the damage of {@book force powers|sw5e-phb|11|Force Powers}.",
 						"When you use your action to cast an at-will {@book force power|sw5e-phb|11|Force Powers} that targets only one creature, you can target an additional creature within 5 feet of the original target and within the power's range."
 					]
 				},
@@ -11379,7 +11379,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"As a {@variantrule Bonus Action|sw5e-phb}, you can take a {@feat Threatening|sw5e-phb|threatening} stance for one minute. While in this stance, the first time you hit with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} using Strength each turn, you can choose to deal additional damage equal to your Strength modifier. If there is another creature within 5 feet of the original target and within your reach, you can attempt to deal the additional damage to that creature instead. If the original {@variantrule Attack Roll|sw5e-phb|attack roll} would hit the second creature, it takes damage equal to your Strength modifier. The damage is of the same type dealt by the original attack.",
+				"As a {@variantrule Bonus Action|sw5e-phb}, you can take a threatening stance for one minute. While in this stance, the first time you hit with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} using Strength each turn, you can choose to deal additional damage equal to your Strength modifier. If there is another creature within 5 feet of the original target and within your reach, you can attempt to deal the additional damage to that creature instead. If the original {@variantrule Attack Roll|sw5e-phb|attack roll} would hit the second creature, it takes damage equal to your Strength modifier. The damage is of the same type dealt by the original attack.",
 				"This effect ends early if you are {@condition Incapacitated|sw5e-phb} or die. Once you've used this feature, you can't use it again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -11482,7 +11482,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You have {@spell Resistance|sw5e-phb|resistance} to kinetic and energy damage from unenhanced weapons.",
+						"You have resistance to kinetic and energy damage from unenhanced weapons.",
 						"Once per turn, when you hit with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} using Strength, you can use your Force-Empowered Strikes feature at 1st-level without expending force points. You gain temporary {@variantrule Hit Points|sw5e-phb|hit points} equal to the extra damage dealt.",
 						"When a creature within 5 feet of you makes an {@variantrule Attack Roll|sw5e-phb|attack roll} against you, you can use your {@variantrule Reaction|sw5e-phb} to make a single {@variantrule Attack Roll|sw5e-phb|weapon attack} with {@variantrule Advantage|sw5e-phb|advantage} against that creature. If the attack hits, you impose {@variantrule Disadvantage|sw5e-phb|disadvantage} on the triggering {@variantrule Attack Roll|sw5e-phb|attack roll}."
 					]
@@ -11578,7 +11578,7 @@
 			"page": 49,
 			"level": 7,
 			"entries": [
-				"You learn to fend off strikes directed at you or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can use your {@variantrule Reaction|sw5e-phb} to ward the creature if you're wielding a melee weapon or a {@item Shield|sw5e-phb|shield}. Roll 1d8 and add the number rolled to the target's AC against that attack. If the attack still hits, the target has {@spell Resistance|sw5e-phb|resistance} against the attack's damage.",
+				"You learn to fend off strikes directed at you or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can use your {@variantrule Reaction|sw5e-phb} to ward the creature if you're wielding a melee weapon or a {@item Shield|sw5e-phb|shield}. Roll 1d8 and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.",
 				"You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -11593,7 +11593,7 @@
 			"page": 49,
 			"level": 9,
 			"entries": [
-				"You learn to fend off strikes directed at you or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can use your {@variantrule Reaction|sw5e-phb} to ward the creature if you're wielding a melee weapon or a {@item Shield|sw5e-phb|shield}. Roll 1d8 and add the number rolled to the target's AC against that attack. If the attack still hits, the target has {@spell Resistance|sw5e-phb|resistance} against the attack's damage.",
+				"You learn to fend off strikes directed at you or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can use your {@variantrule Reaction|sw5e-phb} to ward the creature if you're wielding a melee weapon or a {@item Shield|sw5e-phb|shield}. Roll 1d8 and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.",
 				"You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -11608,7 +11608,7 @@
 			"page": 49,
 			"level": 13,
 			"entries": [
-				"You learn to fend off strikes directed at you or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can use your {@variantrule Reaction|sw5e-phb} to ward the creature if you're wielding a melee weapon or a {@item Shield|sw5e-phb|shield}. Roll 1d8 and add the number rolled to the target's AC against that attack. If the attack still hits, the target has {@spell Resistance|sw5e-phb|resistance} against the attack's damage.",
+				"You learn to fend off strikes directed at you or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can use your {@variantrule Reaction|sw5e-phb} to ward the creature if you're wielding a melee weapon or a {@item Shield|sw5e-phb|shield}. Roll 1d8 and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.",
 				"You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -11623,7 +11623,7 @@
 			"page": 49,
 			"level": 17,
 			"entries": [
-				"You learn to fend off strikes directed at you or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can use your {@variantrule Reaction|sw5e-phb} to ward the creature if you're wielding a melee weapon or a {@item Shield|sw5e-phb|shield}. Roll 1d8 and add the number rolled to the target's AC against that attack. If the attack still hits, the target has {@spell Resistance|sw5e-phb|resistance} against the attack's damage.",
+				"You learn to fend off strikes directed at you or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can use your {@variantrule Reaction|sw5e-phb} to ward the creature if you're wielding a melee weapon or a {@item Shield|sw5e-phb|shield}. Roll 1d8 and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.",
 				"You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -11656,7 +11656,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You have {@spell Resistance|sw5e-phb|resistance} to kinetic and energy damage from unenhanced weapons.",
+						"You have resistance to kinetic and energy damage from unenhanced weapons.",
 						"When you use the {@i saber reflect} {@book force power|sw5e-phb|11|Force Powers}, you can make a single melee attack on an enemy within 5ft of you as a part of that same {@variantrule Reaction|sw5e-phb}.",
 						"You have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}, as do your allies within 30 feet of you."
 					]
@@ -11748,7 +11748,7 @@
 			"page": 49,
 			"level": 11,
 			"entries": [
-				"When you attempt to {@optfeature Perceive|sw5e-phb|perceive} your surroundings on your turn, you can opt to not move on that turn. If you avoid moving, you gain a +10 bonus to your Wisdom ({@skill Perception|sw5e-phb}) checks until the start of your next turn. You lose this benefit if you move or fall {@condition Prone|sw5e-phb|prone}, either voluntarily or because of some external effect."
+				"When you attempt to perceive your surroundings on your turn, you can opt to not move on that turn. If you avoid moving, you gain a +10 bonus to your Wisdom ({@skill Perception|sw5e-phb}) checks until the start of your next turn. You lose this benefit if you move or fall {@condition Prone|sw5e-phb|prone}, either voluntarily or because of some external effect."
 			],
 			"header": 2
 		},
@@ -11832,7 +11832,7 @@
 					"type": "entries",
 					"name": "Enhanced Echani Weapons",
 					"entries": [
-						"Your attacks with your Echani weapons count as enhanced for the purpose of overcoming {@spell Resistance|sw5e-phb|resistance} and immunity to unenhanced attacks and damage."
+						"Your attacks with your Echani weapons count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage."
 					]
 				},
 				{
@@ -11924,7 +11924,7 @@
 			"page": 49,
 			"level": 11,
 			"entries": [
-				"You learn to channel the Force into your skin and bones, greatly enhancing your durability. You can use a {@variantrule Bonus Action|sw5e-phb} to channel the Force throughout your body. Until the start of your next turn, you have {@spell Resistance|sw5e-phb|resistance} to kinetic and energy damage.",
+				"You learn to channel the Force into your skin and bones, greatly enhancing your durability. You can use a {@variantrule Bonus Action|sw5e-phb} to channel the Force throughout your body. Until the start of your next turn, you have resistance to kinetic and energy damage.",
 				"You can use this feature four times. You gain an additional use at 13th and 17th level. You regain all expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -11939,7 +11939,7 @@
 			"page": 49,
 			"level": 13,
 			"entries": [
-				"You learn to channel the Force into your skin and bones, greatly enhancing your durability. You can use a {@variantrule Bonus Action|sw5e-phb} to channel the Force throughout your body. Until the start of your next turn, you have {@spell Resistance|sw5e-phb|resistance} to kinetic and energy damage.",
+				"You learn to channel the Force into your skin and bones, greatly enhancing your durability. You can use a {@variantrule Bonus Action|sw5e-phb} to channel the Force throughout your body. Until the start of your next turn, you have resistance to kinetic and energy damage.",
 				"You can use this feature four times. You gain an additional use at 13th and 17th level. You regain all expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -11954,7 +11954,7 @@
 			"page": 49,
 			"level": 17,
 			"entries": [
-				"You learn to channel the Force into your skin and bones, greatly enhancing your durability. You can use a {@variantrule Bonus Action|sw5e-phb} to channel the Force throughout your body. Until the start of your next turn, you have {@spell Resistance|sw5e-phb|resistance} to kinetic and energy damage.",
+				"You learn to channel the Force into your skin and bones, greatly enhancing your durability. You can use a {@variantrule Bonus Action|sw5e-phb} to channel the Force throughout your body. Until the start of your next turn, you have resistance to kinetic and energy damage.",
 				"You can use this feature four times. You gain an additional use at 13th and 17th level. You regain all expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -12082,8 +12082,8 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"You learn a number of techniques to distract and confuse your opponents. When you deal Sneak Attack damage, you may choose to forgo two of your Sneak Attack dice to perform a deft hand {@book maneuver|sw5e-phb|13|Maneuvers}.",
-				"Some of your deft hand {@book maneuvers|sw5e-phb|13|Maneuvers} require your target to make a {@variantrule Saving Throw|sw5e-phb|saving throw} to resist the deft hand {@book maneuver|sw5e-phb|13|Maneuvers}'s effects. The {@variantrule Saving Throw|sw5e-phb|saving throw} DC is as follows:",
+				"You learn a number of techniques to distract and confuse your opponents. When you deal Sneak Attack damage, you may choose to forgo two of your Sneak Attack dice to perform a deft hand maneuver.",
+				"Some of your deft hand maneuvers require your target to make a {@variantrule Saving Throw|sw5e-phb|saving throw} to resist the deft hand maneuver's effects. The {@variantrule Saving Throw|sw5e-phb|saving throw} DC is as follows:",
 				"{@b Deft Hands save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Dexterity modifier",
 				{
 					"type": "entries",
@@ -12119,7 +12119,7 @@
 			"page": 49,
 			"level": 9,
 			"entries": [
-				"You have {@variantrule Advantage|sw5e-phb|advantage} on a Dexterity ({@skill Stealth|sw5e-phb}) check if you move no more than half your {@variantrule Speed|sw5e-phb|speed} on the same turn. Additionally, as long as you aren't {@condition Incapacitated|sw5e-phb}, you no longer take damage from falling less than 100 feet, and have {@spell Resistance|sw5e-phb|resistance} to falling damage."
+				"You have {@variantrule Advantage|sw5e-phb|advantage} on a Dexterity ({@skill Stealth|sw5e-phb}) check if you move no more than half your {@variantrule Speed|sw5e-phb|speed} on the same turn. Additionally, as long as you aren't {@condition Incapacitated|sw5e-phb}, you no longer take damage from falling less than 100 feet, and have resistance to falling damage."
 			],
 			"header": 2
 		},
@@ -12852,7 +12852,7 @@
 					"type": "entries",
 					"name": "Take a Chance",
 					"entries": [
-						"{@i {@b Prerequisite:} 9th level} Before making an {@variantrule Attack Roll|sw5e-phb|attack roll}, you can expend a superiority die. On a miss, you lose that superiority die and do not benefit from it in any way. On a hit, you can choose two other {@book maneuvers|sw5e-phb|13|Maneuvers} that you know, and subject the target to both {@book maneuvers|sw5e-phb|13|Maneuvers}, without expending additional {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}."
+						"{@i {@b Prerequisite:} 9th level} Before making an {@variantrule Attack Roll|sw5e-phb|attack roll}, you can expend a superiority die. On a miss, you lose that superiority die and do not benefit from it in any way. On a hit, you can choose two other maneuvers that you know, and subject the target to both maneuvers, without expending additional {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}."
 					]
 				},
 				{
@@ -12902,7 +12902,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"You have learned to deploy medicine from a range. When you use a {@book maneuver|sw5e-phb|13|Maneuvers} targeting an ally that is the target of your Critical Analysis feature, that {@book maneuver|sw5e-phb|13|Maneuvers}'s range becomes 30 feet."
+				"You have learned to deploy medicine from a range. When you use a maneuver targeting an ally that is the target of your Critical Analysis feature, that maneuver's range becomes 30 feet."
 			],
 			"header": 2
 		},
@@ -12989,7 +12989,7 @@
 					"type": "entries",
 					"name": "Experimental Treatments",
 					"entries": [
-						"Your medication and treatments are known to be untested and unstable. Immediately after you use a {@book maneuver|sw5e-phb|13|Maneuvers} that causes a creature to regain {@variantrule Hit Points|sw5e-phb|hit points} or gain temporary {@variantrule Hit Points|sw5e-phb|hit points}, you can choose to roll on the Side Effects table to the right. The condition or effect lasts until the creature completes a {@variantrule Long Rest|sw5e-phb|long rest}, or you use this feature again.",
+						"Your medication and treatments are known to be untested and unstable. Immediately after you use a maneuver that causes a creature to regain {@variantrule Hit Points|sw5e-phb|hit points} or gain temporary {@variantrule Hit Points|sw5e-phb|hit points}, you can choose to roll on the Side Effects table to the right. The condition or effect lasts until the creature completes a {@variantrule Long Rest|sw5e-phb|long rest}, or you use this feature again.",
 						"You can use this feature twice. You gain an additional use at 5th, 9th, 13th, and 17th level. You regain all expended uses when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 					]
 				},
@@ -13088,11 +13088,11 @@
 										],
 										[
 											"12",
-											"The creature becomes covered in sickly, green pustules. When the creature is hit by a melee attack, the attacker takes 1d4 {@item Poison|sw5e-phb|poison} damage."
+											"The creature becomes covered in sickly, green pustules. When the creature is hit by a melee attack, the attacker takes 1d4 poison damage."
 										],
 										[
 											"13",
-											"The creature's skin starts to seriously bloat up from internal pressure build-up, and a strong impact may cause it to explode. Whenever the creature takes damage, the creature has to pass a {@variantrule Concentration|sw5e-phb|concentration} check or the creature takes kinetic damage equal to half their maximum {@variantrule Hit Points|sw5e-phb|hit points}. Other creatures within 10 feet of the {@spell Explosion|sw5e-phb|explosion} also take a fourth of the damage. Once this {@spell Explosion|sw5e-phb|explosion} occurs, their skin becomes very soft."
+											"The creature's skin starts to seriously bloat up from internal pressure build-up, and a strong impact may cause it to explode. Whenever the creature takes damage, the creature has to pass a {@variantrule Concentration|sw5e-phb|concentration} check or the creature takes kinetic damage equal to half their maximum {@variantrule Hit Points|sw5e-phb|hit points}. Other creatures within 10 feet of the explosion also take a fourth of the damage. Once this explosion occurs, their skin becomes very soft."
 										],
 										[
 											"14",
@@ -13100,7 +13100,7 @@
 										],
 										[
 											"15",
-											"The creature's body temperature fluctuates to extremes. They gain {@spell Resistance|sw5e-phb|resistance} to cold and fire damage."
+											"The creature's body temperature fluctuates to extremes. They gain resistance to cold and fire damage."
 										],
 										[
 											"16",
@@ -13183,7 +13183,7 @@
 			"level": 6,
 			"entries": [
 				"As an action, you suggest a course of activity (limited to a sentence or two) to influence a creature you can see within range that can hear and understand you. Creatures that can't be {@condition Charmed|sw5e-phb|charmed} are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, {@spell Immolate|sw5e-phb|immolate} itself, or do some other obviously harmful act ends the effect.",
-				"The target must make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} against your {@book maneuver|sw5e-phb|13|Maneuvers} save DC. On a failed save, the target is {@condition Charmed|sw5e-phb|charmed} by you, and it pursues the course of action you described to the best of its ability. The suggested course of action can continue for up to 24 hours. If the suggested activity can be completed in a shorter time, the effect ends when the subject finishes what it was asked to do.",
+				"The target must make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} against your maneuver save DC. On a failed save, the target is {@condition Charmed|sw5e-phb|charmed} by you, and it pursues the course of action you described to the best of its ability. The suggested course of action can continue for up to 24 hours. If the suggested activity can be completed in a shorter time, the effect ends when the subject finishes what it was asked to do.",
 				"You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that an officer givers her gun to the first smuggler she meets. If the condition isn't met before the effect ends, the activity isn't performed.",
 				"If you or any of your companions damage the target, the effect ends.",
 				"You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -13241,14 +13241,14 @@
 					"type": "entries",
 					"name": "Demanding Leader",
 					"entries": [
-						"{@i {@b Prerequisite:} 5th level} The range of each of your {@book maneuvers|sw5e-phb|13|Maneuvers} increases by 10 feet. If the range is touch, it becomes 10 feet."
+						"{@i {@b Prerequisite:} 5th level} The range of each of your maneuvers increases by 10 feet. If the range is touch, it becomes 10 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Dominating Presence",
 					"entries": [
-						"{@i {@b Prerequisite:} 15th level} As a {@variantrule Bonus Action|sw5e-phb}, you can call out to a humanoid who can understand you that is {@condition Charmed|sw5e-phb|charmed} by you or {@condition Frightened|sw5e-phb} of you to direct their next action. The target must succeed a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} against your {@book maneuver|sw5e-phb|13|Maneuvers} save DC. On a failed save, until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do.",
+						"{@i {@b Prerequisite:} 15th level} As a {@variantrule Bonus Action|sw5e-phb}, you can call out to a humanoid who can understand you that is {@condition Charmed|sw5e-phb|charmed} by you or {@condition Frightened|sw5e-phb} of you to direct their next action. The target must succeed a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} against your maneuver save DC. On a failed save, until the end of your next turn, the creature takes only the actions you choose, and doesn't do anything that you don't allow it to do.",
 						"During this time you can use your {@variantrule Reaction|sw5e-phb} to force the creature to use its {@variantrule Reaction|sw5e-phb}.",
 						"Once you've used this feature, you must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 					]
@@ -13294,7 +13294,7 @@
 			"page": 49,
 			"level": 1,
 			"entries": [
-				"Tacticians study strategy and the ways of war. Those scholars who choose the Tactician Pursuit train themselves and their allies in combat {@book maneuvers|sw5e-phb|13|Maneuvers} to deftly eliminate their foes through clever positioning, and fierce, timely attacks."
+				"Tacticians study strategy and the ways of war. Those scholars who choose the Tactician Pursuit train themselves and their allies in combat maneuvers to deftly eliminate their foes through clever positioning, and fierce, timely attacks."
 			]
 		},
 		{
@@ -13404,7 +13404,7 @@
 					"type": "entries",
 					"name": "Firing Command",
 					"entries": [
-						"You can take the {@action Help|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}. Additionally, when you take the {@action Help|sw5e-phb} action to {@optfeature Assist|sw5e-phb|assist} an ally attacking the target of your Critical Analysis, it has a range of 30 feet."
+						"You can take the {@action Help|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}. Additionally, when you take the {@action Help|sw5e-phb} action to assist an ally attacking the target of your Critical Analysis, it has a range of 30 feet."
 					]
 				},
 				{
@@ -13448,7 +13448,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"Some scouts find themselves far from civilization not to hunt, gather intelligence, or escape danger, but to venture forth simply to defend those unable to defend themselves. Followers of the Bulwark Technique make use of advanced technology to contain those that {@optfeature Threaten|sw5e-phb|threaten} the undeserving."
+				"Some scouts find themselves far from civilization not to hunt, gather intelligence, or escape danger, but to venture forth simply to defend those unable to defend themselves. Followers of the Bulwark Technique make use of advanced technology to contain those that threaten the undeserving."
 			]
 		},
 		{
@@ -13644,7 +13644,7 @@
 			"page": 49,
 			"level": 15,
 			"entries": [
-				"When your personal barrier takes damage, you can have it gain {@spell Resistance|sw5e-phb|resistance} to subsequent damage of that type until the start of your next turn (no action required). If it takes damage of more than one type simultaneously, you can choose which type it gains {@spell Resistance|sw5e-phb|resistance} to. Your barrier can only have {@spell Resistance|sw5e-phb|resistance} to one type of damage at a time."
+				"When your personal barrier takes damage, you can have it gain resistance to subsequent damage of that type until the start of your next turn (no action required). If it takes damage of more than one type simultaneously, you can choose which type it gains resistance to. Your barrier can only have resistance to one type of damage at a time."
 			],
 			"header": 2
 		},
@@ -13956,7 +13956,7 @@
 			"page": 49,
 			"level": 7,
 			"entries": [
-				"You've become adept at evading creatures that rely on {@sense Darkvision|sw5e-phb|darkvision}. While in {@spell Darkness|sw5e-phb|darkness}, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@sense Darkvision|sw5e-phb|darkvision} to see you in that {@spell Darkness|sw5e-phb|darkness}.",
+				"You've become adept at evading creatures that rely on {@sense Darkvision|sw5e-phb|darkvision}. While in darkness, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@sense Darkvision|sw5e-phb|darkvision} to see you in that darkness.",
 				"Additionally, when you hit a creature with a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} while hidden, you can force that creature to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} against your tech save DC. On a failed save, the creature's {@variantrule Speed|sw5e-phb|speed} is reduced to 0 until the end of your next turn. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -13971,7 +13971,7 @@
 			"page": 49,
 			"level": 9,
 			"entries": [
-				"You've become adept at evading creatures that rely on {@sense Darkvision|sw5e-phb|darkvision}. While in {@spell Darkness|sw5e-phb|darkness}, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@sense Darkvision|sw5e-phb|darkvision} to see you in that {@spell Darkness|sw5e-phb|darkness}.",
+				"You've become adept at evading creatures that rely on {@sense Darkvision|sw5e-phb|darkvision}. While in darkness, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@sense Darkvision|sw5e-phb|darkvision} to see you in that darkness.",
 				"Additionally, when you hit a creature with a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} while hidden, you can force that creature to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} against your tech save DC. On a failed save, the creature's {@variantrule Speed|sw5e-phb|speed} is reduced to 0 until the end of your next turn. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -13986,7 +13986,7 @@
 			"page": 49,
 			"level": 13,
 			"entries": [
-				"You've become adept at evading creatures that rely on {@sense Darkvision|sw5e-phb|darkvision}. While in {@spell Darkness|sw5e-phb|darkness}, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@sense Darkvision|sw5e-phb|darkvision} to see you in that {@spell Darkness|sw5e-phb|darkness}.",
+				"You've become adept at evading creatures that rely on {@sense Darkvision|sw5e-phb|darkvision}. While in darkness, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@sense Darkvision|sw5e-phb|darkvision} to see you in that darkness.",
 				"Additionally, when you hit a creature with a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} while hidden, you can force that creature to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} against your tech save DC. On a failed save, the creature's {@variantrule Speed|sw5e-phb|speed} is reduced to 0 until the end of your next turn. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -14001,7 +14001,7 @@
 			"page": 49,
 			"level": 17,
 			"entries": [
-				"You've become adept at evading creatures that rely on {@sense Darkvision|sw5e-phb|darkvision}. While in {@spell Darkness|sw5e-phb|darkness}, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@sense Darkvision|sw5e-phb|darkvision} to see you in that {@spell Darkness|sw5e-phb|darkness}.",
+				"You've become adept at evading creatures that rely on {@sense Darkvision|sw5e-phb|darkvision}. While in darkness, you are {@condition Invisible|sw5e-phb|invisible} to any creature that relies on {@sense Darkvision|sw5e-phb|darkvision} to see you in that darkness.",
 				"Additionally, when you hit a creature with a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} while hidden, you can force that creature to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} against your tech save DC. On a failed save, the creature's {@variantrule Speed|sw5e-phb|speed} is reduced to 0 until the end of your next turn. You can use this feature three times. You gain an additional use at 9th, 13th, and 17th level. You regain all expended uses when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"header": 2
@@ -14044,7 +14044,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"The ways of the Force can reveal themselves to a sentinel through intense {@variantrule Concentration|sw5e-phb|concentration} and, most importantly, focus. Those sentinels who follow the Path of Focus use debilitating bursts of {@item Lightsaber|sw5e-phb|lightsaber} strikes and {@book force powers|sw5e-phb|11|Force Powers} to exhaust their foes, crushing any hopes they had of mounting an effective defense."
+				"The ways of the Force can reveal themselves to a sentinel through intense {@variantrule Concentration|sw5e-phb|concentration} and, most importantly, focus. Those sentinels who follow the Path of Focus use debilitating bursts of lightsaber strikes and {@book force powers|sw5e-phb|11|Force Powers} to exhaust their foes, crushing any hopes they had of mounting an effective defense."
 			]
 		},
 		{
@@ -14127,7 +14127,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"In {@spell Darkness|sw5e-phb|darkness}, there is protection. Those sentinels who follow the Path of Shadows utilize a calculated plan, becoming masters of stealth and ambush who forgo the head-on attack for the vulnerable flank."
+				"In darkness, there is protection. Those sentinels who follow the Path of Shadows utilize a calculated plan, becoming masters of stealth and ambush who forgo the head-on attack for the vulnerable flank."
 			]
 		},
 		{
@@ -14183,7 +14183,7 @@
 			"page": 49,
 			"level": 13,
 			"entries": [
-				"You gain the ability to step from one shadow into another. While you are in dim light or {@spell Darkness|sw5e-phb|darkness}, as a {@variantrule Bonus Action|sw5e-phb} you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or {@spell Darkness|sw5e-phb|darkness}. You then have {@variantrule Advantage|sw5e-phb|advantage} on the first melee attack you make before the end of the turn."
+				"You gain the ability to step from one shadow into another. While you are in dim light or darkness, as a {@variantrule Bonus Action|sw5e-phb} you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have {@variantrule Advantage|sw5e-phb|advantage} on the first melee attack you make before the end of the turn."
 			],
 			"header": 2
 		},
@@ -14197,7 +14197,7 @@
 			"page": 49,
 			"level": 18,
 			"entries": [
-				"Your training has taught you advanced techniques while you {@book maneuver|sw5e-phb|13|Maneuvers} in the shadows. While you are hidden from your target, the first {@variantrule Attack Roll|sw5e-phb|attack roll} you make each round does not automatically reveal your presence. Make a Dexterity ({@skill Stealth|sw5e-phb}) check against your target's Wisdom ({@skill Perception|sw5e-phb}) check. On a success, you remain hidden. If you are also {@condition Invisible|sw5e-phb|invisible}, you remain {@condition Invisible|sw5e-phb|invisible}."
+				"Your training has taught you advanced techniques while you maneuver in the shadows. While you are hidden from your target, the first {@variantrule Attack Roll|sw5e-phb|attack roll} you make each round does not automatically reveal your presence. Make a Dexterity ({@skill Stealth|sw5e-phb}) check against your target's Wisdom ({@skill Perception|sw5e-phb}) check. On a success, you remain hidden. If you are also {@condition Invisible|sw5e-phb|invisible}, you remain {@condition Invisible|sw5e-phb|invisible}."
 			],
 			"header": 2
 		},
@@ -14238,7 +14238,7 @@
 			"page": 49,
 			"level": 3,
 			"entries": [
-				"You can throw grenades and set mines with your {@variantrule Bonus Action|sw5e-phb}, instead of your action. Additionally, when you throw a grenade, you can use Wisdom or Charisma instead of Strength when determining your throwing range. Lastly, when determining the save DC of a {@optfeature Charge|sw5e-phb|charge}, grenade, mine, missile, or rocket you control, you can use your universal force save DC, if it would be higher than the item's DC."
+				"You can throw grenades and set mines with your {@variantrule Bonus Action|sw5e-phb}, instead of your action. Additionally, when you throw a grenade, you can use Wisdom or Charisma instead of Strength when determining your throwing range. Lastly, when determining the save DC of a charge, grenade, mine, missile, or rocket you control, you can use your universal force save DC, if it would be higher than the item's DC."
 			],
 			"header": 2
 		},
@@ -14527,7 +14527,7 @@
 					"type": "entries",
 					"name": "A Life of Danger",
 					"entries": [
-						"Not every person deemed \"berserkers\" by scions of civilized society has the berserker class. A true berserker among these people is as uncommon as a skilled fighter in a town, and he or she plays a similar role as a protector of the people and a leader in times of war. Life in the wild places of the world is fraught with peril: rival tribes, deadly weather, and terrifying monsters. Berserkers {@optfeature Charge|sw5e-phb|charge} headlong into that danger so that their people don't have to.",
+						"Not every person deemed \"berserkers\" by scions of civilized society has the berserker class. A true berserker among these people is as uncommon as a skilled fighter in a town, and he or she plays a similar role as a protector of the people and a leader in times of war. Life in the wild places of the world is fraught with peril: rival tribes, deadly weather, and terrifying monsters. Berserkers charge headlong into that danger so that their people don't have to.",
 						"Their courage in the face of danger makes berserkers perfectly suited for adventuring. Wandering is often a way of life for their native tribes, and the rootless life of the adventurer is little hardship for a berserker. Some berserkers miss the close-knit family structures of the tribe, but eventually find them replaced by the bonds formed among the members of their adventuring parties."
 					]
 				},
@@ -14552,7 +14552,7 @@
 				"Force-wielder who focuses on utilizing {@book force powers|sw5e-phb|11|Force Powers}",
 				"A twi'lek in black robes steps on a terrified rodian, who  scampers away on the ground. Lightning sparks from his fingers, illuminating his red and black tattoos. The rodian's pleas for mercy fall on deaf ears as the Sith channels his lightning into his failed apprentice, leaving nothing but a charred husk behind.",
 				"Sitting cross-legged on a dense patch of grass, a miraluka mystic meditates on the Force. With every breath, the trees sway with a rhythmic breeze. Though she lacks simple vision, she can see the Force as it moves everything around her.",
-				"A drably-robed human focuses inward, channeling the Force into the ground around him. Slowly, all the debris within arms reach rises into the air around him; with a flick of his wrist, he clears the air, {@spell Sending|sw5e-phb|sending} his projectiles to pound on the approaching tank.",
+				"A drably-robed human focuses inward, channeling the Force into the ground around him. Slowly, all the debris within arms reach rises into the air around him; with a flick of his wrist, he clears the air, sending his projectiles to pound on the approaching tank.",
 				"Consulars are the supreme wielders of the Force, defined and united by the powers they cast. Drawing on the omnipresent Force that permeates the universe, consulars cast powers of rejuvenating healing and destructive lightning, draining life-force and manipulating minds; the most powerful with the Force can even experience brief glimpses of the future.",
 				{
 					"type": "entries",
@@ -14596,7 +14596,7 @@
 				"Flinching occasionally as a {@filter blaster|items|firearm=true} bolt hits the nearby bulkhead, a Sullustan mechanic quickly solders a large wire. He peers through his tinted goggles, ignoring the shouts of his ship captain as the enemy descends on the hanger. Finally he shouts with pride as the repaired coupling powers up, causing the frigate to hum with energy. He gathers his tools and runs into the ship moments before it finally takes off.",
 				"Inside, the human captain jumps into the cockpit. She nods to her droid co-pilot, who quickly begins charting a course home. Before the calculations can be completed, enemy Starfighters scream in from the clouds. The pilot rolls the ship, nimbly evading incoming fire. She reroutes the power to {@item Shield|sw5e-phb|shields}, leaving just enough for astronavigation. Just as the energy reserves near depletion, the exosphere and stars beyond blur into streaks of light. In a flash, they warp to safety.",
 				"A Cerean officer surveys the battlefield, looking for weaknesses. When he identifies a potential problem, he keys in a quick combination in his {@item Wristpad|sw5e-phb|wristpad}. In a blink, a custom suit of armor assembles itself around him. As the helmet locks into place, the officer leaps into the air, flying overhead and raining destruction on the opposition.",
-				"Every machine needs an engineer to run it, and a living crew is no different. Engineers are the experts and professionals who rely on skill, bravery, and their tools to {@optfeature Survive|sw5e-phb|survive} and keep others alive. While they do not claim to be fighters, their mere presence can turn the tide of battle or simply keep operations running.",
+				"Every machine needs an engineer to run it, and a living crew is no different. Engineers are the experts and professionals who rely on skill, bravery, and their tools to survive and keep others alive. While they do not claim to be fighters, their mere presence can turn the tide of battle or simply keep operations running.",
 				{
 					"type": "entries",
 					"name": "Behind the Curtain",
@@ -14665,15 +14665,15 @@
 			"source": "sw5e-phb",
 			"entries": [
 				"Force-wielder specializing in melee combat",
-				"A dark-skinned human quickly runs down a corridor, the metal armor under his grey cloak clanking with each step. He rounds the corner into the prison while the lights and power are still out, urging the {@condition Weakened|sw5e-phb|weakened} prisoners to escape. Just then a handful of slavers arrive and ready their {@filter blasters|items|firearm=true}. The man draws and ignites a white-bladed {@item Lightsaber|sw5e-phb|lightsaber}, ready to die for the strangers behind him.",
-				"A sith pureblood, clad head to toe in black and red armor, charges towards a line of soldiers. Shot after shot deflects off his armor until he reaches his prey, where he unleashes his fury in a series of devastating {@item Lightsaber|sw5e-phb|lightsaber} sweeps.",
-				"A zabrak general dramatically leaps to his soon-to-be overrun squad, landing with a flurry of {@item Lightsaber|sw5e-phb|lightsaber} attacks. At the arrival of this powerful Jedi, the attackers fall back.",
-				"Guardians are the master of the art of {@item Lightsaber|sw5e-phb|lightsaber} combat. They focus on utilizing the everpresent power of the Force to enable devastating attacks, often single-handedly turning the tide of battle.",
+				"A dark-skinned human quickly runs down a corridor, the metal armor under his grey cloak clanking with each step. He rounds the corner into the prison while the lights and power are still out, urging the {@condition Weakened|sw5e-phb|weakened} prisoners to escape. Just then a handful of slavers arrive and ready their {@filter blasters|items|firearm=true}. The man draws and ignites a white-bladed lightsaber, ready to die for the strangers behind him.",
+				"A sith pureblood, clad head to toe in black and red armor, charges towards a line of soldiers. Shot after shot deflects off his armor until he reaches his prey, where he unleashes his fury in a series of devastating lightsaber sweeps.",
+				"A zabrak general dramatically leaps to his soon-to-be overrun squad, landing with a flurry of lightsaber attacks. At the arrival of this powerful Jedi, the attackers fall back.",
+				"Guardians are the master of the art of lightsaber combat. They focus on utilizing the everpresent power of the Force to enable devastating attacks, often single-handedly turning the tide of battle.",
 				{
 					"type": "entries",
 					"name": "Protector or Destroyer",
 					"entries": [
-						"An unstoppable agent of the Force, the guardian channels the power flowing through him into his weapons. Their skills with a {@item Lightsaber|sw5e-phb|lightsaber} are unrivalled. Subduing their enemies and bolstering their allies, the guardian uses the Force to control what happens around them."
+						"An unstoppable agent of the Force, the guardian channels the power flowing through him into his weapons. Their skills with a lightsaber are unrivalled. Subduing their enemies and bolstering their allies, the guardian uses the Force to control what happens around them."
 					]
 				},
 				{
@@ -14708,7 +14708,7 @@
 			"source": "sw5e-phb",
 			"entries": [
 				"Unarmed combatant who uses focus to fuel abilities",
-				"Her {@item Vibrostaff|sw5e-phb|vibrostaff} a blur as they deflect an incoming hail of {@filter blaster|items|firearm=true} bolts, a human springs over a barricade and throws herself into the massed ranks of pirates on the other side. She whirls among them, knocking their blows aside and {@spell Sending|sw5e-phb|sending} them reeling, until at last she stands alone.",
+				"Her {@item Vibrostaff|sw5e-phb|vibrostaff} a blur as they deflect an incoming hail of {@filter blaster|items|firearm=true} bolts, a human springs over a barricade and throws herself into the massed ranks of pirates on the other side. She whirls among them, knocking their blows aside and sending them reeling, until at last she stands alone.",
 				"Taking a deep breath, a zabrak covered in tattoos settles into a battle stance. As the first charging mercenaries reach him, he exhales and a blast of negative energy courses from his hands, engulfing his foes.",
 				"Moving with the silence of the night, a black-clad mirialan steps into a shadow beneath an arch and nimbly climbs to the balcony a stone's throw above her. She slides her blade free of its cloth-wrapped scabbard and peers through the open window at the warlord, so vulnerable in the grip of sleep.",
 				"Whatever their discipline, monks are united in their ability to harness the energy that flows in their bodies. Whether channeled as a striking display of combat prowess or a subtler focus of defensive ability and {@variantrule Speed|sw5e-phb|speed}, this energy infuses all that a monk does.",
@@ -14834,15 +14834,15 @@
 			"source": "sw5e-phb",
 			"entries": [
 				"Versatile combatant who blends {@book tech powers|sw5e-phb|12|Tech Powers} with weapons",
-				"Rough and grizzled looking, a human stalks alone through the shadows of trees, hunting the quarry he knows is planning a raid on a nearby settlement. Clutching a {@item Techblade|sw5e-phb} in each hand, he becomes a {@spell Whirlwind|sw5e-phb|whirlwind} of steel, cutting down one enemy after another.",
-				"After tumbling away from the shrapnel of a missile's {@spell Explosion|sw5e-phb|explosion}, a bothan finds her feet and quick-fires two shots from her carbine at the oncoming tank. Shrugging off the wave of fear that threatens to permeate her entire being, she strafes around her foe, firing shot after shot to try to penetrate the tank's thick armor.",
+				"Rough and grizzled looking, a human stalks alone through the shadows of trees, hunting the quarry he knows is planning a raid on a nearby settlement. Clutching a {@item Techblade|sw5e-phb} in each hand, he becomes a whirlwind of steel, cutting down one enemy after another.",
+				"After tumbling away from the shrapnel of a missile's explosion, a bothan finds her feet and quick-fires two shots from her carbine at the oncoming tank. Shrugging off the wave of fear that threatens to permeate her entire being, she strafes around her foe, firing shot after shot to try to penetrate the tank's thick armor.",
 				"Glancing at his {@item Wristpad|sw5e-phb|wristpad}, a sullustan looks through the eyes of his tracker droid. Transmitting instructions, he sends his droid to distract the houk he's been tracking while he readies his {@item Sniper rifle|sw5e-phb|sniper rifle} for the shot.",
 				"Scouts are the first on the trail and the last to lose it, tracking their quarry for miles unimpeded. They are adaptable, wielding both {@book tech powers|sw5e-phb|12|Tech Powers} and their weaponry to overcome their foes.",
 				{
 					"type": "entries",
 					"name": "Deadly Hunters",
 					"entries": [
-						"Warriors in their own right, scouts specialize in tracking and hunting the monsters that {@optfeature Threaten|sw5e-phb|threaten} civilization—humanoid raiders, rampaging beasts and monstrosities, terrible Force-wielders, and renegade droids. They learn to track their quarry as a predator does, moving stealthily through any terrain and hiding themselves in brush and rubble. Scouts focus their combat training on techniques that are particularly useful against their specific favored foes.",
+						"Warriors in their own right, scouts specialize in tracking and hunting the monsters that threaten civilization—humanoid raiders, rampaging beasts and monstrosities, terrible Force-wielders, and renegade droids. They learn to track their quarry as a predator does, moving stealthily through any terrain and hiding themselves in brush and rubble. Scouts focus their combat training on techniques that are particularly useful against their specific favored foes.",
 						"Scouts acquire the ability to cast {@book tech powers|sw5e-phb|12|Tech Powers} through utilization of a {@item Wristpad|sw5e-phb|wristpad}. Their powers, like their combat abilities, emphasize {@variantrule Speed|sw5e-phb|speed}, stealth, and the hunt. A scout's talents and abilities are honed with deadly focus on the grim task of protecting the civilization."
 					]
 				},
@@ -14880,15 +14880,15 @@
 			"source": "sw5e-phb",
 			"entries": [
 				"Force-wielder who blends melee combat with the Force",
-				"Clad in black robes, the rattataki pulls his hood forward and steps into the shadowy alcove, only to reappear further down the hall. As his quarry walks past, he presses the hilt of his {@item Lightsaber|sw5e-phb|lightsaber} to the back of their head, quickly toggling it on-and-off. He is gone before the corpse hits the ground.",
+				"Clad in black robes, the rattataki pulls his hood forward and steps into the shadowy alcove, only to reappear further down the hall. As his quarry walks past, he presses the hilt of his lightsaber to the back of their head, quickly toggling it on-and-off. He is gone before the corpse hits the ground.",
 				"The togruta dashes across the battlefield, {@item Doublesaber|sw5e-phb|doublesaber} deflecting {@filter blaster|items|firearm=true} shots to the ground. She pulls her wounded padawan to her feet, and guides her away from the warzone.",
-				"Green-bladed {@item Lightsaber|sw5e-phb|lightsaber} a blur, the cathar ferociously presses the attack. With each strike, she guides her opponent closer to the ravine's edge. A flurry of blows followed by a quick {@i force push} and her foe tumbles over the edge.",
+				"Green-bladed lightsaber a blur, the cathar ferociously presses the attack. With each strike, she guides her opponent closer to the ravine's edge. A flurry of blows followed by a quick {@i force push} and her foe tumbles over the edge.",
 				"Sentinels are the masters of blending {@book force powers|sw5e-phb|11|Force Powers} with weapon attacks. They weave the two together so expertly that their foes have trouble predicting them.",
 				{
 					"type": "entries",
 					"name": "The Middle of the Road",
 					"entries": [
-						"The sentinel uses stealth and subterfuge to accomplish the {@spell Will of the Force|sw5e-phb|will of the Force}. Where the consular focuses on mastery of the Force and the guardian focuses on the mastery of the {@item Lightsaber|sw5e-phb|lightsaber}, the sentinel focuses on merging the two."
+						"The sentinel uses stealth and subterfuge to accomplish the {@spell Will of the Force|sw5e-phb|will of the Force}. Where the consular focuses on mastery of the Force and the guardian focuses on the mastery of the lightsaber, the sentinel focuses on merging the two."
 					]
 				},
 				{

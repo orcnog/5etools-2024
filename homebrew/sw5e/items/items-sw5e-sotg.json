@@ -1,0 +1,2215 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-sotg",
+				"abbreviation": "SotG",
+				"full": "SW5e: Starships of the Galaxy",
+				"url": "homebrew/sw5e/book/book-sw5e-sotg.json",
+				"color": "#5577ee",
+				"authors": [],
+				"convertedBy": [
+					"cursor"
+				]
+			}
+		],
+		"currencyConversions": {
+			"Credits": [
+				{
+					"coin": "cr",
+					"mult": 0.1,
+					"isFallback": true
+				}
+			]
+		}
+	},
+	"item": [
+		{
+			"name": "Adv. cluster missile",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 2000,
+			"currencyConversion": "Credits",
+			"weight": 20.0,
+			"dmg1": "3d6",
+			"dmgType": "Kinetic",
+			"range": "600/2400",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STBST",
+				"STRPD",
+				"STAUT",
+				"STEXP"
+			],
+			"burst": 6,
+			"rapid": 6,
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 3d6} kinetic damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 6}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STRPD|sw5e-sotg|rapid 6}.",
+				"{@b Damage (Huge–Gargantuan):} 6d6.",
+				"{@b Weight (Huge–Gargantuan):} 40.0 lb."
+			]
+		},
+		{
+			"name": "Adv. concussion missile",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 12500,
+			"currencyConversion": "Credits",
+			"weight": 125.0,
+			"dmg1": "2d10",
+			"dmgType": "Energy",
+			"range": "800/3200",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STBST",
+				"STRPD",
+				"STAUT",
+				"STEXP"
+			],
+			"burst": 1,
+			"rapid": 1,
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 2d10} energy damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 800/3200)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 1}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STRPD|sw5e-sotg|rapid 1}.",
+				"{@b Damage (Huge–Gargantuan):} 4d10.",
+				"{@b Weight (Huge–Gargantuan):} 250.0 lb."
+			]
+		},
+		{
+			"name": "Adv. homing cluster missile",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 2500,
+			"currencyConversion": "Credits",
+			"weight": 25.0,
+			"dmg1": "3d6",
+			"dmgType": "Kinetic",
+			"range": "600/2400",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STBST",
+				"STRPD",
+				"STAUT",
+				"STEXP",
+				"STHOM"
+			],
+			"burst": 6,
+			"rapid": 6,
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 3d6} kinetic damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 6}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STHOM|sw5e-sotg|homing}, {@itemProperty STRPD|sw5e-sotg|rapid 6}.",
+				"{@b Damage (Huge–Gargantuan):} 6d6.",
+				"{@b Weight (Huge–Gargantuan):} 50.0 lb."
+			]
+		},
+		{
+			"name": "Advanced proton torpedo",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 8500,
+			"currencyConversion": "Credits",
+			"weight": 85.0,
+			"dmg1": "2d12",
+			"dmgType": "Energy",
+			"range": "800/3200",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STKEEN",
+				"STEXP"
+			],
+			"keen": 1,
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 2d12} energy damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 800/3200)}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STKEEN|sw5e-sotg|keen 1}.",
+				"{@b Damage (Huge–Gargantuan):} 4d12.",
+				"{@b Weight (Huge–Gargantuan):} 170.0 lb."
+			]
+		},
+		{
+			"name": "Assault cluster pod launcher",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 60000,
+			"currencyConversion": "Credits",
+			"reload": 24,
+			"property": [
+				"STAMM",
+				"STRLD"
+			],
+			"entries": [
+				"{@b Weapon type:} Tertiary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 24}."
+			]
+		},
+		{
+			"name": "Assault laser cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 41500,
+			"currencyConversion": "Credits",
+			"dmg1": "2d6",
+			"dmgType": "Energy",
+			"range": "1200/4800",
+			"overheat": 2,
+			"strength": 15,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice 2d6} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|constitution 15}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+			]
+		},
+		{
+			"name": "Assault missile launcher",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 62500,
+			"currencyConversion": "Credits",
+			"reload": 8,
+			"property": [
+				"STAMM",
+				"STRLD"
+			],
+			"entries": [
+				"{@b Weapon type:} Tertiary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 8}."
+			]
+		},
+		{
+			"name": "Assault rocket pod launcher",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 60000,
+			"currencyConversion": "Credits",
+			"reload": 24,
+			"property": [
+				"STAMM",
+				"STRLD"
+			],
+			"entries": [
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}."
+			]
+		},
+		{
+			"name": "Assault torpedo launcher",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 69000,
+			"currencyConversion": "Credits",
+			"reload": 8,
+			"property": [
+				"STAMM",
+				"STRLD"
+			],
+			"entries": [
+				"{@b Weapon type:} Tertiary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 8}."
+			]
+		},
+		{
+			"name": "Assault turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 41500,
+			"currencyConversion": "Credits",
+			"dmg1": "6d6",
+			"dmgType": "Energy",
+			"range": "1200/4800",
+			"overheat": 2,
+			"property": [
+				"STPWR",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 6d6} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|con. 15}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+			]
+		},
+		{
+			"name": "Blaster cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 41500,
+			"currencyConversion": "Credits",
+			"dmg1": "1d8",
+			"dmgType": "Energy",
+			"range": "600/2400",
+			"rapid": 9,
+			"overheat": 18,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STRPD",
+				"STHID"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d8} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 600/2400)}, {@itemProperty STHID|sw5e-sotg|hidden}, {@itemProperty STOHT|sw5e-sotg|overheat 18}, {@itemProperty STRPD|sw5e-sotg|rapid 9}."
+			]
+		},
+		{
+			"name": "Blaster point-defense",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 40000,
+			"currencyConversion": "Credits",
+			"dmg1": "3d4",
+			"dmgType": "Energy",
+			"range": "200/800",
+			"property": [
+				"STPWR",
+				"STSAT",
+				"STZON"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice 3d4} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 200/800)}, {@itemProperty STSAT|sw5e-sotg|saturate}, {@itemProperty STZON|sw5e-sotg|zone}."
+			]
+		},
+		{
+			"name": "Bomb deployer",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 80000,
+			"currencyConversion": "Credits",
+			"reload": 4,
+			"property": [
+				"STAMM",
+				"STRLD"
+			],
+			"entries": [
+				"{@b Weapon type:} Quaternary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 4}."
+			]
+		},
+		{
+			"name": "Bomb layer",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 80000,
+			"currencyConversion": "Credits",
+			"reload": 8,
+			"property": [
+				"STAMM",
+				"STRLD"
+			],
+			"entries": [
+				"{@b Weapon type:} Quaternary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 8}."
+			]
+		},
+		{
+			"name": "Bomblets",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 12000,
+			"currencyConversion": "Credits",
+			"weight": 16.0,
+			"property": [
+				"STAMM"
+			],
+			"entries": [
+				"{@b Ammunition type:} Quaternary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Weight (Huge–Gargantuan):} 32.0 lb.",
+				"{@b Cost (Huge–Gargantuan):} 2,400 cr.",
+				"When a bomblet detonates, each ship within 50 [100] feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). A ship takes 1d10 [2d10] energy damage on a failed save, or half as much on a successful one."
+			]
+		},
+		{
+			"name": "Burst laser cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 45000,
+			"currencyConversion": "Credits",
+			"dmg1": "2d4",
+			"dmgType": "Energy",
+			"range": "200/800",
+			"burst": 1,
+			"overheat": 2,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STBST",
+				"STSAT",
+				"STAUT"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice 2d4} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 200/800)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 1}, {@itemProperty STOHT|sw5e-sotg|overheat 2}, {@itemProperty STSAT|sw5e-sotg|saturate}."
+			]
+		},
+		{
+			"name": "Burst turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 45000,
+			"currencyConversion": "Credits",
+			"dmg1": "6d4",
+			"dmgType": "Energy",
+			"range": "200/800",
+			"burst": 1,
+			"overheat": 2,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STBST",
+				"STSAT",
+				"STAUT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 6d4} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 200/800)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 1}, {@itemProperty STOHT|sw5e-sotg|overheat 2}, {@itemProperty STSAT|sw5e-sotg|saturate}."
+			]
+		},
+		{
+			"name": "Cluster missile",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 1000,
+			"currencyConversion": "Credits",
+			"weight": 10.0,
+			"dmg1": "3d4",
+			"dmgType": "Kinetic",
+			"range": "600/2400",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STBST",
+				"STRPD",
+				"STAUT",
+				"STEXP"
+			],
+			"burst": 6,
+			"rapid": 6,
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 3d4} kinetic damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 6}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STRPD|sw5e-sotg|rapid 6}.",
+				"{@b Damage (Huge–Gargantuan):} 6d4.",
+				"{@b Weight (Huge–Gargantuan):} 20.0 lb."
+			]
+		},
+		{
+			"name": "Cluster pod launcher",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 60000,
+			"currencyConversion": "Credits",
+			"reload": 12,
+			"property": [
+				"STAMM",
+				"STRLD"
+			],
+			"entries": [
+				"{@b Weapon type:} Tertiary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 12}."
+			]
+		},
+		{
+			"name": "Concussion missile",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 7500,
+			"currencyConversion": "Credits",
+			"weight": 75.0,
+			"dmg1": "2d8",
+			"dmgType": "Energy",
+			"range": "600/2400",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STBST",
+				"STRPD",
+				"STAUT",
+				"STEXP"
+			],
+			"burst": 1,
+			"rapid": 1,
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 2d8} energy damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 1}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STRPD|sw5e-sotg|rapid 1}.",
+				"{@b Damage (Huge–Gargantuan):} 4d8.",
+				"{@b Weight (Huge–Gargantuan):} 150.0 lb."
+			]
+		},
+		{
+			"name": "Conner net (mine)",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 20000,
+			"currencyConversion": "Credits",
+			"weight": 30.0,
+			"property": [
+				"STAMM"
+			],
+			"entries": [
+				"{@b Ammunition type:} Quaternary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Weight (Huge–Gargantuan):} 60.0 lb.",
+				"{@b Cost (Huge–Gargantuan):} 4,000 cr.",
+				"On a failed {@variantrule Saving Throw|sw5e-phb|saving throw} for a missile or upon detonation for a mine, a conner net deploys on the target, which must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). On a failed save, the ship is {@condition Stunned|sw5e-sotg|stunned} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success."
+			]
+		},
+		{
+			"name": "Conner net (missile)",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 8500,
+			"currencyConversion": "Credits",
+			"weight": 85.0,
+			"range": "600/2400",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STSPC"
+			],
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, special.",
+				"{@b Weight (Huge–Gargantuan):} 170.0 lb.",
+				"On a failed {@variantrule Saving Throw|sw5e-phb|saving throw} for a missile or upon detonation for a mine, a conner net deploys on the target, which must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). On a failed save, the ship is {@condition Stunned|sw5e-sotg|stunned} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success."
+			]
+		},
+		{
+			"name": "Discord missile",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 8500,
+			"currencyConversion": "Credits",
+			"weight": 85.0,
+			"range": "600/2400",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STSPC"
+			],
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, special.",
+				"{@b Weight (Huge–Gargantuan):} 170.0 lb.",
+				"On a failed {@variantrule Saving Throw|sw5e-phb|saving throw}, the missile deploys pistoeka sabotage or —buzz— droids on the target. At the end of each of the target ship—s turns, the target ship gains one level of {@condition System Damage|sw5e-sotg|system damage} if the target is medium or smaller [large or smaller]. As an action on each of their turns, a crewmember can have the ship attempt their choice of a dexterity or constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15), ending the effect on a success."
+			]
+		},
+		{
+			"name": "Double laser cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 45000,
+			"currencyConversion": "Credits",
+			"dmg1": "2d4",
+			"dmgType": "Energy",
+			"range": "800/3200",
+			"overheat": 8,
+			"property": [
+				"STPWR",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice 2d4} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STOHT|sw5e-sotg|overheat 8}."
+			]
+		},
+		{
+			"name": "Double turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 45000,
+			"currencyConversion": "Credits",
+			"dmg1": "6d4",
+			"dmgType": "Energy",
+			"range": "800/3200",
+			"overheat": 8,
+			"property": [
+				"STPWR",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 6d4} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STOHT|sw5e-sotg|overheat 8}."
+			]
+		},
+		{
+			"name": "EMP bomb",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 23000,
+			"currencyConversion": "Credits",
+			"weight": 45.0,
+			"property": [
+				"STAMM"
+			],
+			"entries": [
+				"{@b Ammunition type:} Quaternary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Weight (Huge–Gargantuan):} 90.0 lb.",
+				"{@b Cost (Huge–Gargantuan):} 4,600 cr.",
+				"When an EMP bomb detonates, each ship within 150 [300] feet must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). On a failed save, a ship is {@condition Stunned|sw5e-sotg|stunned} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success."
+			]
+		},
+		{
+			"name": "Flechette torpedo",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 8500,
+			"currencyConversion": "Credits",
+			"weight": 85.0,
+			"range": "600/2400",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STSPC"
+			],
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, special.",
+				"{@b Weight (Huge–Gargantuan):} 170.0 lb.",
+				"A Flechette torpedo detonates at a point within range, creating a 200 (400) foot cube of {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}.  Any ship entering or starting their turn in this area must succeed at a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15) or take 1d8 [2d8] kinetic damage."
+			]
+		},
+		{
+			"name": "Glop bomb",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 20000,
+			"currencyConversion": "Credits",
+			"weight": 30.0,
+			"property": [
+				"STAMM"
+			],
+			"entries": [
+				"{@b Ammunition type:} Quaternary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Weight (Huge–Gargantuan):} 60.0 lb.",
+				"{@b Cost (Huge–Gargantuan):} 4,000 cr.",
+				"When a glop bomb detonates, each ship within 50 [100] feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). On a failed save, a ship is {@condition Blinded|sw5e-sotg|blinded} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success.  Ships larger than you have {@variantrule Advantage|sw5e-phb|advantage} on their {@variantrule Saving Throw|sw5e-phb|saving throw}."
+			]
+		},
+		{
+			"name": "Gravity bomb",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 22000,
+			"currencyConversion": "Credits",
+			"weight": 40.0,
+			"property": [
+				"STAMM"
+			],
+			"entries": [
+				"{@b Ammunition type:} Quaternary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Weight (Huge–Gargantuan):} 80.0 lb.",
+				"{@b Cost (Huge–Gargantuan):} 4,400 cr.",
+				"Rather than exploding on contact, gravity bombs detonate any time a ship comes within range of it. When a gravity bomb detonates, it attaches itself to the closest ship hull within 50 [100] feet, creating a mass shadow centered on the ship with a radius of 50 feet that lasts for 10 minutes.  A ship can attempt to dislodge the gravity bomb at the beginning of each ship turn by making a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). Any Large or smaller [Gargantuan or smaller] ships with an attached gravity bomb are unable to activate their hyperdrives."
+			]
+		},
+		{
+			"name": "Gravity mine",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 20000,
+			"currencyConversion": "Credits",
+			"weight": 30.0,
+			"property": [
+				"STAMM"
+			],
+			"entries": [
+				"{@b Ammunition type:} Quaternary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Weight (Huge–Gargantuan):} 60.0 lb.",
+				"{@b Cost (Huge–Gargantuan):} 4,000 cr.",
+				"Rather than exploding on contact, gravity mines detonate any time a ship comes within range of it. When a gravity mine detonates, it creates a mass shadow centered on the point of detonation with a radius of 50 [100] feet that lasts for 10 minutes. Any ships touching this mass shadow are unable to activate their hyperdrives."
+			]
+		},
+		{
+			"name": "Heavy blaster cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 41500,
+			"currencyConversion": "Credits",
+			"dmg1": "1d8",
+			"dmgType": "Energy",
+			"range": "600/2400",
+			"entries": [
+				"{@dice d8} energy damage."
+			]
+		},
+		{
+			"name": "Heavy gun battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 40000,
+			"currencyConversion": "Credits",
+			"dmg1": "4d10",
+			"dmgType": "Kinetic",
+			"range": "400/1600",
+			"overheat": 1,
+			"vicious": 1,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STVIC"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 4d10} kinetic damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 400/1600)}, {@itemProperty STCON|sw5e-sotg|con. 17}, {@itemProperty STOHT|sw5e-sotg|overheat 1}, {@itemProperty STVIC|sw5e-sotg|vicious 1}."
+			]
+		},
+		{
+			"name": "Heavy ion battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 41500,
+			"currencyConversion": "Credits",
+			"dmg1": "3d10",
+			"dmgType": "Ion",
+			"range": "1000/4000",
+			"overheat": 4,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STHVY",
+				"STION"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d10} ion damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1000/4000)}, {@itemProperty STCON|sw5e-sotg|con. 17}, {@itemProperty STHVY|sw5e-sotg|heavy}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+			]
+		},
+		{
+			"name": "Heavy ion cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 41500,
+			"currencyConversion": "Credits",
+			"dmg1": "1d10",
+			"dmgType": "Ion",
+			"range": "1000/4000",
+			"overheat": 4,
+			"strength": 17,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT",
+				"STHVY",
+				"STION"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d10} ion damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1000/4000)}, {@itemProperty STCON|sw5e-sotg|constitution 17}, {@itemProperty STHVY|sw5e-sotg|heavy}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+			]
+		},
+		{
+			"name": "Heavy ion railgun",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 57000,
+			"currencyConversion": "Credits",
+			"dmg1": "3d10",
+			"dmgType": "Ion",
+			"range": "2000/8000",
+			"overheat": 4,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STION"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d10} ion damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 2000/8000)}, {@itemProperty STCON|sw5e-sotg|con. 19}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+			]
+		},
+		{
+			"name": "Heavy laser cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 41500,
+			"currencyConversion": "Credits",
+			"dmg1": "1d12",
+			"dmgType": "Energy",
+			"range": "1200/4800",
+			"overheat": 2,
+			"strength": 15,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT",
+				"STHVY"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d12} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|constitution 15}, {@itemProperty STHVY|sw5e-sotg|heavy}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+			]
+		},
+		{
+			"name": "Heavy slug railgun",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 51500,
+			"currencyConversion": "Credits",
+			"dmg1": "3d12",
+			"dmgType": "Kinetic",
+			"range": "2400/9600",
+			"overheat": 2,
+			"property": [
+				"STPWR",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d12} kinetic damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 2400/9600)}, {@itemProperty STCON|sw5e-sotg|con. 17}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+			]
+		},
+		{
+			"name": "Heavy thermite railgun",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 54000,
+			"currencyConversion": "Credits",
+			"dmg1": "3d10",
+			"dmgType": "Fire",
+			"range": "2400/9600",
+			"overheat": 2,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STMELT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d10} fire damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 2400/9600)}, {@itemProperty STCON|sw5e-sotg|con. 19}, {@itemProperty STMELT|sw5e-sotg|melt}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+			]
+		},
+		{
+			"name": "Heavy turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 41500,
+			"currencyConversion": "Credits",
+			"dmg1": "3d12",
+			"dmgType": "Energy",
+			"range": "1200/4800",
+			"overheat": 2,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STHVY"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d12} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|con. 15}, {@itemProperty STHVY|sw5e-sotg|heavy}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+			]
+		},
+		{
+			"name": "Homing cluster missile",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 1500,
+			"currencyConversion": "Credits",
+			"weight": 15.0,
+			"dmg1": "3d4",
+			"dmgType": "Kinetic",
+			"range": "600/2400",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STBST",
+				"STRPD",
+				"STAUT",
+				"STEXP",
+				"STHOM"
+			],
+			"burst": 6,
+			"rapid": 6,
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 3d4} kinetic damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 6}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STHOM|sw5e-sotg|homing}, {@itemProperty STRPD|sw5e-sotg|rapid 6}.",
+				"{@b Damage (Huge–Gargantuan):} 6d4.",
+				"{@b Weight (Huge–Gargantuan):} 30.0 lb."
+			]
+		},
+		{
+			"name": "Homing torpedo",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 2500,
+			"currencyConversion": "Credits",
+			"weight": 25.0,
+			"dmg1": "1d12",
+			"dmgType": "Energy",
+			"range": "1200/4800",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STEXP",
+				"STHOM"
+			],
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice d12} energy damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1200/4800)}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STHOM|sw5e-sotg|homing}.",
+				"{@b Damage (Huge–Gargantuan):} 2d12.",
+				"{@b Weight (Huge–Gargantuan):} 50.0 lb."
+			]
+		},
+		{
+			"name": "Ion battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 61000,
+			"currencyConversion": "Credits",
+			"dmg1": "6d4",
+			"dmgType": "Ion",
+			"range": "800/3200",
+			"overheat": 8,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STION"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 6d4} ion damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STCON|sw5e-sotg|con. 13}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 8}."
+			]
+		},
+		{
+			"name": "Ion cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 61000,
+			"currencyConversion": "Credits",
+			"dmg1": "2d4",
+			"dmgType": "Ion",
+			"range": "800/3200",
+			"overheat": 8,
+			"strength": 13,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT",
+				"STION"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice 2d4} ion damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STCON|sw5e-sotg|constitution 13}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 8}."
+			]
+		},
+		{
+			"name": "Ion cannon point-defense",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 55000,
+			"currencyConversion": "Credits",
+			"dmg1": "2d6",
+			"dmgType": "Ion",
+			"range": "300/1200",
+			"property": [
+				"STPWR",
+				"STION",
+				"STSAT",
+				"STZON"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice 2d6} ion damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 300/1200)}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STSAT|sw5e-sotg|saturate}, {@itemProperty STZON|sw5e-sotg|zone}."
+			]
+		},
+		{
+			"name": "Ion pulse missile",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 7000,
+			"currencyConversion": "Credits",
+			"weight": 70.0,
+			"dmg1": "2d10",
+			"dmgType": "Ion",
+			"range": "1000/4000",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STION"
+			],
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 2d10} ion damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1000/4000)}, {@itemProperty STION|sw5e-sotg|ionizing}.",
+				"{@b Damage (Huge–Gargantuan):} 4d10.",
+				"{@b Weight (Huge–Gargantuan):} 140.0 lb."
+			]
+		},
+		{
+			"name": "Ion railgun",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 57000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d10",
+			"dmgType": "Ion",
+			"range": "1000/4000",
+			"overheat": 4,
+			"strength": 17,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT",
+				"STION"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice d10} ion damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1000/4000)}, {@itemProperty STCON|sw5e-sotg|constitution 17}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+			]
+		},
+		{
+			"name": "Laser cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 40000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d10",
+			"dmgType": "Energy",
+			"range": "1000/4000",
+			"overheat": 4,
+			"strength": 11,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d10} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1000/4000)}, {@itemProperty STCON|sw5e-sotg|constitution 11}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+			]
+		},
+		{
+			"name": "Laser cannon point-defense",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 60000,
+			"currencyConversion": "Credits",
+			"dmg1": "3d6",
+			"dmgType": "Energy",
+			"range": "300/1200",
+			"property": [
+				"STPWR",
+				"STSAT",
+				"STZON"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice 3d6} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 300/1200)}, {@itemProperty STSAT|sw5e-sotg|saturate}, {@itemProperty STZON|sw5e-sotg|zone}."
+			]
+		},
+		{
+			"name": "Light ion battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 61000,
+			"currencyConversion": "Credits",
+			"dmg1": "3d8",
+			"dmgType": "Ion",
+			"range": "800/3200",
+			"overheat": 16,
+			"property": [
+				"STPWR",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d8} ion damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STOHT|sw5e-sotg|overheat 16}."
+			]
+		},
+		{
+			"name": "Light ion cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 61000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d8",
+			"dmgType": "Ion",
+			"range": "800/3200",
+			"overheat": 16,
+			"property": [
+				"STPWR",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d8} ion damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STOHT|sw5e-sotg|overheat 16}."
+			]
+		},
+		{
+			"name": "Light laser cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 41000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d8",
+			"dmgType": "Energy",
+			"range": "800/3200",
+			"overheat": 16,
+			"property": [
+				"STPWR",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d8} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STOHT|sw5e-sotg|overheat 16}."
+			]
+		},
+		{
+			"name": "Light turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 41000,
+			"currencyConversion": "Credits",
+			"dmg1": "3d8",
+			"dmgType": "Energy",
+			"range": "800/3200",
+			"overheat": 16,
+			"property": [
+				"STPWR",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d8} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STOHT|sw5e-sotg|overheat 16}."
+			]
+		},
+		{
+			"name": "Long-range turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 40000,
+			"currencyConversion": "Credits",
+			"dmg1": "3d10",
+			"dmgType": "Energy",
+			"range": "2400/9600",
+			"overheat": 2,
+			"property": [
+				"STPWR",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d10} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 2400/9600)}, {@itemProperty STCON|sw5e-sotg|con. 15}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+			]
+		},
+		{
+			"name": "Missile launcher",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 62500,
+			"currencyConversion": "Credits",
+			"reload": 4,
+			"property": [
+				"STAMM",
+				"STRLD"
+			],
+			"entries": [
+				"{@b Weapon type:} Tertiary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 4}."
+			]
+		},
+		{
+			"name": "Nano cluster rocket",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 1000,
+			"currencyConversion": "Credits",
+			"weight": 10.0,
+			"dmg1": "1d4",
+			"dmgType": "Kinetic",
+			"range": "800/3200",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STEXP",
+				"STHOM"
+			],
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice d4} kinetic damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 800/3200)}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STHOM|sw5e-sotg|homing}.",
+				"{@b Damage (Huge–Gargantuan):} 2d4.",
+				"{@b Weight (Huge–Gargantuan):} 20.0 lb."
+			]
+		},
+		{
+			"name": "Ordnance point-defense",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 60000,
+			"currencyConversion": "Credits",
+			"dmg1": "2d6",
+			"dmgType": "Kinetic",
+			"range": "300/1200",
+			"property": [
+				"STPWR",
+				"STSAT",
+				"STZON",
+				"STEXP"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice 2d6} kinetic damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 300/1200)}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STSAT|sw5e-sotg|saturate}, {@itemProperty STZON|sw5e-sotg|zone}."
+			]
+		},
+		{
+			"name": "Particle beam",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 57500,
+			"currencyConversion": "Credits",
+			"dmg1": "2d4",
+			"dmgType": "Energy",
+			"range": "800/3200",
+			"overheat": 4,
+			"strength": 11,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 2d4} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STCON|sw5e-sotg|constitution 11}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+			]
+		},
+		{
+			"name": "Particle Cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 57500,
+			"currencyConversion": "Credits",
+			"dmg1": "6d4",
+			"dmgType": "Energy",
+			"range": "1600/6400",
+			"overheat": 4,
+			"property": [
+				"STPWR",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 6d4} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1600/6400)}, {@itemProperty STCON|sw5e-sotg|con. 13}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+			]
+		},
+		{
+			"name": "Plasburst laser cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 40000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d8",
+			"dmgType": "Energy",
+			"range": "600/2400",
+			"burst": 12,
+			"overheat": 12,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STBST"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d8} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 600/2400)}, {@itemProperty STBST|sw5e-sotg|burst 12}, {@itemProperty STOHT|sw5e-sotg|overheat 12}."
+			]
+		},
+		{
+			"name": "Plasburst turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 40000,
+			"currencyConversion": "Credits",
+			"dmg1": "3d8",
+			"dmgType": "Energy",
+			"range": "600/2400",
+			"burst": 12,
+			"overheat": 12,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STBST"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d8} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 600/2400)}, {@itemProperty STBST|sw5e-sotg|burst 12}, {@itemProperty STOHT|sw5e-sotg|overheat 12}."
+			]
+		},
+		{
+			"name": "Plasma torpedo",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 7000,
+			"currencyConversion": "Credits",
+			"weight": 70.0,
+			"dmg1": "2d12",
+			"dmgType": "Ion",
+			"range": "1200/4800",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STVIC"
+			],
+			"vicious": 1,
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 2d12} ion damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1200/4800)}, {@itemProperty STVIC|sw5e-sotg|vicious 1}.",
+				"{@b Damage (Huge–Gargantuan):} 4d12.",
+				"{@b Weight (Huge–Gargantuan):} 140.0 lb."
+			]
+		},
+		{
+			"name": "Proton bomb",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 21000,
+			"currencyConversion": "Credits",
+			"weight": 32.0,
+			"property": [
+				"STAMM"
+			],
+			"entries": [
+				"{@b Ammunition type:} Quaternary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Weight (Huge–Gargantuan):} 65.0 lb.",
+				"{@b Cost (Huge–Gargantuan):} 4,200 cr.",
+				"When a proton bomb detonates, each ship within 100 [200] feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). A ship takes 4d10 [8d10] energy damage on a failed save, or half as much on a successful one."
+			]
+		},
+		{
+			"name": "Proton rocket",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 9500,
+			"currencyConversion": "Credits",
+			"weight": 95.0,
+			"dmg1": "10d4",
+			"dmgType": "Kinetic",
+			"range": "200/800",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STVIC",
+				"STEXP"
+			],
+			"vicious": 1,
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 10d4} kinetic damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 200/800)}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STVIC|sw5e-sotg|vicious 1}.",
+				"{@b Damage (Huge–Gargantuan):} 20d4.",
+				"{@b Weight (Huge–Gargantuan):} 190.0 lb."
+			]
+		},
+		{
+			"name": "Proton torpedo",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 6500,
+			"currencyConversion": "Credits",
+			"weight": 65.0,
+			"dmg1": "2d10",
+			"dmgType": "Energy",
+			"range": "1200/4800",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STKEEN",
+				"STEXP"
+			],
+			"keen": 1,
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 2d10} energy damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1200/4800)}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STKEEN|sw5e-sotg|keen 1}.",
+				"{@b Damage (Huge–Gargantuan):} 4d10.",
+				"{@b Weight (Huge–Gargantuan):} 130.0 lb."
+			]
+		},
+		{
+			"name": "Proximity mine",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 22000,
+			"currencyConversion": "Credits",
+			"weight": 32.0,
+			"property": [
+				"STAMM"
+			],
+			"entries": [
+				"{@b Ammunition type:} Quaternary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Weight (Huge–Gargantuan):} 65.0 lb.",
+				"{@b Cost (Huge–Gargantuan):} 4,400 cr.",
+				"Rather than exploding on contact, proximity mines detonate any time a ship comes within range of it. When a proximity mine detonates, each ship within 100 [200] feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). A ship takes 2d10 [4d10] fire damage on a failed save, or half as much on a successful one."
+			]
+		},
+		{
+			"name": "Pulse bomb",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 23000,
+			"currencyConversion": "Credits",
+			"weight": 35.0,
+			"property": [
+				"STAMM"
+			],
+			"entries": [
+				"{@b Ammunition type:} Quaternary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Weight (Huge–Gargantuan):} 70.0 lb.",
+				"{@b Cost (Huge–Gargantuan):} 4,600 cr.",
+				"When a pulse bomb detonates, each ship within 200 [400] feet must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). A ship takes 2d10 [4d10] ion damage on a failed save, or half as much on a successful one. Additionally, on a failed save, it is {@condition Ionized|sw5e-sotg|ionized} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success.  Ships larger than you have {@variantrule Advantage|sw5e-phb|advantage} on their {@variantrule Saving Throw|sw5e-phb|saving throw}."
+			]
+		},
+		{
+			"name": "Pulse laser cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 25000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d4",
+			"dmgType": "Energy",
+			"range": "500/2000",
+			"overheat": 20,
+			"keen": 1,
+			"piercing": 1,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STKEEN",
+				"STPIER"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d4} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 500/2000)}, {@itemProperty STKEEN|sw5e-sotg|keen 1}, {@itemProperty STPIER|sw5e-sotg|piercing 1}, {@itemProperty STOHT|sw5e-sotg|overheat 20}."
+			]
+		},
+		{
+			"name": "Pulse turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 25000,
+			"currencyConversion": "Credits",
+			"dmg1": "3d4",
+			"dmgType": "Energy",
+			"range": "500/2000",
+			"overheat": 20,
+			"keen": 1,
+			"piercing": 1,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STKEEN",
+				"STPIER"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d4} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 500/2000)}, {@itemProperty STKEEN|sw5e-sotg|keen 1}, {@itemProperty STPIER|sw5e-sotg|piercing 1}, {@itemProperty STOHT|sw5e-sotg|overheat 20}."
+			]
+		},
+		{
+			"name": "Quad laser cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 44000,
+			"currencyConversion": "Credits",
+			"dmg1": "2d4",
+			"dmgType": "Energy",
+			"range": "800/3200",
+			"rapid": 2,
+			"overheat": 8,
+			"strength": 13,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT",
+				"STRPD"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice 2d4} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STCON|sw5e-sotg|constitution 13}, {@itemProperty STOHT|sw5e-sotg|overheat 8}, {@itemProperty STRPD|sw5e-sotg|rapid 2}."
+			]
+		},
+		{
+			"name": "Quad pulse laser",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 44000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d6",
+			"dmgType": "Energy",
+			"range": "400/1600",
+			"rapid": 4,
+			"overheat": 16,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STRPD"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d6} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 400/1600)}, {@itemProperty STOHT|sw5e-sotg|overheat 16}, {@itemProperty STRPD|sw5e-sotg|rapid 4}."
+			]
+		},
+		{
+			"name": "Quad pulse turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 44000,
+			"currencyConversion": "Credits",
+			"dmg1": "2d6",
+			"dmgType": "Energy",
+			"range": "400/1600",
+			"rapid": 4,
+			"overheat": 16,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STRPD"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 2d6} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 400/1600)}, {@itemProperty STOHT|sw5e-sotg|overheat 16}, {@itemProperty STRPD|sw5e-sotg|rapid 4}."
+			]
+		},
+		{
+			"name": "Quad turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 44000,
+			"currencyConversion": "Credits",
+			"dmg1": "6d4",
+			"dmgType": "Energy",
+			"range": "800/3200",
+			"rapid": 2,
+			"overheat": 8,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STRPD"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 6d4} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STCON|sw5e-sotg|con. 13}, {@itemProperty STOHT|sw5e-sotg|overheat 8}, {@itemProperty STRPD|sw5e-sotg|rapid 2}."
+			]
+		},
+		{
+			"name": "Rapid-fire laser cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 46000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d6",
+			"dmgType": "Energy",
+			"range": "400/1600",
+			"burst": 16,
+			"rapid": 4,
+			"overheat": 16,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STBST",
+				"STRPD",
+				"STAUT"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d6} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 400/1600)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 16}, {@itemProperty STOHT|sw5e-sotg|overheat 16}, {@itemProperty STRPD|sw5e-sotg|rapid 4}."
+			]
+		},
+		{
+			"name": "Rapid-fire turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 46000,
+			"currencyConversion": "Credits",
+			"dmg1": "3d6",
+			"dmgType": "Energy",
+			"range": "400/1600",
+			"burst": 16,
+			"rapid": 4,
+			"overheat": 16,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STBST",
+				"STRPD",
+				"STAUT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d6} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 400/1600)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 16}, {@itemProperty STOHT|sw5e-sotg|overheat 16}, {@itemProperty STRPD|sw5e-sotg|rapid 4}."
+			]
+		},
+		{
+			"name": "Rocket pod launcher",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 60000,
+			"currencyConversion": "Credits",
+			"reload": 12,
+			"property": [
+				"STAMM",
+				"STRLD"
+			],
+			"entries": [
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}."
+			]
+		},
+		{
+			"name": "S-thread tracer",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 15000,
+			"currencyConversion": "Credits",
+			"weight": 50.0,
+			"range": "1200/4800",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STSPC"
+			],
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1200/4800)}, special.",
+				"{@b Weight (Huge–Gargantuan):} 100.0 lb.",
+				"On a failed {@variantrule Saving Throw|sw5e-phb|saving throw}, the missile latches an S-thread tracer onto the target. When making an Intelligence ({@skill Probe|sw5e-sotg}) check to detect the S-threaded ship's hyperspace travel, its angle of departure can be detected on a roll of 15 instead of 25."
+			]
+		},
+		{
+			"name": "Seismic charge",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 20000,
+			"currencyConversion": "Credits",
+			"weight": 30.0,
+			"property": [
+				"STAMM"
+			],
+			"entries": [
+				"{@b Ammunition type:} Quaternary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Weight (Huge–Gargantuan):} 60.0 lb.",
+				"{@b Cost (Huge–Gargantuan):} 4,000 cr.",
+				"When a seismic charge detonates, each ship within 150 [300] feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). A ship takes 1d10 [2d10] kinetic damage on a failed save, or half as much on a successful one."
+			]
+		},
+		{
+			"name": "Silent thunder missile",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 15000,
+			"currencyConversion": "Credits",
+			"weight": 150.0,
+			"dmg1": "4d10",
+			"dmgType": "Energy",
+			"range": "1200/4800",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STEXP"
+			],
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 4d10} energy damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1200/4800)}, {@itemProperty STEXP|sw5e-sotg|explosive}.",
+				"{@b Damage (Huge–Gargantuan):} 8d10.",
+				"{@b Weight (Huge–Gargantuan):} 300.0 lb."
+			]
+		},
+		{
+			"name": "Slug cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 40000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d8",
+			"dmgType": "Kinetic",
+			"range": "600/2400",
+			"overheat": 4,
+			"strength": 11,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT",
+				"STDIRE"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d8} kinetic damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 600/2400)}, {@itemProperty STCON|sw5e-sotg|constitution 11}, {@itemProperty STDIRE|sw5e-sotg|dire 1}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+			]
+		},
+		{
+			"name": "Slug railgun",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 51500,
+			"currencyConversion": "Credits",
+			"dmg1": "1d12",
+			"dmgType": "Kinetic",
+			"range": "1200/4800",
+			"overheat": 2,
+			"strength": 15,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice d12} kinetic damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|constitution 15}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+			]
+		},
+		{
+			"name": "Sparkler ion cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 61000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d4",
+			"dmgType": "Ion",
+			"range": "200/800",
+			"burst": 1,
+			"overheat": 1,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STBST",
+				"STION",
+				"STSAT",
+				"STAUT"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d4} ion damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 200/800)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 1}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 1}, {@itemProperty STSAT|sw5e-sotg|saturate}."
+			]
+		},
+		{
+			"name": "Thermite battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 63000,
+			"currencyConversion": "Credits",
+			"dmg1": "3d12",
+			"dmgType": "Fire",
+			"range": "1200/4800",
+			"overheat": 2,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STMELT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d12} fire damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|con. 17}, {@itemProperty STMELT|sw5e-sotg|melt}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+			]
+		},
+		{
+			"name": "Thermite cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 63000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d12",
+			"dmgType": "Fire",
+			"range": "1200/4800",
+			"overheat": 2,
+			"strength": 17,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT",
+				"STMELT"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d12} fire damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|constitution 17}, {@itemProperty STMELT|sw5e-sotg|melt}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+			]
+		},
+		{
+			"name": "Thermite railgun",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 54000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d10",
+			"dmgType": "Fire",
+			"range": "1200/4800",
+			"overheat": 2,
+			"strength": 17,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT",
+				"STMELT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice d10} fire damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|constitution 17}, {@itemProperty STMELT|sw5e-sotg|melt}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+			]
+		},
+		{
+			"name": "Thermite torpedo",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STAM",
+			"rarity": "none",
+			"value": 7000,
+			"currencyConversion": "Credits",
+			"weight": 70.0,
+			"dmg1": "2d10",
+			"dmgType": "Fire",
+			"range": "1200/4800",
+			"property": [
+				"STAMM",
+				"STPWR",
+				"STKEEN",
+				"STMELT"
+			],
+			"keen": 1,
+			"entries": [
+				"{@b Ammunition type:} Tertiary.",
+				"{@dice 2d10} fire damage.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1200/4800)}, {@itemProperty STMELT|sw5e-sotg|melt}, {@itemProperty STKEEN|sw5e-sotg|keen 1}.",
+				"{@b Damage (Huge–Gargantuan):} 4d10.",
+				"{@b Weight (Huge–Gargantuan):} 140.0 lb."
+			]
+		},
+		{
+			"name": "Torpedo launcher",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 69000,
+			"currencyConversion": "Credits",
+			"reload": 4,
+			"property": [
+				"STAMM",
+				"STRLD"
+			],
+			"entries": [
+				"{@b Weapon type:} Tertiary.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 4}."
+			]
+		},
+		{
+			"name": "Turbolaser",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 50000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d10",
+			"dmgType": "Energy",
+			"range": "1000/4000",
+			"overheat": 4,
+			"strength": 13,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice d10} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1000/4000)}, {@itemProperty STCON|sw5e-sotg|constitution 13}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+			]
+		},
+		{
+			"name": "Turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 40000,
+			"currencyConversion": "Credits",
+			"dmg1": "3d10",
+			"dmgType": "Energy",
+			"range": "1000/4000",
+			"overheat": 4,
+			"property": [
+				"STPWR",
+				"STOHT"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 3d10} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1000/4000)}, {@itemProperty STCON|sw5e-sotg|con. 11}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+			]
+		},
+		{
+			"name": "Twin auto-blaster",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 44000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d4",
+			"dmgType": "Energy",
+			"range": "250/1000",
+			"burst": 10,
+			"rapid": 5,
+			"overheat": 20,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STBST",
+				"STRPD",
+				"STHID",
+				"STAUT"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d4} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 250/1000)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 10}, {@itemProperty STHID|sw5e-sotg|hidden}, {@itemProperty STOHT|sw5e-sotg|overheat 20}, {@itemProperty STRPD|sw5e-sotg|rapid 5}."
+			]
+		},
+		{
+			"name": "Twin laser cannon",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 44000,
+			"currencyConversion": "Credits",
+			"dmg1": "1d8",
+			"dmgType": "Energy",
+			"range": "600/2400",
+			"rapid": 3,
+			"overheat": 12,
+			"strength": 11,
+			"property": [
+				"STPWR",
+				"STCON",
+				"STOHT",
+				"STRPD"
+			],
+			"entries": [
+				"{@b Weapon type:} Primary.",
+				"{@dice d8} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 600/2400)}, {@itemProperty STCON|sw5e-sotg|constitution 11}, {@itemProperty STRPD|sw5e-sotg|rapid 3}, {@itemProperty STOHT|sw5e-sotg|overheat 12}."
+			]
+		},
+		{
+			"name": "Twin turbolaser battery",
+			"source": "sw5e-sotg",
+			"page": 79,
+			"type": "STW",
+			"rarity": "none",
+			"weapon": true,
+			"value": 44000,
+			"currencyConversion": "Credits",
+			"dmg1": "2d8",
+			"dmgType": "Energy",
+			"range": "600/2400",
+			"rapid": 3,
+			"overheat": 12,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STRPD"
+			],
+			"entries": [
+				"{@b Weapon type:} Secondary.",
+				"{@dice 2d8} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 600/2400)}, {@itemProperty STCON|sw5e-sotg|con. 11}, {@itemProperty STRPD|sw5e-sotg|rapid 3}, {@itemProperty STOHT|sw5e-sotg|overheat 12}."
+			]
+		}
+	]
+}

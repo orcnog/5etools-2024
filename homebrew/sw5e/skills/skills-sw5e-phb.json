@@ -31,7 +31,7 @@
 			"page": 178,
 			"ability": "wis",
 			"entries": [
-				"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom ({@skill Animal Handling|sw5e-phb}) check. You also make a Wisdom ({@skill Animal Handling|sw5e-phb}) check to control your mount when you attempt a risky {@book maneuver|sw5e-phb|13|Maneuvers}."
+				"When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom ({@skill Animal Handling|sw5e-phb}) check. You also make a Wisdom ({@skill Animal Handling|sw5e-phb}) check to control your mount when you attempt a risky maneuver."
 			]
 		},
 		{
@@ -140,7 +140,7 @@
 			"page": 178,
 			"ability": "int",
 			"entries": [
-				"Your Intelligence ({@skill Piloting|sw5e-phb}) check measures your ability to control vehicles, aircraft, and spaceships. {@skill Piloting|sw5e-phb} governs your ability to {@book maneuver|sw5e-phb|13|Maneuvers} through tight spaces and debris fields or dogfight with enemy craft.",
+				"Your Intelligence ({@skill Piloting|sw5e-phb}) check measures your ability to control vehicles, aircraft, and spaceships. {@skill Piloting|sw5e-phb} governs your ability to maneuver through tight spaces and debris fields or dogfight with enemy craft.",
 				"{@homebrew A DnD5e character can count any proficiency in {@skill Vehicles (Land)} or {@skill Vehicles (Water)} as having proficiency in the {@skill Piloting|sw5e-phb} skill.}"
 			]
 		},
@@ -159,7 +159,7 @@
 			"page": 178,
 			"ability": "dex",
 			"entries": [
-				"Make a Dexterity ({@skill Stealth|sw5e-phb}) check when you attempt to {@optfeature Conceal|sw5e-phb|conceal} yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
+				"Make a Dexterity ({@skill Stealth|sw5e-phb}) check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard."
 			]
 		},
 		{

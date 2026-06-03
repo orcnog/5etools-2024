@@ -1,0 +1,225 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-sotg",
+				"abbreviation": "SotG",
+				"full": "SW5e: Starships of the Galaxy",
+				"url": "homebrew/sw5e/book/book-sw5e-sotg.json",
+				"color": "#5577ee",
+				"authors": [],
+				"convertedBy": [
+					"cursor"
+				]
+			}
+		],
+		"currencyConversions": {
+			"Credits": [
+				{
+					"coin": "cr",
+					"mult": 0.1,
+					"isFallback": true
+				}
+			]
+		}
+	},
+	"skill": [
+		{
+			"name": "Astrogation",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "int",
+			"entries": [
+				"Make an Astrogation check to calculate hyperspace jumps. For more details, see {@book Travel in Hyperspace|sw5e-sotg|10|Travel in Hyperspace} in Chapter 8.",
+				{
+					"type": "entries",
+					"name": "Alternate Check",
+					"entries": [
+						"When you would make an Intelligence ({@skill Astrogation|sw5e-sotg}) check, you may instead make an Intelligence ({@skill Technology|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Intelligence modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boost",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "str",
+			"entries": [
+				"Use the Boost skill when you attempt to push your ship to or beyond its limits. A successful Boost check can break ties in straight-line {@variantrule Speed|sw5e-phb|speed} contests or determine how fast your ship can accelerate to top {@variantrule Speed|sw5e-phb|speed}. You also make Boost checks when taking the boost engines, boost shields, and boost weapons actions."
+			]
+		},
+		{
+			"name": "Ram",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "str",
+			"entries": [
+				"Use the Ram skill when you want to slam into another object to deal damage."
+			]
+		},
+		{
+			"name": "Hide",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "dex",
+			"entries": [
+				"The Hide skill allows the ship to remain undetected by sensors from other ships and stations. Use Hide when you approach along a known blind spot, slink through a debris field, or hide amongst asteroids. The Hide skill is generally contested by a passive Wisdom ({@skill Scan|sw5e-sotg}) score if the ship's presence is unknown, a Wisdom ({@skill Scan|sw5e-sotg}) check if presence is suspected, or an Intelligence ({@skill Probe|sw5e-sotg}) check if the approximate location is known."
+			]
+		},
+		{
+			"name": "Maneuvering",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "dex",
+			"entries": [
+				"Use the Maneuvering skill to perform tricky maneuvers in combat, deftly fly through an asteroid field, and impress others with flying skill. Your ship is considered proficiently equipped in this skill if the crewmember at the helm is proficient in {@skill Piloting|sw5e-phb}. Your ship is considered expertly equipped if the helm crewmember has {@variantrule Expertise|sw5e-phb|expertise} in {@skill Piloting|sw5e-phb}.",
+				{
+					"type": "entries",
+					"name": "Alternate Check",
+					"entries": [
+						"When you would make a Dexterity ({@skill Maneuvering|sw5e-sotg}) check, you may instead make an Intelligence ({@skill Piloting|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Intelligence modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Patch",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "con",
+			"entries": [
+				"You can attempt to have the ship patch damage it has taken using one of its Hull Dice. When you take the {@variantrule Patch|sw5e-sotg} action, you make a Constitution ({@skill Patch|sw5e-sotg}) check (DC = 10 or half the ship's missing hull points, whichever is higher). On a failure, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on the Hull Die roll. On a success you roll the Hull Die normally.",
+				{
+					"type": "entries",
+					"name": "Alternate Check",
+					"entries": [
+						"When you would make a Constitution ({@skill Patch|sw5e-sotg}) check, you may instead make an Intelligence ({@item Mechanic's kit|sw5e-phb|Mechanic's Kit}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Intelligence modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Regulation",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "con",
+			"entries": [
+				"Your GM may require a Regulation check when your ship is pushed beyond its natural limits, such as running on low fuel, straining the reactor, holding top {@variantrule Speed|sw5e-phb|speed} for long periods, or keeping life support running when out of fuel.",
+				{
+					"type": "entries",
+					"name": "Alternate Check",
+					"entries": [
+						"When you would make a Constitution ({@skill Regulation|sw5e-sotg}) check, you may instead make an Intelligence ({@item Mechanic's kit|sw5e-phb|Mechanic's Kit}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Intelligence modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Data",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "int",
+			"entries": [
+				"Use the Data skill when you want to access your ship's data banks to learn information. Ships often have standard information about hyperlanes, systems, and planets; upgrades can add more obscure subjects. The more obscure the information, the higher the DC should be."
+			]
+		},
+		{
+			"name": "Probe",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "int",
+			"entries": [
+				"When you focus your ship's sensor suite on an area or ship and investigate in detail, you make an Intelligence ({@skill Probe|sw5e-sotg}) check. A successful check may reveal a hidden ship, physical damage in a construct, minerals in an asteroid, technical details about a probed ship, or lifeforms on board.",
+				{
+					"type": "entries",
+					"name": "Alternate Check",
+					"entries": [
+						"When you would make an Intelligence ({@skill Probe|sw5e-sotg}) check, you may instead make an Intelligence ({@skill Investigation|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Intelligence modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scan",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "wis",
+			"entries": [
+				"Your Wisdom ({@skill Scan|sw5e-sotg}) check lets you notice and locate something near your ship. It measures general awareness of surroundings and the keenness of your ship's detection algorithms.",
+				{
+					"type": "entries",
+					"name": "Alternate Check",
+					"entries": [
+						"When you would make a Wisdom ({@skill Scan|sw5e-sotg}) check, you may instead make a Wisdom ({@skill Perception|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Wisdom modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Impress",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "cha",
+			"entries": [
+				"The Impress skill measures whether your ship looks impressively outfitted and well maintained, whether or not it actually is.",
+				{
+					"type": "entries",
+					"name": "Alternate Check",
+					"entries": [
+						"When you would make a Charisma ({@skill Impress|sw5e-sotg}) check, you may instead make a Charisma ({@skill Persuasion|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Charisma modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Interfere",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "cha",
+			"entries": [
+				"When you attempt to interfere with another ship or creature, you use the Interfere skill.",
+				{
+					"type": "entries",
+					"name": "Alternate Check",
+					"entries": [
+						"When you would make a Charisma ({@skill Interfere|sw5e-sotg}) check, you may instead make an Intelligence ({@item Slicer's kit|sw5e-phb|Slicer's Kit}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Intelligence modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Menace",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "cha",
+			"entries": [
+				"When you attempt to influence someone through the threat of your ship's abilities—{@variantrule Speed|sw5e-phb|speed}, firepower, or toughness—the GM might ask for a Charisma ({@skill Menace|sw5e-sotg}) check.",
+				{
+					"type": "entries",
+					"name": "Alternate Check",
+					"entries": [
+						"When you would make a Charisma ({@skill Menace|sw5e-sotg}) check, you may instead make a Charisma ({@skill Intimidation|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Charisma modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Swindle",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ability": "cha",
+			"entries": [
+				"Use the Swindle skill when you want to pass your ship off as something it's not, such as a freighter instead of a gunship, concealing lifeforms on board, or hiding cargo.",
+				{
+					"type": "entries",
+					"name": "Alternate Check",
+					"entries": [
+						"When you would make a Charisma ({@skill Swindle|sw5e-sotg}) check, you may instead make a Charisma ({@skill Deception|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Charisma modifier."
+					]
+				}
+			]
+		}
+	]
+}

@@ -182,7 +182,7 @@
 				"LSF"
 			],
 			"entries": [
-				"As a part of the {@variantrule Bonus Action|sw5e-phb} to adopt this form, you can {@optfeature Flourish|sw5e-phb|flourish} your weapon to attempt to distract an enemy you can see. Make a Dexterity (Sleight of Hand) or Charisma ({@skill Deception|sw5e-phb}) check (your choice) contested by a Wisdom ({@skill Perception|sw5e-phb}) check of one creature that you can see within 5 feet of you. On a success, that creature has {@variantrule Disadvantage|sw5e-phb|disadvantage} on the next {@variantrule Attack Roll|sw5e-phb|attack roll} it makes against you."
+				"As a part of the {@variantrule Bonus Action|sw5e-phb} to adopt this form, you can flourish your weapon to attempt to distract an enemy you can see. Make a Dexterity (Sleight of Hand) or Charisma ({@skill Deception|sw5e-phb}) check (your choice) contested by a Wisdom ({@skill Perception|sw5e-phb}) check of one creature that you can see within 5 feet of you. On a success, that creature has {@variantrule Disadvantage|sw5e-phb|disadvantage} on the next {@variantrule Attack Roll|sw5e-phb|attack roll} it makes against you."
 			]
 		},
 		{

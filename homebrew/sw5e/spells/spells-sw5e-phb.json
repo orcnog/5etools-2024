@@ -47,7 +47,7 @@
 				}
 			],
 			"entries": [
-				"The power captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have {@spell Resistance|sw5e-phb|resistance} to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra {@damage 1d6} damage of the triggering type, and the power ends."
+				"The power captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra {@damage 1d6} damage of the triggering type, and the power ends."
 			],
 			"entriesHigherLevel": [
 				{
@@ -582,16 +582,16 @@
 			],
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Restoration|sw5e-phb}}}",
-				"Purifying energy radiates from you in a 30-foot radius. Until the power ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become {@condition Diseased|sw5e-phb|diseased}, has {@spell Resistance|sw5e-phb|resistance} to {@item Poison|sw5e-phb|poison} damage, and has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that cause any of the following conditions: {@condition blinded|sw5e-phb}, {@condition charmed|sw5e-phb}, {@condition deafened|sw5e-phb}, {@condition frightened|sw5e-phb}, {@condition paralyzed|sw5e-phb}, {@condition poisoned|sw5e-phb}, and {@condition stunned|sw5e-phb}."
+				"Purifying energy radiates from you in a 30-foot radius. Until the power ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become {@condition Diseased|sw5e-phb|diseased}, has resistance to poison damage, and has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that cause any of the following conditions: {@condition blinded|sw5e-phb}, {@condition charmed|sw5e-phb}, {@condition deafened|sw5e-phb}, {@condition frightened|sw5e-phb}, {@condition paralyzed|sw5e-phb}, {@condition poisoned|sw5e-phb}, and {@condition stunned|sw5e-phb}."
 			],
 			"damageResist": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"damageImmune": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"damageVulnerable": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"conditionInflict": [
 				"blinded",
@@ -757,7 +757,7 @@
 				}
 			],
 			"entries": [
-				"A flickering blue {@item Shield|sw5e-phb|shield} surrounds your body. Until the power ends, you have {@spell Resistance|sw5e-phb|resistance} to kinetic, energy, and ion damage."
+				"A flickering blue {@item Shield|sw5e-phb|shield} surrounds your body. Until the power ends, you have resistance to kinetic, energy, and ion damage."
 			]
 		},
 		{
@@ -1092,17 +1092,17 @@
 				}
 			],
 			"entries": [
-				"You are able to slow your metabolism in such a way that you can stop breathing and resist the effect of toxins in your body. If you are {@condition poisoned|sw5e-phb}, you neutralize the {@item Poison|sw5e-phb|poison}. If more than one {@item Poison|sw5e-phb|poison} afflicts you, you neutralize one {@item Poison|sw5e-phb|poison} that you know is present, or you neutralize one at random.",
-				"For the duration, you have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against being {@condition poisoned|sw5e-phb}, {@spell Resistance|sw5e-phb|resistance} to {@item Poison|sw5e-phb|poison} damage, and you no longer need to breathe."
+				"You are able to slow your metabolism in such a way that you can stop breathing and resist the effect of toxins in your body. If you are {@condition poisoned|sw5e-phb}, you neutralize the poison. If more than one poison afflicts you, you neutralize one poison that you know is present, or you neutralize one at random.",
+				"For the duration, you have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against being {@condition poisoned|sw5e-phb}, resistance to poison damage, and you no longer need to breathe."
 			],
 			"damageResist": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"damageImmune": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"damageVulnerable": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"conditionInflict": [
 				"poisoned"
@@ -1484,10 +1484,10 @@
 				}
 			],
 			"entries": [
-				"You attempt to freeze one creature that you can see within range into {@spell Carbonite|sw5e-phb|carbonite}. The creature must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, it is {@condition restrained|sw5e-phb} as its flesh begins to harden. On a successful save, the creature isn't affected.",
+				"You attempt to freeze one creature that you can see within range into carbonite. The creature must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, it is {@condition restrained|sw5e-phb} as its flesh begins to harden. On a successful save, the creature isn't affected.",
 				"A creature {@condition restrained|sw5e-phb} by this power must make another Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} at the end of each of its turns. If it successfully saves against this power three times, the power ends. If it fails its saves three times, it is turned to stone and subjected to the {@condition petrified|sw5e-phb} condition for the duration. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind.",
-				"If the creature is physically broken while frozen in {@spell Carbonite|sw5e-phb|carbonite}, it suffers from similar deformities if it reverts to its original state.",
-				"If you maintain your {@variantrule Concentration|sw5e-phb|concentration} on this power for the entire possible duration, the creature is frozen in {@spell Carbonite|sw5e-phb|carbonite} until the effect is removed."
+				"If the creature is physically broken while frozen in carbonite, it suffers from similar deformities if it reverts to its original state.",
+				"If you maintain your {@variantrule Concentration|sw5e-phb|concentration} on this power for the entire possible duration, the creature is frozen in carbonite until the effect is removed."
 			],
 			"conditionInflict": [
 				"petrified",
@@ -1524,11 +1524,11 @@
 				}
 			],
 			"entries": [
-				"You generate an {@spell Explosion|sw5e-phb|explosion} of cryogenic energy in a 60-foot-radius sphere centered on a point you can see",
+				"You generate an explosion of cryogenic energy in a 60-foot-radius sphere centered on a point you can see",
 				{
 					"type": "list",
 					"items": [
-						"{@b {@i within range.}} Each creature in the affected area must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the creature takes {@damage 8d6 + 20} cold damage and is {@condition restrained|sw5e-phb} for 1 minute as it is encased in {@spell Carbonite|sw5e-phb|carbonite}. On a successful save, the creature takes half damage and is {@condition restrained|sw5e-phb} until the end of its next turn."
+						"{@b {@i within range.}} Each creature in the affected area must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the creature takes {@damage 8d6 + 20} cold damage and is {@condition restrained|sw5e-phb} for 1 minute as it is encased in carbonite. On a successful save, the creature takes half damage and is {@condition restrained|sw5e-phb} until the end of its next turn."
 					]
 				},
 				"As an action, a {@condition restrained|sw5e-phb} creature can make a Strength check against your tech save DC, ending this effect on itself on a success.",
@@ -2164,7 +2164,7 @@
 				}
 			],
 			"entries": [
-				"You {@spell Release|sw5e-phb|release} a shard of cryogenic energy at one creature within range. Make a ranged tech attack against the target. On a hit, the target takes {@damage 1d10} kinetic damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} or take {@damage 2d6} cold damage."
+				"You release a shard of cryogenic energy at one creature within range. Make a ranged tech attack against the target. On a hit, the target takes {@damage 1d10} kinetic damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of it must succeed on a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} or take {@damage 2d6} cold damage."
 			],
 			"entriesHigherLevel": [
 				{
@@ -2250,7 +2250,7 @@
 			],
 			"entries": [
 				"A blast of cold air erupts from you. Each creature in a 60-foot cone must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature takes {@damage 8d8} cold damage, and gains 1 {@condition Slowed|sw5e-phb|slowed} level until the start of your next turn. On a successful save, a creature takes half as much damage and isn't {@condition Slowed|sw5e-phb|slowed}.",
-				"A creature killed by this power becomes frozen in {@spell Carbonite|sw5e-phb|carbonite}."
+				"A creature killed by this power becomes frozen in carbonite."
 			],
 			"entriesHigherLevel": [
 				{
@@ -2379,7 +2379,7 @@
 				}
 			],
 			"entries": [
-				"An {@spell Explosion|sw5e-phb|explosion} of cold energy erupts from a point you choose within range. Each creature in a 5-foot-radius sphere centered on that point must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature takes {@damage 3d6} cold damage, and gains 1 {@condition Slowed|sw5e-phb|slowed} level until the start of your next turn. On a successful save, a creature takes half as much damage and isn't {@condition Slowed|sw5e-phb|slowed}."
+				"An explosion of cold energy erupts from a point you choose within range. Each creature in a 5-foot-radius sphere centered on that point must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature takes {@damage 3d6} cold damage, and gains 1 {@condition Slowed|sw5e-phb|slowed} level until the start of your next turn. On a successful save, a creature takes half as much damage and isn't {@condition Slowed|sw5e-phb|slowed}."
 			],
 			"entriesHigherLevel": [
 				{
@@ -2603,7 +2603,7 @@
 				}
 			],
 			"entries": [
-				"You create a weapon of imperceptible Force energy that lasts until the power ends. It counts as a simple {@filter lightweapon|items|type=martial weapon|category=lightweapon} with which you are proficient. It deals {@damage 2d6} psychic damage, and has the finesse, light, and thrown properties (range 20/60). When you attack while within dim light or {@spell Darkness|sw5e-phb|darkness}, you have {@variantrule Advantage|sw5e-phb|advantage}.",
+				"You create a weapon of imperceptible Force energy that lasts until the power ends. It counts as a simple {@filter lightweapon|items|type=martial weapon|category=lightweapon} with which you are proficient. It deals {@damage 2d6} psychic damage, and has the finesse, light, and thrown properties (range 20/60). When you attack while within dim light or darkness, you have {@variantrule Advantage|sw5e-phb|advantage}.",
 				"If you drop the weapon or throw it, it disappears at the end of the turn. While the power lasts, you can use a {@variantrule Bonus Action|sw5e-phb} to make the weapon reappear in your hand."
 			],
 			"entriesHigherLevel": [
@@ -2690,8 +2690,8 @@
 				}
 			],
 			"entries": [
-				"{@spell Darkness|sw5e-phb} spreads from a point you choose within range to fill a 15-foot-radius sphere until the power ends. The {@spell Darkness|sw5e-phb|darkness} spreads around corners. A creature with {@sense Darkvision|sw5e-phb} can't see through this {@spell Darkness|sw5e-phb|darkness}, and unenhanced light can't illuminate it.",
-				"If the point you choose is on an object you are holding or one that isn't being worn or carried, the {@spell Darkness|sw5e-phb|darkness} comes from the object and moves with it. Completely covering the source of the {@spell Darkness|sw5e-phb|darkness} with an opaque object blocks the {@spell Darkness|sw5e-phb|darkness}.",
+				"darkness spreads from a point you choose within range to fill a 15-foot-radius sphere until the power ends. The darkness spreads around corners. A creature with {@sense Darkvision|sw5e-phb} can't see through this darkness, and unenhanced light can't illuminate it.",
+				"If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness comes from the object and moves with it. Completely covering the source of the darkness with an opaque object blocks the darkness.",
 				"If this power's area overlaps with light created by a 2nd-level power or lower, the light is dispelled."
 			]
 		},
@@ -2792,7 +2792,7 @@
 			],
 			"entries": [
 				"You create a 20-foot-radius sphere of gas centered on a point. The cloud spreads around corners and its area is heavily obscured. It lingers in the air for the duration.",
-				"Each creature completely in the cloud at the start of its turn must make a Constitution save against {@item Poison|sw5e-phb|poison}. On a failure, the creature does nothing that turn. Creatures that don't need to breathe or are immune to {@item Poison|sw5e-phb|poison} automatically succeed.",
+				"Each creature completely in the cloud at the start of its turn must make a Constitution save against poison. On a failure, the creature does nothing that turn. Creatures that don't need to breathe or are immune to poison automatically succeed.",
 				"A wind of 10mph disperses the cloud after 4 rounds. A wind of 20mph disperses it after 1 round."
 			]
 		},
@@ -2887,9 +2887,9 @@
 				}
 			],
 			"entries": [
-				"You create a {@spell Delayed Explosion|sw5e-phb|delayed explosion} at a point within range. When the power ends, either because your {@variantrule Concentration|sw5e-phb|concentration} is broken or because you decide to end it, the {@spell Explosion|sw5e-phb|explosion} occurs. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes fire damage equal to the total accumulated damage on a failed save, or half as much damage on a successful one.",
-				"The power's base damage is {@dice 12d6}. If at the end of your turn the {@spell Explosion|sw5e-phb|explosion} has not yet occurred, the damage increases by {@dice 1d6}.",
-				"If the {@spell Explosion|sw5e-phb|explosion} is touched before the interval has expired, the creature touching it must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the power ends immediately, causing the {@spell Explosion|sw5e-phb|explosion}.",
+				"You create a {@spell Delayed Explosion|sw5e-phb|delayed explosion} at a point within range. When the power ends, either because your {@variantrule Concentration|sw5e-phb|concentration} is broken or because you decide to end it, the explosion occurs. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes fire damage equal to the total accumulated damage on a failed save, or half as much damage on a successful one.",
+				"The power's base damage is {@dice 12d6}. If at the end of your turn the explosion has not yet occurred, the damage increases by {@dice 1d6}.",
+				"If the explosion is touched before the interval has expired, the creature touching it must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the power ends immediately, causing the explosion.",
 				"The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
 			],
 			"entriesHigherLevel": [
@@ -3279,7 +3279,7 @@
 				}
 			],
 			"entries": [
-				"You have {@spell Resistance|sw5e-phb|resistance} to acid, cold, fire, lightning, and sonic damage for the power's duration.",
+				"You have resistance to acid, cold, fire, lightning, and sonic damage for the power's duration.",
 				"When you take damage of one of those types, you can use your {@variantrule Reaction|sw5e-phb} to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the power ends."
 			]
 		},
@@ -3312,7 +3312,7 @@
 			],
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Saber Ward|sw5e-phb}}}",
-				"This power absorbs damage from certain incoming attacks, lessening its effect on you and distributing it throughout your body. You have {@spell Resistance|sw5e-phb|resistance} to the triggering damage type until the start of your next turn. Also, you gain 5 temporary {@variantrule Hit Points|sw5e-phb|hit points} to potentially absorb the attack. These temporary {@variantrule Hit Points|sw5e-phb|hit points} last until the start of your next turn."
+				"This power absorbs damage from certain incoming attacks, lessening its effect on you and distributing it throughout your body. You have resistance to the triggering damage type until the start of your next turn. Also, you gain 5 temporary {@variantrule Hit Points|sw5e-phb|hit points} to potentially absorb the attack. These temporary {@variantrule Hit Points|sw5e-phb|hit points} last until the start of your next turn."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3889,7 +3889,7 @@
 				}
 			],
 			"entries": [
-				"You expel a sabotage {@optfeature Charge|sw5e-phb|charge} at the creature that attacked you. The creature must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. It takes {@damage 2d10} fire damage on a failed save, or half as much damage on a successful one."
+				"You expel a sabotage charge at the creature that attacked you. The creature must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. It takes {@damage 2d10} fire damage on a failed save, or half as much damage on a successful one."
 			],
 			"entriesHigherLevel": [
 				{
@@ -3937,7 +3937,7 @@
 				}
 			],
 			"entries": [
-				"Choose one creature you can see and one damage type: acid, cold, fire, lightning, or sonic. The target must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. If it fails, the first time on each turn when it takes damage of the chosen type, it takes an extra {@damage 2d6} damage of it. The target also loses {@spell Resistance|sw5e-phb|resistance} to the type until the power ends."
+				"Choose one creature you can see and one damage type: acid, cold, fire, lightning, or sonic. The target must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. If it fails, the first time on each turn when it takes damage of the chosen type, it takes an extra {@damage 2d6} damage of it. The target also loses resistance to the type until the power ends."
 			],
 			"entriesHigherLevel": [
 				{
@@ -4398,7 +4398,7 @@
 				}
 			],
 			"entries": [
-				"You create an {@spell Explosion|sw5e-phb|explosion} at a point within range. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A target takes {@damage 8d6} fire damage on a failed save, or half as much damage on a successful one.",
+				"You create an explosion at a point within range. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A target takes {@damage 8d6} fire damage on a failed save, or half as much damage on a successful one.",
 				"The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
 			],
 			"entriesHigherLevel": [
@@ -4481,7 +4481,7 @@
 				}
 			],
 			"entries": [
-				"When you cast this power, you create a trap that will later trigger in response to a certain condition. You must attach it either to a surface (such as a table or a section of floor or wall) or within an object that can be closed or turned on (such as a book, door, or computer terminal) to {@optfeature Conceal|sw5e-phb|conceal} the trap. The trap can {@variantrule Cover|sw5e-phb|cover} an area no larger than 10 feet in diameter. At the GM's discretion, certain actions may cause the trap to break or be rendered inoperative.",
+				"When you cast this power, you create a trap that will later trigger in response to a certain condition. You must attach it either to a surface (such as a table or a section of floor or wall) or within an object that can be closed or turned on (such as a book, door, or computer terminal) to conceal the trap. The trap can {@variantrule Cover|sw5e-phb|cover} an area no larger than 10 feet in diameter. At the GM's discretion, certain actions may cause the trap to break or be rendered inoperative.",
 				"The trap is well disguised, and generally and requires a successful Intelligence ({@skill Investigation|sw5e-phb}) check against your tech save DC to be found.",
 				"You decide what triggers the trap when you cast the power, such as entering a certain area or powering on the object. You can further refine the trigger so the trap activates only under certain circumstances or according to physical characteristics (such as height or weight) or creature kind (for example, the trap could be set to go off only droids or gungans). You can also set conditions for creatures that don't trigger the trap, such as those who say a certain password.",
 				"You may only have one instance of this trap active at a time. If you cast another trap before the previous one is triggered, the other trap becomes inert.",
@@ -4489,7 +4489,7 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b {@i Explosive Trap.}} When triggered, the trap erupts in a 20-foot-radius sphere centered on the trap. The {@spell Explosion|sw5e-phb|explosion} spreads around corners. Each creature in the area must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes {@damage 5d8} acid, cold, fire, lightning, or sonic damage on a failed {@variantrule Saving Throw|sw5e-phb|saving throw} (your choice when you create the trap), or half as much damage on a successful one.",
+						"{@b {@i Explosive Trap.}} When triggered, the trap erupts in a 20-foot-radius sphere centered on the trap. The explosion spreads around corners. Each creature in the area must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes {@damage 5d8} acid, cold, fire, lightning, or sonic damage on a failed {@variantrule Saving Throw|sw5e-phb|saving throw} (your choice when you create the trap), or half as much damage on a successful one.",
 						"{@b {@i Power Trap.}} You can store a prepared {@book tech power|sw5e-phb|12|Tech Powers} of 3rd level or lower in the trap by casting it as part of creating the trap. The trap must target a single creature or an area. The power being stored has no immediate effect when cast in this way. When the trap is triggered, the stored power is cast. If the trap has a target, it targets the creature that triggered the trap. If the power affects an area, the area is centered on that creature. If the power requires {@variantrule Concentration|sw5e-phb|concentration}, it lasts until the end of its full duration."
 					]
 				}
@@ -4631,7 +4631,7 @@
 				}
 			],
 			"entries": [
-				"This power calculates out the shortest, most direct physical route to a specific fixed location that you are familiar with on the same planet. If you name a destination that moves (such as a {@feat Mobile|sw5e-phb|mobile} fortress), or a destination that isn't specific (such as \"a Black Sun lair\"), the power fails.",
+				"This power calculates out the shortest, most direct physical route to a specific fixed location that you are familiar with on the same planet. If you name a destination that moves (such as a mobile fortress), or a destination that isn't specific (such as \"a Black Sun lair\"), the power fails.",
 				"For the duration, as long as you are on the same planet as the destination, you know how far it is and in what direction it lies. While you are traveling there, whenever you are presented with a choice of paths along the way, you automatically determine which path is the shortest and most direct route (but not necessarily the safest route) to the destination."
 			]
 		},
@@ -4794,7 +4794,7 @@
 				}
 			],
 			"entries": [
-				"You create a massive flash of light and {@spell Explosion|sw5e-phb|explosion} of sound at a point within range. Roll {@dice 6d10}; the total is how many {@variantrule Hit Points|sw5e-phb|hit points} of creatures this power can affect. Creatures within 20 feet of the point are affected in ascending order of their current {@variantrule Hit Points|sw5e-phb|hit points} (ignoring {@condition unconscious|sw5e-phb} creatures).",
+				"You create a massive flash of light and explosion of sound at a point within range. Roll {@dice 6d10}; the total is how many {@variantrule Hit Points|sw5e-phb|hit points} of creatures this power can affect. Creatures within 20 feet of the point are affected in ascending order of their current {@variantrule Hit Points|sw5e-phb|hit points} (ignoring {@condition unconscious|sw5e-phb} creatures).",
 				"Starting with the creature that has the lowest current {@variantrule Hit Points|sw5e-phb|hit points}, each creature affected by this power is {@condition blinded|sw5e-phb} until the end of your next turn. Subtract each creature's {@variantrule Hit Points|sw5e-phb|hit points} from the total before moving on to the creature with the next lowest {@variantrule Hit Points|sw5e-phb|hit points}. A creature's {@variantrule Hit Points|sw5e-phb|hit points} must be equal to or less than the remaining total for that creature to be affected."
 			],
 			"entriesHigherLevel": [
@@ -5882,7 +5882,7 @@
 				}
 			],
 			"entries": [
-				"You {@spell Release|sw5e-phb|release} an omnidirectional {@spell Telekinetic Burst|sw5e-phb|telekinetic burst}. Each creature within 20 feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature takes {@damage 8d6} force damage and is pushed back 5 feet. On a successful save, a creature takes half damage and isn't pushed.",
+				"You release an omnidirectional {@spell Telekinetic Burst|sw5e-phb|telekinetic burst}. Each creature within 20 feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature takes {@damage 8d6} force damage and is pushed back 5 feet. On a successful save, a creature takes half damage and isn't pushed.",
 				"All small objects that are not worn or carried are also pushed 5 feet back."
 			],
 			"entriesHigherLevel": [
@@ -6678,7 +6678,7 @@
 				}
 			],
 			"entries": [
-				"You expell a massive {@spell Explosion|sw5e-phb|explosion} at a point within range. Each creature in a 40-foot-radius sphere centered on that point must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A target takes {@damage 40d6} fire damage and is knocked {@condition prone|sw5e-phb} on a failed save, or half as much damage on a successful one but remain standing.",
+				"You expell a massive explosion at a point within range. Each creature in a 40-foot-radius sphere centered on that point must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A target takes {@damage 40d6} fire damage and is knocked {@condition prone|sw5e-phb} on a failed save, or half as much damage on a successful one but remain standing.",
 				"The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried."
 			],
 			"damageInflict": [
@@ -6846,7 +6846,7 @@
 			"entries": [
 				"A 60-foot-radius sphere of light spreads from a point you choose. The sphere is bright light and sheds dim light for an additional 60 feet.",
 				"If you chose an object you are holding or one that isn't being worn or carried, the light shines from and moves with the object. Completely covering the object with something opaque blocks the light.",
-				"If any of this power's area overlaps with enhanced {@spell Darkness|sw5e-phb|darkness} made by a power of 3rd level or lower, the {@spell Darkness|sw5e-phb|darkness} is dispelled."
+				"If any of this power's area overlaps with enhanced darkness made by a power of 3rd level or lower, the darkness is dispelled."
 			],
 			"miscTags": [
 				"LGT"
@@ -6936,7 +6936,7 @@
 				}
 			],
 			"entries": [
-				"You create six medium {@spell Sabotage Charges|sw5e-phb|sabotage charges} that last for the power's duration. When you cast the power, and as a {@variantrule Bonus Action|sw5e-phb} on subsequent turns, you can hurl up to two of the charges to points you choose within 120 feet. Each {@optfeature Charge|sw5e-phb|charge} explodes if it reaches the point or hits a solid surface. Each creature within 10 feet of the {@spell Explosion|sw5e-phb|explosion} must make a Dexterity save. The {@spell Explosion|sw5e-phb|explosion} deals {@damage 4d6} fire damage on a failure, or half damage on a success."
+				"You create six medium {@spell Sabotage Charges|sw5e-phb|sabotage charges} that last for the power's duration. When you cast the power, and as a {@variantrule Bonus Action|sw5e-phb} on subsequent turns, you can hurl up to two of the charges to points you choose within 120 feet. Each charge explodes if it reaches the point or hits a solid surface. Each creature within 10 feet of the explosion must make a Dexterity save. The explosion deals {@damage 4d6} fire damage on a failure, or half damage on a success."
 			],
 			"entriesHigherLevel": [
 				{
@@ -7444,7 +7444,7 @@
 				"A sphere of shimmering energy springs into being and encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the creature is enclosed for the duration.",
 				"Nothing—not physical objects, energy, or other power effects—can pass through the barrier, in or out, though a creature in the sphere can breathe. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
 				"The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's {@variantrule Speed|sw5e-phb|speed}. Similarly, the globe can be picked up and moved by other creatures.",
-				"A {@spell Disintegrate|sw5e-phb|disintegrate} power targeting the globe destroys it without harming anything inside it."
+				"A disintegrate power targeting the globe destroys it without harming anything inside it."
 			],
 			"savingThrow": [
 				"dexterity"
@@ -7588,7 +7588,7 @@
 			],
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Fear|sw5e-phb}}}",
-				"You {@spell Project|sw5e-phb|project} a phantasmal image of a creature's worst fears. Each creature in a 30-foot cone must succeed on a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} or drop whatever it is holding and become {@condition frightened|sw5e-phb} for the duration. This power has no effect on constructs or droids.",
+				"You project a phantasmal image of a creature's worst fears. Each creature in a 30-foot cone must succeed on a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} or drop whatever it is holding and become {@condition frightened|sw5e-phb} for the duration. This power has no effect on constructs or droids.",
 				"While {@condition frightened|sw5e-phb} by this power, a creature must take the {@action Dash|sw5e-phb} action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn't have line of sight to you, the creature can make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw}. On a successful save, the power ends for that creature."
 			],
 			"conditionInflict": [
@@ -7867,11 +7867,11 @@
 			],
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Dark Side Tendrils|sw5e-phb}}}",
-				"You summon a 20-foot-radius sphere of inky blackness at a point within range. No light, enhanced or otherwise, can illuminate the area, creatures fully within the area are {@condition blinded|sw5e-phb}, and the area is {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}. Any creature that starts its turn in the area takes {@damage 2d6} necrotic damage. Any creature that ends its turn in the area must succeed on a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} or take {@damage 2d6} {@item Poison|sw5e-phb|poison} damage as tendrils of dark energy caress it."
+				"You summon a 20-foot-radius sphere of inky blackness at a point within range. No light, enhanced or otherwise, can illuminate the area, creatures fully within the area are {@condition blinded|sw5e-phb}, and the area is {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}. Any creature that starts its turn in the area takes {@damage 2d6} necrotic damage. Any creature that ends its turn in the area must succeed on a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} or take {@damage 2d6} poison damage as tendrils of dark energy caress it."
 			],
 			"damageInflict": [
 				"necrotic",
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"conditionInflict": [
 				"blinded"
@@ -7958,7 +7958,7 @@
 				{
 					"type": "list",
 					"items": [
-						"The becomes immune to {@item Poison|sw5e-phb|poison} and disease. Any currently existing {@item Poison|sw5e-phb|poison} or diseases still exist.",
+						"The becomes immune to poison and disease. Any currently existing poison or diseases still exist.",
 						"The creature becomes immune to being {@condition frightened|sw5e-phb} by powers.",
 						"The creature's hit point maximum and current {@variantrule Hit Points|sw5e-phb|hit points} increase by {@dice 2d10} for the duration."
 					]
@@ -8865,7 +8865,7 @@
 				}
 			],
 			"entries": [
-				"You establish a {@feat Mobile|sw5e-phb|mobile} first aid station that radiates kolto in a 5-foot cube you can see within range.",
+				"You establish a mobile first aid station that radiates kolto in a 5-foot cube you can see within range.",
 				"Until the power ends, whenever you or a creature you can see moves into the station's space for the first time on a turn or starts its turn there, you can cause the station to restore {@dice 1d6} {@variantrule Hit Points|sw5e-phb|hit points} to that creature (no action required). The station can heal a number of times equal to 1 + your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier (minimum of twice). After healing that number of times, the station disintegrates. This power has no effect on droids or constructs.",
 				"As a {@variantrule Bonus Action|sw5e-phb} on your turn, you can move the station up to 30 feet to a space you can see."
 			],
@@ -9231,7 +9231,7 @@
 			],
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Shroud of Darkness|sw5e-phb}}}",
-				"Terrifying {@spell Darkness|sw5e-phb|darkness} spreads from a point you choose within range to fill a 60-foot-radius sphere until the power ends. The {@spell Darkness|sw5e-phb|darkness} spreads around corners. A creature with {@sense Darkvision|sw5e-phb} can't see through this {@spell Darkness|sw5e-phb|darkness}. Unenhanced light, as well as light created by powers of 8th level or lower, can't illuminate the area.",
+				"Terrifying darkness spreads from a point you choose within range to fill a 60-foot-radius sphere until the power ends. The darkness spreads around corners. A creature with {@sense Darkvision|sw5e-phb} can't see through this darkness. Unenhanced light, as well as light created by powers of 8th level or lower, can't illuminate the area.",
 				"Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature starts its turn in the sphere, it must make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw}, taking {@damage 8d8} psychic damage on a failed save, or half as much damage on a successful one."
 			],
 			"damageInflict": [
@@ -9963,7 +9963,7 @@
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Improved Revitalize|sw5e-phb}}}",
 				"You return a dead creature you touch to life, provided that it has been dead no longer than 1 day. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with all its {@variantrule Hit Points|sw5e-phb|hit points}. This power has no effect on droids or constructs.",
-				"This power closes all wounds, neutralizes any {@item Poison|sw5e-phb|poison}, cures all diseases, and lifts any curses affecting the creature when it died. The power replaces damaged or missing organs and limbs."
+				"This power closes all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the creature when it died. The power replaces damaged or missing organs and limbs."
 			]
 		},
 		{
@@ -10153,7 +10153,7 @@
 			],
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Mind Trap|sw5e-phb}}}",
-				"You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence {@variantrule Saving Throw|sw5e-phb|saving throw}. The target succeeds automatically if it is immune to being {@condition charmed|sw5e-phb}. On a successful save, the target takes {@damage 5d10} psychic damage, and the power ends. On a failed save, the target takes {@damage 5d10} psychic damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to {@optfeature Perceive|sw5e-phb|perceive} itself as being surrounded by fire, a storm of {@filter blaster|items|firearm=true}-fire, or deadly toxic gas, for example. Whatever form the illusion takes, the target can't see or hear anything beyond it and is {@condition restrained|sw5e-phb} for the power's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes {@damage 10d10} psychic damage, and the power ends. This power has no effect on droids or constructs."
+				"You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence {@variantrule Saving Throw|sw5e-phb|saving throw}. The target succeeds automatically if it is immune to being {@condition charmed|sw5e-phb}. On a successful save, the target takes {@damage 5d10} psychic damage, and the power ends. On a failed save, the target takes {@damage 5d10} psychic damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, a storm of {@filter blaster|items|firearm=true}-fire, or deadly toxic gas, for example. Whatever form the illusion takes, the target can't see or hear anything beyond it and is {@condition restrained|sw5e-phb} for the power's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes {@damage 10d10} psychic damage, and the power ends. This power has no effect on droids or constructs."
 			],
 			"damageInflict": [
 				"psychic"
@@ -10245,7 +10245,7 @@
 			],
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Force Confusion|sw5e-phb}}}",
-				"You attempt to trap the mind of your target in a psychic cage. The target must make a Charisma {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the creature is {@condition incapacitated|sw5e-phb} for the duration as its mind is trapped. It can think, but it can't have any contact with or {@optfeature Perceive|sw5e-phb|perceive} the outside world. If the creature takes damage, it makes another Charisma save. On a success, the power ends. This power has no effect on droids or constructs."
+				"You attempt to trap the mind of your target in a psychic cage. The target must make a Charisma {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the creature is {@condition incapacitated|sw5e-phb} for the duration as its mind is trapped. It can think, but it can't have any contact with or perceive the outside world. If the creature takes damage, it makes another Charisma save. On a success, the power ends. This power has no effect on droids or constructs."
 			],
 			"entriesHigherLevel": [
 				{
@@ -10326,7 +10326,7 @@
 				}
 			],
 			"entries": [
-				"You generate a static {@optfeature Charge|sw5e-phb|charge} that can aid or harm a creature you touch. Make a melee tech attack against the target. On a hit, the target takes {@damage 1d10} lightning damage. If the target is a living creature that has 0 {@variantrule Hit Points|sw5e-phb|hit points}, it immediately gains one {@variantrule Death Saving Throw|sw5e-phb|death saving throw} success instead of taking damage.",
+				"You generate a static charge that can aid or harm a creature you touch. Make a melee tech attack against the target. On a hit, the target takes {@damage 1d10} lightning damage. If the target is a living creature that has 0 {@variantrule Hit Points|sw5e-phb|hit points}, it immediately gains one {@variantrule Death Saving Throw|sw5e-phb|death saving throw} success instead of taking damage.",
 				"This power's damage increases by {@dice 1d10} when you reach 5th level ({@dice 2d10}), 11th level ({@dice 3d10}), and 17th level ({@dice 4d10})."
 			],
 			"scalingLevelDice": {
@@ -10421,7 +10421,7 @@
 				"Each time a creature targets you with an attack during the power's duration, roll a {@dice d20} to determine whether the attack instead targets one of your duplicates.",
 				"If you have three duplicates, you must roll a 6 or higher to change the attack's target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.",
 				"A duplicate's AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The power ends when all three duplicates are destroyed.",
-				"A creature is unaffected by this power if it can't see, if it relies on senses other than sight, such as {@sense Blindsight|sw5e-phb}, or if it can {@optfeature Perceive|sw5e-phb|perceive} illusions as false, as with {@sense Truesight|sw5e-phb}."
+				"A creature is unaffected by this power if it can't see, if it relies on senses other than sight, such as {@sense Blindsight|sw5e-phb}, or if it can perceive illusions as false, as with {@sense Truesight|sw5e-phb}."
 			]
 		},
 		{
@@ -10532,7 +10532,7 @@
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Cloud Mind|sw5e-phb}}}",
 				"You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.",
-				"For the power's duration, or until you use an action to touch the target and dismiss the power, the target appears dead to all outward inspection and to powers used to determine the target's status. The target is {@condition blinded|sw5e-phb} and {@condition incapacitated|sw5e-phb}, and its {@variantrule Speed|sw5e-phb|speed} drops to 0. The target has {@spell Resistance|sw5e-phb|resistance} to all damage except psychic damage. If the target is {@condition Diseased|sw5e-phb|diseased} or {@condition poisoned|sw5e-phb} when you cast the power, or becomes {@condition Diseased|sw5e-phb|diseased} or {@condition poisoned|sw5e-phb} while under the power's effect, the disease and {@item Poison|sw5e-phb|poison} have no effect until the power ends. This power has no effect on droids or constructs."
+				"For the power's duration, or until you use an action to touch the target and dismiss the power, the target appears dead to all outward inspection and to powers used to determine the target's status. The target is {@condition blinded|sw5e-phb} and {@condition incapacitated|sw5e-phb}, and its {@variantrule Speed|sw5e-phb|speed} drops to 0. The target has resistance to all damage except psychic damage. If the target is {@condition Diseased|sw5e-phb|diseased} or {@condition poisoned|sw5e-phb} when you cast the power, or becomes {@condition Diseased|sw5e-phb|diseased} or {@condition poisoned|sw5e-phb} while under the power's effect, the disease and poison have no effect until the power ends. This power has no effect on droids or constructs."
 			],
 			"damageResist": [
 				"acid",
@@ -10546,7 +10546,7 @@
 				"lightning",
 				"necrotic",
 				"piercing",
-				"{@item Poison|sw5e-phb|poison}",
+				"poison",
 				"psychic",
 				"radiant",
 				"slashing",
@@ -10566,7 +10566,7 @@
 				"lightning",
 				"necrotic",
 				"piercing",
-				"{@item Poison|sw5e-phb|poison}",
+				"poison",
 				"psychic",
 				"radiant",
 				"slashing",
@@ -10586,7 +10586,7 @@
 				"lightning",
 				"necrotic",
 				"piercing",
-				"{@item Poison|sw5e-phb|poison}",
+				"poison",
 				"psychic",
 				"radiant",
 				"slashing",
@@ -10765,7 +10765,7 @@
 				}
 			],
 			"entries": [
-				"You {@spell Release|sw5e-phb|release} a series of darts filled with {@spell Neurotoxin|sw5e-phb|neurotoxin}. Choose any number of creatures you can see within range. Each creature  must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature suffers an effect based on its current {@variantrule Hit Points|sw5e-phb|hit points}:",
+				"You release a series of darts filled with {@spell Neurotoxin|sw5e-phb|neurotoxin}. Choose any number of creatures you can see within range. Each creature  must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature suffers an effect based on its current {@variantrule Hit Points|sw5e-phb|hit points}:",
 				{
 					"type": "list",
 					"items": [
@@ -11204,7 +11204,7 @@
 				}
 			],
 			"entries": [
-				"You expel a burst of mood-altering pheromones around you. Each creature within range other than you must succeed on a Charisma {@variantrule Saving Throw|sw5e-phb|saving throw} or take {@damage 1d4} {@item Poison|sw5e-phb|poison} damage and become {@condition frightened|sw5e-phb} of you until the start of its next turn. A creature that is immune to the {@condition poisoned|sw5e-phb} condition is not {@condition frightened|sw5e-phb}.",
+				"You expel a burst of mood-altering pheromones around you. Each creature within range other than you must succeed on a Charisma {@variantrule Saving Throw|sw5e-phb|saving throw} or take {@damage 1d4} poison damage and become {@condition frightened|sw5e-phb} of you until the start of its next turn. A creature that is immune to the {@condition poisoned|sw5e-phb} condition is not {@condition frightened|sw5e-phb}.",
 				"This power's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
 			],
 			"scalingLevelDice": {
@@ -11217,7 +11217,7 @@
 				}
 			},
 			"damageInflict": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"conditionInflict": [
 				"frightened",
@@ -11330,7 +11330,7 @@
 				}
 			],
 			"entries": [
-				"Make a ranged tech attack against a creature within range. On hit, the target takes {@damage 2d8} {@item Poison|sw5e-phb|poison} damage and must make a Constitution save. On a failed save, it is also {@condition poisoned|sw5e-phb} until the end of your next turn."
+				"Make a ranged tech attack against a creature within range. On hit, the target takes {@damage 2d8} poison damage and must make a Constitution save. On a failed save, it is also {@condition poisoned|sw5e-phb} until the end of your next turn."
 			],
 			"entriesHigherLevel": [
 				{
@@ -11342,7 +11342,7 @@
 				}
 			],
 			"damageInflict": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"conditionInflict": [
 				"poisoned"
@@ -11372,7 +11372,7 @@
 				}
 			],
 			"entries": [
-				"You extend your hand toward a creature you can see within range and {@spell Project|sw5e-phb|project} a puff of noxious gas. The creature must succeed on a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} or take {@damage 1d12} {@item Poison|sw5e-phb|poison} damage.",
+				"You extend your hand toward a creature you can see within range and project a puff of noxious gas. The creature must succeed on a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} or take {@damage 1d12} poison damage.",
 				"This power's damage increases by {@dice 1d12} when you reach 5th level ({@dice 2d12}), 11th level ({@dice 3d12}), and 17th level ({@dice 4d12})."
 			],
 			"scalingLevelDice": {
@@ -11385,7 +11385,7 @@
 				}
 			},
 			"damageInflict": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"savingThrow": [
 				"constitution"
@@ -11681,7 +11681,7 @@
 				}
 			],
 			"entries": [
-				"For the duration, the willing creature you touch has {@spell Resistance|sw5e-phb|resistance} to one damage type of your choice: acid, cold, fire, lightning, or sonic."
+				"For the duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or sonic."
 			],
 			"damageResist": [
 				"acid",
@@ -11695,7 +11695,7 @@
 				"lightning",
 				"necrotic",
 				"piercing",
-				"{@item Poison|sw5e-phb|poison}",
+				"poison",
 				"psychic",
 				"radiant",
 				"slashing",
@@ -11715,7 +11715,7 @@
 				"lightning",
 				"necrotic",
 				"piercing",
-				"{@item Poison|sw5e-phb|poison}",
+				"poison",
 				"psychic",
 				"radiant",
 				"slashing",
@@ -11735,7 +11735,7 @@
 				"lightning",
 				"necrotic",
 				"piercing",
-				"{@item Poison|sw5e-phb|poison}",
+				"poison",
 				"psychic",
 				"radiant",
 				"slashing",
@@ -11818,7 +11818,7 @@
 			],
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Telemetry|sw5e-phb}}}",
-				"For the duration, you gain the ability to \"communicate\" telepathically with inanimate objects you touch. You can ask up to five questions and receive answers from objects, usually in the form of an auditory or visual {@spell Hallucination|sw5e-phb|hallucination}. For example, touching the rusted, broken remains of a {@item Lightsaber|sw5e-phb|lightsaber} and asking how it got there may result in a brief vision of a disgruntled Jedi Knight casting it to the ground on that spot. An object \"questioned\" in this way can only provide information relating to its past. The DM has the final say on what objects can be questioned, and to what extent."
+				"For the duration, you gain the ability to \"communicate\" telepathically with inanimate objects you touch. You can ask up to five questions and receive answers from objects, usually in the form of an auditory or visual {@spell Hallucination|sw5e-phb|hallucination}. For example, touching the rusted, broken remains of a lightsaber and asking how it got there may result in a brief vision of a disgruntled Jedi Knight casting it to the ground on that spot. An object \"questioned\" in this way can only provide information relating to its past. The DM has the final say on what objects can be questioned, and to what extent."
 			]
 		},
 		{
@@ -12694,7 +12694,7 @@
 				}
 			],
 			"entries": [
-				"You take a defensive stance. Until the end of your next turn, you have {@spell Resistance|sw5e-phb|resistance} against kinetic, energy, and ion damage dealt by weapons."
+				"You take a defensive stance. Until the end of your next turn, you have resistance against kinetic, energy, and ion damage dealt by weapons."
 			]
 		},
 		{
@@ -12726,7 +12726,7 @@
 				}
 			],
 			"entries": [
-				"You create six tiny {@spell Sabotage Charges|sw5e-phb|sabotage charges} that last for the power's duration. When you cast the power, and as a {@variantrule Bonus Action|sw5e-phb} on subsequent turns, you can hurl up to two of the charges to points you choose within 120 feet. Each {@optfeature Charge|sw5e-phb|charge} explodes if it reaches the point or hits a solid surface. Each creature within 5 feet of the {@spell Explosion|sw5e-phb|explosion} must make a Dexterity save. The {@spell Explosion|sw5e-phb|explosion} deals {@damage 2d6} fire damage on a failure, or half damage on a success."
+				"You create six tiny {@spell Sabotage Charges|sw5e-phb|sabotage charges} that last for the power's duration. When you cast the power, and as a {@variantrule Bonus Action|sw5e-phb} on subsequent turns, you can hurl up to two of the charges to points you choose within 120 feet. Each charge explodes if it reaches the point or hits a solid surface. Each creature within 5 feet of the explosion must make a Dexterity save. The explosion deals {@damage 2d6} fire damage on a failure, or half damage on a success."
 			],
 			"entriesHigherLevel": [
 				{
@@ -13066,7 +13066,7 @@
 						"{@b {@i Targeted Effects.}} Powers and other enhanced effects that target a creature or an object in the sphere have no effect on that target.",
 						"{@b {@i Enhanced Areas.}} The area of another power or enhanced effect, such as _explosion_, can't extend into the sphere. If the sphere overlaps an enhanced area, the part of the area that is covered by the sphere is suppressed.",
 						"{@b {@i Powers.}} Any active power or other enhanced effect on a creature or an object in the sphere is suppressed while the creature or object is in it.",
-						"{@b {@i Enhanced Items.}} The properties and powers of enhanced items are suppressed in the sphere. For example, a +1 {@item Lightsaber|sw5e-phb|lightsaber} in the sphere functions as an unenhanced {@item Lightsaber|sw5e-phb|lightsaber}."
+						"{@b {@i Enhanced Items.}} The properties and powers of enhanced items are suppressed in the sphere. For example, a +1 lightsaber in the sphere functions as an unenhanced lightsaber."
 					]
 				},
 				"An enhanced weapon's properties and powers are suppressed if it is used against a target in the sphere or wielded by an attacker in the sphere. If an enhanced weapon or a piece of enhanced ammunition fully leaves the sphere (for example, if you fire an enhanced shot or throw an enhanced {@item Vibrospear|sw5e-phb} at a target outside the sphere), the enhancement of the item ceases to be suppressed as soon as it exits.",
@@ -13126,7 +13126,7 @@
 						{
 							"type": "list",
 							"items": [
-								"Place {@i mobile lights} in four corridors. You can designate a simple {@optfeature Program|sw5e-phb|program} that the lights repeat as long as {@i security protocols} lasts.",
+								"Place {@i mobile lights} in four corridors. You can designate a simple program that the lights repeat as long as {@i security protocols} lasts.",
 								"Place {@i implant message} in two locations.",
 								"Place {@i debilitating gas} in two locations. The vapors appear in the places you designate; they return within 10 minutes if dispersed by wind while {@i security protocols} lasts."
 							]
@@ -13448,7 +13448,7 @@
 				}
 			],
 			"entries": [
-				"This power wards a willing creature you touch and creates an energy link between you and the target until the power ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and {@variantrule Saving Throw|sw5e-phb|saving throws}, and it has {@spell Resistance|sw5e-phb|resistance} to all damage. Also, each time it takes damage, you take the same amount of damage.",
+				"This power wards a willing creature you touch and creates an energy link between you and the target until the power ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and {@variantrule Saving Throw|sw5e-phb|saving throws}, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.",
 				"The power ends if you drop to 0 {@variantrule Hit Points|sw5e-phb|hit points} or if you and the target become separated by more than 60 feet. It also ends if the power is cast again on either of the connected creatures. You can also dismiss the power as an action."
 			],
 			"damageResist": [
@@ -13463,7 +13463,7 @@
 				"lightning",
 				"necrotic",
 				"piercing",
-				"{@item Poison|sw5e-phb|poison}",
+				"poison",
 				"psychic",
 				"radiant",
 				"slashing",
@@ -13483,7 +13483,7 @@
 				"lightning",
 				"necrotic",
 				"piercing",
-				"{@item Poison|sw5e-phb|poison}",
+				"poison",
 				"psychic",
 				"radiant",
 				"slashing",
@@ -13503,7 +13503,7 @@
 				"lightning",
 				"necrotic",
 				"piercing",
-				"{@item Poison|sw5e-phb|poison}",
+				"poison",
 				"psychic",
 				"radiant",
 				"slashing",
@@ -13754,9 +13754,9 @@
 				}
 			],
 			"entries": [
-				"{@b {@i Prerequisite: {@spell Darkness|sw5e-phb}}}",
-				"You become heavily obscured to others. Dim light within 10 feet of you becomes {@spell Darkness|sw5e-phb|darkness}, and bright light becomes dim light.",
-				"Until the power ends, you have {@spell Resistance|sw5e-phb|resistance} to force damage. Additionally, whenever a creature within 10 feet of you hits you with an attack, it takes {@damage 2d8} necrotic damage."
+				"{@b {@i Prerequisite: darkness}}",
+				"You become heavily obscured to others. Dim light within 10 feet of you becomes darkness, and bright light becomes dim light.",
+				"Until the power ends, you have resistance to force damage. Additionally, whenever a creature within 10 feet of you hits you with an attack, it takes {@damage 2d8} necrotic damage."
 			],
 			"damageResist": [
 				"force"
@@ -13838,7 +13838,7 @@
 			],
 			"entries": [
 				"{@b {@i Prerequisite: {@spell Drain Life|sw5e-phb}}}",
-				"A tendril of inky {@spell Darkness|sw5e-phb|darkness} reaches out from you, touching a creature you can see within range to {@spell Drain Life|sw5e-phb|drain life} from it. The target must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a successful save, the target takes {@damage 2d8} necrotic damage, and the power ends. On a failed save, the target takes {@damage 4d8} necrotic damage, and until the power ends, you can use your action on each of your turns to automatically deal {@damage 4d8} necrotic damage to the target. The power ends if you use your action to do anything else, if the target is ever outside the power's range, or if the target has {@variantrule Cover|sw5e-phb|total cover} from you.",
+				"A tendril of inky darkness reaches out from you, touching a creature you can see within range to {@spell Drain Life|sw5e-phb|drain life} from it. The target must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a successful save, the target takes {@damage 2d8} necrotic damage, and the power ends. On a failed save, the target takes {@damage 4d8} necrotic damage, and until the power ends, you can use your action on each of your turns to automatically deal {@damage 4d8} necrotic damage to the target. The power ends if you use your action to do anything else, if the target is ever outside the power's range, or if the target has {@variantrule Cover|sw5e-phb|total cover} from you.",
 				"Whenever the power deals damage to a target, you regain {@variantrule Hit Points|sw5e-phb|hit points} equal to half the amount of necrotic damage the target takes."
 			],
 			"entriesHigherLevel": [
@@ -14372,7 +14372,7 @@
 						],
 						[
 							"7",
-							"{@item Poison|sw5e-phb}"
+							"Poison"
 						],
 						[
 							"8",
@@ -14419,7 +14419,7 @@
 				}
 			],
 			"entries": [
-				"You shoot a beam of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, {@item Poison|sw5e-phb|poison}, or sonic for the type of beam you create, and then make a ranged tech attack against the target. If the attack hits, the creature takes {@damage 1d8} damage of the type you chose.",
+				"You shoot a beam of energy at a creature that you can see within range. You choose acid, cold, fire, lightning, poison, or sonic for the type of beam you create, and then make a ranged tech attack against the target. If the attack hits, the creature takes {@damage 1d8} damage of the type you chose.",
 				"This power's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}) and 17th level ({@dice 4d8})."
 			],
 			"scalingLevelDice": {
@@ -15583,7 +15583,7 @@
 			],
 			"entries": [
 				"You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within range. The fog spreads around corners. It lasts for the duration or until strong wind disperses the fog, ending the power. Its area is heavily obscured.",
-				"When a creature enters the power's area for the first time on a turn or starts its turn there, that creature must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. The creature takes {@damage 5d8} {@item Poison|sw5e-phb|poison} damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.",
+				"When a creature enters the power's area for the first time on a turn or starts its turn there, that creature must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. The creature takes {@damage 5d8} poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.",
 				"The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest level of the land, even pouring down openings."
 			],
 			"entriesHigherLevel": [
@@ -15596,7 +15596,7 @@
 				}
 			],
 			"damageInflict": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"savingThrow": [
 				"constitution"
@@ -15629,17 +15629,17 @@
 				}
 			],
 			"entries": [
-				"You touch a creature. If it is {@condition poisoned|sw5e-phb} or {@condition Diseased|sw5e-phb|diseased}, you neutralize the {@item Poison|sw5e-phb|poison} or disease. If more than one {@item Poison|sw5e-phb|poison} or disease afflicts the target, you neutralize one {@item Poison|sw5e-phb|poison} or disease that you know is present, or you neutralize one at random.",
-				"For the duration, the target has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against being {@condition poisoned|sw5e-phb} or {@condition Diseased|sw5e-phb|diseased}, and it has {@spell Resistance|sw5e-phb|resistance} to {@item Poison|sw5e-phb|poison} damage."
+				"You touch a creature. If it is {@condition poisoned|sw5e-phb} or {@condition Diseased|sw5e-phb|diseased}, you neutralize the poison or disease. If more than one poison or disease afflicts the target, you neutralize one poison or disease that you know is present, or you neutralize one at random.",
+				"For the duration, the target has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against being {@condition poisoned|sw5e-phb} or {@condition Diseased|sw5e-phb|diseased}, and it has resistance to poison damage."
 			],
 			"damageResist": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"damageImmune": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"damageVulnerable": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"conditionInflict": [
 				"poisoned"
@@ -15674,7 +15674,7 @@
 				}
 			],
 			"entries": [
-				"For the duration, you can see the presence and location of poisons and diseases within 30 feet of you. You also identify the kind of {@item Poison|sw5e-phb|poison} or disease in each case."
+				"For the duration, you can see the presence and location of poisons and diseases within 30 feet of you. You also identify the kind of poison or disease in each case."
 			],
 			"miscTags": [
 				"SGT"
@@ -15974,7 +15974,7 @@
 				}
 			],
 			"entries": [
-				"You administer a {@item Poison|sw5e-phb|poison} to a creature you touched that prevents it from telling lies. The creature touched must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a success, nothing happens. On a failure, the creature can't speak a deliberate lie until the power ends.",
+				"You administer a poison to a creature you touched that prevents it from telling lies. The creature touched must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a success, nothing happens. On a failure, the creature can't speak a deliberate lie until the power ends.",
 				"An affected creature is aware of the power and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth."
 			],
 			"savingThrow": [
@@ -16048,7 +16048,7 @@
 				}
 			],
 			"entries": [
-				"{@b {@i Prerequisite: {@spell Resistance|sw5e-phb}}}",
+				"{@b {@i Prerequisite: resistance}}",
 				"You bless up to three creatures of your choice within range. Whenever a target makes an {@variantrule Attack Roll|sw5e-phb|attack roll} or a {@variantrule Saving Throw|sw5e-phb|saving throw} before the power ends, the target can roll a {@dice d4} and add the number rolled to the {@variantrule Attack Roll|sw5e-phb|attack roll} or {@variantrule Saving Throw|sw5e-phb|saving throw}."
 			],
 			"entriesHigherLevel": [
@@ -16084,8 +16084,8 @@
 				}
 			],
 			"entries": [
-				"As part of the action used to cast this power, you must make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} against one creature within your reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and if you were hidden from it, it takes an additional {@damage 1d4} {@item Poison|sw5e-phb|poison} damage.",
-				"This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra {@damage 1d8} {@item Poison|sw5e-phb|poison} damage to the target, and the damage the target takes when you are hidden from it increases to {@dice 2d4}. Both damage rolls increase by {@dice 1d8} and {@dice 1d4}, respectively, at 11th level and 17th level."
+				"As part of the action used to cast this power, you must make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} against one creature within your reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and if you were hidden from it, it takes an additional {@damage 1d4} poison damage.",
+				"This power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra {@damage 1d8} poison damage to the target, and the damage the target takes when you are hidden from it increases to {@dice 2d4}. Both damage rolls increase by {@dice 1d8} and {@dice 1d4}, respectively, at 11th level and 17th level."
 			],
 			"scalingLevelDice": {
 				"label": "{@item Poison|sw5e-phb|poison} damage",
@@ -16097,7 +16097,7 @@
 				}
 			},
 			"damageInflict": [
-				"{@item Poison|sw5e-phb|poison}"
+				"poison"
 			],
 			"miscTags": [
 				"SCL"
@@ -16284,7 +16284,7 @@
 				}
 			],
 			"entries": [
-				"You emit a powerful force field that deflects incoming attacks. Until the end of your next turn, you have {@spell Resistance|sw5e-phb|resistance} against kinetic, energy, and ion damage dealt by weapon attacks."
+				"You emit a powerful force field that deflects incoming attacks. Until the end of your next turn, you have resistance against kinetic, energy, and ion damage dealt by weapon attacks."
 			]
 		},
 		{
@@ -16360,9 +16360,9 @@
 				}
 			],
 			"entries": [
-				"A {@spell Whirlwind|sw5e-phb|whirlwind} howls down to a point that you can see on the ground within range. The {@spell Whirlwind|sw5e-phb|whirlwind} is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the power ends, you can use your action to move the {@spell Whirlwind|sw5e-phb|whirlwind} up to 30 feet in any direction along the ground. The {@spell Whirlwind|sw5e-phb|whirlwind} sucks up any Medium or smaller objects that aren't secured to anything and that aren't worn or carried by anyone.",
-				"A creature must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} the first time on a turn that it enters the {@spell Whirlwind|sw5e-phb|whirlwind} or that the {@spell Whirlwind|sw5e-phb|whirlwind} enters its space, including when the {@spell Whirlwind|sw5e-phb|whirlwind} first appears. A creature takes {@damage 10d6} kinetic damage on a failed save, or half as much damage on a successful one. Additionally, a Large or smaller creature that fails the save must succeed on a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} or become {@condition restrained|sw5e-phb} in the {@spell Whirlwind|sw5e-phb|whirlwind} until the power ends. When a creature starts its turn {@condition restrained|sw5e-phb} by the {@spell Whirlwind|sw5e-phb|whirlwind}, the creature is pulled 5 feet higher inside it, unless the creature is at the top. A {@condition restrained|sw5e-phb} creature moves with the {@spell Whirlwind|sw5e-phb|whirlwind} and falls when the power ends, unless the creature has some means to stay aloft.",
-				"A {@condition restrained|sw5e-phb} creature can use an action to make a Strength or Dexterity check against your force save DC. If successful, the creature is no longer {@condition restrained|sw5e-phb} by the {@spell Whirlwind|sw5e-phb|whirlwind} and is hurled {@dice 3d6 x 10} feet away from it in a random direction."
+				"A whirlwind howls down to a point that you can see on the ground within range. The whirlwind is a 10-foot-radius, 30-foot-high cylinder centered on that point. Until the power ends, you can use your action to move the whirlwind up to 30 feet in any direction along the ground. The whirlwind sucks up any Medium or smaller objects that aren't secured to anything and that aren't worn or carried by anyone.",
+				"A creature must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} the first time on a turn that it enters the whirlwind or that the whirlwind enters its space, including when the whirlwind first appears. A creature takes {@damage 10d6} kinetic damage on a failed save, or half as much damage on a successful one. Additionally, a Large or smaller creature that fails the save must succeed on a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} or become {@condition restrained|sw5e-phb} in the whirlwind until the power ends. When a creature starts its turn {@condition restrained|sw5e-phb} by the whirlwind, the creature is pulled 5 feet higher inside it, unless the creature is at the top. A {@condition restrained|sw5e-phb} creature moves with the whirlwind and falls when the power ends, unless the creature has some means to stay aloft.",
+				"A {@condition restrained|sw5e-phb} creature can use an action to make a Strength or Dexterity check against your force save DC. If successful, the creature is no longer {@condition restrained|sw5e-phb} by the whirlwind and is hurled {@dice 3d6 x 10} feet away from it in a random direction."
 			],
 			"damageInflict": [
 				"kinetic"
@@ -16409,7 +16409,7 @@
 					"items": [
 						"You summon one object to you of up to 250,000 cr in value that isn't an enhanced item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground.",
 						"You allow up to twenty creatures that you can see to regain all {@variantrule Hit Points|sw5e-phb|hit points}, and you end all effects on them described in the {@spell improved restoration|sw5e-phb} power.",
-						"You grant up to ten creatures that you can see {@spell Resistance|sw5e-phb|resistance} to a damage type you choose.",
+						"You grant up to ten creatures that you can see resistance to a damage type you choose.",
 						"You grant up to ten creatures you can see immunity to a single power or other specific enhanced effect for 8 hours. For instance, you could make yourself and all your companions immune to the Manifestation of Abeloth's Will ability.",
 						"You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, {@spell will of the force|sw5e-phb} could undo an opponent's successful save, a foe's {@variantrule Critical Hit|sw5e-phb|critical hit}, or a friend's failed save. You can force the reroll to be made with {@variantrule Advantage|sw5e-phb|advantage} or {@variantrule Disadvantage|sw5e-phb|disadvantage}, and you can choose whether to use the reroll or the original roll."
 					]
@@ -16429,7 +16429,7 @@
 				"lightning",
 				"necrotic",
 				"piercing",
-				"{@item Poison|sw5e-phb|poison}",
+				"poison",
 				"psychic",
 				"radiant",
 				"slashing",
@@ -16449,7 +16449,7 @@
 				"lightning",
 				"necrotic",
 				"piercing",
-				"{@item Poison|sw5e-phb|poison}",
+				"poison",
 				"psychic",
 				"radiant",
 				"slashing",
@@ -16469,7 +16469,7 @@
 				"lightning",
 				"necrotic",
 				"piercing",
-				"{@item Poison|sw5e-phb|poison}",
+				"poison",
 				"psychic",
 				"radiant",
 				"slashing",

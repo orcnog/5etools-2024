@@ -1,0 +1,78 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-sotg",
+				"abbreviation": "SotG",
+				"full": "SW5e: Starships of the Galaxy",
+				"url": "homebrew/sw5e/book/book-sw5e-sotg.json",
+				"color": "#5577ee",
+				"authors": [],
+				"convertedBy": [
+					"cursor"
+				]
+			}
+		],
+		"optionalFeatureTypes": {
+			"GM:SotG": {
+				"abbreviation": "GM",
+				"full": "Gunning Mastery",
+				"source": "sw5e-sotg"
+			}
+		}
+	},
+	"optionalfeature": [
+		{
+			"name": "Cannon Mastery",
+			"source": "sw5e-sotg",
+			"page": 91,
+			"featureType": [
+				"GM:SotG"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"entries": [
+						"{@b Starship gunning mastery.} Usable only while deployed aboard a starship—not in ground combat."
+					]
+				},
+				"You are the master of laser cannons. While you are firing a primary weapon, when you take the {@variantrule Fire|sw5e-sotg} action, you can choose to fire rapidly at the expense of accuracy. Your attacks are made without the aid of your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, but you use your {@variantrule Bonus Action|sw5e-phb} to make an additional attack, also without your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
+			]
+		},
+		{
+			"name": "Heavy Gun Mastery",
+			"source": "sw5e-sotg",
+			"page": 91,
+			"featureType": [
+				"GM:SotG"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"entries": [
+						"{@b Starship gunning mastery.} Usable only while deployed aboard a starship—not in ground combat."
+					]
+				},
+				"You are the master of railguns and turbolasers. While you are firing a secondary weapon, before you make an attack, you can choose to double your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If the attack hits, you reduce the damage dealt by an amount equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
+			]
+		},
+		{
+			"name": "Payload Mastery",
+			"source": "sw5e-sotg",
+			"page": 91,
+			"featureType": [
+				"GM:SotG"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"entries": [
+						"{@b Starship gunning mastery.} Usable only while deployed aboard a starship—not in ground combat."
+					]
+				},
+				"You are the master of missiles, rockets, and other ship-board explosive weapons. While you are firing a tertiary or quaternary weapon, you can choose to reduce the DC by an amount equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. If you do, and the target fails the {@variantrule Saving Throw|sw5e-phb|saving throw}, they take additional damage equal to twice your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
+			]
+		}
+	]
+}

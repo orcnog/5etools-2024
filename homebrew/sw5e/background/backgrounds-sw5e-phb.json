@@ -462,7 +462,7 @@
 						{
 							"type": "item",
 							"name": "Feat:",
-							"entry": "Choose one: {@feat Silver-Tongued|sw5e-phb}, {@feat Threatening|sw5e-phb}, {@feat Quick-Fingered|sw5e-phb}, {@feat Stealthy|sw5e-phb}, {@feat Competitor|sw5e-phb}, {@feat Specialist|sw5e-phb}, {@feat Feigned Confidence|sw5e-phb}, {@feat Observant|sw5e-phb} (see {@book chapter 6|sw5e-phb|6|Feats})."
+							"entry": "Choose one: {@feat Silver-Tongued|sw5e-phb}, threatening, {@feat Quick-Fingered|sw5e-phb}, {@feat Stealthy|sw5e-phb}, {@feat Competitor|sw5e-phb}, {@feat Specialist|sw5e-phb}, {@feat Feigned Confidence|sw5e-phb}, {@feat Observant|sw5e-phb} (see {@book chapter 6|sw5e-phb|6|Feats})."
 						}
 					]
 				},
@@ -1083,7 +1083,7 @@
 						{
 							"type": "item",
 							"name": "Feat:",
-							"entry": "Choose one: {@feat Silver-Tongued|sw5e-phb}, {@feat Empathic|sw5e-phb}, {@feat Threatening|sw5e-phb}, {@feat Quick-Fingered|sw5e-phb}, {@feat Competitor|sw5e-phb}, {@feat Keen Mind|sw5e-phb}, {@feat Observant|sw5e-phb}, {@feat Practiced|sw5e-phb} (see {@book chapter 6|sw5e-phb|6|Feats})."
+							"entry": "Choose one: {@feat Silver-Tongued|sw5e-phb}, {@feat Empathic|sw5e-phb}, threatening, {@feat Quick-Fingered|sw5e-phb}, {@feat Competitor|sw5e-phb}, {@feat Keen Mind|sw5e-phb}, {@feat Observant|sw5e-phb}, {@feat Practiced|sw5e-phb} (see {@book chapter 6|sw5e-phb|6|Feats})."
 						}
 					]
 				},
@@ -1715,7 +1715,7 @@
 						{
 							"type": "item",
 							"name": "Feat:",
-							"entry": "Choose one: {@feat Brawny|sw5e-phb}, {@feat Threatening|sw5e-phb}, {@feat Ace Pilot|sw5e-phb}, {@feat Survivalist|sw5e-phb}, {@feat Crafter|sw5e-phb}, {@feat Durable|sw5e-phb}, {@feat Weapon Expert|sw5e-phb}, {@feat Athlete|sw5e-phb} (see {@book chapter 6|sw5e-phb|6|Feats})."
+							"entry": "Choose one: {@feat Brawny|sw5e-phb}, threatening, {@feat Ace Pilot|sw5e-phb}, {@feat Survivalist|sw5e-phb}, {@feat Crafter|sw5e-phb}, {@feat Durable|sw5e-phb}, {@feat Weapon Expert|sw5e-phb}, {@feat Athlete|sw5e-phb} (see {@book chapter 6|sw5e-phb|6|Feats})."
 						}
 					]
 				},
@@ -2770,7 +2770,7 @@
 						{
 							"type": "item",
 							"name": "Feat:",
-							"entry": "Choose one: {@feat Brawny|sw5e-phb}, {@feat Silver-Tongued|sw5e-phb}, {@feat Threatening|sw5e-phb}, {@feat Ace Pilot|sw5e-phb}, {@feat Competitor|sw5e-phb}, {@feat Specialist|sw5e-phb}, {@feat Feigned Confidence|sw5e-phb}, {@feat Force of Personality|sw5e-phb} (see {@book chapter 6|sw5e-phb|6|Feats})."
+							"entry": "Choose one: {@feat Brawny|sw5e-phb}, {@feat Silver-Tongued|sw5e-phb}, threatening, {@feat Ace Pilot|sw5e-phb}, {@feat Competitor|sw5e-phb}, {@feat Specialist|sw5e-phb}, {@feat Feigned Confidence|sw5e-phb}, {@feat Force of Personality|sw5e-phb} (see {@book chapter 6|sw5e-phb|6|Feats})."
 						}
 					]
 				},
@@ -3208,7 +3208,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Scoundrels are colorful characters who {@optfeature Conceal|sw5e-phb|conceal} their true selves behind the masks they construct. They reflect what people want to see, what they want to believe, and how they see the world. But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues.",
+						"Scoundrels are colorful characters who conceal their true selves behind the masks they construct. They reflect what people want to see, what they want to believe, and how they see the world. But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -3402,7 +3402,7 @@
 						{
 							"type": "item",
 							"name": "Feat:",
-							"entry": "Choose one: {@feat Silver-Tongued|sw5e-phb}, {@feat Empathic|sw5e-phb}, {@feat Threatening|sw5e-phb}, {@feat Loremaster|sw5e-phb}, {@feat Linguist|sw5e-phb}, {@feat Crafter|sw5e-phb}, {@feat Formfighting Dabbler|sw5e-phb}, {@feat Force-Sensitive|sw5e-phb} (see {@book chapter 6|sw5e-phb|6|Feats})."
+							"entry": "Choose one: {@feat Silver-Tongued|sw5e-phb}, {@feat Empathic|sw5e-phb}, threatening, {@feat Loremaster|sw5e-phb}, {@feat Linguist|sw5e-phb}, {@feat Crafter|sw5e-phb}, {@feat Formfighting Dabbler|sw5e-phb}, {@feat Force-Sensitive|sw5e-phb} (see {@book chapter 6|sw5e-phb|6|Feats})."
 						}
 					]
 				},
@@ -3420,7 +3420,7 @@
 					"type": "entries",
 					"name": "Suggested Characteristics",
 					"entries": [
-						"Sith are shaped by their training. They study the Sith code and use it to oppress the weak and quell {@spell Resistance|sw5e-phb|resistance}. Their study of the Sith code affects their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
+						"Sith are shaped by their training. They study the Sith code and use it to oppress the weak and quell resistance. Their study of the Sith code affects their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme.",
 						{
 							"type": "table",
 							"colLabels": [
@@ -3442,7 +3442,7 @@
 								],
 								[
 									"3",
-									"I prefer using a {@item Lightsaber|sw5e-phb|lightsaber} to solve my problems."
+									"I prefer using a lightsaber to solve my problems."
 								],
 								[
 									"4",
@@ -3617,7 +3617,7 @@
 					"type": "entries",
 					"name": "Feature: Careful Selection",
 					"entries": [
-						"Some close brushes with the law have taught you that not every city guard can be bribed, and some people are simply too keen to miss minute discrepancies. This feature allows you to study a person and gain insight into whether or not they would accept a bribe, or to pick up on whether they are exceptionally more {@feat Perceptive|sw5e-phb|perceptive} than you. It does not reveal how expensive a bribe may be for a given situation, however."
+						"Some close brushes with the law have taught you that not every city guard can be bribed, and some people are simply too keen to miss minute discrepancies. This feature allows you to study a person and gain insight into whether or not they would accept a bribe, or to pick up on whether they are exceptionally more perceptive than you. It does not reveal how expensive a bribe may be for a given situation, however."
 					],
 					"data": {
 						"isFeature": true
@@ -3669,7 +3669,7 @@
 								],
 								[
 									"8",
-									"I act irrationally confident in the face of danger, nobody suspects anything when you seem like you're in {@optfeature Charge|sw5e-phb|charge}."
+									"I act irrationally confident in the face of danger, nobody suspects anything when you seem like you're in charge."
 								]
 							]
 						},
@@ -3821,7 +3821,7 @@
 						{
 							"type": "item",
 							"name": "Feat:",
-							"entry": "Choose one: {@feat Brawny|sw5e-phb}, {@feat Threatening|sw5e-phb}, {@feat Charmer|sw5e-phb}, {@feat Ace Pilot|sw5e-phb}, {@feat Competitor|sw5e-phb}, {@feat Linguist|sw5e-phb}, {@feat Weapon Expert|sw5e-phb}, {@feat Healer|sw5e-phb} (see {@book chapter 6|sw5e-phb|6|Feats})."
+							"entry": "Choose one: {@feat Brawny|sw5e-phb}, threatening, {@feat Charmer|sw5e-phb}, {@feat Ace Pilot|sw5e-phb}, {@feat Competitor|sw5e-phb}, {@feat Linguist|sw5e-phb}, {@feat Weapon Expert|sw5e-phb}, {@feat Healer|sw5e-phb} (see {@book chapter 6|sw5e-phb|6|Feats})."
 						}
 					]
 				},
@@ -4248,7 +4248,7 @@
 			"name": "Force Adept",
 			"source": "sw5e-phb",
 			"entries": [
-				"You are keenly attuned to the flow of the mysterious energy field known as the Force.  With proper training, you could learn to consciously sense and manipulate that energy further.  As it is, you may appear to have heightened senses, extremely quick reflexes, an intuitive understanding of others, or an uncanny ability to {@optfeature Persuade|sw5e-phb|persuade} people to your way of thinking. Your powers may have lain dormant for a long time, perhaps you felt something inside of you but never knew what it was. Perhaps your abilities were awoken by a strong encounter with another {@feat Force-Sensitive|sw5e-phb|force-sensitive} with the powers of the Force, or an object associated with the Force, such as a {@item Lightsaber|sw5e-phb|lightsaber}."
+				"You are keenly attuned to the flow of the mysterious energy field known as the Force.  With proper training, you could learn to consciously sense and manipulate that energy further.  As it is, you may appear to have heightened senses, extremely quick reflexes, an intuitive understanding of others, or an uncanny ability to persuade people to your way of thinking. Your powers may have lain dormant for a long time, perhaps you felt something inside of you but never knew what it was. Perhaps your abilities were awoken by a strong encounter with another {@feat Force-Sensitive|sw5e-phb|force-sensitive} with the powers of the Force, or an object associated with the Force, such as a lightsaber."
 			]
 		},
 		{
@@ -4262,7 +4262,7 @@
 			"name": "Investigator",
 			"source": "sw5e-phb",
 			"entries": [
-				"Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to {@optfeature Investigate|sw5e-phb|investigate} crime scenes and track down criminals."
+				"Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to investigate crime scenes and track down criminals."
 			]
 		},
 		{
@@ -4345,7 +4345,7 @@
 			"name": "Smuggler",
 			"source": "sw5e-phb",
 			"entries": [
-				"You have spent your life hiding in the {@spell Darkness|sw5e-phb|darkness}, making shady deals behind closed doors. What led you to engage in a life of crime? Do you crave the thrill of lawbreaking, or did you enter the profession to pay off a debt, risking your hide on behalf of a less than honorable noble? A smuggler is an individual trained in the art of acquisition, a professional thug who can deliver anything... for a price. Smugglers tend to be bolder criminals than most, preferring bribery or distraction over subterfuge and stealth."
+				"You have spent your life hiding in the darkness, making shady deals behind closed doors. What led you to engage in a life of crime? Do you crave the thrill of lawbreaking, or did you enter the profession to pay off a debt, risking your hide on behalf of a less than honorable noble? A smuggler is an individual trained in the art of acquisition, a professional thug who can deliver anything... for a price. Smugglers tend to be bolder criminals than most, preferring bribery or distraction over subterfuge and stealth."
 			]
 		},
 		{

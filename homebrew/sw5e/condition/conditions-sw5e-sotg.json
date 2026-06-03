@@ -1,0 +1,185 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-sotg",
+				"abbreviation": "SotG",
+				"full": "SW5e: Starships of the Galaxy",
+				"url": "homebrew/sw5e/book/book-sw5e-sotg.json",
+				"color": "#5577ee",
+				"authors": [],
+				"convertedBy": [
+					"cursor"
+				]
+			}
+		]
+	},
+	"condition": [
+		{
+			"name": "Blinded",
+			"source": "sw5e-sotg",
+			"page": 119,
+			"entries": [
+				"A {@condition Blinded|sw5e-sotg|blinded} ship can't see and automatically fails any {@variantrule Ability Check|sw5e-phb|ability check} that relies on sight or the ship's sensors.\r\n- Attack rolls against the ship have {@variantrule Advantage|sw5e-phb|advantage}, and the ship's {@variantrule Attack Roll|sw5e-phb|attack rolls} have {@variantrule Disadvantage|sw5e-phb|disadvantage}."
+			]
+		},
+		{
+			"name": "Disabled",
+			"source": "sw5e-sotg",
+			"page": 119,
+			"entries": [
+				"A {@condition Disabled|sw5e-sotg|disabled} ship can't communicate with external sources more than 1,000 feet away.\r\n- A {@condition Disabled|sw5e-sotg|disabled} ship can't take actions or reactions.\r\n- A {@condition Disabled|sw5e-sotg|disabled} ship has 4 {@condition Slowed|sw5e-sotg} Levels."
+			]
+		},
+		{
+			"name": "Ionized",
+			"source": "sw5e-sotg",
+			"page": 119,
+			"entries": [
+				"An {@condition Ionized|sw5e-sotg|ionized} starship has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} and {@variantrule Ability Check|sw5e-phb|ability checks}."
+			]
+		},
+		{
+			"name": "Invisible",
+			"source": "sw5e-sotg",
+			"page": 119,
+			"entries": [
+				"An {@condition Invisible|sw5e-sotg|invisible} starship is impossible to see without the aid of powers or a special sense. For the purpose of hiding, the starship is heavily obscured. The starship's location can be detected by any noise it makes or any tracks it leaves.\r\n- Attack rolls against the ship have {@variantrule Disadvantage|sw5e-phb|disadvantage}, and the ship's {@variantrule Attack Roll|sw5e-phb|attack rolls} have {@variantrule Advantage|sw5e-phb|advantage}."
+			]
+		},
+		{
+			"name": "Shocked",
+			"source": "sw5e-sotg",
+			"page": 119,
+			"entries": [
+				"A {@condition Shocked|sw5e-sotg|shocked} starship can't take reactions.\r\n- On its turn, a crewmember on a {@condition Shocked|sw5e-sotg|shocked} starship can take either an action or a {@variantrule Bonus Action|sw5e-phb}, but not both."
+			]
+		},
+		{
+			"name": "Slowed",
+			"source": "sw5e-sotg",
+			"page": 119,
+			"entries": [
+				"Some abilities, effects, and hazards can lead to a special condition called {@condition Slowed|sw5e-sotg|slowed}. {@condition Slowed|sw5e-sotg} is measured in four levels.",
+				"If an already {@condition Slowed|sw5e-sotg|slowed} ship suffers another effect that causes it to be {@condition Slowed|sw5e-sotg|slowed}, its current {@condition Slowed|sw5e-sotg} Level increases by the amount specified in the effect's description.",
+				"An effect that removes {@condition Slowed|sw5e-sotg|slowed} reduces its level as specified in the effect's description, with all {@condition Slowed|sw5e-sotg|slowed} effects ending if a ship's {@condition Slowed|sw5e-sotg} Level is reduced below 1.",
+				{
+					"type": "entries",
+					"name": "Slowed Level",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Level",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10 text-left"
+							],
+							"rows": [
+								[
+									"1",
+									"{@variantrule Speed|sw5e-phb} reduced by 150 feet"
+								],
+								[
+									"2",
+									"{@variantrule Speed|sw5e-phb} reduced by 250 feet"
+								],
+								[
+									"3",
+									"{@variantrule Speed|sw5e-phb} reduced by 300 feet"
+								],
+								[
+									"4",
+									"{@variantrule Speed|sw5e-phb} reduced to 0, and can't benefit from any bonus to {@variantrule Speed|sw5e-phb|speed}"
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Stalled",
+			"source": "sw5e-sotg",
+			"page": 119,
+			"entries": [
+				"A {@condition Stalled|sw5e-sotg|stalled} ship is {@condition Disabled|sw5e-sotg|disabled} (see the {@condition Disabled|sw5e-sotg} condition).\r\n- Any active features controlled by the ship, such as a Tractor Beam or Gravity Well Projector, automatically end.\r\n- The ship automatically fails Strength and Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}.\r\n- Attack rolls against the ship have {@variantrule Advantage|sw5e-phb|advantage}."
+			]
+		},
+		{
+			"name": "Stunned",
+			"source": "sw5e-sotg",
+			"page": 119,
+			"entries": [
+				"A {@condition Stunned|sw5e-sotg|stunned} ship has 4 {@condition Slowed|sw5e-sotg} Levels.\r\n- The ship automatically fails Strength and Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}.\r\n- Attack rolls against the ship have {@variantrule Advantage|sw5e-phb|advantage}."
+			]
+		},
+		{
+			"name": "System Damage",
+			"source": "sw5e-sotg",
+			"page": 119,
+			"entries": [
+				"{@condition System Damage|sw5e-sotg|System damage} is measured in six levels. An effect can give a starship one or more levels of {@condition System Damage|sw5e-sotg|system damage}, as specified in the effect's description.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Level",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10 text-left"
+					],
+					"rows": [
+						[
+							"1",
+							"{@variantrule Disadvantage|sw5e-phb} on {@variantrule Ability Check|sw5e-phb|ability checks}"
+						],
+						[
+							"2",
+							"1 {@condition Slowed|sw5e-sotg} Level"
+						],
+						[
+							"3",
+							"{@variantrule Disadvantage|sw5e-phb} on {@variantrule Attack Roll|sw5e-phb|attack rolls} and {@variantrule Saving Throw|sw5e-phb|saving throws}"
+						],
+						[
+							"4",
+							"Hit point maximum, shield point maximum, and shield regeneration rate halved"
+						],
+						[
+							"5",
+							"Ship becomes permanently \"{@condition Used|sw5e-sotg}\""
+						],
+						[
+							"6",
+							"Ship suffers catastrophic power failure. All primary systems fail."
+						]
+					]
+				},
+				"If a ship with {@condition System Damage|sw5e-sotg|system damage} suffers another effect that causes {@condition System Damage|sw5e-sotg|system damage}, its current level increases by the amount specified in the effect's description. A ship suffers the effect of its current level as well as all lower levels.",
+				"An effect that removes {@condition System Damage|sw5e-sotg|system damage} reduces its level as specified in the effect's description, with all {@condition System Damage|sw5e-sotg|system damage} effects (except for used) ending if a ship's {@condition System Damage|sw5e-sotg|system damage} level is reduced below 1.",
+				"Finishing maintenance reduces a ship's {@condition System Damage|sw5e-sotg|system damage} level by 1."
+			]
+		},
+		{
+			"name": "Tractored",
+			"source": "sw5e-sotg",
+			"page": 119,
+			"entries": [
+				"A {@condition Tractored|sw5e-sotg|tractored} ship has 4 {@condition Slowed|sw5e-sotg} Levels.\r\n- The condition ends if the tractoring ship is {@condition Disabled|sw5e-sotg|disabled} (see the {@condition Disabled|sw5e-sotg} condition).\r\n- The condition also ends if an effect removes the {@condition Tractored|sw5e-sotg|tractored} ship from the reach of the tractoring ship or effect."
+			]
+		},
+		{
+			"name": "Used",
+			"source": "sw5e-sotg",
+			"page": 119,
+			"entries": [
+				"A {@condition Used|sw5e-sotg|used} starship's value is reduced by half.\r\n- When a deployed crew member on a {@condition Used|sw5e-sotg|used} starship rolls a 1 on an {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw}, they must make a {@variantrule Destruction Saving Throw|sw5e-sotg}. If the roll is 10 or higher, they succeed. On a failure, the ship suffers 1 level of {@condition System Damage|sw5e-sotg|system damage}."
+			]
+		}
+	]
+}

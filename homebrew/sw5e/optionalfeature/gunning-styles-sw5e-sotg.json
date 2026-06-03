@@ -1,0 +1,78 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-sotg",
+				"abbreviation": "SotG",
+				"full": "SW5e: Starships of the Galaxy",
+				"url": "homebrew/sw5e/book/book-sw5e-sotg.json",
+				"color": "#5577ee",
+				"authors": [],
+				"convertedBy": [
+					"cursor"
+				]
+			}
+		],
+		"optionalFeatureTypes": {
+			"GS:SotG": {
+				"abbreviation": "GS",
+				"full": "Gunning Style",
+				"source": "sw5e-sotg"
+			}
+		}
+	},
+	"optionalfeature": [
+		{
+			"name": "Cannoneer",
+			"source": "sw5e-sotg",
+			"page": 91,
+			"featureType": [
+				"GS:SotG"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"entries": [
+						"{@b Starship gunning style.} Usable only while deployed aboard a starship—not in ground combat."
+					]
+				},
+				"You are skilled with laser cannons. While you are firing a primary weapon, you gain a +2 bonus to damage rolls and save DCs."
+			]
+		},
+		{
+			"name": "Heavy Gunner",
+			"source": "sw5e-sotg",
+			"page": 91,
+			"featureType": [
+				"GS:SotG"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"entries": [
+						"{@b Starship gunning style.} Usable only while deployed aboard a starship—not in ground combat."
+					]
+				},
+				"You are skilled with railguns and turbolasers. While you are firing a secondary weapon, you gain a +2 bonus to {@variantrule Attack Roll|sw5e-phb|attack rolls} and save DCs."
+			]
+		},
+		{
+			"name": "Payload Delivery",
+			"source": "sw5e-sotg",
+			"page": 91,
+			"featureType": [
+				"GS:SotG"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"entries": [
+						"{@b Starship gunning style.} Usable only while deployed aboard a starship—not in ground combat."
+					]
+				},
+				"You are skilled with mines, missiles, rockets, and other explosive weapons. When you roll a 1 or 2 on a damage die for a tertiary or quaternary weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2."
+			]
+		}
+	]
+}

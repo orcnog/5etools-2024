@@ -21,7 +21,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -46,7 +46,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -60,10 +60,10 @@
 					"type": "entries",
 					"name": "Prerequisite",
 					"entries": [
-						"{@optfeature Administer Aid|sw5e-phb} (Improved) {@book maneuver|sw5e-phb|13|Maneuvers}"
+						"{@optfeature Administer Aid|sw5e-phb} (Improved) maneuver"
 					]
 				},
-				"You can use your {@optfeature Administer Aid|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers} as an action, {@variantrule Bonus Action|sw5e-phb}, or {@variantrule Reaction|sw5e-phb} on your turn."
+				"You can use your {@optfeature Administer Aid|sw5e-phb} maneuver as an action, {@variantrule Bonus Action|sw5e-phb}, or {@variantrule Reaction|sw5e-phb} on your turn."
 			]
 		},
 		{
@@ -71,7 +71,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -85,10 +85,10 @@
 					"type": "entries",
 					"name": "Prerequisite",
 					"entries": [
-						"{@optfeature Administer Aid|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers}"
+						"{@optfeature Administer Aid|sw5e-phb} maneuver"
 					]
 				},
-				"You can use your {@optfeature Administer Aid|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers} as an action or {@variantrule Bonus Action|sw5e-phb}."
+				"You can use your {@optfeature Administer Aid|sw5e-phb} maneuver as an action or {@variantrule Bonus Action|sw5e-phb}."
 			]
 		},
 		{
@@ -96,7 +96,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -121,7 +121,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -146,7 +146,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -171,7 +171,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -189,7 +189,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -214,7 +214,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -239,7 +239,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -253,10 +253,10 @@
 					"type": "entries",
 					"name": "Prerequisite",
 					"entries": [
-						"{@optfeature Call to Arms|sw5e-phb} (Improved) {@book maneuver|sw5e-phb|13|Maneuvers}"
+						"{@optfeature Call to Arms|sw5e-phb} (Improved) maneuver"
 					]
 				},
-				"When you use your {@optfeature Call to Arms|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers}, you can roll the superiority die and extend the benefits of the {@book maneuver|sw5e-phb|13|Maneuvers} to a number of allies up to the result of the roll, provided those allies can see or hear you."
+				"When you use your {@optfeature Call to Arms|sw5e-phb} maneuver, you can roll the superiority die and extend the benefits of the maneuver to a number of allies up to the result of the roll, provided those allies can see or hear you."
 			]
 		},
 		{
@@ -264,7 +264,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -282,7 +282,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -307,7 +307,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -325,7 +325,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -350,7 +350,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -368,7 +368,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -382,10 +382,10 @@
 					"type": "entries",
 					"name": "Prerequisite",
 					"entries": [
-						"{@optfeature Commander's Strike|sw5e-phb} (Improved) {@book maneuver|sw5e-phb|13|Maneuvers}"
+						"{@optfeature Commander's Strike|sw5e-phb} (Improved) maneuver"
 					]
 				},
-				"When you use the {@optfeature Commander's Strike|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers}, you can choose to forgo an attack or use your {@variantrule Bonus Action|sw5e-phb}, rather than both. All the other rules of {@optfeature Commander's Strike|sw5e-phb} still apply to you."
+				"When you use the {@optfeature Commander's Strike|sw5e-phb} maneuver, you can choose to forgo an attack or use your {@variantrule Bonus Action|sw5e-phb}, rather than both. All the other rules of {@optfeature Commander's Strike|sw5e-phb} still apply to you."
 			]
 		},
 		{
@@ -393,7 +393,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -407,10 +407,10 @@
 					"type": "entries",
 					"name": "Prerequisite",
 					"entries": [
-						"{@optfeature Commander's Strike|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers}"
+						"{@optfeature Commander's Strike|sw5e-phb} maneuver"
 					]
 				},
-				"When you use the {@optfeature Commander's Strike|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers}, you no longer have to forgo an attack as a part of that {@book maneuver|sw5e-phb|13|Maneuvers}. All the other rules of {@optfeature Commander's Strike|sw5e-phb} still apply to you."
+				"When you use the {@optfeature Commander's Strike|sw5e-phb} maneuver, you no longer have to forgo an attack as a part of that maneuver. All the other rules of {@optfeature Commander's Strike|sw5e-phb} still apply to you."
 			]
 		},
 		{
@@ -418,7 +418,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -443,7 +443,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -461,7 +461,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -486,7 +486,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -504,7 +504,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -522,7 +522,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -540,7 +540,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -554,10 +554,10 @@
 					"type": "entries",
 					"name": "Prerequisite",
 					"entries": [
-						"{@optfeature Effective Flanking|sw5e-phb} (Improved) {@book maneuver|sw5e-phb|13|Maneuvers}"
+						"{@optfeature Effective Flanking|sw5e-phb} (Improved) maneuver"
 					]
 				},
-				"When you use the {@optfeature Effective Flanking|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers}, you add your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} modifier to both the attack and damage roll for the first attack against the creature before the start of your next turn."
+				"When you use the {@optfeature Effective Flanking|sw5e-phb} maneuver, you add your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} modifier to both the attack and damage roll for the first attack against the creature before the start of your next turn."
 			]
 		},
 		{
@@ -565,7 +565,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -579,10 +579,10 @@
 					"type": "entries",
 					"name": "Prerequisite",
 					"entries": [
-						"{@optfeature Effective Flanking|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers}"
+						"{@optfeature Effective Flanking|sw5e-phb} maneuver"
 					]
 				},
-				"When you use the {@optfeature Effective Flanking|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers}, you add the result of the superiority die to both the attack and damage roll for the first attack against the creature before the start of your next turn."
+				"When you use the {@optfeature Effective Flanking|sw5e-phb} maneuver, you add the result of the superiority die to both the attack and damage roll for the first attack against the creature before the start of your next turn."
 			]
 		},
 		{
@@ -590,7 +590,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -615,7 +615,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -633,7 +633,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -659,7 +659,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -684,7 +684,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -702,7 +702,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -720,7 +720,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -745,7 +745,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -763,7 +763,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -788,7 +788,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -813,7 +813,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -838,7 +838,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -863,7 +863,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -880,7 +880,7 @@
 						"The ability to cast {@book force powers|sw5e-phb|11|Force Powers}"
 					]
 				},
-				"When you would make a {@variantrule Attack Roll|sw5e-phb|weapon attack} against a target within 30 feet, you can instead manipulate the Force to expend a superiority die and make a Sleight of Hand check using your universal {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} to plant something on the target, {@optfeature Conceal|sw5e-phb|conceal} an object on the target, lift the target's purse, or take something from its pocket. Roll the superiority die, and add the result to the check."
+				"When you would make a {@variantrule Attack Roll|sw5e-phb|weapon attack} against a target within 30 feet, you can instead manipulate the Force to expend a superiority die and make a Sleight of Hand check using your universal {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} to plant something on the target, conceal an object on the target, lift the target's purse, or take something from its pocket. Roll the superiority die, and add the result to the check."
 			]
 		},
 		{
@@ -888,7 +888,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -906,7 +906,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -931,7 +931,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -956,7 +956,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -974,7 +974,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -999,7 +999,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1017,7 +1017,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1042,7 +1042,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1067,7 +1067,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1085,7 +1085,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1095,7 +1095,7 @@
 						"General"
 					]
 				},
-				"When you hit a creature with a {@variantrule Attack Roll|sw5e-phb|weapon attack}, you can expend one superiority die to {@book maneuver|sw5e-phb|13|Maneuvers} one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you.",
+				"When you hit a creature with a {@variantrule Attack Roll|sw5e-phb|weapon attack}, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack's damage roll, and you choose a friendly creature who can see or hear you.",
 				"That creature can use its {@variantrule Reaction|sw5e-phb} to move up to half its {@variantrule Speed|sw5e-phb|speed} without provoking {@action Opportunity Attack|sw5e-phb|opportunity attacks} from the target of your attack."
 			]
 		},
@@ -1104,7 +1104,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1122,7 +1122,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1140,7 +1140,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1165,7 +1165,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1190,7 +1190,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1208,7 +1208,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1226,7 +1226,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1243,7 +1243,7 @@
 						"Proficiency in {@skill Stealth|sw5e-phb}"
 					]
 				},
-				"When you are in an area of dim light or {@spell Darkness|sw5e-phb|darkness}, you can use your action and expend one superiority die to become {@condition Invisible|sw5e-phb|invisible} until you move or take a hostile action."
+				"When you are in an area of dim light or darkness, you can use your action and expend one superiority die to become {@condition Invisible|sw5e-phb|invisible} until you move or take a hostile action."
 			]
 		},
 		{
@@ -1251,7 +1251,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1276,7 +1276,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1301,7 +1301,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1326,7 +1326,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1344,7 +1344,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1358,10 +1358,10 @@
 					"type": "entries",
 					"name": "Prerequisite",
 					"entries": [
-						"Parry {@book maneuver|sw5e-phb|13|Maneuvers}"
+						"Parry maneuver"
 					]
 				},
-				"Parry becomes a general {@book maneuver|sw5e-phb|13|Maneuvers} for you."
+				"Parry becomes a general maneuver for you."
 			]
 		},
 		{
@@ -1369,7 +1369,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1388,7 +1388,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1413,7 +1413,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1438,7 +1438,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1463,7 +1463,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1488,7 +1488,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1507,7 +1507,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1517,7 +1517,7 @@
 						"General"
 					]
 				},
-				"When you make a {@variantrule Attack Roll|sw5e-phb|weapon attack} roll against a creature, you can expend one superiority die to add it to the roll. You can use this {@book maneuver|sw5e-phb|13|Maneuvers} before or after making the {@variantrule Attack Roll|sw5e-phb|attack roll}, but before any effects of the attack are applied."
+				"When you make a {@variantrule Attack Roll|sw5e-phb|weapon attack} roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the {@variantrule Attack Roll|sw5e-phb|attack roll}, but before any effects of the attack are applied."
 			]
 		},
 		{
@@ -1525,7 +1525,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1550,7 +1550,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1568,7 +1568,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1586,7 +1586,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1604,7 +1604,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1622,7 +1622,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1647,7 +1647,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1672,7 +1672,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1689,7 +1689,7 @@
 						"Proficiency in {@skill Medicine|sw5e-phb}"
 					]
 				},
-				"As an action, you can expend a superiority die to purge the toxins from a creature you can touch. The target regains {@variantrule Hit Points|sw5e-phb|hit points} equal to the number rolled and, if it is {@condition Poisoned|sw5e-phb} or {@condition Diseased|sw5e-phb|diseased}, you neutralize the {@item Poison|sw5e-phb|poison} or disease. If more than one {@item Poison|sw5e-phb|poison} or disease afflicts the target, you neutralize one {@item Poison|sw5e-phb|poison} or disease that you know is present, or you neutralize one at random."
+				"As an action, you can expend a superiority die to purge the toxins from a creature you can touch. The target regains {@variantrule Hit Points|sw5e-phb|hit points} equal to the number rolled and, if it is {@condition Poisoned|sw5e-phb} or {@condition Diseased|sw5e-phb|diseased}, you neutralize the poison or disease. If more than one poison or disease afflicts the target, you neutralize one poison or disease that you know is present, or you neutralize one at random."
 			]
 		},
 		{
@@ -1697,7 +1697,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1715,7 +1715,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1733,7 +1733,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1747,7 +1747,7 @@
 					"type": "entries",
 					"name": "Prerequisite",
 					"entries": [
-						"{@optfeature Riposte|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers}"
+						"{@optfeature Riposte|sw5e-phb} maneuver"
 					]
 				},
 				"When a creature misses an ally within 30 feet you can see with a melee attack, and that ally can see or hear you, you can expend one superiority die (no action required), and the chosen ally use their {@variantrule Reaction|sw5e-phb} to make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} against the creature. If the attack hits, the ally adds the superiority die to the attack's damage roll."
@@ -1758,7 +1758,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1783,7 +1783,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1793,7 +1793,7 @@
 						"General"
 					]
 				},
-				"As a {@variantrule Reaction|sw5e-phb} when you make a {@variantrule Saving Throw|sw5e-phb|saving throw} against an effect you can see, you can expend a superiority die and add it to the result. You can use this {@book maneuver|sw5e-phb|13|Maneuvers} before or after making the {@variantrule Saving Throw|sw5e-phb|saving throw}, but before any effects of the {@variantrule Saving Throw|sw5e-phb|saving throw} are determined."
+				"As a {@variantrule Reaction|sw5e-phb} when you make a {@variantrule Saving Throw|sw5e-phb|saving throw} against an effect you can see, you can expend a superiority die and add it to the result. You can use this maneuver before or after making the {@variantrule Saving Throw|sw5e-phb|saving throw}, but before any effects of the {@variantrule Saving Throw|sw5e-phb|saving throw} are determined."
 			]
 		},
 		{
@@ -1801,7 +1801,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1826,7 +1826,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1851,7 +1851,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1876,7 +1876,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1901,7 +1901,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1926,7 +1926,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1951,7 +1951,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1969,7 +1969,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -1983,10 +1983,10 @@
 					"type": "entries",
 					"name": "Prerequisite",
 					"entries": [
-						"{@optfeature Sweeping Attack|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers}"
+						"{@optfeature Sweeping Attack|sw5e-phb} maneuver"
 					]
 				},
-				"When you use the {@optfeature Sweeping Attack|sw5e-phb} {@book maneuver|sw5e-phb|13|Maneuvers}, you add your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} modifier to the damage roll of the second creature."
+				"When you use the {@optfeature Sweeping Attack|sw5e-phb} maneuver, you add your {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} modifier to the damage roll of the second creature."
 			]
 		},
 		{
@@ -1994,7 +1994,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -2004,7 +2004,7 @@
 						"Mental"
 					]
 				},
-				"When an ally who can see or hear you makes an attack against a creature, you can use your {@variantrule Reaction|sw5e-phb} to expend a superiority die. You add the superiority die to the {@variantrule Attack Roll|sw5e-phb|attack roll}, and the damage roll if it hits. You can use this {@book maneuver|sw5e-phb|13|Maneuvers} before or after the {@variantrule Attack Roll|sw5e-phb|attack roll}, but before the GM determines whether or not the attack hits."
+				"When an ally who can see or hear you makes an attack against a creature, you can use your {@variantrule Reaction|sw5e-phb} to expend a superiority die. You add the superiority die to the {@variantrule Attack Roll|sw5e-phb|attack roll}, and the damage roll if it hits. You can use this maneuver before or after the {@variantrule Attack Roll|sw5e-phb|attack roll}, but before the GM determines whether or not the attack hits."
 			]
 		},
 		{
@@ -2012,7 +2012,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -2037,7 +2037,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -2062,7 +2062,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -2080,7 +2080,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -2105,7 +2105,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -2131,7 +2131,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -2156,7 +2156,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -2174,7 +2174,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -2199,7 +2199,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -2217,7 +2217,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{
@@ -2242,7 +2242,7 @@
 			"source": "sw5e-phb",
 			"page": 303,
 			"featureType": [
-				"MV:B"
+				"MV"
 			],
 			"entries": [
 				{

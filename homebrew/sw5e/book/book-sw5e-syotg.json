@@ -1,0 +1,788 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-syotg",
+				"abbreviation": "SYotG",
+				"full": "SW5e: Shipyards of the Galaxy",
+				"url": "homebrew/sw5e/book/book-sw5e-syotg.json",
+				"color": "#4a86a8",
+				"authors": [
+					"DrakeRyzer"
+				],
+				"convertedBy": [
+					"cursor"
+				]
+			}
+		]
+	},
+	"book": [
+		{
+			"name": "SW5e: Shipyards of the Galaxy",
+			"id": "sw5e-syotg",
+			"source": "sw5e-syotg",
+			"group": "homebrew",
+			"published": "2026-05-31",
+			"author": "SW5e Community",
+			"contents": [
+				{
+					"name": "Introduction",
+					"headers": [
+						"Shipbuilder and Shipyard",
+						"Post-July 2022 Shipyards",
+						"Helpful Tools"
+					]
+				},
+				{
+					"name": "Starship Hangar Capacities",
+					"headers": [
+						"Docking Bay capacities",
+						"Docking Bay Units per size",
+						"Mechanic's Shop capacities",
+						"Mechanic's Shop Units per size",
+						"Droid Storage capacities",
+						"Droid Storage Units per size"
+					]
+				},
+				{
+					"name": "Stock Ships",
+					"headers": []
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "sw5e-syotg",
+			"source": "sw5e-syotg",
+			"data": [
+				{
+					"type": "section",
+					"name": "Introduction",
+					"page": 1,
+					"entries": [
+						"Shipyards of the Galaxy is a compendium of links, tools, and quick-reference material for use with SW5e's Starships of the Galaxy.",
+						{
+							"type": "entries",
+							"name": "Shipbuilder and Shipyard",
+							"entries": [
+								"SotG Shipbuilder and Shipyard: a blank automated sheet to create starships. Duplicate the sheet for your own use.",
+								"Reference page: [Shipyards of the Galaxy](https://www.gmbinder.com/share/-M7y5JXBmMCskhJPFhUp)."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Post-July 2022 Shipyards",
+							"entries": [
+								"Most official:",
+								{
+									"type": "list",
+									"items": [
+										"New SotG Shipyard - Original Trilogy + EU",
+										"Misc - Post-July 2023 - SotG Shipyard"
+									]
+								},
+								"Community-endorsed and community shipyards are also available from the same reference page."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Helpful Tools",
+							"entries": [
+								"Starship Hangar Capacities (included in this book).",
+								"Reference page: [Starship Hangar capacities](https://www.gmbinder.com/share/-LqgEdrDbah1rdmXYp78)."
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Starship Hangar Capacities",
+					"page": 2,
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Docking Bay capacities",
+							"entries": [
+								{
+									"type": "table",
+									"colLabels": [
+										"Size",
+										"Capacity"
+									],
+									"colStyles": [
+										"col-6 text-left",
+										"col-6 text-left"
+									],
+									"rows": [
+										[
+											"Gargantuan",
+											"1,000 DBU"
+										],
+										[
+											"Huge",
+											"100 DBU"
+										],
+										[
+											"Large",
+											"20 DBU"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Docking Bay Units per size",
+							"entries": [
+								{
+									"type": "table",
+									"caption": "Ship Size",
+									"colLabels": [
+										"Ship Size",
+										"Units"
+									],
+									"colStyles": [
+										"col-6 text-left",
+										"col-6 text-left"
+									],
+									"rows": [
+										[
+											"Huge",
+											"1,000 DBU"
+										],
+										[
+											"Large",
+											"100 DBU"
+										],
+										[
+											"Medium",
+											"10 DBU"
+										],
+										[
+											"Small",
+											"2 DBU"
+										],
+										[
+											"Tiny",
+											"1 DBU"
+										]
+									]
+								},
+								{
+									"type": "table",
+									"caption": "Construct and Droid Size",
+									"colLabels": [
+										"Construct and Droid Size",
+										"Units"
+									],
+									"colStyles": [
+										"col-6 text-left",
+										"col-6 text-left"
+									],
+									"rows": [
+										[
+											"Gargantuan",
+											"2 DBU"
+										],
+										[
+											"Huge",
+											"1 DBU"
+										],
+										[
+											"Large",
+											"2 = 1 DBU"
+										],
+										[
+											"Medium",
+											"4 = 1 DBU"
+										],
+										[
+											"Small",
+											"8 = 1 DBU"
+										],
+										[
+											"Tiny",
+											"16 = 1 DBU"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mechanic's Shop capacities",
+							"entries": [
+								{
+									"type": "table",
+									"colLabels": [
+										"Construct and Droid Size",
+										"Capacity"
+									],
+									"colStyles": [
+										"col-8 text-left",
+										"col-4 text-left"
+									],
+									"rows": [
+										[
+											"Gargantuan",
+											"3,200 MSU"
+										],
+										[
+											"Huge",
+											"320 MSU"
+										],
+										[
+											"Large",
+											"32 MSU"
+										],
+										[
+											"Medium",
+											"16 MSU"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Mechanic's Shop Units per size",
+							"entries": [
+								{
+									"type": "table",
+									"colLabels": [
+										"Construct and Droid Size",
+										"Units"
+									],
+									"colStyles": [
+										"col-8 text-left",
+										"col-4 text-left"
+									],
+									"rows": [
+										[
+											"Gargantuan",
+											"32 MSU"
+										],
+										[
+											"Huge",
+											"16 MSU"
+										],
+										[
+											"Large",
+											"8 MSU"
+										],
+										[
+											"Medium",
+											"4 MSU"
+										],
+										[
+											"Small",
+											"2 MSU"
+										],
+										[
+											"Tiny",
+											"1 MSU"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Droid Storage capacities",
+							"entries": [
+								{
+									"type": "table",
+									"colLabels": [
+										"Droid Size",
+										"Capacity"
+									],
+									"colStyles": [
+										"col-6 text-left",
+										"col-6 text-left"
+									],
+									"rows": [
+										[
+											"Gargantuan",
+											"640,000 DSU"
+										],
+										[
+											"Huge",
+											"64,000 DSU"
+										],
+										[
+											"Large",
+											"6,400 DSU"
+										],
+										[
+											"Medium",
+											"64 DSU"
+										]
+									]
+								}
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Droid Storage Units per size",
+							"entries": [
+								{
+									"type": "table",
+									"colLabels": [
+										"Droid Size",
+										"Units"
+									],
+									"colStyles": [
+										"col-6 text-left",
+										"col-6 text-left"
+									],
+									"rows": [
+										[
+											"Gargantuan",
+											"32 DSU"
+										],
+										[
+											"Huge",
+											"16 DSU"
+										],
+										[
+											"Large",
+											"8 DSU"
+										],
+										[
+											"Medium",
+											"4 DSU"
+										],
+										[
+											"Small",
+											"2 DSU"
+										],
+										[
+											"Tiny",
+											"1 DSU"
+										]
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "section",
+					"name": "Stock Ships",
+					"page": 2,
+					"entries": [
+						"Ready-made starship statblocks from the SotG community shipyard (same data as Starships of the Galaxy).",
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Alpha-3 Nimbus-class V-wing starfighter (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Arquitens-class light cruiser (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "B-wing/ASF-01 starfighter and B-Wing/E (Tier 3)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "BFF-1 bulk freighter (Tier 0)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "BTL-A4 Y-wing starfighter (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "BTL-B/S3 Y-wing starfighter (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Consular-class cruiser - Clone Wars refit (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "CR90 Corellian corvette (Tier 0)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Delta-7 Aethersprite-class light interceptor (Tier 0)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Dynamic-class light freighter (Tier 0)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "E-7 E-wing multi-role starfighter (Tier 3)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "EF76 Nebulon-B Escort Frigate (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "EF76 Nebulon-B Medical Frigate (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Escape Pod - For use with the Escape Pod modifications (Tier 0)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Firespray-31-class patrol and attack craft (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Gozanti-class Armed Transport (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "GR-75 medium transport (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "I-TS, Intersystem Transport Ship (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Imperial Gozanti-class cruiser (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Imperial I-class Star Destroyer (Tier 3)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "JM-5000 Jumpmaster Long Range Scout (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Kihraxz assault fighter (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Kom'rk-class fighter/transport (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "LAAT - Space gunship (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Lambda-class T-4a shuttle (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Maka-Eekai L4000 transport (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Modified Dynamic-class light freighter (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Nantex-class territorial defense starfighter (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Prototype Gozanti-class Armed Transport (Tier 0)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Raider I-class corvette (Tier 3)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Raider II-class corvette (Tier 3)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Raider III-class corvette - Vader's Wrath (Fanon) (Tier 5)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "RZ-1 A-wing interceptor (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Sheathipede-class armed shuttle (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Sheathipede-class transport shuttle (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "ST-70 Razor Crest Assault Ship (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "T-65 Prototype X-Wing Starfighter (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "T-65B X-Wing Starfighter (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "T-70 X-wing starfighter (Tier 3)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "TIE Advanced x1 (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "TIE/D \"Defender\" Multi-Role Starfighter (Tier 4)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "TIE/IN Interceptor (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "TIE/LN starfighter (Tier 0)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "TIE/rp Reaper attack lander (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "TIE/SA Bomber (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "V-19 Torrent starfighter (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "VCX-series auxiliary starfighter (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "VT-49 Decimator Assault ship (Tier 3)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Vulture-class droid starfighter (Trade Federation) (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "YKL-37R Nova Courier (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "YT-1300 - Iconic (Tier 3)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "YT-1300 modified light freighter (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "YT-1300f and YT-1300p light freighter (Tier 0)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "YT-1760 small transport (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "YT-2400 light freighter (Tier 1)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "YV-929 Armed Freighter (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "YZ-775 medium transport (Tier 2)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						},
+						{
+							"type": "statblock",
+							"tag": "vehicle",
+							"name": "Z-95-AF4 Headhunter (Tier 0)",
+							"source": "sw5e-sotg",
+							"style": "inset"
+						}
+					]
+				}
+			]
+		}
+	]
+}

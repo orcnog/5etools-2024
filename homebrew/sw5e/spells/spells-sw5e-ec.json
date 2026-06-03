@@ -1,0 +1,2857 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-ec",
+				"abbreviation": "EC",
+				"full": "SW5e: Expanded Content",
+				"url": "homebrew/sw5e/book/book-sw5e-ec.json",
+				"color": "#00aabb",
+				"authors": [],
+				"convertedBy": [
+					"cursor"
+				]
+			}
+		]
+	},
+	"spell": [
+		{
+			"name": "Adrenaline",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a creature within range that you can see would roll {@variantrule Initiative|sw5e-phb|initiative}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You infuse one creature within range with a jittery burst of power, speeding its senses and reactions to the point of near {@spell Precognition|sw5e-phb|precognition}. The creature makes its {@variantrule Initiative|sw5e-phb|initiative} check with {@variantrule Advantage|sw5e-phb|advantage}."
+			]
+		},
+		{
+			"name": "Agile Defense",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"As part of the action of casting this power, you take the {@action Dodge|sw5e-phb} action."
+			]
+		},
+		{
+			"name": "Aid Droid",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose one droid or construct that you can see within range. The target can immediately use its {@variantrule Reaction|sw5e-phb} to regain {@variantrule Hit Points|sw5e-phb|hit points} equal to 1d6 + your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 2nd level or higher, the healing increases by 1d6 for each slot level above 1st."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 2nd level or higher, the healing increases by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"miscTags": [
+				"HL",
+				"SGT"
+			]
+		},
+		{
+			"name": "Alter Self",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You alter your form with tech. When you cast the power, choose one of the following options, the effects of which last for the duration of the power. While the power lasts, you can end one option as an action to gain the benefits of a different one.",
+				"{@b {@i Aquatic Adaptation.}} You adapt your body to an aquatic environment. You can breathe underwater and gain a swimming {@variantrule Speed|sw5e-phb|speed} equal to your walking {@variantrule Speed|sw5e-phb|speed}.",
+				"{@b {@i Change Appearance.}} You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another species (an organic species cannot appear as a droid, or vice versa), though none of your statistics change. You can also alter your vocal cords, enabling you to speak a language you know, but otherwise would be incapable of speaking. You also can’t appear as a creature of a different size than you, and your basic shape stays the same; if you’re bipedal, you can’t use this power to become quadrupedal, for instance. At any time for the duration of the power, you can use your action to change your appearance in this way again.",
+				"{@b {@i Natural Weapons.}} You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your damage die for your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} increases by one step (from 1 to {@dice d4}, {@dice d4} to {@dice d6}, or {@dice d6} to {@dice d8}). Your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} are considered enhanced and you have a +1 bonus to attack and damage rolls with them."
+			]
+		},
+		{
+			"name": "Art of Movement",
+			"source": "sw5e-ec",
+			"level": 3,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"By letting the Force flow through you, you move with preternatural grace, leaping onto or over tall obstacles that impede others. Until the power ends, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Your {@variantrule Speed|sw5e-phb|speed} increases by 10 feet.",
+						"You have resistance to damage from falling.",
+						"Your jumping distance is tripled.",
+						"You gain a climbing {@variantrule Speed|sw5e-phb|speed} equal to your walking {@variantrule Speed|sw5e-phb|speed}, and you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. If you are on a vertical surface when you end your turn and are not using your hands to climb, you immediately fall unless you have some other means of remaining there.",
+						"Your movement is unaffected by {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} or squeezing.",
+						"You ignore the effects of {@condition Slowed|sw5e-phb|slowed} levels under 3."
+					]
+				},
+				"Once before the power ends, you can give yourself {@variantrule Advantage|sw5e-phb|advantage} on one {@variantrule Attack Roll|sw5e-phb|weapon attack} roll on your turn. That attack deals an extra 1d10 force damage on a hit. Whether you hit or miss, you gain a flying {@variantrule Speed|sw5e-phb|speed} equal to your walking {@variantrule Speed|sw5e-phb|speed} until the end of that turn."
+			],
+			"damageInflict": [
+				"force"
+			]
+		},
+		{
+			"name": "Barrage",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You launch 4d6 tiny projectiles at up to four creatures you can see within range. The projectiles can be divided between the targets as desired. Each target must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A target takes 1 kinetic damage per projectile, or half as much damage on a successful save.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 2nd level or higher, you launch an additional 1d6 projectiles and can target one additional creature for each slot level above 1st."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 2nd level or higher, you launch an additional {@dice 1d6} projectiles and can target one additional creature for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"kinetic"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Battlemind",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"Through the Force, you gain a limited form of telepathy that enables you to anticipate the moves of your opponents in combat. While you aren't wearing armor or wielding a shield, you gain a +2 AC bonus against melee attacks and a +3 AC bonus against ranged attacks.",
+				"This AC bonus is not applied against attacks from droids, constructs, or creatures with resistance or immunity to psychic damage."
+			],
+			"miscTags": [
+				"MAC"
+			]
+		},
+		{
+			"name": "Break",
+			"source": "sw5e-ec",
+			"level": 0,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You inflict 10 force damage to an object you can see within range that is not being worn or carried, generating an explosion of sound that can be heard up to 100 feet away. Even if the object is not destroyed, small shards of shrapnel fly at creatures within 5 feet of it. Each creature must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature takes 1d4 kinetic damage.",
+				"This power’s kinetic damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4), and the power’s force damage also increases by 10 at each of these levels."
+			],
+			"scalingLevelDice": {
+				"label": "force damage",
+				"scaling": {
+					"1": "1d4",
+					"5": "2d4",
+					"11": "3d4",
+					"17": "4d4"
+				}
+			},
+			"damageInflict": [
+				"force",
+				"kinetic"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			]
+		},
+		{
+			"name": "Burst of Flame",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You expel a burst of flame in a line 30 feet long and 5 feet wide, originating from you. Each creature in the line must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Construct Droid",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You construct a droid, which is deployed in an unoccupied space that you can see within range. This droid uses the Constructed Droid stat block. When you cast the power, choose a design: Probe, Pyro, or Battle. The droid resembles a Class IV droid, and the design determines certain traits in its stat block. The droid falls to pieces and disintegrates when it drops to 0 {@variantrule Hit Points|sw5e-phb|hit points} or when the power ends.",
+				"The droid is an ally to you and your companions. In combat, the droid shares your {@variantrule Initiative|sw5e-phb|initiative} count, but it takes its turn immediately after yours. It obeys your commands you issue through your tech focus (no action required). If you don’t issue any, it takes the {@action Dodge|sw5e-phb} action and uses its movement to avoid danger.",
+				"The droid is a valid target for the {@i tracker droid interface} power. If that power is cast targeting the constructed droid, it only takes 1 minute to synchronize with the droid.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 3rd level or higher, use the higher level wherever the power’s level appears in the stat block.",
+				{
+					"type": "inset",
+					"name": "Constructed Droid",
+					"entries": [
+						"{@i Medium droid, unaligned} - {@b Armor Class} 11 + the level of the power (natural armor) - {@b Hit Points} 20 (Probe only) or 30 (Pyro and Battle only) + 10 for each slot level above 2nd - {@b Speed} 30 ft. (Pyro and Battle only); 0 ft. and fly 60 ft. (Probe only)",
+						{
+							"type": "table",
+							"colLabels": [
+								"STR",
+								"DEX",
+								"CON",
+								"INT",
+								"WIS",
+								"CHA"
+							],
+							"colStyles": [
+								"col-4 text-left",
+								"col-4 text-left",
+								"col-4 text-left",
+								"col-4 text-left",
+								"col-4 text-left",
+								"col-4 text-left"
+							],
+							"rows": [
+								[
+									"18 (+4)",
+									"14 (+2)",
+									"16 (+3)",
+									"18 (+4)",
+									"14 (+2)",
+									"8 (-1)"
+								]
+							]
+						},
+						"- {@b Damage Vulnerabilities} ion - {@b Damage Resistances} necrotic, poison, psychic - {@b Condition Immunities} disease, {@condition Poisoned|sw5e-phb|poisoned} - {@b Senses} {@sense Darkvision|sw5e-phb|darkvision} 60 ft, passive {@skill Perception|sw5e-phb} 12 - {@b Languages} {@language Galactic Basic|sw5e-phb}, {@language Binary|sw5e-phb|Binary}, understands the languages you speak - {@b Proficiency Bonus} equals your bonus {@b {@i Circuitry.}} The construct has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would deal ion or lightning damage. {@b {@i Surveillance (Probe Only).}} The probe is proficient in {@skill Perception|sw5e-phb} and one other skill or tool of your choice. ### Actions {@b {@i Multiattack.}} The droid makes a number of attacks equal to half this power’s level (rounded down). {@b {@i Blaster.}} {@i Ranged Weapon Attack:} your tech attack modifier to hit, range 60/240 ft., one target. Hit: 1d6 + 3 + the power's level energy damage. {@b {@i Vibroweapon. (Battle Only)}} {@i Melee Weapon Attack:} your tech attack modifier to hit, reach 5 ft., one target. Hit: 1d12 + 3 + the power's level kinetic damage. {@b {@i Flamethrower. (Pyro Only)}} The droid shoots a stream of flame from itself in a 15-foot cone. Creatures in the cone must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = your tech save DC). On a failure, the creature takes 1d8 fire damage + 1d8 fire damage for each power level above 2nd. On a success, the creature takes half as much damage. This cannot be used with Multiattack."
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 3rd level or higher, use the higher level wherever the power's level appears in the stat block."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"conditionInflict": [
+				"{@condition Poisoned|sw5e-phb}"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Cryogenic Blow",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a {@variantrule Attack Roll|sw5e-phb|weapon attack} during this power's duration, the attack deals an extra 1d6 cold damage to the target. The target must make a Strength {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, it gains a level of {@condition Slowed|sw5e-phb|slowed} for the duration. At the start of each of its turns, the target can repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on itself on a success.",
+				"{@b {@i Overcharge Tech.}} If you cast this power using a tech slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"If you cast this power using a tech slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"savingThrow": [
+				"strength"
+			]
+		},
+		{
+			"name": "Defensive Technique",
+			"source": "sw5e-ec",
+			"level": 0,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"As part of the action used to cast this power, you must make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} against one creature within your reach, otherwise the power fails. On a hit, the target suffers the attack's normal effects, and you ward yourself from it through the Force.",
+				"If the target forces you to make a {@variantrule Saving Throw|sw5e-phb|saving throw} before the start of your next turn, the target takes an additional 1d6 psychic damage, and you can roll 1d4 and add the number rolled to your {@variantrule Saving Throw|sw5e-phb|saving throw}. The power then ends.",
+				"The power's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d6 psychic damage to the target, and the psychic damage the target takes for forcing you to make a {@variantrule Saving Throw|sw5e-phb|saving throw} increases to 2d6. Both damage rolls increase by 1d6 at 11th level and 17th level."
+			],
+			"scalingLevelDice": {
+				"label": "psychic damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"psychic"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Delayed Detonator",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Choose a point you can see within range. You launch a detonator at that point, which remains there until the start of your next turn, when it explodes, ending the power. You can also use your {@variantrule Reaction|sw5e-phb} at any point during the power's duration to cause the detonator to explode early. When the detonator explodes, each creature within 5 feet of the point must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 1d8 fire damage and 1d8 kinetic damage on a failed save, or half as much damage on a successful one.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 2nd level or higher, you can launch an additional detonator at another point you can see within range for each slot level above 1st. The detonators all explode simultaneously. A creature in the area of more than one detonator when they explode is only affected once."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 2nd level or higher, you can launch an additional detonator at another point you can see within range for each slot level above 1st. The detonators all explode simultaneously. A creature in the area of more than one detonator when they explode is only affected once."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire",
+				"kinetic"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Detonator",
+			"source": "sw5e-ec",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You launch a detonator at a creature. Make a ranged tech attack against a creature you can see within range. On a hit, the target takes 1d6 fire damage, and each creature within 5 feet of the target must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} or take 1d4 fire damage.",
+				"This power's damage increases by one die when you reach 5th level (2d6/2d4), 11th level (3d6/3d4), and 17th level (4d6/4d4)."
+			],
+			"scalingLevelDice": {
+				"label": "fire damage",
+				"scaling": {
+					"1": "1d6 / 1d4",
+					"5": "2d6 / 2d4",
+					"11": "3d6 / 3d4",
+					"17": "4d6 / 4d4"
+				}
+			},
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			]
+		},
+		{
+			"name": "Disassemble",
+			"source": "sw5e-ec",
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"One constructed object up to 100 lbs. in weight that you touch falls to pieces, separating into its component parts. For instance, a {@item Vibrosword|sw5e-phb|vibrosword} separates into a blade, handle, oscillator, and guard, while a hovercart collapses into a repulsor engine, bolts, and metal panels. If the object is being worn, carried, or operated by a creature, the creature can make an Intelligence {@variantrule Saving Throw|sw5e-phb|saving throw}. On a successful save, the item is unaffected."
+			],
+			"savingThrow": [
+				"intelligence"
+			]
+		},
+		{
+			"name": "Dismantle",
+			"source": "sw5e-ec",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You break or tear an unenhanced structure or object you touch that is not being worn or carried by a creature other than you. The break or tear can be up to 1 foot in any dimension. When cast this in this way, this power has a casting time of 1 minute.",
+				"Alternatively, you can touch a droid or construct when you cast this power. Make a melee tech attack against the target. On a hit, the target takes 1d6 energy damage. When cast in this way, this power has a casting time of 1 action.",
+				"This power’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
+			],
+			"scalingLevelDice": {
+				"label": "energy damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"energy"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Fabricate",
+			"source": "sw5e-ec",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 10
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You convert raw materials into products of the same material. For example, you can fabricate a wooden bridge from a clump of trees, a rope from a patch of hemp, and clothes from bantha hide.",
+				"Choose raw materials that you can see within range. You can fabricate a Large or smaller object (contained within a 10-foot cube, or eight connected 5-foot cubes), given a sufficient quantity of raw material. If you are working with metal, stone, or another mineral substance, however, the fabricated object can be no larger than Medium (contained within a single 5-foot cube). The quality of objects made by the power is commensurate with the quality of the raw materials.",
+				"Creatures or enhanced items can't be created by this power. You also can't use it to create items that ordinarily require a high degree of craftsmanship, such as jewelry, weapons, glass, or armor, unless you have proficiency with the type of tool used to craft such objects."
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Fabricate Minor Trap",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"entries": [
+				"You ward a 30-foot radius sphere centered on you with a manually-operated trap. The trap is well disguised. Any creature that can’t see the area at the time the power is cast must make a Wisdom ({@skill Perception|sw5e-phb}) check against your tech save DC to notice the trap before entering the area. Once after this power is cast, when a creature you can see enters or moves within the warded area, you can use your {@variantrule Reaction|sw5e-phb} to trigger the trap. The effect on the creature depends on the kind of trap you employ, which you choose when you cast this power. You can maintain a maximum number of instances of this power at once equal to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier.",
+				"{@b {@i Blaster.}} This power creates a {@filter blaster|items|firearm=true} turret which fires at the target when triggered. The creature must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. It takes 2d10 energy damage on a failed save, or half as much on a successful one.",
+				"{@b {@i Pitfall.}} This power creates a 5-foot diameter, 15-foot deep pitfall in the ground beneath the creature when triggered, which must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed {@variantrule Saving Throw|sw5e-phb|saving throw}, the creature falls into the pitfall. On a success, the creature falls {@condition Prone|sw5e-phb|prone} in a space within 5 feet of the pitfall. This pitfall cannot be created through manufactured terrain. Otherwise, the hole is well constructed and lasts even after the power's duration. Flying creatures avoid this trap.",
+				"{@b {@i Snare.}} This power creates a snare of rope, wire, vine, or webs that entangle the creature. The creature must make a Strength {@variantrule Saving Throw|sw5e-phb|saving throw}. A Large or larger creature has {@variantrule Advantage|sw5e-phb|advantage} on this {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the creature takes 1d6 kinetic damage and is {@condition Restrained|sw5e-phb|restrained} until the start of its next turn. On a success, the creature takes half as much damage and ends its movement.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 2nd level or higher, the effects increase, based on the trap. {@i Blaster.} The damage increases by 1d10 for each slot level above 1st. If cast using a slot of 3rd level or higher, this power targets creatures in a sphere centered on the triggering creature within the warded area, the radius of which is 5 feet for every two slot levels above 1st. {@i Pitfall.} The depth of the pitfall increases by 5 feet for each slot level above 1st. If cast using a slot of 3rd level or higher, the diameter of the pit is 5 feet wider for every two slot levels above 1st. {@i Snare.} The damage increases by 1d6 for each slot level above 1st. If cast using a slot of 3rd level or higher, Large creatures no longer have {@variantrule Advantage|sw5e-phb|advantage} on their {@variantrule Saving Throw|sw5e-phb|saving throw}. This size category increases for every two slot levels above 1st."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 2nd level or higher, the effects increase, based on the trap.",
+						{
+							"type": "list",
+							"items": [
+								"{@i Blaster.} The damage increases by {@dice 1d10} for each slot level above 1st. If cast using a slot of 3rd level or higher, this power targets creatures in a sphere centered on the triggering creature within the warded area, the radius of which is 5 feet for every two slot levels above 1st.",
+								"{@i Pitfall.} The depth of the pitfall increases by 5 feet for each slot level above 1st. If cast using a slot of 3rd level or higher, the diameter of the pit is 5 feet wider for every two slot levels above 1st.",
+								"{@i Snare.} The damage increases by {@dice 1d6} for each slot level above 1st. If cast using a slot of 3rd level or higher, Large creatures no longer have {@variantrule Advantage|sw5e-phb|advantage} on their {@variantrule Saving Throw|sw5e-phb|saving throw}. This size category increases for every two slot levels above 1st."
+							]
+						}
+					]
+				}
+			],
+			"damageInflict": [
+				"energy",
+				"kinetic"
+			],
+			"conditionInflict": [
+				"prone",
+				"{@condition Restrained|sw5e-phb}"
+			],
+			"savingThrow": [
+				"dexterity",
+				"strength"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Force Current",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"When you cast this power, you raise your hand and unleash a burst of Force energy. Each creature in a 15-foot cone must make a Strength {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature takes 3d6 force damage and, if it is Large or smaller, is also pushed back 5 feet. On a successful save, a creature takes half as much damage and isn't pushed. All Medium or smaller objects that are not worn or carried within the area of effect are also pushed 5 feet.",
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st. For each slot 2 levels higher than 1st, you can add an additional 5 feet to the push."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the damage increases by {@dice 1d6} for each slot level above 1st. For each slot 2 levels higher than 1st, you can add an additional 5 feet to the push."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV"
+			]
+		},
+		{
+			"name": "Force Intuition",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"Your senses attune to your environment for the duration, allowing you to see things before they happen, and react even faster than normal. For the duration, you can use your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} modifier in place of your Dexterity modifier when you make {@variantrule Initiative|sw5e-phb|initiative} checks, if the check doesn't already include that modifier.",
+				"In addition, once during the duration of this power, if you are surprised at the start of combat, rather than being completely unable to act, you can still use a {@variantrule Reaction|sw5e-phb}, and take an action on your first turn in combat. This action can be used only to take one of the following actions: Dash, Disengage, Dodge, Hide, or Use an Object."
+			]
+		},
+		{
+			"name": "Greater Energy Shield",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a creature you can see within range is hit by an attack or targeted by the *{@spell Homing Rockets|sw5e-phb|homing rockets}* power"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 15
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"An energy shield appears and protects the target. Until the start of the target's next turn, the target has a +5 bonus to AC, including against the triggering attack, and the target takes no damage from {@i homing rockets}."
+			],
+			"miscTags": [
+				"MAC"
+			]
+		},
+		{
+			"name": "Greater Kinetite",
+			"source": "sw5e-ec",
+			"level": 5,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"A 5-foot diameter sphere of compressed lightning appears in an unoccupied space of your choice and lasts for the duration. Each creature within 5 feet of the sphere when the power is cast must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 5d8 lightning damage on a failed save, or half as much damage on a successful one.",
+				"As a {@variantrule Bonus Action|sw5e-phb} on each of your turns, you can move the ball of lightning up to 30 feet vertically or horizontally. If you ram the sphere into a creature, that creature must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} or take 5d8 kinetic damage (or half as much damage on a success), and the sphere stops moving this turn. A creature takes half as damage on a successful Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}.",
+				"{@b {@i Force Potency.}} When you cast this power with a force slot of 6th level or higher, both the lightning and kinetic damage increase by 1d8 for each slot level above 5th."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power with a force slot of 6th level or higher, both the lightning and kinetic damage increase by {@dice 1d8} for each slot level above 5th."
+					]
+				}
+			],
+			"damageInflict": [
+				"kinetic",
+				"lightning"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Greater Pyrokinesis",
+			"source": "sw5e-ec",
+			"level": 4,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You create a wall of Force-enhanced fire on a solid surface within range. You can make the wall up to 60 feet long, 20 feet high, and 1 foot thick, or a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall is opaque and lasts for the duration.",
+				"When the wall appears, each creature within its area must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature takes 5d8 energy damage, or half as much damage on a successful save.",
+				"One side of the wall, selected by you when you cast this power, deals 5d8 energy damage to each creature that ends its turn within 10 feet of that side or inside the wall. A creature takes the same damage when it enters the wall for the first time on a turn or ends its turn there. The other side of the wall deals no damage.",
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 5th level or higher, the damage increases by {@dice 1d8} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"energy"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Heighten Senses",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you would roll {@variantrule Initiative|sw5e-phb|initiative}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Through the Force, you sense a sudden shift in your environment, and can seize on it with great {@variantrule Speed|sw5e-phb|speed}. You gain {@variantrule Advantage|sw5e-phb|advantage} on your {@variantrule Initiative|sw5e-phb|initiative} check, and until the end of your first turn in combat, your walking {@variantrule Speed|sw5e-phb|speed} increases by 30 feet."
+			]
+		},
+		{
+			"name": "Improved Force Intuition",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you would roll {@variantrule Initiative|sw5e-phb|initiative}"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You make your {@variantrule Initiative|sw5e-phb|initiative} check at {@variantrule Advantage|sw5e-phb|advantage}, and gain a +2 bonus to AC until the power ends. In addition, until the end of your first turn in the combat, your {@variantrule Speed|sw5e-phb|speed} increases by 10 feet and you add 1d4 to your {@variantrule Attack Roll|sw5e-phb|attack rolls}. This power ends early if you fail a {@variantrule Saving Throw|sw5e-phb|saving throw} or are hit by an attack."
+			],
+			"miscTags": [
+				"MAC"
+			]
+		},
+		{
+			"name": "Improved Kinetite",
+			"source": "sw5e-ec",
+			"level": 4,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"A 20-foot-radius sphere of compressed lightning springs into existence centered on a point you choose within range. The sphere remains for the power’s duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} or take 2d6 kinetic damage. The sphere’s space is {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}.",
+				"Until the power ends, you can use a {@variantrule Bonus Action|sw5e-phb} on each of your turns to cause a bolt of lightning to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a ranged force attack. You have {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll} if the target is in the sphere. On a hit, the target takes 4d6 lightning damage.",
+				"Creatures within 30 feet of the sphere have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) checks made to listen.",
+				"{@b {@i Force Potency.}} When you cast this power with a force slot of 5th level or higher, the damage increases for each of its effects by 1d6 for each slot level above 4th."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power with a force slot of 5th level or higher, the damage increases for each of its effects by {@dice 1d6} for each slot level above 4th."
+					]
+				}
+			],
+			"damageInflict": [
+				"kinetic",
+				"lightning"
+			],
+			"savingThrow": [
+				"strength"
+			]
+		},
+		{
+			"name": "Improved Pyrokinesis",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A line of roaring Force-enhanced flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 3d8 energy damage on a failed save, or half as much damage on a successful one.",
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the damage increases by {@dice 1d8} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"energy"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Instant Translocation",
+			"source": "sw5e-ec",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when you are hit by an attack"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Your form shimmers in a holographic configuration and collapses as an attack begins to hit you. You have a +5 bonus to AC against the triggering attack. As part of the same {@variantrule Reaction|sw5e-phb}, you can then teleport to an unoccupied space within 30 feet of you, and can make one {@variantrule Attack Roll|sw5e-phb|weapon attack} with {@variantrule Advantage|sw5e-phb|advantage} against the attacker.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 4th level or higher, the maximum teleport distance increases by 10 for each slot level above 3rd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 4th level or higher, the maximum teleport distance increases by 10 for each slot level above 3rd."
+					]
+				}
+			],
+			"miscTags": [
+				"MAC",
+				"TP"
+			]
+		},
+		{
+			"name": "Instinctive Movement",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You enhance your movement with the Force, allowing you to traverse your environment with {@variantrule Speed|sw5e-phb|speed} and acrobatic grace. When you cast this power, you gain two {@variantrule Speed|sw5e-phb|speed} points. When you cast the power and as a {@variantrule Bonus Action|sw5e-phb} on subsequent turns, you can expend a {@variantrule Speed|sw5e-phb|speed} point, granting yourself all of the following benefits until the end of that turn:",
+				{
+					"type": "list",
+					"items": [
+						"Your {@variantrule Speed|sw5e-phb|speed} increases by 5 feet.",
+						"You have resistance to falling damage.",
+						"You ignore {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}.",
+						"You have a climb {@variantrule Speed|sw5e-phb|speed} equal to your walking {@variantrule Speed|sw5e-phb|speed}.",
+						"You add 10 feet to your long jump distance and 3 feet to your high jump distance.",
+						"You can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.",
+						"You do not sink when moving over soft or brittle terrain, such as dust, silt, mud, snow, or thin ice. This effect does not allow you to move across liquid surfaces.",
+						"If you move at least 20 feet straight toward a creature and then hit it with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} for the first time on the same turn, you deal an extra 1d4 damage with that attack."
+					]
+				},
+				"At the end of the turn, the benefits fade entirely until you spend another {@variantrule Speed|sw5e-phb|speed} point. If these benefits end while you are still on a vertical surface, or anywhere else where you would normally fall or sink, you immediately fall or begin to sink unless you have some other means to remain there.",
+				"This power ends when its duration expires, when you cast this power again, or when you have spent all your {@variantrule Speed|sw5e-phb|speed} points. When the power ends, any unspent {@variantrule Speed|sw5e-phb|speed} points are lost.",
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 2nd level or higher, the extra damage increases by 1d4 for each slot level above 1st. In addition, if you cast this power with a force slot of 3rd level or higher, you gain one additional {@variantrule Speed|sw5e-phb|speed} point for every two slot levels above 1st."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 2nd level or higher, the extra damage increases by {@dice 1d4} for each slot level above 1st. In addition, if you cast this power with a force slot of 3rd level or higher, you gain one additional {@variantrule Speed|sw5e-phb|speed} point for every two slot levels above 1st."
+					]
+				}
+			]
+		},
+		{
+			"name": "Irradiate",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"A surge of radiation washes over a creature within range. The creature must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the target takes 3d10 necrotic damage and suffers one level of {@condition Exhaustion|sw5e-phb|exhaustion}, which lasts for the duration. On a successful save, the target takes half as much damage and does not suffer a level of {@condition Exhaustion|sw5e-phb|exhaustion}. A creature exhausted by this power can make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} at the end of each of its turns. On a successful save, the power ends.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 3rd level or higher, the damage increases by {@dice 1d10} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"conditionInflict": [
+				"{@condition Exhaustion|sw5e-phb|exhaustion}"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Itemize",
+			"source": "sw5e-ec",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You instantly learn the exact quantity of one type of item within 30 feet of you. It must be a type of item that you've handled in the past; you can't, for example, use {@i itemize} to find out how many {@i BKGs} are nearby if you've never handled such a weapon. The object being itemized must also be reasonably specific. You can learn how many meilooruns are nearby, for example, but not how much fruit."
+			]
+		},
+		{
+			"name": "Jump",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You touch a creature. The creature's jump distance is tripled until the power ends."
+			]
+		},
+		{
+			"name": "Jump Jet",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You boost yourself through the air with a brief surge of repulsor energy. You can rise a number of feet equal to 20 x your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier. You can also move a number of feet horizontally during any part of the movement equal to 5 x your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier. At the end of the turn on which you cast this power, you float gently to the ground if you are still aloft.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 2nd level or higher, you can rise an additional 20 feet, and move horizontally by another 5 feet for each slot level above 1st."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 2nd level or higher, you can rise an additional 20 feet, and move horizontally by another 5 feet for each slot level above 1st."
+					]
+				}
+			]
+		},
+		{
+			"name": "Jump Pad",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You create a bouncy surface in a 5-foot square on a surface within range. When you cast the power, you can designate creatures that can safely use the jump pad. For the duration, whenever a creature you haven't chosen enters the affected area, it must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} or be launched 10 feet upwards, and 5 feet horizontally in a random direction. To determine the direction, roll a {@dice d8} and assign a direction to each die face.",
+				"While a creature you have chosen (or a creature that has succeeded its Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}) is in the area, it can use its {@variantrule Reaction|sw5e-phb} to jump with the aid of the bouncy surface. The creature's jump distance for this jump is multiplied by 5."
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Kinetite",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"A 5-foot-diameter sphere of compressed lightning appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. The creature takes 2d6 lightning damage on a failed save, or half as much damage on a successful one.",
+				"As a {@variantrule Bonus Action|sw5e-phb}, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 2d6 kinetic damage on a failed save or half as much damage on a successful one, and the sphere stops moving this turn.",
+				"When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+				"{@b {@i Force Potency.}} When you cast this power with a force slot of 3rd level or higher, both the lightning and kinetic damage increase by 1d6 for each slot level above 2nd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power with a force slot of 3rd level or higher, both the lightning and kinetic damage increase by {@dice 1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"kinetic",
+				"lightning"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"LGT"
+			]
+		},
+		{
+			"name": "Land Stride",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"entries": [
+				"You align yourself with nature, making traversing natural environments far easier. For the duration, your movement and that of creatures of your choice within 40 feet of you can't be {@condition Slowed|sw5e-phb|slowed} by natural terrain, such as mud, rocky ground, vines, or tall grass. Climbing still costs double normal movement. A creature that receives this bonus leaves behind no traces of its passage."
+			]
+		},
+		{
+			"name": "Lesser Mislead",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You become {@condition Invisible|sw5e-phb|invisible} at the same time that an illusory double of you appears where you are standing. The double lasts until the end of your next turn, but the invisibility ends if you attack or cast a power.",
+				"You can use your action to move your illusory double up to your {@variantrule Speed|sw5e-phb|speed} and make it gesture, speak, and behave in whatever way you choose.",
+				"As soon as it is attacked or would take damage, the double dissipates."
+			],
+			"conditionInflict": [
+				"{@condition Invisible|sw5e-phb|invisible}"
+			]
+		},
+		{
+			"name": "Master Pyrokinesis",
+			"source": "sw5e-ec",
+			"level": 7,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A storm made up of sheets of roaring, Force-enhanced flame appears in a location you choose within range. The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. It takes 7d10 energy damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one cube is affected only once.",
+				"The flame damages objects in the area and ignites flammable objects that aren't being worn or carried."
+			],
+			"damageInflict": [
+				"energy"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Mutate/Augment",
+			"source": "sw5e-ec",
+			"level": 3,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You alter your body with tech, temporarily gaining new properties which last for the duration. You can select three of the following properties. You cannot select a property more than once, unless that property says otherwise.",
+				{
+					"type": "list",
+					"items": [
+						"Your body becomes more flexible. You have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would grapple or restrain you, and your movement is unaffected by {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} or squeezing.",
+						"You grow one additional appendage. This appendage serves as an arm and a hand, though it can take the shape of a limb, tentacle, or similar appendage. You can select this property twice to grow a maximum number of two appendages. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required).",
+						"You sprout antennae that give you {@sense Tremorsense|sw5e-phb|tremorsense} out to a range of 30 feet.",
+						"You extend the length of your limbs. When you make a melee attack or attempt to grapple, shove, or trip a creature on your turn, your reach for it is 5 feet greater than normal.",
+						"You gain a burrowing {@variantrule Speed|sw5e-phb|speed} equal to your walking {@variantrule Speed|sw5e-phb|speed}.",
+						"Your flesh hardens. Your AC can't be less than 16, regardless of what kind of armor you're wearing.",
+						"You can gain the benefits of any one option of the {@i alter self} power. You can select this property multiple times to gain the benefits of multiple options of the {@i alter self} power, choosing a different option each time.",
+						"You gain the effect of the {@i magnetic hold} power, but you can affix to and move along any surface, instead of only metallic surfaces. You have a climbing {@variantrule Speed|sw5e-phb|speed} equal to your walking {@variantrule Speed|sw5e-phb|speed}.",
+						"You can gain any one effect of the {@i force enlightenment} power."
+					]
+				},
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 4th level or higher, you can select an additional property for each slot level above 3rd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 4th level or higher, you can select an additional property for each slot level above 3rd."
+					]
+				}
+			]
+		},
+		{
+			"name": "Phaseshift",
+			"source": "sw5e-ec",
+			"level": 0,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Too quickly for untrained eyes to perceive, you shift in position. You can move up to 5 feet, and this movement does not provoke {@action Opportunity Attack|sw5e-phb|opportunity attacks}."
+			]
+		},
+		{
+			"name": "Probe Mind",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"For the duration, you can read the thoughts of certain creatures. When you cast the power and as your action on each turn until the power ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn’t speak any language, the creature is unaffected.",
+				"You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature’s thoughts or attempt to probe deeper into the same creature’s mind. If you probe deeper, the target must make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw}. If it fails, it takes 1d6 psychic damage as you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the power ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature’s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} check; if it succeeds, the power ends.",
+				"On subsequent turns after probing deeper, you can use your action to deal 1d6 psychic damage to the target automatically.",
+				"Questions verbally directed at the target creature naturally shape the course of its thoughts, so this power is particularly effective as part of an interrogation.",
+				"You can also use this power to detect the presence of thinking creatures you can’t see. When you cast the power or as your action during the duration, you can search for thoughts within 30 feet of you. The power can penetrate barriers. You can’t detect a creature with an Intelligence of 3 or lower or one that doesn’t speak any language.",
+				"Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can’t see it, but it must still be within range.",
+				"This power has no effect on droids or constructs.",
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the initial psychic damage a target takes the first time you probe deeper into its mind increases by 1d6 for each slot level above 2nd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the initial psychic damage a target takes the first time you probe deeper into its mind increases by {@dice 1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Production Values",
+			"source": "sw5e-ec",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You cause a minor effect within range. Choose one of the following:",
+				{
+					"type": "list",
+					"items": [
+						"Your natural voice booms up to three times louder than normal for 1 minute. You can also alter the sound of your voice to achieve a certain effect--to sound more intimidating, for example.",
+						"You cause unenhanced electronic lights to flicker, brighten, dim, or change color for 1 minute.",
+						"You cause harmless tremors in the ground for 1 minute.",
+						"You create a sound within range for up to 1 minute. The sound can range in volume from a whisper to a scream.",
+						"You instantaneously cause an unlocked door or window to fly open or slam shut.",
+						"You alter the appearance of your eyes for 1 minute.",
+						"You create an illusory image of an object no larger than a 5 foot cube. The illusion is purely visual."
+					]
+				},
+				"If you cast this power multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.",
+				"A creature that witnesses the effects of this power can use its action to make an Intelligence ({@skill Investigation|sw5e-phb}) check against your tech save DC. On a successful check, the creature discerns that the effects are illusory, and they become faint to the creature.",
+				"The maximum number of active effects increases by 3 when you reach 5th level (6), 11th level (9), and 17th level (12)."
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Pull Earthward",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 300
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"Choose one creature you can see within range. The target must succeed on a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} or its flying {@variantrule Speed|sw5e-phb|speed} (if any) is reduced to 0 feet for the power’s duration. An airborne creature affected by this power descends at 60 feet per round until it reaches the ground or the power ends."
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Pyrokinesis",
+			"source": "sw5e-ec",
+			"level": 0,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"By stimulating air molecules, you create a zone of Force-enhanced fire on ground that you can see within range. Until the power ends, the enhanced fire fills a 5-foot cube. Any creature in the fire's space when you cast the power must succeed on a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} or take 1d8 energy damage. A creature must also make the {@variantrule Saving Throw|sw5e-phb|saving throw} when it moves into the fire's space for the first time on a turn or ends its turn there.",
+				"The fire ignites flammable objects in its area that aren't being worn or carried.",
+				"The power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+			],
+			"scalingLevelDice": {
+				"label": "fire damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"energy"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			]
+		},
+		{
+			"name": "Reveal Shatterpoint",
+			"source": "sw5e-ec",
+			"level": 5,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You focus on a creature you can see within range, and gain uncanny insight on its defenses and capabilities through the Force. The target must make a Charisma {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, you have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} against that creature, and it has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} against you for the duration. On a successful save, you have {@variantrule Advantage|sw5e-phb|advantage} on the next {@variantrule Attack Roll|sw5e-phb|attack roll} you make against that creature, and it has {@variantrule Disadvantage|sw5e-phb|disadvantage} on its next {@variantrule Attack Roll|sw5e-phb|attack roll} against you. Once both attacks have been made, the power ends."
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Saber Assault",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"The first time you take the {@action Attack|sw5e-phb} action during your turn, you can simultaneously cast this power to blend your melee weapon attacks with the use of the Force. For each successful hit you make with a melee weapon before the power ends, the target must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} or have a new effect apply until the end of its next turn. Once you've made three weapon attacks, the power ends.",
+				{
+					"type": "list",
+					"items": [
+						"{@b 1st Hit:} If the target fails its {@variantrule Saving Throw|sw5e-phb|saving throw}, it gains 1 {@condition Slowed|sw5e-phb|slowed} level until the end of its next turn.",
+						"{@b 2nd Hit:} If the target fails its {@variantrule Saving Throw|sw5e-phb|saving throw}, it takes 1d6 kinetic damage and cannot take reactions until after the end of its next turn.",
+						"{@b 3rd Hit:} If the target fails its {@variantrule Saving Throw|sw5e-phb|saving throw}, it takes 2d6 kinetic damage and cannot take bonus actions during its next turn."
+					]
+				},
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the damage of the second and third hit each increase by 1d6 for every two slot levels above 1st."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the damage of the second and third hit each increase by {@dice 1d6} for every two slot levels above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"kinetic"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Saber Dance",
+			"source": "sw5e-ec",
+			"level": 4,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"A light- or vibro-weapon of your choice that you are wearing or carrying begins to animate, spinning around your body at high speeds in a 10-foot radius centered on you. For the duration, your movement {@variantrule Speed|sw5e-phb|speed} is halved, and the weapon moves with you.",
+				"When a creature enters the affected area for the first time on a turn or starts its turn there, the creature must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} or take 4d10 damage of the weapon's type, or half as much damage on a successful {@variantrule Saving Throw|sw5e-phb|saving throw}.",
+				"When this power ends, you can immediately recall the weapon to your hand.",
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 5th level or higher, the radius of the power increases to 15 feet, and the power's damage increases by 1d10 for each slot level above 4th."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 5th level or higher, the radius of the power increases to 15 feet, and the power's damage increases by {@dice 1d10} for each slot level above 4th."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Saber Onslaught",
+			"source": "sw5e-ec",
+			"level": 4,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "turn",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You assume a battle stance. Until the end of your turn, your movement does not provoke {@action Opportunity Attack|sw5e-phb|opportunity attacks}. Additionally, whenever you move, you can make one {@variantrule Attack Roll|sw5e-phb|melee weapon attack} against each creature you move within 5 feet of for the first time this turn. On a hit, the attack deals an extra 1d6 damage of the weapon's type, and the target must make a Strength {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, you can choose to either knock the target prone, or push it 5 feet away from you.",
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 5th level or higher, the bonus weapon damage increases by 1d6 for each slot level above 4th."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 5th level or higher, the bonus weapon damage increases by {@dice 1d6} for each slot level above 4th."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"miscTags": [
+				"FMV"
+			]
+		},
+		{
+			"name": "Saber Slash",
+			"source": "sw5e-ec",
+			"level": 3,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You move in a burst of {@variantrule Speed|sw5e-phb|speed} to deliver a deadly blow. When you cast this power, you must be wielding a melee weapon with which you are proficient, otherwise, the power fails. As part of the action used to cast this power, you move in a straight line to an unoccupied space within the power's range and strike a creature within your weapon's range. Opportunity attacks provoked by this movement have {@variantrule Disadvantage|sw5e-phb|disadvantage}. The creature must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, it takes damage equal to three rolls of the weapon's damage dice + 4d4 force damage, or half as much damage on a successful one.",
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, the force damage increases by 1d4 for each slot level above 3rd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, the force damage increases by {@dice 1d4} for each slot level above 3rd."
+					]
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Saber Strike",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"As part of the action used to cast the power, you can move up to your {@variantrule Speed|sw5e-phb|speed} and make one {@variantrule Attack Roll|sw5e-phb|melee weapon attack}. On a hit, the attack deals an extra 1d10 damage of the weapon's type. In addition, if you hit with the attack, the target must succeed on a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} or be knocked {@condition Prone|sw5e-phb|prone}.",
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 4th level or higher, the bonus weapon damage increases by 1d10 for every two slot levels above 2nd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 4th level or higher, the bonus weapon damage increases by {@dice 1d10} for every two slot levels above 2nd."
+					]
+				}
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"savingThrow": [
+				"strength"
+			]
+		},
+		{
+			"name": "Sense Shatterpoint",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You seek deeper insight into the defenses of a creature you can see within range. Until the end of your next turn, you have {@variantrule Advantage|sw5e-phb|advantage} on your next two {@variantrule Attack Roll|sw5e-phb|attack rolls} against the target."
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Skill Protocol",
+			"source": "sw5e-ec",
+			"level": 5,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You enhance a droid or construct's protocols. You touch one willing droid or construct and give it {@variantrule Expertise|sw5e-phb|expertise} in one tool or skill of your choice.",
+				"You must choose a tool or skill in which the target is proficient and that isn't already benefiting from an effect, such as {@variantrule Expertise|sw5e-phb|expertise}, that doubles its {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
+			]
+		},
+		{
+			"name": "Spectrum Discharge",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You touch a willing creature, granting it an elemental charge. Choose acid, cold, fire, lightning, poison or sonic. For the duration, a creature can use an action to expel energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 3d6 damage of the chosen type on a failed save, or half as much damage on a successful one.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 3rd level or higher, the damage increases by {@dice 1d6} for each slot level above 2nd."
+					]
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Squad Shield",
+			"source": "sw5e-ec",
+			"level": 7,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take in response to an incoming threat"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"In the face of danger, you create a barrier that protects you and those around you. A faintly glowing sphere of protection with a radius of 10 feet appears. The sphere lasts for the duration.",
+				"Any {@book tech power|sw5e-phb|12|Tech Powers} (or {@book force power|sw5e-phb|11|Force Powers} that deals energy or lightning damage) of 7th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the power is cast using a higher level tech slot. Such a power can target creatures and objects within the barrier, but the power has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such powers.",
+				"Furthermore, hazards of the following types cannot physically pass through the barrier or affect anything within it.",
+				{
+					"type": "list",
+					"items": [
+						"Physical or energy projectiles.",
+						"A specific effect, such as a {@item Thermal detonator|sw5e-phb|thermal detonator}'s explosion.",
+						"An environmental danger, such as falling rocks or a lava flow."
+					]
+				},
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 8th level or higher, the maximum radius increases by 10 feet for each slot level above 7th. In addition, the barrier blocks powers of one level higher for each slot level above 7th."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 8th level or higher, the maximum radius increases by 10 feet for each slot level above 7th. In addition, the barrier blocks powers of one level higher for each slot level above 7th."
+					]
+				}
+			]
+		},
+		{
+			"name": "Stinger",
+			"source": "sw5e-ec",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You fire a stinging dart at a creature within range. Make a ranged tech attack against the target. On a hit, the target takes 1d8 poison damage, and if the target is a humanoid or beast, it can't regain {@variantrule Hit Points|sw5e-phb|hit points} until the start of your next turn.",
+				"This power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+			],
+			"scalingLevelDice": {
+				"label": "fire damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"poison"
+			],
+			"miscTags": [
+				"HL",
+				"SCL"
+			]
+		},
+		{
+			"name": "Tapas",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"You use the Force to inure yourself to the elements. For the duration, you are considered adapted to hot and cold climates."
+			]
+		},
+		{
+			"name": "Telepathic Link",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You establish a telepathic link with one willing creature you touch. Until the power ends, whenever you and the target can see each other, each of you can communicate with the other via telepathy.",
+				"You don't need to share a language with a creature for it to understand your telepathic utterances, and the creature understands you even if it lacks a language. The creature can respond to you telepathically as well, but it must understand at least one language in order to communicate this way. This power has no effect on droids or constructs.",
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the duration increases to {@variantrule Concentration|sw5e-phb|concentration}, up to 1 hour, and if either you or the creature you are linked to are surprised while the other isn't, and both of you can see each other, the surprised creature can still act normally on its first turn in combat, as if it were not surprised."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the duration increases to {@variantrule Concentration|sw5e-phb|concentration}, up to 1 hour, and if either you or the creature you are linked to are surprised while the other isn't, and both of you can see each other, the surprised creature can still act normally on its first turn in combat, as if it were not surprised."
+					]
+				}
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Time Bomb",
+			"source": "sw5e-ec",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"Make a melee tech attack against a target you touch. On a miss, this power ends. On a hit, you deal 2d6 kinetic damage as you plant an explosive charge on the target's body. You can then detonate the charge as a {@variantrule Bonus Action|sw5e-phb}, which ends this power. It deals 1d8 fire damage if detonated on the same turn. It deals 2d8 fire damage on your next turn, increasing by 1d8 for each round you do not detonate it, to a maximum of 6d8. If this power ends before you detonate the charge, the target takes no fire damage.",
+				"A creature affected by this power can use an action to attempt to remove the detonator from its person, making a Strength or Dexterity check (the creature chooses the ability to use) against your tech save DC. On a success, this power ends, as the detonator deactivates harmlessly.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 2nd level or higher, the kinetic damage increases by 1d6 for each slot level above 1st."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 2nd level or higher, the kinetic damage increases by {@dice 1d6} for each slot level above 1st."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire",
+				"kinetic"
+			]
+		},
+		{
+			"name": "Transposition",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Another creature you can see within range has its form shimmer in a holographic configuration before collapsing. The target must succeed on a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (the target can choose to fail), or the target is teleported to an unoccupied space of your choice that you can see within range. The chosen space must be on a surface or in a liquid that can support the target without the target having to squeeze.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 3rd level or higher, the range of the power increases by 30 feet for each slot level above 2nd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 3rd level or higher, the range of the power increases by 30 feet for each slot level above 2nd."
+					]
+				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+		{
+			"name": "Tri-Shot",
+			"source": "sw5e-ec",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Choose up to three creatures within range, none of whom can be more than 10 feet apart. If you choose three creatures, each target must succeed on a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} or take 1d4 energy damage. If you choose two creatures, each target takes 1d6 energy damage on a failed save instead. If you choose only one creature, the target takes 1d8 energy damage on a failed save.",
+				"This power's damage increases by one die when you reach 5th level (two dice), 11th level (three dice), and 17th level (four dice)."
+			],
+			"damageInflict": [
+				"energy"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL"
+			]
+		},
+		{
+			"name": "Tune-up",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 10,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Up to six droids or constructs of your choice that you can see within range each regain {@variantrule Hit Points|sw5e-phb|hit points} equal to 2d8 + your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 3rd level or higher, the healing increases by {@dice 1d8} for each slot level above 2nd."
+					]
+				}
+			],
+			"miscTags": [
+				"HL",
+				"SGT"
+			]
+		},
+		{
+			"name": "Vitality Shield",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You siphon some of your own vitality to create a barrier in the Force around yourself. You take 2d8 true damage, and gain a number of temporary {@variantrule Hit Points|sw5e-phb|hit points} equal to twice the amount of damage you took. If this damage would reduce your {@variantrule Hit Points|sw5e-phb|hit points} to 0, the power fails. While you have these temporary {@variantrule Hit Points|sw5e-phb|hit points}, you have {@variantrule Advantage|sw5e-phb|advantage} on Strength, Dexterity and Constitution {@variantrule Saving Throw|sw5e-phb|saving throws}. Any remaining temporary {@variantrule Hit Points|sw5e-phb|hit points} are lost when this power ends.",
+				"{@b {@i Force Potency.}} When you cast this power using a force slot of 3rd level or higher, the true damage increases by 1d8 for each slot level above 2nd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Force Potency",
+					"entries": [
+						"When you cast this power using a force slot of 3rd level or higher, the true damage increases by {@dice 1d8} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"true"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"THP"
+			]
+		},
+		{
+			"name": "Wakefulness",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You use the Force to control your body's functions. For the duration, you gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You ignore the effects of any levels of {@condition Exhaustion|sw5e-phb|exhaustion} you have.",
+						"You do not need to eat, drink, or sleep. You can't be forced to sleep by any means. To gain the benefits of a {@variantrule Long Rest|sw5e-phb|long rest}, you can spend all 8 hours doing light activity, such as reading and keeping watch."
+					]
+				},
+				"If you still have any levels of {@condition Exhaustion|sw5e-phb|exhaustion} when this power ends, you must make a DC 15 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, you gain one additional level of {@condition Exhaustion|sw5e-phb|exhaustion}."
+			],
+			"conditionInflict": [
+				"{@condition Exhaustion|sw5e-phb|exhaustion}"
+			],
+			"savingThrow": [
+				"constitution"
+			]
+		},
+		{
+			"name": "Wall Run",
+			"source": "sw5e-ec",
+			"level": 0,
+			"school": "F",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "turn",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Until the end of the turn, you have a climbing {@variantrule Speed|sw5e-phb|speed} equal to your walking {@variantrule Speed|sw5e-phb|speed} and you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Acrobatics|sw5e-phb}) and Strength ({@skill Athletics|sw5e-phb}) checks that involve movement. For the same duration, you can move up, down, and across vertical surfaces while leaving your hands free. This does not allow you to move upside down along ceilings. If you are on a vertical surface when you no longer have a climbing {@variantrule Speed|sw5e-phb|speed}, you immediately fall unless you have some other means of remaining there."
+			]
+		},
+		{
+			"name": "Warp Strike",
+			"source": "sw5e-ec",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"As part of the action used to cast this power, you must make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} against one creature within your reach, otherwise the power fails. On a hit, the target suffers the attack’s normal effects, and you can teleport to an unoccupied space of your choice within 10 feet of you. If you teleport to a space within 5 feet of the target, the target cannot take reactions until the end of its next turn.",
+				"This power’s damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d6 energy damage to the target. This extra energy damage increases to 2d6 at 11th level and 3d6 at 17th level."
+			],
+			"damageInflict": [
+				"energy"
+			],
+			"miscTags": [
+				"SCL",
+				"TP"
+			]
+		},
+		{
+			"name": "Wire Tow",
+			"source": "sw5e-ec",
+			"level": 2,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true,
+					"upTo": true
+				}
+			],
+			"entries": [
+				"You project a length of wire towards a foe to bring them within your grasp. Make a ranged tech attack against the target. On a hit, the target takes 2d10 kinetic damage, and you can pull it up to 25 feet closer to you. If you score a {@variantrule Critical Hit|sw5e-phb|critical hit}, the target is also knocked {@condition Prone|sw5e-phb|prone}. If the target ends this movement within 5 feet of you and is no more than one size larger than you, the target is {@condition Grappled|sw5e-phb|grappled} by you for the duration.",
+				"If a creature you grapple with this power uses its action to escape, it must succeed on a Strength ({@skill Athletics|sw5e-phb}) or Dexterity ({@skill Acrobatics|sw5e-phb}) check against your tech save DC to do so.",
+				"This power ends if the attack misses or the grapple ends.",
+				"{@b {@i Overcharge Tech.}} When you cast this power using a tech slot of 3rd level or higher, the damage increases by 1d10 for each slot level above 2nd."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "Overcharge Tech",
+					"entries": [
+						"When you cast this power using a tech slot of 3rd level or higher, the damage increases by {@dice 1d10} for each slot level above 2nd."
+					]
+				}
+			],
+			"damageInflict": [
+				"kinetic"
+			],
+			"conditionInflict": [
+				"{@condition Grappled|sw5e-phb|grappled}",
+				"prone"
+			],
+			"miscTags": [
+				"FMV"
+			]
+		}
+	]
+}

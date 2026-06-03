@@ -13,7 +13,16 @@
 					"orcnog"
 				]
 			}
-		]
+		],
+		"currencyConversions": {
+			"Credits": [
+				{
+					"coin": "cr",
+					"mult": 0.1,
+					"isFallback": true
+				}
+			]
+		}
 	},
 	"item": [
 		{
@@ -25,8 +34,9 @@
 			"value": 6000,
 			"weight": 4.0,
 			"entries": [
-				"An {@item Antitoxkit|sw5e-phb|antitoxkit} contained a variety of wide-spectrum antidote hypospray injectors that were designed to neutralize all known poisons. A kit has five charges. As an action, you can administer a {@optfeature Charge|sw5e-phb|charge} of the kit to cure a target of one {@item Poison|sw5e-phb|poison} affecting them or to give them {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against {@item Poison|sw5e-phb|poison} for 1 hour. It confers no benefit to droids or constructs."
-			]
+				"An {@item Antitoxkit|sw5e-phb|antitoxkit} contained a variety of wide-spectrum antidote hypospray injectors that were designed to neutralize all known poisons. A kit has five charges. As an action, you can administer a charge of the kit to cure a target of one poison affecting them or to give them {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against poison for 1 hour. It confers no benefit to droids or constructs."
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Aquatic rebreather",
@@ -38,7 +48,8 @@
 			"weight": 2,
 			"entries": [
 				"Aquatic breathers are breath masks designed to operate underwater. While worn, the wearer can breathe both air and water."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Armormech's implements",
@@ -50,7 +61,8 @@
 			"weight": 8.0,
 			"entries": [
 				"Tool ({@item Armormech's implements|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Armstech's implements",
@@ -62,7 +74,8 @@
 			"weight": 9.0,
 			"entries": [
 				"Tool ({@item Armstech's implements|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Artificer's implements",
@@ -74,7 +87,8 @@
 			"weight": 5.0,
 			"entries": [
 				"Tool ({@item Artificer's implements|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Assault armor",
@@ -94,7 +108,8 @@
 			"property": [
 				"BLK",
 				"AST"
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Assault cannon",
@@ -125,7 +140,8 @@
 			],
 			"ammunition": true,
 			"strength": 15,
-			"burst": 4
+			"burst": 4,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Astrotech's implements",
@@ -137,7 +153,8 @@
 			"entries": [
 				"Tool ({@item Astrotech's implements|sw5e-phb})."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Backpack",
@@ -152,7 +169,8 @@
 			],
 			"containerCapacity": {
 				"weight": 30
-			}
+			},
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Bandolier",
@@ -164,7 +182,8 @@
 			"weight": 2.0,
 			"entries": [
 				"A {@item Bandolier|sw5e-phb|bandolier} is worn across the chest. It has 12 pockets that can each hold a single item that weighs less than 2.00 lb, such as a {@item Vibrodagger|sw5e-phb}, a fragmentation grenade, or a {@item Power cell|sw5e-phb}. Once per turn, drawing an item from a {@item Bandolier|sw5e-phb|bandolier} does not require your object interaction."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Battle armor",
@@ -184,7 +203,8 @@
 			"property": [
 				"BLK",
 				"AST"
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Beam rifle",
@@ -215,7 +235,8 @@
 			],
 			"ammunition": true,
 			"strength": 15,
-			"penetrating": 2
+			"penetrating": 2,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Bedroll",
@@ -227,7 +248,8 @@
 			"weight": 7.0,
 			"entries": [
 				"Utility ({@item Bedroll|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Binders",
@@ -239,7 +261,8 @@
 			"weight": 6.0,
 			"entries": [
 				"{@item Binders|sw5e-phb} can be used to restrain a Small or Medium creature with appropriate appendages. Applying {@item Binders|sw5e-phb|binders} takes an action, and the target must make a DC 14 Strength or Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (the target chooses the ability to use). A hostile creature makes this save with {@variantrule Advantage|sw5e-phb|advantage}. Breaking the {@item Binders|sw5e-phb|binders} requires a DC 20 Strength check. Escaping them requires a DC 20 Dexterity check. A set of {@item Binders|sw5e-phb|binders} comes with one key. Without the key, unlocking the {@item Binders|sw5e-phb|binders} requires a DC 15 {@item Security kit|sw5e-phb|security kit} to force open. {@item Binders|sw5e-phb} have an AC of 10 and 15 {@variantrule Hit Points|sw5e-phb|hit points}. Destroying the {@item Binders|sw5e-phb|binders} frees the creature without harming it."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Biochemist's kit",
@@ -251,7 +274,8 @@
 			"weight": 8.0,
 			"entries": [
 				"Biochemist's kits are used to create and enhance medpacs and other healing implements."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Biotech's implements",
@@ -263,7 +287,8 @@
 			"weight": 6.0,
 			"entries": [
 				"Tool ({@item Biotech's implements|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Bipod",
@@ -276,7 +301,8 @@
 			"entries": [
 				"A bipod is a device mounted to a two-handed {@filter blaster|items|firearm=true} that lacks the fixed property to offer increased stability while {@condition Prone|sw5e-phb|prone}. As an action, you can deploy or collapse the bipod. While deployed, you ignore the Strength requirement on the attached {@filter blaster|items|firearm=true} with the strength property while you are {@condition Prone|sw5e-phb|prone}, and your {@variantrule Speed|sw5e-phb|speed} is reduced to 0. Additionally, while deployed and prone, you have a +10 bonus to {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being disarmed of the weapon."
 			],
-			"bonusSavingThrow": "+1"
+			"bonusSavingThrow": "+1",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Blanket",
@@ -288,7 +314,8 @@
 			"weight": 3.0,
 			"entries": [
 				"Utility ({@item Blanket|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Blaster carbine",
@@ -315,7 +342,8 @@
 			"entries": [
 				"{@dice d6} energy damage. Properties: {@item Power cell|sw5e-phb} (range 70/280); reload 16; two-handed."
 			],
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Blaster pistol",
@@ -341,7 +369,8 @@
 			"entries": [
 				"{@dice d6} energy damage. Properties: {@item Power cell|sw5e-phb} (range 50/200); reload 16."
 			],
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Blaster rifle",
@@ -368,7 +397,8 @@
 			"entries": [
 				"{@dice d8} energy damage. Properties: {@item Power cell|sw5e-phb} (range 105/420); reload 12; two-handed."
 			],
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Bottle",
@@ -380,7 +410,8 @@
 			"weight": 1.0,
 			"entries": [
 				"A {@item Bottle|sw5e-phb|bottle} stores 1 and 1/2 pints of liquid."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Bowcaster",
@@ -411,7 +442,8 @@
 			],
 			"ammunition": true,
 			"strength": 13,
-			"burst": 4
+			"burst": 4,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Burglar's Pack",
@@ -433,7 +465,8 @@
 			"weight": 3.0,
 			"entries": [
 				"A {@item Canteen|sw5e-phb|canteen} stores 4 pints of liquid."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Carbine rifle",
@@ -465,7 +498,8 @@
 			],
 			"ammunition": true,
 			"strength": 11,
-			"rapid": 3
+			"rapid": 3,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Chakram",
@@ -487,7 +521,8 @@
 			"entries": [
 				"{@dice d6} kinetic damage. Properties: Finesse; returning; thrown (range 30/90)."
 			],
-			"range": "30/90"
+			"range": "30/90",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Chance cubes",
@@ -499,7 +534,8 @@
 			"entries": [
 				"GamingSet ({@item Chance cubes|sw5e-phb})."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Chef's kit",
@@ -511,7 +547,8 @@
 			"weight": 8.0,
 			"entries": [
 				"Kit ({@item Chef's kit|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Chest",
@@ -526,7 +563,8 @@
 			],
 			"containerCapacity": {
 				"weight": 300
-			}
+			},
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Chronometer",
@@ -538,7 +576,8 @@
 			"weight": 1.0,
 			"entries": [
 				"A {@item Chronometer|sw5e-phb|chronometer} is a device that measures and keeps linear time."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Clothes, common",
@@ -550,7 +589,8 @@
 			"weight": 3.0,
 			"entries": [
 				"Clothing ({@item Clothes, common|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Clothes, costume",
@@ -562,7 +602,8 @@
 			"weight": 4.0,
 			"entries": [
 				"Clothing ({@item Clothes, costume|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Clothes, dress uniform",
@@ -574,7 +615,8 @@
 			"weight": 8.0,
 			"entries": [
 				"Clothing ({@item Clothes, dress uniform|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Clothes, fine",
@@ -586,7 +628,8 @@
 			"weight": 6.0,
 			"entries": [
 				"Clothing ({@item Clothes, fine|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Clothes, traveler's",
@@ -598,7 +641,8 @@
 			"weight": 4.0,
 			"entries": [
 				"Clothing ({@item Clothes, traveler's|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Code cylinder",
@@ -610,7 +654,8 @@
 			"weight": 0.5,
 			"entries": [
 				"Code cylinders are security devices in the shape of short cylinders that contain coded information about their bearers and grant them access to secure areas."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Combat suit",
@@ -627,7 +672,8 @@
 			"armor": true,
 			"ac": "11",
 			"stealth": false,
-			"strength": null
+			"strength": null,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Comm jammer",
@@ -638,8 +684,9 @@
 			"value": 4500,
 			"weight": 3.0,
 			"entries": [
-				"A device used to scramble and block transmissions from communications devices in a 300 foot radius. The device can be activated or deactivated as an action. Any creature {@spell Sending|sw5e-phb|sending} incoming or outgoing communications within range must succeed on a DC 15 Intelligence ({@skill Technology|sw5e-phb}) check. On a failure, their communications are jammed until the {@item Comm jammer|sw5e-phb|comm jammer} is deactivated or they move out of its range. The {@item Comm jammer|sw5e-phb|comm jammer} lasts for 1 hour and can be recharged by connecting to a power source or by replacing the {@item Power cell|sw5e-phb}."
-			]
+				"A device used to scramble and block transmissions from communications devices in a 300 foot radius. The device can be activated or deactivated as an action. Any creature sending incoming or outgoing communications within range must succeed on a DC 15 Intelligence ({@skill Technology|sw5e-phb}) check. On a failure, their communications are jammed until the {@item Comm jammer|sw5e-phb|comm jammer} is deactivated or they move out of its range. The {@item Comm jammer|sw5e-phb|comm jammer} lasts for 1 hour and can be recharged by connecting to a power source or by replacing the {@item Power cell|sw5e-phb}."
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Commlink",
@@ -651,7 +698,8 @@
 			"weight": 0.5,
 			"entries": [
 				"commlinks are simple handheld communication devices, fitted with microphones and receivers. Basic, personal commlinks have a range of up to 30 miles, but are reduced in dense, urban areas or areas of high level interference. The {@item Commlink|sw5e-phb|commlink} lasts for 10 hours and can be recharged by connecting to a power source or by replacing the {@item Power cell|sw5e-phb}."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Commlink, hands-free",
@@ -663,7 +711,8 @@
 			"weight": 1.0,
 			"entries": [
 				"A hands-free {@item Commlink|sw5e-phb|commlink} functions as a {@item Commlink|sw5e-phb|commlink}, but can be installed in a helmet or worn independently, such as on your head or ear."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Composite armor",
@@ -682,7 +731,8 @@
 			"strength": null,
 			"property": [
 				"BLK"
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Crate",
@@ -694,7 +744,8 @@
 			"weight": 70.0,
 			"entries": [
 				"A crate stores 40 gallons of liquid or 4 cubic feet of solid."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Credit",
@@ -705,9 +756,10 @@
 			"value": 10,
 			"entries": [
 				"Credits come in a variety of denominations: from a single chit to cards loaded with incredible value. While the Republic and Empire have their own currencies, in most worlds they can be used interchangeably.",
-				"With ten credits, a character can buy a {@item Power cell|sw5e-phb}, a stylus, or a {@item Glowrod|sw5e-phb|glowrod}. A skilled (but not exceptional) artisan can earn ten {@item credit|sw5e-phb|credits} a day. The {@item Credit|sw5e-phb|credit} is the standard unit of measure for wealth, even if the chit itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of credits, the transactions don't usually involve the exchange of individual chits. Rather, the {@item Credit|sw5e-phb|credit} is a standard measure of value, and the actual exchange is in {@item Credit|sw5e-phb|credit} cards, letters of {@item Credit|sw5e-phb|credit}, or valuable goods.",
+				"With ten credits, a character can buy a {@item Power cell|sw5e-phb}, a stylus, or a {@item Glowrod|sw5e-phb|glowrod}. A skilled (but not exceptional) artisan can earn ten {@item credit|sw5e-phb|credits} a day. The credit is the standard unit of measure for wealth, even if the chit itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of credits, the transactions don't usually involve the exchange of individual chits. Rather, the {@item Credit|sw5e-phb|credit} is a standard measure of value, and the actual exchange is in credit cards, letters of credit, or valuable goods.",
 				"A standard chit weighs about a third of an ounce, so fifty chits weigh a pound."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Cybertech's implements",
@@ -719,7 +771,8 @@
 			"entries": [
 				"Tool ({@item Cybertech's implements|sw5e-phb})."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Cycler rifle",
@@ -749,7 +802,8 @@
 			],
 			"ammunition": true,
 			"strength": 11,
-			"rapid": 2
+			"rapid": 2,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Dart",
@@ -761,7 +815,8 @@
 			"entries": [
 				"This {@item Wrist launcher|sw5e-phb|wrist launcher} ammunition deals 1d6 kinetic damage on a hit."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Datacard",
@@ -773,7 +828,8 @@
 			"entries": [
 				"A {@item Datacard|sw5e-phb|datacard} or data disk is a flat, hand-held device used in conjunction with a {@item Datapad|sw5e-phb|datapad} to store information."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Datacron",
@@ -785,7 +841,8 @@
 			"weight": 2.0,
 			"entries": [
 				"A {@item Datacron|sw5e-phb|datacron} is a type of {@item Holocron|sw5e-phb|holocron} that can be accessed by non-Force-sensitives and are mainly used to store encrypted data. They are complete with an interactive projection to access the information."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Datapad",
@@ -797,7 +854,8 @@
 			"weight": 0.5,
 			"entries": [
 				"A {@item Datapad|sw5e-phb|datapad} is a small electronic device used for the input, storage and displaying of information. It features a holoprojective surface for 3D viewing."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Dejarik set",
@@ -809,7 +867,8 @@
 			"weight": 8.0,
 			"entries": [
 				"GamingSet ({@item Dejarik set|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Demolitions kit",
@@ -821,7 +880,8 @@
 			"weight": 4.0,
 			"entries": [
 				"Demolitions kits are used to create, enhance, and disarm explosives."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Diplomat's Pack",
@@ -843,7 +903,8 @@
 			"weight": 3.0,
 			"entries": [
 				"Kit ({@item Disguise kit|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Doubleblade",
@@ -865,7 +926,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d6",
-			"dmgType": "Kinetic"
+			"dmgType": "Kinetic",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Doublesaber",
@@ -887,7 +949,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d8",
-			"dmgType": "Energy"
+			"dmgType": "Energy",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Doubleshoto",
@@ -910,7 +973,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d6",
-			"dmgType": "Energy"
+			"dmgType": "Energy",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Doublesword",
@@ -931,7 +995,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d8",
-			"dmgType": "Kinetic"
+			"dmgType": "Kinetic",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Drum",
@@ -943,7 +1008,8 @@
 			"weight": 3.0,
 			"entries": [
 				"MusicalInstrument (Drum)."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Dungeoneer's Pack",
@@ -965,7 +1031,8 @@
 			"entries": [
 				"All non-expendable droids need recharging as they are used. The battery has ten uses. As an action, you can expend one use of the battery to stabilize a droid that has 0 {@variantrule Hit Points|sw5e-phb|hit points}, without needing to make an Intelligence ({@skill Technology|sw5e-phb}) check."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Emergency shelter",
@@ -977,7 +1044,8 @@
 			"weight": 15.0,
 			"entries": [
 				"This shelter comes packed in a 2-foot-long tube. When activated, the shelter deploys, expanding to full size in 1 minute. The shelter is 8 feet long, 8 feet wide, and 6 feet tall, and can house up to six Medium creatures. The shelter includes spikes that automatically mount to the ground, provided they can find purchase. The shelter comes with an integrated power generator, faint glowing lights in the interior which provide dim light, and creatures in the shelter are protected from the elements, including hot and cold climates, as described in {@book chapter 5|sw5e-phb|5} of the Dungeon Master's Guide. The shelter's power generator lasts for seven days, after which it stops providing light. The shelter can be collapsed and restored over the course of 10 minutes."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Entertainer's Pack",
@@ -998,8 +1066,9 @@
 			"value": 20000,
 			"weight": 15,
 			"entries": [
-				"Environment suits, atmospheric suits, or EVA suits, are pressure suits that enabled wearers to {@optfeature Survive|sw5e-phb|survive} and operate in zero gravity space and other dangerous conditions."
-			]
+				"Environment suits, atmospheric suits, or EVA suits, are pressure suits that enabled wearers to survive and operate in zero gravity space and other dangerous conditions."
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Explorer's Pack",
@@ -1025,7 +1094,8 @@
 			"armor": true,
 			"ac": "12",
 			"stealth": false,
-			"strength": null
+			"strength": null,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Fibercord cable, 50 ft (rolled)",
@@ -1037,7 +1107,8 @@
 			"weight": 2.0,
 			"entries": [
 				"Utility (Fibercord cable, 50 ft (rolled))."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Field rations (one day's)",
@@ -1049,7 +1120,8 @@
 			"weight": 1.0,
 			"entries": [
 				"Ration packs consist of dry foods suitable for extended travel, and are used when other food is scarce. Each pack is divided into portions and can provide enough food for one person per day."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Flight suit",
@@ -1061,7 +1133,8 @@
 			"weight": 5,
 			"entries": [
 				"Flight suits, or jumpsuits, are a type of outfit worn by pilots. They are worn in conjunction with flight helmets. They come in a variety of different colors and provide life support, and protect from hostile environments."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Flute",
@@ -1073,7 +1146,8 @@
 			"weight": 1.0,
 			"entries": [
 				"MusicalInstrument (Flute)."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Forgery kit",
@@ -1085,7 +1159,8 @@
 			"weight": 5.0,
 			"entries": [
 				"Kit ({@item Forgery kit|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Friction-grip gear",
@@ -1097,7 +1172,8 @@
 			"weight": 12.0,
 			"entries": [
 				"A special set of gloves and boots that allow the wearer to stick to and climb surfaces. While wearing these items, you gain the ability to move along vertical surfaces and ceilings while leaving your hands free. You also gain a climbing {@variantrule Speed|sw5e-phb|speed} equal your walking {@variantrule Speed|sw5e-phb|speed}."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Fusion cutter",
@@ -1109,7 +1185,8 @@
 			"weight": 2.0,
 			"entries": [
 				"A {@item Fusion cutter|sw5e-phb|fusion cutter} is a handheld cutting tool popular among technicians. It can cut through almost any reinforced material, given enough time. The internal {@item Power cell|sw5e-phb} supplies an hour's worth of continuous operation."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Gadgeteer's implements",
@@ -1121,7 +1198,8 @@
 			"weight": 7.0,
 			"entries": [
 				"Tool ({@item Gadgeteer's implements|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Glowrod",
@@ -1133,7 +1211,8 @@
 			"weight": 2.0,
 			"entries": [
 				"Glowrods create a beam of light illuminating the area around you in bright light for a 20-foot radius and dim light for an additional 20 feet. The {@item Glowrod|sw5e-phb|glowrod} lasts for 10 hours and can be recharged by connecting to a power source or by replacing the {@item Power cell|sw5e-phb}."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Grappling hook",
@@ -1145,7 +1224,8 @@
 			"weight": 4.0,
 			"entries": [
 				"A {@item Grappling hook|sw5e-phb|grappling hook} allows a user to climb or ascend large objects. It can be mounted to a {@filter blaster|items|firearm=true}, belt, or elsewhere. It has a 50-foot length."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Great-saber",
@@ -1167,7 +1247,8 @@
 			"entries": [
 				"2d6 energy damage. Properties: Dexterity 11; luminous; two-handed."
 			],
-			"dexterity": 11
+			"dexterity": 11,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Grenade, fragmentation",
@@ -1179,7 +1260,8 @@
 			"weight": 1.0,
 			"entries": [
 				"Grenades can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d10 kinetic damage on a failed save, or half as much as on a successful one."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Grenade, gas",
@@ -1191,8 +1273,9 @@
 			"weight": 1.0,
 			"entries": [
 				"Grenades can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. The grenade explodes, filling the air in a 10-foot-radius sphere with yellow-green fog for 1 minute. The fog spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.",
-				"When a creature enters the fog or starts its turn there, it creature must make a DC 14 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. The creature takes 2d6 {@item Poison|sw5e-phb|poison} damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is {@condition Poisoned|sw5e-phb} while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected."
-			]
+				"When a creature enters the fog or starts its turn there, it creature must make a DC 14 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. The creature takes 2d6 poison damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is {@condition Poisoned|sw5e-phb} while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected."
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Grenade, ion",
@@ -1204,7 +1287,8 @@
 			"weight": 1.0,
 			"entries": [
 				"Grenades can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d6 ion damage on a failed save, or half as much as on a successful one. Any electronics within the blast radius are disabled until rebooted."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Grenade, plasma",
@@ -1216,7 +1300,8 @@
 			"weight": 1.0,
 			"entries": [
 				"Grenades can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 10 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d10 energy damage on a failed save, or half as much as on a successful one."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Headcomm",
@@ -1228,7 +1313,8 @@
 			"weight": 1,
 			"entries": [
 				"A {@item Headcomm|sw5e-phb|headcomm} can be installed in a helmet or worn independently. It functions as a hands-free {@item commlink|sw5e-phb}."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Heat generator",
@@ -1240,7 +1326,8 @@
 			"weight": 4.0,
 			"entries": [
 				"Heat generators are special devices typically worn on belts that function as a portable, personal heat supply. Activating or deactivating the generator requires a {@variantrule Bonus Action|sw5e-phb} and, while active, you are adapted to cold climates, as described in {@book chapter 5|sw5e-phb|5} of the Dungeon Master's Guide. The generator lasts for 10 minutes and can be recharged by a power source or replacing the {@item Power cell|sw5e-phb}."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Heavy Blaster rifle",
@@ -1271,7 +1358,8 @@
 			],
 			"ammunition": true,
 			"strength": 13,
-			"rapid": 2
+			"rapid": 2,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Heavy bowcaster",
@@ -1302,7 +1390,8 @@
 			],
 			"ammunition": true,
 			"strength": 17,
-			"burst": 2
+			"burst": 2,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Heavy carbine",
@@ -1333,7 +1422,8 @@
 			],
 			"ammunition": true,
 			"strength": 11,
-			"rapid": 4
+			"rapid": 4,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Heavy exoskeleton",
@@ -1353,7 +1443,8 @@
 			"property": [
 				"BLK",
 				"AST"
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Heavy physical shield",
@@ -1373,7 +1464,8 @@
 			"property": [
 				"OBT",
 				"AST"
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Heavy pistol",
@@ -1399,7 +1491,8 @@
 			"entries": [
 				"{@dice d8} energy damage. Properties: {@item Power cell|sw5e-phb} (range 45/180); reload 16."
 			],
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Heavy repeater",
@@ -1433,7 +1526,8 @@
 			"ammunition": true,
 			"strength": 13,
 			"burst": 4,
-			"rapid": 4
+			"rapid": 4,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Heavy shield generator",
@@ -1449,7 +1543,8 @@
 			"strength": null,
 			"entries": [
 				"AC +3."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Heavy shotgun",
@@ -1479,7 +1574,8 @@
 			],
 			"ammunition": true,
 			"strength": 13,
-			"burst": 2
+			"burst": 2,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Heavy slugpistol",
@@ -1506,7 +1602,8 @@
 				"{@dice d8} kinetic damage. Properties: Rapid 8; reload 12; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 30/120)."
 			],
 			"ammunition": true,
-			"rapid": 8
+			"rapid": 8,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Hidden blade",
@@ -1528,7 +1625,8 @@
 			"dmgType": "Kinetic",
 			"entries": [
 				"{@dice d4} kinetic damage. Properties: Finesse; fixed; hidden; light."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Hold-out",
@@ -1556,7 +1654,8 @@
 			"entries": [
 				"{@dice d4} energy damage. Properties: Hidden; light; {@item Power cell|sw5e-phb|power cell} (range 30/120); reload 8."
 			],
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Holocomm",
@@ -1568,7 +1667,8 @@
 			"weight": 2.0,
 			"entries": [
 				"A {@item Holocomm|sw5e-phb|holocomm} is a communications unit that utilizes the HoloNet. It enables users to send and receive messages through holographic-based transmission networks."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Holocron",
@@ -1580,7 +1680,8 @@
 			"weight": 2.0,
 			"entries": [
 				"Holocrons are information-storage devices used by force wielders that contain ancient lessons or valuable information in holographic form. They appear as palm-sized, glowing polyhedrons of crystalline material and hardware, and can only be activated and used through the power of the Force."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Holorecorder",
@@ -1591,8 +1692,9 @@
 			"value": 1000,
 			"weight": 1.0,
 			"entries": [
-				"A {@item Holorecorder|sw5e-phb|holorecorder} is a device used to record and {@spell Project|sw5e-phb|project} holograms. Some droid models are equipped with internal holorecorders."
-			]
+				"A {@item Holorecorder|sw5e-phb|holorecorder} is a device used to record and project holograms. Some droid models are equipped with internal holorecorders."
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Holotrace device",
@@ -1604,7 +1706,8 @@
 			"weight": 5.0,
 			"entries": [
 				"A {@item Holotrace device|sw5e-phb|holotrace device} is a wrist-worn gadget that can be used to trace a holographic transmission back to its source."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Homing beacon",
@@ -1616,7 +1719,8 @@
 			"weight": 1.0,
 			"entries": [
 				"A {@item Homing beacon|sw5e-phb|homing beacon} is a device used to track starships or any other entity being transported. Homing beacons transmit using non-mass HoloNet transceivers able to be tracked through hyperspace. Homing beacons are small enough that they can easily be hidden inside a ship, or tucked into some crevice on its exterior."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Hunting rifle",
@@ -1644,7 +1748,8 @@
 				"{@dice d10} kinetic damage. Properties: Reload 4; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 125/500); strength 11; two-handed."
 			],
 			"ammunition": true,
-			"strength": 11
+			"strength": 11,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Hydrospanner",
@@ -1656,7 +1761,8 @@
 			"weight": 2.0,
 			"entries": [
 				"Utility ({@item Hydrospanner|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Ion cannon",
@@ -1688,7 +1794,8 @@
 			],
 			"ammunition": true,
 			"strength": 15,
-			"burst": 4
+			"burst": 4,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Ion carbine",
@@ -1715,7 +1822,8 @@
 			"entries": [
 				"{@dice d4} ion damage. Properties: {@item Power cell|sw5e-phb} (range 60/240); reload 12; two-handed."
 			],
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Ion pistol",
@@ -1741,7 +1849,8 @@
 			"entries": [
 				"Properties: {@item Power cell|sw5e-phb} (range 40/160); reload 16."
 			],
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Ion rifle",
@@ -1768,7 +1877,8 @@
 			"entries": [
 				"{@dice d6} ion damage. Properties: {@item Power cell|sw5e-phb} (range 80/320); reload 8; two-handed."
 			],
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Jetpack",
@@ -1785,7 +1895,8 @@
 				"static": {
 					"fly": 30
 				}
-			}
+			},
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Light physical shield",
@@ -1801,7 +1912,8 @@
 			"entries": [
 				"AC +1."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Light pistol",
@@ -1828,7 +1940,8 @@
 			"entries": [
 				"{@dice d4} energy damage. Properties: Light; {@item Power cell|sw5e-phb|power cell} (range 40/160); reload 8."
 			],
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Light repeater",
@@ -1858,7 +1971,8 @@
 				"{@dice d6} energy damage. Properties: Auto; {@item Power cell|sw5e-phb|power cell} (range 50/200); rapid 5; reload 20; two-handed."
 			],
 			"ammunition": true,
-			"rapid": 5
+			"rapid": 5,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Light shield generator",
@@ -1874,7 +1988,8 @@
 			"entries": [
 				"AC +1."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Light slugpistol",
@@ -1900,7 +2015,8 @@
 			"entries": [
 				"{@dice d4} kinetic damage. Properties: Light; reload 8; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 35/140)."
 			],
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Light-lance",
@@ -1923,7 +2039,8 @@
 			"entries": [
 				null
 			],
-			"dexterity": 11
+			"dexterity": 11,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Lightaxe",
@@ -1945,7 +2062,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d12",
-			"dmgType": "Energy"
+			"dmgType": "Energy",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Lightblade",
@@ -1966,7 +2084,8 @@
 			"weapon": true,
 			"weaponCategory": "Simple",
 			"dmg1": "1d6",
-			"dmgType": "Energy"
+			"dmgType": "Energy",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Lightclub",
@@ -1988,7 +2107,8 @@
 			"weapon": true,
 			"weaponCategory": "Simple",
 			"dmg1": "1d10",
-			"dmgType": "Energy"
+			"dmgType": "Energy",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Lightdagger",
@@ -2012,7 +2132,8 @@
 			"weaponCategory": "Simple",
 			"dmg1": "1d4",
 			"dmgType": "Energy",
-			"range": "20/60"
+			"range": "20/60",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Lightfoil",
@@ -2033,7 +2154,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d8",
-			"dmgType": "Energy"
+			"dmgType": "Energy",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Lightsaber",
@@ -2055,7 +2177,8 @@
 			"dmg2": "2d4",
 			"entries": [
 				"{@dice d6} energy damage. Properties: Hidden; luminous; versatile (2d4)."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Lightstaff",
@@ -2078,7 +2201,8 @@
 			"weapon": true,
 			"weaponCategory": "Simple",
 			"dmg1": "2d4",
-			"dmgType": "Energy"
+			"dmgType": "Energy",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Lute",
@@ -2090,7 +2214,8 @@
 			"weight": 2.0,
 			"entries": [
 				"MusicalInstrument (Lute)."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Macrobinoculars",
@@ -2102,7 +2227,8 @@
 			"weight": 1.0,
 			"entries": [
 				"{@item Macrobinoculars|sw5e-phb} are handheld viewing devices that allow users to observe distant objects. Some models are able to see into space from the surface of a planet."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Martial lightsaber",
@@ -2124,7 +2250,8 @@
 			"dmg2": "1d10",
 			"entries": [
 				"{@dice d8} energy damage. Properties: Hidden; luminous; versatile (1d10)."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Mechanic's kit",
@@ -2136,7 +2263,8 @@
 			"weight": 0.0,
 			"entries": [
 				"Mechanic's kits are used to craft and repair vehicles and starships."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Medium physical shield",
@@ -2155,7 +2283,8 @@
 			],
 			"property": [
 				"AST"
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Medium shield generator",
@@ -2171,7 +2300,8 @@
 			"entries": [
 				"AC +2."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Medpac",
@@ -2183,7 +2313,8 @@
 			"weight": 0.5,
 			"entries": [
 				"A {@item Medpac|sw5e-phb|medpac} is a quick-acting syringe filled with a concentrated dose of kolto. As an action, you can use this {@item Medpac|sw5e-phb|medpac} to restore {@variantrule Hit Points|sw5e-phb|hit points} to a beast or humanoid within 5 feet. The creature rolls one die equal to the size of their Hit Die and regains {@variantrule Hit Points|sw5e-phb|hit points} equal to the amount rolled + their Constitution modifier (minimum of one hit point). If the creature has Hit Dice of different sizes, use whichever Hit Die size they have the most of."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Mesh armor",
@@ -2199,7 +2330,8 @@
 			"armor": true,
 			"ac": "13",
 			"stealth": false,
-			"strength": null
+			"strength": null,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Mess kit",
@@ -2211,7 +2343,8 @@
 			"weight": 1.0,
 			"entries": [
 				"This box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Mine, fragmentation",
@@ -2223,7 +2356,8 @@
 			"weight": 2.0,
 			"entries": [
 				"Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a {@item Remote detonator|sw5e-phb|remote detonator}. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, each creature within 15 feet of it must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d10 kinetic damage on a failed save, or half as much as on a successful one."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Mine, gas",
@@ -2235,7 +2369,8 @@
 			"weight": 2.0,
 			"entries": [
 				"Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a remote"
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Mine, incendiary",
@@ -2248,7 +2383,8 @@
 			"entries": [
 				"Mines can be set to detonate when a creature comes within up to 15 feet of it or paired with a {@item Remote detonator|sw5e-phb|remote detonator}. As an action, you can prime and set a mine on a surface you can reach, which arms at the start of your next turn. When detonated, the mine sets the ground in a 15-foot radius ablaze for 1 minute. The fire ignites any flammable objects in the area that aren't being worn or carried.",
 				"When a creature enters the fire or starts its turn there, it creature must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. The creature takes 2d8 fire damage on a failed save, or half as much damage on a successful one."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Mirror",
@@ -2260,7 +2396,8 @@
 			"weight": 0.5,
 			"entries": [
 				"Utility ({@item Mirror|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Missile, fragmentation",
@@ -2272,7 +2409,8 @@
 			"weight": 0.5,
 			"entries": [
 				"This {@item Wrist launcher|sw5e-phb|wrist launcher} ammunition deals 1d6 kinetic damage on a hit. Additionally, hit or miss, the missile then explodes. The target and each creature within 5 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 1d10 kinetic damage on a failed save or half as much on a successful one."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Net",
@@ -2294,7 +2432,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmgType": "Unknown",
-			"range": "15"
+			"range": "15",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Ommni box",
@@ -2306,7 +2445,8 @@
 			"entries": [
 				"MusicalInstrument ({@item Ommni box|sw5e-phb})."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Pazaak deck",
@@ -2318,7 +2458,8 @@
 			"entries": [
 				"GamingSet ({@item Pazaak deck|sw5e-phb})."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Pikesaber",
@@ -2341,7 +2482,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d10",
-			"dmgType": "Energy"
+			"dmgType": "Energy",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Pitcher",
@@ -2353,7 +2495,8 @@
 			"weight": 2.0,
 			"entries": [
 				"A {@item Pitcher|sw5e-phb|pitcher} stores 1 gallon of liquid."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Pocket scrambler",
@@ -2365,7 +2508,8 @@
 			"weight": 1.0,
 			"entries": [
 				"A {@item Pocket scrambler|sw5e-phb|pocket scrambler} is a simple add-on to any {@item Commlink|sw5e-phb|commlink} that automatically encodes any messages sent out. The transmitted message can only be read by a device equipped with a matched scrambler."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Poison",
@@ -2376,9 +2520,10 @@
 			"value": 1250,
 			"weight": 0.5,
 			"entries": [
-				"As an action, you can use the {@item Poison|sw5e-phb|poison} in this vial to coat one {@filter vibroweapon|items|type=martial weapon}, one {@item Slug cartridge|sw5e-phb|slug cartridge}, or one {@item Wrist launcher|sw5e-phb|wrist launcher} dart. A creature hit by the {@condition Poisoned|sw5e-phb} weapon must make a DC 14 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 2d4 {@item Poison|sw5e-phb|poison} damage on a failed save or half as much on a successful one. Once applied, the {@item Poison|sw5e-phb|poison} retains potency for 1 minute before drying."
+				"As an action, you can use the poison in this vial to coat one {@filter vibroweapon|items|type=martial weapon}, one {@item Slug cartridge|sw5e-phb|slug cartridge}, or one {@item Wrist launcher|sw5e-phb|wrist launcher} dart. A creature hit by the {@condition Poisoned|sw5e-phb} weapon must make a DC 14 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 2d4 poison damage on a failed save or half as much on a successful one. Once applied, the poison retains potency for 1 minute before drying."
 			],
-			"poison": true
+			"poison": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Poisoner's kit",
@@ -2390,7 +2535,8 @@
 			"weight": 2.0,
 			"entries": [
 				"Kit ({@item Poisoner's kit|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Pouch",
@@ -2405,7 +2551,8 @@
 			],
 			"containerCapacity": {
 				"weight": 6
-			}
+			},
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Power cell",
@@ -2417,7 +2564,8 @@
 			"weight": 1.0,
 			"entries": [
 				"Weapons with this property are fueled by {@item Power cell|sw5e-phb|power cells}, which must be loaded in order to fire the weapon. A {@item Power cell|sw5e-phb} fuels a number of attacks equal to the weapon's reload number."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Priest's Pack",
@@ -2438,8 +2586,9 @@
 			"value": 3500,
 			"weight": 2.0,
 			"entries": [
-				"When triggered, this {@item Wrist launcher|sw5e-phb|wrist launcher} ammunition produces a beam of {@spell Carbonite|sw5e-phb|carbonite} energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature takes 1d4 cold damage and gains 1 {@condition Slowed|sw5e-phb|slowed} level until the end of your next turn. On a successful save, a creature takes half damage and isn't {@condition Slowed|sw5e-phb|slowed}. If this damage reduces a creature to 0 {@variantrule Hit Points|sw5e-phb|hit points}, that creature is frozen in {@spell Carbonite|sw5e-phb|carbonite} for 1 hour. If you lack proficiency in the {@item Wrist launcher|sw5e-phb|wrist launcher}, you must roll the damage dice twice and take the lesser total."
-			]
+				"When triggered, this {@item Wrist launcher|sw5e-phb|wrist launcher} ammunition produces a beam of carbonite energy in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, a creature takes 1d4 cold damage and gains 1 {@condition Slowed|sw5e-phb|slowed} level until the end of your next turn. On a successful save, a creature takes half damage and isn't {@condition Slowed|sw5e-phb|slowed}. If this damage reduces a creature to 0 {@variantrule Hit Points|sw5e-phb|hit points}, that creature is frozen in carbonite for 1 hour. If you lack proficiency in the {@item Wrist launcher|sw5e-phb|wrist launcher}, you must roll the damage dice twice and take the lesser total."
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Projector canister, incendiary",
@@ -2451,7 +2600,8 @@
 			"weight": 2.0,
 			"entries": [
 				"When triggered, this {@item Wrist launcher|sw5e-phb|wrist launcher} ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, taking 1d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren't being worn or carried. If you lack proficiency in the {@item Wrist launcher|sw5e-phb|wrist launcher}, you must roll the damage dice twice and take the lesser total."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Ram, portable",
@@ -2463,7 +2613,8 @@
 			"weight": 35.0,
 			"entries": [
 				"You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you {@variantrule Advantage|sw5e-phb|advantage} on this check."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Remote detonator",
@@ -2475,7 +2626,8 @@
 			"weight": 1.0,
 			"entries": [
 				"A small handhold device with a single button, used to activate explosives. Over the course of 1 minute, you can pair the detonator with up to two mines within 10 feet. As an action, you can remotely detonate all of the paired mines. You must be within 30 feet of the mines to detonate them."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Repair kit",
@@ -2487,7 +2639,8 @@
 			"weight": 3.0,
 			"entries": [
 				"A {@item Repair kit|sw5e-phb|repair kit} included the basic tools needed to repair a droid or construct after being damaged in combat. The kit has three uses. As an action, you can expend one use of the kit to restore {@variantrule Hit Points|sw5e-phb|hit points} to a droid or construct within 5 feet. The creature rolls one die equal to the size of their Hit Die and regains {@variantrule Hit Points|sw5e-phb|hit points} equal"
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Repeating blaster",
@@ -2521,7 +2674,8 @@
 			"ammunition": true,
 			"strength": 11,
 			"burst": 4,
-			"rapid": 4
+			"rapid": 4,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Respirator",
@@ -2533,7 +2687,8 @@
 			"weight": 1.0,
 			"entries": [
 				"A {@item Respirator|sw5e-phb|respirator}, or breath mask, is a portable device that includes 1 hour's worth of oxygen. The {@item Respirator|sw5e-phb|respirator} is designed to function in all environments."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Restraining bolt",
@@ -2546,7 +2701,8 @@
 			"entries": [
 				"Restraining bolts are small, cylindrical devices that can be affixed to a droid in order to limit its functions and enforce its obedience. When inserted, a {@item Restraining bolt|sw5e-phb|restraining bolt} restricts the droid from any movement its master does not desire, and also forced it to respond to signals produced by a hand-held control unit.",
 				"Installing a {@item Restraining bolt|sw5e-phb|restraining bolt} takes 1 minute. The droid must make a DC 14 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. A hostile droid makes this save with {@variantrule Advantage|sw5e-phb|advantage}. On a successful save, the {@item Restraining bolt|sw5e-phb|restraining bolt} overloads and is rendered useless. On a failed save, the {@item Restraining bolt|sw5e-phb|restraining bolt} is correctly installed, and the control unit can be used to actively control the droid. While the control unit is inactive, the droid can act freely but it can not attempt to remove the {@item Restraining bolt|sw5e-phb|restraining bolt}."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Rocket boots",
@@ -2563,7 +2719,8 @@
 				"static": {
 					"fly": 25
 				}
-			}
+			},
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Rotary cannon",
@@ -2595,7 +2752,8 @@
 			],
 			"ammunition": true,
 			"strength": 13,
-			"rapid": 2
+			"rapid": 2,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Sabacc deck",
@@ -2607,7 +2765,8 @@
 			"entries": [
 				"GamingSet ({@item Sabacc deck|sw5e-phb})."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Saber-spear",
@@ -2630,7 +2789,8 @@
 			"entries": [
 				null
 			],
-			"range": "20/60"
+			"range": "20/60",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Saberwhip",
@@ -2652,7 +2812,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d4",
-			"dmgType": "Energy"
+			"dmgType": "Energy",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Scattergun",
@@ -2681,7 +2842,8 @@
 			],
 			"ammunition": true,
 			"strength": 11,
-			"burst": 2
+			"burst": 2,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Scholar's Pack",
@@ -2703,7 +2865,8 @@
 			"weight": 3.0,
 			"entries": [
 				"Security kits are used to bypass physical locks."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Shield",
@@ -2714,7 +2877,7 @@
 			"entries": [
 				"Shields come in varying weights, sizes, and materials. Light {@item Shield|sw5e-phb|shields} are smaller and mounted to the forearm, while medium and heavy {@item Shield|sw5e-phb|shields} are held in hand. You can only benefit from one {@item Shield|sw5e-phb|shield} at a time.",
 				"{@b {@i Physical Shields.}} Physical {@item Shield|sw5e-phb|shields} are made entirely of physical materials. They are cheaper than their generator counterparts, but heavier.",
-				"{@b {@i Shield Generators.}} {@item Shield|sw5e-phb} generators are made almost entirely of energy barriers. Medium and heavy {@item Shield|sw5e-phb|shield} generators have a physical handheld component from which the barrier emanates; medium {@item Shield|sw5e-phb|shield} generators are orbs that are slightly larger than a fist, while heavy {@item Shield|sw5e-phb|shield} generators {@spell Project|sw5e-phb|project} from a large cross.",
+				"{@b {@i Shield Generators.}} {@item Shield|sw5e-phb} generators are made almost entirely of energy barriers. Medium and heavy {@item Shield|sw5e-phb|shield} generators have a physical handheld component from which the barrier emanates; medium {@item Shield|sw5e-phb|shield} generators are orbs that are slightly larger than a fist, while heavy {@item Shield|sw5e-phb|shield} generators project from a large cross.",
 				"See {@item Light physical shield|sw5e-phb}, {@item Medium physical shield|sw5e-phb}, {@item Heavy physical shield|sw5e-phb}, and {@item Shield|sw5e-phb|shield} generators in the equipment chapter."
 			]
 		},
@@ -2746,7 +2909,8 @@
 			],
 			"ammunition": true,
 			"strength": 11,
-			"burst": 2
+			"burst": 2,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Shotosaber",
@@ -2768,7 +2932,8 @@
 			"dmgType": "Energy",
 			"entries": [
 				"{@dice d6} energy damage. Properties: Finesse; hidden; light; luminous."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Shovel",
@@ -2780,7 +2945,8 @@
 			"weight": 5.0,
 			"entries": [
 				"Utility ({@item Shovel|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Slicer's kit",
@@ -2792,7 +2958,8 @@
 			"weight": 6.0,
 			"entries": [
 				"Slicer's kits can bypass computerized defenses and locks."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Slug cartridge",
@@ -2804,7 +2971,8 @@
 			"entries": [
 				"Weapons with this property fire slug cartridges, which must be loaded in order to fire the weapon."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Slugpistol",
@@ -2833,7 +3001,8 @@
 			],
 			"ammunition": true,
 			"strength": 11,
-			"rapid": 8
+			"rapid": 8,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Slugthrower",
@@ -2859,7 +3028,8 @@
 			"entries": [
 				"{@dice d8} kinetic damage. Properties: Reload 12; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 105/420); two-handed."
 			],
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Sniper rifle",
@@ -2888,7 +3058,8 @@
 				"{@dice d12} energy damage. Properties: {@item Power cell|sw5e-phb} (range 150/600); reload 2; strength 13; two-handed."
 			],
 			"ammunition": true,
-			"strength": 13
+			"strength": 13,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Splitsaber",
@@ -2909,7 +3080,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "2d4",
-			"dmgType": "Energy"
+			"dmgType": "Energy",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Splitshoto",
@@ -2931,7 +3103,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d8",
-			"dmgType": "Energy"
+			"dmgType": "Energy",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Stealth field generator",
@@ -2943,7 +3116,8 @@
 			"weight": 3.0,
 			"entries": [
 				"{@skill Stealth|sw5e-phb} field generators are special devices typically worn on belts that function as a portable, personal cloaking device. Activating or deactivating the generator requires a {@variantrule Bonus Action|sw5e-phb} and, while active, you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth|sw5e-phb}) {@variantrule Ability Check|sw5e-phb|ability checks} that rely on sight. The generator lasts for 1 minute and can be recharged by a power source or replacing the {@item Power cell|sw5e-phb}. This effect ends early if you make an attack or cast a force or {@book tech power|sw5e-phb|12|Tech Powers}."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Stylus pen",
@@ -2955,7 +3129,8 @@
 			"weight": 0.5,
 			"entries": [
 				"A {@item Stylus pen|sw5e-phb|stylus pen} is designed to write on both solid surfaces and touch screen interfaces."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Subrepeater",
@@ -2987,7 +3162,8 @@
 			],
 			"ammunition": true,
 			"strength": 11,
-			"rapid": 4
+			"rapid": 4,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Techaxe",
@@ -3008,7 +3184,8 @@
 			"weaponCategory": "Simple",
 			"dmg1": "1d6",
 			"dmgType": "Kinetic",
-			"range": "25/75"
+			"range": "25/75",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Techblade",
@@ -3028,7 +3205,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d6",
-			"dmgType": "Kinetic"
+			"dmgType": "Kinetic",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Techstaff",
@@ -3050,7 +3228,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "2d4",
-			"dmgType": "Kinetic"
+			"dmgType": "Kinetic",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Tent, two-person",
@@ -3062,7 +3241,8 @@
 			"weight": 5.0,
 			"entries": [
 				"Utility ({@item Tent, two-person|sw5e-phb})."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Thermal detonator",
@@ -3074,7 +3254,8 @@
 			"weight": 1.0,
 			"entries": [
 				"Thermal detonators are unique in that can only be turned off by whoever turned them on. They can be set to detonate on impact or with a timer that causes them to explode on {@variantrule Initiative|sw5e-phb|initiative} count 20 (losing all {@variantrule Initiative|sw5e-phb|initiative} ties). As an action, you can prime and throw a grenade at a point you can see within 30 feet + your Strength modifier x 5. Each creature within 20 feet must make a DC 14 Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. A creature takes 2d6 fire and 2d10 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked {@condition Prone|sw5e-phb|prone}."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Tinker's implements",
@@ -3086,7 +3267,8 @@
 			"entries": [
 				"Tool ({@item Tinker's implements|sw5e-phb})."
 			],
-			"weight": 0.0
+			"weight": 0.0,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Tracker utility vest",
@@ -3098,7 +3280,8 @@
 			"weight": 3.0,
 			"entries": [
 				"A utility vest is a sleeveless item of clothing that includes several evenly-distributed pockets, popular among hunters, smugglers, and adventurers. The vest is made of leathery, hide material to resist rips, corrosion and water. The wearer can carry up to 10 light items (up to 1.00 lb each) without increasing their total encumbrance."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Trapper's kit",
@@ -3110,7 +3293,8 @@
 			"weight": 0.0,
 			"entries": [
 				"Trapper's kits can create, disarm, and disassemble traps."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Traumakit",
@@ -3122,7 +3306,8 @@
 			"weight": 3.0,
 			"entries": [
 				"A common {@item Traumakit|sw5e-phb|traumakit} is stocked with essentials for the treatment of wounds. A {@item Traumakit|sw5e-phb|traumakit} has five uses. As an action, you can expend a use of the kit to stabilize a creature that has 0 {@variantrule Hit Points|sw5e-phb|hit points}, without needing to make a Wisdom ({@skill Medicine|sw5e-phb}) check."
-			]
+			],
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Tripod",
@@ -3135,7 +3320,8 @@
 			"entries": [
 				"A {@item Tripod|sw5e-phb|tripod} is a device mounted to a two-handed {@filter blaster|items|firearm=true} that lacks the fixed property to offer increased stability. Over the course of 1 minute, you can deploy or collapse the {@item Tripod|sw5e-phb|tripod}. While deployed, you ignore the Strength requirement on the attached {@filter blaster|items|firearm=true} with the strength property, and your {@variantrule Speed|sw5e-phb|speed} is reduced to 0. Additionally, while deployed, you have a +10 bonus to {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being disarmed of the weapon."
 			],
-			"bonusSavingThrow": "+1"
+			"bonusSavingThrow": "+1",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Vibroaxe",
@@ -3156,7 +3342,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d12",
-			"dmgType": "Kinetic"
+			"dmgType": "Kinetic",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Vibroblade",
@@ -3176,7 +3363,8 @@
 			"weaponCategory": "Martial",
 			"dmg1": "1d8",
 			"dmgType": "Kinetic",
-			"dmg2": "1d10"
+			"dmg2": "1d10",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Vibrodagger",
@@ -3198,7 +3386,8 @@
 			"weaponCategory": "Simple",
 			"dmg1": "1d4",
 			"dmgType": "Kinetic",
-			"range": "20/60"
+			"range": "20/60",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Vibrodart",
@@ -3220,7 +3409,8 @@
 			"weaponCategory": "Simple",
 			"dmg1": "1d4",
 			"dmgType": "Kinetic",
-			"range": "20/60"
+			"range": "20/60",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Vibroknuckler",
@@ -3240,7 +3430,8 @@
 			"weapon": true,
 			"weaponCategory": "Simple",
 			"dmg1": "1d6",
-			"dmgType": "Kinetic"
+			"dmgType": "Kinetic",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Vibromace",
@@ -3261,7 +3452,8 @@
 			"weapon": true,
 			"weaponCategory": "Simple",
 			"dmg1": "1d10",
-			"dmgType": "Kinetic"
+			"dmgType": "Kinetic",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Vibropike",
@@ -3283,7 +3475,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d10",
-			"dmgType": "Kinetic"
+			"dmgType": "Kinetic",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Vibrorapier",
@@ -3302,7 +3495,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d8",
-			"dmgType": "Kinetic"
+			"dmgType": "Kinetic",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Vibrospear",
@@ -3324,7 +3518,8 @@
 			"dmg1": "1d6",
 			"dmgType": "Kinetic",
 			"dmg2": "2d4",
-			"range": "25/75"
+			"range": "25/75",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Vibrostaff",
@@ -3344,7 +3539,8 @@
 			"weaponCategory": "Simple",
 			"dmg1": "1d6",
 			"dmgType": "Kinetic",
-			"dmg2": "2d4"
+			"dmg2": "2d4",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Vibrosword",
@@ -3365,7 +3561,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "2d6",
-			"dmgType": "Kinetic"
+			"dmgType": "Kinetic",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Vibrowhip",
@@ -3385,7 +3582,8 @@
 			"weapon": true,
 			"weaponCategory": "Martial",
 			"dmg1": "1d4",
-			"dmgType": "Kinetic"
+			"dmgType": "Kinetic",
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Weave armor",
@@ -3401,7 +3599,8 @@
 			"armor": true,
 			"ac": "14",
 			"stealth": false,
-			"strength": null
+			"strength": null,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Wrist launcher",
@@ -3426,7 +3625,8 @@
 			"reload": 1,
 			"range": "30/120",
 			"dmgType": "Unknown",
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Wristblaster",
@@ -3455,7 +3655,8 @@
 			"entries": [
 				"{@dice d4} energy damage. Properties: Disguised; fixed; light; {@item Power cell|sw5e-phb|power cell} (range 30/120); reload 8."
 			],
-			"ammunition": true
+			"ammunition": true,
+			"currencyConversion": "Credits"
 		},
 		{
 			"name": "Wristpad",
@@ -3467,7 +3668,8 @@
 			"weight": 2.0,
 			"entries": [
 				"A {@item Wristpad|sw5e-phb|wristpad} is a harness with an integrated {@item Datapad|sw5e-phb|datapad} and holoprojector interface that fits on the forearm and includes self-charging battery packs."
-			]
+			],
+			"currencyConversion": "Credits"
 		}
 	]
 }

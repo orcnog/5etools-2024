@@ -1,0 +1,690 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-wh",
+				"abbreviation": "WH",
+				"full": "SW5e: Wretched Hives",
+				"url": "homebrew/sw5e/book/book-sw5e-wh.json",
+				"color": "#bb8833",
+				"authors": [],
+				"convertedBy": [
+					"cursor"
+				]
+			}
+		],
+		"currencyConversions": {
+			"Credits": [
+				{
+					"coin": "cr",
+					"mult": 0.1,
+					"isFallback": true
+				}
+			]
+		}
+	},
+	"itemProperty": [
+		{
+			"abbreviation": "BIT",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Biting",
+					"entries": [
+						"This weapon's damage becomes acid. Additionally, when you would make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} with a weapon with the biting property, you can instead force the target to make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your bonus to attacks with the weapon, or the biting number, whichever is lower). If you would have {@variantrule Advantage|sw5e-phb|advantage} on your {@variantrule Attack Roll|sw5e-phb|attack roll}, the creature instead has {@variantrule Disadvantage|sw5e-phb|disadvantage} on their {@variantrule Saving Throw|sw5e-phb|saving throw}, and if you would have {@variantrule Disadvantage|sw5e-phb|disadvantage} on your {@variantrule Attack Roll|sw5e-phb|attack roll}, the creature instead has {@variantrule Advantage|sw5e-phb|advantage} on their {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the first attack it makes before the end of its next turn has {@variantrule Disadvantage|sw5e-phb|disadvantage}. If damage dealt by this weapon reduces a creature to 0 {@variantrule Hit Points|sw5e-phb|hit points}, it must make a DC 13 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, it dies immediately without making {@variantrule Death Saving Throw|sw5e-phb|death saving throws}. A disintegrated creature and everything unenhanced it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BRT",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Bright",
+					"entries": [
+						"This weapon's damage becomes fire, and its luminous property sheds bright light in a 5-foot radius and dim light for an additional 5 feet while activated, instead of only dim light in a 5-foot radius. Additionally, when you would make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} with a weapon with the bright property, you can instead force the target to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your bonus to attacks with the weapon, or the bright number, whichever is lower). If you would have {@variantrule Advantage|sw5e-phb|advantage} on your {@variantrule Attack Roll|sw5e-phb|attack roll}, the creature instead has {@variantrule Disadvantage|sw5e-phb|disadvantage} on their {@variantrule Saving Throw|sw5e-phb|saving throw}, and if you would have {@variantrule Disadvantage|sw5e-phb|disadvantage} on your {@variantrule Attack Roll|sw5e-phb|attack roll}, the creature instead has {@variantrule Advantage|sw5e-phb|advantage} on their {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the creature takes additional damage of the same type at the start of its next turn equal to your governing ability modifier."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.bright}})"
+		},
+		{
+			"abbreviation": "BRU",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Brutal",
+					"entries": [
+						"When you score a {@variantrule Critical Hit|sw5e-phb|critical hit} with a weapon with the brutal property, you roll a number of additional weapon damage dice equal to the brutal number."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.brutal}})"
+		},
+		{
+			"abbreviation": "COR",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Corruption",
+					"entries": [
+						"This weapon's damage becomes necrotic, and it loses the luminous property if it has it. Additionally, when you would make a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} with a weapon with the corruption property, you can instead force the target to make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your bonus to attacks with the weapon, or the corruption number, whichever is lower). If you would have {@variantrule Advantage|sw5e-phb|advantage} on your {@variantrule Attack Roll|sw5e-phb|attack roll}, the creature instead has {@variantrule Disadvantage|sw5e-phb|disadvantage} on their {@variantrule Saving Throw|sw5e-phb|saving throw}, and if you would have {@variantrule Disadvantage|sw5e-phb|disadvantage} on your {@variantrule Attack Roll|sw5e-phb|attack roll}, the creature instead has {@variantrule Advantage|sw5e-phb|advantage} on their {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit, and the creature cannot regain {@variantrule Hit Points|sw5e-phb|hit points} until the start of your next turn."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.corruption}})"
+		},
+		{
+			"abbreviation": "DEF",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Defensive",
+					"entries": [
+						"When you make your first attack on your turn with a weapon with the defensive property, you can choose to suffer a penalty to attack and damage rolls with that weapon up to the defensive number. If you do so, you gain the same bonus to AC. These effects last until the start of your next turn, as long as you're holding the weapon."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.defensive}})"
+		},
+		{
+			"abbreviation": "DIR",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Dire",
+					"entries": [
+						"Before you make a {@variantrule Attack Roll|sw5e-phb|weapon attack} with a weapon with the dire property, you can choose to suffer a penalty to the {@variantrule Attack Roll|sw5e-phb|attack roll} up to the dire number. If you do so and you hit with it, you gain an equivalent bonus to the damage roll."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.dire}})"
+		},
+		{
+			"abbreviation": "DSA",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disarming",
+					"entries": [
+						"When you score a {@variantrule Critical Hit|sw5e-phb|critical hit} with a weapon with the disarming property against a creature that is holding an object, you can attempt to disarm the target (no action required). If the target is no more than one size larger than you (your size or smaller if your weapon has the light property), it must succeed on a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your bonus to attacks with the weapon) or it drops an object of your choice at its feet."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DSN",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disintegrate",
+					"entries": [
+						"When a creature is reduced to 0 {@variantrule Hit Points|sw5e-phb|hit points} by a weapon with the {@spell Disintegrate|sw5e-phb|disintegrate} property, it must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}, DC equal to the {@spell Disintegrate|sw5e-phb|disintegrate} number. On a failed save, it dies immediately without making {@variantrule Death Saving Throw|sw5e-phb|death saving throws}. A disintegrated creature and everything unenhanced it is wearing or carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.{@spell Disintegrate|sw5e-phb|disintegrate}}})"
+		},
+		{
+			"abbreviation": "DSR",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disruptive",
+					"entries": [
+						"When a creature is forced to make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} to maintain {@variantrule Concentration|sw5e-phb|concentration} due to taking damage from a weapon with the disruptive property, the DC for the check equals 10 or the full damage taken, whichever number is higher, instead of only half."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "KEN",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Keen",
+					"entries": [
+						"When you make a {@variantrule Attack Roll|sw5e-phb|weapon attack} with a weapon with the keen property, the {@variantrule Critical Hit|sw5e-phb|critical hit} range increases by an amount equal to the keen number."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.keen}})"
+		},
+		{
+			"abbreviation": "MIG",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mighty",
+					"entries": [
+						"When making an attack with a mighty weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "NEU",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Neuralizing",
+					"entries": [
+						"When you hit a creature with a weapon with the neuralizing property, you can force it to make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw}, DC equal to the neuralizing number. On a failed save, the creature takes an additional 1d4 psychic damage and becomes {@condition Frightened|sw5e-phb} of you until the start of its next turn."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.neuralizing}})"
+		},
+		{
+			"abbreviation": "PRC",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Piercing",
+					"entries": [
+						"Before you make a {@variantrule Attack Roll|sw5e-phb|weapon attack} with a weapon with the piercing property, you can choose to gain a bonus to the {@variantrule Attack Roll|sw5e-phb|attack roll} up to the piercing number. If you do so and you hit with it, you suffer an equivalent penalty to the damage roll."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.piercing}})"
+		},
+		{
+			"abbreviation": "SHO",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Shocking",
+					"entries": [
+						"When you hit a creature with a weapon with the shocking property, you can force it to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}, DC equal to the shocking number. On a failed save, the creature takes an additional 1d4 lightning damage and becomes {@condition Shocked|sw5e-phb|shocked} until the end of its next turn."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.shocking}})"
+		},
+		{
+			"abbreviation": "SIL",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Silent",
+					"entries": [
+						"When you make a ranged {@variantrule Attack Roll|sw5e-phb|weapon attack} with a weapon with the silent property while hidden, it does not automatically reveal your presence. Make a Dexterity ({@skill Stealth|sw5e-phb}) check contested by your targets' Wisdom ({@skill Perception|sw5e-phb}) check. On a success, you remain hidden."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SMT",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Smart",
+					"entries": [
+						"This weapon ignores your Dexterity score and {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. Two numbers appear in parentheses with the propertyΓÇöthe first is the weapon's Dexterity score, and the second is the weapon's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}. The weapon uses these values instead of yours when you make attack and damage rolls with it. If you lack proficiency with the weapon, the weapon does not benefit from its {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.smart}})"
+		},
+		{
+			"abbreviation": "SON",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Sonorous",
+					"entries": [
+						"When you hit a creature with a weapon with the sonorous property, you can force it to make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}, DC equal to the sonorous number. On a failed save, the creature takes an additional 1d4 sonic damage and becomes {@condition Deafened|sw5e-phb|deafened} until the end of its next turn."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.sonorous}})"
+		},
+		{
+			"abbreviation": "SWI",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Switch",
+					"entries": [
+						"A weapon with the switch property can deal an alternate type of damage. A damage value appears in parentheses appears with the property-the damage when the weapon uses its alternate damage type. On your turn, you can use your object interaction to change the weapon's damage type."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "VSC",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Vicious",
+					"entries": [
+						"Whenever you deal damage with a weapon with the vicious property and roll the maximum on a weapon damage die, you gain a bonus to damage equal to the vicious number."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.vicious}})"
+		},
+		{
+			"abbreviation": "ABS",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Absorptive",
+					"entries": [
+						"When you are wearing armor or wielding a {@item Shield|sw5e-phb|shield} with the absorptive property, damage that you take from weapons is reduced by an amount equal to the absorptive number. If this would reduce the damage to 0, the damage is instead reduced to 1."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.absorptive}})"
+		},
+		{
+			"abbreviation": "AGI",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Agile",
+					"entries": [
+						"While wearing armor or wielding a {@item Shield|sw5e-phb|shield} with the agile property, your Dexterity score becomes equal to the agile number. If your Dexterity is already equal to or greater than the agile number, it has no effect on you."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "ANC",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Anchor",
+					"entries": [
+						"A {@item Shield|sw5e-phb|shield} with the anchor property can be used to {@variantrule Cover|sw5e-phb|provide cover}. As an action, you can anchor or recover the {@item Shield|sw5e-phb|shield}. While anchored, you gain no benefit from a {@item Shield|sw5e-phb|shield}, and it does not require the use of a hand. Instead, while anchored, a light {@item Shield|sw5e-phb|shield} provides one-quarter {@variantrule Cover|sw5e-phb|cover}, a medium {@item Shield|sw5e-phb|shield} provides {@variantrule Cover|sw5e-phb|half cover}, and a heavy {@item Shield|sw5e-phb|shield} provides three-quarters {@variantrule Cover|sw5e-phb|cover}."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AVO",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Avoidant",
+					"entries": [
+						"When wearing armor or wielding a {@item Shield|sw5e-phb|shield} with the avoidant property and a creature makes an attack against you, the {@variantrule Critical Hit|sw5e-phb|critical hit} range decreases by an amount equal to the avoidant number, to a minimum of 1."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.avoidant}})"
+		},
+		{
+			"abbreviation": "BAR",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Barbed",
+					"entries": [
+						"When you succeed on a Strength ({@skill Athletics|sw5e-phb}) check to initiate or maintain a grapple while wearing armor with the barbed property, the creature takes kinetic damage using the barbed damage (which appears in parentheses with the property) + your Strength modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "CHG",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Charging",
+					"entries": [
+						"When you take damage while wearing armor or wielding a {@item Shield|sw5e-phb|shield} with the charging property, you gain a {@optfeature Charge|sw5e-phb|charge}. You can store a maximum number of charges equal to the charging number, and the charges last for 1 minute. The next time you hit with a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} while you have charges, you deal additional damage of the same type as the weapon's damage equal to the number of charges stored, and the charges are expended."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.charging}})"
+		},
+		{
+			"abbreviation": "CON",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Concealing",
+					"entries": [
+						"While wielding a {@item Shield|sw5e-phb|shield} with the concealing property, you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth|sw5e-phb}) checks that rely on sight."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "CMB",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Cumbersome",
+					"entries": [
+						"While wearing armor or wielding a {@item Shield|sw5e-phb|shield} with the cumbersome property, your {@variantrule Speed|sw5e-phb|speed} is reduced by 5."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "GAU",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Gauntleted",
+					"entries": [
+						"While wearing armor with the gauntleted property, your {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} deal kinetic damage using the gauntleted damage (which appears in parentheses with the property) + your Strength modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "IMB",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Imbalanced",
+					"entries": [
+						"When you are critically hit while wielding a {@item Shield|sw5e-phb|shield} with the imbalanced property, you can't take reactions until the start of your next turn, and you gain no AC benefit from your {@item Shield|sw5e-phb|shield} against the next attack against you before the start of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "IMP",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Impermeable",
+					"entries": [
+						"Armor with the impermeable property functions as an {@item Enviro-suit|sw5e-phb|enviro-suit}, {@item Flight suit|sw5e-phb|flight suit}, and water suit."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "INS",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Insulated",
+					"entries": [
+						"When you make a {@variantrule Saving Throw|sw5e-phb|saving throw} against an effect that would deal ion or lightning damage while wearing armor or wielding a {@item Shield|sw5e-phb|shield} with the insulated property, you can treat a {@dice d20} roll of below the insulated number as the insulated number."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.insulated}})"
+		},
+		{
+			"abbreviation": "INT",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Interlocking",
+					"entries": [
+						"While wielding a {@item Shield|sw5e-phb|shield} with the interlocking property within 5 feet of a friendly creature who is also wielding a {@item Shield|sw5e-phb|shield} with the interlocking property, you can both use your reactions on either of your turns to interlock the {@item Shield|sw5e-phb|shields}. While interlocked, both creatures gain a bonus to AC equal to the interlocking number. If at any point the creatures are more than 5 feet from each other, the {@item Shield|sw5e-phb|shields} immediately de-interlock, and this effect ends."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LAM",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Lambent",
+					"entries": [
+						"While wielding a {@item Shield|sw5e-phb|shield} with the lambent property, you can use a {@variantrule Bonus Action|sw5e-phb} to activate or deactivate the {@item Shield|sw5e-phb|shield}'s light. While active, the {@item Shield|sw5e-phb|shield} sheds bright light in a 5-foot radius and dim light for an additional 5 feet. Additionally, Dexterity ({@skill Stealth|sw5e-phb}) checks made while the {@item Shield|sw5e-phb|shield}'s light is active that rely on sight have {@variantrule Disadvantage|sw5e-phb|disadvantage}."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LIG",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Lightweight",
+					"entries": [
+						"Armor and {@item Shield|sw5e-phb|shields} with the lightweight property have their weight reduced by half."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MAG",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Magnetic",
+					"entries": [
+						"While you are wielding a {@item Shield|sw5e-phb|shield} with the magnetic property and a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} misses you by an amount less than or equal to your bonus to AC from your {@item Shield|sw5e-phb|shield}, the attacking creature must make a Strength check, DC equal to the magnetic number. On a failed save, the creature's weapon adheres to the {@item Shield|sw5e-phb|shield}. As an action, a creature can repeat this check. On a success, the weapon is freed."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "OBS",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Obscured",
+					"entries": [
+						"While wearing armor or wielding a {@item Shield|sw5e-phb|shield} with the obscured property, electronic sensors and cameras have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom ({@skill Perception|sw5e-phb}) and Intelligence ({@skill Investigation|sw5e-phb}) checks against you that rely on sight."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "POW",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Powered",
+					"entries": [
+						"While wearing armor with the powered property, your Strength score becomes equal to the powered number. If your Strength is already equal to or greater than the powered number, it has no effect on you."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "REA",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reactive",
+					"entries": [
+						"When you are wearing armor with the reactive property and a creature hits you with an {@variantrule Attack Roll|sw5e-phb|attack roll}, you gain a bonus to AC against the next attack from that creature before the start of your next turn equal to the reactive number."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "REG",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Regulated",
+					"entries": [
+						"When you are wearing armor or wielding a {@item Shield|sw5e-phb|shield} with the regulated property and a creature rolls the maximum on a weapon damage die against you, they must reroll and use the new roll, even if the new roll is the maximum on the weapon damage die."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "REI",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reinforced",
+					"entries": [
+						"When you make a long jump while wearing armor with the reinforced property, you can {@variantrule Cover|sw5e-phb|cover} a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RES",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Responsive",
+					"entries": [
+						"While you are wielding a {@item Shield|sw5e-phb|shield} with the responsive property and an attack misses you by an amount less than or equal to your bonus to AC from your {@item Shield|sw5e-phb|shield}, you gain a bonus to AC against the next attack from that creature before the start of your next turn equal to the responsive number."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RIG",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Rigid",
+					"entries": [
+						"While wearing armor with the rigid property, you add half your Dexterity modifier (rounded down), instead of your full Dexterity modifier, to Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws} you make. If your Dexterity modifier is negative, you instead subtract the full modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SIL",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Silent",
+					"entries": [
+						"While wearing armor with the silent property, you have {@variantrule Advantage|sw5e-phb|advantage} on Dexterity ({@skill Stealth|sw5e-phb}) checks that rely on sound."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SPK",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Spiked",
+					"entries": [
+						"When you succeed on a Strength ({@skill Athletics|sw5e-phb}) check to shove or trip a creature while wielding a {@item Shield|sw5e-phb|shield} with the spiked property, the creature takes kinetic damage using the spiked damage (which appears in parentheses with the property) + your Strength modifier. If you use a {@item Shield|sw5e-phb|shield} with the spiked property as an improvised weapon, the damage increases by one step (from {@dice d4} to {@dice d6}, {@dice d6} to {@dice d8}, or {@dice d8} to 2d4)."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "STE",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Steadfast",
+					"entries": [
+						"While wearing armor or wielding a {@item Shield|sw5e-phb|shield} with the steadfast property, you have {@variantrule Advantage|sw5e-phb|advantage} on Strength checks and Strength {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being moved."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "VSA",
+			"source": "sw5e-wh",
+			"page": 0,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Versatile",
+					"entries": [
+						"A {@item Shield|sw5e-phb|shield} with the versatile property can be used with one or two hands. While wielded in two hands, you gain an additional bonus to AC equal to the versatile number."
+					]
+				}
+			]
+		}
+	]
+}
