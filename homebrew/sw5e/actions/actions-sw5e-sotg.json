@@ -1,0 +1,358 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-sotg",
+				"abbreviation": "SotG",
+				"full": "SW5e: Starships of the Galaxy",
+				"url": "homebrew/sw5e/book/book-sw5e-sotg.json",
+				"color": "#5577ee",
+				"authors": [],
+				"convertedBy": [
+					"cursor"
+				]
+			}
+		]
+	},
+	"action": [
+		{
+			"name": "Attack Run",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"seeAlsoAction": [
+				"Helm|sw5e-sotg"
+			],
+			"entries": [
+				"When you move at least 150 feet towards a target, you may declare an Attack Run. You must have a clear path towards your target, and nothing should hinder your path (such as {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain} or obstacles). If you finish this movement within range of your target, you may follow it with one of these options: {@b Fire.} You may make a ship {@variantrule Attack Roll|sw5e-sotg|weapon attack} from a forward-facing limited arc without suffering the normal {@variantrule Disadvantage|sw5e-sotg|disadvantage}. If you attack with a tertiary or quaternary weapon, the attack deals additional damage equal to the distance of your attack run divided by 50, up to your ship's Strength modifier (minimum of 1).",
+				"{@b Ram.} You may make a Ram attempt with {@variantrule Advantage|sw5e-sotg|advantage} on your Strength ({@skill Ram|sw5e-sotg}) check. If you succeed, the target ship takes additional damage equal to the distance of your Attack Run divided by 50, up to your ship's Constitution modifier (minimum of +1)."
+			]
+		},
+		{
+			"name": "Boost",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"You can attempt to boost a function of your ship. Each function can only be boosted once on each of the ship's turns, and each time you try to boost a function of the ship after the first, the DC increases by 5, cumulatively, until the start of your next turn.",
+				{
+					"type": "entries",
+					"name": "Boost Engines",
+					"entries": [
+						"You can attempt to boost your {@variantrule Speed|sw5e-sotg|speed}. When you take the Boost Engines action, you make a DC 10 Strength ({@skill Boost|sw5e-sotg}) check. On a success you increase your {@variantrule Speed|sw5e-sotg|speed} by 50 until the end of your ship's next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Boost Shields",
+					"entries": [
+						"You can attempt to boost your shields. When you take the Boost Shields action, you make a DC 10 Strength ({@skill Boost|sw5e-sotg}) check. On a success, you roll a shield die, without expending it, and gain temporary {@variantrule Shield Points|sw5e-sotg|shield points} equal to the result that last until the start of your ship's next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Boost Weapons",
+					"entries": [
+						"You can attempt to boost your weapon output. When you take the Boost Weapons action, the next time this turn your ship would deal damage, you make a DC 10 Strength ({@skill Boost|sw5e-sotg}) check. On a success, you have {@variantrule Advantage|sw5e-sotg|advantage} on the damage roll."
+					]
+				}
+			]
+		},
+		{
+			"name": "Conceal",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"seeAlsoAction": [
+				"Helm|sw5e-sotg"
+			],
+			"entries": [
+				"When you take the Conceal action, you make a Dexterity ({@skill Hide|sw5e-sotg}) check in an attempt to hide your ship, following the rules in chapter 7 for hiding."
+			]
+		},
+		{
+			"name": "Detect",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take this action, you devote your attention to finding something. Depending on the nature of your detection, the DM might have you make a Wisdom ({@skill Scan|sw5e-sotg}) check or an Intelligence ({@skill Probe|sw5e-sotg}) check."
+			]
+		},
+		{
+			"name": "Direct",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take this action, the creature gains {@variantrule Advantage|sw5e-sotg|advantage} on the next {@variantrule Ability Check|sw5e-sotg|ability check} it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. Alternatively, you can direct a friendly creature that can hear you in attacking another target. If your ally attacks the target before the start of your next turn, the first {@variantrule Attack Roll|sw5e-sotg|attack roll} is made with {@variantrule Advantage|sw5e-sotg|advantage}. This action can be taken multiple times on a ship's turn."
+			]
+		},
+		{
+			"name": "Dogfight",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"seeAlsoAction": [
+				"Helm|sw5e-sotg"
+			],
+			"entries": [
+				"When you engage a single enemy, you duck and weave, vying for a good shot while avoiding theirs. You choose a target and make an opposed Dexterity ({@skill Maneuvering|sw5e-sotg}) check. On a success, you cause the next attack made against your ship by the target to suffer from {@variantrule Disadvantage|sw5e-sotg|disadvantage}, but you grant the next attack made against your ship by a different target {@variantrule Advantage|sw5e-sotg|advantage}. Additionally, you can perform a primary or tertiary {@variantrule Attack Roll|sw5e-sotg|weapon attack} from a forward-facing limited {@variantrule Firing Arc|sw5e-sotg|firing arc} against that ship without suffering the normal {@variantrule Disadvantage|sw5e-sotg|disadvantage}."
+			]
+		},
+		{
+			"name": "Evade",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"seeAlsoAction": [
+				"Helm|sw5e-sotg"
+			],
+			"entries": [
+				"When you take the Evade action, you focus entirely on avoiding attacks. Until the start of your next turn, any {@variantrule Attack Roll|sw5e-sotg|attack roll} made against you has {@variantrule Disadvantage|sw5e-sotg|disadvantage} if you can see the attacker on your instruments, and you make Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws} with {@variantrule Advantage|sw5e-sotg|advantage}.",
+				"This action affects your entire ship: any {@variantrule Ability Check|sw5e-sotg|ability check} or attack made by your ship or anyone on it has {@variantrule Disadvantage|sw5e-sotg|disadvantage} until the end of your ship's next turn. The effects of Evade end if you are {@condition Incapacitated|sw5e-phb} or if your {@variantrule Speed|sw5e-sotg|speed} drops to 0."
+			]
+		},
+		{
+			"name": "Fire",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"The most common action to take in combat is the {@action Fire|sw5e-sotg} action. With this action, you can make an attack (or attacks) with one ship weapon. This action may be taken multiple times on a ship's turn, but normally only once per weapon. A crewmember firing from the helm has {@variantrule Disadvantage|sw5e-sotg|disadvantage} on {@variantrule Attack Roll|sw5e-sotg|attack rolls} with primary and secondary weapons."
+			]
+		},
+		{
+			"name": "Fly",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"seeAlsoAction": [
+				"Helm|sw5e-sotg"
+			],
+			"entries": [
+				"When you take the Fly action, you gain extra movement for the current turn. The increase equals your {@variantrule Speed|sw5e-sotg|speed}, after applying any modifiers.",
+				"This action affects your ship's ability to stay on target: any {@variantrule Ability Check|sw5e-sotg|ability check} or attack made by your ship or anyone on it has {@variantrule Disadvantage|sw5e-sotg|disadvantage} until the end of your ship's next turn."
+			]
+		},
+		{
+			"name": "Harass",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Harass action, make an opposed Dexterity ({@skill Maneuvering|sw5e-sotg}) check against a target within one size category of you and within normal range of at least one forward-facing primary weapon. That weapon cannot be fired this turn.",
+				"On a success, if the target voluntarily leaves its space before the start of your next turn, it takes damage as though it suffered a {@variantrule Critical Hit|sw5e-sotg|critical hit} with the harassing weapon."
+			]
+		},
+		{
+			"name": "Hard Turn",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"seeAlsoAction": [
+				"Helm|sw5e-sotg"
+			],
+			"entries": [
+				"When you take the Hard Turn action, you turn your ship 90 degrees without expending any of your flying {@variantrule Speed|sw5e-sotg|speed}."
+			]
+		},
+		{
+			"name": "Helm",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take this action, you choose from the following options. Only one Helm action can be taken per turn.",
+				{
+					"type": "entries",
+					"name": "Attack Run",
+					"entries": [
+						"When you move at least 150 feet towards a target, you may declare an Attack Run. You must have a clear path towards your target, and nothing should hinder your path (such as {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain} or obstacles). If you finish this movement within range of your target, you may follow it with one of these options: {@b Fire.} You may make a ship {@variantrule Attack Roll|sw5e-sotg|weapon attack} from a forward-facing limited arc without suffering the normal {@variantrule Disadvantage|sw5e-sotg|disadvantage}. If you attack with a tertiary or quaternary weapon, the attack deals additional damage equal to the distance of your attack run divided by 50, up to your ship's Strength modifier (minimum of 1).",
+						"{@b Ram.} You may make a Ram attempt with {@variantrule Advantage|sw5e-sotg|advantage} on your Strength ({@skill Ram|sw5e-sotg}) check. If you succeed, the target ship takes additional damage equal to the distance of your Attack Run divided by 50, up to your ship's Constitution modifier (minimum of +1)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Conceal",
+					"entries": [
+						"When you take the Conceal action, you make a Dexterity ({@skill Hide|sw5e-sotg}) check in an attempt to hide your ship, following the rules in chapter 7 for hiding."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dogfight",
+					"entries": [
+						"When you engage a single enemy, you duck and weave, vying for a good shot while avoiding theirs. You choose a target and make an opposed Dexterity ({@skill Maneuvering|sw5e-sotg}) check. On a success, you cause the next attack made against your ship by the target to suffer from {@variantrule Disadvantage|sw5e-sotg|disadvantage}, but you grant the next attack made against your ship by a different target {@variantrule Advantage|sw5e-sotg|advantage}. Additionally, you can perform a primary or tertiary {@variantrule Attack Roll|sw5e-sotg|weapon attack} from a forward-facing limited {@variantrule Firing Arc|sw5e-sotg|firing arc} against that ship without suffering the normal {@variantrule Disadvantage|sw5e-sotg|disadvantage}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Evade",
+					"entries": [
+						"When you take the Evade action, you focus entirely on avoiding attacks. Until the start of your next turn, any {@variantrule Attack Roll|sw5e-sotg|attack roll} made against you has {@variantrule Disadvantage|sw5e-sotg|disadvantage} if you can see the attacker on your instruments, and you make Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws} with {@variantrule Advantage|sw5e-sotg|advantage}.",
+						"This action affects your entire ship: any {@variantrule Ability Check|sw5e-sotg|ability check} or attack made by your ship or anyone on it has {@variantrule Disadvantage|sw5e-sotg|disadvantage} until the end of your ship's next turn. The effects of Evade end if you are {@condition Incapacitated|sw5e-phb} or if your {@variantrule Speed|sw5e-sotg|speed} drops to 0."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fly",
+					"entries": [
+						"When you take the Fly action, you gain extra movement for the current turn. The increase equals your {@variantrule Speed|sw5e-sotg|speed}, after applying any modifiers.",
+						"This action affects your ship's ability to stay on target: any {@variantrule Ability Check|sw5e-sotg|ability check} or attack made by your ship or anyone on it has {@variantrule Disadvantage|sw5e-sotg|disadvantage} until the end of your ship's next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Harass",
+					"entries": [
+						"When you take the Harass action, make an opposed Dexterity ({@skill Maneuvering|sw5e-sotg}) check against a target within one size category of you and within normal range of at least one of your forward-facing primary weapons. This weapon cannot be fired this turn. On a success, if the target voluntarily leaves its square before the beginning of your next turn, it takes damage as though it suffered a {@variantrule Critical Hit|sw5e-sotg|critical hit} with the primary weapon used to harass."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hard Turn",
+					"entries": [
+						"When you take the Hard Turn action, you turn your ship 90 degrees without expending any of your flying {@variantrule Speed|sw5e-sotg|speed}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ram",
+					"entries": [
+						"When you take the Ram action, you make a Strength ({@skill Ram|sw5e-sotg}) check opposed by the target's Dexterity ({@skill Maneuvering|sw5e-sotg}) check. On a failed check the ram fails. On a success, both you and the target ship take kinetic damage equal to two of your ship's Hull Dice + your ship's Strength modifier. If your ship has {@variantrule Shield Points|sw5e-sotg|shield points} remaining, your ship instead takes half this damage."
+					]
+				}
+			],
+			"seeAlsoAction": [
+				"Attack Run|sw5e-sotg",
+				"Conceal|sw5e-sotg",
+				"Dogfight|sw5e-sotg",
+				"Evade|sw5e-sotg",
+				"Fly|sw5e-sotg",
+				"Hard Turn|sw5e-sotg",
+				"Harass|sw5e-sotg",
+				"Ram|sw5e-sotg"
+			]
+		},
+		{
+			"name": "Interfere",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take this action, you make a Charisma ({@skill Interfere|sw5e-sotg}) check contested by the target's Wisdom ({@skill Scan|sw5e-sotg}) check. If you succeed, the subject has {@variantrule Disadvantage|sw5e-sotg|disadvantage} on the next {@variantrule Ability Check|sw5e-sotg|ability check} or {@variantrule Attack Roll|sw5e-sotg|attack roll} it makes before the start of your next turn. This action can be taken multiple times on a ship's turn."
+			]
+		},
+		{
+			"name": "Patch",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take this action, you make a Constitution ({@skill Patch|sw5e-sotg}) check (DC = 10 or half the ship's missing {@variantrule Hull Points|sw5e-sotg|hull points}, whichever is higher) and expend one Hull Die to repair {@variantrule Hull Points|sw5e-sotg|hull points}. On a failure, you roll the Hull Die twice and take the lesser amount. On a success you roll the Hull Die normally. This action can be taken multiple times on a ship's turn."
+			]
+		},
+		{
+			"name": "Ram",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take the Ram action, you make a Strength ({@skill Ram|sw5e-sotg}) check opposed by the target's Dexterity ({@skill Maneuvering|sw5e-sotg}) check. On a failure, the ram fails.",
+				"On a success, both ships take kinetic damage equal to two of your ship's Hull Dice + your ship's Strength modifier. If your ship has {@variantrule Shield Points|sw5e-sotg|shield points} remaining, your ship takes half this damage instead.",
+				"An Attack Run may allow a Ram with {@variantrule Advantage|sw5e-sotg|advantage} on the Ram check and bonus damage based on run distance (see the {@action Helm|sw5e-sotg} action)."
+			]
+		},
+		{
+			"name": "Regenerate Shields",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"entries": [
+				"When you take this action, you make a Strength ({@skill Boost|sw5e-sotg}) check (DC = 10 or half the ship's missing {@variantrule Shield Points|sw5e-sotg|shield points}, whichever is higher) and expend one shield die. On a failure, you roll the shield die twice and take the lesser amount. On a success you roll the shield die normally. This action can only be taken once each ship turn."
+			]
+		}
+	]
+}

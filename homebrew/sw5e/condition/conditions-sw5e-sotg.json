@@ -21,7 +21,7 @@
 			"source": "sw5e-sotg",
 			"page": 119,
 			"entries": [
-				"A {@condition Blinded|sw5e-sotg|blinded} ship can't see and automatically fails any {@variantrule Ability Check|sw5e-phb|ability check} that relies on sight or the ship's sensors.\r\n- Attack rolls against the ship have {@variantrule Advantage|sw5e-phb|advantage}, and the ship's {@variantrule Attack Roll|sw5e-phb|attack rolls} have {@variantrule Disadvantage|sw5e-phb|disadvantage}."
+				"A {@condition Blinded|sw5e-sotg|blinded} ship can't see and automatically fails any {@variantrule Ability Check|sw5e-sotg|ability check} that relies on sight or the ship's sensors.\r\n- Attack rolls against the ship have {@variantrule Advantage|sw5e-sotg|advantage}, and the ship's {@variantrule Attack Roll|sw5e-sotg|attack rolls} have {@variantrule Disadvantage|sw5e-sotg|disadvantage}."
 			]
 		},
 		{
@@ -37,7 +37,7 @@
 			"source": "sw5e-sotg",
 			"page": 119,
 			"entries": [
-				"An {@condition Ionized|sw5e-sotg|ionized} starship has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} and {@variantrule Ability Check|sw5e-phb|ability checks}."
+				"An {@condition Ionized|sw5e-sotg|ionized} starship has {@variantrule Disadvantage|sw5e-sotg|disadvantage} on {@variantrule Attack Roll|sw5e-sotg|attack rolls} and {@variantrule Ability Check|sw5e-sotg|ability checks}."
 			]
 		},
 		{
@@ -45,7 +45,7 @@
 			"source": "sw5e-sotg",
 			"page": 119,
 			"entries": [
-				"An {@condition Invisible|sw5e-sotg|invisible} starship is impossible to see without the aid of powers or a special sense. For the purpose of hiding, the starship is heavily obscured. The starship's location can be detected by any noise it makes or any tracks it leaves.\r\n- Attack rolls against the ship have {@variantrule Disadvantage|sw5e-phb|disadvantage}, and the ship's {@variantrule Attack Roll|sw5e-phb|attack rolls} have {@variantrule Advantage|sw5e-phb|advantage}."
+				"An {@condition Invisible|sw5e-sotg|invisible} starship is impossible to see without the aid of powers or a special sense. For the purpose of hiding, the starship is heavily obscured. The starship's location can be detected by any noise it makes or any tracks it leaves.\r\n- Attack rolls against the ship have {@variantrule Disadvantage|sw5e-sotg|disadvantage}, and the ship's {@variantrule Attack Roll|sw5e-sotg|attack rolls} have {@variantrule Advantage|sw5e-sotg|advantage}."
 			]
 		},
 		{
@@ -53,7 +53,7 @@
 			"source": "sw5e-sotg",
 			"page": 119,
 			"entries": [
-				"A {@condition Shocked|sw5e-sotg|shocked} starship can't take reactions.\r\n- On its turn, a crewmember on a {@condition Shocked|sw5e-sotg|shocked} starship can take either an action or a {@variantrule Bonus Action|sw5e-phb}, but not both."
+				"A {@condition Shocked|sw5e-sotg|shocked} starship can't take reactions.\r\n- On its turn, a crewmember on a {@condition Shocked|sw5e-sotg|shocked} starship can take either an action or a {@variantrule Bonus Action|sw5e-sotg}, but not both."
 			]
 		},
 		{
@@ -81,19 +81,19 @@
 							"rows": [
 								[
 									"1",
-									"{@variantrule Speed|sw5e-phb} reduced by 150 feet"
+									"{@variantrule Speed|sw5e-sotg} reduced by 150 feet"
 								],
 								[
 									"2",
-									"{@variantrule Speed|sw5e-phb} reduced by 250 feet"
+									"{@variantrule Speed|sw5e-sotg} reduced by 250 feet"
 								],
 								[
 									"3",
-									"{@variantrule Speed|sw5e-phb} reduced by 300 feet"
+									"{@variantrule Speed|sw5e-sotg} reduced by 300 feet"
 								],
 								[
 									"4",
-									"{@variantrule Speed|sw5e-phb} reduced to 0, and can't benefit from any bonus to {@variantrule Speed|sw5e-phb|speed}"
+									"{@variantrule Speed|sw5e-sotg} reduced to 0, and can't benefit from any bonus to {@variantrule Speed|sw5e-sotg|speed}"
 								]
 							]
 						}
@@ -106,7 +106,7 @@
 			"source": "sw5e-sotg",
 			"page": 119,
 			"entries": [
-				"A {@condition Stalled|sw5e-sotg|stalled} ship is {@condition Disabled|sw5e-sotg|disabled} (see the {@condition Disabled|sw5e-sotg} condition).\r\n- Any active features controlled by the ship, such as a Tractor Beam or Gravity Well Projector, automatically end.\r\n- The ship automatically fails Strength and Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}.\r\n- Attack rolls against the ship have {@variantrule Advantage|sw5e-phb|advantage}."
+				"A {@condition Stalled|sw5e-sotg|stalled} ship is {@condition Disabled|sw5e-sotg|disabled} (see the {@condition Disabled|sw5e-sotg} condition).\r\n- Any active features controlled by the ship, such as a Tractor Beam or Gravity Well Projector, automatically end.\r\n- The ship automatically fails Strength and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}.\r\n- Attack rolls against the ship have {@variantrule Advantage|sw5e-sotg|advantage}."
 			]
 		},
 		{
@@ -114,7 +114,7 @@
 			"source": "sw5e-sotg",
 			"page": 119,
 			"entries": [
-				"A {@condition Stunned|sw5e-sotg|stunned} ship has 4 {@condition Slowed|sw5e-sotg} Levels.\r\n- The ship automatically fails Strength and Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}.\r\n- Attack rolls against the ship have {@variantrule Advantage|sw5e-phb|advantage}."
+				"A {@condition Stunned|sw5e-sotg|stunned} ship has 4 {@condition Slowed|sw5e-sotg} Levels.\r\n- The ship automatically fails Strength and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}.\r\n- Attack rolls against the ship have {@variantrule Advantage|sw5e-sotg|advantage}."
 			]
 		},
 		{
@@ -136,7 +136,7 @@
 					"rows": [
 						[
 							"1",
-							"{@variantrule Disadvantage|sw5e-phb} on {@variantrule Ability Check|sw5e-phb|ability checks}"
+							"{@variantrule Disadvantage|sw5e-sotg} on {@variantrule Ability Check|sw5e-sotg|ability checks}"
 						],
 						[
 							"2",
@@ -144,7 +144,7 @@
 						],
 						[
 							"3",
-							"{@variantrule Disadvantage|sw5e-phb} on {@variantrule Attack Roll|sw5e-phb|attack rolls} and {@variantrule Saving Throw|sw5e-phb|saving throws}"
+							"{@variantrule Disadvantage|sw5e-sotg} on {@variantrule Attack Roll|sw5e-sotg|attack rolls} and {@variantrule Saving Throw|sw5e-sotg|saving throws}"
 						],
 						[
 							"4",
@@ -178,7 +178,7 @@
 			"source": "sw5e-sotg",
 			"page": 119,
 			"entries": [
-				"A {@condition Used|sw5e-sotg|used} starship's value is reduced by half.\r\n- When a deployed crew member on a {@condition Used|sw5e-sotg|used} starship rolls a 1 on an {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw}, they must make a {@variantrule Destruction Saving Throw|sw5e-sotg}. If the roll is 10 or higher, they succeed. On a failure, the ship suffers 1 level of {@condition System Damage|sw5e-sotg|system damage}."
+				"A {@condition Used|sw5e-sotg|used} starship's value is reduced by half.\r\n- When a deployed crew member on a {@condition Used|sw5e-sotg|used} starship rolls a 1 on an {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw}, they must make a {@variantrule Destruction Saving Throw|sw5e-sotg}. If the roll is 10 or higher, they succeed. On a failure, the ship suffers 1 level of {@condition System Damage|sw5e-sotg|system damage}."
 			]
 		}
 	]

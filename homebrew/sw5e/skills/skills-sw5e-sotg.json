@@ -36,7 +36,7 @@
 					"type": "entries",
 					"name": "Alternate Check",
 					"entries": [
-						"When you would make an Intelligence ({@skill Astrogation|sw5e-sotg}) check, you may instead make an Intelligence ({@skill Technology|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Intelligence modifier."
+						"When you would make an Intelligence ({@skill Astrogation|sw5e-sotg}) check, you may instead make an Intelligence ({@skill Technology|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Intelligence modifier."
 					]
 				}
 			]
@@ -47,7 +47,7 @@
 			"page": 97,
 			"ability": "str",
 			"entries": [
-				"Use the Boost skill when you attempt to push your ship to or beyond its limits. A successful Boost check can break ties in straight-line {@variantrule Speed|sw5e-phb|speed} contests or determine how fast your ship can accelerate to top {@variantrule Speed|sw5e-phb|speed}. You also make Boost checks when taking the boost engines, boost shields, and boost weapons actions."
+				"Use the Boost skill when you attempt to push your ship to or beyond its limits. A successful Boost check can break ties in straight-line {@variantrule Speed|sw5e-sotg|speed} contests or determine how fast your ship can accelerate to top {@variantrule Speed|sw5e-sotg|speed}. You also make Boost checks when taking the boost engines, boost shields, and boost weapons actions."
 			]
 		},
 		{
@@ -74,12 +74,12 @@
 			"page": 97,
 			"ability": "dex",
 			"entries": [
-				"Use the Maneuvering skill to perform tricky maneuvers in combat, deftly fly through an asteroid field, and impress others with flying skill. Your ship is considered proficiently equipped in this skill if the crewmember at the helm is proficient in {@skill Piloting|sw5e-phb}. Your ship is considered expertly equipped if the helm crewmember has {@variantrule Expertise|sw5e-phb|expertise} in {@skill Piloting|sw5e-phb}.",
+				"Use the Maneuvering skill to perform tricky maneuvers in combat, deftly fly through an asteroid field, and impress others with flying skill. Your ship is considered proficiently equipped in this skill if the crewmember at the helm is proficient in {@skill Piloting|sw5e-phb}. Your ship is considered expertly equipped if the helm crewmember has {@variantrule Expertise|sw5e-sotg|expertise} in {@skill Piloting|sw5e-phb}.",
 				{
 					"type": "entries",
 					"name": "Alternate Check",
 					"entries": [
-						"When you would make a Dexterity ({@skill Maneuvering|sw5e-sotg}) check, you may instead make an Intelligence ({@skill Piloting|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Intelligence modifier."
+						"When you would make a Dexterity ({@skill Maneuvering|sw5e-sotg}) check, you may instead make an Intelligence ({@skill Piloting|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Intelligence modifier."
 					]
 				}
 			]
@@ -90,12 +90,12 @@
 			"page": 97,
 			"ability": "con",
 			"entries": [
-				"You can attempt to have the ship patch damage it has taken using one of its Hull Dice. When you take the {@variantrule Patch|sw5e-sotg} action, you make a Constitution ({@skill Patch|sw5e-sotg}) check (DC = 10 or half the ship's missing hull points, whichever is higher). On a failure, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on the Hull Die roll. On a success you roll the Hull Die normally.",
+				"You can attempt to have the ship patch damage it has taken using one of its Hull Dice. When you take the {@action Patch|sw5e-sotg} action, you make a Constitution ({@skill Patch|sw5e-sotg}) check (DC = 10 or half the ship's missing {@variantrule Hull Points|sw5e-sotg|hull points}, whichever is higher). On a failure, you have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on the Hull Die roll. On a success you roll the Hull Die normally.",
 				{
 					"type": "entries",
 					"name": "Alternate Check",
 					"entries": [
-						"When you would make a Constitution ({@skill Patch|sw5e-sotg}) check, you may instead make an Intelligence ({@item Mechanic's kit|sw5e-phb|Mechanic's Kit}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Intelligence modifier."
+						"When you would make a Constitution ({@skill Patch|sw5e-sotg}) check, you may instead make an Intelligence ({@item Mechanic's kit|sw5e-phb|Mechanic's Kit}) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Intelligence modifier."
 					]
 				}
 			]
@@ -106,12 +106,12 @@
 			"page": 97,
 			"ability": "con",
 			"entries": [
-				"Your GM may require a Regulation check when your ship is pushed beyond its natural limits, such as running on low fuel, straining the reactor, holding top {@variantrule Speed|sw5e-phb|speed} for long periods, or keeping life support running when out of fuel.",
+				"Your GM may require a Regulation check when your ship is pushed beyond its natural limits, such as running on low fuel, straining the reactor, holding top {@variantrule Speed|sw5e-sotg|speed} for long periods, or keeping life support running when out of fuel.",
 				{
 					"type": "entries",
 					"name": "Alternate Check",
 					"entries": [
-						"When you would make a Constitution ({@skill Regulation|sw5e-sotg}) check, you may instead make an Intelligence ({@item Mechanic's kit|sw5e-phb|Mechanic's Kit}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Intelligence modifier."
+						"When you would make a Constitution ({@skill Regulation|sw5e-sotg}) check, you may instead make an Intelligence ({@item Mechanic's kit|sw5e-phb|Mechanic's Kit}) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Intelligence modifier."
 					]
 				}
 			]
@@ -136,7 +136,7 @@
 					"type": "entries",
 					"name": "Alternate Check",
 					"entries": [
-						"When you would make an Intelligence ({@skill Probe|sw5e-sotg}) check, you may instead make an Intelligence ({@skill Investigation|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Intelligence modifier."
+						"When you would make an Intelligence ({@skill Probe|sw5e-sotg}) check, you may instead make an Intelligence ({@skill Investigation|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Intelligence modifier."
 					]
 				}
 			]
@@ -152,7 +152,7 @@
 					"type": "entries",
 					"name": "Alternate Check",
 					"entries": [
-						"When you would make a Wisdom ({@skill Scan|sw5e-sotg}) check, you may instead make a Wisdom ({@skill Perception|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Wisdom modifier."
+						"When you would make a Wisdom ({@skill Scan|sw5e-sotg}) check, you may instead make a Wisdom ({@skill Perception|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Wisdom modifier."
 					]
 				}
 			]
@@ -168,7 +168,7 @@
 					"type": "entries",
 					"name": "Alternate Check",
 					"entries": [
-						"When you would make a Charisma ({@skill Impress|sw5e-sotg}) check, you may instead make a Charisma ({@skill Persuasion|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Charisma modifier."
+						"When you would make a Charisma ({@skill Impress|sw5e-sotg}) check, you may instead make a Charisma ({@skill Persuasion|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Charisma modifier."
 					]
 				}
 			]
@@ -184,7 +184,7 @@
 					"type": "entries",
 					"name": "Alternate Check",
 					"entries": [
-						"When you would make a Charisma ({@skill Interfere|sw5e-sotg}) check, you may instead make an Intelligence ({@item Slicer's kit|sw5e-phb|Slicer's Kit}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Intelligence modifier."
+						"When you would make a Charisma ({@skill Interfere|sw5e-sotg}) check, you may instead make an Intelligence ({@item Slicer's kit|sw5e-phb|Slicer's Kit}) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Intelligence modifier."
 					]
 				}
 			]
@@ -195,12 +195,12 @@
 			"page": 97,
 			"ability": "cha",
 			"entries": [
-				"When you attempt to influence someone through the threat of your ship's abilities—{@variantrule Speed|sw5e-phb|speed}, firepower, or toughness—the GM might ask for a Charisma ({@skill Menace|sw5e-sotg}) check.",
+				"When you attempt to influence someone through the threat of your ship's abilities—{@variantrule Speed|sw5e-sotg|speed}, firepower, or toughness—the GM might ask for a Charisma ({@skill Menace|sw5e-sotg}) check.",
 				{
 					"type": "entries",
 					"name": "Alternate Check",
 					"entries": [
-						"When you would make a Charisma ({@skill Menace|sw5e-sotg}) check, you may instead make a Charisma ({@skill Intimidation|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Charisma modifier."
+						"When you would make a Charisma ({@skill Menace|sw5e-sotg}) check, you may instead make a Charisma ({@skill Intimidation|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Charisma modifier."
 					]
 				}
 			]
@@ -216,7 +216,7 @@
 					"type": "entries",
 					"name": "Alternate Check",
 					"entries": [
-						"When you would make a Charisma ({@skill Swindle|sw5e-sotg}) check, you may instead make a Charisma ({@skill Deception|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-phb|disadvantage} using your own Charisma modifier."
+						"When you would make a Charisma ({@skill Swindle|sw5e-sotg}) check, you may instead make a Charisma ({@skill Deception|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Charisma modifier."
 					]
 				}
 			]

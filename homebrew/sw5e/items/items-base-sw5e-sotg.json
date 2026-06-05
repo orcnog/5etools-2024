@@ -24,24 +24,24 @@
 			]
 		}
 	},
-    "itemType": [
-        {
-            "name": "Starship Weapon",
-            "abbreviation": "STW",
-            "source": "sw5e-sotg",
-            "entries": [
-                "A starship weapon is a weapon that is installed on a starship."
-            ]
-        },
-        {
-            "name": "Starship Ammunition",
-            "abbreviation": "STAM",
-            "source": "sw5e-sotg",
-            "entries": [
-                "A starship ammunition is a type of ammunition that is used by starship weapons."
-            ]
-        }
-    ],
+	"itemType": [
+		{
+			"name": "Starship Weapon",
+			"abbreviation": "STW",
+			"source": "sw5e-sotg",
+			"entries": [
+				"A starship weapon is a weapon that is installed on a starship."
+			]
+		},
+		{
+			"name": "Starship Ammunition",
+			"abbreviation": "STAM",
+			"source": "sw5e-sotg",
+			"entries": [
+				"A starship ammunition is a type of ammunition that is used by starship weapons."
+			]
+		}
+	],
 	"itemProperty": [
 		{
 			"abbreviation": "STAMM",
@@ -81,7 +81,7 @@
 					"type": "entries",
 					"name": "Burst",
 					"entries": [
-						"A weapon that has the burst property can spray a 150-foot-cube area within range with shots. Each ship in the area must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your bonus to ranged ship attacks).  On a failure, the ship takes the weapon's normal damage.  The ship takes no damage on a success. This produces an amount of heat or consumes an amount of ammunition as indicated by the burst number. If the ranged ship attack would have {@variantrule Disadvantage|sw5e-phb|disadvantage}, affected targets instead have {@variantrule Advantage|sw5e-phb|advantage}."
+						"A weapon that has the burst property can spray a 150-foot-cube area within range with shots. Each ship in the area must make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC = 8 + your bonus to ranged ship attacks).  On a failure, the ship takes the weapon's normal damage.  The ship takes no damage on a success. This produces an amount of heat or consumes an amount of ammunition as indicated by the burst number. If the ranged ship attack would have {@variantrule Disadvantage|sw5e-sotg|disadvantage}, affected targets instead have {@variantrule Advantage|sw5e-sotg|advantage}."
 					]
 				}
 			]
@@ -95,7 +95,7 @@
 					"type": "entries",
 					"name": "Constitution",
 					"entries": [
-						"A weapon with this special property requires more hull structure to securely hold and use and more cooling capacity to safely operate. While firing it, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} unless you meet the Constitution requirement."
+						"A weapon with this special property requires more hull structure to securely hold and use and more cooling capacity to safely operate. While firing it, you have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on {@variantrule Attack Roll|sw5e-sotg|attack rolls} unless you meet the Constitution requirement."
 					]
 				}
 			]
@@ -109,7 +109,7 @@
 					"type": "entries",
 					"name": "Dire",
 					"entries": [
-						"Before you make an attack with a weapon with the dire property, you can choose to suffer a penalty to the {@variantrule Attack Roll|sw5e-phb|attack roll} up to the dire number. If you do so and you hit with it, you gain the same bonus to the damage roll."
+						"Before you make an attack with a weapon with the dire property, you can choose to suffer a penalty to the {@variantrule Attack Roll|sw5e-sotg|attack roll} up to the dire number. If you do so and you hit with it, you gain the same bonus to the damage roll."
 					]
 				}
 			]
@@ -123,7 +123,7 @@
 					"type": "entries",
 					"name": "Explosive",
 					"entries": [
-						"When a ship is dealt damage by a weapon with the explosive property, creatures inside are forced to make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} to maintain {@variantrule Concentration|sw5e-phb|concentration}.  The DC for the check equals 10 or half the damage taken by the ship, whichever number is higher."
+						"When a ship is dealt damage by a weapon with the explosive property, creatures inside are forced to make a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} to maintain {@variantrule Concentration|sw5e-phb|concentration}.  The DC for the check equals 10 or half the damage taken by the ship, whichever number is higher."
 					]
 				}
 			]
@@ -137,7 +137,7 @@
 					"type": "entries",
 					"name": "Hidden",
 					"entries": [
-						"You have {@variantrule Advantage|sw5e-phb|advantage} on Charisma ({@skill Swindle|sw5e-sotg}) checks made to conceal a hidden weapon."
+						"You have {@variantrule Advantage|sw5e-sotg|advantage} on Charisma ({@skill Swindle|sw5e-sotg}) checks made to conceal a hidden weapon."
 					]
 				}
 			]
@@ -151,7 +151,7 @@
 					"type": "entries",
 					"name": "Homing",
 					"entries": [
-						"A weapon with the homing property gives {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} made within normal range.  Targets are not granted {@variantrule Advantage|sw5e-phb|advantage} on their {@variantrule Saving Throw|sw5e-phb|saving throws} for being at long range."
+						"A weapon with the homing property gives {@variantrule Disadvantage|sw5e-sotg|disadvantage} on {@variantrule Saving Throw|sw5e-sotg|saving throws} made within normal range.  Targets are not granted {@variantrule Advantage|sw5e-sotg|advantage} on their {@variantrule Saving Throw|sw5e-sotg|saving throws} for being at long range."
 					]
 				}
 			]
@@ -165,7 +165,7 @@
 					"type": "entries",
 					"name": "Heavy",
 					"entries": [
-						"When you hit with an {@variantrule Attack Roll|sw5e-phb|attack roll} with this weapon, you deal additional damage equal to half your Strength modifier (rounded up, minimum of +1). Heavy is incompatible with saturate."
+						"When you hit with an {@variantrule Attack Roll|sw5e-sotg|attack roll} with this weapon, you deal additional damage equal to half your Strength modifier (rounded up, minimum of +1). Heavy is incompatible with saturate."
 					]
 				}
 			]
@@ -179,7 +179,7 @@
 					"type": "entries",
 					"name": "Ionizing",
 					"entries": [
-						"On a hit, the target must succeed on a DC 13 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} or it is {@condition Ionized|sw5e-sotg|ionized} for 1 minute. As an action by a crewmember on their turn, the ship can repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect early on a success. Ships larger than you have {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Saving Throw|sw5e-phb|saving throw}."
+						"On a hit, the target must succeed on a DC 13 Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} or it is {@condition Ionized|sw5e-sotg|ionized} for 1 minute. As an action by a crewmember on their turn, the ship can repeat the {@variantrule Saving Throw|sw5e-sotg|saving throw}, ending the effect early on a success. Ships larger than you have {@variantrule Advantage|sw5e-sotg|advantage} on the {@variantrule Saving Throw|sw5e-sotg|saving throw}."
 					]
 				}
 			]
@@ -193,7 +193,7 @@
 					"type": "entries",
 					"name": "Keen",
 					"entries": [
-						"When you make a {@variantrule Attack Roll|sw5e-phb|weapon attack} with a weapon with the keen property, the {@variantrule Critical Hit|sw5e-phb|critical hit} range increases by an amount equal to the keen number."
+						"When you make a {@variantrule Attack Roll|sw5e-sotg|weapon attack} with a weapon with the keen property, the {@variantrule Critical Hit|sw5e-sotg|critical hit} range increases by an amount equal to the keen number."
 					]
 				}
 			]
@@ -207,7 +207,7 @@
 					"type": "entries",
 					"name": "Melt",
 					"entries": [
-						"You may choose to forgo your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to your {@variantrule Attack Roll|sw5e-phb|attack roll} or suffer a penalty to the {@variantrule Saving Throw|sw5e-phb|saving throw} DC of the weapon equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}.  If you do so, on a hit, you may add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the damage result."
+						"You may choose to forgo your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} to your {@variantrule Attack Roll|sw5e-sotg|attack roll} or suffer a penalty to the {@variantrule Saving Throw|sw5e-sotg|saving throw} DC of the weapon equal to your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus}.  If you do so, on a hit, you may add your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} to the damage result."
 					]
 				}
 			]
@@ -221,7 +221,7 @@
 					"type": "entries",
 					"name": "Overheat",
 					"entries": [
-						"A limited number of shots can be made with a weapon that has the overheat property. A character must then cool the weapon using an action or a {@variantrule Bonus Action|sw5e-phb} (the character's choice).  A weapon will naturally cool over a period of ten minutes of non-use."
+						"A limited number of shots can be made with a weapon that has the overheat property. A character must then cool the weapon using an action or a {@variantrule Bonus Action|sw5e-sotg} (the character's choice).  A weapon will naturally cool over a period of ten minutes of non-use."
 					]
 				}
 			]
@@ -235,7 +235,7 @@
 					"type": "entries",
 					"name": "Piercing",
 					"entries": [
-						"Before you make a {@variantrule Attack Roll|sw5e-phb|weapon attack} with a weapon with the piercing property, you can choose to gain a bonus to the {@variantrule Attack Roll|sw5e-phb|attack roll} up to the piercing number. If you do so, and you hit with it, you suffer an equivalent penalty to the damage roll."
+						"Before you make a {@variantrule Attack Roll|sw5e-sotg|weapon attack} with a weapon with the piercing property, you can choose to gain a bonus to the {@variantrule Attack Roll|sw5e-sotg|attack roll} up to the piercing number. If you do so, and you hit with it, you suffer an equivalent penalty to the damage roll."
 					]
 				}
 			]
@@ -278,7 +278,7 @@
 					"type": "entries",
 					"name": "Range",
 					"entries": [
-						"A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have {@variantrule Disadvantage|sw5e-phb|disadvantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll}. You can't attack a target beyond the weapon's long range."
+						"A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on the {@variantrule Attack Roll|sw5e-sotg|attack roll}. You can't attack a target beyond the weapon's long range."
 					]
 				}
 			]
@@ -292,7 +292,7 @@
 					"type": "entries",
 					"name": "Rapid",
 					"entries": [
-						"A weapon that has the rapid property can unload on a single target. The target must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your bonus to ranged ship attacks). On a failed save, the target takes normal weapon damage, plus an additional amount equal to the weapon's damage dice. On a success, the target takes no damage. This produces an amount of heat or consumes an amount of ammunition as indicated by the rapid number. If the ranged ship attack would have {@variantrule Disadvantage|sw5e-phb|disadvantage}, the target instead has {@variantrule Advantage|sw5e-phb|advantage}."
+						"A weapon that has the rapid property can unload on a single target. The target must make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC = 8 + your bonus to ranged ship attacks). On a failed save, the target takes normal weapon damage, plus an additional amount equal to the weapon's damage dice. On a success, the target takes no damage. This produces an amount of heat or consumes an amount of ammunition as indicated by the rapid number. If the ranged ship attack would have {@variantrule Disadvantage|sw5e-sotg|disadvantage}, the target instead has {@variantrule Advantage|sw5e-sotg|advantage}."
 					]
 				}
 			]
@@ -306,7 +306,7 @@
 					"type": "entries",
 					"name": "Saturate",
 					"entries": [
-						"When making an attack with a weapon with saturate, you use your choice of your Strength or Wisdom modifier for the {@variantrule Attack Roll|sw5e-phb|attack roll} or save DC. Saturate is incompatible with heavy."
+						"When making an attack with a weapon with saturate, you use your choice of your Strength or Wisdom modifier for the {@variantrule Attack Roll|sw5e-sotg|attack roll} or save DC. Saturate is incompatible with heavy."
 					]
 				}
 			]
@@ -348,7 +348,7 @@
 					"type": "entries",
 					"name": "Zone",
 					"entries": [
-						"Weapons with the zone property are activated with an action and persist until deactivated (no action required). The weapon creates a zone of {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} within the firing arc and normal range of the weapon. Additionally, your ship has {@variantrule Advantage|sw5e-phb|advantage} on dexterity {@variantrule Saving Throw|sw5e-phb|saving throws} against tertiary weapons launched outside normal range of the weapon."
+						"Weapons with the zone property are activated with an action and persist until deactivated (no action required). The weapon creates a zone of {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain} within the {@variantrule Firing Arc|sw5e-sotg|firing arc} and normal range of the weapon. Additionally, your ship has {@variantrule Advantage|sw5e-sotg|advantage} on dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws} against tertiary weapons launched outside normal range of the weapon."
 					]
 				}
 			]

@@ -17,33 +17,154 @@
 	},
 	"variantrule": [
 		{
-			"name": "Boost",
+			"name": "Ability Check",
 			"source": "sw5e-sotg",
-			"page": 110,
-			"ruleType": "O",
+			"page": 97,
+			"ruleType": "C",
 			"entries": [
-				"You can attempt to boost a function of your ship. Each function can only be boosted once on each of the ship's turns, and each time you try to boost a function of the ship after the first, the DC increases by 5, cumulatively, until the start of your next turn.",
+				"An ability check represents a ship's ability to overcome a challenge. The GM calls for an ability check when a ship, or a crewmember, attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.",
+				"For every ability check, the GM decides which of the 6 abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.",
+				"To make an ability check, roll a {@dice d20} and add the relevant ability modifier. As with other {@dice d20} rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success-the ship, or crewmember, overcomes the challenge at hand. Otherwise, it's a failure, which means the ship or crewmember makes no progress toward the objective or makes progress combined with a setback determined by the GM.",
+				"When making an ability check that involves your ship's abilities, you use the ship's score instead of your own, as dictated by logic.",
 				{
 					"type": "entries",
-					"name": "Boost Engines",
+					"name": "Contests",
 					"entries": [
-						"You can attempt to boost your {@variantrule Speed|sw5e-phb|speed}. When you take the Boost Engines action, you make a DC 10 Strength ({@skill Boost|sw5e-sotg}) check. On a success you increase your {@variantrule Speed|sw5e-phb|speed} by 50 until the end of your ship's next turn."
+						"Sometimes one ship's or crewmember's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to pass through a narrow gap simultaneously. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a ship's gravity projector tries to prevent another ship from jumping to hyperspace. In situations like these, the outcome is determined by a special form of ability check, called a contest.",
+						"Both participants in a contest make ability checks appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead of comparing the total to a DC, they compare the totals of their two checks. The participant with the higher check total wins the contest. That ship or crewmember either succeeds at the action or prevents the other one from succeeding.",
+						"If the contest results in a tie, the situation remains the same as it was before the contest. Thus, one contestant might win the contest by default. If two ships tie in a contest to pass through a narrow gap, neither ship makes it. In a contest between a ship's gravity generator trying to prevent another ship from jumping to hyperspace, a tie means that the second ship fails to jump.",
+						{
+							"type": "table",
+							"colLabels": [
+								"Task Difficulty",
+								"DC"
+							],
+							"colStyles": [
+								"col-6 text-left",
+								"col-6 text-left"
+							],
+							"rows": [
+								[
+									"Very easy",
+									"5"
+								],
+								[
+									"Easy",
+									"10"
+								],
+								[
+									"Medium",
+									"15"
+								],
+								[
+									"Hard",
+									"20"
+								],
+								[
+									"Very hard",
+									"25"
+								],
+								[
+									"Nearly impossible",
+									"30"
+								]
+							]
+						}
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Boost Shields",
+					"name": "Passive Checks",
 					"entries": [
-						"You can attempt to boost your shields. When you take the Boost Shields action, you make a DC 10 Strength ({@skill Boost|sw5e-sotg}) check. On a success, you roll a shield die, without expending it, and gain temporary shield points equal to the result that last until the start of your ship's next turn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Boost Weapons",
-					"entries": [
-						"You can attempt to boost your weapon output. When you take the Boost Weapons action, the next time this turn your ship would deal damage, you make a DC 10 Strength ({@skill Boost|sw5e-sotg}) check. On a success, you have {@variantrule Advantage|sw5e-phb|advantage} on the damage roll."
+						"A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as probing meteors over and over, or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden ship.",
+						"Here's how to determine a ship's total for a passive check: 10 + all modifiers that normally apply to the check. If the ship has {@variantrule Advantage|sw5e-sotg|advantage} on the check, add 5. For {@variantrule Disadvantage|sw5e-sotg|disadvantage}, subtract 5. The game refers to a passive check total as a score.",
+						"For example. if a 1st-tier ship has a Wisdom of 15 and is proficiently equipped in Scan, it has a passive Wisdom (Scan) score of 13."
 					]
 				}
+			]
+		},
+		{
+			"name": "Action",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"ruleType": "C",
+			"entries": [
+				"You may take one action on your turn, and any action taken by a player with your ship can only be taken once per round unless otherwise stated. For example, although two different crewmembers could both cast the same {@book force power|sw5e-phb|11|Force Powers} or make an {@variantrule Ability Check|sw5e-sotg|ability check} with the {@skill Medicine|sw5e-phb} skill, they could not both take an action granted by a ship modification or the Boost Engines action, described below. Only the crewmember at the helm can take helm actions, but all other actions may be taken by anyone on the ship as logic dictates."
+			]
+		},
+		{
+			"name": "Advantage",
+			"source": "sw5e-sotg",
+			"page": 97,
+			"ruleType": "C",
+			"entries": [
+				"Sometimes a special ability or power tells you that you have advantage or {@variantrule Disadvantage|sw5e-sotg|disadvantage} on an {@variantrule Ability Check|sw5e-sotg|ability check}, a {@variantrule Saving Throw|sw5e-sotg|saving throw}, or an {@variantrule Attack Roll|sw5e-sotg|attack roll}. When that happens, you roll a second {@dice d20} when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have {@variantrule Disadvantage|sw5e-sotg|disadvantage}. For example, if you have {@variantrule Disadvantage|sw5e-sotg|disadvantage} and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.",
+				"If multiple situations affect a roll and each one grants advantage or imposes {@variantrule Disadvantage|sw5e-sotg|disadvantage} on it, you don't roll more than one additional {@dice d20}. If two favorable situations grant advantage, for example, you still roll only one additional {@dice d20}.",
+				"If circumstances cause a roll to have both advantage and {@variantrule Disadvantage|sw5e-sotg|disadvantage}, you are considered to have neither of them, and you roll one {@dice d20}. This is true even if multiple circumstances impose {@variantrule Disadvantage|sw5e-sotg|disadvantage} and only one grants advantage or vice versa. In such a situation, you have neither advantage nor {@variantrule Disadvantage|sw5e-sotg|disadvantage}.",
+				"When you make a roll with advantage or {@variantrule Disadvantage|sw5e-sotg|disadvantage}, only the {@dice d20} is rolled twice. Any additional dice, such as the {@dice d4} granted by the {@i guidance} {@book force power|sw5e-phb|11|Force Powers}, are only rolled once.",
+				"When you have advantage or {@variantrule Disadvantage|sw5e-sotg|disadvantage} and something in the game, such as the iktotchi's Precognition trait, lets you reroll the {@dice d20}, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has advantage on an {@variantrule Ability Check|sw5e-sotg|ability check} and rolls a 1 and a 13, the iktotchi could use the Precognition trait to reroll the 1.",
+				"You usually gain advantage or {@variantrule Disadvantage|sw5e-sotg|disadvantage} through the use of special abilities, actions, or powers. Inspiration (see chapter 4) can also give a character advantage on checks related to the character's personality, ideals, or bonds. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose {@variantrule Disadvantage|sw5e-sotg|disadvantage} as a result.",
+				{
+					"type": "entries",
+					"name": "Advantage on Other Rolls",
+					"entries": [
+						"Though less common, advantage and {@variantrule Disadvantage|sw5e-sotg|disadvantage} can occur on other types of rolls as well. When you have advantage or {@variantrule Disadvantage|sw5e-sotg|disadvantage} on a roll, as with a {@dice d20}, you roll the dice twice, using the higher of the two results with advantage, and using the lower of the two results if you have {@variantrule Disadvantage|sw5e-sotg|disadvantage}. If a roll has multiple dice, you roll the dice together and treat the results separately.",
+						"For instance, the Boost Weapons action potentially grants advantage on a ship damage roll once per turn. If any additional dice would be added to the damage roll, those additional dice are only rolled once."
+					]
+				}
+			]
+		},
+		{
+			"name": "Armor Class",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"ruleType": "C",
+			"entries": [
+				"Your Armor Class (AC) represents how well your starship avoids being damaged in battle&mdash;either my avoiding being hit entirely or by remaining essentially unharmed from an attack. Your AC is determined by four major factors: your base AC, your starship's Dexterity modifier, your ship's Tier bonuses, and the type of armor your ship has installed (see {@book Chapter 5: Equipment|sw5e-sotg|7|Chapter 5: Equipment} and {@book Chapter 4: Modifications|sw5e-sotg|6|Chapter 4: Modifications}).",
+				"Your ship has a base AC of 10. You then add (or subtract) the other factors above: Dexterity modifier, potentially limited by the type of armor you have installed; your ship's Tier bonus, if any; and any applicable modifications."
+			]
+		},
+		{
+			"name": "Attack Roll",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"ruleType": "C",
+			"entries": [
+				"When you make an attack with a primary or secondary weapon, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a {@dice d20}, add your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} (if you have at least one deployment rank), the ship's Wisdom modifier, and any weapon-specific bonuses or penalties. If the total of the roll plus modifiers equals or exceeds the target's {@variantrule Armor Class|sw5e-sotg} (AC), the attack hits.",
+				"Ships are always considered proficiently equipped with their properly-installed weapons.",
+				{
+					"type": "entries",
+					"name": "Rolling 1 or 20",
+					"entries": [
+						"Sometimes fate blesses or curses a gunner, causing the novice to hit and the veteran to miss.",
+						"If the {@dice d20} roll for an attack is a 20, the attack hits regardless of any modifiers or the target's AC. In addition, the attack is a {@variantrule Critical Hit|sw5e-sotg|critical hit}, as explained later in this chapter.",
+						"If the {@dice d20} roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Range",
+					"entries": [
+						"You can make ranged attacks only against targets within a specified range.",
+						"Ship weaponry typically has two ranges. The value of these ranges depends on the type of weapon (primary, secondary, or tertiary), as described in {@book chapter 5|sw5e-phb|5}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ranged Attacks in Close combat",
+					"entries": [
+						"Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a ship weapon, a power, you have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on the attack roll if you are within 50 feet of your target."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bonus Action",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"ruleType": "C",
+			"entries": [
+				"Various class or deployment features, powers, and other abilities let you take an additional action on your turn called a Bonus Action. You can only take a Bonus Action if some feature gives you one, and you can only take one Bonus Action on each of your turns."
 			]
 		},
 		{
@@ -54,10 +175,19 @@
 			"entries": [
 				"Asteroids, ships, debris, and other obstacles can provide cover during starship combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.",
 				"There are four degrees of cover. If a target is behind multiple sources of cover, only the most protective degree applies; the degrees aren't added together.",
-				"A target with {@b one-quarter cover} has a +2 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}. A target has one-quarter cover if an obstacle blocks at least one-fourth of it.",
-				"A target with {@b half cover} has a +3 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}. A target has half cover if an obstacle blocks at least half of it.",
-				"A target with {@b three-quarters cover} has a +5 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws}. A target has three-quarters cover if about three-quarters of it is covered by an obstacle.",
-				"A target with {@b total cover} can't be targeted directly by an attack or a power, although some powers can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle."
+				"A target with one-quarter cover has a +2 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}. A target has one-quarter cover if an obstacle blocks at least one-fourth of it.",
+				"A target with half cover has a +3 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}. A target has half cover if an obstacle blocks at least half of it.",
+				"A target with three-quarters cover has a +5 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}. A target has three-quarters cover if about three-quarters of it is covered by an obstacle.",
+				"A target with total cover can't be targeted directly by an attack or a power, although some powers can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle."
+			]
+		},
+		{
+			"name": "Critical Hit",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"ruleType": "C",
+			"entries": [
+				"When you score a critical hit, you get to roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once."
 			]
 		},
 		{
@@ -66,36 +196,175 @@
 			"page": 110,
 			"ruleType": "C",
 			"entries": [
-				"At the start of the ship's turn, if the ship has 0 hull points, you must make a special saving throw, called a destruction saving throw, to determine whether you can salvage your ship. Unlike other {@variantrule Saving Throw|sw5e-phb|saving throws}, this one isn't tied to any ability score. Roll a {@dice d20}. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success has no effect by itself; on your third success, your ship becomes stable. On a failure, your ship suffers 1 level of {@condition System Damage|sw5e-sotg|system damage}.",
-				"{@b {@i Rolling 1 or 20.}} When you make a destruction saving throw and roll a 1 on the {@dice d20}, it counts as two failures, causing 2 levels of {@condition System Damage|sw5e-sotg|system damage}. If you roll a 20 on the {@dice d20}, your ship regains 1 hull point.",
-				"{@b {@i Damage at 0 Hull Points.}} If your ship takes any damage while it has 0 hull points, it suffers 1 level of {@condition System Damage|sw5e-sotg|system damage}. If the damage is from a {@variantrule Critical Hit|sw5e-phb|critical hit}, it suffers 2 levels instead. If the damage equals or exceeds its hull point maximum, it is instantly destroyed."
+				"At the start of the ship's turn, if the ship has 0 {@variantrule Hull Points|sw5e-sotg|hull points}, you must make a special {@variantrule Saving Throw|sw5e-sotg|saving throw}, called a {@variantrule Saving Throw|sw5e-sotg|saving throw}, to determine whether you can salvage your ship. Unlike other {@variantrule Saving Throw|sw5e-sotg|saving throws}, this one isn't tied to any ability score. Roll a {@dice d20}. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success has no effect by itself; on your third success, your ship becomes stable. On a failure, your ship suffers 1 level of {@condition System Damage|sw5e-sotg|system damage}.",
+				"{@b {@i Rolling 1 or 20.}} When you make a {@variantrule Saving Throw|sw5e-sotg|saving throw} and roll a 1 on the {@dice d20}, it counts as two failures, causing 2 levels of {@condition System Damage|sw5e-sotg|system damage}. If you roll a 20 on the {@dice d20}, your ship regains 1 hull point.",
+				"{@b {@i Damage at 0 Hull Points.}} If your ship takes any damage while it has 0 {@variantrule Hull Points|sw5e-sotg|hull points}, it suffers 1 level of {@condition System Damage|sw5e-sotg|system damage}. If the damage is from a {@variantrule Critical Hit|sw5e-sotg|critical hit}, it suffers 2 levels instead. If the damage equals or exceeds its hull point maximum, it is instantly destroyed."
 			]
 		},
 		{
-			"name": "Detect",
+			"name": "Difficult Terrain",
 			"source": "sw5e-sotg",
 			"page": 110,
-			"ruleType": "O",
+			"ruleType": "C",
 			"entries": [
-				"When you take this action, you devote your attention to finding something. Depending on the nature of your detection, the DM might have you make a Wisdom ({@skill Scan|sw5e-sotg}) check or an Intelligence ({@skill Probe|sw5e-sotg}) check."
+				"Combat rarely takes place in featureless terrain. Asteroid fields, mountain ranges, other ships&mdash;the setting of a typical fight contains difficult terrain.",
+				"Every foot of movement in difficult terrain costs 1 extra foot. This rule is true even if multiple things in a space count as difficult terrain."
 			]
 		},
 		{
-			"name": "Direct",
+			"name": "Disadvantage",
 			"source": "sw5e-sotg",
-			"page": 110,
-			"ruleType": "O",
+			"page": 97,
+			"ruleType": "C",
 			"entries": [
-				"When you take this action, the creature gains {@variantrule Advantage|sw5e-phb|advantage} on the next {@variantrule Ability Check|sw5e-phb|ability check} it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. Alternatively, you can direct a friendly creature that can hear you in attacking another target. If your ally attacks the target before the start of your next turn, the first {@variantrule Attack Roll|sw5e-phb|attack roll} is made with {@variantrule Advantage|sw5e-phb|advantage}. This action can be taken multiple times on a ship's turn."
+				"Sometimes a special ability or power tells you that you have {@variantrule Advantage|sw5e-sotg|advantage} or disadvantage on an {@variantrule Ability Check|sw5e-sotg|ability check}, a {@variantrule Saving Throw|sw5e-sotg|saving throw}, or an {@variantrule Attack Roll|sw5e-sotg|attack roll}. When that happens, you roll a second {@dice d20} when you make the roll. Use the higher of the two rolls if you have {@variantrule Advantage|sw5e-sotg|advantage}, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have {@variantrule Advantage|sw5e-sotg|advantage} and roll those numbers, you use the 17.",
+				"If multiple situations affect a roll and each one grants {@variantrule Advantage|sw5e-sotg|advantage} or imposes disadvantage on it, you don't roll more than one additional {@dice d20}. If two favorable situations grant {@variantrule Advantage|sw5e-sotg|advantage}, for example, you still roll only one additional {@dice d20}.",
+				"If circumstances cause a roll to have both {@variantrule Advantage|sw5e-sotg|advantage} and disadvantage, you are considered to have neither of them, and you roll one {@dice d20}. This is true even if multiple circumstances impose disadvantage and only one grants {@variantrule Advantage|sw5e-sotg|advantage} or vice versa. In such a situation, you have neither {@variantrule Advantage|sw5e-sotg|advantage} nor disadvantage.",
+				"When you make a roll with {@variantrule Advantage|sw5e-sotg|advantage} or disadvantage, only the {@dice d20} is rolled twice. Any additional dice, such as the {@dice d4} granted by the {@i guidance} {@book force power|sw5e-phb|11|Force Powers}, are only rolled once.",
+				"When you have {@variantrule Advantage|sw5e-sotg|advantage} or disadvantage and something in the game, such as the iktotchi's Precognition trait, lets you reroll the {@dice d20}, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has {@variantrule Advantage|sw5e-sotg|advantage} on an {@variantrule Ability Check|sw5e-sotg|ability check} and rolls a 1 and a 13, the iktotchi could use the Precognition trait to reroll the 1.",
+				"You usually gain {@variantrule Advantage|sw5e-sotg|advantage} or disadvantage through the use of special abilities, actions, or powers. Inspiration (see chapter 4) can also give a character {@variantrule Advantage|sw5e-sotg|advantage} on checks related to the character's personality, ideals, or bonds. The GM can also decide that circumstances influence a roll in one direction or the other and grant {@variantrule Advantage|sw5e-sotg|advantage} or impose disadvantage as a result.",
+				{
+					"type": "entries",
+					"name": "{@variantrule Advantage|sw5e-sotg} on Other Rolls",
+					"entries": [
+						"Though less common, {@variantrule Advantage|sw5e-sotg|advantage} and disadvantage can occur on other types of rolls as well. When you have {@variantrule Advantage|sw5e-sotg|advantage} or disadvantage on a roll, as with a {@dice d20}, you roll the dice twice, using the higher of the two results with {@variantrule Advantage|sw5e-sotg|advantage}, and using the lower of the two results if you have disadvantage. If a roll has multiple dice, you roll the dice together and treat the results separately.",
+						"For instance, the Boost Weapons action potentially grants {@variantrule Advantage|sw5e-sotg|advantage} on a ship damage roll once per turn. If any additional dice would be added to the damage roll, those additional dice are only rolled once."
+					]
+				}
 			]
 		},
 		{
-			"name": "Fire",
+			"name": "Expertise",
 			"source": "sw5e-sotg",
-			"page": 110,
-			"ruleType": "O",
+			"page": 97,
+			"ruleType": "C",
 			"entries": [
-				"The most common action to take in combat is This action. With this action, you can make an attack (or attacks) with one ship weapon. This action may be taken multiple times on a ship's turn, but normally only once per weapon. A crewmember firing from the helm has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} with primary and secondary weapons."
+				"Certain features, such as Active Camouflage or a Boarding Harpoon, let your ship double its {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} with a given skill or modification, granting your ship the status of expertly equipped in that skill or modification. As usual, you can only gain expertly equipped status in a skill or modification once.",
+				{
+					"type": "entries",
+					"name": "Proficiently Equipping a Ship",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"Skill",
+								"Modification(s) that Proficiently Equip",
+								"Modification(s) that Expertly Equip",
+								"Skill Description"
+							],
+							"colStyles": [
+								"col-2 text-left",
+								"col-3 text-left",
+								"col-3 text-left",
+								"col-4 text-left"
+							],
+							"rows": [
+								[
+									"{@i Str}"
+								],
+								[
+									"Boost",
+									"Cryogenic Capacitor, Mk I",
+									"Cryogenic Capacitor, Mk II",
+									"push your ship to or beyond its limits"
+								],
+								[
+									"Ram",
+									"Hardened Prow",
+									"Boarding Harpoon",
+									"slam into an object to deal damage."
+								],
+								[
+									"{@i Dex}"
+								],
+								[
+									"Hide",
+									"Sensor Dampener; {@skill Stealth|sw5e-phb} Device",
+									"Sensor Dampener; {@skill Stealth|sw5e-phb} Device; {@skill Stealth|sw5e-phb} Device, Active Camouflage",
+									"allows the ship to remain undetected"
+								],
+								[
+									"Maneuvering",
+									"({@skill Piloting|sw5e-phb} proficiency)",
+									"({@skill Piloting|sw5e-phb} expertise)",
+									"perform tricky maneuvers"
+								],
+								[
+									"{@i Con}"
+								],
+								[
+									"Patch",
+									"Damage Control System",
+									"Automated Protocols",
+									"attempt to regain {@variantrule Hull Points|sw5e-sotg|hull points}"
+								],
+								[
+									"Regulation",
+									"Power Converter, Mk I",
+									"Power Converter, Mk II",
+									"pushed a ship beyond its natural limits"
+								],
+								[
+									"{@i Int}"
+								],
+								[
+									"Astrogation",
+									"Navcomputer",
+									"Navcomputer, Mark II",
+									"calculate hyperspace jumps"
+								],
+								[
+									"Data",
+									"Comms Package, Mk I",
+									"Comms Package, Mk II",
+									"access data banks or process data"
+								],
+								[
+									"Probe",
+									"Scanner, Premium",
+									"Scanner, Prototype",
+									"focused sensing and probing"
+								],
+								[
+									"{@i Wis}"
+								],
+								[
+									"Scan",
+									"Scanner, Mk I",
+									"Scanner, Mk II",
+									"notice and locate the presence of objects"
+								],
+								[
+									"{@i Cha}"
+								],
+								[
+									"Impress",
+									"Impressive Interior; Impressive Exterior",
+									"Impressive Interior; Impressive Exterior",
+									"a general measurement of your ship's beauty and soundness"
+								],
+								[
+									"Interfere",
+									"Comms Suppressor, Mk I",
+									"Comms Suppressor, Mk II",
+									"interfere with another ship's systems"
+								],
+								[
+									"Menace",
+									"threatening Design",
+									"threatening Hardware",
+									"threaten via ship's appearance or abilities"
+								],
+								[
+									"Swindle",
+									"Disguised Features; Secondary Transponder Code",
+									"Disguised Features; Secondary Transponder Code",
+									"pass your ship off as something it's not"
+								]
+							]
+						}
+					]
+				}
 			]
 		},
 		{
@@ -123,84 +392,6 @@
 			]
 		},
 		{
-			"name": "Harass",
-			"source": "sw5e-sotg",
-			"page": 110,
-			"ruleType": "O",
-			"entries": [
-				"When you take the Harass action, make an opposed Dexterity ({@skill Maneuvering|sw5e-sotg}) check against a target within one size category of you and within normal range of at least one forward-facing primary weapon. That weapon cannot be fired this turn.",
-				"On a success, if the target voluntarily leaves its space before the start of your next turn, it takes damage as though it suffered a {@variantrule Critical Hit|sw5e-phb|critical hit} with the harassing weapon."
-			]
-		},
-		{
-			"name": "Helm",
-			"source": "sw5e-sotg",
-			"page": 110,
-			"ruleType": "O",
-			"entries": [
-				"When you take this action, you choose from the following options. Only one Helm action can be taken per turn.",
-				{
-					"type": "entries",
-					"name": "Attack Run",
-					"entries": [
-						"When you move at least 150 feet towards a target, you may declare an Attack Run. You must have a clear path towards your target, and nothing should hinder your path (such as {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} or obstacles). If you finish this movement within range of your target, you may follow it with one of these options: {@b Fire.} You may make a ship {@variantrule Attack Roll|sw5e-phb|weapon attack} from a forward-facing limited arc without suffering the normal {@variantrule Disadvantage|sw5e-phb|disadvantage}. If you attack with a tertiary or quaternary weapon, the attack deals additional damage equal to the distance of your attack run divided by 50, up to your ship's Strength modifier (minimum of 1).",
-						"{@b Ram.} You may make a Ram attempt with {@variantrule Advantage|sw5e-phb|advantage} on your Strength ({@skill Ram|sw5e-sotg}) check. If you succeed, the target ship takes additional damage equal to the distance of your Attack Run divided by 50, up to your ship's Constitution modifier (minimum of +1)."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Conceal",
-					"entries": [
-						"When you take the Conceal action, you make a Dexterity ({@skill Hide|sw5e-sotg}) check in an attempt to hide your ship, following the rules in chapter 7 for hiding."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Dogfight",
-					"entries": [
-						"When you engage a single enemy, you duck and weave, vying for a good shot while avoiding theirs. You choose a target and make an opposed Dexterity ({@skill Maneuvering|sw5e-sotg}) check. On a success, you cause the next attack made against your ship by the target to suffer from {@variantrule Disadvantage|sw5e-phb|disadvantage}, but you grant the next attack made against your ship by a different target {@variantrule Advantage|sw5e-phb|advantage}. Additionally, you can perform a primary or tertiary {@variantrule Attack Roll|sw5e-phb|weapon attack} from a forward-facing limited firing arc against that ship without suffering the normal {@variantrule Disadvantage|sw5e-phb|disadvantage}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Evade",
-					"entries": [
-						"When you take the Evade action, you focus entirely on avoiding attacks. Until the start of your next turn, any attack roll made against you has {@variantrule Disadvantage|sw5e-phb|disadvantage} if you can see the attacker on your instruments, and you make Dexterity saving throws with {@variantrule Advantage|sw5e-phb|advantage}.",
-						"This action affects your entire ship: any {@variantrule Ability Check|sw5e-phb|ability check} or attack made by your ship or anyone on it has {@variantrule Disadvantage|sw5e-phb|disadvantage} until the end of your ship's next turn. The effects of Evade end if you are {@condition Incapacitated|sw5e-phb} or if your {@variantrule Speed|sw5e-phb|speed} drops to 0."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fly",
-					"entries": [
-						"When you take the Fly action, you gain extra movement for the current turn. The increase equals your {@variantrule Speed|sw5e-phb|speed}, after applying any modifiers.",
-						"This action affects your ship's ability to stay on target: any {@variantrule Ability Check|sw5e-phb|ability check} or attack made by your ship or anyone on it has {@variantrule Disadvantage|sw5e-phb|disadvantage} until the end of your ship's next turn."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Harass",
-					"entries": [
-						"When you take the Harass action, make an opposed Dexterity ({@skill Maneuvering|sw5e-sotg}) check against a target within one size category of you and within normal range of at least one of your forward-facing primary weapons. This weapon cannot be fired this turn. On a success, if the target voluntarily leaves its square before the beginning of your next turn, it takes damage as though it suffered a {@variantrule Critical Hit|sw5e-phb|critical hit} with the primary weapon used to harass."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Hard Turn",
-					"entries": [
-						"When you take the Hard Turn action, you turn your ship 90 degrees without expending any of your flying {@variantrule Speed|sw5e-phb|speed}."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Ram",
-					"entries": [
-						"When you take the Ram action, you make a Strength ({@skill Ram|sw5e-sotg}) check opposed by the target's Dexterity ({@skill Maneuvering|sw5e-sotg}) check. On a failed check the ram fails. On a success, both you and the target ship take kinetic damage equal to two of your ship's Hull Dice + your ship's Strength modifier. If your ship has shield points remaining, your ship instead takes half this damage."
-					]
-				}
-			]
-		},
-		{
 			"name": "Hull Points",
 			"source": "sw5e-sotg",
 			"page": 110,
@@ -213,12 +404,13 @@
 			]
 		},
 		{
-			"name": "Interfere",
+			"name": "Initiative",
 			"source": "sw5e-sotg",
 			"page": 110,
-			"ruleType": "O",
+			"ruleType": "C",
 			"entries": [
-				"When you take this action, you make a Charisma ({@skill Interfere|sw5e-sotg}) check contested by the target's Wisdom ({@skill Scan|sw5e-sotg}) check. If you succeed, the subject has {@variantrule Disadvantage|sw5e-phb|disadvantage} on the next {@variantrule Ability Check|sw5e-phb|ability check} or {@variantrule Attack Roll|sw5e-phb|attack roll} it makes before the start of your next turn. This action can be taken multiple times on a ship's turn."
+				"A typical combat encounter is a clash between two sides, a flurry of cannon shots and ship maneuvers. The game organizes the chaos of combat into a cycle of rounds and turns. A {@b round} represents about 6 seconds in the game world. During a round, each participant in a battle takes a {@b turn.} The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.",
+				"Each PC on a ship rolls initiative normally. The lowest initiative among PCs on a ship sets that ship's {@variantrule Ship Initiative|sw5e-sotg|initiative} for the round (see {@variantrule Ship Initiative|sw5e-sotg})."
 			]
 		},
 		{
@@ -229,15 +421,15 @@
 			"entries": [
 				"Whether you're firing laser cannons or a railgun, a starship attack follows these steps:",
 				"{@b 1. Choose a target.} Pick a target within your attack's range.",
-				"{@b 2. Determine modifiers.} The GM determines {@variantrule Cover|sw5e-sotg|cover}, {@variantrule Advantage|sw5e-phb|advantage}, and {@variantrule Disadvantage|sw5e-phb|disadvantage}.",
-				"{@b 3. Resolve the attack.} Make an {@variantrule Attack Roll|sw5e-phb|attack roll} or, for some weapons, a {@variantrule Saving Throw|sw5e-phb|saving throw}; on a hit, roll damage.",
+				"{@b 2. Determine modifiers.} The GM determines {@variantrule Cover|sw5e-sotg|cover}, {@variantrule Advantage|sw5e-sotg|advantage}, and {@variantrule Disadvantage|sw5e-sotg|disadvantage}.",
+				"{@b 3. Resolve the attack.} Make an {@variantrule Attack Roll|sw5e-sotg|attack roll} or, for some weapons, a {@variantrule Saving Throw|sw5e-sotg|saving throw}; on a hit, roll damage.",
 				{
 					"type": "entries",
 					"name": "Attack Rolls",
 					"entries": [
-						"Roll {@dice d20} + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} (if you have at least one deployment rank) + the ship's Wisdom modifier + weapon bonuses. The attack hits if the total meets or exceeds the target's {@variantrule Armor Class|sw5e-phb|AC}. Ships are proficient with properly installed weapons.",
-						"A natural 20 is a {@variantrule Critical Hit|sw5e-phb|critical hit}; a natural 1 misses regardless of modifiers.",
-						"Ranged attacks with ship weapons have {@variantrule Disadvantage|sw5e-phb|disadvantage} if you are within 50 feet of your target."
+						"Roll {@dice d20} + your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} (if you have at least one deployment rank) + the ship's Wisdom modifier + weapon bonuses. The attack hits if the total meets or exceeds the target's {@variantrule Armor Class|sw5e-sotg|AC}. Ships are proficient with properly installed weapons.",
+						"A natural 20 is a {@variantrule Critical Hit|sw5e-sotg|critical hit}; a natural 1 misses regardless of modifiers.",
+						"Ranged attacks with ship weapons have {@variantrule Disadvantage|sw5e-sotg|disadvantage} if you are within 50 feet of your target."
 					]
 				},
 				{
@@ -245,40 +437,178 @@
 					"name": "Weapon Save DC",
 					"entries": [
 						"Tertiary and quaternary weapons, and primary weapons on Huge and larger ships, often use a saving throw instead of an attack roll.",
-						"{@b Weapon save DC} = 8 + the crewmember's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} (if at least rank 1) + the ship's Wisdom modifier.",
-						"When an effect grants {@variantrule Advantage|sw5e-phb|advantage} or {@variantrule Disadvantage|sw5e-phb|disadvantage} on an attack that uses a save instead of an attack roll, the save is made with advantage or disadvantage unless stated otherwise."
+						"{@b Weapon save DC} = 8 + the crewmember's {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} (if at least rank 1) + the ship's Wisdom modifier.",
+						"When an effect grants {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage} on an attack that uses a save instead of an {@variantrule Attack Roll|sw5e-sotg|attack roll}, the save is made with {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage} unless stated otherwise."
 					]
 				},
 				"Add the ship's Strength modifier to damage from primary and secondary weapons."
 			]
 		},
 		{
-			"name": "Patch",
+			"name": "Proficiency",
 			"source": "sw5e-sotg",
-			"page": 110,
-			"ruleType": "O",
+			"page": 97,
+			"ruleType": "C",
 			"entries": [
-				"When you take this action, you make a Constitution ({@skill Patch|sw5e-sotg}) check (DC = 10 or half the ship's missing hull points, whichever is higher) and expend one Hull Die to repair hull points. On a failure, you roll the Hull Die twice and take the lesser amount. On a success you roll the Hull Die normally. This action can be taken multiple times on a ship's turn."
+				"Ships can be proficiently equipped for particular tasks, allowing her crew to add their Proficiency Bonus to the roll or save, as long as the crewmember has at least one deployment rank. Enemy ships also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on {@variantrule Ability Check|sw5e-sotg|ability checks}, {@variantrule Saving Throw|sw5e-sotg|saving throws}, and {@variantrule Attack Roll|sw5e-sotg|attack rolls}.",
+				"Your proficiency equipped bonus can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your Proficiency Bonus to a Wisdom {@variantrule Saving Throw|sw5e-sotg|saving throw}, you nevertheless add the bonus only once when you make the save.",
+				"Occasionally, your Proficiency Bonus might be multiplied or divided (doubled or halved, for example) before you apply it. If a circumstance suggests that your Proficiency Bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.",
+				"By the same token, if a feature or effect allows you to multiply your Proficiency Bonus when making an {@variantrule Ability Check|sw5e-sotg|ability check} that wouldn't normally benefit from your Proficiency Bonus, you still don't add the bonus to the check. For that check your Proficiency Bonus is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you are not proficiently equipped in the Data skill, you gain no benefit from a feature that lets you double your Proficiency Bonus when you make Intelligence (Data) checks.",
+				"In general, you don't multiply your Proficiency Bonus for {@variantrule Attack Roll|sw5e-sotg|attack rolls} or {@variantrule Saving Throw|sw5e-sotg|saving throws}. If a feature or effect allows you to do so, these same rules apply.",
+				{
+					"type": "entries",
+					"name": "Expertly Equipped",
+					"entries": [
+						"Certain features, such as Active Camouflage or a Boarding Harpoon, let your ship double its Proficiency Bonus with a given skill or modification, granting your ship the status of expertly equipped in that skill or modification. As usual, you can only gain expertly equipped status in a skill or modification once.",
+						{
+							"type": "entries",
+							"name": "Proficiently Equipping a Ship",
+							"entries": [
+								{
+									"type": "table",
+									"colLabels": [
+										"Skill",
+										"Modification(s) that Proficiently Equip",
+										"Modification(s) that Expertly Equip",
+										"Skill Description"
+									],
+									"colStyles": [
+										"col-2 text-left",
+										"col-3 text-left",
+										"col-3 text-left",
+										"col-4 text-left"
+									],
+									"rows": [
+										[
+											"{@i Str}"
+										],
+										[
+											"Boost",
+											"Cryogenic Capacitor, Mk I",
+											"Cryogenic Capacitor, Mk II",
+											"push your ship to or beyond its limits"
+										],
+										[
+											"Ram",
+											"Hardened Prow",
+											"Boarding Harpoon",
+											"slam into an object to deal damage."
+										],
+										[
+											"{@i Dex}"
+										],
+										[
+											"Hide",
+											"Sensor Dampener; {@skill Stealth|sw5e-phb} Device",
+											"Sensor Dampener; {@skill Stealth|sw5e-phb} Device; {@skill Stealth|sw5e-phb} Device, Active Camouflage",
+											"allows the ship to remain undetected"
+										],
+										[
+											"Maneuvering",
+											"({@skill Piloting|sw5e-phb} proficiency)",
+											"({@skill Piloting|sw5e-phb} expertise)",
+											"perform tricky maneuvers"
+										],
+										[
+											"{@i Con}"
+										],
+										[
+											"Patch",
+											"Damage Control System",
+											"Automated Protocols",
+											"attempt to regain {@variantrule Hull Points|sw5e-sotg|hull points}"
+										],
+										[
+											"Regulation",
+											"Power Converter, Mk I",
+											"Power Converter, Mk II",
+											"pushed a ship beyond its natural limits"
+										],
+										[
+											"{@i Int}"
+										],
+										[
+											"Astrogation",
+											"Navcomputer",
+											"Navcomputer, Mark II",
+											"calculate hyperspace jumps"
+										],
+										[
+											"Data",
+											"Comms Package, Mk I",
+											"Comms Package, Mk II",
+											"access data banks or process data"
+										],
+										[
+											"Probe",
+											"Scanner, Premium",
+											"Scanner, Prototype",
+											"focused sensing and probing"
+										],
+										[
+											"{@i Wis}"
+										],
+										[
+											"Scan",
+											"Scanner, Mk I",
+											"Scanner, Mk II",
+											"notice and locate the presence of objects"
+										],
+										[
+											"{@i Cha}"
+										],
+										[
+											"Impress",
+											"Impressive Interior; Impressive Exterior",
+											"Impressive Interior; Impressive Exterior",
+											"a general measurement of your ship's beauty and soundness"
+										],
+										[
+											"Interfere",
+											"Comms Suppressor, Mk I",
+											"Comms Suppressor, Mk II",
+											"interfere with another ship's systems"
+										],
+										[
+											"Menace",
+											"threatening Design",
+											"threatening Hardware",
+											"threaten via ship's appearance or abilities"
+										],
+										[
+											"Swindle",
+											"Disguised Features; Secondary Transponder Code",
+											"Disguised Features; Secondary Transponder Code",
+											"pass your ship off as something it's not"
+										]
+									]
+								}
+							]
+						}
+					]
+				}
 			]
 		},
 		{
-			"name": "Ram",
+			"name": "Reaction",
 			"source": "sw5e-sotg",
 			"page": 110,
-			"ruleType": "O",
+			"ruleType": "C",
 			"entries": [
-				"When you take the Ram action, you make a Strength ({@skill Ram|sw5e-sotg}) check opposed by the target's Dexterity ({@skill Maneuvering|sw5e-sotg}) check. On a failure, the ram fails.",
-				"On a success, both ships take kinetic damage equal to two of your ship's Hull Dice + your ship's Strength modifier. If your ship has shield points remaining, your ship takes half this damage instead.",
-				"An Attack Run may allow a Ram with {@variantrule Advantage|sw5e-phb|advantage} on the Ram check and bonus damage based on run distance (see the Helm action)."
+				"Certain features allow you to take a Reaction. A Reaction is an instant response to a trigger of some kind, which can occur any turn.",
+				"When you take a Reaction, you can't take another one until the start of your next turn. If the Reaction interrupts another creature's turn, that creature can continue its turn right after the Reaction."
 			]
 		},
 		{
-			"name": "Regenerate Shields",
+			"name": "Saving Throw",
 			"source": "sw5e-sotg",
 			"page": 110,
-			"ruleType": "O",
+			"ruleType": "C",
 			"entries": [
-				"When you take this action, you make a Strength ({@skill Boost|sw5e-sotg}) check (DC = 10 or half the ship's missing shield points, whichever is higher) and expend one shield die. On a failure, you roll the shield die twice and take the lesser amount. On a success you roll the shield die normally. This action can only be taken once each ship turn."
+				"A saving throw—also called a save—represents an attempt to resist a weapon effect, power, trap, or similar threat to your ship or crew. When a ship or crewmember is at risk, the GM may call for a save rather than an {@variantrule Attack Roll|sw5e-sotg|attack roll}.",
+				"When you make a saving throw using your ship's abilities, roll a {@dice d20} and add the ship's relevant ability modifier. If your ship is proficiently equipped for that saving throw, also add the {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} of the crewmember at the helm.",
+				"While many weapons utilize an {@variantrule Attack Roll|sw5e-sotg|attack roll}, tertiary and quaternary weapons, as well as primary weapons on Huge and larger ships, instead call for a saving throw. When an ability grants {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage} on an attack and the attack calls for a saving throw instead of an {@variantrule Attack Roll|sw5e-sotg|attack roll}, unless stated otherwise, the saving throw is made with {@variantrule Disadvantage|sw5e-sotg|disadvantage} or {@variantrule Advantage|sw5e-sotg|advantage}, respectively. The saving throw is calculated as follows:",
+				"{@b Weapon save DC} = 8 + the crewmember's {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} (if at least rank 1) + the ship's Wisdom modifier"
 			]
 		},
 		{
@@ -298,7 +628,7 @@
 			"page": 110,
 			"ruleType": "O",
 			"entries": [
-				"Combat uses rounds and turns. During a round, each participant takes a turn; turn order is set by {@variantrule Initiative|sw5e-phb|initiative} at the start of the encounter.",
+				"Combat uses rounds and turns. During a round, each participant takes a turn; turn order is set by {@variantrule Initiative|sw5e-sotg|initiative} at the start of the encounter.",
 				"Each PC on a ship rolls initiative normally. The {@b lowest} initiative among PCs on a ship sets that ship's initiative for the round.",
 				"On a ship's turn, the reactor replenishes power dice, the crew distributes them, and the crew may activate shield regeneration. All PCs on that ship then take individual turns in an order the crew agrees on (the helm breaks ties).",
 				{
@@ -355,7 +685,25 @@
 			"entries": [
 				"Space combat uses scaled-down dice relative to ground combat. To convert between scales, multiply or divide damage, hull points, shield points, damage reduction, and shield regeneration by 10 as appropriate.",
 				"Large and larger ships may be immune to small-arms fire from individuals. Tiny starships are Tiny in space but Huge on the ground; Small ships are Gargantuan on the ground; Medium and larger ships are colossal.",
-				"Tiny–Large starships have {@variantrule Disadvantage|sw5e-phb|disadvantage} on attacks against Large or smaller creatures; those creatures have {@variantrule Advantage|sw5e-phb|advantage} on saves against such ships' weapons."
+				"Tiny–Large starships have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on attacks against Large or smaller creatures; those creatures have {@variantrule Advantage|sw5e-sotg|advantage} on saves against such ships' weapons."
+			]
+		},
+		{
+			"name": "Speed",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"ruleType": "C",
+			"entries": [
+				"In combat, ships are in constant motion, often using movement and position to gain the upper hand.",
+				"On your turn, the crewmember at the helm can move the ship a distance up to its speed. The ship can use as much or as little of its speed as desired, following the rules here.",
+				"Starships come equipped with two speeds: flying speed and turning speed.",
+				"{@b Flying speed is how far your ship can travel in a single round. It is expressed in feet. For every foot your ship travels forward, it expends one foot from its speed.",
+				"A ship's unmodified flying speed is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction.",
+				"Turning speed determines how maneuverable your ship is. In order for your ship to rotate 90 degrees, you must spend an amount of your flying speed equal to your turning speed. For instance, if your ship has a flying speed of 350 feet, and a turning speed of 100 feet, you can travel 150 feet in a straight line, spending 150 feet of your flying speed, and then turn 90 degrees to starboard, spending 100 feet of your flying speed, leaving 100 feet of movement remaining.",
+				"Typically games are played with turning limited to 90 degree increments, but, if your group has the desire and capability to track smaller angles, this is allowed.",
+				"A ship can turn more (or less, if your group agrees) than 90 degrees on its turn, by spending a proportionate amount of movement.",
+				"If a ship's turning speed exceeds its flying speed, that ship cannot turn 90 degrees, in combat conditions, absent another effect modifiying the ship's turning speed and/or flying speed or the Hard Turn action.",
+				"A ship's unmodified turning speed is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction."
 			]
 		},
 		{

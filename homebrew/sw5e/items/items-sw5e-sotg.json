@@ -50,7 +50,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 3d6} kinetic damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 6}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STRPD|sw5e-sotg|rapid 6}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 6, {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STRPD|sw5e-sotg|Rapid} 6.",
 				"{@b Damage (Huge–Gargantuan):} 6d6.",
 				"{@b Weight (Huge–Gargantuan):} 40.0 lb."
 			]
@@ -80,7 +80,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 2d10} energy damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 800/3200)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 1}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STRPD|sw5e-sotg|rapid 1}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 800/3200), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 1, {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STRPD|sw5e-sotg|Rapid} 1.",
 				"{@b Damage (Huge–Gargantuan):} 4d10.",
 				"{@b Weight (Huge–Gargantuan):} 250.0 lb."
 			]
@@ -111,7 +111,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 3d6} kinetic damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 6}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STHOM|sw5e-sotg|homing}, {@itemProperty STRPD|sw5e-sotg|rapid 6}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 6, {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STHOM|sw5e-sotg|Homing}, {@itemProperty STRPD|sw5e-sotg|Rapid} 6.",
 				"{@b Damage (Huge–Gargantuan):} 6d6.",
 				"{@b Weight (Huge–Gargantuan):} 50.0 lb."
 			]
@@ -138,7 +138,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 2d12} energy damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 800/3200)}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STKEEN|sw5e-sotg|keen 1}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 800/3200), {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STKEEN|sw5e-sotg|Keen} 1.",
 				"{@b Damage (Huge–Gargantuan):} 4d12.",
 				"{@b Weight (Huge–Gargantuan):} 170.0 lb."
 			]
@@ -159,7 +159,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Tertiary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 24}."
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, {@itemProperty STRLD|sw5e-sotg|Reload} 24."
 			]
 		},
 		{
@@ -184,7 +184,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice 2d6} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|constitution 15}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 15, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
 		{
@@ -203,7 +203,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Tertiary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 8}."
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, {@itemProperty STRLD|sw5e-sotg|Reload} 8."
 			]
 		},
 		{
@@ -221,7 +221,7 @@
 				"STRLD"
 			],
 			"entries": [
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}."
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}."
 			]
 		},
 		{
@@ -240,7 +240,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Tertiary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 8}."
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, {@itemProperty STRLD|sw5e-sotg|Reload 8}."
 			]
 		},
 		{
@@ -263,7 +263,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 6d6} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|con. 15}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 15, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
 		{
@@ -273,7 +273,7 @@
 			"type": "STW",
 			"rarity": "none",
 			"weapon": true,
-			"value": 41500,
+			"value": 40000,
 			"currencyConversion": "Credits",
 			"dmg1": "1d8",
 			"dmgType": "Energy",
@@ -289,7 +289,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d8} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 600/2400)}, {@itemProperty STHID|sw5e-sotg|hidden}, {@itemProperty STOHT|sw5e-sotg|overheat 18}, {@itemProperty STRPD|sw5e-sotg|rapid 9}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STHID|sw5e-sotg|Hidden}, {@itemProperty STOHT|sw5e-sotg|Overheat} 18, {@itemProperty STRPD|sw5e-sotg|Rapid} 9."
 			]
 		},
 		{
@@ -312,7 +312,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice 3d4} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 200/800)}, {@itemProperty STSAT|sw5e-sotg|saturate}, {@itemProperty STZON|sw5e-sotg|zone}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 200/800), {@itemProperty STSAT|sw5e-sotg|Saturate}, {@itemProperty STZON|sw5e-sotg|Zone}."
 			]
 		},
 		{
@@ -331,7 +331,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Quaternary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 4}."
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, {@itemProperty STRLD|sw5e-sotg|Reload} 4."
 			]
 		},
 		{
@@ -350,7 +350,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Quaternary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 8}."
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, {@itemProperty STRLD|sw5e-sotg|Reload} 8."
 			]
 		},
 		{
@@ -367,10 +367,10 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Quaternary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}.",
 				"{@b Weight (Huge–Gargantuan):} 32.0 lb.",
 				"{@b Cost (Huge–Gargantuan):} 2,400 cr.",
-				"When a bomblet detonates, each ship within 50 [100] feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). A ship takes 1d10 [2d10] energy damage on a failed save, or half as much on a successful one."
+				"When a bomblet detonates, each ship within 50 [100] feet must make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15). A ship takes 1d10 [2d10] energy damage on a failed save, or half as much on a successful one."
 			]
 		},
 		{
@@ -397,7 +397,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice 2d4} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 200/800)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 1}, {@itemProperty STOHT|sw5e-sotg|overheat 2}, {@itemProperty STSAT|sw5e-sotg|saturate}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 200/800), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 1, {@itemProperty STOHT|sw5e-sotg|Overheat} 2, {@itemProperty STSAT|sw5e-sotg|Saturate}."
 			]
 		},
 		{
@@ -424,7 +424,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 6d4} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 200/800)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 1}, {@itemProperty STOHT|sw5e-sotg|overheat 2}, {@itemProperty STSAT|sw5e-sotg|saturate}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 200/800), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 1, {@itemProperty STOHT|sw5e-sotg|Overheat} 2, {@itemProperty STSAT|sw5e-sotg|Saturate}."
 			]
 		},
 		{
@@ -452,7 +452,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 3d4} kinetic damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 6}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STRPD|sw5e-sotg|rapid 6}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 6, {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STRPD|sw5e-sotg|Rapid} 6.",
 				"{@b Damage (Huge–Gargantuan):} 6d4.",
 				"{@b Weight (Huge–Gargantuan):} 20.0 lb."
 			]
@@ -473,7 +473,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Tertiary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 12}."
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, {@itemProperty STRLD|sw5e-sotg|Reload} 12."
 			]
 		},
 		{
@@ -501,7 +501,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 2d8} energy damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 1}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STRPD|sw5e-sotg|rapid 1}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 1, {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STRPD|sw5e-sotg|Rapid} 1.",
 				"{@b Damage (Huge–Gargantuan):} 4d8.",
 				"{@b Weight (Huge–Gargantuan):} 150.0 lb."
 			]
@@ -520,10 +520,10 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Quaternary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}.",
 				"{@b Weight (Huge–Gargantuan):} 60.0 lb.",
 				"{@b Cost (Huge–Gargantuan):} 4,000 cr.",
-				"On a failed {@variantrule Saving Throw|sw5e-phb|saving throw} for a missile or upon detonation for a mine, a conner net deploys on the target, which must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). On a failed save, the ship is {@condition Stunned|sw5e-sotg|stunned} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success."
+				"On a failed {@variantrule Saving Throw|sw5e-sotg|saving throw} for a missile or upon detonation for a mine, a conner net deploys on the target, which must make a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15). On a failed save, the ship is {@condition Stunned|sw5e-phb|stunned} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-sotg|saving throw}, ending the effect on a success."
 			]
 		},
 		{
@@ -543,9 +543,9 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, special.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), special.",
 				"{@b Weight (Huge–Gargantuan):} 170.0 lb.",
-				"On a failed {@variantrule Saving Throw|sw5e-phb|saving throw} for a missile or upon detonation for a mine, a conner net deploys on the target, which must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). On a failed save, the ship is {@condition Stunned|sw5e-sotg|stunned} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success."
+				"On a failed {@variantrule Saving Throw|sw5e-sotg|saving throw} for a missile or upon detonation for a mine, a conner net deploys on the target, which must make a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15). On a failed save, the ship is {@condition Stunned|sw5e-phb|stunned} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-sotg|saving throw}, ending the effect on a success."
 			]
 		},
 		{
@@ -565,9 +565,9 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, special.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), special.",
 				"{@b Weight (Huge–Gargantuan):} 170.0 lb.",
-				"On a failed {@variantrule Saving Throw|sw5e-phb|saving throw}, the missile deploys pistoeka sabotage or —buzz— droids on the target. At the end of each of the target ship—s turns, the target ship gains one level of {@condition System Damage|sw5e-sotg|system damage} if the target is medium or smaller [large or smaller]. As an action on each of their turns, a crewmember can have the ship attempt their choice of a dexterity or constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15), ending the effect on a success."
+				"On a failed {@variantrule Saving Throw|sw5e-sotg|saving throw}, the missile deploys pistoeka sabotage or —buzz— droids on the target. At the end of each of the target ship—s turns, the target ship gains one level of system damage if the target is medium or smaller [large or smaller]. As an action on each of their turns, a crewmember can have the ship attempt their choice of a dexterity or constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15), ending the effect on a success."
 			]
 		},
 		{
@@ -590,7 +590,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice 2d4} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STOHT|sw5e-sotg|overheat 8}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STOHT|sw5e-sotg|Overheat} 8."
 			]
 		},
 		{
@@ -613,7 +613,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 6d4} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STOHT|sw5e-sotg|overheat 8}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STOHT|sw5e-sotg|Overheat} 8."
 			]
 		},
 		{
@@ -630,10 +630,10 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Quaternary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}.",
 				"{@b Weight (Huge–Gargantuan):} 90.0 lb.",
 				"{@b Cost (Huge–Gargantuan):} 4,600 cr.",
-				"When an EMP bomb detonates, each ship within 150 [300] feet must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). On a failed save, a ship is {@condition Stunned|sw5e-sotg|stunned} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success."
+				"When an EMP bomb detonates, each ship within 150 [300] feet must make a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15). On a failed save, a ship is {@condition Stunned|sw5e-phb|stunned} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-sotg|saving throw}, ending the effect on a success."
 			]
 		},
 		{
@@ -653,9 +653,9 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, special.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), special.",
 				"{@b Weight (Huge–Gargantuan):} 170.0 lb.",
-				"A Flechette torpedo detonates at a point within range, creating a 200 (400) foot cube of {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}.  Any ship entering or starting their turn in this area must succeed at a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15) or take 1d8 [2d8] kinetic damage."
+				"A Flechette torpedo detonates at a point within range, creating a 200 (400) foot cube of {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain}.  Any ship entering or starting their turn in this area must succeed at a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15) or take 1d8 [2d8] kinetic damage."
 			]
 		},
 		{
@@ -672,10 +672,10 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Quaternary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}.",
 				"{@b Weight (Huge–Gargantuan):} 60.0 lb.",
 				"{@b Cost (Huge–Gargantuan):} 4,000 cr.",
-				"When a glop bomb detonates, each ship within 50 [100] feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). On a failed save, a ship is {@condition Blinded|sw5e-sotg|blinded} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success.  Ships larger than you have {@variantrule Advantage|sw5e-phb|advantage} on their {@variantrule Saving Throw|sw5e-phb|saving throw}."
+				"When a glop bomb detonates, each ship within 50 [100] feet must make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15). On a failed save, a ship is {@condition Blinded|sw5e-phb|blinded} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-sotg|saving throw}, ending the effect on a success.  Ships larger than you have {@variantrule Advantage|sw5e-sotg|advantage} on their {@variantrule Saving Throw|sw5e-sotg|saving throw}."
 			]
 		},
 		{
@@ -692,10 +692,10 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Quaternary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}.",
 				"{@b Weight (Huge–Gargantuan):} 80.0 lb.",
 				"{@b Cost (Huge–Gargantuan):} 4,400 cr.",
-				"Rather than exploding on contact, gravity bombs detonate any time a ship comes within range of it. When a gravity bomb detonates, it attaches itself to the closest ship hull within 50 [100] feet, creating a mass shadow centered on the ship with a radius of 50 feet that lasts for 10 minutes.  A ship can attempt to dislodge the gravity bomb at the beginning of each ship turn by making a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). Any Large or smaller [Gargantuan or smaller] ships with an attached gravity bomb are unable to activate their hyperdrives."
+				"Rather than exploding on contact, gravity bombs detonate any time a ship comes within range of it. When a gravity bomb detonates, it attaches itself to the closest ship hull within 50 [100] feet, creating a mass shadow centered on the ship with a radius of 50 feet that lasts for 10 minutes.  A ship can attempt to dislodge the gravity bomb at the beginning of each ship turn by making a Strength {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15). Any Large or smaller [Gargantuan or smaller] ships with an attached gravity bomb are unable to activate their hyperdrives."
 			]
 		},
 		{
@@ -712,7 +712,7 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Quaternary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}.",
 				"{@b Weight (Huge–Gargantuan):} 60.0 lb.",
 				"{@b Cost (Huge–Gargantuan):} 4,000 cr.",
 				"Rather than exploding on contact, gravity mines detonate any time a ship comes within range of it. When a gravity mine detonates, it creates a mass shadow centered on the point of detonation with a radius of 50 [100] feet that lasts for 10 minutes. Any ships touching this mass shadow are unable to activate their hyperdrives."
@@ -730,8 +730,16 @@
 			"dmg1": "1d8",
 			"dmgType": "Energy",
 			"range": "600/2400",
+			"overheat": 12,
+			"property": [
+				"STPWR",
+				"STOHT",
+				"STHVY"
+			],
 			"entries": [
-				"{@dice d8} energy damage."
+				"{@b Weapon type:} Primary.",
+				"{@dice d8} energy damage.",
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STHVY|sw5e-sotg|Heavy}, {@itemProperty STOHT|sw5e-sotg|Overheat} 12."
 			]
 		},
 		{
@@ -756,7 +764,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 4d10} kinetic damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 400/1600)}, {@itemProperty STCON|sw5e-sotg|con. 17}, {@itemProperty STOHT|sw5e-sotg|overheat 1}, {@itemProperty STVIC|sw5e-sotg|vicious 1}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 400/1600), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STOHT|sw5e-sotg|Overheat} 1, {@itemProperty STVIC|sw5e-sotg|Vicious} 1."
 			]
 		},
 		{
@@ -781,7 +789,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d10} ion damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1000/4000)}, {@itemProperty STCON|sw5e-sotg|con. 17}, {@itemProperty STHVY|sw5e-sotg|heavy}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1000/4000), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STHVY|sw5e-sotg|Heavy}, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
 		{
@@ -808,7 +816,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d10} ion damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1000/4000)}, {@itemProperty STCON|sw5e-sotg|constitution 17}, {@itemProperty STHVY|sw5e-sotg|heavy}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1000/4000), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STHVY|sw5e-sotg|Heavy}, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
 		{
@@ -832,7 +840,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d10} ion damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 2000/8000)}, {@itemProperty STCON|sw5e-sotg|con. 19}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 2000/8000), {@itemProperty STCON|sw5e-sotg|Constitution} 19, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
 		{
@@ -858,7 +866,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d12} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|constitution 15}, {@itemProperty STHVY|sw5e-sotg|heavy}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 15, {@itemProperty STHVY|sw5e-sotg|Heavy}, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
 		{
@@ -881,7 +889,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d12} kinetic damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 2400/9600)}, {@itemProperty STCON|sw5e-sotg|con. 17}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 2400/9600), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
 		{
@@ -905,7 +913,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d10} fire damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 2400/9600)}, {@itemProperty STCON|sw5e-sotg|con. 19}, {@itemProperty STMELT|sw5e-sotg|melt}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 2400/9600), {@itemProperty STCON|sw5e-sotg|Constitution} 19, {@itemProperty STMELT|sw5e-sotg|Melt}, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
 		{
@@ -929,7 +937,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d12} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|con. 15}, {@itemProperty STHVY|sw5e-sotg|heavy}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 15, {@itemProperty STHVY|sw5e-sotg|Heavy}, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
 		{
@@ -958,7 +966,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 3d4} kinetic damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 600/2400)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 6}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STHOM|sw5e-sotg|homing}, {@itemProperty STRPD|sw5e-sotg|rapid 6}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 6, {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STHOM|sw5e-sotg|Homing}, {@itemProperty STRPD|sw5e-sotg|Rapid} 6.",
 				"{@b Damage (Huge–Gargantuan):} 6d4.",
 				"{@b Weight (Huge–Gargantuan):} 30.0 lb."
 			]
@@ -984,7 +992,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice d12} energy damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1200/4800)}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STHOM|sw5e-sotg|homing}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1200/4800), {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STHOM|sw5e-sotg|Homing}.",
 				"{@b Damage (Huge–Gargantuan):} 2d12.",
 				"{@b Weight (Huge–Gargantuan):} 50.0 lb."
 			]
@@ -1010,7 +1018,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 6d4} ion damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STCON|sw5e-sotg|con. 13}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 8}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STCON|sw5e-sotg|Constitution} 13, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 8."
 			]
 		},
 		{
@@ -1036,7 +1044,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice 2d4} ion damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STCON|sw5e-sotg|constitution 13}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 8}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STCON|sw5e-sotg|Constitution} 13, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 8."
 			]
 		},
 		{
@@ -1060,7 +1068,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice 2d6} ion damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 300/1200)}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STSAT|sw5e-sotg|saturate}, {@itemProperty STZON|sw5e-sotg|zone}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 300/1200), {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STSAT|sw5e-sotg|Saturate}, {@itemProperty STZON|sw5e-sotg|Zone}."
 			]
 		},
 		{
@@ -1083,7 +1091,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 2d10} ion damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1000/4000)}, {@itemProperty STION|sw5e-sotg|ionizing}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1000/4000), {@itemProperty STION|sw5e-sotg|Ionizing}.",
 				"{@b Damage (Huge–Gargantuan):} 4d10.",
 				"{@b Weight (Huge–Gargantuan):} 140.0 lb."
 			]
@@ -1111,7 +1119,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice d10} ion damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1000/4000)}, {@itemProperty STCON|sw5e-sotg|constitution 17}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1000/4000), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
 		{
@@ -1136,7 +1144,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d10} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1000/4000)}, {@itemProperty STCON|sw5e-sotg|constitution 11}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1000/4000), {@itemProperty STCON|sw5e-sotg|Constitution} 11, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
 		{
@@ -1159,7 +1167,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice 3d6} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 300/1200)}, {@itemProperty STSAT|sw5e-sotg|saturate}, {@itemProperty STZON|sw5e-sotg|zone}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 300/1200), {@itemProperty STSAT|sw5e-sotg|Saturate}, {@itemProperty STZON|sw5e-sotg|Zone}."
 			]
 		},
 		{
@@ -1182,7 +1190,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d8} ion damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STOHT|sw5e-sotg|overheat 16}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STOHT|sw5e-sotg|Overheat} 16."
 			]
 		},
 		{
@@ -1205,7 +1213,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d8} ion damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STOHT|sw5e-sotg|overheat 16}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STOHT|sw5e-sotg|Overheat} 16."
 			]
 		},
 		{
@@ -1228,7 +1236,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d8} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STOHT|sw5e-sotg|overheat 16}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STOHT|sw5e-sotg|Overheat} 16."
 			]
 		},
 		{
@@ -1251,7 +1259,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d8} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STOHT|sw5e-sotg|overheat 16}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STOHT|sw5e-sotg|Overheat} 16."
 			]
 		},
 		{
@@ -1274,7 +1282,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d10} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 2400/9600)}, {@itemProperty STCON|sw5e-sotg|con. 15}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 2400/9600), {@itemProperty STCON|sw5e-sotg|Constitution} 15, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
 		{
@@ -1293,7 +1301,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Tertiary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 4}."
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, {@itemProperty STRLD|sw5e-sotg|Reload} 4."
 			]
 		},
 		{
@@ -1317,7 +1325,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice d4} kinetic damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 800/3200)}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STHOM|sw5e-sotg|homing}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 800/3200), {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STHOM|sw5e-sotg|Homing}.",
 				"{@b Damage (Huge–Gargantuan):} 2d4.",
 				"{@b Weight (Huge–Gargantuan):} 20.0 lb."
 			]
@@ -1343,7 +1351,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice 2d6} kinetic damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 300/1200)}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STSAT|sw5e-sotg|saturate}, {@itemProperty STZON|sw5e-sotg|zone}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 300/1200), {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STSAT|sw5e-sotg|Saturate}, {@itemProperty STZON|sw5e-sotg|Zone}."
 			]
 		},
 		{
@@ -1368,7 +1376,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 2d4} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STCON|sw5e-sotg|constitution 11}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STCON|sw5e-sotg|Constitution} 11, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
 		{
@@ -1391,7 +1399,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 6d4} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1600/6400)}, {@itemProperty STCON|sw5e-sotg|con. 13}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1600/6400), {@itemProperty STCON|sw5e-sotg|Constitution} 13, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
 		{
@@ -1416,7 +1424,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d8} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 600/2400)}, {@itemProperty STBST|sw5e-sotg|burst 12}, {@itemProperty STOHT|sw5e-sotg|overheat 12}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STBST|sw5e-sotg|Burst} 12, {@itemProperty STOHT|sw5e-sotg|Overheat} 12."
 			]
 		},
 		{
@@ -1441,7 +1449,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d8} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 600/2400)}, {@itemProperty STBST|sw5e-sotg|burst 12}, {@itemProperty STOHT|sw5e-sotg|overheat 12}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STBST|sw5e-sotg|Burst} 12, {@itemProperty STOHT|sw5e-sotg|Overheat} 12."
 			]
 		},
 		{
@@ -1465,7 +1473,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 2d12} ion damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1200/4800)}, {@itemProperty STVIC|sw5e-sotg|vicious 1}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1200/4800), {@itemProperty STVIC|sw5e-sotg|Vicious} 1.",
 				"{@b Damage (Huge–Gargantuan):} 4d12.",
 				"{@b Weight (Huge–Gargantuan):} 140.0 lb."
 			]
@@ -1484,10 +1492,10 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Quaternary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}.",
 				"{@b Weight (Huge–Gargantuan):} 65.0 lb.",
 				"{@b Cost (Huge–Gargantuan):} 4,200 cr.",
-				"When a proton bomb detonates, each ship within 100 [200] feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). A ship takes 4d10 [8d10] energy damage on a failed save, or half as much on a successful one."
+				"When a proton bomb detonates, each ship within 100 [200] feet must make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15). A ship takes 4d10 [8d10] energy damage on a failed save, or half as much on a successful one."
 			]
 		},
 		{
@@ -1512,7 +1520,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 10d4} kinetic damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 200/800)}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STVIC|sw5e-sotg|vicious 1}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 200/800), {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STVIC|sw5e-sotg|Vicious} 1.",
 				"{@b Damage (Huge–Gargantuan):} 20d4.",
 				"{@b Weight (Huge–Gargantuan):} 190.0 lb."
 			]
@@ -1539,7 +1547,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 2d10} energy damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1200/4800)}, {@itemProperty STEXP|sw5e-sotg|explosive}, {@itemProperty STKEEN|sw5e-sotg|keen 1}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1200/4800), {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STKEEN|sw5e-sotg|Keen} 1.",
 				"{@b Damage (Huge–Gargantuan):} 4d10.",
 				"{@b Weight (Huge–Gargantuan):} 130.0 lb."
 			]
@@ -1558,10 +1566,10 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Quaternary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}.",
 				"{@b Weight (Huge–Gargantuan):} 65.0 lb.",
 				"{@b Cost (Huge–Gargantuan):} 4,400 cr.",
-				"Rather than exploding on contact, proximity mines detonate any time a ship comes within range of it. When a proximity mine detonates, each ship within 100 [200] feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). A ship takes 2d10 [4d10] fire damage on a failed save, or half as much on a successful one."
+				"Rather than exploding on contact, proximity mines detonate any time a ship comes within range of it. When a proximity mine detonates, each ship within 100 [200] feet must make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15). A ship takes 2d10 [4d10] fire damage on a failed save, or half as much on a successful one."
 			]
 		},
 		{
@@ -1578,10 +1586,10 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Quaternary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}.",
 				"{@b Weight (Huge–Gargantuan):} 70.0 lb.",
 				"{@b Cost (Huge–Gargantuan):} 4,600 cr.",
-				"When a pulse bomb detonates, each ship within 200 [400] feet must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). A ship takes 2d10 [4d10] ion damage on a failed save, or half as much on a successful one. Additionally, on a failed save, it is {@condition Ionized|sw5e-sotg|ionized} for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-phb|saving throw}, ending the effect on a success.  Ships larger than you have {@variantrule Advantage|sw5e-phb|advantage} on their {@variantrule Saving Throw|sw5e-phb|saving throw}."
+				"When a pulse bomb detonates, each ship within 200 [400] feet must make a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15). A ship takes 2d10 [4d10] ion damage on a failed save, or half as much on a successful one. Additionally, on a failed save, it is ionized for 1 minute. As an action on each of their turns, a crewmember can have the ship repeat the {@variantrule Saving Throw|sw5e-sotg|saving throw}, ending the effect on a success.  Ships larger than you have {@variantrule Advantage|sw5e-sotg|advantage} on their {@variantrule Saving Throw|sw5e-sotg|saving throw}."
 			]
 		},
 		{
@@ -1608,7 +1616,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d4} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 500/2000)}, {@itemProperty STKEEN|sw5e-sotg|keen 1}, {@itemProperty STPIER|sw5e-sotg|piercing 1}, {@itemProperty STOHT|sw5e-sotg|overheat 20}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 500/2000), {@itemProperty STKEEN|sw5e-sotg|Keen} 1, {@itemProperty STPIER|sw5e-sotg|Piercing} 1, {@itemProperty STOHT|sw5e-sotg|Overheat} 20."
 			]
 		},
 		{
@@ -1635,7 +1643,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d4} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 500/2000)}, {@itemProperty STKEEN|sw5e-sotg|keen 1}, {@itemProperty STPIER|sw5e-sotg|piercing 1}, {@itemProperty STOHT|sw5e-sotg|overheat 20}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 500/2000), {@itemProperty STKEEN|sw5e-sotg|Keen} 1, {@itemProperty STPIER|sw5e-sotg|Piercing} 1, {@itemProperty STOHT|sw5e-sotg|Overheat} 20."
 			]
 		},
 		{
@@ -1662,7 +1670,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice 2d4} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STCON|sw5e-sotg|constitution 13}, {@itemProperty STOHT|sw5e-sotg|overheat 8}, {@itemProperty STRPD|sw5e-sotg|rapid 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STCON|sw5e-sotg|Constitution} 13, {@itemProperty STOHT|sw5e-sotg|Overheat} 8, {@itemProperty STRPD|sw5e-sotg|Rapid} 2."
 			]
 		},
 		{
@@ -1687,7 +1695,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d6} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 400/1600)}, {@itemProperty STOHT|sw5e-sotg|overheat 16}, {@itemProperty STRPD|sw5e-sotg|rapid 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 400/1600), {@itemProperty STOHT|sw5e-sotg|Overheat} 16, {@itemProperty STRPD|sw5e-sotg|Rapid} 4."
 			]
 		},
 		{
@@ -1712,7 +1720,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 2d6} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 400/1600)}, {@itemProperty STOHT|sw5e-sotg|overheat 16}, {@itemProperty STRPD|sw5e-sotg|rapid 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 400/1600), {@itemProperty STOHT|sw5e-sotg|Overheat} 16, {@itemProperty STRPD|sw5e-sotg|Rapid} 4."
 			]
 		},
 		{
@@ -1737,7 +1745,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 6d4} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 800/3200)}, {@itemProperty STCON|sw5e-sotg|con. 13}, {@itemProperty STOHT|sw5e-sotg|overheat 8}, {@itemProperty STRPD|sw5e-sotg|rapid 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STCON|sw5e-sotg|Constitution} 13, {@itemProperty STOHT|sw5e-sotg|Overheat} 8, {@itemProperty STRPD|sw5e-sotg|Rapid} 2."
 			]
 		},
 		{
@@ -1765,7 +1773,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d6} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 400/1600)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 16}, {@itemProperty STOHT|sw5e-sotg|overheat 16}, {@itemProperty STRPD|sw5e-sotg|rapid 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 400/1600), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 16, {@itemProperty STOHT|sw5e-sotg|Overheat} 16, {@itemProperty STRPD|sw5e-sotg|Rapid} 4."
 			]
 		},
 		{
@@ -1793,7 +1801,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d6} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 400/1600)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 16}, {@itemProperty STOHT|sw5e-sotg|overheat 16}, {@itemProperty STRPD|sw5e-sotg|rapid 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 400/1600), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 16, {@itemProperty STOHT|sw5e-sotg|Overheat} 16, {@itemProperty STRPD|sw5e-sotg|Rapid} 4."
 			]
 		},
 		{
@@ -1811,7 +1819,7 @@
 				"STRLD"
 			],
 			"entries": [
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}."
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}."
 			]
 		},
 		{
@@ -1831,9 +1839,9 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1200/4800)}, special.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1200/4800), special.",
 				"{@b Weight (Huge–Gargantuan):} 100.0 lb.",
-				"On a failed {@variantrule Saving Throw|sw5e-phb|saving throw}, the missile latches an S-thread tracer onto the target. When making an Intelligence ({@skill Probe|sw5e-sotg}) check to detect the S-threaded ship's hyperspace travel, its angle of departure can be detected on a roll of 15 instead of 25."
+				"On a failed {@variantrule Saving Throw|sw5e-sotg|saving throw}, the missile latches an S-thread tracer onto the target. When making an Intelligence (Probe) check to detect the S-threaded ship's hyperspace travel, its angle of departure can be detected on a roll of 15 instead of 25."
 			]
 		},
 		{
@@ -1850,10 +1858,10 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Quaternary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}.",
 				"{@b Weight (Huge–Gargantuan):} 60.0 lb.",
 				"{@b Cost (Huge–Gargantuan):} 4,000 cr.",
-				"When a seismic charge detonates, each ship within 150 [300] feet must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15). A ship takes 1d10 [2d10] kinetic damage on a failed save, or half as much on a successful one."
+				"When a seismic charge detonates, each ship within 150 [300] feet must make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15). A ship takes 1d10 [2d10] kinetic damage on a failed save, or half as much on a successful one."
 			]
 		},
 		{
@@ -1876,7 +1884,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 4d10} energy damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1200/4800)}, {@itemProperty STEXP|sw5e-sotg|explosive}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1200/4800), {@itemProperty STEXP|sw5e-sotg|Explosive}.",
 				"{@b Damage (Huge–Gargantuan):} 8d10.",
 				"{@b Weight (Huge–Gargantuan):} 300.0 lb."
 			]
@@ -1904,7 +1912,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d8} kinetic damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 600/2400)}, {@itemProperty STCON|sw5e-sotg|constitution 11}, {@itemProperty STDIRE|sw5e-sotg|dire 1}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STCON|sw5e-sotg|Constitution} 11, {@itemProperty STDIRE|sw5e-sotg|Dire} 1, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
 		{
@@ -1929,7 +1937,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice d12} kinetic damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|constitution 15}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 15, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
 		{
@@ -1957,7 +1965,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d4} ion damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 200/800)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 1}, {@itemProperty STION|sw5e-sotg|ionizing}, {@itemProperty STOHT|sw5e-sotg|overheat 1}, {@itemProperty STSAT|sw5e-sotg|saturate}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 200/800), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 1, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 1, {@itemProperty STSAT|sw5e-sotg|Saturate}."
 			]
 		},
 		{
@@ -1981,7 +1989,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d12} fire damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|con. 17}, {@itemProperty STMELT|sw5e-sotg|melt}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STMELT|sw5e-sotg|Melt}, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
 		{
@@ -2007,7 +2015,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d12} fire damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|constitution 17}, {@itemProperty STMELT|sw5e-sotg|melt}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STMELT|sw5e-sotg|Melt}, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
 		{
@@ -2033,7 +2041,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice d10} fire damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1200/4800)}, {@itemProperty STCON|sw5e-sotg|constitution 17}, {@itemProperty STMELT|sw5e-sotg|melt}, {@itemProperty STOHT|sw5e-sotg|overheat 2}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STMELT|sw5e-sotg|Melt}, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
 		{
@@ -2058,7 +2066,7 @@
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
 				"{@dice 2d10} fire damage.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRNG|sw5e-sotg|(range 1200/4800)}, {@itemProperty STMELT|sw5e-sotg|melt}, {@itemProperty STKEEN|sw5e-sotg|keen 1}.",
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1200/4800), {@itemProperty STMELT|sw5e-sotg|Melt}, {@itemProperty STKEEN|sw5e-sotg|Keen} 1.",
 				"{@b Damage (Huge–Gargantuan):} 4d10.",
 				"{@b Weight (Huge–Gargantuan):} 140.0 lb."
 			]
@@ -2079,7 +2087,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Tertiary.",
-				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|ammunition}, {@itemProperty STRLD|sw5e-sotg|reload 4}."
+				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, {@itemProperty STRLD|sw5e-sotg|Reload 4}."
 			]
 		},
 		{
@@ -2104,7 +2112,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice d10} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1000/4000)}, {@itemProperty STCON|sw5e-sotg|constitution 13}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1000/4000), {@itemProperty STCON|sw5e-sotg|Constitution} 13, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
 		{
@@ -2127,7 +2135,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 3d10} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 1000/4000)}, {@itemProperty STCON|sw5e-sotg|con. 11}, {@itemProperty STOHT|sw5e-sotg|overheat 4}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1000/4000), {@itemProperty STCON|sw5e-sotg|Constitution} 11, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
 		{
@@ -2156,7 +2164,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d4} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 250/1000)}, {@itemProperty STAUT|sw5e-sotg|auto}, {@itemProperty STBST|sw5e-sotg|burst 10}, {@itemProperty STHID|sw5e-sotg|hidden}, {@itemProperty STOHT|sw5e-sotg|overheat 20}, {@itemProperty STRPD|sw5e-sotg|rapid 5}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 250/1000), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 10, {@itemProperty STHID|sw5e-sotg|Hidden}, {@itemProperty STOHT|sw5e-sotg|Overheat} 20, {@itemProperty STRPD|sw5e-sotg|Rapid} 5."
 			]
 		},
 		{
@@ -2183,7 +2191,7 @@
 			"entries": [
 				"{@b Weapon type:} Primary.",
 				"{@dice d8} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 600/2400)}, {@itemProperty STCON|sw5e-sotg|constitution 11}, {@itemProperty STRPD|sw5e-sotg|rapid 3}, {@itemProperty STOHT|sw5e-sotg|overheat 12}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STCON|sw5e-sotg|Constitution} 11, {@itemProperty STRPD|sw5e-sotg|Rapid} 3, {@itemProperty STOHT|sw5e-sotg|Overheat} 12."
 			]
 		},
 		{
@@ -2208,7 +2216,7 @@
 			"entries": [
 				"{@b Weapon type:} Secondary.",
 				"{@dice 2d8} energy damage.",
-				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|power (range 600/2400)}, {@itemProperty STCON|sw5e-sotg|con. 11}, {@itemProperty STRPD|sw5e-sotg|rapid 3}, {@itemProperty STOHT|sw5e-sotg|overheat 12}."
+				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STCON|sw5e-sotg|Constitution} 11, {@itemProperty STRPD|sw5e-sotg|Rapid} 3, {@itemProperty STOHT|sw5e-sotg|Overheat} 12."
 			]
 		}
 	]

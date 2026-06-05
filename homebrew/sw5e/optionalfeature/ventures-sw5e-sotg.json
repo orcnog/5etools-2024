@@ -13,7 +13,16 @@
 					"cursor"
 				]
 			}
-		]
+		],
+		"currencyConversions": {
+			"Credits": [
+				{
+					"coin": "cr",
+					"mult": 0.1,
+					"isFallback": true
+				}
+			]
+		}
 	},
 	"optionalfeature": [
 		{
@@ -31,7 +40,7 @@
 						"at least 1 level in scholar"
 					]
 				},
-				"When an ally makes an {@variantrule Ability Check|sw5e-phb|ability check} or {@variantrule Attack Roll|sw5e-phb|attack roll} affected by your Direct action, and they are also the target of your Critical Analysis class feature, they can also roll a {@dice d6} and add it to the {@variantrule Ability Check|sw5e-phb|ability check} or {@variantrule Attack Roll|sw5e-phb|attack roll}."
+				"When an ally makes an {@variantrule Ability Check|sw5e-sotg|ability check} or {@variantrule Attack Roll|sw5e-sotg|attack roll} affected by your Direct action, and they are also the target of your Critical Analysis class feature, they can also roll a {@dice d6} and add it to the {@variantrule Ability Check|sw5e-sotg|ability check} or {@variantrule Attack Roll|sw5e-sotg|attack roll}."
 			]
 		},
 		{
@@ -42,7 +51,7 @@
 				"SV:SotG"
 			],
 			"entries": [
-				"When you make an Intelligence ({@skill Astrogation|sw5e-sotg}) check, your ship is considered proficiently equipped if you have proficiency in {@skill Technology|sw5e-phb} or expertly equipped if you have {@variantrule Expertise|sw5e-phb|expertise} in {@skill Technology|sw5e-phb}. Additionally, when you make a Constitution ({@skill Patch|sw5e-sotg}) check when taking the Patch action, your ship is considered proficiently equipped if you have proficiency in {@item Mechanic's kit|sw5e-phb|Mechanic's Kit} or expertly equipped if you have {@variantrule Expertise|sw5e-phb|expertise} in {@item Mechanic's kit|sw5e-phb|Mechanic's Kit}."
+				"When you make an Intelligence (Astrogation) check, your ship is considered proficiently equipped if you have proficiency in {@skill Technology|sw5e-phb} or expertly equipped if you have {@variantrule Expertise|sw5e-sotg|expertise} in {@skill Technology|sw5e-phb}. Additionally, when you make a Constitution (Patch) check when taking the Patch action, your ship is considered proficiently equipped if you have proficiency in {@item Mechanic's kit|sw5e-phb|Mechanic's Kit} or expertly equipped if you have {@variantrule Expertise|sw5e-sotg|expertise} in {@item Mechanic's kit|sw5e-phb|Mechanic's Kit}."
 			]
 		},
 		{
@@ -53,7 +62,7 @@
 				"SV:SotG"
 			],
 			"entries": [
-				"When you make an {@variantrule Attack Roll|sw5e-phb|attack roll} with a secondary ship weapon, you can use your Intelligence modifier, instead of the ship's Wisdom modifier, for the {@variantrule Attack Roll|sw5e-phb|attack rolls}."
+				"When you make an {@variantrule Attack Roll|sw5e-sotg|attack roll} with a secondary ship weapon, you can use your Intelligence modifier, instead of the ship's Wisdom modifier, for the {@variantrule Attack Roll|sw5e-sotg|attack rolls}."
 			]
 		},
 		{
@@ -64,7 +73,7 @@
 				"SV:SotG"
 			],
 			"entries": [
-				"When you are the target of the Interfere action and are forced to make an Wisdom ({@skill Scan|sw5e-sotg}), if you succeed on the contest, you have {@variantrule Advantage|sw5e-phb|advantage} on the next Charisma ({@skill Interfere|sw5e-sotg}) check you make before the end of your next turn."
+				"When you are the target of the Interfere action and are forced to make an Wisdom (Scan), if you succeed on the contest, you have {@variantrule Advantage|sw5e-sotg|advantage} on the next Charisma (Interfere) check you make before the end of your next turn."
 			]
 		},
 		{
@@ -75,7 +84,7 @@
 				"SV:SotG"
 			],
 			"entries": [
-				"When you take the {@variantrule Interfere|sw5e-sotg} action and fail the contest, you can use your {@variantrule Bonus Action|sw5e-phb} to repeat the check against the same target."
+				"When you take the {@action Interfere|sw5e-sotg} action and fail the contest, you can use your {@variantrule Bonus Action|sw5e-sotg} to repeat the check against the same target."
 			]
 		},
 		{
@@ -93,7 +102,7 @@
 						"at least 14 levels in monk"
 					]
 				},
-				"While deployed, when your ship fails a {@variantrule Saving Throw|sw5e-phb|saving throw}, you can spend 1 focus point to reroll the die."
+				"While deployed, when your ship fails a {@variantrule Saving Throw|sw5e-sotg|saving throw}, you can spend 1 focus point to reroll the die."
 			]
 		},
 		{
@@ -129,7 +138,7 @@
 						" at least 1 rank in operator  "
 					]
 				},
-				"<br> When setting your Operator's Disruptions save DC and whenever a Disruption uses your ship's Charisma modifier, you may add half your Intelligence modifier."
+				"When setting your Operator's Disruptions save DC and whenever a Disruption uses your ship's Charisma modifier, you may add half your Intelligence modifier."
 			]
 		},
 		{
@@ -165,7 +174,7 @@
 						"at least 2 levels in monk"
 					]
 				},
-				"Immediately after you take the {@variantrule Fire|sw5e-sotg} action you can spend 1 focus point to make an additional attack as a {@variantrule Bonus Action|sw5e-phb}. This additional attack must be made with a primary weapon."
+				"Immediately after you take the {@action Fire|sw5e-sotg} action you can spend 1 focus point to make an additional attack as a {@variantrule Bonus Action|sw5e-sotg}. This additional attack must be made with a primary weapon."
 			]
 		},
 		{
@@ -183,7 +192,7 @@
 						"The ability to cast force powers"
 					]
 				},
-				"}<br> When you make an Dexterity (Manuever) check while aboard your ship, you may add half (round up) your Wisdom or Charisma modifier (your choice), to your result. Additionally, you can add half (round up) your Wisdom or Charisma modifier (your choice) to your ship's AC while at the helm. \\pagebreakNum"
+				"} When you make an Dexterity (Manuever) check while aboard your ship, you may add half (round up) your Wisdom or Charisma modifier (your choice), to your result. Additionally, you can add half (round up) your Wisdom or Charisma modifier (your choice) to your ship's AC while at the helm. \\pagebreakNum"
 			]
 		},
 		{
@@ -219,7 +228,7 @@
 						"at least 2 levels in consular"
 					]
 				},
-				"Once per turn, when you miss with a ship attack, or when a target succeeds on the {@variantrule Saving Throw|sw5e-phb|saving throw} against a ship weapon, you can spend 1 force point to reroll the die. You must use the new roll."
+				"Once per turn, when you miss with a ship attack, or when a target succeeds on the {@variantrule Saving Throw|sw5e-sotg|saving throw} against a ship weapon, you can spend 1 force point to reroll the die. You must use the new roll."
 			]
 		},
 		{
@@ -255,7 +264,7 @@
 						"at least 2 levels in sentinel"
 					]
 				},
-				"When you take the {@variantrule Fire|sw5e-sotg} action, you can spend 1 force point to make an additional attack with a {@variantrule Bonus Action|sw5e-phb}. This additional attack must be made with a primary weapon."
+				"When you take the {@action Fire|sw5e-sotg} action, you can spend 1 force point to make an additional attack with a {@variantrule Bonus Action|sw5e-sotg}. This additional attack must be made with a primary weapon."
 			]
 		},
 		{
@@ -273,7 +282,7 @@
 						"at least 1 level in berserker"
 					]
 				},
-				"While raging and firing a primary weapon, you can take a penalty to your {@variantrule Attack Roll|sw5e-phb|attack roll} up to your rage damage bonus, adding twice the amount to the damage roll on a hit."
+				"While raging and firing a primary weapon, you can take a penalty to your {@variantrule Attack Roll|sw5e-sotg|attack roll} up to your rage damage bonus, adding twice the amount to the damage roll on a hit."
 			]
 		},
 		{
@@ -309,7 +318,7 @@
 						"Rank 5"
 					]
 				},
-				"You master a particular style of gunning. Choose one of the {@filter Gunning Masteries|optionalfeatures|feature type=GM:SotG|source=sw5e-sotg} options, detailed above. You can select this venture multiple times. You can't take a {@filter Gunning Masteries|optionalfeatures|feature type=GM:SotG|source=sw5e-sotg} option more than once, even if you later get to choose again."
+				"You master a particular style of gunning. Choose one of the {@book Gunning Mastery|sw5e-sotg|4|Gunning Mastery} options, detailed above. You can select this venture multiple times. You can't take a {@book Gunning Mastery|sw5e-sotg|4|Gunning Mastery} option more than once, even if you later get to choose again."
 			]
 		},
 		{
@@ -327,7 +336,7 @@
 						"Rank 3"
 					]
 				},
-				"You adopt a particular style of gunning as your specialty. Choose one of the {@filter Gunning Styles|optionalfeatures|feature type=GS:SotG|source=sw5e-sotg} options options, detailed above. You can select this venture multiple times. You can't take a {@filter Gunning Styles|optionalfeatures|feature type=GS:SotG|source=sw5e-sotg} option more than once, even if you later get to choose again."
+				"You adopt a particular style of gunning as your specialty. Choose one of the {@book Gunning Style|sw5e-sotg|4|Gunning Style} options options, detailed above. You can select this venture multiple times. You can't take a {@book Gunning Style|sw5e-sotg|4|Gunning Style} option more than once, even if you later get to choose again."
 			]
 		},
 		{
@@ -338,7 +347,7 @@
 				"SV:SotG"
 			],
 			"entries": [
-				"When you would make a Constitution ({@skill Patch|sw5e-sotg}) check while aboard your ship, you can instead make an Intelligence ({@item Mechanic's kit|sw5e-phb|Mechanic's Kit})."
+				"When you would make a Constitution (Patch) check while aboard your ship, you can instead make an Intelligence ({@item Mechanic's kit|sw5e-phb|Mechanic's Kit})."
 			]
 		},
 		{
@@ -356,7 +365,7 @@
 						"at least 9 levels in fighter"
 					]
 				},
-				"While deployed, when your ship fails a {@variantrule Saving Throw|sw5e-phb|saving throw}, you can use your Indomitable class feature to reroll the die."
+				"While deployed, when your ship fails a {@variantrule Saving Throw|sw5e-sotg|saving throw}, you can use your Indomitable class feature to reroll the die."
 			]
 		},
 		{
@@ -374,7 +383,7 @@
 						"at least 10 levels in scout"
 					]
 				},
-				"You can take the Fly or {@book Conceal|sw5e-sotg|11|Conceal} actions as a {@variantrule Bonus Action|sw5e-phb} on each of your turns. When you attempt to {@book Conceal|sw5e-sotg|11|Conceal} your ship, you can opt to not move your ship more than half its {@variantrule Speed|sw5e-phb|speed} on that turn. If you do so, ships that attempt to detect you take a -10 penalty to their Wisdom ({@skill Scan|sw5e-sotg}) checks until the start of your next turn. You lose this benefit if you move more than half your {@variantrule Speed|sw5e-phb|speed}, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden. If you are still hidden on your next turn, you can continue to move up to half your {@variantrule Speed|sw5e-phb|speed} and gain this benefit until you are detected.",
+				"You can take the Fly or {@book Conceal|sw5e-sotg|11|Conceal} actions as a {@variantrule Bonus Action|sw5e-sotg} on each of your turns. When you attempt to {@book Conceal|sw5e-sotg|11|Conceal} your ship, you can opt to not move your ship more than half its {@variantrule Speed|sw5e-sotg|speed} on that turn. If you do so, ships that attempt to detect you take a -10 penalty to their Wisdom (Scan) checks until the start of your next turn. You lose this benefit if you move more than half your {@variantrule Speed|sw5e-sotg|speed}, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden. If you are still hidden on your next turn, you can continue to move up to half your {@variantrule Speed|sw5e-sotg|speed} and gain this benefit until you are detected.",
 				"&emsp;Finally, you can no longer be tracked by unenhanced means, unless you choose to leave a trail."
 			]
 		},
@@ -411,7 +420,7 @@
 						"The ability to cast force powers"
 					]
 				},
-				"}<br> When you determine the save DC for a tertiary ship weapon while on a Medium or smaller ship, you can add half your Wisdom or Charisma modifier (your choice) to the save DC."
+				"} When you determine the save DC for a tertiary ship weapon while on a Medium or smaller ship, you can add half your Wisdom or Charisma modifier (your choice) to the save DC."
 			]
 		},
 		{
@@ -429,14 +438,14 @@
 						"Rank 4"
 					]
 				},
-				"When you take the {@action Search|sw5e-phb} action and succeed on a Wisdom ({@skill Scan|sw5e-sotg}) or Intelligence ({@skill Probe|sw5e-sotg}) check aided by your ship's scanners, you can learn certain information about a target if you are aware of them. The GM tells you if the ship is your ship's equal, superior, or inferior in regard to one of the following characteristics of your choice:",
+				"When you take the {@action Search|sw5e-phb} action and succeed on a Wisdom (Scan) or Intelligence (Probe) check aided by your ship's scanners, you can learn certain information about a target if you are aware of them. The GM tells you if the ship is your ship's equal, superior, or inferior in regard to one of the following characteristics of your choice:",
 				"Once you've targeted a ship with this feature, you can't target it again until you complete a {@variantrule Long Rest|sw5e-phb|long rest}.",
 				{
 					"type": "list",
 					"items": [
 						"Any one Ability Score",
-						"{@variantrule Armor Class|sw5e-phb}",
-						"Current total hull and shield points",
+						"{@variantrule Armor Class|sw5e-sotg}",
+						"Current total hull and {@variantrule Shield Points|sw5e-sotg|shield points}",
 						"Current shield die type and number, and shield regeneration rate",
 						"Total ship tiers (if any)",
 						"Total deployment ranks (if any)"
@@ -459,7 +468,7 @@
 						"The ability to cast tech powers, at least 1 rank in gunner"
 					]
 				},
-				"}<br> {@i {@b Prerequisite:} at least 1 rank in gunner}<br> Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a {@variantrule Reaction|sw5e-phb} to spend one tech point to mark the target. The next {@variantrule Attack Roll|sw5e-phb|attack roll} you make against the ship before the end of your next turn can’t suffer from {@variantrule Disadvantage|sw5e-phb|disadvantage}."
+				"} {@i {@b Prerequisite:} at least 1 rank in gunner} Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a {@variantrule Reaction|sw5e-sotg} to spend one tech point to mark the target. The next {@variantrule Attack Roll|sw5e-sotg|attack roll} you make against the ship before the end of your next turn can’t suffer from {@variantrule Disadvantage|sw5e-sotg|disadvantage}."
 			]
 		},
 		{
@@ -488,7 +497,7 @@
 						" Multi-Roled "
 					]
 				},
-				"<br> When you advance a rank in your primary deployment, you may select a deployment maneuver (collaboration, gambit, technique, disruption, tactic, or stratagem) from any deployment instead of your primary deployment. If your chosen maneuver is a technique, you can use a power die from any location instead of a tech die for that technique."
+				"When you advance a rank in your primary deployment, you may select a deployment maneuver (collaboration, gambit, technique, disruption, tactic, or stratagem) from any deployment instead of your primary deployment. If your chosen maneuver is a technique, you can use a power die from any location instead of a tech die for that technique."
 			]
 		},
 		{
@@ -517,7 +526,7 @@
 				"SV:SotG"
 			],
 			"entries": [
-				"When operating a ship, you gain a second {@variantrule Reaction|sw5e-phb} you can take with the ship."
+				"When operating a ship, you gain a second {@variantrule Reaction|sw5e-sotg} you can take with the ship."
 			]
 		},
 		{
@@ -535,7 +544,7 @@
 						"Multitasker "
 					]
 				},
-				"<br> When operating a ship, you gain a second {@variantrule Bonus Action|sw5e-phb} you can take with the ship."
+				"When operating a ship, you gain a second {@variantrule Bonus Action|sw5e-sotg} you can take with the ship."
 			]
 		},
 		{
@@ -553,7 +562,7 @@
 						" Multitasker, Improved; Rank 5 "
 					]
 				},
-				"<br> When operating a ship, you gain a second action you can take with the ship."
+				"When operating a ship, you gain a second action you can take with the ship."
 			]
 		},
 		{
@@ -564,7 +573,7 @@
 				"SV:SotG"
 			],
 			"entries": [
-				"Whenever you make a Charisma ({@skill Interfere|sw5e-sotg}) check, you may instead make an Intelligence (Slicer Tools) check."
+				"Whenever you make a Charisma (Interfere) check, you may instead make an Intelligence (Slicer Tools) check."
 			]
 		},
 		{
@@ -575,7 +584,7 @@
 				"SV:SotG"
 			],
 			"entries": [
-				"When you make a Wisdom ({@skill Scan|sw5e-sotg}) or Intelligence ({@skill Probe|sw5e-sotg}) check while aboard your ship, you may use your Wisdom modifier instead of your ship's Ability modifier."
+				"When you make a Wisdom (Scan) or Intelligence (Probe) check while aboard your ship, you may use your Wisdom modifier instead of your ship's Ability modifier."
 			]
 		},
 		{
@@ -593,7 +602,7 @@
 						"at least 3 ranks in operator"
 					]
 				},
-				"When you take the {@variantrule Interfere|sw5e-sotg} action and succeed on the contest, the target has {@variantrule Disadvantage|sw5e-phb|disadvantage} on the next Charisma ({@skill Interfere|sw5e-sotg}) check before the end of your next turn."
+				"When you take the {@action Interfere|sw5e-sotg} action and succeed on the contest, the target has {@variantrule Disadvantage|sw5e-sotg|disadvantage} on the next Charisma (Interfere) check before the end of your next turn."
 			]
 		},
 		{
@@ -622,7 +631,7 @@
 				"SV:SotG"
 			],
 			"entries": [
-				"When you make a Dexterity ({@skill Maneuvering|sw5e-sotg}) check while at the helm, you can add your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to checks you make if you do not already do so."
+				"When you make a Dexterity (Maneuvering) check while at the helm, you can add your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} to checks you make if you do not already do so."
 			]
 		},
 		{
@@ -633,7 +642,7 @@
 				"SV:SotG"
 			],
 			"entries": [
-				"When you make an {@variantrule Attack Roll|sw5e-phb|attack roll} with a primary ship weapon while on a Large or smaller ship, you can use your Dexterity modifier, instead of the ship's Wisdom modifier, for the {@variantrule Attack Roll|sw5e-phb|attack rolls}."
+				"When you make an {@variantrule Attack Roll|sw5e-sotg|attack roll} with a primary ship weapon while on a Large or smaller ship, you can use your Dexterity modifier, instead of the ship's Wisdom modifier, for the {@variantrule Attack Roll|sw5e-sotg|attack rolls}."
 			]
 		},
 		{
@@ -651,7 +660,7 @@
 						"at least 3 levels in consular"
 					]
 				},
-				"When your ship is hit by an attack, you can use your {@variantrule Reaction|sw5e-phb} to shroud your ship in Force energy. Until the start of your next turn, you have a bonus to AC equal to your Wisdom or Charisma modifier (your choice, minimum of +1). This includes the triggering attack. You can use this feature a number of times equal to your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, as shown in the consular table. You regain all expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
+				"When your ship is hit by an attack, you can use your {@variantrule Reaction|sw5e-sotg} to shroud your ship in Force energy. Until the start of your next turn, you have a bonus to AC equal to your Wisdom or Charisma modifier (your choice, minimum of +1). This includes the triggering attack. You can use this feature a number of times equal to your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus}, as shown in the consular table. You regain all expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
 			]
 		},
 		{
@@ -669,7 +678,7 @@
 						"at least 2 levels in berserker"
 					]
 				},
-				"When you take the Ram action, you can throw aside all concern for defense to attack with fierce desperation. The target has {@variantrule Disadvantage|sw5e-phb|disadvantage} on the Dexterity ({@skill Maneuvering|sw5e-sotg}) check, and you deal additional damage equal to your rage damage bonus. The first {@variantrule Attack Roll|sw5e-phb|attack roll} made against your ship before the start of your next turn has {@variantrule Advantage|sw5e-phb|advantage}."
+				"When you take the Ram action, you can throw aside all concern for defense to attack with fierce desperation. The target has {@variantrule Disadvantage|sw5e-sotg|disadvantage} on the Dexterity (Maneuvering) check, and you deal additional damage equal to your rage damage bonus. The first {@variantrule Attack Roll|sw5e-sotg|attack roll} made against your ship before the start of your next turn has {@variantrule Advantage|sw5e-sotg|advantage}."
 			]
 		},
 		{
@@ -687,7 +696,7 @@
 						"at least 3 ranks in mechanic"
 					]
 				},
-				"When you succeed on a Constitution ({@skill Patch|sw5e-sotg}) check as a part of a Patch action you take, you have {@variantrule Advantage|sw5e-phb|advantage} on the next Constitution ({@skill Patch|sw5e-sotg}) check you take as a part of the Patch action you take before the end of your next turn."
+				"When you succeed on a Constitution (Patch) check as a part of a Patch action you take, you have {@variantrule Advantage|sw5e-sotg|advantage} on the next Constitution (Patch) check you take as a part of the Patch action you take before the end of your next turn."
 			]
 		},
 		{
@@ -806,7 +815,7 @@
 				"SV:SotG"
 			],
 			"entries": [
-				"When you take the {@action Search|sw5e-phb} action, you have {@variantrule Advantage|sw5e-phb|advantage} on Wisdom ({@skill Scan|sw5e-sotg}) and Intelligence ({@skill Probe|sw5e-sotg}) checks that rely on the scanner."
+				"When you take the {@action Search|sw5e-phb} action, you have {@variantrule Advantage|sw5e-sotg|advantage} on Wisdom (Scan) and Intelligence (Probe) checks that rely on the scanner."
 			]
 		},
 		{
@@ -824,7 +833,7 @@
 						"The Ability to Cast 1st level Tech Powers"
 					]
 				},
-				"If your ship has 1 or more shield points remaining, as a {@variantrule Reaction|sw5e-phb} to your ship taking damage, you may spend two tech points to tweak your ship's shields to capture some of the incoming energy, lessening its effect on your ship and storing it for your ship's next primary {@variantrule Attack Roll|sw5e-phb|weapon attack}. Your ship gains resistance to the triggering damage type until the start of your ship's next turn. Also, the first time your ship hits with a primary {@variantrule Attack Roll|sw5e-phb|weapon attack} on your ship's next turn, the target takes an extra 1d6 damage of the triggering type, and the power ends."
+				"If your ship has 1 or more {@variantrule Shield Points|sw5e-sotg|shield points} remaining, as a {@variantrule Reaction|sw5e-sotg} to your ship taking damage, you may spend two tech points to tweak your ship's shields to capture some of the incoming energy, lessening its effect on your ship and storing it for your ship's next primary {@variantrule Attack Roll|sw5e-sotg|weapon attack}. Your ship gains resistance to the triggering damage type until the start of your ship's next turn. Also, the first time your ship hits with a primary {@variantrule Attack Roll|sw5e-sotg|weapon attack} on your ship's next turn, the target takes an extra 1d6 damage of the triggering type, and the power ends."
 			]
 		},
 		{
@@ -853,7 +862,7 @@
 						"at least 2 levels in operative"
 					]
 				},
-				"Your quick thinking and agility allow you to act and move your ship quickly. You can take a {@variantrule Bonus Action|sw5e-phb} on each of your turns in combat. This action can be used only to take the {@book Conceal|sw5e-sotg|11|Conceal}, Evade, or Fly action."
+				"Your quick thinking and agility allow you to act and move your ship quickly. You can take a {@variantrule Bonus Action|sw5e-sotg} on each of your turns in combat. This action can be used only to take the {@book Conceal|sw5e-sotg|11|Conceal}, Evade, or Fly action."
 			]
 		},
 		{
@@ -871,7 +880,7 @@
 						"at least 1 level in operative"
 					]
 				},
-				"Once per turn, you can deal an extra 1d6 damage to one ship you hit with a ship attack if you have {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll}.  You can select this venture multiple times."
+				"Once per turn, you can deal an extra 1d6 damage to one ship you hit with a ship attack if you have {@variantrule Advantage|sw5e-sotg|advantage} on the {@variantrule Attack Roll|sw5e-sotg|attack roll}. You can select this venture multiple times."
 			]
 		},
 		{
@@ -893,7 +902,7 @@
 				{
 					"type": "list",
 					"items": [
-						"Your ship is not {@condition Slowed|sw5e-sotg|slowed} by {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}.",
+						"Your ship is not {@condition Slowed|sw5e-phb|slowed} by {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain}.",
 						"Your ship can't get lost by unenhanced means.",
 						"Your ship can move stealthily at a normal pace."
 					]
@@ -915,7 +924,7 @@
 						"The ability to cast force or tech powers"
 					]
 				},
-				"}<br> When casting a force or {@book tech power|sw5e-phb|12|Tech Powers} while aboard your ship and in space, the power's range is multiplied by 2. You can not target a hostile creature with a power unless you are aware of their presence and location."
+				"} When casting a force or {@book tech power|sw5e-phb|12|Tech Powers} while aboard your ship and in space, the power's range is multiplied by 2. You can not target a hostile creature with a power unless you are aware of their presence and location."
 			]
 		},
 		{
@@ -998,7 +1007,7 @@
 				"SV:SotG"
 			],
 			"entries": [
-				"You can use your immense strength to steady primary weapons with the burst, rapid, or saturate features.  When you make an {@variantrule Attack Roll|sw5e-phb|attack roll} with a primary ship weapon having at least one of these features while on a Medium or smaller ship, you can use your Strength modifier, instead of the ship's Wisdom modifier, for the {@variantrule Attack Roll|sw5e-phb|attack rolls} or setting the DC for the targets' saves."
+				"You can use your immense strength to steady primary weapons with the burst, rapid, or saturate features.  When you make an {@variantrule Attack Roll|sw5e-sotg|attack roll} with a primary ship weapon having at least one of these features while on a Medium or smaller ship, you can use your Strength modifier, instead of the ship's Wisdom modifier, for the {@variantrule Attack Roll|sw5e-sotg|attack rolls} or setting the DC for the targets' saves."
 			]
 		},
 		{
@@ -1016,7 +1025,7 @@
 						"at least 3 ranks in coordinator"
 					]
 				},
-				"When you take the {@variantrule Direct|sw5e-sotg} action, you have {@variantrule Advantage|sw5e-phb|advantage} on the next {@variantrule Ability Check|sw5e-phb|ability check} or {@variantrule Saving Throw|sw5e-phb|saving throw} you make before the start of your next turn."
+				"When you take the {@action Direct|sw5e-sotg} action, you have {@variantrule Advantage|sw5e-sotg|advantage} on the next {@variantrule Ability Check|sw5e-sotg|ability check} or {@variantrule Saving Throw|sw5e-sotg|saving throw} you make before the start of your next turn."
 			]
 		},
 		{
@@ -1052,8 +1061,8 @@
 						"at least 1 rank in gunner"
 					]
 				},
-				"When you take this {@book Venture|sw5e-sotg|8|Ventures}, you may select two areas that you are adept at targeting.  You may take this Venture multiple times.  Each time you do so, you may select two additional target areas. Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a {@variantrule Reaction|sw5e-phb} to either forego {@variantrule Advantage|sw5e-phb|advantage} if you have {@variantrule Advantage|sw5e-phb|advantage}, spend one tech point, or spend one force point to target a specific area of the ship causing targeted damage there: The target gain 1 {@condition Slowed|sw5e-sotg|slowed} level until the end of its turn as it suffers damage to its engines. You damage the target's targeting systems.  The first time the target forces you to make a {@variantrule Saving Throw|sw5e-phb|saving throw} before the start of your next turn, the target takes an additional 1d6 ionic damage, and you can roll 1d4 and add the number rolled to your {@variantrule Saving Throw|sw5e-phb|saving throw}. You cause each Large or smaller ship within 100 feet of the target to make a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your ship's Strength modifier).  On a failure, that ship is pulled to the nearest unoccupied space adjacent to the target.",
-				"You destabilize the ship's reactor. Until the start of your next turn, if the target becomes {@condition Tractored|sw5e-sotg|tractored}, {@condition Ionized|sw5e-sotg|ionized}, or {@condition Shocked|sw5e-sotg|shocked}, the reactor suffers damaging feedback, causing the ship to immediately take 1d8 ionic damage. You create an illusory duplicate of your ship in your space that only the target can see. The target has {@variantrule Disadvantage|sw5e-phb|disadvantage} on the next {@variantrule Attack Roll|sw5e-phb|attack roll} it makes against your ship before the start of your next turn. You cause the target to take additional damage to the target's shields equal to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier at the start of your next turn. You cause the target to become {@condition Shocked|sw5e-sotg|shocked} until the end of your ship's next turn. When this attack hits a target, if there is a ship within 300 feet who is {@condition Shocked|sw5e-sotg|shocked}, an arc of lightning courses between the two ships, dealing 1d6 lightning damage to both of them. If there are multiple other ships who are {@condition Shocked|sw5e-sotg|shocked}, the lightning leaps to the closest ship. You damage the ship's weapon systems.  The first time it would deal damage before the start of your next turn, that damage is reduced by 1d6.",
+				"When you take this {@book Venture|sw5e-sotg|8|Ventures}, you may select two areas that you are adept at targeting. You may take this Venture multiple times. Each time you do so, you may select two additional target areas. Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a {@variantrule Reaction|sw5e-sotg} to either forego {@variantrule Advantage|sw5e-sotg|advantage} if you have {@variantrule Advantage|sw5e-sotg|advantage}, spend one tech point, or spend one force point to target a specific area of the ship causing targeted damage there: The target gain 1 {@condition Slowed|sw5e-phb|slowed} level until the end of its turn as it suffers damage to its engines. You damage the target's targeting systems. The first time the target forces you to make a {@variantrule Saving Throw|sw5e-sotg|saving throw} before the start of your next turn, the target takes an additional 1d6 ionic damage, and you can roll 1d4 and add the number rolled to your {@variantrule Saving Throw|sw5e-sotg|saving throw}. You cause each Large or smaller ship within 100 feet of the target to make a Strength {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC = 8 + your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} + your ship's Strength modifier). On a failure, that ship is pulled to the nearest unoccupied space adjacent to the target.",
+				"You destabilize the ship's reactor. Until the start of your next turn, if the target becomes tractored, ionized, or {@condition Shocked|sw5e-phb|shocked}, the reactor suffers damaging feedback, causing the ship to immediately take 1d8 ionic damage. You create an illusory duplicate of your ship in your space that only the target can see. The target has {@variantrule Disadvantage|sw5e-sotg|disadvantage} on the next {@variantrule Attack Roll|sw5e-sotg|attack roll} it makes against your ship before the start of your next turn. You cause the target to take additional damage to the target's shields equal to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier at the start of your next turn. You cause the target to become {@condition Shocked|sw5e-phb|shocked} until the end of your ship's next turn. When this attack hits a target, if there is a ship within 300 feet who is {@condition Shocked|sw5e-phb|shocked}, an arc of lightning courses between the two ships, dealing 1d6 lightning damage to both of them. If there are multiple other ships who are {@condition Shocked|sw5e-phb|shocked}, the lightning leaps to the closest ship. You damage the ship's weapon systems. The first time it would deal damage before the start of your next turn, that damage is reduced by 1d6.",
 				{
 					"type": "inset",
 					"name": "GM Note:",
@@ -1096,7 +1105,7 @@
 						"at least 3 ranks in pilot"
 					]
 				},
-				"When you take the Evade action, you can gain the benefits of Evade against only a single target in order to avoid the penalty of {@variantrule Disadvantage|sw5e-phb|disadvantage} on any skill check or {@variantrule Attack Roll|sw5e-phb|attack roll} made by your ship or anyone on it."
+				"When you take the Evade action, you can gain the benefits of Evade against only a single target in order to avoid the penalty of {@variantrule Disadvantage|sw5e-sotg|disadvantage} on any skill check or {@variantrule Attack Roll|sw5e-sotg|attack roll} made by your ship or anyone on it."
 			]
 		},
 		{
@@ -1114,7 +1123,7 @@
 						"at least 10 levels in sentinel"
 					]
 				},
-				"When you take the Dogfight action, you can make a Dexterity ({@skill Maneuvering|sw5e-sotg}) check (DC = 10 + the number of enemy ships you can see).  On a success, the next attack made against your ship by any ship you can see is not granted {@variantrule Advantage|sw5e-phb|advantage} by the Dogfight action. \\pagebreakNum"
+				"When you take the Dogfight action, you can make a Dexterity (Maneuvering) check (DC = 10 + the number of enemy ships you can see). On a success, the next attack made against your ship by any ship you can see is not granted {@variantrule Advantage|sw5e-sotg|advantage} by the Dogfight action. \\pagebreakNum"
 			]
 		},
 		{
@@ -1132,7 +1141,7 @@
 						"The ability to cast 3rd level tech powers"
 					]
 				},
-				"}<br> As an action, you may touch an unenhanced ship weapon on your ship and spend four tech points, making it an enhanced weapon, for up to an hour, as long as you maintain {@variantrule Concentration|sw5e-phb|concentration}. Additionally, choose one of these damage types: acid, cold, energy, fire, ion, kinetic, or lightning.  The unenhanced ship weapon you touch has a +1 to {@variantrule Attack Roll|sw5e-phb|attack rolls} and deals an extra 1d4 damage of the chosen type for the duration."
+				"} As an action, you may touch an unenhanced ship weapon on your ship and spend four tech points, making it an enhanced weapon, for up to an hour, as long as you maintain {@variantrule Concentration|sw5e-phb|concentration}. Additionally, choose one of these damage types: acid, cold, energy, fire, ion, kinetic, or lightning. The unenhanced ship weapon you touch has a +1 to {@variantrule Attack Roll|sw5e-sotg|attack rolls} and deals an extra 1d4 damage of the chosen type for the duration."
 			]
 		},
 		{
@@ -1150,7 +1159,7 @@
 						"The ability to cast 2nd level tech powers"
 					]
 				},
-				"}<br> As a {@variantrule Bonus Action|sw5e-phb}, you may spend three tech points to empower a ship weapon on your ship. For up to an hour, as long as you maintain {@variantrule Concentration|sw5e-phb|concentration}, you can cool the weapon once per turn without using an action, and as a {@variantrule Bonus Action|sw5e-phb} on each of your turns you can make one attack with the weapon. \\pagebreakNum"
+				"} As a {@variantrule Bonus Action|sw5e-sotg}, you may spend three tech points to empower a ship weapon on your ship. For up to an hour, as long as you maintain {@variantrule Concentration|sw5e-phb|concentration}, you can cool the weapon once per turn without using an action, and as a {@variantrule Bonus Action|sw5e-sotg} on each of your turns you can make one attack with the weapon. \\pagebreakNum"
 			]
 		}
 	]
