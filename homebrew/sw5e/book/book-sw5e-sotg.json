@@ -15,16 +15,8 @@
 			}
 		],
 		"optionalFeatureTypes": {
-			"SV:SotG": {
-				"abbreviation": "SV",
-				"full": "Starship Venture",
-				"source": "sw5e-sotg"
-			},
-			"SF:SotG": {
-				"abbreviation": "SF",
-				"full": "Starship Feature",
-				"source": "sw5e-sotg"
-			}
+			"SV:SotG": "Starship Venture",
+			"SF:SotG": "Starship Feature"
 		},
 		"dateLastModified": 1780615413,
 		"dateAdded": 1780615413
@@ -154,7 +146,7 @@
 					"name": "Chapter 7: Using Ability Scores",
 					"headers": [
 						"Ability Scores and Modifiers",
-						"{@variantrule Advantage|sw5e-sotg} and {@variantrule Disadvantage|sw5e-sotg}",
+						"Advantage and Disadvantage",
 						"Proficiently Equipped",
 						"Ability Checks",
 						"Using Each Ability"
@@ -226,19 +218,19 @@
 						"Within the context of 5e, what I, and my group, have written here has been uncharted territory. I hope it makes sense.",
 						"This book is designed to parallel the 5e Player's Handbook as much as it can. It includes all the relevant chapters, as they relate to the space component of the game. The signifcant diferences will be listed below.",
 						"While this expansion utilizes the base rules of 5th Edition, there are signifcant diferences that will be illustrated here, broken down by chapter.",
-						"{@book CHAPTER 1: STEP-BY-STEP STARSHIPS|sw5e-sotg|3|Chapter 1: Step-By-Step Starships} This chapter is designed to help you integrate this into your campaign, from the perspective of a player. It helps you to build Han Solo as a Pilot, with his ship the Millennium Falcon.",
-						"{@book CHAPTER 2: DEPLOYMENTS|sw5e-sotg|4|Chapter 2: Deployments} Deployments are the certain locations that might exist on a ship, and what actions are granted by manning a deployment. There are fve potential deployments: {@book coordinator|sw5e-sotg|4|Coordinator}, {@book gunner|sw5e-sotg|4|Gunner}, {@book mechanic|sw5e-sotg|4|Mechanic}, {@book operator|sw5e-sotg|4|Operator} and {@book pilot|sw5e-sotg|4|Pilot}. Any character can engage in any deployment, though some characters are more suited to certain deployments.",
+						"{@book Chapter 1: Step-By-Step Starships|sw5e-sotg|3|Chapter 1: Step-By-Step Starships} This chapter is designed to help you integrate this into your campaign, from the perspective of a player. It helps you to build Han Solo as a Pilot, with his ship the Millennium Falcon.",
+						"{@book Chapter 2: Deployments|sw5e-sotg|4|Chapter 2: Deployments} Deployments are the certain locations that might exist on a ship, and what actions are granted by manning a deployment. There are fve potential deployments: {@book coordinator|sw5e-sotg|4|Coordinator}, {@book gunner|sw5e-sotg|4|Gunner}, {@book mechanic|sw5e-sotg|4|Mechanic}, {@book operator|sw5e-sotg|4|Operator} and {@book pilot|sw5e-sotg|4|Pilot}. Any character can engage in any deployment, though some characters are more suited to certain deployments.",
 						"Additionally, once a player has chosen a favored deployment, they will be able to specialize in that deployment. Specializing in a deployment unlocks features specifc to that deployment via a series of ranks (levels).",
-						"{@book CHAPTER 3: STARSHIPS|sw5e-sotg|5|Chapter 3: Starships} This chapter covers the acquisition of a starship, as well as upgrading starships to higher tiers (levels).",
+						"{@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} This chapter covers the acquisition of a starship, as well as upgrading starships to higher tiers (levels).",
 						"Unlike classes, starship tiers are locked to the size category of the starship. Within each starship tier, however, there are choices that let you specialize your ship in a direction of your choice.",
-						"{@book CHAPTER 4: MODIFICATIONS|sw5e-sotg|6|Chapter 4: Modifications} As your starship progresses in tiers, it unlocks upgrade slots, which can be spent on upgrades. Upgrades fall into one of fve categories: engineering, operation, suite, universal, and weapon.",
-						"{@book CHAPTER 5: EQUIPMENT|sw5e-sotg|7|Chapter 5: Equipment} Equipment functions in a similar capacity to the ground component, with the except of it needing to be integrated into a ship as opposed to just held. There are fve major equipment types: armor, shields, weapons, hyperdrives, and navcomputers.",
-						"{@book CHAPTER 6: CUSTOMIZATION OPTIONS|sw5e-sotg|8|Chapter 6: Customization Options} Characters can choose to focus on a single deployment, or multiple deployments via multispeccing. Additionally, as characters unlock ranks in deployments they gain access to ventures (feats).",
-						"{@book CHAPTER 7: USING ABILITY SCORES|sw5e-sotg|9|Chapter 7: Using Ability Scores} While deployed in a starship, rather than using their own physical ability scores (Strength, Dexterity, and Constitution), skills will instead use the respective ability score of the ship. As ship's have no mental ability scores (Intelligence, Wisdom, and Charisma), the players will still use their own.",
-						"{@book CHAPTER 8: ADVENTURING|sw5e-sotg|10|Chapter 8: Adventuring} This chapter discusses the adventuring component of space. One new feature, {@variantrule Speed|sw5e-sotg|turning speed}, has been added. The oversimplifcation is that, unlike players, ships can't easily change directions. In addition to fying speed, ships have a {@variantrule Speed|sw5e-sotg|turning speed}; in order to turn 90 degrees, the ship must spend that many feet of movement.",
-						"{@book CHAPTER 9: COMBAT|sw5e-sotg|11|Chapter 9: Combat} Combat is designed to function similar to combat on the ground; players still roll their own {@variantrule Initiative|sw5e-sotg|initiative} and act on their own turn. The key diference is the actions available to players are keyed to their specifc deployment. For instance, the pilot controls the movement of the ship, and the gunner controls the weapons.",
-						"{@book CHAPTER 10: GENERATING ENCOUNTERS|sw5e-sotg|12|Chapter 10: Generating Encounters} This chapter is designed to help GMs build interesting encounters.",
-						"{@book APPENDIX A: CONDITIONS|sw5e-sotg|13|Appendix A: Conditions} Conditions adapted to this expansion.",
+						"{@book Chapter 4: Modifications|sw5e-sotg|6|Chapter 4: Modifications} As your starship progresses in tiers, it unlocks upgrade slots, which can be spent on upgrades. Upgrades fall into one of fve categories: engineering, operation, suite, universal, and weapon.",
+						"{@book Chapter 5: Equipment|sw5e-sotg|7|Chapter 5: Equipment} Equipment functions in a similar capacity to the ground component, with the except of it needing to be integrated into a ship as opposed to just held. There are fve major equipment types: armor, shields, weapons, hyperdrives, and navcomputers.",
+						"{@book Chapter 6: Customization Options|sw5e-sotg|8|Chapter 6: Customization Options} Characters can choose to focus on a single deployment, or multiple deployments via multispeccing. Additionally, as characters unlock ranks in deployments they gain access to ventures (feats).",
+						"{@book Chapter 7: Using Ability Scores|sw5e-sotg|9|Chapter 7: Using Ability Scores} While deployed in a starship, rather than using their own physical ability scores (Strength, Dexterity, and Constitution), skills will instead use the respective ability score of the ship. As ship's have no mental ability scores (Intelligence, Wisdom, and Charisma), the players will still use their own.",
+						"{@book Chapter 8: Adventuring|sw5e-sotg|10|Chapter 8: Adventuring} This chapter discusses the adventuring component of space. One new feature, {@variantrule Turn Speed|sw5e-sotg|turning speed}, has been added. The oversimplifcation is that, unlike players, ships can't easily change directions. In addition to fying speed, ships have a {@variantrule Turn Speed|sw5e-sotg|turning speed}; in order to turn 90 degrees, the ship must spend that many feet of movement.",
+						"{@book Chapter 9: Combat|sw5e-sotg|11|Chapter 9: Combat} Combat is designed to function similar to combat on the ground; players still roll their own {@variantrule Initiative|sw5e-sotg|initiative} and act on their own turn. The key diference is the actions available to players are keyed to their specifc deployment. For instance, the pilot controls the movement of the ship, and the gunner controls the weapons.",
+						"{@book Chapter 10: Generating Encounters|sw5e-sotg|12|Chapter 10: Generating Encounters} This chapter is designed to help GMs build interesting encounters.",
+						"{@book Appendix A: Conditions|sw5e-sotg|13|Appendix A: Conditions} Conditions adapted to this expansion.",
 						"GOING FORWARD This book is signifcantly more play-testy, and thus requires the most review. I hope you'll join the discord and the discussion, and help the community move this content forward."
 					]
 				},
@@ -333,7 +325,7 @@
 									"type": "entries",
 									"name": "Advantage and Disadvantage",
 									"entries": [
-										"{@variantrule Advantage|sw5e-sotg} and {@variantrule Disadvantage|sw5e-sotg} function identical to the ground game; with {@variantrule Advantage|sw5e-sotg|advantage}, you roll two dice and take the higher value, while with the {@variantrule Disadvantage|sw5e-sotg|disadvantage} you roll two dice and take the lesser."
+										"Advantage and Disadvantage function identical to the ground game; with advantage, you roll two dice and take the higher value, while with the disadvantage you roll two dice and take the lesser."
 									]
 								},
 								{
@@ -345,7 +337,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "ROUND APPROPRIATELY",
+									"name": "Round Appropriately",
 									"entries": [
 										"Follow standard rules for rounding; if a number ends in one-half or greater, round up, while if a number ends in less than one-half, round down."
 									]
@@ -433,7 +425,7 @@
 								"Much of what your ship does in the game depends on its six abilities: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. Each ability has a score, which is a number you record on your character sheet.",
 								"The six abilities and their use in the game are described in {@book Chapter 7: Using Ability Scores|sw5e-sotg|9|Chapter 7: Using Ability Scores}. The {@b Ability Score Summary} table provides a quick reference for what qualities are measured by each ability.  Ships size categories decrease and/or increase the base ability scores, as can tier advancements and ship modifications.",
 								"You generate your shipís six ability scores using a standard array of ability scores that you assign to each ability as you wish (Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma): 15, 14, 13, 12, 10, 8. Afterward, make any changes to your ability scores as a result of your ship size.",
-								"After assigning your ability scores, determine your ability modifiers using the {@book Ability Scores and Modifiers|sw5e-sotg|2|Determine Ability Scores} table. To determine an ability modifier without consulting the table, subtract 10 from the ability score and then divide the result by 2 (round down). Write the modifier next to each of your scores.",
+								"After assigning your ability scores, determine your ability modifiers using Ability Scores and Modifiers table. To determine an ability modifier without consulting the table, subtract 10 from the ability score and then divide the result by 2 (round down). Write the modifier next to each of your scores.",
 								{
 									"type": "inset",
 									"name": "Building The Millennium Falcon, Step 2",
@@ -446,7 +438,7 @@
 									"name": "Variant: Customizing Ability Scores",
 									"entries": [
 										"At your Game Masterís option, you can use this variant for determining your ship's ability scores. The method described here allows you to build a ship with a set of ability scores you choose individually.",
-										"You have 27 points to spend on your ability scores. The cost of each score is shown on the {@book Ability Score Point Cost|sw5e-sotg|2|Determine Ability Scores} table. For example, a score of 14 costs 7 points. Using this method, 15 is the highest ability score you can end up with, before applying special increases. You canít have a score lower than 8.",
+										"You have 27 points to spend on your ability scores. The cost of each score is shown on Ability Score Point Cost table. For example, a score of 14 costs 7 points. Using this method, 15 is the highest ability score you can end up with, before applying special increases. You canít have a score lower than 8.",
 										"This method of determining ability scores enables you to create a set of three high numbers and three low ones (15, 15, 15, 8, 8, 8), a set of numbers that are above average and nearly equal (13, 13, 13, 12, 12, 12), or any set of numbers between those extremes.",
 										{
 											"type": "entries",
@@ -539,7 +531,7 @@
 									"type": "entries",
 									"name": "Armor Class",
 									"entries": [
-										"Your {@variantrule Armor Class|sw5e-sotg} (AC) represents how well your starship avoids being damaged in battle&mdash;either my avoiding being hit entirely or by remaining essentially unharmed from an attack. Your AC is determined by four major factors: your base AC, your starship's Dexterity modifier, your ship's Tier bonuses, and the type of armor your ship has installed (see {@book Chapter 5: Equipment|sw5e-sotg|7|Chapter 5: Equipment} and {@book Chapter 4: Modifications|sw5e-sotg|6|Chapter 4: Modifications}).",
+										"Your Armor Class (AC) represents how well your starship avoids being damaged in battle&mdash;either my avoiding being hit entirely or by remaining essentially unharmed from an attack. Your AC is determined by four major factors: your base AC, your starship's Dexterity modifier, your ship's Tier bonuses, and the type of armor your ship has installed (see {@book Chapter 5: Equipment|sw5e-sotg|7|Chapter 5: Equipment} and {@book Chapter 4: Modifications|sw5e-sotg|6|Chapter 4: Modifications}).",
 										"Your ship has a base AC of 10. You then add (or subtract) the other factors above: Dexterity modifier, potentially limited by the type of armor you have installed; your ship's Tier bonus, if any; and any applicable modifications."
 									]
 								},
@@ -552,7 +544,7 @@
 											"type": "inset",
 											"name": "Building the Millennium Falcon, Step 4",
 											"entries": [
-												"The Millennium Falcon has a base AC of 10. The Falcon comes with deflection armor installed, which allows the ship to add up to a +2 Dexterity bonus.  With a Dexterity of 14, we add 2 to the Millennium Falcon's base {@variantrule Armor Class|sw5e-sotg|armor class} for a total of 12 at Tier 1. The Falcon has two turreted hardpoints, and we choose traditional quad laser cannons to equip to them. When making an {@variantrule Attack Roll|sw5e-sotg|attack roll} with either weapon, we use the ship's Wisdom modifier (+1) and the crew's {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} (+3, e.g.). When making a damage roll, we add the ship's Strength modifier (+3). The fixed hardpoint is equipped with a missile launcher and is loaded with concussion missiles.  The missile's {@variantrule Saving Throw|sw5e-sotg|saving throw} has a DC equal to 8 plus the ship's Wisdom modifier (+1) and the crew's {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} (+3). We note that the quad laser cannons have an unlimited {@variantrule Firing Arc|sw5e-sotg|firing arc}, do 2d4 + 3 energy damage, have a range of 800/3200, can fire in rapid mode, and overheat after shooting 8 shots.  The concussion missiles have a limited {@variantrule Firing Arc|sw5e-sotg|firing arc}, do 2d8 + 3 energy damage, have a range of 600/2400 and must fire in either burst 1 or rapid mode.  These Falcon can fire 8 missiles before needing to be reloaded, and these missiles have the \"explosive\" feature, which will force {@variantrule Concentration|sw5e-phb|concentration} checks by characters on affected ships."
+												"The Millennium Falcon has a base AC of 10. The Falcon comes with deflection armor installed, which allows the ship to add up to a +2 Dexterity bonus.  With a Dexterity of 14, we add 2 to the Millennium Falcon's base armor class for a total of 12 at Tier 1. The Falcon has two turreted hardpoints, and we choose traditional quad laser cannons to equip to them. When making an {@variantrule Attack Roll|sw5e-sotg|attack roll} with either weapon, we use the ship's Wisdom modifier (+1) and the crew's {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} (+3, e.g.). When making a damage roll, we add the ship's Strength modifier (+3). The fixed hardpoint is equipped with a missile launcher and is loaded with concussion missiles.  The missile's {@variantrule Saving Throw|sw5e-sotg|saving throw} has a DC equal to 8 plus the ship's Wisdom modifier (+1) and the crew's {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} (+3). We note that the quad laser cannons have an unlimited {@variantrule Firing Arc|sw5e-sotg|firing arc}, do 2d4 + 3 energy damage, have a range of 800/3200, can fire in rapid mode, and overheat after shooting 8 shots.  The concussion missiles have a limited {@variantrule Firing Arc|sw5e-sotg|firing arc}, do 2d8 + 3 energy damage, have a range of 600/2400 and must fire in either burst 1 or rapid mode.  These Falcon can fire 8 missiles before needing to be reloaded, and these missiles have the \"explosive\" feature, which will force {@variantrule Concentration|sw5e-phb|concentration} checks by characters on affected ships."
 											]
 										}
 									]
@@ -728,7 +720,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Coordinating Leadership|sw5e-sotg|4|Coordinating Leadership}",
+									"name": "Coordinating Leadership",
 									"entries": [
 										"Also at 1st rank, you learn collaborations that are fueled by special dice called power dice.",
 										{
@@ -814,7 +806,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Uplifting Directive|sw5e-sotg|4|Uplifting Directive}",
+									"name": "Uplifting Directive",
 									"entries": [
 										"At 2nd rank, when you take the {@action Direct|sw5e-sotg} action, roll a {@dice d20}. Note the number on the {@dice d20}. This becomes your uplifting directive number.",
 										"While you have an uplifting directive number, when an ally makes an {@variantrule Ability Check|sw5e-sotg|ability check} or {@variantrule Attack Roll|sw5e-sotg|attack roll} affected by your Direct action, you can replace the result of a {@dice d20} roll with the value of the uplifting directive roll. You can use this feature before or after making the roll, but before any effects of the roll are determined. You can only have one uplifting directive roll at a time, and you lose any unused uplifting directive rolls when you complete a short or {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -822,16 +814,16 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Inspiring Display|sw5e-sotg|4|Inspiring Display}",
+									"name": "Inspiring Display",
 									"entries": [
-										"Also at 2nd rank, you can inspire others through stirring words. You spend the next minute rallying your allies by giving an inspiring speech. You grant a number of ships up to your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} temporary {@variantrule Hull Points|sw5e-sotg|hull points} equal to your Charisma modifier.  You also grant to a number of crewmembers up to your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} from those ships one {@book Inspiring Display|sw5e-sotg|4|Inspiring Display} die, a {@dice d6}. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw} it makes. The creature can wait until after it rolls the {@dice d20} before deciding to use the {@book Inspiring Display|sw5e-sotg|4|Inspiring Display} die, but must decide before the GM says whether the roll succeeds or fails. Once the {@book Inspiring Display|sw5e-sotg|4|Inspiring Display} die is rolled, it is lost. A creature can have only one {@book Inspiring Display|sw5e-sotg|4|Inspiring Display} die at a time.",
+										"Also at 2nd rank, you can inspire others through stirring words. You spend the next minute rallying your allies by giving an inspiring speech. You grant a number of ships up to your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} temporary {@variantrule Hull Points|sw5e-sotg|hull points} equal to your Charisma modifier.  You also grant to a number of crewmembers up to your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} from those ships one Inspiring Display die, a {@dice d6}. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw} it makes. The creature can wait until after it rolls the {@dice d20} before deciding to use the Inspiring Display die, but must decide before the GM says whether the roll succeeds or fails. Once the Inspiring Display die is rolled, it is lost. A creature can have only one Inspiring Display die at a time.",
 										"Once you've used this feature, you can't use it again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}.",
-										"Your {@book Inspiring Display|sw5e-sotg|4|Inspiring Display} die changes when you reach certain ranks in this deployment. The die becomes a {@dice d8} at 3rd rank, a {@dice d10} at 4th rank, and a {@dice d12} at 5th rank."
+										"Your Inspiring Display die changes when you reach certain ranks in this deployment. The die becomes a {@dice d8} at 3rd rank, a {@dice d10} at 4th rank, and a {@dice d12} at 5th rank."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Rallying Cry|sw5e-sotg|4|Rallying Cry}",
+									"name": "Rallying Cry",
 									"entries": [
 										"At 3rd rank, as a {@variantrule Bonus Action|sw5e-sotg}, you can extend a rallying cry to those that can hear you. Choose a number of friendly creatures up to twice your Charisma modifier that can see or hear you. Each of those creatures gains an {@book Inspiring Display|sw5e-sotg|4|Inspiring Display} die that lasts until the end of your next turn.",
 										"Once you've used this feature, you can't use it again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -839,14 +831,14 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Masterful Directive|sw5e-sotg|4|Masterful Directive}",
+									"name": "Masterful Directive",
 									"entries": [
 										"Also at 3rd rank, when you roll your uplifting directive number as a part of the Direct action, you can use your {@variantrule Bonus Action|sw5e-sotg} to increase your uplifting directive number by an amount equal to your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus}. If this would increase the value of your uplifting directive number to more than 20, it instead becomes 20."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Commanding Presence|sw5e-sotg|4|Commanding Presence}",
+									"name": "Commanding Presence",
 									"entries": [
 										"At 4th rank, you learn a new way to use your {@book Inspiring Display|sw5e-sotg|4|Inspiring Display}. While aboard your ship, when a creature that can see or hear you fails an {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw}, you can use use your {@variantrule Reaction|sw5e-sotg} to aid that creature provided it did not already have or use an {@book Inspiring Display|sw5e-sotg|4|Inspiring Display} die this turn. The creature can then roll the die and add it to the result.",
 										"You can use this feature a number of times equal to your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus}. You regain any expended uses when you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -854,21 +846,21 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Contingency Plan|sw5e-sotg|4|Contingency Plan}",
+									"name": "Contingency Plan",
 									"entries": [
 										"Also at 4th rank, while aboard your ship, you can choose two allies, instead of one, when you take the {@action Direct|sw5e-sotg} action."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Paragon Coordinator|sw5e-sotg|4|Paragon Coordinator}",
+									"name": "Paragon Coordinator",
 									"entries": [
 										"As of 5th tier, you are a paragon of your deployment. When you would expend a Power die or an {@book Inspiring Display|sw5e-sotg|4|Inspiring Display} die, you can use a {@dice d4} instead of expending a die. You can only use this feature once per round."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Leader Extraordinaire|sw5e-sotg|4|Leader Extraordinaire}",
+									"name": "Leader Extraordinaire",
 									"entries": [
 										"You regain all expended uses of your {@book Inspiring Display|sw5e-sotg|4|Inspiring Display}, {@book Rallying Cry|sw5e-sotg|4|Rallying Cry}, and {@book Commanding Presence|sw5e-sotg|4|Commanding Presence} features when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}.",
 										"Additionally, when you roll an {@book Uplifting Directive|sw5e-sotg|4|Uplifting Directive} number, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again.",
@@ -929,7 +921,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Gunner Techniques|sw5e-sotg|4|Gunner Techniques}",
+									"name": "Gunner Techniques",
 									"entries": [
 										"Also at 1st rank, you learn gambits that are fueled by special dice called power dice.",
 										{
@@ -1017,26 +1009,26 @@
 									"type": "entries",
 									"name": "Gunning Style",
 									"entries": [
-										"At 2nd rank, you adopt a particular style of gunning as your specialty. Choose one of the {@book Gunning Style|sw5e-sotg|4|Gunning Style} options, detailed in {@book chapter 6|sw5e-sotg|8|Chapter 6: Customization Options}. You can't take a {@book Gunning Style|sw5e-sotg|4|Gunning Style} option more than once, even if you later get to choose again."
+										"At 2nd rank, you adopt a particular style of gunning as your specialty. Choose one of the Gunning Style options, detailed in {@book chapter 6|sw5e-sotg|8|Chapter 6: Customization Options}. You can't take a Gunning Style option more than once, even if you later get to choose again."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Improved Critical|sw5e-sotg|4|Improved Critical}",
+									"name": "Improved Critical",
 									"entries": [
 										"Also at 2nd rank, your {@variantrule Critical Hit|sw5e-sotg|critical hit} range with primary and secondary weapons increases by 1, and when a ship rolls a 1 on a {@variantrule Saving Throw|sw5e-sotg|saving throw} against a tertiary or quaternary weapon that you control, they treat the effect's damage as if it had rolled the maximum."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Dependable Gunner|sw5e-sotg|4|Dependable Gunner}",
+									"name": "Dependable Gunner",
 									"entries": [
 										"Starting at 3rd rank, when you roll for damage with a ship weapon, you can reroll one of the dice, but you must use the new result.  You may use this feature a number of times equal to your ranks in gunner.  You regain all expended uses when you complete a {@variantrule Long Rest|sw5e-phb|long rest}."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Brutal Critical|sw5e-sotg|4|Brutal Critical}",
+									"name": "Brutal Critical",
 									"entries": [
 										"Also at 3rd rank, you can roll the weapon damage dice one additional time when determining the extra damage for a {@variantrule Critical Hit|sw5e-sotg|critical hit} with a ship weapon."
 									]
@@ -1045,19 +1037,19 @@
 									"type": "entries",
 									"name": "Gunning Mastery",
 									"entries": [
-										"At 4th rank, you master a particular style of gunning. Choose one of the {@book Gunning Mastery|sw5e-sotg|4|Gunning Mastery} options, detailed in {@book chapter 6|sw5e-sotg|8|Chapter 6: Customization Options}. You can't take a {@book Gunning Mastery|sw5e-sotg|4|Gunning Mastery} option more than once, even if you later get to choose again."
+										"At 4th rank, you master a particular style of gunning. Choose one of the Gunning Mastery options, detailed in {@book chapter 6|sw5e-sotg|8|Chapter 6: Customization Options}. You can't take a Gunning Mastery option more than once, even if you later get to choose again."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Protean Gunner|sw5e-sotg|4|Protean Gunner}",
+									"name": "Protean Gunner",
 									"entries": [
 										"Also at 4th rank, you can choose a second {@book Gunning Style|sw5e-sotg|4|Gunning Style} option."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Paragon Gunner|sw5e-sotg|4|Paragon Gunner}",
+									"name": "Paragon Gunner",
 									"entries": [
 										"At 5th rank, when you would expend a power die, you can use a {@dice d4} instead of expending a die. You can only use this feature once per round.",
 										"Additionally, when you make a ship {@variantrule Attack Roll|sw5e-sotg|attack roll}, you can choose to make the roll a {@variantrule Critical Hit|sw5e-sotg|critical hit}. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
@@ -1065,7 +1057,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Maximum Power|sw5e-sotg|4|Maximum Power}",
+									"name": "Maximum Power",
 									"entries": [
 										"Also at 5th rank, when you hit a ship with a ship attack, you can deal maximum damage with that attack.",
 										"Once you've used this feature, you can't use it again until you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -1125,7 +1117,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book System Boost|sw5e-sotg|4|System Boost}",
+									"name": "System Boost",
 									"entries": [
 										"Also at 1st rank, you learn techniques to quickly augment different systems on your ship that are fueled by special dice called tech dice.",
 										{
@@ -1220,7 +1212,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Quick Fixer|sw5e-sotg|4|Quick Fixer}",
+									"name": "Quick Fixer",
 									"entries": [
 										"At 2nd rank, when you take the {@action Patch|sw5e-sotg} action or conduct ship repairs during recharging, you have {@variantrule Advantage|sw5e-sotg|advantage} on the Constitution (Patch) check. If you already have {@variantrule Advantage|sw5e-sotg|advantage}, you can instead reroll one of the dice once."
 									]
@@ -1234,14 +1226,14 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Dependable Tech|sw5e-sotg|4|Dependable Tech}",
+									"name": "Dependable Tech",
 									"entries": [
 										"Starting at 3rd rank, you can regain use of your starting tech die as a {@variantrule Reaction|sw5e-sotg}.  Once you've used this feature, you must finish a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Reroute Power|sw5e-sotg|4|Reroute Power}",
+									"name": "Reroute Power",
 									"entries": [
 										"Also at 3rd rank, as an action on each of your turns, you can reroute power between your ship's engines, shields, and weapons through use of the ship's power coupling. A power coupling can be toggled to neutral, where all three aspects function normally, or can divert power to a specific system.",
 										"When diverting power to a system, the effects of that system are doubled:",
@@ -1266,28 +1258,28 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Rapid Repairman|sw5e-sotg|4|Rapid Repairman}",
+									"name": "Rapid Repairman",
 									"entries": [
 										"At 4th rank, when you take the {@action Patch|sw5e-sotg} action, you can choose to forgo your proficiently equipped bonus. If you succeed on the check, you can expend 2 Hull Dice, instead of one. For each Hull Die spent in this way, roll the die and add the ship's Constitution modifier to it."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Efficient Reroute|sw5e-sotg|4|Efficient Reroute}",
+									"name": "Efficient Reroute",
 									"entries": [
 										"Also at 4th rank, when you reroute power you only halve power to one other system of your choice."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Paragon Tech|sw5e-sotg|4|Paragon Tech}",
+									"name": "Paragon Tech",
 									"entries": [
 										"As of 5th tier, you are a paragon of your deployment. When you make a Strength (Boost) check or a Constitution (Regulate) check, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. Once you've used this feature, you must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Supreme Boost|sw5e-sotg|4|Supreme Boost}",
+									"name": "Supreme Boost",
 									"entries": [
 										"As of 5th rank, you learn to briefly and massively boost your ship's system. When you use a technique that uses a {@variantrule Bonus Action|sw5e-sotg}, you can use another, different technique that also uses a {@variantrule Bonus Action|sw5e-sotg} this turn. Additionally, instead of rolling your Tech die for these uses, you can choose to take the maximum.",
 										"Once you've used this feature, you must finish a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
@@ -1347,7 +1339,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Operational Control|sw5e-sotg|4|Operational Control}",
+									"name": "Operational Control",
 									"entries": [
 										"Also at 1st rank, you learn disruptions that are fueled by special dice called power dice.",
 										{
@@ -1370,7 +1362,7 @@
 											"type": "entries",
 											"name": "Saving Throws",
 											"entries": [
-												"Some of your Disruptions require your target to make a {@variantrule Saving Throw|sw5e-sotg|saving throw} to resist the disruption's effects. The {@variantrule Saving Throw|sw5e-sotg|saving throw} DC is calculated as follows:",
+												"Some of your Disruptions require your target to make a saving throw to resist the disruption's effects. The saving throw DC is calculated as follows:",
 												"{@b Disruption save DC} = 8 + your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} + your ship's Charisma modifier"
 											]
 										}
@@ -1450,7 +1442,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Improved Interference|sw5e-sotg|4|Improved Interference}",
+									"name": "Improved Interference",
 									"entries": [
 										"Also at 2nd rank, when you take the {@action Interfere|sw5e-sotg} action, you have {@variantrule Advantage|sw5e-sotg|advantage} on the Charisma (Interfere) check. If you already have {@variantrule Advantage|sw5e-sotg|advantage}, you can instead reroll one of the dice once."
 									]
@@ -1464,7 +1456,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Threat Assessment|sw5e-sotg|4|Threat Assessment}",
+									"name": "Threat Assessment",
 									"entries": [
 										"Also at 3rd rank, as a {@variantrule Bonus Action|sw5e-sotg}, you can learn certain information about the capabilities of the target of your System Disturbance. The GM tells you if the ship is your ship's equal, superior, or inferior in regard to two of the following characteristics of your choice:",
 										{
@@ -1481,21 +1473,21 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Masterful Interference|sw5e-sotg|4|Masterful Interference}",
+									"name": "Masterful Interference",
 									"entries": [
 										"At 4th rank, when you take the {@action Interfere|sw5e-sotg} action, you can choose to forgo your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus}. If you succeed on the check, the target has {@variantrule Disadvantage|sw5e-sotg|disadvantage} on all {@variantrule Ability Check|sw5e-sotg|ability checks} or {@variantrule Attack Roll|sw5e-sotg|attack rolls} it makes before the start of your next turn, instead of one."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Haywire|sw5e-sotg|4|Haywire}",
+									"name": "Haywire",
 									"entries": [
 										"Also at 4th rank, when you target a ship with your System Disturbance feature, it must make a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC = 8 + your bonus to Interfere checks). On a failed save, while it is the target of your System Disturbance feature, the first time it makes an {@variantrule Attack Roll|sw5e-sotg|attack roll} or a {@variantrule Saving Throw|sw5e-sotg|saving throw} each round, the target must roll a {@dice d4} and subtract the number rolled from the {@variantrule Attack Roll|sw5e-sotg|attack roll} or {@variantrule Saving Throw|sw5e-sotg|saving throw}."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Paragon Operator|sw5e-sotg|4|Paragon Operator}",
+									"name": "Paragon Operator",
 									"entries": [
 										"As of 5th rank, you are a paragon of your deployment. When you would expend a Power die or a System Disturbance die, you can use a {@dice d4} instead of expending a die. You can only use this feature once per round.",
 										"Additionally, you regain all expended uses of your System Disturbance feature when you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}.",
@@ -1504,9 +1496,9 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Overload Systems|sw5e-sotg|4|Overload Systems}",
+									"name": "Overload Systems",
 									"entries": [
-										"Also at 5th rank, you learn how to overload the systems of a ship remotely. As an action, you can attempt to breach the systems of the target of your System Disturbance. The ship must make a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC = 8 + your bonus to Interfere checks). On a failed save, the target's flying {@variantrule Speed|sw5e-sotg|speed} reduced by half, it's turning {@variantrule Speed|sw5e-sotg|speed} is doubled, it takes a -2 penalty to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}, it's shields no longer regenerate, and it can't use {@variantrule Reaction|sw5e-sotg|reactions}. On its turn, it can use either an action or a {@variantrule Bonus Action|sw5e-sotg}, not both. Regardless of the ship's abilities, crew, or equipment, it can't make more than one attack during its turn.",
+										"Also at 5th rank, you learn how to overload the systems of a ship remotely. As an action, you can attempt to breach the systems of the target of your System Disturbance. The ship must make a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC = 8 + your bonus to Interfere checks). On a failed save, the target's flying {@variantrule Speed|sw5e-sotg|speed} reduced by half, it's {@variantrule Turn Speed|sw5e-sotg|turning speed} is doubled, it takes a -2 penalty to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}, it's shields no longer regenerate, and it can't use {@variantrule Reaction|sw5e-sotg|reactions}. On its turn, it can use either an action or a {@variantrule Bonus Action|sw5e-sotg}, not both. Regardless of the ship's abilities, crew, or equipment, it can't make more than one attack during its turn.",
 										"The ship's pilot makes another Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} at the end of its turns. On a successful save, the effect ends.",
 										"Once you've use this feature, you must finish a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 									]
@@ -1565,7 +1557,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Piloting Procedure|sw5e-sotg|4|Piloting Procedure}",
+									"name": "Piloting Procedure",
 									"entries": [
 										"Also at 1st rank, you learn tactics that are fueled by special dice called power dice.",
 										{
@@ -1628,7 +1620,7 @@
 										},
 										{
 											"type": "entries",
-											"name": "{@book Snap Roll|sw5e-sotg|4|Snap Roll}",
+											"name": "Snap Roll",
 											"entries": [
 												"{@i {@b Power Die Location:} Engines} When you are hit by a ship attack, you can expend a power die and attempt to roll to mitigate the damage. When you do so, the damage you take from the attack is reduced by the amount rolled on the die."
 											]
@@ -1651,7 +1643,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book I'll Try Spinning|sw5e-sotg|4|I'll Try Spinning}",
+									"name": "I'll Try Spinning",
 									"entries": [
 										"At 2nd rank, when you use take the Dogfight action, you can choose to have all attacks against you from the target ship have {@variantrule Disadvantage|sw5e-sotg|disadvantage} until the beginning of your ship's next turn.",
 										"Once you've used this feature, you can't use it again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -1659,28 +1651,28 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Uncanny Dodge|sw5e-sotg|4|Uncanny Dodge}",
+									"name": "Uncanny Dodge",
 									"entries": [
 										"Also at 2nd rank, when an attacker that you can see hits your ship with an attack, you can use your {@variantrule Reaction|sw5e-sotg} to halve the attack's damage against your ship."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Dependable Pilot|sw5e-sotg|4|Dependable Pilot}",
+									"name": "Dependable Pilot",
 									"entries": [
 										"Starting at 3rd rank, when you would make a Dexterity (Maneuvering) check while assigned as a pilot, you can take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. You may use this feature a number of times equal to your ranks in Pilot.  You regain all expended uses when you complete a {@variantrule Long Rest|sw5e-phb|long rest}."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Cunning Avoidance|sw5e-sotg|4|Cunning Avoidance}",
+									"name": "Cunning Avoidance",
 									"entries": [
 										"Also at 3rd rank, once per round, when your ship is hit with a ship attack or fails a {@variantrule Saving Throw|sw5e-sotg|saving throw}, you can make a Dexterity (Maneuvering) check, and instead use that value for your AC or {@variantrule Saving Throw|sw5e-sotg|saving throw}."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book That's a Good Trick|sw5e-sotg|4|That's a Good Trick}",
+									"name": "That's a Good Trick",
 									"entries": [
 										"At 4th rank, you can take a {@variantrule Reaction|sw5e-sotg} to give {@variantrule Disadvantage|sw5e-sotg|disadvantage} to an attack declared against your ship.",
 										"Once you've used this feature, you can't use it again until you finish a {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -1688,21 +1680,21 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Evasion|sw5e-sotg|4|Evasion}",
+									"name": "Evasion",
 									"entries": [
 										"Also at 4th rank, your instinctive agility lets you dodge out of the way of certain area effects. When your ship is subjected to an effect, such as a proton torpedo or a seismic charge, that allows your ship to make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} to take only half damage, it instead takes no damage if it succeeds on a {@variantrule Saving Throw|sw5e-sotg|saving throw}, and only half damage if it fails."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Paragon Pilot|sw5e-sotg|4|Paragon Pilot}",
+									"name": "Paragon Pilot",
 									"entries": [
 										"As of 5th tier, you are a paragon of your deployment. When you would expend a power die, you can use a {@dice d4} instead of expending a die. You can only use this feature once per round."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Pilot Extraordinaire|sw5e-sotg|4|Pilot Extraordinaire}",
+									"name": "Pilot Extraordinaire",
 									"entries": [
 										"Also at 5th rank, you are a master at the helm. As a {@variantrule Bonus Action|sw5e-sotg}, you can harness your experience in a brief but awe-inspiring burst. Until the end of your next turn, you have {@variantrule Advantage|sw5e-sotg|advantage} on Dexterity (Maneuvering) checks, your ship has {@variantrule Advantage|sw5e-sotg|advantage} on Strength and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}, and {@variantrule Attack Roll|sw5e-sotg|attack rolls} against your ship have {@variantrule Disadvantage|sw5e-sotg|disadvantage}.",
 										"Once you've used this feature, you can't use it again until you finish a short or {@variantrule Long Rest|sw5e-phb|long rest}."
@@ -1762,7 +1754,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Defense Stratagems|sw5e-sotg|4|Defense Stratagems}",
+									"name": "Defense Stratagems",
 									"entries": [
 										"Also at 1st rank, you learn stratagems that are fueled by special dice called power dice.",
 										{
@@ -1848,49 +1840,49 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Quick Regen|sw5e-sotg|4|Quick Regen}",
+									"name": "Quick Regen",
 									"entries": [
 										"At 2nd rank, when you take the Boost Shields action, you have {@variantrule Advantage|sw5e-sotg|advantage} on the Strength (Boost) check. If you already have {@variantrule Advantage|sw5e-sotg|advantage}, you can instead reroll one of the dice once."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Ship Technician|sw5e-sotg|4|Ship Technician}",
+									"name": "Ship Technician",
 									"entries": [
 										"Also at 2nd rank, when installing new equipment or upgrades, you count as two members of a workforce, instead of one."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Dependable Damage Control|sw5e-sotg|4|Dependable Damage Control}",
+									"name": "Dependable Damage Control",
 									"entries": [
 										"Starting at 3rd rank, when your ship would make a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw}, you can take take the maximum instead of rolling. You can use this feature before or after making the roll, but before any effects of the roll are determined. You may use this feature once before completing a short or {@variantrule Long Rest|sw5e-phb|long rest}."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Reroute Power|sw5e-sotg|4|Reroute Power}",
+									"name": "Reroute Power",
 									"entries": [
 										"Additionally, when your ship's shields are fully depleted, you can use your {@variantrule Reaction|sw5e-sotg} to immediately restore a number of {@variantrule Shield Points|sw5e-sotg|shield points} equal to your Intelligence modifier. Once you've used this feature, you must finish a {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Rapid Repairman|sw5e-sotg|4|Rapid Repairman}",
+									"name": "Rapid Repairman",
 									"entries": [
 										"At 4th rank, when you take the {@action Patch|sw5e-sotg} action, you can choose to forgo your proficiently equipped bonus. If you succeed on the check, you can expend 2 Hull Dice, instead of one. For each Hull Die spent in this way, roll the die and add the ship's Constitution modifier to it."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Last Resort|sw5e-sotg|4|Last Resort}",
+									"name": "Last Resort",
 									"entries": [
 										"Also at 4th rank, when your ship makes a {@variantrule Destruction Saving Throw|sw5e-sotg|saving throw}, it adds its Constitution modifier to the roll (minimum of +1). Additionally, when you roll a ship's Hull Die to regain {@variantrule Hull Points|sw5e-sotg|hull points} or shield Die to regain {@variantrule Shield Points|sw5e-sotg|shield points}, the minimum number of points it can regain from the roll equals twice the ship's constitution modifier (minimum of 2)."
 									]
 								},
 								{
 									"type": "entries",
-									"name": "{@book Paragon of Defense|sw5e-sotg|4|Paragon of Defense}",
+									"name": "Paragon of Defense",
 									"entries": [
 										"As of 5th rank, you are a paragon of your deployment. When you would expend a Power die, you can use a {@dice d4} instead of expending a die. You can only use this feature once per round.",
 										"Additionally, when you take the Boost Shields or Patch action, when you would roll to restore {@variantrule Hull Points|sw5e-sotg|hull points} or {@variantrule Shield Points|sw5e-sotg|shield points}, you can take the maximum instead of rolling. You can use this feature before or after making the roll. Once you've used this feature, you must com-plete a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
@@ -1898,7 +1890,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "{@book Supreme Save|sw5e-sotg|4|Supreme Save}",
+									"name": "Supreme Save",
 									"entries": [
 										"As of 5th rank, you learn how to quickly isolate massive damage on your ship. As a {@variantrule Reaction|sw5e-sotg}, when you would otherwise be reduced to zero {@variantrule Hull Points|sw5e-sotg|hull points}, you can instead reduce your {@variantrule Hull Points|sw5e-sotg|hull points} to one.",
 										"Once you've used this feature, you must finish a {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
@@ -1938,7 +1930,7 @@
 									"type": "entries",
 									"name": "Purchasing",
 									"entries": [
-										"The most common method of acquiring a ship is by purchasing. The cost of a brand new \"stock\" starship can be found below, on the {@book Starship Size Stock Cost|sw5e-sotg|4|Acquiring a Ship} table.",
+										"The most common method of acquiring a ship is by purchasing. The cost of a brand new \"stock\" starship can be found below, on Starship Size Stock Cost table.",
 										{
 											"type": "entries",
 											"name": "Starship Size Stock Cost",
@@ -2016,7 +2008,7 @@
 									"type": "entries",
 									"name": "Building a Ship",
 									"entries": [
-										"Building a ship is generally cheaper than buying it, but takes time and necessitates use of a shipyard and a substantial workforce. If players elect to build a stock starship instead of purchasing one, it requires half the cost of the finished ship in facilities, raw materials, and labor.  The minimum workforce size is shown below on the {@book Starship Size Construction Workforce|sw5e-sotg|4|Acquiring a Ship} table.  Ship construction also has a maximum practical workforce, beyond which no time gains are readily made.",
+										"Building a ship is generally cheaper than buying it, but takes time and necessitates use of a shipyard and a substantial workforce. If players elect to build a stock starship instead of purchasing one, it requires half the cost of the finished ship in facilities, raw materials, and labor.  The minimum workforce size is shown below on Starship Size Construction Workforce table.  Ship construction also has a maximum practical workforce, beyond which no time gains are readily made.",
 										{
 											"type": "entries",
 											"name": "Starship Size Construction Workforce",
@@ -2076,7 +2068,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "STOCK MODIFICATIONS",
+									"name": "Stock Modifications",
 									"entries": [
 										"At construction, your ship comes with a number of stock modifications that you can choose from. These modifications must be Grade: 0 modifications. Although they come without cost, they do count against your maximum modification slots and your maximum suite systems."
 									]
@@ -2093,7 +2085,7 @@
 									"type": "entries",
 									"name": "Upgrading a Ship's Tier",
 									"entries": [
-										"In addition to the cost of modifications and equipment, players can invest credits into their starship's basic systems, increasing the tier of the ship. As a player increases the tier of their starship, they unlock add-itional Hull and shield Dice, and unique size-specific features. The material and personnel costs in credits that a party must invest in their ship varies based on the tier they are trying to obtain, as show below in the {@book Base Upgrade Cost by Tier|sw5e-sotg|4|Upgrading a Starship} table. The costs detailed here include hiring the required workforce. However, if PCs can provide the workforce directly and invest their time, the final costs incurred are only half that shown.",
+										"In addition to the cost of modifications and equipment, players can invest credits into their starship's basic systems, increasing the tier of the ship. As a player increases the tier of their starship, they unlock add-itional Hull and shield Dice, and unique size-specific features. The material and personnel costs in credits that a party must invest in their ship varies based on the tier they are trying to obtain, as show below in Base Upgrade Cost by Tier table. The costs detailed here include hiring the required workforce. However, if PCs can provide the workforce directly and invest their time, the final costs incurred are only half that shown.",
 										{
 											"type": "entries",
 											"name": "Base Upgrade Cost by Tier",
@@ -2151,7 +2143,7 @@
 									"type": "entries",
 									"name": "Cost Modifiers",
 									"entries": [
-										"It costs more to upgrade the hull of a capital ship than the hull of a starfighter; bigger starships are simply costlier to improve. Consequently, each starship has a cost modifier depending on the ship's size, as shown in the {@book Starship Size Upgrade Cost|sw5e-sotg|4|Upgrading a Starship} table below, which is multiplied by the value for that tier in the {@book Base Upgrade Cost by Tier|sw5e-sotg|4|Upgrading a Starship} table.",
+										"It costs more to upgrade the hull of a capital ship than the hull of a starfighter; bigger starships are simply costlier to improve. Consequently, each starship has a cost modifier depending on the ship's size, as shown in Starship Size Upgrade Cost table below, which is multiplied by the value for that tier in Base Upgrade Cost by Tier table.",
 										{
 											"type": "entries",
 											"name": "Starship Size Upgrade Cost",
@@ -2202,7 +2194,7 @@
 									"type": "entries",
 									"name": "Upgrade Workforce",
 									"entries": [
-										"Additionally, bigger ships require more people to perform these upgrades. For a Small ship, a single person can do everything necessary (though additional workers will reduce the time taken), while a Medium or larger ship requires a more extensive workforce, as shown below in the {@book Starship Size Upgrade Workforce|sw5e-sotg|4|Upgrading a Starship} table below.",
+										"Additionally, bigger ships require more people to perform these upgrades. For a Small ship, a single person can do everything necessary (though additional workers will reduce the time taken), while a Medium or larger ship requires a more extensive workforce, as shown below in Starship Size Upgrade Workforce table below.",
 										{
 											"type": "entries",
 											"name": "Starship Size Upgrade Workforce",
@@ -2278,15 +2270,15 @@
 									"name": "Roles",
 									"entries": [
 										"At Tier 0, Tier 2, and Tier 4, you will have your choice of abilities to add to your ship by choosing a Role.  These choices allow your ship to become more specialized by gaining an ability exclusive to that Role.",
-										"At ship construction (Tier 0), your choice of Role grants one or more {@book Ability Score Increases|sw5e-sotg|2|Determine Ability Scores}, a base {@variantrule Speed|sw5e-sotg} and Turning {@variantrule Speed|sw5e-sotg} (see {@book Chapter 8: Adventuring|sw5e-sotg|10|Chapter 8: Adventuring} for rules on {@variantrule Speed|sw5e-sotg} and Turning {@variantrule Speed|sw5e-sotg}), and stock equipment.  This stock equipment, like all equipment, may be removed and/or replaced using the rules found in {@book Chapter 5: Equipment|sw5e-sotg|7|Chapter 5: Equipment}.",
+										"At ship construction (Tier 0), your choice of Role grants one or more {@book Ability Score Increases|sw5e-sotg|2|Determine Ability Scores}, a base {@variantrule Speed|sw5e-sotg} and {@variantrule Turn Speed|sw5e-sotg|turning speed} (see {@book Chapter 8: Adventuring|sw5e-sotg|10|Chapter 8: Adventuring} for rules on {@variantrule Speed|sw5e-sotg} and {@variantrule Turn Speed|sw5e-sotg|turning speed}), and stock equipment.  This stock equipment, like all equipment, may be removed and/or replaced using the rules found in {@book Chapter 5: Equipment|sw5e-sotg|7|Chapter 5: Equipment}.",
 										{
 											"type": "inset",
-											"name": "VARIANT: STARTING EQUIPMENT",
+											"name": "Variant: Starting Equipment",
 											"entries": [
 												"In lieu of the equipment granted by your ship's chosen Role, with your Game Master's permission, you can elect to choose your starting equipment. If you do so, you may substitute equipment of the same category for that given by your Role at Tier 0.  For example, you may choose any one of each of the following for a new ship in lieu of that given by your chosen Tier 0 Role: - (a) deflection armor (b) lightweight armor (c) or reinforced armor - (a) fuel cell reactor (b) ionization reactor (c) or power core reactor - (a) direct power coupling (b) distributed power coupling (c) or hub & spoke power coupling Additionally, for Large or Larger ships you may also choose one of the following: - (a) directional shield (b) fortress shield (c) or quick-charge shield"
 											]
 										},
-										"At each of these tiers you may choose a new Role.  For example, when your advance to Tier 2 with your small ship, you may choose to gain the {@book Attack Fighter|sw5e-sotg|4|Roles} bonus (\"your ship gains a +1 bonus to the {@variantrule Attack Roll|sw5e-sotg|attack rolls} and save DCs of its ship weapons.\") even though, at Tier 0, you had chosen the {@book Shuttle|sw5e-sotg|4|Roles} role (granting a +1 to Constitution, various starting equipment, and a base {@variantrule Speed|sw5e-sotg|speed}/turning {@variantrule Speed|sw5e-sotg|speed} pair).",
+										"At each of these tiers you may choose a new Role.  For example, when your advance to Tier 2 with your small ship, you may choose to gain the Attack Fighter bonus (\"your ship gains a +1 bonus to the {@variantrule Attack Roll|sw5e-sotg|attack rolls} and save DCs of its ship weapons.\") even though, at Tier 0, you had chosen the Shuttle role (granting a +1 to Constitution, various starting equipment, and a base {@variantrule Speed|sw5e-sotg|speed}/{@variantrule Turn Speed|sw5e-sotg|turning speed} pair).",
 										{
 											"type": "inset",
 											"name": "First Time on a Ship?",
@@ -2335,9 +2327,9 @@
 								},
 								{
 									"type": "entries",
-									"name": "Flying Speed and Turning Speed",
+									"name": "Flying Speed and Turn Speed",
 									"entries": [
-										"The station's flying {@variantrule Speed|sw5e-sotg|speed} become 50 feet and it's turning {@variantrule Speed|sw5e-sotg|speed} becomes 100 feet, regardless of any bonuses or penalties. The station's flying {@variantrule Speed|sw5e-sotg|speed} and turning {@variantrule Speed|sw5e-sotg|speed} can never be increased or decreased."
+										"The station's flying {@variantrule Speed|sw5e-sotg|speed} become 50 feet and it's {@variantrule Turn Speed|sw5e-sotg|turning speed} becomes 100 feet, regardless of any bonuses or penalties. The station's flying {@variantrule Speed|sw5e-sotg|speed} and {@variantrule Turn Speed|sw5e-sotg|turning speed} can never be increased or decreased."
 									]
 								},
 								{
@@ -2765,7 +2757,7 @@
 												},
 												{
 													"type": "entries",
-													"name": "{@book Uncanny Dodge|sw5e-sotg|4|Uncanny Dodge}",
+													"name": "Uncanny Dodge",
 													"entries": [
 														"At 3rd tier, your ship's agility lets it dodge out of the way of certain area effects. When your ship is subjected to an effect, such as a proton torpedo or a seismic charge, that allows your ship to make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} to take only half damage, it instead takes no damage if it succeeds on a {@variantrule Saving Throw|sw5e-sotg|saving throw}, and only half damage if it fails."
 													]
@@ -3288,7 +3280,7 @@
 															"type": "entries",
 															"name": "Superiority Fighter",
 															"entries": [
-																"Your ship's turning {@variantrule Speed|sw5e-sotg|speed} decreases by 50 feet. If this would decrease your ship's turning {@variantrule Speed|sw5e-sotg|speed} to 0, instead your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+																"Your ship's {@variantrule Turn Speed|sw5e-sotg|turning speed} decreases by 50 feet. If this would decrease your ship's {@variantrule Turn Speed|sw5e-sotg|turning speed} to 0, instead your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
 															]
 														}
 													]
@@ -5597,7 +5589,7 @@
 						"Like modifications, if PCs provide the workforce to install the equipment and invest their time, the final costs incurred to add equipment is only half that shown (just the material cost of an assembled piece of equipment). Moreover, one or more PCs can assemble a piece of equipment without the ship's presence being required by spending an amount of time assembling based on the material cost of the assembled piece of equipment (half the total installed cost) and by using raw materials equal to half the material cost of the installed equipment (one-quarter the total installed cost).",
 						{
 							"type": "entries",
-							"name": "COST MODIFIERS",
+							"name": "Cost Modifiers",
 							"entries": [
 								"Equipment for bigger starships is costlier to acquire and install than that for smaller ships. Consequently, each starship has a cost modifier, derived from its size as shown in the {@book Starship Size Equipment Cost|sw5e-sotg|6|Starship Size Equipment Cost} table below, which is multiplied by the base cost of the item.  Because Ship weapons and ammunition only come in two size categories, their costs do not change based on the ship's size cost modifier.",
 								{
@@ -5742,7 +5734,7 @@
 									"type": "entries",
 									"name": "Cargo Capacity",
 									"entries": [
-										"Each ship comes with a capacity for a certain amount of cargo, depending on its size, as shown below in the {@book Starship Size Cargo Capacity|sw5e-sotg|6|Cargo} table.",
+										"Each ship comes with a capacity for a certain amount of cargo, depending on its size, as shown below in Starship Size Cargo Capacity table.",
 										{
 											"type": "entries",
 											"name": "Starship Size Cargo Capacity",
@@ -5804,7 +5796,7 @@
 														"If you want to add more realism to your ship's cargo capacity, consider this additional rule in your games. Every suite modification that does not explicitly grant cargo in it's text, grants an amount of cargo capacity, depending on the ship's size, equal to 1/5 the amount shown in the"
 													]
 												},
-												"{@book Starship Size Cargo Capacity|sw5e-sotg|6|Cargo} table.  However, the suite becomes unusable for its purpose if filled beyond 1/25 of the amount shown in the table."
+												"Starship Size Cargo Capacity table.  However, the suite becomes unusable for its purpose if filled beyond 1/25 of the amount shown in the table."
 											]
 										}
 									]
@@ -6447,31 +6439,31 @@
 																	],
 																	"rows": [
 																		[
-																			"Assault laser cannon",
+																			"{@item Assault laser cannon|sw5e-sotg}",
 																			"4,150 cr",
 																			"2d6 energy",
 																			"Power (range 1200/4800), constitution 15, overheat 2"
 																		],
 																		[
-																			"{@filter blaster|items|firearm=true} cannon",
+																			"{@item Blaster cannon|sw5e-sotg}",
 																			"4,000 cr",
 																			"1d8 energy",
 																			"Power (range 600/2400), hidden, overheat 18, rapid 9"
 																		],
 																		[
-																			"Burst laser cannon",
+																			"{@item Burst laser cannon|sw5e-sotg}",
 																			"4,500 cr",
 																			"2d4 energy",
 																			"Power (range 200/800), auto, burst 1, overheat 2, saturate"
 																		],
 																		[
-																			"Double laser cannon",
+																			"{@item Double laser cannon|sw5e-sotg}",
 																			"4,500 cr",
 																			"2d4 energy",
 																			"Power (range 800/3200), overheat 8"
 																		],
 																		[
-																			"Heavy {@filter blaster|items|firearm=true} cannon",
+																			"{@item Blaster cannon|sw5e-sotg}",
 																			"4,150 cr",
 																			"1d8 energy",
 																			"Power (range 600/2400), heavy, overheat 12"
@@ -6483,7 +6475,7 @@
 																			"Power (range 1000/4000), constitution 17, heavy, ionizing, overheat 4"
 																		],
 																		[
-																			"Heavy laser cannon",
+																			"{@item Heavy laser cannon|sw5e-sotg}",
 																			"4,150 cr",
 																			"1d12 energy",
 																			"Power (range 1200/4800), constitution 15, heavy, overheat 2"
@@ -6495,7 +6487,7 @@
 																			"Power (range 800/3200), constitution 13, ionizing, overheat 8"
 																		],
 																		[
-																			"Laser cannon",
+																			"{@item Laser cannon|sw5e-sotg}",
 																			"4,000 cr",
 																			"1d10 energy",
 																			"Power (range 1000/4000), constitution 11, overheat 4"
@@ -6507,43 +6499,43 @@
 																			"Power (range 800/3200), overheat 16"
 																		],
 																		[
-																			"Light laser cannon",
+																			"{@item Light laser cannon|sw5e-sotg}",
 																			"4,100 cr",
 																			"1d8 energy",
 																			"Power (range 800/3200), overheat 16"
 																		],
 																		[
-																			"Quad laser cannon",
+																			"{@item Quad laser cannon|sw5e-sotg}",
 																			"4,400 cr",
 																			"2d4 energy",
 																			"Power (range 800/3200), constitution 13, overheat 8, rapid 2"
 																		],
 																		[
-																			"Quad pulse laser",
+																			"{@item Quad pulse laser|sw5e-sotg}",
 																			"4,400 cr",
 																			"1d6 energy",
 																			"Power (range 400/1600), overheat 16, rapid 4"
 																		],
 																		[
-																			"Plasburst laser cannon",
+																			"{@item Plasburst laser cannon|sw5e-sotg}",
 																			"4,000 cr",
 																			"1d8 energy",
 																			"Power (range 600/2400), burst 12, overheat 12"
 																		],
 																		[
-																			"Pulse laser cannon",
+																			"{@item Pulse laser cannon|sw5e-sotg}",
 																			"2,500 cr",
 																			"1d4 energy",
 																			"Power (range 500/2000), keen 1, piercing 1, overheat 20"
 																		],
 																		[
-																			"Rapid-fire laser cannon",
+																			"{@item Rapid-fire laser cannon|sw5e-sotg}",
 																			"4,600 cr",
 																			"1d6 energy",
 																			"Power (range 400/1600), auto, burst 16, overheat 16, rapid 4"
 																		],
 																		[
-																			"Slug cannon",
+																			"{@item Slug cannon|sw5e-sotg}",
 																			"4,000 cr",
 																			"1d8 kinetic",
 																			"Power (range 600/2400), constitution 11, dire 1, overheat 4"
@@ -6555,19 +6547,19 @@
 																			"Power (range 200/800), auto, burst 1, ionizing, overheat 1, saturate"
 																		],
 																		[
-																			"Thermite cannon",
+																			"{@item Thermite cannon|sw5e-sotg}",
 																			"6,300 cr",
 																			"1d12 fire",
 																			"Power (range 1200/4800), constitution 17, melt, overheat 2"
 																		],
 																		[
-																			"Twin auto-{@filter blaster|items|firearm=true}",
+																			"{@item Twin auto-blaster|sw5e-sotg}",
 																			"4,400 cr",
 																			"1d4 energy",
 																			"Power (range 250/1000), auto, burst 10, hidden, overheat 20, rapid 5"
 																		],
 																		[
-																			"Twin laser cannon",
+																			"{@item Twin laser cannon|sw5e-sotg}",
 																			"4,400 cr",
 																			"1d8 energy",
 																			"Power (range 600/2400), constitution 11, rapid 3, overheat 12"
@@ -6596,31 +6588,31 @@
 																	],
 																	"rows": [
 																		[
-																			"Ion railgun",
+																			"{@item Ion railgun|sw5e-sotg}",
 																			"5,700 cr",
 																			"1d10 ion",
 																			"Power (range 1000/4000), constitution 17, ionizing, overheat 4"
 																		],
 																		[
-																			"Particle beam",
+																			"{@item Particle beam|sw5e-sotg}",
 																			"5,750 cr",
 																			"2d4 energy",
 																			"Power (range 800/3200), constitution 11, overheat 4"
 																		],
 																		[
-																			"Slug railgun",
+																			"{@item Slug railgun|sw5e-sotg}",
 																			"5,150 cr",
 																			"1d12 kinetic",
 																			"Power (range 1200/4800), constitution 15, overheat 2"
 																		],
 																		[
-																			"Thermite railgun",
+																			"{@item Thermite railgun|sw5e-sotg}",
 																			"5,400 cr",
 																			"1d10 fire",
 																			"Power (range 1200/4800), constitution 17, melt, overheat 2"
 																		],
 																		[
-																			"Turbolaser",
+																			"{@item Turbolaser|sw5e-sotg}",
 																			"5,000 cr",
 																			"1d10 energy",
 																			"Power (range 1000/4000), constitution 13, overheat 4"
@@ -6649,19 +6641,19 @@
 																	],
 																	"rows": [
 																		[
-																			"Cluster pod launcher",
+																			"{@item Cluster pod launcher|sw5e-sotg}",
 																			"6,000 cr",
 																			"-",
 																			"Ammunition, reload 12"
 																		],
 																		[
-																			"Missile launcher",
+																			"{@item Missile launcher|sw5e-sotg}",
 																			"6,250 cr",
 																			"-",
 																			"Ammunition, reload 4"
 																		],
 																		[
-																			"Torpedo launcher",
+																			"{@item Torpedo launcher|sw5e-sotg}",
 																			"6,900 cr",
 																			"-",
 																			"Ammunition reload 4"
@@ -6690,7 +6682,7 @@
 																	],
 																	"rows": [
 																		[
-																			"Bomb deployer",
+																			"{@item Bomb deployer|sw5e-sotg}",
 																			"8,000 cr",
 																			"-",
 																			"Ammunition, reload 4"
@@ -6725,7 +6717,7 @@
 																	],
 																	"rows": [
 																		[
-																			"{@filter blaster|items|firearm=true} point-defense",
+																			"{@item Blaster point-defense|sw5e-sotg}",
 																			"4,000 cr",
 																			"3d4 energy",
 																			"Power (range 200/800), saturate, zone"
@@ -6737,13 +6729,13 @@
 																			"Power (range 300/1200), ionizing, saturate, zone"
 																		],
 																		[
-																			"Laser cannon point-defense",
+																			"{@item Laser cannon point-defense|sw5e-sotg}",
 																			"6,000 cr",
 																			"3d6 energy",
 																			"Power (range 300/1200), saturate, zone"
 																		],
 																		[
-																			"Ordnance point-defense",
+																			"{@item Ordnance point-defense|sw5e-sotg}",
 																			"6,000 cr",
 																			"2d6 kinetic",
 																			"Power (range 300/1200), explosive, saturate, zone"
@@ -6772,133 +6764,133 @@
 																	],
 																	"rows": [
 																		[
-																			"Assault turbolaser battery",
+																			"{@item Assault turbolaser battery|sw5e-sotg}",
 																			"4,150 cr",
 																			"6d6 energy",
 																			"Power (range 1200/4800), con. 15, overheat 2"
 																		],
 																		[
-																			"Burst turbolaser battery",
+																			"{@item Burst turbolaser battery|sw5e-sotg}",
 																			"4,500 cr",
 																			"6d4 energy",
 																			"Power (range 200/800), auto, burst 1, overheat 2, saturate"
 																		],
 																		[
-																			"Double turbolaser battery",
+																			"{@item Double turbolaser battery|sw5e-sotg}",
 																			"4,500 cr",
 																			"6d4 energy",
 																			"Power (range 800/3200), overheat 8"
 																		],
 																		[
-																			"Heavy ion battery",
+																			"{@item Heavy ion battery|sw5e-sotg}",
 																			"4,150 cr",
 																			"3d10 ion",
 																			"Power (range 1000/4000), con. 17, heavy, ionizing, overheat 4"
 																		],
 																		[
-																			"Heavy ion railgun",
+																			"{@item Heavy ion railgun|sw5e-sotg}",
 																			"5,700 cr",
 																			"3d10 ion",
 																			"Power (range 2000/8000), con. 19, ionizing, overheat 4"
 																		],
 																		[
-																			"Heavy gun battery",
+																			"{@item Heavy gun battery|sw5e-sotg}",
 																			"4,000 cr",
 																			"4d10 kinetic",
 																			"Power (range 400/1600), con. 17, overheat 1, vicious 1"
 																		],
 																		[
-																			"Heavy slug railgun",
+																			"{@item Heavy slug railgun|sw5e-sotg}",
 																			"5,150 cr",
 																			"3d12 kinetic",
 																			"Power (range 2400/9600), con. 17, overheat 2"
 																		],
 																		[
-																			"Heavy thermite railgun",
+																			"{@item Heavy thermite railgun|sw5e-sotg}",
 																			"5,400 cr",
 																			"3d10 fire",
 																			"Power (range 2400/9600), con. 19, melt, overheat 2"
 																		],
 																		[
-																			"Heavy turbolaser battery",
+																			"{@item Heavy turbolaser battery|sw5e-sotg}",
 																			"4,150 cr",
 																			"3d12 energy",
 																			"Power (range 1200/4800), con. 15, heavy, overheat 2"
 																		],
 																		[
-																			"Ion battery",
+																			"{@item Ion battery|sw5e-sotg}",
 																			"6,100 cr",
 																			"6d4 ion",
 																			"Power (range 800/3200), con. 13, ionizing, overheat 8"
 																		],
 																		[
-																			"Light ion battery",
+																			"{@item Light ion battery|sw5e-sotg}",
 																			"6,100 cr",
 																			"3d8 ion",
 																			"Power (range 800/3200), overheat 16"
 																		],
 																		[
-																			"Light turbolaser battery",
+																			"{@item Light turbolaser battery|sw5e-sotg}",
 																			"4,100 cr",
 																			"3d8 energy",
 																			"Power (range 800/3200), overheat 16"
 																		],
 																		[
-																			"Long-range turbolaser battery",
+																			"{@item Long-range turbolaser battery|sw5e-sotg}",
 																			"4,000 cr",
 																			"3d10 energy",
 																			"Power (range 2400/9600), con. 15, overheat 2"
 																		],
 																		[
-																			"Quad turbolaser battery",
+																			"{@item Quad turbolaser battery|sw5e-sotg}",
 																			"4,400 cr",
 																			"6d4 energy",
 																			"Power (range 800/3200), con. 13, overheat 8, rapid 2"
 																		],
 																		[
-																			"Quad pulse turbolaser battery",
+																			"{@item Quad pulse turbolaser battery|sw5e-sotg}",
 																			"4,400 cr",
 																			"2d6 energy",
 																			"Power (range 400/1600), overheat 16, rapid 4"
 																		],
 																		[
-																			"Particle Cannon",
+																			"{@item Particle Cannon|sw5e-sotg}",
 																			"5,750 cr",
 																			"6d4 energy",
 																			"Power (range 1600/6400), con. 13, overheat 4"
 																		],
 																		[
-																			"Plasburst turbolaser battery",
+																			"{@item Plasburst turbolaser battery|sw5e-sotg}",
 																			"4,000 cr",
 																			"3d8 energy",
 																			"Power (range 600/2400), burst 12, overheat 12"
 																		],
 																		[
-																			"Pulse turbolaser battery",
+																			"{@item Pulse turbolaser battery|sw5e-sotg}",
 																			"2,500 cr",
 																			"3d4 energy",
 																			"Power (range 500/2000), keen 1, piercing 1, overheat 20"
 																		],
 																		[
-																			"Rapid-fire turbolaser battery",
+																			"{@item Rapid-fire turbolaser battery|sw5e-sotg}",
 																			"4,600 cr",
 																			"3d6 energy",
 																			"Power (range 400/1600), auto, burst 16, overheat 16, rapid 4"
 																		],
 																		[
-																			"Thermite battery",
+																			"{@item Thermite battery|sw5e-sotg}",
 																			"6,300 cr",
 																			"3d12 fire",
 																			"Power (range 1200/4800), con. 17, melt, overheat 2"
 																		],
 																		[
-																			"Turbolaser battery",
+																			"{@item Turbolaser battery|sw5e-sotg}",
 																			"4,000 cr",
 																			"3d10 energy",
 																			"Power (range 1000/4000), con. 11, overheat 4"
 																		],
 																		[
-																			"Twin turbolaser battery",
+																			"{@item Twin turbolaser battery|sw5e-sotg}",
 																			"4,400 cr",
 																			"2d8 energy",
 																			"Power (range 600/2400), con. 11, rapid 3, overheat 12"
@@ -6927,19 +6919,19 @@
 																	],
 																	"rows": [
 																		[
-																			"Assault cluster pod launcher",
+																			"{@item Assault cluster pod launcher|sw5e-sotg}",
 																			"6,000 cr",
 																			"-",
 																			"Ammunition, reload 24"
 																		],
 																		[
-																			"Assault missile launcher",
+																			"{@item Assault missile launcher|sw5e-sotg}",
 																			"6,250 cr",
 																			"-",
 																			"Ammunition, reload 8"
 																		],
 																		[
-																			"Assault torpedo launcher",
+																			"{@item Assault torpedo launcher|sw5e-sotg}",
 																			"6,900 cr",
 																			"-",
 																			"Ammunition reload 8"
@@ -6968,7 +6960,7 @@
 																	],
 																	"rows": [
 																		[
-																			"Bomb layer",
+																			"{@item Bomb layer|sw5e-sotg}",
 																			"8,000 cr",
 																			"-",
 																			"Ammunition, reload 8"
@@ -7005,35 +6997,35 @@
 																	],
 																	"rows": [
 																		[
-																			"Adv. cluster missile",
+																			"{@item Adv. cluster missile|sw5e-sotg}",
 																			"200 cr",
 																			"3d6 (6d6) kinetic",
 																			"20 (40) lb",
 																			"(Range 600/2400), auto, burst 6, explosive, rapid 6"
 																		],
 																		[
-																			"Adv. homing cluster missile",
+																			"{@item Adv. homing cluster missile|sw5e-sotg}",
 																			"250 cr",
 																			"3d6 (6d6) kinetic",
 																			"25 (50) lb",
 																			"(Range 600/2400), auto, burst 6, explosive, homing, rapid 6"
 																		],
 																		[
-																			"Cluster missile",
+																			"{@item Cluster missile|sw5e-sotg}",
 																			"100 cr",
 																			"3d4 (6d4) kinetic",
 																			"10 (20) lb",
 																			"(Range 600/2400), auto, burst 6, explosive, rapid 6"
 																		],
 																		[
-																			"Homing cluster missile",
+																			"{@item Homing cluster missile|sw5e-sotg}",
 																			"150 cr",
 																			"3d4 (6d4) kinetic",
 																			"15 (30) lb",
 																			"(Range 600/2400), auto, burst 6, explosive, homing, rapid 6"
 																		],
 																		[
-																			"Nano cluster rocket",
+																			"{@item Nano cluster rocket|sw5e-sotg}",
 																			"100 cr",
 																			"1d4 (2d4) kinetic",
 																			"10 (20) lb",
@@ -7065,56 +7057,56 @@
 																	],
 																	"rows": [
 																		[
-																			"Adv. concussion missile",
+																			"{@item Adv. concussion missile|sw5e-sotg}",
 																			"1250 cr",
 																			"2d10 (4d10) energy",
 																			"125 (250) lb",
 																			"(Range 800/3200), auto, burst 1, explosive, rapid 1"
 																		],
 																		[
-																			"Concussion missile",
+																			"{@item Concussion missile|sw5e-sotg}",
 																			"750 cr",
 																			"2d8 (4d8) energy",
 																			"75 (150) lb",
 																			"(Range 600/2400), auto, burst 1, explosive, rapid 1"
 																		],
 																		[
-																			"Conner net (missile)",
+																			"{@item Conner net (missile)|sw5e-sotg}",
 																			"850 cr",
 																			"-",
 																			"85 (170) lb",
 																			"(Range 600/2400), special"
 																		],
 																		[
-																			"Discord missile",
+																			"{@item Discord missile|sw5e-sotg}",
 																			"850 cr",
 																			"-",
 																			"85 (170) lb",
 																			"(Range 600/2400), special"
 																		],
 																		[
-																			"Proton rocket",
+																			"{@item Proton rocket|sw5e-sotg}",
 																			"950 cr",
 																			"10d4 (20d4) kinetic",
 																			"95 (190) lb",
 																			"(Range 200/800), explosive, vicious 1"
 																		],
 																		[
-																			"Ion pulse missile",
+																			"{@item Ion pulse missile|sw5e-sotg}",
 																			"700 cr",
 																			"2d10 (4d10) ion",
 																			"70 (140) lb",
 																			"(Range 1000/4000), ionizing"
 																		],
 																		[
-																			"Silent thunder missile",
+																			"{@item Silent thunder missile|sw5e-sotg}",
 																			"1500 cr",
 																			"4d10 (8d10) energy",
 																			"150 (300) lb",
 																			"(Range 1200/4800), explosive"
 																		],
 																		[
-																			"S-thread tracer",
+																			"{@item S-thread tracer|sw5e-sotg}",
 																			"1500 cr",
 																			"-",
 																			"50 (100) lb",
@@ -7146,42 +7138,42 @@
 																	],
 																	"rows": [
 																		[
-																			"Advanced proton torpedo",
+																			"{@item Advanced proton torpedo|sw5e-sotg}",
 																			"850 cr",
 																			"2d12 (4d12) energy",
 																			"85 (170) lb",
 																			"(Range 800/3200), explosive, keen 1"
 																		],
 																		[
-																			"Flechette torpedo",
+																			"{@item Flechette torpedo|sw5e-sotg}",
 																			"850 cr",
 																			"-",
 																			"85 (170) lb",
 																			"(Range 600/2400), special"
 																		],
 																		[
-																			"Homing torpedo",
+																			"{@item Homing torpedo|sw5e-sotg}",
 																			"250 cr",
 																			"1d12 (2d12) energy",
 																			"25 (50) lb",
 																			"(Range 1200/4800), explosive, homing"
 																		],
 																		[
-																			"Plasma torpedo",
+																			"{@item Plasma torpedo|sw5e-sotg}",
 																			"700 cr",
 																			"2d12 (4d12) ion",
 																			"70 (140) lb",
 																			"(Range 1200/4800), vicious 1"
 																		],
 																		[
-																			"Proton torpedo",
+																			"{@item Proton torpedo|sw5e-sotg}",
 																			"650 cr",
 																			"2d10 (4d10) energy",
 																			"65 (130) lb",
 																			"(Range 1200/4800), explosive, keen 1"
 																		],
 																		[
-																			"Thermite torpedo",
+																			"{@item Thermite torpedo|sw5e-sotg}",
 																			"700 cr",
 																			"2d10 (4d10) fire",
 																			"70 (140) lb",
@@ -7211,52 +7203,52 @@
 															],
 															"rows": [
 																[
-																	"Bomblets",
+																	"{@item Bomblets|sw5e-sotg}",
 																	"1200 (2400) cr",
 																	"16 (32) lb"
 																],
 																[
-																	"Conner net (mine)",
+																	"{@item Conner net (mine)|sw5e-sotg}",
 																	"2000 (4000) cr",
 																	"30 (60) lb"
 																],
 																[
-																	"EMP bomb",
+																	"{@item EMP bomb|sw5e-sotg}",
 																	"2300 (4600) cr",
 																	"45 (90) lb"
 																],
 																[
-																	"Glop bomb",
+																	"{@item Glop bomb|sw5e-sotg}",
 																	"2000 (4000) cr",
 																	"30 (60) lb"
 																],
 																[
-																	"Gravity bomb",
+																	"{@item Gravity bomb|sw5e-sotg}",
 																	"2200 (4400) cr",
 																	"40 (80) lb"
 																],
 																[
-																	"Gravity mine",
+																	"{@item Gravity mine|sw5e-sotg}",
 																	"2000 (4000) cr",
 																	"30 (60) lb"
 																],
 																[
-																	"Proton bomb",
+																	"{@item Proton bomb|sw5e-sotg}",
 																	"2100 (4200) cr",
 																	"32 (65) lb"
 																],
 																[
-																	"Proximity mine",
+																	"{@item Proximity mine|sw5e-sotg}",
 																	"2200 (4400) cr",
 																	"32 (65) lb"
 																],
 																[
-																	"Pulse bomb",
+																	"{@item Pulse bomb|sw5e-sotg}",
 																	"2300 (4600) cr",
 																	"35 (70) lb"
 																],
 																[
-																	"Seismic charge",
+																	"{@item Seismic charge|sw5e-sotg}",
 																	"2000 (4000) cr",
 																	"30 (60) lb"
 																]
@@ -7821,7 +7813,7 @@
 							"type": "section",
 							"name": "Gunning Styles",
 							"entries": [
-								"Certain deployment features or ventures offer your choice of {@book Gunning Style|sw5e-sotg|8|Gunning Styles}. Choose from the following. You can't take a {@book Gunning Style|sw5e-sotg|8|Gunning Styles} option more than once, even if you later get to choose again.",
+								"Certain deployment features or ventures offer your choice of Gunning Style. Choose from the following. You can't take a Gunning Style option more than once, even if you later get to choose again.",
 								{
 									"type": "entries",
 									"name": "Cannoneer",
@@ -7850,7 +7842,7 @@
 							"type": "section",
 							"name": "Gunning Masteries",
 							"entries": [
-								"Certain deployment features or ventures offer your choice of {@book Gunning Mastery|sw5e-sotg|8|Gunning Masteries}. Choose from the following. You can't take a {@book Gunning Mastery|sw5e-sotg|8|Gunning Masteries} option more than once, even if you later get to choose again.",
+								"Certain deployment features or ventures offer your choice of Gunning Mastery. Choose from the following. You can't take a Gunning Mastery option more than once, even if you later get to choose again.",
 								{
 									"type": "entries",
 									"name": "Cannon Mastery",
@@ -8011,7 +8003,7 @@
 									"type": "entries",
 									"name": "Gunning Mastery",
 									"entries": [
-										"{@i {@b Prerequisite:} Rank 5} You master a particular style of gunning. Choose one of the {@book Gunning Mastery|sw5e-sotg|8|Gunning Masteries} options, detailed above. You can select this venture multiple times. You can't take a {@book Gunning Mastery|sw5e-sotg|8|Gunning Masteries} option more than once, even if you later get to choose again."
+										"{@i {@b Prerequisite:} Rank 5} You master a particular style of gunning. Choose one of the Gunning Mastery options, detailed above. You can select this venture multiple times. You can't take a Gunning Mastery option more than once, even if you later get to choose again."
 									]
 								},
 								{
@@ -8167,7 +8159,7 @@
 								},
 								{
 									"type": "entries",
-									"name": "Precision GUNNER",
+									"name": "Precision Gunner",
 									"entries": [
 										"When you make an {@variantrule Attack Roll|sw5e-sotg|attack roll} with a primary ship weapon while on a Large or smaller ship, you can use your Dexterity modifier, instead of the ship's Wisdom modifier, for the {@variantrule Attack Roll|sw5e-sotg|attack rolls}."
 									]
@@ -8350,13 +8342,13 @@
 								},
 								{
 									"type": "entries",
-									"name": "TARGETING FIRE",
+									"name": "Targeting Fire",
 									"entries": [
-										"{@i {@b Prerequisite:} at least 1 rank in gunner} When you take this {@book Venture|sw5e-sotg|8|Ventures}, you may select two areas that you are adept at targeting.  You may take this Venture multiple times.  Each time you do so, you may select two additional target areas.",
+										"{@i {@b Prerequisite:} at least 1 rank in gunner} When you take this Venture, you may select two areas that you are adept at targeting.  You may take this Venture multiple times.  Each time you do so, you may select two additional target areas.",
 										"Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a {@variantrule Reaction|sw5e-sotg} to either forego {@variantrule Advantage|sw5e-sotg|advantage} if you have {@variantrule Advantage|sw5e-sotg|advantage}, spend one tech point, or spend one force point to target a specific area of the ship causing targeted damage there:",
 										{
 											"type": "entries",
-											"name": "ENGINES",
+											"name": "Engines",
 											"entries": [
 												"The target gain 1 {@condition Slowed|sw5e-phb} Level until the end of its turn as it suffers damage to its engines."
 											]
@@ -8564,7 +8556,7 @@
 							"entries": [
 								"Each of a ship's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a ship's modification, in activities related to that ability.",
 								"A score of 10 or 11 is the normal average, but many ships are a cut above average in most abilities. A score of 18 is the highest that a ship usually reaches. Some can have scores as high as 20, and monsters and capital ships can have scores as high as 30.",
-								"Each ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). {@book Ability Scores and Modifiers|sw5e-sotg|2|Determine Ability Scores} table notes the ability modifiers for the range of possible ability scores, from 1 to 30.",
+								"Each ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). Ability Scores and Modifiers table notes the ability modifiers for the range of possible ability scores, from 1 to 30.",
 								"To determine an ability modifier without consulting the table, subtract 10 from the ability score and then divide the total by 2 (round down).",
 								"Because ability modifiers affect almost every {@variantrule Attack Roll|sw5e-sotg|attack roll}, {@variantrule Ability Check|sw5e-sotg|ability check}, and {@variantrule Saving Throw|sw5e-sotg|saving throw}, ability modifiers come up in play more often than their associated scores.",
 								{
@@ -8670,18 +8662,18 @@
 							"type": "section",
 							"name": "Advantage and Disadvantage",
 							"entries": [
-								"Sometimes a special ability or power tells you that you have {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage} on an {@variantrule Ability Check|sw5e-sotg|ability check}, a {@variantrule Saving Throw|sw5e-sotg|saving throw}, or an {@variantrule Attack Roll|sw5e-sotg|attack roll}. When that happens, you roll a second {@dice d20} when you make the roll. Use the higher of the two rolls if you have {@variantrule Advantage|sw5e-sotg|advantage}, and use the lower roll if you have {@variantrule Disadvantage|sw5e-sotg|disadvantage}. For example, if you have {@variantrule Disadvantage|sw5e-sotg|disadvantage} and roll a 17 and a 5, you use the 5. If you instead have {@variantrule Advantage|sw5e-sotg|advantage} and roll those numbers, you use the 17.",
-								"If multiple situations affect a roll and each one grants {@variantrule Advantage|sw5e-sotg|advantage} or imposes {@variantrule Disadvantage|sw5e-sotg|disadvantage} on it, you don't roll more than one additional {@dice d20}. If two favorable situations grant {@variantrule Advantage|sw5e-sotg|advantage}, for example, you still roll only one additional {@dice d20}.",
-								"If circumstances cause a roll to have both {@variantrule Advantage|sw5e-sotg|advantage} and {@variantrule Disadvantage|sw5e-sotg|disadvantage}, you are considered to have neither of them, and you roll one {@dice d20}. This is true even if multiple circumstances impose {@variantrule Disadvantage|sw5e-sotg|disadvantage} and only one grants {@variantrule Advantage|sw5e-sotg|advantage} or vice versa. In such a situation, you have neither {@variantrule Advantage|sw5e-sotg|advantage} nor {@variantrule Disadvantage|sw5e-sotg|disadvantage}.",
-								"When you make a roll with {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage}, only the {@dice d20} is rolled twice. Any additional dice, such as the {@dice d4} granted by the {@i guidance} {@book force power|sw5e-phb|11|Force Powers}, are only rolled once.",
-								"When you have {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage} and something in the game, such as the iktotchi's Precognition trait, lets you reroll the {@dice d20}, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has {@variantrule Advantage|sw5e-sotg|advantage} on an {@variantrule Ability Check|sw5e-sotg|ability check} and rolls a 1 and a 13, the iktotchi could use the Precognition trait to reroll the 1.",
-								"You usually gain {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage} through the use of special abilities, actions, or powers. Inspiration (see chapter 4) can also give a character {@variantrule Advantage|sw5e-sotg|advantage} on checks related to the character's personality, ideals, or bonds. The GM can also decide that circumstances influence a roll in one direction or the other and grant {@variantrule Advantage|sw5e-sotg|advantage} or impose {@variantrule Disadvantage|sw5e-sotg|disadvantage} as a result.",
+								"Sometimes a special ability or power tells you that you have advantage or disadvantage on an {@variantrule Ability Check|sw5e-sotg|ability check}, a {@variantrule Saving Throw|sw5e-sotg|saving throw}, or an {@variantrule Attack Roll|sw5e-sotg|attack roll}. When that happens, you roll a second {@dice d20} when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17.",
+								"If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional {@dice d20}. If two favorable situations grant advantage, for example, you still roll only one additional {@dice d20}.",
+								"If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one {@dice d20}. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.",
+								"When you make a roll with advantage or disadvantage, only the {@dice d20} is rolled twice. Any additional dice, such as the {@dice d4} granted by the {@i guidance} {@book force power|sw5e-phb|11|Force Powers}, are only rolled once.",
+								"When you have advantage or disadvantage and something in the game, such as the iktotchi's Precognition trait, lets you reroll the {@dice d20}, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has advantage on an {@variantrule Ability Check|sw5e-sotg|ability check} and rolls a 1 and a 13, the iktotchi could use the Precognition trait to reroll the 1.",
+								"You usually gain advantage or disadvantage through the use of special abilities, actions, or powers. Inspiration (see chapter 4) can also give a character advantage on checks related to the character's personality, ideals, or bonds. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.",
 								{
 									"type": "entries",
 									"name": "Advantage on Other Rolls",
 									"entries": [
-										"Though less common, {@variantrule Advantage|sw5e-sotg|advantage} and {@variantrule Disadvantage|sw5e-sotg|disadvantage} can occur on other types of rolls as well. When you have {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage} on a roll, as with a {@dice d20}, you roll the dice twice, using the higher of the two results with {@variantrule Advantage|sw5e-sotg|advantage}, and using the lower of the two results if you have {@variantrule Disadvantage|sw5e-sotg|disadvantage}. If a roll has multiple dice, you roll the dice together and treat the results separately.",
-										"For instance, the Boost Weapons action potentially grants {@variantrule Advantage|sw5e-sotg|advantage} on a ship damage roll once per turn. If any additional dice would be added to the damage roll, those additional dice are only rolled once."
+										"Though less common, advantage and disadvantage can occur on other types of rolls as well. When you have advantage or disadvantage on a roll, as with a {@dice d20}, you roll the dice twice, using the higher of the two results with advantage, and using the lower of the two results if you have disadvantage. If a roll has multiple dice, you roll the dice together and treat the results separately.",
+										"For instance, the Boost Weapons action potentially grants advantage on a ship damage roll once per turn. If any additional dice would be added to the damage roll, those additional dice are only rolled once."
 									]
 								}
 							],
@@ -8691,16 +8683,16 @@
 							"type": "section",
 							"name": "Proficiently Equipped",
 							"entries": [
-								"Ships can be proficiently equipped for particular tasks, allowing her crew to add their {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} to the roll or save, as long as the crewmember has at least one deployment rank. Enemy ships also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on {@variantrule Ability Check|sw5e-sotg|ability checks}, {@variantrule Saving Throw|sw5e-sotg|saving throws}, and {@variantrule Attack Roll|sw5e-sotg|attack rolls}.",
-								"Your proficiency equipped bonus can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} to a Wisdom {@variantrule Saving Throw|sw5e-sotg|saving throw}, you nevertheless add the bonus only once when you make the save.",
-								"Occasionally, your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} might be multiplied or divided (doubled or halved, for example) before you apply it. If a circumstance suggests that your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} applies more than once to the same roll, you still add it only once and multiply or divide it only once.",
-								"By the same token, if a feature or effect allows you to multiply your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} when making an {@variantrule Ability Check|sw5e-sotg|ability check} that wouldn't normally benefit from your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus}, you still don't add the bonus to the check. For that check your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you are not proficiently equipped in the Data skill, you gain no benefit from a feature that lets you double your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} when you make Intelligence (Data) checks.",
-								"In general, you don't multiply your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} for {@variantrule Attack Roll|sw5e-sotg|attack rolls} or {@variantrule Saving Throw|sw5e-sotg|saving throws}. If a feature or effect allows you to do so, these same rules apply.",
+								"Ships can be proficiently equipped for particular tasks, allowing her crew to add their Proficiency Bonus to the roll or save, as long as the crewmember has at least one deployment rank. Enemy ships also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on {@variantrule Ability Check|sw5e-sotg|ability checks}, {@variantrule Saving Throw|sw5e-sotg|saving throws}, and {@variantrule Attack Roll|sw5e-sotg|attack rolls}.",
+								"Your proficiency equipped bonus can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your Proficiency Bonus to a Wisdom {@variantrule Saving Throw|sw5e-sotg|saving throw}, you nevertheless add the bonus only once when you make the save.",
+								"Occasionally, your Proficiency Bonus might be multiplied or divided (doubled or halved, for example) before you apply it. If a circumstance suggests that your Proficiency Bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.",
+								"By the same token, if a feature or effect allows you to multiply your Proficiency Bonus when making an {@variantrule Ability Check|sw5e-sotg|ability check} that wouldn't normally benefit from your Proficiency Bonus, you still don't add the bonus to the check. For that check your Proficiency Bonus is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you are not proficiently equipped in the Data skill, you gain no benefit from a feature that lets you double your Proficiency Bonus when you make Intelligence (Data) checks.",
+								"In general, you don't multiply your Proficiency Bonus for {@variantrule Attack Roll|sw5e-sotg|attack rolls} or {@variantrule Saving Throw|sw5e-sotg|saving throws}. If a feature or effect allows you to do so, these same rules apply.",
 								{
 									"type": "entries",
 									"name": "Expertly Equipped",
 									"entries": [
-										"Certain features, such as Active Camouflage or a Boarding Harpoon, let your ship double its {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} with a given skill or modification, granting your ship the status of expertly equipped in that skill or modification. As usual, you can only gain expertly equipped status in a skill or modification once.",
+										"Certain features, such as Active Camouflage or a Boarding Harpoon, let your ship double its Proficiency Bonus with a given skill or modification, granting your ship the status of expertly equipped in that skill or modification. As usual, you can only gain expertly equipped status in a skill or modification once.",
 										{
 											"type": "entries",
 											"name": "Proficiently Equipping a Ship",
@@ -8835,16 +8827,16 @@
 							"type": "section",
 							"name": "Ability Checks",
 							"entries": [
-								"An {@variantrule Ability Check|sw5e-sotg|ability check} represents a ship's ability to overcome a challenge. The GM calls for an {@variantrule Ability Check|sw5e-sotg|ability check} when a ship, or a crewmember, attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.",
-								"For every {@variantrule Ability Check|sw5e-sotg|ability check}, the GM decides which of the 6 abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.",
-								"To make an {@variantrule Ability Check|sw5e-sotg|ability check}, roll a {@dice d20} and add the relevant ability modifier. As with other {@dice d20} rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the {@variantrule Ability Check|sw5e-sotg|ability check} is a success-the ship, or crewmember, overcomes the challenge at hand. Otherwise, it's a failure, which means the ship or crewmember makes no progress toward the objective or makes progress combined with a setback determined by the GM.",
-								"When making an {@variantrule Ability Check|sw5e-sotg|ability check} that involves your ship's abilities, you use the ship's score instead of your own, as dictated by logic.",
+								"An ability check represents a ship's ability to overcome a challenge. The GM calls for an ability check when a ship, or a crewmember, attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.",
+								"For every ability check, the GM decides which of the 6 abilities is relevant to the task at hand and the difficulty of the task, represented by Difficulty Class. The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.",
+								"To make an ability check, roll a {@dice d20} and add the relevant ability modifier. As with other {@dice d20} rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success-the ship, or crewmember, overcomes the challenge at hand. Otherwise, it's a failure, which means the ship or crewmember makes no progress toward the objective or makes progress combined with a setback determined by the GM.",
+								"When making an ability check that involves your ship's abilities, you use the ship's score instead of your own, as dictated by logic.",
 								{
 									"type": "entries",
 									"name": "Contests",
 									"entries": [
-										"Sometimes one ship's or crewmember's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to pass through a narrow gap simultaneously. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a ship's gravity projector tries to prevent another ship from jumping to hyperspace. In situations like these, the outcome is determined by a special form of {@variantrule Ability Check|sw5e-sotg|ability check}, called a contest.",
-										"Both participants in a contest make {@variantrule Ability Check|sw5e-sotg|ability checks} appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead of comparing the total to a DC, they compare the totals of their two checks. The participant with the higher check total wins the contest. That ship or crewmember either succeeds at the action or prevents the other one from succeeding.",
+										"Sometimes one ship's or crewmember's efforts are directly opposed to another's. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to pass through a narrow gap simultaneously. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a ship's gravity projector tries to prevent another ship from jumping to hyperspace. In situations like these, the outcome is determined by a special form of ability check, called a contest.",
+										"Both participants in a contest make ability checks appropriate to their efforts. They apply all appropriate bonuses and penalties, but instead of comparing the total to a DC, they compare the totals of their two checks. The participant with the higher check total wins the contest. That ship or crewmember either succeeds at the action or prevents the other one from succeeding.",
 										"If the contest results in a tie, the situation remains the same as it was before the contest. Thus, one contestant might win the contest by default. If two ships tie in a contest to pass through a narrow gap, neither ship makes it. In a contest between a ship's gravity generator trying to prevent another ship from jumping to hyperspace, a tie means that the second ship fails to jump.",
 										{
 											"type": "table",
@@ -8889,7 +8881,7 @@
 									"type": "entries",
 									"name": "Passive Checks",
 									"entries": [
-										"A passive check is a special kind of {@variantrule Ability Check|sw5e-sotg|ability check} that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as probing meteors over and over, or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden ship.",
+										"A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as probing meteors over and over, or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden ship.",
 										"Here's how to determine a ship's total for a passive check: 10 + all modifiers that normally apply to the check. If the ship has {@variantrule Advantage|sw5e-sotg|advantage} on the check, add 5. For {@variantrule Disadvantage|sw5e-sotg|disadvantage}, subtract 5. The game refers to a passive check total as a score.",
 										"For example. if a 1st-tier ship has a Wisdom of 15 and is proficiently equipped in Scan, it has a passive Wisdom (Scan) score of 13."
 									]
@@ -9027,7 +9019,7 @@
 												"Certain features, such as burst weapons, call for a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw}. When you make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw}, you roll a {@dice d20} and add your ship's Dexterity modifier to the roll. If your ship is proficiently equipped for the {@variantrule Saving Throw|sw5e-sotg|saving throw}, you also add the {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} of the crewmember at the helm to the result of the roll.",
 												{
 													"type": "inset",
-													"name": "Alternative INITIATIVE",
+													"name": "Alternative Initiative",
 													"entries": [
 														"At the beginning of every combat, instead of rolling {@variantrule Initiative|sw5e-sotg|initiative}, GMs can quickly use passive initiatives to determine order based on a ship's Dexterity and it's ship size base {@variantrule Initiative|sw5e-sotg|initiative} as shown below in the Starship Size Base {@variantrule Initiative|sw5e-sotg} table below. ##### Starship Size Base {@variantrule Initiative|sw5e-sotg}",
 														{
@@ -9312,24 +9304,24 @@
 									"entries": [
 										"All starships have sublight engines that propel them through realspace, using them when taking off, landing, or flying within a gravity sphere.",
 										"When traveling in realspace, the GM can summarize the adventurers' movement without calculating exact distances or travel times: \"You fly around the planet, reaching the stronghold late in the evening.\"",
-										"Sometimes it's important, though, to know how far, how fast, and how maneuverable your ship is in a short window of time. Starships come equipped with two speeds: {@b {@variantrule Speed|sw5e-sotg|flying speed} and {@b {@variantrule Speed|sw5e-sotg|turning speed}.",
+										"Sometimes it's important, though, to know how far, how fast, and how maneuverable your ship is in a short window of time. Starships come equipped with two speeds: {@variantrule Speed|sw5e-sotg|flying speed} and {@variantrule Turn Speed|sw5e-sotg|turning speed}.",
 										{
 											"type": "entries",
 											"name": "Flying Speed",
 											"entries": [
-												"{@b Flying speed is how far your ship can travel in a single round. It is expressed in feet. For every foot your ship travels forward, it expends one foot from its speed.",
-												"A ship's unmodified {@variantrule Speed|sw5e-sotg|flying speed} is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction."
+												"Flying speed is how far your ship can travel in a single round. It is expressed in feet. For every foot your ship travels forward, it expends one foot from its speed.",
+												"A ship's unmodified flying speed is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction."
 											]
 										},
 										{
 											"type": "entries",
 											"name": "Turning Speed",
 											"entries": [
-												"Turning speed determines how maneuverable your ship is. In order for your ship to rotate 90 degrees, you must spend an amount of your {@variantrule Speed|sw5e-sotg|flying speed} equal to your {@variantrule Speed|sw5e-sotg|turning speed}. For instance, if your ship has a {@variantrule Speed|sw5e-sotg|flying speed} of 350 feet, and a {@variantrule Speed|sw5e-sotg|turning speed} of 100 feet, you can travel 150 feet in a straight line, spending 150 feet of your {@variantrule Speed|sw5e-sotg|flying speed}, and then turn 90 degrees to starboard, spending 100 feet of your {@variantrule Speed|sw5e-sotg|flying speed}, leaving 100 feet of movement remaining.",
+												"Turning speed determines how maneuverable your ship is. In order for your ship to rotate 90 degrees, you must spend an amount of your {@variantrule Speed|sw5e-sotg|flying speed} equal to your turning speed. For instance, if your ship has a {@variantrule Speed|sw5e-sotg|flying speed} of 350 feet, and a turning speed of 100 feet, you can travel 150 feet in a straight line, spending 150 feet of your {@variantrule Speed|sw5e-sotg|flying speed}, and then turn 90 degrees to starboard, spending 100 feet of your {@variantrule Speed|sw5e-sotg|flying speed}, leaving 100 feet of movement remaining.",
 												"Typically games are played with turning limited to 90 degree increments, but, if your group has the desire and capability to track smaller angles, this is allowed.",
 												"A ship can turn more (or less, if your group agrees) than 90 degrees on its turn, by spending a proportionate amount of movement.",
-												"If a ship's {@variantrule Speed|sw5e-sotg|turning speed} exceeds its {@variantrule Speed|sw5e-sotg|flying speed}, that ship cannot turn 90 degrees, in combat conditions, absent another effect modifiying the ship's {@variantrule Speed|sw5e-sotg|turning speed} and/or {@variantrule Speed|sw5e-sotg|flying speed} or the Hard Turn action.",
-												"A ship's unmodified {@variantrule Speed|sw5e-sotg|turning speed} is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction."
+												"If a ship's turning speed exceeds its {@variantrule Speed|sw5e-sotg|flying speed}, that ship cannot turn 90 degrees, in combat conditions, absent another effect modifiying the ship's turning speed and/or {@variantrule Speed|sw5e-sotg|flying speed} or the Hard Turn action.",
+												"A ship's unmodified turning speed is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction."
 											]
 										},
 										{
@@ -9383,8 +9375,8 @@
 											"type": "entries",
 											"name": "Difficult Terrain",
 											"entries": [
-												"The travel speeds given in the {@b Sample Realspace Travel Times} table assume unobstructed terrain. But adventurers often face narrow canyons, tight formations, or other {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain}.",
-												"You move at half {@variantrule Speed|sw5e-sotg|speed} in {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain}&mdash;moving 10 feet in {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain} costs 20 feet of flying {@variantrule Speed|sw5e-sotg|speed}&mdash;so you can {@variantrule Cover|sw5e-sotg|cover} only half the normal distance in a minute, an hour, or a day."
+												"The travel speeds given in the {@b Sample Realspace Travel Times} table assume unobstructed terrain. But adventurers often face narrow canyons, tight formations, or other difficult terrain.",
+												"You move at half {@variantrule Speed|sw5e-sotg|speed} in difficult terrain&mdash;moving 10 feet in difficult terrain costs 20 feet of flying {@variantrule Speed|sw5e-sotg|speed}&mdash;so you can {@variantrule Cover|sw5e-sotg|cover} only half the normal distance in a minute, an hour, or a day."
 											]
 										},
 										{
@@ -10403,7 +10395,7 @@
 							"type": "section",
 							"name": "The Order of Combat",
 							"entries": [
-								"A typical combat encounter is a clash between two sides, a flurry of cannon shots and ship maneuvers. The game organizes the chaos of combat into a cycle of rounds and turns. A {@b round} represents about 6 seconds in the game world. During a round, each participant in a battle takes a {@b turn.} The order of turns is determined at the beginning of a combat encounter, when everyone rolls {@variantrule Initiative|sw5e-sotg|initiative}. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.",
+								"A typical combat encounter is a clash between two sides, a flurry of cannon shots and ship maneuvers. The game organizes the chaos of combat into a cycle of rounds and turns. A {@b round} represents about 6 seconds in the game world. During a round, each participant in a battle takes a {@b turn.} The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.",
 								{
 									"type": "entries",
 									"name": "Surprise",
@@ -10429,14 +10421,14 @@
 										{
 											"type": "inset",
 											"entries": [
-												"{@b 3. Roll {@variantrule Initiative|sw5e-sotg|initiative}.} Every PC on a ship rolls {@variantrule Initiative|sw5e-sotg|initiative}"
+												"{@b 3. Roll initiative.} Every PC on a ship rolls initiative"
 											]
 										},
-										"normally, and the lowest {@variantrule Initiative|sw5e-sotg|initiative} on each ship sets the {@variantrule Initiative|sw5e-sotg|initiative} for that ship.",
+										"normally, and the lowest initiative on each ship sets the initiative for that ship.",
 										{
 											"type": "inset",
 											"entries": [
-												"{@b 4. Start a ship turn.} When your ship activates based on the {@variantrule Initiative|sw5e-sotg|initiative} order, the ship's reactor replenishes power dice and the crew determines how these dice are distributed through the power coupling. The crew should also decide if they want to activate their shield generator's regeneration at the start of the ship's turn. All PCs on a ship then take their"
+												"{@b 4. Start a ship turn.} When your ship activates based on the initiative order, the ship's reactor replenishes power dice and the crew determines how these dice are distributed through the power coupling. The crew should also decide if they want to activate their shield generator's regeneration at the start of the ship's turn. All PCs on a ship then take their"
 											]
 										},
 										"individual turns on their ship's turn in an order agreed upon by the crew for that ship turn.  In case of disputes, the helm has final say.  The order of character turns on a ship's turn may change from round to round.",
@@ -10474,7 +10466,7 @@
 											"type": "entries",
 											"name": "Bonus Actions",
 											"entries": [
-												"Various class or deployment features, powers, and other abilities let you take an additional action on your turn called a {@variantrule Bonus Action|sw5e-sotg}. You can only take a {@variantrule Bonus Action|sw5e-sotg} if some feature gives you one, and you can only take one {@variantrule Bonus Action|sw5e-sotg} on each of your turns."
+												"Various class or deployment features, powers, and other abilities let you take an additional action on your turn called a Bonus Action. You can only take a Bonus Action if some feature gives you one, and you can only take one Bonus Action on each of your turns."
 											]
 										},
 										{
@@ -10490,8 +10482,8 @@
 											"type": "entries",
 											"name": "Reactions",
 											"entries": [
-												"Certain features allow you to take a {@variantrule Reaction|sw5e-sotg}. A {@variantrule Reaction|sw5e-sotg} is an instant response to a trigger of some kind, which can occur any turn.",
-												"When you take a {@variantrule Reaction|sw5e-sotg}, you can't take another one until the start of your next turn. If the {@variantrule Reaction|sw5e-sotg} interrupts another creature's turn, that creature can continue its turn right after the {@variantrule Reaction|sw5e-sotg}."
+												"Certain features allow you to take a Reaction. A Reaction is an instant response to a trigger of some kind, which can occur any turn.",
+												"When you take a Reaction, you can't take another one until the start of your next turn. If the Reaction interrupts another creature's turn, that creature can continue its turn right after the Reaction."
 											]
 										}
 									]
@@ -10505,7 +10497,7 @@
 							"entries": [
 								"In combat, ships are in constant motion, often using movement and position to gain the upper hand.",
 								"On your turn, the crewmember at the helm can move the ship a distance up to its speed. The ship can use as much or as little of its speed as desired, following the rules here.",
-								"Starships come equipped with two speeds: {@variantrule Speed|sw5e-sotg|flying speed} and {@variantrule Speed|sw5e-sotg|turning speed}.",
+								"Starships come equipped with two speeds: flying speed and {@variantrule Turn Speed|sw5e-sotg|turning speed}.",
 								{
 									"type": "entries",
 									"name": "Facing",
@@ -10517,26 +10509,26 @@
 									"type": "entries",
 									"name": "Flying Speed",
 									"entries": [
-										"{@b Flying speed is how far your ship can travel in a single round. It is expressed in feet. For every foot your ship travels forward, it expends one foot from its speed.",
-										"A ship's unmodified {@variantrule Speed|sw5e-sotg|flying speed} is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction."
+										"Flying speed is how far your ship can travel in a single round. It is expressed in feet. For every foot your ship travels forward, it expends one foot from its speed.",
+										"A ship's unmodified flying speed is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Turning Speed",
 									"entries": [
-										"Turning speed determines how maneuverable your ship is. In order for your ship to rotate 90 degrees, you must spend an amount of your {@variantrule Speed|sw5e-sotg|flying speed} equal to your {@variantrule Speed|sw5e-sotg|turning speed}. For instance, if your ship has a {@variantrule Speed|sw5e-sotg|flying speed} of 350 feet, and a {@variantrule Speed|sw5e-sotg|turning speed} of 100 feet, you can travel 150 feet in a straight line, spending 150 feet of your {@variantrule Speed|sw5e-sotg|flying speed}, and then turn 90 degrees to starboard, spending 100 feet of your {@variantrule Speed|sw5e-sotg|flying speed}, leaving 100 feet of movement remaining.",
+										"Turning speed determines how maneuverable your ship is. In order for your ship to rotate 90 degrees, you must spend an amount of your flying speed equal to your turning speed. For instance, if your ship has a flying speed of 350 feet, and a turning speed of 100 feet, you can travel 150 feet in a straight line, spending 150 feet of your flying speed, and then turn 90 degrees to starboard, spending 100 feet of your flying speed, leaving 100 feet of movement remaining.",
 										"Typically games are played with turning limited to 90 degree increments, but, if your group has the desire and capability to track smaller angles, this is allowed.",
 										"A ship can turn more (or less, if your group agrees) than 90 degrees on its turn, by spending a proportionate amount of movement.",
-										"If a ship's {@variantrule Speed|sw5e-sotg|turning speed} exceeds its {@variantrule Speed|sw5e-sotg|flying speed}, that ship cannot turn 90 degrees, in combat conditions, absent another effect modifiying the ship's {@variantrule Speed|sw5e-sotg|turning speed} and/or {@variantrule Speed|sw5e-sotg|flying speed} or the Hard Turn action.",
-										"A ship's unmodified {@variantrule Speed|sw5e-sotg|turning speed} is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction."
+										"If a ship's turning speed exceeds its flying speed, that ship cannot turn 90 degrees, in combat conditions, absent another effect modifiying the ship's turning speed and/or flying speed or the Hard Turn action.",
+										"A ship's unmodified turning speed is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Breaking Up Your Move",
 									"entries": [
-										"The crewmember at the helm can break up your ship's movement on its turn, using some {@variantrule Speed|sw5e-sotg|flying speed} before and after various crew actions. For example, if your ship has a speed of 300 feet, it can move 100 feet, two players can take actions, and then it can move 200 feet.",
+										"The crewmember at the helm can break up your ship's movement on its turn, using some flying speed before and after various crew actions. For example, if your ship has a speed of 300 feet, it can move 100 feet, two players can take actions, and then it can move 200 feet.",
 										{
 											"type": "entries",
 											"name": "Moving Between Attacks",
@@ -10550,20 +10542,20 @@
 									"type": "entries",
 									"name": "Difficult Terrain",
 									"entries": [
-										"Combat rarely takes place in featureless terrain. Asteroid fields, mountain ranges, other ships&mdash;the setting of a typical fight contains {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain}.",
-										"Every foot of movement in {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain} costs 1 extra foot. This rule is true even if multiple things in a space count as {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain}."
+										"Combat rarely takes place in featureless terrain. Asteroid fields, mountain ranges, other ships&mdash;the setting of a typical fight contains difficult terrain.",
+										"Every foot of movement in difficult terrain costs 1 extra foot. This rule is true even if multiple things in a space count as difficult terrain."
 									]
 								},
 								{
 									"type": "entries",
 									"name": "Moving Around Other Ships",
 									"entries": [
-										"You can move through a ship’s space. However, you can end your turn on a ship’s space only if the ship is at least two sizes larger or smaller than you. Another ship’s space is {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain} for your ship.",
+										"You can move through a ship’s space. However, you can end your turn on a ship’s space only if the ship is at least two sizes larger or smaller than you. Another ship’s space is difficult terrain for your ship.",
 										{
 											"type": "inset",
 											"name": "Variant: Playing on a Grid",
 											"entries": [
-												"If you play out a combat using a square grid and miniatures or other tokens, follow these rules. {@b {@i Squares.}} Each square on the grid represents 50 feet. {@b {@i Facing.}} Each ship has a facing: the direction to the adjacent square the vehicle is pointing toward. This means that a ship in a given square has eight possible facings. {@b {@i {@variantrule Speed|sw5e-sotg}.}} Rather than moving foot by foot, move square by square on the grid. This means you use your speed in 50-foot segments. This is particularly easy if you translate your speed into squares by dividing the speed by 50. For example, a speed of 300 feet translates into a speed of 6 squares. If you use a grid often, consider writing your speed in squares on your character sheet. {@b {@i Entering a Square.}} To enter a square, you must have at least 1 square of movement left, unless the square is diagonally adjacent to your square (see below). {@b {@i Corners.}} Diagonal movement can't cross the corner of an asteroid or other terrain feature that fills its space. {@b {@i Ranges.}} To determine the range on a grid between two entities, start counting squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route. {@b {@i Diagonals.}} When measuring range or moving diagonally, the first diagonal square counts as 50 feet, but the second diagonal square counts as 100 feet. This pattern of 50 feet and then 100 feet continues whenever you're counting diagonally, even if you move horizontally or vertically between different bits of diagonal movement. For instance, a ship might move one square diagonally (50 feet), then three squares straight (150 feet), and then another square diagonally (100 feet) for a total movement of 300 feet."
+												"If you play out a combat using a square grid and miniatures or other tokens, follow these rules. {@b {@i Squares.}} Each square on the grid represents 50 feet. {@b {@i Facing.}} Each ship has a facing: the direction to the adjacent square the vehicle is pointing toward. This means that a ship in a given square has eight possible facings. {@b {@i Speed.}} Rather than moving foot by foot, move square by square on the grid. This means you use your speed in 50-foot segments. This is particularly easy if you translate your speed into squares by dividing the speed by 50. For example, a speed of 300 feet translates into a speed of 6 squares. If you use a grid often, consider writing your speed in squares on your character sheet. {@b {@i Entering a Square.}} To enter a square, you must have at least 1 square of movement left, unless the square is diagonally adjacent to your square (see below). {@b {@i Corners.}} Diagonal movement can't cross the corner of an asteroid or other terrain feature that fills its space. {@b {@i Ranges.}} To determine the range on a grid between two entities, start counting squares from a square adjacent to one of them and stop counting in the space of the other one. Count by the shortest route. {@b {@i Diagonals.}} When measuring range or moving diagonally, the first diagonal square counts as 50 feet, but the second diagonal square counts as 100 feet. This pattern of 50 feet and then 100 feet continues whenever you're counting diagonally, even if you move horizontally or vertically between different bits of diagonal movement. For instance, a ship might move one square diagonally (50 feet), then three squares straight (150 feet), and then another square diagonally (100 feet) for a total movement of 300 feet."
 											]
 										}
 									]
@@ -10801,13 +10793,13 @@
 							"entries": [
 								"Whether you're shooting your laser cannons or a railgun, an attack has a simple structure.",
 								"{@b 1. Choose a target.} Pick a target within your attack's range: a ship, an object, or a location.",
-								"{@b 2. Determine modifiers.} The GM determines whether the target has {@variantrule Cover|sw5e-sotg|cover} and whether you have {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage} against the target. In addition, powers, special abilities, and other effects can apply penalties or bonuses to your {@variantrule Attack Roll|sw5e-sotg|attack roll}.",
-								"{@b 3. Resolve the attack.} You make the {@variantrule Attack Roll|sw5e-sotg|attack roll}. On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage. If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an {@variantrule Attack Roll|sw5e-sotg|attack roll}, you're making an attack.",
+								"{@b 2. Determine modifiers.} The GM determines whether the target has {@variantrule Cover|sw5e-sotg|cover} and whether you have {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage} against the target. In addition, powers, special abilities, and other effects can apply penalties or bonuses to your attack roll.",
+								"{@b 3. Resolve the attack.} You make the attack roll. On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage. If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.",
 								{
 									"type": "entries",
 									"name": "Attack Rolls",
 									"entries": [
-										"When you make an attack with a primary or secondary weapon, your {@variantrule Attack Roll|sw5e-sotg|attack roll} determines whether the attack hits or misses. To make an {@variantrule Attack Roll|sw5e-sotg|attack roll}, roll a {@dice d20}, add your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} (if you have at least one deployment rank), the ship's Wisdom modifier, and any weapon-specific bonuses or penalties. If the total of the roll plus modifiers equals or exceeds the target's {@variantrule Armor Class|sw5e-sotg} (AC), the attack hits.",
+										"When you make an attack with a primary or secondary weapon, your attack roll determines whether the attack hits or misses. To make an attack roll, roll a {@dice d20}, add your {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} (if you have at least one deployment rank), the ship's Wisdom modifier, and any weapon-specific bonuses or penalties. If the total of the roll plus modifiers equals or exceeds the target's {@variantrule Armor Class|sw5e-sotg} (AC), the attack hits.",
 										"Ships are always considered proficiently equipped with their properly-installed weapons.",
 										{
 											"type": "entries",
@@ -10830,7 +10822,7 @@
 											"type": "entries",
 											"name": "Ranged Attacks in Close combat",
 											"entries": [
-												"Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a ship weapon, a power, you have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on the {@variantrule Attack Roll|sw5e-sotg|attack roll} if you are within 50 feet of your target."
+												"Aiming a ranged attack is more difficult when a foe is next to you. When you make a ranged attack with a ship weapon, a power, you have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on the attack roll if you are within 50 feet of your target."
 											]
 										}
 									]
@@ -10861,7 +10853,7 @@
 									"type": "entries",
 									"name": "Saving Throws",
 									"entries": [
-										"While many weapons utilize an {@variantrule Attack Roll|sw5e-sotg|attack roll}, tertiary and quaternary weapons, as well as primary weapons on Huge and larger ships, instead call for a {@variantrule Saving Throw|sw5e-sotg|saving throw}. When an ability grants {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage} on an attack and the attack calls for a {@variantrule Saving Throw|sw5e-sotg|saving throw} instead of an {@variantrule Attack Roll|sw5e-sotg|attack roll}, unless stated otherwise, the {@variantrule Saving Throw|sw5e-sotg|saving throw} is made with {@variantrule Disadvantage|sw5e-sotg|disadvantage} or {@variantrule Advantage|sw5e-sotg|advantage}, respectively. The {@variantrule Saving Throw|sw5e-sotg|saving throw} is calculated as follows:",
+										"While many weapons utilize an attack roll, tertiary and quaternary weapons, as well as primary weapons on Huge and larger ships, instead call for a saving throw. When an ability grants {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage} on an attack and the attack calls for a saving throw instead of an attack roll, unless stated otherwise, the saving throw is made with {@variantrule Disadvantage|sw5e-sotg|disadvantage} or {@variantrule Advantage|sw5e-sotg|advantage}, respectively. The saving throw is calculated as follows:",
 										"{@b Weapon save DC} = 8 + the crewmember's {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} (if at least rank 1) + the ship's Wisdom modifier"
 									]
 								},
@@ -10874,12 +10866,12 @@
 											"type": "entries",
 											"name": "Critical Hits",
 											"entries": [
-												"When you score a {@variantrule Critical Hit|sw5e-sotg|critical hit}, you get to roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once."
+												"When you score a critical hit, you get to roll extra dice for the attack's damage against the target. Roll all of the attack's damage dice twice and add them together. Then add any relevant modifiers as normal. To speed up play, you can roll all the damage dice at once."
 											]
 										},
 										{
 											"type": "entries",
-											"name": "DAMAGE TYPES",
+											"name": "Damage Types",
 											"entries": [
 												"Starship combat damage types are generally similar to ground combat damage types with a few minor differences.  Most notably, in space, no one can hear you scream (no sonic damage).",
 												"{@b {@i Acid.}} Acid damage is less effective against shields, dealing only half damage to shields.",
@@ -11171,7 +11163,7 @@
 								"Similarly, limiting the perception or communication of combatants can add an air of the unknown to an encounter. In addition to terrain that impairs visibility, you might include a jamming field that prohibits ships from communicating with each other, or a sensor scrambler that imposes {@variantrule Disadvantage|sw5e-sotg|disadvantage} on {@skill Piloting|sw5e-phb} checks as the ship's onboard computers struggle to clear out the interference.",
 								{
 									"type": "entries",
-									"name": "NPC INITIATIVE",
+									"name": "NPC Initiative",
 									"entries": [
 										"At the beginning of every combat, PC ships typically role group {@variantrule Initiative|sw5e-sotg|initiative}.  NPC ships may be large in number and/or have huge numbers of NPCs manning them, so a GM should generally determine NPC {@variantrule Initiative|sw5e-sotg|initiative} by rolling for each ship individually as follws.  Roll {@variantrule Initiative|sw5e-sotg|initiative} by making a ship Dexterity check modified by the number given in the {@variantrule Initiative|sw5e-sotg} Size Modifier table below.",
 										{

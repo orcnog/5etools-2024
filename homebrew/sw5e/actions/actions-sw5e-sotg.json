@@ -111,7 +111,7 @@
 				}
 			],
 			"entries": [
-				"When you take this action, the creature gains {@variantrule Advantage|sw5e-sotg|advantage} on the next {@variantrule Ability Check|sw5e-sotg|ability check} it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. Alternatively, you can direct a friendly creature that can hear you in attacking another target. If your ally attacks the target before the start of your next turn, the first {@variantrule Attack Roll|sw5e-sotg|attack roll} is made with {@variantrule Advantage|sw5e-sotg|advantage}. This action can be taken multiple times on a ship's turn."
+				"When you take this action, the creature gains {@variantrule Advantage|sw5e-phb|advantage} on the next {@variantrule Ability Check|sw5e-phb|ability check} it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. Alternatively, you can direct a friendly creature that can hear you in attacking another target. If your ally attacks the target before the start of your next turn, the first {@variantrule Attack Roll|sw5e-phb|attack roll} is made with {@variantrule Advantage|sw5e-sotg|advantage}. This action can be taken multiple times on a ship's turn."
 			]
 		},
 		{
@@ -160,7 +160,7 @@
 				}
 			],
 			"entries": [
-				"The most common action to take in combat is the {@action Fire|sw5e-sotg} action. With this action, you can make an attack (or attacks) with one ship weapon. This action may be taken multiple times on a ship's turn, but normally only once per weapon. A crewmember firing from the helm has {@variantrule Disadvantage|sw5e-sotg|disadvantage} on {@variantrule Attack Roll|sw5e-sotg|attack rolls} with primary and secondary weapons."
+				"The most common action to take in combat is the {@action Fire|sw5e-sotg} action. With this action, you can make an attack (or attacks) with one ship weapon. This action may be taken multiple times on a ship's turn, but normally only once per weapon. A crewmember firing from the helm has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Attack Roll|sw5e-phb|attack rolls} with primary and secondary weapons."
 			]
 		},
 		{

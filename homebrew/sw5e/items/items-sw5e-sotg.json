@@ -49,7 +49,7 @@
 			"rapid": 6,
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 3d6} kinetic damage.",
+				"{@b Damage:} {@dice 3d6} kinetic damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 6, {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STRPD|sw5e-sotg|Rapid} 6.",
 				"{@b Damage (Huge–Gargantuan):} 6d6.",
 				"{@b Weight (Huge–Gargantuan):} 40.0 lb."
@@ -79,7 +79,7 @@
 			"rapid": 1,
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 2d10} energy damage.",
+				"{@b Damage:} {@dice 2d10} energy damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 800/3200), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 1, {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STRPD|sw5e-sotg|Rapid} 1.",
 				"{@b Damage (Huge–Gargantuan):} 4d10.",
 				"{@b Weight (Huge–Gargantuan):} 250.0 lb."
@@ -110,7 +110,7 @@
 			"rapid": 6,
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 3d6} kinetic damage.",
+				"{@b Damage:} {@dice 3d6} kinetic damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 6, {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STHOM|sw5e-sotg|Homing}, {@itemProperty STRPD|sw5e-sotg|Rapid} 6.",
 				"{@b Damage (Huge–Gargantuan):} 6d6.",
 				"{@b Weight (Huge–Gargantuan):} 50.0 lb."
@@ -137,7 +137,7 @@
 			"keen": 1,
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 2d12} energy damage.",
+				"{@b Damage:} {@dice 2d12} energy damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 800/3200), {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STKEEN|sw5e-sotg|Keen} 1.",
 				"{@b Damage (Huge–Gargantuan):} 4d12.",
 				"{@b Weight (Huge–Gargantuan):} 170.0 lb."
@@ -183,7 +183,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice 2d6} energy damage.",
+				"{@b Damage:} {@dice 2d6} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 15, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
@@ -262,7 +262,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 6d6} energy damage.",
+				"{@b Damage:} {@dice 6d6} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 15, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
@@ -288,7 +288,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d8} energy damage.",
+				"{@b Damage:} {@dice d8} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STHID|sw5e-sotg|Hidden}, {@itemProperty STOHT|sw5e-sotg|Overheat} 18, {@itemProperty STRPD|sw5e-sotg|Rapid} 9."
 			]
 		},
@@ -311,7 +311,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice 3d4} energy damage.",
+				"{@b Damage:} {@dice 3d4} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 200/800), {@itemProperty STSAT|sw5e-sotg|Saturate}, {@itemProperty STZON|sw5e-sotg|Zone}."
 			]
 		},
@@ -396,7 +396,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice 2d4} energy damage.",
+				"{@b Damage:} {@dice 2d4} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 200/800), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 1, {@itemProperty STOHT|sw5e-sotg|Overheat} 2, {@itemProperty STSAT|sw5e-sotg|Saturate}."
 			]
 		},
@@ -423,7 +423,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 6d4} energy damage.",
+				"{@b Damage:} {@dice 6d4} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 200/800), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 1, {@itemProperty STOHT|sw5e-sotg|Overheat} 2, {@itemProperty STSAT|sw5e-sotg|Saturate}."
 			]
 		},
@@ -451,7 +451,7 @@
 			"rapid": 6,
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 3d4} kinetic damage.",
+				"{@b Damage:} {@dice 3d4} kinetic damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 6, {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STRPD|sw5e-sotg|Rapid} 6.",
 				"{@b Damage (Huge–Gargantuan):} 6d4.",
 				"{@b Weight (Huge–Gargantuan):} 20.0 lb."
@@ -500,7 +500,7 @@
 			"rapid": 1,
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 2d8} energy damage.",
+				"{@b Damage:} {@dice 2d8} energy damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 1, {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STRPD|sw5e-sotg|Rapid} 1.",
 				"{@b Damage (Huge–Gargantuan):} 4d8.",
 				"{@b Weight (Huge–Gargantuan):} 150.0 lb."
@@ -567,7 +567,7 @@
 				"{@b Ammunition type:} Tertiary.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), special.",
 				"{@b Weight (Huge–Gargantuan):} 170.0 lb.",
-				"On a failed {@variantrule Saving Throw|sw5e-sotg|saving throw}, the missile deploys pistoeka sabotage or —buzz— droids on the target. At the end of each of the target ship—s turns, the target ship gains one level of system damage if the target is medium or smaller [large or smaller]. As an action on each of their turns, a crewmember can have the ship attempt their choice of a dexterity or constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15), ending the effect on a success."
+				"On a failed {@variantrule Saving Throw|sw5e-sotg|saving throw}, the missile deploys pistoeka sabotage or —buzz— droids on the target. At the end of each of the target ship—s turns, the target ship gains one level of system damage if the target is medium or smaller [large or smaller]. As an action on each of their turns, a crewmember can have the ship attempt their choice of a dexterity or constitution {@variantrule Saving Throw|sw5e-phb|saving throw} (DC 15), ending the effect on a success."
 			]
 		},
 		{
@@ -589,7 +589,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice 2d4} energy damage.",
+				"{@b Damage:} {@dice 2d4} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STOHT|sw5e-sotg|Overheat} 8."
 			]
 		},
@@ -612,7 +612,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 6d4} energy damage.",
+				"{@b Damage:} {@dice 6d4} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STOHT|sw5e-sotg|Overheat} 8."
 			]
 		},
@@ -738,7 +738,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d8} energy damage.",
+				"{@b Damage:} {@dice d8} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STHVY|sw5e-sotg|Heavy}, {@itemProperty STOHT|sw5e-sotg|Overheat} 12."
 			]
 		},
@@ -763,7 +763,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 4d10} kinetic damage.",
+				"{@b Damage:} {@dice 4d10} kinetic damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 400/1600), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STOHT|sw5e-sotg|Overheat} 1, {@itemProperty STVIC|sw5e-sotg|Vicious} 1."
 			]
 		},
@@ -788,7 +788,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d10} ion damage.",
+				"{@b Damage:} {@dice 3d10} ion damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1000/4000), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STHVY|sw5e-sotg|Heavy}, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
@@ -815,7 +815,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d10} ion damage.",
+				"{@b Damage:} {@dice d10} ion damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1000/4000), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STHVY|sw5e-sotg|Heavy}, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
@@ -839,7 +839,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d10} ion damage.",
+				"{@b Damage:} {@dice 3d10} ion damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 2000/8000), {@itemProperty STCON|sw5e-sotg|Constitution} 19, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
@@ -865,7 +865,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d12} energy damage.",
+				"{@b Damage:} {@dice d12} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 15, {@itemProperty STHVY|sw5e-sotg|Heavy}, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
@@ -888,7 +888,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d12} kinetic damage.",
+				"{@b Damage:} {@dice 3d12} kinetic damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 2400/9600), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
@@ -912,7 +912,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d10} fire damage.",
+				"{@b Damage:} {@dice 3d10} fire damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 2400/9600), {@itemProperty STCON|sw5e-sotg|Constitution} 19, {@itemProperty STMELT|sw5e-sotg|Melt}, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
@@ -936,7 +936,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d12} energy damage.",
+				"{@b Damage:} {@dice 3d12} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 15, {@itemProperty STHVY|sw5e-sotg|Heavy}, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
@@ -965,7 +965,7 @@
 			"rapid": 6,
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 3d4} kinetic damage.",
+				"{@b Damage:} {@dice 3d4} kinetic damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 600/2400), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 6, {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STHOM|sw5e-sotg|Homing}, {@itemProperty STRPD|sw5e-sotg|Rapid} 6.",
 				"{@b Damage (Huge–Gargantuan):} 6d4.",
 				"{@b Weight (Huge–Gargantuan):} 30.0 lb."
@@ -991,7 +991,7 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice d12} energy damage.",
+				"{@b Damage:} {@dice d12} energy damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1200/4800), {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STHOM|sw5e-sotg|Homing}.",
 				"{@b Damage (Huge–Gargantuan):} 2d12.",
 				"{@b Weight (Huge–Gargantuan):} 50.0 lb."
@@ -1017,7 +1017,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 6d4} ion damage.",
+				"{@b Damage:} {@dice 6d4} ion damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STCON|sw5e-sotg|Constitution} 13, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 8."
 			]
 		},
@@ -1043,7 +1043,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice 2d4} ion damage.",
+				"{@b Damage:} {@dice 2d4} ion damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STCON|sw5e-sotg|Constitution} 13, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 8."
 			]
 		},
@@ -1067,7 +1067,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice 2d6} ion damage.",
+				"{@b Damage:} {@dice 2d6} ion damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 300/1200), {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STSAT|sw5e-sotg|Saturate}, {@itemProperty STZON|sw5e-sotg|Zone}."
 			]
 		},
@@ -1090,7 +1090,7 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 2d10} ion damage.",
+				"{@b Damage:} {@dice 2d10} ion damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1000/4000), {@itemProperty STION|sw5e-sotg|Ionizing}.",
 				"{@b Damage (Huge–Gargantuan):} 4d10.",
 				"{@b Weight (Huge–Gargantuan):} 140.0 lb."
@@ -1118,7 +1118,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice d10} ion damage.",
+				"{@b Damage:} {@dice d10} ion damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1000/4000), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
@@ -1143,7 +1143,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d10} energy damage.",
+				"{@b Damage:} {@dice d10} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1000/4000), {@itemProperty STCON|sw5e-sotg|Constitution} 11, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
@@ -1166,7 +1166,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice 3d6} energy damage.",
+				"{@b Damage:} {@dice 3d6} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 300/1200), {@itemProperty STSAT|sw5e-sotg|Saturate}, {@itemProperty STZON|sw5e-sotg|Zone}."
 			]
 		},
@@ -1189,7 +1189,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d8} ion damage.",
+				"{@b Damage:} {@dice 3d8} ion damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STOHT|sw5e-sotg|Overheat} 16."
 			]
 		},
@@ -1212,7 +1212,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d8} ion damage.",
+				"{@b Damage:} {@dice d8} ion damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STOHT|sw5e-sotg|Overheat} 16."
 			]
 		},
@@ -1235,7 +1235,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d8} energy damage.",
+				"{@b Damage:} {@dice d8} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STOHT|sw5e-sotg|Overheat} 16."
 			]
 		},
@@ -1258,7 +1258,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d8} energy damage.",
+				"{@b Damage:} {@dice 3d8} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STOHT|sw5e-sotg|Overheat} 16."
 			]
 		},
@@ -1281,7 +1281,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d10} energy damage.",
+				"{@b Damage:} {@dice 3d10} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 2400/9600), {@itemProperty STCON|sw5e-sotg|Constitution} 15, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
@@ -1324,7 +1324,7 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice d4} kinetic damage.",
+				"{@b Damage:} {@dice d4} kinetic damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 800/3200), {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STHOM|sw5e-sotg|Homing}.",
 				"{@b Damage (Huge–Gargantuan):} 2d4.",
 				"{@b Weight (Huge–Gargantuan):} 20.0 lb."
@@ -1350,7 +1350,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice 2d6} kinetic damage.",
+				"{@b Damage:} {@dice 2d6} kinetic damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 300/1200), {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STSAT|sw5e-sotg|Saturate}, {@itemProperty STZON|sw5e-sotg|Zone}."
 			]
 		},
@@ -1375,7 +1375,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 2d4} energy damage.",
+				"{@b Damage:} {@dice 2d4} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STCON|sw5e-sotg|Constitution} 11, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
@@ -1398,7 +1398,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 6d4} energy damage.",
+				"{@b Damage:} {@dice 6d4} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1600/6400), {@itemProperty STCON|sw5e-sotg|Constitution} 13, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
@@ -1423,7 +1423,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d8} energy damage.",
+				"{@b Damage:} {@dice d8} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STBST|sw5e-sotg|Burst} 12, {@itemProperty STOHT|sw5e-sotg|Overheat} 12."
 			]
 		},
@@ -1448,7 +1448,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d8} energy damage.",
+				"{@b Damage:} {@dice 3d8} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STBST|sw5e-sotg|Burst} 12, {@itemProperty STOHT|sw5e-sotg|Overheat} 12."
 			]
 		},
@@ -1472,7 +1472,7 @@
 			"vicious": 1,
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 2d12} ion damage.",
+				"{@b Damage:} {@dice 2d12} ion damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1200/4800), {@itemProperty STVIC|sw5e-sotg|Vicious} 1.",
 				"{@b Damage (Huge–Gargantuan):} 4d12.",
 				"{@b Weight (Huge–Gargantuan):} 140.0 lb."
@@ -1519,7 +1519,7 @@
 			"vicious": 1,
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 10d4} kinetic damage.",
+				"{@b Damage:} {@dice 10d4} kinetic damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 200/800), {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STVIC|sw5e-sotg|Vicious} 1.",
 				"{@b Damage (Huge–Gargantuan):} 20d4.",
 				"{@b Weight (Huge–Gargantuan):} 190.0 lb."
@@ -1546,7 +1546,7 @@
 			"keen": 1,
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 2d10} energy damage.",
+				"{@b Damage:} {@dice 2d10} energy damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1200/4800), {@itemProperty STEXP|sw5e-sotg|Explosive}, {@itemProperty STKEEN|sw5e-sotg|Keen} 1.",
 				"{@b Damage (Huge–Gargantuan):} 4d10.",
 				"{@b Weight (Huge–Gargantuan):} 130.0 lb."
@@ -1615,7 +1615,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d4} energy damage.",
+				"{@b Damage:} {@dice d4} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 500/2000), {@itemProperty STKEEN|sw5e-sotg|Keen} 1, {@itemProperty STPIER|sw5e-sotg|Piercing} 1, {@itemProperty STOHT|sw5e-sotg|Overheat} 20."
 			]
 		},
@@ -1642,7 +1642,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d4} energy damage.",
+				"{@b Damage:} {@dice 3d4} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 500/2000), {@itemProperty STKEEN|sw5e-sotg|Keen} 1, {@itemProperty STPIER|sw5e-sotg|Piercing} 1, {@itemProperty STOHT|sw5e-sotg|Overheat} 20."
 			]
 		},
@@ -1669,7 +1669,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice 2d4} energy damage.",
+				"{@b Damage:} {@dice 2d4} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STCON|sw5e-sotg|Constitution} 13, {@itemProperty STOHT|sw5e-sotg|Overheat} 8, {@itemProperty STRPD|sw5e-sotg|Rapid} 2."
 			]
 		},
@@ -1694,7 +1694,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d6} energy damage.",
+				"{@b Damage:} {@dice d6} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 400/1600), {@itemProperty STOHT|sw5e-sotg|Overheat} 16, {@itemProperty STRPD|sw5e-sotg|Rapid} 4."
 			]
 		},
@@ -1719,7 +1719,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 2d6} energy damage.",
+				"{@b Damage:} {@dice 2d6} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 400/1600), {@itemProperty STOHT|sw5e-sotg|Overheat} 16, {@itemProperty STRPD|sw5e-sotg|Rapid} 4."
 			]
 		},
@@ -1744,7 +1744,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 6d4} energy damage.",
+				"{@b Damage:} {@dice 6d4} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 800/3200), {@itemProperty STCON|sw5e-sotg|Constitution} 13, {@itemProperty STOHT|sw5e-sotg|Overheat} 8, {@itemProperty STRPD|sw5e-sotg|Rapid} 2."
 			]
 		},
@@ -1772,7 +1772,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d6} energy damage.",
+				"{@b Damage:} {@dice d6} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 400/1600), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 16, {@itemProperty STOHT|sw5e-sotg|Overheat} 16, {@itemProperty STRPD|sw5e-sotg|Rapid} 4."
 			]
 		},
@@ -1800,7 +1800,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d6} energy damage.",
+				"{@b Damage:} {@dice 3d6} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 400/1600), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 16, {@itemProperty STOHT|sw5e-sotg|Overheat} 16, {@itemProperty STRPD|sw5e-sotg|Rapid} 4."
 			]
 		},
@@ -1883,7 +1883,7 @@
 			],
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 4d10} energy damage.",
+				"{@b Damage:} {@dice 4d10} energy damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1200/4800), {@itemProperty STEXP|sw5e-sotg|Explosive}.",
 				"{@b Damage (Huge–Gargantuan):} 8d10.",
 				"{@b Weight (Huge–Gargantuan):} 300.0 lb."
@@ -1911,7 +1911,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d8} kinetic damage.",
+				"{@b Damage:} {@dice d8} kinetic damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STCON|sw5e-sotg|Constitution} 11, {@itemProperty STDIRE|sw5e-sotg|Dire} 1, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
@@ -1936,7 +1936,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice d12} kinetic damage.",
+				"{@b Damage:} {@dice d12} kinetic damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 15, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
@@ -1964,7 +1964,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d4} ion damage.",
+				"{@b Damage:} {@dice d4} ion damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 200/800), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 1, {@itemProperty STION|sw5e-sotg|Ionizing}, {@itemProperty STOHT|sw5e-sotg|Overheat} 1, {@itemProperty STSAT|sw5e-sotg|Saturate}."
 			]
 		},
@@ -1988,7 +1988,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d12} fire damage.",
+				"{@b Damage:} {@dice 3d12} fire damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STMELT|sw5e-sotg|Melt}, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
@@ -2014,7 +2014,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d12} fire damage.",
+				"{@b Damage:} {@dice d12} fire damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STMELT|sw5e-sotg|Melt}, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
@@ -2040,7 +2040,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice d10} fire damage.",
+				"{@b Damage:} {@dice d10} fire damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1200/4800), {@itemProperty STCON|sw5e-sotg|Constitution} 17, {@itemProperty STMELT|sw5e-sotg|Melt}, {@itemProperty STOHT|sw5e-sotg|Overheat} 2."
 			]
 		},
@@ -2065,7 +2065,7 @@
 			"keen": 1,
 			"entries": [
 				"{@b Ammunition type:} Tertiary.",
-				"{@dice 2d10} fire damage.",
+				"{@b Damage:} {@dice 2d10} fire damage.",
 				"{@b Properties}: {@itemProperty STAMM|sw5e-sotg|Ammunition}, (range 1200/4800), {@itemProperty STMELT|sw5e-sotg|Melt}, {@itemProperty STKEEN|sw5e-sotg|Keen} 1.",
 				"{@b Damage (Huge–Gargantuan):} 4d10.",
 				"{@b Weight (Huge–Gargantuan):} 140.0 lb."
@@ -2111,7 +2111,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice d10} energy damage.",
+				"{@b Damage:} {@dice d10} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1000/4000), {@itemProperty STCON|sw5e-sotg|Constitution} 13, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
@@ -2134,7 +2134,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 3d10} energy damage.",
+				"{@b Damage:} {@dice 3d10} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 1000/4000), {@itemProperty STCON|sw5e-sotg|Constitution} 11, {@itemProperty STOHT|sw5e-sotg|Overheat} 4."
 			]
 		},
@@ -2163,7 +2163,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d4} energy damage.",
+				"{@b Damage:} {@dice d4} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 250/1000), {@itemProperty STAUT|sw5e-sotg|Auto}, {@itemProperty STBST|sw5e-sotg|Burst} 10, {@itemProperty STHID|sw5e-sotg|Hidden}, {@itemProperty STOHT|sw5e-sotg|Overheat} 20, {@itemProperty STRPD|sw5e-sotg|Rapid} 5."
 			]
 		},
@@ -2190,7 +2190,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Primary.",
-				"{@dice d8} energy damage.",
+				"{@b Damage:} {@dice d8} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STCON|sw5e-sotg|Constitution} 11, {@itemProperty STRPD|sw5e-sotg|Rapid} 3, {@itemProperty STOHT|sw5e-sotg|Overheat} 12."
 			]
 		},
@@ -2215,7 +2215,7 @@
 			],
 			"entries": [
 				"{@b Weapon type:} Secondary.",
-				"{@dice 2d8} energy damage.",
+				"{@b Damage:} {@dice 2d8} energy damage.",
 				"{@b Properties}: {@itemProperty STPWR|sw5e-sotg|Power} (range 600/2400), {@itemProperty STCON|sw5e-sotg|Constitution} 11, {@itemProperty STRPD|sw5e-sotg|Rapid} 3, {@itemProperty STOHT|sw5e-sotg|Overheat} 12."
 			]
 		}

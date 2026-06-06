@@ -24,11 +24,7 @@
 			]
 		},
 		"optionalFeatureTypes": {
-			"SF:SotG": {
-				"abbreviation": "SF",
-				"full": "Starship Feature",
-				"source": "sw5e-sotg"
-			}
+			"SF:SotG": "Starship Feature"
 		}
 	},
 	"optionalfeature": [
@@ -225,7 +221,7 @@
 						"Gargantuan starship, tier 2"
 					]
 				},
-				"Also at 2nd tier, your starship strikes fear in your enemies. When crewmembers roll {@variantrule Initiative|sw5e-sotg|initiative}, one crewmember can attempt to frighten other ships. Each crewmember deployed on a hostile ship must make a Wisdom {@variantrule Saving Throw|sw5e-sotg|saving throw} contested by a Charisma (Menace) check. On a failed save, affected crewmembers have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on the first {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw} they make each round for 1 minute. At the end of each of their turns, they repeat this save, ending this effect on a success. Additionally, on a successful save, they become immune to this feature for one day.",
+				"Also at 2nd tier, your starship strikes fear in your enemies. When crewmembers roll {@variantrule Initiative|sw5e-phb|initiative}, one crewmember can attempt to frighten other ships. Each crewmember deployed on a hostile ship must make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} contested by a Charisma (Menace) check. On a failed save, affected crewmembers have {@variantrule Disadvantage|sw5e-phb|disadvantage} on the first {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw} they make each round for 1 minute. At the end of each of their turns, they repeat this save, ending this effect on a success. Additionally, on a successful save, they become immune to this feature for one day.",
 				"Once this feature has been used, it can't be used again until the ship recharges."
 			],
 			"tier": 2,
@@ -247,7 +243,7 @@
 						"Gargantuan starship, tier 3"
 					]
 				},
-				"Starting at 3rd tier, when a crewmember makes an {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw}, they can use their {@variantrule Reaction|sw5e-sotg} to have {@variantrule Advantage|sw5e-sotg|advantage} on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.",
+				"Starting at 3rd tier, when a crewmember makes an {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw}, they can use their {@variantrule Reaction|sw5e-phb} to have {@variantrule Advantage|sw5e-phb|advantage} on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.",
 				"This feature can be used a number of times equal to 2 x your ship's tier. All expended uses are regained when the ship recharges."
 			],
 			"tier": 3,
@@ -269,7 +265,7 @@
 						"Gargantuan starship, tier 3"
 					]
 				},
-				"Also at 3rd tier, your ship is equipped with a superweapon. As an action, a crewmember can activate the superweapon, which has a limited {@variantrule Firing Arc|sw5e-sotg|firing arc}, as described in Chapter 9. When activated, a beam of destructive energy forming a line 10,000 feet long and 100 feet wide blasts from the weapon. Each ship in the line must make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC = 8 + the crewmember's {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} + the ship's Strength modifier). On a failed save, a ship takes 15d10 energy damage, or half as much on a successful one.",
+				"Also at 3rd tier, your ship is equipped with a superweapon. As an action, a crewmember can activate the superweapon, which has a limited {@variantrule Firing Arc|sw5e-sotg|firing arc}, as described in Chapter 9. When activated, a beam of destructive energy forming a line 10,000 feet long and 100 feet wide blasts from the weapon. Each ship in the line must make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC = 8 + the crewmember's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + the ship's Strength modifier). On a failed save, a ship takes 15d10 energy damage, or half as much on a successful one.",
 				"Once this feature has been used, it can't be used again until the ship recharges."
 			],
 			"tier": 3,
@@ -303,7 +299,7 @@
 					"type": "entries",
 					"name": "Flag Ship",
 					"entries": [
-						"A crewmember deployed in a command center can, as an action, issue an order to a Huge or smaller ship. That ship can immediately move up to its flying {@variantrule Speed|sw5e-sotg|speed}, and up to five crewmembers on that ship can use their {@variantrule Reaction|sw5e-sotg} to immediately take an action.",
+						"A crewmember deployed in a command center can, as an action, issue an order to a Huge or smaller ship. That ship can immediately move up to its flying {@variantrule Speed|sw5e-phb|speed}, and up to five crewmembers on that ship can use their {@variantrule Reaction|sw5e-phb} to immediately take an action.",
 						"Once this feature has been used, it can't be used again until the ship recharges."
 					]
 				},
@@ -355,7 +351,7 @@
 						"Gargantuan starship, tier 4"
 					]
 				},
-				"Also at 4th tier, the capacity for all of your suites is doubled.  If a suite type's capacity was already doubled, its size is instead tripled from its standard size. Additionally, your starship's maximum capacity for fuel and consumables doubles, and civilians, crewmembers, and troopers aboard your starship have {@variantrule Advantage|sw5e-sotg|advantage} on Constitution {@variantrule Saving Throw|sw5e-sotg|saving throws} made to avoid {@condition Exhaustion|sw5e-phb}.  If the capacity for fuel and/or consumables was already double its standard amount, it is now triple its original capacity."
+				"Also at 4th tier, the capacity for all of your suites is doubled.  If a suite type's capacity was already doubled, its size is instead tripled from its standard size. Additionally, your starship's maximum capacity for fuel and consumables doubles, and civilians, crewmembers, and troopers aboard your starship have {@variantrule Advantage|sw5e-phb|advantage} on Constitution {@variantrule Saving Throw|sw5e-phb|saving throws} made to avoid {@condition Exhaustion|sw5e-phb}.  If the capacity for fuel and/or consumables was already double its standard amount, it is now triple its original capacity."
 			],
 			"tier": 4,
 			"shipSize": "Gargantuan",
@@ -427,7 +423,7 @@
 					]
 				},
 				"Also at 1st tier, your starship gains the ability to automatically mitigate damage from ships.",
-				"Once per turn, as a {@variantrule Reaction|sw5e-sotg} to being dealt damage by a ship weapon, a crewmember can use their {@variantrule Reaction|sw5e-sotg} and roll a Damage Control die, which is a {@dice d4}, and subtract it from the damage roll.",
+				"Once per turn, as a {@variantrule Reaction|sw5e-sotg} to being dealt damage by a ship weapon, a crewmember can use their {@variantrule Reaction|sw5e-phb} and roll a Damage Control die, which is a {@dice d4}, and subtract it from the damage roll.",
 				"Your ship's Damage Control die changes when it reaches certain tiers. The die becomes a {@dice d6} at 2nd tier, a {@dice d8} at 3rd tier, a {@dice d10} at 4th tier, and a {@dice d12} at 5th tier.",
 				"This feature can be used a number of times equal to 4 x your ship's tier. All expended uses are regained when the ship undergoes refitting."
 			],
@@ -469,7 +465,7 @@
 					"type": "entries",
 					"name": "Colonizer",
 					"entries": [
-						"Your ship gains two Barracks suites at no cost. Additionally, {@variantrule Saving Throw|sw5e-sotg|saving throws} against poison and disease on your ship are made with {@variantrule Advantage|sw5e-sotg|advantage}."
+						"Your ship gains two Barracks suites at no cost. Additionally, {@variantrule Saving Throw|sw5e-phb|saving throws} against poison and disease on your ship are made with {@variantrule Advantage|sw5e-sotg|advantage}."
 					]
 				},
 				{
@@ -513,7 +509,7 @@
 						"Huge starship, tier 2"
 					]
 				},
-				"Also at 2nd tier, the capacity for your Barracks, Living Quarters, and Luxury Quarters suites are doubled. Additionally, when crewmembers or troopers deploy, they have {@variantrule Advantage|sw5e-sotg|advantage} on their first {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw} they make before the end of their next {@variantrule Long Rest|sw5e-phb|long rest}. Once a crewmember or troop has benefited from this feature, they can not benefit from it again until they complete a {@variantrule Long Rest|sw5e-phb|long rest}."
+				"Also at 2nd tier, the capacity for your Barracks, Living Quarters, and Luxury Quarters suites are doubled. Additionally, when crewmembers or troopers deploy, they have {@variantrule Advantage|sw5e-phb|advantage} on their first {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw} they make before the end of their next {@variantrule Long Rest|sw5e-phb|long rest}. Once a crewmember or troop has benefited from this feature, they can not benefit from it again until they complete a {@variantrule Long Rest|sw5e-phb|long rest}."
 			],
 			"tier": 2,
 			"shipSize": "Huge",
@@ -534,7 +530,7 @@
 						"Huge starship, tier 3"
 					]
 				},
-				"Starting at 3rd tier, when a crewmember makes an {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw}, they can use their {@variantrule Reaction|sw5e-sotg} to have {@variantrule Advantage|sw5e-sotg|advantage} on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.",
+				"Starting at 3rd tier, when a crewmember makes an {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw}, they can use their {@variantrule Reaction|sw5e-phb} to have {@variantrule Advantage|sw5e-phb|advantage} on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.",
 				"This feature can be used a number of times equal to 2 x your ship's tier. All expended uses are regained when the ship undergoes recharging."
 			],
 			"tier": 3,
@@ -590,7 +586,7 @@
 					"type": "entries",
 					"name": "Carrier",
 					"entries": [
-						"When ships are deployed from your carrier, they have {@variantrule Advantage|sw5e-sotg|advantage} on the first {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw} they make before the end of their next refitting. Once a ship has benefited from this feature, it can not benefit from it again until it undergoes refitting."
+						"When ships are deployed from your carrier, they have {@variantrule Advantage|sw5e-sotg|advantage} on the first {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw} they make before the end of their next refitting. Once a ship has benefited from this feature, it can not benefit from it again until it undergoes refitting."
 					]
 				},
 				{
@@ -683,7 +679,7 @@
 						"Huge starship, tier 5"
 					]
 				},
-				"Also at 5th tier, a crewmember can, as a {@variantrule Bonus Action|sw5e-sotg}, delegate a plan of action to the crew. The ship can immediately move up to its flying {@variantrule Speed|sw5e-sotg|speed}, and up to five crewmembers on that ship can use their {@variantrule Reaction|sw5e-sotg} to immediately take an action.",
+				"Also at 5th tier, a crewmember can, as a {@variantrule Bonus Action|sw5e-phb}, delegate a plan of action to the crew. The ship can immediately move up to its flying {@variantrule Speed|sw5e-phb|speed}, and up to five crewmembers on that ship can use their {@variantrule Reaction|sw5e-phb} to immediately take an action.",
 				"Once this feature has been used, it can't be used again until the ship recharges."
 			],
 			"tier": 5,
@@ -706,7 +702,7 @@
 					]
 				},
 				"Also at 1st tier, your starship gains the ability to react to damage from large ships.",
-				"As a {@variantrule Reaction|sw5e-sotg} to being hit with an {@variantrule Attack Roll|sw5e-sotg|attack roll} from a Large or larger ship, a crewmember at the helm can use their {@variantrule Reaction|sw5e-sotg} to immediately move the ship forward an amount equal to half its flying {@variantrule Speed|sw5e-sotg|speed} (rounded down) and then roll a Blockade Runner die, which is a {@dice d4}, and subtract it from the triggering {@variantrule Attack Roll|sw5e-sotg|attack roll}, potentially causing it to miss.",
+				"As a {@variantrule Reaction|sw5e-sotg} to being hit with an {@variantrule Attack Roll|sw5e-sotg|attack roll} from a Large or larger ship, a crewmember at the helm can use their {@variantrule Reaction|sw5e-phb} to immediately move the ship forward an amount equal to half its flying {@variantrule Speed|sw5e-phb|speed} (rounded down) and then roll a Blockade Runner die, which is a {@dice d4}, and subtract it from the triggering {@variantrule Attack Roll|sw5e-sotg|attack roll}, potentially causing it to miss.",
 				"Your ship's Blockade Runner die changes when it reaches certain tiers. The die becomes a {@dice d6} at 2nd tier, a {@dice d8} at 3rd tier, a {@dice d10} at 4th tier, and a {@dice d12} at 5th tier.",
 				"This feature can be used a number of times equal to 3 x your ship's tier. All expended uses are regained when the ship is refitted."
 			],
@@ -734,7 +730,7 @@
 					"type": "entries",
 					"name": "Ambassador",
 					"entries": [
-						"Your ship gains a Luxury Quarters suite at no cost. Additionally, while hosting guests on your ship, crewmembers have {@variantrule Advantage|sw5e-sotg|advantage} on Charisma checks made against them."
+						"Your ship gains a Luxury Quarters suite at no cost. Additionally, while hosting guests on your ship, crewmembers have {@variantrule Advantage|sw5e-phb|advantage} on Charisma checks made against them."
 					]
 				},
 				{
@@ -813,7 +809,7 @@
 						"Large starship, tier 3"
 					]
 				},
-				"Starting at 3rd tier, when a crewmember makes an {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw} with the ship, they can use their {@variantrule Reaction|sw5e-sotg} to have {@variantrule Advantage|sw5e-sotg|advantage} on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.",
+				"Starting at 3rd tier, when a crewmember makes an {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw} with the ship, they can use their {@variantrule Reaction|sw5e-phb} to have {@variantrule Advantage|sw5e-phb|advantage} on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.",
 				"This feature can be used a number of times equal to 3 x your ship's tier. All expended uses are regained when the ship is refitted."
 			],
 			"tier": 3,
@@ -920,7 +916,7 @@
 						"Large starship, tier 4"
 					]
 				},
-				"Also at 4th tier, when a crewmember rolls a 1 on an Intelligence (Astrogation) check to calculate astrogation, or a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} to maintain the hyperdrive booting, they can reroll the die. They must use the new roll."
+				"Also at 4th tier, when a crewmember rolls a 1 on an Intelligence (Astrogation) check to calculate astrogation, or a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} to maintain the hyperdrive booting, they can reroll the die. They must use the new roll."
 			],
 			"tier": 4,
 			"shipSize": "Large",
@@ -962,7 +958,7 @@
 						"Large starship, tier 5"
 					]
 				},
-				"Also at 5th tier, once on each crewmember's turn, they can add the ship's Strength modifier to the {@variantrule Attack Roll|sw5e-sotg|attack roll} or the ship's Intelligence modifier to the damage roll of an attack it makes. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
+				"Also at 5th tier, once on each crewmember's turn, they can add the ship's Strength modifier to the {@variantrule Attack Roll|sw5e-phb|attack roll} or the ship's Intelligence modifier to the damage roll of an attack it makes. You can choose to use this feature before or after the roll, but before any effects of the roll are applied."
 			],
 			"tier": 5,
 			"shipSize": "Large",
@@ -983,7 +979,7 @@
 						"Medium starship, tier 1"
 					]
 				},
-				"Also at 1st tier, when a crewmember at the helm rolls for {@variantrule Initiative|sw5e-sotg|initiative}, they can immediately move the ship. This movement happens before the {@variantrule Initiative|sw5e-sotg|initiative} order is determined.",
+				"Also at 1st tier, when a crewmember at the helm rolls for {@variantrule Initiative|sw5e-phb|initiative}, they can immediately move the ship. This movement happens before the {@variantrule Initiative|sw5e-phb|initiative} order is determined.",
 				"The amount the ship moves is determined by rolling an Evasive Maneuvers die, which is a {@dice d4}, and multiplying it by 50 feet. The ship then gains that many feet that it can move or spend to turn.",
 				"Your ship's Evasive Maneuvers die changes when it reaches certain tiers. The die becomes a {@dice d6} at 2nd tier, a {@dice d8} at 3rd tier, a {@dice d10} at 4th tier, and a {@dice d12} at 5th tier.",
 				"This feature can be used a number of times equal to 2x your ship's tier. All expended uses are regained when the ship is refitted."
@@ -1091,7 +1087,7 @@
 						"Medium starship, tier 3"
 					]
 				},
-				"Starting at 3rd tier, when a crewmember makes, with the ship, an {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw}, they can use their {@variantrule Reaction|sw5e-sotg} to have {@variantrule Advantage|sw5e-sotg|advantage} on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.",
+				"Starting at 3rd tier, when a crewmember makes, with the ship, an {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw}, they can use their {@variantrule Reaction|sw5e-phb} to have {@variantrule Advantage|sw5e-phb|advantage} on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.",
 				"This feature can be used a number of times equal to 2x your ship's tier. All expended uses are regained when the ship is refitted."
 			],
 			"tier": 3,
@@ -1146,7 +1142,7 @@
 					"type": "entries",
 					"name": "Freighter",
 					"entries": [
-						"When your ship fails a Strength or Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw}, a crewmember can use their {@variantrule Reaction|sw5e-sotg} to jettison some of the cargo stored in its storage compartments. If you jettison at least 50 tons of cargo, you can reroll the {@variantrule Saving Throw|sw5e-sotg|saving throw} and must use the new roll. If you jettison at least 75 tons of cargo, however, you instead automatically succeed on the {@variantrule Saving Throw|sw5e-sotg|saving throw}. Additionally, the area in a line 300 feet long and 100 feet wide behind your ship becomes {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain} for 1 minute."
+						"When your ship fails a Strength or Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw}, a crewmember can use their {@variantrule Reaction|sw5e-phb} to jettison some of the cargo stored in its storage compartments. If you jettison at least 50 tons of cargo, you can reroll the {@variantrule Saving Throw|sw5e-sotg|saving throw} and must use the new roll. If you jettison at least 75 tons of cargo, however, you instead automatically succeed on the {@variantrule Saving Throw|sw5e-sotg|saving throw}. Additionally, the area in a line 300 feet long and 100 feet wide behind your ship becomes {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain} for 1 minute."
 					]
 				},
 				{
@@ -1263,7 +1259,7 @@
 					]
 				},
 				"Also at 1st tier, your starship gains the ability to slip underneath the shields of an enemy ship.",
-				"When your ship occupies the same square occupied by a target ship and the crewmember at the helm makes an {@variantrule Attack Roll|sw5e-sotg|attack roll}, as a {@variantrule Reaction|sw5e-sotg}, they can, before rolling the attack, roll a Pinpoint Strike die, which is a {@dice d4}, and add it to the {@variantrule Attack Roll|sw5e-sotg|attack roll}.  If the attack requires a {@variantrule Saving Throw|sw5e-sotg|saving throw} instead, you may subtract the Pinpoint Strike die from the target's save result.  On a hit or a failed save, the attack deals normal damage that bypasses any shields and directly hits the hull of the target ship. This feature can only be used once per round.",
+				"When your ship occupies the same square occupied by a target ship and the crewmember at the helm makes an {@variantrule Attack Roll|sw5e-phb|attack roll}, as a {@variantrule Reaction|sw5e-phb}, they can, before rolling the attack, roll a Pinpoint Strike die, which is a {@dice d4}, and add it to the {@variantrule Attack Roll|sw5e-sotg|attack roll}.  If the attack requires a {@variantrule Saving Throw|sw5e-sotg|saving throw} instead, you may subtract the Pinpoint Strike die from the target's save result.  On a hit or a failed save, the attack deals normal damage that bypasses any shields and directly hits the hull of the target ship. This feature can only be used once per round.",
 				"Your ship's Pinpoint Strike die changes when it reaches certain tiers. The die becomes a {@dice d6} at 2nd tier, a {@dice d8} at 3rd tier, a {@dice d10} at 4th tier, and a {@dice d12} at 5th tier.",
 				"This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship recharges."
 			],
@@ -1349,7 +1345,7 @@
 						"Small starship, tier 2"
 					]
 				},
-				"Also at 2nd tier, when an attacker that a crewmember can see deals damage to your ship with a weapon, they can use their {@variantrule Reaction|sw5e-sotg} to immediately move the ship up to 50 feet in a direction of their choice, halving the damage your ship takes. The orientation of the ship does not change.",
+				"Also at 2nd tier, when an attacker that a crewmember can see deals damage to your ship with a weapon, they can use their {@variantrule Reaction|sw5e-phb} to immediately move the ship up to 50 feet in a direction of their choice, halving the damage your ship takes. The orientation of the ship does not change.",
 				"Once this feature has been used, it can't be used again until the ship recharges."
 			],
 			"tier": 2,
@@ -1371,7 +1367,7 @@
 						"Small starship, tier 3"
 					]
 				},
-				"Starting at 3rd tier, when a crewmember makes, with the ship, an {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw}, they can use their {@variantrule Reaction|sw5e-sotg} to have {@variantrule Advantage|sw5e-sotg|advantage} on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.",
+				"Starting at 3rd tier, when a crewmember makes, with the ship, an {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw}, they can use their {@variantrule Reaction|sw5e-phb} to have {@variantrule Advantage|sw5e-phb|advantage} on the roll. A crewmember can choose to use this feature after they make their roll, but before the GM says whether the roll succeeds or fails.",
 				"This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship is refitted."
 			],
 			"tier": 3,
@@ -1477,7 +1473,7 @@
 						"Small starship, tier 4"
 					]
 				},
-				"Also at 4th tier, your ship can be pushed beyond its normal limits for a moment. On their turn, a crewmember can take one additional action on top of their regular action and a possible {@variantrule Bonus Action|sw5e-sotg}.",
+				"Also at 4th tier, your ship can be pushed beyond its normal limits for a moment. On their turn, a crewmember can take one additional action on top of their regular action and a possible {@variantrule Bonus Action|sw5e-phb}.",
 				"Once this feature has been used, it can't be used again until the ship recharges."
 			],
 			"tier": 4,
@@ -1562,7 +1558,7 @@
 						"Small starship, tier 5"
 					]
 				},
-				"Also at 5th tier, when a crewmember, makes, with the ship, an {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw}, the crewmember can use their {@variantrule Reaction|sw5e-sotg} to treat the amount rolled on the {@dice d20} as a 20.",
+				"Also at 5th tier, when a crewmember, makes, with the ship, an {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw}, the crewmember can use their {@variantrule Reaction|sw5e-phb} to treat the amount rolled on the {@dice d20} as a 20.",
 				"Once this feature has been used, it can't be used again until the ship recharges."
 			],
 			"tier": 5,
@@ -1585,7 +1581,7 @@
 					]
 				},
 				"Also at 1st tier, your starship is most effective when working in groups.",
-				"Your ship makes the most of every opportunity provided by allies. When a crewmember at the helm would make an {@variantrule Attack Roll|sw5e-sotg|attack roll} against a larger ship, and there is an allied ship within 200 feet of your target, they can roll a Swarm Tactics die, which is a {@dice d4}, and add it to the {@variantrule Attack Roll|sw5e-sotg|attack roll}. You can do this after the roll is made, but before the result is known.",
+				"Your ship makes the most of every opportunity provided by allies. When a crewmember at the helm would make an {@variantrule Attack Roll|sw5e-phb|attack roll} against a larger ship, and there is an allied ship within 200 feet of your target, they can roll a Swarm Tactics die, which is a {@dice d4}, and add it to the {@variantrule Attack Roll|sw5e-sotg|attack roll}. You can do this after the roll is made, but before the result is known.",
 				"Your ship's Swarm Tactics die changes when it reaches certain tiers. The die becomes a {@dice d6} at 2nd tier, a {@dice d8} at 3rd tier, a {@dice d10} at 4th tier and a {@dice d12} at 5th tier.",
 				"This feature can be used a number of times equal to 2 x your ship's tier. All expended uses are regained when the ship is refitted."
 			],
@@ -1957,7 +1953,7 @@
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"A crewmember deployed in a command center can, as an action, issue an order to a Huge or smaller ship. That ship can immediately move up to its flying {@variantrule Speed|sw5e-sotg|speed}, and up to five crewmembers on that ship can use their {@variantrule Reaction|sw5e-sotg} to immediately take an action.",
+						"A crewmember deployed in a command center can, as an action, issue an order to a Huge or smaller ship. That ship can immediately move up to its flying {@variantrule Speed|sw5e-phb|speed}, and up to five crewmembers on that ship can use their {@variantrule Reaction|sw5e-phb} to immediately take an action.",
 						"Once this feature has been used, it can't be used again until the ship recharges."
 					]
 				}
@@ -2156,7 +2152,7 @@
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"When ships are deployed from your carrier, they have {@variantrule Advantage|sw5e-sotg|advantage} on the first {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-sotg|saving throw} they make before the end of their next refitting. Once a ship has benefited from this feature, it can not benefit from it again until it undergoes refitting."
+						"When ships are deployed from your carrier, they have {@variantrule Advantage|sw5e-sotg|advantage} on the first {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw} they make before the end of their next refitting. Once a ship has benefited from this feature, it can not benefit from it again until it undergoes refitting."
 					]
 				}
 			],
@@ -2182,7 +2178,7 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your ship gains two Barracks suites at no cost. Additionally, {@variantrule Saving Throw|sw5e-sotg|saving throws} against poison and disease on your ship are made with {@variantrule Advantage|sw5e-sotg|advantage}."
+						"Your ship gains two Barracks suites at no cost. Additionally, {@variantrule Saving Throw|sw5e-phb|saving throws} against poison and disease on your ship are made with {@variantrule Advantage|sw5e-sotg|advantage}."
 					]
 				},
 				{
@@ -2314,7 +2310,7 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your ship gains a Luxury Quarters suite at no cost. Additionally, while hosting guests on your ship, crewmembers have {@variantrule Advantage|sw5e-sotg|advantage} on Charisma checks made against them."
+						"Your ship gains a Luxury Quarters suite at no cost. Additionally, while hosting guests on your ship, crewmembers have {@variantrule Advantage|sw5e-phb|advantage} on Charisma checks made against them."
 					]
 				},
 				{
@@ -2552,7 +2548,7 @@
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"When your ship fails a Strength or Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw}, a crewmember can use their {@variantrule Reaction|sw5e-sotg} to jettison some of the cargo stored in its storage compartments. If you jettison at least 50 tons of cargo, you can reroll the {@variantrule Saving Throw|sw5e-sotg|saving throw} and must use the new roll. If you jettison at least 75 tons of cargo, however, you instead automatically succeed on the {@variantrule Saving Throw|sw5e-sotg|saving throw}. Additionally, the area in a line 300 feet long and 100 feet wide behind your ship becomes {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain} for 1 minute."
+						"When your ship fails a Strength or Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw}, a crewmember can use their {@variantrule Reaction|sw5e-phb} to jettison some of the cargo stored in its storage compartments. If you jettison at least 50 tons of cargo, you can reroll the {@variantrule Saving Throw|sw5e-sotg|saving throw} and must use the new roll. If you jettison at least 75 tons of cargo, however, you instead automatically succeed on the {@variantrule Saving Throw|sw5e-sotg|saving throw}. Additionally, the area in a line 300 feet long and 100 feet wide behind your ship becomes {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain} for 1 minute."
 					]
 				}
 			],

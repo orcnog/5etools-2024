@@ -1618,7 +1618,7 @@
 			"value": 18000,
 			"weight": 2.5,
 			"entries": [
-				"1d6 acid damage. Properties: Biting 13; hidden; luminous; versatile (2d4)."
+				"{@b Damage:} 1d6 acid damage. Properties: Biting 13; hidden; luminous; versatile (2d4)."
 			],
 			"property": [
 				"HID",
@@ -1718,7 +1718,7 @@
 			"reload": 2,
 			"range": "120/480",
 			"entries": [
-				"3d4 energy damage. Properties: Auto; burst 2; disintegrate 13; {@item Power cell|sw5e-phb} (range 120/480); reload 2; strength 19; two-handed; vicious 1."
+				"{@b Damage:} 3d4 energy damage. Properties: Auto; burst 2; disintegrate 13; {@item Power cell|sw5e-phb} (range 120/480); reload 2; strength 19; two-handed; vicious 1."
 			],
 			"ammunition": true,
 			"strength": 19,
@@ -1812,7 +1812,7 @@
 			"value": 18000,
 			"weight": 2.5,
 			"entries": [
-				"1d6 necrotic damage. Properties: Corruption 13; hidden; versatile (2d4)."
+				"{@b Damage:} 1d6 necrotic damage. Properties: Corruption 13; hidden; versatile (2d4)."
 			],
 			"corruption": 13,
 			"property": [
@@ -2286,7 +2286,7 @@
 			"value": 18000,
 			"weight": 2.5,
 			"entries": [
-				"1d6 fire damage. Properties: Bright 13; hidden; luminous; versatile (2d4)."
+				"{@b Damage:} 1d6 fire damage. Properties: Bright 13; hidden; luminous; versatile (2d4)."
 			],
 			"bright": 13,
 			"property": [
@@ -2310,7 +2310,7 @@
 			"value": 10000,
 			"weight": 2.75,
 			"entries": [
-				"2d4 energy damage. Properties: Dexterity 13; dire 1; luminous; versatile (1d8)."
+				"{@b Damage:} 2d4 energy damage. Properties: Dexterity 13; dire 1; luminous; versatile (1d8)."
 			],
 			"dexterity": 13,
 			"dire": 1,
@@ -2465,7 +2465,7 @@
 			"value": 29000,
 			"weight": 7.25,
 			"entries": [
-				"1d12 energy damage. Properties: Brutal 1; dexterity 19; heavy; keen 1; luminous; reach; two-handed."
+				"{@b Damage:} 1d12 energy damage. Properties: Brutal 1; dexterity 19; heavy; keen 1; luminous; reach; two-handed."
 			],
 			"dexterity": 19,
 			"brutal": 1,
@@ -2561,7 +2561,7 @@
 			"reload": 8,
 			"range": "80/320",
 			"entries": [
-				"2d4 kinetic damage. Properties: Auto; rapid 2; reload 8; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 80/320); strength 13; two-handed; vicious 1."
+				"{@b Damage:} 2d4 kinetic damage. Properties: Auto; rapid 2; reload 8; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 80/320); strength 13; two-handed; vicious 1."
 			],
 			"ammunition": true,
 			"strength": 13,
@@ -3959,7 +3959,7 @@
 			"dmgType": "Energy",
 			"dmg2": "1d10",
 			"entries": [
-				"1d8 energy damage. Properties: Defensive 1; dexterity 13; heavy; luminous; versatile (1d10)."
+				"{@b Damage:} 1d8 energy damage. Properties: Defensive 1; dexterity 13; heavy; luminous; versatile (1d10)."
 			],
 			"dexterity": 13,
 			"defensive": 1,
@@ -3991,7 +3991,7 @@
 			"reload": 4,
 			"range": "75/300",
 			"entries": [
-				"2d4 cold damage. Properties: Auto; burst 2; {@item Power cell|sw5e-phb} (range 75/300); reload 4; strength 13; two-handed; vicious 1."
+				"{@b Damage:} 2d4 cold damage. Properties: Auto; burst 2; {@item Power cell|sw5e-phb} (range 75/300); reload 4; strength 13; two-handed; vicious 1."
 			],
 			"ammunition": true,
 			"strength": 13,
@@ -4022,7 +4022,7 @@
 			"reload": 12,
 			"range": "45/180",
 			"entries": [
-				"1d6 cold damage. Properties: {@item Power cell|sw5e-phb} (range 45/180); reload 12; two-handed; vicious 1."
+				"{@b Damage:} 1d6 cold damage. Properties: {@item Power cell|sw5e-phb} (range 45/180); reload 12; two-handed; vicious 1."
 			],
 			"ammunition": true,
 			"vicious": 1,
@@ -4063,7 +4063,7 @@
 			"reload": 8,
 			"range": "30/120",
 			"entries": [
-				"1d4 cold damage. Properties: {@item Power cell|sw5e-phb} (range 30/120); reload 8; vicious 1."
+				"{@b Damage:} 1d4 cold damage. Properties: {@item Power cell|sw5e-phb} (range 30/120); reload 8; vicious 1."
 			],
 			"ammunition": true,
 			"vicious": 1,
@@ -4093,7 +4093,7 @@
 			"reload": 4,
 			"range": "50/200",
 			"entries": [
-				"2d4 cold damage. Properties: {@item Power cell|sw5e-phb} (range 50/200); reload 4; strength 11; two-handed; vicious 1."
+				"{@b Damage:} 2d4 cold damage. Properties: {@item Power cell|sw5e-phb} (range 50/200); reload 4; strength 11; two-handed; vicious 1."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -4907,7 +4907,7 @@
 			"dmgType": "Kinetic",
 			"dmg2": "1d10",
 			"entries": [
-				"1d8 kinetic damage. Properties: Dexterity 13; dire 1; versatile (1d10)."
+				"{@b Damage:} 1d8 kinetic damage. Properties: Dexterity 13; dire 1; versatile (1d10)."
 			],
 			"dexterity": 13,
 			"dire": 1,
@@ -4929,7 +4929,7 @@
 			"dmg1": "1d6",
 			"dmgType": "Kinetic",
 			"entries": [
-				"1d6 kinetic damage. Properties: Dexterity 11; dire 1; heavy."
+				"{@b Damage:} 1d6 kinetic damage. Properties: Dexterity 11; dire 1; heavy."
 			],
 			"dexterity": 11,
 			"dire": 1,
@@ -5219,7 +5219,7 @@
 			"reload": 8,
 			"range": "60/240",
 			"entries": [
-				"1d8 acid damage. Properties: disintegrate 13; {@item Power cell|sw5e-phb} (range 60/240); reload 8; strength 11; two-handed."
+				"{@b Damage:} 1d8 acid damage. Properties: disintegrate 13; {@item Power cell|sw5e-phb} (range 60/240); reload 8; strength 11; two-handed."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -5249,7 +5249,7 @@
 			"reload": 12,
 			"range": "45/180",
 			"entries": [
-				"1d6 acid damage. Properties: disintegrate 13; {@item Power cell|sw5e-phb} (range 45/180); reload 12; strength 11."
+				"{@b Damage:} 1d6 acid damage. Properties: disintegrate 13; {@item Power cell|sw5e-phb} (range 45/180); reload 12; strength 11."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -5280,7 +5280,7 @@
 			"reload": 4,
 			"range": "60/240",
 			"entries": [
-				"1d10 acid damage. Properties: disintegrate 13; {@item Power cell|sw5e-phb} (range 60/240); reload 4; strength 13; two-handed."
+				"{@b Damage:} 1d10 acid damage. Properties: disintegrate 13; {@item Power cell|sw5e-phb} (range 60/240); reload 4; strength 13; two-handed."
 			],
 			"ammunition": true,
 			"strength": 13,
@@ -5311,7 +5311,7 @@
 			"reload": 2,
 			"range": "120/480",
 			"entries": [
-				"1d12 acid damage. Properties: disintegrate 13; {@item Power cell|sw5e-phb} (range 120/480); reload 2; strength 15; two-handed."
+				"{@b Damage:} 1d12 acid damage. Properties: disintegrate 13; {@item Power cell|sw5e-phb} (range 120/480); reload 2; strength 15; two-handed."
 			],
 			"ammunition": true,
 			"strength": 15,
@@ -5403,7 +5403,7 @@
 			"dmgType": "Energy",
 			"dmg2": "1d12",
 			"entries": [
-				"2d4 energy damage. Properties: Dexterity 13; hidden; luminous; versatile (1d12); vicious 1."
+				"{@b Damage:} 2d4 energy damage. Properties: Dexterity 13; hidden; luminous; versatile (1d12); vicious 1."
 			],
 			"dexterity": 13,
 			"vicious": 1,
@@ -5539,7 +5539,7 @@
 			"dmg1": "1d6",
 			"dmgType": "Kinetic",
 			"entries": [
-				"1d6 kinetic damage. Properties: Double (1d6 kinetic); finesse; sonorous 13."
+				"{@b Damage:} 1d6 kinetic damage. Properties: Double (1d6 kinetic); finesse; sonorous 13."
 			],
 			"sonorous": 13,
 			"double": "1d6 kinetic",
@@ -5624,7 +5624,7 @@
 			"value": 2750,
 			"weight": 1.0,
 			"entries": [
-				"1d4 kinetic damage. Properties: Finesse; light; shocking 13."
+				"{@b Damage:} 1d4 kinetic damage. Properties: Finesse; light; shocking 13."
 			],
 			"shocking": 13,
 			"property": [
@@ -5646,7 +5646,7 @@
 			"value": 9500,
 			"weight": 8.75,
 			"entries": [
-				"1d10 kinetic damage. Properties: Dexterity 11; Heavy; shocking 13; two-handed."
+				"{@b Damage:} 1d10 kinetic damage. Properties: Dexterity 11; Heavy; shocking 13; two-handed."
 			],
 			"dexterity": 11,
 			"shocking": 13,
@@ -5669,7 +5669,7 @@
 			"value": 6000,
 			"weight": 5.0,
 			"entries": [
-				"1d6 kinetic damage. Properties: Double (1d6 kinetic); finesse; shocking 13."
+				"{@b Damage:} 1d6 kinetic damage. Properties: Double (1d6 kinetic); finesse; shocking 13."
 			],
 			"double": "1d6 kinetic",
 			"shocking": 13,
@@ -8072,7 +8072,7 @@
 			"dmg1": "1d4",
 			"dmgType": "Energy",
 			"entries": [
-				"1d4 energy damage. Properties: Defensive 1; finesse; hidden; light luminous."
+				"{@b Damage:} 1d4 energy damage. Properties: Defensive 1; finesse; hidden; light luminous."
 			],
 			"defensive": 1,
 			"currencyConversion": "Credits"
@@ -8120,7 +8120,7 @@
 			"reload": 4,
 			"range": "50/200",
 			"entries": [
-				"1d10 energy damage. Properties: Brutal 1; disintegrate 13; keen 1; {@item Power cell|sw5e-phb} (range 50/200); reload 4; strength 15."
+				"{@b Damage:} 1d10 energy damage. Properties: Brutal 1; disintegrate 13; keen 1; {@item Power cell|sw5e-phb} (range 50/200); reload 4; strength 15."
 			],
 			"ammunition": true,
 			"strength": 15,
@@ -8152,7 +8152,7 @@
 			"reload": 8,
 			"range": "40/160",
 			"entries": [
-				"1d4 energy damage. Properties: Keen 1; light; {@item Power cell|sw5e-phb} (range 40/160); reload 8."
+				"{@b Damage:} 1d4 energy damage. Properties: Keen 1; light; {@item Power cell|sw5e-phb} (range 40/160); reload 8."
 			],
 			"ammunition": true,
 			"keen": 1,
@@ -8181,7 +8181,7 @@
 			"reload": 8,
 			"range": "25/100",
 			"entries": [
-				"1d10 kinetic damage. Properties: Brutal 1; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 25/100); reload 8; strength 11; two-handed."
+				"{@b Damage:} 1d10 kinetic damage. Properties: Brutal 1; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 25/100); reload 8; strength 11; two-handed."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -8805,7 +8805,7 @@
 			"reload": 12,
 			"range": "60/240",
 			"entries": [
-				"1d6 fire damage. Properties: Dire 1; disintegrate 13; {@item Power cell|sw5e-phb} (range 60/240); reload 12; strength 11; two-handed."
+				"{@b Damage:} 1d6 fire damage. Properties: Dire 1; disintegrate 13; {@item Power cell|sw5e-phb} (range 60/240); reload 12; strength 11; two-handed."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -8836,7 +8836,7 @@
 			"reload": 16,
 			"range": "40/160",
 			"entries": [
-				"1d4 fire damage. Properties: Dire 1; disintegrate 13; {@item Power cell|sw5e-phb} (range 40/160); reload 16; strength 11."
+				"{@b Damage:} 1d4 fire damage. Properties: Dire 1; disintegrate 13; {@item Power cell|sw5e-phb} (range 40/160); reload 16; strength 11."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -8868,7 +8868,7 @@
 			"reload": 8,
 			"range": "80/320",
 			"entries": [
-				"1d8 fire damage. Properties: Dire 1; disintegrate 13; {@item Power cell|sw5e-phb} (range 80/320); reload 8; strength 11; two-handed."
+				"{@b Damage:} 1d8 fire damage. Properties: Dire 1; disintegrate 13; {@item Power cell|sw5e-phb} (range 80/320); reload 8; strength 11; two-handed."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -8900,7 +8900,7 @@
 			"reload": 2,
 			"range": "120/480",
 			"entries": [
-				"1d10 fire damage. Properties: Dire 1; disintegrate 13; {@item Power cell|sw5e-phb} (range 120/480); reload 2; strength 15; two-handed."
+				"{@b Damage:} 1d10 fire damage. Properties: Dire 1; disintegrate 13; {@item Power cell|sw5e-phb} (range 120/480); reload 2; strength 15; two-handed."
 			],
 			"ammunition": true,
 			"strength": 15,
@@ -10213,7 +10213,7 @@
 			"reload": 2,
 			"range": "60/240",
 			"entries": [
-				"2d6 energy damage. Properties: Piercing 1; {@item Power cell|sw5e-phb} (range 60/240); reload 2; strength 15; two-handed."
+				"{@b Damage:} 2d6 energy damage. Properties: Piercing 1; {@item Power cell|sw5e-phb} (range 60/240); reload 2; strength 15; two-handed."
 			],
 			"ammunition": true,
 			"strength": 15,
@@ -10229,7 +10229,7 @@
 			"value": 20500,
 			"weight": 5.75,
 			"entries": [
-				"1d10 energy damage. Properties: Brutal 1; dexterity 13; luminous; reach; two-handed."
+				"{@b Damage:} 1d10 energy damage. Properties: Brutal 1; dexterity 13; luminous; reach; two-handed."
 			],
 			"dexterity": 13,
 			"brutal": 1,
@@ -10254,7 +10254,7 @@
 			"value": 9250,
 			"weight": 2.75,
 			"entries": [
-				"1d8 energy damage. Properties: Dexterity 11; hidden; luminous; piercing 1; versatile (1d10)."
+				"{@b Damage:} 1d8 energy damage. Properties: Dexterity 11; hidden; luminous; piercing 1; versatile (1d10)."
 			],
 			"dexterity": 11,
 			"piercing": 1,
@@ -10280,7 +10280,7 @@
 			"value": 30500,
 			"weight": 4.5,
 			"entries": [
-				"3d4 energy damage. Properties: Dexterity 17; luminous; piercing 1; two-handed; vicious 1."
+				"{@b Damage:} 3d4 energy damage. Properties: Dexterity 17; luminous; piercing 1; two-handed; vicious 1."
 			],
 			"dexterity": 17,
 			"piercing": 1,
@@ -11519,7 +11519,7 @@
 			"value": 3750,
 			"weight": 2.0,
 			"entries": [
-				"1d4 kinetic damage. Properties: Disruptive; neuralizing 13."
+				"{@b Damage:} 1d4 kinetic damage. Properties: Disruptive; neuralizing 13."
 			],
 			"neuralizing": 13,
 			"property": [],
@@ -13297,7 +13297,7 @@
 			"reload": 2,
 			"range": "150/600",
 			"entries": [
-				"2d6 kinetic damage. Properties: Piercing 1; reload 2; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 150/600); strength 17; two-handed."
+				"{@b Damage:} 2d6 kinetic damage. Properties: Piercing 1; reload 2; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 150/600); strength 17; two-handed."
 			],
 			"ammunition": true,
 			"strength": 17,
@@ -14875,7 +14875,7 @@
 			"value": 9500,
 			"weight": 2.75,
 			"entries": [
-				"1d8 energy damage. Properties: Brutal 1; dexterity 13; hidden; luminous; versatile (1d10)."
+				"{@b Damage:} 1d8 energy damage. Properties: Brutal 1; dexterity 13; hidden; luminous; versatile (1d10)."
 			],
 			"dexterity": 13,
 			"brutal": 1,
@@ -15426,7 +15426,7 @@
 			"value": 7000,
 			"weight": 1.0,
 			"entries": [
-				"1d6 energy damage. Properties: Dexterity 11; dire 1; hidden; light; luminous."
+				"{@b Damage:} 1d6 energy damage. Properties: Dexterity 11; dire 1; hidden; light; luminous."
 			],
 			"dexterity": 11,
 			"dire": 1,
@@ -15605,7 +15605,7 @@
 			"dmgType": "Energy",
 			"dmg2": "1d10",
 			"entries": [
-				"2d4 energy damage. Properties: Dexterity 11; hidden; keen 1; versatile (1d10)."
+				"{@b Damage:} 2d4 energy damage. Properties: Dexterity 11; hidden; keen 1; versatile (1d10)."
 			],
 			"dexterity": 11,
 			"keen": 1,
@@ -15747,7 +15747,7 @@
 			"reload": 4,
 			"range": "75/300",
 			"entries": [
-				"1d10 kinetic damage. Properties: Auto; burst 2; rapid 2; reload 4; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 75/300); smart (15/+2); strength 15; two-handed."
+				"{@b Damage:} 1d10 kinetic damage. Properties: Auto; burst 2; rapid 2; reload 4; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 75/300); smart (15/+2); strength 15; two-handed."
 			],
 			"ammunition": true,
 			"strength": 15,
@@ -15839,7 +15839,7 @@
 			"reload": 16,
 			"range": "40/160",
 			"entries": [
-				"1d6 kinetic damage. Properties: Piercing 1; rapid 2; reload 16; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 40/160); smart (15/+2); strength 11."
+				"{@b Damage:} 1d6 kinetic damage. Properties: Piercing 1; rapid 2; reload 16; {@item Slug cartridge|sw5e-phb|slug cartridge} (range 40/160); smart (15/+2); strength 11."
 			],
 			"ammunition": true,
 			"strength": 11,
@@ -17961,7 +17961,7 @@
 			"value": 12000,
 			"weight": 10.0,
 			"entries": [
-				"1d12 kinetic damage. Properties: Brutal 1; dexterity 13; heavy; two-handed."
+				"{@b Damage:} 1d12 kinetic damage. Properties: Brutal 1; dexterity 13; heavy; two-handed."
 			],
 			"dexterity": 13,
 			"brutal": 1,
@@ -17984,7 +17984,7 @@
 			"value": 18500,
 			"weight": 13.25,
 			"entries": [
-				"1d12 kinetic damage. Properties: Brutal 1; dexterity 19; heavy; keen 1; reach; two-handed."
+				"{@b Damage:} 1d12 kinetic damage. Properties: Brutal 1; dexterity 19; heavy; keen 1; reach; two-handed."
 			],
 			"dexterity": 19,
 			"brutal": 1,
@@ -18009,7 +18009,7 @@
 			"value": 5000,
 			"weight": 4.75,
 			"entries": [
-				"2d4 kinetic damage. Properties: Dexterity 11; reckless 1."
+				"{@b Damage:} 2d4 kinetic damage. Properties: Dexterity 11; reckless 1."
 			],
 			"dexterity": 11,
 			"property": [
@@ -18030,7 +18030,7 @@
 			"value": 12000,
 			"weight": 10.0,
 			"entries": [
-				"1d10 kinetic damage. Properties: Brutal 1; dexterity 13; reach; two-handed."
+				"{@b Damage:} 1d10 kinetic damage. Properties: Brutal 1; dexterity 13; reach; two-handed."
 			],
 			"dexterity": 13,
 			"brutal": 1,
@@ -18054,7 +18054,7 @@
 			"value": 6000,
 			"weight": 7.5,
 			"entries": [
-				"2d4 kinetic damage. Properties: Heavy; two-handed; vicious 1."
+				"{@b Damage:} 2d4 kinetic damage. Properties: Heavy; two-handed; vicious 1."
 			],
 			"vicious": 1,
 			"property": [
@@ -18075,7 +18075,7 @@
 			"value": 4500,
 			"weight": 5.75,
 			"entries": [
-				"1d8 kinetic damage. Properties: Dexterity 11; piercing 1; versatile (1d10)."
+				"{@b Damage:} 1d8 kinetic damage. Properties: Dexterity 11; piercing 1; versatile (1d10)."
 			],
 			"dexterity": 11,
 			"piercing": 1,
@@ -18099,7 +18099,7 @@
 			"value": 2250,
 			"weight": 1.0,
 			"entries": [
-				"1d4 kinetic damage. Properties: Finesse; light; piercing 1."
+				"{@b Damage:} 1d4 kinetic damage. Properties: Finesse; light; piercing 1."
 			],
 			"piercing": 1,
 			"property": [
@@ -18121,7 +18121,7 @@
 			"value": 22000,
 			"weight": 12.0,
 			"entries": [
-				"3d4 kinetic damage. Properties: Dexterity 17; piercing 1; two-handed; vicious 1."
+				"{@b Damage:} 3d4 kinetic damage. Properties: Dexterity 17; piercing 1; two-handed; vicious 1."
 			],
 			"dexterity": 17,
 			"piercing": 1,
@@ -18145,7 +18145,7 @@
 			"value": 3000,
 			"weight": 1.75,
 			"entries": [
-				"1d6 kinetic damage. Properties: Dexterity 11; keen 1; light."
+				"{@b Damage:} 1d6 kinetic damage. Properties: Dexterity 11; keen 1; light."
 			],
 			"dexterity": 11,
 			"keen": 1,
@@ -18168,7 +18168,7 @@
 			"value": 3250,
 			"weight": 3.75,
 			"entries": [
-				"1d8 kinetic damage. Properties: Defensive 1; fixed."
+				"{@b Damage:} 1d8 kinetic damage. Properties: Defensive 1; fixed."
 			],
 			"defensive": 1,
 			"property": [
@@ -18189,7 +18189,7 @@
 			"value": 2500,
 			"weight": 1.0,
 			"entries": [
-				"1d4 kinetic damage. Properties: Finesse; keen 1; light; thrown (range 30/90)."
+				"{@b Damage:} 1d4 kinetic damage. Properties: Finesse; keen 1; light; thrown (range 30/90)."
 			],
 			"keen": 1,
 			"property": [
@@ -18213,7 +18213,7 @@
 			"value": 2250,
 			"weight": 1.0,
 			"entries": [
-				"1d4 kinetic damage. Properties: Defensive 1; finesse; light."
+				"{@b Damage:} 1d4 kinetic damage. Properties: Defensive 1; finesse; light."
 			],
 			"defensive": 1,
 			"property": [
@@ -18555,7 +18555,7 @@
 			"dmg1": "1d6",
 			"dmgType": "Kinetic",
 			"entries": [
-				"1d6 kinetic damage. Properties: Defensive 1; disguised; returning; thrown (range 30/90)."
+				"{@b Damage:} 1d6 kinetic damage. Properties: Defensive 1; disguised; returning; thrown (range 30/90)."
 			],
 			"defensive": 1,
 			"range": "30/90",
@@ -18578,7 +18578,7 @@
 			"dmg1": "2d6",
 			"dmgType": "Energy",
 			"entries": [
-				"2d6 energy damage. Properties: Dexterity 15; reckless 1; two-handed; vicious 1."
+				"{@b Damage:} 2d6 energy damage. Properties: Dexterity 15; reckless 1; two-handed; vicious 1."
 			],
 			"dexterity": 15,
 			"vicious": 1,
@@ -18601,7 +18601,7 @@
 			"dmg1": "2d6",
 			"dmgType": "Kinetic",
 			"entries": [
-				"2d6 kinetic damage. Properties: Dexterity 15; reckless 1; two-handed; vicious 1."
+				"{@b Damage:} 2d6 kinetic damage. Properties: Dexterity 15; reckless 1; two-handed; vicious 1."
 			],
 			"dexterity": 15,
 			"vicious": 1,

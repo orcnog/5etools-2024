@@ -15,11 +15,7 @@
 			}
 		],
 		"optionalFeatureTypes": {
-			"GM:SotG": {
-				"abbreviation": "GM",
-				"full": "Gunning Mastery",
-				"source": "sw5e-sotg"
-			}
+			"GM:SotG": "Gunning Mastery"
 		}
 	},
 	"optionalfeature": [

@@ -123,7 +123,7 @@
 					"type": "entries",
 					"name": "Explosive",
 					"entries": [
-						"When a ship is dealt damage by a weapon with the explosive property, creatures inside are forced to make a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} to maintain {@variantrule Concentration|sw5e-phb|concentration}.  The DC for the check equals 10 or half the damage taken by the ship, whichever number is higher."
+						"When a ship is dealt damage by a weapon with the explosive property, creatures inside are forced to make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw} to maintain {@variantrule Concentration|sw5e-phb|concentration}.  The DC for the check equals 10 or half the damage taken by the ship, whichever number is higher."
 					]
 				}
 			]
@@ -221,7 +221,7 @@
 					"type": "entries",
 					"name": "Overheat",
 					"entries": [
-						"A limited number of shots can be made with a weapon that has the overheat property. A character must then cool the weapon using an action or a {@variantrule Bonus Action|sw5e-sotg} (the character's choice).  A weapon will naturally cool over a period of ten minutes of non-use."
+						"A limited number of shots can be made with a weapon that has the overheat property. A character must then cool the weapon using an action or a {@variantrule Bonus Action|sw5e-phb} (the character's choice).  A weapon will naturally cool over a period of ten minutes of non-use."
 					]
 				}
 			]

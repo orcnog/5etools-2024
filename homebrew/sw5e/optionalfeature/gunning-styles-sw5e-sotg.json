@@ -15,11 +15,7 @@
 			}
 		],
 		"optionalFeatureTypes": {
-			"GS:SotG": {
-				"abbreviation": "GS",
-				"full": "Gunning Style",
-				"source": "sw5e-sotg"
-			}
+			"GS:SotG": "Gunning Style"
 		}
 	},
 	"optionalfeature": [

@@ -89,7 +89,7 @@
 			"page": 110,
 			"ruleType": "C",
 			"entries": [
-				"You may take one action on your turn, and any action taken by a player with your ship can only be taken once per round unless otherwise stated. For example, although two different crewmembers could both cast the same {@book force power|sw5e-phb|11|Force Powers} or make an {@variantrule Ability Check|sw5e-sotg|ability check} with the {@skill Medicine|sw5e-phb} skill, they could not both take an action granted by a ship modification or the Boost Engines action, described below. Only the crewmember at the helm can take helm actions, but all other actions may be taken by anyone on the ship as logic dictates."
+				"You may take one action on your turn, and any action taken by a player with your ship can only be taken once per round unless otherwise stated. For example, although two different crewmembers could both cast the same {@book force power|sw5e-phb|11|Force Powers} or make an {@variantrule Ability Check|sw5e-phb|ability check} with the {@skill Medicine|sw5e-phb} skill, they could not both take an action granted by a ship modification or the Boost Engines action, described below. Only the crewmember at the helm can take helm actions, but all other actions may be taken by anyone on the ship as logic dictates."
 			]
 		},
 		{
@@ -222,7 +222,7 @@
 				"If circumstances cause a roll to have both {@variantrule Advantage|sw5e-sotg|advantage} and disadvantage, you are considered to have neither of them, and you roll one {@dice d20}. This is true even if multiple circumstances impose disadvantage and only one grants {@variantrule Advantage|sw5e-sotg|advantage} or vice versa. In such a situation, you have neither {@variantrule Advantage|sw5e-sotg|advantage} nor disadvantage.",
 				"When you make a roll with {@variantrule Advantage|sw5e-sotg|advantage} or disadvantage, only the {@dice d20} is rolled twice. Any additional dice, such as the {@dice d4} granted by the {@i guidance} {@book force power|sw5e-phb|11|Force Powers}, are only rolled once.",
 				"When you have {@variantrule Advantage|sw5e-sotg|advantage} or disadvantage and something in the game, such as the iktotchi's Precognition trait, lets you reroll the {@dice d20}, you can reroll only one of the dice. You choose which one. For example, if an iktotchi has {@variantrule Advantage|sw5e-sotg|advantage} on an {@variantrule Ability Check|sw5e-sotg|ability check} and rolls a 1 and a 13, the iktotchi could use the Precognition trait to reroll the 1.",
-				"You usually gain {@variantrule Advantage|sw5e-sotg|advantage} or disadvantage through the use of special abilities, actions, or powers. Inspiration (see chapter 4) can also give a character {@variantrule Advantage|sw5e-sotg|advantage} on checks related to the character's personality, ideals, or bonds. The GM can also decide that circumstances influence a roll in one direction or the other and grant {@variantrule Advantage|sw5e-sotg|advantage} or impose disadvantage as a result.",
+				"You usually gain {@variantrule Advantage|sw5e-sotg|advantage} or disadvantage through the use of special abilities, actions, or powers. Inspiration (see chapter 4) can also give a character {@variantrule Advantage|sw5e-phb|advantage} on checks related to the character's personality, ideals, or bonds. The GM can also decide that circumstances influence a roll in one direction or the other and grant {@variantrule Advantage|sw5e-phb|advantage} or impose disadvantage as a result.",
 				{
 					"type": "entries",
 					"name": "{@variantrule Advantage|sw5e-sotg} on Other Rolls",
@@ -445,12 +445,21 @@
 			]
 		},
 		{
+			"name": "Maximum Crew Size",
+			"source": "sw5e-sotg",
+			"page": 117,
+			"ruleType": "O",
+			"entries": [
+				"Tiny Ships have a maximum crew size of 0. Small Ships normally have a maximum crew size of 1, but this limit can be raised with the addition of one or more Crew Expansion suite modifications and the Astromech Socket modification. Medium and larger ships have a maximum crew size determined only by logic and space constraints, but are still limited in the number of actions that the ship can take each turn (5 + the maximum number of Fire actions that can be taken by that ship)."
+			]
+		},
+		{
 			"name": "Proficiency",
 			"source": "sw5e-sotg",
 			"page": 97,
 			"ruleType": "C",
 			"entries": [
-				"Ships can be proficiently equipped for particular tasks, allowing her crew to add their Proficiency Bonus to the roll or save, as long as the crewmember has at least one deployment rank. Enemy ships also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on {@variantrule Ability Check|sw5e-sotg|ability checks}, {@variantrule Saving Throw|sw5e-sotg|saving throws}, and {@variantrule Attack Roll|sw5e-sotg|attack rolls}.",
+				"Ships can be proficiently equipped for particular tasks, allowing her crew to add their Proficiency Bonus to the roll or save, as long as the crewmember has at least one deployment rank. Enemy ships also have this bonus, which is incorporated in their stat blocks. The bonus is used in the rules on {@variantrule Ability Check|sw5e-phb|ability checks}, {@variantrule Saving Throw|sw5e-sotg|saving throws}, and {@variantrule Attack Roll|sw5e-sotg|attack rolls}.",
 				"Your proficiency equipped bonus can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your Proficiency Bonus to a Wisdom {@variantrule Saving Throw|sw5e-sotg|saving throw}, you nevertheless add the bonus only once when you make the save.",
 				"Occasionally, your Proficiency Bonus might be multiplied or divided (doubled or halved, for example) before you apply it. If a circumstance suggests that your Proficiency Bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.",
 				"By the same token, if a feature or effect allows you to multiply your Proficiency Bonus when making an {@variantrule Ability Check|sw5e-sotg|ability check} that wouldn't normally benefit from your Proficiency Bonus, you still don't add the bonus to the check. For that check your Proficiency Bonus is 0, given the fact that multiplying 0 by any number is still 0. For instance, if you are not proficiently equipped in the Data skill, you gain no benefit from a feature that lets you double your Proficiency Bonus when you make Intelligence (Data) checks.",
@@ -605,10 +614,10 @@
 			"page": 110,
 			"ruleType": "C",
 			"entries": [
-				"A saving throw—also called a save—represents an attempt to resist a weapon effect, power, trap, or similar threat to your ship or crew. When a ship or crewmember is at risk, the GM may call for a save rather than an {@variantrule Attack Roll|sw5e-sotg|attack roll}.",
+				"A saving throw—also called a save—represents an attempt to resist a weapon effect, power, trap, or similar threat to your ship or crew. When a ship or crewmember is at risk, the GM may call for a save rather than an {@variantrule Attack Roll|sw5e-phb|attack roll}.",
 				"When you make a saving throw using your ship's abilities, roll a {@dice d20} and add the ship's relevant ability modifier. If your ship is proficiently equipped for that saving throw, also add the {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} of the crewmember at the helm.",
 				"While many weapons utilize an {@variantrule Attack Roll|sw5e-sotg|attack roll}, tertiary and quaternary weapons, as well as primary weapons on Huge and larger ships, instead call for a saving throw. When an ability grants {@variantrule Advantage|sw5e-sotg|advantage} or {@variantrule Disadvantage|sw5e-sotg|disadvantage} on an attack and the attack calls for a saving throw instead of an {@variantrule Attack Roll|sw5e-sotg|attack roll}, unless stated otherwise, the saving throw is made with {@variantrule Disadvantage|sw5e-sotg|disadvantage} or {@variantrule Advantage|sw5e-sotg|advantage}, respectively. The saving throw is calculated as follows:",
-				"{@b Weapon save DC} = 8 + the crewmember's {@variantrule Proficiency|sw5e-sotg|Proficiency Bonus} (if at least rank 1) + the ship's Wisdom modifier"
+				"{@b Weapon save DC} = 8 + the crewmember's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} (if at least rank 1) + the ship's Wisdom modifier"
 			]
 		},
 		{
@@ -699,11 +708,7 @@
 				"Starships come equipped with two speeds: flying speed and turning speed.",
 				"{@b Flying speed is how far your ship can travel in a single round. It is expressed in feet. For every foot your ship travels forward, it expends one foot from its speed.",
 				"A ship's unmodified flying speed is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction.",
-				"Turning speed determines how maneuverable your ship is. In order for your ship to rotate 90 degrees, you must spend an amount of your flying speed equal to your turning speed. For instance, if your ship has a flying speed of 350 feet, and a turning speed of 100 feet, you can travel 150 feet in a straight line, spending 150 feet of your flying speed, and then turn 90 degrees to starboard, spending 100 feet of your flying speed, leaving 100 feet of movement remaining.",
-				"Typically games are played with turning limited to 90 degree increments, but, if your group has the desire and capability to track smaller angles, this is allowed.",
-				"A ship can turn more (or less, if your group agrees) than 90 degrees on its turn, by spending a proportionate amount of movement.",
-				"If a ship's turning speed exceeds its flying speed, that ship cannot turn 90 degrees, in combat conditions, absent another effect modifiying the ship's turning speed and/or flying speed or the Hard Turn action.",
-				"A ship's unmodified turning speed is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction."
+				"For turning, see {@variantrule Turn Speed|sw5e-sotg}."
 			]
 		},
 		{
@@ -729,6 +734,19 @@
 						"{@b Hull resistances:} Ion, Lightning, Necrotic. {@b Shield resistances:} Acid, Cold, Fire, Necrotic. {@b Hull and shield immunities:} Poison, Psychic."
 					]
 				}
+			]
+		},
+		{
+			"name": "Turn Speed",
+			"source": "sw5e-sotg",
+			"page": 110,
+			"ruleType": "C",
+			"entries": [
+				"Turning speed determines how maneuverable your ship is. In order for your ship to rotate 90 degrees, you must spend an amount of your flying speed equal to your turning speed. For instance, if your ship has a flying speed of 350 feet, and a turning speed of 100 feet, you can travel 150 feet in a straight line, spending 150 feet of your flying speed, and then turn 90 degrees to starboard, spending 100 feet of your flying speed, leaving 100 feet of movement remaining.",
+				"Typically games are played with turning limited to 90 degree increments, but, if your group has the desire and capability to track smaller angles, this is allowed.",
+				"A ship can turn more (or less, if your group agrees) than 90 degrees on its turn, by spending a proportionate amount of movement.",
+				"If a ship's turning speed exceeds its flying speed, that ship cannot turn 90 degrees, in combat conditions, absent another effect modifiying the ship's turning speed and/or flying speed or the Hard Turn action.",
+				"A ship's unmodified turning speed is determined in {@book Chapter 3: Starships|sw5e-sotg|5|Chapter 3: Starships} by the Role selected for the ship at construction."
 			]
 		}
 	]
