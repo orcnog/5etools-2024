@@ -107,7 +107,7 @@
 				"SF:SotG"
 			],
 			"entries": [
-				"Beginning at second Tier, your ship's {@variantrule Armor Class|sw5e-sotg|armor class} improves, giving your ship a +1 to its AC.  It gains an additional +1 bonus to AC at 3rd Tier (+2 total), 4th Tier (+3 total), and 5th Tier (+4 total)."
+				"Beginning at second Tier, your ship's {@variantrule Armor Class|sw5e-phb|armor class} improves, giving your ship a +1 to its AC.  It gains an additional +1 bonus to AC at 3rd Tier (+2 total), 4th Tier (+3 total), and 5th Tier (+4 total)."
 			],
 			"tier": 2,
 			"shipSizes": [
@@ -177,7 +177,7 @@
 					"type": "entries",
 					"name": "Industrial Center",
 					"entries": [
-						"Your ship gains two Workshop modifications at no cost.  Additionally, the {@variantrule Speed|sw5e-sotg|speed} at which goods are crafted in your workshops is doubled."
+						"Your ship gains two Workshop modifications at no cost.  Additionally, the {@variantrule Speed|sw5e-phb|speed} at which goods are crafted in your workshops is doubled."
 					]
 				},
 				{
@@ -191,7 +191,7 @@
 					"type": "entries",
 					"name": "Researcher",
 					"entries": [
-						"Your ship gains the Laboratory and Workshop modifications at no cost. Additionally, Intelligence ({@skill Lore|sw5e-phb}) checks on your ship are made with {@variantrule Advantage|sw5e-sotg|advantage}."
+						"Your ship gains the Laboratory and Workshop modifications at no cost. Additionally, Intelligence ({@skill Lore|sw5e-phb}) checks on your ship are made with {@variantrule Advantage|sw5e-phb|advantage}."
 					]
 				},
 				{
@@ -265,7 +265,7 @@
 						"Gargantuan starship, tier 3"
 					]
 				},
-				"Also at 3rd tier, your ship is equipped with a superweapon. As an action, a crewmember can activate the superweapon, which has a limited {@variantrule Firing Arc|sw5e-sotg|firing arc}, as described in Chapter 9. When activated, a beam of destructive energy forming a line 10,000 feet long and 100 feet wide blasts from the weapon. Each ship in the line must make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC = 8 + the crewmember's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + the ship's Strength modifier). On a failed save, a ship takes 15d10 energy damage, or half as much on a successful one.",
+				"Also at 3rd tier, your ship is equipped with a superweapon. As an action, a crewmember can activate the superweapon, which has a limited firing arc, as described in Chapter 9. When activated, a beam of destructive energy forming a line 10,000 feet long and 100 feet wide blasts from the weapon. Each ship in the line must make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC = 8 + the crewmember's {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + the ship's Strength modifier). On a failed save, a ship takes 15d10 energy damage, or half as much on a successful one.",
 				"Once this feature has been used, it can't be used again until the ship recharges."
 			],
 			"tier": 3,
@@ -398,7 +398,7 @@
 					"type": "list",
 					"items": [
 						"Your ship has resistance to all damage.",
-						"Your ship's ship attacks score a {@variantrule Critical Hit|sw5e-sotg|critical hit} on a roll of 19 or 20 on the {@dice d20}."
+						"Your ship's ship attacks score a {@variantrule Critical Hit|sw5e-phb|critical hit} on a roll of 19 or 20 on the {@dice d20}."
 					]
 				},
 				"This effect ends early if the ship is disabled. Once this feature has been used, it can't be used again until the ship undergoes refitting."
@@ -423,7 +423,7 @@
 					]
 				},
 				"Also at 1st tier, your starship gains the ability to automatically mitigate damage from ships.",
-				"Once per turn, as a {@variantrule Reaction|sw5e-sotg} to being dealt damage by a ship weapon, a crewmember can use their {@variantrule Reaction|sw5e-phb} and roll a Damage Control die, which is a {@dice d4}, and subtract it from the damage roll.",
+				"Once per turn, as a {@variantrule Reaction|sw5e-phb} to being dealt damage by a ship weapon, a crewmember can use their {@variantrule Reaction|sw5e-phb} and roll a Damage Control die, which is a {@dice d4}, and subtract it from the damage roll.",
 				"Your ship's Damage Control die changes when it reaches certain tiers. The die becomes a {@dice d6} at 2nd tier, a {@dice d8} at 3rd tier, a {@dice d10} at 4th tier, and a {@dice d12} at 5th tier.",
 				"This feature can be used a number of times equal to 4 x your ship's tier. All expended uses are regained when the ship undergoes refitting."
 			],
@@ -465,14 +465,14 @@
 					"type": "entries",
 					"name": "Colonizer",
 					"entries": [
-						"Your ship gains two Barracks suites at no cost. Additionally, {@variantrule Saving Throw|sw5e-phb|saving throws} against poison and disease on your ship are made with {@variantrule Advantage|sw5e-sotg|advantage}."
+						"Your ship gains two Barracks suites at no cost. Additionally, {@variantrule Saving Throw|sw5e-phb|saving throws} against poison and disease on your ship are made with {@variantrule Advantage|sw5e-phb|advantage}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Command Ship",
 					"entries": [
-						"Your ship gains the Comms Package, Premium and Command Center suite modifications at no cost. Additionally, you have {@variantrule Advantage|sw5e-sotg|advantage} on Charisma (Impress) checks."
+						"Your ship gains the Comms Package, Premium and Command Center suite modifications at no cost. Additionally, you have {@variantrule Advantage|sw5e-phb|advantage} on Charisma (Impress) checks."
 					]
 				},
 				{
@@ -486,7 +486,7 @@
 					"type": "entries",
 					"name": "Juggernaut",
 					"entries": [
-						"Your hull point maximum increases by an amount equal to twice your number of hull dice. Whenever you gain a hull die thereafter, your hull point maximum increases by an additional 2 {@variantrule Hull Points|sw5e-sotg|hull points}."
+						"Your hull point maximum increases by an amount equal to twice your number of hull dice. Whenever you gain a hull die thereafter, your hull point maximum increases by an additional 2 hull points."
 					]
 				}
 			],
@@ -552,7 +552,7 @@
 						"Huge starship, tier 3"
 					]
 				},
-				"Also at 3rd tier, your ship is equipped with a forward-mounted special version of a Heavy Slug Railgun at its helm.  Your ship is considered to meet this weapon's constitution requirement regardless of your ship's constitution ability score.  The damage dealt by this Heavy Slug Railgun is 7d12.",
+				"Also at 3rd tier, your ship is equipped with a forward-mounted special version of a {@item Heavy slug railgun|sw5e-sotg} at its helm.  Your ship is considered to meet this weapon's constitution requirement regardless of your ship's constitution ability score.  The damage dealt by this {@item Heavy slug railgun|sw5e-sotg} is 7d12.",
 				"This weapon does not utilize or count as a weapon hardpoint."
 			],
 			"tier": 3,
@@ -586,7 +586,7 @@
 					"type": "entries",
 					"name": "Carrier",
 					"entries": [
-						"When ships are deployed from your carrier, they have {@variantrule Advantage|sw5e-sotg|advantage} on the first {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw} they make before the end of their next refitting. Once a ship has benefited from this feature, it can not benefit from it again until it undergoes refitting."
+						"When ships are deployed from your carrier, they have {@variantrule Advantage|sw5e-phb|advantage} on the first {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw} they make before the end of their next refitting. Once a ship has benefited from this feature, it can not benefit from it again until it undergoes refitting."
 					]
 				},
 				{
@@ -600,7 +600,7 @@
 					"type": "entries",
 					"name": "Command Ship",
 					"entries": [
-						"Your ship gains the Comms Package, Premium, and Comms Package, Prototype modifications at no cost. Additionally, you have {@variantrule Advantage|sw5e-sotg|advantage} on Charisma (Menace) checks."
+						"Your ship gains the Comms Package, Premium, and Comms Package, Prototype modifications at no cost. Additionally, you have {@variantrule Advantage|sw5e-phb|advantage} on Charisma (Menace) checks."
 					]
 				},
 				{
@@ -702,7 +702,7 @@
 					]
 				},
 				"Also at 1st tier, your starship gains the ability to react to damage from large ships.",
-				"As a {@variantrule Reaction|sw5e-sotg} to being hit with an {@variantrule Attack Roll|sw5e-sotg|attack roll} from a Large or larger ship, a crewmember at the helm can use their {@variantrule Reaction|sw5e-phb} to immediately move the ship forward an amount equal to half its flying {@variantrule Speed|sw5e-phb|speed} (rounded down) and then roll a Blockade Runner die, which is a {@dice d4}, and subtract it from the triggering {@variantrule Attack Roll|sw5e-sotg|attack roll}, potentially causing it to miss.",
+				"As a {@variantrule Reaction|sw5e-phb} to being hit with an {@variantrule Attack Roll|sw5e-phb|attack roll} from a Large or larger ship, a crewmember at the helm can use their {@variantrule Reaction|sw5e-phb} to immediately move the ship forward an amount equal to half its flying {@variantrule Speed|sw5e-phb|speed} (rounded down) and then roll a Blockade Runner die, which is a {@dice d4}, and subtract it from the triggering {@variantrule Attack Roll|sw5e-phb|attack roll}, potentially causing it to miss.",
 				"Your ship's Blockade Runner die changes when it reaches certain tiers. The die becomes a {@dice d6} at 2nd tier, a {@dice d8} at 3rd tier, a {@dice d10} at 4th tier, and a {@dice d12} at 5th tier.",
 				"This feature can be used a number of times equal to 3 x your ship's tier. All expended uses are regained when the ship is refitted."
 			],
@@ -758,7 +758,7 @@
 					"type": "entries",
 					"name": "Picket Ship",
 					"entries": [
-						"Your ship can install a single point-defense primary weapon in a hardpoint.  This hardpoint may be modified to include more than a single limited {@variantrule Firing Arc|sw5e-sotg|firing arc}."
+						"Your ship can install a single point-defense primary weapon in a hardpoint.  This hardpoint may be modified to include more than a single limited firing arc."
 					]
 				},
 				{
@@ -788,7 +788,7 @@
 						"Large starship, tier 2"
 					]
 				},
-				"Also at 2nd tier, once per turn, when you attack a ship of size Large or larger, and it was previously hit by an allied ship of size Large or larger's weapons since the end of its last turn, you have {@variantrule Advantage|sw5e-sotg|advantage} on the attack. If you already had {@variantrule Advantage|sw5e-sotg|advantage}, you may instead reroll one of the dice once (your choice)."
+				"Also at 2nd tier, once per turn, when you attack a ship of size Large or larger, and it was previously hit by an allied ship of size Large or larger's weapons since the end of its last turn, you have {@variantrule Advantage|sw5e-phb|advantage} on the attack. If you already had {@variantrule Advantage|sw5e-phb|advantage}, you may instead reroll one of the dice once (your choice)."
 			],
 			"tier": 2,
 			"shipSize": "Large",
@@ -858,14 +858,14 @@
 					"type": "entries",
 					"name": "Ambassador",
 					"entries": [
-						"Your ship has {@variantrule Advantage|sw5e-sotg|advantage} on {@variantrule Saving Throw|sw5e-sotg|saving throws} to avoid being rammed or tractored."
+						"Your ship has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being rammed or tractored."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Corvette",
 					"entries": [
-						"Your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+						"Your ship's flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
 					]
 				},
 				{
@@ -886,7 +886,7 @@
 					"type": "entries",
 					"name": "Picket Ship",
 					"entries": [
-						"The close and long ranges of your point defense systems increase by 100 feet. Additionally, Large or smaller ships have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on {@variantrule Saving Throw|sw5e-sotg|saving throws} against your point defense systems."
+						"The close and long ranges of your point defense systems increase by 100 feet. Additionally, Large or smaller ships have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against your point defense systems."
 					]
 				},
 				{
@@ -1008,7 +1008,7 @@
 					"type": "entries",
 					"name": "Courier",
 					"entries": [
-						"Your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+						"Your ship's flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
 					]
 				},
 				{
@@ -1043,7 +1043,7 @@
 					"type": "entries",
 					"name": "Yacht",
 					"entries": [
-						"Your ship gains the Recreation modification at no cost. Additionally, while hosting guests on your ship, they have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on Intelligence and Wisdom checks."
+						"Your ship gains the Recreation modification at no cost. Additionally, while hosting guests on your ship, they have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Intelligence and Wisdom checks."
 					]
 				}
 			],
@@ -1066,7 +1066,7 @@
 						"Medium starship, tier 2"
 					]
 				},
-				"Also at 2nd tier, your ship can add half its Dexterity modifier (minimum of one) to any {@variantrule Saving Throw|sw5e-sotg|saving throw} it makes that doesn't already include that modifier."
+				"Also at 2nd tier, your ship can add half its Dexterity modifier (minimum of one) to any {@variantrule Saving Throw|sw5e-phb|saving throw} it makes that doesn't already include that modifier."
 			],
 			"tier": 2,
 			"shipSize": "Medium",
@@ -1109,7 +1109,7 @@
 						"Medium starship, tier 3"
 					]
 				},
-				"Also at 3rd tier, when your ship takes damage while at 0 {@variantrule Hull Points|sw5e-sotg|hull points}, it makes a {@variantrule Destruction Saving Throw|sw5e-sotg|saving throw}, instead of automatically failing."
+				"Also at 3rd tier, when your ship takes damage while at 0 hull points, it makes a Destruction {@variantrule Saving Throw|sw5e-sotg|saving throw}, instead of automatically failing."
 			],
 			"tier": 3,
 			"shipSize": "Medium",
@@ -1142,14 +1142,14 @@
 					"type": "entries",
 					"name": "Freighter",
 					"entries": [
-						"When your ship fails a Strength or Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw}, a crewmember can use their {@variantrule Reaction|sw5e-phb} to jettison some of the cargo stored in its storage compartments. If you jettison at least 50 tons of cargo, you can reroll the {@variantrule Saving Throw|sw5e-sotg|saving throw} and must use the new roll. If you jettison at least 75 tons of cargo, however, you instead automatically succeed on the {@variantrule Saving Throw|sw5e-sotg|saving throw}. Additionally, the area in a line 300 feet long and 100 feet wide behind your ship becomes {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain} for 1 minute."
+						"When your ship fails a Strength or Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw}, a crewmember can use their {@variantrule Reaction|sw5e-phb} to jettison some of the cargo stored in its storage compartments. If you jettison at least 50 tons of cargo, you can reroll the {@variantrule Saving Throw|sw5e-phb|saving throw} and must use the new roll. If you jettison at least 75 tons of cargo, however, you instead automatically succeed on the {@variantrule Saving Throw|sw5e-phb|saving throw}. Additionally, the area in a line 300 feet long and 100 feet wide behind your ship becomes {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} for 1 minute."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Gunship",
 					"entries": [
-						"Once per round, a crewmember can roll the weapon damage dice one additional time when determining the extra damage for a {@variantrule Critical Hit|sw5e-sotg|critical hit} with a ship attack."
+						"Once per round, a crewmember can roll the weapon damage dice one additional time when determining the extra damage for a {@variantrule Critical Hit|sw5e-phb|critical hit} with a ship attack."
 					]
 				},
 				{
@@ -1163,14 +1163,14 @@
 					"type": "entries",
 					"name": "Navigator",
 					"entries": [
-						"Your ship has resistance to damage from environmental effects, and {@variantrule Advantage|sw5e-sotg|advantage} on {@variantrule Saving Throw|sw5e-sotg|saving throws} to resist the effects of environmental effects."
+						"Your ship has resistance to damage from environmental effects, and {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} to resist the effects of environmental effects."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Yacht",
 					"entries": [
-						"You have {@variantrule Advantage|sw5e-sotg|advantage} Charisma checks made against those who can see your ship."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} Charisma checks made against those who can see your ship."
 					]
 				}
 			],
@@ -1259,7 +1259,7 @@
 					]
 				},
 				"Also at 1st tier, your starship gains the ability to slip underneath the shields of an enemy ship.",
-				"When your ship occupies the same square occupied by a target ship and the crewmember at the helm makes an {@variantrule Attack Roll|sw5e-phb|attack roll}, as a {@variantrule Reaction|sw5e-phb}, they can, before rolling the attack, roll a Pinpoint Strike die, which is a {@dice d4}, and add it to the {@variantrule Attack Roll|sw5e-sotg|attack roll}.  If the attack requires a {@variantrule Saving Throw|sw5e-sotg|saving throw} instead, you may subtract the Pinpoint Strike die from the target's save result.  On a hit or a failed save, the attack deals normal damage that bypasses any shields and directly hits the hull of the target ship. This feature can only be used once per round.",
+				"When your ship occupies the same square occupied by a target ship and the crewmember at the helm makes an {@variantrule Attack Roll|sw5e-phb|attack roll}, as a {@variantrule Reaction|sw5e-phb}, they can, before rolling the attack, roll a Pinpoint Strike die, which is a {@dice d4}, and add it to the {@variantrule Attack Roll|sw5e-phb|attack roll}.  If the attack requires a {@variantrule Saving Throw|sw5e-sotg|saving throw} instead, you may subtract the Pinpoint Strike die from the target's save result.  On a hit or a failed save, the attack deals normal damage that bypasses any shields and directly hits the hull of the target ship. This feature can only be used once per round.",
 				"Your ship's Pinpoint Strike die changes when it reaches certain tiers. The die becomes a {@dice d6} at 2nd tier, a {@dice d8} at 3rd tier, a {@dice d10} at 4th tier, and a {@dice d12} at 5th tier.",
 				"This feature can be used a number of times equal to your ship's tier. All expended uses are regained when the ship recharges."
 			],
@@ -1287,7 +1287,7 @@
 					"type": "entries",
 					"name": "Attack Fighter",
 					"entries": [
-						"Your ship gains a +1 bonus to the {@variantrule Attack Roll|sw5e-sotg|attack rolls} and save DCs of its ship weapons."
+						"Your ship gains a +1 bonus to the {@variantrule Attack Roll|sw5e-phb|attack rolls} and save DCs of its ship weapons."
 					]
 				},
 				{
@@ -1308,7 +1308,7 @@
 					"type": "entries",
 					"name": "Scrambler",
 					"entries": [
-						"Your ship's crew can use interfere as a {@variantrule Bonus Action|sw5e-sotg}."
+						"Your ship's crew can use interfere as a {@variantrule Bonus Action|sw5e-phb}."
 					]
 				},
 				{
@@ -1322,7 +1322,7 @@
 					"type": "entries",
 					"name": "Superiority Fighter",
 					"entries": [
-						"Your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+						"Your ship's flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
 					]
 				}
 			],
@@ -1389,7 +1389,7 @@
 						"Small starship, tier 3"
 					]
 				},
-				"Also at 3rd tier, your ship can add half of its Strength modifier (rounded down, minimum of one) to its {@variantrule Saving Throw|sw5e-sotg|saving throw}."
+				"Also at 3rd tier, your ship can add half of its Strength modifier (rounded down, minimum of one) to its Dexterity Saving Throws."
 			],
 			"tier": 3,
 			"shipSize": "Small",
@@ -1429,7 +1429,7 @@
 					"type": "entries",
 					"name": "Scout",
 					"entries": [
-						"Your ship gains a +2 bonus to Intelligence (Astrogation) checks and enemy ships have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on Wisdom (scan) checks to detect your ship entering and exiting hyperspace."
+						"Your ship gains a +2 bonus to Intelligence (Astrogation) checks and enemy ships have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom (scan) checks to detect your ship entering and exiting hyperspace."
 					]
 				},
 				{
@@ -1450,7 +1450,7 @@
 					"type": "entries",
 					"name": "Superiority Fighter",
 					"entries": [
-						"Your ship's turning {@variantrule Speed|sw5e-sotg|speed} decreases by 50 feet. If this would decrease your ship's turning {@variantrule Speed|sw5e-sotg|speed} to 0, instead your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+						"Your ship's turning {@variantrule Speed|sw5e-phb|speed} decreases by 50 feet. If this would decrease your ship's turning {@variantrule Speed|sw5e-phb|speed} to 0, instead your ship's flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
 					]
 				}
 			],
@@ -1625,8 +1625,8 @@
 					"type": "entries",
 					"name": "Predator",
 					"entries": [
-						"Once per turn, your ship can deal an extra 1d6 damage to one ship it hits with a primary weapon if your ship has {@variantrule Advantage|sw5e-sotg|advantage} on the {@variantrule Attack Roll|sw5e-sotg|attack roll}. This damage is the same as the weapon’s damage, and the attack must use a weapon without a constitution requirement.",
-						"Your ship doesn’t need {@variantrule Advantage|sw5e-sotg|advantage} on the {@variantrule Attack Roll|sw5e-sotg|attack roll} if another enemy of the target is within 50 feet of it, that enemy isn’t disabled, and your ship doesn’t have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on the {@variantrule Attack Roll|sw5e-sotg|attack roll}"
+						"Once per turn, your ship can deal an extra 1d6 damage to one ship it hits with a primary weapon if your ship has {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll}. This damage is the same as the weapon’s damage, and the attack must use a weapon without a constitution requirement.",
+						"Your ship doesn’t need {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll} if another enemy of the target is within 50 feet of it, that enemy isn’t disabled, and your ship doesn’t have {@variantrule Disadvantage|sw5e-phb|disadvantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll}"
 					]
 				},
 				{
@@ -1634,7 +1634,7 @@
 					"name": "Probe",
 					"entries": [
 						"Your ship gains the Scanner, Mk I modification at no cost.",
-						"Additionally, when your ship attacks a ship or creature it can’t see, its inability to see it doesn’t impose {@variantrule Disadvantage|sw5e-sotg|disadvantage} on its {@variantrule Attack Roll|sw5e-sotg|attack rolls} against it."
+						"Additionally, when your ship attacks a ship or creature it can’t see, its inability to see it doesn’t impose {@variantrule Disadvantage|sw5e-phb|disadvantage} on its {@variantrule Attack Roll|sw5e-phb|attack rolls} against it."
 					]
 				},
 				{
@@ -1642,7 +1642,7 @@
 					"name": "Satellite",
 					"entries": [
 						"Your ship gains the Comms Package, Mk I modification at no cost.",
-						"Additionally, you can take the {@action Interfere|sw5e-sotg} action as a {@variantrule Bonus Action|sw5e-sotg}."
+						"Additionally, you can take the Interfere action as a {@variantrule Bonus Action|sw5e-phb}."
 					]
 				},
 				{
@@ -1673,7 +1673,7 @@
 						"Tiny starship, tier 2"
 					]
 				},
-				"Also at 2nd tier, your ship is so nimble that it can ignore unenhanced {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain}, and when it you would use an action to break free of an effect that is tractoring or otherwise restraining your ship, you can instead use a {@variantrule Bonus Action|sw5e-sotg}."
+				"Also at 2nd tier, your ship is so nimble that it can ignore unenhanced {@variantrule Difficult Terrain|sw5e-phb|difficult terrain}, and when it you would use an action to break free of an effect that is tractoring or otherwise restraining your ship, you can instead use a {@variantrule Bonus Action|sw5e-phb}."
 			],
 			"tier": 2,
 			"shipSize": "Tiny",
@@ -1694,7 +1694,7 @@
 						"Tiny starship, tier 3"
 					]
 				},
-				"At 3rd tier, your ship's agility lets it dodge out of the way of certain area effects. When your ship is subjected to an effect, such as a proton torpedo or a seismic charge, that allows your ship to make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} to take only half damage, it instead takes no damage if it succeeds on a {@variantrule Saving Throw|sw5e-sotg|saving throw}, and only half damage if it fails."
+				"At 3rd tier, your ship's agility lets it dodge out of the way of certain area effects. When your ship is subjected to an effect, such as a proton torpedo or a seismic charge, that allows your ship to make a Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw} to take only half damage, it instead takes no damage if it succeeds on a {@variantrule Saving Throw|sw5e-phb|saving throw}, and only half damage if it fails."
 			],
 			"tier": 3,
 			"shipSize": "Tiny",
@@ -1742,7 +1742,7 @@
 					"name": "Droid",
 					"entries": [
 						"Your ship gains the Droid Brain, Mk II modification at no cost.",
-						"Additionally, your ship can take a second {@variantrule Reaction|sw5e-sotg} each round. It can only take one {@variantrule Reaction|sw5e-sotg} per turn."
+						"Additionally, your ship can take a second {@variantrule Reaction|sw5e-phb} each round. It can only take one {@variantrule Reaction|sw5e-phb} per turn."
 					]
 				},
 				{
@@ -1757,7 +1757,7 @@
 					"type": "entries",
 					"name": "Predator",
 					"entries": [
-						"Your ship deals 1d6 additional damage when it scores a {@variantrule Critical Hit|sw5e-sotg|critical hit} with an attack."
+						"Your ship deals 1d6 additional damage when it scores a {@variantrule Critical Hit|sw5e-phb|critical hit} with an attack."
 					]
 				},
 				{
@@ -1804,7 +1804,7 @@
 						"Tiny starship, tier 4"
 					]
 				},
-				"Also at 4th tier, the size and agility of your ship makes it easy to avoid attacks. No primary weapon attacks made against your ship can benefit from {@variantrule Advantage|sw5e-sotg|advantage} while your ship is not disabled."
+				"Also at 4th tier, the size and agility of your ship makes it easy to avoid attacks. No primary weapon attacks made against your ship can benefit from {@variantrule Advantage|sw5e-phb|advantage} while your ship is not disabled."
 			],
 			"tier": 4,
 			"shipSize": "Tiny",
@@ -1888,7 +1888,7 @@
 						"Tiny starship, tier 5"
 					]
 				},
-				"At 5th tier, the {@variantrule Critical Hit|sw5e-sotg|critical hit} range of your ship's weapons increases by 1."
+				"At 5th tier, the {@variantrule Critical Hit|sw5e-phb|critical hit} range of your ship's weapons increases by 1."
 			],
 			"tier": 5,
 			"shipSize": "Tiny",
@@ -1980,7 +1980,7 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your ship gains two Workshop modifications at no cost.  Additionally, the {@variantrule Speed|sw5e-sotg|speed} at which goods are crafted in your workshops is doubled."
+						"Your ship gains two Workshop modifications at no cost.  Additionally, the {@variantrule Speed|sw5e-phb|speed} at which goods are crafted in your workshops is doubled."
 					]
 				},
 				{
@@ -2046,7 +2046,7 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your ship gains the Laboratory and Workshop modifications at no cost. Additionally, Intelligence ({@skill Lore|sw5e-phb}) checks on your ship are made with {@variantrule Advantage|sw5e-sotg|advantage}."
+						"Your ship gains the Laboratory and Workshop modifications at no cost. Additionally, Intelligence ({@skill Lore|sw5e-phb}) checks on your ship are made with {@variantrule Advantage|sw5e-phb|advantage}."
 					]
 				},
 				{
@@ -2152,7 +2152,7 @@
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"When ships are deployed from your carrier, they have {@variantrule Advantage|sw5e-sotg|advantage} on the first {@variantrule Ability Check|sw5e-sotg|ability check}, {@variantrule Attack Roll|sw5e-sotg|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw} they make before the end of their next refitting. Once a ship has benefited from this feature, it can not benefit from it again until it undergoes refitting."
+						"When ships are deployed from your carrier, they have {@variantrule Advantage|sw5e-phb|advantage} on the first {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw} they make before the end of their next refitting. Once a ship has benefited from this feature, it can not benefit from it again until it undergoes refitting."
 					]
 				}
 			],
@@ -2178,7 +2178,7 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your ship gains two Barracks suites at no cost. Additionally, {@variantrule Saving Throw|sw5e-phb|saving throws} against poison and disease on your ship are made with {@variantrule Advantage|sw5e-sotg|advantage}."
+						"Your ship gains two Barracks suites at no cost. Additionally, {@variantrule Saving Throw|sw5e-phb|saving throws} against poison and disease on your ship are made with {@variantrule Advantage|sw5e-phb|advantage}."
 					]
 				},
 				{
@@ -2211,14 +2211,14 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your ship gains the Comms Package, Premium and Command Center suite modifications at no cost. Additionally, you have {@variantrule Advantage|sw5e-sotg|advantage} on Charisma (Impress) checks."
+						"Your ship gains the Comms Package, Premium and Command Center suite modifications at no cost. Additionally, you have {@variantrule Advantage|sw5e-phb|advantage} on Charisma (Impress) checks."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"Your ship gains the Comms Package, Premium, and Comms Package, Prototype modifications at no cost. Additionally, you have {@variantrule Advantage|sw5e-sotg|advantage} on Charisma (Menace) checks."
+						"Your ship gains the Comms Package, Premium, and Comms Package, Prototype modifications at no cost. Additionally, you have {@variantrule Advantage|sw5e-phb|advantage} on Charisma (Menace) checks."
 					]
 				}
 			],
@@ -2277,7 +2277,7 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your hull point maximum increases by an amount equal to twice your number of hull dice. Whenever you gain a hull die thereafter, your hull point maximum increases by an additional 2 {@variantrule Hull Points|sw5e-sotg|hull points}."
+						"Your hull point maximum increases by an amount equal to twice your number of hull dice. Whenever you gain a hull die thereafter, your hull point maximum increases by an additional 2 hull points."
 					]
 				},
 				{
@@ -2317,7 +2317,7 @@
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"Your ship has {@variantrule Advantage|sw5e-sotg|advantage} on {@variantrule Saving Throw|sw5e-sotg|saving throws} to avoid being rammed or tractored."
+						"Your ship has {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} to avoid being rammed or tractored."
 					]
 				}
 			],
@@ -2350,7 +2350,7 @@
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"Your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+						"Your ship's flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
 					]
 				}
 			],
@@ -2442,14 +2442,14 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your ship can install a single point-defense primary weapon in a hardpoint.  This hardpoint may be modified to include more than a single limited {@variantrule Firing Arc|sw5e-sotg|firing arc}."
+						"Your ship can install a single point-defense primary weapon in a hardpoint.  This hardpoint may be modified to include more than a single limited firing arc."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"The close and long ranges of your point defense systems increase by 100 feet. Additionally, Large or smaller ships have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on {@variantrule Saving Throw|sw5e-sotg|saving throws} against your point defense systems."
+						"The close and long ranges of your point defense systems increase by 100 feet. Additionally, Large or smaller ships have {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against your point defense systems."
 					]
 				}
 			],
@@ -2508,7 +2508,7 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+						"Your ship's flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
 					]
 				},
 				{
@@ -2548,7 +2548,7 @@
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"When your ship fails a Strength or Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw}, a crewmember can use their {@variantrule Reaction|sw5e-phb} to jettison some of the cargo stored in its storage compartments. If you jettison at least 50 tons of cargo, you can reroll the {@variantrule Saving Throw|sw5e-sotg|saving throw} and must use the new roll. If you jettison at least 75 tons of cargo, however, you instead automatically succeed on the {@variantrule Saving Throw|sw5e-sotg|saving throw}. Additionally, the area in a line 300 feet long and 100 feet wide behind your ship becomes {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain} for 1 minute."
+						"When your ship fails a Strength or Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throw}, a crewmember can use their {@variantrule Reaction|sw5e-phb} to jettison some of the cargo stored in its storage compartments. If you jettison at least 50 tons of cargo, you can reroll the {@variantrule Saving Throw|sw5e-phb|saving throw} and must use the new roll. If you jettison at least 75 tons of cargo, however, you instead automatically succeed on the {@variantrule Saving Throw|sw5e-phb|saving throw}. Additionally, the area in a line 300 feet long and 100 feet wide behind your ship becomes {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} for 1 minute."
 					]
 				}
 			],
@@ -2581,7 +2581,7 @@
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"Once per round, a crewmember can roll the weapon damage dice one additional time when determining the extra damage for a {@variantrule Critical Hit|sw5e-sotg|critical hit} with a ship attack."
+						"Once per round, a crewmember can roll the weapon damage dice one additional time when determining the extra damage for a {@variantrule Critical Hit|sw5e-phb|critical hit} with a ship attack."
 					]
 				}
 			],
@@ -2647,7 +2647,7 @@
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"Your ship has resistance to damage from environmental effects, and {@variantrule Advantage|sw5e-sotg|advantage} on {@variantrule Saving Throw|sw5e-sotg|saving throws} to resist the effects of environmental effects."
+						"Your ship has resistance to damage from environmental effects, and {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} to resist the effects of environmental effects."
 					]
 				}
 			],
@@ -2673,14 +2673,14 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your ship gains the Recreation modification at no cost. Additionally, while hosting guests on your ship, they have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on Intelligence and Wisdom checks."
+						"Your ship gains the Recreation modification at no cost. Additionally, while hosting guests on your ship, they have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Intelligence and Wisdom checks."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"You have {@variantrule Advantage|sw5e-sotg|advantage} Charisma checks made against those who can see your ship."
+						"You have {@variantrule Advantage|sw5e-phb|advantage} Charisma checks made against those who can see your ship."
 					]
 				}
 			],
@@ -2706,7 +2706,7 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your ship gains a +1 bonus to the {@variantrule Attack Roll|sw5e-sotg|attack rolls} and save DCs of its ship weapons."
+						"Your ship gains a +1 bonus to the {@variantrule Attack Roll|sw5e-phb|attack rolls} and save DCs of its ship weapons."
 					]
 				},
 				{
@@ -2779,7 +2779,7 @@
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"Your ship gains a +2 bonus to Intelligence (Astrogation) checks and enemy ships have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on Wisdom (scan) checks to detect your ship entering and exiting hyperspace."
+						"Your ship gains a +2 bonus to Intelligence (Astrogation) checks and enemy ships have {@variantrule Disadvantage|sw5e-phb|disadvantage} on Wisdom (scan) checks to detect your ship entering and exiting hyperspace."
 					]
 				}
 			],
@@ -2805,7 +2805,7 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your ship's crew can use interfere as a {@variantrule Bonus Action|sw5e-sotg}."
+						"Your ship's crew can use interfere as a {@variantrule Bonus Action|sw5e-phb}."
 					]
 				},
 				{
@@ -2871,14 +2871,14 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+						"Your ship's flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"Your ship's turning {@variantrule Speed|sw5e-sotg|speed} decreases by 50 feet. If this would decrease your ship's turning {@variantrule Speed|sw5e-sotg|speed} to 0, instead your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+						"Your ship's turning {@variantrule Speed|sw5e-phb|speed} decreases by 50 feet. If this would decrease your ship's turning {@variantrule Speed|sw5e-phb|speed} to 0, instead your ship's flying {@variantrule Speed|sw5e-phb|speed} increases by 50 feet."
 					]
 				}
 			],
@@ -2913,7 +2913,7 @@
 					"name": "Role Mastery (4th tier)",
 					"entries": [
 						"Your ship gains the Droid Brain, Mk II modification at no cost.",
-						"Additionally, your ship can take a second {@variantrule Reaction|sw5e-sotg} each round. It can only take one {@variantrule Reaction|sw5e-sotg} per turn."
+						"Additionally, your ship can take a second {@variantrule Reaction|sw5e-phb} each round. It can only take one {@variantrule Reaction|sw5e-phb} per turn."
 					]
 				}
 			],
@@ -2974,15 +2974,15 @@
 					"type": "entries",
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
-						"Once per turn, your ship can deal an extra 1d6 damage to one ship it hits with a primary weapon if your ship has {@variantrule Advantage|sw5e-sotg|advantage} on the {@variantrule Attack Roll|sw5e-sotg|attack roll}. This damage is the same as the weapon’s damage, and the attack must use a weapon without a constitution requirement.",
-						"Your ship doesn’t need {@variantrule Advantage|sw5e-sotg|advantage} on the {@variantrule Attack Roll|sw5e-sotg|attack roll} if another enemy of the target is within 50 feet of it, that enemy isn’t disabled, and your ship doesn’t have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on the {@variantrule Attack Roll|sw5e-sotg|attack roll}"
+						"Once per turn, your ship can deal an extra 1d6 damage to one ship it hits with a primary weapon if your ship has {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll}. This damage is the same as the weapon’s damage, and the attack must use a weapon without a constitution requirement.",
+						"Your ship doesn’t need {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll} if another enemy of the target is within 50 feet of it, that enemy isn’t disabled, and your ship doesn’t have {@variantrule Disadvantage|sw5e-phb|disadvantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll}"
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Role Mastery (4th tier)",
 					"entries": [
-						"Your ship deals 1d6 additional damage when it scores a {@variantrule Critical Hit|sw5e-sotg|critical hit} with an attack."
+						"Your ship deals 1d6 additional damage when it scores a {@variantrule Critical Hit|sw5e-phb|critical hit} with an attack."
 					]
 				}
 			],
@@ -3009,7 +3009,7 @@
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
 						"Your ship gains the Scanner, Mk I modification at no cost.",
-						"Additionally, when your ship attacks a ship or creature it can’t see, its inability to see it doesn’t impose {@variantrule Disadvantage|sw5e-sotg|disadvantage} on its {@variantrule Attack Roll|sw5e-sotg|attack rolls} against it."
+						"Additionally, when your ship attacks a ship or creature it can’t see, its inability to see it doesn’t impose {@variantrule Disadvantage|sw5e-phb|disadvantage} on its {@variantrule Attack Roll|sw5e-phb|attack rolls} against it."
 					]
 				},
 				{
@@ -3044,7 +3044,7 @@
 					"name": "Role Specialization (2nd tier)",
 					"entries": [
 						"Your ship gains the Comms Package, Mk I modification at no cost.",
-						"Additionally, you can take the {@action Interfere|sw5e-sotg} action as a {@variantrule Bonus Action|sw5e-sotg}."
+						"Additionally, you can take the Interfere action as a {@variantrule Bonus Action|sw5e-phb}."
 					]
 				},
 				{
@@ -3088,6 +3088,1068 @@
 					"entries": [
 						"Your ship gains the Tractor Beam Heavy Capacitors modification at no cost.",
 						"Additionally, your ship is treated as a medium ship for purposes of this modification."
+					]
+				}
+			],
+			"shipSize": "Tiny",
+			"shipSizeAbbreviation": "T"
+		},
+		{
+			"name": "Blockade Ship (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Gargantuan starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Dexterity and +1 Strength",
+						"{@b Armor:} Reinforced",
+						"{@b Shields:} Directional",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 100/400 ft."
+					]
+				}
+			],
+			"shipSize": "Gargantuan",
+			"shipSizeAbbreviation": "G"
+		},
+		{
+			"name": "Flag Ship (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Gargantuan starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Charisma and +1 Wisdom",
+						"{@b Armor:} Reinforced",
+						"{@b Shields:} Quick-charge",
+						"{@b Reactor:} Power Core",
+						"{@b Power Coupling:} Distributed",
+						"{@b Speed/Turning:} 200/500 ft."
+					]
+				}
+			],
+			"shipSize": "Gargantuan",
+			"shipSizeAbbreviation": "G"
+		},
+		{
+			"name": "Industrial Center (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Gargantuan starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Constitution and +1 Strength",
+						"{@b Armor:} Deflection",
+						"{@b Shields:} Quick-charge",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Hub & Spoke",
+						"{@b Speed/Turning:} 300/600 ft."
+					]
+				}
+			],
+			"shipSize": "Gargantuan",
+			"shipSizeAbbreviation": "G"
+		},
+		{
+			"name": "Mobile Metropolis (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Gargantuan starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Constitution and +1 Wisdom",
+						"{@b Armor:} Deflection",
+						"{@b Shields:} Directional",
+						"{@b Reactor:} Ionization",
+						"{@b Power Coupling:} Distributed",
+						"{@b Speed/Turning:} 300/600 ft."
+					]
+				}
+			],
+			"shipSize": "Gargantuan",
+			"shipSizeAbbreviation": "G"
+		},
+		{
+			"name": "Researcher (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Gargantuan starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Intelligence and +1 Wisdom",
+						"{@b Armor:} Deflection",
+						"{@b Shields:} Fortress",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Hub & Spoke",
+						"{@b Speed/Turning:} 100/400 ft."
+					]
+				}
+			],
+			"shipSize": "Gargantuan",
+			"shipSizeAbbreviation": "G"
+		},
+		{
+			"name": "Warship (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Gargantuan starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Wisdom and +1 Strength",
+						"{@b Armor:} Reinforced",
+						"{@b Shields:} Fortress",
+						"{@b Reactor:} Power Core",
+						"{@b Power Coupling:} Distributed",
+						"{@b Speed/Turning:} 200/500 ft."
+					]
+				}
+			],
+			"shipSize": "Gargantuan",
+			"shipSizeAbbreviation": "G"
+		},
+		{
+			"name": "Battleship (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Huge starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Wisdom and +1 Strength",
+						"{@b Armor:} Reinforced",
+						"{@b Shields:} Directional",
+						"{@b Reactor:} Power Core",
+						"{@b Power Coupling:} Hub & Spoke",
+						"{@b Speed/Turning:} 200/400 ft."
+					]
+				}
+			],
+			"shipSize": "Huge",
+			"shipSizeAbbreviation": "H"
+		},
+		{
+			"name": "Carrier (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Huge starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Charisma and +1 Intelligence",
+						"{@b Armor:} Deflection",
+						"{@b Shields:} Directional",
+						"{@b Reactor:} Ionization",
+						"{@b Power Coupling:} Hub & Spoke",
+						"{@b Speed/Turning:} 300/500 ft."
+					]
+				}
+			],
+			"shipSize": "Huge",
+			"shipSizeAbbreviation": "H"
+		},
+		{
+			"name": "Colonizer (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Huge starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Constitution and +1 Intelligence",
+						"{@b Armor:} Deflection",
+						"{@b Shields:} Quick-charge",
+						"{@b Reactor:} Ionization",
+						"{@b Power Coupling:} Distributed",
+						"{@b Speed/Turning:} 400/600 ft."
+					]
+				}
+			],
+			"shipSize": "Huge",
+			"shipSizeAbbreviation": "H"
+		},
+		{
+			"name": "Command Ship (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Huge starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Charisma and +1 Wisdom",
+						"{@b Armor:} Reinforced",
+						"{@b Shields:} Fortress",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Distributed",
+						"{@b Speed/Turning:} 300/500 ft."
+					]
+				}
+			],
+			"shipSize": "Huge",
+			"shipSizeAbbreviation": "H"
+		},
+		{
+			"name": "Interdictor (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Huge starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Dexterity and +1 Strength",
+						"{@b Armor:} Deflection",
+						"{@b Shields:} Quick-charge",
+						"{@b Reactor:} Power Core",
+						"{@b Power Coupling:} Distributed",
+						"{@b Speed/Turning:} 200/400 ft."
+					]
+				}
+			],
+			"shipSize": "Huge",
+			"shipSizeAbbreviation": "H"
+		},
+		{
+			"name": "Juggernaut (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Huge starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Constitution and +1 Strength",
+						"{@b Armor:} Reinforced",
+						"{@b Shields:} Fortress",
+						"{@b Reactor:} Power Core",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 400/600 ft."
+					]
+				}
+			],
+			"shipSize": "Huge",
+			"shipSizeAbbreviation": "H"
+		},
+		{
+			"name": "Ambassador (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Large starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Charisma and +1 Constitution",
+						"{@b Armor:} Deflection",
+						"{@b Shields:} Fortress",
+						"{@b Reactor:} Ionization",
+						"{@b Power Coupling:} Hub & Spoke",
+						"{@b Speed/Turning:} 350/250 ft."
+					]
+				}
+			],
+			"shipSize": "Large",
+			"shipSizeAbbreviation": "L"
+		},
+		{
+			"name": "Corvette (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Large starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Strength and +1 Dexterity",
+						"{@b Armor:} Deflection",
+						"{@b Shields:} Directional",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 400/300 ft."
+					]
+				}
+			],
+			"shipSize": "Large",
+			"shipSizeAbbreviation": "L"
+		},
+		{
+			"name": "Cruiser (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Large starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Wisdom and +1 Strength",
+						"{@b Armor:} Reinforced",
+						"{@b Shields:} Fortress",
+						"{@b Reactor:} Power Core",
+						"{@b Power Coupling:} Distributed",
+						"{@b Speed/Turning:} 400/300 ft."
+					]
+				}
+			],
+			"shipSize": "Large",
+			"shipSizeAbbreviation": "L"
+		},
+		{
+			"name": "Explorer (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Large starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Dexterity and +1 Intelligence",
+						"{@b Armor:} Lightweight",
+						"{@b Shields:} Directional",
+						"{@b Reactor:} Ionization",
+						"{@b Power Coupling:} Distributed",
+						"{@b Speed/Turning:} 350/250 ft."
+					]
+				}
+			],
+			"shipSize": "Large",
+			"shipSizeAbbreviation": "L"
+		},
+		{
+			"name": "Picket Ship (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Large starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Dexterity and +1 Wisdom",
+						"{@b Armor:} Deflection",
+						"{@b Shields:} Quick-charge",
+						"{@b Reactor:} Power Core",
+						"{@b Power Coupling:} Hub & Spoke",
+						"{@b Speed/Turning:} 300/200 ft."
+					]
+				}
+			],
+			"shipSize": "Large",
+			"shipSizeAbbreviation": "L"
+		},
+		{
+			"name": "Ship's Tender (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Large starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Constitution and +1 Strength",
+						"{@b Armor:} Reinforced",
+						"{@b Shields:} Quick-charge",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 300/200 ft."
+					]
+				}
+			],
+			"shipSize": "Large",
+			"shipSizeAbbreviation": "L"
+		},
+		{
+			"name": "Courier (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Medium starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Dexterity",
+						"{@b Armor:} Lightweight",
+						"{@b Reactor:} Ionization",
+						"{@b Power Coupling:} Hub & Spoke",
+						"{@b Speed/Turning:} 400/250 ft."
+					]
+				}
+			],
+			"shipSize": "Medium",
+			"shipSizeAbbreviation": "M"
+		},
+		{
+			"name": "Freighter (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Medium starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Constitution",
+						"{@b Armor:} Deflection",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Hub & Spoke",
+						"{@b Speed/Turning:} 300/150 ft."
+					]
+				}
+			],
+			"shipSize": "Medium",
+			"shipSizeAbbreviation": "M"
+		},
+		{
+			"name": "Gunship (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Medium starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Strength",
+						"{@b Armor:} Reinforced",
+						"{@b Reactor:} Power Core",
+						"{@b Power Coupling:} Hub & Spoke",
+						"{@b Speed/Turning:} 300/150 ft."
+					]
+				}
+			],
+			"shipSize": "Medium",
+			"shipSizeAbbreviation": "M"
+		},
+		{
+			"name": "Missile Boat (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Medium starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Wisdom",
+						"{@b Armor:} Reinforced",
+						"{@b Reactor:} Power Core",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 400/250 ft."
+					]
+				}
+			],
+			"shipSize": "Medium",
+			"shipSizeAbbreviation": "M"
+		},
+		{
+			"name": "Navigator (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Medium starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Intelligence",
+						"{@b Armor:} Deflection",
+						"{@b Reactor:} Ionization",
+						"{@b Power Coupling:} Distributed",
+						"{@b Speed/Turning:} 350/200 ft."
+					]
+				}
+			],
+			"shipSize": "Medium",
+			"shipSizeAbbreviation": "M"
+		},
+		{
+			"name": "Yacht (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Medium starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Charisma",
+						"{@b Armor:} Lightweight",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Distributed",
+						"{@b Speed/Turning:} 350/200 ft."
+					]
+				}
+			],
+			"shipSize": "Medium",
+			"shipSizeAbbreviation": "M"
+		},
+		{
+			"name": "Attack Fighter (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Small starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Strength",
+						"{@b Armor:} Reinforced",
+						"{@b Reactor:} Power Core",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 350/100 ft."
+					]
+				}
+			],
+			"shipSize": "Small",
+			"shipSizeAbbreviation": "S"
+		},
+		{
+			"name": "Bomber (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Small starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Wisdom",
+						"{@b Armor:} Deflection",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Hub & Spoke",
+						"{@b Speed/Turning:} 450/200 ft."
+					]
+				}
+			],
+			"shipSize": "Small",
+			"shipSizeAbbreviation": "S"
+		},
+		{
+			"name": "Scout (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Small starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Intelligence",
+						"{@b Armor:} Lightweight",
+						"{@b Reactor:} Ionization",
+						"{@b Power Coupling:} Distributed",
+						"{@b Speed/Turning:} 450/200 ft."
+					]
+				}
+			],
+			"shipSize": "Small",
+			"shipSizeAbbreviation": "S"
+		},
+		{
+			"name": "Scrambler (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Small starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Charisma",
+						"{@b Armor:} Deflection",
+						"{@b Reactor:} Power Core",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 400/150 ft."
+					]
+				}
+			],
+			"shipSize": "Small",
+			"shipSizeAbbreviation": "S"
+		},
+		{
+			"name": "Shuttle (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Small starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Constitution",
+						"{@b Armor:} Deflection",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 350/100 ft."
+					]
+				}
+			],
+			"shipSize": "Small",
+			"shipSizeAbbreviation": "S"
+		},
+		{
+			"name": "Superiority Fighter (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Small starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Dexterity",
+						"{@b Armor:} Lightweight",
+						"{@b Reactor:} Ionization",
+						"{@b Power Coupling:} Hub & Spoke",
+						"{@b Speed/Turning:} 400/150 ft."
+					]
+				}
+			],
+			"shipSize": "Small",
+			"shipSizeAbbreviation": "S"
+		},
+		{
+			"name": "Droid (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Tiny starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Intelligence",
+						"{@b Armor:} Deflection",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Distributed",
+						"{@b Speed/Turning:} 450/200 ft."
+					]
+				}
+			],
+			"shipSize": "Tiny",
+			"shipSizeAbbreviation": "T"
+		},
+		{
+			"name": "Munition (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Tiny starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Constitution",
+						"{@b Armor:} Reinforced",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 450/200 ft."
+					]
+				}
+			],
+			"shipSize": "Tiny",
+			"shipSizeAbbreviation": "T"
+		},
+		{
+			"name": "Predator (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Tiny starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Dexterity",
+						"{@b Armor:} Lightweight",
+						"{@b Reactor:} Ionization",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 350/100 ft."
+					]
+				}
+			],
+			"shipSize": "Tiny",
+			"shipSizeAbbreviation": "T"
+		},
+		{
+			"name": "Probe (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Tiny starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Wisdom",
+						"{@b Armor:} Lightweight",
+						"{@b Reactor:} Ionization",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 400/150 ft."
+					]
+				}
+			],
+			"shipSize": "Tiny",
+			"shipSizeAbbreviation": "T"
+		},
+		{
+			"name": "Satellite (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Tiny starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Charisma",
+						"{@b Armor:} Lightweight",
+						"{@b Reactor:} Ionization",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 400/150 ft."
+					]
+				}
+			],
+			"shipSize": "Tiny",
+			"shipSizeAbbreviation": "T"
+		},
+		{
+			"name": "Worker (Role Choice)",
+			"source": "sw5e-sotg",
+			"page": 29,
+			"featureType": [
+				"SF:SotG"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Availability",
+					"entries": [
+						"Tiny starship"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Ability Score Adjustment:} +1 Strength",
+						"{@b Armor:} Reinforced",
+						"{@b Reactor:} Fuel Cell",
+						"{@b Power Coupling:} Direct",
+						"{@b Speed/Turning:} 350/100 ft."
 					]
 				}
 			],
