@@ -12387,7 +12387,12 @@
 			"languageTags": [
 				"CB"
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "homebrew/sw5e/media/creatures/tokens/jedi-knight-temple-guard.webp"
+			},
+			"hasToken": true
 		},
 		{
 			"name": "Jedi Chosen One",
@@ -19738,7 +19743,12 @@
 			"languageTags": [
 				"CB"
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"tokenHref": {
+				"type": "external",
+				"url": "homebrew/sw5e/media/creatures/tokens/sith-assassin.webp"
+			},
+			"hasToken": true
 		},
 		{
 			"name": "Sith Sorcerer",

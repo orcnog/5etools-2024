@@ -25047,7 +25047,12 @@
 			"miscTags": [
 				"MW",
 				"SW5e"
-			]
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "homebrew/sw5e/media/creatures/tokens/3po-series-protocol-droid.webp"
+			},
+			"hasToken": true
 		},
 		{
 			"name": "Autonomous Servant",
