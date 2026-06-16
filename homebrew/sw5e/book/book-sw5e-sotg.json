@@ -246,10 +246,10 @@
 							"entries": [
 								"{@b Game Master (GM):} As your ship exits hyperspace above the moon of Nar Shaddaa, you see a series of snubfighters move to approach your freighter in an offensive formation. Several other craft go about their business in the vicinity, paying no attention to your potential predicament.",
 								"{@b Rickey (playing Vinto):} I want to hail them and see what their intentions are.",
-								"{@b Drew (playing Dash):} I'm going to go man the dorsal gun, just in case."
+								"{@b Drew (playing Dash):} I'm going to go man the dorsal gun, just in case.",
+								"{@b Erik (playing Kodo):} ..."
 							]
 						},
-						"{@b Erik (playing Kodo):} ...",
 						"Unlike a game of make-believe, D&D gives structure to the stories, a way of determining the consequences of the adventurers' actions. Players roll dice to resolve whether their attacks hit or miss or whether their starship can scale a skim the surface of a star destroyer, break the lock on a concussion missile, or pull off some other dangerous task. Anything is possible, but the dice make some outcomes more probable than others.",
 						{
 							"type": "insetReadaloud",
@@ -368,13 +368,7 @@
 						"Throughout this section, we use the term {@b deployment sheet} and {@b starship sheet} to mean whatever you use to track your character and starship, respectively, whether it's a formal sheet (like the ones at the end of these rules), some form of digital record, or a piece of notebook paper. The official SW5e sheets are a fine place to start until you know what information you need and how you use it during the game.",
 						{
 							"type": "inset",
-							"name": "Building",
-							"entries": [
-								"the Millennium Falcon"
-							]
-						},
-						{
-							"type": "inset",
+							"name": "Building the Millennium Falcon",
 							"entries": [
 								"Each step of ship/crew creation includes an example of that step, with a player building the iconic starship the Millennium Falcon, as it is portrayed during the events of Episode IV."
 							]
@@ -951,7 +945,7 @@
 											"type": "entries",
 											"name": "Crippling Shot",
 											"entries": [
-												"{@i {@b Power Die Location:} Weapons} When you hit a ship with a ship attack, you can expend one power die to cripple it. Add the power die to the attack's damage roll, and the target ship's flying {@variantrule Speed|sw5e-sotg|speed} is reduced by half until the end of their next turn."
+												"{@i {@b Power Die Location:} Weapons} When you hit a ship with a ship attack, you can expend one power die to cripple it. Add the power die to the attack's damage roll, and the target ship's {@variantrule Speed|sw5e-sotg|flying speed} is reduced by half until the end of their next turn."
 											]
 										},
 										{
@@ -1162,7 +1156,7 @@
 											"type": "entries",
 											"name": "Engine Tuning",
 											"entries": [
-												"As an action, you can roll your tech die.  Take the result of the die and multiply it by 50. The flying {@variantrule Speed|sw5e-sotg|speed} of your ship increases by this amount until the end of your next turn."
+												"As an action, you can roll your tech die.  Take the result of the die and multiply it by 50. The {@variantrule Speed|sw5e-sotg|flying speed} of your ship increases by this amount until the end of your next turn."
 											]
 										},
 										{
@@ -1240,7 +1234,7 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Engines:} A ship's flying {@variantrule Speed|sw5e-sotg|speed} is doubled.",
+												"{@b Engines:} A ship's {@variantrule Speed|sw5e-sotg|flying speed} is doubled.",
 												"{@b Shields:} Shields take half damage and shield regeneration rate is doubled.",
 												"{@b Weapons:} Weapons deal double damage."
 											]
@@ -1249,7 +1243,7 @@
 										{
 											"type": "list",
 											"items": [
-												"{@b Engines:} A ship's flying {@variantrule Speed|sw5e-sotg|speed} is reduced by half.",
+												"{@b Engines:} A ship's {@variantrule Speed|sw5e-sotg|flying speed} is reduced by half.",
 												"{@b Shields:} Shields take double damage and shield regeneration rate reduced by half.",
 												"{@b Weapons:} Ship weapon damage is reduced by half."
 											]
@@ -1498,7 +1492,7 @@
 									"type": "entries",
 									"name": "Overload Systems",
 									"entries": [
-										"Also at 5th rank, you learn how to overload the systems of a ship remotely. As an action, you can attempt to breach the systems of the target of your System Disturbance. The ship must make a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC = 8 + your bonus to Interfere checks). On a failed save, the target's flying {@variantrule Speed|sw5e-sotg|speed} reduced by half, it's {@variantrule Turn Speed|sw5e-sotg|turning speed} is doubled, it takes a -2 penalty to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}, it's shields no longer regenerate, and it can't use {@variantrule Reaction|sw5e-sotg|reactions}. On its turn, it can use either an action or a {@variantrule Bonus Action|sw5e-sotg}, not both. Regardless of the ship's abilities, crew, or equipment, it can't make more than one attack during its turn.",
+										"Also at 5th rank, you learn how to overload the systems of a ship remotely. As an action, you can attempt to breach the systems of the target of your System Disturbance. The ship must make a Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC = 8 + your bonus to Interfere checks). On a failed save, the target's {@variantrule Speed|sw5e-sotg|flying speed} reduced by half, it's {@variantrule Turn Speed|sw5e-sotg|turning speed} is doubled, it takes a -2 penalty to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}, it's shields no longer regenerate, and it can't use {@variantrule Reaction|sw5e-sotg|reactions}. On its turn, it can use either an action or a {@variantrule Bonus Action|sw5e-sotg}, not both. Regardless of the ship's abilities, crew, or equipment, it can't make more than one attack during its turn.",
 										"The ship's pilot makes another Constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} at the end of its turns. On a successful save, the effect ends.",
 										"Once you've use this feature, you must finish a short or {@variantrule Long Rest|sw5e-phb|long rest} before you can use it again."
 									]
@@ -1615,7 +1609,7 @@
 											"type": "entries",
 											"name": "Skim the Surface",
 											"entries": [
-												"{@i {@b Power Die Location:} Engines} As a {@variantrule Bonus Action|sw5e-sotg}, you can expend a power die and attempt to fly through the space of a hostile ship. Roll the die, take the result, and multiply it by 50. Your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by that amount until the end of your turn. Additionally, moving through a hostile ship's space does not count as hostile terrain this turn."
+												"{@i {@b Power Die Location:} Engines} As a {@variantrule Bonus Action|sw5e-sotg}, you can expend a power die and attempt to fly through the space of a hostile ship. Roll the die, take the result, and multiply it by 50. Your ship's {@variantrule Speed|sw5e-sotg|flying speed} increases by that amount until the end of your turn. Additionally, moving through a hostile ship's space does not count as hostile terrain this turn."
 											]
 										},
 										{
@@ -2278,7 +2272,7 @@
 												"In lieu of the equipment granted by your ship's chosen Role, with your Game Master's permission, you can elect to choose your starting equipment. If you do so, you may substitute equipment of the same category for that given by your Role at Tier 0.  For example, you may choose any one of each of the following for a new ship in lieu of that given by your chosen Tier 0 Role: - (a) deflection armor (b) lightweight armor (c) or reinforced armor - (a) fuel cell reactor (b) ionization reactor (c) or power core reactor - (a) direct power coupling (b) distributed power coupling (c) or hub & spoke power coupling Additionally, for Large or Larger ships you may also choose one of the following: - (a) directional shield (b) fortress shield (c) or quick-charge shield"
 											]
 										},
-										"At each of these tiers you may choose a new Role.  For example, when your advance to Tier 2 with your small ship, you may choose to gain the Attack Fighter bonus (\"your ship gains a +1 bonus to the {@variantrule Attack Roll|sw5e-sotg|attack rolls} and save DCs of its ship weapons.\") even though, at Tier 0, you had chosen the Shuttle role (granting a +1 to Constitution, various starting equipment, and a base {@variantrule Speed|sw5e-sotg|speed}/{@variantrule Turn Speed|sw5e-sotg|turning speed} pair).",
+										"At each of these tiers you may choose a new Role.  For example, when your advance to Tier 2 with your small ship, you may choose to gain the Attack Fighter bonus (\"your ship gains a +1 bonus to the {@variantrule Attack Roll|sw5e-sotg|attack rolls} and save DCs of its ship weapons.\") even though, at Tier 0, you had chosen the Shuttle role (granting a +1 to Constitution, various starting equipment, and a base {@variantrule Speed|sw5e-sotg|flying speed}/{@variantrule Turn Speed|sw5e-sotg|turning speed} pair).",
 										{
 											"type": "inset",
 											"name": "First Time on a Ship?",
@@ -2329,7 +2323,7 @@
 									"type": "entries",
 									"name": "Flying Speed and Turn Speed",
 									"entries": [
-										"The station's flying {@variantrule Speed|sw5e-sotg|speed} become 50 feet and it's {@variantrule Turn Speed|sw5e-sotg|turning speed} becomes 100 feet, regardless of any bonuses or penalties. The station's flying {@variantrule Speed|sw5e-sotg|speed} and {@variantrule Turn Speed|sw5e-sotg|turning speed} can never be increased or decreased."
+										"The station's {@variantrule Speed|sw5e-sotg|flying speed} become 50 feet and it's {@variantrule Turn Speed|sw5e-sotg|turning speed} becomes 100 feet, regardless of any bonuses or penalties. The station's {@variantrule Speed|sw5e-sotg|flying speed} and {@variantrule Turn Speed|sw5e-sotg|turning speed} can never be increased or decreased."
 									]
 								},
 								{
@@ -3210,7 +3204,7 @@
 															"type": "entries",
 															"name": "Superiority Fighter",
 															"entries": [
-																"Your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+																"Your ship's {@variantrule Speed|sw5e-sotg|flying speed} increases by 50 feet."
 															]
 														}
 													]
@@ -3280,7 +3274,7 @@
 															"type": "entries",
 															"name": "Superiority Fighter",
 															"entries": [
-																"Your ship's {@variantrule Turn Speed|sw5e-sotg|turning speed} decreases by 50 feet. If this would decrease your ship's {@variantrule Turn Speed|sw5e-sotg|turning speed} to 0, instead your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+																"Your ship's {@variantrule Turn Speed|sw5e-sotg|turning speed} decreases by 50 feet. If this would decrease your ship's {@variantrule Turn Speed|sw5e-sotg|turning speed} to 0, instead your ship's {@variantrule Speed|sw5e-sotg|flying speed} increases by 50 feet."
 															]
 														}
 													]
@@ -3641,7 +3635,7 @@
 															"type": "entries",
 															"name": "Courier",
 															"entries": [
-																"Your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+																"Your ship's {@variantrule Speed|sw5e-sotg|flying speed} increases by 50 feet."
 															]
 														},
 														{
@@ -4060,7 +4054,7 @@
 													"type": "entries",
 													"name": "Blockade Runner",
 													"entries": [
-														"Also at 1st tier, your starship gains the ability to react to damage from large ships. As a {@variantrule Reaction|sw5e-sotg} to being hit with an {@variantrule Attack Roll|sw5e-sotg|attack roll} from a Large or larger ship, a crewmember at the helm can use their {@variantrule Reaction|sw5e-sotg} to immediately move the ship forward an amount equal to half its flying {@variantrule Speed|sw5e-sotg|speed} (rounded down) and then roll a Blockade Runner die, which is a {@dice d4}, and subtract it from the triggering {@variantrule Attack Roll|sw5e-sotg|attack roll}, potentially causing it to miss. Your ship's Blockade Runner die changes when it reaches certain tiers. The die becomes a {@dice d6} at 2nd tier, a {@dice d8} at 3rd tier, a {@dice d10} at 4th tier, and a {@dice d12} at 5th tier. This feature can be used a number of times equal to 3 x your ship's tier. All expended uses are regained when the ship is refitted."
+														"Also at 1st tier, your starship gains the ability to react to damage from large ships. As a {@variantrule Reaction|sw5e-sotg} to being hit with an {@variantrule Attack Roll|sw5e-sotg|attack roll} from a Large or larger ship, a crewmember at the helm can use their {@variantrule Reaction|sw5e-sotg} to immediately move the ship forward an amount equal to half its {@variantrule Speed|sw5e-sotg|flying speed} (rounded down) and then roll a Blockade Runner die, which is a {@dice d4}, and subtract it from the triggering {@variantrule Attack Roll|sw5e-sotg|attack roll}, potentially causing it to miss. Your ship's Blockade Runner die changes when it reaches certain tiers. The die becomes a {@dice d6} at 2nd tier, a {@dice d8} at 3rd tier, a {@dice d10} at 4th tier, and a {@dice d12} at 5th tier. This feature can be used a number of times equal to 3 x your ship's tier. All expended uses are regained when the ship is refitted."
 													]
 												},
 												{
@@ -4149,7 +4143,7 @@
 															"type": "entries",
 															"name": "Corvette",
 															"entries": [
-																"Your ship's flying {@variantrule Speed|sw5e-sotg|speed} increases by 50 feet."
+																"Your ship's {@variantrule Speed|sw5e-sotg|flying speed} increases by 50 feet."
 															]
 														},
 														{
@@ -4631,7 +4625,7 @@
 													"type": "entries",
 													"name": "Capital Ship",
 													"entries": [
-														"Also at 5th tier, a crewmember can, as a {@variantrule Bonus Action|sw5e-sotg}, delegate a plan of action to the crew. The ship can immediately move up to its flying {@variantrule Speed|sw5e-sotg|speed}, and up to five crewmembers on that ship can use their {@variantrule Reaction|sw5e-sotg} to immediately take an action. Once this feature has been used, it can't be used again until the ship recharges."
+														"Also at 5th tier, a crewmember can, as a {@variantrule Bonus Action|sw5e-sotg}, delegate a plan of action to the crew. The ship can immediately move up to its {@variantrule Speed|sw5e-sotg|flying speed}, and up to five crewmembers on that ship can use their {@variantrule Reaction|sw5e-sotg} to immediately take an action. Once this feature has been used, it can't be used again until the ship recharges."
 													]
 												}
 											]
@@ -4948,7 +4942,7 @@
 															"type": "entries",
 															"name": "Industrial Center",
 															"entries": [
-																"Your ship gains two Workshop modifications at no cost.  Additionally, the {@variantrule Speed|sw5e-sotg|speed} at which goods are crafted in your workshops is doubled."
+																"Your ship gains two Workshop modifications at no cost.  Additionally, the speed at which goods are crafted in your workshops is doubled."
 															]
 														},
 														{
@@ -5011,7 +5005,7 @@
 															"type": "entries",
 															"name": "Flag Ship",
 															"entries": [
-																"A crewmember deployed in a command center can, as an action, issue an order to a Huge or smaller ship. That ship can immediately move up to its flying {@variantrule Speed|sw5e-sotg|speed}, and up to five crewmembers on that ship can use their {@variantrule Reaction|sw5e-sotg} to immediately take an action. Once this feature has been used, it can't be used again until the ship recharges."
+																"A crewmember deployed in a command center can, as an action, issue an order to a Huge or smaller ship. That ship can immediately move up to its {@variantrule Speed|sw5e-sotg|flying speed}, and up to five crewmembers on that ship can use their {@variantrule Reaction|sw5e-sotg} to immediately take an action. Once this feature has been used, it can't be used again until the ship recharges."
 															]
 														},
 														{
@@ -5584,7 +5578,7 @@
 					"name": "Chapter 5: Equipment",
 					"page": 79,
 					"entries": [
-						"The starship marketplace on the planet of Kuat  teems with a myriad of manufacturers trying to peddle their parts. Santhe engineers preach the benefits of their lightweight ship armors, while Czerka employees counter that reinforcement trumps {@variantrule Speed|sw5e-sotg|speed}. SoroSuub representatives propagate the destructive power of their heavy laser cannon across from BlasTech vendors demonstrating their rapid-fire laser cannon, which they tout as more consistent. Across this planet, and many others, ships and parts for myriad vessels are available for purchase.",
+						"The starship marketplace on the planet of Kuat  teems with a myriad of manufacturers trying to peddle their parts. Santhe engineers preach the benefits of their lightweight ship armors, while Czerka employees counter that reinforcement trumps speed. SoroSuub representatives propagate the destructive power of their heavy laser cannon across from BlasTech vendors demonstrating their rapid-fire laser cannon, which they tout as more consistent. Across this planet, and many others, ships and parts for myriad vessels are available for purchase.",
 						"This chapter offers choices of certain equipment types, to be used in conjunction with the starship upgrades featured in Chapter 4. The listed prices are those appropriate to ships of a Small size; when outfitting a ship of any other size, you'll want to apply the Starship Size Equipment Cost, as shown in the {@book Starship Size Equipment Cost|sw5e-sotg|6|Starship Size Equipment Cost} table below, which differs slightly from a similar table found in Chapter 4.",
 						"Like modifications, if PCs provide the workforce to install the equipment and invest their time, the final costs incurred to add equipment is only half that shown (just the material cost of an assembled piece of equipment). Moreover, one or more PCs can assemble a piece of equipment without the ship's presence being required by spending an amount of time assembling based on the material cost of the assembled piece of equipment (half the total installed cost) and by using raw materials equal to half the material cost of the installed equipment (one-quarter the total installed cost).",
 						{
@@ -5980,8 +5974,8 @@
 									"name": "Power Dice",
 									"entries": [
 										"Crewmembers can use a ship's power die to fuel special abilities granted by ranks in a particular deployment role.  A power die is expended when a crewmember uses it, and can be used when stored in the system listed in the ability or in central storage.",
-										"The size of your ship—s power dice is determined by your ship—s tier, as shown below in the {@book Starship Tier Power Die Size|sw5e-sotg|6|Starship Tier Power Die Size} table.",
-										"Your ship—s maximum power dice and how your power dice are stored are determined by your ship's power coupling.  How many power dice it recovers each turn is determined by your ship—s reactor.",
+										"The size of your ship's power dice is determined by your ship's tier, as shown below in the {@book Starship Tier Power Die Size|sw5e-sotg|6|Starship Tier Power Die Size} table.",
+										"Your ship's maximum power dice and how your power dice are stored are determined by your ship's power coupling.  How many power dice it recovers each turn is determined by your ship's reactor.",
 										{
 											"type": "entries",
 											"name": "Starship Tier Power Die Size",
@@ -6032,7 +6026,7 @@
 									"name": "Reactors",
 									"entries": [
 										"Ships use different reactor types based on their intend-ed uses. While the majority of commercial ships use standard reactors with average performance charac-teristics, some ships use more specialized reactor systems. Ships meant for endurance or stealth may use reactors optimized for fuel efficiency, while military craft often use reactors with greater fuel consumption and improved power output.",
-										"{@b {@i Power Die Recovery.}} At the start of each of your ship—s turns, it recovers a number of expended power dice, as shown in the Power Dice Recovery column of the {@b Reactors and Power Couplings} table below.",
+										"{@b {@i Power Die Recovery.}} At the start of each of your ship's turns, it recovers a number of expended power dice, as shown in the Power Dice Recovery column of the {@b Reactors and Power Couplings} table below.",
 										{
 											"type": "entries",
 											"name": "Fuel Cell Reactor",
@@ -6061,7 +6055,7 @@
 									"name": "Power Coupling",
 									"entries": [
 										"Different power couplings are used in ships, often based on the number of crew expected to operate the ship.  Three power coupling models are in standard usage: direct power coupling, distributed power coupling, and hub & spoke power coupling. These power dice are stored in a central and/or individual system capacitors to power abilities of crewmembers.",
-										"{@b {@i Power Die Storage.}} Your ship—s maximum power dice are determined by its storage, as shown in the two storage columns of the {@b Reactors and Power Couplings} table below. Power dice stored centrally can be used by any deployment abilities, while those stored in specific systems can only be used by abilities that reference that system. There are five systems used by Deployment abilities: communications, engines, shields, sensors, and weapons. Each system has its own storage capacity in distributed and hub & spoke architectures.",
+										"{@b {@i Power Die Storage.}} Your ship's maximum power dice are determined by its storage, as shown in the two storage columns of the {@b Reactors and Power Couplings} table below. Power dice stored centrally can be used by any deployment abilities, while those stored in specific systems can only be used by abilities that reference that system. There are five systems used by Deployment abilities: communications, engines, shields, sensors, and weapons. Each system has its own storage capacity in distributed and hub & spoke architectures.",
 										{
 											"type": "entries",
 											"name": "Direct Power Coupling",
@@ -7292,7 +7286,7 @@
 											"type": "entries",
 											"name": "Discord Missile",
 											"entries": [
-												"On a failed {@variantrule Saving Throw|sw5e-sotg|saving throw}, the missile deploys pistoeka sabotage or —buzz— droids on the target. At the end of each of the target ship—s turns, the target ship gains one level of system damage if the target is medium or smaller [large or smaller]. As an action on each of their turns, a crewmember can have the ship attempt their choice of a dexterity or constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15), ending the effect on a success."
+												"On a failed {@variantrule Saving Throw|sw5e-sotg|saving throw}, the missile deploys pistoeka sabotage or —buzz— droids on the target. At the end of each of the target ship's turns, the target ship gains one level of system damage if the target is medium or smaller [large or smaller]. As an action on each of their turns, a crewmember can have the ship attempt their choice of a dexterity or constitution {@variantrule Saving Throw|sw5e-sotg|saving throw} (DC 15), ending the effect on a success."
 											]
 										},
 										{
@@ -7376,10 +7370,10 @@
 							"entries": [
 								"The hyperdrive is a propulsion system that allows a starship to reach hyperspeed and traverse the void between stars in the alternate dimension of hyperspace. For a starship to have a hyperdrive, it must have a vacant hyperdrive slot modification.",
 								"The hyperdrive functions by sending hypermatter particles to hurl a ship into hyperspace while preserv-ing the vessel's mass/energy profile, and requires a functional hyperdrive motivator to do so. The vessel then travels along a programmed course until it drops back into normal space-realspace-at its destination.",
-								"A crewmember can engage the hyperdrive as an action, causing the hyperdrive to accept and use the calculations provided during astrogation. The designated pilot must spend at least 50 feet of your flying {@variantrule Speed|sw5e-sotg|speed} before the end of the ship's turn to move forward and enter hyperspace, otherwise the hyperdrive resets and must be re-engaged.",
+								"A crewmember can engage the hyperdrive as an action, causing the hyperdrive to accept and use the calculations provided during astrogation. The designated pilot must spend at least 50 feet of your {@variantrule Speed|sw5e-sotg|flying speed} before the end of the ship's turn to move forward and enter hyperspace, otherwise the hyperdrive resets and must be re-engaged.",
 								"A hyperdrive's only function is to keep a vessel in hyperspace, and should a hyperdrive be forcibly deactivated or destroyed during transit, the ship will be violently pulled back into realspace.",
 								"Tiny ships rarely have a hyperdrive, while Small ships occasionally do. Medium and larger ships typically have a hyperdrive.",
-								"The {@variantrule Speed|sw5e-sotg|speed} of a hyperdrive is rated on an inverse scale: the faster the hyperdrive, the lower the rating or \"Class\". Acting as a multiplier for a given base travel time then, a Class 2 hyperdrive takes twice the base time to travel a given route, while the Millennium Falcon's Class 0.5 takes only half the base time.",
+								"The speed of a hyperdrive is rated on an inverse scale: the faster the hyperdrive, the lower the rating or \"Class\". Acting as a multiplier for a given base travel time then, a Class 2 hyperdrive takes twice the base time to travel a given route, while the Millennium Falcon's Class 0.5 takes only half the base time.",
 								"A ship can have multiple hyperdrives. Larger ships typically have a back-up in case of failure. Only one hyperdrive can be activated at a time. Your ship must have a hyperdrive slot for each hyperdrive.",
 								{
 									"type": "entries",
@@ -8032,8 +8026,8 @@
 									"name": "Infiltration",
 									"entries": [
 										"{@i {@b Prerequisite:} at least 10 levels in scout} You can take the Fly or Conceal actions as a {@variantrule Bonus Action|sw5e-sotg} on each of your turns.",
-										"When you attempt to Conceal your ship, you can opt to not move your ship more than half its {@variantrule Speed|sw5e-sotg|speed} on that turn. If you do so, ships that attempt to detect you take a -10 penalty to their Wisdom (Scan) checks until the start of your next turn. You lose this benefit if you move more than half your {@variantrule Speed|sw5e-sotg|speed}, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden.",
-										"If you are still hidden on your next turn, you can continue to move up to half your {@variantrule Speed|sw5e-sotg|speed} and gain this benefit until you are detected.",
+										"When you attempt to Conceal your ship, you can opt to not move your ship more than half its {@variantrule Speed|sw5e-sotg|flying speed} on that turn. If you do so, ships that attempt to detect you take a -10 penalty to their Wisdom (Scan) checks until the start of your next turn. You lose this benefit if you move more than half your {@variantrule Speed|sw5e-sotg|flying speed}, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden.",
+										"If you are still hidden on your next turn, you can continue to move up to half your {@variantrule Speed|sw5e-sotg|flying speed} and gain this benefit until you are detected.",
 										"Finally, you can no longer be tracked by unenhanced means, unless you choose to leave a trail."
 									]
 								},
@@ -8905,7 +8899,7 @@
 											"entries": [
 												"Your GM may call for Strength checks when you undergo interactions not covered by skills, such as trying to push through a malleable obstruction like a Conner net.",
 												"{@b {@i Ram.}} Use the Ram skill when you want to slam into another object to deal damage.",
-												"{@b {@i Boost.}} Use the Boost skill when you attempt to push your ship to or beyond its limits.  A successful Boost check can break ties in straight-line {@variantrule Speed|sw5e-sotg|speed} contests or to determine how fast your ship can accelerate to top {@variantrule Speed|sw5e-sotg|speed}.  You also make boost checks in response to taking the boost engines, boost shields, and boost weapons actions."
+												"{@b {@i Boost.}} Use the Boost skill when you attempt to push your ship to or beyond its limits.  A successful Boost check can break ties in straight-line speed contests or to determine how fast your ship can accelerate to top {@variantrule Speed|sw5e-sotg|flying speed}.  You also make boost checks in response to taking the boost engines, boost shields, and boost weapons actions."
 											]
 										},
 										{
@@ -9021,17 +9015,9 @@
 													"type": "inset",
 													"name": "Alternative Initiative",
 													"entries": [
-														"At the beginning of every combat, instead of rolling {@variantrule Initiative|sw5e-sotg|initiative}, GMs can quickly use passive initiatives to determine order based on a ship's Dexterity and it's ship size base {@variantrule Initiative|sw5e-sotg|initiative} as shown below in the Starship Size Base {@variantrule Initiative|sw5e-sotg} table below. ##### Starship Size Base {@variantrule Initiative|sw5e-sotg}",
+														"At the beginning of every combat, instead of rolling {@variantrule Initiative|sw5e-sotg|initiative}, GMs can quickly use passive initiatives to determine order based on a ship's Dexterity and its ship size base {@variantrule Initiative|sw5e-sotg|initiative} as shown below in the Starship Size Base {@variantrule Initiative|sw5e-sotg} table below.",
 														{
 															"type": "table",
-															"colLabels": [
-																"Ship Size",
-																"Ship Size Base {@variantrule Initiative|sw5e-sotg}"
-															],
-															"colStyles": [
-																"col-6 text-left",
-																"col-6 text-left"
-															],
 															"rows": [
 																[
 																	"Tiny",
@@ -9046,14 +9032,6 @@
 																	"8"
 																],
 																[
-																	"Ship Size",
-																	"Ship Size Base {@variantrule Initiative|sw5e-sotg}"
-																],
-																[
-																	":--:",
-																	":--:"
-																],
-																[
 																	"Large",
 																	"7"
 																],
@@ -9064,6 +9042,21 @@
 																[
 																	"Gargantuan",
 																	"5"
+																]
+															],
+															"colStyles": [
+																"col-3",
+																"col-3"
+															],
+															"colLabelRows": [
+																[
+																	"",
+																	"",
+																	""
+																],
+																[
+																	"Ship Size",
+																	"Ship Size Base {@variantrule Initiative|sw5e-sotg}"
 																]
 															]
 														},
@@ -9092,7 +9085,7 @@
 													"items": [
 														"Trying to reach safety on low fuel",
 														"In response to a mechanic straining the reactor",
-														"Attempting to run at top {@variantrule Speed|sw5e-sotg|speed} for long periods of time",
+														"Attempting to run at top {@variantrule Speed|sw5e-sotg|flying speed} for long periods of time",
 														"Keeping life support running when out of fuel."
 													]
 												},
@@ -9192,7 +9185,7 @@
 												"{@b {@i Impress.}} The Impress skill is a general measurement of your ship's beauty and soundness.  Whether or not your ship {@i is} impressively outfitted and well maintained, does it {@i look} impressively outfitted and well maintained?  Does your on-board cantina {@i look} opulent?",
 												"When you would make a Charisma (Impress) check, you may instead choose to make a Charisma ({@skill Persuasion|sw5e-phb}) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Charisma modifier.",
 												"{@b {@i Interfere.}} When you attempt to interfere with another ship or creature you use the Interfere skill.  When you would make a Charisma (Interfere) check, you may instead choose to make an Intelligence ({@item Slicer's kit|sw5e-phb|Slicer's Kit}) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Intelligence modifier.",
-												"{@b {@i Menace.}} When you attempt to influence someone through the threat of your ship's abilities, whether {@variantrule Speed|sw5e-sotg|speed}, firepower, or toughness, the GM might ask you to make a Charisma (Menace) check.  Alternatively, you may make a Charisma (Intimidate) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Charisma modifier.",
+												"{@b {@i Menace.}} When you attempt to influence someone through the threat of your ship's abilities, whether speed, firepower, or toughness, the GM might ask you to make a Charisma (Menace) check.  Alternatively, you may make a Charisma (Intimidate) check at {@variantrule Disadvantage|sw5e-sotg|disadvantage} using your own Charisma modifier.",
 												"{@b {@i Swindle.}} Use the Swindle skill when you want to pass your ship off as something it's not.  Examples of using the Swindle skill include:",
 												{
 													"type": "list",
@@ -9262,7 +9255,7 @@
 									"type": "entries",
 									"name": "HoloNet",
 									"entries": [
-										"The Holonet is an instantaneous communication system that allows planets to stay in contact despite the vast distances between them. A HoloNet transceiver transmits and receives information through hyperspace, allowing information to travel millions of times faster than the {@variantrule Speed|sw5e-sotg|speed} of light. Hyperwave transceivers are embedded at strategic locations, constantly relaying information throughout the galaxy. This networks allows for instantaneous three-dimensional holographic communications at virtually any distance, making it one of the primary means of communication. Government agencies, such as the military, typically maintain their own encrypted circuits on the HoloNet. Some experienced slicers have been able to access these encrypted channels, though it required access to a government compound for the requisite codes."
+										"The Holonet is an instantaneous communication system that allows planets to stay in contact despite the vast distances between them. A HoloNet transceiver transmits and receives information through hyperspace, allowing information to travel millions of times faster than the speed of light. Hyperwave transceivers are embedded at strategic locations, constantly relaying information throughout the galaxy. This networks allows for instantaneous three-dimensional holographic communications at virtually any distance, making it one of the primary means of communication. Government agencies, such as the military, typically maintain their own encrypted circuits on the HoloNet. Some experienced slicers have been able to access these encrypted channels, though it required access to a government compound for the requisite codes."
 									]
 								},
 								{
@@ -9328,7 +9321,7 @@
 											"type": "entries",
 											"name": "Travel Pace",
 											"entries": [
-												"While traveling in realspace, a starship can move at a normal, fast, or slow pace. While traveling at a fast pace, your starship's flying {@variantrule Speed|sw5e-sotg|speed} is doubled, but your starship&mdash;and its crew&mdash;have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on Intelligence (Probe) and Wisdom (Scan) checks. While traveling at a slow pace, your flying {@variantrule Speed|sw5e-sotg|speed} is halved, but you can travel stealthily. A fast pace makes a ship less perceptive, while a slow pace makes it possible to sneak around and to search an area more carefully (see the \"Activity While Traveling\" section later in this chapter for more information).",
+												"While traveling in realspace, a starship can move at a normal, fast, or slow pace. While traveling at a fast pace, your starship's {@variantrule Speed|sw5e-sotg|flying speed} is doubled, but your starship&mdash;and its crew&mdash;have {@variantrule Disadvantage|sw5e-sotg|disadvantage} on Intelligence (Probe) and Wisdom (Scan) checks. While traveling at a slow pace, your {@variantrule Speed|sw5e-sotg|flying speed} is halved, but you can travel stealthily. A fast pace makes a ship less perceptive, while a slow pace makes it possible to sneak around and to search an area more carefully (see the \"Activity While Traveling\" section later in this chapter for more information).",
 												"You can use the following {@b Sample Realspace Travel Times} table to determine travel times in realspace for an average starship traveling at a normal pace."
 											]
 										},
@@ -9376,7 +9369,7 @@
 											"name": "Difficult Terrain",
 											"entries": [
 												"The travel speeds given in the {@b Sample Realspace Travel Times} table assume unobstructed terrain. But adventurers often face narrow canyons, tight formations, or other difficult terrain.",
-												"You move at half {@variantrule Speed|sw5e-sotg|speed} in difficult terrain&mdash;moving 10 feet in difficult terrain costs 20 feet of flying {@variantrule Speed|sw5e-sotg|speed}&mdash;so you can {@variantrule Cover|sw5e-sotg|cover} only half the normal distance in a minute, an hour, or a day."
+												"You move at half {@variantrule Speed|sw5e-sotg|flying speed} in difficult terrain&mdash;moving 10 feet in difficult terrain costs 20 feet of {@variantrule Speed|sw5e-sotg|flying speed}&mdash;so you can cover only half the normal distance in a minute, an hour, or a day."
 											]
 										},
 										{
@@ -9425,15 +9418,9 @@
 												"{@b {@i Track.}} A character can follow the tracks of another starship, making an Intelligence (Probe) check when the GM calls for it. (The {@i Dungeon Master's Guide} has rules for tracking.)",
 												{
 													"type": "inset",
-													"name": "Splitting Up",
+													"name": "Splitting Up the Party",
 													"entries": [
-														"the Party"
-													]
-												},
-												{
-													"type": "inset",
-													"entries": [
-														"Splitting up the party is more difficult when your party only has one ship. Should they acquire a fleet of their own, however, they can form multiple parties, each moving at a different {@variantrule Speed|sw5e-sotg|speed}. Each group has its own deployment order. The drawback to this approach is that the party will be split into several smaller groups in the event of an attack. The {@variantrule Advantage|sw5e-sotg|advantage} is that a small group of stealthy ships moving slowly might be able to sneak past enemies that clumsier ships would alert. A X-wing moving at a slow pace is much harder to detect than the Corellian Corvette they leave behind."
+														"Splitting up the party is more difficult when your party only has one ship. Should they acquire a fleet of their own, however, they can form multiple parties, each moving at a different speed. Each group has its own deployment order. The drawback to this approach is that the party will be split into several smaller groups in the event of an attack. The {@variantrule Advantage|sw5e-sotg|advantage} is that a small group of stealthy ships moving slowly might be able to sneak past enemies that clumsier ships would alert. A X-wing moving at a slow pace is much harder to detect than the Corellian Corvette they leave behind."
 													]
 												}
 											]
@@ -9452,8 +9439,8 @@
 									"name": "Movement in Zero Gravity",
 									"entries": [
 										"In some circumstances, such as prolonged power failure, or movement in space outside of the ship, a character might find themselves moving in zero gravity.",
-										"While in zero gravity, a character has a flying {@variantrule Speed|sw5e-sotg|speed} equal to their walking {@variantrule Speed|sw5e-sotg|speed}, and zero gravity is treated as {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain}.",
-										"If a character already had a flying {@variantrule Speed|sw5e-sotg|speed}, they instead do not treat zero gravity as {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain}.",
+										"While in zero gravity, a character has a {@variantrule Speed|sw5e-sotg|flying speed} equal to their {@variantrule Speed|sw5e-sotg|walking speed}, and zero gravity is treated as {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain}.",
+										"If a character already had a {@variantrule Speed|sw5e-sotg|flying speed}, they instead do not treat zero gravity as {@variantrule Difficult Terrain|sw5e-sotg|difficult terrain}.",
 										{
 											"type": "entries",
 											"name": "Base Hyperspace Travel Times (Hours)",
@@ -9613,14 +9600,14 @@
 									"type": "entries",
 									"name": "Travel in Hyperspace",
 									"entries": [
-										"The fastest way to travel long distances in space is through hyperspace. When a starship engages its hyperdrive, it accelerates beyond the {@variantrule Speed|sw5e-sotg|speed} of light and enters hyperspace. A starship in hyperspace can't communicate with ships in realspace. It is effectively cut off from realspace while in hyperspace.",
+										"The fastest way to travel long distances in space is through hyperspace. When a starship engages its hyperdrive, it accelerates beyond the speed of light and enters hyperspace. A starship in hyperspace can't communicate with ships in realspace. It is effectively cut off from realspace while in hyperspace.",
 										"Large objects that generate significant gravity, such as planets and stars, produce what is known as a \"mass shadow\" that projects into hyerspace. Collision with a mass shadow can have catastrophic repercussions. Hyperdrives have built-in safeguards that prevent a ship from jumping to hyperspace while inside of a mass shadow, causing a ship to immediately revert to realspace if the mass shadow is detected. Interdiction vesssels use gravity well generators to keep ships from activating their hyperdrives. Some pirates have been known to drag asteroids into hyperspace lanes in order to drag prey out of hyperspace.",
 										"A ship uses a unit's worth of fuel for one day of flight in hyperspace and one unit for a single jump to hyperspeed.",
 										{
 											"type": "entries",
 											"name": "Travel Pace",
 											"entries": [
-												"While traveling in hyperspace, a starship travels at a set {@variantrule Speed|sw5e-sotg|speed} as determined by the classification of the hyperdrive. A class 1 hyperdrive travels at hyperspeed, while a class 2 hyperdrive travels at half hyperspeed, and a class .5 hyperdrive travels at twice hyperspeed.",
+												"While traveling in hyperspace, a starship travels at a set speed as determined by the classification of the hyperdrive. A class 1 hyperdrive travels at hyperspeed, while a class 2 hyperdrive travels at half hyperspeed, and a class .5 hyperdrive travels at twice hyperspeed.",
 												"The galaxy at large is divided into territories, which are in turn subdivided into sectors. Traveling from one planet to another in the same sector takes less time than traveling from one planet to another in a different sector of the same territory. Consequently, traveling to a planet in a different territory takes even longer.",
 												"You can use the above {@b Base Hyperspace Travel Times} table to determine travel times. These times assume a class 1 hyperdrive."
 											]
@@ -10683,13 +10670,7 @@
 										"The most common action to take in combat is the Fire action. With this action, you can make an attack (or attacks) with one ship weapon. See the \"Making an Attack\" section for the rules that govern attacks. The Fire action may be taken multiple times on a ship's turn, but normally only once per weapon. A crewmember Firing from the helm has {@variantrule Disadvantage|sw5e-sotg|disadvantage} on {@variantrule Attack Roll|sw5e-sotg|attack rolls} with primary and secondary weapons.",
 										{
 											"type": "inset",
-											"name": "Want",
-											"entries": [
-												"more Crunch?"
-											]
-										},
-										{
-											"type": "inset",
+											"name": "Want more Crunch?",
 											"entries": [
 												"Although outside the scope of these rules, some play groups may want a more lore-friendly take on ship combat where only certain actions (whether base actions, actions given by ship modifications, or actions gained through deployment ranks) can be taken at certain ship stations.  If so, players and GMs are encouraged to agree to a ship layout that includes these stations along with a list of options that are either allowed or disallowed at that station.  A separate battle-mat can be used to track PC location on a ship during ship combat, if desired."
 											]
@@ -10751,7 +10732,7 @@
 											"type": "entries",
 											"name": "Hard Turn",
 											"entries": [
-												"When you take the Hard Turn action, you coax your ship into a tight maneuver, turning your ship 90 degrees without expending any of your flying {@variantrule Speed|sw5e-sotg|speed}."
+												"When you take the Hard Turn action, you coax your ship into a tight maneuver, turning your ship 90 degrees without expending any of your {@variantrule Speed|sw5e-sotg|flying speed}."
 											]
 										},
 										{
@@ -10902,7 +10883,7 @@
 									"name": "Damage Resistance and Vulnerability",
 									"entries": [
 										"Some ships might have resistance or vulnerability to a damage type. If a ship has resistance to a damage type, damage of that type is halved against it. If a ship has vulnerability to a damage type, damage of that type is doubled against it.",
-										"resistance, and then vulnerability, are applied after all other modifiers to damage. Multiple instances of resistance or vulnerability that affect the same damage type count only as one instance."
+										"Resistance and vulnerability are applied after all other modifiers to damage. Multiple instances of resistance or vulnerability that affect the same damage type count only as one instance."
 									]
 								}
 							],
@@ -10912,12 +10893,12 @@
 							"type": "section",
 							"name": "Cover",
 							"entries": [
-								"Asteroids, ships, debris, and other obstacles can {@variantrule Cover|sw5e-sotg|provide cover} during combat, making a target more difficult to harm. A target can benefit from {@variantrule Cover|sw5e-sotg|cover} only when an attack or other effect originates on the opposite side of the {@variantrule Cover|sw5e-sotg|cover}.",
-								"There are four degrees of {@variantrule Cover|sw5e-sotg|cover}. If a target is behind multiple sources of {@variantrule Cover|sw5e-sotg|cover}, only the most protective degree of {@variantrule Cover|sw5e-sotg|cover} applies; the degrees aren't added together. For example, if a target is behind a ship that gives {@variantrule Cover|sw5e-sotg|half cover} and an asteroid that gives three-quarters {@variantrule Cover|sw5e-sotg|cover}, the target has three-quarters {@variantrule Cover|sw5e-sotg|cover}.",
-								"A target with {@b {@variantrule Cover|sw5e-sotg|one-quarter cover} has a +2 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}. A target has one-quarter {@variantrule Cover|sw5e-sotg|cover} if an obstacle blocks at least one-fourth of it.",
-								"A target with {@b {@variantrule Cover|sw5e-sotg|half cover} has a +3 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}. A target has {@variantrule Cover|sw5e-sotg|half cover} if an obstacle blocks at least half of it.",
-								"A target with {@b three-quarters} {@variantrule Cover|sw5e-sotg|cover} has a +5 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}. A target has three-quarter {@variantrule Cover|sw5e-sotg|cover} if about three-quarters of it is covered by an obstacle.",
-								"A target with {@b total cover} can’t be targeted directly by an attack or a power, although some powers can reach such a target by including it in an area of effect. A target has {@variantrule Cover|sw5e-sotg|total cover} if it is completely concealed by an obstacle."
+								"Asteroids, ships, debris, and other obstacles can provide cover during starship combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.",
+								"There are four degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a ship that gives half cover and an asteroid that gives three-quarters cover, the target has three-quarters cover.",
+								"A target with {@b one-quarter cover} has a +2 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}. A target has one-quarter cover if an obstacle blocks at least one-fourth of it.",
+								"A target with {@b half cover} has a +3 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}. A target has half cover if an obstacle blocks at least half of it.",
+								"A target with {@b three-quarters cover} has a +5 bonus to AC and Dexterity {@variantrule Saving Throw|sw5e-sotg|saving throws}. A target has three-quarters cover if about three-quarters of it is covered by an obstacle.",
+								"A target with {@b total cover} can't be targeted directly by an attack or a power, although some powers can reach such a target by including it in an area of effect. A target has total cover if it is completely concealed by an obstacle."
 							],
 							"page": 110
 						},
@@ -10957,13 +10938,7 @@
 										"When a ship is reduced to 0 {@variantrule Hull Points|sw5e-sotg|hull points}, it is either destroyed or disabled. If the ship is not instantly destroyed, the ship suffers 1 level of system damage and becomes disabled.",
 										{
 											"type": "inset",
-											"name": "Describing",
-											"entries": [
-												"the Effects of Damage"
-											]
-										},
-										{
-											"type": "inset",
+											"name": "Describing the Effects of Damage",
 											"entries": [
 												"GMs describe hull point loss in different ways. When your ship's current hull point total is half or more of your hull point maximum, it typically shows no signs of damage. When it drops below half its hull point maximum, it show signs of wear, such as electrical fires or dislodged machinery. An attack that reduces your ship to 0 {@variantrule Hull Points|sw5e-sotg|hull points} strikes directly, leaving a massive hole or otherwise disables the ship."
 											]
@@ -11021,7 +10996,7 @@
 					"entries": [
 						"Creating interesting starship encounters can be a challenging task. Unlike in character-based encounters, DMs are limited by the more constrained nature of space combat: The heroes are confied to an environment that might limit their abilities, and coming up with encounters that do more than just pit two squads of starfighters against one another takes more work. Despite this, creating an exciting starship combat encounter can make an adventure much more memorable, encouraging players to become just as involved as they would be in ground-based encounters.",
 						"One of the most important elements of a good starship encounter is giving each player something to do. Gunners should have plenty of targets, a goal that is relatively easy to accomplish. Pilots should have obstacles to maneuver around and ships to fly past, making the environment of the encounter very important. Character combat holds players' interests because each player has something to do in every round. Engaging players in the same manner during a starship combat encounter requires the Gamemaster to design aspects of the encounter that give every player something to do in every round.",
-						"Designing a starship encounter that keeps several players active on every turn can be daunting. An alternative solution is to create encounters that encourage players to fly their own starships. For example, in a party of four characters, one character might serve as the pilot of the party's freighter, one character might serve as the gunner aboard that freighter, and the other two would pilot starfighters in the same encounter. This gives three players -- the three pilots -- the ability to move and attack in each round, just as they would in character combat. Even characters untrained in the {@skill Piloting|sw5e-phb} skill can perform basic movement and actions, and trained pilots can help protect those untrained pilots during starship combat.",
+						"Designing a starship encounter that keeps several players active on every turn can be daunting. An alternative solution is to create encounters that encourage players to fly their own starships. For example, in a party of four characters, one character might serve as the pilot of the party's freighter, one character might serve as the gunner aboard that freighter, and the other two would pilot starfighters in the same encounter. This gives three players — the three pilots — the ability to move and attack in each round, just as they would in character combat. Even characters untrained in the {@skill Piloting|sw5e-phb} skill can perform basic movement and actions, and trained pilots can help protect those untrained pilots during starship combat.",
 						{
 							"type": "section",
 							"name": "Give Objectives Other Than Destruction",

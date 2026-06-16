@@ -1,0 +1,411 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-ec",
+				"abbreviation": "EC",
+				"full": "SW5e: Expanded Content",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-ec.json",
+				"color": "#00aabb",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				]
+			}
+		]
+	},
+	"optionalfeature": [
+		{
+			"name": "Agonizing Lethargy",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"Mental"
+					]
+				},
+				"You can use an action to expend a superiority die. When you do so, choose a creature you can see within 30 feet of you. The target must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the target takes 1d6 necrotic damage for each attack it makes until the start of your next turn."
+			]
+		},
+		{
+			"name": "Assess the Situation",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"General"
+					]
+				},
+				"You can expend one superiority die to make a Wisdom ({@skill Perception|sw5e-phb}) or Intelligence ({@skill Investigation|sw5e-phb}) check as a {@variantrule Bonus Action|sw5e-phb}, adding the superiority die to the check."
+			]
+		},
+		{
+			"name": "Befogging Ichor",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"Mental"
+					]
+				},
+				"You can use a {@variantrule Bonus Action|sw5e-phb} to expend a superiority die. When you do so, choose a creature you can see within 30 feet of you. The target must make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the target can't take reactions until the start of its next turn and on its turn must use its movement to move half its {@variantrule Speed|sw5e-phb|speed} in a random direction. Roll a {@dice d8} and assign a direction to each face. If the direction rolled is blocked, the target doesn't move."
+			]
+		},
+		{
+			"name": "Chains of Transfixing",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"Mental"
+					]
+				},
+				"You can use a {@variantrule Bonus Action|sw5e-phb} to expend a superiority die. When you do so, choose a creature you can see within 30 feet of you that is no more than one size larger than you. The target must succeed on a Strength {@variantrule Saving Throw|sw5e-phb|saving throw} or gain four {@condition Slowed|sw5e-phb|slowed} levels until the start of your next turn."
+			]
+		},
+		{
+			"name": "Daring Escape",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"General"
+					]
+				},
+				"You can expend one superiority die to take the {@action Disengage|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb} on your turn. Until the end of this turn, you have {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Ability Check|sw5e-phb|ability checks} and {@variantrule Saving Throw|sw5e-phb|saving throws} to break effects that would grapple, restrain or slow you."
+			]
+		},
+		{
+			"name": "Dark Transference",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"Mental"
+					]
+				},
+				"When you hit a creature with an attack, you can expend a superiority die and roll it to attempt to {@spell Siphon Life|sw5e-phb|siphon life} from it. The target must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, add the result to the damage roll, and you regain one expended Hit Die."
+			]
+		},
+		{
+			"name": "Deathseek",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"Mental"
+					]
+				},
+				"When an attack made against a hostile creature that you can see would miss, you can use a {@variantrule Reaction|sw5e-phb} and expend a superiority die and roll it to force the creature to instead take the hit. The creature must make a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the target takes the minimum damage the attack could have dealt plus additional damage equal to the result of the superiority die."
+			]
+		},
+		{
+			"name": "Deliberate Movement",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"General"
+					]
+				},
+				"You can expend one superiority die to take the {@action Dash|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb} and ignore the effects of unenhanced {@variantrule Difficult Terrain|sw5e-phb|difficult terrain} until the end of your turn."
+			]
+		},
+		{
+			"name": "Go Get 'Em",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"General"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prerequisite",
+					"entries": [
+						"Companion"
+					]
+				},
+				"While your companion is moving, you can expend a superiority die and add 5 times the number rolled to its movement {@variantrule Speed|sw5e-phb|speed}."
+			]
+		},
+		{
+			"name": "Loyal Bond",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"General"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prerequisite",
+					"entries": [
+						"Companion"
+					]
+				},
+				"Whenever you are hit with an attack, you can expend one superiority die to command your companion to immediately use its {@variantrule Reaction|sw5e-phb} and move up to its {@variantrule Speed|sw5e-phb|speed} directly towards you. If it ends this movement within 5 feet of you, roll the superiority die. Your companion takes the damage instead of you, subtracting the amount you rolled from the total."
+			]
+		},
+		{
+			"name": "Pin Down",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"General"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prerequisite",
+					"entries": [
+						"Companion"
+					]
+				},
+				"When your companion attempts to grapple or knock a creature prone, you can expend a superiority die to give it direction as long as it can see or hear you. Roll a superiority die and add it to your companion's Strength ({@skill Athletics|sw5e-phb}) check."
+			]
+		},
+		{
+			"name": "Primal Endurance",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"General"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prerequisite",
+					"entries": [
+						"Companion"
+					]
+				},
+				"As an action, you can expend a superiority die to improve your companion's defense. Roll the die and add it to your companion's AC until the beginning of your next turn."
+			]
+		},
+		{
+			"name": "Reverse Curse",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"Mental"
+					]
+				},
+				"When another creature attempts to charm or frighten you or an ally you can see within 15 feet of you, you can use your {@variantrule Reaction|sw5e-phb} and expend a superiority die and roll it to attempt to turn the effect back on that creature. The creature must succeed on a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} or be be {@condition Charmed|sw5e-phb|charmed} or {@condition Frightened|sw5e-phb|frightened} by you, dependent on the triggering ability, for a number of rounds equal to the die roll or until the creature takes any damage."
+			]
+		},
+		{
+			"name": "Shadow Puppetry",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"Mental"
+					]
+				},
+				"When a creature you can see within 30 feet of you is reduced to 0 {@variantrule Hit Points|sw5e-phb|hit points}, you can use your {@variantrule Reaction|sw5e-phb} and expend a superiority die to give that creature a final act of aggression. That creature can immediately move a number of feet equal to 5 times the result of the die and make a single {@variantrule Attack Roll|sw5e-phb|weapon attack} against a target of your choice within its attack range, adding the die to the {@variantrule Attack Roll|sw5e-phb|attack roll}."
+			]
+		},
+		{
+			"name": "Sic 'Em",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"General"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prerequisite",
+					"entries": [
+						"Companion"
+					]
+				},
+				"As an action, you can expend a superiority die and command your companion to savage a nearby enemy. Your companion can use its {@variantrule Reaction|sw5e-phb} to immediately move up to 10 feet and make one attack, adding the {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers} to the damage roll on a hit."
+			]
+		},
+		{
+			"name": "Spine-Chilling Howls",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"General"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prerequisite",
+					"entries": [
+						"Companion"
+					]
+				},
+				"As an action, you can expend one superiority die to command your companion to frighten another creature. The target must then succeed on a Wisdom {@variantrule Saving Throw|sw5e-phb|saving throw} against your {@book maneuver|sw5e-phb|13|Maneuvers} save DC or become {@condition Frightened|sw5e-phb|frightened} of both you and your companion for 1 minute. The {@condition Frightened|sw5e-phb|frightened} target can repeat the {@variantrule Saving Throw|sw5e-phb|saving throw} at the end of each of its turns, ending the effect on itself on a success."
+			]
+		},
+		{
+			"name": "Water of Life",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"Mental"
+					]
+				},
+				"When an allied creature within 30 feet that you can see takes damage, you can use a {@variantrule Reaction|sw5e-phb} to expend a superiority die and roll it. The ally regains a number of {@variantrule Hit Points|sw5e-phb|hit points} equal to the roll + your {@book maneuver|sw5e-phb|13|Maneuvers} modifier."
+			]
+		},
+		{
+			"name": "Wild Senses",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"General"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prerequisite",
+					"entries": [
+						"Companion"
+					]
+				},
+				"Whenever you make a Wisdom ({@skill Perception|sw5e-phb}) or a Wisdom ({@skill Survival|sw5e-phb}) check, you can request the aid of your companion by expending a superiority die, adding the number rolled to the check. You can use this {@book maneuver|sw5e-phb|13|Maneuvers} before or after making the {@variantrule Ability Check|sw5e-phb|ability check}, but before the results of the {@variantrule Ability Check|sw5e-phb|ability check} are determined."
+			]
+		},
+		{
+			"name": "Wracking Torment",
+			"source": "sw5e-ec",
+			"page": 7,
+			"featureType": [
+				"MV"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Type",
+					"entries": [
+						"Mental"
+					]
+				},
+				"When a hostile creature you can see within 30 feet would take damage from an effect you or a friendly creature controls, you can use your {@variantrule Reaction|sw5e-phb} and expend a superiority die to temporarily weaken their resilience against it. Until the end of the turn, the target loses {@spell Resistance|sw5e-phb|resistance} to the damage types of the triggering attack or power."
+			]
+		}
+	]
+}

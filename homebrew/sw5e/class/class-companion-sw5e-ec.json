@@ -1,0 +1,1998 @@
+{
+	"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+	"_meta": {
+		"sources": [
+			{
+				"json": "sw5e-ec",
+				"abbreviation": "EC",
+				"full": "SW5e: Expanded Content",
+				"url": "https://5e.orcnog.com/homebrew/sw5e/book/book-sw5e-ec.json",
+				"color": "#00aabb",
+				"authors": [],
+				"convertedBy": [
+					"orcnog"
+				],
+				"version": "1.0.0"
+			}
+		],
+		"internalCopies": [
+			"subclass"
+		],
+		"dateAdded": 1781541440,
+		"dateLastModified": 1781541440,
+		"edition": "classic"
+	},
+	"class": [
+		{
+			"name": "Follower",
+			"source": "sw5e-ec",
+			"page": 3,
+			"isSidekick": true,
+			"subclassTitle": "Companion Class",
+			"classFeatures": [
+				"Companion Nature|Follower|sw5e-ec|1",
+				"Beast Companion|Follower|sw5e-ec|1",
+				"Droid Companion|Follower|sw5e-ec|1",
+				"Humanoid Companion|Follower|sw5e-ec|1",
+				"Tracker Droid Companion|Follower|sw5e-ec|1",
+				"Turret Companion|Follower|sw5e-ec|1",
+				"Companion Traits|Follower|sw5e-ec|1",
+				"Helpful|Follower|sw5e-ec|2",
+				{
+					"classFeature": "Companion Class|Follower|sw5e-ec|3",
+					"gainSubclassFeature": true
+				},
+				"Ability Score Improvement|Follower|sw5e-ec|4",
+				"Expertise|Follower|sw5e-ec|6",
+				"Companion Freedom|Follower|sw5e-ec|10",
+				"Feat|Follower|sw5e-ec|10",
+				"Companion Capstone|Follower|sw5e-ec|20"
+			],
+			"hasFluff": true
+		}
+	],
+	"classFeature": [
+		{
+			"name": "Companion Nature",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 1,
+			"entries": [
+				"At 1st level, choose your companion's nature (see {@variantrule Companion Natures|sw5e-ec} for prerequisites). Your nature determines type, Hit Dice, defenses, trait options, and how you assign ability scores.",
+				{
+					"type": "list",
+					"columns": 2,
+					"items": [
+						"Aberrant Companion ({@book WIP|Aberrant Companion|sw5e-ec|3|Companion Natures})",
+						"{@variantrule Beast Companion|sw5e-ec}",
+						"{@variantrule Droid Companion|sw5e-ec}",
+						"{@variantrule Humanoid Companion|sw5e-ec}",
+						"Spirit Companion ({@book WIP|Spirit Companion|sw5e-ec|3|Companion Natures})",
+						"Thrall Companion ({@book WIP|Thrall Companion|sw5e-ec|3|Companion Natures})",
+						"{@variantrule Tracker Droid Companion|sw5e-ec}",
+						"{@variantrule Turret Companion|sw5e-ec}"
+					]
+				},
+				"See also the {@book Companion Natures|sw5e-ec|3|Companion Natures} section for the d10 table and bonding rules."
+			]
+		},
+		{
+			"name": "Beast Companion",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 1,
+			"entries": [
+				"{@i {@b Prerequisite:}} see {@variantrule Beast Companion|sw5e-ec}.",
+				"Your beast takes a form of your choosing. Alternatively, your GM can choose what form your beast takes based on your environment. Once you've chosen your beast's appearance, you assign your beast companion's ability scores. Your beast's Intelligence score is 6, and you assign its other ability scores using a standard array (16, 14, 12, 10, 8) as you see fit.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Hit Dice:} 1d4 per beast companion level",
+						"{@b Languages:} Your beast can understand simple commands spoken in two languages of your choice, as well as hand signals, but it can not speak",
+						"{@b Size:} Tiny",
+						"{@b Type:} Beast",
+						"{@b Armor Class:} Your beast's {@variantrule Armor Class|sw5e-phb|armor class} equals 10 + its Dexterity modifier."
+					]
+				},
+				"Full build rules: {@variantrule Beast Companion|sw5e-ec}."
+			],
+			"isClassFeatureVariant": true
+		},
+		{
+			"name": "Droid Companion",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 1,
+			"entries": [
+				"{@i {@b Prerequisite:}} see {@variantrule Droid Companion|sw5e-ec}.",
+				"Your droid takes a form of your choosing. The class of droid you choose determines its features. Once you've selected your type of droid class, you assign your droid's ability scores using standard array (16, 14, 14, 12, 10, 8) as you see fit.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Type:} Droid",
+						"{@b Armor Class:} Your droid's {@variantrule Armor Class|sw5e-phb|armor class} equals 10 + its Dexterity modifier."
+					]
+				},
+				"Full build rules: {@variantrule Droid Companion|sw5e-ec}."
+			],
+			"isClassFeatureVariant": true
+		},
+		{
+			"name": "Humanoid Companion",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 1,
+			"entries": [
+				"{@i {@b Prerequisite:}} see {@variantrule Humanoid Companion|sw5e-ec}.",
+				"Your humanoid takes a form and size of your choosing. Your humanoid's size determines its features. Once you've chosen the size of your humanoid, you assign your humanoid's ability scores using standard array (16, 14, 14, 12, 10, 8) as you see fit.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Languages:} Humanoids can speak, read, and write {@language Galactic Basic|sw5e-phb} and one language of your choice. If your humanoid takes the form of a species that can't speak {@language Galactic Basic|sw5e-phb}, you choose whether or not your humanoid can speak it.",
+						"{@b Type:} Humanoid",
+						"{@b Armor Class:} Your humanoid's {@variantrule Armor Class|sw5e-phb|armor class} equals 10 + its Dexterity modifier."
+					]
+				},
+				"Full build rules: {@variantrule Humanoid Companion|sw5e-ec}."
+			],
+			"isClassFeatureVariant": true
+		},
+		{
+			"name": "Tracker Droid Companion",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 1,
+			"entries": [
+				"{@i {@b Prerequisite:}} see {@variantrule Tracker Droid Companion|sw5e-ec}.",
+				"Your tracker droid takes a form of your choosing. Once you've selected your tracker droid's appearance, you assign your tracker droid's ability scores using a standard array (16, 14, 12, 10, 8, 6) as you see fit.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Hit Dice:} 1d4 per tracker droid companion level",
+						"{@b Languages:} Tracker droids can speak, read, and write {@language Binary|sw5e-phb|Binary}. They can understand spoken and written {@language Galactic Basic|sw5e-phb} and one language of your choice, but can not speak it.",
+						"{@b Size:} Tiny",
+						"{@b Type:} Droid",
+						"{@b Armor Class:} Your tracker droid's {@variantrule Armor Class|sw5e-phb|armor class} equals 10 + its Dexterity modifier. Your tracker droid can't wear armor or have it integrated."
+					]
+				},
+				"Full build rules: {@variantrule Tracker Droid Companion|sw5e-ec}."
+			],
+			"isClassFeatureVariant": true
+		},
+		{
+			"name": "Turret Companion",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 1,
+			"entries": [
+				"{@i {@b Prerequisite:}} see {@variantrule Turret Companion|sw5e-ec}.",
+				"Your turret is a portable companion that you can upgrade over time. Your turret uses your Intelligence score, and its Charisma is 6. You assign your turret's Strength, Dexterity, Constitution, and Wisdom scores using a standard array (16, 14, 12, 8) as you see fit.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Hit Dice:} 1d6 per turret companion level",
+						"{@b Languages:} Your turret does not understand any languages, and it cannot speak."
+					]
+				},
+				"Full build rules: {@variantrule Turret Companion|sw5e-ec}."
+			],
+			"isClassFeatureVariant": true
+		},
+		{
+			"name": "Companion Traits",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 1,
+			"entries": [
+				"Beginning at 1st level, your companion gains two traits, determined by its nature. Companion natures are discussed later in this chapter. Your companion gains an additional trait at 5th, 9th, 13th, and 17th level."
+			]
+		},
+		{
+			"name": "Helpful",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 2,
+			"entries": [
+				"At 2nd level, your companion can take the {@action Help|sw5e-phb} action as a {@variantrule Bonus Action|sw5e-phb}, but it can only help you in this way."
+			]
+		},
+		{
+			"name": "Companion Class",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"When your companion reaches 3rd level, it can choose a class that determines how it focuses its training, which is detailed at the end of the follower's description. Your companion's class grants features at 3rd level, and again at 7th, 11th, 15th, and 18th level."
+			]
+		},
+		{
+			"name": "Ability Score Improvement",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 4,
+			"entries": [
+				"When your companion reaches 4th level, and again at 8th, 12th, 16th, and 19th level, it can increase one ability score of its choice by 2, or it can increase two ability scores of its choice by 1. As normal, you can’t increase an ability score above 20 using this feature"
+			]
+		},
+		{
+			"name": "Expertise",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 6,
+			"entries": [
+				"At 6th level, choose one of your companion's skill or tool proficiencies. It gains {@variantrule Expertise|sw5e-phb|expertise} in the chosen skill or tool.",
+				"At 14th level, your companion gains expertise in another skill or tool."
+			]
+		},
+		{
+			"name": "Companion Freedom",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 10,
+			"entries": [
+				"Once your companion has reached 10th level, your companion no longer requires you to use your {@variantrule Bonus Action|sw5e-phb} to allow it to take an action other than Dash, Disengage, Dodge, Guard or Hide."
+			]
+		},
+		{
+			"name": "Feat",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 10,
+			"entries": [
+				"Also at 10th level, your companion gains one feat of your choice. Your companion can't take a feat that would grant them a companion."
+			]
+		},
+		{
+			"name": "Companion Capstone",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 20,
+			"entries": [
+				"By 20th level, your companion has reached the peak of its capabilities. Two ability scores of its choice increase by 2. Its maximum for those scores increases by 2.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Level",
+						"Proficiency",
+						"Features"
+					],
+					"colStyles": [
+						"col-4 text-left",
+						"col-4 text-left",
+						"col-4 text-left"
+					],
+					"rows": [
+						[
+							"1st",
+							"+2",
+							"Companion Traits (two traits)"
+						],
+						[
+							"2nd",
+							"+2",
+							"Helpful"
+						],
+						[
+							"3rd",
+							"+2",
+							"Companion Class"
+						],
+						[
+							"4th",
+							"+2",
+							"Ability Score Improvement"
+						],
+						[
+							"5th",
+							"+3",
+							"Companion Traits (three traits)"
+						],
+						[
+							"6th",
+							"+3",
+							"{@variantrule Expertise|sw5e-phb}"
+						],
+						[
+							"7th",
+							"+3",
+							"Companion Class feature"
+						],
+						[
+							"8th",
+							"+3",
+							"Ability Score Improvement"
+						],
+						[
+							"9th",
+							"+4",
+							"Companion Traits (four traits)"
+						],
+						[
+							"10th",
+							"+4",
+							"Companion Freedom, Feat"
+						],
+						[
+							"11th",
+							"+4",
+							"Companion Class feature"
+						],
+						[
+							"12th",
+							"+4",
+							"Ability Score Improvement"
+						],
+						[
+							"13th",
+							"+5",
+							"Companion Traits (five traits)"
+						],
+						[
+							"14th",
+							"+5",
+							"{@variantrule Expertise|sw5e-phb}"
+						],
+						[
+							"15th",
+							"+5",
+							"Companion Class feature"
+						],
+						[
+							"16th",
+							"+5",
+							"Ability Score Improvement"
+						],
+						[
+							"17th",
+							"+6",
+							"Companion Traits (six traits)"
+						],
+						[
+							"18th",
+							"+6",
+							"Companion Class feature"
+						],
+						[
+							"19th",
+							"+6",
+							"Ability Score Improvement"
+						],
+						[
+							"20th",
+							"+6",
+							"Companion Capstone"
+						]
+					],
+					"caption": "The Follower"
+				}
+			]
+		}
+	],
+	"subclass": [
+		{
+			"name": "Berserker",
+			"shortName": "Berserker",
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"source": "sw5e-ec",
+			"page": 3,
+			"subclassFeatures": [
+				"Proficiencies|Follower|sw5e-ec|Berserker|sw5e-ec|3",
+				"Rage|Follower|sw5e-ec|Berserker|sw5e-ec|3",
+				"Reckless Attack|Follower|sw5e-ec|Berserker|sw5e-ec|3",
+				"Danger Sense|Follower|sw5e-ec|Berserker|sw5e-ec|7",
+				"Extra Attack|Follower|sw5e-ec|Berserker|sw5e-ec|11",
+				"Brutal Critical|Follower|sw5e-ec|Berserker|sw5e-ec|15",
+				"Relentless Rage|Follower|sw5e-ec|Berserker|sw5e-ec|18"
+			]
+		},
+		{
+			"name": "Consular",
+			"shortName": "Consular",
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"source": "sw5e-ec",
+			"page": 3,
+			"subclassFeatures": [
+				"Proficiencies|Follower|sw5e-ec|Consular|sw5e-ec|3",
+				"Forcecasting|Follower|sw5e-ec|Consular|sw5e-ec|3",
+				"Force Shield|Follower|sw5e-ec|Consular|sw5e-ec|3",
+				"Apprentice Forcecasting|Follower|sw5e-ec|Consular|sw5e-ec|7",
+				"Journeyman Forcecasting|Follower|sw5e-ec|Consular|sw5e-ec|11",
+				"Adept Forcecasting|Follower|sw5e-ec|Consular|sw5e-ec|15",
+				"Master Forcecasting|Follower|sw5e-ec|Consular|sw5e-ec|18"
+			]
+		},
+		{
+			"name": "Engineer",
+			"shortName": "Engineer",
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"source": "sw5e-ec",
+			"page": 3,
+			"subclassFeatures": [
+				"Proficiencies|Follower|sw5e-ec|Engineer|sw5e-ec|3",
+				"Techcasting|Follower|sw5e-ec|Engineer|sw5e-ec|3",
+				"Potent Aptitude|Follower|sw5e-ec|Engineer|sw5e-ec|3",
+				"Techcasting, Mark II|Follower|sw5e-ec|Engineer|sw5e-ec|7",
+				"Techcasting, Mark III|Follower|sw5e-ec|Engineer|sw5e-ec|11",
+				"Techcasting, Mark IV|Follower|sw5e-ec|Engineer|sw5e-ec|15",
+				"Techcasting, Mark V|Follower|sw5e-ec|Engineer|sw5e-ec|18"
+			]
+		},
+		{
+			"name": "Fighter",
+			"shortName": "Fighter",
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"source": "sw5e-ec",
+			"page": 3,
+			"subclassFeatures": [
+				"Proficiencies|Follower|sw5e-ec|Fighter|sw5e-ec|3",
+				"Second Wind|Follower|sw5e-ec|Fighter|sw5e-ec|3",
+				"Action Surge|Follower|sw5e-ec|Fighter|sw5e-ec|3",
+				"Martial Superiority|Follower|sw5e-ec|Fighter|sw5e-ec|7",
+				"Extra Attack|Follower|sw5e-ec|Fighter|sw5e-ec|11",
+				"Indomitable|Follower|sw5e-ec|Fighter|sw5e-ec|15",
+				"Greater Extra Attack|Follower|sw5e-ec|Fighter|sw5e-ec|18"
+			]
+		},
+		{
+			"name": "Guardian",
+			"shortName": "Guardian",
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"source": "sw5e-ec",
+			"page": 3,
+			"subclassFeatures": [
+				"Proficiencies|Follower|sw5e-ec|Guardian|sw5e-ec|3",
+				"Forcecasting|Follower|sw5e-ec|Guardian|sw5e-ec|3",
+				"Channel the Force|Follower|sw5e-ec|Guardian|sw5e-ec|3",
+				"Apprentice Forcecasting|Follower|sw5e-ec|Guardian|sw5e-ec|7",
+				"Extra Attack|Follower|sw5e-ec|Guardian|sw5e-ec|11",
+				"Force Purity|Follower|sw5e-ec|Guardian|sw5e-ec|15",
+				"Journeyman Forcecasting|Follower|sw5e-ec|Guardian|sw5e-ec|18"
+			]
+		},
+		{
+			"name": "Monk",
+			"shortName": "Monk",
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"source": "sw5e-ec",
+			"page": 3,
+			"subclassFeatures": [
+				"Proficiencies|Follower|sw5e-ec|Monk|sw5e-ec|3",
+				"Martial Arts|Follower|sw5e-ec|Monk|sw5e-ec|3",
+				"Unarmored Defense|Follower|sw5e-ec|Monk|sw5e-ec|3",
+				"Focus|Follower|sw5e-ec|Monk|sw5e-ec|7",
+				"Enhanced Strikes|Follower|sw5e-ec|Monk|sw5e-ec|7",
+				"Extra Attack|Follower|sw5e-ec|Monk|sw5e-ec|11",
+				"Evasion|Follower|sw5e-ec|Monk|sw5e-ec|15",
+				"Diamond Soul|Follower|sw5e-ec|Monk|sw5e-ec|18"
+			]
+		},
+		{
+			"name": "Operative",
+			"shortName": "Operative",
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"source": "sw5e-ec",
+			"page": 3,
+			"subclassFeatures": [
+				"Proficiencies|Follower|sw5e-ec|Operative|sw5e-ec|3",
+				"Sneak Attack|Follower|sw5e-ec|Operative|sw5e-ec|3",
+				"Cunning Action|Follower|sw5e-ec|Operative|sw5e-ec|3",
+				"Bad Feeling|Follower|sw5e-ec|Operative|sw5e-ec|7",
+				"Uncanny Dodge|Follower|sw5e-ec|Operative|sw5e-ec|11",
+				"Evasion|Follower|sw5e-ec|Operative|sw5e-ec|15",
+				"Reliable Talent|Follower|sw5e-ec|Operative|sw5e-ec|18"
+			]
+		},
+		{
+			"name": "Scholar",
+			"shortName": "Scholar",
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"source": "sw5e-ec",
+			"page": 3,
+			"subclassFeatures": [
+				"Proficiencies|Follower|sw5e-ec|Scholar|sw5e-ec|3",
+				"Academic Superiority|Follower|sw5e-ec|Scholar|sw5e-ec|3",
+				"Critical Analysis|Follower|sw5e-ec|Scholar|sw5e-ec|3",
+				"Discoveries|Follower|sw5e-ec|Scholar|sw5e-ec|7",
+				"Multitasker|Follower|sw5e-ec|Scholar|sw5e-ec|11",
+				"Sage Advice|Follower|sw5e-ec|Scholar|sw5e-ec|15",
+				"Calm and Collected|Follower|sw5e-ec|Scholar|sw5e-ec|18"
+			]
+		},
+		{
+			"name": "Scout",
+			"shortName": "Scout",
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"source": "sw5e-ec",
+			"page": 3,
+			"subclassFeatures": [
+				"Proficiencies|Follower|sw5e-ec|Scout|sw5e-ec|3",
+				"Techcasting|Follower|sw5e-ec|Scout|sw5e-ec|3",
+				"Ranger's Quarry|Follower|sw5e-ec|Scout|sw5e-ec|3",
+				"Techcasting, Mark II|Follower|sw5e-ec|Scout|sw5e-ec|7",
+				"Extra Attack|Follower|sw5e-ec|Scout|sw5e-ec|11",
+				"Commando|Follower|sw5e-ec|Scout|sw5e-ec|15",
+				"Techcasting, Mark III|Follower|sw5e-ec|Scout|sw5e-ec|18"
+			]
+		},
+		{
+			"name": "Sentinel",
+			"shortName": "Sentinel",
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"source": "sw5e-ec",
+			"page": 3,
+			"subclassFeatures": [
+				"Proficiencies|Follower|sw5e-ec|Sentinel|sw5e-ec|3",
+				"Forcecasting|Follower|sw5e-ec|Sentinel|sw5e-ec|3",
+				"Led by the Force|Follower|sw5e-ec|Sentinel|sw5e-ec|3",
+				"Apprentice Forcecasting|Follower|sw5e-ec|Sentinel|sw5e-ec|7",
+				"Extra Attack|Follower|sw5e-ec|Sentinel|sw5e-ec|11",
+				"Journeyman Forcecasting|Follower|sw5e-ec|Sentinel|sw5e-ec|15",
+				"Adept Forcecasting|Follower|sw5e-ec|Sentinel|sw5e-ec|18"
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Proficiencies",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@b Armor:} {@filter light armor|items|type=light armor}, {@filter medium armor|items|type=medium armor}",
+						"{@b Weapons:} {@filter all vibroweapons|items|type=martial weapon}, {@filter simple blasters|items|firearm=true|weaponcategory=simple}",
+						"{@b Tools:} None"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Saving Throws}: Strength, Constitution",
+						"{@b Skills:} Choose two from {@skill Animal Handling|sw5e-phb}, {@skill Athletics|sw5e-phb}, {@skill Intimidation|sw5e-phb}, {@skill Nature|sw5e-phb}, {@skill Perception|sw5e-phb}, {@skill Survival|sw5e-phb}"
+					]
+				}
+			],
+			"subclassShortName": "Berserker",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Rage",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Beginning when your companion chooses this class at 3rd level, in battle, it fights with primal ferocity. On your companion's turn, it can enter a rage as a {@variantrule Bonus Action|sw5e-phb} if it isn't wearing {@filter heavy armor|items|type=heavy armor}.",
+				"While raging, your companion gains the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"It has {@variantrule Advantage|sw5e-phb|advantage} on Strength checks and Strength {@variantrule Saving Throw|sw5e-phb|saving throws}.",
+						"When it makes a {@variantrule Attack Roll|sw5e-phb|melee weapon attack} using Strength, it gains a +2 bonus to the damage roll. This bonus increases to +3 at 11th level.",
+						"It has resistance to kinetic and energy damage.",
+						"If it is able to cast powers, it can't cast them or concentrate on them while raging."
+					]
+				},
+				"Your companion's rage lasts for 1 minute. It ends early if your companion is knocked {@condition Unconscious|sw5e-phb|unconscious}, it dons {@filter heavy armor|items|type=heavy armor}, or if its turn ends and it hasn't attacked a hostile creature or taken damage since its last turn. It can also end its rage on your turn as a {@variantrule Bonus Action|sw5e-phb}.",
+				"Your companion can use this feature twice. It gains an additional use at 11th level. Your companion regains all expended uses when it finishes a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Berserker",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Reckless Attack",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, your companion can throw aside all concern for defense to attack with fierce desperation. When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you {@variantrule Advantage|sw5e-phb|advantage} on {@variantrule Attack Roll|sw5e-phb|melee weapon attack rolls} using Strength during this turn, but attack rolls against you have advantage until your next turn."
+			],
+			"subclassShortName": "Berserker",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Danger Sense",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 7,
+			"entries": [
+				"At 7th level, your companion gains an uncanny sense of when things nearby aren't as they should be, giving it an edge when it dodges away from danger.",
+				"Your companion has {@variantrule Advantage|sw5e-phb|advantage} on Dexterity {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that it can see, such as traps and powers. To gain this benefit, it can't be {@condition Blinded|sw5e-phb|blinded}, {@condition Deafened|sw5e-phb|deafened}, or {@condition Incapacitated|sw5e-phb|incapacitated}."
+			],
+			"subclassShortName": "Berserker",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Extra Attack",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 11,
+			"entries": [
+				"By 11th level, your companion can attack twice, instead of once, whenever it takes the {@action Attack|sw5e-phb} action on its turn."
+			],
+			"subclassShortName": "Berserker",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Brutal Critical",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 15,
+			"entries": [
+				"At 15th level, your companion can roll one additional weapon damage die when determining the extra damage for a {@variantrule Critical Hit|sw5e-phb|critical hit} with a melee attack."
+			],
+			"subclassShortName": "Berserker",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Relentless Rage",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 18,
+			"entries": [
+				"As of 18th level, your companion's rage can keep it fighting despite grievous wounds. If your companion drops to 0 {@variantrule Hit Points|sw5e-phb|hit points} while it's raging and it doesn't die outright, it can make a DC 10 Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. If it succeeds, it drops to 1 hit point instead.",
+				"Each time it uses this feature after the first, the DC increases by 5. When it finishes a short or {@variantrule Long Rest|sw5e-phb|long rest}, the DC resets to 10."
+			],
+			"subclassShortName": "Berserker",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Proficiencies",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@b Armor:} None",
+						"{@b Weapons:} {@filter simple lightweapons|items|type=martial weapon|category=lightweapon}, {@filter simple vibroweapons|items|type=martial weapon|weaponcategory=simple}",
+						"{@b Tools:} None"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Saving Throws:} Wisdom, Charisma",
+						"{@b Skills:} Choose two from {@skill Deception|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Intimidation|sw5e-phb}, {@skill Investigation|sw5e-phb}, {@skill Lore|sw5e-phb}, {@skill Medicine|sw5e-phb}, and {@skill Persuasion|sw5e-phb}"
+					]
+				}
+			],
+			"subclassShortName": "Consular",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Forcecasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Beginning when your companion chooses this class at 3rd level, it has learned powers, fragments of knowledge that imbue it with an abiding force ability. See {@book chapter 10|sw5e-phb|10} of the Player's Handbook for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11} of the Player's Handbook for the {@book force powers list|sw5e-phb|11|Force Powers}.",
+				{
+					"type": "entries",
+					"name": "Force Powers Known",
+					"entries": [
+						"Your companion learns three {@book force powers|sw5e-phb|11|Force Powers} of its choice of no higher level than its Max Power Level. It may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time it learns its prerequisite.",
+						"At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Force Points",
+					"entries": [
+						"Your companion does not require force points. Instead, it can only cast powers at 1st-level twice. It regains all expended uses after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Max Power Level",
+					"entries": [
+						"Your companion's Max Power Level is 1st."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Forcecasting Ability",
+					"entries": [
+						"Your companion's {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. It uses Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (its choice). It uses this ability score modifier whenever a power refers to its 10. Additionally, it uses this ability score modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} it casts and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
+						"{@b Force save DC} = 8 + its {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + its 10 modifier",
+						"{@b Force attack modifier} = its Proficiency Bonus + its 10 modifier"
+					]
+				}
+			],
+			"subclassShortName": "Consular",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Force Shield",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, your companion learns how to defend itself purely through its strength with the Force. When your companion is hit by an attack, it can use its {@variantrule Reaction|sw5e-phb} to shroud itself in Force energy. Until the start of its next turn, it has a bonus to AC equal to its Wisdom or Charisma modifier (your companion's choice, a minimum of +1). This includes the triggering attack.",
+				"Your companion can use this feature twice. It gains an additional use at 11th level. Your companion regains all expended uses when it finishes a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Consular",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Apprentice Forcecasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 7,
+			"entries": [
+				"At 7th level, your companion's Max Power Level increases to 2nd, and it learns three additional powers.",
+				"Additionally, your companion can cast powers at 2nd-level twice. It regains all expended uses after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Consular",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Journeyman Forcecasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 11,
+			"entries": [
+				"By 11th level, your companion's Max Power Level increases to 3rd, and it learns three additional powers.",
+				"Additionally, your companion can cast powers at 3rd-level twice. It regains all expended uses after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Consular",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Adept Forcecasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 15,
+			"entries": [
+				"At 15th level, your companion's Max Power Level increases to 4th, and it learns three additional powers.",
+				"Additionally, your companion can cast powers at 4th-level twice. It regains all expended uses after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Consular",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Master Forcecasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 18,
+			"entries": [
+				"As of 18th level, your companion's Max Power Level increases to 5th, and it learns three additional powers.",
+				"Additionally, your companion can cast powers at 5th-level once. It regains the ability to do so after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Consular",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Proficiencies",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@b Armor:} {@filter light armor|items|type=light armor}",
+						"{@b Weapons:} {@filter simple blasters|items|firearm=true|weaponcategory=simple}, {@filter simple vibroweapons|items|type=martial weapon|weaponcategory=simple}",
+						"{@b Tools:} {@item Tinker's implements|sw5e-phb} and one of your choice"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Saving Throws:} Constitution, Intelligence",
+						"{@b Skills:} Choose three from {@skill Investigation|sw5e-phb}, {@skill Lore|sw5e-phb}, {@skill Medicine|sw5e-phb}, {@skill Nature|sw5e-phb}, {@skill Piloting|sw5e-phb}, and {@skill Technology|sw5e-phb}"
+					]
+				}
+			],
+			"subclassShortName": "Engineer",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Techcasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Beginning when your companion chooses this class at 3rd level, during its training it has derived powers from schematics with the aid of a {@item Wristpad|sw5e-phb|wristpad}. See {@book chapter 10|sw5e-phb|10} of the Player's Handbook for the general rules of {@book techcasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 12|sw5e-phb|12} of the Player's Handbook for the {@book tech powers list|sw5e-phb|12|Tech Powers}.",
+				{
+					"type": "entries",
+					"name": "Tech Powers Known",
+					"entries": [
+						"Your companion learns two {@book tech powers|sw5e-phb|12|Tech Powers} of its choice of no higher level than its Max Power Level.",
+						"At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tech Points",
+					"entries": [
+						"Your companion does not require tech points. Instead, it can only cast powers at 1st-level once. It regains the ability to do so after completing a short or {@variantrule Long Rest|sw5e-phb|long rest}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Max Power Level",
+					"entries": [
+						"Your companion's Max Power Level is 1st."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Techcasting Ability",
+					"entries": [
+						"Intelligence is your companion's {@book techcasting ability|sw5e-phb|10|Techcasting Ability} for its {@book tech powers|sw5e-phb|12|Tech Powers}. It uses Intelligence whenever a power refers to its 10. Additionally, it use its Intelligence modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book tech power|sw5e-phb|12|Tech Powers} it casts and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
+						"{@b Tech save DC} = 8 + its {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + its Intelligence modifier",
+						"{@b Tech attack modifier} = its Proficiency Bonus + its Intelligence modifier"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Techcasting Focus",
+					"entries": [
+						"Your companion uses a {@item Wristpad|sw5e-phb|wristpad} (found in {@book chapter 5|sw5e-phb|5} of the Player's Handbook) as a {@book techcasting|sw5e-phb|10|Force- and Tech-casting} focus for its {@book tech powers|sw5e-phb|12|Tech Powers}."
+					]
+				}
+			],
+			"subclassShortName": "Engineer",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Potent Aptitude",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, your companion's technological experience lends it an uncommon insight that it can use to bolster its allies. To do so, it uses a {@variantrule Bonus Action|sw5e-phb} on its turn to choose one creature other than itself within 60 feet of it who can hear it. That creature gains one Potent Aptitude die, a {@dice d4}. This die increases to a {@dice d6} at 7th level and a {@dice d8} at 15th level.",
+				"Once within the next 10 minutes, the creature can roll the die and add the number rolled to one {@variantrule Ability Check|sw5e-phb|ability check}, {@variantrule Attack Roll|sw5e-phb|attack roll}, or {@variantrule Saving Throw|sw5e-phb|saving throw} it makes. The creature can wait until after it rolls the {@dice d20} before deciding to use the Potent Aptitude die, but must decide before the GM says whether the roll succeeds or fails. Once the Potent Aptitude die is rolled, it is lost.",
+				"A creature can have only one Potent Aptitude die at a time.",
+				"Your companion can use this feature once. It gains an additional use at 5th and 13th level. It regains any expended uses when it finishes a short or {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Engineer",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Techcasting, Mark II",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 7,
+			"entries": [
+				"At 7th level, your companion's Max Power Level increases to 2nd, and it learns two additional powers.",
+				"Additionally, your companion can cast powers at 2nd-level once. It regains the ability to do so after completing a short or {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Engineer",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Techcasting, Mark III",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 11,
+			"entries": [
+				"By 11th level, your companion's Max Power Level increases to 3rd, and it learns two additional powers.",
+				"Additionally, your companion can cast powers at 3rd-level once. It regains the ability to do so after completing a short or {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Engineer",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Techcasting, Mark IV",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 15,
+			"entries": [
+				"At 15th level, your companion's Max Power Level increases to 4th, and it learns two additional powers.",
+				"Additionally, your companion can cast powers at 4th-level once. It regains the ability to do so after completing a short or {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Engineer",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Techcasting, Mark V",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 18,
+			"entries": [
+				"As of 18th level, your companion's Max Power Level increases to 5th, and it learns two additional powers.",
+				"Additionally, your companion can cast powers at 5th-level once. It regains all expended uses after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Engineer",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Proficiencies",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@b Armor:} All armor",
+						"{@b Weapons:} {@filter all blasters|items|firearm=true}, {@filter all vibroweapons|items|type=martial weapon}",
+						"{@b Tools:} None"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Saving Throws:} Strength, Constitution",
+						"{@b Skills:} Choose two skills from {@skill Acrobatics|sw5e-phb}, {@skill Animal Handling|sw5e-phb}, {@skill Athletics|sw5e-phb}, {@skill Lore|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Intimidation|sw5e-phb}, {@skill Perception|sw5e-phb}, and {@skill Survival|sw5e-phb}"
+					]
+				}
+			],
+			"subclassShortName": "Fighter",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Second Wind",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Beginning when your companion chooses this class at 3rd level, it has a limited well of stamina that it can draw on to protect itself from harm. On its turn, your companion can use a {@variantrule Bonus Action|sw5e-phb} to regain {@variantrule Hit Points|sw5e-phb|hit points}. It rolls a Hit Die without expending it, regaining a number of hit points equal to the result of the Hit Die + its level.",
+				"Once your companion has used this feature, it must finish a short or {@variantrule Long Rest|sw5e-phb|long rest} before it can use it again."
+			],
+			"subclassShortName": "Fighter",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Action Surge",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, your companion can push itself beyond its normal limits for a moment. On its turn, it can take one additional action on top of its regular action and possible bonus actions.",
+				"Once your companion has used this feature, it must finish a short or {@variantrule Long Rest|sw5e-phb|long rest} before it can use it again."
+			],
+			"subclassShortName": "Fighter",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Martial Superiority",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 7,
+			"entries": [
+				"At 7th level, your companion has learned maneuvers that are fueled by special dice called {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}. See {@book chapter 13|sw5e-phb|13} of the Player's Handbook for the {@book maneuvers list|sw5e-phb|13|Maneuvers}.",
+				{
+					"type": "entries",
+					"name": "Maneuvers",
+					"entries": [
+						"Your companion learns one maneuver of its choice. Many maneuvers enhance an attack in some way. Your companion can use only one maneuver per attack, and it may only use each maneuver once per turn.",
+						"Your companion learns an additional maneuver at 5th, 9th, 13th, 15th, and 17th level. Each time your companion gains a level, it can also replace one maneuver it knows with a different one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Superiority Dice",
+					"entries": [
+						"Your companion has one {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}, which is {@dice d4}. This die increases to a {@dice d6} at 9th level and a {@dice d8} at 17th level. A superiority die is expended when your companion uses it. Your companion regains all of its expended 13 when it finishes a short or {@variantrule Long Rest|sw5e-phb|long rest}.",
+						"Your companion gains an additional superiority die at 9th and 17th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Maneuver Ability",
+					"entries": [
+						"Your companion's {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} varies based on the type of the maneuver it uses. It uses Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (its choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (its choice), and an ability of its choice for {@book general maneuvers|sw5e-phb|13|General}. It uses this ability whenever a maneuver refers to its 13. Additionally, it uses this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a maneuver it uses.",
+						"{@b Maneuver save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your maneuver ability modifier"
+					]
+				}
+			],
+			"subclassShortName": "Fighter",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Extra Attack",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 11,
+			"entries": [
+				"By 11th level, your companion can attack twice, instead of once, whenever it takes the {@action Attack|sw5e-phb} action on its turn."
+			],
+			"subclassShortName": "Fighter",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Indomitable",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 15,
+			"entries": [
+				"At 15th level, your companion can reroll a {@variantrule Saving Throw|sw5e-phb|saving throw} that it fails. If it does so, it must use the new roll.",
+				"Your companion can use this feature twice. It regains all expended uses when it completes a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Fighter",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Greater Extra Attack",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 18,
+			"entries": [
+				"As of 18th level, your companion can attack three times, instead of once, whenever it takes the {@action Attack|sw5e-phb} action on its turn.",
+				"Additionally, when your companion uses a {@variantrule Bonus Action|sw5e-phb} to engage in Double- or Two-Weapon Fighting, it can make two attacks, instead of one."
+			],
+			"subclassShortName": "Fighter",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Proficiencies",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@b Armor:} {@filter light armor|items|type=light armor}, {@filter medium armor|items|type=medium armor}",
+						"{@b Weapons:} {@filter all lightweapons|items|type=martial weapon|category=lightweapon}, {@filter all vibroweapons|items|type=martial weapon}",
+						"{@b Tools:} None"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Saving Throws:} Constitution, Charisma",
+						"{@b Skills:} Choose two from {@skill Acrobatics|sw5e-phb}, {@skill Athletics|sw5e-phb}, {@skill Deception|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Intimidation|sw5e-phb}, {@skill Lore|sw5e-phb}, {@skill Perception|sw5e-phb}, {@skill Persuasion|sw5e-phb}, and {@skill Piloting|sw5e-phb}"
+					]
+				}
+			],
+			"subclassShortName": "Guardian",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Forcecasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Beginning when your companion chooses this class at 3rd level, it has learned powers, fragments of knowledge that imbue it with an abiding force ability. See {@book chapter 10|sw5e-phb|10} of the Player's Handbook for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11} of the Player's Handbook for the {@book force powers list|sw5e-phb|11|Force Powers}.",
+				{
+					"type": "entries",
+					"name": "Force Powers Known",
+					"entries": [
+						"Your companion learns three {@book force powers|sw5e-phb|11|Force Powers} of its choice of no higher level than its Max Power Level. It may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time it learns its prerequisite.",
+						"At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Force Points",
+					"entries": [
+						"Your companion does not require force points. Instead, it can only cast powers at 1st-level twice. It regains all expended uses after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Max Power Level",
+					"entries": [
+						"Your companion's Max Power Level is 1st."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Forcecasting Ability",
+					"entries": [
+						"Your companion's {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. It uses Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (its choice). It uses this ability score modifier whenever a power refers to its 10. Additionally, it uses this ability score modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} it casts and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
+						"{@b Force save DC} = 8 + its {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + its 10 modifier",
+						"{@b Force attack modifier} = its Proficiency Bonus + its 10 modifier"
+					]
+				}
+			],
+			"subclassShortName": "Guardian",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Channel the Force",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, your companion knows how to channel the Force to create a unique effect. Your companion starts with its choice of one from two such effects: Cause Harm or Lend Aid.",
+				"Some Channel the Force effects require {@variantrule Saving Throw|sw5e-phb|saving throws}. When your companion uses such an effect from this class, the DC equals its universal force save DC.",
+				"Your companion can use this feature a number of times equal to its Wisdom or Charisma modifier (your companion's choice, minimum of once). Your companion regains all expended uses when it finishes a short or {@variantrule Long Rest|sw5e-phb|long rest}.",
+				{
+					"type": "entries",
+					"name": "Cause Harm",
+					"entries": [
+						"As an action, your companion can expend a use of its Channel the Force to sap the life from a hostile creature it can see within 60 feet. That creature must make a Constitution {@variantrule Saving Throw|sw5e-phb|saving throw}. On a failed save, the creature takes necrotic damage equal to your companion's level + its Charisma modifier (minimum of one), or half as much on a successful one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lend Aid",
+					"entries": [
+						"As a {@variantrule Bonus Action|sw5e-phb}, your companion can expend a use of its Channel the Force and touch a beast or humanoid within 5 feet of it. That creature regains {@variantrule Hit Points|sw5e-phb|hit points} equal to your companion's guardian level + its Wisdom modifier (minimum of one). Alternatively, if the beast or humanoid is {@condition Poisoned|sw5e-phb|poisoned} or {@condition Diseased|sw5e-phb|diseased}, your companion neutralizes the poison or disease. If more than one poison or disease afflicts the target, your companion neutralizes one poison or disease that it knows is present, or it neutralizes one at random."
+					]
+				}
+			],
+			"subclassShortName": "Guardian",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Apprentice Forcecasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 7,
+			"entries": [
+				"At 7th level, your companion's Max Power Level increases to 2nd, and it learns three additional powers.",
+				"Additionally, your companion can cast powers at 2nd-level twice. It regains all expended uses after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Guardian",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Extra Attack",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 11,
+			"entries": [
+				"By 11th level, your companion can attack twice, instead of once, whenever it takes the {@action Attack|sw5e-phb} action on its turn."
+			],
+			"subclassShortName": "Guardian",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Force Purity",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 15,
+			"entries": [
+				"At 15th level, the Force flowing through your companion makes it immune to poison and disease."
+			],
+			"subclassShortName": "Guardian",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Journeyman Forcecasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 18,
+			"entries": [
+				"As of 18th level, your companion's Max Power Level increases to 3rd, and it learns three additional powers.",
+				"Additionally, your companion can cast powers at 3rd-level once. It regains the ability to do so after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Guardian",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Proficiencies",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@b Armor:} None",
+						"{@b Weapons:} {@filter simple blasters|items|firearm=true|weaponcategory=simple}, {@filter simple vibroweapons|items|type=martial weapon|weaponcategory=simple}, chakrams, {@item Techblade|sw5e-phb|techblades}",
+						"{@b Tools:} None"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Saving Throws:} Strength, Dexterity",
+						"{@b Skills:} Choose two from {@skill Acrobatics|sw5e-phb}, {@skill Athletics|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Lore|sw5e-phb}, {@skill Perception|sw5e-phb}, and {@skill Stealth|sw5e-phb}"
+					]
+				}
+			],
+			"subclassShortName": "Monk",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Martial Arts",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Beginning when your companion chooses this class at 3rd level, your companion's practice of martial arts gives it mastery of combat styles that use {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} and martial artist weapons, which are any {@filter simple vibroweapons|items|type=martial weapon|weaponcategory=simple} that don't have the two-handed property.",
+				"Your companion gains the following benefits while it is unarmed or wielding only martial artist weapons and isn't wearing armor or wielding a shield:",
+				{
+					"type": "list",
+					"items": [
+						"Your companion can use Dexterity instead of Strength for the attack and damage rolls of its {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} and martial artist weapons.",
+						"Your companion can roll a {@dice d4} in place of the normal damage of its unarmed strike or martial artist weapons. This die becomes a {@dice d6} at 7th level and a {@dice d8} at 15th level.",
+						"Your companion can use Dexterity instead of Strength whenever it would make a Strength ({@skill Athletics|sw5e-phb}) check to grapple, shove, or trip a creature.",
+						"When your companion takes the {@action Attack|sw5e-phb} action with an unarmed strike or a martial artist weapon on your turn, it can make one unarmed strike as a {@variantrule Bonus Action|sw5e-phb}.",
+						"Your companion can take the Dash and Disengage actions as a {@variantrule Bonus Action|sw5e-phb}."
+					]
+				}
+			],
+			"subclassShortName": "Monk",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Unarmored Defense",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, while your companion is wearing no armor and not wielding a shield, its AC equals 10 + its Dexterity modifier + its Wisdom or Charisma modifier (your companion's choice)."
+			],
+			"subclassShortName": "Monk",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Focus",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 7,
+			"entries": [
+				"At 7th level, your companion's training allows it to harness the mystic energy of focus. Its access to this energy is represented by a number of focus points. Your companion has three focus points. It gains an additional focus point at 9th, 13th, and 17th level.",
+				"Your companion can spend these points to fuel various focus features. Your companion knows three such features: Flurry of Blows, Patient Defense, and Step of the Wind.",
+				"&emsp;When your companion spends a focus point, it is unavailable until your companion finishes a short or {@variantrule Long Rest|sw5e-phb|long rest}, at the end of which it draws all of its expended focus back into itself. Your companion must spend at least 30 minutes of the rest meditating to regain its focus points.",
+				"Some of your companion's focus features require your target to make a {@variantrule Saving Throw|sw5e-phb|saving throw} to resist the feature's effects. The saving throw DC is calculated as follows:",
+				"{@b Focus save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your Wisdom or Charisma modifier (your choice)",
+				{
+					"type": "entries",
+					"name": "Flurry of Blows",
+					"entries": [
+						"When your companion makes its Martial Arts {@variantrule Bonus Action|sw5e-phb} unarmed strike, it can spend 1 focus point to make an additional unarmed strike (no action required). At 18 level, it can instead spend 2 focus points to make two additional {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Patient Defense",
+					"entries": [
+						"When your companion uses its {@variantrule Bonus Action|sw5e-phb} to Disengage, it can spend 1 focus point to also Dodge (no action required). At 18th level, it can instead spend 2 focus points to Dodge and gain an additional {@variantrule Reaction|sw5e-phb} until the start of its next turn. It can only take one Reaction per turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Step of the Wind",
+					"entries": [
+						"When your companion uses its {@variantrule Bonus Action|sw5e-phb} to Dash, it can spend 1 focus point to double its jump distance for the turn. At 18th level, it can instead spend 2 focus points to gain a flying {@variantrule Speed|sw5e-phb|speed} equal to its walking speed until the end of your turn, though it falls if it ends its speed in the air and nothing else is holding it aloft."
+					]
+				}
+			],
+			"subclassShortName": "Monk",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Enhanced Strikes",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 7,
+			"entries": [
+				"Also at 7th level, your companion's {@variantrule Unarmed Strike|sw5e-phb|unarmed strikes} count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage."
+			],
+			"subclassShortName": "Monk",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Extra Attack",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 11,
+			"entries": [
+				"By 11th level, your companion can attack twice, instead of once, whenever it takes the {@action Attack|sw5e-phb} action on its turn."
+			],
+			"subclassShortName": "Monk",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Evasion",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 15,
+			"entries": [
+				"At 15th level, when your companion is subjected to an effect, such as a consular's {@i force storm} or an engineer's {@i explosion}, that allows it to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} to take only half damage, it instead take no damage if it succeeds on a saving throw, and only half damage if it fails."
+			],
+			"subclassShortName": "Monk",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Diamond Soul",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 18,
+			"entries": [
+				"As of 18th level, your companion gains proficiency in all {@variantrule Saving Throw|sw5e-phb|saving throws}. Additionally, whenever your companion fails a saving throw, it can spend 1 focus point to reroll it and take the second result."
+			],
+			"subclassShortName": "Monk",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Proficiencies",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@b Armor:} {@filter light armor|items|type=light armor}",
+						"{@b Weapons:} {@filter simple blasters|items|firearm=true|weaponcategory=simple}, {@filter simple vibroweapons|items|type=martial weapon|weaponcategory=simple}, {@item Blaster pistol|sw5e-phb}, {@item Hidden blade|sw5e-phb|hidden blade}, {@item Techblade|sw5e-phb}, {@item Vibrorapier|sw5e-phb|vibrorapier}",
+						"{@b Tools:} One {@feat Specialist|sw5e-phb|specialist}'s kit of your choice"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Saving Throws:} Dexterity, Intelligence",
+						"{@b Skills:} Choose any four"
+					]
+				}
+			],
+			"subclassShortName": "Operative",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Sneak Attack",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Beginning when your companion chooses this class at 3rd level, your companion knows how to strike subtly and exploit a foe's distraction. Once per turn, it can deal an extra 1d6 damage to one creature it hits with an attack if it has {@variantrule Advantage|sw5e-phb|advantage} on the {@variantrule Attack Roll|sw5e-phb|attack roll}. The attack must use a finesse or a ranged weapon.",
+				"Your companion doesn't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition Incapacitated|sw5e-phb|incapacitated}, and your companion doesn't have {@variantrule Disadvantage|sw5e-phb|disadvantage} on the attack roll.",
+				"The amount of extra damage increases to 2d6 at 7th level, 3d6 at 11th level, 4d6 at 15th level, and 5d6 at 17th level."
+			],
+			"subclassShortName": "Operative",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Cunning Action",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, your companion's quick thinking and agility allow it to move and act quickly. Your companion can take a {@variantrule Bonus Action|sw5e-phb} on each of its turns in combat. This action can be used only to take the Dash, Disengage, or {@action Hide|sw5e-phb} action."
+			],
+			"subclassShortName": "Operative",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Bad Feeling",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 7,
+			"entries": [
+				"At 7th level, your companion has a wary eye, bordering on paranoia. When your companion rolls for {@variantrule Initiative|sw5e-phb|initiative}, it can move up to its {@variantrule Speed|sw5e-phb|speed}. This movement happens before the initiative order is determined.",
+				"Once your companion has used this feature, it must finish a {@variantrule Long Rest|sw5e-phb|long rest} before it can use it again."
+			],
+			"subclassShortName": "Operative",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Uncanny Dodge",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 11,
+			"entries": [
+				"By 11th level, when an attacker that your companion can see hits it with an attack, your companion can use its {@variantrule Reaction|sw5e-phb} to halve the attack's damage against it."
+			],
+			"subclassShortName": "Operative",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Evasion",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 15,
+			"entries": [
+				"At 15th level, when your companion is subjected to an effect, such as a consular's {@i force storm} or an engineer's {@i explosion}, that allows it to make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} to take only half damage, it instead take no damage if it succeeds on a saving throw, and only half damage if it fails."
+			],
+			"subclassShortName": "Operative",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Reliable Talent",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 18,
+			"entries": [
+				"As of 18th level, your companion has refined its chosen skills until they approach perfection. Whenever your companion makes an {@variantrule Ability Check|sw5e-phb|ability check} that lets it add its {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, it can treat a {@dice d20} roll of 9 or lower as a 10."
+			],
+			"subclassShortName": "Operative",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Proficiencies",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@b Armor:} {@filter light armor|items|type=light armor}",
+						"{@b Weapons:} {@filter simple blasters|items|firearm=true|weaponcategory=simple}, {@filter simple vibroweapons|items|type=martial weapon|weaponcategory=simple}, {@item Techblade|sw5e-phb|techblades}",
+						"{@b Tools:} Any one"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Saving Throws:} Wisdom, Intelligence",
+						"{@b Skills:} Choose three from {@skill Deception|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Intimidation|sw5e-phb}, {@skill Investigation|sw5e-phb}, {@skill Lore|sw5e-phb}, {@skill Medicine|sw5e-phb}, {@skill Nature|sw5e-phb}, {@skill Persuasion|sw5e-phb}, and {@skill Survival|sw5e-phb}"
+					]
+				}
+			],
+			"subclassShortName": "Scholar",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Academic Superiority",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Beginning when your companion chooses this class at 3rd level, your companion has learned maneuvers that are fueled by special dice called {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}. See {@book chapter 13|sw5e-phb|13} of the Player's Handbook for the {@book maneuvers list|sw5e-phb|13|Maneuvers}.",
+				{
+					"type": "entries",
+					"name": "Maneuvers",
+					"entries": [
+						"Your companion learns two maneuvers of its choice. Many maneuvers enhance an attack in some way. Your companion can use only one maneuver per attack, and it may only use each maneuver once per turn.",
+						"Your companion learns an additional maneuver at 5th, 7th, 9th, 11th, 13th, 15th, and 17th level. Each time your companion gains a level, it can also replace one maneuver it knows with a different one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Superiority Dice",
+					"entries": [
+						"Your companion has two {@book superiority dice|sw5e-phb|13|Superiority and Maneuvers}, which are d4s. This die increases to a {@dice d6} at 9th level and a {@dice d8} at 17th level. A superiority die is expended when your companion uses it. Your companion regains all of its expended 13 when it finishes a short or {@variantrule Long Rest|sw5e-phb|long rest}.",
+						"Your companion gains an additional superiority die at 5th, 9th, 13th, and 17th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Maneuver Ability",
+					"entries": [
+						"Your companion's {@book maneuver ability|sw5e-phb|13|Superiority and Maneuvers} varies based on the type of the maneuver it uses. It uses Strength, Dexterity, or Constitution for {@book physical maneuvers|sw5e-phb|13|Physical} (its choice), Intelligence, Wisdom, or Charisma for {@book mental maneuvers|sw5e-phb|13|Mental} (its choice), and an ability of its choice for {@book general maneuvers|sw5e-phb|13|General}. It uses this ability whenever a maneuver refers to its 13. Additionally, it uses this ability modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a maneuver it uses.",
+						"{@b Maneuver save DC} = 8 + your {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + your maneuver ability modifier"
+					]
+				}
+			],
+			"subclassShortName": "Scholar",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Critical Analysis",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, it is able to {@spell Analyze|sw5e-phb|analyze} a target, develop a plan on how to best overcome any potential obstacle, and execute that plan with ruthless efficiency. As a {@variantrule Bonus Action|sw5e-phb} on its turn, your companion can analyze a target it can see within 60 feet of it. For the next minute, or until your companion analyzes another target, it gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When your companion analyzes a hostile creature, its attack and damage rolls made with weapons with {@itemProperty SWF|sw5e-phb|the finesse property} or {@filter blaster|items|firearm=true} weapons against that target may use its Intelligence modifier instead of Strength or Dexterity.",
+						"When your companion analyzes a friendly creature, the target can end your companion's Critical Analysis on them (no action required) to add your companion's Intelligence modifier to one {@variantrule Attack Roll|sw5e-phb|attack roll}, {@variantrule Ability Check|sw5e-phb|ability check}, or {@variantrule Saving Throw|sw5e-phb|saving throw}. Once a friendly creature has benefited from this ability, they can not do so again until they complete a short or {@variantrule Long Rest|sw5e-phb|long rest}."
+					]
+				}
+			],
+			"subclassShortName": "Scholar",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Discoveries",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 7,
+			"entries": [
+				"At 7th level, your companion learns two discoveries from those available to the scholar class or any of the scholar's archetypes."
+			],
+			"subclassShortName": "Scholar",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Multitasker",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 11,
+			"entries": [
+				"By 11th level, your companion can take a second {@variantrule Reaction|sw5e-phb} each round. It can only take one Reaction per turn."
+			],
+			"subclassShortName": "Scholar",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Sage Advice",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 15,
+			"entries": [
+				"At 15th level, your companion can spend 1 minute spread its knowledge and experience, advising those around it. When it does so, your companion chooses a skill or tool it is proficient with and a number of friendly creatures up to its Intelligence modifier with 30 feet of it who can hear it and understand it. Once within the next hour, the next time each creature would make an {@variantrule Ability Check|sw5e-phb|ability check} with the chosen skill or tool, they may add their {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} to the roll if they are not already proficient. A creature may only benefit from this feature once. If a creature is targeted by this feature again before using it, they can choose to retain the first benefit or replace it with the new skill or tool instead.",
+				"Once your companion has used this feature, it must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before it can use it again."
+			],
+			"subclassShortName": "Scholar",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Calm and Collected",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 18,
+			"entries": [
+				"As of 18th level, when your companion makes a {@variantrule Saving Throw|sw5e-phb|saving throw} caused by an effect it can see, it may gain a bonus to the saving throw equal to its Intelligence modifier.",
+				"Once your companion has used this feature, it must complete a short or {@variantrule Long Rest|sw5e-phb|long rest} before it can use it again."
+			],
+			"subclassShortName": "Scholar",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Proficiencies",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@b Armor:} {@filter light armor|items|type=light armor}, {@filter medium armor|items|type=medium armor}",
+						"{@b Weapons:} {@filter all blasters|items|firearm=true}, {@filter all vibroweapons|items|type=martial weapon}",
+						"{@b Tools:} None"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Saving Throws:} Strength, Dexterity",
+						"{@b Skills:} Choose three from {@skill Animal Handling|sw5e-phb}, {@skill Athletics|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Investigation|sw5e-phb}, {@skill Perception|sw5e-phb}, {@skill Piloting|sw5e-phb}, {@skill Stealth|sw5e-phb}, {@skill Survival|sw5e-phb}, and {@skill Technology|sw5e-phb}"
+					]
+				}
+			],
+			"subclassShortName": "Scout",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Techcasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Beginning when your companion chooses this class at 3rd level, during its training it has derived powers from schematics with the aid of a {@item Wristpad|sw5e-phb|wristpad}. See {@book chapter 10|sw5e-phb|10} of the Player's Handbook for the general rules of {@book techcasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 12|sw5e-phb|12} of the Player's Handbook for the {@book tech powers list|sw5e-phb|12|Tech Powers}.",
+				{
+					"type": "entries",
+					"name": "Tech Powers Known",
+					"entries": [
+						"Your companion learns two {@book tech powers|sw5e-phb|12|Tech Powers} of its choice of no higher level than its Max Power Level.",
+						"At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tech Points",
+					"entries": [
+						"Your companion does not require tech points. Instead, it can only cast powers at 1st-level once. It regains the ability to do so after completing a short or {@variantrule Long Rest|sw5e-phb|long rest}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Max Power Level",
+					"entries": [
+						"Your companion's Max Power Level is 1st."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Techcasting Ability",
+					"entries": [
+						"Intelligence is your companion's {@book techcasting ability|sw5e-phb|10|Techcasting Ability} for its {@book tech powers|sw5e-phb|12|Tech Powers}. It uses Intelligence whenever a power refers to its 10. Additionally, it use its Intelligence modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book tech power|sw5e-phb|12|Tech Powers} it casts and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
+						"{@b Tech save DC} = 8 + its {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + its Intelligence modifier",
+						"{@b Tech attack modifier} = its Proficiency Bonus + its Intelligence modifier"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Techcasting Focus",
+					"entries": [
+						"Your companion uses a {@item Wristpad|sw5e-phb|wristpad} (found in {@book chapter 5|sw5e-phb|5} of the Player's Handbook) as a {@book techcasting|sw5e-phb|10|Force- and Tech-casting} focus for its {@book tech powers|sw5e-phb|12|Tech Powers}."
+					]
+				}
+			],
+			"subclassShortName": "Scout",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Ranger's Quarry",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, your companion learns how to effectively read and track its prey. Once on each of its turns, your companion can choose a creature it can see within 120 feet and mark it as its quarry (no action required). For the next hour, your companion gains the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"Once per turn, when your companion hits the target with a {@variantrule Attack Roll|sw5e-phb|weapon attack}, it can deal 1d4 additional damage to it of the same type as the weapon's damage. This die increases to a {@dice d6} at 7th level and a {@dice d8} at 15th level.",
+						"Your companion has {@variantrule Advantage|sw5e-phb|advantage} on any Wisdom ({@skill Perception|sw5e-phb}) or Wisdom ({@skill Survival|sw5e-phb}) check it makes to find the target while it's on the same planet as your companion."
+					]
+				},
+				"Your companion can only have one creature marked in this way at a time. Beginning at 11th level, your companion can use its {@variantrule Reaction|sw5e-phb} to mark a creature when it enters its line of sight, provided it is within range of your companion's Ranger's Quarry.",
+				"The duration increases to 8 hours at 11th level."
+			],
+			"subclassShortName": "Scout",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Techcasting, Mark II",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 7,
+			"entries": [
+				"At 7th level, your companion's Max Power Level increases to 2nd, and it learns two additional powers.",
+				"Additionally, your companion can cast powers at 2nd-level once. It regains the ability to do so after completing a short or {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Scout",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Extra Attack",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 11,
+			"entries": [
+				"By 11th level, your companion can attack twice, instead of once, whenever it takes the {@action Attack|sw5e-phb} action on its turn."
+			],
+			"subclassShortName": "Scout",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Commando",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 15,
+			"entries": [
+				"At 15th level, your companion can take the Dash or Hide actions as a {@variantrule Bonus Action|sw5e-phb} on each of its turns. Additionally, it can remain perfectly still for long periods of time to set up ambushes.",
+				"When your companion attempts to hide on its turn, it can opt to not move on that turn. If it avoids moving, creatures that attempt to detect it take a -10 penalty to their Wisdom ({@skill Perception|sw5e-phb}) checks until the start of your companion's next turn. Your companion loses this benefit if it moves or falls {@condition Prone|sw5e-phb|prone}, either voluntarily or because of some external effect. It is still automatically detected if any effect or action causes it to no longer be hidden.",
+				"If your companion is still hidden on its next turn, it can continue to remain motionless and gain this benefit until it is detected.",
+				"Additionally, your companion can no longer be tracked by unenhanced means, unless it chooses to leave a trail."
+			],
+			"subclassShortName": "Scout",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Techcasting, Mark III",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 18,
+			"entries": [
+				"As of 18th level, your companion's Max Power Level increases to 3rd, and it learns two additional powers.",
+				"Additionally, your companion can cast powers at 3rd-level once. It regains the ability to do so after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Scout",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Proficiencies",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"{@b Armor:} {@filter light armor|items|type=light armor}",
+						"{@b Weapons:} Simple {@filter vibroweapons|items|type=martial weapon}, {@filter simple lightweapons|items|type=martial weapon|category=lightweapon}, {@item Chakram|sw5e-phb|chakram}, {@item Doubleblade|sw5e-phb|doubleblade}, {@item Doublesaber|sw5e-phb|doublesaber}, {@item Doubleshoto|sw5e-phb|doubleshoto}, {@item Doublesword|sw5e-phb|doublesword}, {@item Hidden blade|sw5e-phb|hidden blade}, {@item Lightfoil|sw5e-phb|lightfoil}, light ring, {@item Saberwhip|sw5e-phb|saberwhip}, {@item Vibrorapier|sw5e-phb|vibrorapier}, {@item Vibrowhip|sw5e-phb|vibrowhip}",
+						"{@b Tools:} One {@feat Specialist|sw5e-phb|specialist}'s kit of your choice"
+					]
+				},
+				{
+					"type": "list",
+					"items": [
+						"{@b Saving Throws:} Dexterity, Charisma",
+						"{@b Skills:} Choose three from {@skill Acrobatics|sw5e-phb}, {@skill Animal Handling|sw5e-phb}, {@skill Insight|sw5e-phb}, {@skill Intimidation|sw5e-phb}, {@skill Perception|sw5e-phb}, {@skill Persuasion|sw5e-phb}, {@skill Piloting|sw5e-phb}, {@skill Stealth|sw5e-phb}, and {@skill Technology|sw5e-phb}"
+					]
+				}
+			],
+			"subclassShortName": "Sentinel",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Forcecasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Beginning when your companion chooses this class at 3rd level, it has learned powers, fragments of knowledge that imbue it with an abiding force ability. See {@book chapter 10|sw5e-phb|10} of the Player's Handbook for the general rules of {@book forcecasting|sw5e-phb|10|Force- and Tech-casting} and {@book chapter 11|sw5e-phb|11} of the Player's Handbook for the {@book force powers list|sw5e-phb|11|Force Powers}.",
+				{
+					"type": "entries",
+					"name": "Force Powers Known",
+					"entries": [
+						"Your companion learns three {@book force powers|sw5e-phb|11|Force Powers} of its choice of no higher level than its Max Power Level. It may learn a {@book force power|sw5e-phb|11|Force Powers} at the same time it learns its prerequisite.",
+						"At-will powers chosen by your companion do not scale normally at higher levels. Instead, if they would scale at 5th level, they instead scale at 11th level, and if they would scale at 11th level, they instead scale at 17th level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Force Points",
+					"entries": [
+						"Your companion does not require force points. Instead, it can only cast powers at 1st-level twice. It regains all expended uses after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Max Power Level",
+					"entries": [
+						"Your companion's Max Power Level is 1st."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Forcecasting Ability",
+					"entries": [
+						"Your companion's {@book forcecasting ability|sw5e-phb|10|Forcecasting Ability} varies based on the alignment of the powers you cast. It uses Wisdom for {@book light side powers|sw5e-phb|11|Force Powers}, Charisma for {@book dark side powers|sw5e-phb|11|Force Powers}, and Wisdom or Charisma for {@book universal powers|sw5e-phb|11|Force Powers} (its choice). It uses this ability score modifier whenever a power refers to its 10. Additionally, it uses this ability score modifier when setting the {@variantrule Saving Throw|sw5e-phb|saving throw} DC for a {@book force power|sw5e-phb|11|Force Powers} it casts and when making an {@variantrule Attack Roll|sw5e-phb|attack roll} with one.",
+						"{@b Force save DC} = 8 + its {@variantrule Proficiency|sw5e-phb|Proficiency Bonus} + its 10 modifier",
+						"{@b Force attack modifier} = its Proficiency Bonus + its 10 modifier"
+					]
+				}
+			],
+			"subclassShortName": "Sentinel",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Led by the Force",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 3,
+			"entries": [
+				"Also at 3rd level, your companion can add half its {@variantrule Proficiency|sw5e-phb|Proficiency Bonus}, rounded down, to any {@variantrule Ability Check|sw5e-phb|ability check} it makes that doesn't already include its Proficiency Bonus."
+			],
+			"subclassShortName": "Sentinel",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Apprentice Forcecasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 7,
+			"entries": [
+				"At 7th level, your companion's Max Power Level increases to 2nd, and it learns three additional powers.",
+				"Additionally, your companion can cast powers at 2nd-level twice. It regains all expended uses after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Sentinel",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Extra Attack",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 11,
+			"entries": [
+				"By 11th level, your companion can attack twice, instead of once, whenever it takes the {@action Attack|sw5e-phb} action on its turn."
+			],
+			"subclassShortName": "Sentinel",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Journeyman Forcecasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 15,
+			"entries": [
+				"At 15th level, your companion's Max Power Level increases to 3rd, and it learns three additional powers.",
+				"Additionally, your companion can cast powers at 3rd-level twice. It regains all expended uses after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Sentinel",
+			"subclassSource": "sw5e-ec"
+		},
+		{
+			"name": "Adept Forcecasting",
+			"source": "sw5e-ec",
+			"page": 3,
+			"className": "Follower",
+			"classSource": "sw5e-ec",
+			"level": 18,
+			"entries": [
+				"As of 18th level, your companion's Max Power Level increases to 4th, and it learns three additional powers.",
+				"Additionally, your companion can cast powers at 4th-level once. It regains the ability to do so after completing a {@variantrule Long Rest|sw5e-phb|long rest}."
+			],
+			"subclassShortName": "Sentinel",
+			"subclassSource": "sw5e-ec"
+		}
+	],
+	"classFluff": [
+		{
+			"name": "Follower",
+			"source": "sw5e-ec",
+			"entries": [
+				"Expanded Content companion sidekick progression. Choose a {@variantrule Companion Natures|sw5e-ec} at 1st level, then a companion class at 3rd level.",
+				"A companion is a creature who accompanies you on your adventures. It might take the form of a fearsome beast, a padawan learner, a droid sidekick, or a mischievous spirit. Some companions are an integral part of an archetype, while others are simple NPCs that characters encounter and adopt during their adventures.",
+				{
+					"type": "entries",
+					"name": "Companion Natures",
+					"entries": [
+						"Choose one nature at 1st level:",
+						{
+							"type": "list",
+							"columns": 2,
+							"items": [
+								"{@book Aberrant Companion|sw5e-ec|3|Companion Natures}",
+								"{@variantrule Beast Companion|sw5e-ec}",
+								"{@variantrule Droid Companion|sw5e-ec}",
+								"{@variantrule Humanoid Companion|sw5e-ec}",
+								"{@book Spirit Companion|sw5e-ec|3|Companion Natures}",
+								"{@book Thrall Companion|sw5e-ec|3|Companion Natures}",
+								"{@variantrule Tracker Droid Companion|sw5e-ec}",
+								"{@variantrule Turret Companion|sw5e-ec}"
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

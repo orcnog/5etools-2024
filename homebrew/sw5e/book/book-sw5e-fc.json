@@ -715,12 +715,7 @@
 						},
 						{
 							"type": "inset",
-							"entries": [
-								"―Mara Jade"
-							]
-						},
-						{
-							"type": "inset",
+							"name": "―Mara Jade",
 							"entries": [
 								"{@i \"Who were my targets? You name 'em. Ambitious planetary governers, greedy crime lords, disloyal officers. Did I believe they were threats to the general public? Most of them. Did I ever feel sorry for them? Emotions were never part of the job.}"
 							]
@@ -2269,18 +2264,7 @@
 										"Sith'ari was a title that, in the ancient Sith, meant \"Lord\" or \"Overlord,\" first claimed by King Adas. After Adas's death, the term became the subject of a legend prophesying the coming of a being that would lead and destroy the Sith, but in doing so would make the Sith more powerful than ever before. In this context, the term came to mean \"perfect being\" or \"god.\"",
 										{
 											"type": "inset",
-											"entries": [
-												"{@b {@i The Sith'ari will be free of limits.}}"
-											]
-										},
-										{
-											"type": "inset",
-											"entries": [
-												"{@b {@i The Sith'ari will lead the Sith and destroy them.}}"
-											]
-										},
-										{
-											"type": "inset",
+											"name": "{@b {@i The Sith'ari will be free of limits.}} {@b {@i The Sith'ari will lead the Sith and destroy them.}}",
 											"entries": [
 												"{@b {@i The Sith'ari will raise the Sith from death and make them stronger than before.}}"
 											]

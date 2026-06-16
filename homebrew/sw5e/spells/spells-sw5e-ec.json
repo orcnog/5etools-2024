@@ -13,7 +13,16 @@
 					"cursor"
 				]
 			}
-		]
+		],
+		"currencyConversions": {
+			"Credits": [
+				{
+					"coin": "cr",
+					"mult": 0.1,
+					"isFallback": true
+				}
+			]
+		}
 	},
 	"spell": [
 		{
@@ -415,12 +424,12 @@
 								"CHA"
 							],
 							"colStyles": [
-								"col-4 text-left",
-								"col-4 text-left",
-								"col-4 text-left",
-								"col-4 text-left",
-								"col-4 text-left",
-								"col-4 text-left"
+								"col-2 text-left",
+								"col-2 text-left",
+								"col-2 text-left",
+								"col-2 text-left",
+								"col-2 text-left",
+								"col-2 text-left"
 							],
 							"rows": [
 								[
@@ -433,7 +442,9 @@
 								]
 							]
 						},
-						"- {@b Damage Vulnerabilities} ion - {@b Damage Resistances} necrotic, poison, psychic - {@b Condition Immunities} disease, {@condition Poisoned|sw5e-phb|poisoned} - {@b Senses} {@sense Darkvision|sw5e-phb|darkvision} 60 ft, passive {@skill Perception|sw5e-phb} 12 - {@b Languages} {@language Galactic Basic|sw5e-phb}, {@language Binary|sw5e-phb|Binary}, understands the languages you speak - {@b Proficiency Bonus} equals your bonus {@b {@i Circuitry.}} The construct has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would deal ion or lightning damage. {@b {@i Surveillance (Probe Only).}} The probe is proficient in {@skill Perception|sw5e-phb} and one other skill or tool of your choice. ### Actions {@b {@i Multiattack.}} The droid makes a number of attacks equal to half this power’s level (rounded down). {@b {@i Blaster.}} {@i Ranged Weapon Attack:} your tech attack modifier to hit, range 60/240 ft., one target. Hit: 1d6 + 3 + the power's level energy damage. {@b {@i Vibroweapon. (Battle Only)}} {@i Melee Weapon Attack:} your tech attack modifier to hit, reach 5 ft., one target. Hit: 1d12 + 3 + the power's level kinetic damage. {@b {@i Flamethrower. (Pyro Only)}} The droid shoots a stream of flame from itself in a 15-foot cone. Creatures in the cone must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw} (DC = your tech save DC). On a failure, the creature takes 1d8 fire damage + 1d8 fire damage for each power level above 2nd. On a success, the creature takes half as much damage. This cannot be used with Multiattack."
+						"- {@b Damage Vulnerabilities} ion - {@b Damage Resistances} necrotic, poison, psychic - {@b Condition Immunities} disease, {@condition Poisoned|sw5e-phb|poisoned} - {@b Senses} {@sense Darkvision|sw5e-phb|darkvision} 60 ft, passive {@skill Perception|sw5e-phb} 12 - {@b Languages} {@language Galactic Basic|sw5e-phb}, {@language Binary|sw5e-phb|Binary}, understands the languages you speak - {@b Proficiency Bonus} equals your bonus",
+						"{@b {@i Circuitry.}} The construct has {@variantrule Disadvantage|sw5e-phb|disadvantage} on {@variantrule Saving Throw|sw5e-phb|saving throws} against effects that would deal ion or lightning damage.",
+						"{@b {@i Surveillance (Probe Only).}} The probe is proficient in {@skill Perception|sw5e-phb} and one other skill or tool of your choice."
 					]
 				}
 			],
@@ -773,6 +784,15 @@
 					"type": "self"
 				}
 			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
 			"entries": [
 				"You ward a 30-foot radius sphere centered on you with a manually-operated trap. The trap is well disguised. Any creature that can’t see the area at the time the power is cast must make a Wisdom ({@skill Perception|sw5e-phb}) check against your tech save DC to notice the trap before entering the area. Once after this power is cast, when a creature you can see enters or moves within the warded area, you can use your {@variantrule Reaction|sw5e-phb} to trigger the trap. The effect on the creature depends on the kind of trap you employ, which you choose when you cast this power. You can maintain a maximum number of instances of this power at once equal to your {@book techcasting ability|sw5e-phb|10|Techcasting Ability} modifier.",
 				"{@b {@i Blaster.}} This power creates a {@filter blaster|items|firearm=true} turret which fires at the target when triggered. The creature must make a Dexterity {@variantrule Saving Throw|sw5e-phb|saving throw}. It takes 2d10 energy damage on a failed save, or half as much on a successful one.",
