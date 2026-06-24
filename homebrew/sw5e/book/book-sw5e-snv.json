@@ -15,7 +15,7 @@
 			}
 		],
 		"dateAdded": 1657936771,
-		"dateLastModified": 1781734821,
+		"dateLastModified": 1782332291,
 		"internalCopies": [
 			"monster",
 			"monsterFluff"
@@ -26813,6 +26813,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/000-series-protocol-droid.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/000-series-protocol-droid-2.webp"
+					}
 				}
 			]
 		},
@@ -26820,6 +26827,18 @@
 			"name": "1.4 FD P-Tower Turret",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/1-4-fd-p-tower-turret.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -26840,13 +26859,6 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/1-4-fd-p-tower-turret.png"
-					}
-				},
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/1-4-fd-p-tower-turret.webp"
 					}
 				},
@@ -26862,6 +26874,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/1-4-fd-p-tower-turret-3.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/1-4-fd-p-tower-turret-4.webp"
 					}
 				}
 			]
@@ -26905,6 +26924,20 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/3p0-series.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/3p0-series-3.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/3p0-series-4.webp"
 					}
 				}
 			]
@@ -27184,6 +27217,20 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/at-rt.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/at-rt-2.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/at-rt-3.webp"
+					}
 				}
 			]
 		},
@@ -27213,6 +27260,20 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/at-st.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/at-st-2.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/at-st-3.webp"
+					}
 				}
 			]
 		},
@@ -27241,6 +27302,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/at-te.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/at-te-2.webp"
 					}
 				}
 			]
@@ -27328,6 +27396,20 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/b-omarr-brain-walker.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/b-omarr-brain-walker-2.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/b-omarr-brain-walker-3.webp"
+					}
 				}
 			]
 		},
@@ -27355,6 +27437,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/b-omarr-monk-initiate.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/b-omarr-monk-initiate-2.webp"
 					}
 				}
 			]
@@ -27463,6 +27552,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/b1-series-squad.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/b1-series-squad-2.webp"
 					}
 				}
 			]
@@ -27712,6 +27808,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/beggar-s-canyon-womp-rat.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/beggar-s-canyon-womp-rat-2.webp"
+					}
 				}
 			]
 		},
@@ -27719,6 +27822,18 @@
 			"name": "Blastromech Series, BT-1",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/blastromech-series-bt-1.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -27739,7 +27854,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/blastromech-series-bt-1.png"
+						"url": "homebrew/sw5e/media/creatures/sources/blastromech-series-bt-1.webp"
 					}
 				}
 			]
@@ -27910,6 +28025,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/bor-gullet.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/bor-gullet-2.webp"
+					}
 				}
 			]
 		},
@@ -28021,6 +28143,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/c1-series-astromech-droid.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/c1-series-astromech-droid.png"
 					},
 					"maxHeight": 33,
@@ -28037,7 +28171,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/c1-series-astromech-droid.png"
+						"url": "homebrew/sw5e/media/creatures/sources/c1-series-astromech-droid.webp"
 					}
 				}
 			]
@@ -28046,6 +28180,18 @@
 			"name": "Cantina Brawl",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/cantina-brawl.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -28065,7 +28211,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/cantina-brawl.png"
+						"url": "homebrew/sw5e/media/creatures/sources/cantina-brawl.webp"
 					}
 				}
 			]
@@ -28074,6 +28220,18 @@
 			"name": "Carnivorous Plant",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/carnivorous-plant.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -28093,7 +28251,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/carnivorous-plant.png"
+						"url": "homebrew/sw5e/media/creatures/sources/carnivorous-plant.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/carnivorous-plant-2.webp"
 					}
 				}
 			]
@@ -28122,6 +28287,20 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/cliff-wampa.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/cliff-wampa-2.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/cliff-wampa-3.webp"
 					}
 				}
 			]
@@ -28179,6 +28358,20 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/condor-dragon.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/condor-dragon-2.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/condor-dragon-3.webp"
 					}
 				}
 			]
@@ -28305,6 +28498,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/destroyer-droid.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/destroyer-droid.png"
 					},
 					"maxHeight": 33,
@@ -28328,7 +28533,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/destroyer-droid.png"
+						"url": "homebrew/sw5e/media/creatures/sources/destroyer-droid.webp"
 					}
 				}
 			]
@@ -28378,6 +28583,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/dewback-adolescent.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/dewback-adolescent-2.webp"
 					}
 				}
 			]
@@ -28538,6 +28750,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/dragonsnake.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/dragonsnake.png"
 					},
 					"maxHeight": 33,
@@ -28567,7 +28791,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/dragonsnake.png"
+						"url": "homebrew/sw5e/media/creatures/sources/dragonsnake.webp"
 					}
 				}
 			]
@@ -28674,6 +28898,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/emperor-s-hand.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/emperor-s-hand.png"
 					},
 					"maxHeight": 33,
@@ -28724,14 +28960,21 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/emperor-s-hand.png"
+						"url": "homebrew/sw5e/media/creatures/sources/emperor-s-hand.webp"
 					}
 				},
 				{
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/emperor-s-hand.webp"
+						"url": "homebrew/sw5e/media/creatures/sources/emperor-s-hand-2.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/emperor-s-hand-3.webp"
 					}
 				}
 			]
@@ -28767,6 +29010,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/energy-spider.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/energy-spider-2.webp"
 					}
 				}
 			]
@@ -28837,6 +29087,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/exogorth-adolescent.png"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/exogorth-adolescent.webp"
 					},
 					"maxHeight": 33,
@@ -28880,7 +29142,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/exogorth-adolescent.webp"
+						"url": "homebrew/sw5e/media/creatures/sources/exogorth-adolescent.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/exogorth-adolescent-2.png"
 					}
 				}
 			]
@@ -28893,6 +29162,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/exogorth-adult.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/exogorth-adult.png"
 					},
 					"maxHeight": 33,
@@ -28937,6 +29218,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/exogorth-adult.png"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/exogorth-adult-2.png"
 					}
 				}
 			]
@@ -29125,6 +29413,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/flesh-raider.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/flesh-raider.png"
 					},
 					"maxHeight": 33,
@@ -29161,7 +29461,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/flesh-raider.png"
+						"url": "homebrew/sw5e/media/creatures/sources/flesh-raider.webp"
 					}
 				}
 			]
@@ -29212,6 +29512,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/flesh-raider-apprentice.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/flesh-raider-apprentice-2.png"
+					}
 				}
 			]
 		},
@@ -29219,6 +29526,18 @@
 			"name": "Flesh Raider Berserker",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/flesh-raider-berserker.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -29259,7 +29578,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/flesh-raider-berserker.png"
+						"url": "homebrew/sw5e/media/creatures/sources/flesh-raider-berserker.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/flesh-raider-berserker-2.webp"
 					}
 				}
 			]
@@ -29300,6 +29626,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/force-storm-eye.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/force-storm-eye.png"
 					},
 					"maxHeight": 33,
@@ -29315,7 +29653,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/force-storm-eye.png"
+						"url": "homebrew/sw5e/media/creatures/sources/force-storm-eye.webp"
 					}
 				}
 			]
@@ -29488,6 +29826,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/gh-7-medical-analysis-unit.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/gh-7-medical-analysis-unit-2.png"
+					}
 				}
 			]
 		},
@@ -29495,6 +29840,18 @@
 			"name": "Ghest",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/ghest.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -29535,7 +29892,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/ghest.png"
+						"url": "homebrew/sw5e/media/creatures/sources/ghest.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/ghest-2.png"
 					}
 				}
 			]
@@ -29544,6 +29908,18 @@
 			"name": "Giant Worrt",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/giant-worrt.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -29577,7 +29953,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/giant-worrt.png"
+						"url": "homebrew/sw5e/media/creatures/sources/giant-worrt.webp"
 					}
 				}
 			]
@@ -29590,6 +29966,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/gizka.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/gizka.png"
 					},
 					"maxHeight": 33,
@@ -29619,7 +30007,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/gizka.png"
+						"url": "homebrew/sw5e/media/creatures/sources/gizka.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/gizka-2.png"
 					}
 				}
 			]
@@ -29632,6 +30027,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/gizka-swarm.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/gizka-swarm.png"
 					},
 					"maxHeight": 33,
@@ -29661,7 +30068,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/gizka-swarm.png"
+						"url": "homebrew/sw5e/media/creatures/sources/gizka-swarm.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/gizka-swarm-2.png"
 					}
 				}
 			]
@@ -30244,6 +30658,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/hk-series-hk-47.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/hk-series-hk-47.png"
 					},
 					"maxHeight": 33,
@@ -30260,7 +30686,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/hk-series-hk-47.png"
+						"url": "homebrew/sw5e/media/creatures/sources/hk-series-hk-47.webp"
 					}
 				}
 			]
@@ -30290,6 +30716,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/horned-kath-hound.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/horned-kath-hound-2.webp"
+					}
 				}
 			]
 		},
@@ -30318,6 +30751,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/hrumph.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/hrumph-2.webp"
 					}
 				}
 			]
@@ -30379,6 +30819,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/hutt-crime-lord.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/hutt-crime-lord.jpg"
 					},
 					"maxHeight": 33,
@@ -30408,14 +30860,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/hutt-crime-lord.jpg"
+						"url": "homebrew/sw5e/media/creatures/sources/hutt-crime-lord.webp"
 					}
 				},
 				{
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/hutt-crime-lord.png"
+						"url": "homebrew/sw5e/media/creatures/sources/hutt-crime-lord-2.webp"
 					}
 				}
 			]
@@ -30428,6 +30880,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/hutt-wrestler.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/hutt-wrestler.png"
 					},
 					"maxHeight": 33,
@@ -30457,14 +30921,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/hutt-wrestler.png"
+						"url": "homebrew/sw5e/media/creatures/sources/hutt-wrestler.webp"
 					}
 				},
 				{
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/hutt-wrestler.webp"
+						"url": "homebrew/sw5e/media/creatures/sources/hutt-wrestler-2.webp"
 					}
 				}
 			]
@@ -30535,6 +30999,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/ig-series-model-86.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/ig-series-model-86.png"
 					},
 					"maxHeight": 33,
@@ -30551,7 +31027,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/ig-series-model-86.png"
+						"url": "homebrew/sw5e/media/creatures/sources/ig-series-model-86.webp"
 					}
 				}
 			]
@@ -30582,6 +31058,20 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/ig-series-model-88.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/ig-series-model-88-2.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/ig-series-model-88-3.webp"
+					}
 				}
 			]
 		},
@@ -30589,6 +31079,18 @@
 			"name": "IG-100 Series",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/ig-100-series.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -30616,7 +31118,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/ig-100-series.png"
+						"url": "homebrew/sw5e/media/creatures/sources/ig-100-series.webp"
 					}
 				}
 			]
@@ -30658,6 +31160,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/imperial-guard-champion.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/imperial-guard-champion.png"
 					},
 					"maxHeight": 33,
@@ -30674,7 +31188,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/imperial-guard-champion.png"
+						"url": "homebrew/sw5e/media/creatures/sources/imperial-guard-champion.webp"
 					}
 				}
 			]
@@ -30752,6 +31266,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/imperial-senate-guard.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/imperial-senate-guard.png"
 					},
 					"maxHeight": 33,
@@ -30768,7 +31294,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/imperial-senate-guard.png"
+						"url": "homebrew/sw5e/media/creatures/sources/imperial-senate-guard.webp"
 					}
 				}
 			]
@@ -30777,6 +31303,18 @@
 			"name": "Imperial Shadow Guard",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/imperial-shadow-guard.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -30797,13 +31335,6 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/imperial-shadow-guard.png"
-					}
-				},
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/imperial-shadow-guard.webp"
 					}
 				},
@@ -30811,7 +31342,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/imperial-shadow-guard-2.png"
+						"url": "homebrew/sw5e/media/creatures/sources/imperial-shadow-guard-2.webp"
 					}
 				}
 			]
@@ -30820,6 +31351,18 @@
 			"name": "Inquisitor, Grand",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/inquisitor-grand.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -30840,7 +31383,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/inquisitor-grand.png"
+						"url": "homebrew/sw5e/media/creatures/sources/inquisitor-grand.webp"
 					}
 				}
 			]
@@ -30939,6 +31482,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/isb-officer.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/isb-officer.png"
 					},
 					"maxHeight": 33,
@@ -30954,7 +31509,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/isb-officer.png"
+						"url": "homebrew/sw5e/media/creatures/sources/isb-officer.webp"
 					}
 				}
 			]
@@ -31024,6 +31579,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/jawa-scrapper.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/jawa-scrapper.png"
 					},
 					"maxHeight": 33,
@@ -31039,7 +31606,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/jawa-scrapper.png"
+						"url": "homebrew/sw5e/media/creatures/sources/jawa-scrapper.webp"
 					}
 				}
 			]
@@ -31052,6 +31619,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/jawa-shaman.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/jawa-shaman.png"
 					},
 					"maxHeight": 33,
@@ -31067,7 +31646,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/jawa-shaman.png"
+						"url": "homebrew/sw5e/media/creatures/sources/jawa-shaman.webp"
 					}
 				}
 			]
@@ -31080,6 +31659,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/jawa-tinkerer.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/jawa-tinkerer.png"
 					},
 					"maxHeight": 33,
@@ -31095,7 +31686,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/jawa-tinkerer.png"
+						"url": "homebrew/sw5e/media/creatures/sources/jawa-tinkerer.webp"
 					}
 				}
 			]
@@ -31166,6 +31757,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/jundland-wastes-womp-rat.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/jundland-wastes-womp-rat.png"
 					},
 					"maxHeight": 33,
@@ -31181,7 +31784,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/jundland-wastes-womp-rat.png"
+						"url": "homebrew/sw5e/media/creatures/sources/jundland-wastes-womp-rat.webp"
 					}
 				}
 			]
@@ -31222,6 +31825,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/junk-droid.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/junk-droid.png"
 					},
 					"maxHeight": 33,
@@ -31237,7 +31852,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/junk-droid.png"
+						"url": "homebrew/sw5e/media/creatures/sources/junk-droid.webp"
 					}
 				}
 			]
@@ -31246,6 +31861,18 @@
 			"name": "K'lor'slug",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/k-lor-slug.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -31286,7 +31913,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/k-lor-slug.png"
+						"url": "homebrew/sw5e/media/creatures/sources/k-lor-slug.webp"
 					}
 				}
 			]
@@ -31393,6 +32020,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/kath-hound.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/kath-hound-2.webp"
 					}
 				}
 			]
@@ -31750,6 +32384,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/kx-series-security-droid.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/kx-series-security-droid.png"
 					},
 					"maxHeight": 33,
@@ -31762,13 +32408,6 @@
 				"Security droids are a type of droid used as bodyguards, or to protect objects of value. During the Clone Wars, the term commonly referred to the security battle droid used by the Trade Federation and Confederacy of Independent Systems. The KX-series is one such example of a security droid model used by the Galactic Empire."
 			],
 			"images": [
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/kx-series-security-droid.png"
-					}
-				},
 				{
 					"type": "image",
 					"href": {
@@ -31836,6 +32475,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/lr1k-sonic-cannon.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/lr1k-sonic-cannon.png"
 					},
 					"maxHeight": 33,
@@ -31852,13 +32503,6 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/lr1k-sonic-cannon.png"
-					}
-				},
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/lr1k-sonic-cannon.webp"
 					}
 				}
@@ -31868,6 +32512,18 @@
 			"name": "Lylek",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/lylek.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -31887,7 +32543,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/lylek.png"
+						"url": "homebrew/sw5e/media/creatures/sources/lylek.webp"
 					}
 				}
 			]
@@ -31896,6 +32552,18 @@
 			"name": "Maalraas",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/maalraas.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -31943,7 +32611,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/maalraas.png"
+						"url": "homebrew/sw5e/media/creatures/sources/maalraas.webp"
 					}
 				}
 			]
@@ -31952,6 +32620,18 @@
 			"name": "Manifestation of Abeloth",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/manifestation-of-abeloth.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -32014,7 +32694,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/manifestation-of-abeloth.png"
+						"url": "homebrew/sw5e/media/creatures/sources/manifestation-of-abeloth.webp"
 					}
 				}
 			]
@@ -32023,6 +32703,18 @@
 			"name": "Marksman-H Remote",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/marksman-h-remote.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -32043,7 +32735,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/marksman-h-remote.png"
+						"url": "homebrew/sw5e/media/creatures/sources/marksman-h-remote.webp"
 					}
 				}
 			]
@@ -32204,6 +32896,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/mistryl-master.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/mistryl-master.png"
 					},
 					"maxHeight": 33,
@@ -32254,7 +32958,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/mistryl-master.png"
+						"url": "homebrew/sw5e/media/creatures/sources/mistryl-master.webp"
 					}
 				}
 			]
@@ -32267,6 +32971,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/mistryl-prime.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/mistryl-prime.png"
 					},
 					"maxHeight": 33,
@@ -32317,7 +33033,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/mistryl-prime.png"
+						"url": "homebrew/sw5e/media/creatures/sources/mistryl-prime.webp"
 					}
 				}
 			]
@@ -32464,6 +33180,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/moof.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/moof.png"
 					},
 					"maxHeight": 33,
@@ -32480,7 +33208,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/moof.png"
+						"url": "homebrew/sw5e/media/creatures/sources/moof.webp"
 					}
 				}
 			]
@@ -32648,6 +33376,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/navy-pilot.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/navy-pilot.png"
 					},
 					"maxHeight": 33,
@@ -32684,7 +33424,21 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/navy-pilot.png"
+						"url": "homebrew/sw5e/media/creatures/sources/navy-pilot.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/navy-pilot-2.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/navy-pilot-3.webp"
 					}
 				}
 			]
@@ -32697,6 +33451,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/navy-trooper.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/navy-trooper.png"
 					},
 					"maxHeight": 33,
@@ -32733,7 +33499,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/navy-trooper.png"
+						"url": "homebrew/sw5e/media/creatures/sources/navy-trooper.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/navy-trooper-2.webp"
 					}
 				}
 			]
@@ -32775,6 +33548,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/nr-n99-persuader-class-enforcer.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/nr-n99-persuader-class-enforcer.png"
 					},
 					"maxHeight": 33,
@@ -32791,7 +33576,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/nr-n99-persuader-class-enforcer.png"
+						"url": "homebrew/sw5e/media/creatures/sources/nr-n99-persuader-class-enforcer.webp"
 					}
 				}
 			]
@@ -33057,6 +33842,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/pelko-bug-swarm.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/pelko-bug-swarm.jpg"
 					},
 					"maxHeight": 33,
@@ -33072,7 +33869,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/pelko-bug-swarm.jpg"
+						"url": "homebrew/sw5e/media/creatures/sources/pelko-bug-swarm.webp"
 					}
 				}
 			]
@@ -33170,6 +33967,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/probe-killer-swarm.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/probe-killer-swarm.jpg"
 					},
 					"maxHeight": 33,
@@ -33186,13 +33995,6 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/probe-killer-swarm.jpg"
-					}
-				},
-				{
-					"type": "image",
-					"href": {
-						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/probe-killer-swarm.webp"
 					}
 				}
@@ -33202,6 +34004,18 @@
 			"name": "Purge Trooper",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/purge-trooper.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -33222,7 +34036,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/purge-trooper.png"
+						"url": "homebrew/sw5e/media/creatures/sources/purge-trooper.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/purge-trooper-2.webp"
 					}
 				}
 			]
@@ -33313,6 +34134,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/rakghoul-hulking.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/rakghoul-hulking.png"
 					},
 					"maxHeight": 33,
@@ -33349,7 +34182,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/rakghoul-hulking.png"
+						"url": "homebrew/sw5e/media/creatures/sources/rakghoul-hulking.webp"
 					}
 				}
 			]
@@ -33358,6 +34191,18 @@
 			"name": "Rancor, Adolescent",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/rancor-adolescent.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -33377,7 +34222,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/rancor-adolescent.png"
+						"url": "homebrew/sw5e/media/creatures/sources/rancor-adolescent.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/rancor-adolescent-2.webp"
 					}
 				}
 			]
@@ -33407,6 +34259,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/rancor-adult.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/rancor-adult-2.webp"
+					}
 				}
 			]
 		},
@@ -33435,6 +34294,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/rancor-ancient.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/rancor-ancient-2.webp"
+					}
 				}
 			]
 		},
@@ -33462,6 +34328,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/rancor-juvenile.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/rancor-juvenile-2.webp"
 					}
 				}
 			]
@@ -33526,6 +34399,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/rathtar.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/rathtar-2.webp"
+					}
 				}
 			]
 		},
@@ -33533,6 +34413,18 @@
 			"name": "Rathtar, Dwarf",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/rathtar-dwarf.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -33587,7 +34479,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/rathtar-dwarf.png"
+						"url": "homebrew/sw5e/media/creatures/sources/rathtar-dwarf.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/rathtar-dwarf-2.webp"
 					}
 				}
 			]
@@ -33656,6 +34555,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/riot.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/riot.png"
 					},
 					"maxHeight": 33,
@@ -33693,7 +34604,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/riot.png"
+						"url": "homebrew/sw5e/media/creatures/sources/riot.webp"
 					}
 				}
 			]
@@ -33763,6 +34674,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/sando-aqua-monster.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/sando-aqua-monster.png"
 					},
 					"maxHeight": 33,
@@ -33792,7 +34715,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/sando-aqua-monster.png"
+						"url": "homebrew/sw5e/media/creatures/sources/sando-aqua-monster.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/sando-aqua-monster-2.webp"
 					}
 				}
 			]
@@ -33801,6 +34731,18 @@
 			"name": "Sarlacc, Adult",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/sarlacc-adult.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -33848,7 +34790,28 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/sarlacc-adult.png"
+						"url": "homebrew/sw5e/media/creatures/sources/sarlacc-adult.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/sarlacc-adult-2.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/sarlacc-adult-3.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/sarlacc-adult-4.webp"
 					}
 				}
 			]
@@ -33976,6 +34939,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/shrub.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/shrub.png"
 					},
 					"maxHeight": 33,
@@ -33991,7 +34966,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/shrub.png"
+						"url": "homebrew/sw5e/media/creatures/sources/shrub.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/shrub-2.webp"
 					}
 				}
 			]
@@ -34147,6 +35129,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/snow-wampa.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/snow-wampa.png"
 					},
 					"maxHeight": 33,
@@ -34162,7 +35156,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/snow-wampa.png"
+						"url": "homebrew/sw5e/media/creatures/sources/snow-wampa.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/snow-wampa-2.webp"
 					}
 				}
 			]
@@ -34192,6 +35193,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/spotlight-sloth.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/spotlight-sloth-2.webp"
 					}
 				}
 			]
@@ -34306,6 +35314,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/steep.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/steep-2.webp"
+					}
 				}
 			]
 		},
@@ -34335,6 +35350,20 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/stintaril.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/stintaril-2.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/stintaril-3.webp"
+					}
 				}
 			]
 		},
@@ -34342,6 +35371,18 @@
 			"name": "Stintaril Swarm",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/stintaril-swarm.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -34362,7 +35403,21 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/stintaril-swarm.png"
+						"url": "homebrew/sw5e/media/creatures/sources/stintaril-swarm.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/stintaril-swarm-2.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/stintaril-swarm-3.webp"
 					}
 				}
 			]
@@ -34432,6 +35487,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/swamp-wampa.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/swamp-wampa.png"
 					},
 					"maxHeight": 33,
@@ -34447,7 +35514,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/swamp-wampa.png"
+						"url": "homebrew/sw5e/media/creatures/sources/swamp-wampa.webp"
 					}
 				}
 			]
@@ -34456,6 +35523,18 @@
 			"name": "T-Series Tactical Droid",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/t-series-tactical-droid.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -34476,7 +35555,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/t-series-tactical-droid.png"
+						"url": "homebrew/sw5e/media/creatures/sources/t-series-tactical-droid.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/t-series-tactical-droid-2.webp"
 					}
 				}
 			]
@@ -34547,6 +35633,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/terentatek.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/terentatek.png"
 					},
 					"maxHeight": 33,
@@ -34569,7 +35667,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/terentatek.png"
+						"url": "homebrew/sw5e/media/creatures/sources/terentatek.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/terentatek-2.webp"
 					}
 				}
 			]
@@ -34582,6 +35687,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-elite-warrior.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-elite-warrior.png"
 					},
 					"maxHeight": 33,
@@ -34604,7 +35721,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-elite-warrior.png"
+						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-elite-warrior.webp"
 					}
 				}
 			]
@@ -34617,6 +35734,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-hunter.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-hunter.png"
 					},
 					"maxHeight": 33,
@@ -34639,7 +35768,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-hunter.png"
+						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-hunter.webp"
 					}
 				}
 			]
@@ -34676,6 +35805,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-huntmaster.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-huntmaster-2.webp"
+					}
 				}
 			]
 		},
@@ -34683,6 +35819,18 @@
 			"name": "Trandoshan T'doshok",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-t-doshok.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -34709,7 +35857,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-t-doshok.png"
+						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-t-doshok.webp"
 					}
 				}
 			]
@@ -34722,6 +35870,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-warrior.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-warrior.png"
 					},
 					"maxHeight": 33,
@@ -34744,7 +35904,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-warrior.png"
+						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-warrior.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/trandoshan-warrior-2.webp"
 					}
 				}
 			]
@@ -34985,6 +36152,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/trooper-headhunter.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/trooper-headhunter.png"
 					},
 					"maxHeight": 33,
@@ -35022,7 +36201,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/trooper-headhunter.png"
+						"url": "homebrew/sw5e/media/creatures/sources/trooper-headhunter.webp"
 					}
 				}
 			]
@@ -35073,6 +36252,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/trooper-heavy.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/trooper-heavy-2.webp"
 					}
 				}
 			]
@@ -35135,6 +36321,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/trooper-mounted.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/trooper-mounted.png"
 					},
 					"maxHeight": 33,
@@ -35172,7 +36370,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/trooper-mounted.png"
+						"url": "homebrew/sw5e/media/creatures/sources/trooper-mounted.webp"
 					}
 				}
 			]
@@ -35285,6 +36483,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/trooper-sniper.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/trooper-sniper.png"
 					},
 					"maxHeight": 33,
@@ -35322,7 +36532,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/trooper-sniper.png"
+						"url": "homebrew/sw5e/media/creatures/sources/trooper-sniper.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/trooper-sniper-2.webp"
 					}
 				}
 			]
@@ -35374,6 +36591,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/trooper-squad.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/trooper-squad-2.png"
+					}
 				}
 			]
 		},
@@ -35381,6 +36605,18 @@
 			"name": "Tuk'ata",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/tuk-ata.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -35407,7 +36643,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/tuk-ata.png"
+						"url": "homebrew/sw5e/media/creatures/sources/tuk-ata.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/tuk-ata-2.webp"
 					}
 				}
 			]
@@ -35416,6 +36659,18 @@
 			"name": "Tusk Cat",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/tusk-cat.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -35436,7 +36691,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/tusk-cat.png"
+						"url": "homebrew/sw5e/media/creatures/sources/tusk-cat.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/tusk-cat-2.webp"
 					}
 				}
 			]
@@ -35449,6 +36711,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/tusken-brute.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/tusken-brute.png"
 					},
 					"maxHeight": 33,
@@ -35464,7 +36738,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/tusken-brute.png"
+						"url": "homebrew/sw5e/media/creatures/sources/tusken-brute.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/tusken-brute-2.webp"
 					}
 				}
 			]
@@ -35477,6 +36758,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/tusken-chieftain.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/tusken-chieftain.png"
 					},
 					"maxHeight": 33,
@@ -35492,7 +36785,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/tusken-chieftain.png"
+						"url": "homebrew/sw5e/media/creatures/sources/tusken-chieftain.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/tusken-chieftain-2.webp"
 					}
 				}
 			]
@@ -35505,6 +36805,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/tusken-raider.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/tusken-raider.png"
 					},
 					"maxHeight": 33,
@@ -35520,7 +36832,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/tusken-raider.png"
+						"url": "homebrew/sw5e/media/creatures/sources/tusken-raider.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/tusken-raider-2.webp"
 					}
 				}
 			]
@@ -35551,6 +36870,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/twirrl.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/twirrl-2.webp"
+					}
 				}
 			]
 		},
@@ -35558,6 +36884,18 @@
 			"name": "TX-225 Occupier Tank",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/tx-225-occupier-tank.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -35578,7 +36916,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/tx-225-occupier-tank.png"
+						"url": "homebrew/sw5e/media/creatures/sources/tx-225-occupier-tank.webp"
 					}
 				}
 			]
@@ -35587,6 +36925,18 @@
 			"name": "Uprising",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/uprising.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -35628,7 +36978,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/uprising.png"
+						"url": "homebrew/sw5e/media/creatures/sources/uprising.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/uprising-2.webp"
 					}
 				}
 			]
@@ -35637,6 +36994,18 @@
 			"name": "Varactyl, Adolescent",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/varactyl-adolescent.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -35656,7 +37025,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/varactyl-adolescent.png"
+						"url": "homebrew/sw5e/media/creatures/sources/varactyl-adolescent.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/varactyl-adolescent-2.webp"
 					}
 				}
 			]
@@ -35697,6 +37073,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/veermok.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/veermok.png"
 					},
 					"maxHeight": 33,
@@ -35713,7 +37101,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/veermok.png"
+						"url": "homebrew/sw5e/media/creatures/sources/veermok.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/veermok-2.webp"
 					}
 				}
 			]
@@ -35825,6 +37220,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/vines.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/vines.png"
 					},
 					"maxHeight": 33,
@@ -35840,7 +37247,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/vines.png"
+						"url": "homebrew/sw5e/media/creatures/sources/vines.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/vines-2.webp"
 					}
 				}
 			]
@@ -35849,6 +37263,18 @@
 			"name": "Viper Probe Droid",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/viper-probe-droid.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -35869,7 +37295,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/viper-probe-droid.png"
+						"url": "homebrew/sw5e/media/creatures/sources/viper-probe-droid.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/viper-probe-droid-2.webp"
 					}
 				}
 			]
@@ -35966,6 +37399,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/vulptex.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/vulptex.png"
 					},
 					"maxHeight": 33,
@@ -35982,7 +37427,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/vulptex.png"
+						"url": "homebrew/sw5e/media/creatures/sources/vulptex.webp"
 					}
 				}
 			]
@@ -36052,6 +37497,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/weaponized-gonk-droid.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/weaponized-gonk-droid.png"
 					},
 					"maxHeight": 33,
@@ -36075,7 +37532,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/weaponized-gonk-droid.png"
+						"url": "homebrew/sw5e/media/creatures/sources/weaponized-gonk-droid.webp"
 					}
 				}
 			]
@@ -36084,6 +37541,18 @@
 			"name": "Whisper Bird",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/whisper-bird.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -36104,7 +37573,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/whisper-bird.png"
+						"url": "homebrew/sw5e/media/creatures/sources/whisper-bird.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/whisper-bird-2.png"
 					}
 				}
 			]
@@ -36181,6 +37657,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/wookiee-engineer.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/wookiee-engineer.png"
 					},
 					"maxHeight": 33,
@@ -36203,7 +37691,7 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/wookiee-engineer.png"
+						"url": "homebrew/sw5e/media/creatures/sources/wookiee-engineer.webp"
 					}
 				}
 			]
@@ -36216,6 +37704,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/wookiee-hunter.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/wookiee-hunter.png"
 					},
 					"maxHeight": 33,
@@ -36238,7 +37738,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/wookiee-hunter.png"
+						"url": "homebrew/sw5e/media/creatures/sources/wookiee-hunter.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/wookiee-hunter-2.webp"
 					}
 				}
 			]
@@ -36384,6 +37891,18 @@
 					"type": "image",
 					"href": {
 						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/ysalamir.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
+				{
+					"type": "hr"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/ysalamir.png"
 					},
 					"maxHeight": 33,
@@ -36399,7 +37918,14 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/ysalamir.png"
+						"url": "homebrew/sw5e/media/creatures/sources/ysalamir.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/ysalamir-2.webp"
 					}
 				}
 			]
@@ -36487,6 +38013,13 @@
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/zalaaca.webp"
 					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/zalaaca-3.webp"
+					}
 				}
 			]
 		},
@@ -36494,6 +38027,15 @@
 			"name": "3PO Series Protocol Droid",
 			"source": "sw5e-snv",
 			"entries": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/3po-series-protocol-droid.webp"
+					},
+					"maxHeight": 33,
+					"maxHeightUnits": "vh"
+				},
 				{
 					"type": "image",
 					"href": {
@@ -36509,7 +38051,21 @@
 					"type": "image",
 					"href": {
 						"type": "external",
-						"url": "homebrew/sw5e/media/creatures/sources/3po-series-protocol-droid.png"
+						"url": "homebrew/sw5e/media/creatures/sources/3po-series-protocol-droid.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/3po-series-protocol-droid-2.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/3po-series-protocol-droid-3.webp"
 					}
 				}
 			]
@@ -36534,6 +38090,13 @@
 					"href": {
 						"type": "external",
 						"url": "homebrew/sw5e/media/creatures/sources/autonomous-servant.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "homebrew/sw5e/media/creatures/sources/autonomous-servant-2.webp"
 					}
 				}
 			]
